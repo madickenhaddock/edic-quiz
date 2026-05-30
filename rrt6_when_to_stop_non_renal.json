@@ -1,0 +1,400 @@
+{
+  "module": "RRT Part 6: When to stop & non-renal indications",
+  "sections": {
+    "1. Introduction": "Management of established AKI is predominantly supportive. In severe cases, RRT becomes necessary. Optimal timing of RRT initiation remains controversial.\n\nLarge RCTs (STARRT-AKI 2020, AKIKI-2 2021) demonstrated that different initiation strategies may be safe in selected patients — timing should be individualised rather than protocolised.\n\nKDIGO Controversies Conference: consider RRT when kidney function is insufficient to meet metabolic and fluid demands, particularly when complications are anticipated. Identifying reliable tools to assess dynamic balance between residual kidney function and metabolic demand remains challenging.\n\nThis unit focuses on timing of RRT discontinuation and non-renal indications for RRT.",
+    "2. When to stop RRT": "Substantial variation in clinical practice regarding RRT discontinuation timing. Many patients discontinue due to withdrawal of life-sustaining therapies or death.\n\nIn patients with clinical improvement: timely discontinuation should be considered — unnecessary continuation prolongs ICU/hospital stay, increases costs, exposes to complications. Premature cessation re-exposes to fluid overload, electrolyte disturbances, metabolic complications.\n\nKDIGO 2012: discontinue RRT when no longer required (intrinsic kidney function recovered sufficiently or RRT no longer consistent with goals of care) — not graded recommendation. KDIGO also suggests NOT using diuretics to enhance kidney function recovery or reduce RRT duration/frequency (Grade 2B). Specific discontinuation criteria were not defined.\n\nUrine output is the most frequently studied predictor of successful RRT liberation, but with moderate sensitivity and specificity and no universally accepted threshold.\n\nMeta-analytic evidence (Li 2023): pre-existing CKD, CRRT duration, and urine output at cessation are the most consistent predictors of successful weaning.\n\nEmerging biomarkers (cystatin C, NGAL, proenkephalin) may offer additional prognostic information but variability in measurement timing and cut-offs limits routine clinical use.\n\nDiscontinuation remains guided by clinical judgment: trends in UO, solute clearance, hemodynamic stability, overall organ recovery.",
+    "2.1 The evidence": "Existing studies are retrospective, small, use different RRT modalities and definitions of successful weaning.\n\nKey findings:\n• Most studies identify increasing urine output or a threshold of 300–400 ml/day as predictors of successful weaning.\n• Diuretics do not hasten recovery but increase the UO threshold associated with success (from 400 ml to 2300 ml/d).\n• 2h creatinine clearance ≥23 ml/min within 12h of CRRT cessation predicts successful weaning (Fröhlich 2012).\n• 24h creatinine excretion ≥5.2 mmol/L predicts success (Viallet 2016).\n• Daily urea excretion >1.35 mmol/kg/24h best indicator for IHD weaning (Aniort 2016).\n\nBiomarkers: cystatin C, NGAL, plasma BNP most studied. PenKid (proenkephalin A 119–159): low levels before CRRT not associated with early liberation, but day-3 levels associated with successful liberation. High penKid = unsuccessful liberation. High daily UO strongly associated with success.\n\nMeta-analysis (Katulka 2020): UO pooled sensitivity 66.2%, specificity 73.6% for predicting successful discontinuation. Optimal threshold could not be determined due to heterogeneity.\n\nLi 2023 meta-analysis: CKD, CRRT duration, UO at cessation = predictive. Male gender, DM, sepsis = NOT predictive.\n\nOverall: evidence limited by observational design, inconsistent definitions, heterogeneous cut-offs, lack of prospective validation.",
+    "2.2 Some Other Considerations": "Most data do not account for variations in therapy modes.\n\nIntermittent therapies: assessment of native kidney function based on UO, urinary creatinine excretion, and fluctuations in serum creatinine/urea during interdialytic periods. Post-treatment rebound in solute levels may occur, influenced by volume status and catabolic rate.\n\nContinuous therapies: steady solute clearances of 25–35 ml/min stabilise serum markers after 48 hours, enabling more reliable creatinine clearance measurements of native kidneys during CRRT.",
+    "2.3 Clinical practice": "Three factors to consider before stopping (Klouche 2017):\n1. Has the original cause of AKI resolved?\n2. Is there evidence of some degree of renal recovery?\n3. Has fluid overload been resolved?\n\nIf not satisfied → successful weaning unlikely.\n\nMost important initial test: measure urine volume. Persistent oliguria reflects inability to excrete solute load → postpone weaning.\n\nWhen UO >400 ml/day (~30 ml/hr): perform urine collection to aid decision-making (creatinine clearance assessment).",
+    "3. Non renal indications": "CRRT effectively manages fluid overload and target fluid balance regardless of AKI criteria.\n\nRRT also removes endogenous/exogenous waste products, electrolytes, and biologically active substances.\n\nAdvancement of ECLS technology has broadened RRT indications. Spectrum of non-renal ECLS: VA/VV ECMO, ECCO2R, VADs, extracorporeal liver assist devices.\n\nRRT may be considered in:\n• Severe fluid overload refractory to diuretics (respiratory failure, ARDS, cardiac dysfunction)\n• Life-threatening electrolyte/acid-base disturbances refractory to medical therapy (severe hyperkalaemia, metabolic acidosis) even without overt AKI\n\nCombining RRT with other ECLS for multi-organ support is increasingly practised but high-quality evidence still lacking.",
+    "3.1.1 Intoxication": "RRT may have a role in intoxication with dialysable/filterable drugs or toxins.\n\nCharacteristics of effectively dialysable drugs:\n• Water solubility\n• Low volume of distribution\n• Low protein binding\n• Low molecular weight (<500 Da)\n\nExamples: lithium, methanol, ethylene glycol, salicylate.\n\nModalities and their characteristics:\n• Haemodialysis: MW up to 10,000–15,000 Da, Vd ≤1.5–2 L/kg, protein binding ≤80%\n• HCO filter in HD: MW up to 50,000 Da\n• CRRT: MW up to 15,000–25,000 Da\n• Haemoadsorption: unclear MW limit but high, Vd ≤1 L/kg, any protein binding\n• Plasma exchange: no MW limit, Vd ≤1 L/kg, any protein binding",
+    "3.1.2 Respiratory failure": "RRT frequently initiated in patients on VA and VV ECMO. CRRT offers more accurate fluid management and potentially shorter ECMO duration.\n\nIntegrated CRRT-ECMO system: may accelerate CRRT initiation, avoid local bleeding, and prolong filter life compared to parallel system.\n\nOutcome depends predominantly on underlying acute illness. In survivors, >95% recover sufficient renal function to wean off RRT; long-term renal outcome unknown.\n\nECCO2R + CRRT: may decrease CO2 production (reduced respiratory work, potential hypothermia). Limited evidence — only 2 RCTs, both terminated early for futility. One small study showed 21% PaCO2 reduction but no significant difference by membrane oxygenator position.\n\nConcern: need for systemic anticoagulation and bleeding risk limits wider ECCO2R application.",
+    "3.1.3 Cardiac failure": "In acute decompensated heart failure with diuretic-resistant congestion: CRRT and slow continuous ultrafiltration (SCUF) have been used for controlled Na and water removal.\n\nCARRESS-HF trial: ultrafiltration was associated with GREATER increase in serum creatinine and HIGHER rate of adverse events compared with pharmacologic treatment.\n\nESC 2021 guidelines: do NOT recommend routine ultrafiltration in acute heart failure. May be considered in carefully selected patients with persistent congestion despite optimal medical therapy.\n\nExtracorporeal fluid removal should be reserved for refractory volume overload with worsening renal dysfunction and inadequate diuretic response. CRRT may offer gradual fluid removal + solute clearance + improved hemodynamic tolerance.",
+    "3.1.4 Tumor lysis syndrome": "Severe hyperkalaemia from rapid potassium release is the most dangerous complication of TLS.\n\nThresholds for starting RRT are generally lower in TLS, particularly if UO is low. Fluid overload and AKI are common, often unrecognised complications.\n\nGoal of RRT in TLS: augment clearance of potassium, phosphate, and uric acid; correct significant metabolic acidosis.\n\nCRRT is often preferred in the acute setting due to potential for ongoing release of intracellular substances.",
+    "3.1.5 Inborn errors of metabolism": "Continuous removal of endogenous toxins may be beneficial in acute metabolic crises:\n• Urea cycle disorders (hyperammonaemia)\n• Diseases with severe lactic acid accumulation\n\nThe exact role is disease-specific and data are limited.",
+    "3.1.6 Adjunctive therapy in sepsis": "RRT removes cytokines and inflammatory mediators but there is still insufficient evidence to recommend routine use of CRRT for treatment of sepsis.",
+    "3.1.7 Other indications": "Hyperthermia: previously considered a non-renal indication, but following development of new intravascular and external cooling devices, RRT is no longer initiated for this reason alone (unless patients also need fluid removal and solute clearance).\n\nHypo-/hypernatraemia: RRT should only be necessary if patients also suffer from renal failure and need solute clearance and fluid management."
+  },
+  "questions": [
+    {
+      "id": "rrt6_a1",
+      "type": "A",
+      "set": 1,
+      "question": "According to KDIGO 2012 guidelines, what is the recommendation regarding diuretics for enhancing kidney function recovery or reducing the duration/frequency of RRT?",
+      "options": [
+        "A: Diuretics are strongly recommended (Grade 1A)",
+        "B: Diuretics are suggested (Grade 2B) to enhance kidney recovery",
+        "C: Diuretics should NOT be used for this purpose (Grade 2B)",
+        "D: Loop diuretics are recommended but thiazides are not (Grade 1C)",
+        "E: Diuretic use is left entirely to clinical judgment (not graded)"
+      ],
+      "correct": 2,
+      "explanation": "KDIGO suggests NOT using diuretics to enhance kidney function recovery or to reduce the duration or frequency of RRT (Grade 2B). Diuretics do not hasten recovery but increase the urine output threshold associated with successful weaning.",
+      "section": "2. When to stop RRT"
+    },
+    {
+      "id": "rrt6_a2",
+      "type": "A",
+      "set": 1,
+      "question": "In studies of predictors for successful RRT discontinuation, which variable has been the most frequently studied?",
+      "options": [
+        "A: Serum creatinine",
+        "B: Blood urea nitrogen (BUN)",
+        "C: Urine output",
+        "D: Cystatin C",
+        "E: NGAL"
+      ],
+      "correct": 2,
+      "explanation": "Urine output is the most frequently studied variable for predicting successful RRT liberation. Meta-analysis showed pooled sensitivity of 66.2% and specificity of 73.6%, though heterogeneity in thresholds prevented determination of an optimal cut-off.",
+      "section": "2.1 The evidence"
+    },
+    {
+      "id": "rrt6_a3",
+      "type": "A",
+      "set": 1,
+      "question": "Most studies identify a urine output threshold associated with successful weaning from RRT. What is this commonly reported threshold range?",
+      "options": [
+        "A: 50–100 ml/day",
+        "B: 100–200 ml/day",
+        "C: 300–400 ml/day",
+        "D: 800–1000 ml/day",
+        "E: > 2000 ml/day"
+      ],
+      "correct": 2,
+      "explanation": "Most studies identify an increasing urine output or reaching a specific threshold of 300–400 ml/day as predictors of successful weaning. When diuretics are used, the threshold increases (up to 2300 ml/d), but diuretics do not hasten actual kidney recovery.",
+      "section": "2.1 The evidence"
+    },
+    {
+      "id": "rrt6_a4",
+      "type": "A",
+      "set": 1,
+      "question": "A 2-hour creatinine clearance measured within 12 hours of CRRT cessation can predict successful weaning. Above which threshold is weaning likely to succeed?",
+      "options": [
+        "A: ≥ 10 ml/min",
+        "B: ≥ 15 ml/min",
+        "C: ≥ 23 ml/min",
+        "D: ≥ 35 ml/min",
+        "E: ≥ 50 ml/min"
+      ],
+      "correct": 2,
+      "explanation": "Fröhlich et al. (2012) showed that a 2-hour creatinine clearance ≥23 ml/min within 12 hours of CRRT cessation is predictive of successful RRT weaning.",
+      "section": "2.1 The evidence"
+    },
+    {
+      "id": "rrt6_a5",
+      "type": "A",
+      "set": 1,
+      "question": "What is the effect of diuretics on kidney function recovery and the urine output threshold for successful RRT weaning?",
+      "options": [
+        "A: Diuretics accelerate kidney recovery and lower the UO threshold",
+        "B: Diuretics do not hasten recovery but increase the UO threshold associated with successful weaning",
+        "C: Diuretics accelerate recovery but do not affect the UO threshold",
+        "D: Diuretics have no effect on either recovery or UO threshold",
+        "E: Diuretics reduce the UO threshold from 400 ml to 200 ml/day"
+      ],
+      "correct": 1,
+      "explanation": "Diuretics do NOT hasten kidney recovery but increase the urine output associated with successful weaning (from ~400 ml to ~2300 ml/d). This means diuretic-augmented UO must be interpreted cautiously — a higher threshold is needed to predict success.",
+      "section": "2.1 The evidence"
+    },
+    {
+      "id": "rrt6_a6",
+      "type": "A",
+      "set": 1,
+      "question": "Before considering RRT weaning, three clinical factors should be assessed. Which of the following is NOT one of these factors?",
+      "options": [
+        "A: Has the original cause of AKI resolved?",
+        "B: Is there evidence of some degree of renal recovery?",
+        "C: Has fluid overload been resolved?",
+        "D: Is the serum creatinine below 200 µmol/L?",
+        "E: All of A, B, and C are correct factors"
+      ],
+      "correct": 3,
+      "explanation": "The three clinical factors before weaning are: (1) resolution of AKI cause, (2) evidence of renal recovery, (3) resolution of fluid overload. A specific creatinine threshold is NOT one of these criteria. If these three are not satisfied, successful weaning is unlikely.",
+      "section": "2.3 Clinical practice"
+    },
+    {
+      "id": "rrt6_a7",
+      "type": "A",
+      "set": 1,
+      "question": "Which set of characteristics makes a drug or toxin suitable for effective removal by haemodialysis?",
+      "options": [
+        "A: Lipophilic, high Vd, high protein binding, high MW",
+        "B: Water-soluble, low Vd, low protein binding, low MW (<500 Da)",
+        "C: Water-soluble, high Vd, high protein binding, low MW",
+        "D: Lipophilic, low Vd, low protein binding, high MW",
+        "E: Any drug can be effectively dialysed regardless of its properties"
+      ],
+      "correct": 1,
+      "explanation": "Effectively dialysable drugs are characterised by water solubility, low volume of distribution, low protein binding, and low molecular weight (<500 Da). Examples include lithium, methanol, ethylene glycol, and salicylate.",
+      "section": "3.1.1 Intoxication"
+    },
+    {
+      "id": "rrt6_a8",
+      "type": "A",
+      "set": 1,
+      "question": "What was the main finding of the CARRESS-HF trial regarding ultrafiltration in acute decompensated heart failure with cardiorenal syndrome?",
+      "options": [
+        "A: Ultrafiltration significantly reduced mortality compared with pharmacological therapy",
+        "B: Ultrafiltration and pharmacological therapy had equivalent outcomes",
+        "C: Ultrafiltration was associated with greater creatinine increase and more adverse events than pharmacological treatment",
+        "D: Ultrafiltration improved renal function but increased hospital length of stay",
+        "E: Ultrafiltration was superior when combined with high-dose diuretics"
+      ],
+      "correct": 2,
+      "explanation": "The CARRESS-HF trial showed that ultrafiltration in acute decompensated heart failure with cardiorenal syndrome was associated with a GREATER increase in serum creatinine and a HIGHER rate of adverse events compared with stepped pharmacological treatment.",
+      "section": "3.1.3 Cardiac failure"
+    },
+    {
+      "id": "rrt6_a9",
+      "type": "A",
+      "set": 1,
+      "question": "What is the most dangerous complication of tumour lysis syndrome that may require RRT?",
+      "options": [
+        "A: Hyperuricaemia",
+        "B: Hyperphosphataemia",
+        "C: Severe hyperkalaemia",
+        "D: Hypocalcaemia",
+        "E: Metabolic alkalosis"
+      ],
+      "correct": 2,
+      "explanation": "Severe hyperkalaemia from rapid potassium release is the most dangerous complication of TLS. RRT thresholds are generally lower in TLS, and CRRT is often preferred due to the potential for ongoing intracellular substance release.",
+      "section": "3.1.4 Tumor lysis syndrome"
+    },
+    {
+      "id": "rrt6_a10",
+      "type": "A",
+      "set": 1,
+      "question": "Regarding CRRT and ECMO integration, what advantage has the integrated system shown compared to the parallel system?",
+      "options": [
+        "A: Higher dialysis dose delivery",
+        "B: Faster CRRT initiation, avoidance of local bleeding, and prolonged filter life",
+        "C: Reduced need for anticoagulation",
+        "D: Improved ECMO oxygenation efficiency",
+        "E: Lower mortality in all patient subgroups"
+      ],
+      "correct": 1,
+      "explanation": "Connecting CRRT and ECMO as an integrated system may accelerate CRRT initiation, avoid local bleeding, and prolong filter life compared to the parallel system (Wu 2023). In ECMO survivors, >95% recover sufficient renal function to wean off RRT.",
+      "section": "3.1.2 Respiratory failure"
+    },
+    {
+      "id": "rrt6_a11",
+      "type": "A",
+      "set": 1,
+      "question": "During continuous RRT, how long does it take for serum markers to stabilise, enabling reliable native kidney creatinine clearance measurement?",
+      "options": [
+        "A: 6 hours",
+        "B: 12 hours",
+        "C: 24 hours",
+        "D: 48 hours",
+        "E: 72 hours"
+      ],
+      "correct": 3,
+      "explanation": "Continuous therapies have steady solute clearances of 25–35 ml/min that stabilise serum markers after 48 hours, enabling more reliable measurements of native kidney creatinine clearance during CRRT compared to intermittent therapies.",
+      "section": "2.2 Some Other Considerations"
+    },
+    {
+      "id": "rrt6_a12",
+      "type": "A",
+      "set": 1,
+      "question": "Regarding the biomarker proenkephalin A 119–159 (penKid), when was it found to be associated with successful liberation from CRRT?",
+      "options": [
+        "A: Immediately before CRRT initiation",
+        "B: At 12 hours of CRRT",
+        "C: On the third day of CRRT",
+        "D: At CRRT discontinuation",
+        "E: One week after CRRT cessation"
+      ],
+      "correct": 2,
+      "explanation": "Low penKid levels before CRRT were NOT associated with early liberation. However, analysis on the third day showed an association with successful liberation. High penKid levels were linked to unsuccessful liberation, while high daily urinary output was strongly associated with success.",
+      "section": "2.1 The evidence"
+    },
+    {
+      "id": "rrt6_a13",
+      "type": "A",
+      "set": 1,
+      "question": "Is hyperthermia currently considered a standalone non-renal indication for initiating RRT?",
+      "options": [
+        "A: Yes, it remains a primary indication",
+        "B: Yes, but only for temperatures > 40°C",
+        "C: No, because new intravascular and external cooling devices have replaced RRT for this purpose",
+        "D: No, because RRT is ineffective for temperature management",
+        "E: Yes, when combined with sepsis"
+      ],
+      "correct": 2,
+      "explanation": "Following the development of new intravascular and external cooling devices, RRT is no longer initiated for hyperthermia alone. It is only used if patients also need fluid removal and solute clearance.",
+      "section": "3.1.7 Other indications"
+    },
+    {
+      "id": "rrt6_a14",
+      "type": "A",
+      "set": 1,
+      "question": "A meta-analysis by Katulka et al. (2020) evaluated urine output as a predictor of successful RRT discontinuation. What were the pooled sensitivity and specificity?",
+      "options": [
+        "A: Sensitivity 90%, specificity 95%",
+        "B: Sensitivity 80%, specificity 85%",
+        "C: Sensitivity 66%, specificity 74%",
+        "D: Sensitivity 50%, specificity 60%",
+        "E: Sensitivity 40%, specificity 50%"
+      ],
+      "correct": 2,
+      "explanation": "The meta-analysis found pooled sensitivity of 66.2% (95% CI 53.6–76.9%) and specificity of 73.6% (95% CI 67.5–79.0%) for UO to predict successful RRT discontinuation — moderate performance, and no optimal threshold could be determined due to heterogeneity.",
+      "section": "2.1 The evidence"
+    },
+    {
+      "id": "rrt6_a15",
+      "type": "A",
+      "set": 1,
+      "question": "In patients treated with intermittent haemodialysis (IHD), which urinary solute excretion threshold best predicted successful weaning?",
+      "options": [
+        "A: 24h urinary creatinine excretion ≥ 5.2 mmol/L",
+        "B: Daily urea excretion > 1.35 mmol/kg/24h",
+        "C: 24h urinary sodium excretion > 100 mmol",
+        "D: 2h creatinine clearance ≥ 23 ml/min",
+        "E: 24h urinary potassium excretion > 40 mmol"
+      ],
+      "correct": 1,
+      "explanation": "Aniort et al. (2016) found that daily urea excretion >1.35 mmol/kg/24h was the best indicator for IHD weaning. The 24h creatinine excretion ≥5.2 mmol/L and 2h CrCl ≥23 ml/min are thresholds identified for CRRT, not IHD.",
+      "section": "2.1 The evidence"
+    },
+    {
+      "id": "rrt6_k1",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding predictors of successful RRT discontinuation, assess each statement:",
+      "statements": [
+        {"label": "A", "text": "Urine output is the most frequently studied predictor of successful RRT liberation", "correct": true},
+        {"label": "B", "text": "Pre-existing chronic kidney disease is a predictor of successful weaning", "correct": false},
+        {"label": "C", "text": "Shorter CRRT duration is associated with successful weaning", "correct": true},
+        {"label": "D", "text": "Male gender and diabetes mellitus are strong predictors of weaning outcome", "correct": false}
+      ],
+      "explanation": "UO is the most studied predictor. Pre-existing CKD predicts UNSUCCESSFUL weaning (not successful). Shorter CRRT duration is associated with success. Meta-analysis (Li 2023) found male gender, DM, and sepsis were NOT related to short-term weaning outcome.",
+      "section": "2.1 The evidence"
+    },
+    {
+      "id": "rrt6_k2",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding KDIGO recommendations on RRT discontinuation, assess each statement:",
+      "statements": [
+        {"label": "A", "text": "KDIGO recommends discontinuing RRT when intrinsic kidney function has recovered sufficiently to meet patient needs", "correct": true},
+        {"label": "B", "text": "KDIGO provides specific criteria and thresholds for RRT discontinuation", "correct": false},
+        {"label": "C", "text": "KDIGO suggests using diuretics to enhance kidney function recovery (Grade 2B)", "correct": false},
+        {"label": "D", "text": "RRT should also be discontinued when it is no longer consistent with goals of care", "correct": true}
+      ],
+      "explanation": "KDIGO recommends stopping RRT when it's no longer needed (recovery or goals of care) — not graded. KDIGO did NOT define specific discontinuation criteria. KDIGO suggests NOT using diuretics for kidney recovery or reducing RRT duration (Grade 2B).",
+      "section": "2. When to stop RRT"
+    },
+    {
+      "id": "rrt6_k3",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding characteristics of dialysable substances in intoxication, assess each statement:",
+      "statements": [
+        {"label": "A", "text": "Lithium is an example of an effectively dialysable substance", "correct": true},
+        {"label": "B", "text": "High protein binding favours efficient removal by standard haemodialysis", "correct": false},
+        {"label": "C", "text": "Haemoadsorption and plasma exchange can remove substances regardless of protein binding", "correct": true},
+        {"label": "D", "text": "Standard haemodialysis can effectively remove molecules up to 50,000 Da", "correct": false}
+      ],
+      "explanation": "Lithium is dialysable (water-soluble, low Vd, low protein binding, low MW). High protein binding LIMITS removal by standard HD (≤80%). Haemoadsorption and plasma exchange can handle any protein binding. Standard HD removes MW up to 10,000–15,000 Da; HCO filter reaches 50,000 Da.",
+      "section": "3.1.1 Intoxication"
+    },
+    {
+      "id": "rrt6_k4",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding non-renal indications for RRT, assess each statement:",
+      "statements": [
+        {"label": "A", "text": "RRT may be considered for severe fluid overload refractory to diuretics, even without AKI", "correct": true},
+        {"label": "B", "text": "There is strong evidence to recommend routine CRRT for treatment of sepsis", "correct": false},
+        {"label": "C", "text": "Hyperthermia is still a primary standalone indication for RRT initiation", "correct": false},
+        {"label": "D", "text": "Life-threatening hyperkalaemia refractory to medical therapy may be an indication for RRT even without overt AKI", "correct": true}
+      ],
+      "explanation": "RRT can be used for refractory fluid overload and life-threatening electrolyte disturbances even without AKI. There is INSUFFICIENT evidence for routine CRRT in sepsis. Hyperthermia is NO LONGER a standalone indication (replaced by modern cooling devices).",
+      "section": "3. Non renal indications"
+    },
+    {
+      "id": "rrt6_k5",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding tumour lysis syndrome (TLS) and RRT, assess each statement:",
+      "statements": [
+        {"label": "A", "text": "Severe hyperkalaemia is the most dangerous complication of TLS", "correct": true},
+        {"label": "B", "text": "Thresholds for starting RRT are generally higher in TLS compared to other causes of AKI", "correct": false},
+        {"label": "C", "text": "CRRT is often preferred in the acute setting due to ongoing intracellular substance release", "correct": true},
+        {"label": "D", "text": "The goal of RRT in TLS is limited to potassium clearance only", "correct": false}
+      ],
+      "explanation": "Hyperkalaemia is the most dangerous TLS complication. RRT thresholds are LOWER (not higher) in TLS. CRRT is preferred (continuous removal of ongoing intracellular release). RRT goals include clearance of K, phosphate, uric acid AND correction of metabolic acidosis — not K only.",
+      "section": "3.1.4 Tumor lysis syndrome"
+    },
+    {
+      "id": "rrt6_k6",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the combination of CRRT and ECMO, assess each statement:",
+      "statements": [
+        {"label": "A", "text": "In ECMO survivors requiring RRT, more than 95% recover sufficient renal function to wean off RRT", "correct": true},
+        {"label": "B", "text": "An integrated CRRT-ECMO system may prolong filter life compared to a parallel system", "correct": true},
+        {"label": "C", "text": "The two available RCTs on ECCO2R combined with CRRT showed significant mortality benefit", "correct": false},
+        {"label": "D", "text": "Systemic anticoagulation and bleeding risk remain concerns for ECCO2R application", "correct": true}
+      ],
+      "explanation": ">95% of ECMO survivors recover renal function. Integrated system prolongs filter life vs parallel. The 2 RCTs on ECCO2R were terminated early for FUTILITY (no benefit shown). Systemic anticoagulation/bleeding risk limits wider ECCO2R application.",
+      "section": "3.1.2 Respiratory failure"
+    },
+    {
+      "id": "rrt6_k7",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding clinical practice for RRT weaning, assess each statement:",
+      "statements": [
+        {"label": "A", "text": "Persistent oliguria suggests the patient is ready for weaning", "correct": false},
+        {"label": "B", "text": "Urine output above 400 ml/day warrants performing a urine collection for further assessment", "correct": true},
+        {"label": "C", "text": "Resolution of the original cause of AKI is one of three key criteria before weaning", "correct": true},
+        {"label": "D", "text": "Successful weaning can be expected even if fluid overload has not been resolved", "correct": false}
+      ],
+      "explanation": "Persistent oliguria = inability to excrete solute load → postpone weaning. UO >400 ml/d (~30 ml/hr) → perform urine collection. Three criteria: resolved AKI cause, evidence of recovery, resolved fluid overload. All three should be met.",
+      "section": "2.3 Clinical practice"
+    },
+    {
+      "id": "rrt6_k8",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding biomarkers for RRT liberation, assess each statement:",
+      "statements": [
+        {"label": "A", "text": "Cystatin C and NGAL are among the most studied biomarkers for predicting RRT cessation", "correct": true},
+        {"label": "B", "text": "Low proenkephalin (penKid) levels before CRRT initiation are strongly predictive of early liberation", "correct": false},
+        {"label": "C", "text": "High daily urinary output is strongly associated with successful CRRT liberation", "correct": true},
+        {"label": "D", "text": "Biomarker cut-off values for RRT discontinuation are well standardised across studies", "correct": false}
+      ],
+      "explanation": "Cystatin C and NGAL are most studied. Low penKid BEFORE CRRT was NOT associated with early liberation — only day-3 levels showed association. High daily UO is strongly associated with success. Substantial heterogeneity in measurement timing and cut-offs prevents standardisation.",
+      "section": "2.1 The evidence"
+    },
+    {
+      "id": "rrt6_k9",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding RRT in acute decompensated heart failure, assess each statement:",
+      "statements": [
+        {"label": "A", "text": "ESC 2021 guidelines recommend routine ultrafiltration in acute heart failure", "correct": false},
+        {"label": "B", "text": "CARRESS-HF showed ultrafiltration was associated with greater creatinine increase than pharmacological therapy", "correct": true},
+        {"label": "C", "text": "Slow continuous ultrafiltration (SCUF) has been used for controlled sodium and water removal", "correct": true},
+        {"label": "D", "text": "Ultrafiltration should be considered as first-line therapy before optimising diuretics", "correct": false}
+      ],
+      "explanation": "ESC 2021 does NOT recommend routine UF. CARRESS-HF showed UF was WORSE (greater Cr increase, more adverse events). SCUF has been used for controlled fluid removal. UF should be RESERVED for refractory cases after optimal medical therapy has failed — not first-line.",
+      "section": "3.1.3 Cardiac failure"
+    },
+    {
+      "id": "rrt6_k10",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding assessment of native kidney function during different RRT modalities, assess each statement:",
+      "statements": [
+        {"label": "A", "text": "During intermittent RRT, post-treatment rebound in solute levels may complicate assessment", "correct": true},
+        {"label": "B", "text": "Continuous RRT with clearances of 25–35 ml/min stabilises serum markers after 48 hours", "correct": true},
+        {"label": "C", "text": "Native kidney function is easier to assess during intermittent RRT than during CRRT", "correct": false},
+        {"label": "D", "text": "During CRRT, reliable creatinine clearance measurements of native kidneys can be performed once steady state is reached", "correct": true}
+      ],
+      "explanation": "IHD has post-treatment solute rebound complicating assessment. CRRT stabilises markers after 48h due to steady clearance. Native kidney function is EASIER to assess during CRRT (not IHD) once steady state is reached, enabling reliable CrCl measurement.",
+      "section": "2.2 Some Other Considerations"
+    }
+  ]
+}

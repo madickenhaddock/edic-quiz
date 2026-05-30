@@ -1,0 +1,393 @@
+{
+  "module": "Haemodialyzers and Settings",
+  "sections": {
+    "2 Haemofilters and dialysers": "Contemporary haemofilters and haemodialysers contain semi-permeable membranes organised as hollow fibres with blood flowing through the inner lumen.\n\nMost important membrane characteristics:\n\n1. Chemical composition: Modern membranes are either modified cellulose (cellulose-(tri)acetate) or synthetic polymers (polysulfone, polyethersulfone, polymethylmethacrylate, or polyacrylonitrile such as the AN69 membrane). Little evidence that one is better than the other.\n\n2. Membrane surface: Depends on length and number of fibres, typically 1.2-2 m².\n\n3. Water permeability: Reflected in the ultrafiltration coefficient (KUF), expressed in ml per unit of time, transmembrane pressure and membrane surface. ICU machines mostly use 'high-flux membranes' with KUF >25 ml/h/mmHg/m².\n\n4. Porosity/cut-off: MW of largest molecules that can pass through. Contemporary membranes have cut-off around 30,000-35,000 Da, allowing removal of middle molecules with convection. 'High-cut-off' membranes (cut-off close to albumin size) currently have no clinical application outside multiple myeloma.\n\n5. Adsorptive capacity: Some membranes (e.g. polyacrylonitrile) have higher adsorptive capacity for drugs and/or inflammatory cytokines. Cytokine adsorption in sepsis is clinically not important. Adsorption of some antibiotics (aminoglycosides, colistin) may require dosage adaptation.\n\n6. Bioincompatibility: Adverse effects (activation of cells and plasma proteins) from blood-membrane contact. Cuprophan membranes are no longer recommended due to reduced biocompatibility. Currently used membranes have better biocompatibility.",
+    "3.1 Setting the CRRT machine": "When starting CRRT, the following parameters should be prescribed:\n- The dose of exchange\n- The ratio of pre- and post-dilution (for haemofiltration)\n- The blood flow, adapted to the modality and prescribed dose\n- The net ultrafiltration rate",
+    "3.2 Treatment dose": "RRT dose defines the level of solute and electrolyte exchange. RRT dose is often not formally prescribed and effective delivery is not always measured.\n\nIn chronic dialysis, delivered dose (dialysis adequacy) is quantified by urea reduction ratio and Kt/V (K=urea clearance, t=treatment time, V=volume of distribution for urea). These methods have limited efficacy in critically ill AKI patients where neither urea generation rate nor volume of distribution can be clearly defined.\n\nFor CRRT, dose is expressed as effluent flow normalised by patient weight and procedure time (ml/kg/h). This approximation is most accurate for CVVH using post-dilution. The effluent rate roughly corresponds to prescribed replacement and/or dialysate flow rate plus fluid removal. It is unclear whether to use actual or ideal body weight. For IHD, dose is still expressed as urea reduction rate or Kt/V.\n\nThe ATN study (n=1124) and RENAL study (n=1464) demonstrated no benefit in survival or renal recovery with higher CRRT doses. Meta-analyses confirmed: higher intensity RRT does not reduce mortality or improve renal recovery. The most recent individual patient meta-analysis (Wang 2018) even suggests delayed renal recovery with high intensity.\n\nKDIGO recommends delivering effluent volume of 20-25 ml/kg/h for post-dilution CRRT. Increasing beyond this is not beneficial and may cause losses of phosphate, antibiotics, and heat.\n\nIn the ATN and RENAL trials, delivered dose was >85% of prescribed — higher than standard clinical practice. Discrepancy between prescribed and delivered dose may be due to: treatment interruptions, use of pre-dilution, and absence of complete saturation of dialysate due to protein cake on membrane. Guidelines therefore suggest prescribing 25-30 ml/kg/h to achieve 20-25 ml/kg/h.\n\nHigh Volume Haemofiltration (HVHF): Doses of 50-100 ml/kg/h used for 'blood purification' in sepsis. The IVOIRE study (35 vs 70 ml/kg/h in septic shock) showed no benefit. Two meta-analyses of 4 RCTs concluded HVHF has no significant impact on mortality, kidney recovery, haemodynamics, or length of stay. HVHF is therefore not recommended.",
+    "3.3 Blood flow and filtration fraction": "Filtration fraction (FF) is of paramount importance during continuous convective therapy (haemofiltration, haemodiafiltration); less important during haemodialysis.\n\nFF = ratio between effluent flow rate and blood flow rate = degree of haemoconcentration along the filter. During convection, high plasma water removal (25-30 ml/kg/h) causes significant haemoconcentration, increasing blood viscosity, promoting filter obstruction and early filter loss.\n\nFF must be kept below 25% (exceptionally 30% with efficient citrate anticoagulation).\n\nFF equation: FF = (Qpre + Qpost + Qnet) / (Qb × (1-Hct) + Qpre)\nWhere: Qpre = predilution flow (ml/h), Qpost = post-dilution flow (ml/h), Qnet = net patient fluid loss (ml/h), Qb = blood flow rate (ml/h).\n\nMethods to reduce FF:\n1. Increase blood flow (first-line) — limited by catheter capacity; very negative pressures (<-100 mmHg) on arterial lumen indicate catheter flow less than prescribed\n2. Switch to diffusive method (CVVHD or CVVHDF)\n3. Increase proportion of substitution fluid in pre-dilution\n4. Decrease effluent rate (while ensuring adequate dose)",
+    "3.4 Pre- and post-dilution": "Pre-dilution: substitution fluid infused before the filter. Post-dilution: substitution fluid infused after the filter.\n\nFew studies compare different pre/post-dilution levels. International experts recommend a 1/3-2/3 ratio for pre- and post-dilution when predilution is needed.\n\nIncreasing pre-dilution reduces haemoconcentration BUT decreases RRT dose because solute concentration entering the filter is decreased.\n\nCorrection factor for pre-dilution effect on dose: Qb / (Qb + Qpre)\nWhere Qb = blood flow, Qpre = predilution substitution flow (both ml/h).\n\nPractical approach: increase substitution flow rate by 10-15% when part of dose is delivered in pre-dilution.",
+    "3.5 Net ultrafiltration rate": "Fluid overload is frequent in AKI patients needing RRT. Net ultrafiltration (UFNET) is the volume of ultrafiltrate removed during RRT, usually expressed in ml/h.\n\nIn CVVH: UFNET = total ultrafiltration volume minus substitution fluid volume.\nIn CVVHD: UFNET results from pressure difference between dialysate and blood chambers.\n\nInsufficient UFNET → fluid overload, acute respiratory failure or worsening.\nExcessive UFNET (if greater than plasma refilling capacity) → haemodynamic instability due to decreased cardiac preload.\n\nMurugan et al. 2018: UFNET >25 ml/kg/day associated with lower 1-year mortality compared to ≤20 ml/kg/day in patients with 5% fluid overload.\nMurugan et al. 2019 (RENAL secondary analysis, n=1434): UFNET >1.75 ml/kg/h (~40 ml/kg/day) significantly higher risk of death at day 90.\n\nPractical approach:\n- UFNET 0 ml/h → positive fluid balance in anuric patient\n- UFNET 50-100 ml/h → approximately null balance in ventilated patient (~2500 ml/day intake)\n- UFNET >100 ml/h → negative fluid balance\n- UFNET >200 ml/h → for acute respiratory failure due to fluid overload (during a few hours)\n\nSet UFNET based on: fluid overload status (respiratory failure, ARDS), haemodynamic status (lactate, vasopressors, preload dependence, cardiac output)."
+  },
+  "questions": [
+    {
+      "id": "rrt3_a01",
+      "type": "A",
+      "set": 1,
+      "question": "What is the typical membrane surface area of contemporary haemofilters used in ICU patients?",
+      "options": [
+        "A: 0.2-0.5 m²",
+        "B: 0.5-1.0 m²",
+        "C: 1.2-2.0 m²",
+        "D: 3.0-4.0 m²",
+        "E: 5.0-6.0 m²"
+      ],
+      "correct": 2,
+      "explanation": "Contemporary haemofilter membrane surface area depends on the length and number of hollow fibres and is typically between 1.2 and 2 m².",
+      "section": "2 Haemofilters and dialysers"
+    },
+    {
+      "id": "rrt3_a02",
+      "type": "A",
+      "set": 1,
+      "question": "Which membrane type is no longer recommended for RRT due to reduced biocompatibility?",
+      "options": [
+        "A: Polysulfone",
+        "B: Polyethersulfone",
+        "C: Cuprophan",
+        "D: Polyacrylonitrile (AN69)",
+        "E: Cellulose triacetate"
+      ],
+      "correct": 2,
+      "explanation": "Cuprophan membranes are no longer recommended due to reduced biocompatibility (adverse activation of cells and plasma proteins from blood-membrane contact). Currently used membranes (polysulfone, polyethersulfone, polyacrylonitrile, cellulose triacetate) have better biocompatibility.",
+      "section": "2 Haemofilters and dialysers"
+    },
+    {
+      "id": "rrt3_a03",
+      "type": "A",
+      "set": 1,
+      "question": "Regarding 'high-cut-off' membranes with a cut-off close to the size of albumin, which statement is correct?",
+      "options": [
+        "A: They are the standard of care for sepsis",
+        "B: They are recommended for all ICU patients on CRRT",
+        "C: They currently have no clinical application outside multiple myeloma",
+        "D: They have a cut-off of 5,000 Da",
+        "E: They are identical to standard high-flux membranes"
+      ],
+      "correct": 2,
+      "explanation": "High-cut-off membranes have a cut-off close to the size of albumin and currently have no clinical application outside the setting of multiple myeloma. Standard contemporary membranes have a cut-off around 30,000-35,000 Da.",
+      "section": "2 Haemofilters and dialysers"
+    },
+    {
+      "id": "rrt3_k01",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding haemofilter membrane characteristics:",
+      "statements": [
+        {"label": "A", "text": "High-flux membranes have an ultrafiltration coefficient (KUF) >25 ml/h/mmHg/m²", "correct": true},
+        {"label": "B", "text": "Contemporary membranes have a molecular weight cut-off around 30,000-35,000 Da", "correct": true},
+        {"label": "C", "text": "Cytokine adsorption by polyacrylonitrile membranes is clinically important in sepsis", "correct": false},
+        {"label": "D", "text": "Adsorption of aminoglycosides and colistin by certain membranes may require dosage adaptation", "correct": true}
+      ],
+      "explanation": "High-flux KUF >25 ml/h/mmHg/m² — correct. Cut-off 30-35 kDa — correct. Cytokine adsorption in sepsis is clinically NOT important. Antibiotic adsorption (aminoglycosides, colistin) on certain membranes (e.g. polyacrylonitrile) IS clinically relevant and may require dose adjustments.",
+      "section": "2 Haemofilters and dialysers"
+    },
+    {
+      "id": "rrt3_k02",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the chemical composition of RRT membranes:",
+      "statements": [
+        {"label": "A", "text": "Modern membranes can be made from modified cellulose or synthetic polymers", "correct": true},
+        {"label": "B", "text": "There is strong evidence that synthetic polymer membranes are superior to modified cellulose membranes", "correct": false},
+        {"label": "C", "text": "AN69 is a polyacrylonitrile membrane", "correct": true},
+        {"label": "D", "text": "Bioincompatibility refers to adverse effects resulting from contact between blood and the membrane", "correct": true}
+      ],
+      "explanation": "Modern membranes include modified cellulose and synthetic polymers — both are used. There is LITTLE evidence that one is better than the other. AN69 is indeed polyacrylonitrile. Bioincompatibility = activation of cells and plasma proteins from blood-membrane contact.",
+      "section": "2 Haemofilters and dialysers"
+    },
+    {
+      "id": "rrt3_a04",
+      "type": "A",
+      "set": 1,
+      "question": "According to KDIGO guidelines, what is the recommended delivered effluent dose for post-dilution CRRT in AKI?",
+      "options": [
+        "A: 10-15 ml/kg/h",
+        "B: 20-25 ml/kg/h",
+        "C: 35-40 ml/kg/h",
+        "D: 50-70 ml/kg/h",
+        "E: 80-100 ml/kg/h"
+      ],
+      "correct": 1,
+      "explanation": "KDIGO recommends delivering an effluent volume of 20-25 ml/kg/h for post-dilution CRRT in AKI. However, guidelines suggest PRESCRIBING 25-30 ml/kg/h to actually achieve 20-25 ml/kg/h, accounting for the gap between prescribed and delivered dose.",
+      "section": "3.2 Treatment dose"
+    },
+    {
+      "id": "rrt3_a05",
+      "type": "A",
+      "set": 1,
+      "question": "Why do guidelines recommend prescribing CRRT doses of 25-30 ml/kg/h rather than 20-25 ml/kg/h?",
+      "options": [
+        "A: Higher doses improve survival",
+        "B: To compensate for the discrepancy between prescribed and delivered dose due to interruptions, pre-dilution, and protein cake formation",
+        "C: Because the ATN trial showed better outcomes at higher doses",
+        "D: Because higher doses improve renal recovery",
+        "E: To enhance cytokine removal in sepsis"
+      ],
+      "correct": 1,
+      "explanation": "The discrepancy between prescribed and delivered dose is due to treatment interruptions, use of pre-dilution, and incomplete saturation of dialysate from protein cake formation on the membrane. Higher doses do NOT improve survival or renal recovery. Prescribing 25-30 achieves the target of 20-25 ml/kg/h.",
+      "section": "3.2 Treatment dose"
+    },
+    {
+      "id": "rrt3_a06",
+      "type": "A",
+      "set": 1,
+      "question": "The IVOIRE study compared CVVH at 35 ml/kg/h versus 70 ml/kg/h in septic shock patients. What was the outcome?",
+      "options": [
+        "A: Significant survival benefit in the high-volume group",
+        "B: Improved haemodynamic parameters in the high-volume group",
+        "C: No beneficial effect or survival improvement in the high-volume group",
+        "D: Better renal recovery in the high-volume group",
+        "E: Reduced ICU length of stay in the high-volume group"
+      ],
+      "correct": 2,
+      "explanation": "The IVOIRE study showed no beneficial effect or survival improvement with 70 ml/kg/h compared to 35 ml/kg/h during 4 days in septic shock. Two meta-analyses confirmed HVHF has no significant impact on mortality, kidney recovery, haemodynamics, or length of stay. HVHF is therefore not recommended.",
+      "section": "3.2 Treatment dose"
+    },
+    {
+      "id": "rrt3_a07",
+      "type": "A",
+      "set": 1,
+      "question": "Which of the following is a potential consequence of increasing CRRT dose beyond 20-25 ml/kg/h?",
+      "options": [
+        "A: Improved survival",
+        "B: Better renal recovery",
+        "C: Losses of phosphate, antibiotics, and heat",
+        "D: Reduced need for anticoagulation",
+        "E: Decreased catheter-related infections"
+      ],
+      "correct": 2,
+      "explanation": "Increasing the dose beyond 20-25 ml/kg/h is not beneficial and may result in losses of phosphate, antibiotics, and heat. The most recent individual patient meta-analysis even suggests delayed renal recovery with high-intensity treatment.",
+      "section": "3.2 Treatment dose"
+    },
+    {
+      "id": "rrt3_k03",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding CRRT treatment dose and the evidence from major trials:",
+      "statements": [
+        {"label": "A", "text": "The ATN and RENAL studies demonstrated a survival benefit with higher CRRT doses", "correct": false},
+        {"label": "B", "text": "The delivered dose in the ATN and RENAL trials was over 85% of the prescribed dose", "correct": true},
+        {"label": "C", "text": "CRRT dose is expressed as effluent flow normalised by patient weight in ml/kg/h", "correct": true},
+        {"label": "D", "text": "The effluent rate approximation is most accurate for CVVH using pre-dilution", "correct": false}
+      ],
+      "explanation": "ATN and RENAL showed NO benefit with higher doses. Delivered dose was >85% of prescribed (higher than usual clinical practice). CRRT dose IS expressed as ml/kg/h effluent. The effluent approximation is most accurate for CVVH using POST-dilution (not pre-dilution, which dilutes blood entering the filter).",
+      "section": "3.2 Treatment dose"
+    },
+    {
+      "id": "rrt3_k04",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding RRT dose measurement and prescription:",
+      "statements": [
+        {"label": "A", "text": "Kt/V is a reliable measure of dialysis adequacy in critically ill AKI patients", "correct": false},
+        {"label": "B", "text": "Factors contributing to the gap between prescribed and delivered CRRT dose include treatment interruptions and protein cake formation", "correct": true},
+        {"label": "C", "text": "High-volume haemofiltration (50-100 ml/kg/h) is recommended for blood purification in sepsis", "correct": false},
+        {"label": "D", "text": "Volume balance, acid-base status, electrolyte homeostasis and nutrition are all part of delivering an optimal RRT dose", "correct": true}
+      ],
+      "explanation": "Kt/V has LIMITED efficacy in AKI — urea generation rate and volume of distribution cannot be clearly defined. The prescribed-delivered gap is due to interruptions, pre-dilution, and protein cake. HVHF is NOT recommended (IVOIRE, meta-analyses show no benefit). Optimal dose includes not just solute clearance but also volume, acid-base, electrolytes, and nutrition.",
+      "section": "3.2 Treatment dose"
+    },
+    {
+      "id": "rrt3_a08",
+      "type": "A",
+      "set": 1,
+      "question": "What is the recommended maximum filtration fraction (FF) during CRRT?",
+      "options": [
+        "A: <10%",
+        "B: <15%",
+        "C: <25%",
+        "D: <40%",
+        "E: <50%"
+      ],
+      "correct": 2,
+      "explanation": "FF should be kept below 25% (exceptionally up to 30% with efficient citrate anticoagulation). Higher FF causes haemoconcentration, increased blood viscosity, filter obstruction, and early filter loss.",
+      "section": "3.3 Blood flow and filtration fraction"
+    },
+    {
+      "id": "rrt3_a09",
+      "type": "A",
+      "set": 1,
+      "question": "What is the FIRST-LINE method to reduce filtration fraction during CRRT?",
+      "options": [
+        "A: Decrease the effluent rate",
+        "B: Increase the proportion of pre-dilution",
+        "C: Increase blood flow",
+        "D: Switch to haemodialysis",
+        "E: Change the haemofilter membrane"
+      ],
+      "correct": 2,
+      "explanation": "Increasing blood flow is the first-line method to reduce FF, as it increases the denominator in the FF equation. Other options include switching to diffusive methods, increasing pre-dilution proportion, or decreasing effluent rate — but blood flow increase is first.",
+      "section": "3.3 Blood flow and filtration fraction"
+    },
+    {
+      "id": "rrt3_a10",
+      "type": "A",
+      "set": 1,
+      "question": "During CVVH, very negative pressures (<-100 mmHg) are measured on the arterial lumen of the catheter. What does this indicate?",
+      "options": [
+        "A: The filter is clotted",
+        "B: The catheter flow is probably less than what is prescribed on the machine",
+        "C: The effluent rate is too low",
+        "D: The replacement fluid is running too fast",
+        "E: The patient has high cardiac output"
+      ],
+      "correct": 1,
+      "explanation": "Very negative pressures (<-100 mmHg) on the arterial lumen indicate that the catheter cannot deliver the prescribed blood flow. This limits the ability to increase blood flow to reduce filtration fraction. Catheter dysfunction, kinking, or positional issues should be considered.",
+      "section": "3.3 Blood flow and filtration fraction"
+    },
+    {
+      "id": "rrt3_k05",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding filtration fraction (FF) during CRRT:",
+      "statements": [
+        {"label": "A", "text": "FF is the ratio between effluent flow rate and blood flow rate", "correct": true},
+        {"label": "B", "text": "FF is equally important during haemodialysis and haemofiltration", "correct": false},
+        {"label": "C", "text": "High FF promotes filter obstruction due to haemoconcentration and increased blood viscosity", "correct": true},
+        {"label": "D", "text": "Switching from haemofiltration to haemodialysis is one method to reduce FF", "correct": true}
+      ],
+      "explanation": "FF = effluent flow / blood flow = degree of haemoconcentration. FF is of paramount importance during CONVECTIVE therapy (haemofiltration) but LESS important during haemodialysis. High FF → haemoconcentration → viscosity → filter clotting. Switching to diffusive methods (haemodialysis) reduces FF.",
+      "section": "3.3 Blood flow and filtration fraction"
+    },
+    {
+      "id": "rrt3_k06",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the filtration fraction equation FF = (Qpre + Qpost + Qnet) / (Qb(1-Hct) + Qpre):",
+      "statements": [
+        {"label": "A", "text": "Increasing Qb (blood flow) will decrease the filtration fraction", "correct": true},
+        {"label": "B", "text": "A higher haematocrit will increase the filtration fraction", "correct": true},
+        {"label": "C", "text": "Increasing Qpre (predilution) will increase the filtration fraction", "correct": false},
+        {"label": "D", "text": "Increasing Qnet (net fluid removal) will increase the filtration fraction", "correct": true}
+      ],
+      "explanation": "Increasing Qb increases the denominator → lower FF. Higher Hct means less plasma flow (Qb×(1-Hct) decreases) → higher FF. Increasing Qpre appears in BOTH numerator and denominator — but the net effect is a DECREASE in FF because Qpre dilutes the blood entering the filter. Increasing Qnet adds to the numerator → higher FF.",
+      "section": "3.3 Blood flow and filtration fraction"
+    },
+    {
+      "id": "rrt3_a11",
+      "type": "A",
+      "set": 1,
+      "question": "When pre-dilution is needed during CVVH, what is the recommended ratio of pre- to post-dilution?",
+      "options": [
+        "A: 1/4 pre, 3/4 post",
+        "B: 1/3 pre, 2/3 post",
+        "C: 1/2 pre, 1/2 post",
+        "D: 2/3 pre, 1/3 post",
+        "E: 3/4 pre, 1/4 post"
+      ],
+      "correct": 1,
+      "explanation": "International experts recommend a 1/3-2/3 ratio for pre- and post-dilution when pre-dilution is needed for FF reduction. This balances the benefit of reduced haemoconcentration against the loss of clearance efficiency from diluting blood entering the filter.",
+      "section": "3.4 Pre- and post-dilution"
+    },
+    {
+      "id": "rrt3_a12",
+      "type": "A",
+      "set": 1,
+      "question": "When part of the CVVH dose is delivered in pre-dilution, what practical adjustment should be made to the substitution flow rate?",
+      "options": [
+        "A: Decrease by 10-15%",
+        "B: No adjustment needed",
+        "C: Increase by 10-15%",
+        "D: Increase by 50%",
+        "E: Double the flow rate"
+      ],
+      "correct": 2,
+      "explanation": "Pre-dilution decreases RRT dose because solute concentration entering the filter is reduced. A practical approach is to increase the substitution flow rate by 10-15% when part of the dose is delivered in pre-dilution, to compensate for this efficiency loss.",
+      "section": "3.4 Pre- and post-dilution"
+    },
+    {
+      "id": "rrt3_k07",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding pre- and post-dilution during CVVH:",
+      "statements": [
+        {"label": "A", "text": "Pre-dilution reduces haemoconcentration in the filter", "correct": true},
+        {"label": "B", "text": "Pre-dilution increases solute clearance efficiency compared to post-dilution", "correct": false},
+        {"label": "C", "text": "The correction factor for pre-dilution effect on dose is Qb/(Qb + Qpre)", "correct": true},
+        {"label": "D", "text": "Post-dilution substitution fluid is infused before the filter", "correct": false}
+      ],
+      "explanation": "Pre-dilution DOES reduce haemoconcentration (its primary advantage). Pre-dilution DECREASES clearance efficiency because it dilutes solute concentration entering the filter. The correction factor Qb/(Qb+Qpre) quantifies this loss. Post-dilution is infused AFTER the filter (not before — that's pre-dilution by definition).",
+      "section": "3.4 Pre- and post-dilution"
+    },
+    {
+      "id": "rrt3_k08",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the trade-offs of pre-dilution in CVVH:",
+      "statements": [
+        {"label": "A", "text": "Pre-dilution prolongs filter life by reducing haemoconcentration", "correct": true},
+        {"label": "B", "text": "Pre-dilution may decrease filtration fraction", "correct": true},
+        {"label": "C", "text": "Pre-dilution has no effect on solute removal efficiency", "correct": false},
+        {"label": "D", "text": "The effluent dose approximation is most accurate when using post-dilution", "correct": true}
+      ],
+      "explanation": "Pre-dilution reduces haemoconcentration → longer filter life. Pre-dilution appears in the FF denominator → lowers FF. Pre-dilution DOES decrease solute removal (diluted blood = less efficient clearance). The effluent dose approximation (ml/kg/h) is most accurate for post-dilution CVVH.",
+      "section": "3.4 Pre- and post-dilution"
+    },
+    {
+      "id": "rrt3_a13",
+      "type": "A",
+      "set": 1,
+      "question": "An anuric ventilated patient on CRRT with typical fluid intake (~2500 ml/day) requires approximately neutral fluid balance. What UFNET rate is most appropriate?",
+      "options": [
+        "A: 0 ml/h",
+        "B: 50-100 ml/h",
+        "C: 200 ml/h",
+        "D: 500 ml/h",
+        "E: 1000 ml/h"
+      ],
+      "correct": 1,
+      "explanation": "UFNET of 0 ml/h in an anuric patient leads to positive fluid balance. UFNET of 50-100 ml/h will most probably keep fluid balance approximately null in a ventilated patient with median intake around 2500 ml/day. Higher rates (>100 ml/h) create negative balance; >200 ml/h is for acute respiratory failure from fluid overload.",
+      "section": "3.5 Net ultrafiltration rate"
+    },
+    {
+      "id": "rrt3_a14",
+      "type": "A",
+      "set": 1,
+      "question": "According to the secondary analysis of the RENAL study (Murugan et al. 2019), which UFNET rate was associated with a significantly higher risk of death at day 90?",
+      "options": [
+        "A: >0.5 ml/kg/h",
+        "B: >1.0 ml/kg/h",
+        "C: >1.75 ml/kg/h",
+        "D: >3.0 ml/kg/h",
+        "E: >5.0 ml/kg/h"
+      ],
+      "correct": 2,
+      "explanation": "In the RENAL study secondary analysis (n=1434), UFNET rate >1.75 ml/kg/h (approximately >40 ml/kg/day) was associated with a significantly higher risk of death at day 90 compared to ≤1.01 ml/kg/h (≤24 ml/kg/day). This suggests excessive fluid removal rate may be harmful.",
+      "section": "3.5 Net ultrafiltration rate"
+    },
+    {
+      "id": "rrt3_a15",
+      "type": "A",
+      "set": 1,
+      "question": "What is the main risk of excessive net ultrafiltration (UFNET) during CRRT?",
+      "options": [
+        "A: Hypervolemia",
+        "B: Pulmonary oedema",
+        "C: Haemodynamic instability due to decreased cardiac preload",
+        "D: Hyperkalemia",
+        "E: Metabolic alkalosis"
+      ],
+      "correct": 2,
+      "explanation": "Excessive UFNET, when greater than plasma refilling capacity, generates haemodynamic instability due to decreased cardiac preload. Insufficient UFNET leads to the opposite problem: fluid overload and respiratory failure.",
+      "section": "3.5 Net ultrafiltration rate"
+    },
+    {
+      "id": "rrt3_k09",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding net ultrafiltration (UFNET) during CRRT:",
+      "statements": [
+        {"label": "A", "text": "UFNET of 0 ml/h will result in a positive fluid balance in an anuric patient", "correct": true},
+        {"label": "B", "text": "UFNET >200 ml/h may be needed for acute respiratory failure due to fluid overload", "correct": true},
+        {"label": "C", "text": "A large randomised trial has established the optimal UFNET rate", "correct": false},
+        {"label": "D", "text": "In CVVH, UFNET is the difference between total ultrafiltration volume and substitution fluid volume", "correct": true}
+      ],
+      "explanation": "UFNET 0 = positive balance in anuria (ongoing fluid intake). >200 ml/h may be needed short-term for respiratory failure from fluid overload. NO clinical trial has evaluated the independent impact of UFNET on outcomes — only observational data exist. In CVVH, UFNET = total UF minus substitution fluid.",
+      "section": "3.5 Net ultrafiltration rate"
+    },
+    {
+      "id": "rrt3_k10",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding practical UFNET management during CRRT:",
+      "statements": [
+        {"label": "A", "text": "UFNET should be set based on fluid overload status and haemodynamic status", "correct": true},
+        {"label": "B", "text": "High lactate levels and high vasopressor dose should prompt aggressive fluid removal", "correct": false},
+        {"label": "C", "text": "Murugan et al. showed that UFNET >25 ml/kg/day was associated with lower 1-year mortality in patients with 5% fluid overload", "correct": true},
+        {"label": "D", "text": "Excessive UFNET may cause haemodynamic instability if it exceeds the plasma refilling capacity", "correct": true}
+      ],
+      "explanation": "UFNET should be set based on both fluid overload and haemodynamic status. High lactate and vasopressors indicate haemodynamic compromise — this is a reason for CAUTION with fluid removal (preload dependence), not aggressive removal. Murugan 2018 showed >25 ml/kg/day associated with lower 1-year mortality in 5% fluid overload patients. Excessive UFNET beyond plasma refilling → haemodynamic instability.",
+      "section": "3.5 Net ultrafiltration rate"
+    }
+  ]
+}
