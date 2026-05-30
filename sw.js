@@ -1,4 +1,4 @@
-const CACHE_NAME = 'edic-quiz-v1';
+const CACHE_NAME = 'edic-quiz-v3';
 const ASSETS = ['./index.html', './manifest.json', './icon.svg'];
 
 self.addEventListener('install', e => {

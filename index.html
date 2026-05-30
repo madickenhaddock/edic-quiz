@@ -172,6 +172,15 @@
   .confirm-box p { font-size:14px; margin-bottom:16px; }
   .confirm-box .confirm-actions { display:flex; gap:8px; justify-content:center; }
   @media(max-width:480px) { .container{padding:14px 10px;} .question-card{padding:18px 14px;} .option{padding:10px 12px;font-size:13px;} .stmt-row{flex-wrap:wrap;} .stats-table{font-size:11px;} }
+  /* Remote modules */
+  .fetch-bar { display:flex; gap:8px; margin-bottom:12px; align-items:center; }
+  .fetch-status { font-size:12px; color:var(--text-muted); }
+  .remote-list { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:12px; }
+  .remote-chip { display:inline-flex; align-items:center; gap:5px; padding:6px 12px; border:2px solid var(--border); border-radius:16px; font-size:12px; cursor:pointer; background:var(--card); transition:all .15s; -webkit-tap-highlight-color:transparent; }
+  .remote-chip:hover { border-color:var(--accent); }
+  .remote-chip.loading { opacity:.5; cursor:wait; }
+  .remote-chip.done { border-color:var(--correct); background:var(--correct-bg); color:var(--correct); cursor:default; }
+  .remote-chip .rc-count { color:var(--text-muted); font-size:11px; }
   .hidden { display:none!important; }
 </style>
 </head>
@@ -194,6 +203,11 @@
       <div class="hint">Du kan ladda flera moduler — de cachas automatiskt</div>
       <input type="file" id="fileInput" accept=".json" multiple style="display:none">
     </div>
+    <div class="fetch-bar">
+      <button class="btn btn-accent btn-sm" id="fetchModulesBtn">📥 Hämta moduler</button>
+      <span class="fetch-status" id="fetchStatus"></span>
+    </div>
+    <div class="remote-list hidden" id="remoteList"></div>
     <div class="loaded-modules" id="loadedModules"></div>
     <div id="setFilterWrap" class="set-filter hidden"></div>
     <div class="toggle-row">
@@ -660,6 +674,73 @@
     if(name==='start'){$('abortBtn').classList.add('hidden');$('headerSubtitle').textContent=allQuestions.length?`${modules.length} modul(er) — ${allQuestions.length} frågor`:'Ladda en modul-JSON för att börja';}
   }
   function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+
+  /* ── Remote module fetcher (GitHub API auto-discovery) ── */
+  const IGNORE_JSON=new Set(['manifest.json','modules.json','package.json','package-lock.json','tsconfig.json']);
+
+  function getRepoInfo(){
+    const host=location.hostname; // USERNAME.github.io
+    const parts=location.pathname.split('/').filter(Boolean); // ['edic-quiz']
+    if(host.endsWith('.github.io')){return{owner:host.split('.')[0],repo:parts[0]||''};}
+    return null;
+  }
+
+  $('fetchModulesBtn').addEventListener('click',fetchRemoteModules);
+
+  async function fetchRemoteModules(){
+    const status=$('fetchStatus');const list=$('remoteList');
+    const repo=getRepoInfo();
+    if(!repo||!repo.repo){status.textContent='Kan inte härleda repo från URL';return;}
+    status.textContent='Söker moduler…';
+    try{
+      const res=await fetch(`https://api.github.com/repos/${repo.owner}/${repo.repo}/contents/`);
+      if(!res.ok)throw new Error('HTTP '+res.status+(res.status===403?' (rate limit)':''));
+      const files=await res.json();
+      const jsonFiles=files.filter(f=>f.type==='file'&&f.name.endsWith('.json')&&!IGNORE_JSON.has(f.name));
+      if(jsonFiles.length===0){status.textContent='Inga modul-JSON hittades i repot';return;}
+      const loadedNames=new Set(modules.map(m=>m.module));
+      list.classList.remove('hidden');
+      list.innerHTML=jsonFiles.map(f=>{
+        const label=f.name.replace(/\.json$/,'').replace(/[_-]/g,' ');
+        return`<span class="remote-chip" data-file="${esc(f.name)}" data-label="${esc(label)}">${esc(label)}</span>`;
+      }).join('');
+      // Mark already loaded
+      list.querySelectorAll('.remote-chip').forEach(chip=>{
+        chip.addEventListener('click',()=>fetchOneModule(chip));
+      });
+      status.textContent=`${jsonFiles.length} moduler i repot`;
+      refreshRemoteChips();
+    }catch(e){status.textContent='Fel: '+e.message;console.error(e);}
+  }
+
+  function refreshRemoteChips(){
+    const loadedNames=new Set(modules.map(m=>m.module));
+    $('remoteList').querySelectorAll('.remote-chip').forEach(chip=>{
+      // Check if any loaded module came from this file
+      const fileName=chip.dataset.file;
+      const loaded=modules.some(m=>m._sourceFile===fileName)||loadedNames.has(chip.dataset.label);
+      if(loaded){chip.classList.add('done');if(!chip.textContent.includes('✓'))chip.textContent+=' ✓';}
+    });
+  }
+
+  async function fetchOneModule(chip){
+    if(chip.classList.contains('loading')||chip.classList.contains('done'))return;
+    chip.classList.add('loading');const origText=chip.textContent;chip.textContent='Laddar…';
+    try{
+      const res=await fetch('./'+chip.dataset.file+'?t='+Date.now());
+      if(!res.ok)throw new Error('HTTP '+res.status);
+      const data=await res.json();
+      if(!data.questions||!Array.isArray(data.questions)){chip.classList.remove('loading');chip.textContent='❌ Ogiltig JSON';return;}
+      const modName=data.module||chip.dataset.label;
+      data.module=modName;data._sourceFile=chip.dataset.file;if(!data.sections)data.sections={};
+      data.questions.forEach(q=>{q._module=modName;if(!q.id)q.id=modName+'_'+Math.random().toString(36).slice(2,8);if(!q.type)q.type='A';if(q.set===undefined)q.set=1;});
+      const ex=modules.findIndex(m=>m.module===modName);
+      if(ex>=0)modules[ex]=data;else modules.push(data);
+      saveCachedModules();renderModules();
+      chip.classList.remove('loading');chip.classList.add('done');
+      chip.innerHTML=`${esc(modName)} <span class="rc-count">${data.questions.length}q</span> ✓`;
+    }catch(e){chip.classList.remove('loading');chip.textContent=origText+' ❌';console.error(e);}
+  }
 
   /* ── PWA registration ── */
   if('serviceWorker' in navigator){navigator.serviceWorker.register('./sw.js').catch(()=>{});}
