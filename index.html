@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="EDIC Quiz">
+<meta name="theme-color" content="#1e3a5f">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/svg+xml" href="icon.svg">
+<link rel="apple-touch-icon" href="icon.svg">
+<title>EDIC 1 Quiz Trainer</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #fff; --text: #1a1a2e; --text-muted: #6b7280;
+    --primary: #1e3a5f; --primary-light: #2d5a8e; --accent: #0891b2;
+    --correct: #059669; --correct-bg: #ecfdf5; --wrong: #dc2626; --wrong-bg: #fef2f2;
+    --selected: #0891b2; --selected-bg: #e0f7fa;
+    --border: #e5e7eb; --hover: #f0f4f8; --radius: 10px;
+    --safe-top: env(safe-area-inset-top,0px);
+    --safe-bottom: env(safe-area-inset-bottom,0px);
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue',sans-serif; background:var(--bg); color:var(--text); line-height:1.6; min-height:100vh; min-height:100dvh; -webkit-text-size-adjust:100%; }
+  header { background:var(--primary); color:#fff; padding:calc(12px + var(--safe-top)) 16px 12px; position:sticky; top:0; z-index:100; box-shadow:0 2px 8px rgba(0,0,0,.15); display:flex; align-items:center; justify-content:space-between; gap:8px; }
+  .header-left h1 { font-size:18px; font-weight:600; }
+  .header-left .subtitle { font-size:12px; opacity:.75; margin-top:1px; }
+  .header-right { display:flex; gap:6px; flex-shrink:0; }
+  .hdr-btn { background:rgba(255,255,255,.15); border:none; color:#fff; border-radius:8px; padding:8px 12px; font-size:13px; font-weight:600; cursor:pointer; transition:background .15s; white-space:nowrap; }
+  .hdr-btn:hover { background:rgba(255,255,255,.25); }
+  .hdr-btn.danger { background:rgba(220,38,38,.7); }
+  .hdr-btn.danger:hover { background:rgba(220,38,38,.9); }
+  .container { max-width:720px; margin:0 auto; padding:20px 16px calc(20px + var(--safe-bottom)); }
+  /* Drop zone */
+  .drop-zone { border:2px dashed var(--border); border-radius:var(--radius); padding:40px 20px; text-align:center; cursor:pointer; transition:all .2s; background:var(--card); margin-bottom:12px; }
+  .drop-zone:hover,.drop-zone.dragover { border-color:var(--accent); background:#f0fdfa; }
+  .drop-zone .icon { font-size:36px; margin-bottom:8px; }
+  .drop-zone .label { font-size:15px; font-weight:500; }
+  .drop-zone .hint { font-size:12px; color:var(--text-muted); margin-top:4px; }
+  /* Module tags */
+  .loaded-modules { margin-top:12px; }
+  .module-tag { display:inline-flex; align-items:center; gap:6px; background:var(--card); border:1px solid var(--border); border-radius:20px; padding:5px 12px; font-size:12px; margin:3px 3px 3px 0; }
+  .module-tag .count { color:var(--accent); font-weight:600; }
+  .module-tag .remove { cursor:pointer; color:var(--text-muted); font-size:15px; line-height:1; }
+  .module-tag .remove:hover { color:var(--wrong); }
+  .module-tag .cached-dot { width:6px; height:6px; border-radius:50%; background:var(--correct); flex-shrink:0; }
+  /* Set filter */
+  .set-filter { margin-top:12px; }
+  .set-filter-title { font-size:12px; font-weight:600; color:var(--text-muted); margin-bottom:6px; }
+  .set-filter-row { display:flex; flex-wrap:wrap; gap:5px; margin-bottom:6px; }
+  .set-filter-row .mod-label { font-size:11px; color:var(--accent); font-weight:600; min-width:100%; margin-bottom:1px; }
+  .set-chip { display:inline-flex; align-items:center; gap:4px; padding:4px 10px; border:2px solid var(--border); border-radius:14px; font-size:12px; cursor:pointer; background:var(--card); transition:all .15s; user-select:none; }
+  .set-chip:hover { border-color:var(--accent); }
+  .set-chip.active { border-color:var(--accent); background:var(--selected-bg); color:var(--accent); font-weight:600; }
+  /* Buttons */
+  .btn { display:inline-flex; align-items:center; justify-content:center; gap:6px; padding:12px 24px; border-radius:var(--radius); font-size:14px; font-weight:600; border:none; cursor:pointer; transition:all .15s; -webkit-tap-highlight-color:transparent; }
+  .btn-primary { background:var(--primary); color:#fff; }
+  .btn-primary:hover { background:var(--primary-light); }
+  .btn-primary:disabled { opacity:.4; cursor:not-allowed; }
+  .btn-secondary { background:var(--card); color:var(--text); border:1px solid var(--border); }
+  .btn-secondary:hover { background:var(--hover); }
+  .btn-accent { background:var(--accent); color:#fff; }
+  .btn-accent:hover { opacity:.9; }
+  .btn-sm { padding:8px 14px; font-size:12px; }
+  .start-actions { display:flex; gap:8px; margin-top:16px; flex-wrap:wrap; }
+  .toggle-row { display:flex; align-items:center; gap:8px; margin-top:12px; font-size:13px; }
+  .toggle-row input[type="checkbox"] { width:18px; height:18px; accent-color:var(--accent); }
+  /* Progress */
+  .progress-bar-wrap { background:var(--border); border-radius:4px; height:6px; margin-bottom:16px; overflow:hidden; }
+  .progress-bar-fill { height:100%; background:var(--accent); transition:width .3s; border-radius:4px; }
+  .progress-text { display:flex; justify-content:space-between; font-size:12px; color:var(--text-muted); margin-bottom:6px; }
+  /* Question card */
+  .question-card { background:var(--card); border-radius:var(--radius); padding:24px 20px; box-shadow:0 1px 4px rgba(0,0,0,.06); margin-bottom:12px; }
+  .q-module { font-size:11px; text-transform:uppercase; letter-spacing:.5px; color:var(--accent); font-weight:600; margin-bottom:3px; }
+  .q-section { font-size:11px; color:var(--text-muted); margin-bottom:8px; }
+  .type-badge { display:inline-block; font-size:10px; font-weight:700; letter-spacing:.4px; padding:3px 8px; border-radius:4px; margin-bottom:12px; }
+  .type-badge.type-a { background:#dbeafe; color:#1e40af; }
+  .type-badge.type-k { background:#fef3c7; color:#92400e; }
+  .q-image { margin-bottom:14px; }
+  .q-image img { max-width:100%; border-radius:8px; border:1px solid var(--border); }
+  .q-text { font-size:15px; font-weight:500; line-height:1.5; margin-bottom:16px; }
+  /* Type A options */
+  .option { display:flex; align-items:center; gap:8px; width:100%; text-align:left; padding:12px 14px; border:2px solid var(--border); border-radius:8px; background:var(--card); font-size:14px; line-height:1.5; cursor:pointer; transition:all .15s; margin-bottom:6px; color:var(--text); position:relative; -webkit-tap-highlight-color:transparent; }
+  .option:hover:not(.locked) { border-color:var(--accent); background:#f0fdfa; }
+  .option.locked { cursor:default; }
+  .option .opt-marker { display:none; flex-shrink:0; width:22px; height:22px; border-radius:50%; font-size:13px; font-weight:700; line-height:22px; text-align:center; color:#fff; }
+  .option .opt-badge { display:none; font-size:10px; font-weight:600; margin-left:auto; flex-shrink:0; padding:2px 6px; border-radius:4px; }
+  .option.pre-selected { border-color:var(--selected); background:var(--selected-bg); font-weight:500; }
+  .option.result-correct { border-color:var(--correct); background:var(--correct-bg); }
+  .option.result-correct .opt-marker { display:block; background:var(--correct); }
+  .option.result-wrong { border-color:var(--wrong); background:var(--wrong-bg); }
+  .option.result-wrong .opt-marker { display:block; background:var(--wrong); }
+  .option.result-neutral { opacity:.5; }
+  .option .opt-badge.badge-yours { display:block; background:var(--wrong-bg); color:var(--wrong); }
+  .option .opt-badge.badge-correct { display:block; background:var(--correct-bg); color:var(--correct); }
+  .option .opt-badge.badge-yours-correct { display:block; background:var(--correct-bg); color:var(--correct); }
+  .confirm-wrap { text-align:center; margin-top:10px; }
+  /* Type K statements */
+  .stmt-row { display:flex; align-items:center; gap:8px; padding:10px 12px; border:2px solid var(--border); border-radius:8px; margin-bottom:6px; transition:all .15s; }
+  .stmt-text { flex:1; font-size:14px; line-height:1.5; }
+  .stmt-label { font-weight:700; color:var(--text-muted); min-width:20px; }
+  .stmt-badge { display:none; font-size:10px; font-weight:600; padding:2px 6px; border-radius:4px; flex-shrink:0; }
+  .stmt-row.row-correct .stmt-badge.sb-show { display:block; background:var(--correct-bg); color:var(--correct); }
+  .stmt-row.row-wrong .stmt-badge.sb-show { display:block; background:var(--wrong-bg); color:var(--wrong); }
+  .tf-toggle { display:flex; gap:3px; flex-shrink:0; }
+  .tf-toggle button { padding:6px 12px; border:2px solid var(--border); border-radius:6px; background:var(--card); font-size:12px; font-weight:600; cursor:pointer; transition:all .15s; color:var(--text-muted); min-width:44px; -webkit-tap-highlight-color:transparent; }
+  .tf-toggle button:hover:not(.locked) { border-color:var(--accent); }
+  .tf-toggle button.active { border-color:var(--accent); background:#e0f7fa; color:var(--accent); }
+  .tf-toggle button.locked { cursor:default; }
+  .tf-toggle button.ans-correct { border-color:var(--correct); background:var(--correct-bg); color:var(--correct); }
+  .tf-toggle button.ans-wrong { border-color:var(--wrong); background:var(--wrong-bg); color:var(--wrong); }
+  .stmt-row.row-correct { border-color:var(--correct); background:var(--correct-bg); }
+  .stmt-row.row-wrong { border-color:var(--wrong); background:var(--wrong-bg); }
+  .k-score { text-align:center; font-size:13px; font-weight:600; margin-top:8px; padding:6px; border-radius:6px; }
+  .k-score.perfect { background:var(--correct-bg); color:var(--correct); }
+  .k-score.partial { background:#fef3c7; color:#92400e; }
+  .k-score.zero { background:var(--wrong-bg); color:var(--wrong); }
+  /* Feedback */
+  .feedback { margin-top:14px; padding:14px; border-radius:8px; font-size:13px; line-height:1.6; display:none; }
+  .feedback.show { display:block; }
+  .feedback.correct { background:var(--correct-bg); border-left:4px solid var(--correct); }
+  .feedback.wrong { background:var(--wrong-bg); border-left:4px solid var(--wrong); }
+  .feedback.partial { background:#fef3c7; border-left:4px solid #f59e0b; }
+  .feedback .fb-label { font-weight:700; margin-bottom:3px; }
+  .feedback .fb-section { font-size:11px; color:var(--text-muted); margin-top:6px; }
+  .feedback .fb-section a { color:var(--accent); text-decoration:underline; cursor:pointer; }
+  .next-btn-wrap { text-align:center; margin-top:12px; }
+  /* Summary */
+  .summary-card { background:var(--card); border-radius:var(--radius); padding:28px 20px; box-shadow:0 1px 4px rgba(0,0,0,.06); text-align:center; }
+  .score-big { font-size:48px; font-weight:700; color:var(--primary); margin:8px 0; }
+  .score-label { font-size:13px; color:var(--text-muted); }
+  .wrong-list { margin-top:20px; text-align:left; }
+  .wrong-list h3 { font-size:14px; margin-bottom:10px; color:var(--wrong); }
+  .wrong-item { background:var(--wrong-bg); border-radius:8px; padding:12px; margin-bottom:6px; font-size:12px; line-height:1.5; }
+  .wrong-item .wi-q { font-weight:500; margin-bottom:3px; }
+  .wrong-item .wi-a { color:var(--correct); }
+  .wrong-item .wi-your { color:var(--wrong); font-weight:500; margin-top:2px; }
+  .wrong-item .wi-s { color:var(--text-muted); font-size:11px; margin-top:3px; }
+  .wrong-item .wi-s a { color:var(--accent); text-decoration:underline; cursor:pointer; }
+  .wrong-item .wi-type { font-size:10px; font-weight:600; color:var(--text-muted); }
+  .summary-actions { display:flex; gap:8px; justify-content:center; margin-top:20px; flex-wrap:wrap; }
+  .stats-row { display:flex; justify-content:center; gap:20px; margin-top:12px; font-size:13px; }
+  .stats-row .stat-val { font-weight:700; }
+  /* Stats panel */
+  .stats-panel { margin-top:20px; }
+  .stats-toggle { display:flex; align-items:center; gap:6px; font-size:13px; font-weight:600; color:var(--primary); cursor:pointer; padding:8px 0; border:none; background:none; -webkit-tap-highlight-color:transparent; }
+  .stats-toggle .arrow { transition:transform .2s; display:inline-block; }
+  .stats-toggle .arrow.open { transform:rotate(90deg); }
+  .stats-content { background:var(--card); border-radius:var(--radius); box-shadow:0 1px 4px rgba(0,0,0,.06); overflow:hidden; }
+  .stats-section { padding:16px; border-bottom:1px solid var(--border); }
+  .stats-section:last-child { border-bottom:none; }
+  .stats-section h3 { font-size:13px; font-weight:600; color:var(--primary); margin-bottom:10px; }
+  .stats-table { width:100%; border-collapse:collapse; font-size:12px; }
+  .stats-table th { text-align:left; font-weight:600; color:var(--text-muted); padding:6px 8px; border-bottom:1px solid var(--border); font-size:11px; text-transform:uppercase; letter-spacing:.3px; }
+  .stats-table td { padding:6px 8px; border-bottom:1px solid #f3f4f6; }
+  .stats-table tr:last-child td { border-bottom:none; }
+  .mini-bar { display:inline-block; height:12px; border-radius:3px; background:var(--accent); min-width:2px; vertical-align:middle; }
+  .stats-empty { font-size:13px; color:var(--text-muted); padding:20px; text-align:center; }
+  .stats-actions { padding:12px 16px; display:flex; gap:8px; }
+  /* Section modal */
+  .modal-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,.45); z-index:500; align-items:center; justify-content:center; padding:16px; }
+  .modal-overlay.open { display:flex; }
+  .modal { background:var(--card); border-radius:12px; max-width:680px; width:100%; max-height:80vh; display:flex; flex-direction:column; box-shadow:0 8px 32px rgba(0,0,0,.2); }
+  .modal-header { display:flex; align-items:center; justify-content:space-between; padding:14px 16px; border-bottom:1px solid var(--border); flex-shrink:0; }
+  .modal-header h2 { font-size:14px; font-weight:600; color:var(--primary); }
+  .modal-close { background:none; border:none; font-size:24px; cursor:pointer; color:var(--text-muted); padding:0 4px; line-height:1; }
+  .modal-close:hover { color:var(--text); }
+  .modal-body { padding:16px; overflow-y:auto; font-size:13px; line-height:1.7; white-space:pre-wrap; -webkit-overflow-scrolling:touch; }
+  /* Confirm dialog */
+  .confirm-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,.5); z-index:600; align-items:center; justify-content:center; padding:16px; }
+  .confirm-overlay.open { display:flex; }
+  .confirm-box { background:var(--card); border-radius:12px; padding:24px; max-width:340px; width:100%; text-align:center; box-shadow:0 8px 32px rgba(0,0,0,.2); }
+  .confirm-box p { font-size:14px; margin-bottom:16px; }
+  .confirm-box .confirm-actions { display:flex; gap:8px; justify-content:center; }
+  @media(max-width:480px) { .container{padding:14px 10px;} .question-card{padding:18px 14px;} .option{padding:10px 12px;font-size:13px;} .stmt-row{flex-wrap:wrap;} .stats-table{font-size:11px;} }
+  /* Remote modules */
+  .fetch-bar { display:flex; gap:8px; margin-bottom:12px; align-items:center; }
+  .fetch-status { font-size:12px; color:var(--text-muted); }
+  .remote-list { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:12px; }
+  .remote-chip { display:inline-flex; align-items:center; gap:5px; padding:6px 12px; border:2px solid var(--border); border-radius:16px; font-size:12px; cursor:pointer; background:var(--card); transition:all .15s; -webkit-tap-highlight-color:transparent; }
+  .remote-chip:hover { border-color:var(--accent); }
+  .remote-chip.loading { opacity:.5; cursor:wait; }
+  .remote-chip.done { border-color:var(--correct); background:var(--correct-bg); color:var(--correct); cursor:default; }
+  .remote-chip .rc-count { color:var(--text-muted); font-size:11px; }
+  .hidden { display:none!important; }
+</style>
+</head>
+<body>
+<header>
+  <div class="header-left">
+    <h1>EDIC 1 Quiz Trainer</h1>
+    <div class="subtitle" id="headerSubtitle">Ladda en modul-JSON för att börja</div>
+  </div>
+  <div class="header-right">
+    <button class="hdr-btn danger hidden" id="abortBtn">✕ Avsluta</button>
+  </div>
+</header>
+<div class="container">
+  <!-- START SCREEN -->
+  <div id="startScreen">
+    <div class="drop-zone" id="dropZone">
+      <div class="icon">📂</div>
+      <div class="label">Dra en JSON-fil hit eller klicka för att välja</div>
+      <div class="hint">Du kan ladda flera moduler — de cachas automatiskt</div>
+      <input type="file" id="fileInput" accept=".json" multiple style="display:none">
+    </div>
+    <div class="fetch-bar">
+      <button class="btn btn-accent btn-sm" id="fetchModulesBtn">📥 Hämta moduler</button>
+      <span class="fetch-status" id="fetchStatus"></span>
+    </div>
+    <div class="remote-list hidden" id="remoteList"></div>
+    <div class="loaded-modules" id="loadedModules"></div>
+    <div id="setFilterWrap" class="set-filter hidden"></div>
+    <div class="start-actions">
+      <button class="btn btn-primary" id="startBtn" disabled>Starta quiz</button>
+      <button class="btn btn-secondary btn-sm" id="clearCache">Rensa cachade moduler</button>
+      <button class="btn btn-secondary btn-sm" id="clearProgress">Rensa progress</button>
+    </div>
+
+    <!-- Stats panel -->
+    <div class="stats-panel" id="statsPanel">
+      <button class="stats-toggle" id="statsToggle">
+        <span class="arrow" id="statsArrow">▶</span> Statistik &amp; historik
+      </button>
+      <div id="statsContent" class="hidden"></div>
+    </div>
+  </div>
+
+  <!-- QUIZ SCREEN -->
+  <div id="quizScreen" class="hidden">
+    <div class="progress-text">
+      <span id="progressLabel"></span>
+      <span id="scoreLabel"></span>
+    </div>
+    <div class="progress-bar-wrap"><div class="progress-bar-fill" id="progressBar" style="width:0%"></div></div>
+    <div class="question-card" id="questionCard">
+      <div class="q-module" id="qModule"></div>
+      <div class="q-section" id="qSection"></div>
+      <div id="typeBadge" class="type-badge"></div>
+      <div id="qImage" class="q-image hidden"></div>
+      <div class="q-text" id="qText"></div>
+      <div id="optionsWrap"></div>
+      <div class="feedback" id="feedback">
+        <div class="fb-label" id="fbLabel"></div>
+        <div class="fb-text" id="fbText"></div>
+        <div class="fb-section" id="fbSection"></div>
+      </div>
+    </div>
+    <div class="next-btn-wrap">
+      <button class="btn btn-accent hidden" id="nextBtn">Nästa fråga →</button>
+    </div>
+  </div>
+
+  <!-- SUMMARY SCREEN -->
+  <div id="summaryScreen" class="hidden">
+    <div class="summary-card">
+      <div class="score-label">Resultat</div>
+      <div class="score-big" id="finalScore"></div>
+      <div class="stats-row">
+        <div><span class="stat-val" id="statCorrect"></span> poäng</div>
+        <div><span class="stat-val" id="statWrong"></span> fel/delfel</div>
+        <div><span class="stat-val" id="statTotal"></span> frågor</div>
+      </div>
+      <div class="wrong-list hidden" id="wrongList">
+        <h3>Frågor att repetera:</h3>
+        <div id="wrongItems"></div>
+      </div>
+      <div class="summary-actions">
+        <button class="btn btn-primary" id="retryWrongBtn">Kör om felen</button>
+        <button class="btn btn-accent" id="retryAllBtn">Kör alla igen</button>
+        <button class="btn btn-secondary" id="backBtn">Tillbaka</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Section text modal -->
+<div class="modal-overlay" id="sectionModal">
+  <div class="modal">
+    <div class="modal-header">
+      <h2 id="modalTitle">§ Sektion</h2>
+      <button class="modal-close" id="modalClose">&times;</button>
+    </div>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<!-- Confirm dialog -->
+<div class="confirm-overlay" id="confirmDialog">
+  <div class="confirm-box">
+    <p id="confirmMsg">Avbryt quiz?</p>
+    <div class="confirm-actions">
+      <button class="btn btn-secondary btn-sm" id="confirmNo">Fortsätt</button>
+      <button class="btn btn-primary btn-sm" id="confirmYes" style="background:var(--wrong)">Avsluta</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  /* ── State ── */
+  let modules=[], allQuestions=[], quizQueue=[], currentIdx=0, score=0, answered=[];
+  let progress=loadJSON('edic_progress',{});
+  let sessions=loadJSON('edic_sessions',[]);
+  let activeSets={};
+  let quizActive=false;
+  let sessionStartTime=null;
+
+  const $=id=>document.getElementById(id);
+  const startScreen=$('startScreen'), quizScreen=$('quizScreen'), summaryScreen=$('summaryScreen');
+
+  /* ── LocalStorage helpers ── */
+  function loadJSON(key,fallback){try{const v=localStorage.getItem(key);return v?JSON.parse(v):fallback;}catch{return fallback;}}
+  function saveJSON(key,val){try{localStorage.setItem(key,JSON.stringify(val));}catch(e){console.warn('localStorage full',e);}}
+
+  /* ── Module cache ── */
+  function loadCachedModules(){
+    const cached=loadJSON('edic_modules',[]);
+    cached.forEach(data=>{
+      data.questions.forEach(q=>{q._module=data.module;if(!q.id)q.id=data.module+'_'+Math.random().toString(36).slice(2,8);if(!q.type)q.type='A';if(q.set===undefined)q.set=1;});
+      modules.push(data);
+    });
+    if(modules.length)renderModules();
+  }
+  function saveCachedModules(){
+    const toSave=modules.map(m=>({module:m.module,sections:m.sections||{},questions:m.questions.map(q=>{const c={...q};delete c._module;return c;})}));
+    saveJSON('edic_modules',toSave);
+  }
+
+  /* ── File handling ── */
+  $('dropZone').addEventListener('click',()=>$('fileInput').click());
+  $('dropZone').addEventListener('dragover',e=>{e.preventDefault();$('dropZone').classList.add('dragover');});
+  $('dropZone').addEventListener('dragleave',()=>$('dropZone').classList.remove('dragover'));
+  $('dropZone').addEventListener('drop',e=>{e.preventDefault();$('dropZone').classList.remove('dragover');handleFiles(e.dataTransfer.files);});
+  $('fileInput').addEventListener('change',e=>{handleFiles(e.target.files);e.target.value='';});
+
+  function handleFiles(files){
+    Array.from(files).forEach(file=>{
+      const reader=new FileReader();
+      reader.onload=e=>{
+        try{
+          const data=JSON.parse(e.target.result);
+          if(!data.questions||!Array.isArray(data.questions)){alert('Ogiltig JSON: saknar "questions"-array');return;}
+          const modName=data.module||file.name;
+          data.module=modName;
+          if(!data.sections)data.sections={};
+          data.questions.forEach(q=>{q._module=modName;if(!q.id)q.id=modName+'_'+Math.random().toString(36).slice(2,8);if(!q.type)q.type='A';if(q.set===undefined)q.set=1;});
+          const ex=modules.findIndex(m=>m.module===modName);
+          if(ex>=0)modules[ex]=data;else modules.push(data);
+          saveCachedModules();
+          renderModules();
+        }catch(err){alert('JSON-fel: '+err.message);}
+      };
+      reader.readAsText(file);
+    });
+  }
+
+  function renderModules(){
+    allQuestions=modules.flatMap(m=>m.questions);
+    $('loadedModules').innerHTML=modules.map((m,i)=>{
+      const a=m.questions.filter(q=>q.type==='A').length;
+      const k=m.questions.filter(q=>q.type==='K').length;
+      return`<span class="module-tag"><span class="cached-dot" title="Cachad"></span>${esc(m.module||'Okänd')} <span class="count">${a}A+${k}K</span><span class="remove" data-idx="${i}">&times;</span></span>`;
+    }).join('');
+    $('loadedModules').querySelectorAll('.remove').forEach(el=>{
+      el.addEventListener('click',e=>{modules.splice(+e.target.dataset.idx,1);saveCachedModules();renderModules();});
+    });
+    $('startBtn').disabled=allQuestions.length===0;
+    $('headerSubtitle').textContent=allQuestions.length?`${modules.length} modul(er) — ${allQuestions.length} frågor`:'Ladda en modul-JSON för att börja';
+    renderSetFilter();
+  }
+
+  /* ── Set filter ── */
+  function renderSetFilter(){
+    const wrap=$('setFilterWrap');
+    const hasSets=modules.some(m=>{const sets=new Set(m.questions.map(q=>q.set||1));return sets.size>1;});
+    if(!hasSets&&modules.length<=1){wrap.classList.add('hidden');wrap.innerHTML='';return;}
+    wrap.classList.remove('hidden');
+    let html='<div class="set-filter-title">Välj set att köra:</div>';
+    modules.forEach(m=>{
+      const modName=m.module||'Okänd';
+      const sets=[...new Set(m.questions.map(q=>q.set||1))].sort((a,b)=>a-b);
+      if(!activeSets[modName])activeSets[modName]=new Set(sets);
+      html+=`<div class="set-filter-row"><div class="mod-label">${esc(modName)}</div>`;
+      sets.forEach(s=>{const count=m.questions.filter(q=>(q.set||1)===s).length;const isActive=activeSets[modName].has(s);html+=`<span class="set-chip ${isActive?'active':''}" data-mod="${esc(modName)}" data-set="${s}">Set ${s} (${count})</span>`;});
+      html+=`</div>`;
+    });
+    wrap.innerHTML=html;
+    wrap.querySelectorAll('.set-chip').forEach(chip=>{chip.addEventListener('click',()=>{const mod=chip.dataset.mod,s=+chip.dataset.set;if(!activeSets[mod])activeSets[mod]=new Set();if(activeSets[mod].has(s))activeSets[mod].delete(s);else activeSets[mod].add(s);chip.classList.toggle('active');updateFilteredCount();});});
+    updateFilteredCount();
+  }
+
+  function getFilteredQuestions(){return allQuestions.filter(q=>{const mod=q._module;if(!activeSets[mod])return true;if(activeSets[mod].size===0)return false;return activeSets[mod].has(q.set||1);});}
+  function updateFilteredCount(){$('startBtn').disabled=getFilteredQuestions().length===0;}
+
+  /* ── Section modal ── */
+  function getSectionText(moduleName,sectionKey){
+    const mod=modules.find(m=>m.module===moduleName);if(!mod||!mod.sections)return null;
+    if(mod.sections[sectionKey])return mod.sections[sectionKey];
+    const lk=sectionKey.toLowerCase();
+    for(const k of Object.keys(mod.sections)){if(k.toLowerCase().includes(lk)||lk.includes(k.toLowerCase()))return mod.sections[k];}
+    return null;
+  }
+  function openSectionModal(moduleName,sectionKey){
+    const text=getSectionText(moduleName,sectionKey);
+    if(!text){alert('Sektionstext saknas i JSON.');return;}
+    $('modalTitle').textContent='§ '+sectionKey;$('modalBody').textContent=text;$('sectionModal').classList.add('open');
+  }
+  $('modalClose').addEventListener('click',()=>$('sectionModal').classList.remove('open'));
+  $('sectionModal').addEventListener('click',e=>{if(e.target===$('sectionModal'))$('sectionModal').classList.remove('open');});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'){$('sectionModal').classList.remove('open');$('confirmDialog').classList.remove('open');}});
+
+  function sectionLinkHTML(moduleName,sectionKey,sectionUrl){
+    let parts=[];
+    if(sectionKey){
+      const hasText=!!getSectionText(moduleName,sectionKey);
+      if(hasText) parts.push(`<a data-mod="${esc(moduleName)}" data-sec="${esc(sectionKey)}" class="section-link">§ ${esc(sectionKey)}</a>`);
+      else parts.push(`§ ${esc(sectionKey)}`);
+    }
+    if(sectionUrl) parts.push(`<a href="${esc(sectionUrl)}" target="_blank" rel="noopener">📖 Läs mer</a>`);
+    if(parts.length===0) return '';
+    return parts.join(' · ');
+  }
+  function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+  document.addEventListener('click',e=>{const link=e.target.closest('.section-link');if(link){e.preventDefault();openSectionModal(link.dataset.mod,link.dataset.sec);}});
+
+  /* ── Confirm dialog ── */
+  let confirmResolve=null;
+  function showConfirm(msg){
+    return new Promise(resolve=>{
+      $('confirmMsg').textContent=msg;$('confirmDialog').classList.add('open');
+      confirmResolve=resolve;
+    });
+  }
+  $('confirmYes').addEventListener('click',()=>{$('confirmDialog').classList.remove('open');if(confirmResolve)confirmResolve(true);});
+  $('confirmNo').addEventListener('click',()=>{$('confirmDialog').classList.remove('open');if(confirmResolve)confirmResolve(false);});
+
+  /* ── Abort quiz ── */
+  $('abortBtn').addEventListener('click',async()=>{
+    const ok=await showConfirm('Avbryta quiz? Besvarade frågor sparas i historiken.');
+    if(ok)endQuizEarly();
+  });
+
+  function endQuizEarly(){
+    logSession(true);
+    quizActive=false;
+    $('abortBtn').classList.add('hidden');
+    showScreen('start');
+    renderStats();
+  }
+
+  /* ── Quiz start ── */
+  $('startBtn').addEventListener('click',()=>{const filtered=getFilteredQuestions();if(filtered.length)startQuiz(filtered);});
+
+  function startQuiz(questions){
+    quizQueue=prioritizeQuestions([...questions]);
+    currentIdx=0;score=0;answered=[];quizActive=true;sessionStartTime=Date.now();
+    $('abortBtn').classList.remove('hidden');
+    showScreen('quiz');
+    renderQuestion();
+  }
+
+  function prioritizeQuestions(questions){
+    const undone=questions.filter(q=>!progress[q.id]||progress[q.id].attempts===0);
+    const done=questions.filter(q=>progress[q.id]&&progress[q.id].attempts>0);
+    const doneWithErrors=done.filter(q=>progress[q.id].wrong>0).sort((a,b)=>(progress[b.id].wrong||0)-(progress[a.id].wrong||0));
+    const doneAllRight=done.filter(q=>progress[q.id].wrong===0);
+    if(undone.length>0) return [...shuffle(undone),...doneWithErrors,...shuffle(doneAllRight)];
+    if(doneWithErrors.length>0) return [...doneWithErrors,...shuffle(doneAllRight)];
+    return shuffle(questions);
+  }
+
+  /* ── Render question ── */
+  function renderQuestion(){
+    const q=quizQueue[currentIdx],total=quizQueue.length;
+    $('progressLabel').textContent=`Fråga ${currentIdx+1} av ${total}`;
+    $('scoreLabel').textContent=`${fmtS(score)}p`;
+    $('progressBar').style.width=((currentIdx)/total*100)+'%';
+    $('qModule').textContent=q._module;
+    $('qSection').textContent=q.section?'§ '+q.section:'';
+    const badge=$('typeBadge');
+    if(q.type==='K'){badge.className='type-badge type-k';badge.textContent='TYPE K — Bedöm varje påstående';}
+    else{badge.className='type-badge type-a';badge.textContent='TYPE A — Välj bästa svaret';}
+    const imgWrap=$('qImage');
+    if(q.image){imgWrap.innerHTML=`<img src="${q.image}" alt="Frågebild">`;imgWrap.classList.remove('hidden');}
+    else{imgWrap.innerHTML='';imgWrap.classList.add('hidden');}
+    $('qText').textContent=q.question;
+    const wrap=$('optionsWrap');
+    if(q.type==='K')renderTypeK(q,wrap);else renderTypeA(q,wrap);
+    $('feedback').className='feedback';$('nextBtn').classList.add('hidden');
+  }
+
+  /* ── TYPE A ── */
+  function renderTypeA(q,wrap){
+    let selectedIdx=null,confirmed=false;
+    wrap.innerHTML=q.options.map((o,i)=>`<button class="option" data-idx="${i}"><span class="opt-marker"></span><span class="opt-text">${esc(o)}</span><span class="opt-badge"></span></button>`).join('')+`<div class="confirm-wrap"><button class="btn btn-primary" id="confirmA" disabled>Bekräfta svar</button></div>`;
+    const btns=wrap.querySelectorAll('.option');const confirmBtn=$('confirmA');
+    btns.forEach(btn=>{btn.addEventListener('click',()=>{if(confirmed)return;btns.forEach(b=>b.classList.remove('pre-selected'));btn.classList.add('pre-selected');selectedIdx=+btn.dataset.idx;confirmBtn.disabled=false;});});
+    confirmBtn.addEventListener('click',()=>{
+      if(selectedIdx===null||confirmed)return;confirmed=true;confirmBtn.classList.add('hidden');
+      const ok=selectedIdx===q.correct;const qScore=ok?1:0;score+=qScore;
+      btns.forEach(btn=>{
+        btn.classList.remove('pre-selected');btn.classList.add('locked');
+        const idx=+btn.dataset.idx;const marker=btn.querySelector('.opt-marker');const badge=btn.querySelector('.opt-badge');
+        if(idx===q.correct&&ok){btn.classList.add('result-correct');marker.textContent='✓';badge.textContent='Ditt svar';badge.className='opt-badge badge-yours-correct';}
+        else if(idx===q.correct&&!ok){btn.classList.add('result-correct');marker.textContent='✓';badge.textContent='Rätt svar';badge.className='opt-badge badge-correct';}
+        else if(idx===selectedIdx&&!ok){btn.classList.add('result-wrong');marker.textContent='✗';badge.textContent='Ditt svar';badge.className='opt-badge badge-yours';}
+        else{btn.classList.add('result-neutral');}
+      });
+      answered.push({question:q,correct:ok,partial:false,qScore:qScore,detail:null,userAnswer:selectedIdx});
+      updateProgress(q.id,ok);showFeedbackA(q,ok);$('nextBtn').classList.remove('hidden');
+    });
+  }
+
+  function showFeedbackA(q,ok){
+    const fb=$('feedback');fb.className='feedback show '+(ok?'correct':'wrong');
+    $('fbLabel').textContent=ok?'✓ Rätt!':'✗ Fel';$('fbText').textContent=q.explanation||'';
+    $('fbSection').innerHTML=sectionLinkHTML(q._module,q.section,q.section_url);
+  }
+
+  /* ── TYPE K ── */
+  function renderTypeK(q,wrap){
+    const stmts=q.statements;
+    let html=stmts.map((s,i)=>`<div class="stmt-row" data-idx="${i}"><span class="stmt-label">${esc(s.label||String.fromCharCode(65+i))}</span><span class="stmt-text">${esc(s.text)}</span><span class="stmt-badge"></span><div class="tf-toggle"><button data-val="true">T</button><button data-val="false">F</button></div></div>`).join('');
+    html+=`<div class="confirm-wrap"><button class="btn btn-primary" id="confirmK" disabled>Bekräfta svar</button></div>`;
+    wrap.innerHTML=html;
+    const selections=new Array(stmts.length).fill(null);
+    wrap.querySelectorAll('.stmt-row').forEach(row=>{
+      const idx=+row.dataset.idx;
+      row.querySelectorAll('.tf-toggle button').forEach(btn=>{btn.addEventListener('click',()=>{row.querySelectorAll('.tf-toggle button').forEach(b=>b.classList.remove('active'));btn.classList.add('active');selections[idx]=btn.dataset.val==='true';if(selections.every(s=>s!==null))$('confirmK').disabled=false;});});
+    });
+    $('confirmK').addEventListener('click',()=>{
+      if(selections.some(s=>s===null))return;$('confirmK').classList.add('hidden');
+      let nCorrect=0;
+      wrap.querySelectorAll('.stmt-row').forEach(row=>{
+        const idx=+row.dataset.idx;const correct=stmts[idx].correct;const chose=selections[idx];const ok=chose===correct;if(ok)nCorrect++;
+        row.classList.add(ok?'row-correct':'row-wrong');const badge=row.querySelector('.stmt-badge');badge.classList.add('sb-show');badge.textContent=ok?'✓ Rätt':'✗ Fel — rätt: '+(correct?'TRUE':'FALSE');
+        row.querySelectorAll('.tf-toggle button').forEach(b=>{b.classList.add('locked');const bVal=b.dataset.val==='true';if(bVal===correct)b.classList.add('ans-correct');if(bVal===chose&&!ok)b.classList.add('ans-wrong');});
+      });
+      const total=stmts.length;const perfect=nCorrect===total;
+      let qScore=0;if(nCorrect===total)qScore=1;else if(nCorrect===total-1)qScore=0.5;
+      score+=qScore;
+      const partial=qScore===0.5;
+      answered.push({question:q,correct:perfect,partial:partial,qScore:qScore,detail:{nCorrect,total},userAnswer:selections.slice()});
+      updateProgress(q.id,perfect);
+      const ks=document.createElement('div');ks.className='k-score '+(perfect?'perfect':nCorrect>0?'partial':'zero');ks.textContent=`${nCorrect}/${total} påståenden rätt`+(qScore>0?` (${fmtS(qScore)}p)`:`  (0p)`);wrap.appendChild(ks);
+      const fb=$('feedback');fb.className='feedback show '+(perfect?'correct':partial?'partial':'wrong');
+      $('fbLabel').textContent=perfect?'✓ Alla rätt!':partial?`${nCorrect}/${total} rätt (0.5p)`:`${nCorrect}/${total} rätt (0p)`;$('fbText').textContent=q.explanation||'';
+      $('fbSection').innerHTML=sectionLinkHTML(q._module,q.section,q.section_url);$('nextBtn').classList.remove('hidden');
+    });
+  }
+
+  /* ── Navigation ── */
+  $('nextBtn').addEventListener('click',()=>{currentIdx++;if(currentIdx>=quizQueue.length){logSession(false);showSummary();}else renderQuestion();});
+
+  document.addEventListener('keydown',e=>{
+    if($('sectionModal').classList.contains('open')||$('confirmDialog').classList.contains('open'))return;
+    if(quizScreen.classList.contains('hidden'))return;
+    const q=quizQueue[currentIdx];if(!q)return;
+    if(q.type==='A'){
+      const opts=$('optionsWrap').querySelectorAll('.option:not(.locked)');
+      if(e.key>='1'&&e.key<='5'){const i=+e.key-1;if(opts[i])opts[i].click();}
+      if(e.key==='Enter'){const cb=$('confirmA');if(cb&&!cb.disabled&&!cb.classList.contains('hidden'))cb.click();}
+    }
+    if(q.type==='K'&&e.key==='Enter'){const cb=$('confirmK');if(cb&&!cb.disabled&&!cb.classList.contains('hidden'))cb.click();}
+    if((e.key==='Enter'||e.key===' ')&&!$('nextBtn').classList.contains('hidden')&&$('feedback').classList.contains('show')){e.preventDefault();$('nextBtn').click();}
+  });
+
+  /* ── Summary ── */
+  function showSummary(){
+    quizActive=false;$('abortBtn').classList.add('hidden');
+    showScreen('summary');
+    const total=quizQueue.length;const pct=Math.round((score/total)*100);
+    $('finalScore').textContent=pct+'%';$('statCorrect').textContent=fmtS(score)+'/'+total;$('statWrong').textContent=answered.filter(a=>a.qScore<1).length;$('statTotal').textContent=total;
+    $('progressBar').style.width='100%';
+    const wrongs=answered.filter(a=>a.qScore<1);
+    if(wrongs.length>0){
+      $('wrongList').classList.remove('hidden');
+      $('wrongItems').innerHTML=wrongs.map(w=>{
+        const q=w.question;let correctText='',yourText='';
+        const scoreTag=w.qScore===0.5?'0.5p':'0p';
+        if(q.type==='K'){correctText=q.statements.map(s=>`${s.label||'?'}: ${s.correct?'T':'F'}`).join(', ');yourText=q.statements.map((s,i)=>`${s.label||'?'}: ${w.userAnswer[i]?'T':'F'}`).join(', ');if(w.detail)correctText=`(${w.detail.nCorrect}/${w.detail.total}) `+correctText;}
+        else{correctText=q.options[q.correct];yourText=q.options[w.userAnswer]||'?';}
+        return`<div class="wrong-item"><div class="wi-type">${q.type==='K'?'TYPE K':'TYPE A'} — ${scoreTag}</div><div class="wi-q">${esc(q.question)}</div><div class="wi-your">Ditt: ${esc(yourText)}</div><div class="wi-a">Rätt: ${esc(correctText)}</div>${q.explanation?'<div style="margin-top:3px;font-size:11px">'+esc(q.explanation)+'</div>':''}<div class="wi-s">${sectionLinkHTML(q._module,q.section,q.section_url)}</div></div>`;
+      }).join('');
+      $('retryWrongBtn').classList.remove('hidden');
+    }else{$('wrongList').classList.add('hidden');$('retryWrongBtn').classList.add('hidden');}
+  }
+
+  $('retryWrongBtn').addEventListener('click',()=>{const w=answered.filter(a=>a.qScore<1).map(a=>a.question);if(w.length)startQuiz(w);});
+  $('retryAllBtn').addEventListener('click',()=>startQuiz(getFilteredQuestions()));
+  $('backBtn').addEventListener('click',()=>{showScreen('start');renderStats();});
+
+  /* ── Progress ── */
+  function updateProgress(qId,correct){
+    if(!progress[qId])progress[qId]={attempts:0,wrong:0,lastWrong:false};
+    progress[qId].attempts++;if(!correct){progress[qId].wrong++;progress[qId].lastWrong=true;}else{progress[qId].lastWrong=false;}
+    saveJSON('edic_progress',progress);
+  }
+  $('clearProgress').addEventListener('click',()=>{if(confirm('Rensa all sparad progress?')){progress={};localStorage.removeItem('edic_progress');}});
+  $('clearCache').addEventListener('click',()=>{if(confirm('Ta bort alla cachade moduler?')){modules=[];localStorage.removeItem('edic_modules');renderModules();}});
+
+  /* ── Session logging ── */
+  function logSession(aborted){
+    if(answered.length===0)return;
+    const mods=[...new Set(answered.map(a=>a.question._module))];
+    const typeA=answered.filter(a=>a.question.type==='A');
+    const typeK=answered.filter(a=>a.question.type==='K');
+    const session={
+      date:new Date().toISOString(),
+      duration:Math.round((Date.now()-sessionStartTime)/1000),
+      modules:mods,
+      total:answered.length,
+      score:score,
+      pct:Math.round((score/answered.length)*100),
+      typeA:{total:typeA.length,correct:typeA.filter(a=>a.qScore===1).length},
+      typeK:{total:typeK.length,correct:typeK.filter(a=>a.qScore===1).length,partial:typeK.filter(a=>a.qScore===0.5).length},
+      aborted:!!aborted
+    };
+    sessions.push(session);
+    saveJSON('edic_sessions',sessions);
+  }
+
+  /* ── Stats rendering ── */
+  $('statsToggle').addEventListener('click',()=>{
+    const content=$('statsContent');const arrow=$('statsArrow');
+    const isOpen=!content.classList.contains('hidden');
+    content.classList.toggle('hidden');arrow.classList.toggle('open');
+    if(!isOpen)renderStats();
+  });
+
+  function renderStats(){
+    const content=$('statsContent');
+    if(sessions.length===0){content.innerHTML='<div class="stats-empty">Ingen historik ännu. Kör ett quiz!</div>';return;}
+
+    // Session log (last 20)
+    const recent=sessions.slice(-20).reverse();
+    let html='<div class="stats-content"><div class="stats-section"><h3>Senaste sessioner</h3><table class="stats-table"><thead><tr><th>Datum</th><th>Moduler</th><th>Frågor</th><th>Resultat</th><th></th></tr></thead><tbody>';
+    recent.forEach(s=>{
+      const d=new Date(s.date);
+      const dateStr=d.toLocaleDateString('sv-SE',{month:'short',day:'numeric'})+' '+d.toLocaleTimeString('sv-SE',{hour:'2-digit',minute:'2-digit'});
+      const modStr=s.modules.map(m=>m.length>18?m.slice(0,16)+'…':m).join(', ');
+      const barW=Math.max(2,s.pct);
+      html+=`<tr><td style="white-space:nowrap">${dateStr}</td><td>${esc(modStr)}</td><td>${fmtS(s.score)}/${s.total}</td><td><span class="mini-bar" style="width:${barW}px"></span> ${s.pct}%</td><td>${s.aborted?'⏹':'✓'}</td></tr>`;
+    });
+    html+=`</tbody></table></div>`;
+
+    // Per-module stats
+    const modStats={};
+    sessions.forEach(s=>{
+      s.modules.forEach(mod=>{
+        if(!modStats[mod])modStats[mod]={sessions:0,totalQ:0,totalCorrect:0,scores:[]};
+        modStats[mod].sessions++;
+      });
+      // Approximate per-module (when mixed modules in one session, attribute proportionally)
+      if(s.modules.length===1){
+        const mod=s.modules[0];
+        modStats[mod].totalQ+=s.total;modStats[mod].totalCorrect+=s.score;modStats[mod].scores.push(s.pct);
+      }else{
+        s.modules.forEach(mod=>{modStats[mod].scores.push(s.pct);modStats[mod].totalQ+=Math.round(s.total/s.modules.length);modStats[mod].totalCorrect+=Math.round(s.score/s.modules.length);});
+      }
+    });
+
+    html+=`<div class="stats-section"><h3>Per modul</h3><table class="stats-table"><thead><tr><th>Modul</th><th>Sessioner</th><th>Snitt</th><th>Trend (senaste 5)</th></tr></thead><tbody>`;
+    Object.keys(modStats).sort().forEach(mod=>{
+      const ms=modStats[mod];
+      const avg=ms.scores.length?Math.round(ms.scores.reduce((a,b)=>a+b,0)/ms.scores.length):0;
+      const trend=ms.scores.slice(-5);
+      const trendHTML=trend.map(v=>`<span class="mini-bar" style="width:${Math.max(2,Math.round(v/3))}px;margin-right:2px" title="${v}%"></span>`).join('');
+      const label=mod.length>24?mod.slice(0,22)+'…':mod;
+      html+=`<tr><td>${esc(label)}</td><td>${ms.sessions}</td><td>${avg}%</td><td>${trendHTML}</td></tr>`;
+    });
+    html+=`</tbody></table></div>`;
+
+    // Overall
+    const totalSessions=sessions.length;
+    const totalQ=sessions.reduce((a,s)=>a+s.total,0);
+    const totalC=sessions.reduce((a,s)=>a+s.score,0);
+    const overallPct=totalQ?Math.round(totalC/totalQ*100):0;
+    html+=`<div class="stats-section"><h3>Totalt</h3><p style="font-size:13px">${totalSessions} sessioner · ${totalQ} frågor besvarade · ${overallPct}% rätt totalt</p></div>`;
+
+    html+=`<div class="stats-actions"><button class="btn btn-secondary btn-sm" id="clearHistory">Rensa historik</button></div></div>`;
+    content.innerHTML=html;
+
+    const clearBtn=document.getElementById('clearHistory');
+    if(clearBtn)clearBtn.addEventListener('click',()=>{if(confirm('Rensa all sessionshistorik?')){sessions=[];localStorage.removeItem('edic_sessions');renderStats();}});
+  }
+
+  /* ── Utilities ── */
+  function showScreen(name){
+    startScreen.classList.toggle('hidden',name!=='start');
+    quizScreen.classList.toggle('hidden',name!=='quiz');
+    summaryScreen.classList.toggle('hidden',name!=='summary');
+    if(name==='start'){$('abortBtn').classList.add('hidden');$('headerSubtitle').textContent=allQuestions.length?`${modules.length} modul(er) — ${allQuestions.length} frågor`:'Ladda en modul-JSON för att börja';}
+  }
+  function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+  function fmtS(s){return s%1===0?String(s):s.toFixed(1);}
+
+  /* ── Remote module fetcher (GitHub API auto-discovery) ── */
+  const IGNORE_JSON=new Set(['manifest.json','modules.json','package.json','package-lock.json','tsconfig.json']);
+
+  function getRepoInfo(){
+    const host=location.hostname; // USERNAME.github.io
+    const parts=location.pathname.split('/').filter(Boolean); // ['edic-quiz']
+    if(host.endsWith('.github.io')){return{owner:host.split('.')[0],repo:parts[0]||''};}
+    return null;
+  }
+
+  $('fetchModulesBtn').addEventListener('click',fetchRemoteModules);
+
+  async function fetchRemoteModules(){
+    const status=$('fetchStatus');const list=$('remoteList');
+    const repo=getRepoInfo();
+    if(!repo||!repo.repo){status.textContent='Kan inte härleda repo från URL';return;}
+    status.textContent='Söker moduler…';
+    try{
+      const res=await fetch(`https://api.github.com/repos/${repo.owner}/${repo.repo}/contents/`);
+      if(!res.ok)throw new Error('HTTP '+res.status+(res.status===403?' (rate limit)':''));
+      const files=await res.json();
+      const jsonFiles=files.filter(f=>f.type==='file'&&f.name.endsWith('.json')&&!IGNORE_JSON.has(f.name));
+      if(jsonFiles.length===0){status.textContent='Inga modul-JSON hittades i repot';return;}
+      const loadedNames=new Set(modules.map(m=>m.module));
+      list.classList.remove('hidden');
+      list.innerHTML=jsonFiles.map(f=>{
+        const label=f.name.replace(/\.json$/,'').replace(/[_-]/g,' ');
+        return`<span class="remote-chip" data-file="${esc(f.name)}" data-label="${esc(label)}">${esc(label)}</span>`;
+      }).join('');
+      // Mark already loaded
+      list.querySelectorAll('.remote-chip').forEach(chip=>{
+        chip.addEventListener('click',()=>fetchOneModule(chip));
+      });
+      status.textContent=`${jsonFiles.length} moduler i repot`;
+      refreshRemoteChips();
+    }catch(e){status.textContent='Fel: '+e.message;console.error(e);}
+  }
+
+  function refreshRemoteChips(){
+    const loadedNames=new Set(modules.map(m=>m.module));
+    $('remoteList').querySelectorAll('.remote-chip').forEach(chip=>{
+      // Check if any loaded module came from this file
+      const fileName=chip.dataset.file;
+      const loaded=modules.some(m=>m._sourceFile===fileName)||loadedNames.has(chip.dataset.label);
+      if(loaded){chip.classList.add('done');if(!chip.textContent.includes('✓'))chip.textContent+=' ✓';}
+    });
+  }
+
+  async function fetchOneModule(chip){
+    if(chip.classList.contains('loading')||chip.classList.contains('done'))return;
+    chip.classList.add('loading');const origText=chip.textContent;chip.textContent='Laddar…';
+    try{
+      const res=await fetch('./'+chip.dataset.file+'?t='+Date.now());
+      if(!res.ok)throw new Error('HTTP '+res.status);
+      const data=await res.json();
+      if(!data.questions||!Array.isArray(data.questions)){chip.classList.remove('loading');chip.textContent='❌ Ogiltig JSON';return;}
+      const modName=data.module||chip.dataset.label;
+      data.module=modName;data._sourceFile=chip.dataset.file;if(!data.sections)data.sections={};
+      data.questions.forEach(q=>{q._module=modName;if(!q.id)q.id=modName+'_'+Math.random().toString(36).slice(2,8);if(!q.type)q.type='A';if(q.set===undefined)q.set=1;});
+      const ex=modules.findIndex(m=>m.module===modName);
+      if(ex>=0)modules[ex]=data;else modules.push(data);
+      saveCachedModules();renderModules();
+      chip.classList.remove('loading');chip.classList.add('done');
+      chip.innerHTML=`${esc(modName)} <span class="rc-count">${data.questions.length}q</span> ✓`;
+    }catch(e){chip.classList.remove('loading');chip.textContent=origText+' ❌';console.error(e);}
+  }
+
+  /* ── PWA registration ── */
+  if('serviceWorker' in navigator){navigator.serviceWorker.register('./sw.js').catch(()=>{});}
+
+  /* ── Init ── */
+  loadCachedModules();
+})();
+</script>
+</body>
+</html>
