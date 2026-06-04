@@ -1,0 +1,466 @@
+{
+  "module": "Hypotension",
+  "sections": {
+    "Physiology": "Blood pressure is the product of systemic vascular resistance (SVR) and cardiac output (CO), which is in turn the product of heart rate and stroke volume.\n\nMAP = CO x SVR | CO = HR x SV\n\nMaintaining blood flow is of greater importance for adequate organ perfusion than blood pressure. In the context of a profoundly under-filled circulation, administration of vasoconstrictive drugs may achieve a higher MAP through increasing SVR, yet blood flow remains significantly impaired unless the intravascular volume is replaced.\n\nClinically relevant hypotension occurs when blood pressure falls below the threshold required to maintain flow to vital organs — estimated as 75% of the patient's normal resting systolic BP. This threshold is higher in patients with chronic hypertension due to upward shift of the autoregulatory range caused by adaptation of narrowed, atherosclerotic vessels.\n\nBlood pressure is regulated by a fast neural response and a slower hormonal response. Sensory information is detected by baroreceptors (stretch receptors) in the carotid sinus and aortic arch. The vasomotor centre (VMC) in the medulla regulates blood pressure. Increased baroreceptor firing INHIBITS the VMC, lowering blood pressure. Sympathetic stimulation via α1-adrenoceptors causes vasoconstriction. α1-adrenoceptors are present in high density in skin, gut, and kidneys — but NOT in the brain or heart — thereby diverting blood toward vital organs.\n\nKey hormones: adrenaline/noradrenaline (adrenal medulla), vasopressin (hypothalamus), angiotensin II (RAAS). Histamine and nitric oxide are potent vasodilators. In diabetic autonomic neuropathy, impaired sympathetic baroreceptor responses can cause postural hypotension.",
+    "Monitoring": "Blood pressure can be measured non-invasively (NIBP) or invasively (intra-arterial BP, IABP). Erroneous low NIBP readings can result from a cuff that is too large. Arrhythmias and shivering also impair non-invasive measurement. Invasive arterial monitoring provides beat-to-beat accuracy and is indicated in severe hypotension; risks include digital ischaemia, aneurysm, and infection.\n\nCardiac output measurement methods:\n\nInvasive — Pulmonary artery catheter (PAC): gold standard; thermodilution or dye dilution. Routine use has declined due to insertion risks and lack of mortality benefit in RCTs. Arterial waveform analysis devices: PiCCO and LiDCO are calibrated; LiDCOrapid is uncalibrated. These derive CO from the morphology of the arterial pressure waveform.\n\nMinimally invasive — Oesophageal Doppler: measures blood flow velocity in the descending thoracic aorta. Only approximately 70% of cardiac output passes through the descending aorta; the raw value must be corrected before reporting total CO.\n\nNon-invasive — Transthoracic echocardiography (TTE): rapid bedside assessment of cardiac function, volume status, and fluid responsiveness; can exclude important causes of cardiogenic shock (e.g. cardiac tamponade).",
+    "Shock": "Shock is defined as globally impaired tissue and organ perfusion inadequate for the metabolic needs of the body. It affects almost one third of ICU patients.\n\nClinical features: SBP generally <90 mmHg (usually with tachycardia); urine output <0.5 mL/kg/hr; cold/clammy/cyanosis; altered mental state/confusion/reduced GCS; lactate >1.5 mmol/L. Rising respiratory rate is the EARLIEST sign of developing shock. Patients on beta-blockers may NOT mount a compensatory tachycardia.\n\nShock classification:\n\nDistributive: Low SVR, flushed/vasodilated, normal or HIGH cardiac output. Causes: sepsis (most common, ~2/3 of all shock), anaphylaxis, neurogenic (spinal cord injury), cyanide toxicity, adrenal insufficiency.\n\nHypovolaemic: Cold and peripherally shut down, low CO. Causes: haemorrhage, GI loss (diarrhoea/vomiting), third space losses, burns.\n\nObstructive: May initially have NORMAL blood pressure; low CO. Causes: pulmonary embolus (PE), tension pneumothorax, pericardial tamponade.\n\nCardiogenic: Normal or high blood pressure; cold and peripherally shut down; low CO (CI <2.2 L/min/m²) with SBP <90 mmHg. Causes: ACS/myocardial infarction (most common), arrhythmias, cardiomyopathies (e.g. HOCM).\n\nThe last three types all typically present with low CO. Distributive shock differs — normal or high CO, with low SVR.",
+    "Treatment": "All patients with shock require general ABCDE resuscitation to maximise oxygen delivery alongside treatment of the underlying cause.\n\nFluid resuscitation: NICE guidelines recommend 500 mL crystalloid boluses over 15 minutes with reassessment after each bolus. Passive leg raise (PLR) acts as a reversible autotransfusion (~300–500 mL), mobilising venous blood from the lower limbs to test preload responsiveness without administering IV fluid. Dynamic markers (PPV, SVV) >10% predict fluid responsiveness but are ONLY valid when: (1) sinus rhythm, (2) fully passive controlled mechanical ventilation, (3) tidal volume of 8 mL/kg. Static markers: CVP, ScvO₂.\n\nFluid choice: Balanced crystalloids (Hartmann's, Plasma-Lyte) preferred — avoid the hyperchloraemic acidosis caused by large volumes of 0.9% saline. Trial evidence: CHEST 2012 — HES 130/0.42 vs saline: no 90-day mortality difference but HES increased renal failure and need for blood products. SAFE 2004 — albumin vs saline: no overall 28-day mortality difference; post-hoc trauma subgroup showed higher mortality with albumin. FEAST 2011 — bolus resuscitation with albumin or saline increased mortality in African children with severe infection. CRISTAL 2013 — colloids vs crystalloids: no 28-day mortality difference.\n\nVasopressors: Noradrenaline — first-line (SSC guidelines); predominant α1 activity with some β; central administration preferred to avoid extravasation tissue necrosis. Vasopressin — second-line; V1 receptor mechanism (NOT adrenergic); VASST and VANISH trials. Adrenaline — second-line vasopressor; more dysrhythmias than noradrenaline; α and β activity, dose-dependent. Dopamine — inferior to noradrenaline (more arrhythmias). Metaraminol/phenylephrine — less potent α1 agonists; short-term peri-operative use.\n\nInotropes: Dobutamine — β1 inotrope with β2 vasodilation; fall in MAP may require co-administration of vasopressor. Milrinone (PDE III inhibitor) — increases cAMP INDEPENDENTLY of adrenoceptors; useful when catecholamine receptor downregulation has occurred. Levosimendan — calcium sensitiser (sensitises troponin C to calcium); increases contractility WITHOUT increasing myocardial oxygen demand.\n\nMAP targets: Standard ≥65 mmHg. Lower acceptable (permissive hypotension): haemorrhagic shock, perioperative hypotensive anaesthesia. Higher required: acute spinal cord injury (≥85–90 mmHg), raised intracranial pressure. Individualised approach essential.\n\nGDT: Rivers et al. 2001 — single-centre RCT showing mortality benefit from EGDT targeting ScvO₂ ≥70%, CVP 8–12, MAP ≥65. ARISE, ProCESS, and ProMISe — three large multicentre RCTs — showed NO mortality benefit from routine EGDT vs usual care. Current evidence: individualised approach to haemodynamic targets; both excess and insufficient fluid cause morbidity."
+  },
+  "questions": [
+    {
+      "id": "hypo_a01",
+      "type": "A",
+      "set": 1,
+      "question": "A 74-year-old man with poorly controlled hypertension (baseline SBP approximately 185 mmHg) undergoes elective aortic valve replacement. In the post-operative ICU his MAP is 58 mmHg. The anaesthetist argues this is within acceptable limits for a post-operative patient. Which statement best explains why this MAP is most likely insufficient for this specific patient?",
+      "options": [
+        "A: MAP 58 mmHg falls below the universal minimum of 65 mmHg applied equally to all post-operative patients.",
+        "B: Chronic hypertension shifts the autoregulatory range upward, so a higher MAP is required to drive flow through narrowed, atherosclerotic vessels.",
+        "C: Aortic valve replacement increases myocardial oxygen demand, making the standard MAP target inadequate post-operatively.",
+        "D: Long-term antihypertensive therapy blunts baroreceptor sensitivity, predisposing to refractory reflex hypotension.",
+        "E: Post-operative pain chronically activates the vasomotor centre, causing paradoxical MAP reduction after surgery."
+      ],
+      "correct": 1,
+      "explanation": "Patients with chronic hypertension have structural adaptation (arteriolar hypertrophy and narrowing) that shifts cerebral, renal, and coronary autoregulatory curves upward. A MAP adequate for a normotensive patient is insufficient to drive flow through these narrowed vessels. The minimum acceptable MAP is estimated as approximately 75% of the patient's normal resting SBP — here approximately 140 mmHg, well above 58 mmHg. Option A is the near-miss trap: the standard MAP ≥65 mmHg threshold applies to the general population and cannot be used as a universal rule for hypertensive patients.",
+      "section": "Physiology",
+      "topic": "autoregulation chronic hypertension MAP threshold organ perfusion",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "hypo_a02",
+      "type": "A",
+      "set": 1,
+      "question": "A 58-year-old woman in septic shock has received only 500 mL crystalloid before noradrenaline 0.15 mcg/kg/min is started. MAP rises from 52 to 68 mmHg. Thirty minutes later lactate has increased from 3.4 to 4.8 mmol/L and urine output is <0.2 mL/kg/hr. What is the most likely explanation for deteriorating tissue perfusion despite an apparently adequate MAP?",
+      "options": [
+        "A: Noradrenaline has caused direct myocardial depression via β1-receptor downregulation.",
+        "B: Rising lactate reflects catecholamine-stimulated hepatic gluconeogenesis rather than tissue hypoxia.",
+        "C: Noradrenaline has increased SVR and MAP without restoring cardiac output in an underfilled circulation, so tissue blood flow remains impaired.",
+        "D: The noradrenaline dose is insufficient; further dose escalation will restore end-organ perfusion.",
+        "E: Noradrenaline-induced mesenteric vasoconstriction alone accounts for the lactate rise, with other organ perfusion preserved."
+      ],
+      "correct": 2,
+      "explanation": "MAP = CO × SVR. Noradrenaline increases SVR and thereby MAP, but in an underfilled patient with inadequate preload, cardiac output and actual tissue blood flow remain severely impaired. Rising lactate and oliguria confirm end-organ hypoperfusion despite a target MAP — the classic trap of treating MAP as a reliable surrogate for flow. Option D is the near-miss: dose escalation increases SVR further without addressing the underlying hypovolaemia; adequate fluid resuscitation must precede or accompany vasopressor use.",
+      "section": "Physiology",
+      "topic": "MAP SVR cardiac output vasopressor underfilled flow vs pressure",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "hypo_a03",
+      "type": "A",
+      "set": 1,
+      "question": "A 67-year-old man in distributive shock is receiving pressure support ventilation (PSV 12 cmH₂O, PEEP 8 cmH₂O) with preserved spontaneous respiratory effort. His arterial line shows a pulse pressure variation (PPV) of 18%. The nurse asks whether this reliably indicates fluid responsiveness. What is the most appropriate response?",
+      "options": [
+        "A: Yes — PPV >10% reliably predicts fluid responsiveness regardless of ventilation mode.",
+        "B: Yes — PPV >10% on PSV confirms significant preload dependence and warrants an immediate 500 mL bolus.",
+        "C: No — PPV is only valid in patients in sinus rhythm who are fully passively ventilated at a tidal volume of 8 mL/kg; spontaneous respiratory effort invalidates the measurement.",
+        "D: No — PPV is unreliable in distributive shock because low SVR artificially inflates the reading.",
+        "E: No — PPV requires a pulmonary artery catheter rather than a peripheral arterial line to be measured accurately."
+      ],
+      "correct": 2,
+      "explanation": "PPV and SVV are only valid dynamic markers of fluid responsiveness when three conditions are simultaneously met: sinus rhythm, fully passive controlled mechanical ventilation (no spontaneous effort), and a tidal volume of 8 mL/kg. Spontaneous respiratory effort during PSV generates unpredictable intrathoracic pressure swings that invalidate the PPV signal, regardless of PEEP level. Option A is the most common near-miss: PPV is frequently misapplied in partially ventilated patients. A passive leg raise, which does not depend on ventilation mode, would be the appropriate test in this scenario.",
+      "section": "Treatment",
+      "topic": "PPV SVV fluid responsiveness validity sinus rhythm controlled MV spontaneous effort invalid",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "hypo_a04",
+      "type": "A",
+      "set": 1,
+      "question": "A 32-year-old man sustains a complete cervical spinal cord injury at C5 in a diving accident. In the emergency department his SBP is 72 mmHg, HR is 48 bpm, and his peripheries are warm and dry. Temperature is 37.1°C and a FAST scan is negative for haemorrhage. What type of shock is most likely?",
+      "options": [
+        "A: Hypovolaemic shock from occult haemorrhage causing reduced venous return.",
+        "B: Obstructive shock from spinal cord oedema extrinsically compressing the vena cava.",
+        "C: Distributive (neurogenic) shock from loss of descending sympathetic tone below the injury level.",
+        "D: Cardiogenic shock from direct spinal cord injury causing myocardial depression.",
+        "E: Distributive (anaphylactic) shock from a contrast agent used during imaging."
+      ],
+      "correct": 2,
+      "explanation": "Neurogenic shock is a form of distributive shock caused by disruption of descending sympathetic outflow below a high spinal cord injury (above T6). Loss of arteriolar tone reduces SVR producing vasodilation and warm peripheries, while unopposed vagal tone produces bradycardia — distinguishing it from hypovolaemic shock where reflex tachycardia and cold, shut-down peripheries are expected. Option A is the most important near-miss: active haemorrhage must always be excluded first, but the combination of bradycardia and warm peripheries, with a negative FAST, makes neurogenic shock the working diagnosis here.",
+      "section": "Shock",
+      "topic": "neurogenic shock distributive sympathetic loss bradycardia warm peripheries spinal cord",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "hypo_a05",
+      "type": "A",
+      "set": 1,
+      "question": "A 61-year-old woman undergoes primary PCI for anterior STEMI. Four hours later she is cool, mottled, and oliguric with a GCS of 13. MAP is 70 mmHg on noradrenaline 0.1 mcg/kg/min. Cardiac output monitoring shows CI 1.8 L/min/m². Which statement about her haemodynamic status is correct?",
+      "options": [
+        "A: She does not meet criteria for cardiogenic shock because MAP is ≥65 mmHg.",
+        "B: She meets haemodynamic criteria for cardiogenic shock — CI <2.2 L/min/m² with clinical signs of end-organ hypoperfusion establishes the diagnosis.",
+        "C: Cardiogenic shock requires SBP <90 mmHg off all vasopressors before the diagnosis can be confirmed.",
+        "D: Dobutamine should be avoided because its vasodilatory effect will worsen her hypotension.",
+        "E: Cardiogenic shock cannot be confirmed without pulmonary artery catheter measurement of pulmonary artery wedge pressure."
+      ],
+      "correct": 1,
+      "explanation": "Cardiogenic shock is defined haemodynamically by CI <2.2 L/min/m² in combination with systolic BP <90 mmHg and/or evidence of end-organ hypoperfusion (oliguria, mottling, altered mentation). Vasopressors maintaining MAP ≥65 mmHg do not exclude the diagnosis if CI is reduced and perfusion is clearly inadequate. Option C is the near-miss trap: requiring SBP <90 mmHg off vasopressors before acting would delay treatment inappropriately. Dobutamine (option D) is the appropriate first-line inotrope; its vasodilatory effect can actually reduce afterload and improve CI in this setting.",
+      "section": "Shock",
+      "topic": "cardiogenic shock criteria CI 2.2 STEMI vasopressor MAP end-organ perfusion",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "hypo_a06",
+      "type": "A",
+      "set": 1,
+      "question": "A 52-year-old man is in septic shock from a perforated duodenal ulcer. A surgical resident proposes administering 1,000 mL of 6% hydroxyethyl starch (HES 130/0.42) for rapid volume expansion. Which statement provides the strongest justification for NOT using HES in this patient?",
+      "options": [
+        "A: HES is hyperosmolar and causes intracellular dehydration in patients who are already fluid-depleted.",
+        "B: The CHEST trial showed that HES 130/0.42 significantly increased the rate of renal failure and need for renal replacement therapy compared to 0.9% saline.",
+        "C: HES causes hyperchloraemic metabolic acidosis more frequently than balanced crystalloids at equivalent volumes.",
+        "D: HES is contraindicated in post-operative surgical patients due to impairment of anastomotic wound healing.",
+        "E: The SAFE trial demonstrated higher 28-day mortality with HES compared to 4% albumin."
+      ],
+      "correct": 1,
+      "explanation": "The CHEST trial (2012; approximately 7,000 ICU patients) found no difference in 90-day mortality between HES 130/0.42 and 0.9% saline, but HES significantly increased the rates of acute kidney injury and need for renal replacement therapy and blood products. HES is therefore not recommended in critically ill patients. Option C describes the complication of large-volume 0.9% normal saline (not HES); balanced crystalloids are preferred precisely because they avoid this. The SAFE trial (option E) compared albumin with 0.9% saline, not HES.",
+      "section": "Treatment",
+      "topic": "HES CHEST trial renal failure RRT colloid contraindication sepsis",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "hypo_a07",
+      "type": "A",
+      "set": 1,
+      "question": "Which of the following conditions does NOT cause obstructive shock?",
+      "options": [
+        "A: Massive pulmonary embolism.",
+        "B: Tension pneumothorax.",
+        "C: Cardiac tamponade.",
+        "D: Hypertrophic obstructive cardiomyopathy (HOCM).",
+        "E: Severe dynamic hyperinflation (auto-PEEP) during mechanical ventilation."
+      ],
+      "correct": 3,
+      "explanation": "Obstructive shock results from a mechanical obstacle to cardiac filling or outflow external to the myocardium: classic causes are massive PE, tension pneumothorax, cardiac tamponade, and severe auto-PEEP, all of which impair venous return or right heart filling. HOCM causes cardiogenic shock through dynamic left ventricular outflow tract obstruction due to intrinsic myocardial hypertrophy — an intracardiac pathology correctly classified as cardiogenic, not obstructive. The near-miss is tamponade vs HOCM: tamponade is extra-pericardial compression of the heart (obstructive), whereas HOCM is intrinsic myocardial pathology (cardiogenic).",
+      "section": "Shock",
+      "topic": "obstructive shock NOT HOCM cardiogenic PE tamponade tension pneumothorax auto-PEEP",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "hypo_a08",
+      "type": "A",
+      "set": 1,
+      "question": "An oesophageal Doppler probe is positioned in a mechanically ventilated patient and measures blood flow velocity in the descending thoracic aorta. Why must the raw flow value be corrected before it is reported as cardiac output?",
+      "options": [
+        "A: Signal attenuation by oesophageal mucosa systematically underestimates velocity by approximately 15%.",
+        "B: Only approximately 70% of cardiac output passes through the descending thoracic aorta; blood flow to the head, neck, and upper limbs via proximal vessels accounts for the remainder.",
+        "C: The probe measures right ventricular output, which is 10–15% lower than left ventricular output.",
+        "D: Oesophageal Doppler measures peak systolic velocity only, which must be integrated over time using a duty-cycle correction factor.",
+        "E: Aortic cross-sectional area varies widely with body habitus and must be indexed to body surface area before any flow calculation."
+      ],
+      "correct": 1,
+      "explanation": "Oesophageal Doppler estimates cardiac output by measuring blood flow velocity in the descending thoracic aorta and multiplying by the estimated aortic cross-sectional area. However, approximately 30% of total cardiac output is distributed to the brain, upper limbs, and coronary circulation via vessels that branch proximal to the probe. The device therefore applies a correction, dividing measured descending aortic flow by 0.7, to estimate total cardiac output. Options D and E describe real technical adjustments but are not the primary systemic correction required — the 70% distribution constant is the key adjustment.",
+      "section": "Monitoring",
+      "topic": "oesophageal Doppler 70% descending aorta CO correction cardiac output",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "hypo_a09",
+      "type": "A",
+      "set": 1,
+      "question": "A 66-year-old woman with vasodilatory septic shock requires noradrenaline. A peripheral 18G cannula is in situ while central venous access is being established. The nurse asks why central administration is strongly preferred. What is the most important patient safety reason?",
+      "options": [
+        "A: Peripheral cannulas have insufficient flow rates to deliver noradrenaline at therapeutic concentrations.",
+        "B: First-pass metabolism in subcutaneous tissue significantly reduces the bioavailability of peripherally administered noradrenaline.",
+        "C: Extravasation of noradrenaline from a peripheral cannula causes intense local vasoconstriction that can lead to tissue ischaemia and necrosis.",
+        "D: Peripheral infusion causes a reflex bradycardia that cannot be safely managed without simultaneous central venous pressure monitoring.",
+        "E: Regulatory guidelines prohibit peripheral administration of any vasoactive agent within the ICU."
+      ],
+      "correct": 2,
+      "explanation": "Noradrenaline is a potent α1-adrenoceptor agonist. Extravasation from a peripheral cannula causes intense local vasoconstriction resulting in tissue ischaemia and necrosis — the primary safety concern driving the recommendation for central administration. Brief peripheral use while central access is established may be acceptable with close monitoring for extravasation, but this should be time-limited. Options A and D do not reflect clinical reality: adequate concentrations can be delivered peripherally and reflex bradycardia is not a primary concern during vasodilatory shock.",
+      "section": "Treatment",
+      "topic": "noradrenaline central administration extravasation tissue necrosis α1 agonist safety",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "hypo_a10",
+      "type": "A",
+      "set": 1,
+      "question": "A 73-year-old man with ischaemic cardiomyopathy and cardiogenic shock has been on dobutamine for 36 hours. Despite escalation to 15 mcg/kg/min, cardiac index has not improved and the team suspects β1-adrenoceptor downregulation. Which agent would be most appropriate to add?",
+      "options": [
+        "A: Metaraminol — to counteract dobutamine-induced vasodilation by increasing SVR.",
+        "B: Adrenaline — to provide combined α and β receptor stimulation at high infusion rates.",
+        "C: Milrinone — a phosphodiesterase III inhibitor that elevates intracellular cAMP independently of adrenoceptors.",
+        "D: Vasopressin — to restore vascular tone via V1 receptors and offset the vasodilatory component.",
+        "E: Phenylephrine — a selective α1 agonist that will increase afterload and thereby improve cardiac output."
+      ],
+      "correct": 2,
+      "explanation": "Phosphodiesterase III inhibitors such as milrinone inhibit the breakdown of cyclic AMP, increasing intracellular cAMP and thereby enhancing contractility and vasodilation independently of adrenergic receptors. This makes milrinone the agent of choice when prolonged catecholamine exposure has caused β1-adrenoceptor downregulation rendering dobutamine ineffective. Adrenaline (option B) also acts via adrenoceptors and faces the same limitation. Phenylephrine (option E) increases afterload via pure α1 agonism — in a failing ventricle this would reduce cardiac index further and is potentially harmful.",
+      "section": "Treatment",
+      "topic": "milrinone PDE3 inhibitor cAMP adrenoceptor independent downregulation dobutamine catecholamine resistant",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "hypo_a11",
+      "type": "A",
+      "set": 1,
+      "question": "A 65-year-old woman with decompensated heart failure has a CI of 1.7 L/min/m² despite dobutamine 10 mcg/kg/min. The intensivist proposes adding levosimendan. A medical student asks how levosimendan increases cardiac contractility without increasing myocardial oxygen demand. Which explanation is correct?",
+      "options": [
+        "A: It inhibits phosphodiesterase III, preventing cAMP breakdown and augmenting calcium entry through L-type channels.",
+        "B: It sensitises troponin C to calcium, enhancing actin-myosin cross-bridge formation at existing intracellular calcium concentrations without increasing calcium cycling.",
+        "C: It blocks β2-adrenoceptors, reducing catecholamine-mediated vasodilation and selectively redirecting coronary blood flow.",
+        "D: It opens ATP-sensitive potassium channels, hyperpolarising the sarcolemma and thereby reducing resting energy consumption.",
+        "E: It directly inhibits the sodium-calcium exchanger, increasing intracellular calcium without requiring adrenoceptor activation."
+      ],
+      "correct": 1,
+      "explanation": "Levosimendan is a calcium sensitiser: it binds to troponin C and stabilises the calcium-troponin C complex, enhancing the sensitivity of the contractile apparatus to existing calcium levels. Because it does not increase intracellular calcium load or cAMP, it avoids the energetic cost of increased calcium cycling — hence no rise in myocardial oxygen demand. Option A describes the mechanism of milrinone (PDE III inhibition) and is the most common mechanistic near-miss. The distinction between calcium sensitisation (levosimendan) and cAMP-mediated effects (dobutamine/milrinone) is a key EDIC discriminator.",
+      "section": "Treatment",
+      "topic": "levosimendan calcium sensitiser troponin C no oxygen demand PDE3 near-miss",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "hypo_a12",
+      "type": "A",
+      "set": 1,
+      "question": "In 2001, Rivers et al. published a single-centre RCT reporting significant mortality benefit from early goal-directed therapy (EGDT) targeting ScvO₂ ≥70%, CVP 8–12 mmHg, and MAP ≥65 mmHg in septic shock. Which combination of subsequent trials demonstrated no mortality benefit from routine protocolised EGDT compared to usual care?",
+      "options": [
+        "A: SAFE, CHEST, and CRISTAL.",
+        "B: ARISE, ProCESS, and ProMISe.",
+        "C: VASST, VANISH, and CORTICUS.",
+        "D: FEAST, SPLIT, and PLUS.",
+        "E: TRISS, NICE-SUGAR, and SUP-ICU."
+      ],
+      "correct": 1,
+      "explanation": "ARISE (Australia/New Zealand, 2014), ProCESS (USA, 2014), and ProMISe (UK, 2015) were three large multicentre RCTs that each enrolled hundreds of patients with early septic shock and found no mortality benefit from protocolised EGDT compared to usual care, leading to abandonment of routine EGDT. Options A and D list trials evaluating fluid type (HES, albumin, balanced crystalloids vs saline) rather than resuscitation protocols. Option C contains trials of vasopressors and corticosteroids in sepsis.",
+      "section": "Treatment",
+      "topic": "ARISE ProCESS ProMISe EGDT no mortality benefit Rivers individualised approach",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "hypo_a13",
+      "type": "A",
+      "set": 1,
+      "question": "A 55-year-old man is admitted to ICU following trauma with a complete T6 spinal cord injury. He is haemodynamically unstable requiring vasopressor support. Which MAP target is most appropriate to preserve spinal cord perfusion and minimise secondary neurological injury?",
+      "options": [
+        "A: MAP ≥50 mmHg — permissive hypotension is acceptable in acute spinal cord injury.",
+        "B: MAP ≥65 mmHg — the standard ICU target should not be deviated from.",
+        "C: MAP ≥85–90 mmHg — a higher target is recommended in acute spinal cord injury to maintain spinal cord perfusion pressure.",
+        "D: MAP ≥75 mmHg — an intermediate target to balance cord perfusion against vasopressor side effects.",
+        "E: MAP ≥65 mmHg acutely, increasing to ≥85 mmHg only if neurological deterioration is documented."
+      ],
+      "correct": 2,
+      "explanation": "In acute spinal cord injury, spinal cord perfusion pressure depends directly on MAP (analogous to cerebral perfusion pressure in TBI). Guidelines recommend maintaining MAP ≥85–90 mmHg for the first 5–7 days after injury to optimise perfusion and limit secondary ischaemic damage. This is one of the specific clinical scenarios where the standard MAP ≥65 mmHg target is deliberately exceeded, alongside raised intracranial pressure. Option B (standard MAP 65 mmHg) is the near-miss trap — appropriate for most critically ill patients but insufficient for neuroprotection in acute spinal cord injury.",
+      "section": "Treatment",
+      "topic": "MAP target spinal cord injury 85-90 higher than standard neuroprotection ICP",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "hypo_a14",
+      "type": "A",
+      "set": 1,
+      "question": "A 59-year-old man with suspected sepsis has MAP 61 mmHg. Before administering a fluid bolus, the registrar performs a passive leg raise (PLR) and observes a 14% increase in cardiac output. What is the key clinical advantage of PLR over a traditional 500 mL crystalloid bolus for assessing fluid responsiveness?",
+      "options": [
+        "A: PLR provides a more precise quantification of cardiac output change than monitoring arterial pulse pressure during a fluid bolus.",
+        "B: PLR acts as a reversible autotransfusion of approximately 300–500 mL, mobilising venous blood from the lower limbs to test preload responsiveness without administering any intravenous fluid — the effect fully reverses on lowering the legs.",
+        "C: PLR avoids the risk of precipitous hypotension that routinely accompanies rapid crystalloid boluses in septic shock.",
+        "D: PLR can be performed and interpreted accurately without any haemodynamic monitoring device.",
+        "E: PLR is faster to perform than a fluid challenge and therefore reduces time to initiation of vasopressors."
+      ],
+      "correct": 1,
+      "explanation": "The passive leg raise mobilises venous blood from the lower limb and splanchnic reservoir into the central circulation, providing a reversible preload challenge. If cardiac output rises, the patient is preload-responsive and a fluid bolus is likely to be beneficial. Critically, the effect is completely reversed when the legs are lowered — no net fluid is administered, unlike a traditional bolus. Option D is a near-miss: accurate CO measurement (arterial waveform analysis, Doppler) is required to detect the response; PLR cannot be reliably interpreted by clinical examination alone.",
+      "section": "Treatment",
+      "topic": "passive leg raise reversible autotransfusion fluid responsiveness no net fluid",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "hypo_a15",
+      "type": "A",
+      "set": 1,
+      "question": "Which of the following vasopressors does NOT exert its primary vasoconstrictive effect via α1-adrenoceptors?",
+      "options": [
+        "A: Noradrenaline.",
+        "B: Metaraminol.",
+        "C: Phenylephrine.",
+        "D: Vasopressin.",
+        "E: Adrenaline at high infusion rates."
+      ],
+      "correct": 3,
+      "explanation": "Vasopressin (antidiuretic hormone) produces vasoconstriction by activating V1 receptors on vascular smooth muscle — a mechanism entirely independent of the adrenergic system. This is clinically significant because vasopressin retains efficacy in catecholamine-resistant shock where prolonged adrenoceptor stimulation has caused α1 downregulation. Noradrenaline, metaraminol, and phenylephrine all exert vasoconstriction predominantly via α1-adrenoceptors. Adrenaline at high doses also primarily activates α1-adrenoceptors (with β-activity predominating at lower doses). Vasopressin is therefore the only option operating through a fundamentally distinct receptor mechanism.",
+      "section": "Treatment",
+      "topic": "vasopressin V1 receptor NOT α1-adrenoceptor mechanism catecholamine independent",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "hypo_k01",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the physiological determinants of mean arterial pressure:",
+      "statements": [
+        {"label": "A", "text": "Mean arterial pressure equals cardiac output multiplied by systemic vascular resistance.", "correct": true},
+        {"label": "B", "text": "In an underfilled patient with septic shock, increasing SVR with noradrenaline will always restore adequate organ perfusion.", "correct": false},
+        {"label": "C", "text": "α1-adrenoceptors are present in high density in the brain and heart, enabling preferential vasoconstriction of cerebral and coronary vessels during stress.", "correct": false},
+        {"label": "D", "text": "Sympathetic stimulation via α1-adrenoceptors diverts blood away from the skin, gut, and kidneys toward the brain and heart.", "correct": true}
+      ],
+      "explanation": "MAP = CO × SVR is the fundamental equation (A = True). In an underfilled circulation, noradrenaline increases SVR and MAP but cardiac output and tissue flow remain impaired without fluid resuscitation — pressure and flow are not equivalent (B = False). α1-adrenoceptors are abundant in the skin, gut, and kidneys but are notably absent from the brain and coronary circulation; this selective distribution is how sympathetic activation protects vital organs during haemodynamic stress (C = False). Sympathetic vasoconstriction in α1-rich splanchnic and cutaneous beds diverts flow centrally toward the brain and heart (D = True).",
+      "section": "Physiology",
+      "topic": "MAP CO SVR α1 receptor distribution sympathetic diversion organ perfusion flow vs pressure",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "hypo_k02",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the neural regulation of blood pressure:",
+      "statements": [
+        {"label": "A", "text": "Baroreceptors involved in blood pressure regulation are located in the carotid sinus and the aortic arch.", "correct": true},
+        {"label": "B", "text": "Increased baroreceptor firing stimulates the vasomotor centre (VMC) to raise blood pressure.", "correct": false},
+        {"label": "C", "text": "Diabetic autonomic neuropathy can impair baroreceptor-mediated sympathetic responses, predisposing to postural hypotension and syncope.", "correct": true},
+        {"label": "D", "text": "The neural baroreceptor-mediated response to acute hypotension is slower than the hormonal response mediated by the renin-angiotensin-aldosterone system.", "correct": false}
+      ],
+      "explanation": "Baroreceptors are stretch receptors located in the carotid sinus and aortic arch that relay afferent signals to the VMC in the medulla (A = True). Increased baroreceptor firing INHIBITS the VMC and reduces blood pressure — it is the regulatory brake on hypertension, not a stimulus to raise BP (B = False). Diabetic autonomic neuropathy disrupts sympathetic efferent pathways, blunting the baroreceptor reflex and producing postural hypotension (C = True). The neural baroreceptor response is characteristically FAST (milliseconds to seconds), whereas the RAAS hormonal response is comparatively slow (minutes to hours) (D = False).",
+      "section": "Physiology",
+      "topic": "baroreceptors carotid aortic VMC inhibition neural fast hormonal slow diabetic autonomic neuropathy",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "hypo_k03",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the clinical recognition and features of shock:",
+      "statements": [
+        {"label": "A", "text": "A serum lactate >1.5 mmol/L is consistent with inadequate tissue perfusion and supports a clinical diagnosis of shock.", "correct": true},
+        {"label": "B", "text": "Tachycardia is typically the first compensatory physiological response to developing shock.", "correct": false},
+        {"label": "C", "text": "Patients receiving beta-blockers may fail to mount a compensatory tachycardia in early shock, potentially masking clinical deterioration.", "correct": true},
+        {"label": "D", "text": "Distributive shock typically presents with cold, clammy peripheries and a reduced cardiac output.", "correct": false}
+      ],
+      "explanation": "Lactate >1.5 mmol/L reflects anaerobic metabolism from inadequate tissue oxygenation and supports the diagnosis of shock (A = True). Rising respiratory rate is the FIRST compensatory sign; an increase in minute ventilation attempts to restore oxygen delivery before tachycardia and then hypotension supervene (B = False). Beta-blockers prevent the reflex tachycardia that would normally signal early cardiovascular decompensation (C = True). Distributive shock (e.g. sepsis) is characterised by LOW SVR, warm/vasodilated peripheries, and a NORMAL or HIGH cardiac output — the opposite of the cold/low-CO presentation seen in hypovolaemic or cardiogenic shock (D = False).",
+      "section": "Shock",
+      "topic": "shock recognition lactate RR first beta-blockers tachycardia distributive warm high CO",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "hypo_k04",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the classification and haemodynamic profiles of the four types of shock:",
+      "statements": [
+        {"label": "A", "text": "All four types of shock share a final common pathway of reduced cardiac output.", "correct": false},
+        {"label": "B", "text": "Obstructive shock may initially present with a normal or near-normal blood pressure despite critically impaired cardiac filling.", "correct": true},
+        {"label": "C", "text": "The haemodynamic definition of cardiogenic shock includes a cardiac index <2.2 L/min/m².", "correct": true},
+        {"label": "D", "text": "Neurogenic shock characteristically presents with reflex tachycardia and cold, shut-down peripheries.", "correct": false}
+      ],
+      "explanation": "Distributive shock (the most common type, accounting for approximately two-thirds of all shock) typically presents with a NORMAL or HIGH cardiac output and low SVR — so not all types share a low CO final pathway (A = False). In early obstructive shock, compensatory mechanisms may transiently maintain blood pressure even as venous return and CO are critically impaired (B = True). Cardiogenic shock requires CI <2.2 L/min/m² with SBP <90 mmHg and/or signs of end-organ hypoperfusion (C = True). Neurogenic shock results from loss of sympathetic outflow: it presents with BRADYCARDIA (unopposed vagal tone) and warm, vasodilated peripheries — not the tachycardia and cold peripheries of hypovolaemic shock (D = False).",
+      "section": "Shock",
+      "topic": "shock types distributive high CO normal BP obstructive cardiogenic CI neurogenic bradycardia warm",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "hypo_k05",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding dynamic markers of fluid responsiveness in mechanically ventilated patients:",
+      "statements": [
+        {"label": "A", "text": "A pulse pressure variation (PPV) >10% predicts a positive haemodynamic response to a fluid bolus.", "correct": true},
+        {"label": "B", "text": "PPV and stroke volume variation (SVV) are valid markers of fluid responsiveness in patients with atrial fibrillation who are on fully controlled mechanical ventilation.", "correct": false},
+        {"label": "C", "text": "A passive leg raise acts as a reversible autotransfusion and can assess fluid responsiveness without administering intravenous fluid.", "correct": true},
+        {"label": "D", "text": "PPV is a reliable marker of fluid responsiveness in a patient making spontaneous respiratory efforts during pressure support ventilation.", "correct": false}
+      ],
+      "explanation": "PPV >10% during controlled mechanical ventilation predicts fluid responsiveness (A = True). Both sinus rhythm AND fully controlled mechanical ventilation are required: atrial fibrillation generates irregular R-R intervals that invalidate the measurement even on controlled MV (B = False). PLR mobilises venous blood from the lower limbs and provides a fully reversible preload challenge with no net fluid administered (C = True). Spontaneous respiratory effort during PSV generates unpredictable intrathoracic pressure changes that invalidate PPV, regardless of PEEP level or tidal volume (D = False).",
+      "section": "Treatment",
+      "topic": "PPV SVV validity sinus rhythm controlled MV PLR reversible AF invalid spontaneous effort invalid",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "hypo_k06",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding randomised controlled trial evidence for fluid selection in shock resuscitation:",
+      "statements": [
+        {"label": "A", "text": "The CHEST trial demonstrated that HES 130/0.42 significantly increased the rate of renal replacement therapy compared to 0.9% saline in ICU patients.", "correct": true},
+        {"label": "B", "text": "The SAFE trial found no overall difference in 28-day mortality between 4% albumin and 0.9% saline, but a post-hoc analysis suggested higher mortality with albumin in the trauma subgroup.", "correct": true},
+        {"label": "C", "text": "Large-volume infusion of balanced crystalloids (e.g. Hartmann's solution) carries a greater risk of hyperchloraemic metabolic acidosis than 0.9% saline.", "correct": false},
+        {"label": "D", "text": "The FEAST trial showed that bolus resuscitation with albumin or 0.9% saline increased mortality compared to a no-bolus strategy in African children with severe infection.", "correct": true}
+      ],
+      "explanation": "CHEST 2012: HES increased AKI and need for RRT vs saline with no mortality benefit (A = True). SAFE 2004: no overall 28-day mortality difference between albumin and saline; post-hoc analysis of the trauma subgroup suggested statistically significantly higher mortality with albumin (B = True). It is 0.9% normal saline — with its high chloride load — that causes hyperchloraemic acidosis; balanced crystalloids are preferred precisely because they avoid this complication (C = False). FEAST 2011: contrary to expectation, aggressive bolus resuscitation with either albumin or saline increased mortality compared to a no-bolus strategy in this paediatric African sepsis population (D = True).",
+      "section": "Treatment",
+      "topic": "CHEST HES renal failure SAFE albumin trauma FEAST children mortality saline acidosis balanced crystalloid",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "hypo_k07",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding vasopressors used in circulatory shock:",
+      "statements": [
+        {"label": "A", "text": "Noradrenaline is the first-line vasopressor recommended by the Surviving Sepsis Campaign guidelines.", "correct": true},
+        {"label": "B", "text": "Vasopressin produces vasoconstriction via V1 receptors independently of the adrenergic system.", "correct": true},
+        {"label": "C", "text": "Dopamine is preferred over noradrenaline as first-line vasopressor in distributive shock due to its additional inotropic effects.", "correct": false},
+        {"label": "D", "text": "Metaraminol is an appropriate agent for sustained vasopressor support in prolonged vasodilatory septic shock.", "correct": false}
+      ],
+      "explanation": "Noradrenaline is the first-line vasopressor in septic shock per SSC guidelines, with potent α1 activity and limited β-mediated side effects (A = True). Vasopressin acts via V1 receptors on vascular smooth muscle independently of adrenergic mechanisms, making it valuable as a second-line agent and in catecholamine-resistant shock; the VASST and VANISH trials established its role (B = True). Dopamine is INFERIOR to noradrenaline in distributive shock because it causes significantly more dysrhythmias; its additional inotropic effect does not offset this safety disadvantage (C = False). Metaraminol is a less potent α1 agonist suited to short-term peri-operative use, not sustained septic shock management (D = False).",
+      "section": "Treatment",
+      "topic": "noradrenaline first-line SSC vasopressin V1 dopamine inferior arrhythmias metaraminol short-term",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "hypo_k08",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding inotropic agents used in cardiogenic shock:",
+      "statements": [
+        {"label": "A", "text": "Dobutamine's β2-adrenoceptor activity can cause vasodilation, which may require co-administration of a vasopressor to maintain MAP.", "correct": true},
+        {"label": "B", "text": "Phosphodiesterase III inhibitors (e.g. milrinone) exert their positive inotropic effect by activating β1-adrenoceptors.", "correct": false},
+        {"label": "C", "text": "Levosimendan increases cardiac contractility by sensitising troponin C to calcium without increasing myocardial oxygen demand.", "correct": true},
+        {"label": "D", "text": "Milrinone is ineffective in patients with adrenergic receptor downregulation following prolonged catecholamine infusion.", "correct": false}
+      ],
+      "explanation": "Dobutamine's β2 activity causes vasodilation; a fall in MAP is an expected side effect requiring vasopressor co-administration in hypotensive patients (A = True). Milrinone and PDE III inhibitors work by inhibiting cAMP breakdown, acting INDEPENDENTLY of adrenoceptors — they do not activate β1 receptors (B = False). Levosimendan sensitises the troponin C complex to calcium, enhancing contractility without increasing intracellular calcium load or myocardial oxygen consumption (C = True). Because milrinone completely bypasses adrenoceptors, it RETAINS efficacy even when β1 downregulation has rendered catecholamines ineffective — this is its primary clinical advantage (D = False).",
+      "section": "Treatment",
+      "topic": "dobutamine β2 vasodilation milrinone PDE3 adrenoceptor independent levosimendan calcium sensitiser downregulation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "hypo_k09",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding methods of cardiac output measurement in the critically ill:",
+      "statements": [
+        {"label": "A", "text": "The pulmonary artery catheter, using thermodilution or dye dilution, is considered the gold standard for cardiac output measurement.", "correct": true},
+        {"label": "B", "text": "Oesophageal Doppler directly measures whole-body cardiac output without requiring any correction for anatomical distribution of flow.", "correct": false},
+        {"label": "C", "text": "The LiDCOrapid monitor derives cardiac output from arterial waveform morphology and does not require calibration against an external reference.", "correct": true},
+        {"label": "D", "text": "Transthoracic echocardiography can rapidly exclude pericardial tamponade as a cause of obstructive shock at the bedside.", "correct": true}
+      ],
+      "explanation": "The PAC remains the reference standard against which all other CO monitors are validated, though routine use has declined due to insertion risks and lack of mortality benefit in RCTs (A = True). Oesophageal Doppler measures flow only in the descending thoracic aorta, which carries approximately 70% of CO; the remaining 30% is distributed to the head, upper limbs, and coronary circulation proximal to the probe — a correction factor is always required (B = False). LiDCOrapid is an uncalibrated waveform device, unlike PiCCO and LiDCO which require thermodilution or lithium dilution calibration (C = True). TTE provides rapid bedside assessment and can identify pericardial effusion with cardiac chamber collapse within minutes (D = True).",
+      "section": "Monitoring",
+      "topic": "PAC gold standard oesophageal Doppler 70% correction LiDCOrapid uncalibrated TTE tamponade",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "hypo_k10",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding goal-directed therapy (GDT) and haemodynamic targets in shock resuscitation:",
+      "statements": [
+        {"label": "A", "text": "Rivers et al. (2001) reported a significant mortality benefit from early goal-directed therapy targeting ScvO₂, CVP, and MAP in a single-centre RCT of patients with early septic shock.", "correct": true},
+        {"label": "B", "text": "The ARISE, ProCESS, and ProMISe trials confirmed a mortality benefit from routine protocolised EGDT in multicentre practice.", "correct": false},
+        {"label": "C", "text": "Both excessive and insufficient fluid administration are independently associated with increased morbidity in critically ill patients.", "correct": true},
+        {"label": "D", "text": "Current evidence supports a standardised, protocol-driven approach to haemodynamic targets over an individualised physiological assessment.", "correct": false}
+      ],
+      "explanation": "Rivers 2001 was a landmark single-centre RCT showing mortality benefit from EGDT in septic shock (A = True). ARISE, ProCESS, and ProMISe — three large international multicentre RCTs — all showed NO mortality benefit from routine EGDT vs usual care, refuting protocol-driven resuscitation in the general ICU sepsis population (B = False). The bidirectional harm of fluid mismanagement (excess causing oedema/organ dysfunction, deficit causing ischaemia) underscores the need for dynamic ongoing assessment (C = True). Current consensus, informed by these RCTs, strongly favours an individualised approach rather than a fixed protocol (D = False).",
+      "section": "Treatment",
+      "topic": "Rivers EGDT ARISE ProCESS ProMISe no benefit individualised approach fluid harm bidirectional",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}

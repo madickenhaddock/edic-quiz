@@ -1,0 +1,634 @@
+{
+  "module": "Sepsis and Septic Shock Part IV: Adjuvant therapies in sepsis",
+  "sections": {
+    "Adjuvant Therapies for Sepsis": "Despite advances in our understanding of sepsis, mortality remains ~40% in shock. This module highlights adjunctive interventions with an evidence base or directly addressed by recent Surviving Sepsis Campaign (SSC) guidelines.",
+    "Corticosteroids": "SSC 2026 suggests IV corticosteroids in adults with septic shock with ongoing vasopressor requirement (NE/E ≥0.25 mcg/kg/min for ≥4 hours). Hydrocortisone-equivalent dose: 200 mg/day. ACTH stimulation testing is NOT recommended before initiation — neither CORTICUS nor APROCCHSS found predictive value, and critically ill patients have reduced cortisol-binding proteins making total cortisol increments unreliable (free cortisol responses are normal or elevated). Key trials: CORTICUS (2008, n=500): no survival benefit with hydrocortisone. APROCCHSS: hydrocortisone 50 mg q6h + fludrocortisone 50 µg/day → RR death 0.88 (CI 0.78–0.99). ADRENAL (n=3658): hydrocortisone 200 mg/day vs placebo — no 28- or 90-day mortality benefit, but faster shock resolution, shorter MV, fewer transfusions. Fludrocortisone is NOT routinely recommended by current guidelines. SSC 2026 does not mandate a specific tapering strategy; 61% of expert panelists stop steroids without tapering in improving patients.",
+    "Blood Products": "RBC transfusion only when Hb <7 g/dL in the absence of myocardial ischaemia or acute haemorrhage (TRISS trial: 7 g/dL non-inferior to 9 g/dL for 90-day mortality, ischaemic events, life support use). Neither SSC 2021 nor 2026 provide recommendations on blood product transfusion. FFP: only for active bleeding or before invasive procedures. Erythropoietin: SSC 2016 strong recommendation AGAINST (slight reduction in transfusion frequency but increased thrombotic events, no mortality benefit). EPO not mentioned in SSC 2021/2026.",
+    "Analgesia and Sedation": "Sedation should be minimised in mechanically ventilated sepsis patients using validated scales (RASS, SAS). Daily sedation interruption (Kress 2000): reduced MV duration and ICU LOS in single-centre RCT. SLEAP trial (Mehta 2012): adding daily cessation to RASS-targeted protocolized sedation — no additional benefit. NONSEDA trial: no sedation vs light sedation — no reduction in ventilator-free days, no difference in 90-day mortality; increased thromboembolic events in no-sedation group. Benzodiazepines strongly associated with delirium; shorter-acting agents (propofol, dexmedetomidine) preferred. Dexmedetomidine vs propofol (Hughes 2021, n=422): no difference in delirium/coma-free days (10.7 vs 10.8 days; OR 0.96), ventilator-free days (23.7 vs 24.0; OR 0.98), or 90-day mortality (38% vs 39%; HR 1.06). SSC 2021/2026: no formal recommendation on sedation.",
+    "Glucose Control": "SSC 2021: initiate insulin at ≥180 mg/dL (10 mmol/L), strong recommendation; target 144–180 mg/dL (8–10 mmol/L). SSC 2026: no recommendation. van den Berghe 2001 (single-centre surgical ICU): tight control 80–110 mg/dL → 1/3 reduction in hospital mortality. NICE-SUGAR: intensive control (81–108 mg/dL) → INCREASED 90-day mortality and hypoglycaemia in medical and surgical ICU patients. Meta-analysis confirmed no survival benefit with intensive control. Practical: start insulin after 2 consecutive glucose >180 mg/dL; monitor every 1–2 h until stable, then every 4 h; use arterial (not capillary) blood for point-of-care testing — capillary values can overestimate in critical illness.",
+    "Thromboembolism Prophylaxis": "Sepsis is a risk factor for VTE; vasopressor use is an independent risk factor for ICU-acquired DVT. PROTECT trial (n=3764): dalteparin vs UFH — no significant difference in DVT (5.1% vs 5.8%), but significantly lower PE with dalteparin. SSC recommends LMWH over UFH: reduced PE, reduced HIT, ease of administration (moderate quality evidence). LMWH is renally excreted; dose adjustment may be needed. DIRECT study: dalteparin in CrCl <30 mL/min — no accumulation in single-arm trial. Anti-Xa monitoring may be considered in CrCl <30 mL/min. SSC 2026 carries over 2021 recommendations.",
+    "Stress Ulcer Prophylaxis": "SSC recommends SUP for septic patients with risk factors for GI bleeding; suggests PPIs. H2RAs are a reasonable alternative when PPIs unavailable (SSC 2026 update). Risk factors: AKI, MALE gender, coagulopathy, shock, chronic liver failure. SUP-ICU (n=3298): pantoprazole → significant reduction in GI bleeding, no mortality difference. REVISE (n=4821 MV patients): pantoprazole vs placebo → GI bleeding 1.0% vs 3.5% (HR 0.30; p<0.001); 90-day mortality 29.1% vs 30.9% (HR 0.94, NS). In enterally fed patients without additional risk factors, need for SUP is unclear.",
+    "Anticoagulants": "Sepsis-induced DIC consumes antithrombin, activated protein C, and TFPI. Despite pathophysiological rationale, large RCTs showed no benefit and increased bleeding. SSC 2016: strong recommendation AGAINST antithrombin supplementation. SCARLET (n=800): recombinant human thrombomodulin for 6 days — no reduction in 28-day all-cause mortality. SSC 2026: no recommendation on therapeutic anticoagulation (but strongly recommends pharmacological VTE prophylaxis).",
+    "Intravenous Immunoglobulin": "SSC 2026: suggest AGAINST IVIG (conditional recommendation, low certainty). INSTINCT (necrotising soft tissue infection, n=100): IVIG vs saline — no effect on 6-month physical functioning. CIGMA (severe CAP, trimodulin IgM+IgA+IgG): no difference in ventilator-free days. Some evidence supports IVIG in: necrotising staphylococcal sepsis, severe/recurrent C. difficile colitis, staphylococcal/streptococcal toxic shock syndrome (under review by NHS England).",
+    "Blood Purification": "SSC 2026: suggest AGAINST polymyxin B hemoperfusion AND all EBP techniques (hemoperfusion, high-dose hemofiltration, plasma exchange; conditional, very low certainty). EUPHRATES (n=466): polymyxin B hemoperfusion in endotoxic septic shock — non-significant mortality difference in per-protocol analysis; improved cardiovascular function and ventilator-free days (median +14 days; p=0.0043). CPFA (Livigni): no mortality reduction in septic shock. Key concern: non-selective removal of pro- and anti-inflammatory cytokines, nutrients, and antibiotics. TIGRIS trial (published AFTER SSC 2026): polymyxin B hemoadsorption in multi-organ failure + high EAA subpopulation → higher probability of lower mortality — does not change current guideline.",
+    "Vitamin C": "SSC 2026: recommend AGAINST IV vitamin C. LOVIT trial (adults with sepsis on vasopressors): IV vitamin C → higher risk of death or persistent organ dysfunction at 28 days vs placebo; glucose monitoring required active modification to avoid HYPERGLYCAEMIA. 55 RCTs reviewed by SSC 2026; low-risk-of-bias trials showed no effect on mortality.",
+    "Potential New Treatments": "IMMUNOSEP trial (December 2025): precision immunotherapy with anakinra (IL-1 receptor antagonist) or interferon gamma (IFN-γ), patient-selected by immunological phenotyping. Results: reduced organ failure (improved SOFA score) but NO significant difference in mortality. Further studies needed."
+  },
+  "questions": [
+    {
+      "id": "sss4_a01",
+      "type": "A",
+      "set": 1,
+      "question": "A 58-year-old woman develops septic shock secondary to hospital-acquired pneumonia. Despite adequate fluid resuscitation, she has required norepinephrine 0.30 mcg/kg/min for the past 5 hours to maintain MAP ≥65 mmHg. According to the 2026 Surviving Sepsis Campaign guidelines, which is the most appropriate adjuvant therapy to initiate?",
+      "options": [
+        "A: IV hydrocortisone 200 mg/day",
+        "B: IV methylprednisolone 1 mg/kg/day",
+        "C: Withhold corticosteroids until an ACTH stimulation test confirms adrenal non-response",
+        "D: IV hydrocortisone 200 mg/day plus fludrocortisone 50 µg/day",
+        "E: IV dexamethasone 6 mg/day"
+      ],
+      "correct": 0,
+      "explanation": "SSC 2026 suggests IV corticosteroids at a hydrocortisone-equivalent of 200 mg/day in adults with septic shock with ongoing vasopressor requirement (NE/E ≥0.25 mcg/kg/min for ≥4 hours). ACTH stimulation testing is NOT recommended before initiation. Although APROCCHSS used fludrocortisone alongside hydrocortisone, current SSC guidelines do not recommend its routine addition. Methylprednisolone 1 mg/kg/day and dexamethasone 6 mg/day are not the SSC 2026 recommended formulation or dose for septic shock.",
+      "section": "Corticosteroids",
+      "topic": "corticosteroids SSC 2026 hydrocortisone 200 mg vasopressor threshold septic shock",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss4_a02",
+      "type": "A",
+      "set": 1,
+      "question": "A 70-year-old man with septic shock has required norepinephrine 0.28 mcg/kg/min for 6 hours. A trainee proposes performing a corticotropin (ACTH) stimulation test before initiating hydrocortisone, citing the CORTICUS trial protocol. Which statement best explains why ACTH testing is NOT currently recommended before starting corticosteroids in septic shock?",
+      "options": [
+        "A: The ACTH test requires 6 hours to complete and would unduly delay treatment",
+        "B: A normal ACTH response reliably predicts steroid non-benefit; the test is only unreliable in surgical patients",
+        "C: Random cortisol levels are sufficient to guide steroid initiation in all septic patients",
+        "D: Neither CORTICUS nor APROCCHSS found predictive value of the ACTH test, and reduced cortisol-binding proteins in critical illness make total cortisol increments unreliable",
+        "E: The ACTH test is only validated for diagnosing primary adrenal insufficiency, not CIRCI"
+      ],
+      "correct": 3,
+      "explanation": "Both CORTICUS and APROCCHSS found no predictive value of the ACTH stimulation test for benefit from corticosteroids in septic shock. Critically ill patients have low cortisol-binding proteins (albumin, SHBG), causing underestimation of total cortisol so incremental responses appear blunted even when free cortisol responses are normal or elevated (Peeters 2018). The nearest distractor (C) is incorrect: random cortisol has limited utility specifically in CIRCI, and the SCCM/ESICM task force concluded no single test reliably diagnoses CIRCI.",
+      "section": "Corticosteroids",
+      "topic": "ACTH test CIRCI cortisol binding protein CORTICUS APROCCHSS no predictive value",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss4_a03",
+      "type": "A",
+      "set": 1,
+      "question": "A 66-year-old man with septic shock is haemodynamically stable on norepinephrine 0.15 mcg/kg/min after fluid resuscitation. Haemoglobin is 7.2 g/dL, SpO2 98%, and there is no ECG evidence of myocardial ischaemia or acute haemorrhage. What is the most appropriate management of his anaemia?",
+      "options": [
+        "A: Transfuse 2 units packed RBCs to target haemoglobin >9 g/dL",
+        "B: Transfuse 1 unit packed RBCs as haemoglobin is below the 8 g/dL septic shock threshold",
+        "C: Initiate erythropoietin to stimulate red cell production and reduce transfusion requirements",
+        "D: No RBC transfusion is indicated; the transfusion threshold is <7 g/dL in the absence of extenuating circumstances",
+        "E: Transfuse if haemoglobin falls below 8 g/dL or ScvO2 drops below 70%"
+      ],
+      "correct": 3,
+      "explanation": "RBC transfusion is recommended only when Hb falls below 7 g/dL in the absence of myocardial ischaemia or acute haemorrhage, supported by the TRISS trial (7 g/dL non-inferior to 9 g/dL for 90-day mortality and ischaemic events in septic shock). At Hb 7.2 g/dL without ischaemia, transfusion is not indicated. Erythropoietin carries a strong SSC 2016 recommendation against its use due to increased thrombotic events without mortality benefit. The 8 g/dL threshold in option B is not supported by current evidence in stable septic shock.",
+      "section": "Blood Products",
+      "topic": "RBC transfusion threshold 7 g/dL TRISS erythropoietin septic shock",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss4_a04",
+      "type": "A",
+      "set": 1,
+      "question": "A trainee recalls that the NICE-SUGAR trial changed clinical practice regarding glucose control in ICU patients. What was the key finding of NICE-SUGAR regarding intensive glucose control targeting 81–108 mg/dL (4.5–6.0 mmol/L)?",
+      "options": [
+        "A: Significant reduction in 90-day mortality in medical but not surgical ICU patients",
+        "B: No significant difference in mortality but significantly increased hypoglycaemia",
+        "C: Increased 90-day mortality and increased incidence of hypoglycaemia compared to conventional control",
+        "D: Reduction in organ dysfunction and ICU length of stay without mortality impact",
+        "E: Confirmed the survival benefit of tight control demonstrated by van den Berghe in a multicentre cohort"
+      ],
+      "correct": 2,
+      "explanation": "NICE-SUGAR demonstrated that intensive glucose control targeting 81–108 mg/dL was associated with INCREASED 90-day mortality in both medical and surgical ICU patients, alongside increased hypoglycaemia — directly contradicting van den Berghe's 2001 single-centre findings. A meta-analysis confirmed no survival benefit with intensive control and increased hypoglycaemia in septic patients. The nearest distractor (B) is incorrect: mortality was actively increased, not merely unchanged.",
+      "section": "Glucose Control",
+      "topic": "NICE-SUGAR intensive glucose mortality hypoglycaemia van den Berghe reversal",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss4_a05",
+      "type": "A",
+      "set": 1,
+      "question": "A 62-year-old woman with septic shock from intra-abdominal infection has two consecutive glucose measurements of 210 mg/dL (11.6 mmol/L). Insulin therapy is initiated. Which combination of glucose target and monitoring strategy is most appropriate?",
+      "options": [
+        "A: Target 80–110 mg/dL; monitor every 30 minutes until stable",
+        "B: Target 110–144 mg/dL; use capillary blood for point-of-care monitoring",
+        "C: Target 144–180 mg/dL; use arterial blood for point-of-care testing; monitor every 1–2 hours until stable",
+        "D: Target 144–180 mg/dL; use capillary blood as it is more rapidly available at the bedside",
+        "E: No insulin required until two measurements exceed 250 mg/dL (13.9 mmol/L)"
+      ],
+      "correct": 2,
+      "explanation": "Insulin is initiated when two consecutive glucose measurements exceed 180 mg/dL, targeting 144–180 mg/dL (8–10 mmol/L). Monitoring every 1–2 hours until stable, then every 4 hours. Arterial blood is preferred over capillary for point-of-care testing as capillary values can overestimate arterial/plasma glucose in critical illness. The nearest distractor (D) uses the correct glucose target but incorrectly recommends capillary blood; this distinction has direct patient safety implications.",
+      "section": "Glucose Control",
+      "topic": "glucose target 144-180 insulin initiation 180 arterial vs capillary monitoring",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss4_a06",
+      "type": "A",
+      "set": 1,
+      "question": "A 59-year-old patient with septic shock is being assessed for stress ulcer prophylaxis. According to a systematic review of predictors of clinically important GI bleeding in ICU patients, which of the following is NOT an established risk factor?",
+      "options": [
+        "A: Acute kidney injury",
+        "B: Coagulopathy",
+        "C: Female sex",
+        "D: Shock",
+        "E: Chronic liver failure"
+      ],
+      "correct": 2,
+      "explanation": "Male gender — not female sex — is an established risk factor for clinically important GI bleeding in ICU patients (Granholm et al. systematic review). The established risk factors are AKI, male gender, coagulopathy, shock, and chronic liver failure. Female sex is not a recognised risk factor. This is a clinically unintuitive distinction that is frequently tested.",
+      "section": "Stress Ulcer Prophylaxis",
+      "topic": "stress ulcer risk factors NOT female sex male gender AKI coagulopathy shock",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss4_a07",
+      "type": "A",
+      "set": 1,
+      "question": "A 72-year-old man with septic shock is intubated and mechanically ventilated. He has coagulopathy and AKI. The team discusses stress ulcer prophylaxis. Which statement most accurately reflects the findings of the REVISE trial regarding pantoprazole in mechanically ventilated ICU patients?",
+      "options": [
+        "A: Pantoprazole significantly reduced both clinically important GI bleeding and 90-day mortality",
+        "B: Pantoprazole reduced clinically important upper GI bleeding from 3.5% to 1.0% without improving 90-day mortality",
+        "C: Early enteral nutrition was non-inferior to pantoprazole in preventing GI bleeding across all patient subgroups",
+        "D: Pantoprazole reduced GI bleeding but significantly increased hospital-acquired infection rates",
+        "E: H2-receptor antagonists outperformed pantoprazole in the subgroup with renal impairment in REVISE"
+      ],
+      "correct": 1,
+      "explanation": "REVISE (n=4821 mechanically ventilated ICU patients) showed pantoprazole reduced clinically important upper GI bleeding from 3.5% (placebo) to 1.0% (HR 0.30; p<0.001), with no significant difference in 90-day mortality (29.1% vs 30.9%; HR 0.94, p=0.25). Infection rates and adverse events were similar between groups. The nearest distractor (A) is the classic overclaim — assuming bleeding prevention translates to mortality benefit, which REVISE and SUP-ICU both fail to show.",
+      "section": "Stress Ulcer Prophylaxis",
+      "topic": "REVISE pantoprazole GI bleeding 1% vs 3.5% no mortality mechanical ventilation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss4_a08",
+      "type": "A",
+      "set": 1,
+      "question": "A 55-year-old man with septic shock develops disseminated intravascular coagulation with elevated D-dimer, reduced fibrinogen, and prolonged prothrombin time. A fellow suggests supplementing antithrombin III given its consumption in DIC. Which statement about anticoagulant supplementation in sepsis-associated DIC is CORRECT?",
+      "options": [
+        "A: Antithrombin III supplementation has shown a significant survival benefit in critically ill patients with DIC",
+        "B: The SCARLET trial demonstrated that recombinant thrombomodulin significantly reduced 28-day mortality in sepsis-associated coagulopathy",
+        "C: SSC 2016 made a strong recommendation AGAINST antithrombin use; neither antithrombin nor thrombomodulin has demonstrated mortality benefit in large RCTs",
+        "D: SSC 2026 provides a conditional recommendation for anticoagulant supplementation in sepsis-associated DIC",
+        "E: Drotrecogin alfa (recombinant activated protein C) is the preferred anticoagulant for sepsis-associated DIC"
+      ],
+      "correct": 2,
+      "explanation": "SSC 2016 made a strong recommendation against antithrombin based on failure to demonstrate mortality benefit and increased bleeding risk. SCARLET (n=800) showed thrombomodulin did NOT reduce 28-day all-cause mortality. Drotrecogin alfa was withdrawn after PROWESS-SHOCK (2012) found no benefit. SSC 2026 provides no recommendation on therapeutic anticoagulation. The nearest distractor (D) is incorrect: SSC 2026 provides a strong recommendation for pharmacological VTE prophylaxis — not therapeutic anticoagulation for DIC.",
+      "section": "Anticoagulants",
+      "topic": "antithrombin DIC SSC 2016 against SCARLET thrombomodulin no mortality benefit",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss4_a09",
+      "type": "A",
+      "set": 1,
+      "question": "The SSC guidelines recommend LMWH over unfractionated heparin (UFH) for VTE prophylaxis in septic patients without contraindications. Which combination of reasons best justifies this preference?",
+      "options": [
+        "A: LMWH has demonstrated a significant reduction in 28-day mortality compared to UFH in septic patients",
+        "B: LMWH reduces pulmonary embolism incidence, reduces heparin-induced thrombocytopenia risk, and is easier to administer",
+        "C: The PROTECT trial showed dalteparin significantly reduces DVT rates compared to UFH in critically ill patients",
+        "D: LMWH does not require dose adjustment in renal failure, unlike UFH which accumulates significantly",
+        "E: LMWH prevents vasopressor-related ICU-acquired DVT more effectively than UFH according to RCT evidence"
+      ],
+      "correct": 1,
+      "explanation": "SSC guidelines favour LMWH over UFH based on three reasons: reduced PE, reduced HIT, and ease of administration (moderate quality evidence). The PROTECT trial showed no significant difference in DVT rates between dalteparin and UFH (5.1% vs 5.8%), but PE rate was significantly lower with dalteparin. The nearest distractor (C) is a common misconception — PROTECT showed PE reduction, not DVT reduction. LMWH is renally excreted and may require dose adjustment in renal dysfunction.",
+      "section": "Thromboembolism Prophylaxis",
+      "topic": "LMWH UFH VTE prophylaxis PROTECT trial PE HIT ease administration sepsis",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss4_a10",
+      "type": "A",
+      "set": 1,
+      "question": "A patient with septic shock requiring norepinephrine 0.20 mcg/kg/min is in the ICU. A colleague proposes adding high-dose intravenous vitamin C given its antioxidant and microcirculatory properties. What does the LOVIT trial show regarding IV vitamin C in this setting?",
+      "options": [
+        "A: IV vitamin C significantly reduced 28-day mortality in patients on vasopressor therapy",
+        "B: IV vitamin C had no effect on mortality but reduced vasopressor duration",
+        "C: IV vitamin C was associated with a higher risk of death or persistent organ dysfunction at 28 days compared to placebo",
+        "D: IV vitamin C reduced organ failure (SOFA) without affecting glucose monitoring requirements",
+        "E: SSC 2026 gives a weak recommendation for IV vitamin C in patients on vasopressor support"
+      ],
+      "correct": 2,
+      "explanation": "LOVIT (adults with sepsis on vasopressors) found IV vitamin C was associated with HIGHER risk of death or persistent organ dysfunction at 28 days vs placebo, and glucose monitoring required active modification to avoid hyperglycaemia. Based on LOVIT and a systematic review of 55 RCTs showing no mortality benefit in low-risk-of-bias trials, SSC 2026 recommends AGAINST vitamin C. The nearest distractor (B) — 'no effect' — understates the finding: LOVIT showed active harm, not neutral results.",
+      "section": "Vitamin C",
+      "topic": "LOVIT IV vitamin C harm death organ dysfunction SSC 2026 against hyperglycaemia",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss4_a11",
+      "type": "A",
+      "set": 1,
+      "question": "A 48-year-old intravenous drug user presents with septic shock from necrotising staphylococcal soft tissue infection. The team asks about adjuvant IVIG. Which statement best reflects current evidence and SSC 2026 guidance?",
+      "options": [
+        "A: SSC 2026 gives a strong recommendation for IVIG in necrotising soft tissue infections",
+        "B: INSTINCT demonstrated a significant reduction in 6-month physical functioning outcomes with IVIG in necrotising soft tissue infection",
+        "C: SSC 2026 suggests against IVIG in general sepsis; some evidence supports IVIG in specific conditions including necrotising staphylococcal sepsis and staphylococcal toxic shock syndrome",
+        "D: IVIG is standard of care for all necrotising fasciitis regardless of causative organism",
+        "E: CIGMA showed IgM-enriched trimodulin significantly reduced ventilator-free days in severe community-acquired pneumonia"
+      ],
+      "correct": 2,
+      "explanation": "SSC 2026 makes a conditional recommendation AGAINST IVIG in general sepsis/septic shock (low certainty evidence). INSTINCT (n=100, necrotising soft tissue infection): no effect on 6-month physical functioning. CIGMA (severe CAP, trimodulin IgM+IgA+IgG): no difference in ventilator-free days. However, some evidence supports IVIG in specific conditions: necrotising staphylococcal sepsis, severe/recurrent C. difficile, and staphylococcal/streptococcal toxic shock syndrome — under review by NHS England. The general 'recommend against' does not negate these niche indications.",
+      "section": "Intravenous Immunoglobulin",
+      "topic": "IVIG SSC 2026 against INSTINCT CIGMA staphylococcal TSS specific indications",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss4_a12",
+      "type": "A",
+      "set": 1,
+      "question": "A 67-year-old man with septic shock and multi-organ failure has a bedside endotoxin activity assay (EAA) result of 0.75, indicating high endotoxin activity. The team considers polymyxin B hemoperfusion. Which statement most accurately reflects current evidence and guideline status?",
+      "options": [
+        "A: SSC 2026 gives a conditional recommendation for polymyxin B hemoperfusion in patients with documented high endotoxin activity",
+        "B: EUPHRATES demonstrated a significant reduction in 28-day mortality with polymyxin B hemoperfusion in the primary analysis",
+        "C: SSC 2026 recommends against polymyxin B hemoperfusion; the TIGRIS trial (published after SSC 2026) suggests a possible benefit in a specific subpopulation with multi-organ failure and high EAA, but this does not change current guideline recommendations",
+        "D: Cytokine adsorption devices such as CytoSorb are recommended for refractory hyperinflammatory septic shock",
+        "E: Blood purification is conditionally recommended when two cytokine levels exceed the 75th percentile for the ICU population"
+      ],
+      "correct": 2,
+      "explanation": "SSC 2026 recommends against polymyxin B hemoperfusion and all EBP techniques (conditional, very low certainty). EUPHRATES (n=466): non-significant mortality difference in per-protocol analysis, with improvements in cardiovascular function and ventilator-free days (median +14 days; p=0.0043) but not mortality. TIGRIS — published shortly after SSC 2026 — showed higher probability of lower mortality with polymyxin B in the specific subpopulation with multi-organ failure AND high EAA, but does not yet change the guideline. Cytokine adsorbers (CytoSorb, Oxiris) are not recommended.",
+      "section": "Blood Purification",
+      "topic": "polymyxin B hemoperfusion EUPHRATES TIGRIS SSC 2026 against endotoxin EAA",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss4_a13",
+      "type": "A",
+      "set": 1,
+      "question": "A 61-year-old woman with septic shock and ARDS is mechanically ventilated. The team targets light sedation (RASS −1 to 0) and debates whether to use dexmedetomidine or propofol. According to the largest RCT comparing these agents for light sedation in mechanically ventilated patients with sepsis (Hughes et al. 2021, n=422), what was the primary finding?",
+      "options": [
+        "A: Dexmedetomidine resulted in significantly more days alive without delirium or coma compared to propofol",
+        "B: Propofol was associated with significantly fewer ventilator-free days due to respiratory depression",
+        "C: Dexmedetomidine was associated with lower 90-day mortality (38% vs 44%; p=0.02)",
+        "D: There were no significant differences between dexmedetomidine and propofol in delirium/coma-free days, ventilator-free days, or 90-day mortality",
+        "E: Propofol was superior for maintaining light sedation but significantly increased delirium incidence versus dexmedetomidine"
+      ],
+      "correct": 3,
+      "explanation": "Hughes et al. 2021 (n=422) showed no significant differences between dexmedetomidine and propofol for light sedation in mechanically ventilated sepsis patients: delirium/coma-free days 10.7 vs 10.8 (OR 0.96; 95% CI 0.74–1.26), ventilator-free days 23.7 vs 24.0 (OR 0.98), and 90-day mortality 38% vs 39% (HR 1.06; 95% CI 0.74–1.52). The nearest distractor (A) reflects the mechanistic expectation that dexmedetomidine's alpha-2 agonist properties would confer delirium benefit over propofol, but this was not borne out in the trial.",
+      "section": "Analgesia and Sedation",
+      "topic": "dexmedetomidine propofol light sedation sepsis no difference Hughes 2021 delirium",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss4_a14",
+      "type": "A",
+      "set": 1,
+      "question": "A 74-year-old man with septic shock is receiving dalteparin for VTE prophylaxis. His creatinine clearance has deteriorated to 18 mL/min. What is the most appropriate management of his VTE prophylaxis?",
+      "options": [
+        "A: Switch to unfractionated heparin as it is not renally excreted",
+        "B: Discontinue all pharmacological VTE prophylaxis given severe renal impairment",
+        "C: Continue dalteparin without modification; accumulation has been shown to be negligible across all degrees of renal impairment",
+        "D: Continue dalteparin with consideration of anti-Xa level monitoring, given creatinine clearance <30 mL/min",
+        "E: Reduce dalteparin dose by 50% empirically and monitor platelet count"
+      ],
+      "correct": 3,
+      "explanation": "Anti-Xa monitoring may be considered for LMWH in patients with CrCl <30 mL/min. The DIRECT study demonstrated no accumulation of dalteparin in CrCl <30 mL/min in a single-arm trial, but data on other LMWHs are lacking and monitoring remains prudent. Discontinuing prophylaxis is inappropriate as VTE risk remains high. Switching to UFH is an option but not the SSC-preferred strategy. The nearest distractor (C) overstates DIRECT — it studied dalteparin specifically in a non-randomised, single-arm design.",
+      "section": "Thromboembolism Prophylaxis",
+      "topic": "LMWH dalteparin renal impairment anti-Xa monitoring CrCl 30 DIRECT",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss4_a15",
+      "type": "A",
+      "set": 1,
+      "question": "The IMMUNOSEP trial, published in December 2025, evaluated precision immunotherapy with anakinra or interferon gamma in sepsis patients selected by immunological phenotyping. Which of the following is NOT a finding of the IMMUNOSEP trial?",
+      "options": [
+        "A: Patients were enrolled based on immunological phenotyping to guide drug selection",
+        "B: Both anakinra (IL-1 receptor antagonist) and interferon gamma were evaluated as precision therapies",
+        "C: Precision immunotherapy resulted in a significant reduction in 28-day all-cause mortality",
+        "D: Reduced organ failure as assessed by SOFA score was observed in the treatment group",
+        "E: The investigators concluded that further studies are needed before clinical adoption"
+      ],
+      "correct": 2,
+      "explanation": "IMMUNOSEP showed promising results in terms of reduced organ failure (improved SOFA) but did NOT demonstrate a significant difference in mortality. Patients were selected by immunological phenotyping to receive either anakinra or interferon gamma. The trial concluded that further studies are needed. The nearest distractor (D) is a TRUE finding — SOFA improvement occurred — making the absence of a mortality benefit (C) the key discriminating fact; SOFA improvement without mortality benefit is an important pattern in sepsis immunotherapy trials.",
+      "section": "Potential New Treatments",
+      "topic": "IMMUNOSEP anakinra interferon gamma no mortality SOFA reduction precision immunotherapy",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss4_k01",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding corticosteroids in adults with septic shock:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The ADRENAL trial demonstrated faster shock resolution but no significant reduction in 28-day mortality with hydrocortisone 200 mg/day versus placebo.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "An ACTH stimulation test should be performed before initiating hydrocortisone, as it identifies non-responders most likely to benefit.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "The 2026 SSC guidelines suggest IV corticosteroids in septic shock with ongoing vasopressor requirement defined as norepinephrine or epinephrine ≥0.25 mcg/kg/min for at least 4 hours.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Current SSC guidelines routinely recommend combining fludrocortisone 50 µg/day with hydrocortisone, based on the APROCCHSS mortality benefit.",
+          "correct": false
+        }
+      ],
+      "explanation": "ADRENAL (n=3658): hydrocortisone had no 28- or 90-day mortality benefit, but achieved faster shock resolution, shorter MV, and fewer transfusions (A=TRUE). ACTH testing is not recommended: neither CORTICUS nor APROCCHSS found predictive value, and low cortisol-binding proteins make total cortisol increments unreliable (B=FALSE). SSC 2026 suggests corticosteroids for the defined ongoing vasopressor requirement (C=TRUE). APROCCHSS used hydrocortisone + fludrocortisone and showed RR death 0.88 — but current guidelines do not routinely recommend fludrocortisone addition (D=FALSE — careful: APROCCHSS result ≠ guideline adoption).",
+      "section": "Corticosteroids",
+      "topic": "ADRENAL APROCCHSS ACTH test fludrocortisone SSC 2026 corticosteroids septic shock",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss4_k02",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding critical illness-related corticosteroid insufficiency (CIRCI) and cortisol assessment in septic patients:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Random cortisol measurement reliably diagnoses CIRCI in the majority of critically ill patients.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Critically ill patients typically have low cortisol-binding protein levels, causing total cortisol to underestimate free cortisol availability.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Free cortisol responses to ACTH stimulation are often normal or elevated in critically ill patients despite blunted total cortisol increments.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "While SSC 2016 suggested tapering steroid therapy, SSC 2026 does not mandate a specific tapering strategy.",
+          "correct": true
+        }
+      ],
+      "explanation": "Random cortisol has limited utility in CIRCI; the SCCM/ESICM task force concluded no single test reliably diagnoses CIRCI given the spectrum of abnormalities involved (A=FALSE). Reduced cortisol-binding globulin and albumin in critical illness cause apparent underestimation of total cortisol (B=TRUE). Free cortisol responses are paradoxically normal or elevated despite low total cortisol increments — explaining the discrepancy (C=TRUE). SSC 2016 suggested tapering; SSC 2026 makes no mandate — 61% of expert panelists stop steroids without tapering in improving patients (D=TRUE).",
+      "section": "Corticosteroids",
+      "topic": "CIRCI free cortisol binding proteins ACTH unreliable tapering SSC 2016 2026",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss4_k03",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding blood product transfusion in adults with sepsis:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The 2026 SSC guidelines provide a strong recommendation for RBC transfusion at a haemoglobin threshold of 7 g/dL.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "The TRISS trial showed that a 7 g/dL transfusion threshold was non-inferior to a 9 g/dL threshold for 90-day mortality and ischaemic events in septic shock.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Erythropoietin in critically ill patients is associated with a slight reduction in transfusion frequency but increased thrombotic events with no mortality benefit.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Fresh frozen plasma should be administered routinely to correct coagulopathy in septic patients, even in the absence of active bleeding.",
+          "correct": false
+        }
+      ],
+      "explanation": "The 2026 (and 2021) SSC guidelines provide NO recommendation on blood product transfusion; the 7 g/dL threshold comes from SSC 2016 (A=FALSE — trap: a more recent guideline does not necessarily carry over all recommendations). TRISS: 7 g/dL non-inferior to 9 g/dL in septic shock for 90-day mortality and ischaemic events (B=TRUE). Erythropoietin has a strong SSC 2016 recommendation against: no mortality benefit, increased thrombosis (C=TRUE). FFP should only be used for active bleeding or before invasive procedures, not for routine coagulopathy correction (D=FALSE).",
+      "section": "Blood Products",
+      "topic": "RBC 7 g/dL TRISS SSC 2026 no recommendation FFP EPO thrombosis",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss4_k04",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding glucose management in critically ill patients with sepsis:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "van den Berghe et al. (2001) demonstrated that tight glucose control targeting 80–110 mg/dL reduced hospital mortality by approximately one third in a single-centre surgical ICU.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The NICE-SUGAR trial confirmed the mortality benefit of intensive glucose control (81–108 mg/dL) in a multicentre medical and surgical ICU population.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Current practice supports initiating insulin therapy after two consecutive glucose measurements exceeding 180 mg/dL, with a target of 144–180 mg/dL.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Capillary blood is the preferred sample for point-of-care glucose monitoring in critically ill patients due to ease of collection.",
+          "correct": false
+        }
+      ],
+      "explanation": "van den Berghe 2001: tight control (80–110 mg/dL) reduced hospital mortality by ~1/3 in a single-centre surgical ICU (A=TRUE). NICE-SUGAR directly contradicted this: intensive control (81–108 mg/dL) INCREASED 90-day mortality and hypoglycaemia (B=FALSE — classic near-miss trap exploiting the van den Berghe/NICE-SUGAR reversal). Current practice: start insulin after 2 consecutive glucose >180 mg/dL, target 144–180 mg/dL (C=TRUE). Capillary blood overestimates arterial/plasma glucose in critical illness; arterial blood is preferred (D=FALSE).",
+      "section": "Glucose Control",
+      "topic": "glucose van den Berghe NICE-SUGAR 180 mg/dL target arterial vs capillary monitoring",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss4_k05",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding pharmacological venous thromboembolism prophylaxis in patients with sepsis:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "SSC guidelines recommend LMWH over UFH based on evidence of reduced pulmonary embolism, reduced heparin-induced thrombocytopenia, and ease of administration.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The PROTECT trial demonstrated that dalteparin significantly reduced DVT rates compared to unfractionated heparin in critically ill patients.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Vasopressor therapy is an independent risk factor for ICU-acquired deep vein thrombosis.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "LMWH is contraindicated in patients with creatinine clearance <30 mL/min and must be replaced by unfractionated heparin.",
+          "correct": false
+        }
+      ],
+      "explanation": "Three reasons support LMWH over UFH: reduced PE, reduced HIT, ease of administration (A=TRUE). PROTECT (n=3764): dalteparin vs UFH — no significant difference in DVT rates (5.1% vs 5.8%), but significantly lower PE with dalteparin (B=FALSE — PROTECT showed PE reduction, not DVT reduction; this is a classic point of confusion). Vasopressor use is an independent risk factor for ICU DVT, beyond baseline sepsis-related risk (C=TRUE). The DIRECT study showed no accumulation of dalteparin in CrCl <30 mL/min; LMWH is not absolutely contraindicated — anti-Xa monitoring may be considered (D=FALSE).",
+      "section": "Thromboembolism Prophylaxis",
+      "topic": "LMWH UFH PROTECT DVT PE HIT vasopressor DVT risk renal DIRECT",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss4_k06",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding stress ulcer prophylaxis (SUP) in critically ill patients with sepsis:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "SSC guidelines recommend PPI-based SUP for patients with risk factors for GI bleeding; H2-receptor antagonists are a reasonable alternative when PPIs are unavailable.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The SUP-ICU trial showed pantoprazole significantly reduced both clinically important GI bleeding and 90-day mortality compared to placebo.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "The REVISE trial demonstrated pantoprazole reduced clinically important upper GI bleeding from 3.5% to 1.0% without improving 90-day mortality.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "In enterally fed patients without additional risk factors for GI bleeding, the need for pharmacological stress ulcer prophylaxis remains unclear.",
+          "correct": true
+        }
+      ],
+      "explanation": "SSC 2026: PPIs recommended, H2RAs a reasonable alternative when PPIs unavailable (A=TRUE). SUP-ICU (n=3298): pantoprazole significantly reduced clinically important GI bleeding but showed NO difference in 90-day mortality, infections, or adverse events (B=FALSE — trap: GI bleeding reduction ≠ mortality benefit). REVISE (n=4821): pantoprazole reduced upper GI bleeding from 3.5% to 1.0% (HR 0.30; p<0.001) with no 90-day mortality benefit (C=TRUE). Early enteral nutrition may protect the gastric mucosa; in patients without additional risk factors who are enterally fed, the need for SUP is not established (D=TRUE).",
+      "section": "Stress Ulcer Prophylaxis",
+      "topic": "SUP-ICU REVISE pantoprazole GI bleeding PPI H2RA no mortality enteral nutrition",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss4_k07",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding anticoagulation as a treatment for sepsis-associated coagulopathy and DIC:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "SSC 2016 made a strong recommendation against antithrombin supplementation in patients with sepsis.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The SCARLET trial demonstrated that recombinant human thrombomodulin significantly reduced 28-day all-cause mortality in sepsis-associated coagulopathy.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "SSC 2026 includes a conditional recommendation for therapeutic anticoagulation in patients with sepsis-associated DIC.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Physiological anticoagulants including antithrombin and tissue factor pathway inhibitor (TFPI) are consumed during sepsis-induced DIC.",
+          "correct": true
+        }
+      ],
+      "explanation": "SSC 2016: strong recommendation AGAINST antithrombin based on lack of mortality benefit and increased bleeding (A=TRUE). SCARLET (n=800): thrombomodulin vs placebo for 6 days — NO significant reduction in 28-day all-cause mortality (B=FALSE). SSC 2026 provides NO recommendation on therapeutic anticoagulation in sepsis; it does strongly recommend pharmacological VTE prophylaxis (C=FALSE — trap: confusing VTE prophylaxis with therapeutic anticoagulation for DIC). Antithrombin, activated protein C, and TFPI are consumed in DIC, providing the pathophysiological rationale even though trials fail to confirm benefit (D=TRUE).",
+      "section": "Anticoagulants",
+      "topic": "antithrombin SCARLET thrombomodulin DIC SSC 2026 no recommendation TFPI consumed",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss4_k08",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding intravenous immunoglobulin (IVIG) therapy in adults with sepsis:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The 2026 SSC guidelines suggest against routine IVIG use in adults with sepsis or septic shock (conditional recommendation, low certainty evidence).",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "INSTINCT demonstrated a significant reduction in 6-month self-reported physical functioning with IVIG versus placebo in necrotising soft tissue infection.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "The CIGMA trial evaluated trimodulin (containing IgM, IgA, and IgG) in severe community-acquired pneumonia and found no significant improvement in ventilator-free days.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "There is currently no evidence base for considering IVIG in any specific infection-related ICU condition.",
+          "correct": false
+        }
+      ],
+      "explanation": "SSC 2026: conditional recommendation AGAINST IVIG (A=TRUE). INSTINCT (n=100, necrotising soft tissue infection): IVIG vs saline — no effect on 6-month physical functioning, the primary outcome (B=FALSE — plausible hypothesis given streptococcal/staphylococcal superantigen mechanism). CIGMA: trimodulin (IgM+IgA+IgG) in severe CAP — no difference in ventilator-free days (C=TRUE). Some evidence supports IVIG in specific conditions: necrotising staphylococcal sepsis, severe/recurrent C. difficile, and staphylococcal/streptococcal TSS — currently under NHS England review (D=FALSE — the 'no role anywhere' overclaim).",
+      "section": "Intravenous Immunoglobulin",
+      "topic": "IVIG SSC 2026 against INSTINCT CIGMA staphylococcal TSS C. difficile specific indications",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss4_k09",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding extracorporeal blood purification (EBP) techniques in septic shock:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "SSC 2026 suggests against polymyxin B hemoperfusion and all blood purification techniques (including hemoperfusion, high-dose hemofiltration, and plasma exchange) in adults with sepsis.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "EUPHRATES demonstrated a significant reduction in 28-day mortality with polymyxin B hemoperfusion in the primary analysis.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "A key concern with EBP is non-selective removal of both pro- and anti-inflammatory mediators, along with therapeutic drugs including antibiotics.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "The TIGRIS trial confirmed no benefit of polymyxin B hemoadsorption even in patients with high endotoxin activity and multi-organ failure.",
+          "correct": false
+        }
+      ],
+      "explanation": "SSC 2026: conditional recommendations against polymyxin B and all EBP techniques (very low certainty evidence) (A=TRUE). EUPHRATES (n=466): non-significant mortality difference in per-protocol analysis, with improvements in cardiovascular function and ventilator-free days (+14 days; p=0.0043) — not a mortality reduction (B=FALSE — trap: haemodynamic benefit misremembered as mortality benefit). Non-selective removal affects both pro- and anti-inflammatory balance, removes antibiotics and nutrients — the net effect on outcome is uncertain (C=TRUE). TIGRIS (published after SSC 2026): in patients with multi-organ failure AND high EAA, polymyxin B showed higher probability of lower mortality — the opposite of option D (D=FALSE).",
+      "section": "Blood Purification",
+      "topic": "blood purification SSC 2026 EUPHRATES TIGRIS polymyxin B non-selective cytokines antibiotics",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss4_k10",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding vitamin C therapy and novel immunotherapies in sepsis:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The LOVIT trial showed IV vitamin C was associated with a higher risk of death or persistent organ dysfunction at 28 days compared to placebo in sepsis patients on vasopressor therapy.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The 2026 SSC guidelines recommend against the routine use of intravenous vitamin C in adults with sepsis.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The IMMUNOSEP trial demonstrated a significant reduction in 28-day mortality with precision immunotherapy (anakinra or interferon gamma) compared to standard care.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "High-dose IV vitamin C may cause hypoglycaemia and requires active modification of glucose monitoring protocols.",
+          "correct": false
+        }
+      ],
+      "explanation": "LOVIT: IV vitamin C increased risk of death or persistent organ dysfunction vs placebo in vasopressor-dependent sepsis (A=TRUE). SSC 2026 reviewed 55 RCTs; low-risk-of-bias trials showed no mortality benefit — recommendation AGAINST vitamin C (B=TRUE). IMMUNOSEP: reduced organ failure (SOFA improvement) but NO significant difference in mortality (C=FALSE — near-miss trap: SOFA benefit ≠ mortality benefit). IV vitamin C causes falsely elevated glucose readings through assay interference, requiring modification of monitoring protocols to prevent OVER-treatment of apparent hyperglycaemia — the risk is hyperglycaemia, not hypoglycaemia (D=FALSE — direction of glucose interference is key).",
+      "section": "Vitamin C",
+      "topic": "LOVIT vitamin C harm IMMUNOSEP no mortality SOFA glucose hyperglycaemia monitoring",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}
