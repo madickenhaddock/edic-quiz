@@ -1,0 +1,630 @@
+{
+  "module": "Sepsis and Septic Shock Part II: Resuscitation and hemodynamic support of the patient with sepsis",
+  "sections": {
+    "Detection of septic shock": "Initial assessment integrates three 'physical windows': skin (mottling/CRT), kidneys (oliguria), brain (altered mentation). Hypotension is defined as MAP <65, SAP <90, or >40 mmHg drop from baseline — but blood pressure lacks sensitivity. Cryptic/occult shock = tissue hypoperfusion despite preserved MAP. Lactate is the most widely used screening test. A multimodal approach (clinical signs + lactate + peripheral perfusion + haemodynamics) is recommended because no single variable has adequate sensitivity and specificity.",
+    "Mechanisms of septic shock": "Septic shock results from: (1) Absolute hypovolemia (fever, fasting, capillary leak) or relative hypovolemia (vasoplegia converting stressed to unstressed volume); (2) Reduced cardiac contractility — myocardial dysfunction is common even early; (3) Altered vasomotor tone — vasoplegia and impaired autoregulation; (4) Impaired oxygen utilisation — capillary shunting, diffusion defects, mitochondrial dysfunction. Correction of macrocirculatory variables (MAP, CO) does not guarantee restoration of microcirculatory flow.",
+    "Endpoints of resuscitation": "Resuscitation pivots on two overlapping steps: (1) Restore perfusion pressure — MAP target 65 mmHg (no mortality benefit from higher targets in unselected populations; individualise for chronic hypertensives — SEPSISPAM); (2) Normalise tissue metabolism — multimodal: Lactate (clearance non-inferior to ScvO2-guided resuscitation, kinetics > isolated value); ScvO2 (target ≥70%, but high values possible with microcirculatory shunting — not sole endpoint); Pcv-aCO2 gap (>6 mmHg = low flow despite normal ScvO2 → consider increasing CO); CRT (ANDROMEDA-SHOCK: CRT-guided non-inferior to lactate-guided in mortality, less fluid given).",
+    "Haemodynamic monitoring": "Monitoring goal: estimate CO and predict fluid responsiveness. Static parameters (CVP, LVEDA, IVC diameter) reliably fail to predict fluid responsiveness — STRONGLY discouraged. Dynamic parameters: PPV/SVV (threshold 12%; requires controlled MV + sinus rhythm + Vt >8 mL/kg IBW; no CO monitor needed — derived from arterial waveform); IVC variation (12%, limited by compliance + arrhythmia); SVC variation (36%); PLR (>10% CO increase; valid in arrhythmia + spontaneous breathing; requires continuous CO monitoring); EEOT (>5% CO; requires intubation; 15-sec pause); Mini fluid challenge 50–100 mL (>6% CO); Tidal volume challenge (>3.5% PPV/SVV change). CVP should NOT guide fluid therapy.",
+    "Fluid therapy": "Initial: 30 mL/kg crystalloid within 3 hours (low-quality evidence; reassess frequently). Fluid responsiveness ≠ fluid requirement — ~50% of patients are fluid-responsive; even responsive patients may not need/tolerate more fluid. Fluid overload increases mortality. De-resuscitate at 24–48 hours. CLASSIC and CLOVERS: restrictive strategies safe, reduce fluid load, no mortality benefit vs liberal. Fluid choice: Crystalloids preferred. HES: STRONG recommendation AGAINST (higher mortality + RRT — 6S, CHEST trials). Gelatins: avoid (insufficient evidence). Albumin: weak recommendation when substantial crystalloids needed; target serum albumin ~30 g/L. Balanced vs saline: SSC does not recommend balanced over saline specifically; avoid hyperchloraemia. Transfusion: Hb 7–9 g/dL.",
+    "Vasopressors": "Initiate when fluid resuscitation fails; consider early if DAP <40 mmHg (profound vasoplegia). Target: within 60 min of fluid failure. Norepinephrine (NE): first-line vasopressor. Vasopressin: preferred ADJUNCTIVE agent — adds to NE, NE-sparing, reduces catecholamine burden; NOT first-line. Dopamine: alternative ONLY in relative bradycardia + low arrhythmia risk. Epinephrine: adjunct when NE + vasopressin insufficient. Terlipressin: alternative to vasopressin. NE dose schema: mild <0.1, moderate 0.1–0.19, severe 0.2–0.29, resistant 0.3–0.9 mcg/kg/min. Low-dose ('renal dose') dopamine: NOT recommended for renal protection.",
+    "Inotropes": "Reserved for persistent hypoperfusion despite adequate preload + restored perfusion pressure. Guided by CO + perfusion markers + echo — not EF alone. Dobutamine: first-line inotrope (β1-predominant, increases contractility/CO); target CI 3.0–3.5 L/min/m² with ScvO2 and lactate monitoring; no proven mortality benefit; avoid excessive tachycardia; NOT routine. Levosimendan: inodilator (PDE inhibitor + calcium sensitiser); no consistent mortality benefit (LeoPARDS); risk of hypotension. Milrinone: PDE3 inhibitor; profound vasodilation hazardous in vasoplegic shock; NOT preferred over dobutamine in sepsis. Esmolol: ultra-short β-blocker; consider for persistent tachycardia after resuscitation with restored perfusion.",
+    "Rescue options for refractory shock": "Refractory shock: persistent hypotension/hypoperfusion on high-dose vasopressors despite adequate fluids. Options: (1) Hydrocortisone 200 mg/day IV (±fludrocortisone) — shortens shock duration, reduces vasopressor requirements; no consistent mortality benefit. (2) Methylene blue — inhibits NO synthase + guanylate cyclase; restores catecholamine responsiveness in profound vasoplegia; NOT for cardiogenic shock. (3) Angiotensin II — RAAS vasopressor; associated with INCREASED thromboembolic risk (ATHOS-3). (4) VA-ECMO — for severe CARDIAC dysfunction; NOT for isolated vasodilatory shock. (5) Extracorporeal blood purification — NOT recommended for routine use (no consistent benefit in RCTs). Reassess prognosis and goals of care in refractory shock."
+  },
+  "questions": [
+    {
+      "id": "sss2_a01",
+      "type": "A",
+      "set": 1,
+      "question": "A 68-year-old woman is referred from the ward with suspected sepsis from a urinary source. Her MAP is 74 mmHg, HR 108/min, and SpO2 95%. She is mildly confused, has cool and mottled extremities below the knees, and has produced only 15 mL/hr of urine for 6 hours. Arterial lactate is 3.6 mmol/L. Which statement best characterises her circulatory status?",
+      "options": [
+        "A: She does not meet criteria for shock because her MAP exceeds 65 mmHg",
+        "B: The elevated lactate most likely reflects hepatic dysfunction rather than tissue hypoxia in this context",
+        "C: The mottling and oliguria are sufficient to diagnose septic shock without the need for lactate measurement",
+        "D: She has cryptic septic shock — preserved blood pressure does not exclude tissue hypoperfusion",
+        "E: Fluid resuscitation should be withheld until blood cultures confirm infection"
+      ],
+      "correct": 3,
+      "explanation": "Cryptic (occult) shock is characterised by elevated lactate (≥2 mmol/L) and signs of tissue hypoperfusion despite preserved MAP. The three physical windows — skin (mottling), kidneys (oliguria), brain (confusion) — indicate peripheral hypoperfusion. Blood pressure alone lacks sensitivity for shock detection. Option C (clinical signs alone) is incorrect because clinical signs also lack specificity; lactate provides essential complementary information. A multimodal approach integrating all markers is the recommended strategy.",
+      "section": "Detection of septic shock",
+      "topic": "cryptic septic shock blood pressure lactate perfusion windows multimodal",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss2_a02",
+      "type": "A",
+      "set": 1,
+      "question": "A 71-year-old man with septic shock from pneumonia has received 30 mL/kg crystalloid. Bedside echo shows preserved left ventricular systolic function. Thermodilution reveals a cardiac index of 4.8 L/min/m2, SVR 450 dyn*s*cm-5, and MAP 51 mmHg. Extremities are warm and well-perfused. Which mechanism predominantly explains this haemodynamic pattern?",
+      "options": [
+        "A: Cardiogenic shock from sepsis-induced myocardial depression with low cardiac output",
+        "B: Obstructive shock from acute right ventricular failure and increased pulmonary afterload",
+        "C: Absolute hypovolemia from insensible losses and interstitial extravasation via capillary leak",
+        "D: Distributive shock from vasoplegia and impaired vasomotor tone despite high cardiac output",
+        "E: Diastolic dysfunction causing impaired left ventricular filling and reduced preload"
+      ],
+      "correct": 3,
+      "explanation": "High cardiac index with markedly reduced SVR and warm extremities despite persistent hypotension after adequate fluid resuscitation is the hallmark of distributive/vasoplegic shock. Vasoplegia impairs vascular autoregulation and converts stressed to unstressed blood volume, reducing MAP despite high flow. Cardiogenic shock (A) is excluded by the preserved systolic function and high CI. The appropriate next intervention is vasopressor initiation (norepinephrine), not further fluid loading.",
+      "section": "Mechanisms of septic shock",
+      "topic": "distributive vasoplegic shock high CO low SVR warm extremities mechanism",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss2_a03",
+      "type": "A",
+      "set": 1,
+      "question": "A 78-year-old with known chronic hypertension (usual BP 165/95 mmHg) presents with septic shock from a biliary source. Despite 30 mL/kg crystalloid and norepinephrine at 0.12 mcg/kg/min, MAP is 67 mmHg. The registrar proposes targeting MAP 75-80 mmHg. What best reflects current evidence?",
+      "options": [
+        "A: MAP 65 mmHg is a universal target and should not be exceeded in any patient regardless of baseline pressure",
+        "B: A higher MAP target is physiologically reasonable for this patient, but no randomised trial has demonstrated improved mortality from targeting MAP >65 mmHg",
+        "C: Escalating to MAP 75-80 mmHg has demonstrated improved survival in chronically hypertensive septic shock patients",
+        "D: MAP should be titrated to diastolic pressure rather than mean arterial pressure in hypertensive patients",
+        "E: Vasopressin must be added immediately to achieve MAP >80 mmHg in all patients with known prior hypertension"
+      ],
+      "correct": 1,
+      "explanation": "The SEPSISPAM trial and subsequent meta-analyses show no mortality benefit from routinely targeting MAP >65 mmHg in unselected septic shock. In chronically hypertensive patients, cerebrovascular and renal autoregulation may be shifted rightward, making higher pressures physiologically justified — but this has not translated into proven mortality benefit. Escalating vasopressor dose to achieve higher MAP carries catecholamine-related harm. Option C overstates the evidence; the SEPSISPAM trial showed a subgroup signal but no confirmed mortality benefit.",
+      "section": "Endpoints of resuscitation",
+      "topic": "MAP 65 target chronic hypertension individualisation SEPSISPAM no mortality benefit",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss2_a04",
+      "type": "A",
+      "set": 1,
+      "question": "An ICU patient with septic shock has MAP 69 mmHg on norepinephrine, cardiac index 4.2 L/min/m2, and ScvO2 78%. Despite this, serum lactate remains 4.1 mmol/L after 6 hours of resuscitation. Central venous-to-arterial CO2 difference (Pcv-aCO2 gap) is 9 mmHg. What is the most appropriate interpretation and next step?",
+      "options": [
+        "A: ScvO2 >70% confirms adequate oxygen delivery; elevated lactate reflects non-hypoxic causes only — no further haemodynamic intervention is needed",
+        "B: A Pcv-aCO2 gap >5 mmHg indicates cerebral venous hypertension — urgent neuroimaging is indicated",
+        "C: ScvO2 appears satisfactory but the Pcv-aCO2 gap >6 mmHg signals persistent inadequate tissue blood flow — consider increasing cardiac output",
+        "D: This combination confirms primary mitochondrial dysfunction — antioxidant therapy should be initiated",
+        "E: Elevated lactate in this haemodynamic context is purely adrenergic in origin — reduce the norepinephrine dose"
+      ],
+      "correct": 2,
+      "explanation": "A Pcv-aCO2 gap >6 mmHg indicates inadequate tissue blood flow even when ScvO2 appears acceptable. In patients with persistent hyperlactatemia and normal/high ScvO2, an elevated CO2 gap discriminates those with ongoing low-flow states and worse outcomes — supporting a trial of increasing cardiac output. ScvO2 alone may be falsely reassuring due to microcirculatory shunting (A wrong). Option E (adrenergic hyperlactatemia) is a valid pathophysiological consideration but ignores the CO2 gap, which specifically implicates inadequate blood flow rather than a purely metabolic cause.",
+      "section": "Endpoints of resuscitation",
+      "topic": "Pcv-aCO2 gap ScvO2 lactate low flow tissue perfusion cardiac output 6 mmHg",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss2_a05",
+      "type": "A",
+      "set": 1,
+      "question": "The ANDROMEDA-SHOCK trial randomised patients with septic shock to resuscitation guided by capillary refill time (CRT) versus serum lactate. Which statement most accurately describes the primary outcome?",
+      "options": [
+        "A: CRT-guided resuscitation was superior to lactate-guided resuscitation in reducing 28-day mortality",
+        "B: CRT-guided resuscitation was non-inferior to lactate-guided resuscitation in 28-day mortality, with less cumulative fluid administered in the CRT group",
+        "C: CRT-guided resuscitation led to significantly greater fluid administration than lactate-guided resuscitation",
+        "D: Lactate-guided resuscitation was superior in patients with high cardiac output distributive shock",
+        "E: The trial was stopped early for excess harm in the lactate-guided resuscitation group"
+      ],
+      "correct": 1,
+      "explanation": "ANDROMEDA-SHOCK demonstrated non-inferiority of CRT-guided resuscitation versus lactate-guided resuscitation for 28-day mortality, while the CRT group received less cumulative fluid. Superiority was not demonstrated (A incorrect). This finding supports peripheral perfusion as a valid resuscitation endpoint and highlights a key limitation of lactate: it cannot distinguish low perfusion states from high-flow states with impaired oxygen utilisation, whereas CRT directly reflects peripheral perfusion adequacy.",
+      "section": "Endpoints of resuscitation",
+      "topic": "CRT ANDROMEDA-SHOCK lactate non-inferior fluid less peripheral perfusion endpoint",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss2_a06",
+      "type": "A",
+      "set": 1,
+      "question": "A 55-year-old with septic shock is mechanically ventilated in pressure support mode (spontaneous breathing efforts present), tidal volumes averaging 6 mL/kg IBW, and is in atrial fibrillation. The team proposes assessing fluid responsiveness using pulse pressure variation (PPV). Which statement is most accurate?",
+      "options": [
+        "A: PPV >12% reliably predicts fluid responsiveness in this patient regardless of ventilation mode or rhythm",
+        "B: PPV is unreliable only because of the atrial fibrillation — pressure support mode and low tidal volume do not affect its validity",
+        "C: PPV requires a central venous catheter and cannot be derived from the arterial waveform alone",
+        "D: PPV is the only validated dynamic test applicable during atrial fibrillation",
+        "E: PPV is invalid in this patient — spontaneous breathing efforts, cardiac arrhythmia, and tidal volume <8 mL/kg IBW are each independent contraindications"
+      ],
+      "correct": 4,
+      "explanation": "PPV/SVV requires all three of the following: fully controlled mechanical ventilation (no spontaneous efforts), regular cardiac rhythm, and tidal volume >8 mL/kg IBW. This patient violates all three simultaneously. Appropriate alternatives include PLR (valid in arrhythmia and spontaneous breathing, requires CO monitoring) or EEOT (requires intubation and tolerance of a 15-second ventilation pause). Option B incorrectly attributes invalidity to arrhythmia alone, overlooking the equally disqualifying roles of spontaneous breathing and low Vt.",
+      "section": "Haemodynamic monitoring",
+      "topic": "PPV invalid spontaneous breathing arrhythmia low tidal volume three contraindications",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss2_a07",
+      "type": "A",
+      "set": 1,
+      "question": "A patient with septic shock is deeply sedated, mechanically ventilated (controlled mode, Vt 9 mL/kg IBW, sinus rhythm). Which of the following fluid responsiveness tests does NOT require continuous cardiac output monitoring for its primary calculation?",
+      "options": [
+        "A: Passive leg raising (PLR) test",
+        "B: End-expiratory occlusion test (EEOT)",
+        "C: Pulse pressure variation (PPV)",
+        "D: Mini fluid challenge (50-100 mL bolus)",
+        "E: End-inspiratory occlusion test"
+      ],
+      "correct": 2,
+      "explanation": "PPV is derived directly from the arterial pressure waveform — it reflects respiratory-induced variation in pulse pressure and requires only an arterial line, no additional CO monitoring device. All other listed tests (PLR, EEOT, mini fluid challenge, end-inspiratory occlusion) require continuous CO measurement to detect the change in stroke volume or cardiac output that defines a positive response. This distinction is clinically important: PPV provides continuous, non-interventional, real-time fluid responsiveness data but is strictly limited to controlled ventilation in sinus rhythm with Vt >8 mL/kg IBW.",
+      "section": "Haemodynamic monitoring",
+      "topic": "PPV arterial waveform no CO monitoring required dynamic NOT PLR EEOT",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss2_a08",
+      "type": "A",
+      "set": 1,
+      "question": "A 63-year-old with septic shock is receiving pressure support ventilation with spontaneous breathing efforts, sinus rhythm, and has a continuous pulse contour cardiac output monitor in situ. A passive leg raising maneuver is performed. Cardiac output increases from 4.8 to 5.5 L/min. How should this result be interpreted?",
+      "options": [
+        "A: A 14.6% CO increase exceeds the 10% threshold — the patient is fluid-responsive and will likely benefit from a fluid bolus",
+        "B: The validated PLR threshold is a 5% CO increase — this result is borderline positive at best",
+        "C: PLR is invalid in spontaneously breathing patients — this result cannot be used clinically",
+        "D: Any CO increase after PLR mandates repeated fluid challenges at 15-minute intervals until CO no longer rises",
+        "E: A CO increase of 14.6% after PLR confirms cardiogenic physiology — echocardiographic assessment of filling pressures is needed"
+      ],
+      "correct": 0,
+      "explanation": "The validated PLR threshold is a >10% increase in cardiac output (here: 14.6% — clearly positive). Importantly, PLR is valid in spontaneously breathing patients, cardiac arrhythmias, and low pulmonary compliance, overcoming key PPV/SVV limitations. The maneuver mobilises approximately 300 mL of venous blood from the lower limbs, providing a reversible, autologous preload challenge. Option C is the key trap: PLR's validity in spontaneous breathing is one of its principal clinical advantages. Option B has an incorrect threshold (5% vs the validated 10%).",
+      "section": "Haemodynamic monitoring",
+      "topic": "passive leg raising PLR 10% threshold CO fluid responsiveness spontaneous breathing valid",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss2_a09",
+      "type": "A",
+      "set": 1,
+      "question": "A 60-year-old with septic shock has received 2 L of Ringer's lactate and remains hypotensive (MAP 58 mmHg). A trainee suggests switching to 6% HES 130/0.4 to limit total crystalloid volume. What is the most appropriate response?",
+      "options": [
+        "A: HES should be avoided in septic shock — strong evidence demonstrates higher mortality and increased need for renal replacement therapy compared with crystalloids",
+        "B: HES 130/0.4 at doses <50 mL/kg is safe in sepsis and represents an acceptable volume-sparing option",
+        "C: HES is acceptable as a second-line colloid option only when albumin is not locally available",
+        "D: HES is contraindicated only in patients with pre-existing chronic kidney disease — this patient may receive it cautiously",
+        "E: HES and gelatin solutions carry identical risk profiles in sepsis; both are acceptable if volumes remain limited"
+      ],
+      "correct": 0,
+      "explanation": "The Surviving Sepsis Campaign carries a strong recommendation against HES based on high quality evidence, including the 6S and CHEST trials demonstrating higher rates of mortality and renal replacement therapy versus crystalloids. This applies to ALL septic patients, not only those with pre-existing CKD (D incorrect). Gelatins lack robust evidence but are not as definitively contraindicated — the risk profiles are not equivalent (E incorrect). The HES recommendation is one of the few strong/high-quality recommendations in sepsis fluid management.",
+      "section": "Fluid therapy",
+      "topic": "HES hydroxyethyl starch contraindication mortality RRT strong recommendation 6S CHEST",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss2_a10",
+      "type": "A",
+      "set": 1,
+      "question": "A 58-year-old with septic shock from community-acquired pneumonia receives 30 mL/kg crystalloid in the ED. On ICU admission (MAP 64, lactate 3.2 mmol/L, CRT 4 sec), the attending adopts a restrictive fluid strategy with early vasopressor escalation. What do the CLASSIC and CLOVERS trials indicate about this approach?",
+      "options": [
+        "A: Both trials demonstrated that a restrictive fluid strategy significantly reduces 28-day mortality versus a liberal strategy",
+        "B: Liberal fluid strategy produces superior renal outcomes and should be preferred based on these trials",
+        "C: Restrictive fluid strategy reduces 90-day mortality specifically in pneumonia-related septic shock",
+        "D: The initial 30 mL/kg bolus should be reduced to 10-15 mL/kg based on CLASSIC and CLOVERS findings",
+        "E: Restrictive fluid strategy after initial resuscitation is safe and reduces cumulative fluid volumes but has not demonstrated improved mortality"
+      ],
+      "correct": 4,
+      "explanation": "CLASSIC (ICU, restrictive vs standard) and CLOVERS (ED, restrictive with early vasopressors vs liberal) both showed restrictive strategies reduce cumulative fluid volumes without demonstrating mortality benefit or harm. Clinical equipoise remains: restrictive is safe but not proven superior. Neither trial justifies modifying the 30 mL/kg initial bolus recommendation (D wrong). The practical implication is that after initial resuscitation, continued fluid administration should be guided by individualised perfusion assessment rather than a fixed-volume protocol.",
+      "section": "Fluid therapy",
+      "topic": "CLASSIC CLOVERS restrictive fluid safe no mortality benefit cumulative volume",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss2_a11",
+      "type": "A",
+      "set": 1,
+      "question": "A 66-year-old with septic shock has received 4.5 L of crystalloid and remains haemodynamically unstable (MAP 62 mmHg on norepinephrine 0.18 mcg/kg/min). Serum albumin is 17 g/L. The team considers adding IV human albumin. Which statement best reflects current guidance?",
+      "options": [
+        "A: Albumin is contraindicated in septic shock due to aggravated capillary leak and worsened pulmonary oedema risk",
+        "B: The SSC carries a strong recommendation for albumin replacement in all patients with septic shock regardless of serum albumin level",
+        "C: Albumin replacement has been proven to reduce 90-day mortality in septic shock patients per the ALBIOS trial",
+        "D: The serum albumin target when using supplemental albumin in septic shock is >35 g/L to restore oncotic pressure",
+        "E: Albumin may be considered as an adjunct to crystalloids when patients require substantial volumes — a weak recommendation based on low-quality evidence, with a target serum albumin ~30 g/L"
+      ],
+      "correct": 4,
+      "explanation": "The SSC suggests (weak recommendation, low quality evidence) adding albumin to crystalloids when patients require substantial resuscitation volumes. The target is approximately 30 g/L (3 g/dL), not 35 g/L (D incorrect). The ALBIOS trial found no mortality benefit for albumin replacement in severe sepsis/septic shock (C incorrect). Albumin is not contraindicated (A incorrect) — it may reduce total fluid load and vasopressor duration. The key contrast is with HES: albumin is weak/low-quality recommendation; HES is strong/high-quality recommendation AGAINST.",
+      "section": "Fluid therapy",
+      "topic": "albumin weak recommendation crystalloid adjunct 30 g/L ALBIOS no mortality benefit",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss2_a12",
+      "type": "A",
+      "set": 1,
+      "question": "A 72-year-old is receiving a 30 mL/kg crystalloid bolus for septic shock (1 L given so far). Current vitals: MAP 58 mmHg, HR 118/min, diastolic arterial pressure 26 mmHg, SpO2 97%. The team debates completing the full fluid bolus before initiating norepinephrine. What is the most appropriate management?",
+      "options": [
+        "A: Complete the full 30 mL/kg resuscitation first — vasopressors are initiated only after demonstrating failure to respond to adequate volume",
+        "B: Withhold vasopressors until two blood culture sets have been drawn and broad-spectrum antibiotics administered",
+        "C: A diastolic arterial pressure <40 mmHg signals profound vasoplegia — early norepinephrine initiation concurrent with ongoing fluid resuscitation is appropriate",
+        "D: Concurrent vasopressor administration during active fluid loading is absolutely contraindicated due to risk of hypertensive emergency",
+        "E: Epinephrine should be used first-line rather than norepinephrine when diastolic pressure falls below 30 mmHg"
+      ],
+      "correct": 2,
+      "explanation": "A diastolic arterial pressure <40 mmHg indicates profound vasoplegia unlikely to respond to fluids alone and is a recognised trigger for early vasopressor initiation — potentially before completing the full fluid bolus. CENSER trial data support early norepinephrine use. Vasopressors and fluids are complementary and routinely co-administered; concurrent use is not contraindicated (D wrong). Norepinephrine remains first-line (E wrong). Option A perpetuates the myth that full fluid resuscitation must precede vasopressors in all circumstances.",
+      "section": "Vasopressors",
+      "topic": "early vasopressor diastolic 40 mmHg profound vasoplegia CENSER concurrent fluid",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss2_a13",
+      "type": "A",
+      "set": 1,
+      "question": "Regarding the use of vasopressin in the management of septic shock, which of the following statements is NOT true?",
+      "options": [
+        "A: Vasopressin exerts its vasopressor effect through V1 receptor-mediated vascular smooth muscle contraction",
+        "B: Vasopressin added to norepinephrine can reduce norepinephrine requirements and limit cumulative catecholamine exposure",
+        "C: Vasopressin is recommended as the preferred first-line vasopressor in septic shock when the initial MAP target is not achieved",
+        "D: Terlipressin is an alternative to vasopressin in centres where vasopressin is unavailable",
+        "E: Vasopressin is classified as an adjunctive vasopressor rather than the primary first-line agent in current septic shock guidelines"
+      ],
+      "correct": 2,
+      "explanation": "Vasopressin is an ADJUNCTIVE vasopressor — it is added to norepinephrine (NE) to achieve NE-sparing when NE doses escalate, not used as a first-line agent before NE has been trialled. Norepinephrine remains the first-line vasopressor. Statements A, B, D, and E are all true. The intended trap is the common confusion between 'preferred adjunct to NE' and 'preferred first-line instead of NE'. The guideline hierarchy is: NE first-line → vasopressin added (NE-sparing) → epinephrine if still insufficient.",
+      "section": "Vasopressors",
+      "topic": "vasopressin NOT first-line adjunct NE-sparing V1 receptor terlipressin NOT",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss2_a14",
+      "type": "A",
+      "set": 1,
+      "question": "A 69-year-old with septic shock has MAP 68 mmHg on norepinephrine 0.25 mcg/kg/min. Fluid responsiveness is absent (confirmed by EEOT). Bedside echo shows global hypokinesia with estimated LVEF 25%. ScvO2 is 58%, lactate 4.8 mmol/L, and cardiac index is 1.8 L/min/m2. What is the most appropriate next step?",
+      "options": [
+        "A: Add dobutamine targeting a cardiac index of 3.0-3.5 L/min/m2 with concurrent monitoring of ScvO2 and lactate kinetics",
+        "B: Increase norepinephrine to achieve MAP 75 mmHg before considering inotropic support",
+        "C: Initiate levosimendan as first-line inotrope — randomised trials show superior mortality benefit over dobutamine in septic shock",
+        "D: Titrate dobutamine to achieve ScvO2 >90% as the resuscitation endpoint",
+        "E: Prefer milrinone over dobutamine in septic shock due to its combined inotropic and vasodilatory properties and lower arrhythmogenicity"
+      ],
+      "correct": 0,
+      "explanation": "This patient has the classic triad for inotrope initiation: persistent hypoperfusion (elevated lactate, low ScvO2), documented low cardiac output (CI 1.8 L/min/m2), and impaired contractility on echo. Dobutamine is first-line; targeting CI 3.0-3.5 L/min/m2 with concurrent metabolic endpoint monitoring is appropriate. Option C is wrong: levosimendan trials in septic shock (including LeoPARDS) have not demonstrated mortality benefit. Option E is wrong: milrinone's profound vasodilatory effects via PDE3 inhibition are hazardous in already vasoplegic patients — it can precipitate or worsen hypotension.",
+      "section": "Inotropes",
+      "topic": "dobutamine low CO persistent hypoperfusion cardiac index levosimendan milrinone",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss2_a15",
+      "type": "A",
+      "set": 1,
+      "question": "A 64-year-old with septic shock is on norepinephrine 0.85 mcg/kg/min, vasopressin 0.04 units/min, and has been on hydrocortisone for 4 hours. MAP remains 50 mmHg. Cardiac index is 5.4 L/min/m2 (hyperdynamic). The team considers methylene blue. Which statement best describes its mechanism and appropriate indication in this scenario?",
+      "options": [
+        "A: Methylene blue exerts its vasopressor effect through V1 receptor-mediated smooth muscle contraction, similar to vasopressin",
+        "B: Methylene blue increases cardiac contractility by inhibiting phosphodiesterase-3 degradation of cAMP",
+        "C: Methylene blue is indicated for all forms of refractory shock and is particularly effective in cardiogenic shock with high SVR",
+        "D: Methylene blue is contraindicated when vasopressin is concurrently infused due to risk of additive coronary vasospasm",
+        "E: Methylene blue inhibits nitric oxide synthase and guanylate cyclase, blocking NO-mediated vasodilation and restoring vascular responsiveness to catecholamines in refractory vasoplegic shock"
+      ],
+      "correct": 4,
+      "explanation": "Methylene blue blocks the nitric oxide pathway by inhibiting both NO synthase and soluble guanylate cyclase, reversing NO-driven profound vasoplegia and restoring catecholamine responsiveness. This is the correct scenario: hyperdynamic vasoplegic refractory shock failing two vasopressors. Option A describes vasopressin's V1 mechanism. Option B describes PDE3 inhibitors (milrinone/levosimendan). Methylene blue is specifically indicated for vasodilatory shock, NOT cardiogenic shock with high SVR (C wrong). No pharmacokinetic contraindication exists with concurrent vasopressin administration.",
+      "section": "Rescue options for refractory shock",
+      "topic": "methylene blue nitric oxide guanylate cyclase vasoplegic refractory shock mechanism",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss2_k01",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the clinical detection of circulatory shock in septic patients:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The three physical windows to hypoperfusion are the skin (mottling/capillary refill time), kidneys (oliguria), and brain (altered mentation).",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "A mean arterial pressure above 65 mmHg reliably excludes the presence of significant tissue hypoperfusion in septic patients.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Blood lactate is the most widely used bedside screening test for detecting circulatory failure in septic patients.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "A multimodal approach integrating clinical signs, lactate, and haemodynamic variables is recommended because no single variable has adequate sensitivity and specificity.",
+          "correct": true
+        }
+      ],
+      "explanation": "A: True — the three windows (skin, kidney, brain) are the established clinical indicators of peripheral hypoperfusion. B: False (trap) — cryptic/occult shock is defined as tissue hypoperfusion despite preserved MAP; blood pressure lacks sensitivity for shock detection. C: True — lactate is the standard metabolic screening test. D: True — the multimodal strategy is recommended because each individual marker is insufficient alone.",
+      "section": "Detection of septic shock",
+      "topic": "three windows cryptic shock lactate blood pressure multimodal detection",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss2_k02",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding central venous oxygen saturation (ScvO2) as a resuscitation endpoint in septic shock:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Rivers' original EGDT single-centre trial demonstrated dramatically reduced mortality using ScvO2 >=70% as the resuscitation target.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Three subsequent large multicentre RCTs (ProCESS, ARISE, ProMISe) confirmed the mortality benefit of ScvO2-guided resuscitation protocols over usual care.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Normal or elevated ScvO2 values can coexist with ongoing tissue hypoperfusion due to microcirculatory shunting in sepsis.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "ScvO2 provides no clinically useful physiological information in septic shock and should be completely abandoned as a monitoring parameter.",
+          "correct": false
+        }
+      ],
+      "explanation": "A: True — Rivers' EGDT showed reduced mortality at a single centre. B: False — ProCESS, ARISE, and ProMISe failed to replicate the benefit; protocolised care was not superior to usual care, partly because usual care had improved. C: True (trap) — microcirculatory shunting can produce high ScvO2 despite cellular dysoxia; normal ScvO2 does not guarantee adequate perfusion. D: False — ScvO2 still provides useful information as one component of a multimodal assessment.",
+      "section": "Endpoints of resuscitation",
+      "topic": "ScvO2 EGDT Rivers ProCESS ARISE shunting resuscitation endpoint limitations",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss2_k03",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding lactate as a marker of resuscitation adequacy in septic shock:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A resuscitation strategy guided by lactate clearance has been shown to be non-inferior to ScvO2-guided resuscitation in randomised trials.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Hyperlactatemia in sepsis exclusively reflects anaerobic metabolism caused by tissue hypoxia.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Serial lactate measurements and lactate kinetics (clearance) provide more clinically meaningful information than a single isolated lactate value.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "A single normal lactate value at initial presentation reliably excludes significant tissue hypoperfusion in septic patients.",
+          "correct": false
+        }
+      ],
+      "explanation": "A: True — Jones et al. 2010 RCT showed lactate clearance guidance is non-inferior to ScvO2. B: False (trap) — hyperlactatemia in sepsis reflects multiple mechanisms: adrenergic-driven aerobic glycolysis, impaired hepatic/renal clearance, microcirculatory shunting, and mitochondrial dysfunction; it is not exclusively due to anaerobic metabolism. C: True — kinetics (trend and clearance) are more meaningful than isolated values. D: False — a normal lactate does not exclude occult hypoperfusion, particularly in patients with catecholamine-masked presentations or impaired lactate clearance.",
+      "section": "Endpoints of resuscitation",
+      "topic": "lactate clearance non-inferior ScvO2 multiple mechanisms serial kinetics normal not reassuring",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss2_k04",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding pulse pressure variation (PPV) as a predictor of fluid responsiveness in mechanically ventilated patients:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A PPV threshold of approximately 12% is used to predict fluid responsiveness.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "PPV is a reliable predictor of fluid responsiveness in fully controlled, deeply sedated mechanically ventilated patients in sinus rhythm receiving tidal volumes >8 mL/kg IBW.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "PPV remains valid and accurate in spontaneously breathing patients provided tidal volume delivery is consistent.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "PPV requires a dedicated cardiac output monitoring device in addition to an arterial line for its calculation.",
+          "correct": false
+        }
+      ],
+      "explanation": "A: True — 12% is the validated threshold. B: True — these three conditions (controlled MV, sinus rhythm, Vt >8 mL/kg IBW) are precisely the required prerequisites for PPV validity. C: False (trap) — spontaneous breathing efforts produce independent pressure changes that completely invalidate the respiratory PPV signal; they are an absolute contraindication. D: False — PPV is derived directly from the arterial pressure waveform and requires no additional CO monitoring device.",
+      "section": "Haemodynamic monitoring",
+      "topic": "PPV 12% threshold controlled ventilation sinus rhythm arterial waveform no CO device",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss2_k05",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding dynamic tests for predicting fluid responsiveness in the critically ill:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A passive leg raising maneuver that induces a >10% increase in cardiac output predicts fluid responsiveness.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The end-expiratory occlusion test (EEOT) is valid in spontaneously breathing patients and does not require the patient to be intubated.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "The PLR test can be applied in patients with cardiac arrhythmias and spontaneous breathing efforts, provided continuous CO monitoring is in place.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "IVC diameter variation >12% reliably predicts fluid responsiveness regardless of lung/thoracic wall compliance or cardiac rhythm.",
+          "correct": false
+        }
+      ],
+      "explanation": "A: True — >10% CO increase is the validated PLR threshold. B: False (trap) — EEOT requires intubation and tolerance of a 15-second ventilation pause; it cannot be performed in spontaneously breathing patients. C: True — PLR's principal advantages are its validity across arrhythmia, spontaneous breathing, and variable compliance, as long as CO is continuously monitored. D: False — IVC variation is invalidated by poor lung/thoracic wall compliance and right ventricular failure, both of which can produce false positive results.",
+      "section": "Haemodynamic monitoring",
+      "topic": "PLR EEOT IVC dynamic tests arrhythmia spontaneous breathing thresholds limitations",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss2_k06",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding fluid selection in septic shock resuscitation:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Hydroxyethyl starch (HES) solutions are associated with higher mortality and greater need for renal replacement therapy versus crystalloids and are strongly recommended against by the SSC.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The Surviving Sepsis Campaign currently recommends balanced crystalloids (e.g., Ringer's lactate) over 0.9% saline as first-line fluid in sepsis.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "When a colloid is considered in septic shock, albumin is the preferred choice with a target serum albumin concentration of approximately 30 g/L.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Gelatin solutions have robust randomised trial evidence supporting their safety in sepsis and represent a well-established alternative to crystalloids.",
+          "correct": false
+        }
+      ],
+      "explanation": "A: True — strong recommendation, high quality evidence (6S, CHEST trials). B: False (trap) — the SSC does not specifically recommend balanced crystalloids over 0.9% saline for sepsis, though avoiding hyperchloraemia is emphasised; this remains a weak/no-specific-recommendation area. C: True — albumin is the preferred colloid; target ~30 g/L. D: False — quality studies on gelatin use in sepsis are lacking; the SSC suggests against gelatins, although with weaker evidence than for HES.",
+      "section": "Fluid therapy",
+      "topic": "HES albumin gelatin crystalloid balanced saline SSC recommendations fluid selection",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss2_k07",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the timing and volume of fluid administration in septic shock:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The SSC recommends an initial fluid bolus of at least 30 mL/kg crystalloid within the first 3 hours of septic shock recognition.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Demonstrating fluid responsiveness is sufficient justification to administer a fluid bolus — a fluid-responsive patient should always receive additional fluid.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Fluid overload is independently associated with increased morbidity and mortality in septic patients.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Both the CLASSIC and CLOVERS trials demonstrated that a restrictive fluid strategy significantly reduces 28-day mortality compared with a liberal approach.",
+          "correct": false
+        }
+      ],
+      "explanation": "A: True — 30 mL/kg within 3 hours is the SSC recommendation, though based on low quality evidence. B: False (key trap) — fluid responsiveness means a fluid bolus will increase CO, but does not mean the patient requires or will benefit from additional fluid; approximately 50% of septic shock patients are fluid-responsive, but giving fluid regardless can cause harm. C: True — fluid overload increases AKI, ICU stay, and mortality. D: False — both CLASSIC and CLOVERS confirmed safety of restrictive approaches with no mortality benefit or harm in either direction.",
+      "section": "Fluid therapy",
+      "topic": "30 mL/kg fluid responsiveness not requirement fluid overload CLASSIC CLOVERS",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss2_k08",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding vasopressor therapy in septic shock:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Norepinephrine is the first-line vasopressor agent recommended in septic shock.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Dopamine may be considered as an alternative to norepinephrine in selected patients with relative bradycardia and a low risk of tachyarrhythmia.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Vasopressin is recommended as first-line vasopressor therapy to be initiated concurrently with norepinephrine from the outset of septic shock management.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Low-dose dopamine is recommended as a renoprotective strategy in septic shock patients with acute kidney injury.",
+          "correct": false
+        }
+      ],
+      "explanation": "A: True — NE is first-line. B: True — dopamine is the only guideline-recognised alternative to NE, restricted to bradycardia and low arrhythmia risk (SOAP II trial). C: False (trap) — vasopressin is an adjunctive NE-sparing agent added when NE doses escalate; it is not a first-line concurrent agent. D: False — 'renal-dose' dopamine was disproven in multiple trials; the module explicitly states it is NOT recommended for renal perfusion or protection.",
+      "section": "Vasopressors",
+      "topic": "NE first-line vasopressin adjunct dopamine bradycardia renal dose dopamine disproven",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss2_k09",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the use of inotropic agents in septic shock:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Dobutamine should be initiated routinely in all septic shock patients to optimise cardiac output, regardless of evidence of low cardiac output.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Randomised trial data, including the LeoPARDS trial, have not demonstrated a consistent mortality benefit from levosimendan over standard care in septic shock.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Esmolol may be considered in carefully selected patients with persistent tachycardia after adequate resuscitation and restoration of perfusion pressure.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Milrinone is preferred over dobutamine in septic shock because its PDE3 inhibition provides inotropic benefit without significant vasodilatory side effects.",
+          "correct": false
+        }
+      ],
+      "explanation": "A: False (trap) — dobutamine is reserved for documented low CO with persistent hypoperfusion; routine use has no supporting evidence and risks tachycardia and arrhythmias. B: True — LeoPARDS and meta-analyses show no consistent mortality benefit for levosimendan in septic shock. C: True — controlled trials (e.g., Morelli et al.) support esmolol for heart rate reduction in selected patients with restored perfusion, improving ventricular filling. D: False — milrinone's profound vasodilatory effects via PDE3 inhibition are hazardous in already vasoplegic septic shock patients.",
+      "section": "Inotropes",
+      "topic": "dobutamine not routine levosimendan LeoPARDS esmolol milrinone vasodilation inotropes",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sss2_k10",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding rescue therapies for refractory septic shock:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Hydrocortisone at 200 mg/day reduces the duration of vasopressor-dependent shock but has not been shown to consistently reduce mortality across randomised trials.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "VA-ECMO in refractory septic shock is most appropriate when severe cardiac dysfunction is the predominant mechanism and should not be used for isolated vasodilatory shock without myocardial compromise.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Angiotensin II is associated with a lower risk of thromboembolic complications than vasopressin, making it the preferred adjunctive vasopressor in refractory shock.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Extracorporeal blood purification techniques (e.g., haemoadsorption) are recommended by current guidelines for routine use in septic shock to reduce circulating inflammatory mediators.",
+          "correct": false
+        }
+      ],
+      "explanation": "A: True — hydrocortisone shortens shock duration and vasopressor requirements (ADRENAL, APROCCHSS trials), but mortality benefit is inconsistent. B: True — VA-ECMO is reserved for cardiac dysfunction-driven refractory shock, not isolated vasoplegia. C: False (trap) — angiotensin II is associated with increased thromboembolic risk per the ATHOS-3 trial data; it is not lower risk than vasopressin. D: False — no current guideline recommends routine haemoadsorption in septic shock; RCTs have not shown consistent improvements in patient-centred outcomes.",
+      "section": "Rescue options for refractory shock",
+      "topic": "hydrocortisone VA-ECMO angiotensin II thromboembolic haemoadsorption refractory shock",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}
