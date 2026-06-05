@@ -1,0 +1,630 @@
+{
+  "module": "Immunocompromised patients Part II: Mechanisms of Acquired Immunodeficiency",
+  "sections": {
+    "How the normal immune function works": "Three layers: Physical barriers ~99% (skin, cilia, stomach acidity, normal flora); Innate immune responses ~0.9% (neutrophils, macrophages, NK cells, complement, mannose-binding lectin, acute phase proteins — rapid, non-specific, no memory); Adaptive immune responses ~0.1% (B-lymphocytes: humoral/antibody; T-lymphocytes: cell-mediated — specific, memory). PRRs recognise PAMPs and DAMPs, activating NF-kB and AP-1. MBL deficiency increases risk from encapsulated organisms. Adaptive: B-cells opsonise encapsulated bacteria; T-cells (CD4+/CD8+) clear intracellular pathogens. IL-6 has both pro- and anti-inflammatory effects.",
+    "Non Pharmacological Mechanisms": "TBI: myeloablative conditioning for HSCT; profound pancytopenia; most common infections: coagulase-negative Staphylococcus (48%) and CMV reactivation (30%). Plasmapheresis: removes up to 60% of serum immunoglobulins and complement per session; encapsulated organism risk; IVIg if IgG <500 mg/dL; inadvertently removes IV antibiotics — re-dose post-procedure. TPN: impairs NF-kB signalling (no enteral stimulation); decreased CD4+ in Peyer's patches; infections: Staphylococcus, Candida, Acinetobacter, Pseudomonas; hyperglycaemia and long-term IV access are additional risks. Pregnancy: Th1-to-Th2 shift; cytotoxic T-cell response suppressed; risks include Listeria, GBS, Toxoplasma, viral infections. Splenectomy: encapsulated organisms (N. meningitidis, S. pneumoniae, H. influenzae); lost IgM memory B-cell opsonisation; vaccinate before elective splenectomy; lifelong increased risk.",
+    "Glucocorticoids": "Mechanisms: (1) direct gene expression via GCR; (2) indirect NF-kB/AP-1 inhibition; (3) second-messenger effects. Acute effects: neutrophilia (demargination — not increased marrow production) + lymphopenia (T-cells > B-cells suppressed; NK cells unaffected). Impaired neutrophil chemotaxis despite neutrophilia (reduced IL-8). Apoptosis of dendritic cells; impaired antigen presentation. PCP prophylaxis: required for patients on ≥20 mg prednisolone equivalent daily for >30 days. GC in septic shock: suggested if vasopressor ≥0.25 μg/kg/min catecholamine equivalent for ≥6h.",
+    "Chemotherapy immunotherapy and biologic agents": "Traditional chemotherapy: non-specific bone marrow toxicity; neutropenia is primary infection predictor; ~80% of neutropenic fever from endogenous flora. Key biologics: Rituximab (anti-CD20): B-cell depletion, hypogammaglobulinaemia, HBV reactivation, PCP, PML. Alemtuzumab (anti-CD52): depletes mature T and B cells; CD4+ depletion analogous to HIV — CMV, HSV, VZV, PCP, TB. Anti-TNF-α (infliximab, adalimumab): impairs granuloma formation; reactivation TB, Histoplasma, Cryptococcus, Coccidioides; HBV reactivation; screen ALL patients for latent TB before starting. Checkpoint inhibitors (PD-1/PD-L1/CTLA-4): 'Domino effect' — no intrinsic infection risk; irAEs require steroids/immunosuppression → PCP, IFI, TB. Eculizumab (anti-C5): blocks MAC → Neisseria risk; vaccinate. mTOR inhibitors: impaired innate immunity, reduced neutrophil migration.",
+    "Immunosuppression for solid organ transplant": "Standard triple therapy: glucocorticoid + calcineurin inhibitor (cyclosporin/tacrolimus: prevent IL-2 transcription) + antiproliferative (mycophenolate/azathioprine). mTOR inhibitors (sirolimus, everolimus): block IL-2 signalling on T and B cells. Transplant patients often lack classic infection signs (fever, leukocytosis) — present with altered sensorium, low BP, abnormal LFTs. Low threshold for invasive diagnostics.",
+    "Immunosuppression in HSCT patients": "Allogeneic HSCT: aggressive myeloablative conditioning + post-engraftment immunosuppression for GVHD → higher infection risk than autologous. Autologous: no GVHD, no post-engraftment immunosuppression, faster reconstitution. Phases: Phase I (<30 days): bacterial neutropenic fever, invasive fungal. Phase II (30–100 days): CMV, adenovirus, BK virus, PCP, Candida, Aspergillus — especially with GVHD. Phase III (>100 days): encapsulated bacteria, VZV, Aspergillus, Toxoplasma. CMV highest risk: seropositive recipient + seronegative donor. Prophylaxis: fluconazole, TMP-SMX (PCP), acyclovir.",
+    "Coincident Immunomodulatory Effects of Commonly Used ICU Drugs": "Etomidate: inhibits 11β-hydroxylase → adrenal insufficiency even after single dose; decreases NF-kB; recent data do not confirm increased mortality. Sedatives (propofol, midazolam, ketamine): impair phagocytosis, chemotaxis, cytokine release; disturb circadian rhythms. Dexmedetomidine: does NOT impair immunity; improves macrophage function in animal models. Opioids (morphine): NK cell decrease, Th2 shift, decreased cortisol; inadequate human evidence. Catecholamines: primarily β-receptor-mediated anti-inflammatory (decreased TNF-α, IL-6, IL-1β; increased IL-10); prolonged exposure may aggravate immunoparalysis; dopamine falling out of favour.",
+    "Modulating the Immune System of the Septic Patient": "Sepsis-induced immunoparalysis: within 24h of onset, shift to anti-inflammatory state; T-cell exhaustion. Multiple failed trials (antithrombin III, activated protein C, anti-cytokine antibodies) — NOT routinely recommended. MALS: ferritin >4,420 ng/mL (specificity 98%, NPV 97.2%) → anakinra (PROVIDE RCT). Immunoparalysis: HLA-DR <5,000 Ab/cell → rhIFN-γ (PROVIDE RCT). PROVIDE RCT: 42.9% 7-day SOFA improvement in immunotherapy arm vs 10% placebo (p=0.042). Hypogammaglobulinaemia: IgG <500 mg/dL; IgM/IgA-enriched IVIg may benefit; routine IVIg not recommended per SSC 2021."
+  },
+  "questions": [
+    {
+      "id": "imp2_a01",
+      "type": "A",
+      "set": 1,
+      "question": "A patient on 40 mg prednisolone daily develops WBC 18×10⁹/L with predominantly mature segmented neutrophils and no left shift. What is the primary mechanism?",
+      "options": [
+        "A: Increased bone marrow production of neutrophils stimulated by glucocorticoid-driven myelopoiesis",
+        "B: Demargination of neutrophils from the vascular endothelium caused by glucocorticoids",
+        "C: Glucocorticoid-induced inhibition of neutrophil apoptosis, prolonging circulatory lifespan",
+        "D: Reactive neutrophilia secondary to cytokine-driven granulopoiesis from concurrent infection",
+        "E: Lymphocyte-to-neutrophil redistribution as glucocorticoids deplete the lymphocyte pool"
+      ],
+      "correct": 1,
+      "explanation": "Glucocorticoids cause neutrophilia by demargination from the vascular endothelium — an acute effect within hours, not increased marrow production. Despite elevated neutrophil counts, GCs impair neutrophil chemotaxis via reduced IL-8, creating a paradox of numerical abundance but functional immunosuppression. GCs simultaneously cause lymphopenia (T-cell apoptosis), not lymphocytosis.",
+      "section": "Glucocorticoids",
+      "topic": "glucocorticoid neutrophilia demargination not marrow IL-8 chemotaxis impaired",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp2_a02",
+      "type": "A",
+      "set": 1,
+      "question": "A rheumatology patient is started on 25 mg prednisolone daily for polymyositis. After how long should Pneumocystis jirovecii chemoprophylaxis be initiated?",
+      "options": [
+        "A: Immediately at day 1 — any dose above 10 mg requires PCP prophylaxis",
+        "B: After 3 months of continuous therapy",
+        "C: After 30 days of continuous therapy at this dose",
+        "D: PCP prophylaxis is not indicated unless a calcineurin inhibitor is added",
+        "E: After serum IgG falls below 500 mg/dL"
+      ],
+      "correct": 2,
+      "explanation": "Patients on ≥20 mg prednisolone equivalent daily for >30 days should receive PCP chemoprophylaxis. This patient is at 25 mg/day (exceeds the ≥20 mg threshold), so prophylaxis is indicated after 30 days. The threshold is specific to both dose AND duration. Serum IgG (Option E) is not the trigger for GC-associated PCP risk.",
+      "section": "Glucocorticoids",
+      "topic": "glucocorticoid PCP prophylaxis 20 mg 30 days threshold prednisolone",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp2_a03",
+      "type": "A",
+      "set": 1,
+      "question": "A 28-year-old post-splenectomy (trauma, 5 years ago) is admitted with rapidly progressive septic shock. Blood cultures grow a gram-positive diplococcus. Which pathogen and prophylactic measure are most likely?",
+      "options": [
+        "A: Staphylococcus aureus — long-term penicillin prophylaxis",
+        "B: Streptococcus pneumoniae — vaccination against encapsulated organisms before or after splenectomy",
+        "C: Pseudomonas aeruginosa — fluoroquinolone prophylaxis",
+        "D: Candida species — antifungal prophylaxis",
+        "E: Enterococcus faecalis — enterococcal vaccination"
+      ],
+      "correct": 1,
+      "explanation": "Post-splenectomy patients have lifelong increased risk for encapsulated organisms (S. pneumoniae, H. influenzae, N. meningitidis) due to loss of splenic IgM memory B-cell opsonisation and macrophage filtration. S. pneumoniae is the most common cause and is a gram-positive diplococcus. Vaccination should be given before elective splenectomy or as soon as possible after emergency splenectomy. This is 'overwhelming post-splenectomy infection' (OPSI).",
+      "section": "Non Pharmacological Mechanisms",
+      "topic": "splenectomy encapsulated S pneumoniae vaccination IgM memory B-cell OPSI lifelong",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp2_a04",
+      "type": "A",
+      "set": 1,
+      "question": "A 55-year-old with rheumatoid arthritis on adalimumab (anti-TNF-α) presents with 3 weeks of cough, night sweats, weight loss, and low-grade fever. CT thorax shows bilateral upper lobe consolidation with cavitation. Which infection is highest on the differential?",
+      "options": [
+        "A: Community-acquired Streptococcus pneumoniae pneumonia",
+        "B: Pneumocystis jirovecii pneumonia",
+        "C: Reactivation tuberculosis",
+        "D: Invasive aspergillosis from neutrophil deficiency",
+        "E: Candida pneumonia from mucosal barrier disruption"
+      ],
+      "correct": 2,
+      "explanation": "Anti-TNF-α agents impair granuloma formation by blocking TNF-α, which is critical for mycobacterial containment. This specifically predisposes to reactivation of latent tuberculosis and other granulomatous infections (Histoplasma, Cryptococcus, Coccidioides). Upper lobe cavitating consolidation with constitutional symptoms is classic for TB reactivation. ALL patients starting anti-TNF therapy must be screened for latent TB. PCP is more linked to high-dose prolonged GC; Aspergillus requires neutropenia.",
+      "section": "Chemotherapy immunotherapy and biologic agents",
+      "topic": "anti-TNF adalimumab TB reactivation granuloma impaired latent screening upper lobe",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp2_a05",
+      "type": "A",
+      "set": 1,
+      "question": "A patient with metastatic melanoma on pembrolizumab (anti-PD-1) develops severe immune-related pneumonitis requiring high-dose corticosteroids. What is the primary mechanism of subsequent infection risk in this patient?",
+      "options": [
+        "A: Pembrolizumab directly depletes CD4+ T-cells, producing a deficiency analogous to HIV",
+        "B: PD-1 blockade directly impairs neutrophil function, increasing gram-negative bacteraemia risk",
+        "C: Immunosuppression results from corticosteroid treatment required for the irAE, not from the checkpoint inhibitor itself",
+        "D: Pembrolizumab impairs terminal complement, predisposing specifically to Neisseria infections",
+        "E: PD-1 inhibitors directly cause hypogammaglobulinaemia, mimicking CVID"
+      ],
+      "correct": 2,
+      "explanation": "Checkpoint inhibitors (PD-1/PD-L1, CTLA-4) have no intrinsic direct immunosuppressive effect — the module terms this the 'Domino effect'. They cause immune-related adverse events (irAEs) such as pneumonitis and colitis. Treatment of irAEs with corticosteroids (and sometimes TNF-α inhibitors) creates iatrogenic immunosuppression, which then risks PCP, IFI, and TB. Options A, B, D, and E incorrectly attribute direct immunosuppressive properties to the checkpoint inhibitor itself.",
+      "section": "Chemotherapy immunotherapy and biologic agents",
+      "topic": "checkpoint inhibitor domino effect irAE corticosteroid immunosuppression no direct mechanism",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp2_a06",
+      "type": "A",
+      "set": 1,
+      "question": "A 35-year-old with multiple sclerosis treated with alemtuzumab (anti-CD52) develops oesophageal candidiasis with CD4 count 85/μL. Which mechanism explains this immune defect?",
+      "options": [
+        "A: Alemtuzumab blocks CD52 on granulocytes, impairing neutrophil function and mucocutaneous defence",
+        "B: Anti-CD52 causes hypogammaglobulinaemia by depleting B-cells, impairing Candida opsonisation",
+        "C: Alemtuzumab depletes mature lymphocytes bearing CD52, producing profound T-cell deficiency analogous to HIV/AIDS",
+        "D: Alemtuzumab blocks complement C5, impairing mucosal defence",
+        "E: Myelosuppression from alemtuzumab causes profound neutropenia leading to candidiasis"
+      ],
+      "correct": 2,
+      "explanation": "Alemtuzumab (anti-CD52) depletes mature lymphocytes (T-cells, B-cells, NK cells) by binding CD52, which is expressed on mature lymphocytes. This causes profound CD4+ T-cell depletion analogous to HIV/AIDS, with susceptibility to CMV, HSV, VZV, PCP, tuberculosis, listeriosis, and mucosal candidiasis. The module explicitly states: infections are 'similar to infections like HIV patient.' It is not primarily anti-neutrophil or anti-complement.",
+      "section": "Chemotherapy immunotherapy and biologic agents",
+      "topic": "alemtuzumab anti-CD52 T-cell depletion HIV-like CMV PCP VZV candidiasis",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp2_a07",
+      "type": "A",
+      "set": 1,
+      "question": "A 44-year-old develops fever and respiratory failure 3 months after allogeneic HSCT. He is on cyclosporine and mycophenolate for GVHD prophylaxis. BAL PCR is positive for Pneumocystis jirovecii. Which infection phase does this represent?",
+      "options": [
+        "A: Phase I (pre-engraftment, <30 days) — gram-negative bacterial neutropenic infections",
+        "B: Phase II (post-engraftment, 30–100 days) — CMV, PCP, Aspergillus, Candida; especially when GVHD immunosuppression is required",
+        "C: Phase III (late, >100 days) — encapsulated bacteria, VZV, Toxoplasma reactivation",
+        "D: Phase I — coagulase-negative Staphylococcus and CMV from total body irradiation",
+        "E: This infection pattern does not occur after allogeneic HSCT"
+      ],
+      "correct": 1,
+      "explanation": "At 3 months post-allogeneic HSCT, this is Phase II (post-engraftment, ~30–100 days). GVHD-related immunosuppression and its treatment (cyclosporine, mycophenolate) create vulnerability to CMV, adenovirus, BK virus, PCP, Candida, and Aspergillus. TMP-SMX prophylaxis against PCP is specifically indicated in allogeneic HSCT. Phase I is characterised by bacterial neutropenic fever; Phase III by encapsulated bacteria, VZV, and Toxoplasma.",
+      "section": "Immunosuppression in HSCT patients",
+      "topic": "HSCT phase II post-engraftment PCP CMV Aspergillus GVHD immunosuppression 30-100 days",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp2_a08",
+      "type": "A",
+      "set": 1,
+      "question": "A patient with Guillain-Barré syndrome undergoing plasmapheresis is receiving IV piperacillin-tazobactam for concurrent VAP. Which aspect of plasmapheresis is most relevant to antibiotic management?",
+      "options": [
+        "A: Plasmapheresis removes 90% of serum immunoglobulins, requiring routine IVIg replacement after every session",
+        "B: The extracorporeal circuit concentrates antibiotics, increasing nephrotoxicity risk",
+        "C: Plasmapheresis can inadvertently remove intravenous antibiotics; re-dosing after the procedure should be considered",
+        "D: Plasmapheresis is contraindicated with beta-lactam antibiotics",
+        "E: Antibiotic pharmacokinetics are unaffected by plasmapheresis as drugs redistribute rapidly to extravascular compartments"
+      ],
+      "correct": 2,
+      "explanation": "The module specifically states: 'a provider should be vigilant about inadvertent removal of intravenous antibiotics during these procedures and consider re-dose following completion.' Plasmapheresis removes up to 60% (not 90%) of serum immunoglobulins; IVIg is given when IgG falls below 500 mg/dL — not routinely after every session. The circuit does not concentrate or interact adversely with antibiotics.",
+      "section": "Non Pharmacological Mechanisms",
+      "topic": "plasmapheresis IV antibiotics removal re-dosing 60 percent immunoglobulins IgG 500",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp2_a09",
+      "type": "A",
+      "set": 1,
+      "question": "Which of the following is NOT a recognised immune effect of prolonged noradrenaline (norepinephrine) infusion in the ICU?",
+      "options": [
+        "A: Anti-inflammatory shift via β-receptor stimulation, decreasing TNF-α and IL-6",
+        "B: Increased IL-10 production via β-adrenergic receptor pathways",
+        "C: Th2-predominant immune shift with prolonged catecholamine exposure",
+        "D: Enhanced macrophage phagocytic killing, improving pathogen clearance",
+        "E: Potential aggravation of immunoparalysis with prolonged infusion"
+      ],
+      "correct": 3,
+      "explanation": "Options A, B, C, and E are all recognised immune effects of catecholamines. D is NOT correct: catecholamines do not enhance macrophage phagocytic killing — they produce anti-inflammatory effects via β-receptor stimulation (decreased TNF-α, IL-6, IL-1β; increased IL-10; Th2 shift). In vitro studies have actually noted increased bacterial growth in the presence of catecholamines. Prolonged exposure may aggravate immunoparalysis, not improve phagocytic function.",
+      "section": "Coincident Immunomodulatory Effects of Commonly Used ICU Drugs",
+      "topic": "noradrenaline beta receptor anti-inflammatory NOT macrophage phagocytic enhancement immunoparalysis",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp2_a10",
+      "type": "A",
+      "set": 1,
+      "question": "Which immunological adverse effect of etomidate is most specifically documented in this module?",
+      "options": [
+        "A: Etomidate activates cortisol synthesis via glucocorticoid receptor upregulation",
+        "B: Etomidate causes dose-dependent cumulative lymphocyte apoptosis requiring multiple exposures",
+        "C: Etomidate inhibits 11β-hydroxylase, causing adrenal insufficiency even after a single induction dose",
+        "D: Etomidate enhances NF-kB signalling, worsening the cytokine storm in sepsis",
+        "E: Etomidate selectively depletes NK cells, impairing innate antiviral immunity"
+      ],
+      "correct": 2,
+      "explanation": "Etomidate inhibits 11β-hydroxylase, the enzyme critical for cortisol synthesis, causing adrenal insufficiency even after a single induction dose. This is particularly concerning in septic shock. However, recent systematic reviews have not confirmed increased mortality with etomidate, and adding hydrocortisone at induction did not change outcomes. The module also notes etomidate decreases (not increases) NF-kB signalling.",
+      "section": "Coincident Immunomodulatory Effects of Commonly Used ICU Drugs",
+      "topic": "etomidate 11-beta hydroxylase adrenal insufficiency single dose NF-kB decreased mortality uncertain",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp2_a11",
+      "type": "A",
+      "set": 1,
+      "question": "Which ICU sedative has a potentially favourable immunological profile compared to propofol, midazolam, and ketamine?",
+      "options": [
+        "A: Midazolam — least effect on neutrophil chemotaxis among benzodiazepines",
+        "B: Ketamine — the only ICU sedative that enhances T-cell proliferation",
+        "C: Propofol — reduces cytokine release without impairing macrophage function",
+        "D: Dexmedetomidine — does not impair immunity and improves macrophage function in animal models",
+        "E: All four agents have equivalent immunological profiles"
+      ],
+      "correct": 3,
+      "explanation": "The module states dexmedetomidine 'does not negatively affect immunity, but rather improves macrophage function and has a mortality benefit in animal models.' Propofol, midazolam, and ketamine suppress the innate immune system by impairing phagocytosis, chemotaxis, and cytokine release, and disturb circadian rhythms. While human clinical data are limited, dexmedetomidine has the most favourable preclinical immunological profile among common ICU sedatives.",
+      "section": "Coincident Immunomodulatory Effects of Commonly Used ICU Drugs",
+      "topic": "dexmedetomidine macrophage favourable propofol midazolam ketamine suppress innate circadian",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp2_a12",
+      "type": "A",
+      "set": 1,
+      "question": "Which organism is NOT typically associated with bloodstream infections in patients receiving total parenteral nutrition (TPN)?",
+      "options": [
+        "A: Staphylococcus aureus",
+        "B: Candida species",
+        "C: Acinetobacter species",
+        "D: Streptococcus pneumoniae",
+        "E: Pseudomonas aeruginosa"
+      ],
+      "correct": 3,
+      "explanation": "Common TPN-associated bloodstream infections are Staphylococcus, Candida, Acinetobacter, and Pseudomonas — healthcare-associated pathogens exploiting catheter access, impaired NF-kB signalling, and hyperglycaemia. Streptococcus pneumoniae is an encapsulated organism associated with humoral immunity defects (hypogammaglobulinaemia, splenectomy) — NOT the typical TPN catheter-related or metabolic infection pattern.",
+      "section": "Non Pharmacological Mechanisms",
+      "topic": "TPN bloodstream NOT S pneumoniae encapsulated Staphylococcus Candida Acinetobacter Pseudomonas",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp2_a13",
+      "type": "A",
+      "set": 1,
+      "question": "A 62-year-old with pneumonia-related sepsis in the ICU has serum ferritin of 5,200 ng/mL. Based on the PROVIDE RCT, which immune phenotype and targeted intervention should be considered?",
+      "options": [
+        "A: Ferritin >4,420 ng/mL + HLA-DR <5,000 Ab/cell → immunoparalysis → consider rhIFN-γ",
+        "B: Ferritin >4,420 ng/mL → macrophage activation-like syndrome (MALS) → consider anakinra",
+        "C: Ferritin >4,420 ng/mL → T-cell exhaustion → administer polyclonal IVIg",
+        "D: Ferritin >4,420 ng/mL → DIC → administer antithrombin III",
+        "E: Ferritin >4,420 ng/mL + HLA-DR >15,000 Ab/cell → hyperinflammatory state → corticosteroids"
+      ],
+      "correct": 1,
+      "explanation": "In the PROVIDE RCT, ferritin >4,420 ng/mL (specificity 98%, NPV 97.2%) defined MALS. The targeted intervention for MALS was anakinra (IL-1 receptor antagonist). Immunoparalysis is separately defined by HLA-DR <5,000 Ab/cell, with rhIFN-γ as targeted therapy. Option A confuses phenotypes: ferritin alone identifies MALS, not immunoparalysis (which requires HLA-DR <5,000). Antithrombin III (Option D) is explicitly listed as a failed treatment not recommended routinely.",
+      "section": "Modulating the Immune System of the Septic Patient",
+      "topic": "MALS ferritin 4420 anakinra PROVIDE RCT immunoparalysis HLA-DR 5000 rhIFN-gamma separate",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp2_a14",
+      "type": "A",
+      "set": 1,
+      "question": "A 45-year-old with DLBCL receiving rituximab-based chemotherapy was HBsAg-negative and anti-HBc-positive pre-treatment. Two months later, HBsAg has turned positive with markedly elevated LFTs. What is the mechanism?",
+      "options": [
+        "A: De novo HBV infection from blood product transfusion",
+        "B: Rituximab-induced direct hepatotoxicity via off-target binding to hepatocytes",
+        "C: Reactivation of latent hepatitis B due to rituximab-induced B-cell depletion and impaired immunoglobulin production",
+        "D: CMV hepatitis reactivation from rituximab-related T-cell suppression",
+        "E: Rituximab-induced liver metastases causing obstructive LFT elevation"
+      ],
+      "correct": 2,
+      "explanation": "Rituximab (anti-CD20) causes profound B-cell depletion and impaired immunoglobulin production, removing humoral control of latent HBV. Anti-HBc-positive with HBsAg-negative indicates past HBV exposure previously contained by humoral immunity — when B-cell function is ablated by rituximab, HBV reactivates. All patients starting rituximab must be screened for HBV (HBsAg and anti-HBc); those with past exposure require antiviral prophylaxis.",
+      "section": "Chemotherapy immunotherapy and biologic agents",
+      "topic": "rituximab anti-CD20 HBV reactivation B-cell depletion anti-HBc positive screening prophylaxis",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp2_a15",
+      "type": "A",
+      "set": 1,
+      "question": "Which statement best explains the higher infection risk in allogeneic compared to autologous haematopoietic stem cell transplantation?",
+      "options": [
+        "A: Allogeneic HSCT uses more aggressive myeloablative conditioning AND requires post-engraftment immunosuppression for GVHD prevention, leading to more prolonged and profound immunosuppression",
+        "B: Allogeneic HSCT achieves faster engraftment, causing earlier mucosal barrier damage",
+        "C: The difference is solely due to older recipient age in allogeneic HSCT",
+        "D: Autologous HSCT requires more intensive post-transplant immunosuppression than allogeneic",
+        "E: Infection risk is equivalent; the only difference is rejection risk"
+      ],
+      "correct": 0,
+      "explanation": "Allogeneic HSCT has higher infection risk for two compounding reasons: (1) more aggressive myeloablative conditioning causing profound and prolonged neutropenia and lymphopenia, and (2) ongoing post-engraftment immunosuppression to prevent GVHD. Autologous HSCT has no GVHD risk, requires no post-engraftment immunosuppression, and has faster immune reconstitution. GVHD itself further impairs immunity, and GVHD treatment intensifies immunosuppression further.",
+      "section": "Immunosuppression in HSCT patients",
+      "topic": "allogeneic autologous HSCT GVHD conditioning infection risk higher immune reconstitution",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp2_k01",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the immunological effects of glucocorticoids (GCs) in the ICU:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Acute GC administration causes neutrophilia through demargination from the vascular endothelium, not via increased bone marrow production.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Despite GC-induced neutrophilia, neutrophil chemotaxis is impaired due to reduced production of the chemoattractant IL-8.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Glucocorticoids suppress T-lymphocytes more profoundly than B-lymphocytes, while NK cells are not affected.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "GC administration causes lymphocytosis by mobilising lymphocytes from lymphoid organs into the peripheral circulation.",
+          "correct": false
+        }
+      ],
+      "explanation": "A, B, and C are true. D is false and the key trap: GCs cause LYMPHOPENIA (not lymphocytosis) by inducing T-cell apoptosis and redistribution out of the circulation. The paradox of GC-induced neutrophilia with functional impairment (reduced chemotaxis via IL-8 suppression) is clinically important.",
+      "section": "Glucocorticoids",
+      "topic": "GC neutrophilia demargination IL-8 chemotaxis impaired T-cell NK unaffected lymphopenia NOT lymphocytosis",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp2_k02",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the immunological consequences of splenectomy and hyposplenism:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Post-splenectomy patients are at lifelong increased risk of infection with encapsulated organisms (S. pneumoniae, H. influenzae, N. meningitidis) due to loss of splenic IgM memory B-cell opsonisation and macrophage filtration.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Patients undergoing elective splenectomy should be vaccinated against encapsulated organisms ideally before surgery.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Functional hyposplenism (e.g. in sickle cell disease, advanced cirrhosis) confers a similar infection risk profile to post-surgical splenectomy.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "The liver fully compensates for splenic immune filtration within 3 months of splenectomy, restoring normal susceptibility to encapsulated organisms.",
+          "correct": false
+        }
+      ],
+      "explanation": "A, B, and C are true. D is false: the liver does NOT fully compensate for splenic filtration of poorly opsonised encapsulated bacteria. Post-splenectomy patients retain lifelong increased risk. The spleen's unique role — IgM memory B-cell opsonisation of encapsulated bacteria — cannot be replicated by hepatic filtration.",
+      "section": "Non Pharmacological Mechanisms",
+      "topic": "splenectomy lifelong encapsulated vaccination IgM B-cell liver no compensation functional hyposplenism",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp2_k03",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding infectious complications of anti-TNF-α therapy:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Anti-TNF agents impair granuloma formation, specifically predisposing to reactivation of latent TB, Histoplasma, Cryptococcus, and Coccidioides.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "All patients commencing anti-TNF therapy should be screened for latent tuberculosis and receive prophylaxis if the screen is positive.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "HBV reactivation can occur in patients with past HBV exposure (anti-HBc positive) who receive anti-TNF therapy.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Anti-TNF monoclonal antibodies cause T-cell depletion analogous to alemtuzumab, producing the same opportunistic infection profile as HIV/AIDS.",
+          "correct": false
+        }
+      ],
+      "explanation": "A, B, and C are true. D is false: anti-TNF agents do NOT deplete T-cells. Their mechanism is blockade of TNF-α → impaired granuloma formation → susceptibility to granulomatous/intracellular pathogens. Alemtuzumab (anti-CD52) causes T-cell depletion analogous to HIV — these are entirely distinct mechanisms with distinct infection profiles.",
+      "section": "Chemotherapy immunotherapy and biologic agents",
+      "topic": "anti-TNF granuloma TB HBV reactivation NOT T-cell depletion alemtuzumab different mechanism",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp2_k04",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding sepsis-induced immunoparalysis:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The initial cytokine storm in sepsis is typically followed within 24 hours by a shift toward an anti-inflammatory state (immunoparalysis), associated with increased susceptibility to nosocomial infections.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "HLA-DR expression below 5,000 antibodies/cell on circulating monocytes identifies immunoparalysis in the PROVIDE RCT framework.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "In the PROVIDE RCT, ferritin >4,420 ng/mL identified MALS patients who showed improved 7-day SOFA reduction with anakinra versus placebo.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Immunoparalysis predominantly occurs during the initial hyperinflammatory phase and resolves automatically once antibiotics clear the infection.",
+          "correct": false
+        }
+      ],
+      "explanation": "A, B, and C are true. D is false: immunoparalysis follows (not precedes) the initial hyperinflammatory phase and does NOT resolve automatically with antibiotic therapy. It requires sustained immune dysregulation to resolve and may persist, contributing to late ICU deaths from secondary nosocomial infections and T-cell exhaustion.",
+      "section": "Modulating the Immune System of the Septic Patient",
+      "topic": "immunoparalysis 24h anti-inflammatory HLA-DR 5000 MALS ferritin 4420 PROVIDE anakinra not resolves antibiotics",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp2_k05",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding infection risk after haematopoietic stem cell transplantation (HSCT):",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Phase I (pre-engraftment, <30 days) is characterised by bacterial and invasive fungal infections similar to febrile neutropenia after chemotherapy.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Phase II (post-engraftment, 30–100 days) in allogeneic HSCT carries significantly higher risk of CMV, PCP, Candida, and Aspergillus, particularly when GVHD immunosuppression is required.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Allogeneic HSCT recipients carry higher overall infection risk than autologous due to both more aggressive conditioning and ongoing post-engraftment immunosuppression.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Autologous HSCT recipients require post-engraftment immunosuppression to prevent autologous graft-versus-host disease, extending the immunocompromised period.",
+          "correct": false
+        }
+      ],
+      "explanation": "A, B, and C are true. D is false: autologous HSCT does NOT require post-engraftment immunosuppression because there is no risk of allogeneic immune reaction (the recipient's own cells are used). This is a fundamental distinction — no GVHD risk, no immunosuppression needed, faster immune reconstitution.",
+      "section": "Immunosuppression in HSCT patients",
+      "topic": "HSCT phases bacterial fungal CMV PCP allogeneic autologous no GVHD post-engraftment",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp2_k06",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding immune compromise associated with plasmapheresis:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Plasmapheresis can remove up to 60% of serum immunoglobulins and complement per session, transiently impairing humoral immunity.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "IVIg replacement is recommended when serum immunoglobulin levels fall below 500 mg/dL following plasmapheresis.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Plasmapheresis catheters act as a breach in the integumentary system, increasing the risk of catheter-associated infections.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Plasmapheresis has no effect on intravenous antibiotic concentrations; re-dosing post-procedure is therefore never required.",
+          "correct": false
+        }
+      ],
+      "explanation": "A, B, and C are true. D is false: the module explicitly states that IV antibiotics can be inadvertently removed during plasmapheresis and re-dosing should be considered after the procedure. This is a clinically important practical point — failing to re-dose could result in subtherapeutic antibiotic levels during the critical early treatment period.",
+      "section": "Non Pharmacological Mechanisms",
+      "topic": "plasmapheresis immunoglobulins 60 percent IVIg 500 catheter antibiotics removed re-dose",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp2_k07",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the immunomodulatory effects of commonly used ICU drugs:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Etomidate inhibits 11β-hydroxylase, causing adrenal insufficiency even after a single induction dose.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Propofol, midazolam, and ketamine suppress the innate immune system by impairing phagocytosis, chemotaxis, and cytokine release.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Dexmedetomidine does not negatively affect immunity and improves macrophage function in animal models, suggesting a potentially favourable immunological profile.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Morphine administration shifts the immune response toward a Th1-dominant pattern, increasing resistance to intracellular pathogens.",
+          "correct": false
+        }
+      ],
+      "explanation": "A, B, and C are true. D is false: morphine shifts toward a Th2-dominant response (NOT Th1), reducing Th1-mediated cell-mediated immunity. This impairs resistance to intracellular pathogens (Salmonella, Toxoplasma, HSV-1 in animal studies). The indirect evidence from naloxone studies confirms the Th1→Th2 shift with opioid administration.",
+      "section": "Coincident Immunomodulatory Effects of Commonly Used ICU Drugs",
+      "topic": "etomidate adrenal propofol midazolam ketamine innate dexmedetomidine macrophage morphine Th2 NOT Th1",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp2_k08",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding immune modulation during pregnancy:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Pregnancy involves a Th1-to-Th2 shift with suppression of cytotoxic T-cell responses, preventing maternal immune rejection of the fetus bearing paternal antigens.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Pregnant women have increased susceptibility to Listeria monocytogenes, Group B Streptococcus, Toxoplasma gondii, and certain viral infections (CMV, varicella, influenza).",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The immune modulation of pregnancy is absolute; pregnant women are equally susceptible to all pathogens as non-pregnant women of the same age.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Perinatal viral infections (rubella, CMV, herpes viruses, varicella) can range from asymptomatic infection to congenital syndromes and multi-organ failure depending on timing and maternal immune status.",
+          "correct": true
+        }
+      ],
+      "explanation": "A, B, and D are true. C is false: pregnancy-induced immune modulation is not absolute or uniform — it selectively suppresses cytotoxic T-cell responses to tolerate the fetus but increases susceptibility to specific pathogens (particularly intracellular: Listeria, Toxoplasma, and viral infections). Susceptibility is pathogen-specific, not globally increased.",
+      "section": "Non Pharmacological Mechanisms",
+      "topic": "pregnancy Th2 shift Listeria GBS Toxoplasma viral susceptibility not absolute congenital",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp2_k09",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding immune effects of total parenteral nutrition (TPN) in the ICU:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "TPN without concurrent enteral stimulation impairs immune signalling via NF-kB pathways due to absent gut luminal stimulation.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "TPN is associated with decreased CD4+ T-cell activity and presence in Peyer's patches, impairing gut-associated adaptive immunity.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Hyperglycaemia from TPN and the requirement for long-term IV access are additional independent risk factors for bloodstream infections.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "The immunosuppressive effects of TPN are primarily mediated by direct bone marrow cytotoxicity, analogous to the mechanism of cytotoxic chemotherapy.",
+          "correct": false
+        }
+      ],
+      "explanation": "A, B, and C are true. D is false: TPN impairs immunity through nutritional and metabolic mechanisms (absent enteral stimulation → impaired NF-kB → reduced mucosal immunity; hyperglycaemia → impaired phagocyte function), NOT through direct bone marrow cytotoxicity. Chemotherapy-induced myelosuppression is an entirely different mechanism.",
+      "section": "Non Pharmacological Mechanisms",
+      "topic": "TPN NF-kB CD4 Peyers hyperglycaemia IV access Staphylococcus Candida NOT bone marrow cytotoxicity",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp2_k10",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the immune effects of rituximab, alemtuzumab, and eculizumab:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Rituximab (anti-CD20) depletes B-cells and impairs immunoglobulin production, leading to HBV reactivation in patients with past hepatitis B exposure (anti-HBc positive).",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Alemtuzumab (anti-CD52) causes T-cell depletion analogous to HIV/AIDS, predisposing to CMV, HSV, VZV, PCP, and tuberculosis.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Checkpoint inhibitors (PD-1 and CTLA-4 blockers) cause immunosuppression indirectly through irAEs requiring corticosteroid or immunosuppressive treatment, not via direct immunosuppressive properties.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Eculizumab (anti-C5) increases susceptibility to invasive Aspergillus and Candida infections by blocking the membrane attack complex.",
+          "correct": false
+        }
+      ],
+      "explanation": "A, B, and C are true. D is false: eculizumab blocks C5 → prevents MAC (C5b-C9) formation → impairs complement-mediated killing of encapsulated GRAM-NEGATIVE DIPLOCOCCI, specifically Neisseria meningitidis and N. gonorrhoeae. The MAC is not the primary defence against Aspergillus or Candida — those require neutrophil function and T-cell immunity respectively.",
+      "section": "Chemotherapy immunotherapy and biologic agents",
+      "topic": "rituximab HBV alemtuzumab HIV-like T-cell checkpoint domino eculizumab Neisseria NOT Aspergillus",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}

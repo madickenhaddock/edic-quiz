@@ -1,0 +1,631 @@
+{
+  "module": "Immunocompromised patients Part I: Recognizing the Immunocompromised Patient in the ICU",
+  "sections": {
+    "Introduction": "The number of immunocompromised patients has increased in parallel with improvements in transplantation science and new immunosuppressive agents. Infections in such patients can involve unusual organisms requiring atypical pharmacological therapy. Immunocompromised patients are vulnerable to opportunistic pathogens (Cryptococcus, Candida, Aspergillus) and reactivation of latent organisms (Herpesviruses, Toxoplasma gondii, Pneumocystis jirovecii). The spectrum of opportunistic infections differs between entities of immunosuppression.",
+    "Recognising The Immunocompromised Patient": "Identifying the immunocompromised patient requires a detailed history: medical history, concurrent diseases, current medications, weight loss/bruising/night sweats, recent hospitalisations/antibiotic use, social history (HIV risk factors), travel history, history of recurrent infections. Physical exam clues: signs of chronic steroid use, palpable lymphadenopathy, surgical scars (transplant), ports of entry (tunneled catheters, VP shunts), signs of malnourishment.",
+    "Complete Blood Count": "Neutropenia: ANC <1,500/μL. Susceptibility to infection increases dramatically when ANC <1,000/μL. Lymphopenia: <600 cells/μL — predictor of infection risk and mortality in critically ill patients. Neutrophil-to-lymphocyte ratio (NLR): prognostic factor of morbidity and mortality. Monocyte HLA-DR (mHLA-DR): >15,000 antibodies/cell = acceptable cutoff for immunocompetence. Low mHLA-DR correlates with increased infection risk and death (immunoparalysis in sepsis).",
+    "Tests of Immune Function": "Specific tests include: mHLA-DR for innate immunity/post-sepsis immunoparalysis; serum immunoglobulins (total and subgroups) for antibody-mediated immunity; T-lymphocyte subsets (CD4/CD8) for cell-mediated immunity; complement quantification and functional assays. Most are research tools and not routinely performed in critically ill patients. Table: Innate (HLA-DR, mannose-binding lectin) → post-sepsis immunoparalysis; B-cell tests → hypogammaglobulinaemia, CVID; T-cell tests → DiGeorge, SCID; Complement → C1–C9 deficiencies.",
+    "Infection in the immunocompromised patient": "Table 5 — Infections by immune defect:\n- Neutropenia: pneumonia (gram-neg bacilli, Pseudomonas, S.aureus, Aspergillus), CNS (gram-neg, Aspergillus, Mucor), disseminated (Aspergillus, fungi), septic shock (gram-neg, Pseudomonas, S.aureus, Candida)\n- Cell-mediated (T-cell): PCP, CMV, HSV/VZV, Cryptococcus neoformans, Toxoplasma gondii, Listeria monocytogenes, Histoplasma, Coccidiomycosis\n- Humoral (B-cell): S. pneumoniae, H. influenzae, N. meningitidis\n- Complement: N. meningitidis, N. gonorrhoeae",
+    "Imaging for Identification of Infection": "CT is more sensitive than chest X-ray for detecting invasive fungal infections, intraabdominal abscesses, and sinus infections. Common CT patterns: ground-glass opacities (PCP), nodules with 'Halo sign' (invasive aspergillosis — haemorrhagic infarction around angioinvasive hyphae), cavitary nodules (septic emboli), segmental consolidation (Legionella), interlobular septal thickening (viral pneumonia). MRI: CNS infections, spinal infections, soft tissue infections. POCUS: pleural effusions, superficial abscesses — can be done at bedside. Transfer to imaging department carries patient safety risk requiring risk assessment.",
+    "Microbiological Investigation": "Evaluation of immunocompromised patients involves early assessment, aggressive diagnostic tests, and broad-spectrum antimicrobial therapy directed toward organisms associated with the specific immune defect.",
+    "Biochemical Markers of Infection": "Table 6 biomarker performance: PCT 71%/71%/AUC 0.78; Presepsin 86%/78%/AUC 0.89; CD64 76%/85%/AUC 0.92; sTREM-1 81%/40%/AUC 0.64; IL-6 80%/85%/AUC 0.87; suPAR 62%/77%; Lactate 83%/28%; CRP 85%/33%; MR-proADM 83%/90%/AUC 0.91; BDG 74-86%/60%. PCT: not recommended to guide antibiotic initiation in the ICU; can be used to reduce antibiotic duration (discontinue when <0.5 ng/mL or >80% decline from peak). BDG: high false-positive rate (PPV <15% in low pre-test probability settings); false positives with haemodialysis, albumin/IgG administration, surgical packing, mucosal/skin Candida colonisation.",
+    "Molecular Techniques": "PCR/ESI-MS (RADICAL study): sensitivity 81%, specificity 69%, NPV 97%, results in 6 hours vs 48-96 hours for standard cultures. Cannot determine antimicrobial susceptibility. High NPV supports antibiotic de-escalation. Conventional blood cultures: sensitivity limited, turnaround 24-72 hours, contamination rate ~3%. Molecular techniques may detect colonising organisms and non-viable bacteria."
+  },
+  "questions": [
+    {
+      "id": "imp1_a01",
+      "type": "A",
+      "set": 1,
+      "question": "At what absolute neutrophil count (ANC) does susceptibility to infection increase dramatically in neutropenic patients?",
+      "options": [
+        "A: ANC <1,500/μL (the definition of neutropenia)",
+        "B: ANC <1,000/μL",
+        "C: ANC <500/μL",
+        "D: ANC <200/μL",
+        "E: ANC <100/μL"
+      ],
+      "correct": 1,
+      "explanation": "Neutropenia is defined as ANC <1,500/μL. However, it is specifically when the ANC falls below 1,000/μL that susceptibility to infection increases dramatically. This distinction — between the definition (1,500) and the clinically critical threshold (1,000) — is important for risk stratification. Very low counts (<500 or <200/μL) represent severe/profound neutropenia but are not the threshold where the dramatic inflection in infection risk occurs.",
+      "section": "Complete Blood Count",
+      "topic": "neutropenia ANC threshold 1000 infection risk dramatically increased",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp1_a02",
+      "type": "A",
+      "set": 1,
+      "question": "A 45-year-old with HIV (CD4 count 52/μL) presents with confusion, fever, and nuchal rigidity. CSF shows lymphocytic pleocytosis with elevated protein. India ink staining is positive. Which pathogen is most likely?",
+      "options": [
+        "A: Streptococcus pneumoniae",
+        "B: Neisseria meningitidis",
+        "C: Cryptococcus neoformans",
+        "D: Staphylococcus aureus",
+        "E: Haemophilus influenzae"
+      ],
+      "correct": 2,
+      "explanation": "Cryptococcal meningitis is a classic CNS infection in patients with cell-mediated immunity defects (T-cell deficiency, HIV with CD4 <100/μL). India ink staining reveals the characteristic encapsulated yeast. Cryptococcus is listed under CNS infections associated with cell-mediated deficiency. S. pneumoniae and N. meningitidis are associated with humoral/complement deficiency. S. aureus and H. influenzae are not typical CNS pathogens in this immune defect pattern.",
+      "section": "Infection in the immunocompromised patient",
+      "topic": "Cryptococcus neoformans HIV cell-mediated T-cell deficiency CNS meningitis India ink",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp1_a03",
+      "type": "A",
+      "set": 1,
+      "question": "A 52-year-old with multiple myeloma and hypogammaglobulinaemia develops recurrent pneumococcal bacteraemia. Which immune defect best explains this vulnerability?",
+      "options": [
+        "A: Neutropenia resulting in impaired phagocytic killing",
+        "B: Cell-mediated (T-cell) deficiency impairing intracellular pathogen clearance",
+        "C: Defective humoral immunity with impaired opsonisation of encapsulated organisms",
+        "D: Complement deficiency leading to impaired Neisseria-specific killing",
+        "E: Impaired physical barrier function from mucosal damage by myeloma cells"
+      ],
+      "correct": 2,
+      "explanation": "Humoral (B-cell/antibody-mediated) immunity provides opsonisation and antibody-facilitated clearance of encapsulated bacteria (S. pneumoniae, H. influenzae, N. meningitidis). Multiple myeloma causes hypogammaglobulinaemia, impairing this protective mechanism. Complement deficiency specifically predisposes to Neisseria spp. T-cell deficiency primarily causes susceptibility to intracellular and opportunistic pathogens (CMV, PCP, Cryptococcus, Toxoplasma).",
+      "section": "Infection in the immunocompromised patient",
+      "topic": "humoral B-cell deficiency encapsulated organisms opsonisation myeloma hypogammaglobulinaemia",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp1_a04",
+      "type": "A",
+      "set": 1,
+      "question": "A patient with an inherited terminal complement component deficiency (C6–C9) presents with recurrent bacterial meningitis caused by the same organism. Which pathogen is most specifically associated with this immune defect?",
+      "options": [
+        "A: Streptococcus pneumoniae",
+        "B: Aspergillus fumigatus",
+        "C: Pneumocystis jirovecii",
+        "D: Neisseria meningitidis",
+        "E: Candida albicans"
+      ],
+      "correct": 3,
+      "explanation": "Terminal complement components (C5–C9) form the membrane attack complex (MAC), critical for killing encapsulated gram-negative diplococci. Complement deficiency — particularly C5–C9 — specifically predisposes to Neisseria meningitidis and N. gonorrhoeae infections. S. pneumoniae is associated with humoral (IgG) deficiency. PCP and Aspergillus are associated with T-cell and neutrophil deficiency, respectively. Recurrent Neisseria meningitis → always consider complement deficiency.",
+      "section": "Infection in the immunocompromised patient",
+      "topic": "complement deficiency C5 C9 Neisseria meningitidis MAC terminal pathway",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp1_a05",
+      "type": "A",
+      "set": 1,
+      "question": "A 32-year-old with AML undergoing induction chemotherapy develops persistent febrile neutropenia unresponsive to broad-spectrum antibiotics. CT thorax shows multiple pulmonary nodules surrounded by a halo of ground-glass opacity. What is the most likely diagnosis?",
+      "options": [
+        "A: Septic pulmonary emboli from S. aureus bacteraemia",
+        "B: Tuberculosis with multiple cavitating lesions",
+        "C: Pneumocystis jirovecii pneumonia",
+        "D: Invasive pulmonary aspergillosis",
+        "E: CMV pneumonitis"
+      ],
+      "correct": 3,
+      "explanation": "The 'halo sign' — pulmonary nodules surrounded by a rim of ground-glass opacity — is the hallmark CT finding of invasive pulmonary aspergillosis (IPA), representing haemorrhagic infarction around angioinvasive Aspergillus hyphae. The context (AML, induction chemotherapy, persistent febrile neutropenia unresponsive to antibacterials) is classic for IPA. PCP produces diffuse bilateral ground-glass opacities without focal nodules. Septic emboli produce peripheral cavitating nodules. CMV produces interlobular septal thickening.",
+      "section": "Imaging for Identification of Infection",
+      "topic": "halo sign invasive aspergillosis CT neutropenia AML febrile unresponsive antibiotics",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp1_a06",
+      "type": "A",
+      "set": 1,
+      "question": "Which value of monocyte surface HLA-DR (mHLA-DR) expression is considered an acceptable cutoff for immunocompetence in the assessment of potential immunoparalysis?",
+      "options": [
+        "A: >1,500 antibodies/cell",
+        "B: >5,000 antibodies/cell",
+        "C: >10,000 antibodies/cell",
+        "D: >15,000 antibodies/cell",
+        "E: >25,000 antibodies/cell"
+      ],
+      "correct": 3,
+      "explanation": "mHLA-DR >15,000 antibodies/cell is the acceptable cutoff for immunocompetence. Values below this indicate reduced antigen-presenting capacity and impaired T-cell activation — a state termed 'immunoparalysis'. Long-lasting monocyte deactivation occurs frequently in sepsis, and low mHLA-DR correlates with increased risk of infection and death. Note: the PROVIDE RCT used <5,000 Ab/cell as the threshold for immunoparalysis (a lower, more severe threshold).",
+      "section": "Complete Blood Count",
+      "topic": "mHLA-DR 15000 monocyte immunocompetence immunoparalysis sepsis threshold",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp1_a07",
+      "type": "A",
+      "set": 1,
+      "question": "Which of the following is NOT a recognised cause of false-positive β-d-Glucan (BDG) results in ICU patients?",
+      "options": [
+        "A: Haemodialysis",
+        "B: Administration of albumin or intravenous immunoglobulin",
+        "C: Surgical gauze packing",
+        "D: Active pulmonary tuberculosis",
+        "E: Mucosal or skin Candida colonisation"
+      ],
+      "correct": 3,
+      "explanation": "Recognised causes of false-positive BDG include haemodialysis, albumin/immunoglobulin administration, surgical packing, and mucosal/skin Candida colonisation. Active tuberculosis is not listed as a cause of false-positive BDG in this module. The high false-positive rate limits BDG specificity to approximately 60%, and the positive predictive value is <15% in settings with low pre-test probability for invasive Candida infection.",
+      "section": "Biochemical Markers of Infection",
+      "topic": "BDG false positive causes haemodialysis albumin surgical packing NOT tuberculosis",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp1_a08",
+      "type": "A",
+      "set": 1,
+      "question": "Which statement best reflects current evidence on the role of procalcitonin (PCT) in the ICU management of immunocompromised patients?",
+      "options": [
+        "A: A PCT >2 ng/mL confirms bacterial infection and mandates antibiotic initiation in immunocompromised ICU patients",
+        "B: Normal PCT reliably excludes bacterial infection in immunocompromised patients and permits safe antibiotic withholding",
+        "C: PCT can guide antibiotic discontinuation but is not recommended to guide antibiotic initiation in the ICU",
+        "D: PCT is superior to CD64 for diagnosing sepsis based on its higher AUC",
+        "E: PCT has sufficient specificity to replace blood cultures in the evaluation of febrile immunocompromised patients"
+      ],
+      "correct": 2,
+      "explanation": "PCT can be used to shorten antibiotic duration (discontinue when <0.5 ng/mL or >80% decrease from peak), but its accuracy for guiding antibiotic initiation in the ICU is poor due to lack of specificity — rising in non-infectious inflammation. The module explicitly states PCT is not recommended to guide antibiotic initiation in the ICU. CD64 has superior specificity (85%) and AUC (0.92) versus PCT (AUC 0.78), making Option D false.",
+      "section": "Biochemical Markers of Infection",
+      "topic": "PCT initiation not recommended discontinuation AUC 0.78 CD64 superior specificity",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp1_a09",
+      "type": "A",
+      "set": 1,
+      "question": "The RADICAL study evaluated PCR/ESI-MS (PCR followed by electrospray ionisation mass spectrometry) for diagnosing bloodstream infection in critically ill patients. Which best describes its performance characteristics?",
+      "options": [
+        "A: Sensitivity 60%, specificity 90%, results in 24–48 hours",
+        "B: Sensitivity 81%, specificity 69%, NPV 97%, results in approximately 6 hours",
+        "C: Sensitivity 95%, specificity 95%, results in 2 hours",
+        "D: Sensitivity 71%, specificity 71%, AUC 0.78 — equivalent to PCT performance",
+        "E: Sensitivity 76%, specificity 85%, AUC 0.92 — equivalent to CD64 performance"
+      ],
+      "correct": 1,
+      "explanation": "The RADICAL study (Vincent et al. 2015) reported PCR/ESI-MS sensitivity 81%, specificity 69%, NPV 97%, with results available in 6 hours (vs 48–96 hours for standard cultures). The high NPV (97%) is particularly valuable for safely ruling out active infection and supporting antibiotic de-escalation. Option D describes PCT performance. Option E describes CD64. The key limitation of PCR/ESI-MS is that it cannot determine antimicrobial susceptibility.",
+      "section": "Molecular Techniques",
+      "topic": "PCR ESI-MS RADICAL study sensitivity 81 NPV 97 6 hours no susceptibility",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp1_a10",
+      "type": "A",
+      "set": 1,
+      "question": "A 28-year-old with HIV (CD4 count 78/μL) presents with dry cough, progressive dyspnoea, and fever. CT thorax shows bilateral diffuse perihilar ground-glass opacification. LDH is markedly elevated. Which CT pattern and diagnosis is most consistent?",
+      "options": [
+        "A: Halo sign — invasive pulmonary aspergillosis",
+        "B: Segmental lobar consolidation — Legionella pneumonia",
+        "C: Cavitary peripheral nodules — septic emboli",
+        "D: Bilateral diffuse ground-glass opacification — Pneumocystis jirovecii pneumonia",
+        "E: Interlobular septal thickening — CMV pneumonitis"
+      ],
+      "correct": 3,
+      "explanation": "Bilateral diffuse ground-glass opacification is the hallmark CT pattern of PCP, caused by intra-alveolar proteinaceous material. The clinical context (HIV with CD4 <200/μL, dry cough, markedly elevated LDH) confirms PCP. Halo sign = IPA (nodule with haemorrhagic rim). Segmental consolidation = Legionella. Cavitary peripheral nodules = septic emboli. Interlobular septal thickening = viral pneumonitis (e.g. CMV).",
+      "section": "Imaging for Identification of Infection",
+      "topic": "PCP ground-glass CT pattern HIV CD4 low LDH elevated bilateral",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp1_a11",
+      "type": "A",
+      "set": 1,
+      "question": "A 38-year-old with Hodgkin's lymphoma on combination chemotherapy develops new-onset confusion and focal neurological deficits. MRI brain shows multiple ring-enhancing lesions. Which pathogen should be highest on the differential?",
+      "options": [
+        "A: Staphylococcus aureus cerebral abscess",
+        "B: Streptococcus pneumoniae meningitis",
+        "C: Toxoplasma gondii reactivation",
+        "D: Cryptococcus neoformans meningitis",
+        "E: HSV encephalitis"
+      ],
+      "correct": 2,
+      "explanation": "Multiple ring-enhancing CNS lesions in a patient with cell-mediated immunity deficiency (Hodgkin's lymphoma, chemotherapy) are classic for Toxoplasma gondii reactivation — explicitly listed as a CNS pathogen in cell-mediated immunity defects in Table 5. Cryptococcus (also T-cell related) typically causes meningitis without ring-enhancing mass lesions. HSV encephalitis produces temporal lobe signal changes. Ring-enhancing lesions = Toxoplasma. S. pneumoniae causes meningitis, not ring-enhancing lesions.",
+      "section": "Infection in the immunocompromised patient",
+      "topic": "Toxoplasma gondii reactivation ring-enhancing lesions cell-mediated T-cell lymphoma",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp1_a12",
+      "type": "A",
+      "set": 1,
+      "question": "Lymphopenia in critically ill patients is defined as a lymphocyte count of less than:",
+      "options": [
+        "A: 1,000 cells/μL",
+        "B: 800 cells/μL",
+        "C: 600 cells/μL",
+        "D: 400 cells/μL",
+        "E: 200 cells/μL"
+      ],
+      "correct": 2,
+      "explanation": "Lymphopenia is defined as a lymphocyte count less than 600 cells/μL. Lymphocyte count is a predictor of both infection risk and mortality in critically ill patients. Persistent lymphopenia after sepsis predicts mortality (Drewry et al. 2014). This is distinct from neutropenia (ANC <1,500/μL) and from the more severe lymphopenia threshold used in some immunodeficiency classifications.",
+      "section": "Complete Blood Count",
+      "topic": "lymphopenia 600 cells threshold infection mortality predictor critically ill",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp1_a13",
+      "type": "A",
+      "set": 1,
+      "question": "Which of the following CNS pathogens is NOT typically associated with neutropenia as the primary predisposing immune defect?",
+      "options": [
+        "A: Aspergillus species",
+        "B: Enteric gram-negative bacilli",
+        "C: Mucormycosis species",
+        "D: Toxoplasma gondii",
+        "E: Candida species (disseminated)"
+      ],
+      "correct": 3,
+      "explanation": "Toxoplasma gondii is associated with cell-mediated (T-cell) deficiency — not neutropenia. The module's Table 5 lists Toxoplasma under CNS infections associated with cell-mediated immunity defects. Key discriminator: Toxoplasma = T-cell; Aspergillus and Mucormycosis = neutropenia. Enteric gram-negative bacilli, disseminated Candida, Aspergillus, and Mucor are all listed under neutropenic infection patterns.",
+      "section": "Infection in the immunocompromised patient",
+      "topic": "Toxoplasma T-cell deficiency NOT neutropenia Aspergillus Mucor gram-negative",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp1_a14",
+      "type": "A",
+      "set": 1,
+      "question": "PCR/ESI-MS rapidly identifies Klebsiella pneumoniae in a critically ill immunocompromised patient within 6 hours. Which important limitation must be considered when managing this patient?",
+      "options": [
+        "A: The technique cannot identify gram-negative organisms, only gram-positive pathogens",
+        "B: Results are only valid if the patient has had no prior antibiotics",
+        "C: PCR/ESI-MS cannot determine antimicrobial susceptibility of the identified pathogen",
+        "D: A positive PCR/ESI-MS cannot be used to support antibiotic de-escalation due to poor NPV",
+        "E: PCR/ESI-MS results require 48–96 hours to return, limiting immediate clinical utility"
+      ],
+      "correct": 2,
+      "explanation": "A critical limitation of molecular techniques including PCR/ESI-MS is the inability to determine antimicrobial susceptibility. Culture-based sensitivity testing is still required for targeted therapy decisions. However, the high NPV (97%) of PCR/ESI-MS can support antibiotic de-escalation decisions (making Option D incorrect). Results are available in 6 hours (not 48–96 hours, as Option E states). The technique identifies both gram-positives and gram-negatives.",
+      "section": "Molecular Techniques",
+      "topic": "PCR ESI-MS limitation no susceptibility testing NPV 97 de-escalation supported",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp1_a15",
+      "type": "A",
+      "set": 1,
+      "question": "In an ICU setting with an invasive Candida infection rate below 5%, what is the approximate positive predictive value (PPV) of a positive β-d-Glucan (BDG) test?",
+      "options": [
+        "A: 75–85%",
+        "B: 60–70%",
+        "C: 40–50%",
+        "D: Less than 15%",
+        "E: 90–95%"
+      ],
+      "correct": 3,
+      "explanation": "In settings with low pre-test probability (IC rate <5%), BDG yields a positive predictive value of <15% despite having sensitivity of 74–86%. This paradox reflects the importance of pre-test probability: high sensitivity with moderate specificity (~60%) in a low-prevalence setting generates predominantly false positives. BDG is most useful for ruling out (high sensitivity) rather than ruling in invasive Candida infection in low-prevalence ICU settings.",
+      "section": "Biochemical Markers of Infection",
+      "topic": "BDG PPV less 15 percent low pre-test probability specificity 60 false positive",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp1_k01",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding neutropenia and infection risk in the ICU:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Neutropenia is defined as an absolute neutrophil count (ANC) of less than 1,500/μL.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "When the ANC falls below 1,000/μL, susceptibility to infection increases dramatically.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Myelodysplastic syndrome can cause increased infection risk despite a normal-range ANC, due to qualitative neutrophil dysfunction.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Low mHLA-DR expression (below 15,000 antibodies/cell) on peripheral monocytes indicates immunocompetence and reduced infection risk in critically ill patients.",
+          "correct": false
+        }
+      ],
+      "explanation": "A, B, and C are true. D is false and the critical trap: low mHLA-DR expression indicates IMPAIRED immunity (immunoparalysis) and INCREASED infection risk. mHLA-DR >15,000 antibodies/cell is the threshold for immunocompetence — below this, antigen presentation and T-cell activation are impaired.",
+      "section": "Complete Blood Count",
+      "topic": "neutropenia ANC 1500 1000 infection MDS qualitative mHLA-DR immunoparalysis",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp1_k02",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the pattern of infection associated with specific immune defects:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Neutropenia predisposes to infections with Aspergillus species, Pseudomonas aeruginosa, enteric gram-negative bacilli, and Candida species.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Cell-mediated (T-cell) deficiency predisposes to Pneumocystis jirovecii pneumonia, CMV reactivation, Cryptococcus neoformans, and Toxoplasma gondii.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Humoral (B-cell/antibody) deficiency primarily predisposes to infections with encapsulated organisms such as Streptococcus pneumoniae and Haemophilus influenzae.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Terminal complement deficiency (C5–C9) specifically predisposes to invasive Aspergillus infection via impaired membrane attack complex formation against fungal cell walls.",
+          "correct": false
+        }
+      ],
+      "explanation": "A, B, and C are all true — these represent the canonical infection patterns for each immune defect type. D is false: terminal complement deficiency (C5–C9) specifically predisposes to Neisseria meningitidis and N. gonorrhoeae infections — NOT Aspergillus. The MAC is important for gram-negative diplococci; neutrophil function (not complement) is the primary defence against Aspergillus.",
+      "section": "Infection in the immunocompromised patient",
+      "topic": "immune defect infection pattern neutropenia T-cell humoral complement Neisseria NOT Aspergillus",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp1_k03",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding CT imaging findings associated with infection in immunocompromised patients:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The 'halo sign' — a pulmonary nodule surrounded by a rim of ground-glass opacity — is characteristic of invasive pulmonary aspergillosis, representing haemorrhagic infarction around angioinvasive hyphae.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Bilateral diffuse ground-glass opacification in an HIV-positive patient with CD4 <200/μL and elevated LDH is the classic CT pattern of Pneumocystis jirovecii pneumonia.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The halo sign is most commonly caused by viral pneumonia in immunocompromised patients; CT is therefore not routinely recommended when viral infection is suspected.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "MRI is particularly useful for evaluation of CNS infections, spinal infections, and soft tissue infections in immunocompromised patients.",
+          "correct": true
+        }
+      ],
+      "explanation": "A, B, and D are true. C is false on two counts: the halo sign is characteristic of invasive aspergillosis (not viral pneumonia), and CT is actively recommended for immunocompromised patients to detect subtle infectious processes including early invasive fungal infections. Viral pneumonia typically causes interlobular septal thickening, not a halo sign.",
+      "section": "Imaging for Identification of Infection",
+      "topic": "halo sign aspergillosis NOT viral PCP ground-glass CT MRI CNS",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp1_k04",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the performance of biomarkers for diagnosing infection in critically ill patients (Table 6):",
+      "statements": [
+        {
+          "label": "A",
+          "text": "sTREM-1 has high sensitivity (81%) but low specificity (40%), limiting its value as a standalone diagnostic tool for infection.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "CD64 has higher specificity (85%) and a higher AUC (0.92) for diagnosing sepsis compared to procalcitonin (AUC 0.78).",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "MR-proADM correlates more with organ dysfunction than with infection per se, limiting its specificity as a standalone infection diagnostic.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "β-d-Glucan (BDG) achieves specificity greater than 90% for invasive Candida infection in standard ICU conditions.",
+          "correct": false
+        }
+      ],
+      "explanation": "A, B, and C are true per Table 6 data. D is false: BDG specificity is approximately 60% — far below 90% — and its positive predictive value is <15% in low-prevalence settings. The moderate specificity and high false-positive rate are its primary limitations, not sensitivity (which is 74–86%).",
+      "section": "Biochemical Markers of Infection",
+      "topic": "sTREM-1 CD64 AUC biomarkers BDG specificity 60 not 90 percent",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp1_k05",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding β-d-Glucan (BDG) testing for invasive fungal infection in the ICU:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "BDG sensitivity for invasive Candida infection ranges from 74–86%.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "False-positive BDG results can occur with haemodialysis, albumin or immunoglobulin administration, surgical gauze packing, and mucosal Candida colonisation.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "In ICU settings with an invasive Candida rate below 5%, a positive BDG result has a positive predictive value of less than 15%.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "BDG reliably distinguishes invasive Candida from Aspergillus infection because BDG is elevated only in Candida species.",
+          "correct": false
+        }
+      ],
+      "explanation": "A, B, and C are true. D is false and the classic trap: BDG is elevated in BOTH invasive Candida AND Aspergillus infections (and also in PCP). It does not distinguish between fungal species. The test identifies glucan as a fungal cell wall component present across many fungal genera.",
+      "section": "Biochemical Markers of Infection",
+      "topic": "BDG sensitivity false positive Candida Aspergillus both not exclusive low PPV",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp1_k06",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding molecular diagnostic techniques for bloodstream infection in critically ill immunocompromised patients:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "PCR/ESI-MS can identify diverse bacterial and fungal organisms within approximately 6 hours, compared to 48–96 hours for conventional cultures.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "In the RADICAL study, PCR/ESI-MS achieved an NPV of 97%, supporting its use for antibiotic de-escalation when results are negative.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "PCR/ESI-MS can determine antimicrobial susceptibility directly from blood samples, enabling earlier targeted therapy without conventional culture.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Molecular techniques may detect colonising organisms, non-viable bacteria following antibiotic therapy, or reactivated viruses, potentially overestimating active infection.",
+          "correct": true
+        }
+      ],
+      "explanation": "A, B, and D are true. C is false: this is the key limitation of PCR/ESI-MS — it can identify the organism but CANNOT determine antimicrobial susceptibility. Susceptibility testing still requires conventional culture. The 75% of patients on antibiotics prior to enrolment in RADICAL may explain why PCR was positive when culture was negative (organism DNA detectable but killed).",
+      "section": "Molecular Techniques",
+      "topic": "PCR ESI-MS 6 hours NPV 97 no susceptibility colonisers false positive",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp1_k07",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding lymphocyte function and post-sepsis immunosuppression:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Lymphopenia is defined as a lymphocyte count below 600 cells/μL and predicts both infection risk and mortality in critically ill patients.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "mHLA-DR expression >15,000 antibodies/cell on peripheral monocytes indicates immunocompetence; values below this correlate with increased infection risk and death.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Glucocorticoid administration causes neutrophilia through demargination, but simultaneously impairs neutrophil chemotaxis due to reduced IL-8 production.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Persistent lymphopenia following sepsis is a benign adaptive response and has no established association with ICU mortality.",
+          "correct": false
+        }
+      ],
+      "explanation": "A, B, and C are true. D is false: persistent lymphopenia following sepsis is associated with increased mortality (Drewry et al. 2014). Lymphocyte apoptosis and functional exhaustion contribute to immunoparalysis and increased susceptibility to secondary nosocomial infections — a major cause of late ICU deaths.",
+      "section": "Complete Blood Count",
+      "topic": "lymphopenia 600 mHLA-DR 15000 GC neutrophilia IL-8 chemotaxis persistent mortality",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp1_k08",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding imaging strategies for immunocompromised patients with suspected infection:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "CT is more sensitive than chest radiography for detecting subtle infectious processes such as early invasive fungal infection, intraabdominal abscess, and invasive sinus infections.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The halo sign on CT is pathognomonic of viral pneumonia in immunocompromised patients, and its presence should prompt antiviral therapy.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Transfer of a mechanically ventilated, critically ill patient to the CT scanner requires proper risk assessment and appropriately trained personnel.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Point-of-care ultrasound cannot identify pleural effusions or superficial abscesses at the bedside in ICU patients.",
+          "correct": false
+        }
+      ],
+      "explanation": "A and C are true. B is false: the halo sign is characteristic of invasive aspergillosis, not viral pneumonia — confusing these patterns is a dangerous clinical error. D is false: POCUS is explicitly described in the module as useful at the bedside for identifying fluid-filled structures including pleural effusions and superficial abscesses.",
+      "section": "Imaging for Identification of Infection",
+      "topic": "CT sensitive fungal halo sign NOT viral POCUS bedside effusion transfer risk",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp1_k09",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the clinical approach to recognising immune compromise in ICU patients:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Transplant patients often present with atypical or subtle signs of infection (altered sensorium, low blood pressure, abnormal liver function tests) rather than classic fever and leukocytosis.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Social history, travel history, current medications, and a history of recurrent childhood infections are all relevant components of the immunological history.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Immune dysfunction in the ICU is static; once characterised at admission, the degree of immunosuppression remains constant throughout the ICU course.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Patients with haematological malignancies (e.g. myelodysplastic syndrome) may have increased infection risk despite a normal-range ANC due to qualitative neutrophil dysfunction.",
+          "correct": true
+        }
+      ],
+      "explanation": "A, B, and D are true. C is false: the module explicitly states that 'immune function is not static and can change during the course of an illness.' Immunosuppression evolves — initially from the underlying condition, then from treatment effects, disease progression, and ICU-acquired immunomodulation. Repeated reassessment is necessary.",
+      "section": "Recognising The Immunocompromised Patient",
+      "topic": "transplant atypical presentation immune defect static NOT history recurrent infections",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp1_k10",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the use of biomarkers including PCT to guide antimicrobial therapy in immunocompromised ICU patients:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "PCT has insufficient specificity to reliably guide antibiotic initiation in the ICU; it is not recommended for this purpose.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Antibiotics can be safely stopped early in the ICU when PCT remains low or falls to <0.5 ng/mL (or >80% from peak value).",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "A combination of multiple biomarkers (e.g. PCT, CD64, sTREM-1) is more likely to reflect the evolving sepsis status than any single marker alone.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "A persistently elevated PCT in a clinically improving immunocompromised patient confirms ongoing active bacterial infection and mandates continued broad-spectrum antibiotics.",
+          "correct": false
+        }
+      ],
+      "explanation": "A, B, and C are true. D is false: clinical status must be integrated with PCT trends — a persistently elevated but declining PCT in a clinically improving patient does not mandate continued broad-spectrum therapy. PCT measurements must not be used as a substitute for a thorough clinical evaluation. The direction and rate of PCT change matters more than the absolute value in isolation.",
+      "section": "Biochemical Markers of Infection",
+      "topic": "PCT initiation not recommended discontinuation 0.5 combination biomarkers clinical evaluation",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}
