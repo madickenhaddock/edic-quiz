@@ -1,0 +1,629 @@
+{
+  "module": "Immunocompromised patients Part IV: Preventing Infection in the immunocompromised patient",
+  "sections": {
+    "Hand Hygiene": "The most important intervention for preventing ICU infection is hand hygiene. Alcohol-based hand rubs combined with chlorhexidine cover Gram-positive and Gram-negative bacteria, viruses, mycobacteria, and fungi — but are INEFFECTIVE against C. difficile and other spore-forming organisms (soap and water required for these). WHO SAVE LIVES identifies 5 moments: (1) before touching a patient, (2) before clean/aseptic procedures, (3) after body fluid exposure/risk, (4) after touching a patient, (5) after touching patient surroundings. Video surveillance data show healthcare workers have worse compliance than patients' relatives.",
+    "Isolation": "Neutropenic patients (non-HSCT) do NOT require isolation rooms or specific barrier precautions — standard precautions suffice. HSCT patients require a protective environment: single well-sealed rooms with >12 air exchanges per hour and HEPA filtration to reduce invasive Aspergillosis risk. Isolation is primarily discussed for contagious patients to reduce cross-infection; in absence of adequate isolation rooms, barrier precautions (gloves, gown) + good hand hygiene are paramount.",
+    "Standards for ICU Cleaning and Design": "Hydrogen peroxide vapor decontamination is superior to conventional cleaning but can only be used in enclosed rooms (toxic to humans). UV radiation devices enhance clearance of MDROs from the environment but are LESS effective against C. difficile and other spore-forming organisms. Standard non-ionic surfactant solution (1:500 dilution) may NOT completely clear MRSA.",
+    "Preventing ICU Device-Related Infections": "VAP bundles include: subglottic suctioning ETTs, head-of-bed elevation to 45°, antimicrobial-coated ETTs, routine oral care, SOD/SDD, daily weaning trials, early tracheostomy. SOD = topical non-absorbable antimicrobials to oropharynx only. SDD = oral non-absorbable antimicrobials + short-course systemic antibiotic. Both reduce VAP and modestly reduce ICU mortality. Longitudinal ICU follow-up has NOT shown increased resistant organisms with SDD adoption. In cancer patients for long-term CVC: subcutaneous implanted ports have lowest CLABSI risk vs tunneled vs non-tunneled catheters. Antibiotic-coated catheters and antimicrobial lock solutions reduce CLABSI and may be used when removal not feasible.",
+    "Antimicrobial Prophylaxis": "HIV prophylaxis by CD4 count: PCP (TMP-SMX) at CD4 <200/µL; Toxoplasmosis (TMP-SMX) at CD4 <100/µL; Histoplasmosis (itraconazole) at CD4 <100/µL in endemic areas; MAC (azithromycin or clarithromycin) at CD4 <50/µL; TB (isoniazid + pyridoxine) at any CD4 if TST >5mm or TB contact. Post-transplant PJP (TMP-SMX): ~12 months for solid organ (longer for lung) vs 6 months for HSCT (longer only if continued immunosuppression). CMV: valganciclovir/ganciclovir — universal prophylaxis (all high-risk patients started regardless of viral load) vs preemptive strategy (monitor viral load, start at threshold before clinical disease). VZV/HSV: acyclovir for seropositive patients not on CMV prophylaxis. Pre-engraftment HSCT: fluoroquinolones reduce Gram-negative infection risk but provide NO mortality benefit; use controversial.",
+    "Routine Microbiological Surveillance in the ICU": "Routine surveillance cultures of patients and environment generate MDRO profiles and enable timely infection control measures. Positive surveillance culture = colonisation, NOT necessarily active infection. Adding targeted decolonisation to surveillance + barrier precautions + hand hygiene further reduces MDRO transmission. Evidence for cost-effectiveness is mixed, but a MDRO outbreak greatly outweighs the cost of surveillance.",
+    "Nutrition and Probiotics": "Enteral nutrition (EN) preferred over parenteral (PN): preserves gut mucosal integrity and immune function, fewer infectious and GI complications, lower cost. Initiation within 24-48h; permissive underfeeding is well tolerated. Probiotics have modest evidence for C. difficile-associated diarrhoea prevention; evidence for nosocomial pneumonia prevention is mixed. In immunocompromised patients, probiotics remain controversial (safety concerns) though some liver transplant data is favourable. HSCT pre-engraftment: avoid raw/undercooked meals, fresh fruits/vegetables, unpasteurised milk."
+  },
+  "questions": [
+    {
+      "id": "imp4_a01",
+      "type": "A",
+      "set": 1,
+      "question": "A 67-year-old mechanically ventilated patient develops profuse watery diarrhoea on day 8 of ICU admission following broad-spectrum antibiotics. Clostridium difficile infection is suspected. The bedside nurse is about to perform morning care. Which hand hygiene method is most appropriate before entering the patient's room?",
+      "options": [
+        "A: Alcohol-based hand rub (ABHR) with ≥60% ethanol",
+        "B: Chlorhexidine gluconate solution applied without rinsing",
+        "C: Handwashing with antibacterial soap and water",
+        "D: Combined chlorhexidine-alcohol preparation",
+        "E: No additional precautions beyond standard ABHR used elsewhere on the unit"
+      ],
+      "correct": 2,
+      "explanation": "Alcohol-based preparations — including combined chlorhexidine-alcohol — are ineffective against C. difficile and other spore-forming organisms. Physical removal with soap and water is required to dislodge spores. Combined CHX-alcohol preparations (option D) are excellent for most ICU pathogens (Gram-positive, Gram-negative, viruses, mycobacteria, fungi) and are generally ideal, but the alcohol component makes them insufficient for spore-formers. Option D is the common near-miss: its broad-spectrum coverage does not extend to spores.",
+      "section": "Hand Hygiene",
+      "topic": "hand hygiene C difficile spores alcohol ineffective soap water",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp4_a02",
+      "type": "A",
+      "set": 1,
+      "question": "A 38-year-old patient undergoes allogeneic haematopoietic stem cell transplantation (HSCT) for acute myeloid leukaemia and is admitted to the ICU post-procedure. Which specific environmental measure is most critical for this patient to reduce the risk of invasive Aspergillosis?",
+      "options": [
+        "A: Contact precautions with gloves and gown in a standard side room",
+        "B: Droplet precautions in any available side room",
+        "C: Placement in a single well-sealed room with >12 air exchanges per hour and HEPA filtration",
+        "D: Standard neutropenia precautions without requiring an isolation room",
+        "E: Reverse barrier nursing with surgical mask and apron only"
+      ],
+      "correct": 2,
+      "explanation": "HSCT patients require a protective environment — single well-sealed rooms with >12 air exchanges per hour and high-efficiency particulate air (HEPA) filtration — specifically to decrease the risk of invasive Aspergillosis. This distinguishes HSCT patients from other neutropenic patients (e.g., those receiving chemotherapy) who do NOT require isolation rooms or specific barrier precautions. Option D describes standard neutropenic patients, which is the key near-miss — the HSCT distinction is a frequent exam discriminator.",
+      "section": "Isolation",
+      "topic": "HSCT protective environment HEPA air exchanges Aspergillosis isolation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp4_a03",
+      "type": "A",
+      "set": 1,
+      "question": "An ICU experiences an outbreak of Clostridium difficile infections despite enhanced terminal room cleaning with standard solutions. The infection control team reviews decontamination technologies. Which statement about available methods is most accurate?",
+      "options": [
+        "A: UV radiation devices are equally effective against C. difficile spores and MRSA",
+        "B: Hydrogen peroxide vapor is superior to conventional cleaning but requires room enclosure as it is toxic to humans",
+        "C: Standard non-ionic surfactant solution diluted 1:500 reliably eradicates MRSA from surfaces",
+        "D: UV radiation devices are more effective than hydrogen peroxide vapor against spore-forming organisms",
+        "E: Alcohol-based environmental wipes are first-line for C. difficile room terminal decontamination"
+      ],
+      "correct": 1,
+      "explanation": "Hydrogen peroxide vapor decontamination has been shown superior to conventional cleaning but can only be used in enclosed rooms because it is toxic to humans — limiting its practicality for occupied units. UV radiation devices enhance clearance of MDROs (including MRSA) but are less effective against C. difficile and other spore-forming organisms, making option A and D incorrect. Standard non-ionic surfactant solution (1:500) may not completely clear MRSA. Alcohol-based wipes are ineffective against spores.",
+      "section": "Standards for ICU Cleaning and Design",
+      "topic": "H2O2 vapor UV decontamination C difficile MRSA MDR cleaning ICU",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp4_a04",
+      "type": "A",
+      "set": 1,
+      "question": "A quality improvement team audits VAP prevention practices in a mixed ICU. They review which interventions constitute a standard VAP prevention bundle. Which of the following is NOT a recognised component of a standard VAP prevention bundle?",
+      "options": [
+        "A: Subglottic suctioning endotracheal tubes",
+        "B: Head-of-bed elevation to 45 degrees",
+        "C: Routine oral care with chlorhexidine",
+        "D: Prophylactic systemic antifungal therapy",
+        "E: Daily assessment and weaning trials to minimise ventilator duration"
+      ],
+      "correct": 3,
+      "explanation": "Standard VAP bundles include subglottic suctioning ETTs, head-of-bed elevation, oral care, selective decontamination (SOD/SDD), and measures to reduce ventilator duration (daily weaning trials, early tracheostomy). Prophylactic systemic antifungal therapy is NOT a bundle component — antifungal prophylaxis is reserved for specific high-risk immunocompromised populations (prolonged neutropenia, post-transplant) based on the underlying disease, not as universal VAP prevention. Option C is a near-miss since chlorhexidine oral care is a genuine bundle element; the question tests whether candidates add antifungals inappropriately.",
+      "section": "Preventing ICU Device-Related Infections",
+      "topic": "VAP bundle components NOT antifungal prophylaxis subglottic oral care",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp4_a05",
+      "type": "A",
+      "set": 1,
+      "question": "During an ICU governance meeting, a proposal is made to implement selective digestive decontamination (SDD) for all mechanically ventilated patients. A consultant raises concerns about long-term selection for antibiotic-resistant organisms. Which statement best reflects current evidence?",
+      "options": [
+        "A: SDD has been shown in longitudinal studies to significantly increase multidrug-resistant organism carriage in adopting ICUs",
+        "B: SDD reduces VAP rates but has no demonstrated effect on ICU mortality",
+        "C: Longitudinal follow-up of ICUs adopting SDD has not demonstrated increased resistant organism levels",
+        "D: SDD is formally contraindicated in ICUs with background resistance rates above 10%",
+        "E: SDD uses only intravenous systemic antibiotics without any topical oropharyngeal component"
+      ],
+      "correct": 2,
+      "explanation": "Despite theoretical concerns about resistance selection, longitudinal follow-up of ICUs that adopted SDD has not demonstrated increased levels of resistant organisms — the evidence points contrary to the intuitive concern. SDD has also been shown to modestly reduce mortality, not just VAP rates, making option B incomplete. SDD consists of topical oral non-absorbable antimicrobials combined with a short-course systemic antibiotic (option E describes only IV use, which is incorrect). There is no formal threshold contraindication as described in option D.",
+      "section": "Preventing ICU Device-Related Infections",
+      "topic": "SDD SOD resistance evidence mortality VAP decontamination digestive",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp4_a06",
+      "type": "A",
+      "set": 1,
+      "question": "A 54-year-old with non-Hodgkin's lymphoma requires long-term venous access for six cycles of chemotherapy. He has no prior central venous access. Which type of venous access device carries the lowest risk of catheter-related bloodstream infection (CLABSI) for long-term use?",
+      "options": [
+        "A: Non-tunneled central venous catheter (CVC) inserted at the internal jugular vein",
+        "B: Tunneled central venous catheter (e.g., Hickman line)",
+        "C: Peripherally inserted central catheter (PICC)",
+        "D: Subcutaneously implanted port (port-a-cath)",
+        "E: Antibiotic-coated non-tunneled CVC"
+      ],
+      "correct": 3,
+      "explanation": "For long-term venous access in cancer patients, subcutaneously implanted ports (port-a-caths) carry the lowest infection risk because the reservoir remains subcutaneous and is only accessed intermittently, minimising sustained skin breaching and biofilm formation. In order of increasing infection risk: implanted port < tunneled catheter < non-tunneled CVC. Antibiotic-coated catheters (option E) reduce infection compared to standard non-tunneled CVCs but do not match the risk profile of an implanted port when long-term access is planned.",
+      "section": "Preventing ICU Device-Related Infections",
+      "topic": "CLABSI cancer catheter type port tunneled non-tunneled infection risk",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp4_a07",
+      "type": "A",
+      "set": 1,
+      "question": "A 32-year-old HIV-positive man is admitted to the ICU with respiratory failure. His CD4 count is 45 cells/µL. He is already receiving trimethoprim-sulfamethoxazole (TMP-SMX) for PCP prophylaxis. Which additional prophylaxis should now be initiated?",
+      "options": [
+        "A: Itraconazole for disseminated histoplasmosis (regardless of geography)",
+        "B: Azithromycin or clarithromycin for Mycobacterium avium complex (MAC)",
+        "C: Valganciclovir for CMV disease prevention",
+        "D: Rifampicin monotherapy for tuberculosis (no known TB exposure)",
+        "E: No additional prophylaxis; TMP-SMX covers all required indications at this CD4 level"
+      ],
+      "correct": 1,
+      "explanation": "MAC prophylaxis (azithromycin or clarithromycin) is indicated when CD4 count falls below 50 cells/µL — met here at 45 cells/µL. PCP and toxoplasmosis are both covered by TMP-SMX (PCP threshold <200, toxoplasmosis threshold <100). Histoplasmosis prophylaxis with itraconazole requires both CD4 <100 AND residence in an endemic area — not universally indicated. TB prophylaxis requires a positive TST (>5mm) or known TB contact, not simply a low CD4 count (option D also incorrectly proposes monotherapy). Option E is wrong because MAC prophylaxis is not covered by TMP-SMX.",
+      "section": "Antimicrobial Prophylaxis",
+      "topic": "HIV CD4 50 MAC azithromycin clarithromycin prophylaxis thresholds",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp4_a08",
+      "type": "A",
+      "set": 1,
+      "question": "A 29-year-old HIV-positive man has a CD4 count of 110 cells/µL. He is not in a histoplasmosis-endemic area, has no known TB exposure, and is currently on no prophylaxis. Which prophylaxis regimen is most appropriate at this CD4 level?",
+      "options": [
+        "A: No prophylaxis; the threshold for any intervention is CD4 <100 cells/µL",
+        "B: TMP-SMX for PCP prophylaxis only — the toxoplasmosis threshold (CD4 <100) is not yet met",
+        "C: TMP-SMX for both PCP and toxoplasmosis, as both thresholds are met at CD4 110 cells/µL",
+        "D: TMP-SMX (PCP) plus azithromycin (MAC), as CD4 is below 200",
+        "E: Itraconazole for histoplasmosis plus TMP-SMX for PCP"
+      ],
+      "correct": 1,
+      "explanation": "At CD4 110 cells/µL: PCP prophylaxis is indicated (threshold <200 — met) but toxoplasmosis prophylaxis is NOT yet indicated (threshold <100 — not met at 110). TMP-SMX for PCP alone is correct. Option C is the critical near-miss — TMP-SMX does cover toxoplasmosis, but the indication only arises when CD4 drops below 100; at CD4 110, initiating it for toxoplasmosis is premature. MAC prophylaxis requires CD4 <50. Histoplasmosis requires CD4 <100 AND endemic area exposure.",
+      "section": "Antimicrobial Prophylaxis",
+      "topic": "HIV CD4 110 PCP TMP-SMX toxoplasmosis threshold not met prophylaxis",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp4_a09",
+      "type": "A",
+      "set": 1,
+      "question": "A 48-year-old CMV-seropositive patient (R+) receives a kidney from a CMV-seronegative donor (D-). The transplant team discusses CMV management strategies. Which description most accurately defines the 'preemptive strategy' for CMV prophylaxis?",
+      "options": [
+        "A: All CMV-seropositive or otherwise high-risk post-transplant patients are started on antiviral therapy regardless of viral load",
+        "B: CMV viral load is monitored at regular intervals and antiviral therapy is initiated when a pre-defined threshold is reached, before clinical disease develops",
+        "C: Antiviral therapy is reserved for patients who develop symptoms and signs of CMV disease",
+        "D: Antiviral prophylaxis is administered only to donor-seropositive/recipient-seronegative (D+/R-) transplants",
+        "E: The preemptive strategy exclusively uses oral valganciclovir, while universal prophylaxis uses IV ganciclovir"
+      ],
+      "correct": 1,
+      "explanation": "The preemptive strategy monitors CMV viral load and initiates antiviral therapy when a critical threshold is reached but before clinical symptoms develop. Universal prophylaxis (option A) starts all high-risk patients on antivirals irrespective of viral load — this is the alternative strategy. Option C describes reactive treatment, not prophylaxis. The choice of oral vs IV agent (option E) is independent of the strategy — both strategies can use either valganciclovir (oral) or ganciclovir (IV). The distinction between these two strategies is a high-yield EDIC topic.",
+      "section": "Antimicrobial Prophylaxis",
+      "topic": "CMV prophylaxis post-transplant preemptive universal valganciclovir ganciclovir strategy",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp4_a10",
+      "type": "A",
+      "set": 1,
+      "question": "A 44-year-old patient undergoes allogeneic HSCT for AML. His post-transplant course is uncomplicated and he is not requiring ongoing immunosuppressive therapy. What is the recommended minimum duration of Pneumocystis jiroveci pneumonia (PJP) prophylaxis with TMP-SMX?",
+      "options": [
+        "A: 3 months post-HSCT",
+        "B: 6 months post-HSCT",
+        "C: 12 months post-HSCT, as for solid organ transplant recipients",
+        "D: 18 months post-HSCT",
+        "E: Lifelong prophylaxis regardless of immunosuppression status"
+      ],
+      "correct": 1,
+      "explanation": "HSCT patients receive PJP prophylaxis for 6 months; longer courses are given only if the patient remains on immunosuppressive therapy. Solid organ transplant recipients typically continue for approximately 12 months (often longer for lung transplant recipients) — making option C the critical near-miss that tests the HSCT vs solid organ distinction. Lifelong prophylaxis is not warranted for HSCT patients once off immunosuppression.",
+      "section": "Antimicrobial Prophylaxis",
+      "topic": "PJP prophylaxis HSCT 6 months solid organ 12 months duration",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp4_a11",
+      "type": "A",
+      "set": 1,
+      "question": "A haematology registrar asks about antibacterial prophylaxis during the pre-engraftment period (days 0–100) following allogeneic HSCT. Which statement most accurately describes fluoroquinolone prophylaxis in this setting?",
+      "options": [
+        "A: Fluoroquinolones reduce both Gram-negative bacterial infection rates and overall mortality in neutropenic HSCT patients",
+        "B: Fluoroquinolones reduce the risk of Gram-negative bacterial infection but confer no mortality benefit, and their use remains controversial",
+        "C: Fluoroquinolones are standard of care with no controversy, as no resistance concerns have been demonstrated in HSCT populations",
+        "D: Fluoroquinolones are primarily used to prevent Gram-positive bloodstream infections in the pre-engraftment phase",
+        "E: Fluoroquinolone prophylaxis is contraindicated in all HSCT patients due to QTc prolongation risk"
+      ],
+      "correct": 1,
+      "explanation": "Fluoroquinolone prophylaxis in the pre-engraftment period reduces the risk of Gram-negative bacterial infection in neutropenic HSCT patients; however, there is no demonstrated mortality benefit. Their use remains controversial due to concerns about toxicity and selection of resistant organisms. Option A incorrectly adds a mortality benefit. Option D is incorrect — fluoroquinolones target Gram-negative organisms; Gram-positive coverage is not their primary role in this setting. Option C is incorrect as resistance concerns are explicitly recognised.",
+      "section": "Antimicrobial Prophylaxis",
+      "topic": "fluoroquinolone HSCT pre-engraftment Gram-negative prophylaxis no mortality benefit",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp4_a12",
+      "type": "A",
+      "set": 1,
+      "question": "A 61-year-old with colorectal cancer has a tunneled central venous catheter for chemotherapy and has suffered three episodes of catheter-related bloodstream infection this year. Alternative venous access is not feasible. The catheter must remain in situ. Which additional measure has the strongest evidence for reducing CLABSI in this situation?",
+      "options": [
+        "A: Daily systemic fluconazole to prevent fungal catheter infection",
+        "B: Changing the catheter over a guidewire every 4 weeks prophylactically",
+        "C: Antimicrobial lock solution instilled into the catheter lumen between uses",
+        "D: Prophylactic daily vancomycin infusion through the catheter",
+        "E: Applying povidone-iodine ointment to the external catheter hub only"
+      ],
+      "correct": 2,
+      "explanation": "Antimicrobial lock solutions (antibiotic or antiseptic solutions instilled and 'locked' in the catheter lumen between uses) have demonstrated efficacy in reducing CLABSI and are specifically recommended when catheter removal is not feasible in cancer patients requiring long-term venous access. Antibiotic-coated catheters and antimicrobial locks are explicitly identified for immunocompromised cancer patients. Routine prophylactic vancomycin infusions are not indicated and promote resistance. Guidewire exchange does not reduce infection risk and is not a standard CLABSI prevention strategy.",
+      "section": "Preventing ICU Device-Related Infections",
+      "topic": "CLABSI cancer long-term CVC antimicrobial lock solution prevention",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp4_a13",
+      "type": "A",
+      "set": 1,
+      "question": "An immunocompromised ICU patient with multi-organ dysfunction requires nutrition support. Compared with parenteral nutrition (PN), which of the following most specifically explains why enteral nutrition (EN) is preferred in terms of infection risk?",
+      "options": [
+        "A: EN delivers higher caloric loads during the acute phase of illness",
+        "B: EN avoids central venous catheter placement and thereby eliminates CLABSI risk",
+        "C: EN preserves gut mucosal integrity and immune function, reducing the risk of nosocomial infection",
+        "D: EN is always safer in haemodynamically unstable patients receiving high-dose vasopressors",
+        "E: EN prevents systemic hyperglycaemia more effectively than PN"
+      ],
+      "correct": 2,
+      "explanation": "The key mechanistic advantage of enteral nutrition over parenteral nutrition is preservation of gut mucosal integrity and immune function, which reduces nosocomial infection risk. Enteral nutrition is also associated with fewer infectious and GI complications overall. Option B (eliminating CLABSI) is a practical benefit but not the physiological mechanism. Option D is incorrect — EN in patients receiving high-dose vasopressors carries a risk of gut ischaemia (highlighted by NUTRIREA-2/3 data) and requires caution. Option A is incorrect; caloric delivery is often lower with EN, not higher.",
+      "section": "Nutrition and Probiotics",
+      "topic": "enteral nutrition gut mucosal integrity immune function nosocomial infection",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp4_a14",
+      "type": "A",
+      "set": 1,
+      "question": "A 26-year-old is admitted to the ICU following allogeneic HSCT for aplastic anaemia and is currently in the pre-engraftment phase. The dietitian asks about dietary restrictions. Which food category is specifically contraindicated to reduce the risk of foodborne infection in this period?",
+      "options": [
+        "A: Cooked meats and pasteurised dairy products",
+        "B: Raw or undercooked meals, fresh fruits and vegetables, and unpasteurised milk",
+        "C: All enteral formulas; total parenteral nutrition is mandated in the pre-engraftment period",
+        "D: High-fibre foods and wholegrains only",
+        "E: Foods containing more than 30% fat by caloric content"
+      ],
+      "correct": 1,
+      "explanation": "HSCT patients in the pre-engraftment period are advised to avoid raw or undercooked meals, fresh fruits and vegetables, and unpasteurised milk to reduce the risk of acquiring foodborne infections during the period of profound neutropenia. Cooked foods and pasteurised dairy are safe. TPN is not mandated in the pre-engraftment phase — enteral nutrition is preferred whenever tolerated. High-fat content or fibre level are not the primary dietary restriction concerns in this setting.",
+      "section": "Nutrition and Probiotics",
+      "topic": "HSCT pre-engraftment dietary restriction raw food unpasteurised milk",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp4_a15",
+      "type": "A",
+      "set": 1,
+      "question": "The WHO SAVE LIVES Clean Your Hands initiative identifies 5 specific moments at which hand hygiene must be performed. Which of the following is NOT one of the 5 WHO-designated moments?",
+      "options": [
+        "A: Before touching a patient",
+        "B: After body fluid exposure or risk",
+        "C: After removing personal protective equipment (PPE) following patient contact",
+        "D: After touching a patient",
+        "E: After touching patient surroundings"
+      ],
+      "correct": 2,
+      "explanation": "The 5 WHO SAVE LIVES moments are: (1) before touching a patient, (2) before clean/aseptic procedures, (3) after body fluid exposure/risk, (4) after touching a patient, (5) after touching patient surroundings. 'After removing PPE' is a common and sensible practice but is NOT one of the 5 official WHO moments — making option C the correct answer. Option C is a plausible distractor because PPE removal is taught alongside hand hygiene in infection control training, but the WHO moments framework does not include it explicitly.",
+      "section": "Hand Hygiene",
+      "topic": "WHO SAVE LIVES 5 moments hand hygiene NOT PPE removal",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp4_k01",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding hand hygiene in the ICU:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Alcohol-based hand rubs are effective against C. difficile and other spore-forming organisms.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "A combination of chlorhexidine and alcohol covers Gram-positive bacteria, Gram-negative bacteria, viruses, mycobacteria, and fungi.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The WHO SAVE LIVES initiative includes 'after touching patient surroundings' as one of the 5 defined moments for hand hygiene.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Video surveillance studies show that healthcare workers demonstrate better hand hygiene compliance than patients' relatives.",
+          "correct": false
+        }
+      ],
+      "explanation": "A is false: alcohol-based preparations do not remove or inactivate spores — soap and water is required. B is true: CHX-alcohol covers the broad-spectrum listed. C is true: moment 5 of SAVE LIVES is 'after touching patient surroundings'. D is false: a Japanese ICU video surveillance study showed that patients' relatives were actually better than healthcare workers at adhering to hand hygiene policy.",
+      "section": "Hand Hygiene",
+      "topic": "hand hygiene alcohol spores CHX WHO moments compliance workers",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp4_k02",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding isolation requirements for immunocompromised patients in the ICU:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Neutropenic patients who have not undergone HSCT generally do not require placement in isolation rooms.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "HSCT patients should be placed in single well-sealed rooms with more than 12 air exchanges per hour.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "HEPA filtration in the HSCT patient's room helps reduce the risk of invasive Aspergillosis.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Contact isolation with gloves and gown alone is sufficient to prevent Aspergillus transmission in HSCT patients, without the need for HEPA-filtered rooms.",
+          "correct": false
+        }
+      ],
+      "explanation": "A is true: non-HSCT neutropenic patients do not require isolation rooms; standard precautions suffice. B and C are true: HSCT patients require sealed single rooms with >12 air changes/hour and HEPA filters to reduce inhaled Aspergillus spore burden — this is specific to HSCT. D is false: contact isolation prevents contact-transmitted pathogens (e.g., MRSA); Aspergillus is an airborne environmental mould requiring engineered air filtration, not just PPE.",
+      "section": "Isolation",
+      "topic": "HSCT isolation HEPA air exchanges Aspergillosis neutropenia no isolation room",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp4_k03",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding prevention of ventilator-associated pneumonia (VAP) in mechanically ventilated ICU patients:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Subglottic suctioning endotracheal tubes are a recognised component of VAP prevention bundles.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Head-of-bed elevation to 45 degrees is a standard VAP prevention measure.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Selective digestive decontamination (SDD) has been shown to increase mortality in mechanically ventilated ICU patients.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Prophylactic systemic antifungal therapy is a routine component of all standard VAP prevention bundles.",
+          "correct": false
+        }
+      ],
+      "explanation": "A and B are both true: subglottic suctioning ETTs and 45° head-of-bed elevation are well-established bundle components. C is false: SDD has been shown to modestly reduce ICU mortality, not increase it — a systematic review and meta-analysis confirmed reduced in-hospital mortality with SDD. D is false: antifungal prophylaxis is not part of standard VAP bundles; it is reserved for specific immunocompromised populations based on underlying disease.",
+      "section": "Preventing ICU Device-Related Infections",
+      "topic": "VAP bundle subglottic head elevation SDD mortality antifungal NOT standard",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp4_k04",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding selective decontamination strategies in the ICU:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Selective oropharyngeal decontamination (SOD) consists of applying topical non-absorbable antimicrobials to the oropharynx only, without systemic antibiotics.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Selective digestive decontamination (SDD) includes both oral non-absorbable antimicrobials and a short course of systemic antibiotics.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Longitudinal follow-up data consistently demonstrate a significant increase in multidrug-resistant organism carriage in ICUs that have adopted SDD.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Both SOD and SDD have been shown to reduce the risk of ICU-acquired respiratory tract infections.",
+          "correct": true
+        }
+      ],
+      "explanation": "A distinguishes SOD (oropharyngeal topical only) from SDD — correct. B is true: SDD uniquely adds a short-course IV antibiotic to the topical regimen. C is false: this is the common theoretical concern, but current evidence points contrary — longitudinal follow-up has not demonstrated increased resistant organisms in adopting ICUs. D is true: both strategies reduce VAP and other respiratory tract infections, with SDD also modestly reducing mortality.",
+      "section": "Preventing ICU Device-Related Infections",
+      "topic": "SDD SOD differences resistance evidence VAP reduction mortality",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp4_k05",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding antimicrobial prophylaxis in HIV-infected patients based on CD4 count:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "TMP-SMX for Pneumocystis jiroveci (PCP) prophylaxis is indicated when CD4 count falls below 200 cells/µL.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Toxoplasmosis prophylaxis is indicated when CD4 count falls below 100 cells/µL.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Mycobacterium avium complex (MAC) prophylaxis with azithromycin or clarithromycin is indicated when CD4 count falls below 100 cells/µL.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Tuberculosis prophylaxis with isoniazid is indicated at any CD4 level if the tuberculin skin test exceeds 5mm or if there is known contact with an active TB case.",
+          "correct": true
+        }
+      ],
+      "explanation": "A is true: PCP threshold is CD4 <200. B is true: toxoplasmosis threshold is CD4 <100. C is false — the classic trap: MAC prophylaxis (azithromycin or clarithromycin) is indicated at CD4 <50 cells/µL, not <100. Confusing MAC and Toxo thresholds is a common error. D is true: TB prophylaxis is based on exposure/TST result, not on any specific CD4 threshold.",
+      "section": "Antimicrobial Prophylaxis",
+      "topic": "HIV prophylaxis CD4 thresholds PCP Toxo MAC 50 TB TST",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp4_k06",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding CMV prophylaxis following solid organ transplantation:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Valganciclovir or ganciclovir is the first-line agent for CMV prophylaxis in post-transplant patients.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Universal CMV prophylaxis involves monitoring viral load and initiating antiviral therapy when a pre-defined threshold is reached.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "CMV-seropositive solid organ transplant recipients typically receive CMV prophylaxis for three to six months.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Prophylaxis against HSV and VZV with acyclovir is recommended for all seropositive post-transplant patients not already receiving CMV prophylaxis.",
+          "correct": true
+        }
+      ],
+      "explanation": "A is true: valganciclovir (oral) and ganciclovir (IV) are first-line CMV prophylactic agents. B is false — the trap: monitoring viral load and initiating at a threshold describes the PREEMPTIVE strategy; universal prophylaxis starts all high-risk patients on antivirals REGARDLESS of viral load. C is true: 3–6 months is the standard duration for solid organ (hematopoietic transplant receives at least 100 days). D is true: VZV and HSV seropositive patients receive acyclovir if not already covered by CMV prophylaxis.",
+      "section": "Antimicrobial Prophylaxis",
+      "topic": "CMV prophylaxis universal preemptive valganciclovir ganciclovir solid organ VZV HSV",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp4_k07",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding PJP prophylaxis following transplantation:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "TMP-SMX is the first-line agent for PJP prophylaxis in all transplant recipients.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "HSCT patients not requiring ongoing immunosuppressive therapy typically receive PJP prophylaxis for 6 months.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Solid organ transplant recipients receive the same duration of PJP prophylaxis as HSCT patients (6 months).",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Lung transplant recipients often require PJP prophylaxis for longer than 12 months.",
+          "correct": true
+        }
+      ],
+      "explanation": "A is true: TMP-SMX is first-line; alternatives (dapsone, atovaquone, pentamidine) are used when TMP-SMX is not tolerated. B is true: HSCT patients who are off immunosuppression typically receive 6 months. C is false: solid organ transplant recipients typically receive prophylaxis for approximately 12 months — not 6 months — making this the key discriminating statement between HSCT and solid organ duration. D is true: lung transplant recipients often extend beyond 12 months given ongoing immunosuppression.",
+      "section": "Antimicrobial Prophylaxis",
+      "topic": "PJP duration HSCT 6 months solid organ lung transplant",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp4_k08",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding routine microbiological surveillance in the ICU:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A positive MDRO surveillance culture in an ICU patient indicates active infection requiring immediate antibiotic treatment.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Adding targeted decolonisation to active surveillance and barrier precautions may further reduce MDRO transmission.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "A recognised concern about MDRO isolation rooms is a potential decrease in quality of care due to reduced healthcare worker time with isolated patients.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "The cost-effectiveness of routine microbiological ICU surveillance is well-established through large randomised controlled trials.",
+          "correct": false
+        }
+      ],
+      "explanation": "A is false: surveillance cultures detect colonisation — the presence of an MDRO does not necessarily indicate active infection requiring treatment. B is true: targeted decolonisation added to surveillance, barrier precautions, and hand hygiene enhances MDRO reduction. C is true: this is explicitly identified as a concern — healthcare workers may spend less time with isolated patients, potentially reducing care quality. D is false: evidence remains mixed and cost-effectiveness is debatable; randomised data are limited, and the field lacks robust RCT evidence for this specific intervention.",
+      "section": "Routine Microbiological Surveillance in the ICU",
+      "topic": "MDRO surveillance colonisation targeted decolonisation isolation quality care",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp4_k09",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding enteral nutrition (EN) in critically ill ICU patients:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Enteral nutrition is associated with fewer infectious complications compared with parenteral nutrition.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Enteral nutrition preserves gut mucosal integrity and immune function, thereby reducing the risk of nosocomial infection.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Initiating full-calorie enteral feeding within 24 hours of ICU admission consistently demonstrates mortality benefit without risk of feeding intolerance.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Enteral nutrition should be preferred over parenteral nutrition whenever clinically feasible.",
+          "correct": true
+        }
+      ],
+      "explanation": "A and B are true: EN reduces infectious and GI complications vs PN and mechanistically preserves gut barrier integrity. C is false: while early feeding within 24–48h is recommended, claims of consistent mortality benefit from full-calorie early feeding are not borne out — concerns of bias exist in early studies, and permissive underfeeding (low initial rates with gradual titration) is well tolerated and avoids feeding intolerance. The NUTRIREA-2/3 trials highlight risks of full-rate feeding in haemodynamically unstable patients. D is true: EN is always preferred when feasible.",
+      "section": "Nutrition and Probiotics",
+      "topic": "enteral nutrition gut mucosa EN vs PN early feeding permissive",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp4_k10",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the use of probiotics in critically ill immunocompromised patients:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Probiotics have modest evidence for a role in preventing Clostridium difficile-associated diarrhoea (CDAD).",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Evidence conclusively supports routine probiotic use for prevention of nosocomial pneumonia in all critically ill patients.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Some studies have demonstrated a reduction in post-operative infections following liver transplantation with probiotic use.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Probiotics are considered safe and are routinely recommended in all immunocompromised ICU patients.",
+          "correct": false
+        }
+      ],
+      "explanation": "A is true: limited evidence supports a modest role for probiotics in CDAD prevention and as adjuncts in mild-moderate CDAD treatment. B is false: evidence for nosocomial pneumonia prevention is mixed — the role of probiotics for this indication remains unclear and cannot be called conclusive. C is true: specifically for liver transplant recipients, some studies have shown reduced post-operative infection rates with probiotics — one of the few immunocompromised populations with favourable data. D is false: safety concerns exist in immunocompromised populations (risk of translocation/sepsis with live organisms), making routine recommendation inappropriate.",
+      "section": "Nutrition and Probiotics",
+      "topic": "probiotics CDAD C difficile liver transplant immunocompromised safety controversial",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}

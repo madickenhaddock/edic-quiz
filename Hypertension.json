@@ -1,0 +1,467 @@
+[
+  {
+    "id": "htn_a01",
+    "type": "A",
+    "set": 1,
+    "question": "A 62-year-old man with longstanding hypertension presents with severe headache, confusion and BP 228/138 mmHg. Fundoscopy reveals bilateral papilloedema. CT head shows cerebral oedema without haemorrhage or infarction. Which of the following best describes his presentation and the appropriate initial management target?",
+    "options": [
+      "A: Hypertensive urgency — lower BP over 24 hours with oral agents as no haemorrhage is present",
+      "B: Hypertensive emergency — reduce MAP by 20-25% over the first hours using parenteral agents, not to a normal range",
+      "C: Hypertensive emergency — immediately normalise BP to <120/80 mmHg to halt cerebral oedema",
+      "D: Accelerated hypertension — hypertensive urgency category; papilloedema is not a criterion for emergency",
+      "E: Hypertensive urgency — mental status changes are expected with this degree of BP elevation and do not indicate emergency"
+    ],
+    "correct": 1,
+    "explanation": "This is a hypertensive emergency (hypertensive encephalopathy): severe hypertension with new progressive end-organ damage — neurological symptoms plus papilloedema indicate acute brain injury. Papilloedema specifically distinguishes emergency from accelerated hypertension (urgency), which has retinal haemorrhages/exudates WITHOUT papilloedema. The critical near-miss is C: normalising BP is dangerous because the autoregulatory curve is shifted to higher pressures in chronic hypertensives — a 'normal' MAP may fall below their cerebral perfusion threshold causing ischaemia. Target is MAP reduction of 20-25% or DBP to 100-110 mmHg, not normalisation.",
+    "section": "Cardiovascular",
+    "topic": "hypertensive-emergency urgency papilloedema encephalopathy MAP-reduction autoregulation",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "htn_a02",
+    "type": "A",
+    "set": 1,
+    "question": "A 58-year-old woman with chronic hypertension presents with a hypertensive emergency (BP 236/142 mmHg, rising creatinine, haematuria). What is the recommended initial blood pressure reduction target?",
+    "options": [
+      "A: Reduce SBP to <120 mmHg within 60 minutes to prevent further renal injury",
+      "B: Reduce MAP by 20-25%, or reduce diastolic BP to 100-110 mmHg, over the first minutes to hours",
+      "C: Reduce MAP by 50% immediately to achieve a definitive therapeutic level",
+      "D: Normalise BP to 120/80 mmHg within 2 hours",
+      "E: Lower SBP to <150 mmHg over 24 hours using oral agents (hypertensive urgency target)"
+    ],
+    "correct": 1,
+    "explanation": "The recommended initial target in hypertensive emergencies is a MAP reduction of 20-25%, or diastolic BP to 100-110 mmHg, over minutes to hours depending on the clinical scenario. Blood pressure is intentionally NOT lowered to a normal range because vascular autoregulatory mechanisms in chronically hypertensive patients are shifted to higher pressures; normalisation risks hypoperfusion of vital organs — stroke, myocardial ischaemia, mesenteric ischaemia, and renal deterioration. The near-miss D (normalise to 120/80 mmHg) represents the most common and potentially harmful clinical error.",
+    "section": "Cardiovascular",
+    "topic": "hypertensive-emergency MAP-reduction target autoregulation cerebral-perfusion renal",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "htn_a03",
+    "type": "A",
+    "set": 1,
+    "question": "A 54-year-old man presents with severe tearing chest pain radiating to the back. BP is 186/108 mmHg in the left arm and 149/92 mmHg in the right arm. CT angiography confirms type A aortic dissection. Cardiac surgery is arranged. What is the most appropriate immediate antihypertensive strategy?",
+    "options": [
+      "A: IV hydralazine to rapidly reduce arterial pressure through direct arteriolar dilation",
+      "B: IV nitroglycerin alone targeting SBP <120 mmHg",
+      "C: IV labetalol titrated to SBP 100-110 mmHg and heart rate 60 bpm",
+      "D: IV sodium nitroprusside alone for fast-acting titratable BP reduction",
+      "E: IV furosemide to reduce preload and systemic BP"
+    ],
+    "correct": 2,
+    "explanation": "In acute aortic dissection, the immediate goal is SBP ≤110 mmHg with HR 60 bpm. Labetalol — with combined β and α-blocking activity — is first-line as it reduces both HR and arterial pressure with a single agent. Crucially, a vasodilator (nitroglycerin, nitroprusside) must NEVER be used as monotherapy: vasodilation causes reflex tachycardia that increases the dPmax (rate of pressure rise) and worsens aortic shear force — the primary mechanism of dissection propagation. Hydralazine (A) is specifically contraindicated as it increases HR, cardiac output and myocardial O2 consumption. If nitroprusside is added, β-blockade must already be established.",
+    "section": "Cardiovascular",
+    "topic": "aortic-dissection labetalol shear-force SBP-target HR-target vasodilator-contraindicated",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "htn_a04",
+    "type": "A",
+    "set": 1,
+    "question": "A 47-year-old woman with a known adrenal mass presents in hypertensive crisis (BP 255/148 mmHg) with episodic headache, diaphoresis and palpitations. Urinary catecholamines are markedly elevated confirming phaeochromocytoma. What is the most appropriate immediate treatment?",
+    "options": [
+      "A: IV esmolol to control the tachycardia and reduce myocardial oxygen demand",
+      "B: IV labetalol — α and β combined blockade is ideal for catecholamine excess",
+      "C: IV phentolamine in incremental doses",
+      "D: IV sodium nitroprusside as a rapid vasodilator",
+      "E: Oral clonidine to reduce central sympathetic outflow"
+    ],
+    "correct": 2,
+    "explanation": "Phaeochromocytoma hypertensive crisis is managed with phentolamine (peripheral α-adrenergic blocker). β-blockers — including esmolol (A) and labetalol (B) — are CONTRAINDICATED in the acute phase: blocking β2-mediated vasodilation leaves unopposed α-adrenergic stimulation of peripheral vasculature, potentially causing a paradoxical severe worsening of hypertension and peripheral vasoconstriction. Labetalol (B) is the classic near-miss: although it has α-blocking activity, its IV formulation is predominantly a β-blocker (7:1 β:α ratio), making it unsuitable in acute phaeochromocytoma. After adequate α-blockade is established, β-blockade can be added for rate control.",
+    "section": "Cardiovascular",
+    "topic": "phaeochromocytoma phentolamine alpha-blocker beta-blocker-contraindicated catecholamine-crisis",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "htn_a05",
+    "type": "A",
+    "set": 1,
+    "question": "A 72-year-old man presents with acute left-sided weakness and aphasia. CT confirms ischaemic stroke. He is within the thrombolysis window with no contraindications. His admission BP is 202/108 mmHg. What is the blood pressure target required before and during thrombolytic therapy?",
+    "options": [
+      "A: SBP <220 mmHg, DBP <120 mmHg (treat only extreme elevations — applicable to non-thrombolysis patients)",
+      "B: SBP <185 mmHg and DBP <110 mmHg",
+      "C: MAP reduction by 20-25% from admission value using IV labetalol",
+      "D: Normalise BP to <140/90 mmHg before administering alteplase",
+      "E: No antihypertensive therapy — elevated BP is a necessary compensatory response to maintain penumbral perfusion"
+    ],
+    "correct": 1,
+    "explanation": "For ischaemic stroke patients eligible for thrombolysis, the guideline target is SBP <185 mmHg and DBP <110 mmHg before and during thrombolysis — necessary to reduce haemorrhagic transformation risk. IV labetalol or nicardipine are the recommended agents. Option A (SBP >220 or DBP >120 threshold) is the correct target for ischaemic stroke NOT eligible for thrombolysis — the near-miss confusing thrombolysis-eligible vs ineligible patients. Normalising BP (D) risks worsening the ischaemic penumbra. IV labetalol or nicardipine are the agents recommended by guidelines.",
+    "section": "Cardiovascular",
+    "topic": "ischaemic-stroke thrombolysis BP-target SBP-185 labetalol nicardipine penumbra",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "htn_a06",
+    "type": "A",
+    "set": 1,
+    "question": "A patient with renal impairment has been receiving sodium nitroprusside at 4.5 mcg/kg/min for 96 hours. Despite no change in infusion rate, they develop progressive lactic acidosis, confusion and haemodynamic deterioration. What is the most likely diagnosis and the correct initial treatment?",
+    "options": [
+      "A: Thiocyanate toxicity — institute haemodialysis to remove thiocyanate",
+      "B: Hypertensive rebound from tachyphylaxis — increase nitroprusside dose",
+      "C: Cyanide toxicity — stop infusion, administer 100% O2, and give sodium thiosulphate 150 mg/kg IV",
+      "D: Methaemoglobinaemia — administer methylene blue",
+      "E: Nitroprusside-induced pulmonary shunting — reduce PEEP and FiO2"
+    ],
+    "correct": 2,
+    "explanation": "Cyanide toxicity from nitroprusside presents with metabolic lactic acidosis, confusion and cardiovascular deterioration — particularly at infusion rates >3 mcg/kg/min for >72 hours, especially with renal or hepatic impairment (impaired rhodanase activity and thiocyanate excretion). Treatment: stop infusion, 100% O2, sodium thiosulphate 150 mg/kg IV (converts cyanide to thiocyanate), sodium nitrite, or hydroxycobalamin 5g IV. The near-miss A (thiocyanate toxicity) presents differently — with abdominal pain, delirium, headache, nausea and restlessness rather than haemodynamic collapse and lactic acidosis. Both conditions may coexist in renal failure.",
+    "section": "Cardiovascular",
+    "topic": "nitroprusside cyanide-toxicity thiocyanate thiosulphate hydroxycobalamin lactic-acidosis renal-impairment",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "htn_a07",
+    "type": "A",
+    "set": 1,
+    "question": "A patient presents with hypertensive emergency (BP 218/132 mmHg) complicated by acute STEMI. Which antihypertensive agent should be AVOIDED due to the risk of intracoronary steal worsening myocardial ischaemia?",
+    "options": [
+      "A: IV labetalol (β and α-blocker)",
+      "B: IV nitroglycerin (coronary and venous dilator)",
+      "C: IV sodium nitroprusside",
+      "D: IV esmolol (cardioselective β-blocker)",
+      "E: Oral aspirin and morphine for pain"
+    ],
+    "correct": 2,
+    "explanation": "Sodium nitroprusside may increase mortality when infused in the early hours of acute MI by causing intracoronary steal — vasodilation of normal coronary vessels preferentially diverts blood away from ischaemic areas that depend on collateral flow. It is no longer used for this indication. IV nitroglycerin (B) is the preferred agent in ACS as it dilates coronary arteries and reduces preload without the steal effect. Labetalol (A) and esmolol (D) are appropriate as they reduce myocardial O2 demand through β-blockade. Pure vasodilators (diazoxide, hydralazine) should also be avoided due to reflex tachycardia increasing O2 demand.",
+    "section": "Cardiovascular",
+    "topic": "ACS hypertensive-emergency nitroprusside coronary-steal nitroglycerin avoided myocardial-ischaemia",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "htn_a08",
+    "type": "A",
+    "set": 1,
+    "question": "A 31-year-old woman at 36 weeks gestation presents with BP 182/118 mmHg, proteinuria and severe frontal headache. Severe preeclampsia is diagnosed. Which antihypertensive agent is most appropriate for acute management?",
+    "options": [
+      "A: IV enalaprilat (ACE inhibitor) for rapid, renally protective BP reduction",
+      "B: IV sodium nitroprusside for fast, titratable BP control",
+      "C: IV labetalol",
+      "D: Sublingual nifedipine for immediate BP reduction",
+      "E: IV furosemide — diuresis is first-line as these patients are volume overloaded"
+    ],
+    "correct": 2,
+    "explanation": "Labetalol is effective and safe in preeclampsia: it reduces BP while maintaining uteroplacental perfusion. Nicardipine is also described as effective and safe. ACE inhibitors (A) are contraindicated in pregnancy due to fetal renal toxicity. Nitroprusside (B) carries a risk of fetal cyanide toxicity and should be avoided. Sublingual nifedipine (D) is unacceptable due to inability to control rate or magnitude of BP reduction, with serious adverse events described. Hydralazine remains a parenteral option (improves placental blood flow) but labetalol and calcium antagonists are now preferred due to fewer maternal and perinatal side effects. Patients with hypertensive crises typically have REDUCED — not expanded — circulating volume (pressure natriuresis), so diuretics (E) have a limited role.",
+    "section": "Cardiovascular",
+    "topic": "preeclampsia labetalol pregnancy ACE-inhibitor-contraindicated nifedipine-contraindicated nicardipine",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "htn_a09",
+    "type": "A",
+    "set": 1,
+    "question": "A 55-year-old with BP 252/158 mmHg presents with confusion, severe headache and papilloedema. CT shows cerebral oedema without haemorrhage. Hypertensive encephalopathy is diagnosed. The team plans to reduce MAP by 15% over 2 hours. Which agent should be avoided in this clinical context?",
+    "options": [
+      "A: IV labetalol",
+      "B: IV esmolol",
+      "C: IV nicardipine",
+      "D: Oral clonidine",
+      "E: IV sodium nitroprusside"
+    ],
+    "correct": 3,
+    "explanation": "Clonidine is specifically contraindicated in hypertensive encephalopathy: its sedative effects impair the ability to monitor mental status, which is both a key monitoring parameter and a diagnostic tool — improvement in mental status within hours of BP reduction is expected and diagnostic for hypertensive encephalopathy; failure to improve should prompt reconsideration of the diagnosis. Labetalol (A) and esmolol (B) are specifically recommended; nicardipine (C) may be used. The near-miss is E (nitroprusside) — while it can increase ICP and is less ideal in intracranial pathology, it is not specifically listed as contraindicated in hypertensive encephalopathy (unlike in ICH or traumatic brain injury where it may worsen ICP).",
+    "section": "Cardiovascular",
+    "topic": "hypertensive-encephalopathy clonidine avoid neuro-monitoring PRES labetalol esmolol",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "htn_a10",
+    "type": "A",
+    "set": 1,
+    "question": "A 69-year-old man with stage 4 CKD (eGFR 16 ml/min/1.73m²) develops a hypertensive emergency (BP 214/130 mmHg). The team considers antihypertensive agents. Which agent offers the specific advantage of renal vasodilation, natriuresis and absence of toxic metabolites, making it particularly suitable in this patient?",
+    "options": [
+      "A: IV enalaprilat (IV ACE inhibitor), which is renally protective in hypertensive crisis",
+      "B: IV labetalol, which reduces SVR and renal vascular resistance",
+      "C: IV fenoldopam",
+      "D: IV nitroglycerin, which improves renal blood flow through venodilation",
+      "E: IV hydralazine, which improves renal perfusion through direct arteriolar dilation"
+    ],
+    "correct": 2,
+    "explanation": "Fenoldopam is a short-acting peripheral postsynaptic dopamine-1 receptor agonist. Its antihypertensive action combines arterial vasodilation, renal vasodilation and natriuresis — particularly advantageous in renal impairment. Crucially, it has NO toxic metabolites, unlike nitroprusside where thiocyanate accumulates renally and cyanide accumulates in hepatic dysfunction. Fenoldopam and nitroprusside are equally effective antihypertensives overall, making fenoldopam the preferred alternative in renal failure. Enalaprilat (A) should be used cautiously: it may precipitate acute renal failure in patients with bilateral renal artery stenosis and has a long, variable duration of action that is difficult to titrate. Fenoldopam's side effects include dose-related tachycardia and increased intraocular pressure.",
+    "section": "Cardiovascular",
+    "topic": "fenoldopam dopamine-1 renal-vasodilation natriuresis CKD no-toxic-metabolites nitroprusside-alternative",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "htn_a11",
+    "type": "A",
+    "set": 1,
+    "question": "In the management of acute type B aortic dissection, which of the following antihypertensive approaches is CONTRAINDICATED?",
+    "options": [
+      "A: IV labetalol as first-line combined β and α-blocker",
+      "B: Adding IV nitroprusside after β-blockade is established",
+      "C: Substituting verapamil for β-blockade when β-blockers are contraindicated",
+      "D: IV hydralazine for rapid arterial pressure reduction",
+      "E: Targeting SBP 100-110 mmHg with concurrent opioid analgesia"
+    ],
+    "correct": 3,
+    "explanation": "Hydralazine is specifically contraindicated in aortic dissection: it is a direct arteriolar dilator that increases heart rate, cardiac output and myocardial oxygen consumption, thereby increasing the rate of aortic pressure change (dP/dt) and worsening aortic shear force — the primary driver of dissection propagation. The general rule is that a vasodilator alone (without β-blockade) must NEVER be used in dissection for the same reason. Nitroprusside (B) is acceptable when added AFTER β-blockade is established. Labetalol (A) is first-line as a single agent. Verapamil or diltiazem (C) are suitable alternatives if β-blockers are contraindicated.",
+    "section": "Cardiovascular",
+    "topic": "aortic-dissection hydralazine-contraindicated shear-force labetalol vasodilator-alone",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "htn_a12",
+    "type": "A",
+    "set": 1,
+    "question": "A junior doctor proposes administering IV furosemide 80 mg to reduce BP in a patient presenting with a hypertensive emergency (BP 228/138 mmHg) and no signs of pulmonary oedema or peripheral oedema. Which of the following best characterises the intravascular volume status in hypertensive crises and the role of diuretics?",
+    "options": [
+      "A: Patients are typically volume-overloaded from sodium retention; furosemide is appropriate first-line therapy",
+      "B: Volume status is unpredictable and a pulmonary artery catheter is required before any therapy",
+      "C: Patients typically have a REDUCED circulating volume from pressure natriuresis; diuretics have a limited role except in obvious fluid overload",
+      "D: Diuretics are first-line agents in all hypertensive emergencies due to their rapid onset of action",
+      "E: Volume status is euvolaemic in all hypertensive crises; treatment should target SVR reduction exclusively"
+    ],
+    "correct": 2,
+    "explanation": "Hypertensive crises are characterised by markedly elevated SVR and most often a REDUCED circulating volume secondary to pressure natriuresis and pressure-induced diuresis. Administering diuretics in this context risks worsening volume depletion and end-organ hypoperfusion. Diuretics are reserved for patients with obvious fluid overload (e.g. pulmonary oedema with raised JVP, peripheral oedema). Parenteral antihypertensive agents targeting SVR (e.g. labetalol, nitroprusside, nicardipine) are the appropriate treatment. The near-miss A represents a common but incorrect assumption about hypertensive crises.",
+    "section": "Cardiovascular",
+    "topic": "hypertensive-crisis intravascular-volume pressure-natriuresis diuretics SVR limited-role",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "htn_a13",
+    "type": "A",
+    "set": 1,
+    "question": "A 65-year-old man with severe COPD (FEV1 38% predicted) and stage 2 hypertension presents with a hypertensive emergency. The team considers IV labetalol. Which of the following is the most clinically relevant contraindication to labetalol in this patient?",
+    "options": [
+      "A: Labetalol causes reflex tachycardia that worsens myocardial oxygen demand in COPD patients",
+      "B: Labetalol is only effective in catecholamine-mediated hypertensive crises",
+      "C: Non-selective β-blockade may precipitate bronchospasm in obstructive pulmonary disease",
+      "D: Labetalol has no oral formulation, preventing transition to maintenance therapy",
+      "E: Labetalol causes excessive bradycardia that is poorly tolerated haemodynamically in COPD"
+    ],
+    "correct": 2,
+    "explanation": "Labetalol is a non-selective β-adrenergic blocker (with additional α-blocking activity); non-selective β-blockade antagonises β2-receptors in bronchial smooth muscle, potentially precipitating bronchospasm — it is specifically contraindicated in obstructive pulmonary diseases and 2nd/3rd degree heart block. The near-miss A is incorrect: reflex tachycardia is a property of pure vasodilators and dihydropyridines, not labetalol, which typically maintains or mildly reduces HR. Labetalol does have an oral formulation (D is false). Nicardipine, fenoldopam or urapidil would be preferred alternatives in this COPD patient.",
+    "section": "Cardiovascular",
+    "topic": "labetalol COPD bronchospasm non-selective-beta-blocker contraindication alternatives",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "htn_a14",
+    "type": "A",
+    "set": 1,
+    "question": "A patient on sodium nitroprusside infusion requires monitoring for cyanide toxicity. Which of the following does NOT increase the risk of cyanide toxicity from sodium nitroprusside?",
+    "options": [
+      "A: Hepatic insufficiency (impaired rhodanase activity reducing cyanide-to-thiocyanate conversion)",
+      "B: Renal insufficiency (impaired thiocyanate excretion leading to accumulation)",
+      "C: Infusion rates exceeding 3 mcg/kg/min for more than 72 hours",
+      "D: Co-administration of 100% oxygen",
+      "E: Running the maximum infusion rate of 10 mcg/kg/min for extended periods"
+    ],
+    "correct": 3,
+    "explanation": "100% oxygen is the TREATMENT for cyanide toxicity — not a risk factor. It is administered alongside sodium thiosulphate (and optionally sodium nitrite or hydroxycobalamin) when cyanide toxicity is suspected. All other options increase risk: hepatic impairment reduces rhodanase-mediated cyanide detoxification (A); renal impairment impairs thiocyanate excretion leading to accumulation (B); prolonged high-dose infusion (>3 mcg/kg/min for >72h) overwhelms the detoxification pathway (C); the maximum rate of 10 mcg/kg/min should NOT be maintained for more than 10 minutes (E). Monitoring for cyanide toxicity (lactic acidosis, confusion, haemodynamic deterioration) is mandatory in high-risk patients.",
+    "section": "Cardiovascular",
+    "topic": "nitroprusside cyanide-toxicity risk-factors rhodanase thiocyanate oxygen-treatment monitoring",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "htn_a15",
+    "type": "A",
+    "set": 1,
+    "question": "Which of the following statements regarding the management of hypertensive urgency is INCORRECT?",
+    "options": [
+      "A: Hypertensive urgency is severe hypertension without new or progressive end-organ injury",
+      "B: Oral antihypertensive therapy is appropriate; blood pressure can be lowered over hours to 24 hours",
+      "C: Most patients with hypertensive urgency do not require ICU admission",
+      "D: Immediate aggressive parenteral reduction of blood pressure in hypertensive urgency has been shown to improve outcomes and reduce end-organ progression",
+      "E: Asymptomatic severe hypertension does not require immediate blood pressure reduction"
+    ],
+    "correct": 3,
+    "explanation": "There is NO evidence that immediate aggressive blood pressure lowering improves outcomes in hypertensive urgency — and considerable adverse effects can be precipitated by inappropriate rapid reductions, including stroke, myocardial ischaemia and renal deterioration. Oral therapy over hours to 24 hours is the appropriate strategy. The decision on whether to treat in hospital or as an outpatient should consider comorbidities and follow-up availability. All other statements are correct: the definition (A), oral therapy approach (B), lack of ICU requirement for most (C), and that asymptomatic severe hypertension (without end-organ injury) does not warrant immediate BP reduction (E).",
+    "section": "Cardiovascular",
+    "topic": "hypertensive-urgency no-evidence aggressive-lowering oral-therapy outpatient asymptomatic",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "htn_k01",
+    "type": "K",
+    "set": 1,
+    "question": "Regarding the classification and clinical features of hypertensive emergencies and urgencies:",
+    "statements": [
+      "A: A hypertensive emergency is defined by new or progressive end-organ injury (not merely the absolute blood pressure level) in the setting of severe hypertension",
+      "B: The degree of blood pressure elevation is the most important factor determining whether a patient has a hypertensive emergency versus urgency",
+      "C: Accelerated hypertension — characterised by retinal haemorrhages and exudates without papilloedema — is classified as a hypertensive urgency",
+      "D: The rate of blood pressure rise and the patient's prior baseline blood pressure are more important determinants of end-organ injury than the absolute blood pressure level"
+    ],
+    "correct": [true, false, true, true],
+    "explanation": "A–True: end-organ damage is the defining feature of emergency; the absolute BP level is secondary. B–FALSE: the degree of elevation does NOT define emergency vs urgency — a previously normotensive patient (e.g. preeclampsia, acute glomerulonephritis) may have end-organ injury at DBP 100-110 mmHg, while a chronically hypertensive patient may be asymptomatic at DBP >120 mmHg. C–True: accelerated hypertension = retinal exudates/haemorrhages WITHOUT papilloedema = urgency; WITH papilloedema = emergency (malignant hypertension/encephalopathy). D–True: rate of rise and prior baseline are the key determinants — explaining why apparently 'mild' elevations cause emergency in previously normotensive individuals.",
+    "section": "Cardiovascular",
+    "topic": "hypertensive-emergency urgency definition end-organ-damage autoregulation rate-of-rise",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "htn_k02",
+    "type": "K",
+    "set": 1,
+    "question": "Regarding sodium nitroprusside and its toxicity:",
+    "statements": [
+      "A: Cyanide toxicity from nitroprusside typically presents with metabolic lactic acidosis, confusion and haemodynamic deterioration",
+      "B: Thiocyanate toxicity typically presents with lactic acidosis and cardiovascular collapse, similar to cyanide toxicity",
+      "C: Sodium nitroprusside is no longer used in acute myocardial infarction due to the risk of coronary artery steal causing reduced flow to ischaemic territories",
+      "D: Sodium thiosulphate 150 mg/kg IV converts cyanide to thiocyanate and is a key treatment for nitroprusside-induced cyanide toxicity"
+    ],
+    "correct": [true, false, true, true],
+    "explanation": "A–True: cyanide toxicity = metabolic acidosis (lactic), confusion, cardiovascular deterioration — these are the 'hard' signs requiring immediate intervention. B–FALSE: thiocyanate toxicity presents with a different clinical picture — abdominal pain, delirium, headache, nausea, muscle spasms, restlessness — not cardiovascular collapse. Confusing the two presentations is the clinical trap; cyanide causes haemodynamic collapse and lactic acidosis, thiocyanate causes neurological and GI symptoms. C–True: nitroprusside is avoided in MI due to coronary steal; nitroglycerin is preferred. D–True: thiosulphate catalyses cyanide-to-thiocyanate conversion (renally excreted); hydroxycobalamin (binds cyanide) and sodium nitrite are additional treatment options.",
+    "section": "Cardiovascular",
+    "topic": "nitroprusside cyanide thiocyanate lactic-acidosis coronary-steal thiosulphate toxicity",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "htn_k03",
+    "type": "K",
+    "set": 1,
+    "question": "Regarding labetalol in hypertensive emergencies:",
+    "statements": [
+      "A: Intravenous labetalol has a β to α blocking ratio of 7:1, reducing systemic vascular resistance while causing minimal changes in heart rate and cardiac output",
+      "B: Labetalol is effective and safe in preeclampsia/eclampsia, maintaining uteroplacental perfusion",
+      "C: Labetalol is the drug of choice for acute phaeochromocytoma crisis because its combined α and β blockade controls catecholamine excess",
+      "D: Labetalol is contraindicated in patients with obstructive pulmonary disease and second or third degree heart block"
+    ],
+    "correct": [true, true, false, true],
+    "explanation": "A–True: the 7:1 β:α IV ratio means labetalol is predominantly a β-blocker that also reduces SVR — preserving cardiac output better than pure β-blockers. B–True: labetalol maintains uteroplacental blood flow and is considered safe in pregnancy; labetalol and calcium antagonists are now preferred over hydralazine. C–FALSE: labetalol is CONTRAINDICATED in acute phaeochromocytoma crisis — its predominantly β-blocking action leaves unopposed α-adrenergic stimulation, potentially causing paradoxical severe hypertension. Phentolamine is the treatment of choice; β-blockers are only added after α-blockade is established. D–True: non-selective β-blockade (β2) can cause bronchospasm in obstructive airways disease; 2nd/3rd degree heart block is a standard β-blocker contraindication.",
+    "section": "Cardiovascular",
+    "topic": "labetalol beta-alpha-ratio preeclampsia phaeochromocytoma-contraindicated COPD heart-block",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "htn_k04",
+    "type": "K",
+    "set": 1,
+    "question": "Regarding blood pressure management in acute intracranial events:",
+    "statements": [
+      "A: In ischaemic stroke eligible for thrombolysis, the target blood pressure is SBP <185 mmHg and DBP <110 mmHg",
+      "B: In ischaemic stroke NOT eligible for thrombolysis, antihypertensive treatment is recommended only for SBP >220 mmHg or DBP >120 mmHg",
+      "C: Sodium nitroprusside and nitroglycerin are preferred antihypertensive agents in elevated intracranial pressure because they rapidly reduce MAP without affecting ICP",
+      "D: Nimodipine is routinely used in subarachnoid haemorrhage and its blood pressure effects must be considered before adding further antihypertensives"
+    ],
+    "correct": [true, true, false, true],
+    "explanation": "A–True: the thrombolysis BP threshold prevents haemorrhagic transformation; labetalol and nicardipine are the recommended agents. B–True: in non-thrombolysis-eligible stroke, the very high threshold reflects that elevated BP is partly compensatory for raised ICP; premature lowering may extend the ischaemic penumbra. C–FALSE: both nitroprusside and nitroglycerin can INCREASE cerebral blood volume and intracranial pressure while lowering MAP — potentially worsening cerebral perfusion pressure. Labetalol is preferred as it does NOT appear to increase ICP. Nicardipine causes cerebral vasodilation and increased ICP. D–True: nimodipine for vasospasm prevention can itself lower BP significantly, and this must be factored in before any additional antihypertensives.",
+    "section": "Cardiovascular",
+    "topic": "stroke thrombolysis BP-target ICP nitroprusside-ICP labetalol nimodipine SAH",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "htn_k05",
+    "type": "K",
+    "set": 1,
+    "question": "Regarding acute aortic dissection management:",
+    "statements": [
+      "A: The immediate haemodynamic goal is SBP ≤110 mmHg with heart rate ≤60 bpm to minimise aortic wall shear force",
+      "B: A vasodilator agent should NEVER be used as monotherapy in aortic dissection as it causes reflex tachycardia that increases dP/dt and shear force",
+      "C: Hydralazine is an acceptable agent for acute aortic dissection as it provides rapid arterial pressure reduction without affecting heart rate",
+      "D: Verapamil or diltiazem are appropriate alternatives when β-blockers are contraindicated in aortic dissection"
+    ],
+    "correct": [true, true, false, true],
+    "explanation": "A–True: these dual targets address both pressure and rate — key determinants of aortic wall stress. B–True: the fundamental principle; reflex tachycardia from unopposed vasodilation increases dP/dt, worsening the dissection. This is why labetalol (combined β+α) is ideal as monotherapy. C–FALSE: hydralazine is specifically CONTRAINDICATED in aortic dissection — it is a direct arteriolar dilator that markedly increases HR, cardiac output and myocardial O2 demand, worsening the very shear forces that propagate dissection. D–True: verapamil and diltiazem provide rate control and vasodilation and are the appropriate substitutes when β-blockers are contraindicated (e.g. severe asthma, significant COPD).",
+    "section": "Cardiovascular",
+    "topic": "aortic-dissection SBP-target HR-target hydralazine-contraindicated vasodilator-alone verapamil",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "htn_k06",
+    "type": "K",
+    "set": 1,
+    "question": "Regarding specific pharmacological agents used in hypertensive emergencies:",
+    "statements": [
+      "A: Fenoldopam is a dopamine-1 receptor agonist that combines arterial vasodilation with renal vasodilation and natriuresis and has no toxic metabolites",
+      "B: Enalaprilat (IV ACE inhibitor) is contraindicated in pregnancy",
+      "C: Urapidil (α1-blocker with central 5-HT1A receptor agonist activity) does not cause reflex tachycardia because reduced sympathetic outflow prevents the reflex response",
+      "D: Fast-acting sublingual nifedipine is an acceptable option for rapid blood pressure reduction in hypertensive urgencies"
+    ],
+    "correct": [true, true, true, false],
+    "explanation": "A–True: fenoldopam's DA1 agonism provides both systemic antihypertensive and selective renal effects; no toxic metabolites unlike nitroprusside. B–True: all ACE inhibitors are contraindicated in pregnancy due to fetal renal toxicity and other teratogenic effects. C–True: urapidil's central 5-HT1A agonism reduces sympathetic outflow, suppressing the reflex tachycardia that would otherwise result from peripheral α1-blockade — this is its main clinical advantage. D–FALSE: sublingual or bite-and-swallow fast-acting nifedipine is specifically deemed UNACCEPTABLE: the rate and magnitude of BP reduction cannot be controlled, and this approach has been associated with serious adverse effects including death (stroke from excessive hypotension, MI). Long-acting oral agents are appropriate for urgencies.",
+    "section": "Cardiovascular",
+    "topic": "fenoldopam urapidil enalaprilat nifedipine sublingual-unacceptable ACE-pregnancy",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "htn_k07",
+    "type": "K",
+    "set": 1,
+    "question": "Regarding hypertensive crises due to catecholamine excess:",
+    "statements": [
+      "A: In phaeochromocytoma crisis, β-blockers must not be used without prior α-blockade as they can cause paradoxical worsening of hypertension through unopposed α-adrenergic stimulation",
+      "B: Phentolamine (α-adrenergic blocker) is the drug of choice for acute phaeochromocytoma hypertensive crisis",
+      "C: Foods containing tyramine (e.g. aged cheese, Chianti wine, pickled herring, avocado) can precipitate hypertensive crisis in patients taking monoamine oxidase inhibitors",
+      "D: Clonidine is absolutely contraindicated in all catecholamine-excess states as it paradoxically increases catecholamine release"
+    ],
+    "correct": [true, true, true, false],
+    "explanation": "A–True: the classic teaching — β-blockade removes β2-mediated vasodilation while leaving α-mediated vasoconstriction unchecked; the result can be severe worsening of hypertension and peripheral ischaemia. B–True: phentolamine is the specific indication in phaeochromocytoma and other catecholamine-excess emergencies (also indicated in MAO inhibitor interactions and antihypertensive withdrawal). C–True: tyramine from these foods is normally metabolised by MAO; in the presence of MAO inhibitors, tyramine is metabolised to octopamine — a false neurotransmitter releasing catecholamines. D–FALSE: clonidine (central α2-agonist) reduces sympathetic outflow and is NOT contraindicated across all catecholamine states — it is specifically useful (and can be life-saving) in clonidine-withdrawal syndrome and some antihypertensive withdrawal states. It should be avoided where sedation interferes with neurological assessment.",
+    "section": "Cardiovascular",
+    "topic": "phaeochromocytoma phentolamine MAO-inhibitor tyramine clonidine catecholamine-excess",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "htn_k08",
+    "type": "K",
+    "set": 1,
+    "question": "Regarding the management of acute left ventricular dysfunction in the setting of hypertensive emergency:",
+    "statements": [
+      "A: Hypertensive pulmonary oedema is more commonly due to diastolic dysfunction than systolic dysfunction, with most patients having preserved LV ejection fraction",
+      "B: Labetalol is particularly effective in hypertensive emergency with diastolic dysfunction as the reduction in heart rate facilitates LV filling",
+      "C: Diuretics are safe and should be administered aggressively early in all patients with hypertensive emergency and pulmonary oedema to reduce filling pressures",
+      "D: Nitroprusside is effective in both systolic and diastolic LV dysfunction associated with hypertensive emergency"
+    ],
+    "correct": [true, true, false, true],
+    "explanation": "A–True: the majority of hypertensive pulmonary oedema episodes are due to diastolic dysfunction — the hypertrophied, non-compliant LV fails to fill adequately at the acutely elevated pressure; LVEF is often normal or preserved. B–True: by reducing HR, labetalol increases diastolic filling time, directly addressing the mechanism of diastolic LV dysfunction — an important physiological rationale for its use. C–FALSE: diuretics should be used CAUTIOUSLY in diastolic dysfunction to avoid excessive reduction of filling pressures needed to fill the non-compliant ventricle; aggressive diuresis risks a swing from pulmonary oedema to renal failure. Diuretics are more appropriate in systolic dysfunction with obvious volume overload. D–True: nitroprusside (arterial and venous dilator) reduces both preload and afterload and is effective regardless of systolic or diastolic aetiology.",
+    "section": "Cardiovascular",
+    "topic": "LV-dysfunction diastolic systolic pulmonary-oedema labetalol diuretics nitroprusside preserved-EF",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "htn_k09",
+    "type": "K",
+    "set": 1,
+    "question": "Regarding blood pressure measurement in clinical practice:",
+    "statements": [
+      "A: A cuff that is too small for the patient's arm circumference produces a falsely elevated blood pressure reading",
+      "B: Systolic pressure corresponds to phase 1 Korotkoff sounds (first appearance of repetitive sounds) and diastolic to phase 5 (disappearance of sounds)",
+      "C: Blood pressure cuff width should be approximately 40% of the arm circumference, with the cuff length encircling 80% of the arm",
+      "D: Automated oscillometric blood pressure devices are equally reliable in haemodynamically unstable patients and in patients with arrhythmias as in normotensive patients in sinus rhythm"
+    ],
+    "correct": [true, true, true, false],
+    "explanation": "A–True: an undersized cuff (or one applied too loosely) overestimates blood pressure — the most common error in manual BP measurement. B–True: phase 1 = systolic; phase 5 = diastolic. In difficult auscultation, systolic can be estimated by palpating radial pulse disappearance. C–True: cuff width 40% and length 80% of arm circumference ensure accurate cuff pressure transmission. D–FALSE: automated oscillometric devices are specifically LESS accurate in common ICU situations: shock, arrhythmias, and mechanical ventilation. If an abnormal reading is obtained in these settings, the equipment and cuff position should be verified, and intra-arterial monitoring should be considered for patients requiring potent antihypertensive agents.",
+    "section": "Cardiovascular",
+    "topic": "BP-measurement Korotkoff cuff-size oscillometric intra-arterial-monitoring arrhythmia",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "htn_k10",
+    "type": "K",
+    "set": 1,
+    "question": "Regarding the pathophysiology and cerebral autoregulation in hypertensive emergencies:",
+    "statements": [
+      "A: Acute increase in systemic vascular resistance — mediated by catecholamines, α-adrenergic activity and RAAS activation — is the most common pathophysiological mechanism in hypertensive crises",
+      "B: The cerebral autoregulatory curve is shifted to higher MAP values in patients with chronic hypertension, meaning a 'normal' MAP may be below their threshold for adequate cerebral perfusion",
+      "C: Previously normotensive patients (e.g. acute glomerulonephritis, cocaine-induced, preeclampsia) may develop end-organ injury at diastolic blood pressures of 100-110 mmHg",
+      "D: Once elevated, blood pressure should always be treated aggressively regardless of the clinical context, as persistence of hypertension invariably worsens neurological outcomes in stroke"
+    ],
+    "correct": [true, true, true, false],
+    "explanation": "A–True: SVR increase is the primary mechanism; RAAS and adrenergic activation are the key mediators; fluid overload is a less common contributing factor. B–True: this rightward shift of the autoregulatory curve is the physiological reason why blood pressure should NOT be normalised acutely in hypertensive emergencies. C–True: individuals without chronically elevated baseline BP have a normal (non-shifted) autoregulatory curve and develop end-organ injury at lower absolute pressures. D–FALSE: this is the common dangerous overstatement. In ischaemic stroke, elevated BP is partly compensatory to maintain cerebral perfusion pressure against raised ICP; aggressive lowering worsens the penumbra. A period of observation is often warranted, and specific (not universal) BP targets apply based on whether thrombolysis is intended.",
+    "section": "Cardiovascular",
+    "topic": "cerebral-autoregulation SVR RAAS normotensive preeclampsia stroke penumbra autoregulatory-shift",
+    "image": null,
+    "section_url": null
+  }
+]

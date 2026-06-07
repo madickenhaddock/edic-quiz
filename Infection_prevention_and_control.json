@@ -1,0 +1,466 @@
+{
+  "module": "Infection prevention and control",
+  "sections": {
+    "Healthcare-associated infections in the ICU": "Healthcare-associated infections (HAIs) are serious complications in the ICU, where patients are uniquely vulnerable due to age, comorbidities, and immunosuppression. Device-associated infections — VAP, CRBSI, and CAUTI — are the dominant infectious complications. Colonisation is the presence of multiplying pathogens without tissue damage or clinical symptoms; not every colonisation leads to infection, and systemic antibiotics do not prevent colonisation (they select for resistance). Up to 65–70% of CRBSI and CAUTI, and ~55% of VAP cases, are preventable. Prevention requires hand hygiene, environmental disinfection, care bundles, staff education, and HAI surveillance. An unfavourable nurse-to-patient ratio independently increases HAI risk.",
+    "Ventilator-associated pneumonia": "VAP affects up to 50% of mechanically ventilated patients; acquisition risk is 3% per day in week 1, 2% in week 2, and 1% per day thereafter. Attributable mortality is 3–10% (relative mortality risk increase ~25%); false-positive diagnoses occur in 20–30% of cases. Essential VAP prevention: avoid intubation/reintubation, minimise sedation, semi-recumbent positioning (30–45°), oral care with tooth brushing WITHOUT chlorhexidine (CHX oral care reclassified 'not recommended' — meta-analyses suggest increased mortality), early enteral nutrition within 48–72h, change ventilator circuits only when visibly soiled. Additional approaches: SDD/SOD (only in ICUs with <5% ESBL BSI), subglottic secretion aspiration (for expected MV >48–72h), early tracheostomy, post-pyloric feeding. NOT recommended: CHX oral care, probiotics, silver-coated ETTs, closed suctioning systems, prone positioning for VAP, stress-ulcer prophylaxis, early parenteral nutrition. VAE framework: VAC (daily minimum PEEP increase ≥3 cmH2O sustained ≥2 days after ≥2 days stable, OR FiO2 increase ≥20 percentage points sustained ≥2 days); IVAC (VAC + fever/WBC abnormality + new antibiotics ≥4 days); Possible VAP (IVAC + positive respiratory cultures/assays).",
+    "Catheter-related bloodstream infections": "CRBSIs carry high mortality. Most common route: skin inoculation along the subcutaneous tract during insertion; secondary route: hub contamination. Prevention: avoid femoral site (higher CRBSI than subclavian), use maximal barrier precautions, chlorhexidine 2% (superior to povidone-iodine), do NOT perform guidewire exchange for CRBSI or site infections, daily review of CVC necessity, dedicate one CVC lumen to PN. Antimicrobial catheters: minocycline-rifampicin more durable (>3 weeks) than silver sulfadiazine-CHX; primary concern is AMR selection, not cost. Blood cultures: simultaneous peripheral + CVC samples per IDSA, 8–10 mL/bottle, incubation <12h; Staph, Gram-negatives, and Candida in any single BC set should be treated as true infection. Prophylactic antibiotics are NOT recommended.",
+    "Catheter-associated urinary tract infection": "CAUTI: lower direct mortality than VAP/CRBSI. Most important modifiable risk factor: catheter dwell time (bacteriuria approaches 100% after 30+ days). Non-modifiable: female sex (shorter urethra), age, diabetes, structural urologic abnormalities. Diagnosis: CAUTI is a clinical diagnosis; bacteriuria and pyuria alone are insufficient in catheterised patients. Urine appearance/odour are NOT diagnostic criteria. Routine surveillance cultures are NOT recommended. Specimen collection: remove catheter if possible (midstream); replace catheter >10–14 days old before sampling; sample from aspiration port if catheter must remain and is recently placed. NEVER collect from the drainage bag. Prevention: daily reassessment, aseptic insertion, closed drainage system, bag always below bladder level, no routine catheter replacement at fixed intervals. Nurse-driven protocols (NDPs) are superior to physician-directed management for reducing catheter use and CAUTI."
+  },
+  "questions": [
+    {
+      "id": "ipc_a01",
+      "type": "A",
+      "set": 1,
+      "question": "A 74-year-old mechanically ventilated patient has a BAL culture growing 10³ CFU/mL of Pseudomonas aeruginosa on day 5 of ICU admission. He is afebrile, has no new radiological infiltrate, WBC is 8,400/mm³, and there has been no change in ventilator requirements. What is the most appropriate next step?",
+      "options": [
+        "A: Start anti-pseudomonal antibiotics immediately to prevent progression to VAP",
+        "B: Repeat BAL culture in 48 hours before initiating antibiotics",
+        "C: No antibiotic therapy; the finding is consistent with tracheobronchial colonisation rather than infection",
+        "D: Start inhaled colistin to decolonise the airway without systemic antibiotic selection pressure",
+        "E: Request serum procalcitonin to guide the antibiotic treatment decision"
+      ],
+      "correct": 2,
+      "explanation": "Colonisation is the presence of multiplying pathogens without tissue damage, immune response, or clinical symptoms. This patient has no clinical or radiological criteria for VAP. Treating colonisation does not prevent progression to infection and actively promotes AMR. Option A is the most dangerous near-miss: low colony counts without clinical signs do not meet VAP criteria. Inhaled colistin (D) has no evidence base for colonisation prevention and would similarly worsen resistance selection.",
+      "section": "Healthcare-associated infections in the ICU",
+      "topic": "colonisation infection distinction VAP antibiotics AMR selection",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ipc_a02",
+      "type": "A",
+      "set": 1,
+      "question": "An ICU governance committee is reviewing HAI prevention targets. According to current evidence, what proportion of catheter-related bloodstream infections (CRBSI) and catheter-associated urinary tract infections (CAUTI) are potentially preventable through consistent application of evidence-based strategies?",
+      "options": [
+        "A: 20–30%",
+        "B: 35–45%",
+        "C: Up to 55%",
+        "D: Up to 65–70%",
+        "E: More than 80%"
+      ],
+      "correct": 3,
+      "explanation": "Up to 65–70% of CRBSI and CAUTI cases are preventable with consistent evidence-based bundle application. Option C (55%) is the near-miss: this figure correctly applies to VAP, not CRBSI/CAUTI — highlighting the importance of infection-specific prevention benchmarks. Neither extreme (A/B or E) is supported by the evidence.",
+      "section": "Healthcare-associated infections in the ICU",
+      "topic": "HAI preventable proportion CRBSI CAUTI 65-70% VAP 55% benchmark",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ipc_a03",
+      "type": "A",
+      "set": 1,
+      "question": "Following a sustained rise in CAUTI rates over six months in a surgical ICU, infection control audits reveal no change in insertion technique or maintenance protocols. Which organisational factor is most independently associated with increased HAI risk?",
+      "options": [
+        "A: Increased average patient age and comorbidity burden over the review period",
+        "B: Unfavourable nurse-to-patient ratio",
+        "C: Absence of a dedicated infection control nurse",
+        "D: Inadequate electronic HAI surveillance infrastructure",
+        "E: Reduced frequency of medical education sessions on HAI prevention"
+      ],
+      "correct": 1,
+      "explanation": "An unfavourable nurse-to-patient ratio is independently associated with a significantly increased risk of healthcare-associated infections, directly impacting hand hygiene compliance, catheter assessments, and care bundle adherence. Option A is a plausible confounding variable but is not the organisational factor with established independent association in the evidence. Options C–E are systems factors without the same level of independent evidence.",
+      "section": "Healthcare-associated infections in the ICU",
+      "topic": "nurse-to-patient ratio HAI independent risk organisational staffing",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ipc_a04",
+      "type": "A",
+      "set": 1,
+      "question": "A 68-year-old with ARDS has been mechanically ventilated for 10 days. A trainee asks about the daily VAP acquisition rate over the course of mechanical ventilation. Which of the following best describes this risk?",
+      "options": [
+        "A: Constant at approximately 1% per day throughout mechanical ventilation",
+        "B: Constant at approximately 3% per day throughout the first two weeks, then declining",
+        "C: 3% per day during week 1, decreasing to 2% per day in week 2, and 1% per day thereafter",
+        "D: 5% per day for the first 5 days, declining to less than 1% per day after day 10",
+        "E: 2% per day for the first week, increasing after day 14"
+      ],
+      "correct": 2,
+      "explanation": "VAP acquisition risk follows a step-down pattern: 3% per day in week 1, 2% per day in week 2, and 1% per day thereafter — reflecting early susceptibility in the most vulnerable patients. Option B is the most common near-miss: it correctly identifies the 3% initial rate but fails to account for the progressive decline. Option A (constant 1%) underestimates early risk and would lead to under-prioritisation of prevention in the critical first week.",
+      "section": "Ventilator-associated pneumonia",
+      "topic": "VAP daily acquisition rate epidemiology 3% 2% 1% per day week",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ipc_a05",
+      "type": "A",
+      "set": 1,
+      "question": "A critical care nurse proposes adding chlorhexidine oral care to the ICU's VAP prevention bundle for all mechanically ventilated patients. Based on current guidelines, what is the most accurate statement?",
+      "options": [
+        "A: Chlorhexidine oral care is an essential practice that consistently reduces VAP rates and should be adopted",
+        "B: Chlorhexidine oral care reduces VAP rates but should be reserved for high-risk patients on prolonged ventilation",
+        "C: Chlorhexidine oral care has been reclassified as 'not recommended' because meta-analyses suggest it may increase mortality",
+        "D: Chlorhexidine oral care and tooth brushing are equivalent alternatives and either can be selected based on availability",
+        "E: Chlorhexidine oral care is recommended only in combination with selective oral decontamination protocols"
+      ],
+      "correct": 2,
+      "explanation": "Oral care with chlorhexidine has been reclassified as 'not recommended' in current guidelines because meta-analyses of randomised trials suggest it may increase mortality. Daily tooth brushing without chlorhexidine is the evidence-based essential practice, associated with reduced VAP rates and shorter ICU stay. Option A is the most dangerous near-miss, reflecting widely implemented older protocols that are now outdated. Options B, D, and E represent common clinical misconceptions about selective or combined use.",
+      "section": "Ventilator-associated pneumonia",
+      "topic": "chlorhexidine oral care not recommended mortality increase tooth brushing essential VAP",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ipc_a06",
+      "type": "A",
+      "set": 1,
+      "question": "Which of the following is NOT classified as an essential VAP prevention practice in current guidelines?",
+      "options": [
+        "A: Avoiding intubation and promoting non-invasive respiratory support strategies",
+        "B: Minimising sedation and performing daily spontaneous breathing trials",
+        "C: Semi-recumbent positioning at 30–45° to the horizontal",
+        "D: Subglottic secretion aspiration for patients expected to require mechanical ventilation for more than 48–72 hours",
+        "E: Early enteral nutrition within 48–72 hours of onset of critical illness"
+      ],
+      "correct": 3,
+      "explanation": "Subglottic secretion aspiration is classified as an additional approach, not an essential practice. It may reduce VAP rates but insufficient data exist to demonstrate impact on duration of MV, ICU length of stay, or mortality. All other options — avoiding intubation, minimising sedation, semi-recumbent positioning, and early enteral nutrition — are essential practices. Option E is a near-miss: some clinicians classify nutrition as supportive rather than infection-preventive, but early EN is an essential VAP prevention strategy.",
+      "section": "Ventilator-associated pneumonia",
+      "topic": "VAP prevention NOT essential subglottic aspiration additional approach classification",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ipc_a07",
+      "type": "A",
+      "set": 1,
+      "question": "A mechanically ventilated patient has been stable on PEEP 5 cmH2O and FiO2 0.40 for 3 days. On days 4 and 5, the minimum daily PEEP increases to 9 cmH2O. The patient is afebrile, WBC is normal, and no new antibiotics have been started. Which CDC Ventilator-Associated Event (VAE) tier does this patient meet?",
+      "options": [
+        "A: Possible VAP — a new radiological infiltrate is the only missing criterion",
+        "B: Infection-related Ventilator-Associated Complication (IVAC) — new antibiotics are required to confirm this tier",
+        "C: Ventilator-Associated Condition (VAC) — the PEEP increase meets the required threshold and duration criteria",
+        "D: No VAE criteria are met — the PEEP increase must exceed 5 cmH2O from baseline for VAC",
+        "E: VAE surveillance is not applicable until mechanical ventilation has exceeded 14 days"
+      ],
+      "correct": 2,
+      "explanation": "VAC requires a sustained daily minimum PEEP increase of ≥3 cmH2O for ≥2 calendar days following ≥2 days of stable PEEP. Here PEEP rises by 4 cmH2O (5→9), sustained for 2 days after 3 days of stability — meeting VAC criteria. IVAC additionally requires signs of infection (abnormal temperature or WBC) and new antibiotics ≥4 days, which are absent here. Option D is the critical near-miss: the threshold is ≥3 cmH2O, not >5 cmH2O — a PEEP increase of 4 cmH2O clearly fulfils the criterion.",
+      "section": "Ventilator-associated pneumonia",
+      "topic": "VAC VAE CDC criteria PEEP ≥3 cmH2O threshold duration IVAC not met",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ipc_a08",
+      "type": "A",
+      "set": 1,
+      "question": "A quality improvement committee proposes implementing selective digestive decontamination (SDD) to reduce VAP rates. According to current guidelines, which of the following best describes the appropriate indication for SDD?",
+      "options": [
+        "A: Any ICU with a VAP rate exceeding 5 per 1,000 ventilator-days regardless of local AMR epidemiology",
+        "B: ICUs in countries where more than 5% of bloodstream infections are caused by ESBL-producing pathogens",
+        "C: ICUs in countries where fewer than 5% of bloodstream infections are caused by ESBL-producing pathogens",
+        "D: Any ICU that has maintained a standard VAP bundle for more than 12 months without achieving a ≥50% rate reduction",
+        "E: ICUs with more than 30% of patients mechanically ventilated for more than 7 days"
+      ],
+      "correct": 2,
+      "explanation": "SDD/SOD are recommended only in ICUs in countries where fewer than 5% of bloodstream infections are caused by ESBL-producing pathogens. A clustered RCT in high-AMR settings showed no benefit. Option B is the critical near-miss, inverting the threshold: high-AMR environments represent a contraindication, not an indication. Options A, D, and E use non-evidence-based indications unrelated to the AMR-based guideline criterion.",
+      "section": "Ventilator-associated pneumonia",
+      "topic": "SDD SOD AMR threshold ESBL 5% low resistance guideline indication",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ipc_a09",
+      "type": "A",
+      "set": 1,
+      "question": "During CVC insertion training, a registrar asks which skin antiseptic to use. Which of the following is the most evidence-based recommendation?",
+      "options": [
+        "A: Povidone-iodine 10% applied twice and allowed to air-dry, as it has the broadest bactericidal spectrum",
+        "B: Chlorhexidine 2% in alcohol, allowed to dry, as it is more effective than povidone-iodine in reducing CRBSI",
+        "C: Alcohol 70% alone, as it achieves faster complete skin sterilisation than chlorhexidine",
+        "D: Chlorhexidine 0.5% in alcohol, which has equivalent efficacy to the 2% formulation",
+        "E: Alternating povidone-iodine and chlorhexidine to maximise broad-spectrum antisepsis"
+      ],
+      "correct": 1,
+      "explanation": "Chlorhexidine 2% is more effective than povidone-iodine as a skin antiseptic for CVC insertion and is the evidence-based recommendation. Option A is the near-miss: povidone-iodine was previously standard practice but evidence demonstrates CHX 2% reduces CRBSI rates more effectively. Option D is incorrect — the 2% concentration is specifically recommended and is not equivalent to 0.5% formulations.",
+      "section": "Catheter-related bloodstream infections",
+      "topic": "CVC insertion skin antiseptic chlorhexidine 2% superior povidone-iodine CRBSI",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ipc_a10",
+      "type": "A",
+      "set": 1,
+      "question": "A 55-year-old in septic shock requires emergency CVC insertion. Which insertion site carries the highest risk of CRBSI and should be avoided as the primary choice?",
+      "options": [
+        "A: Left internal jugular vein",
+        "B: Right subclavian vein",
+        "C: Femoral vein",
+        "D: Basilic vein (PICC line)",
+        "E: Left subclavian vein"
+      ],
+      "correct": 2,
+      "explanation": "The femoral site is associated with the highest incidence of CRBSI among standard central venous access sites, and avoiding femoral cannulation is specifically recommended. The internal jugular (A) is a common near-miss: it carries intermediate risk and is an acceptable first-line site, but the question asks for the site with the highest CRBSI risk. Subclavian access (B and E) carries the lowest CRBSI rates and is preferred when technically feasible.",
+      "section": "Catheter-related bloodstream infections",
+      "topic": "CRBSI insertion site femoral highest risk subclavian lowest internal jugular",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ipc_a11",
+      "type": "A",
+      "set": 1,
+      "question": "A patient's CVC insertion site develops erythema and tenderness on day 8 with no fever and negative blood cultures. A trainee suggests a guidewire exchange to preserve vascular access and avoid a new puncture. What is the most appropriate response?",
+      "options": [
+        "A: Guidewire exchange is appropriate if repeat blood cultures at 24 hours remain negative",
+        "B: Guidewire exchange is the recommended approach to avoid opening a new insertion site",
+        "C: Guidewire exchange is acceptable in patients with limited vascular access to reduce complications",
+        "D: Guidewire exchange is not recommended; the catheter should be removed and a new site selected",
+        "E: Guidewire exchange is appropriate only after excluding MRSA colonisation at the insertion site"
+      ],
+      "correct": 3,
+      "explanation": "Current guidelines explicitly state that guidewire exchange should not be performed for CRBSI or catheter-related insertion site infections; the catheter should be removed and a new site used. Option C is the most clinically tempting near-miss: limited vascular access is frequently invoked as a pragmatic justification, but this reasoning is not guideline-supported and risks seeding the new catheter with organisms colonising the infected subcutaneous tract.",
+      "section": "Catheter-related bloodstream infections",
+      "topic": "guidewire exchange not recommended CRBSI catheter removal new site insertion",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ipc_a12",
+      "type": "A",
+      "set": 1,
+      "question": "Which of the following is NOT a recommended strategy for reducing catheter-related bloodstream infections (CRBSI) in the ICU?",
+      "options": [
+        "A: Routine replacement of CVCs at fixed intervals (every 7 days) to prevent progressive colonisation",
+        "B: Avoiding the femoral site as the primary CVC insertion location",
+        "C: Using chlorhexidine 2% rather than povidone-iodine for skin antisepsis",
+        "D: Daily review and documentation of the indication for each in-situ CVC",
+        "E: Maximal sterile barrier precautions during insertion (sterile gown, large drapes, sterile gloves)"
+      ],
+      "correct": 0,
+      "explanation": "Routine replacement of CVCs at fixed time intervals is NOT recommended to prevent CRBSI. While colonisation probability increases with time (notably after 5–7 days), the correct approach is daily reassessment and removal at the earliest clinical opportunity — not scheduled exchanges. Options B, C, D, and E are all evidence-based CRBSI prevention measures. Option D may appear optional but daily review and documentation are specifically recommended and reduce CVC dwell time.",
+      "section": "Catheter-related bloodstream infections",
+      "topic": "CRBSI NOT recommended routine CVC replacement fixed interval guideline",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ipc_a13",
+      "type": "A",
+      "set": 1,
+      "question": "A mechanically ventilated 72-year-old has had an indwelling urinary catheter for 14 days. A routine urine culture shows 10⁵ CFU/mL of E. coli with pyuria (50 WBC/hpf). The patient is afebrile, haemodynamically stable, and has no localising urinary or systemic signs of infection. What is the most appropriate next step?",
+      "options": [
+        "A: Start ciprofloxacin immediately for CAUTI based on significant bacteriuria and pyuria",
+        "B: Start nitrofurantoin for 7 days as first-line CAUTI treatment in catheterised patients",
+        "C: Replace the urinary catheter and repeat the urine culture; treat only if the repeat is positive",
+        "D: No antibiotic therapy; bacteriuria and pyuria alone do not confirm CAUTI in catheterised patients without systemic signs",
+        "E: Request urinary PCR to confirm viable bacterial load before initiating antibiotics"
+      ],
+      "correct": 3,
+      "explanation": "CAUTI is a clinical diagnosis requiring integration of bacteriuria, pyuria, and localising or systemic signs of infection. In catheterised patients, bacteriuria and pyuria are common features of colonisation and are insufficient alone. Routine surveillance cultures are explicitly not recommended for this reason. Option A is the most dangerous near-miss: treating asymptomatic bacteriuria in a catheterised ICU patient promotes AMR without clinical benefit. Option C seems pragmatic but is not guideline-supported — catheter replacement without clinical CAUTI criteria is unnecessary.",
+      "section": "Catheter-associated urinary tract infection",
+      "topic": "CAUTI diagnosis bacteriuria pyuria insufficient clinical diagnosis asymptomatic no antibiotics",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ipc_a14",
+      "type": "A",
+      "set": 1,
+      "question": "Which of the following is the most important modifiable risk factor for catheter-associated urinary tract infection (CAUTI)?",
+      "options": [
+        "A: Female sex due to the anatomically shorter urethra",
+        "B: Diabetes mellitus",
+        "C: Catheter dwell time",
+        "D: Patient age greater than 65 years",
+        "E: Pre-existing structural urological abnormalities"
+      ],
+      "correct": 2,
+      "explanation": "Catheter dwell time is the most important modifiable risk factor for CAUTI; bacteriuria approaches a 100% likelihood after 30 or more days of catheterisation. Options A, D, and E are non-modifiable host-level risk factors. Diabetes (B) increases susceptibility but is not the dominant modifiable driver in catheterised patients. Daily assessment and early catheter removal are therefore the cornerstone of CAUTI prevention strategy.",
+      "section": "Catheter-associated urinary tract infection",
+      "topic": "CAUTI modifiable risk factor catheter dwell time bacteriuria 100% 30 days",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ipc_a15",
+      "type": "A",
+      "set": 1,
+      "question": "An ICU governance review identifies prolonged catheter dwell time as the primary driver of its CAUTI rate. Which quality improvement strategy has the strongest evidence for reducing both catheter use and CAUTI incidence?",
+      "options": [
+        "A: Mandatory daily physician-led catheter rounds with structured documentation",
+        "B: Nurse-driven protocols with pre-defined criteria allowing nurses to remove urinary catheters without a physician order",
+        "C: Automated electronic reminders to the treating physician regarding catheter necessity",
+        "D: Weekly multidisciplinary review of urine culture results from all catheterised patients",
+        "E: Mandatory training sessions for all clinical staff on CAUTI diagnostic criteria"
+      ],
+      "correct": 1,
+      "explanation": "Nurse-driven protocols (NDPs) are specifically evidenced to reduce both catheter use and CAUTI incidence compared to physician-directed catheter management. NDPs formalise the nurse's authority to assess necessity and initiate removal based on pre-defined criteria, removing the bottleneck of awaiting physician orders. Option A is the near-miss: physician-led rounds are beneficial but structurally less effective than NDPs. Option C relies on physician responsiveness to reminders and lacks the autonomous structure of NDPs.",
+      "section": "Catheter-associated urinary tract infection",
+      "topic": "nurse-driven protocols CAUTI reduction catheter removal physician order autonomy",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ipc_k01",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding healthcare-associated infections (HAIs) and the distinction between colonisation and infection in the ICU:",
+      "statements": [
+        {"label": "A", "text": "Up to 55% of VAP cases and up to 65–70% of CRBSI and CAUTI cases are potentially preventable through consistent application of evidence-based strategies.", "correct": true},
+        {"label": "B", "text": "Systemic antimicrobial therapy is effective in preventing colonisation from progressing to true infection.", "correct": false},
+        {"label": "C", "text": "Bacteriuria occurring during urinary catheterisation is a common example of colonisation rather than true infection.", "correct": true},
+        {"label": "D", "text": "Healthcare-associated infections are defined by the presence of infection at or before the time of hospital admission.", "correct": false}
+      ],
+      "explanation": "HAIs are NOT present or incubating at admission — this is definitional (D false). Systemic antibiotics do not prevent colonisation from progressing to infection; they select for resistance (B false). The preventability benchmarks (55% VAP, 65–70% CRBSI/CAUTI) and bacteriuria as a colonisation example (C) are both correct.",
+      "section": "Healthcare-associated infections in the ICU",
+      "topic": "HAI definition colonisation infection preventable proportion antibiotics AMR selection",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ipc_k02",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the epidemiology and diagnosis of ventilator-associated pneumonia (VAP):",
+      "statements": [
+        {"label": "A", "text": "VAP affects up to 50% of patients receiving invasive mechanical ventilation.", "correct": true},
+        {"label": "B", "text": "The attributable mortality of VAP is approximately 25–30%.", "correct": false},
+        {"label": "C", "text": "False-positive VAP diagnoses may occur in up to 20–30% of cases, which can inflate apparent mortality data.", "correct": true},
+        {"label": "D", "text": "Current guidelines recommend re-evaluating the pneumonia diagnosis after 72 hours of treatment initiation.", "correct": true}
+      ],
+      "explanation": "Attributable mortality from VAP is 3–10% (B false); the 25% figure refers to the relative increase in mortality risk — a clinically important distinction and the most common near-miss. Up to 50% incidence (A), 20–30% false-positive rate inflating mortality data (C), and 72-hour re-evaluation recommendation (D) are all correct.",
+      "section": "Ventilator-associated pneumonia",
+      "topic": "VAP incidence attributable mortality 3-10% false positive 72h re-evaluation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ipc_k03",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the CDC Ventilator-Associated Events (VAE) surveillance framework:",
+      "statements": [
+        {"label": "A", "text": "A Ventilator-Associated Condition (VAC) requires a sustained increase in daily minimum PEEP of ≥3 cmH2O for ≥2 calendar days following ≥2 days of stable or decreasing PEEP.", "correct": true},
+        {"label": "B", "text": "The VAE framework was developed to overcome the diagnostic subjectivity inherent in traditional VAP surveillance definitions.", "correct": true},
+        {"label": "C", "text": "A positive BAL culture is an essential criterion required to fulfil the definition of Infection-related Ventilator-Associated Complications (IVAC).", "correct": false},
+        {"label": "D", "text": "A sustained FiO2 increase of 15 percentage points for 2 calendar days after 2 days of stability meets criteria for a VAC.", "correct": false}
+      ],
+      "explanation": "IVAC does not require BAL culture — it requires VAC plus signs of possible infection (abnormal temperature or WBC) and new antibiotic therapy for ≥4 days (C false). For VAC via the FiO2 criterion, the threshold is ≥20 percentage points, not 15 (D false and a common calculation trap). A (PEEP criteria) and B (purpose of VAE framework) are correct.",
+      "section": "Ventilator-associated pneumonia",
+      "topic": "VAE VAC IVAC PEEP ≥3 cmH2O FiO2 ≥20 points BAL not required",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ipc_k04",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the current classification of VAP prevention strategies as essential, additional, or not recommended:",
+      "statements": [
+        {"label": "A", "text": "Daily tooth brushing without chlorhexidine is an essential VAP prevention practice.", "correct": true},
+        {"label": "B", "text": "Oral care with chlorhexidine remains a recommended essential practice due to consistent evidence of VAP rate reduction.", "correct": false},
+        {"label": "C", "text": "Subglottic secretion aspiration via specialised endotracheal tubes is classified as an additional approach, not an essential practice.", "correct": true},
+        {"label": "D", "text": "Prone positioning is recommended as an additional VAP prevention strategy in mechanically ventilated patients.", "correct": false}
+      ],
+      "explanation": "Chlorhexidine oral care has been reclassified as 'not recommended' because meta-analyses suggest it may increase mortality (B false — the most important clinical trap). Prone positioning was also re-classified as 'not recommended' for VAP prevention (D false), though it remains a cornerstone therapy for ARDS oxygenation — a critical distinction. Tooth brushing without CHX (A) and subglottic aspiration as an additional approach (C) are correct.",
+      "section": "Ventilator-associated pneumonia",
+      "topic": "VAP prevention classification essential additional chlorhexidine not recommended prone positioning",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ipc_k05",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the prevention of catheter-related bloodstream infections (CRBSI) in the ICU:",
+      "statements": [
+        {"label": "A", "text": "Inoculation of bacteria from the skin along the subcutaneous insertion tract is the most common route of CRBSI.", "correct": true},
+        {"label": "B", "text": "Chlorhexidine 2% is more effective than povidone-iodine as a skin antiseptic for CVC insertion.", "correct": true},
+        {"label": "C", "text": "Guidewire exchange is a safe and guideline-recommended approach when catheter-related infection is suspected.", "correct": false},
+        {"label": "D", "text": "The femoral site carries the lowest CRBSI risk among standard CVC insertion sites.", "correct": false}
+      ],
+      "explanation": "Femoral cannulation is associated with higher CRBSI rates than subclavian and should be avoided (D false). Guidewire exchange is explicitly not recommended for CRBSI — the catheter must be removed and a new site selected (C false). Skin inoculation as the dominant route (A) and CHX 2% superiority over povidone-iodine (B) are both correct.",
+      "section": "Catheter-related bloodstream infections",
+      "topic": "CRBSI skin route CHX 2% femoral highest risk guidewire exchange not recommended",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ipc_k06",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding antimicrobial catheters and parenteral nutrition in relation to CRBSI prevention:",
+      "statements": [
+        {"label": "A", "text": "Minocycline-rifampicin impregnated catheters provide more durable infection protection (>3 weeks) than silver sulfadiazine-chlorhexidine impregnated catheters.", "correct": true},
+        {"label": "B", "text": "The primary barrier to routine clinical adoption of antimicrobial catheters is their substantially higher cost compared with standard catheters.", "correct": false},
+        {"label": "C", "text": "Dedicating a single CVC lumen exclusively to total parenteral nutrition reduces CRBSI risk in patients requiring PN.", "correct": true},
+        {"label": "D", "text": "Central venous access for parenteral nutrition does not increase CRBSI risk provided strict aseptic technique is maintained during administration.", "correct": false}
+      ],
+      "explanation": "The primary concern limiting routine adoption of antimicrobial catheters is the potential to drive multi-drug antimicrobial resistance, not cost (B false). PN through a CVC increases CRBSI risk regardless of technique; one lumen should be dedicated exclusively to PN and meticulous infection control maintained (D false — risk is inherently increased). A (minocycline-rifampicin durability) and C (dedicated PN lumen) are both correct.",
+      "section": "Catheter-related bloodstream infections",
+      "topic": "antimicrobial catheters minocycline rifampicin AMR concern PN dedicated lumen CRBSI risk",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ipc_k07",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the diagnosis and risk factors for catheter-associated urinary tract infection (CAUTI):",
+      "statements": [
+        {"label": "A", "text": "Catheter dwell time is the most important modifiable risk factor for CAUTI.", "correct": true},
+        {"label": "B", "text": "Female sex is a non-modifiable CAUTI risk factor due to the anatomically shorter urethra facilitating bacterial ascension.", "correct": true},
+        {"label": "C", "text": "Routine surveillance urine cultures in all catheterised ICU patients are recommended for early CAUTI detection.", "correct": false},
+        {"label": "D", "text": "Bacteriuria and pyuria together are sufficient to confirm a diagnosis of CAUTI in a catheterised patient.", "correct": false}
+      ],
+      "explanation": "CAUTI is a clinical diagnosis; bacteriuria and pyuria are common features of catheter colonisation and are insufficient alone (D false). Routine surveillance urine cultures are explicitly not recommended because of low specificity and the risk of triggering unnecessary antibiotic therapy (C false). Dwell time as the primary modifiable risk factor (A) and female sex as non-modifiable (B) are correct.",
+      "section": "Catheter-associated urinary tract infection",
+      "topic": "CAUTI risk factors dwell time female sex diagnosis bacteriuria insufficient surveillance not recommended",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ipc_k08",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the prevention of catheter-associated urinary tract infections (CAUTI) in the ICU:",
+      "statements": [
+        {"label": "A", "text": "Maintaining a closed urinary drainage system is an essential component of CAUTI prevention.", "correct": true},
+        {"label": "B", "text": "The drainage bag should always be positioned below the level of the bladder to ensure unobstructed urine flow.", "correct": true},
+        {"label": "C", "text": "Urinary catheters should be routinely replaced at fixed intervals (e.g. every 7–10 days) to reduce CAUTI risk.", "correct": false},
+        {"label": "D", "text": "Nurse-driven catheter removal protocols are inferior to physician-directed catheter management in reducing CAUTI incidence.", "correct": false}
+      ],
+      "explanation": "Routine catheter replacement at fixed intervals is not recommended; catheters should be replaced only when sterility is compromised (C false). Nurse-driven protocols (NDPs) are evidenced to be superior to physician-directed management for reducing both catheter use and CAUTI incidence (D false and a common misconception). Closed drainage system (A) and drainage bag below bladder level (B) are correct essential practices.",
+      "section": "Catheter-associated urinary tract infection",
+      "topic": "CAUTI prevention closed system bag below bladder routine replacement not recommended nurse-driven superior",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ipc_k09",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding general HAI prevention strategies and organisational factors in the ICU:",
+      "statements": [
+        {"label": "A", "text": "Standardised HAI surveillance (e.g. infections per 1,000 catheter-days) is a recommended component of ICU infection prevention programmes.", "correct": true},
+        {"label": "B", "text": "An unfavourable nurse-to-patient ratio is independently associated with a significantly increased risk of HAIs.", "correct": true},
+        {"label": "C", "text": "Prophylactic systemic antibiotics administered before endotracheal intubation or re-intubation are recommended to reduce VAP risk.", "correct": false},
+        {"label": "D", "text": "Ventilator circuits should be routinely replaced on a fixed weekly schedule to minimise VAP risk.", "correct": false}
+      ],
+      "explanation": "Prophylactic antibiotics prior to intubation are not recommended for HAI prevention; their use promotes AMR without demonstrable benefit (C false). Ventilator circuits should be changed only if visibly soiled or malfunctioning — not on a fixed schedule (D false). Standardised HAI surveillance (A) and nurse-to-patient ratio as an independent HAI risk factor (B) are correct.",
+      "section": "Healthcare-associated infections in the ICU",
+      "topic": "HAI surveillance nurse ratio prophylactic antibiotics not recommended ventilator circuit no routine change",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ipc_k10",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding blood culture sampling practices when catheter-related bloodstream infection (CRBSI) is suspected:",
+      "statements": [
+        {"label": "A", "text": "Simultaneous collection of blood cultures from the inserted CVC and from a peripheral vein is recommended by the IDSA when CRBSI is suspected.", "correct": true},
+        {"label": "B", "text": "An inoculation volume of 8–10 mL of blood per culture bottle optimises diagnostic sensitivity.", "correct": true},
+        {"label": "C", "text": "Staphylococcus aureus isolated from a single blood culture set is likely to represent contamination and should be interpreted cautiously before initiating treatment.", "correct": false},
+        {"label": "D", "text": "Routine prophylactic antibiotics for all ICU patients with CVCs in situ are recommended to prevent CRBSI.", "correct": false}
+      ],
+      "explanation": "Staphylococcus aureus (along with Gram-negative Enterobacteriaceae and Candida) in even a single blood culture set should always be treated as true infection — not dismissed as contamination (C false and a dangerous near-miss; only low-pathogenicity organisms such as coagulase-negative staphylococci in a single set raise contamination as a possibility). Prophylactic antibiotics for CVC patients are not recommended and promote AMR (D false). Simultaneous peripheral + CVC cultures (A) and 8–10 mL/bottle (B) are correct.",
+      "section": "Catheter-related bloodstream infections",
+      "topic": "CRBSI blood cultures peripheral CVC Staph aureus not contamination prophylactic antibiotics not recommended",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}

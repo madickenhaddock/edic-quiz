@@ -1,0 +1,471 @@
+{
+  "module": "Sepsis from Tropical Diseases Part III: Critical Illness and Sepsis from Tuberculosis Disease",
+  "sections": {
+    "Introduction": "When exposed to droplets containing Mycobacterium tuberculosis, 20–25% of individuals become infected, among whom 5–10% develop tuberculosis disease within a median time of 2 years. Risk factors for developing TB disease include: HIV infection, recent treatment for M. tuberculosis (within past 2 years), silicosis, chronic respiratory disease, smoking, diabetes mellitus, severe chronic renal insufficiency, solid organ transplantation, immunosuppressive therapy, malnutrition (BMI <18), pregnancy and post-partum period, illicit drug use, alcoholism, age <5 or >65 years, and vitamin D deficiency.\n\nIn 2019, 10 million new TB infections occurred worldwide; TB claimed 1.4 million lives. Acute respiratory failure, septic shock and multi-organ dysfunction are the most common ICU admission reasons. Independent risk factors for ICU death: miliary TB, mechanical ventilation, shock, nosocomial pneumonia, multi-organ failure, APACHE II >20, and duration of symptoms >4 weeks.",
+    "Clinical Symptoms": "Systemic symptoms: fatigue, remittent fever, weight loss, night sweats, cervical lymphadenitis. Pulmonary TB: productive cough, dyspnoea, haemoptysis. Life-threatening haemoptysis can result from erosion of a bronchial artery or rupture of an arterial aneurysm.\n\nTuberculous pericarditis: dyspnoea, chest pain relieved upright; enlarged effusion causes decreased heart sounds, leg oedema, congested neck veins, pulsus paradoxus.\n\nCNS tuberculosis: TB meningitis most frequent. Symptoms subacute and non-specific (fever, headache, malaise, vomiting). Cranial nerve palsies (especially abducens) in one third of patients.\n\nBritish Medical Research Council grades of TBM:\n- Grade I: GCS 15, no focal neurological deficit\n- Grade II: GCS 14–10 ± focal deficit, OR GCS 15 with focal deficit\n- Grade III: GCS <10 ± focal deficit\n\nAbdominal tuberculosis complicates one third of pulmonary TB cases.\n\nMiliary tuberculosis: haematogenous seeding. Most commonly affected organs: lungs, liver, spleen, meninges, kidneys. Characteristic skin lesions and choroidal tubercles on fundoscopy. Many patients present with ARDS, shock, DIC and multi-organ dysfunction.",
+    "Diagnostic Work-up": "WHO strongly recommends Xpert® MTB/RIF or Xpert® Ultra as initial diagnostic method. Results from unprocessed samples available within <2 hours. Sensitivity >98% in smear- and culture-positive pulmonary TB. Specificity 99–100%. Simultaneously detects genomic sequences for rifampicin resistance (not isoniazid). Sensitivity falls below 50% when pleural or ascitic fluid is analysed.\n\nLateral flow urine lipoarabinomannan (LAM) assay: WHO strongly recommends in HIV-positive adults/children with CD4 <100/mm³, OR those who are seriously ill and hospitalised regardless of clinical symptoms.\n\nCSF in TBM: increased lymphocytic cell count, increased protein (precipitates to 'spider's web clot' on standing), decreased glucose. PCT is usually NOT elevated in TB — low PCT may help diagnose bacterial co-infection.\n\nAdenosine deaminase in pleural fluid: cut-off >60 IU/L supports tuberculous pleurisy. Pleural/peritoneal biopsies commonly required to confirm diagnosis.",
+    "Anti-tuberculosis Therapy": "Standard regimen for drug-sensitive TB: rifampicin + isoniazid + ethambutol + pyrazinamide for 2 months (intensive phase), then rifampicin + isoniazid for 4 months. TBM treatment: 12 months.\n\nFirst-line drug key properties:\n- Rifampicin: 10 mg/kg/d (max 600 mg/d). NO dose adjustment in renal failure. CSF penetration 10–20%. Potent CYP INDUCER. Main risk: DILI.\n- Isoniazid: 5 mg/kg/d. NO dose adjustment in renal failure. CSF penetration 100%. CYP INHIBITOR. Risks: DILI, peripheral neuropathy (prevent with pyridoxine 10–25 mg/d).\n- Ethambutol: 15 mg/kg/d. DOSE ADJUSTMENT required in renal failure. CSF penetration 25–50%. Main risk: retrobulbar neuritis.\n- Pyrazinamide: 25 mg/kg/d. DOSE ADJUSTMENT required in renal failure. CSF penetration 100%. Main risk: DILI, rhabdomyolysis.\n\nDILI: most dangerous adverse effect. Incidence 3–13% (age-dependent). Triggered by rifampicin, isoniazid and/or pyrazinamide; worsened by concurrent hepatotoxic drugs (paracetamol, valproic acid). First sign: liver enzymes >3× normal.\n\nMDR-TB (resistant to ≥isoniazid + rifampicin): do NOT add individual drugs to a failing regimen — replace entire regimen with 4–5 susceptible second-line drugs. Duration ≥18 months.\n\nPharmacokinetics in critical illness: administer IV until GI function restored. Rifampicin INDUCES CYP (reduces azoles, moxifloxacin, steroids, anticonvulsants, etc.). Isoniazid INHIBITS CYP. Combined: net effect is inductive (rifampicin > isoniazid).",
+    "Adjunctive Therapies": "Dexamethasone 0.4 mg/kg/day IV/PO (or prednisolone 60 mg/day) reduces mortality and long-term sequelae in HIV-negative patients with TBM and pericarditis. Evidence in HIV-positive patients and pulmonary TB without CNS/pericardial involvement remains controversial.\n\nRifampicin increases cortisol metabolism and may precipitate adrenal insufficiency.\n\nProphylactic aspirin 150 mg/day reduces both stroke risk and mortality in patients with TBM.",
+    "Intensive Care Pearls": "NIV failure rate is HIGH in TB-associated ARDS. Invasive lung-protective ventilation principles do not differ from other ARDS. VAP occurs in up to two-thirds of patients.\n\nPulmonary haemorrhage — FIRST priority: airway control and adequate gas exchange (intubation + invasive MV). Adjuncts: antitussives (opiates), tranexamic acid. Bronchoscopy (topical diluted epinephrine). CT angiography + bronchial artery embolisation highly effective. Emergency surgery reserved for failures.\n\nTBM ICU management: intubation for airway protection. Complications: hydrocephalus (80% communicating), seizures (frequent in children ~50%, rare in adults ~5%), SIADH, stroke in up to two-thirds (mostly basal ganglia). Conservative management of communicating hydrocephalus with acetazolamide 100 mg/kg/day; repeated lumbar drainage or external ventricular drain required in one third. Valproic acid — use with caution (DILI risk).",
+    "Management of HIV Co-infected Patients": "HIV is the leading cause of death among HIV-positive persons via TB (26% of AIDS-related deaths). At CD4 <75/mm³: pulmonary symptoms absent; mycobacteraemia with miliary TB common.\n\nART timing:\n- Pulmonary TB: initiate ART ideally within 2 weeks of starting and tolerating anti-TB therapy\n- Exception — TB meningitis: ART should be initiated ONLY after 8 weeks of anti-TB drugs\n- Patients already on ART at TB diagnosis: continue without interruption\n\nAll TB/HIV co-infected patients should receive trimethoprim-sulfamethoxazole prophylaxis (reduces PCP, toxoplasmosis, malaria, bacterial infections + mortality).\n\nIRIS: typically manifests ~2 weeks after ART initiation. Mild forms in one third of patients. Severe: expanding tuberculomas, worsening ARDS. Management: steroids (prednisolone 1.5 mg/kg/day × 2 weeks, then 0.75 mg/kg/day × 2 weeks) for severe cases. Rarely interrupt ART unless life-threatening.",
+    "Specific Considerations in Children": "Key differences between children and adults with TB:\n- HIV co-infection: rare in children, frequent in adults\n- Extrapulmonary TB: frequent in children (>30%) independent of HIV status; rare in adults (except HIV+)\n- TBM — seizures: frequent in children (~50%) vs rare in adults (~5%)\n- TBM — agitation/delirium: infrequent in children vs frequent in adults\n- Bacillary load: low/paucibacillary in children vs low-to-high in adults\n- Anti-TB treatment: 3 or 4 first-line drugs (children, drug-sensitive) vs 4 drugs (adults)\n- Pharmacokinetics: children metabolise anti-TB drugs faster — higher mg/kg doses required\n- Side effects: infrequent in children, frequent in adults",
+    "Infection Control and Preventing Spread of Infection": "M. tuberculosis spreads by airborne droplets that remain airborne for several hours. Early diagnosis and rapid implementation of airborne isolation is the most important prevention measure.\n\nIsolation: single room with negative pressure, air exchanged ≥6 times per hour.\n\nPersonal protective equipment:\n- N95 (FFP2): required for routine room entry\n- N98 (FFP3): required for aerosol-generating procedures (intubation, extubation, handling respiratory secretions)\n\nMechanically ventilated patients: closed suction systems and expiratory limb filters.\n\nDe-isolation: pragmatically after 2-week anti-TB course in drug-sensitive TB. Patients with drug-resistant TB, diabetes or immunosuppression may remain smear-positive longer — prolonged isolation required.\n\nBCG vaccine: decreases risk of TBM and disseminated TB; does NOT prevent primary infection or reactivation of latent pulmonary TB."
+  },
+  "questions": [
+    {
+      "id": "sftd3_a01",
+      "type": "A",
+      "set": 1,
+      "question": "A 58-year-old HIV-negative man with confirmed pulmonary tuberculosis develops progressive dyspnoea and meets Berlin criteria for severe ARDS (P/F ratio 85 mmHg). Non-invasive ventilation is initiated but fails despite optimal settings within 4 hours. What is the most appropriate next step?",
+      "options": [
+        "A: High-flow nasal oxygen at 60 L/min as a bridge to further assessment",
+        "B: Repeat NIV trial with a different mask interface and increased PEEP",
+        "C: Invasive mechanical ventilation with a lung-protective ventilation strategy",
+        "D: Awake prone positioning without intubation",
+        "E: Urgent referral for extracorporeal membrane oxygenation (ECMO)"
+      ],
+      "correct": 2,
+      "explanation": "NIV failure rates are high in tuberculosis-associated ARDS; once NIV fails, invasive mechanical ventilation with lung-protective strategy (low tidal volume, limited plateau pressure) is the correct next step — the same principles apply as in non-TB ARDS. ECMO may be considered for refractory ARDS only after a trial of invasive ventilation, making option E premature. Repeating NIV after documented failure (B) delays definitive airway management and risks catastrophic deterioration.",
+      "section": "Intensive Care Pearls",
+      "topic": "TB ARDS NIV failure invasive ventilation lung-protective",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sftd3_a02",
+      "type": "A",
+      "set": 1,
+      "question": "A 45-year-old HIV-positive man presents with 10 days of subacute fever, headache and vomiting. GCS is 15 but examination reveals a new left abducens nerve palsy. Lumbar puncture shows lymphocytic pleocytosis and elevated protein. According to the British Medical Research Council staging system, what is the correct grade of his tuberculous meningitis?",
+      "options": [
+        "A: Grade I — GCS 15 is the defining criterion regardless of focal neurological findings",
+        "B: Grade II — GCS 15 with a focal neurological deficit",
+        "C: Grade II — requires GCS between 14 and 10 as the primary criterion",
+        "D: Grade III — any cranial nerve palsy mandates the highest severity grade",
+        "E: Grade I — cranial nerve palsies are common in TBM and do not affect staging"
+      ],
+      "correct": 1,
+      "explanation": "BRC Grade I = GCS 15 without focal neurological deficit. Grade II = GCS 14–10 ± focal deficit, OR GCS 15 with a focal neurological deficit. Grade III = GCS <10 ± focal deficit. This patient has GCS 15 but a new cranial nerve palsy (focal deficit), correctly placing him in Grade II. Options A and E incorrectly disregard the focal deficit criterion; option C misapplies the GCS range as the sole determinant; option D overstages any focal finding to Grade III.",
+      "section": "Clinical Symptoms",
+      "topic": "TBM BRC grading GCS focal deficit abducens Grade I II III",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sftd3_a03",
+      "type": "A",
+      "set": 1,
+      "question": "A 49-year-old patient with an exudative lymphocytic pleural effusion is strongly suspected to have tuberculous pleurisy. Xpert MTB/RIF performed on pleural fluid returns a negative result. What is the most accurate clinical interpretation?",
+      "options": [
+        "A: TB pleurisy is effectively excluded given the near-perfect specificity of Xpert",
+        "B: A negative result does not exclude TB — Xpert sensitivity falls below 50% in pleural fluid, and further testing is required",
+        "C: Testing three additional pleural fluid samples will substantially improve sensitivity",
+        "D: The result confirms bacterial empyema as the more likely diagnosis",
+        "E: Xpert MTB/RIF has equivalent sensitivity in pleural fluid as in sputum samples"
+      ],
+      "correct": 1,
+      "explanation": "Xpert sensitivity falls below 50% when pleural or ascitic fluid is analysed, versus >98% in smear- and culture-positive pulmonary TB. A negative pleural fluid Xpert therefore cannot exclude TB pleurisy; pleural biopsy or adenosine deaminase (cut-off >60 IU/L) are needed. Testing additional samples does not substantially improve sensitivity. Option A confuses high specificity (99–100%, meaning a positive result is reliable) with sensitivity, which is low for pleural specimens.",
+      "section": "Diagnostic Work-up",
+      "topic": "Xpert MTB/RIF pleural fluid sensitivity below 50% ADA biopsy",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sftd3_a04",
+      "type": "A",
+      "set": 1,
+      "question": "A 31-year-old West African man (HIV-positive, CD4 38/mm³) is admitted to the ICU with 5 weeks of fever, night sweats and weight loss. He develops ARDS, septic shock and laboratory evidence of DIC. Chest X-ray shows a bilateral miliary pattern. Blood cultures are negative at 48 hours. Alongside supportive care, what is the single most important immediate therapeutic intervention?",
+      "options": [
+        "A: Escalate to broad-spectrum antibiotics and antifungal coverage pending cultures",
+        "B: Initiate empirical four-drug anti-tuberculosis therapy",
+        "C: Start antiretroviral therapy immediately to restore immune function",
+        "D: Administer high-dose intravenous corticosteroids for ARDS",
+        "E: Defer treatment until Xpert MTB/RIF on BAL confirms the diagnosis"
+      ],
+      "correct": 1,
+      "explanation": "In a patient with miliary pattern, ARDS, shock and CD4 <100/mm³ from an endemic region, disseminated TB is the most likely diagnosis. Early empirical anti-tuberculosis therapy is associated with improved survival and must not await microbiological confirmation. ART (option C) is indicated but should follow TB therapy initiation within 2 weeks — immediate concurrent ART risks severe IRIS and is not the primary step. Broad-spectrum antibiotics may be co-administered for bacterial co-infection but are not the primary intervention.",
+      "section": "Anti-tuberculosis Therapy",
+      "topic": "miliary TB empirical anti-TB therapy CD4 ART timing septic shock IRIS",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sftd3_a05",
+      "type": "A",
+      "set": 1,
+      "question": "A 37-year-old man with suspected TBM undergoes lumbar puncture: WBC 220/mm³ (90% lymphocytes), protein 3.8 g/L, glucose 1.4 mmol/L (serum glucose 5.6 mmol/L). On standing, the CSF forms a visible web-like protein precipitate. Which finding is MOST characteristic of TBM and most helpful in distinguishing it from viral meningitis?",
+      "options": [
+        "A: Lymphocytic pleocytosis with predominantly mononuclear cells",
+        "B: CSF protein concentration above 1 g/L",
+        "C: Formation of a spider's web clot on standing due to protein precipitation",
+        "D: CSF:serum glucose ratio below 0.33",
+        "E: Elevated lymphocyte count with complete absence of neutrophils"
+      ],
+      "correct": 2,
+      "explanation": "Formation of a 'spider's web clot' when CSF stands at room temperature is a classic, highly characteristic finding of TBM caused by high-protein precipitation. Lymphocytic pleocytosis (A, E) and low glucose (D) are non-specific and also seen in viral and cryptococcal meningitis. Protein elevation >1 g/L (B) is suggestive but not specific. The spider's web clot provides strong discriminatory support for TBM and is not a feature of viral meningitis.",
+      "section": "Diagnostic Work-up",
+      "topic": "TBM CSF spider web clot protein lymphocytes glucose viral meningitis",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sftd3_a06",
+      "type": "A",
+      "set": 1,
+      "question": "A 41-year-old HIV-negative patient with pulmonary TB is started on rifampicin-containing anti-tuberculosis treatment. He is simultaneously diagnosed with invasive pulmonary aspergillosis. Which statement best describes the clinically relevant drug interaction when selecting antifungal therapy?",
+      "options": [
+        "A: Rifampicin inhibits CYP450 enzymes, raising voriconazole levels and increasing neurotoxicity risk",
+        "B: Rifampicin markedly induces CYP450 enzymes, reducing voriconazole to potentially sub-therapeutic concentrations",
+        "C: When rifampicin and isoniazid are combined, isoniazid's CYP inhibition offsets rifampicin's induction, keeping voriconazole levels adequate",
+        "D: Fluconazole is a safe alternative as it is not metabolised by CYP enzymes and is unaffected by rifampicin",
+        "E: Voriconazole dosing should be doubled to overcome the drug interaction"
+      ],
+      "correct": 1,
+      "explanation": "Rifampicin is a potent CYP450 inducer that markedly reduces plasma levels of all azole antifungals including voriconazole, fluconazole and itraconazole — often to sub-therapeutic concentrations. Option A reverses the mechanism (rifampicin induces, does not inhibit). Option C is incorrect — when combined, rifampicin's inductive effects outweigh isoniazid's inhibitory effects. Option D is incorrect — fluconazole is also an azole substantially reduced by rifampicin's CYP induction.",
+      "section": "Anti-tuberculosis Therapy",
+      "topic": "rifampicin CYP induction voriconazole azoles sub-therapeutic aspergillosis",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sftd3_a07",
+      "type": "A",
+      "set": 1,
+      "question": "A 53-year-old man from Eastern Europe has confirmed MDR-TB (resistant to isoniazid and rifampicin). After 3 months of standard four-drug first-line therapy, sputum cultures remain positive and clinical condition is deteriorating. A trainee proposes adding moxifloxacin to the current failing regimen as a fifth drug. What is the most appropriate management approach?",
+      "options": [
+        "A: Add moxifloxacin to the existing regimen as a fifth drug to increase coverage",
+        "B: Add both moxifloxacin and linezolid to the failing regimen",
+        "C: Continue the current regimen for another 4 weeks while awaiting full susceptibility results",
+        "D: Replace the entire failing regimen with 4–5 second-line drugs to which the organism is susceptible",
+        "E: Switch immediately to fluoroquinolone monotherapy as a bridge pending resistance profiling"
+      ],
+      "correct": 3,
+      "explanation": "The key principle in MDR-TB is that individual drugs must NOT be added to a failing regimen — doing so risks rapid acquisition of additional resistance to those drugs. The entire regimen must be replaced with 4–5 drugs to which the pathogen is susceptible, guided by susceptibility testing and with infectious disease specialist input. Fluoroquinolone monotherapy (E) would rapidly select further resistance. Adding two drugs (B) is still insufficient; the complete failing regimen must be abandoned.",
+      "section": "Anti-tuberculosis Therapy",
+      "topic": "MDR-TB failing regimen replace not add second-line bedaquiline linezolid",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sftd3_a08",
+      "type": "A",
+      "set": 1,
+      "question": "A 52-year-old HIV-negative woman is admitted with BRC Grade II tuberculous meningitis confirmed by Xpert MTB/RIF on CSF. Anti-tuberculosis therapy is initiated. Which adjunctive agent has the strongest evidence for reducing mortality and long-term neurological sequelae in this patient?",
+      "options": [
+        "A: Prophylactic aspirin 150 mg/day to reduce thromboembolic stroke risk",
+        "B: Dexamethasone 0.4 mg/kg/day intravenously for 4 weeks with subsequent taper",
+        "C: High-dose intravenous methylprednisolone pulse therapy (1 g/day for 3 days)",
+        "D: Corticosteroids are contraindicated in TBM as they impair mycobacterial clearance",
+        "E: Steroid therapy benefits only HIV-positive patients; evidence is lacking in HIV-negative individuals"
+      ],
+      "correct": 1,
+      "explanation": "Adjunctive dexamethasone 0.4 mg/kg/day (or prednisolone 60 mg/day) reduces mortality and long-term sequelae in HIV-negative patients with TBM, supported by robust RCT evidence (Thwaites et al. 2004). Prophylactic aspirin 150 mg/day (option A) does reduce stroke risk and mortality in TBM, but the strongest overall evidence for mortality reduction is with dexamethasone. Option E states the opposite of the evidence: benefit is most clearly established in HIV-negative patients; data in HIV-positive patients remain controversial.",
+      "section": "Adjunctive Therapies",
+      "topic": "dexamethasone TBM HIV-negative mortality evidence aspirin stroke",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sftd3_a09",
+      "type": "A",
+      "set": 1,
+      "question": "A 66-year-old with advanced cavitary pulmonary tuberculosis develops sudden massive haemoptysis (>400 mL within 30 minutes). Oxygen saturation is 79% on 15 L/min non-rebreather mask. What is the most appropriate FIRST management priority?",
+      "options": [
+        "A: Urgent CT pulmonary angiography to localise the bleeding source",
+        "B: Emergency bronchial artery embolisation",
+        "C: Airway control with endotracheal intubation and invasive mechanical ventilation",
+        "D: Intravenous tranexamic acid and antitussive (opiate) administration",
+        "E: Immediate bronchoscopy with topical diluted epinephrine application"
+      ],
+      "correct": 2,
+      "explanation": "In massive haemoptysis with life-threatening hypoxaemia, the first priority is always airway control and adequate gas exchange — typically requiring endotracheal intubation and invasive mechanical ventilation. Only once the airway is secured can definitive interventions (CT angiography, bronchial artery embolisation, bronchoscopy) be safely performed. Tranexamic acid (D) and bronchoscopy (E) are useful adjuncts but not the first priority in an imminently compromised patient. Bronchial artery embolisation (B) is highly effective when a bleeding source is identified on CT, but correct sequencing demands airway management first.",
+      "section": "Intensive Care Pearls",
+      "topic": "pulmonary haemorrhage airway first intubation embolisation tranexamic acid sequencing",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sftd3_a10",
+      "type": "A",
+      "set": 1,
+      "question": "A 33-year-old HIV-positive man (CD4 count 72/mm³) is admitted with pulmonary tuberculosis and has never received antiretroviral therapy. Anti-tuberculosis therapy is initiated and tolerated. When should ART optimally be started?",
+      "options": [
+        "A: Simultaneously with anti-tuberculosis therapy on day one to minimise HIV progression",
+        "B: Within 2 weeks of starting and tolerating anti-tuberculosis therapy",
+        "C: After 8 weeks of anti-tuberculosis therapy to reduce IRIS risk",
+        "D: After completion of the 2-month intensive phase of anti-tuberculosis therapy",
+        "E: After confirmed sputum culture conversion to minimise drug interactions"
+      ],
+      "correct": 1,
+      "explanation": "ART should ideally be initiated within 2 weeks of commencing and tolerating anti-tuberculosis therapy in HIV-positive patients with pulmonary TB — this reduces mortality, all-cause morbidity and recurrence. The 8-week delay (option C) applies specifically and exclusively to TB meningitis, where early ART is associated with excess mortality from CNS-IRIS. Delaying until the end of the intensive phase (D) or culture conversion (E) unnecessarily prolongs immunosuppression, especially dangerous at CD4 <100/mm³.",
+      "section": "Management of HIV Co-infected Patients",
+      "topic": "ART timing pulmonary TB HIV 2 weeks TBM exception 8 weeks IRIS",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sftd3_a11",
+      "type": "A",
+      "set": 1,
+      "question": "For which of the following patients does the WHO strongly recommend urine lipoarabinomannan (LAM) lateral flow assay as a point-of-care TB screening test?",
+      "options": [
+        "A: An HIV-negative 55-year-old from a TB-endemic country admitted with suspected pneumonia",
+        "B: An HIV-positive outpatient with CD4 count 340/mm³ presenting with a 6-week cough",
+        "C: An HIV-positive 40-year-old with CD4 count 88/mm³ who is seriously ill and hospitalised",
+        "D: Any hospitalised patient from a high-incidence TB country, regardless of HIV status",
+        "E: An HIV-positive 38-year-old with CD4 count 150/mm³ detected incidentally on screening"
+      ],
+      "correct": 2,
+      "explanation": "WHO strongly recommends urine LAM assay for HIV-positive adults/children with CD4 <100/mm³, and for those who are seriously ill and hospitalised regardless of clinical TB symptoms. Option C meets both criteria (CD4 88/mm³ and seriously ill). Options B (CD4 340) and E (CD4 150) exceed the CD4 threshold and are not described as seriously ill. Option A (HIV-negative) is not an indication. Option D extends the recommendation too broadly — LAM sensitivity is substantially lower without HIV-associated immunosuppression.",
+      "section": "Diagnostic Work-up",
+      "topic": "LAM urine assay WHO CD4 below 100 seriously ill hospitalised HIV",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sftd3_a12",
+      "type": "A",
+      "set": 1,
+      "question": "A 47-year-old patient with tuberculous meningitis develops communicating hydrocephalus on CT. Conservative management with acetazolamide fails to achieve clinical improvement after 4 days. What is the most appropriate next step?",
+      "options": [
+        "A: Insertion of a permanent ventriculoperitoneal shunt",
+        "B: Increase dexamethasone dose to reduce CSF production",
+        "C: Repeated lumbar puncture drainage or placement of an external ventricular drain",
+        "D: Intravenous mannitol infusion to acutely lower intracranial pressure",
+        "E: Add furosemide 40 mg daily to the acetazolamide"
+      ],
+      "correct": 2,
+      "explanation": "When conservative management of communicating hydrocephalus (acetazolamide 100 mg/kg/day) fails, repeated lumbar drainage or placement of an external ventricular drain (EVD) is required — this is necessary in approximately one third of TBM cases. EVD allows both monitoring and drainage of CSF. VP shunting (option A) may be appropriate for chronic or refractory hydrocephalus but is not the immediate step when acute conservative therapy fails. Mannitol (D) addresses transtentorial herniation, not communicating hydrocephalus.",
+      "section": "Intensive Care Pearls",
+      "topic": "TBM hydrocephalus communicating acetazolamide EVD lumbar drainage one third",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sftd3_a13",
+      "type": "A",
+      "set": 1,
+      "question": "A 73-year-old with confirmed drug-sensitive tuberculosis develops oliguric acute kidney injury (eGFR 8 mL/min/1.73m²). Which of the following first-line anti-tuberculosis drugs does NOT require dose adjustment in severe renal impairment?",
+      "options": [
+        "A: Ethambutol",
+        "B: Pyrazinamide",
+        "C: Ethambutol and pyrazinamide",
+        "D: Rifampicin",
+        "E: All four first-line anti-tuberculosis drugs require dose reduction in severe renal failure"
+      ],
+      "correct": 3,
+      "explanation": "Rifampicin does NOT require dose adjustment in renal failure — nor does isoniazid. In contrast, ethambutol and pyrazinamide are renally cleared and require dose adjustment or extended intervals in severe renal impairment to prevent toxicity: ethambutol accumulation causes retrobulbar neuritis, and pyrazinamide accumulation increases DILI and arthritis risk. Option E is incorrect — rifampicin and isoniazid are given at standard doses regardless of renal function.",
+      "section": "Anti-tuberculosis Therapy",
+      "topic": "anti-TB drugs renal failure NOT dose adjustment rifampicin isoniazid ethambutol pyrazinamide",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sftd3_a14",
+      "type": "A",
+      "set": 1,
+      "question": "A patient with confirmed pulmonary tuberculosis requires emergency endotracheal intubation for acute respiratory failure. Which respiratory protection measure is most appropriate for the clinician performing laryngoscopy?",
+      "options": [
+        "A: Standard surgical mask with protective goggles",
+        "B: N95 (FFP2) filtering facepiece respirator",
+        "C: N95 (FFP2) respirator with an added face shield",
+        "D: N98 (FFP3) filtering facepiece respirator",
+        "E: A powered air-purifying respirator (PAPR) is the only acceptable device during intubation"
+      ],
+      "correct": 3,
+      "explanation": "N95 (FFP2) masks are required for routine room entry in TB patients. However, N98 (FFP3) masks must be worn during all aerosol-generating procedures — including intubation, extubation and handling of respiratory secretions — due to the high concentration of infectious aerosols generated. Adding a face shield to an FFP2 (option C) provides splash protection but does not upgrade its respiratory filtering capacity to FFP3. PAPR (option E) provides equivalent or superior protection to FFP3 but is not the only acceptable device.",
+      "section": "Infection Control and Preventing Spread of Infection",
+      "topic": "TB infection control N98 FFP3 intubation aerosol-generating N95 FFP2 routine",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sftd3_a15",
+      "type": "A",
+      "set": 1,
+      "question": "Which of the following is NOT consistent with the recognised differences between children and adults presenting with tuberculous meningitis?",
+      "options": [
+        "A: Seizures occur in approximately 50% of children compared with approximately 5% of adults with TBM",
+        "B: Agitation and delirium are more common in children than in adults with TBM",
+        "C: Extrapulmonary tuberculosis occurs in more than 30% of children, independent of HIV status",
+        "D: Children metabolise anti-tuberculosis drugs faster and require higher weight-based doses",
+        "E: Children have a lower bacillary load in sputum (paucibacillary) than adults"
+      ],
+      "correct": 1,
+      "explanation": "Agitation and delirium are infrequent in children with TBM but frequent in adults — making option B incorrect. The remaining options correctly describe real differences: seizures are approximately 10-fold more common in children (~50%) than adults (~5%); extrapulmonary TB affects >30% of children regardless of HIV status; children metabolise anti-TB drugs faster and require higher per-kg doses; and children are paucibacillary with lower sputum bacillary load.",
+      "section": "Specific Considerations in Children",
+      "topic": "TBM children adults agitation delirium seizures extrapulmonary paucibacillary NOT",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sftd3_k01",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding risk factors for developing tuberculosis disease from Mycobacterium tuberculosis infection:",
+      "statements": [
+        {"label": "A", "text": "HIV infection is a major risk factor for progression from latent TB infection to active TB disease.", "correct": true},
+        {"label": "B", "text": "Pregnancy and the post-partum period are recognised risk factors for developing TB disease.", "correct": true},
+        {"label": "C", "text": "When exposed to TB-containing droplets, 5–10% of individuals become infected with Mycobacterium tuberculosis.", "correct": false},
+        {"label": "D", "text": "Silicosis is a recognised medical condition that increases risk of progression to TB disease.", "correct": true}
+      ],
+      "explanation": "A, B, D: TRUE — HIV, pregnancy/post-partum and silicosis are all explicitly listed as risk factors. C: FALSE — on exposure to infected droplets, 20–25% of individuals become infected; the 5–10% figure refers to the proportion of already-infected individuals who subsequently develop TB disease during their lifetime — a critical distinction.",
+      "section": "Introduction",
+      "topic": "TB risk factors HIV silicosis pregnancy 20-25% exposed 5-10% disease",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sftd3_k02",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the Xpert MTB/RIF nucleic acid amplification test in the diagnosis of tuberculosis:",
+      "statements": [
+        {"label": "A", "text": "Results from unprocessed samples are available within less than 2 hours.", "correct": true},
+        {"label": "B", "text": "Sensitivity exceeds 98% in smear- and culture-positive pulmonary tuberculosis.", "correct": true},
+        {"label": "C", "text": "The test simultaneously detects genomic sequences conferring resistance to both rifampicin and isoniazid.", "correct": false},
+        {"label": "D", "text": "Sensitivity falls below 50% when pleural or ascitic fluid is analysed.", "correct": true}
+      ],
+      "explanation": "A, B, D: TRUE — key diagnostic characteristics of Xpert MTB/RIF. C: FALSE — the test detects rifampicin resistance only (via rpoB gene mutations); isoniazid resistance detection requires separate low-complexity NAAT testing. This is a classic near-miss — candidates may assume both major first-line resistances are detected simultaneously.",
+      "section": "Diagnostic Work-up",
+      "topic": "Xpert MTB/RIF sensitivity specificity rifampicin resistance only isoniazid pleural",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sftd3_k03",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the adverse effects and pharmacological properties of first-line anti-tuberculosis drugs:",
+      "statements": [
+        {"label": "A", "text": "Both rifampicin and isoniazid can be administered at standard doses in patients with severe renal impairment without dose adjustment.", "correct": true},
+        {"label": "B", "text": "Isoniazid-induced peripheral neuropathy can be prevented by co-administration of pyridoxine.", "correct": true},
+        {"label": "C", "text": "The first clinical sign of drug-induced liver injury from anti-tuberculosis treatment is typically an asymptomatic rise in liver enzymes greater than 3 times the normal value.", "correct": true},
+        {"label": "D", "text": "Ethambutol is the most common causative agent of drug-induced liver injury in anti-tuberculosis treatment.", "correct": false}
+      ],
+      "explanation": "A: TRUE — rifampicin and isoniazid require no dose adjustment in renal failure; ethambutol and pyrazinamide do. B: TRUE — pyridoxine 10–25 mg/day prevents peripheral neuropathy. C: TRUE — asymptomatic liver enzyme elevation >3× ULN is the early warning sign. D: FALSE — DILI is primarily caused by rifampicin, isoniazid and/or pyrazinamide; ethambutol can contribute but is not the leading causative agent.",
+      "section": "Anti-tuberculosis Therapy",
+      "topic": "anti-TB DILI rifampicin isoniazid pyrazinamide pyridoxine renal adjustment",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sftd3_k04",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding adjunctive therapies in the management of critical illness from tuberculosis disease:",
+      "statements": [
+        {"label": "A", "text": "Dexamethasone 0.4 mg/kg/day reduces mortality and long-term sequelae in HIV-negative patients with tuberculous meningitis.", "correct": true},
+        {"label": "B", "text": "Steroid therapy has a well-established mortality benefit in patients with pulmonary tuberculosis without CNS or pericardial involvement.", "correct": false},
+        {"label": "C", "text": "Rifampicin increases cortisol metabolism and may precipitate adrenal insufficiency.", "correct": true},
+        {"label": "D", "text": "Prophylactic aspirin 150 mg/day reduces both stroke risk and mortality in patients with tuberculous meningitis.", "correct": true}
+      ],
+      "explanation": "A, C, D: TRUE — dexamethasone benefits HIV-negative TBM and pericarditis; rifampicin-driven CYP induction accelerates cortisol clearance; aspirin specifically reduces stroke and mortality in TBM. B: FALSE — steroid benefit for pulmonary TB without CNS/pericardial involvement remains controversial; the established indications are TBM and pericarditis only.",
+      "section": "Adjunctive Therapies",
+      "topic": "dexamethasone TBM pericarditis steroids pulmonary not established aspirin rifampicin cortisol",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sftd3_k05",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the complications of tuberculous meningitis encountered in intensive care:",
+      "statements": [
+        {"label": "A", "text": "Hydrocephalus complicating TBM is communicating in approximately 80% of cases.", "correct": true},
+        {"label": "B", "text": "Stroke occurs in up to two-thirds of patients with TBM, predominantly affecting the basal ganglia.", "correct": true},
+        {"label": "C", "text": "Seizures occur with equal frequency in children and adults with tuberculous meningitis.", "correct": false},
+        {"label": "D", "text": "The syndrome of inappropriate antidiuretic hormone secretion (SIADH) is a recognised cause of sodium disturbance in TBM.", "correct": true}
+      ],
+      "explanation": "A, B, D: TRUE — communicating hydrocephalus accounts for ~80% of TBM-related hydrocephalus; stroke (predominantly basal ganglia) occurs in up to two-thirds; SIADH is an explicitly listed complication. C: FALSE — seizures are far more common in children (~50%) than in adults (~5%) with TBM — a key paediatric distinction.",
+      "section": "Intensive Care Pearls",
+      "topic": "TBM complications hydrocephalus stroke basal ganglia SIADH seizures children adults",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sftd3_k06",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding infection control measures for patients with pulmonary tuberculosis in the ICU:",
+      "statements": [
+        {"label": "A", "text": "Isolation in a single room with air under negative pressure, exchanged at least 6 times per hour, is recommended.", "correct": true},
+        {"label": "B", "text": "N95 (FFP2) masks provide sufficient respiratory protection during endotracheal intubation of a TB patient.", "correct": false},
+        {"label": "C", "text": "Pragmatic de-isolation may be considered after a 2-week course of effective anti-tuberculosis therapy in drug-sensitive TB.", "correct": true},
+        {"label": "D", "text": "Patients with drug-resistant TB or co-existent immunosuppression may require prolonged isolation due to persistent sputum smear positivity.", "correct": true}
+      ],
+      "explanation": "A, C, D: TRUE — negative-pressure single room with ≥6 air changes/hour; 2-week de-isolation threshold for drug-sensitive TB in standard-risk patients; drug-resistant/immunocompromised patients may remain smear-positive longer. B: FALSE — N95 (FFP2) is required for routine room entry only; N98 (FFP3) is mandatory for aerosol-generating procedures including intubation and extubation.",
+      "section": "Infection Control and Preventing Spread of Infection",
+      "topic": "TB infection control FFP2 FFP3 negative pressure 6 air changes de-isolation MDR",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sftd3_k07",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the management of HIV and tuberculosis co-infection in critically ill patients:",
+      "statements": [
+        {"label": "A", "text": "In HIV-positive patients with pulmonary TB, ART should ideally be initiated within 2 weeks of starting and tolerating anti-tuberculosis therapy.", "correct": true},
+        {"label": "B", "text": "In HIV-positive patients with TB meningitis, ART should be initiated within 2 weeks to minimise the risk of early mortality.", "correct": false},
+        {"label": "C", "text": "All HIV/TB co-infected patients should receive trimethoprim-sulfamethoxazole prophylaxis.", "correct": true},
+        {"label": "D", "text": "Immune reconstitution inflammatory syndrome (IRIS) typically manifests approximately 2 weeks after ART initiation.", "correct": true}
+      ],
+      "explanation": "A, C, D: TRUE — pulmonary TB/HIV requires ART within 2 weeks; TMP-SMX prophylaxis is universal in co-infection; IRIS onset at ~2 weeks is characteristic. B: FALSE — TB meningitis is the critical exception: ART should be delayed until 8 weeks after starting anti-tuberculosis drugs, as early initiation is associated with excess mortality from CNS-IRIS.",
+      "section": "Management of HIV Co-infected Patients",
+      "topic": "ART timing TBM 8 weeks pulmonary 2 weeks TMP-SMX IRIS exception",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sftd3_k08",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the clinical features and diagnosis of miliary tuberculosis in critically ill patients:",
+      "statements": [
+        {"label": "A", "text": "Miliary tuberculosis results from haematogenous dissemination, most commonly seeding the lungs, liver, spleen, meninges and kidneys.", "correct": true},
+        {"label": "B", "text": "Procalcitonin serum levels are typically elevated in tuberculosis disease and can help distinguish miliary TB from bacterial sepsis.", "correct": false},
+        {"label": "C", "text": "Choroidal tubercles on fundoscopy provide valuable diagnostic clues in patients with suspected miliary tuberculosis.", "correct": true},
+        {"label": "D", "text": "ARDS, disseminated intravascular coagulation and multi-organ dysfunction are recognised presentations of miliary tuberculosis.", "correct": true}
+      ],
+      "explanation": "A, C, D: TRUE — miliary TB involves multi-organ haematogenous seeding; choroidal tubercles are a distinctive finding; ARDS/DIC/MOF are well-recognised presentations. B: FALSE — PCT is typically NOT elevated in TB disease; a normal or low PCT may instead support a diagnosis of bacterial co-infection rather than primary TB — the reverse of the statement.",
+      "section": "Clinical Symptoms",
+      "topic": "miliary TB organs ARDS DIC choroidal tubercles PCT not elevated bacterial",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sftd3_k09",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding drug-induced liver injury (DILI) from anti-tuberculosis drugs:",
+      "statements": [
+        {"label": "A", "text": "DILI from anti-tuberculosis drugs occurs at an age-dependent incidence of 3–13%.", "correct": true},
+        {"label": "B", "text": "Rifampicin, isoniazid and pyrazinamide are the main causative agents of anti-tuberculosis DILI.", "correct": true},
+        {"label": "C", "text": "Concurrent administration of valproic acid or paracetamol increases the risk of anti-tuberculosis DILI.", "correct": true},
+        {"label": "D", "text": "Anti-tuberculosis DILI typically presents with an acute rise in serum creatinine as the earliest laboratory finding.", "correct": false}
+      ],
+      "explanation": "A, B, C: TRUE — age-dependent incidence of 3–13%; rifampicin, isoniazid and pyrazinamide are primary triggers; valproic acid and paracetamol are explicitly listed as co-hepatotoxins that amplify risk. D: FALSE — the first sign of anti-TB DILI is a rise in liver enzymes >3× ULN, not serum creatinine; creatinine reflects renal rather than hepatic injury.",
+      "section": "Anti-tuberculosis Therapy",
+      "topic": "anti-TB DILI incidence 3-13% rifampicin isoniazid valproic acid liver enzymes",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sftd3_k10",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the pharmacokinetics and drug interactions of anti-tuberculosis treatment in critically ill patients:",
+      "statements": [
+        {"label": "A", "text": "In critically ill patients with impaired gastrointestinal function, intravenous anti-tuberculosis drugs should be preferred until gut function is restored.", "correct": true},
+        {"label": "B", "text": "Rifampicin inhibits CYP450 enzymes, while isoniazid induces them.", "correct": false},
+        {"label": "C", "text": "When rifampicin and isoniazid are co-administered, the net CYP effect is predominantly inductive.", "correct": true},
+        {"label": "D", "text": "Rifampicin can reduce blood levels of moxifloxacin when it is used as a second-line anti-tuberculosis drug.", "correct": true}
+      ],
+      "explanation": "A, C, D: TRUE — IV route preferred in critical illness with GI dysfunction; the combined net CYP effect is inductive (rifampicin dominates); rifampicin's induction reduces moxifloxacin levels — relevant when moxifloxacin is part of an MDR regimen. B: FALSE — the mechanisms are reversed: rifampicin INDUCES CYP (reducing drug levels), while isoniazid INHIBITS CYP (increasing drug levels). This reversal is a classic EDIC exam trap.",
+      "section": "Anti-tuberculosis Therapy",
+      "topic": "rifampicin CYP inducer isoniazid inhibitor IV critical illness moxifloxacin",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}

@@ -1,0 +1,467 @@
+[
+  {
+    "id": "arr2_a01",
+    "type": "A",
+    "set": 1,
+    "question": "A patient in the ICU is in a regular cardiac rhythm. On the ECG monitor, the distance between two consecutive QRS complexes spans 4 large squares. What is the heart rate and how is it calculated?",
+    "options": [
+      "A: 60 bpm (300 ÷ 5 large squares)",
+      "B: 75 bpm (300 ÷ 4 large squares)",
+      "C: 100 bpm (300 ÷ 3 large squares)",
+      "D: 150 bpm (300 ÷ 2 large squares)",
+      "E: 80 bpm (1500 ÷ 4 small squares)"
+    ],
+    "correct": 1,
+    "explanation": "Heart rate in a regular rhythm = 300 ÷ number of large squares between QRS complexes. With 4 large squares: 300 ÷ 4 = 75 bpm. Alternatively, 1500 ÷ number of small squares. The near-miss E uses the '1500' formula but divides by 4 small squares instead of large squares — 1500 ÷ 4 = 375 bpm, clearly wrong. For irregular rhythms, count QRS complexes over 30 large squares (10 seconds) and multiply by 6.",
+    "section": "Cardiovascular",
+    "topic": "heart-rate-calculation ECG large-squares 300-rule irregular-rhythm",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "arr2_a02",
+    "type": "A",
+    "set": 1,
+    "question": "A 71-year-old woman in the cardiac ICU has a regular narrow complex tachycardia at exactly 150 bpm. No clear P waves are visible in lead II. The team assumes sinus tachycardia. What diagnosis should be urgently excluded?",
+    "options": [
+      "A: AVNRT — this always occurs at exactly 150 bpm",
+      "B: Accelerated junctional rhythm from digoxin toxicity",
+      "C: Atrial flutter with 2:1 AV block — atrial rate 300 bpm, ventricular rate 150 bpm",
+      "D: Ventricular tachycardia with aberrant conduction producing a narrow complex",
+      "E: Multifocal atrial tachycardia at 150 bpm"
+    ],
+    "correct": 2,
+    "explanation": "Atrial flutter has a fixed atrial rate of ~300 bpm, producing a sawtooth baseline. With 2:1 AV conduction, the ventricular rate is exactly 150 bpm — frequently without clearly visible flutter waves (buried within QRS/T). The PACT module explicitly warns that atrial flutter with 2:1 block 'is sometimes confused with sinus rhythm.' A regular rate that is a simple division of 300 (150, 100, 75 bpm) should always prompt consideration of flutter. The near-miss A is incorrect: AVNRT occurs at various rates (150-250 bpm) and is not fixed at 150.",
+    "section": "Cardiovascular",
+    "topic": "atrial-flutter 2:1-block ventricular-rate-150 sawtooth sinus-tachycardia-mimic",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "arr2_a03",
+    "type": "A",
+    "set": 1,
+    "question": "A 77-year-old man on long-term digoxin therapy is admitted with nausea, visual disturbances (yellow halos) and a junctional tachycardia. Serum K+ is 2.9 mmol/L and Mg2+ is 0.55 mmol/L. What is the primary mechanism by which digitalis toxicity causes arrhythmias?",
+    "options": [
+      "A: Direct block of potassium channels, shortening the action potential duration and causing early repolarisation",
+      "B: Inhibition of Na+/K+ ATPase → intracellular Na+ accumulation → altered Na+/Ca2+ exchange → intracellular Ca2+ overload → triggered activity (early afterdepolarisations)",
+      "C: Beta-adrenergic receptor activation, increasing phase 4 automaticity throughout the conducting system",
+      "D: L-type calcium channel blockade, reducing conduction velocity in the AV node",
+      "E: Enhanced phase 4 depolarisation exclusively in the SA node, causing ectopic pacemaker activity"
+    ],
+    "correct": 1,
+    "explanation": "Digitalis inhibits Na+/K+ ATPase → Na+ accumulates intracellularly → Na+/Ca2+ exchanger compensates by extruding Na+ while allowing more Ca2+ entry → intracellular Ca2+ overload → early afterdepolarisations (triggered activity). Common digitalis arrhythmias: atrial tachycardia, junctional tachycardia, VT, plus SA and AV block. This patient has two major precipitants: hypokalaemia (most important) and hypomagnesaemia. Treatment: stop digoxin, bedrest (avoid sympathetic stimulation), correct K+/Mg2+; if haemodynamically unstable, phenytoin or digoxin-specific antibodies.",
+    "section": "Cardiovascular",
+    "topic": "digitalis-toxicity Na-K-ATPase afterdepolarisations Ca-overload hypokalaemia",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "arr2_a04",
+    "type": "A",
+    "set": 1,
+    "question": "A 55-year-old woman on amiodarone for paroxysmal AF presents with recurrent syncope. ECG shows QTc 570 ms and runs of polymorphic VT with a twisting morphology around the isoelectric line. Amiodarone is stopped and electrolytes corrected. What is the most appropriate immediate pharmacological intervention?",
+    "options": [
+      "A: IV lidocaine 100 mg bolus — Class Ib agent that shortens action potential duration",
+      "B: IV sotalol — Class III agent to stabilise the ventricular myocardium",
+      "C: IV magnesium 4-8 mmol by slow bolus over 5 minutes",
+      "D: IV amiodarone re-loading — to re-establish anti-arrhythmic effect",
+      "E: Oral flecainide — Class Ic agent as an alternative anti-arrhythmic"
+    ],
+    "correct": 2,
+    "explanation": "This is drug-induced Torsade de Pointes (TdP), caused by amiodarone-induced QT prolongation → early afterdepolarisations. First-line treatment is IV magnesium 4-8 mmol by slow bolus over 5 minutes, even in patients with normal serum magnesium levels. Amiodarone (D) and sotalol (B) are Class III agents that further prolong the QT — they are contraindicated. Flecainide (E) is a Class Ic agent that also prolongs APD — contraindicated. If IV Mg2+ fails, isoproterenol or overdrive ventricular pacing (to increase heart rate and shorten QT) are next steps.",
+    "section": "Cardiovascular",
+    "topic": "Torsade-de-Pointes TdP IV-magnesium amiodarone QT-prolongation EAD treatment",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "arr2_a05",
+    "type": "A",
+    "set": 1,
+    "question": "Which of the following arrhythmias does NOT typically arise through a re-entry mechanism?",
+    "options": [
+      "A: Monomorphic VT in a patient with previous anterior myocardial infarction",
+      "B: Atrial flutter",
+      "C: AV nodal re-entrant tachycardia (AVNRT)",
+      "D: Automatic atrial tachycardia",
+      "E: Atrioventricular re-entrant tachycardia (AVRT) in Wolff-Parkinson-White syndrome"
+    ],
+    "correct": 3,
+    "explanation": "Automatic atrial tachycardia arises from enhanced phase 4 depolarisation in an ectopic atrial focus — a mechanism of abnormal automaticity, not re-entry. The PACT module specifically notes that 'some automatic arrhythmias, such as automatic atrial tachycardia, require no specific stimulus for initiation and may be persistent.' Re-entry is responsible for the other four: VT in ischaemic cardiomyopathy (peri-infarct scar circuit), atrial flutter (macro-re-entry circuit), AVNRT (dual AV nodal pathways), and AVRT in WPW (accessory pathway completes the re-entry circuit).",
+    "section": "Cardiovascular",
+    "topic": "re-entry automaticity automatic-atrial-tachycardia AVNRT atrial-flutter WPW mechanisms",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "arr2_a06",
+    "type": "A",
+    "set": 1,
+    "question": "An unconscious patient with complete AV block is receiving transcutaneous pacing at 80 bpm. The ECG shows pacing spikes followed by broad QRS complexes at the set rate. The nurse cannot reliably palpate a radial pulse. What is the most appropriate method to confirm haemodynamic efficacy of pacing?",
+    "options": [
+      "A: Ask the patient to squeeze a hand — voluntary movement confirms cerebral perfusion",
+      "B: Measure non-invasive blood pressure — a reading confirms cardiac output",
+      "C: Confirm using the invasive arterial line waveform or Doppler monitoring",
+      "D: Assess capillary refill time — <2 seconds confirms adequate perfusion",
+      "E: Observe improvement in oxygen saturation — SpO2 rise confirms effective pacing"
+    ],
+    "correct": 2,
+    "explanation": "The PACT module explicitly addresses this: during transcutaneous pacing, 'prominent muscle twitches in the unconscious patient may make palpation of the pulse difficult — confirm efficacy using intra-arterial waveform tracing or Doppler monitoring.' External pacing current causes visible skeletal muscle contractions that preclude reliable pulse palpation. An arterial line waveform directly represents cardiac mechanical activity and is the definitive bedside method. Non-invasive BP cuff (B) inflates intermittently, takes time, and can be unreliable in low-output states.",
+    "section": "Cardiovascular",
+    "topic": "transcutaneous-pacing efficacy arterial-line Doppler muscle-twitches pulse-palpation",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "arr2_a07",
+    "type": "A",
+    "set": 1,
+    "question": "Which of the following statements about temporary transvenous pacing thresholds is INCORRECT?",
+    "options": [
+      "A: Pacing thresholds should be checked at the time of insertion and verified by chest radiograph and 12-lead ECG",
+      "B: Pacing thresholds should be checked daily after initial wire insertion",
+      "C: Pacemaker output is typically set at three times the threshold value",
+      "D: Pacing thresholds decrease significantly following cardiac and thoracic surgery, facilitating easier capture",
+      "E: Lead displacement — either macro or micro — is a recognised cause of rising pacing threshold and failure to capture"
+    ],
+    "correct": 3,
+    "explanation": "Pacing thresholds INCREASE significantly after cardiac and thoracic surgery — not decrease. The PACT module specifically warns of this. Causes include increased intrathoracic air (pneumothorax), pericardial effusion, myocardial ischaemia and electrolyte disturbances — all of which impede current delivery to the myocardium. All other statements are correct: thresholds checked at insertion (A), daily thereafter (B), output set at 3× threshold (C), and lead displacement as a cause of threshold rise (E). Failing to anticipate higher post-surgical thresholds can lead to pacing failure.",
+    "section": "Cardiovascular",
+    "topic": "pacing-threshold cardiac-surgery increases daily-check output 3x-threshold lead-displacement",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "arr2_a08",
+    "type": "A",
+    "set": 1,
+    "question": "A patient with complete AV block has a temporary transvenous pacing wire correctly positioned in the right ventricular apex with confirmed capture. What QRS morphology would be expected on the 12-lead ECG?",
+    "options": [
+      "A: Right bundle branch block (RBBB) pattern — since pacing originates in the right ventricle",
+      "B: Left bundle branch block (LBBB) pattern — ventricular activation begins in the RV and spreads toward the LV via slow myocardium-to-myocardium conduction",
+      "C: Normal narrow QRS — the His-Purkinje system conducts the paced impulse normally",
+      "D: Delta wave with short PR interval, as in Wolff-Parkinson-White syndrome",
+      "E: Variable QRS morphology depending on the underlying atrial rhythm"
+    ],
+    "correct": 1,
+    "explanation": "RV apical pacing initiates ventricular depolarisation from the right ventricle. Because the normal His-Purkinje system is bypassed, activation spreads via slow cell-to-cell conduction from RV toward LV — producing LBBB morphology: broad QRS, negative in V1, positive in lateral leads (I, aVL, V5-V6). The PACT module explicitly states: 'the QRS complexes have the left bundle branch block configuration.' RBBB (A) would occur with pacing from the LV. Narrow QRS (C) would only occur if the pacing electrode inadvertently captured the His bundle.",
+    "section": "Cardiovascular",
+    "topic": "RV-pacing LBBB-morphology ventricular-pacing 12-lead QRS His-Purkinje-bypass",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "arr2_a09",
+    "type": "A",
+    "set": 1,
+    "question": "A patient with severe burns is in the ICU with recurrent runs of AF despite rate control. All measured serum electrolytes are within normal ranges. Based on the PACT module's clinical teaching, what additional intervention should be considered?",
+    "options": [
+      "A: Immediate DC cardioversion — AF in burns is always haemodynamically destabilising",
+      "B: IV amiodarone infusion as the most potent available antiarrhythmic",
+      "C: IV magnesium empirically, as serum magnesium levels do not reliably reflect tissue stores",
+      "D: Class Ic antiarrhythmic (flecainide) for rhythm control",
+      "E: Right heart catheterisation to assess filling pressures driving the AF"
+    ],
+    "correct": 2,
+    "explanation": "The PACT module describes exactly this scenario: a burns patient with recurrent AF and normal measured electrolytes who responded well to 4 mmol IV magnesium. The key teaching: magnesium deficiency is common in ICU patients, but blood levels do not reflect tissue magnesium stores — so generous replacement/therapy may be useful even with normal serum levels. Class Ic agents (D) are proarrhythmic and inappropriate here. The PACT module also notes: AF responds to altered blood volume status, so fluid balance should be optimised concurrently.",
+    "section": "Cardiovascular",
+    "topic": "magnesium deficiency ICU burns AF serum-vs-tissue empirical-replacement",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "arr2_a10",
+    "type": "A",
+    "set": 1,
+    "question": "A patient has atrial flutter with an atrial rate of 300 bpm (ventricular rate 150 bpm) and a temporary transvenous pacemaker in situ. The team decides to attempt overdrive pacing (antitachycardia pacing) to terminate the flutter. At what rate should overdrive pacing be initiated?",
+    "options": [
+      "A: 150 bpm — matching the ventricular rate to entrain the ventricle",
+      "B: 360-390 bpm — 20-30% faster than the atrial flutter rate of 300 bpm",
+      "C: 300 bpm — matching the atrial rate to suppress the flutter circuit",
+      "D: 200 bpm — midway between atrial and ventricular rates",
+      "E: 500 bpm — the maximum rate required to penetrate the refractory period"
+    ],
+    "correct": 1,
+    "explanation": "Antitachycardia pacing (ATP)/overdrive pacing requires a rate 20-30% faster than the tachyarrhythmia to capture the re-entrant circuit and terminate the arrhythmia. For atrial flutter at 300 bpm: 300 × 1.25 = 375 bpm (range 360-390). ATP works by entering the re-entry circuit, terminating the wavefront, and leaving the circuit refractory. Critical caveat: ATP may terminate, reinitiate or accelerate the tachyarrhythmia — the risk of fibrillation increases with rate and duration of ATP. A defibrillator must be immediately available.",
+    "section": "Cardiovascular",
+    "topic": "antitachycardia-pacing overdrive-pacing 20-30% atrial-flutter rate-calculation ATP",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "arr2_a11",
+    "type": "A",
+    "set": 1,
+    "question": "Which of the following does NOT increase the risk of arrhythmic expression of digitalis toxicity?",
+    "options": [
+      "A: Hypokalaemia",
+      "B: Hypomagnesaemia",
+      "C: Increased sympathetic stimulation (e.g. pain, exogenous catecholamines)",
+      "D: Hyperkalaemia",
+      "E: Myocardial ischaemia"
+    ],
+    "correct": 3,
+    "explanation": "Hyperkalaemia does NOT increase digitalis toxicity risk — potassium competes with digoxin for binding to Na+/K+ ATPase, so hyperkalaemia is partially protective and is used in acute management of some digitalis toxicity. The PACT module lists precipitants as: increased sympathetic stimulation (C), hypokalaemia (A), hypercalcaemia, hypomagnesaemia (B), diuretics (causing electrolyte loss), ischaemia/reperfusion (E), increased wall tension and heart failure. The critical near-miss is A (hypokalaemia) — the most clinically important and common precipitant, since diuretics (commonly used with digoxin) deplete potassium.",
+    "section": "Cardiovascular",
+    "topic": "digitalis-toxicity precipitants hypokalaemia hyperkalaemia protective sympathetic ischaemia",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "arr2_a12",
+    "type": "A",
+    "set": 1,
+    "question": "A 60-year-old man with NYHA class III heart failure on optimal medical therapy has an LVEF of 28% and QRS duration of 128 ms on 12-lead ECG. He is being assessed for device therapy. Which of the following correctly describes the CRT eligibility criteria per the PACT module?",
+    "options": [
+      "A: He meets all three CRT criteria: NYHA functional class II/III/IV + LVEF <35% + QRS ≥120 ms",
+      "B: CRT requires LVEF <20% — his LVEF of 28% is too high to benefit",
+      "C: CRT is only indicated in NYHA class IV heart failure — his class III does not qualify",
+      "D: QRS duration must be ≥150 ms — his 128 ms does not meet the threshold",
+      "E: CRT has been shown to improve outcomes in acute ICU heart failure patients — it should be implanted urgently"
+    ],
+    "correct": 0,
+    "explanation": "CRT criteria per PACT: NYHA functional class II/III/IV + LVEF <35% + QRS ≥120 ms. This patient satisfies all three: NYHA III, LVEF 28% (<35%), QRS 128 ms (≥120 ms). B is wrong: the threshold is <35%, not <20%. C is wrong: NYHA II is included. D is wrong: the module specifies ≥120 ms, not ≥150 ms. E is incorrect: the module explicitly states CRT's 'role in the setting of acute heart failure is unclear' — it is an elective long-term intervention with proven morbidity/mortality benefit in non-ICU patients.",
+    "section": "Cardiovascular",
+    "topic": "CRT cardiac-resynchronisation NYHA LVEF QRS-duration eligibility-criteria",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "arr2_a13",
+    "type": "A",
+    "set": 1,
+    "question": "A patient with acute inferior STEMI and complete heart block requires urgent temporary transvenous pacing. No central venous access is established. Which access route should be first choice?",
+    "options": [
+      "A: Left subclavian vein — large calibre and easy landmark identification",
+      "B: Right internal jugular vein",
+      "C: Right femoral vein — distal access with easily compressible site if bleeding occurs",
+      "D: Left femoral vein — avoids the dominant right coronary territory",
+      "E: Left internal jugular vein — safest route avoiding accidental carotid puncture"
+    ],
+    "correct": 1,
+    "explanation": "The right internal jugular vein is the fastest and easiest route for temporary transvenous pacing. The femoral approach (C and D) is specifically avoided where possible due to the reported higher incidence of infection and difficulty with lead stability. The left subclavian approach (A) should be avoided in patients likely to require subsequent permanent pacemaker implantation, as it may compromise the future permanent pacing route. More distal approaches (e.g. femoral) also carry higher risk of lead displacement. In urgent situations, the most practical route is the correct route, but right IJ is the default.",
+    "section": "Cardiovascular",
+    "topic": "transvenous-pacing access right-IJ femoral-avoided left-subclavian pacemaker-route",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "arr2_a14",
+    "type": "A",
+    "set": 1,
+    "question": "A 70-year-old woman in the ICU develops a broad complex tachycardia at 195 bpm. BP is 72/38 mmHg. The nurse has prepared IV amiodarone 300 mg. Based on the PACT module's ICU arrhythmia management rules, what is the most appropriate immediate intervention?",
+    "options": [
+      "A: IV amiodarone 300 mg over 20 minutes — the safest broad-spectrum antiarrhythmic",
+      "B: IV adenosine 6 mg — to test for SVT with aberrancy before committing to cardioversion",
+      "C: Synchronised DC cardioversion",
+      "D: IV lidocaine 100 mg — minimal negative inotropic effect makes it safe despite hypotension",
+      "E: IV magnesium 8 mmol bolus — corrects electrolyte causes before electrical therapy"
+    ],
+    "correct": 2,
+    "explanation": "Rule 2 of the PACT module: 'electricity is generally safer than drugs.' All antiarrhythmic drugs are proarrhythmic, nearly all are negatively inotropic, and many have long half-lives. When haemodynamically compromised with a fast rhythm → synchronised DC cardioversion. Amiodarone (A) takes minutes to work and is negatively inotropic — worsening this patient's haemodynamics. Adenosine (B) is dangerous in haemodynamically compromised patients and inappropriate for VT. The near-miss A represents the common error of reaching for drugs in an unstable patient — when electricity is faster, safer and more effective.",
+    "section": "Cardiovascular",
+    "topic": "cardioversion electricity-vs-drugs haemodynamic-compromise ICU-rules antiarrhythmic proarrhythmic",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "arr2_a15",
+    "type": "A",
+    "set": 1,
+    "question": "Which of the following statements about mechanisms of arrhythmias is INCORRECT?",
+    "options": [
+      "A: Re-entry requires a circuit with fast and slow conduction pathways with differing refractory periods",
+      "B: Early afterdepolarisations (EAD) occur during phase 2 or phase 3 of the action potential and are associated with Torsade de Pointes",
+      "C: Abnormal automaticity results from enhanced phase 4 depolarisation; some automatic arrhythmias require no triggering stimulus and can be persistent",
+      "D: Delayed afterdepolarisations (DAD) occur before full repolarisation of the preceding action potential",
+      "E: Re-entry is responsible for most VT associated with coronary artery disease, atrial flutter, AVNRT and AVRT in WPW"
+    ],
+    "correct": 3,
+    "explanation": "Delayed afterdepolarisations (DAD) occur AFTER — not before — full repolarisation of the preceding action potential. Early afterdepolarisations (EAD) are the ones that occur BEFORE full repolarisation (during phase 2 or 3). The distinction is clinically important: EAD → Torsade de Pointes with QT prolongation; DAD → catecholaminergic VT and digoxin toxicity (intracellular Ca2+ overload). All other statements are correct: re-entry mechanism (A), EAD and TdP (B), persistent automaticity in automatic atrial tachycardia (C), and the arrhythmias due to re-entry (E).",
+    "section": "Cardiovascular",
+    "topic": "afterdepolarisations EAD DAD re-entry automaticity Torsades catecholaminergic-VT",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "arr2_k01",
+    "type": "K",
+    "set": 1,
+    "question": "Regarding heart rate calculation and rhythm assessment from the ECG:",
+    "statements": [
+      "A: Heart rate in a regular rhythm can be estimated by dividing 300 by the number of large squares between consecutive QRS complexes",
+      "B: For an irregular rhythm, counting QRS complexes over 30 large squares (10 seconds) and multiplying by 6 gives an accurate estimate",
+      "C: Atrial flutter produces a sawtooth baseline at an atrial rate of ~300 bpm; with 2:1 AV block the ventricular rate is exactly 150 bpm and may be mistaken for sinus tachycardia",
+      "D: Atrial fibrillation produces a regular, narrow complex rhythm with identifiable P waves preceding each QRS"
+    ],
+    "correct": [true, true, true, false],
+    "explanation": "A–True: the '300 rule' for regular rhythms. B–True: the 10-second strip rule for irregular rhythms; 30 large squares at 25 mm/sec = 6 seconds — actually 10 seconds in the PACT module. C–True: the key clinical pearl — flutter 2:1 mimics sinus tachycardia at 150 bpm; a regular rate that is a factor of 300 should always prompt flutter consideration. D–FALSE: atrial fibrillation has an IRREGULARLY IRREGULAR QRS rate with chaotic atrial activity and absent organised P waves — the opposite of regular. AF is characterised by an irregularly irregular rhythm.",
+    "section": "Cardiovascular",
+    "topic": "heart-rate 300-rule irregular-rhythm atrial-flutter AF ECG-assessment",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "arr2_k02",
+    "type": "K",
+    "set": 1,
+    "question": "Regarding systematic assessment of cardiac rhythm from the ECG:",
+    "statements": [
+      "A: The initial step in systematic rhythm assessment is evaluating the presence or absence of P waves",
+      "B: Presence of P waves implies co-ordinated atrial electrical activity",
+      "C: Absence of visible P waves on a standard ECG lead excludes atrial flutter, which always produces clearly visible sawtooth waves",
+      "D: Assessment of QRS regularity and duration follows evaluation of P wave activity in the systematic rhythm assessment algorithm"
+    ],
+    "correct": [true, true, false, true],
+    "explanation": "A–True: the PACT algorithm begins with P wave assessment — present or absent. B–True: P waves represent organised atrial depolarisation. C–FALSE: flutter waves can be hidden within QRS complexes or T waves — the PACT module specifically warns to 'ensure that they are not hidden after or within QRS complex.' Vagal manoeuvres or adenosine (increasing AV block) are used to reveal concealed flutter waves. D–True: after P wave assessment, QRS regularity and duration determine the next branch of the diagnostic algorithm.",
+    "section": "Cardiovascular",
+    "topic": "rhythm-assessment P-waves QRS-regularity flutter-hidden systematic-algorithm",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "arr2_k03",
+    "type": "K",
+    "set": 1,
+    "question": "Regarding the three mechanisms of tachyarrhythmias:",
+    "statements": [
+      "A: Re-entry requires a circuit with fast and slow conduction pathways with differing refractory periods, and is responsible for most VT in ischaemic heart disease, atrial flutter, AVNRT and AVRT",
+      "B: Early afterdepolarisations (EAD), occurring during phase 2 or phase 3, are associated with Torsade de Pointes in patients with QT prolongation",
+      "C: Delayed afterdepolarisations (DAD), occurring after full repolarisation, are associated with catecholaminergic VT and conditions causing intracellular Ca2+ overload such as digoxin toxicity",
+      "D: Abnormal automaticity always requires a specific external triggering stimulus for initiation and invariably terminates spontaneously"
+    ],
+    "correct": [true, true, true, false],
+    "explanation": "A–True: re-entry is the dominant mechanism for clinically important arrhythmias. B–True: EAD → TdP; classic association with drug-induced QT prolongation. C–True: DAD are afterdepolarisations after full repolarisation, associated with Ca2+ overload states. D–FALSE: some automatic arrhythmias — such as automatic atrial tachycardia — 'require no specific stimulus for initiation and may be persistent.' This distinguishes them from triggered activity (which requires a preceding action potential) and re-entry.",
+    "section": "Cardiovascular",
+    "topic": "re-entry EAD DAD automaticity Torsades catecholaminergic-VT arrhythmia-mechanisms",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "arr2_k04",
+    "type": "K",
+    "set": 1,
+    "question": "Regarding digitalis toxicity in the ICU:",
+    "statements": [
+      "A: Digitalis inhibits Na+/K+ ATPase, causing intracellular Na+ accumulation which alters Na+/Ca2+ exchange, resulting in intracellular Ca2+ overload and triggered activity",
+      "B: Common arrhythmias from digitalis toxicity include atrial tachycardia, junctional tachycardia and VT, as well as SA and AV block",
+      "C: Hypokalaemia, hypomagnesaemia, hypercalcaemia and sympathetic stimulation are recognised precipitants of digitalis toxicity",
+      "D: Hyperkalaemia is a recognised precipitant of digitalis toxicity because it competes with digitalis for Na+/K+ ATPase binding sites, enhancing drug effect"
+    ],
+    "correct": [true, true, true, false],
+    "explanation": "A–True: the mechanism — Na+/K+ ATPase inhibition → Na+ accumulation → Ca2+ overload via Na+/Ca2+ exchanger → EAD (triggered activity). B–True: diverse arrhythmia profile plus nodal effects (SA/AV block). C–True: the precipitants listed include all of these. D–FALSE: hyperkalaemia COMPETES with digitalis for the Na+/K+ ATPase binding site and is therefore partially PROTECTIVE against digitalis toxicity — not a precipitant. Hypokalaemia enhances digoxin binding and is the most important clinical precipitant (caused by concurrent diuretics).",
+    "section": "Cardiovascular",
+    "topic": "digitalis toxicity Na-K-ATPase Ca-overload hypokalaemia hyperkalaemia protective precipitants",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "arr2_k05",
+    "type": "K",
+    "set": 1,
+    "question": "Regarding Torsade de Pointes and its management:",
+    "statements": [
+      "A: IV magnesium 4-8 mmol by slow bolus over 5 minutes is first-line treatment even in patients with normal serum magnesium",
+      "B: The causative drug should be stopped and potassium and magnesium deficits corrected",
+      "C: If IV magnesium is unsuccessful, isoproterenol infusion or ventricular overdrive pacing can be used to increase heart rate and shorten the QT interval",
+      "D: Class III antiarrhythmic drugs (amiodarone, sotalol) are appropriate second-line agents when magnesium fails, as they suppress the ectopic beats triggering Torsades"
+    ],
+    "correct": [true, true, true, false],
+    "explanation": "A–True: IV Mg2+ is first-line even in normomagnesaemia — the mechanism is complex and goes beyond correcting simple deficiency. B–True: remove the cause and correct electrolytes. C–True: increasing HR (shortening QT duration) with isoproterenol or overdrive pacing terminates the pause-dependent trigger of TdP. D–FALSE: Class III agents (amiodarone, sotalol, dronedarone) PROLONG action potential duration and QT — they would worsen TdP. Class Ic agents also prolong APD. These drug classes are absolutely contraindicated in drug-induced TdP.",
+    "section": "Cardiovascular",
+    "topic": "Torsades TdP IV-magnesium overdrive-pacing isoproterenol Class-III-contraindicated",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "arr2_k06",
+    "type": "K",
+    "set": 1,
+    "question": "Regarding the ICU arrhythmia management rules from the PACT module:",
+    "statements": [
+      "A: All antiarrhythmic drugs are potentially proarrhythmic, and nearly all are negatively inotropic",
+      "B: In haemodynamically compromised patients with tachyarrhythmia, electrical cardioversion is generally preferred over pharmacological therapy",
+      "C: Maintaining potassium at the upper range of normal reduces arrhythmia risk in patients with cardiac disease or after cardiac surgery",
+      "D: In ICU patients, serum magnesium levels reliably reflect tissue magnesium stores, so replacement is only indicated when serum levels are below the laboratory reference range"
+    ],
+    "correct": [true, true, true, false],
+    "explanation": "A–True: a fundamental principle repeated multiple times in the PACT module. B–True: Rule 2 — 'electricity is generally safer than drugs; if in doubt, use electricity.' C–True: maintaining K+ at the upper range of normal reduces arrhythmia risk in cardiac patients (this does not apply after cardiac transplantation). D–FALSE: blood magnesium levels do NOT reflect tissue levels in ICU patients — generous empirical replacement may be beneficial. The PACT module explicitly states this and illustrates it with the burns-patient anecdote (AF responding to IV Mg2+ despite normal serum levels).",
+    "section": "Cardiovascular",
+    "topic": "ICU-arrhythmia-rules proarrhythmic electricity potassium magnesium serum-vs-tissue",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "arr2_k07",
+    "type": "K",
+    "set": 1,
+    "question": "Regarding transcutaneous cardiac pacing:",
+    "statements": [
+      "A: Sedation should be considered during transcutaneous pacing as the pacing current causes painful skeletal muscle stimulation",
+      "B: During transcutaneous pacing, cardiac massage (CPR) can be performed safely if required",
+      "C: Haemodynamic efficacy should be confirmed with invasive arterial waveform or Doppler, as muscle twitches make pulse palpation unreliable",
+      "D: Transcutaneous pacing thresholds decrease after cardiac and thoracic surgery, facilitating more reliable capture at lower output"
+    ],
+    "correct": [true, true, true, false],
+    "explanation": "A–True: transcutaneous pacing is painful — sedation/analgesia is a priority in conscious patients. B–True: the PACT module explicitly states it is safe to perform cardiac massage during pacing. C–True: the key safety point — transcutaneous pacing causes visible muscle contractions that prevent reliable pulse assessment; arterial line or Doppler is mandatory for efficacy confirmation. D–FALSE: thresholds INCREASE after cardiac/thoracic surgery. Contributing factors include pneumothorax, pericardial effusion, myocardial ischaemia and electrolyte disturbances — all of which impede current delivery.",
+    "section": "Cardiovascular",
+    "topic": "transcutaneous-pacing sedation CPR arterial-line threshold post-surgery increases",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "arr2_k08",
+    "type": "K",
+    "set": 1,
+    "question": "Regarding temporary transvenous cardiac pacing:",
+    "statements": [
+      "A: The right internal jugular vein is the fastest and easiest route for establishing temporary transvenous pacing",
+      "B: The femoral approach is generally avoided due to higher infection rates and difficulty with lead positioning",
+      "C: Ventricular pacing from the right ventricular apex produces LBBB morphology on the ECG",
+      "D: The left subclavian vein is the preferred access route for patients likely to require a subsequent permanent pacemaker, as it avoids the dominant right-sided veins"
+    ],
+    "correct": [true, true, true, false],
+    "explanation": "A–True: right IJ is explicitly stated as 'fastest and easiest.' B–True: femoral is 'difficult and avoided where possible' due to infection risk and lead displacement. C–True: RV apical pacing spreads LV-ward via slow cell-to-cell conduction — LBBB morphology. D–FALSE: the left subclavian should be AVOIDED in patients likely to need a permanent pacemaker. The preferred subclavian approach for permanent pacemaker implantation is typically left subclavian — using it for temporary access may scar or compromise this route. The PACT module specifically warns: 'avoid the left subclavian approach, if possible, in patients likely to require subsequent permanent pacemaker implantation.'",
+    "section": "Cardiovascular",
+    "topic": "transvenous-pacing IJ femoral LBBB left-subclavian permanent-pacemaker route",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "arr2_k09",
+    "type": "K",
+    "set": 1,
+    "question": "Regarding the Vaughan-Williams classification of antiarrhythmic drugs:",
+    "statements": [
+      "A: Class I agents block the fast sodium channel; Class Ia agents increase action potential duration (APD), Class Ib agents decrease APD, and Class Ic agents leave APD unchanged",
+      "B: Class II agents are autonomic modulators; they include beta-blockers (IIa), beta-agonists (IIb), muscarinic blockers (IIc), and adenosine (IIe)",
+      "C: Class III agents (amiodarone, sotalol, dronedarone) primarily affect potassium efflux and increase action potential duration — explaining their QT-prolonging effects",
+      "D: Adenosine is classified as a Class I antiarrhythmic because it blocks the fast sodium channel, similar to lidocaine"
+    ],
+    "correct": [true, true, true, false],
+    "explanation": "A–True: the sub-classification of Class I: Ia ↑APD (quinidine, procainamide, disopyramide), Ib ↓APD (lidocaine, mexiletine), Ic = APD unchanged (flecainide, propafenone). B–True: the Class II autonomic sub-classification; IIe = adenosine. C–True: Class III agents block K+ efflux → prolong APD → prolong QT. D–FALSE: adenosine is a Class IIe agent (autonomic modulator) — it activates adenosine A1 receptors to increase K+ conductance and reduce Ca2+ influx in the AV node, slowing conduction. It does NOT block the fast sodium channel.",
+    "section": "Cardiovascular",
+    "topic": "Vaughan-Williams Class-I Class-II Class-III adenosine sodium-channel amiodarone APD",
+    "image": null,
+    "section_url": null
+  },
+  {
+    "id": "arr2_k10",
+    "type": "K",
+    "set": 1,
+    "question": "Regarding proarrhythmic factors in the critically ill patient:",
+    "statements": [
+      "A: Intravascular catheters (CVP or PA catheters) positioned too deep can cause mechanical arrhythmias by irritating the right atrium, tricuspid valve or right ventricle",
+      "B: Endogenous catecholamines (from pain, anxiety) and exogenous catecholamines (inotropes, vasopressors) are recognised proarrhythmic factors in ICU patients",
+      "C: Suctioning, bronchoscopy and other airway manipulation are recognised proarrhythmic stimuli in the ICU",
+      "D: By definition, antiarrhythmic drugs do not contribute to arrhythmia risk in the ICU, as they are specifically designed to suppress abnormal rhythms"
+    ],
+    "correct": [true, true, true, false],
+    "explanation": "A–True: the PACT module specifically advises withdrawing CVP or PA catheters a few centimetres if they may be 'tickling' the RA, tricuspid valve or RV — and describes a permcath causing RBBB by lying just below the tricuspid valve. B–True: catecholamines increase automaticity and afterdepolarisation risk. C–True: airway manipulation stimulates vagal and sympathetic reflexes that can trigger arrhythmias. D–FALSE: this is explicitly contradicted — 'all anti-arrhythmic drugs are potentially proarrhythmic' is a repeated, cardinal teaching of the PACT module. Proarrhythmic potential is a universal property of all antiarrhythmic drugs (Class Ic agents are particularly notorious, as is amiodarone).",
+    "section": "Cardiovascular",
+    "topic": "proarrhythmic-factors catheters catecholamines suction airway antiarrhythmics ICU",
+    "image": null,
+    "section_url": null
+  }
+]
