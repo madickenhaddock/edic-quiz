@@ -1,0 +1,621 @@
+{
+  "module": "Arrhythmia Part I",
+  "sections": {},
+  "questions": [
+    {
+      "id": "arr1_a01",
+      "type": "A",
+      "set": 1,
+      "question": "A 65-year-old man presents with an acute inferior STEMI (ST elevation in leads II, III, aVF). His admission ECG also shows complete (third-degree) atrioventricular block with a ventricular escape rhythm at 38 bpm. What is the most likely anatomical explanation for the AV block?",
+      "options": [
+        "A: Occlusion of the LAD artery disrupting His-Purkinje blood supply from its septal branches",
+        "B: Occlusion of the RCA interrupting blood supply to the AV node via the AV nodal artery, which arises from the RCA in 90-95% of the population",
+        "C: Spasm of the left circumflex artery causing left posterior fascicular block",
+        "D: Ischaemia of the SA node via the left circumflex artery causing retrograde propagation of block",
+        "E: Extension of anterior infarction to the interventricular septum disrupting the common His bundle"
+      ],
+      "correct": 1,
+      "explanation": "The AV nodal artery is a distal branch of the right coronary artery in 90-95% of the population. Inferior STEMI typically results from RCA occlusion; ischaemia of the AV node via the AV nodal artery is the dominant mechanism of AV block in inferior MI — hence 'AV block = inferior MI until proven otherwise'. This is physiologically distinct from bundle branch block, which complicates anterior MI (LAD occlusion threatening the LAD-dependent septal branches of the His-Purkinje system). Option A describes the mechanism for bundle branch block in anterior MI, not nodal block.",
+      "section": "Cardiovascular",
+      "topic": "AV-nodal-artery RCA inferior-MI complete-heart-block conduction-anatomy",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_a02",
+      "type": "A",
+      "set": 1,
+      "question": "A patient with severe ARDS is placed in the prone position for 16-hour proning. During the session, the ECG monitor shows ventricular fibrillation. Attempts to defibrillate are delayed because the patient requires repositioning before anterior defibrillation pads can be placed. What precaution should have been taken before turning the patient prone?",
+      "options": [
+        "A: A second continuous ECG monitor should have been attached to detect arrhythmias earlier",
+        "B: Anterior adhesive defibrillation pads should have been applied to the chest before turning the patient prone",
+        "C: A prophylactic transvenous pacing wire should have been inserted before proning",
+        "D: The prone position should be avoided in patients with cardiac history",
+        "E: A post-proning 12-lead ECG should have been obtained to identify evolving arrhythmias"
+      ],
+      "correct": 1,
+      "explanation": "The PACT module explicitly describes this clinical scenario: a prone-ventilated ARDS patient developing VF with subsequent delay in defibrillation while the patient was turned supine. The recommended precaution is pre-emptive application of anterior adhesive defibrillation pads ('stick-on pads') before prone positioning, allowing rapid defibrillation without repositioning. This is a practical patient safety measure for any patient undergoing prone ventilation. The prone position is not contraindicated in patients with cardiac history — its survival benefit in severe ARDS is well established.",
+      "section": "Cardiovascular",
+      "topic": "prone-ventilation VF defibrillation pads patient-safety ARDS ECG-monitoring",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_a03",
+      "type": "A",
+      "set": 1,
+      "question": "A nurse urgently calls you to bay 3: the ECG monitor shows apparent ventricular fibrillation. On arrival, the patient is conscious, talking, and alert. One ECG lead is visibly disconnected from the skin electrode. The invasive arterial line shows a normal pulsatile waveform at 74 bpm. What is the most appropriate immediate action?",
+      "options": [
+        "A: Deliver immediate unsynchronised defibrillation at 200J — do not delay treatment",
+        "B: Commence chest compressions and call the resuscitation team",
+        "C: Reattach the disconnected lead, confirm the rhythm on two other leads, and correlate with the clinical findings — this is likely mains interference at 50 Hz",
+        "D: Administer IV amiodarone 300 mg immediately",
+        "E: Obtain urgent 12-lead ECG before any intervention"
+      ],
+      "correct": 2,
+      "explanation": "A disconnected ECG lead transmits mains electrical interference at 50 Hz (UK/EU) producing an ECG appearance indistinguishable from VF. The arterial waveform showing normal pulsatile flow at 74 bpm conclusively excludes VF — a patient in VF has no cardiac output. The correct action is always to verify the rhythm is real: check leads, confirm on two other leads, and assess the patient clinically. Defibrillating a patient who is NOT in VF can itself cause VF. This is a critical patient safety lesson: never act on ECG monitoring alone without confirming the patient's clinical status.",
+      "section": "Cardiovascular",
+      "topic": "ECG-artifact mains-interference 50Hz VF-mimic patient-safety disconnected-lead",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_a04",
+      "type": "A",
+      "set": 1,
+      "question": "On a standard ECG printed at 25 mm/sec, a clinician measures the PR interval as spanning 4 small squares. How long is this PR interval and what does it indicate?",
+      "options": [
+        "A: 0.04 seconds — markedly shortened, suggesting pre-excitation",
+        "B: 0.08 seconds — shortened PR, consistent with accessory pathway conduction",
+        "C: 0.16 seconds — within normal limits",
+        "D: 0.40 seconds — markedly prolonged, indicating severe first-degree AV block",
+        "E: 0.80 seconds — this would represent complete AV dissociation"
+      ],
+      "correct": 2,
+      "explanation": "At standard speed (25 mm/sec), each small square (1 mm) represents 0.04 seconds. Therefore, 4 small squares = 4 × 0.04 = 0.16 seconds — a normal PR interval (normal range 0.12-0.20 seconds, or 3-5 small squares). Each large square (5 mm) represents 0.2 seconds. The near-miss D confuses small squares with large squares: 4 large squares × 0.2 sec = 0.8 sec — a clinically significant error that could lead to misdiagnosis of profound first-degree AVB. Accurate ECG measurement requires internalising these basic calibration values.",
+      "section": "Cardiovascular",
+      "topic": "ECG-paper-speed PR-interval measurement small-squares large-squares calibration",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_a05",
+      "type": "A",
+      "set": 1,
+      "question": "Which of the following does NOT cause QRS complex widening on the ECG?",
+      "options": [
+        "A: Left bundle branch block",
+        "B: Conduction through an accessory atrioventricular pathway (Wolff-Parkinson-White syndrome)",
+        "C: Ventricular tachycardia originating in the ventricular myocardium",
+        "D: First-degree atrioventricular block",
+        "E: Ventricular paced complexes"
+      ],
+      "correct": 3,
+      "explanation": "First-degree AV block causes prolongation of the PR interval (delayed AV nodal conduction time) but does NOT widen the QRS — ventricular activation still proceeds normally through the His-Purkinje system once the impulse exits the AV node. QRS widening occurs when ventricular activation is abnormal or delayed: bundle branch block (A), pre-excitation via an accessory pathway bypassing the AV node (B), tachycardia originating in ventricular myocardium requiring slow myocardium-to-myocardium spread (C), and ventricular pacing (E) all produce wide QRS. The near-miss is D — a first-degree block is a common finding and the temptation is to associate 'block' with widening.",
+      "section": "Cardiovascular",
+      "topic": "QRS-widening BBB WPW VT ventricular-pacing first-degree-AVB PR-interval",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_a06",
+      "type": "A",
+      "set": 1,
+      "question": "A patient undergoes primary PCI for an acute inferior STEMI (dominant RCA territory). Post-procedure, he develops persistent sinus bradycardia and episodic sinus arrest requiring temporary pacing. Which anatomical fact most directly explains this complication?",
+      "options": [
+        "A: The AV node is supplied by the RCA in 90-95% of patients, and RCA occlusion causes AVN ischaemia",
+        "B: The SA nodal artery arises from the RCA in approximately 55% of people, making sinus node dysfunction a recognised complication of RCA territory infarction",
+        "C: The His bundle receives blood from septal branches of the LAD, which communicates with the RCA in inferior MI",
+        "D: The SA nodal artery arises from the left circumflex artery in the majority of patients, causing sinus arrest when the LCx is involved",
+        "E: Inferior MI causes diaphragmatic irritation leading to vagal sinus suppression"
+      ],
+      "correct": 1,
+      "explanation": "The SA nodal artery arises from the RCA in ~55% of people and from the left circumflex artery in ~45%. When inferior MI is caused by proximal RCA occlusion, the SA nodal artery may be compromised, causing sinus node ischaemia and dysfunction (bradycardia, sinus arrest). This is distinct from — and may coexist with — AV node ischaemia via the AV nodal artery (also primarily RCA). Option D is the near-miss but reverses the proportions: LCx supplies the SA node only in a minority (~45%), not the majority. Option A correctly describes AV node anatomy but explains AV block, not sinus node dysfunction.",
+      "section": "Cardiovascular",
+      "topic": "SA-nodal-artery RCA inferior-MI sinus-bradycardia sinus-arrest blood-supply",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_a07",
+      "type": "A",
+      "set": 1,
+      "question": "A 32-year-old presents with palpitations and is found to have a supraventricular tachycardia at 215 bpm. IV adenosine is given to block the AV node. Beyond slowing the ventricular rate, what are the two principal physiological roles of the AV node that adenosine exploits?",
+      "options": [
+        "A: Generating the dominant pacemaker impulse for the ventricles and providing a pathway for retrograde atrial activation",
+        "B: Delaying conduction from atria to ventricles (allowing atrial contribution to ventricular filling) AND protecting the ventricles from excessively rapid impulses that could cause VF",
+        "C: Accelerating His-Purkinje conduction and preventing ventricular escape rhythms during fast atrial rates",
+        "D: Delaying conduction through the His bundle and blocking atrial activation during tachycardia",
+        "E: Serving as the primary backup pacemaker after SA node failure and filtering retrograde impulses from ventricular foci"
+      ],
+      "correct": 1,
+      "explanation": "The AV node serves two fundamental physiological roles: (1) it delays conduction between atria and ventricles, allowing time for the atrial component of ventricular filling (the 'atrial kick', particularly important in diastolic dysfunction); (2) it protects the ventricle from excessively rapid impulses during atrial tachyarrhythmias (e.g. AF or atrial flutter), preventing rates sufficient to cause VF. It is the ONLY normal electrical connection between atria and ventricles. AVN-blocking agents (adenosine, verapamil, diltiazem, β-blockers) exploit both these properties therapeutically. The AV node can serve as a backup pacemaker (E) but this is not one of its two principal roles.",
+      "section": "Cardiovascular",
+      "topic": "AV-node physiology delay ventricular-filling VF-protection adenosine SVT",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_a08",
+      "type": "A",
+      "set": 1,
+      "question": "A patient presents with an acute anterior STEMI and new left bundle branch block. Coronary angiography confirms proximal LAD occlusion. Which anatomical fact explains why LAD occlusion can disrupt His-Purkinje conduction?",
+      "options": [
+        "A: The His bundle receives blood exclusively from the AV nodal artery (an RCA branch), which communicates with the LAD via septal collaterals",
+        "B: The bundle branches are entirely avascular, making them vulnerable to ischaemia from any coronary territory",
+        "C: The His bundle and bundle branches receive blood partly from septal branches of the LAD, making them vulnerable to LAD territory ischaemia",
+        "D: The His bundle receives blood exclusively from the left circumflex artery in the setting of anterior MI",
+        "E: The right bundle branch is exclusively supplied by the RCA; left bundle block in anterior MI reflects only myocardial oedema"
+      ],
+      "correct": 2,
+      "explanation": "The His bundle has a dual blood supply: the AV nodal artery (distal RCA branch) AND septal branches of the LAD artery. The bundle branches also receive extensive supply from both RCA and LCA. LAD occlusion therefore threatens the LAD-dependent component of His-Purkinje blood supply, causing bundle branch block in anterior MI. This dual supply makes the His bundle more resistant to total ischaemia than the AV node (which relies predominantly on the single AV nodal artery), explaining why complete AV block is less common in anterior MI than in inferior MI. Bundle branch block in anterior STEMI is a high-risk marker requiring close monitoring.",
+      "section": "Cardiovascular",
+      "topic": "His-bundle blood-supply LAD septal-branches LBBB anterior-MI dual-supply",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_a09",
+      "type": "A",
+      "set": 1,
+      "question": "Which of the following patients does NOT require continuous ECG monitoring based on established indications?",
+      "options": [
+        "A: A patient 6 hours post primary PCI for anterior STEMI on the cardiac ICU",
+        "B: A patient with serum K+ 7.4 mmol/L being treated for hyperkalaemia",
+        "C: A 35-year-old with no cardiac history undergoing elective uncomplicated inguinal hernia repair under general anaesthesia",
+        "D: A patient 2 days post subarachnoid haemorrhage who developed new QTc prolongation",
+        "E: A patient with a history of unexplained syncopal episodes awaiting tilt-table testing"
+      ],
+      "correct": 2,
+      "explanation": "A healthy 35-year-old with no cardiac history undergoing uncomplicated elective surgery has none of the three indications for ECG monitoring: no known cardiopulmonary disease, no pro-arrhythmic environment exposure, and no history of unexplained collapse. All others have clear indications: recent STEMI (A = known cardiopulmonary disease); severe hyperkalaemia (B = severe electrolyte disturbance = pro-arrhythmic environment); subarachnoid haemorrhage with QTc prolongation (D = acute neurological disease = pro-arrhythmic environment); unexplained syncope (E = history of unexplained collapse). The PACT module notes that by definition, virtually all ICU patients require ECG monitoring.",
+      "section": "Cardiovascular",
+      "topic": "ECG-monitoring indications pro-arrhythmic cardiopulmonary-disease syncope electrolyte",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_a10",
+      "type": "A",
+      "set": 1,
+      "question": "A 28-year-old is found to have Wolff-Parkinson-White (WPW) syndrome. His resting ECG shows a short PR interval, delta wave, and widened QRS. Which mechanism best explains these findings in the context of normal AV conduction physiology?",
+      "options": [
+        "A: The accessory pathway conducts faster through the His-Purkinje system, shortening QRS duration",
+        "B: The accessory pathway bypasses the AV node, directly activating ventricular myocardium and producing pre-excitation — removing the normal AV nodal delay causes a short PR, and the delta wave reflects slow cell-to-cell spread before the His-Purkinje system is engaged",
+        "C: The accessory pathway conducts only in a retrograde direction, speeding atrial-to-ventricular conduction through the AV node",
+        "D: The delta wave represents delayed AV nodal conduction resulting from enhanced vagal tone in young athletes",
+        "E: WPW results from duplication of the His bundle, adding a parallel rapid conduction route through the membranous septum"
+      ],
+      "correct": 1,
+      "explanation": "In WPW, an accessory atrioventricular pathway bypasses the AV node — the normally obligatory delay between atrial and ventricular activation. The result is pre-excitation: the ventricle near the pathway insertion is activated early, directly from the atrium via slow myocardium-to-myocardium conduction, before the main His-Purkinje activation wave arrives — producing the delta wave and widened QRS. The absence of AV nodal delay produces the short PR interval. The module specifically lists 'ventricular activation through an alternative AV pathway (e.g. an accessory or non-His-AV bundle)' as a cause of QRS widening. The clinical danger in WPW is AF conducting rapidly (and potentially causing VF) via the accessory pathway bypassing the AV node's protective rate-limiting function.",
+      "section": "Cardiovascular",
+      "topic": "WPW accessory-pathway pre-excitation delta-wave AV-node-bypass QRS-widening",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_a11",
+      "type": "A",
+      "set": 1,
+      "question": "Which of the following is NOT a recognised limitation of single-lead continuous ECG monitoring in the ICU?",
+      "options": [
+        "A: P waves may be difficult to identify if the cardiac axis changes",
+        "B: ST-segment changes in an ischaemic territory not represented by the monitored lead may be missed",
+        "C: Movement artifact and shivering can produce unreliable tracings and false arrhythmia alarms",
+        "D: A 12-lead ECG cannot be obtained in patients already connected to continuous ECG monitoring",
+        "E: Automated arrhythmia detection software may lack both sensitivity and specificity"
+      ],
+      "correct": 3,
+      "explanation": "A 12-lead ECG can always be obtained in addition to — not instead of — continuous single-lead monitoring. The PACT module explicitly states that a 12-lead ECG 'should be obtained wherever possible' for definitive arrhythmia and ischaemia diagnosis. All other options are genuine, recognised limitations: single-lead monitoring may miss P waves if the axis changes (A), may fail to detect ischaemia in unmonitored territories (B), is susceptible to movement and muscle artifact (C), and relies on imperfect automated detection algorithms (E). The limitation of single-lead is spatial, not temporal — a 12-lead ECG overcomes the spatial limitation.",
+      "section": "Cardiovascular",
+      "topic": "single-lead ECG-monitoring limitations 12-lead P-wave ischaemia artifact",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_a12",
+      "type": "A",
+      "set": 1,
+      "question": "A patient develops complete (third-degree) AV block. The P-P interval is 80 bpm. The ventricular escape rhythm is 32 bpm with broad, bizarre QRS complexes unrelated to P waves. What does the morphology and rate of the escape rhythm indicate about the automaticity hierarchy of the conducting system?",
+      "options": [
+        "A: The escape focus is in the AV node, which has an intrinsic rate of 60-80 bpm — concordant with the observed rate",
+        "B: The escape focus is in the His bundle, producing broad QRS at 40-60 bpm",
+        "C: The escape focus is in the ventricular myocardium — the lowest level of the automaticity hierarchy — producing broad QRS at an intrinsic rate of approximately 20-40 bpm",
+        "D: The escape focus is in the SA node, which is firing independently at its intrinsic rate",
+        "E: The rate of 32 bpm indicates accelerated automaticity in a ventricular focus due to catecholamine stimulation"
+      ],
+      "correct": 2,
+      "explanation": "All cardiac tissues possess automaticity, but the intrinsic rate decreases progressively down the conducting hierarchy: SA node (60-100 bpm) → AV node/junction (40-60 bpm) → His-Purkinje (25-45 bpm) → ventricular myocardium (20-40 bpm). The broad, bizarre QRS complexes at 32 bpm indicate a ventricular escape focus — aberrant, slow myocardium-to-myocardium spread from a distal pacemaker. AV nodal/junctional escapes produce narrower QRS at higher rates (40-60 bpm). A ventricular escape rhythm at these rates is haemodynamically precarious and represents an urgent indication for transvenous pacing. This case illustrates why AV node dysfunction in inferior MI (RCA territory) requires close monitoring and pacing readiness.",
+      "section": "Cardiovascular",
+      "topic": "automaticity-hierarchy ventricular-escape complete-AV-block QRS-morphology pacemaker-rates",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_a13",
+      "type": "A",
+      "set": 1,
+      "question": "A nurse urgently calls you because the ECG monitor displays a chaotic waveform consistent with ventricular fibrillation in a sedated, ventilated patient. One ECG electrode is visibly not making skin contact. The invasive arterial line shows a clear pulsatile waveform at 68 bpm. What is the most appropriate immediate action?",
+      "options": [
+        "A: Immediate unsynchronised defibrillation — every second of delay in VF increases mortality",
+        "B: Start CPR while a colleague prepares the defibrillator",
+        "C: Administer IV adenosine to terminate the arrhythmia",
+        "D: Reattach the disconnected electrode, confirm the rhythm on two other ECG leads, and verify clinical status — the presentation is consistent with mains interference (50 Hz) from a disconnected lead",
+        "E: Perform urgent TOE to assess cardiac function"
+      ],
+      "correct": 3,
+      "explanation": "Mains electrical interference at 50 Hz from a disconnected ECG lead produces a chaotic waveform visually identical to VF. A patent arterial waveform at 68 bpm conclusively excludes VF, which produces no cardiac output. The cardinal rule: always verify the rhythm is real — check leads, confirm on at least two other leads, and correlate clinically (pulse palpation, arterial waveform, pulse oximetry waveform) before defibrillating. Defibrillating a patient in sinus rhythm (not VF) can precipitate true VF. This scenario is explicitly described in the PACT module as a 'critical patient safety' teaching point.",
+      "section": "Cardiovascular",
+      "topic": "mains-interference 50Hz VF-artifact disconnected-lead patient-safety defibrillation verification",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_a14",
+      "type": "A",
+      "set": 1,
+      "question": "Which of the following does NOT represent a pro-arrhythmic environment requiring continuous ECG monitoring?",
+      "options": [
+        "A: Electrical injury",
+        "B: Acute neurological disease (e.g. traumatic brain injury, subarachnoid haemorrhage)",
+        "C: Severe electrolyte disturbance (e.g. hyperkalaemia, hypomagnesaemia)",
+        "D: Uncomplicated elective laparoscopic cholecystectomy in a 40-year-old with no cardiac history",
+        "E: A patient at risk of profound bradycardia due to beta-blocker overdose"
+      ],
+      "correct": 3,
+      "explanation": "An uncomplicated elective cholecystectomy in a young patient with no cardiac history is not a pro-arrhythmic environment and does not independently require continuous ICU-level ECG monitoring. All other options are explicitly listed as pro-arrhythmic environments in the PACT module: electrical injury (A) — direct myocardial injury risk; acute neurological disease (B) — catecholamine surges, QTc prolongation, autonomic instability; severe electrolyte disturbance (C) — direct electrophysiological effects on ion channels; and risk of profound bradycardia (E) — from drug toxicity. Monitoring indications fall into three categories: known cardiopulmonary disease, pro-arrhythmic environment, and history of unexplained collapse.",
+      "section": "Cardiovascular",
+      "topic": "ECG-monitoring pro-arrhythmic indications electrolyte neurological electrical-injury",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_a15",
+      "type": "A",
+      "set": 1,
+      "question": "A 70-year-old woman with a 90% proximal RCA stenosis presents with acute inferior STEMI and Mobitz type II second-degree AV block on her admission ECG. Why is second-degree AV block a recognised complication of inferior (rather than anterior) MI in the majority of patients?",
+      "options": [
+        "A: The anterior wall of the LV houses the His-Purkinje system, which is selectively damaged when ischaemia extends inferiorly",
+        "B: The AV nodal artery is a distal branch of the RCA in 90-95% of patients, making the AV node vulnerable to ischaemia in RCA territory infarction",
+        "C: Inferior MI causes diaphragmatic compression of the cardiac apex, mechanically impeding AV nodal conduction",
+        "D: The left circumflex artery supplies the AV node in the majority of patients, and inferior MI typically involves the LCx",
+        "E: Inferior MI triggers a vagal reflex causing reversible depression of AV node function"
+      ],
+      "correct": 1,
+      "explanation": "The AV nodal artery arises from the distal RCA in 90-95% of the population. In the most common pattern of coronary anatomy, inferior MI from RCA occlusion compromises AV nodal blood supply, causing AV block. Anterior MI (LAD territory) more commonly causes bundle branch block from His-Purkinje ischaemia (LAD supplies septal branches to His bundle), rather than nodal AV block. Option D is the critical near-miss: the LCx supplies the AV node only in left-dominant patients (a minority). This anatomy explains the PACT teaching principle: AV block complicating inferior MI — transient, often responds to atropine; AV block complicating anterior MI — high-risk, often requires pacing.",
+      "section": "Cardiovascular",
+      "topic": "AV-nodal-artery RCA inferior-MI AV-block coronary-anatomy Mobitz",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_k01",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the anatomy and blood supply of the sinoatrial (SA) node:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The SA node is located in the subepicardium at the junction of the right atrium and superior vena cava",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The SA nodal artery arises from the right coronary artery in approximately 55% of people and from the left circumflex artery in approximately 45%",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The SA node has sparse autonomic innervation, making it relatively resistant to pharmacological modulation",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Inferior MI caused by RCA occlusion can cause sinus node dysfunction when the SA nodal artery is a branch of the occluded RCA",
+          "correct": true
+        }
+      ],
+      "explanation": "A–True: subepicardial location at RA-SVC junction. B–True: SA nodal artery from RCA in 55%, LCx in 45%. C–FALSE: the SA node has EXTENSIVE autonomic innervation — this is why vagal tone (e.g. Valsalva, carotid sinus massage) and sympathetic stimulation so potently affect sinus rate. The His bundle and bundle branches have sparse or little autonomic innervation. D–True: this explains sinus bradycardia and sinus arrest as recognised complications of inferior MI in patients where the SA nodal artery is RCA-derived.",
+      "section": "Cardiovascular",
+      "topic": "SA-node anatomy blood-supply RCA LCx autonomic-innervation inferior-MI",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_k02",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the anatomy and physiology of the atrioventricular (AV) node:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The AV node is a subendocardial structure located within the interatrial septum",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The AV nodal artery is a distal branch of the right coronary artery in 90-95% of the population",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The AV node has sparse autonomic innervation, in contrast to the bundle branches which are extensively innervated",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Under normal circumstances, the AV node is the only electrical connection between the atria and ventricles",
+          "correct": true
+        }
+      ],
+      "explanation": "A–True: subendocardial location within the interatrial septum. B–True: AV nodal artery from distal RCA in 90-95% — the basis for AV block complicating inferior MI. C–FALSE: the AV node has EXTENSIVE autonomic innervation — autonomic modulation of AV nodal conduction is clinically fundamental (vagal tone slows conduction; sympathetic activity speeds it). It is the His bundle and bundle branches that have sparse or little autonomic innervation. D–True: the AV node is the only normal electrical connection; accessory pathways (e.g. WPW) represent abnormal additional connections.",
+      "section": "Cardiovascular",
+      "topic": "AV-node anatomy interatrial-septum RCA autonomic-innervation electrical-connection",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_k03",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the His bundle and its clinical significance:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The His bundle is formed by Purkinje fibres emerging from the distal AV node and runs through the membranous and then muscular interventricular septum before dividing into bundle branches",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The His bundle receives blood from both the AV nodal artery (distal RCA branch) and septal branches of the LAD artery",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The His bundle has extensive autonomic innervation allowing rapid modulation of ventricular conduction velocity",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Bundle branch block complicating anterior MI reflects ischaemia of the His-Purkinje system due to LAD territory involvement of its septal blood supply",
+          "correct": true
+        }
+      ],
+      "explanation": "A–True: His bundle anatomy and course as described. B–True: the dual blood supply from both AV nodal artery (RCA) and LAD septal branches makes the His bundle more resistant to ischaemia than the AV node (which relies predominantly on one source). C–FALSE: the His bundle has SPARSE autonomic innervation — in contrast to the SA node and AV node which are extensively autonomically innervated. D–True: LAD occlusion threatens the LAD-dependent septal blood supply to the His-Purkinje system, explaining why bundle branch block complicates anterior (not usually inferior) MI.",
+      "section": "Cardiovascular",
+      "topic": "His-bundle anatomy Purkinje blood-supply LAD AV-nodal-artery autonomic bundle-branch-block",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_k04",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding causes of QRS complex widening on the ECG:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Bundle branch block (damage to the conducting system) is a recognised cause of QRS widening",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Conduction through an accessory AV pathway, as in Wolff-Parkinson-White syndrome, causes QRS widening via pre-excitation",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "First-degree AV block causes QRS widening due to prolonged conduction through the His-Purkinje system",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Ventricular paced complexes produce broad, abnormal QRS morphology due to non-His-Purkinje ventricular activation",
+          "correct": true
+        }
+      ],
+      "explanation": "A–True: conducting system damage causes slow aberrant spread through ventricular myocardium, widening QRS. B–True: pre-excitation via an accessory pathway bypasses the AV node and activates ventricular myocardium before the His-Purkinje system engages — producing the characteristic delta wave and widened QRS. C–FALSE: first-degree AV block causes PR interval prolongation (delayed AV nodal conduction) but does NOT widen the QRS — His-Purkinje activation is normal once the impulse passes the AV node. D–True: ventricular pacing initiates activation from the pacing electrode in non-conducting myocardium, producing cell-to-cell spread and wide QRS — one of the five enumerated causes of QRS widening in the PACT module.",
+      "section": "Cardiovascular",
+      "topic": "QRS-widening BBB WPW first-degree-AVB ventricular-pacing aberrant-conduction",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_k05",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding normal cardiac conduction and the automaticity hierarchy:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Normal conduction is initiated in the SA node, spreads through the atria, is delayed at the AV node, and then travels via the His-Purkinje system to activate the ventricles",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The AV node delays conduction to allow the atrial contribution to ventricular filling and protects against ventricular fibrillation during rapid atrial arrhythmias",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "All areas of the heart have the capacity for automaticity; the intrinsic pacemaker rate decreases progressively from the SA node toward the ventricular myocardium",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Because the His-Purkinje system has no automaticity below the level of the AV node, complete AV block results in ventricular standstill unless a pacemaker is inserted",
+          "correct": false
+        }
+      ],
+      "explanation": "A–True: the standard conduction sequence. B–True: the two principal roles of the AV node. C–True: SA node (~60-100 bpm) > AV junction (~40-60 bpm) > His-Purkinje (~25-45 bpm) > ventricular myocardium (~20-40 bpm). D–FALSE: all cardiac areas, including the His-Purkinje system and ventricular myocardium, retain automaticity. Complete AV block produces a ventricular escape rhythm — broad, slow, unreliable — originating from a ventricular focus. Ventricular standstill does not immediately result from complete AV block, though the escape rhythm is haemodynamically compromised and unreliable, making pacing urgent.",
+      "section": "Cardiovascular",
+      "topic": "conduction-pathway automaticity-hierarchy AV-node SA-node escape-rhythm His-Purkinje",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_k06",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding standard ECG recording principles:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Standard ECG recording speed is 25 mm/sec; each small square (1 mm) represents 0.04 seconds and each large square (5 mm) represents 0.2 seconds",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "If the net cardiac electrical activity is directed toward a lead electrode, the resulting ECG deflection will be predominantly positive (upward)",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "If the net cardiac electrical activity is directed away from a lead electrode, the resulting ECG deflection will be predominantly positive (upward)",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "The standard limb leads consist of leads I, II, III, aVR, aVL, and aVF",
+          "correct": true
+        }
+      ],
+      "explanation": "A–True: the fundamental calibration of ECG paper that all clinicians must internalise. B–True: net activity TOWARD the electrode → positive (upward) deflection. C–FALSE: net activity AWAY from the electrode → NEGATIVE (downward) deflection. This is the foundational principle of vector-based ECG interpretation. Confusing direction-to-deflection relationships is a common source of ECG misinterpretation. D–True: standard limb leads (I, II, III, aVR, aVL, aVF) and chest leads (V1-V6) are the two groups — the six listed are all standard limb leads.",
+      "section": "Cardiovascular",
+      "topic": "ECG-recording speed squares calibration deflection-direction limb-leads",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_k07",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding practical problems and patient safety in ECG monitoring:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A disconnected ECG lead can transmit mains electrical interference at 50 Hz, producing an ECG appearance indistinguishable from ventricular fibrillation",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Before acting on a monitor showing ventricular fibrillation, the clinician should verify the rhythm by checking the patient's pulse, arterial waveform, or confirming on two other leads",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Automated arrhythmia detection software in current ECG monitoring systems has been demonstrated to have both high sensitivity and high specificity, making clinical ECG review unnecessary",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Pre-emptive application of anterior adhesive defibrillation pads before prone positioning is recommended to facilitate rapid defibrillation without the delay of turning the patient supine",
+          "correct": true
+        }
+      ],
+      "explanation": "A–True: mains hum at 50 Hz from disconnected lead → apparent VF — a critical patient safety teaching point. B–True: always verify rhythm by clinical correlation before defibrillating. C–FALSE: the PACT module explicitly states that 'arrhythmia detection software may lack both sensitivity and specificity' — a recognised limitation of automated monitoring. Clinical review of ECG monitoring remains essential and cannot be replaced by automated algorithms. D–True: prone positioning delays defibrillation; pre-emptive anterior pads (as described in the PACT module anecdote) allow immediate defibrillation without repositioning.",
+      "section": "Cardiovascular",
+      "topic": "ECG-artifact 50Hz VF-mimic patient-safety prone-pads automated-detection software",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_k08",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding indications for continuous ECG monitoring in hospital settings:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Patients with severe electrolyte disturbances (e.g. hyperkalaemia, hypomagnesaemia) require ECG monitoring as they are in a pro-arrhythmic environment",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Acute neurological disease, including subarachnoid haemorrhage and traumatic brain injury, is a recognised indication for ECG monitoring",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Patients with a history of unexplained syncope require ECG monitoring to detect the responsible arrhythmia",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Electrical injury requires ECG monitoring only if the patient develops symptoms immediately after the injury",
+          "correct": false
+        }
+      ],
+      "explanation": "A–True: severe electrolyte disturbance is explicitly listed as a pro-arrhythmic environment. B–True: acute neurological disease (autonomic storms, catecholamine surges, neurogenic QTc prolongation in SAH) is a recognised pro-arrhythmic condition. C–True: unexplained syncope is the third category of ECG monitoring indication — to capture the responsible arrhythmia. D–FALSE: electrical injury requires ECG monitoring regardless of whether symptoms are immediate; arrhythmias can be delayed after electrical injury and the patient may appear well immediately. Continuous monitoring is mandatory in electrical injury patients.",
+      "section": "Cardiovascular",
+      "topic": "ECG-monitoring indications electrolyte neurological syncope electrical-injury delayed",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_k09",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the 12-lead ECG and its role in the ICU:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A 12-lead ECG allows diagnosis of the nature and origin of almost any myocardial ischaemia or arrhythmia — including VT originating from either the right or left ventricle",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Right ventricular infarction is an example of a condition that may not be reliably diagnosed on a standard 12-lead ECG, requiring additional right-sided leads (e.g. V4R)",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Continuous single-lead ECG monitoring provides equivalent diagnostic information to a 12-lead ECG and renders serial 12-lead ECGs unnecessary in monitored ICU patients",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Serial 12-lead ECGs may be required in evolving clinical situations to track dynamic changes in ischaemia or arrhythmia",
+          "correct": true
+        }
+      ],
+      "explanation": "A–True: the 12-lead ECG provides spatial resolution across all cardiac territories and is essential for precise ischaemia localisation and arrhythmia characterisation. B–True: the PACT module specifically cites right ventricular infarction as an exception — a standard 12-lead may not reveal it, necessitating right-sided leads. C–FALSE: single-lead monitoring provides temporal resolution (continuous) but lacks spatial resolution; it cannot replace the 12-lead ECG for ischaemia diagnosis, arrhythmia origin, axis determination, or QTc measurement. D–True: serial ECGs track evolving ischaemia, arrhythmia burden, and treatment response — an important clinical tool.",
+      "section": "Cardiovascular",
+      "topic": "12-lead-ECG RV-infarction right-sided-leads serial-ECG spatial-resolution single-lead",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_k10",
+      "type": "K",
+      "set": 1,
+      "question": "Regarding the bundle branches and their anatomy:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The right bundle branch extends down the right side of the interventricular septum to the base of the anterior papillary muscle",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The left bundle branch usually divides into a left anterior hemibundle and a left posterior hemibundle (and sometimes a third septal fascicle)",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The bundle branches have extensive autonomic innervation, allowing direct autonomic modulation of ventricular conduction velocity",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "The bundle branches receive an extensive blood supply from both the right and left coronary arteries",
+          "correct": true
+        }
+      ],
+      "explanation": "A–True: right bundle anatomy as described. B–True: left bundle typically bifurcates into anterior and posterior hemibundles (the basis for 'hemiblocks' — left anterior and left posterior fascicular block). C–FALSE: the bundle branches have LITTLE autonomic innervation — unlike the SA node and AV node which are extensively autonomically innervated. Bundle branch conduction is therefore relatively autonomically independent and not easily modulated pharmacologically. D–True: the extensive dual blood supply from both RCA and LCA makes the bundle branches relatively resistant to ischaemia from single-vessel disease — bilateral coronary disease is usually needed to cause bilateral bundle branch block.",
+      "section": "Cardiovascular",
+      "topic": "bundle-branches right-bundle left-bundle hemibundle autonomic-innervation blood-supply",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}
