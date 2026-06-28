@@ -1,0 +1,231 @@
+{
+  "module": "Sepsis and Septic Shock Part III: Identification and source control in sepsis",
+  "sections": {},
+  "questions": [
+    {
+      "id": "sep3_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "What is a key limitation of procalcitonin (PCT) in critically ill patients?",
+      "options": [
+        "A: It cannot be measured in ICU patients",
+        "B: It is highly specific for bacterial infections",
+        "C: It cannot reliably distinguish between bacterial, fungal, and viral infections",
+        "D: It decreases slowly after infection resolution"
+      ],
+      "correct": 2,
+      "explanation": "PCT has several limitations in critically ill patients: it is non-specific for infective conditions and can be elevated in non-bacterial conditions such as severe viral infections (e.g., COVID-19, influenza), trauma, surgery, burns, malignancies, and chronic kidney disease. It cannot reliably differentiate bacterial, viral, and fungal infections. This creates a risk of overdiagnosis of bacterial infection and potential antibiotic overuse.",
+      "section": "Sepsis",
+      "topic": "procalcitonin PCT limitations bacterial viral fungal specificity",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sep3_fk01",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "What is the diagnosis of septic shock based on?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The presence of sepsis",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Positive blood cultures for a known pathogen",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Serum lactate >2 mmol/L",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Need for vasopressors to maintain a mean arterial pressure >65 mmHg before fluid resuscitation",
+          "correct": false
+        }
+      ],
+      "explanation": "Septic shock (Sepsis-3) is defined as a subset of sepsis with persistent hypotension requiring vasopressors to maintain MAP ≥65 mmHg AND serum lactate >2 mmol/L (18 mg/dL) despite adequate volume resuscitation. It requires the presence of sepsis (True). Positive blood cultures are not required — diagnosis is clinical (False). Lactate >2 mmol/L is required (True). Vasopressors are needed *despite* adequate fluid resuscitation, not *before* it — statement D is therefore false.",
+      "section": "Sepsis",
+      "topic": "septic shock diagnosis Sepsis-3 vasopressors lactate fluid resuscitation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sep3_fa02",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Regarding antimicrobial therapy, which statement is correct?",
+      "options": [
+        "A: Broad-spectrum drugs may be initiated in situations without an obvious site of infection and later de-escalated, if feasible",
+        "B: Start antimicrobial therapy in first 72 hours",
+        "C: Continue antimicrobial therapy for 14 days, especially in septic shock",
+        "D: Start antimicrobial therapy when infection is proven",
+        "E: Do not start antimicrobial therapy before obtaining blood cultures (at least 2 pairs)"
+      ],
+      "correct": 0,
+      "explanation": "Treat a patient with suspected infection the same as with proven infection, especially with evidence of organ dysfunction and/or shock — start antimicrobials without delay. Broad-spectrum agents can be initiated even without an obvious infection site and later de-escalated once microbiological results return (within ~72 hours). Do NOT continue antimicrobial therapy without justification or for unnecessarily long durations. Obtain blood cultures (at least 2 pairs) prior to antibiotics whenever possible, but do NOT delay treatment if unable to obtain samples in a timely manner.",
+      "section": "Sepsis",
+      "topic": "broad-spectrum antibiotics de-escalation source unknown empirical therapy",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sep3_fa03",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "What is the main advantage of rapid microbiological diagnostic techniques?",
+      "options": [
+        "A: They replace blood cultures completely",
+        "B: They provide immediate antibiotic susceptibility results",
+        "C: They reduce time to pathogen identification and support early targeted therapy",
+        "D: They eliminate the need for clinical evaluation"
+      ],
+      "correct": 2,
+      "explanation": "Rapid diagnostic techniques (e.g., PCR, MALDI-TOF, multiplex panels) can provide pathogen identification and detection of resistance genes within hours, compared to 48–72 hours for traditional culture methods. This enables earlier initiation of targeted therapy, more rapid de-escalation, improved antimicrobial stewardship, and better clinical outcomes. However, they have limited ability to distinguish infection from colonisation, and high cost and limited availability restrict widespread implementation. They do not replace blood cultures or provide immediate susceptibility results.",
+      "section": "Sepsis",
+      "topic": "rapid diagnostics PCR MALDI-TOF pathogen identification antimicrobial stewardship",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sep3_fa04",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Source control is one of the mainstays in Sepsis therapy. Regarding this affirmation, choose the correct answer:",
+      "options": [
+        "A: An adequate imaging of the patient could help identify hidden intracavitary collections and the decision to choose a specific modality should be based on clinical data",
+        "B: Eliminating a possible focus of infection accelerates the recovery from sepsis, without, however, interfering with antibiotics effect",
+        "C: There is rarely a precision for source control interventions as the risks outweigh the benefits",
+        "D: In an afebrile patient, there is no need to investigate for hidden focus of infection",
+        "E: Low levels of inflammatory markers greatly reduce the probability of source control interventions need"
+      ],
+      "correct": 0,
+      "explanation": "Source control should be taken with the same importance as timely antibiotic initiation because antibiotics do not have good penetration in acid environments or bacterial biofilms. Intracavitary abscesses may not stimulate an inflammatory response sufficient to render the patient febrile or increase markers — therefore a high level of suspicion is always needed regardless of temperature or marker levels. In stable patients, surgical or percutaneous source control benefits generally outweigh risks as they optimise antimicrobial response. Imaging can identify hidden collections and guide modality choice based on clinical data.",
+      "section": "Sepsis",
+      "topic": "source control imaging intracavitary collections sepsis antibiotics biofilm",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sep3_fa05",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 44-year-old patient, admitted with colonic perforation caused by a foreign body (fish bone), underwent emergency laparotomy. During operation, extensive faecal contamination of the abdominal cavity was visualised. She progressed satisfactorily post-operatively, being discharged from the ICU on the 4th post-op day. On the 10th post-op day, during preparation for hospital discharge, she developed a fever and was kept under observation for another 24 hours. She then became torporous, while referring pain on abdominal palpation. Her BP was 110/60 mmHg, HR 120 bpm, RR 32/min, SatO2 85% on room air and she was anuric for the last 6 hours. Transferred to the ICU, she was intubated due to worsening clinical status and hypoxaemia. After stabilisation, what workup should be instituted?",
+      "options": [
+        "A: Collect urinary and blood cultures, start antibiotics and observe patients' evolution for the first 24-48 hours",
+        "B: Start antibiotics and transport the patient to the operating room",
+        "C: Collect cultures, start antibiotics and perform an abdominal CT with contrast",
+        "D: Start antibiotics and perform an abdominal CT scan with contrast",
+        "E: Collect cultures, start antibiotics and refer the patient to the operating room"
+      ],
+      "correct": 2,
+      "explanation": "Propaedeutics should include microbiology specimen collection (blood cultures and, if feasible, material from the suspected focus) together with antibiotics to cover possible nosocomial infection — within 1 hour at most. Do not delay antimicrobial initiation to wait for culture sampling. If the patient is stable, an abdominal CT with contrast would aid in surgical approach and planning. If not stable, surgery would need to be performed emergently. Surgical exploration is imperative to address possible complications of the previous procedure. Option C is correct: collect cultures + start antibiotics + perform CT.",
+      "section": "Sepsis",
+      "topic": "source control post-operative sepsis cultures antibiotics CT abdomen",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sep3_fa06",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Heterogenous sepsis presentation has always been a point of interest in clinical research, under the question of 'Why do different patients behave in different ways when it comes to organ dysfunction and outcomes in sepsis?'. Based on this, choose the appropriate affirmation:",
+      "options": [
+        "A: The attempt to individualise therapy based on patient genetics lacks theoretical reasoning, as it has been vastly demonstrated in ARDS patients",
+        "B: There is no potential benefit in stratifying patients based on clinical presentation and phenotypes",
+        "C: A robust rationale and evidence has been produced to address the heterogeneity in sepsis syndrome and it has shown that different presentations are explained solely by pathogen virulence",
+        "D: An adequate profiling in sepsis can contribute to better anticipate response to patient support and treatment",
+        "E: Every sepsis patient behaves the same in pathophysiological terms. What differs in each patient is the timing of therapy initiation"
+      ],
+      "correct": 3,
+      "explanation": "Stratifying sepsis into phenotypes to correlate with prognosis and therapeutic targets is valid and may impact outcomes and resource allocation. Personalised approaches have been validated in oncology and, in critical care, in ARDS. Microorganism virulence influences host response but is not the only culprit in clinical manifestations. Adequate profiling (phenotyping) can contribute to anticipating response to support and treatment.",
+      "section": "Sepsis",
+      "topic": "sepsis phenotypes heterogeneity personalised therapy profiling",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sep3_fa07",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "What is the recommended timing for antibiotic administration in patients with septic shock?",
+      "options": [
+        "A: Within 3 hours",
+        "B: Within 1 hour",
+        "C: Only after microbiological confirmation",
+        "D: Within 6 hours"
+      ],
+      "correct": 1,
+      "explanation": "Septic shock is a time-critical emergency — delays in antibiotic administration are strongly associated with increased mortality. Early therapy reduces pathogen load, toxin release, and prevents progression of organ dysfunction cascade. The ideal timing is within 1 hour in septic shock or high-probability sepsis. In lower suspicion cases, diagnostic workup can occur first, but antibiotics should still be started within 3 hours if infection remains likely. Antibiotics should not be delayed for cultures if obtaining them would cause delay — cultures should be performed first whenever feasible. (SSC 2026 guidelines).",
+      "section": "Sepsis",
+      "topic": "antibiotic timing within 1 hour septic shock SSC 2026",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sep3_fk02",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Regarding the definition of sepsis:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Sepsis is defined as a dysregulated host response to an infection",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Current diagnosis is based on the presence of a severe systemic inflammatory response syndrome to an infection",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Severe sepsis is diagnosed in septic patients that have at least one organ dysfunction",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "The qSOFA score can be used to diagnose sepsis in patients with a suspected infection in the emergency department",
+          "correct": false
+        }
+      ],
+      "explanation": "Sepsis is defined as a life-threatening organ dysfunction caused by a dysregulated host response to infection (Sepsis-3). Current diagnosis is NOT based on SIRS — SIRS-based criteria have been replaced by SOFA (False). 'Severe sepsis' is an obsolete term no longer used in current guidelines (False). qSOFA is no longer recommended as a screening tool for high-risk patients with suspected infection per recent guidelines (False).",
+      "section": "Sepsis",
+      "topic": "sepsis definition Sepsis-3 SIRS severe sepsis qSOFA screening",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sep3_fa08",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 55-year-old woman, on the 3rd post-op day of a cholecystectomy, developed a fever upon arriving home after discharge. While taking a shower, she fainted. She was taken to the emergency room; tachycardic, BP 80x40 mmHg, spoke incomprehensible words; pulmonary auscultation clear. Prescribed 1500 ml lactate Ringer. Lab results: Hb 18 g/dL, Ht 51%, leukocytes 32,000/mm3, platelets 44,000/mm3, direct bilirubin 1.6 mg/dL, indirect bilirubin 0.8 mg/dL, creatinine 2.2 mg/dL, BUN 101 mg/dL, K 6.7 mEq/L, Mg 2.0 mEq/L, TGO 70, TGP 90, amylase 80 mg/dL, lipase 150 mg/dL, normal coagulation exams, lactate 6 mmol/L. BP remained 60x30 mmHg despite initial expansion and noradrenaline was started. The patient woke up but was still confused and reported poorly characterised chest pain. Regarding the clinical picture, we can state that:",
+      "options": [
+        "A: This is a possible case of acute kidney injury secondary to undetected intraoperative kidney damage",
+        "B: This is a case of acute pancreatitis and antibiotics should be immediately suspended and patient started on early enteral nutrition",
+        "C: It is a haemorrhagic shock due to intraoperative hepatic artery injury evolving with multiple organ dysfunction and significant haemoconcentration",
+        "D: This is a possible case of acute liver failure, as the patient already had gallbladder surgery and the liver may have been damaged during the procedure",
+        "E: This is a possible case of sepsis, progressing to septic shock"
+      ],
+      "correct": 4,
+      "explanation": "This is a case of abdominal sepsis with two or more organ dysfunctions (neurological, cardiovascular, gastrointestinal, renal, haematological). Hepatic disease is excluded by low bilirubin, normal coagulation tests, and no signs of hepatic failure other than neurological (explained by sepsis). Retroperitoneal kidney location makes intraoperative injury unlikely. Normal lipase speaks against pancreatitis. High haemoglobin, normal coagulation, and unimpressive abdominal exam make haemorrhagic shock less likely. Lactate 6 mmol/L with persistent hypotension despite fluid resuscitation and vasopressor requirement confirms septic shock.",
+      "section": "Sepsis",
+      "topic": "septic shock post-cholecystectomy multi-organ dysfunction lactate clinical diagnosis",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}

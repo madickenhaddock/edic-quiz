@@ -1,0 +1,628 @@
+{
+  "module": "AMI Terminology, Pathophysiology and Recognition",
+  "sections": {},
+  "questions": [
+    {
+      "id": "ami_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which ONE of the following statements describes a patient with a myocardial infarction that is Killip Class IV?",
+      "options": [
+        "A: Pulmonary oedema. Arterial capillary pressure > 18 mmHg Cardiac Index > 2,2 l/min/m2",
+        "B: Findings of mild to moderate heart failure (S3 gallop, rales < half-way up lung fields or elevated jugular venous pressure)",
+        "C: Cardiogenic shock defined as systolic blood pressure < 90 mmHg and signs of hypoperfusion such as oliguria, cyanosis and sweating",
+        "D: No evidence of heart failure. Arterial capillary pressure < 15-18 mmHg Cardiac Index > 2,2 l/min/m2",
+        "E: Hypotension and bradycardia in the evolution of a inferior STEMI"
+      ],
+      "correct": 2,
+      "explanation": "Killip Class IV = cardiogenic shock: SBP < 90 mmHg plus signs of hypoperfusion (oliguria, cyanosis, sweating). Mortality ~81% in original 1967 data. Class I = no HF (mortality 6%), Class II = mild-moderate HF with S3/rales < halfway/elevated JVP (mortality 17%), Class III = pulmonary oedema (mortality 38%). Mortality rates have declined 30-50% with modern reperfusion therapy.",
+      "section": "Killip Classification",
+      "topic": "Killip class IV cardiogenic shock STEMI classification mortality",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ami_fk02",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 68-year-old woman with a history of hypertension presents to the emergency department with dyspnoea and nausea. The electrocardiogram shows anterolateral ST-segment depressions, and the initial serum measurement of high-sensitive cardiac troponin T (hs-cTnT) is elevated. Regarding women who present with acute coronary syndromes (ACS)",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Women with ACS are more likely to present earlier in the course of symptoms and are admitted to the hospital for the evaluation of chest pain less often than men",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Most women presenting with an acute myocardial infarction do not describe chest pain",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Women who present with chest discomfort are more likely than men to have non-atherosclerotic causes of ischemia, such as coronary vasospasm",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Women presenting with myocardial infarction are more likely than men to have accompanying cardiovascular comorbidities",
+          "correct": true
+        }
+      ],
+      "explanation": "Women with ACS present LATER (not earlier) in symptom course. Despite atypical presentations, the VAST MAJORITY of women with AMI DO describe chest pain. Women with chest discomfort are more likely to have non-atherosclerotic causes (vasospasm, SCAD, Takotsubo). Women with MI typically have more comorbidities (e.g. hypertension) and present later. Women are hospitalised MORE frequently for chest pain evaluation.",
+      "section": "Sex Differences in ACS",
+      "topic": "women ACS presentation sex differences non-atherosclerotic vasospasm comorbidities",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ami_fk03",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The measurement of which cardiac biomarker(s) is mandatory in patients with suspected NSTE-ACS?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Creatine kinase (CK) and CK-MB",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "B-type natriuretic peptide (BNP)",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Cardiac troponin",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Copeptin",
+          "correct": false
+        }
+      ],
+      "explanation": "Only cardiac troponin is mandatory in NSTE-ACS diagnosis. CK/CK-MB are less sensitive/specific than troponin — not mandatory (though serial CK may quantify MI size). BNP is a powerful predictor of death in established NSTE-ACS but has no diagnostic role. Copeptin provides added value for early rule-out only when HIGH-SENSITIVITY troponin assays are NOT available; with hs-troponin, copeptin adds no value.",
+      "section": "Cardiac Biomarkers",
+      "topic": "troponin mandatory NSTE-ACS biomarkers CK BNP copeptin",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ami_fk04",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 57-year-old man with a history of hypertension and elevated LDL cholesterol presents to the emergency room with the acute substernal chest pressure. His blood pressure is 159/95 mm Hg and the heart rate is 93 beats/min. The ECG shows sinus rhythm with a prominent R wave in lead V2, 0.5 mm of ST elevation in lead III, and 2 mm of horizontal ST depression in leads V1–V3. The following would be diagnostically useful to plan an immediate course of action.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A second 12 leads-ECG recording shortly after (e.g. in 10 min)",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Recording of additional ECG leads (V7 – V9 and V3R and V4R)",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Obtain a chest computed tomography (CT) to assess for pulmonary embolism",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Await results of serum cardiac biomarkers",
+          "correct": false
+        }
+      ],
+      "explanation": "ST depressions in V1-V3 with a prominent R wave raise suspicion for posterior STEMI — posterior leads V7-V9 should be placed. Right-sided leads (V3R, V4R) detect right ventricular involvement in inferior STEMI. A repeat ECG in 10 min is useful for evolving ischaemia. CT for PE is not indicated given the clinical picture pointing to ACS. Awaiting biomarkers would delay potentially life-saving revascularisation.",
+      "section": "ECG in ACS",
+      "topic": "posterior STEMI V7-V9 right-sided leads repeat ECG diagnostic workup",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ami_fk05",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 39-year-old woman presents at the 38th week of pregnancy because of severe substernal chest pain over the past 45 minutes. An electrocardiogram demonstrates 3-mm ST-segment elevations in leads V1 to V4. Regarding acute coronary syndrome and pregnancy",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Inferior wall myocardial infarction is more common than anterior wall myocardial infarction during pregnancy",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Coronary artery vasospasm is the most common cause",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Coronary dissection is the most likely cause in the peripartum period",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Pregnancy alter the risk of having an acute myocardial infarction",
+          "correct": true
+        }
+      ],
+      "explanation": "Anterior wall MI (not inferior) is more common during pregnancy. The most common finding at coronary angiography is atherosclerotic disease or coronary artery dissection — NOT vasospasm. Coronary artery dissection is the MOST COMMON cause specifically in the peripartum period. Pregnancy increases AMI risk 3-4 fold; more frequent in multigravida women and those over 30 years.",
+      "section": "ACS in Special Populations",
+      "topic": "pregnancy ACS SCAD coronary dissection peripartum anterior wall risk",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ami_fa06",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 59-year-old woman with a history of hypertension and diabetes mellitus presents to the emergency room with acute onset of severe headache, nausea, and vomiting. Her blood pressure is 180/90 mm Hg. Physical examination reveals bibasilar rales and no focal neurologic signs. The cardiac troponin I is elevated at 0.65 ng/dL (normal: <0.10 ng/dL). Computed tomography (CT) of the brain demonstrates an acute intracerebral haemorrhage. Which ONE of the following statements is FALSE?",
+      "options": [
+        "A: The magnitude of peak troponin elevation in such a patient correlates with a poor cardiovascular outcome",
+        "B: ECG changes and elevated cTnT levels are more commonly seen in association with subarachnoid haemorrhage",
+        "C: Beta blockers may be effective at controlling ventricular tachycardia and fibrillation in this situation",
+        "D: The cardiac abnormalities in the setting of acute brain injury can be attributed increased sympathetic nervous system activity",
+        "E: A ruptured coronary plaque with partially occlusive thrombus is likely present"
+      ],
+      "correct": 4,
+      "explanation": "The FALSE statement is E: A ruptured coronary plaque is NOT likely in this context. Brain-heart syndrome causes cardiac abnormalities via autonomic dysfunction (sympathetic surge) and excessive myocardial catecholamine release — WITHOUT primary coronary plaque rupture or thrombus formation. ECG changes/elevated troponin are MORE COMMON with subarachnoid haemorrhage than intracerebral haemorrhage (B is TRUE). The magnitude of peak troponin DOES predict adverse cardiac outcome (A is TRUE). Beta blockers are useful for arrhythmia control (C is TRUE).",
+      "section": "Brain-Heart Syndrome",
+      "topic": "intracerebral haemorrhage troponin brain-heart catecholamine subarachnoid false statement",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ami_fk07",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "In the presence of chest pain, ECG changes suggestive of an acute myocardial infarction include:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Saddle shaped ST segment elevations in all leads",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "New left bundle branch block or complete heart block",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Deep T wave inversions in the anterior leads",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Ventricular tachycardia",
+          "correct": true
+        }
+      ],
+      "explanation": "Saddle-shaped ST elevations in ALL leads are characteristic of PERICARDITIS, not MI. MI ST elevations are dome-shaped and confined to leads reflecting the infarct territory. New LBBB in a chest-pain patient strongly suggests acute MI; new complete heart block may be the presenting feature of a silent MI. Deep symmetric T-wave inversions (anterior leads) are seen in non-STEMI. Acute MI may present with ventricular tachycardia.",
+      "section": "ECG in ACS",
+      "topic": "ECG MI LBBB saddle-shaped pericarditis T-wave inversion ventricular tachycardia",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ami_fa08",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 65-year-old hypertensive woman without CVRFs is admitted to ICU for suspected non-ST elevation myocardial infarction (Non-STEMI) based on chest discomfort, non-specific ECG changes and mildly elevated high-sensitivity troponin [48 ng/L (ULN <14 ng/L)]. She is on Vitamin K antagonists (VKA) for atrial fibrillation and the INR is 2.9. Her ventricular rate is poorly controlled (150/min) in the absence of signs of heart failure. Kidney function is normal. Echocardiography shows normal LV systolic function in the absence of regional wall motion abnormalities and a moderate LV hypertrophy. Which ONE of the following statements are applicable to this patient?",
+      "options": [
+        "A: The patient more likely to have a Takotsubo Syndrome",
+        "B: These symptoms indicate unstable angina (UA) as the more likely diagnosis",
+        "C: The patient more likely to have a Non-STEMI type 2",
+        "D: These symptoms strongly suggests that this patient be part of a subgroup referred to as MINOCA (MI with non-obstructive coronary arteries)",
+        "E: The patient more likely to have a Non-STEMI type 1"
+      ],
+      "correct": 2,
+      "explanation": "Type 2 MI: myocardial oxygen supply-demand mismatch WITHOUT coronary thrombosis. Key features here: elevated but changing troponin (rules out UA), clinical features inconsistent with Type 1 (no plaque rupture pattern), AF with rapid ventricular rate (150/min) + LV hypertrophy = increased O2 demand/decreased supply. Takotsubo is excluded by echocardiography (no regional wall motion abnormalities). MINOCA requires angiographic proof of non-obstructive coronaries.",
+      "section": "MI Classification",
+      "topic": "type 2 MI demand mismatch AF tachycardia LVH MINOCA Takotsubo",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ami_fk09",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A patient is admitted to the hospital because of paroxysmal atrial fibrillation, which responds quickly to pharmacological cardioversion. During the tachycardia, the patient complained of a vague chest discomfort. In sinus rhythm he is completely asymptomatic and has a good exercise capacity. Yet, a mild troponin elevation is noted a few hours after sinus rhythm restoration. Which statements are applicable to this scenario?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Troponin elevation per se is not sufficient for the diagnosis of myocardial infarction (MI)",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "In the presence of poorly controlled ventricular rate during atrial fibrillation, troponin elevation may be secondary to a myocardial oxygen supply/demand mismatch and may not be related to plaque rupture",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Additional information is necessary to differentiate type 1 myocardial infarction (MI) from type 2 MI",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Routine invasive management in patients with the mentioned presentation is indicated",
+          "correct": false
+        }
+      ],
+      "explanation": "Troponin elevation per se is insufficient for MI diagnosis — context matters. AF with rapid ventricular rate can cause troponin elevation via O2 supply/demand mismatch (Type 2 MI) without plaque rupture. Additional information (imaging, clinical course) is needed to differentiate Type 1 from Type 2 MI. Routine invasive management is NOT indicated — per guidelines, non-invasive testing should FIRST be performed to document myocardial ischaemia in this scenario.",
+      "section": "MI Classification",
+      "topic": "troponin AF type 1 type 2 MI non-invasive testing invasive management",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ami_fk10",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 70-year-old man was brought urgently to the cardiac catheterization laboratory in the setting of an acute ST-elevation myocardial infarction. She had presented with chest pain and epigastric discomfort. His heart rate is 54 beats/min and his blood pressure 86/52 mm Hg with jugular venous distension. Coronary angiography demonstrated ostial occlusion of a dominant right coronary artery, without significant left-sided coronary artery disease.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Isolated infarction of the right ventricle, without left ventricular involvement, is likely",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "The abnormal heart rate and blood pressure are likely a consequence of vagal stimulation",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "ST-segment elevation is expected in lead V4R",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "ST-segment elevation in leads V1 and V2 would be expected to accompany inferior ST elevation",
+          "correct": false
+        }
+      ],
+      "explanation": "Proximal RCA occlusion typically involves LV inferior wall, posterior wall, RV, AND conduction system — ISOLATED RV infarction is unlikely. Bradycardia and hypotension in inferior MI are classically caused by vagal stimulation from inferoposterior LV ischaemia (stimulating vagal afferent fibres). V4R demonstrates ST elevation in RV infarction — the ONLY standard precordial lead looking directly at RV. In posterior MI, V1-V2 show ST DEPRESSION (not elevation), as these anterior leads view the posterior MI in reverse.",
+      "section": "RCA Occlusion and Inferior STEMI",
+      "topic": "RCA occlusion inferior STEMI RV infarction V4R vagal bradycardia posterior MI",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ami_fa11",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 70-year-old woman presents to the Emergency Room department with ECG abnormalities. The physical examination was normal. An ECG examination revealed sinus tachycardia and ST elevation in leads II, III, aVF, V3–V5. Cardiac enzymes were elevated: Troponin I 7.350 ng/ml (ULN 0.160 ng/ml), CPK 481 U/I (ULN 140 U/l) and CK-MB 47 U/I (ULN 24.0 U/l). As ECG changes and elevation of cardiac biomarkers were indicative for an acute ST-elevation myocardial infarction, the patient received immediately coronary angiography, where normal coronary arteries with no obstructive lesion or angiographic evidence of acute plaque rupture could be seen. A transthoracic echocardiogram revealed akinesia in all apical segments of the left ventricle with severely reduced left ventricular ejection fraction (< 30 %). What is the most likely diagnosis?",
+      "options": [
+        "A: Epicardial vasospasm",
+        "B: Takotsubo syndrome",
+        "C: Coronary embolism",
+        "D: MINOCA (Myocardial Infarction With no Obstructive Coronary Aterosclerosis)",
+        "E: Acute severe myopericarditis"
+      ],
+      "correct": 1,
+      "explanation": "Classic Takotsubo syndrome: acute LV dysfunction (akinesia in ALL apical segments extending beyond a single coronary distribution), elevated biomarkers mimicking MI, ECG changes, normal coronary arteries, elderly woman. The regional wall motion abnormality extending beyond one coronary territory on echo distinguishes it from MINOCA. Epicardial vasospasm would show coronary spasm at angiography. MINOCA meets MI criteria with normal arteries but the apical ballooning pattern on echo is characteristic of TTC.",
+      "section": "Takotsubo Syndrome",
+      "topic": "Takotsubo apical ballooning akinesia normal coronaries elderly woman stress cardiomyopathy",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ami_fk12",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 29-year-old man presents to the emergency department because of severe chest pain after cocaine use. His medical history is notable for several years of intermittent cocaine use and cigarette smoking. He has no other known cardiac risk factors.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The risk of MI after cocaine is related to the amount ingested and the frequency of its use",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Left ventricular systolic dysfunction can occur both acutely and after long-term cocaine use",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Mechanisms of cocaine-related myocardial ischemia and infarction include coronary arterial vasoconstriction and enhanced platelet aggregation",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Cocaine use increases the risk of myocardial infarction (MI) 24-fold in individuals otherwise at low risk for MI",
+          "correct": false
+        }
+      ],
+      "explanation": "Cocaine MI risk is NOT related to amount ingested or frequency — this is a critical distinction. LV dysfunction occurs acutely (metabolic disturbances) and chronically (cardiomyopathy from repeated sympathetic stimulation). Mechanisms include coronary vasoconstriction, enhanced platelet aggregation, and thrombogenicity. Cocaine increases MI risk 25-fold (not 24-fold) over the 60 minutes following use in individuals otherwise at low risk.",
+      "section": "ACS in Special Populations",
+      "topic": "cocaine MI risk vasoconstriction platelet aggregation 25-fold LV dysfunction",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ami_fa13",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following ECG patterns is consistent with those seen in the setting of non-ST elevation myocardial infarction?",
+      "options": [
+        "A: Isolated T wave flattening or inversion",
+        "B: Wellen's phenomenon (biphasic or deeply inverted T waves in the anterior precordial leads)",
+        "C: Down-sloping ST segment depression",
+        "D: Normal ST segments and T waves",
+        "E: All of the above"
+      ],
+      "correct": 4,
+      "explanation": "ALL of the above are consistent with NSTE-ACS. ECG changes include: ST depression (transient or persistent), T-wave inversion, ST elevation (transient), or a NORMAL ECG (occurs in 1-6% of NSTE-ACS patients). A normal ECG does NOT exclude ACS. Wellen's phenomenon (biphasic/deeply inverted T waves in anterior leads) indicates critical proximal LAD stenosis. If ECG is non-diagnostic, repeat at 15-30 min intervals, especially if symptoms recur.",
+      "section": "ECG in ACS",
+      "topic": "NSTE-ACS ECG patterns Wellens normal ECG T-wave inversion ST depression all of above",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ami_fk14",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A possible diagnosis of acute myocardial infarction should be considered in the following situations:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "New onset of complete heart block",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Sudden severe left ventricular failure",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sudden death",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Severe burning of epigastric pain",
+          "correct": true
+        }
+      ],
+      "explanation": "ALL are possible presentations of acute MI. In the elderly, diabetics, and patients with renal failure, MI can be SILENT — presenting as LV failure or severe dysrhythmias (new complete heart block). Sudden death may occur in the first hours of MI from ventricular fibrillation. Epigastric burning pain mimicking peptic ulcer disease is an angina-equivalent symptom in some ACS patients, particularly with inferior wall involvement.",
+      "section": "ACS Presentation",
+      "topic": "silent MI atypical presentation complete heart block LV failure sudden death epigastric",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ami_fa15",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which ONE of the following statements best describes the most common pathophysiologic mechanism present during ST segment elevation myocardial infarction?",
+      "options": [
+        "A: Coronary plaque progression causing progressive stenosis",
+        "B: Coronary plaque erosion",
+        "C: Coronary plaque rupture",
+        "D: Coronary vasospasm",
+        "E: Coronary embolism"
+      ],
+      "correct": 2,
+      "explanation": "Coronary plaque RUPTURE is the most common mechanism in both STEMI and NSTEMI — plaque rupture (most common) or erosion leads to coronary thrombosis. Crucially, rupture frequently occurs at sites of MODEST stenosis (<50% luminal narrowing). In STEMI, the thrombus is mostly occlusive and sustained; in UA/NSTEMI, usually incomplete/dynamic. Vasospasm is relatively uncommon and rarely solely responsible for MI. Plaque erosion accounts for a smaller proportion.",
+      "section": "Pathophysiology",
+      "topic": "plaque rupture STEMI most common mechanism thrombosis erosion vasospasm modest stenosis",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ami_fa16",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which ONE of the following describes a patient with a non-ST elevation myocardial infarction Type 1?",
+      "options": [
+        "A: Acute onset rest angina with a normal ECG and elevated cardiac biomarkers",
+        "B: Rest angina with 2 mm ST elevation in leads V1-V4 and elevated cardiac biomarkers",
+        "C: Exertional angina that is new onset with 1 mm ST depression in leads V5 and V6. Normal cardiac biomarkers",
+        "D: Rest angina with 2 mm ST depression in the inferior leads and normal cardiac biomarkers",
+        "E: Acute onset rest angina with 1 mm ST elevation in the inferior leads and normal cardiac biomarkers"
+      ],
+      "correct": 0,
+      "explanation": "Non-STEMI Type 1 = anginal symptoms at rest + myocardial necrosis (elevated biomarkers) + NO ST elevation on 12-lead ECG. ECG may be normal, show transient ST depression, T-wave inversion, or pseudo-normalisation. Type 1 MI is characterised by atherosclerotic plaque rupture/erosion with intraluminal thrombus. Option B describes STEMI. Options C/D/E either lack biomarker elevation or have ST elevations inconsistent with NSTEMI definition.",
+      "section": "MI Classification",
+      "topic": "NSTEMI type 1 definition rest angina elevated biomarkers no ST elevation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ami_fa17",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 65-year-old patient with multiple cardiovascular risk factors (CVRFs) presents to the emergency room with typical acute chest pain refractory to the administration of beta-blockers and sublingual nitrates. The pain started 2 h prior to admission, has lasted for a total of 3 h and is on-going. The first high-sensitivity cardiac troponin was slightly elevated while the ECG showed no frank ST elevation. What is the most appropriate treatment in this case?",
+      "options": [
+        "A: Pain control with morphine (iv or sc)",
+        "B: Fibrinolytic therapy is indicated if cardiac catheterization is not immediately available",
+        "C: Immediate coronary-angiography",
+        "D: Intravenous nitrates substantially relieve chest pain",
+        "E: Dual antiplatelet therapy and anticoagulation should be initiated immediately"
+      ],
+      "correct": 2,
+      "explanation": "Ongoing ischaemia refractory to initial medical treatment = indication for IMMEDIATE coronary angiography (very high-risk NSTE-ACS). The patient may have occlusion of a major branch electrically silent on 12-lead ECG (e.g. circumflex). Fibrinolytic therapy has NO role in NSTE-ACS. Morphine may mask symptoms and is associated with worse outcomes in ACS. IV nitrates do not substantially relieve ischaemic chest pain refractory to beta-blockers. Dual antiplatelet + anticoagulation should be initiated but this alone is insufficient — angiography is the key.",
+      "section": "NSTE-ACS Management",
+      "topic": "refractory ischaemia immediate angiography very high risk NSTE-ACS no fibrinolysis morphine",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ami_fk18",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 70-year-old patient with hypertension and hypercholesterolemia as cardiovascular risk factors (CVRFs) presents to the Emergency Room with typical chest pain, palpitations, ST depression on ECG and troponin rise. Regarding the underlying process",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The underling process is definitely a rupture of a coronary atherosclerotic plaque with complete occlusive intracoronary thrombosis",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "An extra-coronary condition may contribute to an imbalance between myocardial oxygen supply",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The patient described may have other cardiovascular conditions",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "This may be due to other coronary aetiologies not associated with plaque instability",
+          "correct": true
+        }
+      ],
+      "explanation": "In NonSTEMI, completely occlusive thrombosis is NOT the paradigm (unlike STEMI) — prevalence of occlusive thrombus is relatively low. Type 2 MI (extra-coronary conditions causing O2 imbalance, e.g. tachycardia, anaemia, hypotension) is possible. The patient may have other cardiovascular conditions (e.g. severe aortic stenosis, AF). Other coronary aetiologies without plaque instability (coronary spasm, embolism) can also cause NonSTEMI.",
+      "section": "MI Classification",
+      "topic": "NonSTEMI pathophysiology type 2 MI plaque rupture not definitive coronary spasm embolism",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ami_fk19",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 54-year-old patient with multiple cardiovascular risk factors (i.e. smoking, hypertension) presents with persistent severe typical retrosternal chest pain lasting for 1 h at the time of Emergency Room admission. He is haemodynamically stable and the initial physical examination is unremarkable. The 12-lead ECG shows no ST deviation while chest pain persists. What are the most important next diagnostic steps?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A second ECG recording shortly after (e.g. in 10 min)",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Await results of D-dimers and troponin measurements",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Recording of additional ECG leads (V7 – V9 and V3R and V4R)",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "CT scan to exclude aortic dissection or pulmonary embolism",
+          "correct": false
+        }
+      ],
+      "explanation": "Additional ECG leads (V7-V9, V3R-V4R) and a repeat ECG in 10 min are the most important steps in this patient with ongoing chest pain and non-diagnostic initial ECG. ~50% of acute circumflex artery occlusions produce NO ST elevation on standard 12-lead ECG. Awaiting D-dimers delays the diagnosis of ACS — troponin yes, but D-dimers are not the priority here. CT to exclude aortic dissection/PE would also delay ACS evaluation and is not indicated without typical features of these diagnoses.",
+      "section": "ECG in ACS",
+      "topic": "non-diagnostic ECG posterior leads additional leads repeat ECG circumflex occlusion",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ami_fa20",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which ONE of the following statements best describes the ECG findings of a posterior myocardial infarction?",
+      "options": [
+        "A: ST depression in V1-V2 with R:S ratio > 1 in V1",
+        "B: ST elevation in V5-V6 with R:S ratio < 1 in V1",
+        "C: ST depression in the inferior leads with R:S ratio > 1 in V1",
+        "D: ST depression in V1-V2 with R:S ratio < 1 in V1",
+        "E: ST depression in V7-V9"
+      ],
+      "correct": 0,
+      "explanation": "Posterior MI ECG findings: ST DEPRESSION (not elevation) in anterior/septal leads V1-V4 (leads view the MI backwards from the front) + R:S ratio > 1 in V1 or V2. The posterior leads V7-V9 would show ST ELEVATION (the injury current), NOT depression. This pattern frequently co-exists with inferior wall MI due to shared RCA blood supply. Suspicion must remain high if inferior ST elevation is present.",
+      "section": "ECG in ACS",
+      "topic": "posterior MI ECG ST depression V1-V2 R:S ratio posterior leads V7-V9",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ami_fk21",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Regarding acute coronary syndromes",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Non-occlusive coronary thrombosis typically results in ST-segment depressions and/or T wave inversions",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Occlusive coronary thrombosis is typically responsible for ST-segment elevations",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The presence of pathologic Q waves reliably indicates the transmural involvement of myocardial infarction",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Q waves develop in approximately 75% of patients with ST-segment elevation myocardial infarction who do not undergo acute reperfusion interventions",
+          "correct": true
+        }
+      ],
+      "explanation": "Non-occlusive thrombus → ST depressions/T-wave inversions (NSTEMI/UA). Occlusive thrombus → ST elevations (STEMI). Q waves do NOT reliably indicate transmural infarction — contemporary CMR studies show Q wave development is determined more by INFARCT SIZE than depth of mural involvement (C is FALSE). Q waves develop in ~75% of STEMI patients not treated with reperfusion; in the remaining 25%, other ECG changes (R wave reduction, QRS notching) occur.",
+      "section": "Pathophysiology",
+      "topic": "occlusive thrombosis STEMI Q waves transmural infarct size reperfusion 75%",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ami_fk22",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 64-year-old woman was admitted to Intensive Care Unit (ICU) with no prior history of cardiovascular disease who underwent open surgical repair of an abdominal aortic aneurism 48 h earlier. An increase in high-sensitivity troponin from 110 to 220 ng/L (ULN <14 ng/L) was observed within 24 h of surgery. The patient did not have chest pain but is receiving morphine. The ECG is normal. Her haemoglobin level is 8.5 g/dL. Echocardiography shows normal left ventricular (LV) function in the absence of regional wall motion abnormalities. Which statements are applicable to this scenario",
+      "statements": [
+        {
+          "label": "A",
+          "text": "This patient suffered a perioperative myocardial infarction (MI) type 2",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Takotsubo cardiomyopathy can be included among the differential diagnoses",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Additional information regarding the intraoperative course (e.g. hypotension, major bleeding, arrhythmias) is necessary to differentiate Type 1 MI from Type 2 MI",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Teamwork discussion with the surgeon is needed to assess the risks and benefits of early therapy in this patient",
+          "correct": true
+        }
+      ],
+      "explanation": "ALL statements are true. Type 2 MI: rising troponin post-major vascular surgery + anaemia (Hb 8.5) + normal echo = O2 supply-demand mismatch without coronary thrombosis. Takotsubo is a differential (physical stress trigger) but echo shows normal LV function — Takotsubo typically shows apical akinesia. Intraoperative details (hypotension, bleeding, arrhythmias) are needed to confirm Type 2 vs Type 1. Multidisciplinary teamwork (intensivist + surgeon + cardiologist) is essential to weigh risks of antiplatelet/anticoagulation vs. surgical bleeding in the early post-op period.",
+      "section": "MI Classification",
+      "topic": "perioperative type 2 MI anaemia post-surgical Takotsubo multidisciplinary teamwork",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}

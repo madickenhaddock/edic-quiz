@@ -1,0 +1,247 @@
+{
+  "module": "Sepsis and Septic Shock Part I: Introduction, definitions and recognition of sepsis",
+  "sections": {},
+  "questions": [
+    {
+      "id": "sep1_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Regarding the scoring system in sepsis, which of the following is correct?",
+      "options": [
+        "A: qSOFA is essential criteria for diagnosis of Sepsis",
+        "B: Organ dysfunction as assessed by the SOFA score is an important criterion for the diagnosis of Sepsis",
+        "C: qSOFA score requires laboratory values",
+        "D: qSOFA score essentially rules out Sepsis",
+        "E: qSOFA score is a well-validated tool for suspicion of sepsis in ICU"
+      ],
+      "correct": 1,
+      "explanation": "Organ dysfunction assessed by SOFA score is a key criterion for sepsis diagnosis (Sepsis-3). qSOFA includes three clinical criteria with no laboratory values (SBP ≤100, RR ≥22, altered mental status). qSOFA ≥2 has been validated as a screening tool outside ICU (ER, wards) but NOT in the ICU. A qSOFA of 1 does not rule out sepsis. Recent evidence has also challenged qSOFA's utility even outside the ICU.",
+      "section": "Sepsis",
+      "topic": "qSOFA SOFA sepsis diagnosis scoring",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sep1_fk01",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "In the 1991 ACCP/SCCM consensus conference, sepsis was defined as the presence of infection in conjunction with Systemic inflammatory response syndrome (SIRS). The present surviving sepsis guidelines recommend using the SOFA score for the diagnosis of Sepsis over the SIRS criteria. Please choose true/false for the following statements regarding SIRS criteria for the diagnosis of sepsis.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "SIRS criteria lack specificity and almost all critically ill patients even without true sepsis have SIRS criteria",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "10% of patients with sepsis in ICU do not have greater or equal to 2 SIRS criteria",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "A specific number of SIRS criteria is associated with mortality and defines a transition point with an increased risk of death",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Use of SIRS criteria by 2001 task force introduced the concept of PIRO staging",
+          "correct": true
+        }
+      ],
+      "explanation": "SIRS criteria lack specificity — almost all critically ill patients fulfil them regardless of true sepsis. The majority (not 10%) of sepsis patients meet ≥2 SIRS criteria. No specific SIRS threshold defines a mortality transition point. The 2001 task force that critiqued SIRS did introduce the PIRO (Predisposition, Insult, Response, Organ dysfunction) staging concept. Current guidelines use SOFA rather than SIRS due to lack of specificity.",
+      "section": "Sepsis",
+      "topic": "SIRS sepsis definition PIRO staging specificity",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sep1_fk02",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "One of the defining criteria for Septic shock in addition to hypotension is an elevated lactate level. The possible mechanisms of elevated lactate in septic shock include:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Impaired oxidative metabolism / Warburg effect",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Inhibition of Pyruvate Dehydrogenase by TNF alpha",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Inhibition of Pyruvate Dehydrogenase by endotoxin",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Gut bacteria generating lactate due to low perfusion",
+          "correct": false
+        }
+      ],
+      "explanation": "Elevated lactate in sepsis has multiple mechanisms: beta-receptor activation (endogenous epinephrine), possible Warburg effect (impaired oxidative metabolism), and inhibition of pyruvate dehydrogenase by both endotoxin and TNF-alpha. Gut bacteria predominantly generate D-lactate (not L-lactate seen in sepsis) — D-lactate is the mechanism behind elevated anion gap in blind loop syndrome, short gut syndrome, or propylene glycol intoxication.",
+      "section": "Sepsis",
+      "topic": "lactate septic shock pyruvate dehydrogenase Warburg mechanism",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sep1_fk03",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The pathophysiological mechanisms of septic shock includes:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Predominant systemic vasoconstriction due to the release of iNO",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Damage to endothelial glycocalyx resulting in endothelial dysfunction",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Capillary occlusion due to increased expression of tissue factor",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Bioenergetic metabolic enhancement causing sepsis-induced organ dysfunction",
+          "correct": false
+        }
+      ],
+      "explanation": "Cytokines in sepsis induce inducible nitric oxide synthase (iNOS) leading to nitric oxide production causing systemic vasodilation (not vasoconstriction). Damage to the endothelial glycocalyx causes endothelial dysfunction coupled with capillary occlusion due to increased tissue factor expression and increased capillary permeability. There is mitochondrial and microcirculatory failure (bioenergetic failure, not enhancement) — this is referred to as bioenergetic failure and leads to the concept of metabolic resuscitation.",
+      "section": "Sepsis",
+      "topic": "septic shock pathophysiology iNOS glycocalyx tissue factor bioenergetic failure",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sep1_fa02",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The current defining criteria for Sepsis includes an organ dysfunction score such as a SOFA score. The components of the SOFA score include:",
+      "options": [
+        "A: PF ratio, INR, GCS, Creatinine",
+        "B: PF ratio, bilirubin, GCS, Urine Output",
+        "C: WBC, bilirubin, lactate, BUN",
+        "D: Platelet count, INR, GCS, BUN",
+        "E: PF ratio, INR, Blood pressure, GCS, BUN"
+      ],
+      "correct": 1,
+      "explanation": "SOFA score includes PF ratio (respiratory), platelet count (coagulation), bilirubin (liver), blood pressure/vasopressors (cardiovascular), GCS (CNS), and creatinine or urine output (renal). Each parameter is scored 0–4, maximum 24. INR is NOT part of SOFA. WBC, lactate, and BUN are also not SOFA components. Option B is the closest correct combination from the distractors, though the full set is PF ratio, platelets, bilirubin, MAP/vasopressors, GCS, creatinine/urine output.",
+      "section": "Sepsis",
+      "topic": "SOFA score components organ dysfunction",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sep1_fa03",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The molecular pathogenesis of sepsis includes:",
+      "options": [
+        "A: Pathogen associated molecular patterns (PAMPs) activate toll-like receptors",
+        "B: Pathogen invasion causes activation of cyclin-dependent kinases",
+        "C: Pathogen associated molecular patterns (PAMPs) inhibit TP53 signal",
+        "D: Pathogen associated molecular patterns (PAMPs) activate PD-1/PDL-1a"
+      ],
+      "correct": 0,
+      "explanation": "The predominant molecular pathogenesis of sepsis involves PAMPs activating toll-like receptors, leading to transcription of pro- and anti-inflammatory genes such as Nuclear factor-kB (NF-kB) and the release of cytokines and other mediators. Activation of cyclin-dependent kinases, PD-1/PDL-1a activation, and inhibition of TP53 are molecular pathogenesis mechanisms for carcinogenesis, not sepsis.",
+      "section": "Sepsis",
+      "topic": "PAMPs toll-like receptors NF-kB molecular pathogenesis",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sep1_fa04",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "In which of the following cases should be considered a case of septic shock?",
+      "options": [
+        "A: 16 year-old girl with CAP with a MAP of 62 mmHg and a lactate of 1.6 mmol/L",
+        "B: 28 year-old man with HIV, PJP, a SOFA score of 8, and a MAP of 70 mmHg",
+        "C: 32 year-old man with a traumatic liver laceration with a MAP of 55 mmHg receiving blood and plasma transfusion via a rapid transfusion device",
+        "D: 78 year-old woman with symptoms of a UTI and a MAP of 60 mmHg, receiving an initial bolus of 1L of IV fluids",
+        "E: 56 year-old man with bacterial meningitis and a MAP of 66 mmHg on a norepinephrine infusion of 0.2 mcg/kg/min"
+      ],
+      "correct": 4,
+      "explanation": "Under Sepsis-3, septic shock is defined as persistent hypotension despite adequate fluid resuscitation requiring vasopressors to maintain MAP ≥65 mmHg AND serum lactate ≥2 mmol/L. Hospital mortality may exceed 40%. Option E is the only case requiring vasoactive medication support to maintain MAP ≥65 mmHg, fulfilling septic shock criteria. Option A has lactate <2. Option B has MAP ≥65 without vasopressors. Option C is haemorrhagic shock. Option D has not yet received adequate resuscitation.",
+      "section": "Sepsis",
+      "topic": "septic shock definition Sepsis-3 vasopressors lactate MAP criteria",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sep1_fa05",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following bio-markers has been validated as a diagnostic tool for the identification of sepsis?",
+      "options": [
+        "A: C-reactive protein (CRP)",
+        "B: Procalcitonin",
+        "C: Adrenomedullin",
+        "D: White blood cell count",
+        "E: None of the above"
+      ],
+      "correct": 4,
+      "explanation": "At present, no biomarker — including CRP, procalcitonin, adrenomedullin, or WBC — has been validated as a diagnostic tool for the identification of sepsis due to insufficient sensitivity and specificity. Procalcitonin can guide de-escalation of antimicrobial therapy. Adrenomedullin may direct targeted therapies in the future. Molecular diagnostic methods and sepsis-specific assays may eventually provide means to diagnose sepsis, but that day has not yet arrived.",
+      "section": "Sepsis",
+      "topic": "biomarkers CRP procalcitonin adrenomedullin sepsis diagnosis",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sep1_fa06",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following variables is NOT part of a SOFA score calculation?",
+      "options": [
+        "A: Glasgow Coma Scale Score",
+        "B: International Normalized Ratio (INR)",
+        "C: Urine output",
+        "D: Platelet Count",
+        "E: All of the above are used to calculate a SOFA score"
+      ],
+      "correct": 1,
+      "explanation": "Of the listed variables, INR is NOT used to derive a SOFA score. The six SOFA components are: Respiration (PaO2/FiO2), Coagulation (Platelets), Liver (Bilirubin), Cardiovascular (MAP/vasopressors), CNS (GCS), and Renal (Creatinine or Urine output). Each scored 0–4, maximum 24.",
+      "section": "Sepsis",
+      "topic": "SOFA score INR components calculation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sep1_fa07",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following is the most recently proposed definition of sepsis (also known as Sepsis-3)?",
+      "options": [
+        "A: Suspected or confirmed infection accompanied by a lactate level of >4 mmol/L, requiring vasopressor support to maintain MAP >65 mmHg",
+        "B: A Life-threatening organ dysfunction caused by a dysregulated host response to infection",
+        "C: Suspected or confirmed infection and the presence of 2 or more of the following criteria: heart rate >90 beats per minute, respiratory rate >20 per minute or the need for mechanical ventilation, temperature <36.0°C or >38.0°C, and leukopenia or leukocytosis",
+        "D: Suspected or confirmed infection and change in SOFA score of ≥2",
+        "E: Suspected or confirmed infection and lactate ≥2 mmol/L"
+      ],
+      "correct": 1,
+      "explanation": "Sepsis-3 (2016) defines sepsis as a life-threatening organ dysfunction caused by a dysregulated host response to infection. This definition emphasises the imbalanced/maladaptive host response over inflammation. Organ dysfunction is operationalised as an acute change in SOFA score ≥2 (associated with ≥10% increase in mortality). Option C describes the old SIRS-based definition. Option A/E describe components of septic shock criteria. Note: the term 'severe sepsis' is no longer in use.",
+      "section": "Sepsis",
+      "topic": "Sepsis-3 definition dysregulated host response organ dysfunction",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}
