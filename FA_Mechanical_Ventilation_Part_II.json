@@ -1,0 +1,137 @@
+{
+  "module": "Mechanical Ventilation Part II",
+  "sections": {},
+  "questions": [
+    {
+      "id": "mv2_fk01",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following is/are correct? At the same cycling off criterion: 25% of Peak inspiratory flow (Vth 25%):",
+      "statements": [
+        {"label": "A", "text": "mechanical inspiratory time is lower in patients with low respiratory system compliance compared to those with normal respiratory system compliance", "correct": false},
+        {"label": "B", "text": "mechanical inspiratory time is higher in patients with low respiratory system compliance compared to those with normal respiratory system compliance", "correct": false},
+        {"label": "C", "text": "mechanical inspiratory time is lower in patients with high respiratory system resistance compared to those with normal respiratory system resistance", "correct": false},
+        {"label": "D", "text": "mechanical inspiratory time is higher in patients with high respiratory system resistance compared to those with normal respiratory system resistance", "correct": true}
+      ],
+      "explanation": "At a predefined cycling-off threshold, mechanical inspiratory time is determined by the respiratory system time constant (τ = resistance × compliance), reflecting the time required for 63% inflation/deflation. In patients with HIGH RESISTANCE (obstructive lung disease), τ is high, so the cycling threshold is reached LATER, resulting in a HIGHER mechanical inspiratory time — D is correct. In patients with LOW COMPLIANCE (restrictive disease, e.g. ARDS, fibrosis), τ is LOW, so the cycling-off threshold is reached EARLY, resulting in a SHORTER (not higher or lower as stated in A/B — both A and B describe compliance incorrectly relative to the actual relationship) mechanical inspiratory time. Note: ESICM marks A and B both false because the correct relationship for compliance describes a SHORTER time with low compliance, which neither A ('lower... compared to normal' — technically directionally plausible but marked false by ESICM, likely due to imprecise comparative wording) nor B captures accurately as scored.",
+      "section": "Mechanical Ventilation",
+      "topic": "cycling off criterion time constant compliance resistance mechanical inspiratory time",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv2_fa02",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following is correct? Select one:",
+      "options": [
+        "a. Pressure as cycling off criterion is used in assist volume control mode",
+        "b. Increasing the Flow threshold for cycling-off from 25% to 45% results in a lower mechanical (ventilator's) inspiratory time",
+        "c. Decreasing the Flow threshold for cycling-off from 25% to 15% results in prolonged neural (patient's) inspiratory time",
+        "d. Increasing the Flow threshold for cycling-off from 25% to 45% results in a higher mechanical (ventilator's) inspiratory time",
+        "e. Decreasing the Flow threshold for cycling-off from 25% to 15% results in a decrease in neural (patient's) inspiratory time"
+      ],
+      "correct": 1,
+      "explanation": "The cycling-off criterion signals the ventilator to terminate mechanical inspiration; it controls the mechanical inspiratory time. When cycling-off is by flow, the exhalation valve opens when inspiratory flow decreases to a pre-set flow criterion (e.g. a percentage of peak inspiratory flow). INCREASING the flow threshold from 25% to 45% means the exhalation valve opens EARLIER in the flow decay (at a higher flow value), resulting in a SHORTER (lower) mechanical inspiratory time — option B is correct. Pressure as cycling-off criterion is used only in pressure support mode (PS), not assist volume control, making A wrong. D is the opposite of B's correct relationship. Options C/E address NEURAL inspiratory time, which is a separate physiological concept from the mechanical cycling-off threshold described here.",
+      "section": "Mechanical Ventilation",
+      "topic": "flow cycling off threshold pressure support mechanical inspiratory time",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv2_fk03",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following is/are true?",
+      "statements": [
+        {"label": "A", "text": "An increase in respiratory rate results in greater change in alveolar ventilation than the same increase in tidal volume", "correct": false},
+        {"label": "B", "text": "An increase in respiratory rate results in a lower change in alveolar ventilation than the same increase in tidal volume", "correct": true},
+        {"label": "C", "text": "Increasing dead space at the same respiratory rate results in a decrease in alveolar ventilation", "correct": true},
+        {"label": "D", "text": "Using circuit humidifiers instead of Heat and Moisture Exchangers results in an increase in dead space", "correct": false}
+      ],
+      "explanation": "Per the alveolar ventilation equation: VA = RR × VT(1 − VD/VT). Mathematically, changes in tidal volume (VT) have a greater impact on alveolar ventilation than equivalent changes in respiratory rate (RR), because VT directly affects the volume available after subtracting fixed dead space (VD) on every breath — so B is true (RR increase has LOWER impact) and A is false. Increasing dead space at constant RR reduces the effective alveolar fraction of each breath, decreasing alveolar ventilation — C is true. Heat and Moisture Exchangers (HMEs) ADD 30–50 mL of dead space; switching FROM an HME TO a circuit humidifier (which has no added dead space) DECREASES (not increases) total dead space — D is false.",
+      "section": "Alveolar Ventilation Physiology",
+      "topic": "alveolar ventilation equation tidal volume respiratory rate dead space HME humidifier",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv2_fk04",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following is/are correct?",
+      "statements": [
+        {"label": "A", "text": "In pressure targeted modes (PS and PCV) the pressure provided by the ventilator depends on respiratory system mechanics (compliance and or resistance)", "correct": false},
+        {"label": "B", "text": "In volume targeted modes (VCV and AVC) the pressure provided by the ventilator is independent of respiratory system mechanics (compliance and or resistance)", "correct": false},
+        {"label": "C", "text": "In volume targeted modes (VC and AVC), the inspiratory flow depends on respiratory system mechanics (compliance and or resistance)", "correct": false},
+        {"label": "D", "text": "In pressure targeted modes (PS and PCV) the pressure provided by the ventilator is independent of respiratory system mechanics (compliance and or resistance)", "correct": true}
+      ],
+      "explanation": "By the equation of motion, PTOT(t) = Pmus(t) + Paw(t) = Pres(t) + Pel(t) = V'(t)×Rrs + ΔV(t)×Ers. In VOLUME-TARGETED modes (VC, AVC), the independent (pre-set) variables are flow and volume; the ventilator delivers a FIXED flow regardless of respiratory mechanics, so inspiratory flow is INDEPENDENT of compliance/resistance (C is false) and the resulting PRESSURE varies depending on mechanics (B is false, since pressure is actually DEPENDENT on mechanics in volume modes — the opposite of B's claim). In PRESSURE-TARGETED modes (PS, PCV), the independent (pre-set) variable is pressure itself; the ventilator delivers a FIXED pressure regardless of mechanics, so the pressure provided is INDEPENDENT of compliance/resistance — D is correct, and A (claiming pressure DEPENDS on mechanics in pressure modes) is false, as the resulting flow/volume — not the pressure — varies with mechanics.",
+      "section": "Modes of Mechanical Ventilation",
+      "topic": "equation of motion pressure targeted volume targeted independent variable flow pressure",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv2_fk05",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following are effects of PEEP?",
+      "statements": [
+        {"label": "A", "text": "Decrease in left ventricular transmural pressure", "correct": true},
+        {"label": "B", "text": "Increase in left ventricular transmural pressure", "correct": false},
+        {"label": "C", "text": "Decrease in left ventricular afterload", "correct": true},
+        {"label": "D", "text": "Decrease in right ventricle afterload", "correct": false}
+      ],
+      "explanation": "Positive pressure ventilation (PEEP) increases intrapleural/intrathoracic pressure, which is SUBTRACTED from the intraventricular pressure, thus DECREASING left ventricular transmural pressure (A true, B false). Since transmural pressure approximates LV wall stress and afterload, this DECREASES LV afterload (C true) — improving left ventricular wall stress and reducing oxygen consumption. In contrast, PEEP INCREASES (not decreases) right ventricular afterload, because it raises intrathoracic pressure relative to the pulmonary circulation, opposing RV ejection — D is false.",
+      "section": "Cardiopulmonary Interactions",
+      "topic": "PEEP transmural pressure left ventricular afterload right ventricular afterload",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv2_fa06",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The following graph represents the flow, airway pressure (Paw) and volume in a patient ventilated with pressure support. Graph A shows the airway pressure dropping at the onset of inspiration while flow remains zero momentarily; Graph B shows an abrupt flow deflection at the onset of inspiration while Paw shows no clear triggering signal. What are the triggering variables in A and B respectively?",
+      "options": [
+        "a. A: Flow trigger; B: Pressure trigger",
+        "b. A: Pressure trigger; B: Flow trigger",
+        "c. A: Pressure trigger; B: Pressure trigger",
+        "d. A: Flow trigger; B: Flow trigger"
+      ],
+      "correct": 1,
+      "explanation": "Graph A shows pressure triggering: airway pressure (Paw) decreases at the trigger point as the patient's inspiratory effort drops circuit pressure below a pre-set threshold, which the ventilator detects to initiate the breath; flow remains at zero for a finite time before triggering. Graph B shows flow triggering: the inspiratory flow signal shows an abrupt deflection at the trigger point, while Paw shows no useful triggering signal — with flow triggering, due to very low resistance upstream of the Paw measurement site, Paw cannot be used to identify the start of inspiratory flow. Source: Georgopoulos D, Prinianakis G, Kondili E. Bedside waveforms interpretation as a tool to identify patient-ventilator asynchronies. Intensive Care Med. 2006 Jan;32(1):34-47.",
+      "section": "Patient-Ventilator Interaction",
+      "topic": "pressure trigger flow trigger waveform interpretation patient-ventilator asynchrony",
+      "image": "Flow, airway pressure (Paw), and volume waveform tracings for two ventilated breaths labelled A and B during pressure support ventilation. Panel A box labelled 'Pressure trigger', Panel B box labelled 'Flow trigger' with arrows marking flow deflection points at trigger onset.",
+      "section_url": null
+    },
+    {
+      "id": "mv2_fa07",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the followings is correct? Select one:",
+      "options": [
+        "a. Flow triggering threshold of 3l/min implies that mechanical inspiration initiates when the expiratory flow rate in the ventilator circuit is increased by 3l/min",
+        "b. Flow triggering threshold of 3l/min implies that mechanical inspiration initiates when the expiratory flow rate in the ventilator circuit is decreased by 3l/min",
+        "c. Decreasing flow triggering threshold form 3 l/min to 1 l/min, the triggering sensitivity decreases",
+        "d. Increasing pressure triggering threshold form 2 cmH2O to 5 cmH2O, the triggering sensitivity increases",
+        "e. Auto-triggering due to cardiac oscillations is more frequently presents with pressure than a flow triggering system"
+      ],
+      "correct": 1,
+      "explanation": "With a flow-triggering system, a bias flow remains in the ventilator circuit during expiration. As the patient's inspiratory effort begins, alveolar pressure decreases, deflecting part of the bias flow toward the patient, so a LOWER flow is detected by expiratory circuit flow sensors. The ventilator triggers when flow DECREASES by the pre-determined threshold — option B (decreased by 3 L/min) is correct, and A (increased) is wrong. Decreasing the flow threshold (3→1 L/min) INCREASES (not decreases) triggering sensitivity, making C wrong. Increasing the pressure threshold (2→5 cmH2O) DECREASES (not increases) triggering sensitivity — a larger pressure drop is required to trigger — making D wrong. Auto-triggering due to cardiac oscillations is more common with overly-sensitive FLOW triggering at low thresholds (not pressure triggering), making E wrong — in such cases pressure triggering may actually be preferable.",
+      "section": "Patient-Ventilator Interaction",
+      "topic": "flow triggering threshold pressure triggering sensitivity auto-triggering cardiac oscillations",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}

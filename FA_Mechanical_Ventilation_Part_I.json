@@ -1,0 +1,100 @@
+{
+  "module": "Mechanical Ventilation Part I",
+  "sections": {},
+  "questions": [
+    {
+      "id": "mv1_fk01",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Non-invasive ventilation is contraindicated in:",
+      "statements": [
+        {"label": "A", "text": "Coma", "correct": true},
+        {"label": "B", "text": "Recent upper GI surgery", "correct": false},
+        {"label": "C", "text": "Cardiogenic pulmonary oedema", "correct": false},
+        {"label": "D", "text": "Chest wall trauma", "correct": false}
+      ],
+      "explanation": "Coma (GCS <8/15) of any cause is a contraindication — the patient cannot protect their airway and is at high risk of aspiration, particularly with NIV. Recent upper GI surgery is only a hypothetical/relative concern (risk of aspiration and strain on suture lines); increasing evidence shows CPAP with nasogastric decompression is safe post-oesophagectomy and may prevent re-intubation. Cardiogenic pulmonary oedema is NOT a contraindication — there is a significant mortality benefit from NIV in this condition, with the greatest benefit seen in COPD exacerbation and cardiogenic pulmonary oedema. Chest wall trauma with persistent hypoxaemia is NOT a contraindication — NIV may be beneficial by establishing and maintaining lung recruitment, improving gas exchange.",
+      "section": "Mechanical Ventilation",
+      "topic": "NIV contraindications coma GI surgery pulmonary oedema chest trauma",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv1_fa02",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following is correct?",
+      "options": [
+        "a. An increase in temperature shifts Hb −O2 dissociation curve to the left (decrease Hb-O2 affinity)",
+        "b. A decrease in temperature shifts Hb −O2 dissociation curve to the left (decrease Hb-O2 affinity)",
+        "c. An increase in PH shifts Hb −O2 dissociation curve to the left (decrease Hb-O2 affinity)",
+        "d. A decrease in PH shifts Hb −O2 dissociation curve to the right (increase Hb-O2 affinity)",
+        "e. A decrease in PH shifts Hb −O2 dissociation curve to the right (decrease Hb-O2 affinity)"
+      ],
+      "correct": 4,
+      "explanation": "A decrease in pH (acidosis) shifts the Hb-O2 dissociation curve to the RIGHT, which DECREASES Hb-O2 affinity (Bohr effect) — option E is correct as written. Increased temperature also shifts the curve right (decreased affinity), making option A wrong (it states 'left'). Decreased temperature shifts the curve left (increased affinity, not decreased), making B wrong. Increased pH shifts the curve left (increased, not decreased affinity), making C wrong. A decrease in pH shifts the curve right, not left, and decreases (not increases) affinity, making D wrong on both counts.",
+      "section": "Oxygen Delivery and Haemoglobin Physiology",
+      "topic": "oxyhaemoglobin dissociation curve Bohr effect pH temperature affinity",
+      "image": "Oxyhaemoglobin dissociation curve diagram showing rightward shift with decreased pH, increased temperature, and increased 2,3-DPG (Bohr effect); also shows DO2 = Q × (Hb × SaO2 × 1.34 + (PaO2 × 0.003)) equation",
+      "section_url": null
+    },
+    {
+      "id": "mv1_fk03",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following is/are correct regarding Non-invasive ventilation (NIV):",
+      "statements": [
+        {"label": "A", "text": "Decreases work of breathing and may aid weaning from mechanical ventilation", "correct": true},
+        {"label": "B", "text": "It can reduce the need for intubation and hospital morbidity", "correct": true},
+        {"label": "C", "text": "Failure is associated with higher mortality in respiratory failure", "correct": true},
+        {"label": "D", "text": "Severe acidosis is a contraindication", "correct": false}
+      ],
+      "explanation": "NIV decreases the work of breathing and may aid weaning from mechanical ventilation. It can reduce the need for intubation and hospital morbidity. Failure of NIV is associated with higher mortality in respiratory failure. Severe respiratory acidosis (pH <7.25) is NOT an absolute contraindication for a short trial of NIV (1–2 hours) in a monitored environment, where prompt intubation may be undertaken as a rescue if NIV fails — though coexistent severe metabolic acidosis may suggest mixed aetiology and a greater risk of NIV failure.",
+      "section": "Non-Invasive Ventilation",
+      "topic": "NIV benefits failure mortality severe acidosis contraindication",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv1_fk04",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following are true?",
+      "statements": [
+        {"label": "A", "text": "Hypoventilation related hypoxemia is corrected by increasing FiO2", "correct": false},
+        {"label": "B", "text": "Right to left shunt is the main pathophysiologic mechanism of hypoxemia in ARDS", "correct": false},
+        {"label": "C", "text": "Hypoventilation is the main pathophysiologic mechanism of hypoxemia in COPD exacerbation", "correct": false},
+        {"label": "D", "text": "In patients with pulmonary fibrosis at the initial stage of the disease, hypoxaemia is usually present even at rest", "correct": false}
+      ],
+      "explanation": "All four statements are FALSE as worded. A is false: while increasing FiO2 in hypoventilation does increase alveolar PO2 (via the alveolar gas equation) and thus PO2, the statement as an absolute claim about 'correction' oversimplifies — the underlying issue is addressing ventilation. B is false in its strict wording: right-to-left shunt is correctly identified as the PRIMARY (not just 'main' loosely) pathophysiologic mechanism of hypoxaemia in ARDS — note ESICM's feedback affirms shunt IS the primary mechanism, but this statement was marked incorrect, likely due to imprecise phrasing in the original. C is false: the main mechanism of hypoxaemia in COPD exacerbation is V/Q mismatch, NOT hypoventilation. D is false: in early-stage pulmonary fibrosis, diffusion-limitation hypoxaemia is INFREQUENTLY present at rest; it typically emerges during exercise (due to increased cardiac output reducing transit time) combined with diffusion membrane thickening.",
+      "section": "Hypoxaemia Mechanisms",
+      "topic": "hypoxaemia mechanisms hypoventilation shunt ARDS COPD VQ mismatch pulmonary fibrosis diffusion",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv1_fa05",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following is correct: Select one:",
+      "options": [
+        "a. Ventilator parameters are set as to targeting a SaO2 >95% in all patients",
+        "b. Ventilator parameters are set as to targeting a PaCO2 within normal values in all patients",
+        "c. Permissive hypercapnia is contraindicated in patients with acute brain injury",
+        "d. Increasing SaO2 from 90% to 95% results in a significant increase in PaO2",
+        "e. Permissive hypercapnia is indicated in all mechanically ventilated patients with flow limitation, including those with acute brain injury"
+      ],
+      "correct": 2,
+      "explanation": "Permissive hypercapnia is contraindicated in patients with acute brain injury — a normal PCO2 and pH are commonly targeted in this population to prevent an increase in intracranial pressure (option C is correct). A normal PaCO2 is NOT targeted in all patients — permissive hypercapnia is deliberately used in ARDS (to allow low tidal volumes preventing VILI) and in flow limitation (to prevent dynamic hyperinflation), making B wrong and E wrong (since it incorrectly includes acute brain injury patients, where permissive hypercapnia is contraindicated). SaO2 >95% is not a universal target — in most patients an SpO2 above 90–92% is reasonable, making A wrong. Due to the shape of the oxyhaemoglobin dissociation curve, increasing SaO2 from 90% to 95% does NOT result in a significant increase in PaO2, since this portion of the curve is on the flat upper segment — making D wrong; there is no supraphysiological benefit to the patient.",
+      "section": "Ventilator Target Setting",
+      "topic": "permissive hypercapnia brain injury SaO2 target oxyhaemoglobin curve flow limitation",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "module": "Mechanical Ventilation Part III",
+  "sections": {},
+  "questions": [
+    {
+      "id": "mv3_fk01",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Methods used to titrate PEEP include:",
+      "statements": [
+        {"label": "A", "text": "Driving pressure below 14cmH2O", "correct": true},
+        {"label": "B", "text": "Driving pressure above 25cmH2O", "correct": false},
+        {"label": "C", "text": "Stress index <1", "correct": true},
+        {"label": "D", "text": "End-expiratory transpulmonary pressure (PL) > 0 cmH2O", "correct": true}
+      ],
+      "explanation": "Validated PEEP titration strategies include targeting a driving pressure below 14 cmH2O (associated with lower mortality in ARDS), achieving a stress index <1 on the airway pressure-time curve during volume control ventilation, and ensuring a positive end-expiratory transpulmonary pressure (PL > 0 cmH2O, measured via oesophageal manometry) to avoid end-expiratory alveolar collapse. A driving pressure above 25 cmH2O reflects high mechanical stress and would NOT be a target for PEEP titration — it is associated with worse outcomes, not a titration method. Reference: Hess DR. Recruitment Maneuvers and PEEP Titration. Respir Care. 2015 Nov;60(11):1688-704.",
+      "section": "PEEP Titration",
+      "topic": "PEEP titration driving pressure stress index transpulmonary pressure ARDS",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv3_fk02",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following is/are correct? Methods used to titrate PEEP include:",
+      "statements": [
+        {"label": "A", "text": "Driving pressure below 14cmH2O", "correct": true},
+        {"label": "B", "text": "Stress index <1", "correct": true},
+        {"label": "C", "text": "End-inspiratory transpulmonary pressure >0 cmH2O", "correct": false},
+        {"label": "D", "text": "End-expiratory transpulmonary pressure (PL) > 0 cmH2O", "correct": true}
+      ],
+      "explanation": "A driving pressure below 14 cmH2O, a stress index <1, and a positive END-EXPIRATORY transpulmonary pressure (PL > 0 cmH2O, to avoid alveolar derecruitment) are validated PEEP titration targets. END-INSPIRATORY transpulmonary pressure >0 is NOT the relevant titration target in this context — it is the end-expiratory value that matters for preventing collapse, while end-inspiratory TPP is instead limited to an upper threshold (e.g. ≤25 cmH2O per Talmor et al.) to avoid overdistension, not simply targeted to be >0. Reference: Hess DR. Recruitment Maneuvers and PEEP Titration. Respir Care. 2015 Nov;60(11):1688-704.",
+      "section": "PEEP Titration",
+      "topic": "PEEP titration driving pressure stress index end-inspiratory end-expiratory transpulmonary pressure",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv3_fk03",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Intrinsic PEEP (PEEPi) is:",
+      "statements": [
+        {"label": "A", "text": "Measured by subtraction of set PEEP from the plateau (Pplat) pressure", "correct": false},
+        {"label": "B", "text": "The lowest average alveolar pressure during respiratory cycle", "correct": true},
+        {"label": "C", "text": "Measured during an end-expiratory hold maneuver", "correct": true},
+        {"label": "D", "text": "Normally 5–10 cmH2O", "correct": false}
+      ],
+      "explanation": "Intrinsic PEEP (PEEPi, or auto-PEEP) reflects the lowest average alveolar pressure during the respiratory cycle, occurring when expiration is incomplete before the next breath begins (dynamic hyperinflation). It is measured via an END-EXPIRATORY HOLD manoeuvre, which allows alveolar and airway pressure to equilibrate, revealing the trapped pressure above the set PEEP level. PEEPi is NOT calculated by subtracting set PEEP from Pplat (Pplat reflects total static compliance at end-inspiration, not the end-expiratory trapped pressure). In a healthy ventilated patient PEEPi should be 0 cmH2O — values of 5–10 cmH2O are NOT 'normal' but rather indicate significant dynamic hyperinflation, commonly seen in obstructive lung disease.",
+      "section": "Intrinsic PEEP",
+      "topic": "intrinsic PEEP auto-PEEP dynamic hyperinflation end-expiratory hold manoeuvre",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv3_fa04",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "In patients with ARDS on volume control ventilation, the stress index (the slope of the airway pressure-time curve during inspiration) has been suggested as a method of PEEP titration. Which of the following is correct?",
+      "options": [
+        "a. Stress index >1 indicates over-distention and PEEP should be increased",
+        "b. Stress index < 1 indicates a decrease in compliance during inflation and VT or/and PEEP should be decreased",
+        "c. Stress index > 1 indicates an increase in compliance during inflation and PEEP should be increased",
+        "d. Stress index < 1 indicates a decrease in compliance during inflation and VT/and PEEP should be increased",
+        "e. Stress index < 1 indicates an increase in compliance during inflation, high system compliance and PEEP should be increased"
+      ],
+      "correct": 4,
+      "explanation": "A linear increase in pressure (constant compliance, stress index = 1) suggests adequate alveolar recruitment without over-distension. If compliance IMPROVES as the lungs are inflated (progressive INCREASE in compliance, downward concavity, stress index <1), this suggests ongoing tidal recruitment and potential for additional recruitment — recommendation is to INCREASE PEEP, making option E correct. If compliance WORSENS as the lungs are inflated (progressive decrease in compliance, upward concavity, stress index >1), this suggests over-distension, and the recommendation is to DECREASE PEEP, VT, or both — making option A wrong (it states increase). Options B and D incorrectly describe stress index <1 as indicating a DECREASE in compliance (the opposite is true), making them wrong despite the correct directional management advice in D.",
+      "section": "PEEP Titration",
+      "topic": "stress index PEEP titration compliance over-distension recruitment ARDS",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv3_fk05",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "In a COPD patient ventilated on volume control ventilation (V': 60 l/min; RR: 14br/min; VT 800 ml; PEEP: 0 cmH2O) you are asked to calculate respiratory system mechanics. Performing End expiratory and inspiratory occlusion yielding the follow measurements: Ppeak 60 cmH2O, P1 39 cmH2O, Pplat 35 cmH2O, PEEPi 17 cmH2O. Which of the following is/are correct:",
+      "statements": [
+        {"label": "A", "text": "Total respiratory resistance (Rmax) is 23 cmH2O/l/sec", "correct": false},
+        {"label": "B", "text": "Total respiratory resistance (Rmax) is 47 cmH2O/l/sec", "correct": false},
+        {"label": "C", "text": "Static Compliance (Cst) is 26 ml/cmH2O", "correct": false},
+        {"label": "D", "text": "Rmin is 21 cmH2O/l/sec", "correct": true}
+      ],
+      "explanation": "V' (preset inspiratory flow) = 60 l/min = 1 l/sec. Rmax (total respiratory resistance) = (Ppeak − Pplat)/V' = (60 − 35)/1 = 25 cmH2O/l/sec — so neither 23 (A) nor 47 (B) is correct. Rmin (resistance from conducting airways and endotracheal tube) = (Ppeak − P1)/V' = (60 − 39)/1 = 21 cmH2O/l/sec — option D is correct. Static compliance Cst = VT/(Pplat − PEEPtot) = VT/(Pplat − (PEEPe + PEEPi)) = 800/(35 − (0 + 17)) = 800/18 ≈ 44.4 ml/cmH2O — not 26 (C is false). Reference figures: Rmax = Ppeak−Pplat/V', Rmin = Ppeak−P1/V', ΔR = Rmax−Rmin (reflects time constant heterogeneity and pulmonary tissue viscoelastic behaviour).",
+      "section": "Respiratory System Mechanics",
+      "topic": "Rmax Rmin static compliance occlusion manoeuvre COPD resistance calculation",
+      "image": "Two reference figures: Figure 1 shows airway pressure-time and flow-time tracings during an inspiratory pause with formulas P=V'×R+V×E and R=P−P1/V'. Figure 2 shows compliance formula C=ΔV/ΔP, ΔP=Ppl−PEEPtot=Ppl−(PEEPe+PEEPi), with Ppeak/Pinit/Pplat pressure-time curve and expiratory hold PEEPi curve.",
+      "section_url": null
+    },
+    {
+      "id": "mv3_fa06",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "In a patient with acute exacerbation of COPD on assisted mechanical ventilation if you know (have measured) the PEEPi, the applied (external) PEEP (PEEPe) should be: Select one:",
+      "options": [
+        "a. Equal to PEEPi",
+        "b. 20% above PEEPi",
+        "c. 20% less than PEEPi",
+        "d. Zero",
+        "e. 50% less than PEEPi"
+      ],
+      "correct": 2,
+      "explanation": "In mechanically ventilated patients with obstructive lung disease and dynamic hyperinflation, applying external PEEP (PEEPe) increases trigger sensitivity by narrowing the difference between alveolar pressure and mouth pressure at end-expiration, substantially reducing the elastic work of breathing. This benefit is most evident in patients exhibiting flow limitation during tidal expiration, where (per the wave-speed theory of flow limitation) PEEP up to a point does not affect expiratory flows or cause further hyperinflation. The current consensus is that PEEPe should be set at about 80% of PEEPi — i.e. 20% LESS than PEEPi — to provide substantial relief of inspiratory workload without risking increased hyperinflation. Setting PEEPe equal to or above PEEPi (a, b) risks worsening hyperinflation; setting it to zero (d) provides no benefit on trigger sensitivity.",
+      "section": "Intrinsic PEEP",
+      "topic": "PEEPe PEEPi COPD flow limitation trigger sensitivity dynamic hyperinflation 80%",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv3_fk07",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following is/are correct for Transpulmonary pressure (TPP) and ventilator-associated lung injury?",
+      "statements": [
+        {"label": "A", "text": "At end-inspiration, the TPP is the principal force maintaining inflation", "correct": true},
+        {"label": "B", "text": "TPP is calculated from the pleural pressure minus the alveolar pressure", "correct": false},
+        {"label": "C", "text": "Setting PEEP to achieve an end-expiratory TPP of <0 cmH2O has been shown to improve outcomes in acute respiratory distress syndrome (ARDS)", "correct": false},
+        {"label": "D", "text": "During non-invasive ventilation (NIV), TPPs may be dangerously high, despite low delivered airway pressures", "correct": true}
+      ],
+      "explanation": "At end-inspiration, TPP is the principal force maintaining lung unit inflation and is thus an essential factor in the genesis of ventilator-induced lung injury (VILI). TPP is calculated from ALVEOLAR pressure MINUS pleural pressure (not pleural minus alveolar as stated in B — the formula is reversed in the statement, making it false). In a study by Talmor et al., PEEP was set to achieve an end-expiratory pressure of 0-10 cmH2O (i.e. a POSITIVE, not negative, end-expiratory TPP) with end-inspiratory TPP limited to 25 cmH2O, showing a trend toward reduced 28-day mortality — targeting TPP <0 cmH2O (C) is the opposite of the validated approach and would promote derecruitment. During NIV/spontaneous breathing, pleural pressure becomes markedly negative with strong inspiratory effort, so TPP may become extremely high even with low delivered (measured) airway pressures — D is true and represents an important mechanism of patient self-inflicted lung injury (P-SILI).",
+      "section": "Transpulmonary Pressure and VILI",
+      "topic": "transpulmonary pressure VILI Talmor oesophageal manometry NIV P-SILI",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv3_fk08",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following is/are correct?",
+      "statements": [
+        {"label": "A", "text": "During pressure control ventilation, increasing the respiratory system resistance results in an increase in Peak inspiratory flow", "correct": false},
+        {"label": "B", "text": "During pressure control ventilation decreasing the respiratory system compliance results in an increase in Peak inspiratory flow", "correct": false},
+        {"label": "C", "text": "During pressure control ventilation increasing the respiratory system compliance results in an increase in Peak inspiratory flow (ARDS)", "correct": true},
+        {"label": "D", "text": "During pressure control ventilation, decreasing the respiratory system compliance zero value of inspiratory flow is achieved earlier", "correct": false}
+      ],
+      "explanation": "In pressure control mode, the independent variable is pressure, and the dependent variables are flow and volume — the instantaneous flow depends on the mechanical properties of the respiratory system. Increasing RESISTANCE depresses and FLATTENS the inspiratory flow waveform (decreasing, not increasing peak flow) — A is false. DECREASING compliance also DECREASES peak flow (not increases it) — B is false. Conversely, INCREASING compliance (e.g. as ARDS lungs recruit and become more compliant) INCREASES peak inspiratory flow — C is true. Decreasing compliance (higher elastance) means the component VT×E reaches the set Paw value FASTER, making V'i (inspiratory flow) reach zero EARLIER (sooner, not later) — so D's claim that zero flow is achieved earlier is actually TRUE directionally, but is marked false by ESICM, likely reflecting a more nuanced distinction the question intends between flow magnitude and flow cessation timing that is not fully resolved by the available feedback.",
+      "section": "Modes of Mechanical Ventilation",
+      "topic": "pressure control compliance resistance peak inspiratory flow ARDS flow waveform",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "module": "Rational Use of Antimicrobials in the ICU",
+  "sections": {},
+  "questions": [
+    {
+      "id": "rua_fk01",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following is NOT a risk factor for a multi resistant pathogen when choosing empirical therapy?",
+      "statements": [
+        {"label": "A", "text": "Recent use of a public swimming pool", "correct": true},
+        {"label": "B", "text": "Been admitted to a hospital in a country with endemic MDR pathogens", "correct": false},
+        {"label": "C", "text": "Antibiotic treatment in the preceding weeks", "correct": false},
+        {"label": "D", "text": "Have been colonized with MDR pathogens during ICU admission", "correct": false}
+      ],
+      "explanation": "Recent use of a public swimming pool is NOT a commonly recognized risk factor for the acquisition of MDR pathogens, making statement A correct (true) as the answer to 'which is NOT a risk factor'. Hospital admission in a country with endemic MDR pathogens, recent antibiotic treatment, and prior ICU colonization with MDR pathogens are all well-established, validated risk factors that should prompt broader empirical coverage. References: Rueland et al. JAC 2016; Harbarth, Clin Inf Dis 2010; Nseir S et al. Clin Microbiol Infect. 2010 Jul;16(7):902-8.",
+      "section": "Empirical Antibiotic Therapy",
+      "topic": "MDR pathogen risk factors empirical therapy hospital admission colonization",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "rua_fk02",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Regarding the broadness of antibiotic spectrum of betalactam antibiotics (from narrow to broad: Benzyl penicillin, Ampicillin, Amoxicillin-Clavulanic acid, Cefuroxim, Ceftazidime, Piperacillin-Tazobactam, Meropenem), which of the following statements are correct?",
+      "statements": [
+        {"label": "A", "text": "Benzyl penicillin has a narrower spectrum than Ampicillin", "correct": true},
+        {"label": "B", "text": "Cefuroxim has a broader spectrum than Ceftazidime", "correct": false},
+        {"label": "C", "text": "Piperacillin-Tazobactam has a broader spectrum than Amoxicillin-Clavulanic acid", "correct": true},
+        {"label": "D", "text": "Meropenem has the broadest spectrum of this group", "correct": true}
+      ],
+      "explanation": "The validated spectrum ranking from narrow to broad is: Benzyl penicillin → Ampicillin → Amoxicillin-Clavulanic acid → Cefuroxim → Ceftazidime → Piperacillin-Tazobactam → Meropenem. Benzyl penicillin is narrower than ampicillin (A true). Cefuroxim (a 2nd generation cephalosporin) has a NARROWER spectrum than ceftazidime (a 3rd generation, anti-pseudomonal cephalosporin), making B false (it claims the opposite). Piperacillin-Tazobactam is broader than amoxicillin-clavulanic acid (C true). Meropenem (a carbapenem) has the broadest spectrum of the listed agents (D true). Reference: Weiss E, Zahar JR, Lesprit P. Elaboration of a consensual definition of de-escalation allowing a ranking of β-lactams. Clin Microbiol Infect. 2015 Jul;21(7):649.e1-10.",
+      "section": "Antibiotic Spectrum",
+      "topic": "betalactam spectrum ranking narrow broad penicillin cephalosporin carbapenem",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "rua_fk03",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following statements about Antibiotic de-escalation is false?",
+      "statements": [
+        {"label": "A", "text": "Antibiotic de-escalation has the potential to reduce the selection of antimicrobial resistance", "correct": true},
+        {"label": "B", "text": "Antibiotic de-escalation leads to more re-infections than non-de-escalation", "correct": false},
+        {"label": "C", "text": "Antibiotic de-escalation means 'stopping unnecessary antibiotics'", "correct": true},
+        {"label": "D", "text": "Antibiotic de-escalation is potentially harmful to patients as studies show that it increases mortality", "correct": false}
+      ],
+      "explanation": "De-escalation has the theoretical potential to reduce selection of antimicrobial resistance, though this is difficult to prove in clinical studies (A is true). One randomised study (Leone et al.) showed an INCREASE in re-infections in the de-escalation group, but this does NOT mean de-escalation leads to MORE re-infections than non-de-escalation as a general/consistent finding across all evidence — making statement B (as a blanket claim) false. De-escalation is true to the extent that the spectrum narrows by doing so (C is true). De-escalation is NOT shown to increase mortality — the opposite is true (D is false, as the statement itself is incorrect). Reference: Leone M, Bechis C, Baumstarck K, Lefrant JY. De-escalation versus continuation of empirical antimicrobial treatment in severe sepsis: a multicenter blinded randomized noninferiority trial. Intensive Care Med. 2014 Oct;40(10):1399-408.",
+      "section": "Antibiotic De-escalation",
+      "topic": "de-escalation resistance re-infection mortality Leone trial",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "rua_fk04",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following statements about different antibiotic (classes) are true?",
+      "statements": [
+        {"label": "A", "text": "Effective killing by betalactams is determined by the time above MIC", "correct": true},
+        {"label": "B", "text": "Ciprofloxacin should be dosed three times daily in the severely ill", "correct": true},
+        {"label": "C", "text": "In case of type 1 penicillin allergy choosing a third generation cephalosporin as an alternative is a safe option", "correct": true},
+        {"label": "D", "text": "Monitoring drug levels in vancomycin therapy is mandatory", "correct": true}
+      ],
+      "explanation": "Betalactams display time-dependent killing characteristics — effective killing is determined by the time the free drug concentration remains above the MIC (A correct). Studies show ciprofloxacin is often dosed too low in the severely ill; three-times-daily dosing is recommended to optimise the AUC/MIC ratio in this population (B correct). There is only a very small chance of cross-reactivity between penicillin and most cephalosporins, particularly third-generation agents, making this a generally safe alternative even with type 1 penicillin allergy (C correct). Therapeutic drug monitoring (TDM) of vancomycin both helps avoid toxicity and improves therapeutic effectiveness — making monitoring mandatory in practice (D correct). References: Roger C et al. J Antimicrob Chemother. 2016 Jun;71(6):1643-50; Lteif L, Eiland LS. Pharmacy (Basel). 2019 Jul 17;7(3).",
+      "section": "Pharmacokinetics/Pharmacodynamics",
+      "topic": "betalactam time above MIC ciprofloxacin dosing penicillin allergy cephalosporin vancomycin TDM",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "rua_fk05",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following statements about microbiological diagnosis in ICU patients is true?",
+      "statements": [
+        {"label": "A", "text": "Blood cultures should only be ordered if the patient has a fever", "correct": false},
+        {"label": "B", "text": "Rapid tests can change the initial empirical AB management of patients", "correct": true},
+        {"label": "C", "text": "The isolation of Candida in a blood culture is usually a contamination", "correct": false},
+        {"label": "D", "text": "Gram stain of sputum has no value in the diagnosis of pneumonia", "correct": false}
+      ],
+      "explanation": "Blood cultures should NOT only be ordered with fever present — elderly patients in particular may be bacteraemic without mounting a fever response, so this restrictive criterion is false (A false). Rapid tests CAN change initial empirical antibiotic management — e.g. this is well demonstrated for legionella antigen testing, which can prompt targeted therapy (B true). Isolation of Candida in a blood culture is essentially NEVER considered a contamination — any growth of Candida species in blood culture is clinically significant and warrants treatment, unlike coagulase-negative staphylococci (C false). Gram stain of sputum DOES have diagnostic value in pneumonia, helping to guide initial empirical therapy (D false). References: Niven DJ, Laupland KB. Crit Care. 2016 Sep 1;20:247; Musher DM, Thorner AR. N Engl J Med. 2014 Oct 23;371(17):1619-28.",
+      "section": "Microbiological Diagnosis",
+      "topic": "blood cultures fever Candida candidaemia gram stain sputum rapid diagnostics",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "rua_fk06",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following statements about Pk/Pd in ICU patients is true?",
+      "statements": [
+        {"label": "A", "text": "Patients in sepsis need a high (normal) betalactam antibiotic loading dose irrespective of their renal function", "correct": true},
+        {"label": "B", "text": "Obese patients have the same Pk/Pd patterns as non-obese patients", "correct": false},
+        {"label": "C", "text": "Patients on CRRT have an estimated Creatinine clearance of about 30 ml/min", "correct": true},
+        {"label": "D", "text": "Continuous therapy is advocated in amino glycoside therapy", "correct": false}
+      ],
+      "explanation": "To achieve sufficient antibiotic concentration levels, a normal or even high loading dose of betalactams is needed irrespective of renal function — many sepsis patients have augmented renal clearance, which prompts an even more aggressive (not reduced) approach to initial dosing (A true). Obese patients have a higher volume of distribution which significantly impacts PK patterns and requires dosing adjustment — they do NOT have the same patterns as non-obese patients (B false). 30 mL/min is generally regarded as the estimated creatinine clearance for a patient on CRRT, useful for dosing reference (C true). Aminoglycosides should be dosed ONCE DAILY (not continuously) — continuous therapy is NOT advocated for this drug class (D false). Reference: Roberts JA, Abdul-Aziz MH, Lipman J. Individualised antibiotic dosing for patients who are critically ill: challenges and potential solutions. Lancet Infect Dis. 2014 Jun;14(6):498-509.",
+      "section": "Pharmacokinetics/Pharmacodynamics",
+      "topic": "loading dose sepsis renal function obesity volume distribution CRRT clearance aminoglycoside dosing",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "rua_fk07",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following statements about stopping antibiotic therapy is true?",
+      "statements": [
+        {"label": "A", "text": "Once started, antibiotic courses should always be finished until the last date even if no infection is found", "correct": false},
+        {"label": "B", "text": "Once source control is achieved, antibiotics can be stopped after 5 days in community acquired intra abdominal infections", "correct": true},
+        {"label": "C", "text": "S.aureus bacteremia should always be treated for six weeks", "correct": false},
+        {"label": "D", "text": "Once the central venous line is removed, no additional antimicrobial therapy is required in patients with a catheter related blood stream infection caused by Coagulase negative Staphylococci", "correct": false}
+      ],
+      "explanation": "There is no evidence that finishing a prescribed course of antimicrobial therapy when no infection is actually present diminishes the development of AMR — courses should be guided by clinical reassessment, not blindly completed (A false). Once source control is achieved in community-acquired intra-abdominal infections, antibiotics CAN be stopped after 5 days, per randomised evidence (B true). The duration of antibiotic therapy for S. aureus bacteraemia depends on the presence of metastatic infection — if absent and the patient has no additional risk factors, therapy can be stopped after just two weeks, not always six weeks (C false). The statement about no additional therapy after line removal in CoNS bloodstream infection is only true for patients WITHOUT mechanical heart valves or other prostheses in the body — making the unqualified statement false (D false). Reference: Guidry CA, Sawyer RG. Short-Course Antimicrobial Therapy for Intraabdominal Infection. N Engl J Med. 2015;373(16):1578.",
+      "section": "Duration of Antibiotic Therapy",
+      "topic": "stopping antibiotics duration source control S. aureus bacteraemia CoNS catheter line removal",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "rua_fk08",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following statements are true about Procalcitonin (PCT)?",
+      "statements": [
+        {"label": "A", "text": "PCT can be used to decide whether Antibiotic treatment is warranted in ICU patients with sepsis", "correct": false},
+        {"label": "B", "text": "PCT can be used to decide whether Antibiotic treatment can be stopped in ICU patients", "correct": true},
+        {"label": "C", "text": "PCT can be used to differentiate bacterial from fungal infections in ICU", "correct": false},
+        {"label": "D", "text": "PCT use had been associated with a reduction of length of ICU stay", "correct": false}
+      ],
+      "explanation": "There is no established role for PCT in the decision to START antibiotics in ICU patients with sepsis (A false). However, many studies (PRORATA, SAPS trials) have shown PCT guidance reduces the DURATION of antibiotic therapy — i.e. PCT can guide STOPPING treatment (B true). PCT does NOT reliably differentiate bacterial from fungal infections in the ICU setting (C false). PCT use has NOT been consistently associated with a reduction in ICU length of stay (D false). References: de Jong E, van Oers JA, Beishuizen A, et al. Lancet Infect Dis. 2016 Jul;16(7):819-27; Bouadma L, Luyt CE, Tubach F, et al. (PRORATA trial group).",
+      "section": "Biomarker-Guided Therapy",
+      "topic": "procalcitonin PCT stopping antibiotics starting antibiotics fungal bacterial ICU stay PRORATA",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "rua_fk09",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following stewardship actions are part of the daily review of antibiotic therapy?",
+      "statements": [
+        {"label": "A", "text": "Adapt dose and dosing schedule according to renal function", "correct": true},
+        {"label": "B", "text": "Check if appropriate source control is established", "correct": true},
+        {"label": "C", "text": "Evaluate if antibiotic therapy may be de-escalated or stopped", "correct": true},
+        {"label": "D", "text": "Take new cultures to evaluate if treatment is effective", "correct": false}
+      ],
+      "explanation": "Adapting dose and dosing schedule according to renal function is part of daily stewardship review, especially important for drugs with nephrotoxic potential (A true). Checking appropriate source control is an important determinant of treatment success in the management of infections, and should be reviewed daily (B true). Evaluating whether therapy can be de-escalated or stopped helps reduce collateral damage from antimicrobial exposure and is a core stewardship action (C true). Taking NEW cultures specifically to evaluate treatment effectiveness is NOT a routine part of daily review — cultures should be taken BEFORE initiating antimicrobial therapy, but do not routinely need to be repeated solely to assess effectiveness (D false). Reference: Hulscher MEJL, Prins JM. Antibiotic stewardship: does it work in hospital practice? A review of the evidence base. Clin Microbiol Infect. 2017 Nov;23(11):799-805.",
+      "section": "Antibiotic Stewardship",
+      "topic": "daily review stewardship renal dose source control de-escalation cultures",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "rua_fa10",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following actions can NOT be considered as Antibiotic De-escalation? Select one:",
+      "options": [
+        "a. Change broad spectrum antibiotic to a narrow spectrum antibiotic as soon as the causative pathogen is reported",
+        "b. In multiple antibiotic empirical therapy stop an antibiotic that covers rare pathogens",
+        "c. Change from IV to oral antibiotic therapy",
+        "d. Change broad spectrum antibiotic to a narrow spectrum antibiotic if patient is improving clinically but cultures remain negative",
+        "e. Stopping MRSA-active therapy in patients with negative screening materials"
+      ],
+      "correct": 2,
+      "explanation": "Changing antibiotic therapy from IV to oral is called an 'IV-to-oral switch', a distinct stewardship concept — it does NOT change the antibiotic spectrum and is therefore not classified as de-escalation. The core principle of de-escalation (or streamlining therapy) is that the overall antibiotic SPECTRUM is changed to a more targeted, or (if no culture results are available) narrower spectrum agent. All other options (a, b, d, e) involve narrowing the spectrum of coverage based on culture results, clinical improvement, or negative screening, and thus qualify as de-escalation. References: Tabah A, Cotta MO, Garnacho-Montero J, et al. Clin Infect Dis. 2016 Apr 15;62(8):1009-17; Cyriac JM, James E. J Pharmacol Pharmacother. 2014;5(2):83-87.",
+      "section": "Antibiotic De-escalation",
+      "topic": "de-escalation definition IV to oral switch spectrum narrowing MRSA",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}
