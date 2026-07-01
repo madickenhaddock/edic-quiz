@@ -1,0 +1,188 @@
+{
+  "module": "FA Arrhythmia Part II",
+  "sections": {},
+  "questions": [
+    {
+      "id": "arr2_fk01",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Considering the Vaughan-Williams Classification of Antiarrhythmic Drugs, which of the following is correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Lidocaine is class Ia drug.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Propafenone is class II drug.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Sotalol is class III drug.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Metoprolol is class III drug.",
+          "correct": false
+        }
+      ],
+      "explanation": "Lidocaine and propafenone are class Ib and Ic respectively, not Ia or II. Class II drugs comprise beta-adrenergic blockers, so metoprolol is class II, not III. Sotalol, despite being a non-selective beta-blocker, is classified as class III because it prolongs the action potential and refractoriness of cardiac tissue. Reference: Zanetti LA. Sotalol: a new class III antiarrhythmic agent. Clin Pharm. 1993 Dec;12(12):883-91.",
+      "section": "Arrhythmia",
+      "topic": "Vaughan-Williams classification",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr2_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Digitalis:",
+      "options": [
+        "A: Stimulates the enzyme sodium-potassium adenosine triphosphatase (ATPase)",
+        "B: Leads to reduced intracellular calcium",
+        "C: Has a narrow therapeutic safety window",
+        "D: Reduces intracellular sodium",
+        "E: Hypocalcaemia and hypomagnesaemia increase the susceptibility to digitalis-induced arrhythmias"
+      ],
+      "correct": 2,
+      "explanation": "Digitalis inhibits (not stimulates) Na-K-ATPase, causing intracellular sodium to accumulate (not reduce), which alters sodium-calcium exchange and raises (not reduces) intracellular calcium. Hypokalaemia (not hypocalcaemia), hypomagnesaemia and hypercalcaemia increase susceptibility to digitalis-induced arrhythmias. Note on derivation: no option was marked with a visible correct-indicator in the source (only the selected wrong answer, A, was marked incorrect). C is derived by elimination — A, B, D and E are each directly contradicted by ESICM's feedback text, and digoxin's narrow therapeutic index is well-established pharmacology, but this specific option was not itself addressed in the feedback, so confidence is slightly lower than other derived answers in this set.",
+      "section": "Arrhythmia",
+      "topic": "digitalis mechanism ATPase",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr2_fa02",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Amiodarone:",
+      "options": [
+        "A: Is class II anti-arrhythmic drug",
+        "B: Is metabolised in the liver to an inactive metabolite",
+        "C: Has a small volume of distribution",
+        "D: Dilates the coronaries and decreases cardiac oxygen demand",
+        "E: Shortens repolarisation phase 3 by blocking potassium channels"
+      ],
+      "correct": 3,
+      "explanation": "Amiodarone was developed in the 1960s as an angina treatment because it causes coronary vasodilation and decreases cardiac oxygen demand. It is metabolised in the liver to an active metabolite (desethylamiodarone), is highly lipophilic giving it a large volume of distribution, and is primarily a class III drug (though with class I, II and IV activity) that prolongs, not shortens, repolarisation phase 3 by blocking potassium channels. Note on derivation: no option had a visible correct-indicator in the source; D is derived from a near-verbatim match with ESICM's feedback text. Reference: van Erven L, Schalij MJ. Amiodarone: an effective antiarrhythmic drug with unusual side effects. Heart 2010;96:1593-1600.",
+      "section": "Arrhythmia",
+      "topic": "amiodarone pharmacology",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr2_fa03",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 68-year-old lady was admitted to the ICU after a Hartmann's operation. She has a past medical history of ischaemic heart disease, hypertension and chronic kidney disease stage 2. Shortly after extubation the next day, the nurse noticed her heart rate had increased from 85 beats/min to 130-140 beats/min. A recorded ECG showed irregular narrow QRS complexes, absent P waves, ventricular rate of 130-140. What is your diagnosis?",
+      "options": [
+        "A: Atrial fibrillation",
+        "B: Ventricular tachycardia",
+        "C: Sinus tachycardia",
+        "D: Atrial flutter",
+        "E: AV nodal reentry tachycardia (AVNRT)"
+      ],
+      "correct": 0,
+      "explanation": "Atrial fibrillation is not rarely observed in the ICU post-operatively. The diagnosis here is based on an irregularly irregular narrow-complex tachycardia with absent P waves, which is characteristic of AF rather than the other listed rhythms.",
+      "section": "Arrhythmia",
+      "topic": "postoperative atrial fibrillation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr2_fk02",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The Na+/K+ pump is:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "ATPase dependent.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Inhibited by digitalis.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Exchanges 3 potassium ions for 2 sodium ions.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Decreases intracellular action potential.",
+          "correct": false
+        }
+      ],
+      "explanation": "The Na+/K+ pump is ATPase-dependent and inhibited by digitalis glycosides. It exchanges three sodium ions out for two potassium ions in (not 3 potassium for 2 sodium, as C states) — an electrogenic exchange that increases the intracellular negative (resting) potential, promoting repolarisation and maintaining low intracellular Na+ and high intracellular K+; this is not accurately described as 'decreasing the action potential' (D).",
+      "section": "Arrhythmia",
+      "topic": "Na K ATPase pump",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr2_fa04",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 66-year-old female with a past medical history of congestive cardiac failure, atrial fibrillation and hypertension presented to the Emergency Department complaining of palpitations. An ECG revealed bradycardia (heart rate 34) and BP was 155/67. Her drug history includes an ACE inhibitor (ramipril), bisoprolol, furosemide, warfarin and digoxin. Over the previous 2 weeks she had intermittent diarrhoea which progressed to lethargy, confusion and vomiting. Lab results reveal AKI (creatinine 430 µmol/L, 4.8 mg/dL), K 2.7 mmol/L and Na 134 mmol/L. The digoxin level was 1.5 µg/L (reference range 0.5-2.0 µg/L). Which of the following is correct?",
+      "options": [
+        "A: Digoxin toxicity can be excluded based on the serum level",
+        "B: Target digoxin level can differ between cardiac arrhythmia and heart failure",
+        "C: For plasma-digoxin concentration assay, blood should be taken at least 12 hours after a dose",
+        "D: In cases of confirmed digoxin toxicity, an associated K < 3.0 mmol/L is an indication for digoxin-specific antibody fragments",
+        "E: Atrial tachyarrhythmias with a rapid ventricular response is the commonest arrhythmia in digoxin toxicity"
+      ],
+      "correct": 1,
+      "explanation": "Digoxin toxicity can occur even with a normal serum level (e.g. hypokalaemia increases sensitivity to digoxin, as in this patient with K 2.7). The target digoxin level does differ between indications: 0.5-1.0 µg/L in heart failure versus 0.5-2.0 µg/L in atrial fibrillation. Blood for plasma-digoxin concentration should be taken at least 6 hours (not 12) after a dose. It is K > 5.0 mmol/L (hyperkalaemia, not K < 3.0 mmol/L) that indicates digoxin-specific antibody fragments. Almost any arrhythmia can occur in digoxin toxicity, but it is usually associated with impaired AV nodal conduction rather than rapid ventricular response. Note on derivation: no option had a visible correct-indicator in the source; B is derived from a near-verbatim match with ESICM's feedback text. References: BNF (bnf.nice.org.uk/drug/digoxin.html); Lindenfeld J et al. HFSA 2010 comprehensive heart failure practice guideline. J Card Fail. 2010;16(suppl):e1-e194; Morris SA et al. Am Fam Physician. 2006;74(4):613-8; Pincus M. Aust Prescr. 2016;39(1):18-20.",
+      "section": "Arrhythmia",
+      "topic": "digoxin toxicity management",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr2_fk03",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following can be used to treat digitalis toxicity?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Atropine.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Potassium supplementation.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "IV fluid.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Digoxin immune Fab (Digibind).",
+          "correct": true
+        }
+      ],
+      "explanation": "Treatment of digitalis toxicity consists of discontinuing digitalis, bedrest (avoiding sympathetic stimulation) and correcting potassium-magnesium deficits. Atropine is used for symptomatic bradycardia, IV fluid for hypotension, and digoxin-specific Fab fragments for life-threatening or haemodynamically unstable arrhythmia, hyperkalaemia, or end-organ dysfunction.",
+      "section": "Arrhythmia",
+      "topic": "digitalis toxicity treatment",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "module": "FA Arrhythmia Part III",
+  "sections": {},
+  "questions": [
+    {
+      "id": "arr3_fk01",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which statement is true with regards to the management of arrhythmias on the intensive care unit?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The use of sotalol can precipitate ventricular arrhythmias due to QT interval shortening.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Magnesium should be administered for treatment of torsades de pointes only when the plasma level is low.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Procainamide is useful for the treatment of all types of ventricular tachycardias.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Atropine should be administered to prevent polymorphic ventricular tachycardia.",
+          "correct": true
+        }
+      ],
+      "explanation": "Sotalol prolongs (not shortens) the QT interval, which can lead to torsades de pointes. Magnesium is effective for torsades de pointes even when the plasma magnesium level is normal, not only when it is low. Procainamide is useful for monomorphic VT but can itself prolong the QT interval and precipitate torsades de pointes, so it should be avoided in polymorphic VT — it is not useful for all types of VT. Atropine or overdrive pacing can be used to increase heart rate and suppress polymorphic VT; IV amiodarone is also indicated. Reference: Trappe HJ. Treating critical supraventricular and ventricular arrhythmias. J Emerg Trauma Shock 2010;3:143-52.",
+      "section": "Arrhythmia",
+      "topic": "ICU arrhythmia management torsades",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr3_fk02",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following are indications for temporary pacing?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Symptomatic second-degree AV block (Type II).",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Symptomatic complete heart block.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Second-degree AV block (Type I).",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sinus node dysfunction (SND) in the context of acute myocardial infarction.",
+          "correct": true
+        }
+      ],
+      "explanation": "First-degree and second-degree Type I (Wenckebach) block rarely require pacing given their low risk of progression. Second-degree Type II block associated with a wide QRS, especially in the context of anterior MI, is an indication for temporary backup pacing, as is symptomatic complete heart block. Sinus node dysfunction is a relatively common finding, often with concomitant AV nodal block; it usually needs no treatment unless there is cardiac failure, significant hypotension, or ongoing myocardial ischaemia, or the bradycardia is prolonged and severe — ESICM marks it here as a recognised indication in the context of acute MI.",
+      "section": "Arrhythmia",
+      "topic": "temporary pacing indications",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr3_fk03",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "In second-degree (Mobitz II) heart block:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The PR interval is variable.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "There are intermittent dropped beats.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "It is commonly associated with a wide QRS complex.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "It is an indication for temporary pacing when associated with a wide QRS in the context of anterior myocardial infarction.",
+          "correct": true
+        }
+      ],
+      "explanation": "In Mobitz II block the PR interval is normal and constant with intermittent dropped beats (progressive PR prolongation is a feature of Mobitz I, not Mobitz II). The conduction defect in Mobitz II commonly occurs below the AV node, producing a wide QRS, and reflects conduction system disease. When associated with a wide QRS in the context of anterior MI, it is an indication for temporary backup pacing.",
+      "section": "Arrhythmia",
+      "topic": "Mobitz II heart block",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}

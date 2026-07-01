@@ -1,0 +1,380 @@
+{
+  "module": "FA Arrhythmia Part I",
+  "sections": {},
+  "questions": [
+    {
+      "id": "arr1_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 55-year-old man presents with typical ischaemic chest pain. His ECG (shown) demonstrates ST elevation in the inferior leads with P waves dissociated from the QRS complexes. What is the most likely diagnosis?",
+      "options": [
+        "A: Acute anterior wall MI with left bundle branch block",
+        "B: Acute pericarditis with PR depression",
+        "C: Acute inferior wall MI with high-degree AV block, suggesting proximal RCA occlusion",
+        "D: Massive pulmonary embolism with right heart strain",
+        "E: Wolff-Parkinson-White syndrome with pre-excitation"
+      ],
+      "correct": 2,
+      "explanation": "The ECG shows acute inferior MI (ST elevation in II, III, aVF) with high-degree AV nodal block, indicating a proximal RCA occlusion causing a large inferior infarct with AV dissociation. Right ventricular involvement should be assessed with lead V4R. Anterior MI would show anterior lead changes, not inferior.",
+      "section": "Arrhythmia",
+      "topic": "inferior MI AV block RCA",
+      "image": "images/arr1_fa01.png",
+      "section_url": null
+    },
+    {
+      "id": "arr1_fa02",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 55-year-old man has acute inferior wall MI complicated by high-degree AV nodal block, due to a proximal RCA occlusion. What is the mortality implication of the high-degree AV block?",
+      "options": [
+        "A: In-hospital mortality is approximately 2.5 times higher than inferior MI without high-degree AV block",
+        "B: High-degree AV block in this setting has no effect on mortality",
+        "C: Mortality is reduced because AV block indicates a smaller infarct",
+        "D: Mortality risk only applies if the block persists beyond 30 days",
+        "E: High-degree AV block predicts a purely mechanical, non-ischaemic cause"
+      ],
+      "correct": 0,
+      "explanation": "High-degree AV nodal block complicating inferior MI is associated with in-hospital mortality approximately 2.5 times that of inferior MI without AV block, reflecting larger infarct size and proximal RCA involvement. It does not indicate a smaller infarct or a non-ischaemic cause.",
+      "section": "Arrhythmia",
+      "topic": "inferior MI mortality AV block",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_fa03",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 55-year-old man presents with acute inferior STEMI complicated by high-degree AV block. What is the optimal management strategy?",
+      "options": [
+        "A: Thrombolysis only, as PCI is contraindicated with AV block",
+        "B: Permanent pacemaker insertion before any reperfusion therapy",
+        "C: Observation only, since AV block usually resolves spontaneously without intervention",
+        "D: Beta-blockade as first-line therapy prior to reperfusion",
+        "E: Immediate referral for primary PCI where available, or prompt transfer to a PCI-capable centre"
+      ],
+      "correct": 4,
+      "explanation": "STEMI with AV block should be managed with immediate primary PCI where resources allow, or prompt transfer if early PCI is not routinely available in that country. AV block is not a contraindication to PCI or thrombolysis, and reperfusion should not be delayed for pacing unless the patient is haemodynamically unstable.",
+      "section": "Arrhythmia",
+      "topic": "STEMI PCI management",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_fa04",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 60-year-old man with a normal ECG one year ago presents with typical ischaemic chest pain. His current ECG (shown) demonstrates ST elevation in V1-V4 with wide QRS complexes and absent Q waves in I, aVL, V5 and V6. What is the most likely diagnosis?",
+      "options": [
+        "A: Acute inferior wall MI with right bundle branch block",
+        "B: Acute anterior wall MI complicated by new left bundle branch block",
+        "C: Old anteroseptal MI with left ventricular hypertrophy",
+        "D: Acute pericarditis with diffuse ST elevation",
+        "E: Hyperkalaemia with widened QRS complexes"
+      ],
+      "correct": 1,
+      "explanation": "New LBBB with anterior ST elevation in a patient with a previously normal ECG indicates acute anterior MI complicated by new-onset LBBB, implying extensive anterior wall involvement. Absent Q waves in the lateral leads are typical of LBBB itself, not old infarction.",
+      "section": "Arrhythmia",
+      "topic": "anterior MI LBBB",
+      "image": "images/arr1_fa04.png",
+      "section_url": null
+    },
+    {
+      "id": "arr1_fa05",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "In a patient with acute anterior MI who develops a new bundle branch block during the acute phase, what is the diagnostic implication?",
+      "options": [
+        "A: It indicates the infarct is confined to the subendocardium",
+        "B: It suggests the culprit vessel is the right coronary artery",
+        "C: It indicates coexisting mitral valve disease",
+        "D: It indicates extensive anterior wall infarction due to a proximal LAD occlusion",
+        "E: It has no relationship to the extent or location of infarction"
+      ],
+      "correct": 3,
+      "explanation": "New bundle branch block complicating anterior MI indicates a proximal LAD occlusion causing extensive anterior wall infarction, since the conduction system's blood supply is compromised. It does not localise to the RCA or indicate a purely subendocardial infarct.",
+      "section": "Arrhythmia",
+      "topic": "anterior MI LAD conduction",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_fa06",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Does new bundle branch block complicating acute anterior myocardial infarction carry prognostic significance?",
+      "options": [
+        "A: No, prognosis is unaffected once reperfusion is achieved",
+        "B: Yes, it is associated with increased risk of early death from pump failure and ventricular tachyarrhythmias",
+        "C: Yes, but only because it delays diagnosis of the infarct",
+        "D: No, bundle branch block is a benign finding in this context",
+        "E: Yes, but exclusively due to increased bleeding risk with anticoagulation"
+      ],
+      "correct": 1,
+      "explanation": "New BBB complicating anterior MI carries a poor prognosis, with early death occurring from pump failure and ventricular tachycardia or fibrillation, reflecting the large territory of myocardium at risk. It is not simply a diagnostic delay or a benign finding.",
+      "section": "Arrhythmia",
+      "topic": "anterior MI prognosis BBB",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_fa07",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A patient with acute anterior MI develops a new bundle branch block. What management should be prioritised?",
+      "options": [
+        "A: Primary PCI, with temporary pacing if second- or third-degree heart block develops",
+        "B: Thrombolysis alone, with permanent pacemaker insertion regardless of AV conduction",
+        "C: Delaying reperfusion until the bundle branch block resolves",
+        "D: Anticoagulation alone without reperfusion therapy",
+        "E: Isoprenaline infusion as first-line treatment for the conduction disturbance"
+      ],
+      "correct": 0,
+      "explanation": "Primary PCI should be pursued for the anterior MI, with temporary pacing reserved for those who progress to second- or third-degree heart block. Reperfusion should not be delayed because of the conduction disturbance itself.",
+      "section": "Arrhythmia",
+      "topic": "anterior MI pacing treatment",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_fa08",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 22-year-old woman presents with pyrexia and rigors. Examination reveals profuse splinter haemorrhages and a short early diastolic murmur at the lower left sternal edge. Her ECG (shown) demonstrates high-degree AV block with P waves independent of the QRS complexes. What is the most likely diagnosis?",
+      "options": [
+        "A: Acute rheumatic fever with carditis",
+        "B: Viral myocarditis with associated conduction disease",
+        "C: Mitral valve endocarditis with embolic phenomena",
+        "D: Acute pericarditis secondary to a viral illness",
+        "E: Infective endocarditis of the aortic valve complicated by an aortic root abscess"
+      ],
+      "correct": 4,
+      "explanation": "Splinter haemorrhages and an early diastolic murmur suggest active aortic valve endocarditis; new high-degree AV block suggests extension of infection into the aortic root, forming an abscess adjacent to the conduction system. The murmur described is not typical of mitral valve disease.",
+      "section": "Arrhythmia",
+      "topic": "endocarditis AV block abscess",
+      "image": "images/arr1_fa08.png",
+      "section_url": null
+    },
+    {
+      "id": "arr1_fa09",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "In a patient with infective endocarditis, the ECG shows QRS amplitudes under 5mm in each of leads I, II and III. How should this finding be interpreted?",
+      "options": [
+        "A: This is a normal finding requiring no further explanation",
+        "B: It indicates left ventricular hypertrophy",
+        "C: Low voltage in the limb leads; formally, low voltage overall requires average limb lead voltage <5mm and average chest lead voltage <10mm",
+        "D: It is diagnostic of acute pericarditis regardless of chest lead voltages",
+        "E: It confirms right axis deviation"
+      ],
+      "correct": 2,
+      "explanation": "Low voltage is present when each limb lead QRS amplitude is under 5mm; formally, low voltage overall requires the average limb lead voltage to be <5mm AND the average chest lead voltage to be <10mm. It is a descriptive finding, not itself a diagnosis, hypertrophy pattern, or axis measurement.",
+      "section": "Arrhythmia",
+      "topic": "low voltage ECG endocarditis",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_fa10",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A patient with infective endocarditis is found to have a low-voltage ECG. Which of the following is a recognised cause of low QRS voltage on the ECG?",
+      "options": [
+        "A: Hyperthyroidism",
+        "B: Left ventricular hypertrophy",
+        "C: Acute anterior STEMI",
+        "D: Pericardial effusion",
+        "E: Athletic conditioning"
+      ],
+      "correct": 3,
+      "explanation": "Pericardial effusion is a classic cause of low-voltage ECG, along with obesity, anasarca, infiltrative myocardial disease such as amyloidosis, lung disease, and severe hypothyroidism (not hyperthyroidism). Left ventricular hypertrophy typically increases, rather than reduces, QRS voltage.",
+      "section": "Arrhythmia",
+      "topic": "low voltage causes pericardial effusion",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_fa11",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "In a patient with suspected aortic valve endocarditis and new high-degree AV block, what should echocardiography specifically assess for?",
+      "options": [
+        "A: Perivalvular extension of infection beyond the valve leaflets into surrounding tissue",
+        "B: Left ventricular ejection fraction only",
+        "C: Presence of a patent foramen ovale",
+        "D: Coronary artery calcium score",
+        "E: Pulmonary artery pressure alone"
+      ],
+      "correct": 0,
+      "explanation": "Echocardiography should assess for perivalvular extension of infection, such as abscess formation, since this represents progression beyond the valve leaflets into adjacent tissue including the conduction system, explaining the new AV block. This is a more specific and clinically urgent target than the other listed findings.",
+      "section": "Arrhythmia",
+      "topic": "endocarditis echocardiography abscess",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_fa12",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A patient with aortic valve endocarditis is found to have perivalvular extension of infection on echocardiography. What additional management should be considered?",
+      "options": [
+        "A: Prolonging the same antibiotic regimen without surgical input",
+        "B: Permanent pacemaker insertion as definitive treatment, without surgery",
+        "C: Cardiac surgery to debride invasive infection, drain abscesses and reconstruct anatomical damage",
+        "D: Anticoagulation to prevent further valve damage",
+        "E: Repeat blood cultures only, with surgery deferred until cultures clear"
+      ],
+      "correct": 2,
+      "explanation": "Perivalvular extension of infection, such as an abscess, is an indication for cardiac surgery to debride infection, drain abscesses and reconstruct anatomical damage; antibiotics alone are insufficient once infection has extended beyond the valve. Pacing may be needed for the AV block but does not address the underlying infective process.",
+      "section": "Arrhythmia",
+      "topic": "endocarditis surgery abscess",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_fa13",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 62-year-old woman is admitted to ICU following a cardiac arrest. Her only past medical history is treatment with a tricyclic antidepressant. Her ECG (shown) demonstrates a prolonged QT interval. What is the most likely underlying cause of her cardiac arrest?",
+      "options": [
+        "A: Primary ventricular fibrillation from acute myocardial infarction",
+        "B: Torsade de pointes secondary to QT prolongation from tricyclic antidepressant therapy",
+        "C: Complete heart block progressing to asystole",
+        "D: Pulseless electrical activity from massive pulmonary embolism",
+        "E: Supraventricular tachycardia with rapid ventricular response"
+      ],
+      "correct": 1,
+      "explanation": "Tricyclic antidepressants may prolong the QT interval and predispose to torsade de pointes, which was the underlying cause of this patient's cardiac arrest. There is no ECG or history evidence here of infarction, heart block, or pulmonary embolism as the primary cause.",
+      "section": "Arrhythmia",
+      "topic": "torsade de pointes QT tricyclic",
+      "image": "images/arr1_fa13.png",
+      "section_url": null
+    },
+    {
+      "id": "arr1_fa14",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "You are in the emergency room and just got the ECG of a 60-year old admitted with shortness of breath. What are the main abnormalities present on this ECG?",
+      "options": [
+        "A: Severe bradycardia (HR ~ 30 bpm)",
+        "B: Absent P waves",
+        "C: normal PR interval",
+        "D: Narrow QRS complexes",
+        "E: assymmetrically peaked T waves in V2-5"
+      ],
+      "correct": 0,
+      "explanation": "The ECG shows symmetrically peaked T waves, flattening, broadening and disappearance of P waves, and broad QRS complexes, often with bizarre morphology, bradycardia and a sine wave appearance — signs characteristic of severe hyperkalaemia. ESICM marked severe bradycardia as the correct primary abnormality.",
+      "section": "Arrhythmia",
+      "topic": "hyperkalaemia ECG bradycardia",
+      "image": "images/arr1_fa14.png",
+      "section_url": null
+    },
+    {
+      "id": "arr1_fa15",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "You are called to the bedside of a 77-year old man who is day 2 post-op from a mitral valve repair and CABG x 3. He still has A+V epicardial pacing wires in situ with AAI pacing set at 90 bpm but the nursing staff are concerned that his rhythm has become irregular. He also complains of sternal discomfort that is worse with deep breathing and coughing. He is otherwise stable with BP 130/70 mmHg, MAP 95 mmHg, clear chest sounds, normal mental status and good urine output. The current ECG is shown. Which statement is true regarding the ECG?",
+      "options": [
+        "A: there is a ventricular paced rhythm with spikes at 90 bpm",
+        "B: No acute ST changes to indicate ischaemia as the cause of his pain",
+        "C: There is a second degree AV block with Mobitz II conduction",
+        "D: This patient should start Beta-blockers immediately",
+        "E: The pacemaker is not working properly"
+      ],
+      "correct": 1,
+      "explanation": "The ECG shows an atrial (not ventricular) paced rhythm with spikes around 90 bpm; each spike is followed by a P wave with 100% atrial capture, and the PR interval progressively lengthens until a QRS is dropped — a second degree AV block with Mobitz I (Wenckebach), not Mobitz II. The pacer is functioning normally, and there are no acute ST changes to suggest ischaemia; his sternal discomfort is more consistent with post-sternotomy pain. Possible mechanisms for AV block after mitral valve surgery include direct surgical damage to the conduction system, AV nodal artery injury, prolonged cross-clamp time, or perioperative AV-nodal blocking drugs. Note on derivation: no option was marked with a visible correct-indicator in the source screenshot (the selected answer, A, was marked wrong); B is derived from ESICM's feedback text, which restates it almost verbatim as true.",
+      "section": "Arrhythmia",
+      "topic": "Wenckebach pacing post-cardiac surgery",
+      "image": "images/arr1_fa15.png",
+      "section_url": null
+    },
+    {
+      "id": "arr1_fa16",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which statement is true about electrocardiogram (ECG) monitoring?",
+      "options": [
+        "A: Standard calibration is 25mm/s and 1mV/mm.",
+        "B: Lead CM5 is best for detecting arrhythmias.",
+        "C: CM5 lead is not superior to lead II for detecting coronary ischaemia",
+        "D: A five-lead ECG has 90% sensitivity for detecting inferior or anterior ischaemia",
+        "E: Normal axis is between -30 to -90°"
+      ],
+      "correct": 3,
+      "explanation": "A five-lead ECG has approximately 90% sensitivity for detecting inferior or anterior ischaemia when leads II, V4 and V5 are monitored continuously. Standard calibration is 25mm/s and 1mV/cm, not 1mV/mm; lead II (not CM5) is considered best for detecting arrhythmias, though CM5 is superior to a single limb lead for detecting coronary ischaemia; and the normal ECG axis is -30° to +90°, with -30° to -90° representing left axis deviation rather than normal. Reference: Waldmann C, Soni N, Rhodes A. Oxford Desk Reference Critical Care. Oxford University Press, 2008.",
+      "section": "Arrhythmia",
+      "topic": "ECG monitoring calibration leads",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr1_fa17",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 75-year-old woman had a witnessed collapse at home with bystander CPR started immediately by her husband. Her initial rhythm was ventricular fibrillation and she reverted to sinus rhythm after defibrillation (downtime: 5 minutes). She arrives at the Emergency Department intubated and unconscious, with a blood pressure of 72/47 mmHg. Her ECG is shown. Which statement is true regarding the ECG interpretation?",
+      "options": [
+        "A: Sinus Rhythm at 75/min",
+        "B: 1st degree heart block",
+        "C: Left axis deviation",
+        "D: ST elevation in the lateral leads",
+        "E: Reciprocal ST depression in the inferior leads"
+      ],
+      "correct": 1,
+      "explanation": "ESICM's review describes sinus rhythm at 90/min (borderline for 1st degree heart block), normal axis, ST elevation in the inferior leads (II, III, aVF) and V1-V3, with reciprocal ST depression in the lateral leads (I, aVL, V6); ST elevation in V1 with ST elevation greater in lead III than lead II suggests right ventricular infarction. Note on uncertainty: ESICM's own text calls the PR finding 'borderline' rather than definitive, so answer B is derived by elimination — the other four options are directly contradicted by the stated findings (rate is 90 not 75, axis is normal not left-deviated, and elevation is inferior/V1-V3 with reciprocal depression laterally, not lateral elevation or inferior depression as C-E claim).",
+      "section": "Arrhythmia",
+      "topic": "RV infarction post-arrest ECG",
+      "image": "images/arr1_fa17.png",
+      "section_url": null
+    },
+    {
+      "id": "arr1_fk01",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Regarding conditions that may cause a dominant R-wave in lead V1 on the ECG:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Wolff-Parkinson-White syndrome Type B is a recognised cause.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Posterior myocardial infarction is a recognised cause.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Acute pulmonary embolism is a recognised cause, due to acute right heart strain.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Dextrocardia is a recognised cause.",
+          "correct": false
+        }
+      ],
+      "explanation": "Posterior MI and acute PE (via right heart strain) are recognised causes of a dominant R wave in V1. It is Wolff-Parkinson-White Type A, not Type B, that causes this pattern, and dextrocardia produces a dominant R wave in lead aVR rather than V1. Reference: Longmore M, Wilkinson I, Baldwin A, Wallin E. Oxford Handbook of Clinical Medicine. Oxford University Press, 2010. Note on format: adapted from an ESICM 'select one or more' question with 5 options; the fifth option, Dressler's syndrome, concerned different ECG findings (ST elevation/T-wave inversion, not R-wave morphology) and was omitted to fit the standard 4-statement Type K format.",
+      "section": "Arrhythmia",
+      "topic": "dominant R wave V1 causes",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}
