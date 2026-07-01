@@ -29,16 +29,26 @@
       "source": "esicm_final_assessment",
       "question": "The same 35-year-old man (intubated for ARDS due to Legionella pneumonia, on ceftriaxone and a macrolide) has an initial arterial blood gas of pH 7.27, PaCO2 50 mmHg, PaO2 75 mmHg on FiO2 1.0. The ventilator is now set to volume-controlled mode, tidal volume 7.5 ml/kg predicted body weight, PEEP 10 cmH2O, respiratory rate 20/min, with a plateau pressure of 26 cmH2O. Regarding the next steps, are the following statements true or false?",
       "statements": [
-        "The PaO2/FiO2 ratio confirms a diagnosis of ARDS.",
-        "The PaO2/FiO2 ratio specifically confirms moderate ARDS.",
-        "Given the current plateau pressure, PEEP can reasonably be increased to 15 cmH2O.",
-        "Increasing the tidal volume to 8 ml/kg predicted body weight would be a reasonable option, since the mild respiratory acidosis is not the critical problem here."
-      ],
-      "correct": [
-        true,
-        false,
-        true,
-        true
+        {
+          "label": "A",
+          "text": "The PaO2/FiO2 ratio confirms a diagnosis of ARDS.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The PaO2/FiO2 ratio specifically confirms moderate ARDS.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Given the current plateau pressure, PEEP can reasonably be increased to 15 cmH2O.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Increasing the tidal volume to 8 ml/kg predicted body weight would be a reasonable option, since the mild respiratory acidosis is not the critical problem here.",
+          "correct": true
+        }
       ],
       "explanation": "PaO2/FiO2 = 75/1.0 = 75 mmHg, i.e. severe ARDS (≤100 mmHg) — not moderate (100–200 mmHg), so statement 2 is false and statement 1 is true. Plateau pressure (26 cmH2O) is comfortably below the 28–30 cmH2O safety ceiling, leaving room to increase PEEP further; the Briel et al. meta-analysis suggested a higher-PEEP strategy (≥15 cmH2O) may benefit patients with PaO2/FiO2 <200 mmHg, provided haemodynamics and plateau pressure are rechecked promptly (statement 3 true). The mild, compensated respiratory acidosis (pH 7.27) is not the priority issue here, so a modest tidal volume increase was not judged critical to avoid (statement 4 true).",
       "section": "Respiratory",
@@ -72,16 +82,26 @@
       "source": "esicm_final_assessment",
       "question": "The same patient (severe ARDS, PEEP now 15 cmH2O) has an esophageal pressure catheter correctly placed. Plateau pressure is 32 cmH2O at the airway and 18 cmH2O on the esophageal catheter. Are the following statements true or false?",
       "statements": [
-        "The transpulmonary plateau pressure (absolute method) is 50 cmH2O.",
-        "The transpulmonary plateau pressure (absolute method) is 14 cmH2O.",
-        "The transpulmonary pressure is within a range generally considered safe.",
-        "Based on this single measurement, PEEP could be increased further."
-      ],
-      "correct": [
-        false,
-        true,
-        true,
-        false
+        {
+          "label": "A",
+          "text": "The transpulmonary plateau pressure (absolute method) is 50 cmH2O.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "The transpulmonary plateau pressure (absolute method) is 14 cmH2O.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The transpulmonary pressure is within a range generally considered safe.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Based on this single measurement, PEEP could be increased further.",
+          "correct": false
+        }
       ],
       "explanation": "Transpulmonary pressure (absolute method) = airway plateau pressure − esophageal pressure = 32 − 18 = 14 cmH2O (statement 2 true, statement 1 false). A transpulmonary pressure of roughly 15–24 cmH2O is generally considered a safe range; the exact safe threshold is not firmly established, but 14 cmH2O is regarded as acceptable here (statement 3 true). A separate study showed that titrating PEEP to reach a transpulmonary pressure up to about 25 cmH2O could help avoid ECMO in some patients meeting ECMO criteria — but this requires a specific titration strategy, not a simple inference from this one measurement (statement 4 false).",
       "section": "Respiratory",
@@ -116,16 +136,26 @@
       "source": "esicm_final_assessment",
       "question": "Using the same data (severe ARDS patient; total PEEP 16 cmH2O airway / 15 cmH2O esophageal; plateau pressure 32 cmH2O airway / 18 cmH2O esophageal; tidal volume 7.5 ml/kg predicted body weight = 0.4 L), are the following statements true or false?",
       "statements": [
-        "The transpulmonary end-expiratory pressure is 15 cmH2O.",
-        "The transpulmonary end-expiratory pressure is 1 cmH2O.",
-        "The lung compliance is 31 ml/cmH2O.",
-        "The chest wall compliance is 133 ml/cmH2O."
-      ],
-      "correct": [
-        false,
-        true,
-        true,
-        true
+        {
+          "label": "A",
+          "text": "The transpulmonary end-expiratory pressure is 15 cmH2O.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "The transpulmonary end-expiratory pressure is 1 cmH2O.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The lung compliance is 31 ml/cmH2O.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "The chest wall compliance is 133 ml/cmH2O.",
+          "correct": true
+        }
       ],
       "explanation": "Transpulmonary end-expiratory pressure = total PEEP at the airway − total PEEP on the esophageal catheter = 16 − 15 = 1 cmH2O (statement 2 true, statement 1 false). Lung compliance is the ratio of transpulmonary driving pressure to tidal volume; chest wall compliance is the ratio of the change in esophageal pressure (plateau minus end-expiratory, zero-flow) to tidal volume. With the values given, this yields a lung compliance of 31 ml/cmH2O and a chest wall compliance of 133 ml/cmH2O (statements 3 and 4 true).",
       "section": "Respiratory",
@@ -140,16 +170,26 @@
       "source": "esicm_final_assessment",
       "question": "Four hours later, with set PEEP still 15 cmH2O, total PEEP is now 15 cmH2O and plateau pressure is 31 cmH2O at the same tidal volume (previously: total PEEP 16 cmH2O, plateau pressure 32 cmH2O). Are the following statements true or false?",
       "statements": [
-        "The reduction in plateau pressure indicates lung recruitment.",
-        "The driving pressure is now 16 cmH2O.",
-        "The reduction in plateau pressure is due to a reduction in intrinsic PEEP.",
-        "Since driving pressure and tidal volume have not changed, respiratory system compliance has also not changed."
-      ],
-      "correct": [
-        false,
-        true,
-        true,
-        true
+        {
+          "label": "A",
+          "text": "The reduction in plateau pressure indicates lung recruitment.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "The driving pressure is now 16 cmH2O.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The reduction in plateau pressure is due to a reduction in intrinsic PEEP.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Since driving pressure and tidal volume have not changed, respiratory system compliance has also not changed.",
+          "correct": true
+        }
       ],
       "explanation": "Driving pressure = plateau − total PEEP = 31 − 15 = 16 cmH2O (statement 2 true). Both total PEEP and plateau pressure fell by exactly 1 cmH2O, consistent with a fall in intrinsic (auto-)PEEP rather than a change in lung mechanics (statement 3 true) — so the drop in plateau pressure reflects reduced total PEEP, not recruitment (statement 1 false). Since driving pressure and tidal volume are unchanged, respiratory system compliance (tidal volume/driving pressure) is also unchanged (statement 4 true).",
       "section": "Respiratory",
@@ -164,16 +204,26 @@
       "source": "esicm_final_assessment",
       "question": "Esophageal-pressure-guided PEEP titration is physiologically sound but not always feasible in routine ICU practice. An alternative is to select PEEP and FiO2 from a PEEP/FiO2 table, as used in ARDSNet-type trials, which can be applied in any ICU. Regarding this table-based approach, are the following statements true or false?",
       "statements": [
-        "With the PEEP/FiO2 table, an FiO2 of 1.0 corresponds to a PEEP of 24 cmH2O.",
-        "The tidal volume target in this approach is 6 ml/kg predicted body weight.",
-        "This approach allows targeting a higher plateau pressure than the esophageal-pressure-guided approach.",
-        "In practice, this table-based approach is followed closely by most clinicians."
-      ],
-      "correct": [
-        true,
-        true,
-        false,
-        false
+        {
+          "label": "A",
+          "text": "With the PEEP/FiO2 table, an FiO2 of 1.0 corresponds to a PEEP of 24 cmH2O.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The tidal volume target in this approach is 6 ml/kg predicted body weight.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "This approach allows targeting a higher plateau pressure than the esophageal-pressure-guided approach.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "In practice, this table-based approach is followed closely by most clinicians.",
+          "correct": false
+        }
       ],
       "explanation": "In the higher PEEP/FiO2 table used in ARDSNet-type trials, an FiO2 of 1.0 corresponds to the highest PEEP permitted on the table, 24 cmH2O (statement 1 true), alongside a tidal volume target of 6 ml/kg predicted body weight, as used in the ALVEOLI trial (statement 2 true). That trial's plateau pressure target was 30 cmH2O, not higher (statement 3 false). The LUNG SAFE observational study found that in practice clinicians managing severe ARDS used, on average, only around 10 cmH2O PEEP with FiO2 1.0 — well below what a strict table-based protocol would dictate — showing the table is not closely followed in routine practice (statement 4 false).",
       "section": "Respiratory",
@@ -188,16 +238,26 @@
       "source": "esicm_final_assessment",
       "question": "In a patient with severe ARDS being placed prone, what is the aim of proning? Are the following statements true or false?",
       "statements": [
-        "Improving oxygenation.",
-        "Unloading the left cardiac ventricle.",
-        "Preventing ventilator-induced lung injury.",
-        "Buying time for lung healing."
-      ],
-      "correct": [
-        true,
-        false,
-        true,
-        false
+        {
+          "label": "A",
+          "text": "Improving oxygenation.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Unloading the left cardiac ventricle.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Preventing ventilator-induced lung injury.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Buying time for lung healing.",
+          "correct": false
+        }
       ],
       "explanation": "Oxygenation improves in roughly 50–75% of patients placed prone (statement 1 true). Proning homogenises the distribution of lung stress and strain, which is thought to reduce ventilator-induced lung injury (statement 3 true) — this is the main physiological rationale, not simply 'buying time' (statement 4 false). Proning unloads the right ventricle, not the left ventricle (statement 2 false).",
       "section": "Respiratory",
@@ -231,16 +291,26 @@
       "source": "esicm_final_assessment",
       "question": "Regarding adjusting PEEP once a patient with ARDS is placed in the prone position, are the following statements true or false?",
       "statements": [
-        "PEEP should be managed just as it would be in the supine position, since there is no trial evidence to support a different specific strategy.",
-        "PEEP should be set higher than in the supine position, because chest wall elastance decreases in the prone position.",
-        "PEEP should be set lower than in the supine position.",
-        "In practice, clinicians often do not apply a distinct PEEP strategy for the prone position at all."
-      ],
-      "correct": [
-        true,
-        false,
-        false,
-        true
+        {
+          "label": "A",
+          "text": "PEEP should be managed just as it would be in the supine position, since there is no trial evidence to support a different specific strategy.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "PEEP should be set higher than in the supine position, because chest wall elastance decreases in the prone position.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "PEEP should be set lower than in the supine position.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "In practice, clinicians often do not apply a distinct PEEP strategy for the prone position at all.",
+          "correct": true
+        }
       ],
       "explanation": "There is no trial evidence supporting a PEEP-titration strategy specific to the prone position, so continuing to manage PEEP as in the supine position is a reasonable, evidence-consistent approach (statement 1 true). A study found that clinicians frequently do not systematically apply a distinct prone-specific strategy, instead carrying over whatever approach they used supine (statement 4 true). Claims that PEEP should specifically be higher (statement 2) or lower (statement 3) than in the supine position are not supported by data.",
       "section": "Respiratory",
@@ -255,16 +325,26 @@
       "source": "esicm_final_assessment",
       "question": "Regarding neuromuscular blockade (paralysis) in a patient with severe ARDS, are the following statements true or false?",
       "statements": [
-        "Improving oxygenation.",
-        "Reducing lung inflammation.",
-        "Avoiding patient-ventilator asynchrony.",
-        "Improving haemodynamics."
-      ],
-      "correct": [
-        true,
-        true,
-        true,
-        false
+        {
+          "label": "A",
+          "text": "Improving oxygenation.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Reducing lung inflammation.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Avoiding patient-ventilator asynchrony.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Improving haemodynamics.",
+          "correct": false
+        }
       ],
       "explanation": "Trials of neuromuscular blockade in early severe ARDS (e.g. Papazian et al., ACURASYS) versus placebo showed improved oxygenation, and placebo-controlled data have also shown reduced inflammation. Paralysis also avoids patient-ventilator asynchrony, including reverse triggering, which can otherwise cause double triggering and additional lung stress (statements 1, 2, 3 true). An effect on haemodynamics has not been demonstrated as a rationale for paralysis (statement 4 false).",
       "section": "Respiratory",
@@ -279,16 +359,26 @@
       "source": "esicm_final_assessment",
       "question": "If a patient remains in severe ARDS, when should muscle paralysis be stopped? Are the following statements true or false?",
       "statements": [
-        "Once oxygenation improves.",
-        "After 48 hours.",
-        "Once the PaO2/FiO2 ratio is greater than 150 mmHg.",
-        "After three days."
-      ],
-      "correct": [
-        false,
-        true,
-        true,
-        false
+        {
+          "label": "A",
+          "text": "Once oxygenation improves.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "After 48 hours.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Once the PaO2/FiO2 ratio is greater than 150 mmHg.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "After three days.",
+          "correct": false
+        }
       ],
       "explanation": "In the trial demonstrating benefit from early paralysis in severe ARDS, neuromuscular blockade was used for up to 48 hours (statement 2 true) — a fixed duration, not simply until oxygenation improves (statement 1 false) or a fixed 3-day course (statement 4 false). A PaO2/FiO2 threshold of 150 mmHg was the improvement criterion used in a trial showing benefit from prone positioning, and is also cited here as a reasonable stopping point (statement 3 true).",
       "section": "Respiratory",
@@ -403,16 +493,26 @@
       "source": "esicm_final_assessment",
       "question": "Regarding imaging in a patient with ARDS, are the following statements true or false?",
       "statements": [
-        "Lung ultrasound is an excellent method to evaluate overdistension.",
-        "Electric impedance tomography (EIT) can be used to measure absolute end-expiratory lung volume.",
-        "Computed tomography of the chest and lungs should be performed in all ARDS patients.",
-        "Lung ultrasound can detect tidal recruitment/derecruitment."
-      ],
-      "correct": [
-        false,
-        false,
-        false,
-        true
+        {
+          "label": "A",
+          "text": "Lung ultrasound is an excellent method to evaluate overdistension.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Electric impedance tomography (EIT) can be used to measure absolute end-expiratory lung volume.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Computed tomography of the chest and lungs should be performed in all ARDS patients.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Lung ultrasound can detect tidal recruitment/derecruitment.",
+          "correct": true
+        }
       ],
       "explanation": "Ultrasound cannot differentiate between normally aerated and overdistended lung regions (statement 1 false). EIT cannot assess absolute lung volume, though it may indicate relative changes such as those from lung recruitment (statement 2 false). There is no consensus that chest CT should be performed in all ARDS patients, though it can give additional useful information in severe cases (statement 3 false). Lung ultrasound can detect lung collapse, consolidation, oedema, tidal recruitment/derecruitment, and pleural pathology (statement 4 true).",
       "section": "Respiratory",
@@ -427,16 +527,26 @@
       "source": "esicm_final_assessment",
       "question": "Regarding the use of Extracorporeal CO2 removal (ECCO2R) and ECMO in ARDS, are the following statements true or false?",
       "statements": [
-        "ECCO2R using a veno-venous flow of 200 ml/min is an effective method to normalize a high PaCO2.",
-        "ECMO has conclusively been proven to increase survival in patients with severe ARDS.",
-        "ECMO should be available in all centers treating ARDS.",
-        "A low ventilatory driving pressure when ventilating patients during ECMO is associated with improved survival."
-      ],
-      "correct": [
-        false,
-        false,
-        false,
-        true
+        {
+          "label": "A",
+          "text": "ECCO2R using a veno-venous flow of 200 ml/min is an effective method to normalize a high PaCO2.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "ECMO has conclusively been proven to increase survival in patients with severe ARDS.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "ECMO should be available in all centers treating ARDS.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "A low ventilatory driving pressure when ventilating patients during ECMO is associated with improved survival.",
+          "correct": true
+        }
       ],
       "explanation": "A flow of 700–1000 ml/min is generally needed to remove adequate amounts of CO2 in hypercapnia; 200 ml/min is insufficient (statement 1 false). No RCT has conclusively shown improved survival with ECMO in ARDS (statement 2 false). ECMO remains a semi-experimental technique that should be performed only in dedicated, experienced centers rather than being universally available (statement 3 false). Retrospective analyses of ARDS patients ventilated with and without ECMO have shown that lower driving pressures are associated with improved survival (statement 4 true).",
       "section": "Respiratory",
@@ -451,16 +561,26 @@
       "source": "esicm_final_assessment",
       "question": "Regarding prone position in ARDS, are the following statements true or false?",
       "statements": [
-        "Every ARDS patient should be proned.",
-        "Prone position reduces mortality in patients with ARDS and a PaO2/FiO2 <150 mmHg.",
-        "Prone position homogenizes lung ventilation distribution.",
-        "Prone position does not affect cardiac output."
-      ],
-      "correct": [
-        false,
-        true,
-        true,
-        false
+        {
+          "label": "A",
+          "text": "Every ARDS patient should be proned.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Prone position reduces mortality in patients with ARDS and a PaO2/FiO2 <150 mmHg.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Prone position homogenizes lung ventilation distribution.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Prone position does not affect cardiac output.",
+          "correct": false
+        }
       ],
       "explanation": "Proning is not indicated for every ARDS patient; it is specifically supported in patients with more severe hypoxaemia (PaO2/FiO2 <150 mmHg), where the PROSEVA trial showed a mortality benefit (statement 1 false, statement 2 true). Proning also homogenizes the distribution of ventilation across the lung (statement 3 true), and it does affect cardiac output — proning can alter right ventricular loading conditions rather than leaving cardiac output unchanged (statement 4 false).",
       "section": "Respiratory",
@@ -475,16 +595,26 @@
       "source": "esicm_final_assessment",
       "question": "With regard to the Berlin definition of ARDS, in order to diagnose ARDS, are the following statements true or false?",
       "statements": [
-        "All patients with ARDS must be intubated.",
-        "A PEEP of at least 8 cmH2O is mandatory.",
-        "Bilateral opacities must be seen on lung imaging.",
-        "Three oxygenation severity stages are defined."
-      ],
-      "correct": [
-        false,
-        false,
-        true,
-        true
+        {
+          "label": "A",
+          "text": "All patients with ARDS must be intubated.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "A PEEP of at least 8 cmH2O is mandatory.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Bilateral opacities must be seen on lung imaging.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Three oxygenation severity stages are defined.",
+          "correct": true
+        }
       ],
       "explanation": "The Berlin definition does not require invasive ventilation — ARDS can be diagnosed in patients on non-invasive support (statement 1 false). The minimum PEEP required to interpret the PaO2/FiO2 ratio is 5 cmH2O, not 8 (statement 2 false). Bilateral opacities on imaging, not fully explained by effusions, collapse, or nodules, are a required criterion (statement 3 true), and the Berlin definition stratifies ARDS into three oxygenation-based severity categories — mild, moderate, and severe (statement 4 true).",
       "section": "Respiratory",
@@ -499,16 +629,26 @@
       "source": "esicm_final_assessment",
       "question": "Regarding the management of diseases presenting clinically as ARDS, are the following statements true or false?",
       "statements": [
-        "The only consistently demonstrated beneficial effect of an inverse I:E ratio is enhanced CO2 removal.",
-        "An increase in oxygenation after changing to the prone position is usually seen within minutes or at least within the first 1–2 hours.",
-        "Indications for steroids include Pneumocystis jiroveci pneumonia, tuberculosis, vasculitis, and cryptogenic organizing pneumonia (COP).",
-        "It (plateau pressure) is independent of chest wall mechanics."
-      ],
-      "correct": [
-        true,
-        true,
-        true,
-        false
+        {
+          "label": "A",
+          "text": "The only consistently demonstrated beneficial effect of an inverse I:E ratio is enhanced CO2 removal.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "An increase in oxygenation after changing to the prone position is usually seen within minutes or at least within the first 1–2 hours.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Indications for steroids include Pneumocystis jiroveci pneumonia, tuberculosis, vasculitis, and cryptogenic organizing pneumonia (COP).",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "It (plateau pressure) is independent of chest wall mechanics.",
+          "correct": false
+        }
       ],
       "explanation": "Many diseases with acute onset can mimic ARDS — for example alveolar haemorrhage due to vasculitis, drug-induced pulmonary toxicity, acute eosinophilic pneumonia, organizing or diffuse interstitial pneumonia, and rarely cancer infiltration. Because these can fulfil the ARDS definition, a full diagnostic work-up (bronchoalveolar lavage with cytology, chest CT) should be considered to identify patients who might benefit from specific therapies, including corticosteroids for conditions such as Pneumocystis jiroveci pneumonia, tuberculosis, vasculitis, or COP (statement 3 true). An inverse I:E ratio has not consistently shown benefits beyond enhanced CO2 removal (statement 1 true). Oxygenation improvements after proning are typically seen early, within minutes to the first 1–2 hours (statement 2 true). Note: statement 4, as presented by ESICM, appears to be carried over from the separate 'plateau pressure' question topic rather than the diseases-mimicking-ARDS theme; transcribed as shown — plateau pressure is in fact dependent on chest wall mechanics, so the statement is false.",
       "section": "Respiratory",
@@ -523,16 +663,26 @@
       "source": "esicm_final_assessment",
       "question": "Regarding plateau pressure, are the following statements true or false?",
       "statements": [
-        "It reflects end-expiratory alveolar pressure.",
-        "It should be maintained below 28–30 cmH2O.",
-        "It is the peak pressure recorded during the inspiratory phase.",
-        "It is independent of chest wall mechanics."
-      ],
-      "correct": [
-        false,
-        true,
-        false,
-        false
+        {
+          "label": "A",
+          "text": "It reflects end-expiratory alveolar pressure.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "It should be maintained below 28–30 cmH2O.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "It is the peak pressure recorded during the inspiratory phase.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "It is independent of chest wall mechanics.",
+          "correct": false
+        }
       ],
       "explanation": "Plateau pressure reflects end-inspiratory (not end-expiratory) alveolar pressure, measured during a zero-flow pause after inspiration (statement 1 false). It should be kept below 28–30 cmH2O to limit the risk of ventilator-induced lung injury (statement 2 true). It is not the peak pressure — peak airway pressure occurs during active gas flow and is influenced by airway resistance, whereas plateau pressure is measured once flow has stopped (statement 3 false). Plateau pressure is influenced by both lung and chest wall mechanics (e.g. obesity, abdominal distension, effusions), so it is not independent of chest wall mechanics (statement 4 false). No separate ESICM comment text was shown for this item; the explanation reflects standard respiratory physiology consistent with the marked correct/incorrect answers.",
       "section": "Respiratory",
