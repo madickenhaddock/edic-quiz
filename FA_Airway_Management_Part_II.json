@@ -1,0 +1,322 @@
+{
+  "module": "Airway Management Part II",
+  "sections": {},
+  "questions": [
+    {
+      "id": "aw2_fk01",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The same 18-year-old obese man (GCS 7 following a high-speed road traffic accident, now apnoeic and being manually bag-mask ventilated) is being prepared for intubation. Regarding preparation prior to intubating this patient:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Preoxygenation should be performed using a bag and mask with a PEEP valve, and oxygenation during the apnoeic phase should be maintained with nasal cannula or high-flow nasal oxygen (THRIVE)",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "At least two intravascular access sites should be secured before proceeding",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Minimum monitoring should include pulse oximetry and blood pressure only; capnography is not required until after confirmed tube placement",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "A pre-intubation checklist should be performed, covering induction agents, emergency drugs, a plan to maintain anaesthesia after intubation, and anticipated difficulty",
+          "correct": true
+        }
+      ],
+      "explanation": "Preparation for intubation in a critically ill patient should include preoxygenation with a PEEP valve and apnoeic oxygenation (nasal cannula/THRIVE), at least two secure IV access sites, full monitoring from the outset (pulse oximetry, capnography, blood pressure, heart rate, 3-lead ECG, and end-tidal oxygen if available — not delayed until after intubation), and a structured pre-intubation checklist covering drugs, a post-intubation anaesthesia plan, and anticipated difficulty with equipment ready.",
+      "section": "Pre-Intubation Preparation",
+      "topic": "intubation preparation preoxygenation apnoeic oxygenation checklist",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "aw2_fk02",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The same trauma patient has a significant head injury and is at high risk of raised intracranial pressure (ICP). Regarding airway management principles to prevent secondary brain injury:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Adequate sedation and analgesia should be used to prevent the hypertensive response to laryngoscopy",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Hypotension should be avoided in order to maintain cerebral perfusion pressure",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Hyperventilation should be used liberally to reduce intracranial pressure",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "The apnoeic period should be minimised, since even small rises in pCO2 can raise ICP",
+          "correct": true
+        }
+      ],
+      "explanation": "In traumatic brain injury, adequate sedation/analgesia blunts the hypertensive laryngoscopy response, hypotension must be avoided to preserve cerebral perfusion, the apnoeic period should be minimised since small pCO2 rises can raise ICP, and oxygenation should be maintained throughout (e.g. via THRIVE). Hyperventilation is not used liberally — it causes cerebral vasoconstriction and can worsen ischaemic injury, so it is avoided rather than pursued.",
+      "section": "Traumatic Brain Injury Airway Management",
+      "topic": "ICP intubation reverse Trendelenburg hyperventilation cerebral perfusion",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "aw2_fk03",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The same patient has suspected cervical spine injury in addition to head injury. Regarding the intubation plan:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Manual in-line stabilisation (MILS) should be provided, ideally by a practitioner positioned so as not to obstruct front-of-neck access if this becomes necessary",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Cricoid pressure should be applied as standard practice during rapid sequence intubation in this patient, as it protects the cervical spine",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "A videolaryngoscope may help overcome the worsened laryngoscopic view caused by spinal immobilisation",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Thiopental has a neuroprotective effect and, combined with an opioid, is a reasonable induction choice in this haemodynamically borderline trauma patient, whereas ketamine would be expected to raise ICP",
+          "correct": true
+        }
+      ],
+      "explanation": "MILS should be provided without obstructing potential front-of-neck access. Cricoid pressure is no longer advocated during RSI in suspected cervical spine injury, since it risks displacing vertebral fragments — it does not protect the spine. Spinal immobilisation worsens the laryngoscopic view, which a videolaryngoscope can help overcome. Thiopental combined with an opioid is a reasonable choice with a neuroprotective effect in this scenario; ketamine increases ICP and propofol can cause dose-dependent hypotension, both relevant concerns in a borderline trauma patient with a head injury.",
+      "section": "Trauma Airway Management",
+      "topic": "cervical spine MILS cricoid pressure induction agents trauma",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "aw2_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "During intubation of the same trauma patient, direct laryngoscopy provides the view shown in the image. What Cormack-Lehane grade does this represent, and what does it mean for management?",
+      "options": [
+        "A: Grade 1 — full glottic view; proceed with intubation as planned",
+        "B: Grade 2 — partial glottic view; external laryngeal manipulation alone is usually sufficient",
+        "C: Grade 3 — epiglottis seen but no glottic structures visible; a bougie is typically all that is required",
+        "D: Grade 4 — no laryngeal structures visible, including the epiglottis; unlike an elective anaesthetic, awakening the patient is not an option here",
+        "E: Grade 4 — no laryngeal structures visible; the airway should be immediately abandoned in favour of a surgical airway"
+      ],
+      "correct": 3,
+      "explanation": "This view (no epiglottis or glottic structures visible) is Cormack-Lehane grade 4, the worst on the 1-4 scale. Unlike a patient anaesthetised for an elective procedure, this critically ill trauma patient cannot simply be woken up if intubation fails — the plan must progress through the difficult airway algorithm (optimising the view, calling for help, considering a supraglottic airway) rather than jumping straight to a surgical airway, which is reserved for a later stage if oxygenation cannot be maintained.",
+      "section": "Difficult Airway Grading",
+      "topic": "Cormack Lehane grade 4 laryngoscopy view difficult airway",
+      "image": "images/aw2_fa01.png",
+      "section_url": null
+    },
+    {
+      "id": "aw2_fk04",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Direct laryngoscopy in this patient shows a Cormack-Lehane grade 4 view. Regarding the subsequent approach:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "More experienced airway help should be called if this has not already been done",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Laryngoscopy attempts should be limited to a maximum of three, performed by the most experienced airway clinician available",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Between and during laryngoscopy attempts, oxygenation should be actively maintained, for example via a nasal cannula or high-flow nasal oxygen",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "If laryngoscopy ultimately fails, the only remaining option is to proceed directly to a surgical front-of-neck airway",
+          "correct": false
+        }
+      ],
+      "explanation": "A failed laryngoscopy pathway calls for early senior help, a maximum of three laryngoscopy attempts by the most experienced operator (optimising each attempt with videolaryngoscopy, a bougie/stylet, or external laryngeal manipulation such as the BURP technique), and continuous oxygenation via facemask or nasal cannula between attempts. If laryngoscopy fails, several options remain before a surgical airway: waking the patient (rarely feasible in the ICU), awaiting expert assistance, or intubating via a supraglottic airway — front-of-neck access is one option among several, not the only remaining step.",
+      "section": "Failed Laryngoscopy Algorithm",
+      "topic": "failed intubation algorithm BURP videolaryngoscopy supraglottic airway",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "aw2_fa02",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Despite rescue strategies (repeated optimised laryngoscopy attempts, facemask/laryngeal mask oxygenation), this trauma patient's oxygen saturation falls to 65%. A front-of-neck airway is successfully and immediately performed, achieving adequate oxygenation. What is the most appropriate next step?",
+      "options": [
+        "A: Proceed immediately to intubate via the larynx now that oxygenation is secure, since this avoids the morbidity of a tracheostomy",
+        "B: Since oxygenation is now maintained via the front-of-neck airway, request a surgical tracheostomy rather than attempting laryngoscopy again, given the likely swollen and high-risk airway",
+        "C: Attempt awake fibreoptic intubation via the larynx now that time pressure has been relieved",
+        "D: Remove the front-of-neck airway and re-attempt standard orotracheal intubation",
+        "E: No further action is needed beyond the emergency front-of-neck airway already performed"
+      ],
+      "correct": 1,
+      "explanation": "Once emergency oxygenation is secured via a front-of-neck airway in a patient who required rescue for a 'cannot intubate, cannot oxygenate' scenario, the airway is likely to be swollen from repeated instrumentation, making further laryngoscopy high-risk. A formal surgical tracheostomy is the more appropriate definitive airway in this circumstance, and the case should be debriefed with the team afterwards.",
+      "section": "CICO and Surgical Airway",
+      "topic": "cannot intubate cannot oxygenate tracheostomy definitive airway",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "aw2_fa03",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "What is the recommended cuff pressure of a cuffed tracheostomy or endotracheal tube?",
+      "options": [
+        "A: 0 to 10 cmH2O",
+        "B: 20 to 30 cmH2O",
+        "C: 10 to 20 cmH2O",
+        "D: 40 to 50 cmH2O",
+        "E: 30 to 40 cmH2O"
+      ],
+      "correct": 1,
+      "explanation": "The cuff of an endotracheal or tracheostomy tube must seal against the tracheal mucosa to permit positive pressure ventilation without an air leak, and must be regularly monitored with a manometer. Low cuff pressures (below 20 cmH2O) are associated with ineffective ventilation, aspiration, and ventilator-associated pneumonia, while pressures above 30 cmH2O risk tracheal mucosal necrosis and stenosis — a target range of 20-30 cmH2O balances these risks.",
+      "section": "Airway Device Care",
+      "topic": "endotracheal cuff pressure tracheal mucosa VAP",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "aw2_fa04",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A patient established on mechanical ventilation shows the capnography waveform trend in the image over several breaths. What physiological phenomenon is represented?",
+      "options": [
+        "A: Reduced cardiac output, e.g. cardiac arrest",
+        "B: Malignant hyperthermia",
+        "C: Reducing cellular metabolism",
+        "D: Hypoventilation",
+        "E: Chronic obstructive pulmonary disease"
+      ],
+      "correct": 0,
+      "explanation": "CO2 is a product of cellular metabolism, delivered to the lungs by pulmonary blood flow and detected by the capnograph. A rapid fall in the capnography trace over a few breaths in a patient already established on mechanical ventilation suggests a sudden reduction in pulmonary blood flow — i.e. falling cardiac output — and should prompt consideration of cardiac arrest.",
+      "section": "Capnography Interpretation",
+      "topic": "capnography waveform reduced cardiac output cardiac arrest",
+      "image": "images/aw2_fa04.png",
+      "section_url": null
+    },
+    {
+      "id": "aw2_fa05",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A ventilated patient's capnography waveform is shown in the image, with an up-sloping gradient during the plateau phase across successive breaths. What does this represent?",
+      "options": [
+        "A: Hypertension",
+        "B: Hyperventilation",
+        "C: Bronchospasm",
+        "D: Hypoventilation",
+        "E: Tracheal tube obstruction"
+      ],
+      "correct": 2,
+      "explanation": "In obstructive airways disease, alveoli with differing time constants empty at different rates during expiration — alveoli with longer time constants continue emptying later, producing the characteristic up-sloping ('shark-fin') gradient during the plateau phase of the capnography trace. This pattern indicates bronchospasm.",
+      "section": "Capnography Interpretation",
+      "topic": "capnography waveform bronchospasm shark fin obstructive",
+      "image": "images/aw2_fa05.png",
+      "section_url": null
+    },
+    {
+      "id": "aw2_fa06",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Suxamethonium should be avoided in the patient with?",
+      "options": [
+        "A: A heart rate of 110 beats per minute",
+        "B: End-stage renal failure with a potassium of 6.5 mmol/l",
+        "C: Severe hypoxaemia",
+        "D: Major burns presenting to hospital within 30 minutes of the injury",
+        "E: A history of eczema"
+      ],
+      "correct": 1,
+      "explanation": "Suxamethonium can cause bradycardia via vagal stimulation and typically raises serum potassium by about 0.5 mmol/L, which is dangerous in a patient already hyperkalaemic from end-stage renal failure and risks precipitating cardiac arrest. It is safe within the first 24 hours after a burn (the exaggerated hyperkalaemic response from extrajunctional acetylcholine receptors develops later), and neither severe hypoxaemia, very recent major burns, nor a history of eczema (atopy does not increase anaphylaxis risk with suxamethonium) are contraindications.",
+      "section": "Neuromuscular Blocking Agents",
+      "topic": "suxamethonium hyperkalaemia burns contraindications",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "aw2_fa07",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Drugs used to facilitate rapid sequence induction of anaesthesia may include the following EXCEPT:",
+      "options": [
+        "A: Rocuronium",
+        "B: Sevoflurane",
+        "C: Ketamine",
+        "D: Propofol",
+        "E: Thiopentone"
+      ],
+      "correct": 1,
+      "explanation": "Thiopentone, propofol, and ketamine are all used as intravenous induction agents for RSI, each with its own favourable and unfavourable properties, and high-dose rocuronium (1.2 mg/kg) can provide rapid neuromuscular blockade suitable for RSI. Sevoflurane is a volatile inhalational agent used to maintain anaesthesia in the elective setting and is not used to facilitate RSI.",
+      "section": "Rapid Sequence Induction",
+      "topic": "RSI induction agents sevoflurane rocuronium",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "aw2_fa08",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 47-year-old man presents with acute shortness of breath and stridor, saturations of 68% on air, and chest x-ray findings of a left lower lobe pneumonia. His history includes ongoing radiotherapy for a glottic tumour. What is the most appropriate approach to facilitate invasive ventilation?",
+      "options": [
+        "A: Use of the RAMP position",
+        "B: Awake fibreoptic intubation",
+        "C: Avoidance of neuromuscular blockade",
+        "D: Induction of anaesthesia in the operating theatre with an ENT surgeon available",
+        "E: Immediate rapid sequence induction in the emergency department"
+      ],
+      "correct": 3,
+      "explanation": "In a patient with a friable glottic tumour and airway obstruction, fibreoptic intubation risks bleeding and a 'cork-in-the-bottle' effect as the scope passes through a narrowed airway, and neuromuscular blockade should not be avoided since it provides the best conditions to ventilate, intubate, and access the front of the neck if needed. The RAMP position is most useful in obesity rather than airway obstruction. Provided the patient is stable enough to transfer, induction in the operating theatre with an ENT surgeon available (for nasendoscopy, intubation, or emergency tracheostomy) offers the safest, best-resourced approach rather than immediate RSI in the emergency department.",
+      "section": "Difficult Airway - Airway Obstruction",
+      "topic": "glottic tumour airway obstruction ENT surgeon operating theatre",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "aw2_fa09",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "You are called to assist with a 70-year-old woman who underwent an urgent surgical tracheostomy 2 days previously for airway obstruction due to laryngeal cancer, following a failed intubation by an experienced anaesthetist. She now has a respiratory rate of 35, a see-saw respiratory pattern, and saturations of 86% on FiO2 0.5. What is the safest management option?",
+      "options": [
+        "A: Call for senior help. Provide oxygen by face mask and via the tracheostomy tube. Attach capnography. Assess the patency of the tracheostomy using a suction catheter and re-assess",
+        "B: Remove the tracheostomy tube and re-intubate the patient in a standard fashion",
+        "C: Increase the FiO2 to 1.0 and ask for an arterial blood gas",
+        "D: Request a bronchoscope and assess the position of the tracheostomy tube",
+        "E: Deflate the tracheostomy tube cuff and reposition the tracheostomy tube"
+      ],
+      "correct": 0,
+      "explanation": "A systematic algorithmic approach to tracheostomy emergencies both improves the situation and helps diagnose the problem simultaneously. Removing the tracheostomy could be fatal, since this patient (known failed intubation, laryngeal cancer) is likely to be very difficult to re-intubate, and re-inserting a tube into a tracheostomy only 2 days old is dangerous in inexperienced hands. Checking tube position via bronchoscopy is reasonable but slow and needs higher-level skill without providing an immediate remedy, and simply increasing FiO2 may improve saturations without treating the underlying obstruction.",
+      "section": "Tracheostomy Emergencies",
+      "topic": "tracheostomy emergency algorithm airway obstruction",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}
