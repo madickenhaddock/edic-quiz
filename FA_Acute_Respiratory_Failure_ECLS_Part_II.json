@@ -1,0 +1,533 @@
+{
+  "module": "Acute Respiratory Failure ECLS Part II",
+  "sections": {},
+  "questions": [
+    {
+      "id": "ecls2_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A patient with severe ARDS is established on veno-venous ECMO via femoral-jugular cannulation. Blood gas sampling shows: pre-oxygenator (pre-membrane) PO2 31 mmHg, SO2 60%; post-oxygenator (post-membrane) PO2 500 mmHg, SO2 100%. Despite this, systemic arterial SaO2 remains only 86%. What does the large pre- to post-oxygenator oxygen difference indicate?",
+      "options": [
+        "A: Significant recirculation of oxygenated blood within the ECMO circuit",
+        "B: Minimal recirculation and good oxygenator (membrane lung) function",
+        "C: Inadequate ECMO blood flow relative to the patient's cardiac output",
+        "D: Failure of the membrane oxygenator requiring circuit exchange",
+        "E: Excessive native lung shunt fraction unrelated to the ECMO circuit"
+      ],
+      "correct": 1,
+      "explanation": "A large PO2/SO2 rise across the oxygenator shows the membrane lung is oxygenating blood efficiently and that recirculation (oxygenated return blood being immediately re-drained) is minimal — recirculation would instead narrow this pre/post difference by raising the pre-oxygenator saturation. The persistent low systemic SaO2 despite this reflects admixture of ECMO-oxygenated blood with poorly oxygenated native pulmonary blood flow, not a circuit problem.",
+      "section": "VV-ECMO Gas Exchange",
+      "topic": "recirculation oxygenator VV-ECMO oxygen content",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ecls2_fa02",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A patient with severe ARDS on veno-venous ECMO (femoral-jugular cannulation) has persistent SaO2 86% despite a well-functioning ECMO circuit and minimal recirculation. Native lung compliance is very poor and the patient is already on an ultra-protective ventilation strategy. Which is the most appropriate next step to improve systemic oxygenation?",
+      "options": [
+        "A: Increase mechanical ventilator FiO2 and inspiratory pressures to raise native lung contribution",
+        "B: Increase ECMO blood (pump) flow to increase the fraction of cardiac output passing through the oxygenator",
+        "C: Decrease ECMO sweep gas flow",
+        "D: Convert to veno-arterial ECMO configuration",
+        "E: Increase PEEP to maximal tolerated levels regardless of plateau pressure"
+      ],
+      "correct": 1,
+      "explanation": "With poor native lung compliance, raising ventilator pressures risks further ventilator-induced lung injury for limited oxygenation gain. Increasing ECMO blood flow raises the ECMO-to-cardiac-output ratio, the dominant determinant of systemic oxygenation on VV-ECMO, allowing oxygenation to improve while a lung-protective ventilation strategy is maintained.",
+      "section": "VV-ECMO Gas Exchange",
+      "topic": "VV-ECMO oxygenation strategy blood flow ultra-protective ventilation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ecls2_fk01",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "In a patient on VV-ECMO for severe ARDS, ventilator FiO2 is increased to 70% and inspiratory pressures are raised to target a tidal volume of 300 mL (4 mL/kg predicted body weight), increasing peak inspiratory pressure to 36 cmH2O. Systemic SaO2 improves from 86% to 90%. Regarding this strategy:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Cardiac output and systemic arterial pressure are likely to fall due to increased intrathoracic pressure",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "A peak inspiratory pressure of 36 cmH2O is not injurious as long as tidal volume is kept at 4 mL/kg PBW",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Pre-oxygenator (venous) blood oxygen saturation is likely to fall as cardiac output decreases",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "This ventilator-based strategy is generally preferred over increasing ECMO blood flow for improving oxygenation in this scenario",
+          "correct": false
+        }
+      ],
+      "explanation": "Raising intrathoracic pressure reduces cardiac output and arterial pressure. Falling cardiac output with unchanged oxygen consumption widens tissue oxygen extraction, lowering pre-oxygenator (mixed venous) saturation — consistent with the fall from 60% to 56% seen in this scenario. A peak pressure of 36 cmH2O remains potentially injurious regardless of tidal volume achieved. Increasing ECMO blood flow, not ventilator escalation, is generally preferred once ultra-protective ventilation is already in use.",
+      "section": "VV-ECMO Gas Exchange",
+      "topic": "ventilator induced lung injury VV-ECMO hemodynamics",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ecls2_fa03",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A patient on VV-ECMO (blood flow 4.2 L/min) for severe ARDS on ultra-protective ventilation develops respiratory acidosis with pH 7.20 and PaCO2 63 mmHg. Oxygen consumption is stable and there is no new source of increased CO2 production. What is the most appropriate next step to correct this?",
+      "options": [
+        "A: Increase mechanical ventilator respiratory rate",
+        "B: Increase ECMO blood (pump) flow",
+        "C: Increase ECMO sweep gas flow",
+        "D: Increase mechanical ventilator tidal volume",
+        "E: Administer intravenous sodium bicarbonate"
+      ],
+      "correct": 2,
+      "explanation": "CO2 elimination on ECMO is governed mainly by sweep gas flow through the oxygenator, not by ECMO blood flow — a blood flow of 4.2 L/min is already sufficient to clear the entire CO2 production if sweep gas flow is adequate. Increasing sweep gas flow (e.g. from 6 to 8 L/min) rapidly lowers PaCO2 and normalises pH without needing to escalate ventilator settings.",
+      "section": "VV-ECMO Gas Exchange",
+      "topic": "CO2 clearance sweep gas flow VV-ECMO respiratory acidosis",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ecls2_fk02",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Regarding gas exchange during veno-venous ECMO for severe respiratory failure:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Systemic oxygenation is determined mainly by the ratio of ECMO blood flow to cardiac output",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "CO2 elimination is determined mainly by ECMO sweep gas flow rather than ECMO blood flow",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Recirculation narrows the difference between pre- and post-oxygenator oxygen saturation",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Increasing ECMO blood flow is the most effective way to correct hypercapnia on VV-ECMO",
+          "correct": false
+        }
+      ],
+      "explanation": "Oxygenation and CO2 clearance are governed by different circuit parameters on VV-ECMO: oxygenation tracks the ECMO blood flow to cardiac output ratio, while CO2 clearance tracks sweep gas flow. Recirculation raises pre-oxygenator saturation (already-oxygenated blood being redrawn), narrowing the pre/post-oxygenator gradient — confusing this with blood flow adequacy is a common error.",
+      "section": "VV-ECMO Gas Exchange",
+      "topic": "VV-ECMO physiology oxygenation CO2 clearance recirculation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ecls2_fa04",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which are the main determinants of oxygen delivery?",
+      "options": [
+        "A: cardiac output * hemoglobin",
+        "B: cardiac output * oxygen content",
+        "C: cardiac output * Vo2 * hemoglobin",
+        "D: cardiac output * cardiac frequency"
+      ],
+      "correct": 1,
+      "explanation": "Oxygen delivery (DO2) = cardiac output × arterial oxygen content (CaO2), reflecting the total volume of oxygen delivered to the tissues per minute.",
+      "section": "ECLS Physiology",
+      "topic": "oxygen delivery cardiac output oxygen content",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ecls2_fa05",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which are the determinants of oxygen content?",
+      "options": [
+        "A: (Hb x SaO2) + (0.005 x PaO2)",
+        "B: (Hb x SaO2 x 1.34) + (0.0003 x PaO2)",
+        "C: (Hb x SaO2 x 1.5) + (0.03 x PaO2)",
+        "D: (Hb x SaO2 x 1.34) + (0.003 x PaO2)"
+      ],
+      "correct": 3,
+      "explanation": "Arterial oxygen content (CaO2) = (Hb × SaO2 × 1.34) + (0.003 × PaO2), combining hemoglobin-bound oxygen (1.34 mL O2 per gram Hb when fully saturated) with the small dissolved fraction (0.003 mL O2/dL/mmHg PaO2).",
+      "section": "ECLS Physiology",
+      "topic": "oxygen content formula CaO2",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ecls2_fa06",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following sentences is the more appropriate regarding mechanical ventilation during ECLS?",
+      "options": [
+        "A: Optimal or 'rest' mechanical ventilation settings while on ECLS is an area of much debate. Most agree on a strategy of protective to ultra-protective ventilation with most gas exchange supported extracorporeally early in the phase of illness",
+        "B: All answers are correct",
+        "C: Most centres manage patients without any tidal ventilation once they are established on ECLS",
+        "D: Higher plateau pressures during ventilation are considered \"safe\""
+      ],
+      "correct": 0,
+      "explanation": "There is no single universally agreed 'rest' ventilation setting on ECLS; most centres favour protective-to-ultra-protective ventilation with the extracorporeal circuit carrying most gas exchange early in illness, rather than zero tidal ventilation or accepting high plateau pressures.",
+      "section": "ECLS General Management",
+      "topic": "rest ventilation ECLS protective ventilation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ecls2_fa07",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "In the setting of COPD, Invasive Mechanical Ventilation (IMV) can normalize gas exchange and reduce the work of breathing.",
+      "options": [
+        "A: It is not associated with side effects",
+        "B: It is associated with severe effects, such as ventilator-associated pneumonia, ICU-acquired weakness, and ventilator-induced diaphragmatic dysfunction",
+        "C: It is associated with moderate effects, such as ventilator-associated pneumonia, ICU-acquired weakness, and ventilator-induced diaphragmatic dysfunction",
+        "D: All answers are correct"
+      ],
+      "correct": 1,
+      "explanation": "Despite normalising gas exchange, IMV carries severe potential complications in COPD, including ventilator-associated pneumonia, ICU-acquired weakness, and ventilator-induced diaphragmatic dysfunction — drivers for considering ECLS-sparing ventilation strategies.",
+      "section": "ECLS in COPD",
+      "topic": "IMV COPD complications diaphragmatic dysfunction",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ecls2_fa08",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The main pathophysiological characteristic of obstructive lung disease exacerbation is the expiratory flow limitation caused by the increased resistance of the small airways. In these patients:",
+      "options": [
+        "A: All answers are correct",
+        "B: The development of dynamic alveolar hyperinflation and intrinsic PEEP increase the work of breathing",
+        "C: The reduction of alveolar ventilation and rise in PaCO2 further increases the ventilatory demand, creating a vicious loop",
+        "D: The respiratory muscle fatigue and rapid shallow breathing are increased"
+      ],
+      "correct": 0,
+      "explanation": "Expiratory flow limitation in obstructive disease drives dynamic hyperinflation and intrinsic PEEP, which increase the work of breathing directly and, via rising PaCO2 and ventilatory demand, promote a vicious cycle of respiratory muscle fatigue and rapid shallow breathing.",
+      "section": "ECLS in COPD",
+      "topic": "obstructive lung disease dynamic hyperinflation intrinsic PEEP",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ecls2_fa09",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following is the more appropriate choice to reduce the risk of haemolysis during ECLS?",
+      "options": [
+        "A: Large venous cannula could lead to the development of deep venous thrombosis (DVT) if the cannula is sufficiently large that it induces stasis proximal to its insertion. Ensure cannula size is not too big for vessel",
+        "B: High flows inducing shearing of cells/hemolysis — look for alternative patient-associated causes of hemolysis (e.g. transfusion reaction). If present, flow reduction may help",
+        "C: All answers are correct",
+        "D: Identify whether heparin induced thrombocytopenia is present; if confirmed, use alternative anticoagulation agents (e.g. argatroban, bivalirudin)"
+      ],
+      "correct": 2,
+      "explanation": "Haemolysis and related circuit complications on ECLS have multiple, sometimes overlapping causes and countermeasures: appropriate cannula sizing to avoid stasis/DVT, evaluating high shear flow versus patient-related causes of hemolysis, and screening for heparin-induced thrombocytopenia when relevant — all listed measures are appropriate parts of a systematic evaluation.",
+      "section": "ECLS Complications",
+      "topic": "haemolysis cannula sizing HIT ECLS complications",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ecls2_fa10",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "'Bridge to lung transplant' is defined as:",
+      "options": [
+        "A: All the answers are correct",
+        "B: Strategies to manage with artificial support the acute decompensation of patients with chronic respiratory failure awaiting a suitable organ",
+        "C: Strategies to manage with artificial support the acute respiratory failure",
+        "D: Strategies to manage with artificial support the acute decompensation of patients with acute respiratory failure"
+      ],
+      "correct": 1,
+      "explanation": "'Bridge to transplant' specifically refers to using artificial (extracorporeal) support to manage acute decompensation in patients with chronic respiratory failure while they await a suitable donor organ, distinguishing it from ECLS used for de novo acute respiratory failure.",
+      "section": "Bridge to Transplant",
+      "topic": "bridge to transplant definition chronic respiratory failure",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ecls2_fa11",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Severe dynamic lung hyperinflation with consequent refractory hypercapnia characterizes near fatal episodes of asthma exacerbation. Regarding the use of ECLS in this context, it is correct to say:",
+      "options": [
+        "A: ECLS has never been used as a rescue strategy in these patients in adjunction to IMV",
+        "B: ECLS has been used as a rescue strategy in these patients in adjunction to IMV. ECLS can correct gas exchange, thereby prolonging the duration of the expiratory time and thus facilitating the reduction of dynamic lung hyperinflation, while providing time for the resolution of bronchospasm",
+        "C: None of the above",
+        "D: ECLS has been used as a rescue strategy in these patients in adjunction to IMV. It can correct gas exchange, prolonging the duration of the inspiratory time and thus facilitating the reduction of dynamic lung hyperinflation, while providing time for the resolution of bronchospasm"
+      ],
+      "correct": 1,
+      "explanation": "ECLS is used as rescue therapy in near-fatal asthma, allowing lower minute ventilation. By correcting gas exchange extracorporeally, it permits a longer expiratory time (not inspiratory time), reducing dynamic hyperinflation and buying time for bronchospasm to resolve — option D reverses this key mechanism.",
+      "section": "ECLS in Asthma",
+      "topic": "near fatal asthma dynamic hyperinflation expiratory time ECLS rescue",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ecls2_fa12",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Most modern ECLS circuits are heparin coated and engineered with biocompatible materials leading to reduced thrombogenicity. Despite these advancements however, systemic anticoagulation is still required. Anticoagulation targets include:",
+      "options": [
+        "A: Anti-Xa activity 0.3-0.7 IU/ml",
+        "B: Activated clotting time (ACT) 2 times normal",
+        "C: All of the above",
+        "D: Activated partial thromboplastin time (aPTT) 1.2-2.8 times normal"
+      ],
+      "correct": 2,
+      "explanation": "The optimal anticoagulation strategy on ECLS is not well defined, and centres vary in practice — anti-Xa activity 0.3-0.7 IU/mL, ACT roughly twice normal, and aPTT 1.2-2.8 times normal have all been used as monitoring targets depending on local protocol.",
+      "section": "ECLS Anticoagulation",
+      "topic": "anticoagulation targets anti-Xa ACT aPTT",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ecls2_fa13",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A controlled trial from the United Kingdom published in 2021 randomized patients with PaO2/FiO2 ratio of ≤150 mmHg to ECCO2R in order to facilitate a tidal volume of ≤3 mL/kg or to conventional lung protective ventilation. The main results were:",
+      "options": [
+        "A: There was no significant difference in mortality between groups",
+        "B: ECCO2R patients were more likely to have adverse events such as intracranial haemorrhage or major bleeding",
+        "C: ECCO2R patients received more sedation, more neuromuscular blockade and were proned less often",
+        "D: All the above"
+      ],
+      "correct": 3,
+      "explanation": "This UK RCT of ultra-low tidal volume ventilation facilitated by ECCO2R versus conventional lung-protective ventilation in moderate-severe ARDS found no mortality benefit, along with more bleeding/intracranial haemorrhage and more sedation/neuromuscular blockade with less proning in the ECCO2R arm — all listed findings occurred.",
+      "section": "ECCO2R Evidence",
+      "topic": "ECCO2R ultra-low tidal volume RCT ARDS",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ecls2_fa14",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "ECCO2R may reduce the volume of alveolar ventilation required to eliminate the CO2 production in COPD patients.",
+      "options": [
+        "A: The application of ECCO2R has improved outcomes in randomised trials",
+        "B: The application of ECCO2R has not improved outcomes in randomised trials",
+        "C: It is a safer approach than invasive mechanical ventilation",
+        "D: It is recommended for routine use"
+      ],
+      "correct": 1,
+      "explanation": "The benefit-to-risk ratio of ECCO2R in COPD has not been established. The largest RCT performed, VENT-AVOID, did not demonstrate improved outcomes in patients with COPD exacerbations randomised to ECCO2R, so it is not recommended for routine use.",
+      "section": "ECCO2R Evidence",
+      "topic": "ECCO2R COPD VENT-AVOID trial",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ecls2_fa15",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "If a patient on V-V ECMO is suffering worsening hypoxia, which of the following measures should be undertaken?",
+      "options": [
+        "A: All answers are correct",
+        "B: Evaluate cannula tip positions, presence of recirculation and optimize extracorporeal blood flow",
+        "C: Assess for new pathology, optimise mechanical ventilation and consider prone positioning",
+        "D: Optimizing oxygen consumption and delivery including evaluation of sedation, cooling, transfusion"
+      ],
+      "correct": 0,
+      "explanation": "Worsening hypoxia on VV-ECMO warrants a systematic review covering circuit factors (cannula position, recirculation, blood flow), patient/lung factors (new pathology, ventilation optimisation, proning), and oxygen consumption/delivery balance (sedation, temperature, transfusion) — all listed measures are appropriate.",
+      "section": "VV-ECMO Troubleshooting",
+      "topic": "worsening hypoxia VV-ECMO troubleshooting recirculation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ecls2_fa16",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Severe dynamic lung hyperinflation with consequent refractory hypercapnia characterize near fatal episodes of asthma exacerbation. It is correct to say:",
+      "options": [
+        "A: Once established on veno-venous ECMO, the sweep gas flow should be set to rapidly normalize severe hypercapnia",
+        "B: Rescue veno-venous ECMO is associated with mortality rates of around 40% for life threatening asthma",
+        "C: In the younger asthma population, haemorrhagic complications during Veno-Venous ECMO are rare",
+        "D: None of the above"
+      ],
+      "correct": 3,
+      "explanation": "V-V ECMO survival for life-threatening asthma has been reported as high as 95% in some case series (not ~40% mortality), haemorrhagic complications remain common even in younger patients and are associated with worse outcomes, and severe hypercapnia should be corrected gradually rather than rapidly, since rapid correction may precipitate cerebral ischaemia.",
+      "section": "ECLS in Asthma",
+      "topic": "near fatal asthma ECMO survival rapid CO2 correction haemorrhage",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ecls2_fa17",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Regarding randomised controlled trials of VA-ECMO for infarct-related cardiogenic shock, which of the following is correct?",
+      "options": [
+        "A: The EURO SHOCK trial enrolled over 400 patients and was the largest VA-ECMO trial in cardiogenic shock",
+        "B: The ECLS-SHOCK trial demonstrated a significant reduction in 30-day mortality with early VA-ECMO",
+        "C: An individual patient data meta-analysis of VA-ECMO trials in cardiogenic shock demonstrated reduced mortality but increased bleeding complications",
+        "D: The ECLS-SHOCK trial found no mortality benefit with VA-ECMO and significantly more bleeding and vascular complications in the VA-ECMO group"
+      ],
+      "correct": 3,
+      "explanation": "ECLS-SHOCK (n=417) was the largest VA-ECMO trial in infarct-related cardiogenic shock and found no difference in 30-day mortality but significantly more bleeding and vascular complications with VA-ECMO. An individual patient data meta-analysis of VA-ECMO trials after MI likewise did not demonstrate significant benefit, and routine unselected use in this setting is not currently recommended.",
+      "section": "ECLS in Cardiogenic Shock",
+      "topic": "VA-ECMO cardiogenic shock ECLS-SHOCK trial",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ecls2_fa18",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "When evidence of clinical improvement occurs, this may be an indication that the patient is ready to be weaned from V-V ECMO. Which is correct:",
+      "options": [
+        "A: When the patient can tolerate cessation of sweep gas flow with stable gas exchange and lung protective ventilation, decannulation could be considered",
+        "B: Patients should always be extubated from IMV prior to stopping ECMO",
+        "C: All answers are correct",
+        "D: Patients should never be extubated from IMV prior to stopping ECMO"
+      ],
+      "correct": 0,
+      "explanation": "Weaning practices vary between centres and should be individualised. When sweep gas flow is ceased (a 'Sweep Gas Off Trial'), no extracorporeal gas exchange occurs, allowing a true assessment of native lung function; if gas exchange and lung-protective ventilation remain stable, decannulation can be considered. There is no absolute rule requiring extubation before or after stopping ECMO.",
+      "section": "VV-ECMO Weaning",
+      "topic": "weaning VV-ECMO sweep gas off trial decannulation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ecls2_fa19",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Causes of hypercapnia that indicate the use of ECLS include the following:",
+      "options": [
+        "A: Acute Respiratory Distress Syndrome (ARDS), Severe asthma/status asthmaticus, Bronchiolitis obliterans syndrome (BOS), Cystic fibrosis",
+        "B: Acute Respiratory Distress Syndrome (ARDS), Chronic obstructive pulmonary disease (COPD), Bronchiolitis obliterans syndrome (BOS), Cystic fibrosis",
+        "C: Acute Respiratory Distress Syndrome (ARDS), Chronic obstructive pulmonary disease (COPD), Severe asthma/status asthmaticus, Bronchiolitis obliterans syndrome (BOS), Cystic fibrosis",
+        "D: Acute Respiratory Distress Syndrome (ARDS), Chronic obstructive pulmonary disease (COPD), Severe asthma/status asthmaticus, Bronchiolitis obliterans syndrome (BOS)"
+      ],
+      "correct": 2,
+      "explanation": "The full listed group of conditions — ARDS, COPD, severe asthma/status asthmaticus, bronchiolitis obliterans syndrome, and cystic fibrosis — can all cause hypercapnic respiratory failure severe enough to warrant consideration of ECLS; the distractor options each omit one condition from this list.",
+      "section": "ECLS Indications",
+      "topic": "hypercapnia indications ECLS COPD asthma cystic fibrosis",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ecls2_fa20",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "It remains unclear what the optimal PaO2 threshold should be while on ECMO. It is correct to say:",
+      "options": [
+        "A: Recent evidence post cardiac arrest suggests a possible non-deleterious impact of hyperoxia post arrest, presumably due to ischemia-reperfusion and the presence of oxygen free radicals",
+        "B: All answers are correct",
+        "C: A post hoc analysis of the ARDSNet trial demonstrated a lower incidence of neurocognitive impairment in the subgroup with a lower PaO2 threshold",
+        "D: It is recommended targeting modest oxygenation targets similar to those from ARDSnet (i.e., SpO2 88-93%) until further evidence is available"
+      ],
+      "correct": 3,
+      "explanation": "In the absence of definitive evidence for an optimal PaO2 target on ECMO, current recommendations favour modest oxygenation targets similar to ARDSNet (SpO2 88-93%) until further evidence is available; option A is incorrect since hyperoxia post-arrest via ischemia-reperfusion/free radicals is generally considered harmful, not non-deleterious.",
+      "section": "ECMO Oxygenation Targets",
+      "topic": "PaO2 target hyperoxia ARDSnet SpO2",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ecls2_fa21",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Regarding the evidence-based indications and contraindications to ECLS as bridge to transplant, it is correct to say:",
+      "options": [
+        "A: Septic shock, multi-organ dysfunction, severe arterial occlusive disease, heparin-induced thrombocytopenia, long duration of mechanical ventilation, and advanced age are considered at least relative contraindications",
+        "B: The adequate selection of patients and ECLS mode and configuration has been crucial to obtain progressively better outcomes",
+        "C: All answers are correct",
+        "D: There are no evidence-based indications and contraindications to ECLS as bridge to transplant, but there is general consensus that young age, absence of multiple-organ dysfunction and good potential for rehabilitation are criteria for ECLS as bridge to transplant"
+      ],
+      "correct": 2,
+      "explanation": "Bridge-to-transplant ECLS lacks formal evidence-based indication/contraindication criteria, but there is broad consensus that septic shock, multi-organ dysfunction, severe arterial occlusive disease, HIT, prolonged mechanical ventilation, and advanced age are at least relative contraindications, while young age, absence of multi-organ dysfunction, and good rehabilitation potential favour its use — careful patient/mode selection has driven improved outcomes.",
+      "section": "Bridge to Transplant",
+      "topic": "bridge to transplant contraindications patient selection",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ecls2_fa22",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "In peripheral bifemoral veno-arterial ECMO...",
+      "options": [
+        "A: Left ventricular end diastolic pressure will be increased",
+        "B: Right ventricular preload will be increased",
+        "C: Intra-aortic balloon pump use is contraindicated due to the disruption to flow",
+        "D: Oxygen saturations and blood gases should be monitored from the left upper limb"
+      ],
+      "correct": 0,
+      "explanation": "Peripheral VA-ECMO returns oxygenated blood retrograde into the aorta, increasing left ventricular afterload; this raises left ventricular end-diastolic pressure and can worsen pulmonary oedema (the rationale for LV venting strategies). An IABP is not contraindicated and may help offload the LV, and oxygenation should be monitored from the right upper limb (right radial artery), not the left, given the risk of differential (Harlequin) hypoxia.",
+      "section": "VA-ECMO Physiology",
+      "topic": "peripheral VA-ECMO left ventricular afterload differential hypoxia",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ecls2_fa23",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Regarding eCPR, which of the following are correct:",
+      "options": [
+        "A: The ARREST trial demonstrated improved survival with good outcome with eCPR in patients with refractory VT/VF in patients who could be transported to an ECLS centre within 30 minutes",
+        "B: The ARREST trial demonstrated improved rates of ROSC but not good neurological outcome with eCPR",
+        "C: The ARREST trial included patients under with refractory IHCA arrest <45m after onset",
+        "D: The Prague OHCA trial demonstrated improved survival with eCPR"
+      ],
+      "correct": 0,
+      "explanation": "The ARREST trial (early ECMO-facilitated resuscitation for refractory out-of-hospital VT/VF cardiac arrest) showed improved survival to hospital discharge with favourable neurological outcome in patients transportable to an ECLS-capable centre within 30 minutes, and stopped early for this benefit; the Prague OHCA trial did not meet its primary survival outcome.",
+      "section": "eCPR",
+      "topic": "eCPR ARREST trial Prague OHCA refractory VF",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ecls2_fa24",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Invasive Mechanical Ventilation (IMV) may be considered a bridging strategy to lung transplantation as:",
+      "options": [
+        "A: This kind of patients are not susceptible to ventilator-associated lung injury and pneumonia",
+        "B: A + B",
+        "C: It is associated with few injurious side effects",
+        "D: It improves gas exchange and decreases the work of breathing"
+      ],
+      "correct": 3,
+      "explanation": "IMV can bridge patients to lung transplantation by improving gas exchange and reducing work of breathing, but it remains associated with meaningful risks such as ventilator-induced lung injury and ventilator-associated pneumonia — options suggesting few/no injurious side effects are incorrect.",
+      "section": "Bridge to Transplant",
+      "topic": "IMV bridge to transplant lung injury pneumonia",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}

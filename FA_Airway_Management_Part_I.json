@@ -1,0 +1,350 @@
+{
+  "module": "Airway Management Part I",
+  "sections": {},
+  "questions": [
+    {
+      "id": "aw1_fk01",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Following several critical incidents related to airway management in the ICU, governance in this area is being reviewed. Based on the National Audit Project 4 (NAP4) recommendations, regarding measures to reduce risk:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Capnography should be used to monitor all patients ventilated within the ICU",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "A checklist should be used for all intubations, extubations, reintubations, and tracheostomy emergencies, together with algorithms for the 'high risk airway' patient",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Once capnography is introduced, no further staff training on its interpretation is required",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Continuous audit and immediate access to an airway rescue trolley, fibreoptic bronchoscope, and staff with advanced airway skills should be available",
+          "correct": true
+        }
+      ],
+      "explanation": "NAP4 identified recurring airway governance failures in critical care and recommended: capnography for all ventilated ICU patients with staff training on its interpretation (not just installing the equipment), checklists and algorithms for intubation/extubation/reintubation/tracheostomy emergencies and the high-risk airway, continuous education, immediate access to an airway rescue trolley and fibreoptic bronchoscope and to staff with advanced airway skills, and continuous audit.",
+      "section": "Airway Governance",
+      "topic": "NAP4 airway governance capnography checklist",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "aw1_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "An 18-year-old obese man is brought to the Emergency Department after being ejected 10 metres from his car in a high-speed road traffic accident. He was not wearing a seatbelt. On arrival his eyes are closed, he makes incomprehensible sounds and flexes to painful stimuli (GCS 7). He has noisy respiratory efforts, respiratory rate 30/min, is cyanosed, heart rate 120/min, and blood pressure 100/60 mmHg. What is the most appropriate immediate action?",
+      "options": [
+        "A: Immediately perform a head-tilt, chin-lift manoeuvre to secure the airway",
+        "B: Assess the airway and breathing while providing supplemental oxygen, assuming an unstable cervical spine given the mechanism of injury",
+        "C: Wait for cervical spine imaging before any airway intervention",
+        "D: Proceed directly to rapid sequence intubation without further assessment",
+        "E: Position the patient in the full lateral recovery position"
+      ],
+      "correct": 1,
+      "explanation": "Given the high-energy mechanism of injury (ejection from a vehicle at high speed), an unstable cervical spine must be assumed until proven otherwise. The immediate priority is to assess and support airway and breathing with supplemental oxygen while protecting the cervical spine during any airway manoeuvre — imaging and definitive airway management follow this initial assessment, not before it.",
+      "section": "Trauma Airway Management",
+      "topic": "trauma airway cervical spine precaution GCS",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "aw1_fa02",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The same trauma patient (suspected unstable cervical spine, GCS 7) continues to have noisy respiratory efforts. Is a head-tilt, chin-lift manoeuvre indicated to relieve the obstruction?",
+      "options": [
+        "A: Yes, head-tilt chin-lift should be performed as first-line regardless of injury mechanism",
+        "B: No airway opening manoeuvre should be attempted until the cervical spine has been formally cleared",
+        "C: A chin lift may help relieve the obstruction, but neck extension should be avoided given the possible cervical spine injury",
+        "D: A full head-tilt with maximal neck extension is required to achieve an adequate seal for bag-mask ventilation",
+        "E: Only nasopharyngeal airways are considered safe to use when cervical spine injury is suspected"
+      ],
+      "correct": 2,
+      "explanation": "A chin lift can help relieve airway obstruction without extending the neck, and is therefore preferred over a head-tilt in suspected cervical spine injury. Withholding all airway manoeuvres until formal spine clearance is not appropriate when the airway is compromised — the chin-lift component can be used safely while the neck-extension component is avoided.",
+      "section": "Trauma Airway Management",
+      "topic": "head tilt chin lift cervical spine airway opening",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "aw1_fk02",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The same obese trauma patient (GCS 7, suspected reduced cervical spine mobility) has had the airway cleared with an oropharyngeal airway and is being manually ventilated with a bag and mask before intubation. An inexperienced emergency department physician wants to attempt the intubation. Regarding the risk of difficult intubation in this patient:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Coma and reduced cervical spine mobility are both recognised risk factors for difficult intubation",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Because Mallampati score and obstructive sleep apnoea status cannot be formally assessed in this patient, these risk factors can be assumed to be absent",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Obesity itself can contribute to intubation difficulty even when other risk factors cannot be formally assessed",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Given the multiple risk factors already present, it would be reasonable to be cautious about allowing an inexperienced colleague to perform this intubation",
+          "correct": true
+        }
+      ],
+      "explanation": "Although Mallampati score and OSA status cannot be formally assessed in an unconscious patient, they should not be assumed absent — obesity alone can pose intubation difficulty, and this patient already has coma and reduced cervical spine mobility as recognised risk factors. Taken together, these are reasonable grounds for caution about allowing an inexperienced operator to lead the intubation attempt.",
+      "section": "Trauma Airway Management",
+      "topic": "difficult intubation risk factors inexperienced operator",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "aw1_fk03",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Preoxygenation in the critically ill can be improved by:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Head up tilt",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Administration of oxygen via nasal prongs during apnoea",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "A recruitment manoeuvre",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Non-invasive Ventilation",
+          "correct": true
+        }
+      ],
+      "explanation": "Though all the described methods may improve oxygenation peri-intubation, only a head-up position and non-invasive ventilation specifically provide pre-oxygenation; nasal prong oxygen during apnoea is a technique for apnoeic oxygenation (not pre-oxygenation), and a recruitment manoeuvre addresses atelectasis rather than pre-oxygenation itself.",
+      "section": "Preoxygenation",
+      "topic": "preoxygenation head up NIV apnoeic oxygenation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "aw1_fk04",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Positioning to facilitate endotracheal intubation is improved by:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Neck flexion and head extension",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Alignment of the external auditory meatus with the sternum",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "25 degree back up position",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "'Ramped' position in the obese",
+          "correct": true
+        }
+      ],
+      "explanation": "There is evidence supporting all of these positioning strategies (the 'sniffing' position of neck flexion with head extension, alignment of the external auditory meatus with the sternal notch, a 25-degree back-up/head-up position, and the ramped position in obese patients) for improving laryngoscopic view.",
+      "section": "Airway Positioning",
+      "topic": "intubation positioning sniffing position ramped position",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "aw1_fk05",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The following conditions are associated with difficult airway management:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Pierre Robin Syndrome",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Down's Syndrome",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Rheumatoid Arthritis",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Pregnancy",
+          "correct": true
+        }
+      ],
+      "explanation": "Pierre Robin Syndrome (micrognathia, glossoptosis, cleft palate) complicates facemask ventilation, LMA insertion and intubation. Down's Syndrome is associated with OSA, GORD, atlanto-axial instability and a narrower glottis/trachea. Rheumatoid arthritis can affect the atlanto-axial, cricoarytenoid and temporomandibular joints. Pregnancy carries higher failed-intubation rates, faster desaturation, higher regurgitation risk, and peripartum airway swelling that may need a smaller endotracheal tube.",
+      "section": "Difficult Airway Risk Factors",
+      "topic": "difficult airway Pierre Robin Down syndrome rheumatoid arthritis pregnancy",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "aw1_fk06",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Insertion of an oropharyngeal airway can cause:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Vomiting",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Laryngospasm",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Reduction in consciousness",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hypoglycaemia",
+          "correct": false
+        }
+      ],
+      "explanation": "An oropharyngeal airway can stimulate the gag reflex, provoking vomiting or laryngospasm, particularly if some airway reflexes are preserved. It does not itself cause a reduction in consciousness or hypoglycaemia.",
+      "section": "Airway Adjuncts",
+      "topic": "oropharyngeal airway complications laryngospasm vomiting",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "aw1_fa03",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The following cause airway obstruction at the level of the pharynx, EXCEPT?",
+      "options": [
+        "A: Depressed consciousness",
+        "B: Supraglottitis",
+        "C: Thyroid goitre",
+        "D: Carotid 'blowout'",
+        "E: Neuromuscular weakness"
+      ],
+      "correct": 2,
+      "explanation": "Depressed consciousness and neuromuscular weakness cause loss of pharyngeal muscle tone and airway collapse at the pharynx; supraglottitis narrows the airway at the supraglottic level, and a carotid blowout causes extrinsic compression and venous congestion at the pharyngeal/neck level. A thyroid goitre instead causes airway compression at the level of the trachea, not the pharynx.",
+      "section": "Airway Obstruction",
+      "topic": "pharyngeal obstruction thyroid goitre carotid blowout",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "aw1_fa04",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following features is NOT associated with difficult face mask ventilation?",
+      "options": [
+        "A: Limited jaw protrusion",
+        "B: Obesity",
+        "C: Modified Mallampati class 3 or 4",
+        "D: Young age <55 years",
+        "E: Male gender"
+      ],
+      "correct": 3,
+      "explanation": "Predictors of difficult face-mask ventilation are summarised by the 'OBESE' mnemonic (Obesity, Beard, Elderly >55 years, Snorer, Edentulous) plus Modified Mallampati class 3-4, limited jaw protrusion, male gender, and prior radiotherapy to the neck. Age under 55 years is not a risk factor — it is age over 55 that predicts difficulty.",
+      "section": "Difficult Face Mask Ventilation",
+      "topic": "difficult face mask ventilation OBESE mnemonic",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "aw1_fa05",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following is NOT a constituent of the MACOCHA Score, which is used to predict the risk of difficult endotracheal intubation?",
+      "options": [
+        "A: Limited mouth opening",
+        "B: Severe hypoxaemia (<80%)",
+        "C: Non-anaesthesiologist intubating",
+        "D: Coma",
+        "E: Shock"
+      ],
+      "correct": 4,
+      "explanation": "The MACOCHA score (De Jong et al., 2013) is a validated 12-point tool for predicting difficult intubation in critically ill adults, combining patient factors (Mallampati III/IV = 5, obstructive sleep apnoea = 2, limited mouth opening <3cm = 1, reduced cervical spine mobility = 1), pathology factors (coma = 1, severe hypoxaemia <80% = 1), and an operator factor (non-anaesthesiologist intubating = 1). Shock is not part of the score.",
+      "section": "MACOCHA Score",
+      "topic": "MACOCHA score difficult intubation prediction",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "aw1_fa06",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The major indication for performing a cricothyroidotomy is:",
+      "options": [
+        "A: Major facial trauma",
+        "B: Two or more different methods of intubation have proven unsuccessful",
+        "C: Cannot intubate, cannot oxygenate scenario",
+        "D: Previous anaphylaxis to suxamethonium",
+        "E: Physician has no anaesthetic experience"
+      ],
+      "correct": 2,
+      "explanation": "National guidelines establish that cricothyroidotomy should be performed in a 'cannot intubate, cannot oxygenate' scenario, after failed attempts at intubation and oxygenation using a face mask and a supraglottic device. If two or more intubation attempts have failed but oxygenation is maintained, it is generally sensible to wait for assistance rather than proceed directly to a surgical airway.",
+      "section": "Surgical Airway",
+      "topic": "cricothyroidotomy CICO indication",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "aw1_fa07",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The best method to confirm the tracheal positioning of an endotracheal tube is:",
+      "options": [
+        "A: Auscultation of the lung fields",
+        "B: 'Misting' of the endotracheal tube",
+        "C: Capnography",
+        "D: Visualisation of the endotracheal tube passing through the glottis",
+        "E: Assessment of chest wall movement during ventilation"
+      ],
+      "correct": 2,
+      "explanation": "Although auscultation, tube misting, direct visualisation of the tube passing through the cords, and chest wall movement are all indicators consistent with successful tracheal intubation, capnography (continuous waveform CO2 detection) is the only reliable confirmatory method and is recommended for every intubation.",
+      "section": "Airway Confirmation",
+      "topic": "endotracheal tube confirmation capnography",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}
