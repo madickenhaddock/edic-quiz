@@ -1,0 +1,166 @@
+{
+  "module": "Clinical Outcome Measures (Parts I-II)",
+  "sections": {},
+  "questions": [
+    {
+      "id": "co1_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Following an ICU stay, a patient asks, \"Will I be able to dress myself and manage at home?\" Which outcome domain best matches the perspective and concept?",
+      "options": [
+        "A: ICU length of stay (resource utilisation)",
+        "B: Hospital mortality rate (system performance)",
+        "C: Functional status (ability to perform ADLs/IADLs)",
+        "D: Standardised mortality ratio (severity-adjusted benchmarking)",
+        "E: Number of outpatient appointments scheduled after discharge"
+      ],
+      "correct": 2,
+      "explanation": "The question concerns the patient's ability to independently perform activities of daily living (ADLs) and instrumental activities of daily living (IADLs) such as dressing and managing at home - this is precisely what functional status captures, distinguishing it from system-level metrics like length of stay, mortality rates, or standardised mortality ratios, and from process metrics like outpatient follow-up numbers.",
+      "topic": "outcome domains functional status",
+      "image": null,
+      "section": "Outcome Domains",
+      "section_url": null
+    },
+    {
+      "id": "co1_fa02",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "An ICU's annual report shows an SMR of 1.3 using a validated severity scoring system. Which is the single best interpretation consistent of this number?",
+      "options": [
+        "A: Mortality is 30% lower than expected for the unit's case mix.",
+        "B: Mortality is 30% higher than expected for patients with similar severity of illness.",
+        "C: The unit's care is inadequate because treatment should be based on the score.",
+        "D: The unit's mortality cannot be compared with other ICUs because SMR is not severity-adjusted.",
+        "E: Observed mortality is equal to the predicted value for all diagnostic groups."
+      ],
+      "correct": 1,
+      "explanation": "A standardised mortality ratio (SMR) of 1.3 means observed mortality was 1.3 times (i.e. 30% higher than) predicted mortality for that case-mix, based on the severity scoring system used. It does not by itself indicate inadequate care, and severity-adjusted SMR is specifically designed to allow between-unit comparison, unlike raw mortality rates.",
+      "topic": "standardised mortality ratio interpretation",
+      "image": null,
+      "section": "Mortality Metrics",
+      "section_url": null
+    },
+    {
+      "id": "co1_fa03",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "What are the two main uses of clinical outcome measurement?",
+      "options": [
+        "A: Bed management and workforce wellbeing monitoring",
+        "B: Assessment of quality of care and endpoints for research",
+        "C: Financial reimbursement and medico-legal protection",
+        "D: Antibiotic stewardship and transfusion governance",
+        "E: Patient satisfaction surveys and visitor experience tracking"
+      ],
+      "correct": 1,
+      "explanation": "Clinical outcome measurement serves two principal purposes: assessing and benchmarking the quality of care delivered, and providing endpoints for clinical research - not operational functions like bed management, financial reimbursement, or patient satisfaction tracking, which are separate from outcome measurement's core purpose.",
+      "topic": "outcome measurement purposes",
+      "image": null,
+      "section": "Outcome Measurement Principles",
+      "section_url": null
+    },
+    {
+      "id": "co1_fa04",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A hospital executive proposes using shorter ICU length of stay (LOS) as the main quality indicator. As an intensivist, you are asked to comment on the plan. What is the single best statement?",
+      "options": [
+        "A: Shorter ICU LOS improves outcomes without increased complications.",
+        "B: ICU LOS is a proxy for resource use, but shorter LOS may be associated with higher readmission or other adverse events.",
+        "C: ICU LOS is unaffected by case complexity or post-ICU resources, so it isolates ICU performance.",
+        "D: ICU readmissions indicate premature discharge and therefore better suited to measure ICU quality.",
+        "E: ICU LOS directly measures patient-centred recovery and long-term functional independence."
+      ],
+      "correct": 1,
+      "explanation": "ICU length of stay reflects resource utilisation but is confounded by case complexity, discharge practices, and post-ICU resource availability. Pursuing shorter LOS as a primary target risks premature discharge and increased readmission or other adverse events - it does not directly measure patient-centred recovery or isolate ICU-specific performance.",
+      "topic": "ICU length of stay quality indicator",
+      "image": null,
+      "section": "Outcome Measurement Principles",
+      "section_url": null
+    },
+    {
+      "id": "co2_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "In outcome prediction after critical illness, which statement most accurately describes frailty and age?",
+      "options": [
+        "A: Chronological age is a better predictor than biological age.",
+        "B: Frailty reflects reduced physiological reserve and is a principal risk factor for poorer outcomes.",
+        "C: Frailty only affects short-term ICU survival and not long-term recovery.",
+        "D: Premorbid functional status is rarely useful in shared decision-making.",
+        "E: Frailty is irrelevant when measures of acute illness severity are available."
+      ],
+      "correct": 1,
+      "explanation": "[UNCONFIRMED] No explicit answer confirmation was visible in the source screenshot; inferred from standard critical care teaching. Frailty reflects reduced physiological reserve across multiple systems and is an established independent risk factor for poorer ICU and post-ICU outcomes, adding predictive value beyond chronological age or acute illness severity scores alone, and remains relevant to shared decision-making regardless of whether severity scores are available.",
+      "topic": "frailty outcome prediction",
+      "image": null,
+      "section": "Frailty and Prediction",
+      "section_url": null
+    },
+    {
+      "id": "co2_fa02",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Post-Intensive Care Syndrome (PICS) is best defined as:",
+      "options": [
+        "A: A short-term complication limited to the ICU stay.",
+        "B: New or worsening impairments that persist beyond hospital discharge.",
+        "C: A condition affecting only family members of ICU patients.",
+        "D: A measurement tool used to quantify organ dysfunction.",
+        "E: A diagnosis describing recurrent ICU-acquired infections after discharge."
+      ],
+      "correct": 1,
+      "explanation": "[UNCONFIRMED] No explicit answer confirmation was visible in the source screenshot; inferred from the standard consensus definition. Post-Intensive Care Syndrome (PICS) is new or worsening impairment in physical, cognitive, or mental health status that arises after critical illness and persists beyond acute hospital discharge - it is not limited to the ICU stay itself, nor confined to family members (that is PICS-Family), nor a measurement tool for organ dysfunction.",
+      "topic": "post-intensive care syndrome definition",
+      "image": null,
+      "section": "Post-Intensive Care Syndrome",
+      "section_url": null
+    },
+    {
+      "id": "co2_fa03",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which option best distinguishes PROMs from traditional clinician-reported outcomes in ICU follow-up?",
+      "options": [
+        "A: PROMs are interpretations of patient status recorded by clinicians.",
+        "B: PROMs are reports on health status that come directly from the patient.",
+        "C: PROMs only measure mortality and length of stay.",
+        "D: PROMs are identical to core outcome sets (COS) and replace them.",
+        "E: PROMs are laboratory-based measures collected without patient input."
+      ],
+      "correct": 1,
+      "explanation": "[UNCONFIRMED] No explicit answer confirmation was visible in the source screenshot; inferred from the standard definition. Patient-Reported Outcome Measures (PROMs), by definition, are reports on health status that come directly from the patient rather than being interpreted or recorded by a clinician - this distinguishes them from traditional clinician-reported outcomes. They are distinct from (not identical to) core outcome sets and are not laboratory-based measures.",
+      "topic": "patient-reported outcome measures",
+      "image": null,
+      "section": "Patient-Reported Outcomes",
+      "section_url": null
+    },
+    {
+      "id": "co2_fa04",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Why is fixed-time mortality (e.g., 30-day mortality) often preferred over \"place-dependent\" mortality (ICU or hospital mortality) when comparing cohorts?",
+      "options": [
+        "A: It is independent of where the patient is (ICU, hospital, or discharged).",
+        "B: It is not affected by severity of illness or comorbidities.",
+        "C: It eliminates the need for risk adjustment in all settings.",
+        "D: It primarily measures patient-reported quality of life.",
+        "E: It is determined solely by discharge policy and bed availability."
+      ],
+      "correct": 0,
+      "explanation": "Fixed-time mortality (e.g. 30-day mortality) is measured at a set time point regardless of the patient's location (ICU, ward, or after discharge), making it independent of discharge policy, bed availability, or other place-dependent factors that can distort ICU- or hospital-mortality comparisons between units with different discharge practices. It still requires severity/risk adjustment for valid comparison and does not itself measure patient-reported quality of life.",
+      "topic": "fixed-time mortality comparison",
+      "image": null,
+      "section": "Mortality Metrics",
+      "section_url": null
+    }
+  ]
+}

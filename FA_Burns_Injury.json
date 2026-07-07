@@ -1,0 +1,268 @@
+{
+  "module": "Burns Injury (Parts I-III)",
+  "sections": {},
+  "questions": [
+    {
+      "id": "burn1_fk01",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 56-year-old male has been extricated from a house fire having been found unconscious in a heavily smoke-filled room. He has sustained burns over the anterior aspect of his torso that are pale and waxy in appearance with an absent capillary refill. He also has circumferential burns that are deep red, dry with poor capillary refill affecting his right arm from the elbow distally. When assessing his injury, which of the following are true?",
+      "statements": [
+        {"label": "A", "text": "It is unlikely he has suffered an inhalation injury", "correct": false},
+        {"label": "B", "text": "The wounds on his torso are consistent with a full-thickness burn", "correct": true},
+        {"label": "C", "text": "Escharotomy to his arm is not indicated", "correct": false},
+        {"label": "D", "text": "His burns can be effectively managed conservatively", "correct": false}
+      ],
+      "explanation": "Being found unconscious in a smoke-filled room makes inhalation injury likely, not unlikely. A pale, waxy appearance with absent capillary refill are classic signs of full-thickness burn. Circumferential deep dermal or full-thickness burns - as seen on his arm - are likely to require escharotomy to maintain distal perfusion, and large full-thickness burns require surgical excision rather than conservative management.",
+      "topic": "burn depth assessment escharotomy",
+      "image": null,
+      "section": "Initial Assessment and Management",
+      "section_url": null
+    },
+    {
+      "id": "burn1_fk02",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 79-year-old male has been admitted to the burns ward with a 3% full thickness lower leg burn sustained yesterday when he fell against a radiator and was unable to get up. With regard to his injury, which of the following are true?",
+      "statements": [
+        {"label": "A", "text": "Contact burns account for the majority of thermal injuries", "correct": false},
+        {"label": "B", "text": "Fluid resuscitation is not indicated", "correct": true},
+        {"label": "C", "text": "Raised creatinine kinase suggests that escharotomy is required", "correct": false},
+        {"label": "D", "text": "Organ support (if required) should be pursued as the burn is small", "correct": false}
+      ],
+      "explanation": "Most thermal injuries are due to flame or scalds, not contact burns. Fluid resuscitation is not routinely indicated for burns under 15% TBSA in adults, and this burn is only 3%. The need for escharotomy is determined by the presence of circumferential deep burns, not creatinine kinase, which may be raised for other reasons. Treatment escalation decisions should be multidimensional - considering the patient's general health and wishes, not simply the size of the burn.",
+      "topic": "fluid resuscitation threshold escharotomy",
+      "image": null,
+      "section": "Initial Assessment and Management",
+      "section_url": null
+    },
+    {
+      "id": "burn1_fk03",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 32 year old male factory worker is brought to the emergency department following an explosion at work. He has sustained a burn injury which you have been asked to assess. When assessing burn injury, which of the following are true?",
+      "statements": [
+        {"label": "A", "text": "Superficial (first-degree) burns do not usually blister or scar", "correct": true},
+        {"label": "B", "text": "The Lund & Browder chart can be useful when estimating depth of burn injury", "correct": false},
+        {"label": "C", "text": "The rule of nines method often overestimates the burn size in patients who are obese", "correct": true},
+        {"label": "D", "text": "Partial thickness circumferential limb injuries require prompt recognition and early assessment for escharotomy", "correct": true}
+      ],
+      "explanation": "Superficial burns are categorised by erythema without blistering or scarring. The Lund-Browder chart and rule of nines are both used to estimate burn size, not depth; the rule of nines often overestimates TBSA in patients with a high BMI. Deep partial-thickness circumferential burns should be assessed early for possible escharotomy.",
+      "topic": "burn size depth assessment tools",
+      "image": null,
+      "section": "Initial Assessment and Management",
+      "section_url": null
+    },
+    {
+      "id": "burn1_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 16 year old female presents to her local emergency department with superficial partial thickness burns to her face and neck sustained about an hour ago when she lit a cigarette after inhaling solvents in a park with friends. What are your thoughts on respiratory assessment and interventions?",
+      "options": [
+        "A: Co-ingestion of other substances is unlikely to be relevant",
+        "B: Endotracheal intubation with a cut tube should be considered",
+        "C: High concentration oxygen should be delivered given the risk of carbon monoxide toxicity",
+        "D: Oral pain, erythema and swelling indicate a need for airway intervention prior to interhospital transfer",
+        "E: Swelling of the upper airway is at its maximum"
+      ],
+      "correct": 3,
+      "explanation": "Airway oedema peaks at around 48 hours and is worsened by fluid resuscitation, so oral pain, erythema and swelling this early still warrant pre-emptive airway intervention before transfer, since it can only worsen. Carbon monoxide toxicity is typically seen with enclosed-space fires, not an open-air park setting. Facial burns should be intubated with an uncut tube (not cut) given the risk of proximal tube displacement as oedema progresses, and solvent inhalation/intoxication is clinically relevant here, not irrelevant.",
+      "topic": "airway burn facial injury assessment",
+      "image": null,
+      "section": "Initial Assessment and Management",
+      "section_url": null
+    },
+    {
+      "id": "burn1_fa02",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 41 year old female presents with 35% TBSA (20% full thickness, 15% partial thickness) flame burns sustained in a house fire tonight. She was intubated and ventilated at the scene as poorly responsive. Her HR is 110bpm with MAP 72 unsupported and body temperature 34.5C. She has received a litre of normal saline via peripheral venous access en route to hospital. How will you approach ongoing fluid resuscitation?",
+      "options": [
+        "A: Colloids such as human albumin solution should be administered for fluid boli as required",
+        "B: The total body surface area of only full thickness burn should be used to calculate the initial fluid resuscitation volume using the Parkland formula",
+        "C: Balanced crystalloid solution should be used for fluid resuscitation guided by hourly urine output",
+        "D: After calculating the total volume to be administered via the Parkland formula, the patient should receive half of the total volume in the first 8 hours after hospitalisation",
+        "E: The patient is at risk for inhalation injury and therefore requires a restrictive fluid input"
+      ],
+      "correct": 2,
+      "explanation": "The Parkland formula estimates the 24-hour fluid requirement using balanced crystalloid, guided by hourly urine output; colloids are reserved for patients needing volumes significantly above the anticipated requirement. Total (not only full-thickness) TBSA is used in the formula. The 8-hour clock for the first half of the volume runs from the time of burn injury, not from hospitalisation, making D a near-miss. Concomitant inhalation injury increases - rather than restricts - fluid requirements, by up to 50%.",
+      "topic": "Parkland formula fluid resuscitation",
+      "image": null,
+      "section": "Initial Assessment and Management",
+      "section_url": null
+    },
+    {
+      "id": "burn2_fk01",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 56-year-old male is admitted to the ICU following a house fire 10 hours earlier. He has sustained a mixture of deep partial and full thickness burns to his face, torso, thighs and upper limbs equating to 35% TBSA. He weighs 110 kg, but has an ideal body weight of 70 kg. He is cool peripherally, has a heart rate of 115 beats/min and mean arterial pressure of 62 mmHg, prolonged capillary refill time and has produced 20 ml urine in the last hour. Hartmann's solution is being infused at 481 ml/hr as per the Parkland formula of 4 ml/kg TBSA. What action should be taken?",
+      "statements": [
+        {"label": "A", "text": "Give a fluid bolus of 250 ml Hartmann's Solution", "correct": true},
+        {"label": "B", "text": "Replace one third of the current crystalloid regimen with 4.5% albumin solution", "correct": false},
+        {"label": "C", "text": "Reduce the baseline rate of fluid administration", "correct": false},
+        {"label": "D", "text": "Start a noradrenaline infusion", "correct": false}
+      ],
+      "explanation": "Oliguria and tissue hypoperfusion suggest hypovolaemia, so a dynamic fluid bolus with reassessment is the appropriate first step. Colloid rescue is only considered once fluid requirements are expected to exceed 6 ml/kg TBSA at around 12 hours post-injury; this patient is at 4 ml/kg at 10 hours, so it is not yet indicated. The clinical picture calls for more fluid, not a reduced rate, and vasopressors should only follow further fluid resuscitation and clinical reassessment, not precede it.",
+      "topic": "burns fluid resuscitation hypovolaemia",
+      "image": null,
+      "section": "ICU Management",
+      "section_url": null
+    },
+    {
+      "id": "burn2_fk02",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Regarding thermoregulation of patients having sustained a major burn injury:",
+      "statements": [
+        {"label": "A", "text": "Immediate resuscitation should include measures to actively cool the patient", "correct": false},
+        {"label": "B", "text": "A burn patient should be nursed in a room with ambient temperature maintained at 24-28\u00b0C", "correct": false},
+        {"label": "C", "text": "Increasing the temperature of the surrounding environment can help mitigate against the increase in basal metabolic rate seen in major burn injuries", "correct": true},
+        {"label": "D", "text": "Extra-corporeal methods of cooling may be required in patients with hyperpyrexia (>41.1\u00b0C)", "correct": true}
+      ],
+      "explanation": "While cooling can help limit extension of smaller burns, actively cooling larger burns risks hypothermia, which is associated with infection, coagulopathy and increased mortality. Ambient room temperature should ideally be raised higher, to 28-33\u00b0C, reducing the energy needed to maintain core temperature against the burn-induced rise in basal metabolic rate. If simpler active cooling measures fail in hyperpyrexia, invasive extracorporeal techniques may be required.",
+      "topic": "burns thermoregulation hypermetabolism",
+      "image": null,
+      "section": "ICU Management",
+      "section_url": null
+    },
+    {
+      "id": "burn2_fk03",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 35-year-old female weighing 63kg is mechanically ventilated in the intensive care unit after sustaining a 42% TBSA burn five days previously. Nutrition is being delivered continuously via nasogastric tube. The targeted caloric requirements have not been met due to persistently high volumes of feed being aspirated as part of routine assessment. Appropriate statements regarding nutritional care include:",
+      "statements": [
+        {"label": "A", "text": "Resting energy expenditure may be more than double baseline values", "correct": true},
+        {"label": "B", "text": "A nasojejunal tube may be of benefit", "correct": true},
+        {"label": "C", "text": "Total parenteral nutrition should be started", "correct": false},
+        {"label": "D", "text": "An acceptable weight at hospital discharge would be 55kg", "correct": false}
+      ],
+      "explanation": "Basal metabolic rate can more than double in burns exceeding 40% TBSA. Gastric stasis is likely impairing feed delivery here, and a post-pyloric tube such as a nasojejunal tube may help bypass this. Parenteral nutrition is rarely needed - the enteral route should be optimised first. British Burn Association guidance recommends losing no more than 10% of admission weight, so this patient should ideally weigh more than 56.7kg at discharge; 55kg would represent an excessive loss.",
+      "topic": "burns nutrition metabolic support",
+      "image": null,
+      "section": "ICU Management",
+      "section_url": null
+    },
+    {
+      "id": "burn2_fk04",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Regarding the physiological changes that occur following a burn injury:",
+      "statements": [
+        {"label": "A", "text": "The hypermetabolic and inflammatory changes resolve once the burn injury has healed", "correct": false},
+        {"label": "B", "text": "A core temperature of 35.8\u00b0C is normal at day 7 post-burn", "correct": false},
+        {"label": "C", "text": "The use of propranolol can reduce mortality", "correct": false},
+        {"label": "D", "text": "Hyperglycaemia and thrombocytopaenia may be signs of sepsis after burn injury", "correct": true}
+      ],
+      "explanation": "Hypermetabolic and inflammatory changes can persist for years after healing, raising long-term risks such as cardiovascular disease and infection. After an initial hypothermic trend, the hypothalamic thermostat resets and core temperature is typically above 38\u00b0C from several days post-burn onward, so 35.8\u00b0C at day 7 would not be normal. No convincing evidence supports a mortality benefit from propranolol. Falling platelet count and hyperglycaemia can be early hints of developing sepsis in this population.",
+      "topic": "burns physiology sepsis signs",
+      "image": null,
+      "section": "ICU Management",
+      "section_url": null
+    },
+    {
+      "id": "burn2_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 41 year old female is admitted to the ICU with a 30% TBSA (20% full thickness, 10% partial thickness) burn injury earlier in the day. Fluid resuscitation has been commenced by the Emergency Department prior to ICU admission. She is intubated and ventilated with FiO2 0.4. Her HR is 110bpm with MAP 72 unsupported. On examination she is warm and well perfused with capillary refill time of <2 seconds. She has recently had a urinary catheter sited which has drained 200mls of residual volume. How will you approach ongoing fluid resuscitation?",
+      "options": [
+        "A: After calculating the total volume to be administered via the Parkland formula, the patient should receive half of the total volume in the first 8 hours after hospitalisation",
+        "B: Balanced crystalloid solution should be used for fluid resuscitation guided by hourly urine output",
+        "C: Colloids such as human albumin solution should be administered for fluid boluses as required",
+        "D: Urine output should be closely monitored, and fluid rate increased if it falls below 1ml/kg ideal body weight",
+        "E: The total body surface area of only full thickness burn should be used to calculate the initial fluid resuscitation volume using the Parkland formula"
+      ],
+      "correct": 1,
+      "explanation": "Balanced crystalloid guided by hourly urine output (target 0.5-1 ml/kg IBW/hour) is the standard approach; colloids are reserved once volumes significantly exceed the anticipated requirement. The first half of the Parkland-calculated volume is given over the first 8 hours from the time of burn injury, not from hospitalisation, making A a near-miss. Total (not only full-thickness) TBSA is used in the formula, and the target urine output threshold is 0.5-1 ml/kg, not simply 'below 1ml/kg' as a trigger to increase the rate.",
+      "topic": "Parkland formula fluid resuscitation urine output",
+      "image": null,
+      "section": "ICU Management",
+      "section_url": null
+    },
+    {
+      "id": "burn3_fk01",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 19-year-old man is brought to the emergency department with facial burns sustained when he threw petrol on a bonfire. Which of the following would raise concern of an airway burn?",
+      "statements": [
+        {"label": "A", "text": "Perioral burns", "correct": true},
+        {"label": "B", "text": "Intact beard", "correct": false},
+        {"label": "C", "text": "Hoarseness", "correct": true},
+        {"label": "D", "text": "Epiglottic swelling on flexible nasendoscopy", "correct": true}
+      ],
+      "explanation": "An upper airway burn should be suspected with soot, singed hair, or cutaneous burns around the nose and mouth - perioral burns raise concern, while an intact (unsinged) beard is reassuring rather than concerning. Hoarseness reflects supraglottic injury, and flexible nasendoscopy showing epiglottic swelling directly demonstrates airway involvement.",
+      "topic": "inhalation injury airway burn signs",
+      "image": null,
+      "section": "Inhalation Injury",
+      "section_url": null
+    },
+    {
+      "id": "burn3_fk02",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 37 year old fire fighter is admitted to the ICU with an inhalation injury after prolonged smoke exposure during a fire rescue. She was found to have soot on her skin, nares and oral mucosa but no evidence of a burn injury. On arrival to the Emergency Department she was intubated due to respiratory distress. Co-oximetry confirmed carboxyhaemoglobin levels 41%. She was transferred to the ICU with SpO2 100% on FiO2 1.0 with diffuse bilateral changes on chest x-ray. The nursing staff note carbonaceous sputum on endotracheal aspirate. Which of the following statements are true?",
+      "statements": [
+        {"label": "A", "text": "Fibreoptic bronchoscopy has both an important prognostic and therapeutic role in inhalation injury", "correct": false},
+        {"label": "B", "text": "Treatment of severe / massive tracheobronchial injury with nebulised N-Acetyl Cysteine and heparin has a strong evidence base", "correct": false},
+        {"label": "C", "text": "Peripheral oxygen saturations may be normal in cases of severe carbon monoxide poisoning", "correct": true},
+        {"label": "D", "text": "Tracheobronchial injury is most commonly caused by thermal injury to the bronchial tree", "correct": false}
+      ],
+      "explanation": "Bronchoscopy has an important prognostic role in confirming diagnosis and grading inhalation injury, but bronchial interventions such as lavage or inhaled therapies - including nebulised N-Acetyl Cysteine and heparin - lack a robust evidence base to support routine therapeutic use. Pulse oximetry measures combined oxy- and carboxyhaemoglobin saturation, so SpO2 can read normal despite severe carbon monoxide poisoning - a falsely reassuring finding. Tracheobronchial injury is most commonly due to inhaled particulate matter or chemicals rather than direct thermal injury, since hot air cools rapidly before reaching the lower airway.",
+      "topic": "inhalation injury bronchoscopy carbon monoxide",
+      "image": null,
+      "section": "Inhalation Injury",
+      "section_url": null
+    },
+    {
+      "id": "burn3_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 47-year-old man has been extricated from a house fire and brought to hospital for treatment. His neighbours had alerted the emergency services to a possible fire when they noted smoke billowing from under his door. The fire fighters found him unconscious in his bedroom with a fire emanating from the kitchen stove. On arrival in the Emergency Department he is obtunded (GCS 3) and intubated using a cut size 8.0 endotracheal tube for airway protection. There are no signs of burn injury to his skin, but he has evidence of smoke exposure with carbonaceous staining to skin and hair. His family report a history of heavy alcohol intake but he has no other significant medical history. What is the most appropriate next step in management?",
+      "options": [
+        "A: Treat possible cyanide poisoning with hydroxycobalamin 5g intravenous",
+        "B: Administer 100% oxygen with 6-8ml/kg predicted body weight tidal volumes and respiratory rate 30 breaths per minute",
+        "C: Perform bronchoscopy to diagnose severity of any inhalation injury",
+        "D: Establish iv access and commence fluid resuscitation",
+        "E: Change the endotracheal tube (ETT) for an uncut ETT before swelling occurs"
+      ],
+      "correct": 1,
+      "explanation": "Enclosed-space smoke exposure makes carbon monoxide poisoning likely, and urgent high-concentration oxygen with an adequate minute volume is the priority to mitigate long-term sequelae - an arterial blood gas for co-oximetry should follow. Hydroxycobalamin for possible cyanide exposure and IV fluids are reasonable adjuncts but not the single most appropriate immediate next step, and bronchoscopy should be deferred until the patient is stabilised. With no skin burn present, there is no indication to electively exchange the cut ETT for an uncut one.",
+      "topic": "carbon monoxide poisoning inhalation injury management",
+      "image": null,
+      "section": "Inhalation Injury",
+      "section_url": null
+    },
+    {
+      "id": "burn3_fa02",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 53 year old woman is admitted to the Intensive Care Unit following a burn injury. Her clothing was set alight from cigarette ash leading to facial and chest burns of 14% of total body surface area. She has been managed with intubation and lung protective ventilation, fluid resuscitation and analgesia. On day 2 following her burn, her oxygenation indices deteriorate (PaO2 9.6kPa on FiO2 0.8) and she is assessed in the ICU with fibreoptic bronchoscopy. Copious carbonaceous deposits are present alongside severe inflammation consistent with a Grade 3 inhalation injury. Chest x-ray confirms bilateral infiltrates. Which of the following is the most appropriate step in management?",
+      "options": [
+        "A: ARDS following high-volume fluid resuscitation is common in burn injured patients and management should include aggressive diuresis",
+        "B: Extubation should be considered following indirect nasendoscopy to determine resolution of upper airway swelling",
+        "C: Bronchial lavage with sodium bicarbonate is a safe approach to removal of carbonaceous deposits without any deleterious effects",
+        "D: Consideration should be given to the possibility of prone position or ECMO",
+        "E: Deteriorating gas exchange could be due to carbon monoxide poisoning and the delivered oxygen concentration should be set to 100%"
+      ],
+      "correct": 3,
+      "explanation": "ARDS management in inhalation injury follows standard ARDS principles; since prone positioning can be difficult with facial/chest burns, early multidisciplinary discussion and consideration of rescue options such as ECMO is appropriate. Large-volume fluid resuscitation can worsen ARDS, but this is less likely with a 14% TBSA burn, making aggressive diuresis an unlikely priority. Sodium bicarbonate lavage lacks evidence and may harm surfactant. Carbon monoxide's short half-life makes significant levels unlikely by day 2, and extubation is not the priority during acute deterioration.",
+      "topic": "ARDS inhalation injury management",
+      "image": null,
+      "section": "Inhalation Injury",
+      "section_url": null
+    }
+  ]
+}
