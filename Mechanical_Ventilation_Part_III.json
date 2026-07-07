@@ -1,0 +1,651 @@
+{
+  "module": "Mechanical Ventilation Part III",
+  "sections": {
+    "Modes of Positive Pressure Ventilation": "A mode is defined by its triggering/cycling-off variable (time = 'control'; patient effort = 'assisted') and its control variable (pre-set volume = volume-control, VC; pre-set pressure = pressure-control, PC). Dual modes combine these for mandatory and spontaneous breaths differently (e.g. Assist-VC, Assist-PC, Bi-Level/APRV, SIMV, MMV) - over 50 commercial modes exist. Control modes are indicated by the absence of spontaneous breathing activity (brain injury, pharmacological depression, deep sedation/paralysis, e.g. to prevent patient self-inflicted lung injury in early severe respiratory failure). Major complications of prolonged controlled ventilation relate to sedation, immobilisation, and diaphragmatic atrophy from prolonged muscle unloading - so its duration should be minimised.",
+    "Basic controlled modes volume and pressure control": "In VC, tidal volume is set (independent) and pressure is dependent: Paw = flow x resistance + volume x elastance. With constant flow, Paw rises - initially mainly from resistive pressure, then increasingly from elastic recoil as volume accumulates - reaching Ppeak at end-inspiration; with an inspiratory plateau, Pplat reflects only elastic recoil. A rise in Ppeak with unchanged Pplat, a steeper initial rise, and 'square root'-shaped expiratory flow indicates increased RESISTANCE; a rise in both Ppeak and Pplat with unchanged initial rise, and faster-emptying expiratory flow, indicates increased ELASTANCE. Using end-inspiratory/end-expiratory occlusions: Ppeak-to-P1 reflects resistance (P1=pressure at zero flow); P1-to-Pplat reflects time-constant heterogeneity/viscoelastic behaviour (often increased in COPD exacerbation); Pplat-to-PEEP reflects elastance. Total (not set) PEEP must be used for compliance/driving-pressure calculations; total PEEP > set PEEP = intrinsic PEEP. Valid measurements require no patient effort. Airway closure (obesity, asthma, ARDS with low PEEP) is assessed with a low-flow inflation manoeuvre: a flat initial curve without cardiac oscillations, superimposed on the occluded-circuit line, that separates once airway opening pressure is exceeded, indicates complete closure. In PC, pressure is set and flow/volume are dependent - flow decelerates as elastic recoil rises, so flow shape reflects mechanics (resistance depresses/flattens inspiratory flow; elastance reduces peak flow and shortens flow time). Tidal volume in PC depends on mechanics AND set inspiratory time: if flow has not reached zero at end-Ti, extending Ti increases VT; once flow reaches zero, extending Ti barely changes VT but raises mean airway pressure. Compliance can be measured in PC the same way as VC (C = VT / (Pplat - PEEPtot)), but resistance CANNOT be calculated in PC since flow is not constant/set.",
+    "PEEP": "PEEP reopens/maintains patent alveoli against elastic recoil, improving V/Q match and oxygenation, but excess PEEP causes overdistension. External PEEP must overcome both lung and chest wall recoil. Increased intrathoracic pressure from PEEP reduces venous return, increases RV afterload, can promote right-to-left shunt via PFO, and may reduce cardiac output/worsen hypoxaemia - a trade-off against its oxygenation benefit. Recommended PEEP in normal lungs/chest wall: ~5 cmH2O (higher if chest wall elastance is increased, e.g. abdominal hypertension). In ARDS: no single titration method has been shown to improve outcomes; recruitability is suggested by improved oxygenation/compliance without a PCO2 rise at higher PEEP. Titration methods: PEEP-FiO2 tables (simple starting point, not personalised); compliance optimisation (decremental trial from 20-30 cmH2O, tidal recruitment during the trial is a limitation, so limiting VT during the manoeuvre is advised); driving pressure minimisation (same concept/limitation as compliance); end-expiratory transpulmonary pressure targeting 0-10 cmH2O (needs an oesophageal catheter, useful in high chest-wall-elastance or severe ARDS); imaging (CT, EIT). In obstructive disease, external PEEP close to intrinsic PEEP can facilitate emptying (expiratory flow shape normalises) despite intrinsic PEEP being present; intrinsic PEEP improves as obstruction resolves, so PEEPi must be monitored frequently as external PEEP may then become excessive. Dynamic auto-PEEP is seen just before the next breath (flow not yet zero); static auto-PEEP is measured by an end-expiratory hold once pressure/flow equilibrate; the two can differ, especially with heterogeneous flow limitation, and auto-PEEP increases the effort needed to trigger the ventilator.",
+    "FiO2": "Once PEEP is chosen, the minimum FiO2 needed for the target SpO2 is set. Both hypoxaemia and hyperoxaemia (supra-normal PaO2) are associated with harm; this section of the course targets an SpO2 of 94-98%. Note: another section of this course (Part I) targets a somewhat lower SpO2 (>90-92%) - both figures appear in different parts of the ESICM material; the shared underlying principle is avoiding both hypoxaemia and unnecessary hyperoxaemia.",
+    "Tidal Volume": "Tidal volume is a major determinant of both PaCO2 (via the metabolic hyperbola, PaCO2 = 0.86 x VCO2 / (VE x (1-VD/VT))) and of tidal lung inflation/injury risk. Initial VT in controlled modes: 6-8 ml/kg IBW, then adjusted. Indices of harmful end-inspiratory distending pressure: inspiratory plateau pressure >=30 cmH2O; transpulmonary end-inspiratory pressure >=24 cmH2O (requires an oesophageal catheter); driving pressure >=14 cmH2O (a meta-analysis found this the strongest outcome predictor among ventilator variables; <12 cmH2O likely more appropriate in patients >65y). Other indices (less validated): stress index (slope of the pressure-time curve in constant-flow VC - upward concavity = progressive over-distension, stress index >1; downward concavity = progressive recruitment, stress index <1; straight line = stress index =1) and mechanical power (combines elastic static/dynamic and resistive energy components; respiratory rate is itself a component, so excessive RR contributes to VILI risk). In obstructive disease, VT is limited by achievable exhalation; over-distended alveoli can compress adjacent capillaries (West zone 1-like), acting as dead space, so reducing VT/hyperinflation can lower PaCO2 despite similar or lower minute ventilation.",
+    "Respiratory rate, Inspiratory/expiratory ratio, inspiratory plateau": "RR is chosen alongside VT to reach a target PaCO2 via minute ventilation; in controlled modes there is no need to match mechanical to neural respiratory timing (no spontaneous activity). RR is usually above the normal 12-18/min because VT is constrained, but cannot rise indefinitely - passive expiration needs adequate time, proportional to the time constant (tau = resistance x compliance): ARDS (low resistance, low compliance) needs a short expiratory time; obstructive disease (high resistance, ~normal compliance) needs a long one (I:E 1:3-1:6, vs normal 1:1.5-1:2). RR is itself a mechanical-power component, so excessive RR contributes to VILI; it is reasonable to avoid RR increases that cause alkalaemia. Worked example: RR 25/min -> Ttot = 60/25 = 2.4 sec; Ti 0.75 sec -> Te = 2.4-0.75 = 1.65 sec -> I:E = 1:2.2. An inspiratory plateau raises mean intrathoracic pressure (acting like extra PEEP, potentially improving oxygenation - useful in ARDS) but reduces available expiratory time at a given RR (undesirable in obstructive disease) and affects haemodynamics similarly to higher PEEP. In PC, a similar effect is achieved by setting Ti long enough that flow reaches zero before inspiration ends. At the same VT, plateau and driving pressure are equal in VC or PC, since both are determined by respiratory system compliance."
+  },
+  "questions": [
+    {
+      "id": "mv3_a01",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with severe traumatic brain injury requires deep sedation to control intracranial pressure and has no spontaneous respiratory effort. Which type of ventilation mode is indicated, and why?",
+      "options": [
+        "A: An assisted mode, because it reduces sedation requirements",
+        "B: A control mode, because the main indication for control modes is the absence of spontaneous breathing activity, as occurs with deep sedation",
+        "C: A control mode, because it always delivers a larger tidal volume than assisted modes",
+        "D: An assisted mode, because control modes are contraindicated in brain injury",
+        "E: Either mode is equally appropriate regardless of spontaneous breathing activity"
+      ],
+      "correct": 1,
+      "explanation": "Control modes are indicated when patients lack spontaneous breathing activity - due to brain injury, pharmacological respiratory depression, or the need for deep sedation/paralysis - since triggering and cycling in these modes are entirely time-based rather than patient-effort-based. Option A reverses the logic, and tidal volume size (C) does not define a control mode.",
+      "section": "Modes of Positive Pressure Ventilation",
+      "topic": "control mode indication spontaneous breathing absence sedation brain injury",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv3_a02",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "All of the following are recognised complications associated with prolonged, fully controlled mechanical ventilation EXCEPT:",
+      "options": [
+        "A: Diaphragmatic atrophy from prolonged unloading",
+        "B: Complications related to prolonged sedation",
+        "C: Complications related to immobilisation",
+        "D: Improved respiratory muscle strength from extended rest",
+        "E: An increased risk profile that favours minimising the duration of controlled ventilation where possible"
+      ],
+      "correct": 3,
+      "explanation": "Extended respiratory muscle rest during controlled ventilation causes atrophy and weakness, not improved strength. The major recognised complications of controlled ventilation are those linked to prolonged sedation, immobilisation, and diaphragmatic atrophy, which is why its duration should be kept to a minimum.",
+      "section": "Modes of Positive Pressure Ventilation",
+      "topic": "controlled ventilation complications negative stem diaphragm atrophy sedation immobilisation EXCEPT",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv3_k01",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding set versus derived variables in different modes of ventilation, based on the table shown:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "In Pressure Support, tidal volume is a derived variable while inspiratory pressure is set.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "In Volume Control, inspiratory pressure is a set variable.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "In NAVA, both triggering and cycling-off are governed by the electrical activity of the diaphragm (EAdi).",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "In PAV, respiratory rate is set by the operator.",
+          "correct": false
+        }
+      ],
+      "explanation": "A/C correctly describe the table. B inverts Volume Control's logic - tidal volume is set and pressure is derived, not the reverse. D is false - PAV is a patient-triggered assisted mode where respiratory rate is the patient's own, not operator-set.",
+      "section": "Modes of Positive Pressure Ventilation",
+      "topic": "set derived variables table volume control pressure support NAVA PAV trap",
+      "image": "images/img_2bae33b3ce.png",
+      "section_url": null
+    },
+    {
+      "id": "mv3_a03",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient is placed on a dual mode where mandatory breaths are time-triggered and volume-set, while any additional spontaneous breaths are pressure- or flow-triggered with the patient determining respiratory rate and tidal volume. Which mode does this best describe?",
+      "options": [
+        "A: Bi-Level (APRV)",
+        "B: Assist-Volume Control (Assist-VC)",
+        "C: NAVA",
+        "D: Pure Pressure Support",
+        "E: Continuous Positive Airway Pressure (CPAP)"
+      ],
+      "correct": 1,
+      "explanation": "This describes Assist-Volume Control: mandatory breaths are time-triggered with a set volume (control-mode logic), while the patient can additionally trigger volume-targeted assisted breaths. Bi-Level/APRV instead alternates between two set pressure levels rather than a set tidal volume, and CPAP has no mandatory breaths at all.",
+      "section": "Modes of Positive Pressure Ventilation",
+      "topic": "dual modes assist volume control APRV bi-level table SIMV MMV",
+      "image": "images/img_35ad00b432.png",
+      "section_url": null
+    },
+    {
+      "id": "mv3_a04",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "In volume control ventilation with constant flow, airway pressure rises progressively during inspiration and reaches its maximum (Ppeak) just before flow terminates. What best explains the shape of this pressure rise?",
+      "options": [
+        "A: Pressure rises solely due to resistance, which increases throughout inspiration",
+        "B: Pressure initially rises mainly due to resistive pressure (little volume yet delivered), then increasingly reflects both resistive and elastic recoil pressure as volume accumulates",
+        "C: Pressure rises at a constant rate throughout inspiration because flow is constant",
+        "D: Pressure has no relationship to the volume delivered during the breath",
+        "E: Pressure rises solely due to elastic recoil, since resistance is negligible in mechanically ventilated patients"
+      ],
+      "correct": 1,
+      "explanation": "With constant flow, the equation of motion (Paw = flow x resistance + volume x elastance) explains the trace: initially, with little volume delivered, resistive pressure dominates; as inspiration continues, elastic recoil pressure (proportional to accumulating volume) increasingly contributes, so Ppeak reflects the sum of both at end-inspiration. Options A and E each ignore one component.",
+      "section": "Basic controlled modes volume and pressure control",
+      "topic": "volume control waveform Ppeak resistive elastic pressure equation of motion",
+      "image": "images/img_aa84c2632e.jpg",
+      "section_url": null
+    },
+    {
+      "id": "mv3_a05",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A ventilated patient in volume control mode with constant flow develops a new increase in Ppeak. On the waveform display, the initial part of the pressure rise is now steeper, plateau pressure is unchanged, and the expiratory flow trace has taken on a 'square root'-like shape. What is the most likely explanation?",
+      "options": [
+        "A: Increased respiratory system elastance (e.g. worsening pulmonary oedema)",
+        "B: Increased airway resistance (e.g. bronchospasm or a kinked endotracheal tube)",
+        "C: A leak in the ventilator circuit",
+        "D: A decrease in set tidal volume",
+        "E: Onset of intrinsic PEEP with no change in airway resistance"
+      ],
+      "correct": 1,
+      "explanation": "An isolated rise in Ppeak with unchanged plateau pressure, a steeper initial rise, and 'square root'-shaped expiratory flow is the classic pattern of increased airway resistance - increased elastance would instead raise both Ppeak AND plateau pressure together, without changing the initial trace. A circuit leak (C) would not increase Ppeak, and reduced tidal volume (D) generally lowers pressures.",
+      "section": "Basic controlled modes volume and pressure control",
+      "topic": "volume control resistance elastance discrimination Ppeak plateau square root flow bronchospasm",
+      "image": "images/img_7145df7cf3.jpg",
+      "section_url": null
+    },
+    {
+      "id": "mv3_k02",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the measurement of respiratory system mechanics using end-inspiratory and end-expiratory occlusions in volume control mode with constant flow:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The drop from peak pressure (Ppeak) to the pressure at zero flow (P1) reflects the pressure needed to overcome resistance to flow.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The gradual decrease from P1 to plateau pressure (Pplat) is caused by redistribution of gas in inhomogeneous lungs, and is often increased in acute exacerbations of COPD.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Total PEEP, rather than set PEEP, should be used when calculating driving pressure and compliance.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "These measurements remain valid even if the patient is making active inspiratory or expiratory efforts.",
+          "correct": false
+        }
+      ],
+      "explanation": "A, B and C correctly describe the occlusion technique. D is false - valid measurements require the absence of patient effort, since any active muscle contraction would distort the pressure readings.",
+      "section": "Basic controlled modes volume and pressure control",
+      "topic": "resistance compliance driving pressure occlusion P1 Pplat COPD total PEEP patient effort",
+      "image": "images/img_20b4f2fac0.jpg",
+      "section_url": null
+    },
+    {
+      "id": "mv3_a06",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A low-flow inflation pressure-volume manoeuvre is performed in an obese patient ventilated for ARDS. The initial part of the curve is very flat, shows no cardiac oscillations, and is superimposed on the curve of an occluded circuit until pressure reaches 15 cmH2O, after which the slope increases and cardiac oscillations appear. What does this pattern indicate?",
+      "options": [
+        "A: Normal respiratory system mechanics with no abnormality",
+        "B: Complete airway closure, with an airway opening pressure of approximately 15 cmH2O",
+        "C: Severe bronchospasm with dynamic hyperinflation",
+        "D: A malfunctioning pressure transducer",
+        "E: Normal recruitment without any closure phenomenon"
+      ],
+      "correct": 1,
+      "explanation": "A flat initial segment without cardiac oscillations, superimposed on the occluded-circuit curve, indicates that gas is being compressed against closed airways; once the airway opening pressure (~15 cmH2O here) is exceeded, the airways open, the curve separates, and cardiac oscillations reappear - the hallmark of complete airway closure, seen particularly in obesity, asthma, and ARDS ventilated with low PEEP.",
+      "section": "Basic controlled modes volume and pressure control",
+      "topic": "airway closure low-flow inflation curve airway opening pressure obesity ARDS cardiac oscillations",
+      "image": "images/img_120af57b3a.jpg",
+      "section_url": null
+    },
+    {
+      "id": "mv3_a07",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "In pressure control ventilation, the pressure waveform is an almost rectangular shape at the set value, while the flow waveform gradually decreases through inspiration. What does the flow waveform reflect in this mode?",
+      "options": [
+        "A: Flow is the independent, set variable, so its shape is chosen by the operator",
+        "B: Flow is the dependent variable, so its shape reflects the mechanical properties of the respiratory system as the elastic recoil pressure progressively increases with lung inflation",
+        "C: Flow is unrelated to the mechanical properties of the respiratory system in pressure control mode",
+        "D: The decreasing flow shape indicates a ventilator malfunction",
+        "E: Flow decreases only because of a leak in the circuit"
+      ],
+      "correct": 1,
+      "explanation": "In pressure control, pressure is the independent (set) variable, so flow and volume become dependent; as lung inflation progresses and elastic recoil pressure rises, less of the fixed driving pressure remains available to generate flow, producing the decelerating flow shape - making flow informative about the patient's mechanics, unlike in volume control where pressure serves that role.",
+      "section": "Basic controlled modes volume and pressure control",
+      "topic": "pressure control waveform flow dependent variable decelerating elastic recoil",
+      "image": "images/img_a26bbe5bf0.jpg",
+      "section_url": null
+    },
+    {
+      "id": "mv3_a08",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient in pressure control mode has an inspiratory time (Ti) of 1.00 sec and an expired tidal volume of 501 ml; at end-inspiration, flow has not yet reached zero. When Ti is increased to 1.25 sec, tidal volume rises to 546 ml. In a second patient, increasing Ti from 1.00 to 1.25 sec changes tidal volume only slightly (289 to 296 ml). What best explains the difference between these two patients?",
+      "options": [
+        "A: The first patient's ventilator is malfunctioning",
+        "B: In the first patient, flow had not reached zero at the original Ti, so extending Ti allowed more volume delivery; in the second, flow was already near zero at end-inspiration, so extending Ti added little volume but mainly increased mean airway pressure",
+        "C: The second patient has a larger tidal volume overall, making changes proportionally smaller",
+        "D: Increasing Ti always produces an equally large increase in tidal volume, regardless of the patient's mechanics",
+        "E: The difference is due to a change in set inspiratory pressure, not inspiratory time"
+      ],
+      "correct": 1,
+      "explanation": "In pressure control, tidal volume depends on the mechanical properties of the respiratory system and the set inspiratory time - if flow has not reached zero at the original Ti, extending Ti allows more volume delivery (first patient); once flow reaches zero, prolonging Ti adds essentially no volume but instead raises mean airway pressure, similar to an inspiratory plateau in volume control (second patient).",
+      "section": "Basic controlled modes volume and pressure control",
+      "topic": "pressure control tidal volume inspiratory time flow zero mean airway pressure quantitative",
+      "image": "images/img_a0addda4c1.jpg",
+      "section_url": null
+    },
+    {
+      "id": "mv3_k03",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding measurement of respiratory system mechanics in pressure control mode:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Respiratory system compliance can be measured in pressure control mode using end-inspiratory and end-expiratory occlusions, calculated as VT / (Pplat - total PEEP).",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Airway resistance can be calculated in pressure control mode using the same method as in volume control mode.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "An end-expiratory occlusion is needed in pressure control mode to determine total PEEP before calculating compliance.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Compliance measurement in pressure control mode requires the patient to be actively triggering each breath.",
+          "correct": false
+        }
+      ],
+      "explanation": "A and C correctly describe compliance measurement in PC. B is false - resistance calculation requires a known, constant flow, present in VC but not PC, so resistance cannot be calculated there. D is false and inverted - active patient effort would invalidate the measurement.",
+      "section": "Basic controlled modes volume and pressure control",
+      "topic": "pressure control compliance calculation resistance not calculable constant flow requirement",
+      "image": "images/img_6c2acc859d.jpg",
+      "section_url": null
+    },
+    {
+      "id": "mv3_a20",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "All of the following are true when comparing volume control and pressure control ventilation EXCEPT:",
+      "options": [
+        "A: In volume control, tidal volume is the set (independent) variable",
+        "B: In pressure control, the flow waveform provides information about the mechanical properties of the respiratory system",
+        "C: Airway resistance can be calculated directly in pressure control mode using the same method as in volume control",
+        "D: At the same tidal volume, plateau pressure and driving pressure are equal whether the patient is ventilated in volume or pressure control mode",
+        "E: In pressure control, the shape of the pressure waveform is (almost) rectangular, at the set value"
+      ],
+      "correct": 2,
+      "explanation": "Airway resistance cannot be calculated in pressure control mode by the volume-control method, since that calculation requires a known, constant flow - present in VC but not PC, where flow is a dependent, decelerating variable. Options A, B, D and E are all correctly stated (D reflects that plateau/driving pressure at a given VT is determined by respiratory system compliance, regardless of mode).",
+      "section": "Basic controlled modes volume and pressure control",
+      "topic": "volume control pressure control comparison negative stem resistance calculation driving pressure EXCEPT",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv3_a09",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with ARDS is started on a higher level of PEEP to improve oxygenation. Shortly after, blood pressure falls and cardiac output decreases. What is the most likely mechanism?",
+      "options": [
+        "A: PEEP has directly caused myocardial ischaemia",
+        "B: The increase in intrathoracic pressure from PEEP has reduced venous return and increased right ventricular afterload",
+        "C: PEEP has caused a large air leak, reducing effective ventilation",
+        "D: PEEP has no plausible haemodynamic effects; another cause should be sought exclusively",
+        "E: PEEP has directly caused a cardiac arrhythmia"
+      ],
+      "correct": 1,
+      "explanation": "PEEP increases intrathoracic pressure, which reduces venous return and increases right ventricular afterload, and can occasionally promote right-to-left shunting via a patent foramen ovale - together these effects can reduce cardiac output and worsen hypoxaemia, and must be weighed against PEEP's oxygenation benefit.",
+      "section": "PEEP",
+      "topic": "PEEP hemodynamics venous return right ventricular afterload cardiac output ARDS",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv3_a10",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with entirely normal lungs and chest wall is being ventilated for airway protection after a drug overdose. What PEEP level is generally recommended, and what would be a reason to use a higher level despite normal lungs?",
+      "options": [
+        "A: 0 cmH2O; PEEP is never needed with normal lungs",
+        "B: Approximately 5 cmH2O; a higher level may be needed if chest wall elastance is increased, such as with abdominal hypertension",
+        "C: 15-20 cmH2O; this is the universal starting point regardless of lung status",
+        "D: Approximately 5 cmH2O; no circumstance would ever justify a higher level in a patient with normal lungs",
+        "E: PEEP should be titrated using a decremental trial from 30 cmH2O even in normal lungs"
+      ],
+      "correct": 1,
+      "explanation": "In patients with normal lungs and chest wall, a PEEP of around 5 cmH2O is recommended; however, when chest wall elastance is increased - for example with abdominal hypertension or during abdominal surgery - a higher PEEP may be required even though the lungs themselves are normal, since applied PEEP must also overcome chest wall recoil.",
+      "section": "PEEP",
+      "topic": "PEEP normal lungs 5cmH2O chest wall elastance abdominal hypertension",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv3_k04",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding methods used to titrate PEEP in patients with ARDS:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "PEEP-FiO2 tables provide a reasonable starting point but lack personalisation and are not recommended as the sole method of PEEP titration.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "A single method of PEEP titration has been clearly shown to improve clinical outcomes compared to the others.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Targeting an end-expiratory transpulmonary pressure close to 0 cmH2O requires the insertion of an oesophageal catheter.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "When titrating PEEP using respiratory system compliance, cyclic opening and closing of lung units during the trial cannot affect the measured compliance.",
+          "correct": false
+        }
+      ],
+      "explanation": "A and C are correct. B is false - despite extensive PEEP-titration literature, no single method has been shown to improve outcomes over others. D is false - cyclic tidal recruitment during a compliance-based PEEP trial is an explicitly recognised confounder, which is why limiting tidal volume during such trials is recommended.",
+      "section": "PEEP",
+      "topic": "PEEP titration methods ARDS FiO2 table compliance transpulmonary pressure limitation trap",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv3_a11",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with ARDS has PEEP increased from 8 to 14 cmH2O. Oxygenation and respiratory system compliance both improve, and PaCO2 does not rise. What does this pattern most likely indicate?",
+      "options": [
+        "A: Alveolar overdistension with increased dead space",
+        "B: Lung recruitment with shunt reduction, without a significant overdistension-related increase in dead space",
+        "C: A deteriorating pneumothorax",
+        "D: Worsening intrinsic PEEP",
+        "E: A ventilator malfunction affecting tidal volume delivery"
+      ],
+      "correct": 1,
+      "explanation": "Improved oxygenation and compliance without a rise in PaCO2 after increasing PEEP suggests genuine alveolar recruitment and reduced shunt, without a significant overdistension-related increase in dead space - a recognised sign of lung recruitability. Overdistension (A) would instead be expected to worsen dead space and potentially raise PaCO2 or reduce compliance.",
+      "section": "PEEP",
+      "topic": "PEEP recruitability assessment oxygenation compliance PCO2 shunt reduction overdistension",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv3_a12",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "All of the following are true regarding PEEP (intrinsic or external) in patients with obstructive lung disease EXCEPT:",
+      "options": [
+        "A: External PEEP may facilitate lung emptying and improve dynamic hyperinflation, even in the presence of intrinsic PEEP",
+        "B: The haemodynamic effects of PEEP are the same whether the PEEP is intrinsic or externally applied",
+        "C: Intrinsic PEEP tends to improve as the underlying airway obstruction resolves",
+        "D: Once external PEEP is applied, manual measurement of intrinsic PEEP is no longer necessary",
+        "E: A change in the expiratory flow waveform from a 'square root-like' shape toward normal suggests improved lung emptying"
+      ],
+      "correct": 3,
+      "explanation": "Frequent manual measurement of intrinsic PEEP remains essential even after external PEEP is applied, since intrinsic PEEP improves as airway obstruction resolves and ongoing external PEEP may then become excessive if not reassessed. Options A, B, C and E are all correctly described in the module.",
+      "section": "PEEP",
+      "topic": "PEEP obstructive disease negative stem intrinsic external hemodynamics monitoring EXCEPT",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv3_k05",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding dynamic and static auto-PEEP (intrinsic PEEP) as illustrated by an end-expiratory occlusion manoeuvre:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Dynamic auto-PEEP is identified by the airway pressure just before the next mechanical breath begins, when flow has not yet returned to zero.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Static auto-PEEP is measured during an end-expiratory occlusion (hold), once flow and pressure have equilibrated throughout the respiratory system.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Dynamic and static auto-PEEP are always numerically identical in a given patient.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "The presence of auto-PEEP has no bearing on ventilator trigger sensitivity.",
+          "correct": false
+        }
+      ],
+      "explanation": "A and B correctly describe how each is identified. C is false - dynamic and static auto-PEEP can diverge, particularly with heterogeneous flow limitation between lung units. D is false - auto-PEEP raises the effective trigger threshold, increasing the work of breathing needed to trigger a breath.",
+      "section": "PEEP",
+      "topic": "dynamic static auto-PEEP occlusion manoeuvre trigger sensitivity heterogeneous flow limitation",
+      "image": "images/img_0a14bf5c36.png",
+      "section_url": null
+    },
+    {
+      "id": "mv3_a13",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Once an appropriate PEEP level has been chosen for a mechanically ventilated patient, what is a reasonable approach to setting FiO2?",
+      "options": [
+        "A: Set the minimum FiO2 needed to achieve an SpO2 of 94-98%, avoiding supra-normal PaO2",
+        "B: Always set FiO2 to 1.0 to provide a maximal safety margin",
+        "C: Target an SpO2 of 100% at all times to eliminate any risk of hypoxaemia",
+        "D: FiO2 should be fixed at the initial setting and never adjusted regardless of SpO2",
+        "E: Target the lowest FiO2 that produces an SpO2 of at least 99%"
+      ],
+      "correct": 0,
+      "explanation": "The minimum FiO2 needed to achieve an SpO2 of 94-98% is a reasonable target here, since hyperoxaemia has been associated with adverse outcomes just as hypoxaemia is harmful. Note that another part of this course states a somewhat lower general oxygenation target (SpO2 >90-92%) - both figures appear across the ESICM material; the shared underlying principle, avoiding both hypoxaemia and unnecessary hyperoxaemia, is what matters most.",
+      "section": "FiO2",
+      "topic": "FiO2 target SpO2 94-98 hyperoxaemia avoid PEEP set",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv3_k06",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding indices used to assess the risk of ventilator-induced lung injury from high end-inspiratory distending pressures:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "An inspiratory plateau pressure of 30 cmH2O or above has been associated with increased risk of lung injury and mortality in several studies.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "A driving pressure of 14 cmH2O or above has been associated with increased risk of adverse outcome, and a meta-analysis found it to be the strongest predictor of outcome among ventilator variables studied.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Measuring transpulmonary pressure to assess distending pressure requires only routine airway pressure monitoring, with no additional equipment.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "In older patients (over 65 years), a higher driving pressure threshold than in younger patients is likely to be appropriate.",
+          "correct": false
+        }
+      ],
+      "explanation": "A and B correctly state recognised thresholds. C is false - transpulmonary pressure measurement specifically requires an oesophageal catheter, unlike plateau or driving pressure. D is false and inverted - a LOWER driving pressure threshold (e.g. <12 cmH2O) is likely more appropriate in patients over 65, not higher.",
+      "section": "Tidal Volume",
+      "topic": "VILI indices plateau pressure driving pressure transpulmonary pressure oesophageal catheter elderly threshold trap",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv3_a14",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A meta-analysis examining ventilator variables in ARDS patients found that one particular variable was the strongest predictor of outcome, better capturing tidal inflation relative to aerated lung volume than tidal volume alone. Which variable was this, and how is it calculated?",
+      "options": [
+        "A: Peak inspiratory pressure, calculated as the maximum pressure reached during inspiration",
+        "B: Driving pressure, calculated as plateau pressure minus total PEEP, effectively adjusting tidal volume for respiratory system compliance",
+        "C: Minute ventilation, calculated as tidal volume multiplied by respiratory rate",
+        "D: FiO2, set to achieve the target SpO2",
+        "E: I:E ratio, calculated from inspiratory and expiratory time"
+      ],
+      "correct": 1,
+      "explanation": "Driving pressure (plateau pressure minus total PEEP) was identified as the strongest predictor of outcome among ventilator variables in a large meta-analysis, because it effectively normalises delivered tidal volume to respiratory system compliance - unlike a fixed tidal volume target, which does not account for how much aerated lung is actually available to receive that volume.",
+      "section": "Tidal Volume",
+      "topic": "driving pressure outcome predictor meta-analysis compliance tidal volume adjustment",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv3_a15",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with severe COPD and significant dynamic hyperinflation is ventilated with a reduced tidal volume, allowing more time for exhalation. Despite the lower tidal volume (and similar or even lower minute ventilation), PaCO2 improves. What best explains this?",
+      "options": [
+        "A: Reducing tidal volume always increases alveolar dead space, which should worsen PaCO2, so this observation is inconsistent with physiology",
+        "B: Reduced hyperinflation decreases the volume of over-distended alveoli that compress adjacent capillaries and behave as dead space, improving effective CO2 elimination",
+        "C: The improvement is solely due to a coincidental increase in cardiac output",
+        "D: Reducing tidal volume always increases FiO2 requirements, which indirectly improves PaCO2",
+        "E: This pattern can only be explained by a laboratory error in the blood gas measurement"
+      ],
+      "correct": 1,
+      "explanation": "In obstructive lung disease, over-distended (hyperinflated) alveoli can compress adjacent capillaries (a West zone 1-like phenomenon), behaving as dead space; reducing tidal volume and hyperinflation can shrink this dead space enough that CO2 elimination improves despite a lower or unchanged minute ventilation - illustrating that dead space fraction, not just minute ventilation, determines PaCO2.",
+      "section": "Tidal Volume",
+      "topic": "obstructive lung disease tidal volume reduction dead space hyperinflation West zone 1 PaCO2 improvement",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv3_a16",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "During volume control ventilation with constant flow, the pressure-time curve during inspiration shows an upward concavity (the pressure rises progressively more steeply as inspiration proceeds). What does this pattern suggest, and what stress index value corresponds to it?",
+      "options": [
+        "A: Progressive alveolar recruitment during the breath; stress index less than 1",
+        "B: Progressive alveolar over-distension during the breath; stress index greater than 1",
+        "C: Constant compliance throughout the breath; stress index exactly equal to 1, with no clinical concern",
+        "D: The pattern has no relationship to respiratory system compliance",
+        "E: Progressive alveolar recruitment during the breath; stress index greater than 1"
+      ],
+      "correct": 1,
+      "explanation": "An upward concavity in the pressure-time curve during constant-flow volume control ventilation indicates progressively decreasing compliance as the breath proceeds (over-distension), corresponding to a stress index greater than 1; a downward concavity instead suggests recruitment during the breath (stress index less than 1), while a straight line indicates constant compliance (stress index = 1).",
+      "section": "Tidal Volume",
+      "topic": "stress index pressure time curve concavity over-distension recruitment volume control",
+      "image": "images/img_b7c1c50cdb.png",
+      "section_url": null
+    },
+    {
+      "id": "mv3_a17",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "According to the mechanical power equation, which of the following, if increased in isolation, would be expected to raise the mechanical power delivered to the respiratory system, thereby increasing the risk of ventilator-induced lung injury?",
+      "options": [
+        "A: Respiratory rate",
+        "B: FiO2",
+        "C: Inspiratory oxygen humidification",
+        "D: The type of humidification device used (HME versus heated humidifier)",
+        "E: The patient's haemoglobin concentration"
+      ],
+      "correct": 0,
+      "explanation": "Respiratory rate is an explicit component of the mechanical power equation - since power is delivered with each breath, an excessively high respiratory rate increases the total mechanical power delivered per minute, a recognised contributor to VILI risk. FiO2, humidification method, and haemoglobin do not enter into the mechanical power equation.",
+      "section": "Tidal Volume",
+      "topic": "mechanical power equation respiratory rate VILI risk component",
+      "image": "images/img_a8632de413.png",
+      "section_url": null
+    },
+    {
+      "id": "mv3_a18",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "When setting respiratory rate and I:E ratio in controlled ventilation, the time required for passive expiration is proportional to the respiratory system's time constant (tau = resistance x compliance). Based on this, which patient requires the longest expiratory time to avoid dynamic hyperinflation?",
+      "options": [
+        "A: A patient with ARDS, who has low resistance and low compliance",
+        "B: A patient with obstructive lung disease, who has high resistance and normal compliance",
+        "C: A patient with normal lungs and normal chest wall mechanics",
+        "D: Time constant is unrelated to the required expiratory time",
+        "E: All patients require an identical expiratory time regardless of resistance or compliance"
+      ],
+      "correct": 1,
+      "explanation": "The time constant (tau = resistance x compliance) determines how long passive expiration takes; a patient with obstructive lung disease has high resistance (roughly normal compliance), giving a long time constant and requiring prolonged expiratory time (I:E 1:3-1:6), whereas ARDS patients with low resistance and low compliance have a short time constant and need comparatively less expiratory time.",
+      "section": "Respiratory rate, Inspiratory/expiratory ratio, inspiratory plateau",
+      "topic": "time constant resistance compliance expiratory time ARDS COPD dynamic hyperinflation I:E ratio",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv3_a19",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A ventilator is set to a respiratory rate of 25 breaths/min and an inspiratory time of 0.75 sec. What is the resulting expiratory time and I:E ratio?",
+      "options": [
+        "A: Expiratory time 1.65 sec; I:E ratio approximately 1:2.2",
+        "B: Expiratory time 0.75 sec; I:E ratio 1:1",
+        "C: Expiratory time 2.4 sec; I:E ratio 1:3.2",
+        "D: Expiratory time 1.25 sec; I:E ratio 1:1.7",
+        "E: Expiratory time 3.0 sec; I:E ratio 1:4"
+      ],
+      "correct": 0,
+      "explanation": "At a respiratory rate of 25/min, total breath time (Ttot) = 60/25 = 2.4 sec; with an inspiratory time of 0.75 sec, expiratory time = 2.4 - 0.75 = 1.65 sec, giving an I:E ratio of 0.75:1.65, which simplifies to approximately 1:2.2.",
+      "section": "Respiratory rate, Inspiratory/expiratory ratio, inspiratory plateau",
+      "topic": "respiratory rate inspiratory time expiratory time I:E ratio calculation Ttot",
+      "image": "images/img_3678bfd6ad.png",
+      "section_url": null
+    },
+    {
+      "id": "mv3_k07",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the addition of an inspiratory plateau time in controlled ventilation:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "An inspiratory plateau increases mean intrathoracic pressure and can act similarly to a higher level of PEEP, potentially improving oxygenation.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "An inspiratory plateau is generally desirable in patients with severe obstructive lung disease, since it maximises expiratory time.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "In pressure control mode, a similar effect to an inspiratory plateau can be achieved by selecting an inspiratory time that allows flow to reach zero before the end of inspiration.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "An inspiratory plateau has no effect on haemodynamics.",
+          "correct": false
+        }
+      ],
+      "explanation": "A and C are correct. B is false and inverted - an inspiratory plateau reduces the time available for expiration at a given respiratory rate, undesirable in obstructive disease, where maximising expiratory time is the priority. D is false - like elevated PEEP, an inspiratory plateau raises mean intrathoracic pressure and can affect haemodynamics.",
+      "section": "Respiratory rate, Inspiratory/expiratory ratio, inspiratory plateau",
+      "topic": "inspiratory plateau mean airway pressure PEEP-like effect obstructive disease expiratory time haemodynamics trap",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}
