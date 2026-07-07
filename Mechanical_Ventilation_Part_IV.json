@@ -1,0 +1,824 @@
+{
+  "module": "Mechanical Ventilation Part IV",
+  "sections": {
+    "Assisted modes of ventilation": "Assisted modes are indicated when a patient can trigger the ventilator at an acceptable rate, but respiratory muscle pressure alone is insufficient to reach target ventilation - the ventilator then contributes to the work of breathing. Modes: pressure support (constant pressure added regardless of effort - level of assist independent of effort, delivered volume depends on assist level/effort/compliance); volume support (preset volume delivered regardless of effort - level of assist/pressure decreases as effort increases, delivered volume constant); proportional modes (PAV, NAVA - pressure proportional to effort/diaphragmatic activity; both assist level AND delivered volume increase with effort, with NO minimum volume if effort ceases after triggering). Required settings in all assisted modes: inspiratory trigger, level of assist, pressurisation rate/rising time (PS), expiratory trigger, PEEP, FiO2 - note a fixed operator-set respiratory rate is a CONTROL-mode feature, not an assisted-mode one. Targets include adequate gas exchange, avoiding excessive stretch, adequate-but-not-excessive diaphragm contraction, and matching mechanical to neural breath timing - setting assisted modes is more complex than control modes since Pmus is not routinely measured. High distending pressures are presumed harmful in assisted ventilation too, even though VILI has mainly been studied in controlled ventilation.",
+    "Pressure Support": "Pressure support: Ptot = Pvent + Pmus (ventilator and muscles as pressure generators in series); resulting VT/flow depend on Pmus, Pvent, and respiratory system resistance/elastance, so waveforms vary breath to breath as Pmus varies. Triggering: flow (2-3 L/min) or pressure (1-1.5 cmH2O) thresholds, individualised. Triggering delay (~100ms instrumental baseline) increases with muscle weakness, high threshold, or intrinsic PEEP (part of Pmus first overcomes PEEPi as an elastic threshold load). Ineffective effort = Pmus present but no triggered breath (imbalance between effort and trigger requirement); cardiac-oscillation flow distortion (short <0.3s, near heart rate) can mimic this. Auto-triggering = ventilator triggers without patient effort (no Pdi rise) - caused by circuit leaks, water in circuit, cardiac oscillations + low threshold, or hiccups; managed by fixing circuit issues/increasing threshold, but hiccups need pharmacological treatment (large intrathoracic swings not manageable via sensitivity). Rising time: short = sharp inspiratory flow peak (good for high demand); long = rounded flow shape (reduces uncorrectable leaks). Cycling-off (expiratory trigger) = flow decrease to a set %/absolute threshold of peak flow; mechanical Ti depends on this % PLUS the actual peak flow (determined by PS level, effort, mechanics) - so the 'right' setting can't be predicted in advance. Premature cycling-off: abrupt expiratory flow distortion toward zero (continued inspiratory muscle contraction after valve opens); caused by strong/prolonged effort, short time constant, low PS, high flow threshold; can cause double-triggering (one effort triggers twice) - less dangerous in PS (second breath starts from elevated volume, low driving pressure) than in assist-volume (full preset volume added regardless, high distending pressure risk, self-inflicted lung injury concern). Delayed cycling-off: time gap between neural end-inspiration (Pes rise) and mechanical end (flow=0); caused by excessive support/low drive, long time constant, low flow threshold; managed by decreasing support and raising flow threshold. Distinguishing ineffective effort (regular timing) from premature cycling-off (irregular, near end of breath) uses timing pattern. Curved inspiratory flow = continuing effort; sharp-peak-then-exponential-decay = effort ended early (passive-like). Under-assist: compensatory RR/Pmus increase, then distress/hypercapnia if insufficient. Over-assist: muscle relaxation after triggering -> diaphragmatic disuse atrophy risk; in obstructive disease, high VT from over-assist -> dynamic hyperinflation/ineffective efforts; can promote apnoeas/periodic breathing if PaCO2 falls below the apnoeic threshold.",
+    "Proportional Assist Ventilation (PAV+)": "PAV+: Paw = (flow x Rrs + volume x Ers) x %assist (gain factor, up to 95%); ventilator provides that % of total mechanical work, Pmus provides the rest (0% = fully unassisted; 50% = work split evenly). Automated mechanics measurement: a brief (300ms) end-inspiratory pause every 4-7 breaths, timed to when Pdi=0 (no effort) and flow=0 (no resistive component) - occlusion pressure gives Ers=(Pocclusion-PEEP)/VT and Crs=1/Ers; if intrinsic PEEP is present but not accounted for, calculated Ers OVERESTIMATES true elastance (Crs underestimated). Resistance (RTOT) is derived from the following expiration's flow-pressure relationship (assumes similar inspiratory/expiratory resistance - inaccurate if these differ greatly, e.g. obstructive disease); RTOT = Rtube (from in-vitro constants) + RrsPAV. Advantages: no minimum VT if effort ceases; delivered VT proportional to Pmus; preserves breath-to-breath variability; at high assist, protective reflexes (Hering-Breuer) and diaphragm length-tension properties limit further VT (intrinsic safety); continuous mechanics/driving-pressure monitoring; meta-analyses suggest reduced MV duration/weaning failure vs PSV, though not eliminating over-assist risk entirely. Problematic/contraindicated scenarios (Table 3): particularly beneficial - considerable asynchrony, high/variable demand, concern for over-distension, difficult weaning, periodic breathing; might be problematic - dynamic hyperinflation, severe neuromuscular disease; contraindicated - deep sedation/central apnoeas/CNS deficits, muscle paralysis, marked haemodynamic compromise, bronchopleural fistula; also problematic with large inspiratory-expiratory resistance difference, depressed respiratory drive, and circuit leaks (misinterpreted as continuous effort). Runaway: ventilator keeps delivering volume after effort stops, occurring when %assist exceeds the true Ers+Rrs sum at a point in the breath - rare with PAV+, mainly near 90% assist. Initial settings: IBW/tube size/max Paw (40cmH2O) set first; start 70-80% assist; PEEP titrated by compliance (increase while compliance improves, stop once it plateaus); driving pressure (VT/Crs) monitored; assist increased in 5% steps to 90% if distress persists (no runaway); severe cases may need sedation/controlled ventilation instead.",
+    "Neurally Adjusted Ventilatory Assist (NAVA)": "NAVA: Paw = NAVA level x EAdi (diaphragm electrical activity, via a nasogastric catheter with electrodes). Triggers when EAdi rises above threshold (EAdi triggering); cycles off when EAdi falls by a set % from its maximum. Triggering follows 'first come first served' - a backup pneumatic (flow/pressure) criterion is also set, whichever criterion is met first triggers the breath; if EAdi signal fails, the ventilator automatically reverts to physician-set pressure support. Indications: can replace conventional assisted modes in most critically ill patients. Contraindications: anything precluding nasogastric catheter placement; suppressed respiratory drive (brain injury, drugs); conditions affecting phrenic nerve/diaphragm function (including drugs), since these directly compromise the EAdi signal. Advantages: like PAV+, follows effort in timing and magnitude, starting from null (no effort = no VT); reduces over/under-assistance risk; Carteaux et al. found most patients self-regulate VT within a protective 6-8 mL/kg PBW range despite rising NAVA levels; improves synchrony vs PSV; large RCT found no superiority in weaning duration/ICU outcome vs PSV, though meta-analyses suggest possible weaning-success/mortality benefit, especially with weaning difficulty. Limitations: needs a dedicated catheter, available on only one ventilator; poor EAdi signal can cause high flow-triggered-cycle incidence and cross-over to PSV; biphasic EAdi shape can promote double triggering. Level titration: default EAdi trigger threshold 0.5 microV above minimum; 70% EAdi decrease from max cycles off; NAVA level 0-15 cmH2O/microV, adjusted in 0.1-0.2 increments; methods include 'NAVA preview' (matches PSV peak pressure), the Brander two-phase-response inflection point (further increases give little added Paw/VT due to feedback), or titrating to a 60% reduction in EAdi recorded during an unassisted spontaneous breathing trial.",
+    "Modes of ventilation with combinations of triggering and pressurisation variables": "Over 50 commercial 'modes' are combinations of the same basic trigger/cycle/control-variable building blocks. In modern ventilators, all 'control' modes are actually assist-control: a trigger threshold is set, and a patient trigger delivers a breath identical to the set mandatory breath. SIMV resembles volume assist-control, but spontaneous breaths between mandatory breaths are supported (or not) by settings chosen separately by the user - a key distinction from assist-control. Bi-level modes switch between a low (P-low) and high (P-high) pressure at set intervals, allowing spontaneous breathing at any phase; spontaneous breaths can be supported or not. APRV is similar to Bi-level but uses an inverse I:E ratio. Modes like MMV target a set minute ventilation, with the ventilator calculating whether mandatory breaths are needed to reach it, using any combination of pressure/volume control. Some pressure modes set a minimum 'safe' VT, with the ventilator adjusting delivered pressure to meet it if not reached. Emerging closed-loop/AI-driven ventilator software continuously adjusts settings (e.g. weaning pressure support) - it remains unclear whether individual patient courses are predictable enough for this to reliably replace physician judgement."
+  },
+  "questions": [
+    {
+      "id": "mv4_a01",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient can trigger the ventilator at a reasonable rate, but their arterial blood gas shows worsening hypercapnia despite this spontaneous effort. What does this indicate about the appropriate mode of ventilation?",
+      "options": [
+        "A: The patient should be switched to a control mode, since assisted modes require completely normal respiratory muscle function",
+        "B: An assisted mode is appropriate: the patient can trigger adequately, but their respiratory muscle pressure alone is insufficient to achieve target ventilation, so the ventilator needs to contribute to the work of breathing",
+        "C: No ventilatory support is needed, since the patient is triggering the ventilator",
+        "D: The patient requires immediate paralysis and controlled ventilation regardless of triggering ability",
+        "E: This pattern indicates ventilator malfunction requiring circuit replacement"
+      ],
+      "correct": 1,
+      "explanation": "Assisted modes are indicated precisely when a patient can trigger the ventilator at an acceptable rate but their respiratory muscles cannot generate enough pressure alone to achieve target ventilation - the ventilator then contributes to the work of breathing while the patient's own effort continues to drive breath timing.",
+      "section": "Assisted modes of ventilation",
+      "topic": "assisted mode indication trigger adequate muscle pressure insufficient work of breathing",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv4_a02",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Based on the relationship between patient effort and delivered tidal volume shown for pressure support, assist-volume, and proportional modes, which mode has no minimum tidal volume - meaning that if the patient's effort merely triggers the ventilator without further muscle contraction, essentially no volume is delivered?",
+      "options": [
+        "A: Assist-volume, because tidal volume is fixed regardless of effort",
+        "B: Pressure support, because the pressure delivered is independent of effort",
+        "C: Proportional modes (PAV/NAVA), because delivered pressure and volume are proportional to effort, starting from zero",
+        "D: All three modes deliver an identical minimum tidal volume regardless of effort",
+        "E: Assist-volume, because it always delivers the largest tidal volume"
+      ],
+      "correct": 2,
+      "explanation": "In proportional modes, delivered pressure (and thus volume) is proportional to patient effort starting from zero, so a trigger with no further muscle contraction yields essentially no volume; assist-volume delivers a fixed preset volume regardless of effort (always a minimum volume), and pressure support adds a fixed pressure to whatever effort is present, also with a minimum volume once triggered.",
+      "section": "Assisted modes of ventilation",
+      "topic": "effort tidal volume relationship pressure support assist volume proportional minimum VT",
+      "image": "images/img_135597bc32.jpg",
+      "section_url": null
+    },
+    {
+      "id": "mv4_k01",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding pressure support, volume support, and proportional modes of assisted ventilation:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "In pressure support, the level of assist provided by the ventilator is constant and does not vary with the patient's effort.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "In volume support, delivered tidal volume increases as the patient's effort increases.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "In proportional modes such as PAV and NAVA, both the level of assist and the delivered tidal volume increase as patient effort increases.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "In pressure support, the delivered tidal volume depends only on the preset pressure level and is completely independent of the patient's own respiratory system mechanics.",
+          "correct": false
+        }
+      ],
+      "explanation": "A and C correctly describe these modes. B is false - in volume support, delivered volume is CONSTANT regardless of effort; it is the level of assist (pressure) that decreases as effort increases. D is false - delivered VT in pressure support depends on Pmus, Pvent AND respiratory system mechanics together, not on preset pressure alone.",
+      "section": "Assisted modes of ventilation",
+      "topic": "pressure support volume support proportional modes comparison assist level tidal volume trap",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv4_a03",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "In pressure support ventilation, the equation of motion states that Ptot = Pvent + Pmus. What does this indicate about the factors determining the resulting tidal volume and inspiratory flow profile?",
+      "options": [
+        "A: Tidal volume depends only on the preset pressure support level, regardless of the patient's own effort or respiratory mechanics",
+        "B: Tidal volume and flow depend on the patient's muscle pressure (Pmus), the ventilator pressure (Pvent), and the mechanical properties (resistance and elastance) of the respiratory system",
+        "C: Tidal volume depends only on the patient's effort, with no contribution from the ventilator",
+        "D: Flow and volume are entirely predetermined and identical for every breath, regardless of patient effort",
+        "E: The equation of motion does not apply during pressure support, only during controlled modes"
+      ],
+      "correct": 1,
+      "explanation": "Because the ventilator (Pvent) and the patient's respiratory muscles (Pmus) act as pressure generators in series, the resulting tidal volume and inspiratory flow-time profile depend on all three factors together - Pmus, Pvent, and respiratory system resistance/elastance - which is why waveforms can vary slightly from breath to breath as Pmus varies.",
+      "section": "Pressure Support",
+      "topic": "pressure support equation of motion Ptot Pvent Pmus determinants tidal volume",
+      "image": "images/img_012e579c5a.jpg",
+      "section_url": null
+    },
+    {
+      "id": "mv4_a04",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A ventilated patient shows a consistent time lag between the onset of a negative oesophageal pressure swing (indicating the start of inspiratory muscle effort) and the onset of ventilator-delivered pressure. A small delay (~100 msec) is expected instrumentally. What factors would be expected to increase this triggering delay beyond the baseline instrumental value?",
+      "options": [
+        "A: A very low triggering threshold combined with strong inspiratory effort",
+        "B: Inspiratory muscle weakness, a high triggering threshold, or the presence of intrinsic PEEP",
+        "C: A shorter respiratory system time constant",
+        "D: The use of flow triggering instead of pressure triggering, regardless of other factors",
+        "E: A decrease in dynamic hyperinflation"
+      ],
+      "correct": 1,
+      "explanation": "Triggering delay may increase due to inspiratory muscle weakness (less Pmus generated), a high triggering threshold (more effort needed to reach it), or intrinsic PEEP (part of Pmus is first dissipated overcoming PEEPi before the ventilator circuit signal changes) - options C and E describe changes that would tend to reduce, not increase, delay.",
+      "section": "Pressure Support",
+      "topic": "triggering delay causes muscle weakness threshold intrinsic PEEP instrumental delay",
+      "image": "images/img_d3c25337d4.jpg",
+      "section_url": null
+    },
+    {
+      "id": "mv4_a05",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with severe COPD and dynamic hyperinflation makes a visible inspiratory effort (negative oesophageal pressure swing) that is not followed by a ventilator-delivered breath. What is the most likely explanation?",
+      "options": [
+        "A: The patient's effort was too strong and exceeded the ventilator's maximum pressure limit",
+        "B: The patient's inspiratory effort was insufficient to first counterbalance intrinsic PEEP (an elastic threshold load) before the pneumatic trigger signal could change, resulting in an ineffective effort",
+        "C: This pattern always indicates a ventilator circuit leak",
+        "D: This is a normal, expected pattern with no clinical significance in obstructive lung disease",
+        "E: The triggering threshold has been set too low"
+      ],
+      "correct": 1,
+      "explanation": "In dynamic hyperinflation, inspiratory muscles begin contracting at a volume where alveolar pressure is already positive (intrinsic PEEP); part of Pmus is dissipated overcoming this elastic threshold load before circuit pressure/flow can change enough to trigger the ventilator - if effort is insufficient to fully counterbalance PEEPi, the result is an ineffective effort, not a triggered breath.",
+      "section": "Pressure Support",
+      "topic": "ineffective effort intrinsic PEEP dynamic hyperinflation elastic threshold load COPD",
+      "image": "images/img_d3c25337d4.jpg",
+      "section_url": null
+    },
+    {
+      "id": "mv4_k02",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding forms of patient-ventilator dyssynchrony occurring during the triggering phase:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A high triggering threshold and the presence of intrinsic PEEP are both recognised causes of triggering delay and ineffective efforts.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Auto-triggering is characterised by ventilator triggering that occurs in the absence of any patient inspiratory effort.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Circuit leaks and the presence of water in the circuit are recognised causes of auto-triggering.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Decreasing the triggering threshold sensitivity (making it harder to trigger) is a recommended strategy for reducing both ineffective efforts and auto-triggering simultaneously.",
+          "correct": false
+        }
+      ],
+      "explanation": "A, B and C correctly describe recognised causes and features. D is false - ineffective efforts and auto-triggering require opposite threshold adjustments (a lower/easier threshold helps ineffective efforts but worsens auto-triggering, and vice versa), so a single change cannot address both simultaneously.",
+      "section": "Pressure Support",
+      "topic": "triggering dyssynchrony table causes ineffective effort auto-triggering threshold trap",
+      "image": "images/img_eb2754561b.png",
+      "section_url": null
+    },
+    {
+      "id": "mv4_a06",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A ventilated patient shows a mechanical breath preceded by a decrease in airway pressure but with no corresponding increase in diaphragmatic pressure (Pdi), and the shape of the inspiratory flow-time curve differs from the patient's other, effort-triggered breaths. Persistent hiccups are also noted. What is this phenomenon, and how should it best be managed?",
+      "options": [
+        "A: An ineffective effort; management is to decrease the triggering threshold",
+        "B: Auto-triggering, likely related to the hiccups; since hiccups cause large intrathoracic pressure swings not manageable by adjusting triggering sensitivity, pharmacological treatment of the hiccups is needed",
+        "C: Normal patient-triggered breathing; no intervention is required",
+        "D: Double triggering; management is to decrease the pressure support level",
+        "E: Delayed cycling off; management is to increase the cycling off flow threshold"
+      ],
+      "correct": 1,
+      "explanation": "The absence of a Pdi rise before the breath confirms no genuine inspiratory effort occurred - this is auto-triggering. Hiccups are a recognised cause, and because they generate substantial intrathoracic pressure swings, adjusting triggering sensitivity is not effective; pharmacological management of the hiccups themselves is required instead.",
+      "section": "Pressure Support",
+      "topic": "auto-triggering hiccup Pdi absence management pharmacological triggering sensitivity",
+      "image": "images/img_a3bb58caa4.png",
+      "section_url": null
+    },
+    {
+      "id": "mv4_a07",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with high ventilatory demand requires a rapid initial rise in inspiratory flow at the start of each breath, while a different patient with an uncorrectable circuit leak would benefit from minimising that leak during inspiration. How should the rising time (pressurisation rate) be set for each patient respectively?",
+      "options": [
+        "A: Short rising time for both patients",
+        "B: Long rising time for both patients",
+        "C: Short rising time for the high-demand patient (rapid pressure rise, sharp inspiratory flow peak); longer rising time for the leak patient (slower pressure rise, lower peak inspiratory flow, reducing the leak)",
+        "D: Rising time has no effect on inspiratory flow shape or leak magnitude",
+        "E: Long rising time for the high-demand patient; short rising time for the leak patient"
+      ],
+      "correct": 2,
+      "explanation": "A short rising time produces a near-instantaneous rise to the set pressure and a sharp inspiratory flow peak, matching high ventilatory demand; a longer rising time produces a more gradual pressure rise and lower peak flow, which helps reduce an uncorrectable leak - the opposite pairing (E) would worsen both problems.",
+      "section": "Pressure Support",
+      "topic": "rising time pressurisation rate high demand leak inspiratory flow shape",
+      "image": "images/img_6c33b23acc.jpg",
+      "section_url": null
+    },
+    {
+      "id": "mv4_a08",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "In pressure support ventilation, the duration of mechanical inspiratory time is determined by the set cycling-off criterion (as a percentage of peak inspiratory flow) together with the factors that determine the actual value of peak flow. Which of the following correctly lists the factors determining peak flow (and thus, together with the cycling-off %, the mechanical inspiratory time)?",
+      "options": [
+        "A: Only the set level of pressure support",
+        "B: The set level of pressure support, the patient's inspiratory effort, and the respiratory system's mechanical properties",
+        "C: Only the patient's respiratory rate",
+        "D: Only the respiratory system's resistance",
+        "E: The set PEEP level alone"
+      ],
+      "correct": 1,
+      "explanation": "Peak inspiratory flow - and therefore the actual mechanical inspiratory time resulting from a given cycling-off percentage - depends on the set pressure support level, the patient's own effort, and respiratory system mechanics together; this is why the clinician cannot reliably predict in advance the exact cycling-off setting that will match a given patient's neural inspiratory time.",
+      "section": "Pressure Support",
+      "topic": "cycling off pressure support peak flow determinants mechanical inspiratory time",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv4_a09",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "In a patient on pressure support ventilation, the expiratory flow trace shows an abrupt change toward zero shortly after the exhalation valve opens, rather than the expected smooth exponential decline. What does this most likely indicate?",
+      "options": [
+        "A: The inspiratory muscles have fully relaxed before mechanical inspiration ended",
+        "B: The inspiratory muscles continue to contract after mechanical inspiration has ended, opposing lung emptying and distorting the expiratory flow trace",
+        "C: The patient has developed a large air leak in the circuit",
+        "D: This pattern always indicates auto-triggering",
+        "E: The patient's expiratory muscles have become paralysed"
+      ],
+      "correct": 1,
+      "explanation": "Continued inspiratory muscle contraction after the ventilator has cycled to exhalation opposes lung emptying, producing an abrupt distortion of the expiratory flow trace toward zero shortly after the valve opens - the classic sign of premature cycling-off, where the mechanical breath ended before the patient's neural inspiration finished.",
+      "section": "Pressure Support",
+      "topic": "premature cycling off expiratory flow distortion continued inspiratory contraction recognition",
+      "image": "images/img_e539ae51a2.jpg",
+      "section_url": null
+    },
+    {
+      "id": "mv4_a10",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient's single, strong, prolonged inspiratory effort triggers the ventilator twice in pressure support mode ('double triggering'). Why is this generally considered less dangerous in pressure support than the same phenomenon would be in assist-volume control?",
+      "options": [
+        "A: Double triggering cannot occur in assist-volume control",
+        "B: In pressure support, the second breath starts from a lung volume already well above passive FRC, so the driving pressure for further inspiratory flow is relatively low; in assist-volume control, the ventilator delivers the full preset volume again regardless of starting volume, adding to the volume already present and risking high distending pressures",
+        "C: Pressure support always has a lower set pressure than assist-volume control, making it inherently safer",
+        "D: Double triggering in pressure support never results in any additional volume delivery",
+        "E: Assist-volume control automatically detects and cancels a second trigger within the same effort"
+      ],
+      "correct": 1,
+      "explanation": "In pressure support, the second triggered breath begins from a lung volume already elevated above passive FRC, so the pressure gradient driving further inspiratory flow is relatively small; in assist-volume control, the ventilator delivers its full preset tidal volume regardless of starting lung volume, adding to the volume already present and potentially producing high, injurious distending pressures.",
+      "section": "Pressure Support",
+      "topic": "double triggering pressure support assist volume control severity driving pressure distending pressure",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv4_k03",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding forms of patient-ventilator dyssynchrony occurring during the cycling-off phase:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A long respiratory system time constant, high assist level, and dynamic hyperinflation are recognised causes of delayed opening of the exhalation valve.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "A short respiratory system time constant and a relatively high cycling-off flow threshold are recognised causes of premature termination of mechanical inspiration.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Increasing the pressure support level and decreasing the cycling-off flow threshold are both reasonable strategies to help resolve premature cycling-off.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Delayed cycling off is typically managed by increasing the level of pressure support.",
+          "correct": false
+        }
+      ],
+      "explanation": "A, B and C correctly describe recognised causes and interventions. D is false and reversed - delayed cycling off (excessive support, low respiratory drive) is managed by DECREASING support and raising the cycling-off flow threshold, not by increasing support, which would worsen the mismatch.",
+      "section": "Pressure Support",
+      "topic": "cycling off dyssynchrony table delayed premature time constant intervention trap",
+      "image": "images/img_12e35d2217.png",
+      "section_url": null
+    },
+    {
+      "id": "mv4_a11",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Two patients on pressure support both show a similar-looking distortion of the expiratory flow trace. In one, the distortion appears at a stable, regularly repeating time interval; in the other, it appears close to the end of the mechanical breath with irregular timing. How should these be distinguished?",
+      "options": [
+        "A: The regularly-timed distortion suggests ineffective efforts; the irregularly-timed distortion appearing near the end of the mechanical breath suggests premature cycling-off",
+        "B: Both patterns always represent the same phenomenon and cannot be distinguished",
+        "C: The irregularly-timed distortion always represents auto-triggering",
+        "D: The regularly-timed distortion indicates a circuit leak, unrelated to patient effort",
+        "E: Timing has no diagnostic value in distinguishing these phenomena"
+      ],
+      "correct": 0,
+      "explanation": "Careful inspection of timing helps distinguish these superficially similar patterns - a distortion recurring at a stable interval is more suggestive of ineffective efforts, while one appearing close to the end of the mechanical breath with irregular timing is more suggestive of premature cycling-off, reflecting variable patient effort relative to a fixed cycling-off setting.",
+      "section": "Pressure Support",
+      "topic": "ineffective effort premature cycling off distinction timing regularity expiratory flow distortion",
+      "image": "images/img_01c518bb35.jpg",
+      "section_url": null
+    },
+    {
+      "id": "mv4_a12",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "In a patient on pressure support, oesophageal pressure shows a rapid rise (indicating the end of neural inspiration) well before inspiratory flow terminates on the ventilator display. What does this indicate, and what are the recognised contributing factors?",
+      "options": [
+        "A: Premature cycling-off; caused by a short time constant and high cycling-off threshold",
+        "B: Delayed opening of the exhalation valve; caused by excessive support (low respiratory drive), a long respiratory system time constant, and a cycling-off criterion set at a relatively low percentage of peak flow",
+        "C: Auto-triggering; caused by circuit leaks",
+        "D: Normal synchrony; no intervention required",
+        "E: Double triggering; caused by strong inspiratory efforts"
+      ],
+      "correct": 1,
+      "explanation": "A time delay between the end of neural inspiration (rapid rise in oesophageal pressure as inspiratory muscles relax) and the end of mechanical inspiration (flow reaching zero) indicates delayed cycling-off - typically caused by excessive support producing low respiratory drive, a long time constant, or too low a cycling-off flow threshold percentage.",
+      "section": "Pressure Support",
+      "topic": "delayed cycling off neural mechanical inspiration mismatch excessive support time constant",
+      "image": "images/img_824fb6c27f.jpg",
+      "section_url": null
+    },
+    {
+      "id": "mv4_a13",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "On the pressure support waveform display, one patient's inspiratory flow trace shows a curved shape lasting almost the entire mechanical inspiratory time, while another's shows a sharp peak followed by an exponential decline well before mechanical inspiration ends. What does this difference most likely reflect?",
+      "options": [
+        "A: The first patient has a leak in the circuit; the second does not",
+        "B: The first patient continues generating strong inspiratory effort throughout most of the mechanical breath; the second patient's effort ends early, after which the flow decays exponentially like a passively inflated breath",
+        "C: The two patterns reflect identical underlying physiology and effort",
+        "D: The exponential decline pattern always indicates a ventilator malfunction",
+        "E: The curved pattern indicates the patient has no respiratory drive"
+      ],
+      "correct": 1,
+      "explanation": "A curved inspiratory flow shape suggests the patient continues actively generating inspiratory muscle pressure through most of the mechanical breath, while a sharp peak followed by exponential decline - similar to a passively inflated pressure-control breath - indicates the patient's effort ended early, with the remainder of the breath behaving passively.",
+      "section": "Pressure Support",
+      "topic": "inspiratory flow shape curved exponential continuing terminated effort recognition",
+      "image": "images/img_bfeb5b9aed.jpg",
+      "section_url": null
+    },
+    {
+      "id": "mv4_k04",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the consequences of under- and over-assist during pressure support ventilation:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Under-assist typically leads to compensatory increases in respiratory rate and/or muscle pressure, and if insufficient, signs of respiratory distress or hypercapnia.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Over-assist can lead to complete respiratory muscle relaxation after triggering, which has been linked to diaphragmatic disuse atrophy.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "In patients with obstructive lung disease, over-assist resulting in high tidal volumes can promote dynamic hyperinflation and ineffective efforts.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Over-assist reducing PaCO2 below the patient's apnoeic threshold has no bearing on the development of apnoeas or periodic breathing.",
+          "correct": false
+        }
+      ],
+      "explanation": "A, B and C correctly describe recognised consequences of under- and over-assist. D is false and reversed - over-assist driving PaCO2 below the apnoeic threshold is a recognised mechanism promoting apnoeas and periodic breathing, not something unrelated to it.",
+      "section": "Pressure Support",
+      "topic": "under-assist over-assist consequences diaphragm atrophy dynamic hyperinflation apnoea periodic breathing trap",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv4_a14",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "All of the following are ventilator settings required for proper function in assisted modes EXCEPT:",
+      "options": [
+        "A: Inspiratory trigger",
+        "B: Level of assist",
+        "C: Expiratory trigger",
+        "D: A fixed, unchangeable respiratory rate set entirely by the operator",
+        "E: PEEP and FiO2"
+      ],
+      "correct": 3,
+      "explanation": "A fixed, entirely operator-set respiratory rate is a feature of CONTROL modes, not assisted modes - in assisted modes, breath timing is patient-triggered. Inspiratory trigger, level of assist, expiratory trigger, and PEEP/FiO2 are the settings listed as necessary for assisted-mode function.",
+      "section": "Pressure Support",
+      "topic": "assisted mode settings negative stem inspiratory trigger expiratory trigger fixed RR EXCEPT",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv4_a15",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "In PAV+, delivered pressure at any instant equals (instantaneous flow x resistance + instantaneous volume x elastance) multiplied by a preset gain factor (% assist). If % assist is set to 60%, what does this mean for the distribution of inspiratory work between patient and ventilator?",
+      "options": [
+        "A: The patient performs 100% of the inspiratory work; the ventilator provides no assistance",
+        "B: The ventilator performs 60% of the total mechanical work needed to overcome resistance and elastance, while the patient's respiratory muscles (Pmus) perform the remaining 40%",
+        "C: The ventilator always delivers a fixed pressure regardless of the % assist setting",
+        "D: The % assist setting only affects PEEP, not inspiratory pressure delivery",
+        "E: At 60% assist, the ventilator delivers exactly 60% of the patient's set tidal volume regardless of effort"
+      ],
+      "correct": 1,
+      "explanation": "The % assist (offloading) in PAV+ determines what fraction of the total pressure needed to overcome respiratory system resistance and elastance is provided by the ventilator, with the remainder generated by Pmus - at 60% assist, the ventilator contributes 60% of that mechanical work and the patient's muscles contribute the other 40%, unlike a fixed-percentage volume delivery (E).",
+      "section": "Proportional Assist Ventilation (PAV+)",
+      "topic": "PAV+ percent assist offloading gain factor work distribution patient ventilator",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv4_a16",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "PAV+ periodically performs a brief end-inspiratory pause manoeuvre, timed to when diaphragmatic pressure (Pdi) has declined to zero, to measure respiratory system elastance from the occlusion pressure. In a patient with significant dynamic hyperinflation and intrinsic PEEP, how will the calculated elastance (Ers) be affected if intrinsic PEEP is not accounted for?",
+      "options": [
+        "A: The calculated Ers will be unaffected by intrinsic PEEP",
+        "B: The calculated Ers will overestimate true respiratory system elastance (and calculated compliance will underestimate true compliance)",
+        "C: The calculated Ers will underestimate true respiratory system elastance",
+        "D: Intrinsic PEEP makes the occlusion manoeuvre impossible to perform",
+        "E: The calculated Ers will always equal exactly zero in the presence of intrinsic PEEP"
+      ],
+      "correct": 1,
+      "explanation": "The occlusion-based calculation of Ers uses occlusion pressure relative to set PEEP; if intrinsic PEEP is present but not accounted for, true elastic recoil at end-inspiration is higher than the calculation assumes relative to set PEEP alone, causing calculated Ers to overestimate true elastance (and calculated compliance to underestimate true compliance).",
+      "section": "Proportional Assist Ventilation (PAV+)",
+      "topic": "PAV+ occlusion manoeuvre elastance compliance calculation intrinsic PEEP overestimate",
+      "image": "images/img_55cb9abe4b.png",
+      "section_url": null
+    },
+    {
+      "id": "mv4_k05",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the measurement of respiratory system resistance in PAV+:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Resistance is measured during the expiration that follows the end-inspiratory pause manoeuvre, using points on the expiratory flow-time curve.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The total measured resistance (RTOT) includes both the resistance of the endotracheal tube and the resistance of the respiratory system.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The resistance of the endotracheal tube (Rtube) is calculated using measured expiratory flow together with constants derived from in vitro testing of tube length and diameter.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "PAV+'s automated resistance measurement is equally accurate regardless of how different inspiratory and expiratory resistance are in a given patient.",
+          "correct": false
+        }
+      ],
+      "explanation": "A, B and C correctly describe the PAV+ resistance measurement technique. D is false - the technique assumes a small difference between inspiratory and expiratory resistance, so it becomes inaccurate when this difference is large, as in obstructive lung disease.",
+      "section": "Proportional Assist Ventilation (PAV+)",
+      "topic": "PAV+ resistance measurement RTOT Rtube expiratory flow inspiratory expiratory resistance difference trap",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv4_a17",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "At high levels of assist in PAV+, delivered tidal volume can paradoxically be limited despite the high proportional gain. What is the most likely physiological mechanism protecting the patient in this scenario?",
+      "options": [
+        "A: The ventilator's alarm system always overrides and terminates the breath",
+        "B: Activation of lung-protective innate reflexes (such as the Hering-Breuer reflex) and unfavourable diaphragmatic length-tension properties at high lung volumes reduce further tidal volume delivery",
+        "C: PAV+ automatically switches to a control mode at high assist levels",
+        "D: High assist levels always cause complete cessation of patient effort",
+        "E: This protective mechanism is specific to volume support, not PAV+"
+      ],
+      "correct": 1,
+      "explanation": "At high assistance, activation of protective reflexes such as the Hering-Breuer reflex, together with unfavourable diaphragmatic length-tension properties at higher lung volumes, tend to reduce further tidal volume delivery - an intrinsic safety mechanism protecting the lungs and diaphragm from over-assistance, distinct from a ventilator alarm or mode switch.",
+      "section": "Proportional Assist Ventilation (PAV+)",
+      "topic": "PAV+ Hering-Breuer reflex high assist protective mechanism diaphragm length tension",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv4_k06",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding conditions affecting the use of PAV+, based on the table shown:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Considerable patient-ventilator asynchrony is a condition where PAV+ is particularly beneficial.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Deep sedation and central apnoeas are contraindications to PAV+.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Severe neuromuscular disease is a condition where PAV+ is generally particularly beneficial and free of any special concern.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "A large bronchopleural fistula is a contraindication to PAV+.",
+          "correct": true
+        }
+      ],
+      "explanation": "A, B and D correctly describe the table. C is false - severe neuromuscular disease is listed as a condition where PAV+ 'might be problematic' (impaired respiratory muscle output affects the mode's assumptions), not as a condition of particular benefit.",
+      "section": "Proportional Assist Ventilation (PAV+)",
+      "topic": "PAV+ applicability table beneficial problematic contraindicated neuromuscular disease bronchopleural fistula trap",
+      "image": "images/img_0ccb392e24.png",
+      "section_url": null
+    },
+    {
+      "id": "mv4_a18",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "In PAV+, 'runaway' occurs when the ventilator continues to deliver volume despite the patient having already terminated their inspiratory effort. Under what circumstance does this occur, and how commonly?",
+      "options": [
+        "A: It occurs whenever % assist exceeds 50%, and is very common in clinical practice",
+        "B: It occurs when % assist is set greater than the actual sum of the patient's elastance and resistance at a given point in the breath; with PAV+, this is rare and occurs mainly only when % assist approaches 90%",
+        "C: It occurs only in patients with completely normal respiratory mechanics",
+        "D: It is unrelated to the % assist setting and occurs randomly",
+        "E: It occurs whenever the patient triggers the ventilator more than once per minute"
+      ],
+      "correct": 1,
+      "explanation": "Runaway occurs when the set % assist exceeds the actual measured sum of elastance and resistance at a point during inflation, causing the ventilator to keep delivering volume after the patient's effort has stopped; with PAV+'s built-in constraints, this is rare and occurs mainly only as % assist approaches its upper limit (around 90%).",
+      "section": "Proportional Assist Ventilation (PAV+)",
+      "topic": "PAV+ runaway mechanism percent assist rare high assist level",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv4_a19",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "When initiating PAV+ in a patient, what is a reasonable starting % assist level, and how can PEEP subsequently be titrated?",
+      "options": [
+        "A: Start at 10-20% assist; PEEP should be fixed at 5 cmH2O regardless of the patient's response",
+        "B: Start at 70-80% assist; PEEP can be titrated according to changes in respiratory system compliance, increasing PEEP as long as compliance improves and stopping escalation once compliance plateaus",
+        "C: Start at 100% assist for all patients to maximise comfort",
+        "D: Start at 70-80% assist; PEEP should never be adjusted once PAV+ is initiated",
+        "E: The starting % assist is irrelevant, as PAV+ automatically self-titrates from zero"
+      ],
+      "correct": 1,
+      "explanation": "A reasonable starting point is 70-80% assist, sufficiently high to support the patient without excessive risk of over-assist or runaway; PAV+'s continuous compliance monitoring allows PEEP titration by increasing PEEP as long as compliance continues to improve and stopping once further compliance change ceases.",
+      "section": "Proportional Assist Ventilation (PAV+)",
+      "topic": "PAV+ initial settings 70-80 percent assist PEEP titration compliance",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv4_a20",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "All of the following are true regarding advantages of PAV+ EXCEPT:",
+      "options": [
+        "A: No minimum tidal volume is delivered if the patient's respiratory muscle activity ceases after triggering",
+        "B: PAV+ preserves normal breath-to-breath variability in breathing pattern",
+        "C: PAV+ eliminates the possibility of over-assistance or runaway entirely",
+        "D: PAV+ provides continuous, automated measurement of respiratory system mechanics and driving pressure",
+        "E: PAV+ has been shown in meta-analyses to be associated with reduced duration of mechanical ventilation and weaning failure compared to pressure support"
+      ],
+      "correct": 2,
+      "explanation": "PAV+ reduces but does not eliminate the risk of over-assistance; runaway can still occur, particularly as % assist approaches 90%. Options A, B, D and E are all recognised, correctly-described advantages of PAV+.",
+      "section": "Proportional Assist Ventilation (PAV+)",
+      "topic": "PAV+ advantages negative stem runaway over-assist elimination EXCEPT",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv4_a21",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "In NAVA, delivered pressure equals the NAVA level multiplied by the electrical activity of the diaphragm (EAdi). If the EAdi signal becomes unreliable (e.g. due to catheter displacement), and a pneumatic (flow or pressure) triggering criterion is met before an adequate EAdi signal, what happens?",
+      "options": [
+        "A: The ventilator stops delivering any breaths until the EAdi signal is restored",
+        "B: Because triggering follows a 'first come first served' approach, the pneumatic criterion triggers the breath, and if the EAdi signal remains unreliable, the ventilator automatically switches to pressure support ventilation with physician-selected settings",
+        "C: The ventilator ignores the pneumatic trigger entirely and waits indefinitely for a valid EAdi signal",
+        "D: NAVA has no backup triggering mechanism if the EAdi signal is lost",
+        "E: The ventilator defaults to a fully controlled mode whenever EAdi signal quality is poor"
+      ],
+      "correct": 1,
+      "explanation": "NAVA triggering follows a 'first come first served' principle - whichever criterion (EAdi or pneumatic) is satisfied first triggers the breath - and with a persistent EAdi signal problem, the ventilator automatically switches to pressure support ventilation with physician-chosen settings, ensuring the patient is never left without a functioning trigger.",
+      "section": "Neurally Adjusted Ventilatory Assist (NAVA)",
+      "topic": "NAVA equation first come first served pneumatic backup trigger fallback pressure support",
+      "image": "images/img_44c97a9199.png",
+      "section_url": null
+    },
+    {
+      "id": "mv4_k07",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding indications and contraindications for NAVA:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "NAVA can be used in place of conventional assisted modes in most critically ill patients.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Any condition precluding insertion of a nasogastric catheter is a contraindication to NAVA.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "NAVA is contraindicated when respiratory drive is suppressed, such as with brain injury or certain drugs.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Conditions affecting the phrenic nerves or diaphragm function do not affect the suitability of NAVA, since the EAdi signal is unrelated to neuromuscular transmission.",
+          "correct": false
+        }
+      ],
+      "explanation": "A, B and C are correct. D is false and reversed - since the EAdi signal reflects diaphragm electrical activity, conditions affecting the phrenic nerves or diaphragm function (including certain drugs) directly compromise NAVA's signal and are a recognised contraindication.",
+      "section": "Neurally Adjusted Ventilatory Assist (NAVA)",
+      "topic": "NAVA indications contraindications nasogastric catheter respiratory drive phrenic nerve diaphragm trap",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv4_a22",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A study by Carteaux et al. found that most patients ventilated with NAVA could self-regulate their tidal volume within a protective range despite the NAVA level being progressively increased. What tidal volume range was maintained, and what does this illustrate about NAVA?",
+      "options": [
+        "A: 6-8 mL/kg predicted body weight; illustrating that as EAdi-driven feedback allows patients to reduce their own effort as assist increases, protecting against excessive tidal volumes",
+        "B: 15-20 mL/kg predicted body weight; illustrating that NAVA has no protective ceiling on tidal volume",
+        "C: There is no consistent tidal volume range; NAVA provides no protection against over-assistance",
+        "D: 2-3 mL/kg predicted body weight; illustrating that NAVA typically under-ventilates patients",
+        "E: The tidal volume range was identical to that seen with fixed-percentage assist-volume control"
+      ],
+      "correct": 0,
+      "explanation": "Carteaux et al. found that despite increasing NAVA levels, most patients maintained tidal volumes within a protective 6-8 mL/kg predicted body weight range - illustrating that because NAVA support is proportional to the patient's own neural drive, patients can reduce their effort as assist increases, providing intrinsic protection against volutrauma that fixed-delivery modes lack.",
+      "section": "Neurally Adjusted Ventilatory Assist (NAVA)",
+      "topic": "NAVA Carteaux protective tidal volume self-regulation 6-8mL/kg",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv4_k08",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding limitations of NAVA and methods for titrating the NAVA level:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A biphasic shape in the EAdi signal has been associated with double triggering during NAVA.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The default EAdi inspiratory trigger threshold is typically set to a value of 0.5 microvolts above the minimum EAdi value.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "One proposed approach titrates the NAVA level to the point where further increases produce a relatively unchanged airway pressure and tidal volume, due to feedback control mechanisms (the inflection point between two response phases).",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "NAVA function can be used with any commercially available ventilator brand, since it is a universal, non-proprietary ventilation mode.",
+          "correct": false
+        }
+      ],
+      "explanation": "A, B and C correctly describe recognised NAVA features and the Brander et al. two-phase-response titration approach. D is false - NAVA requires a dedicated catheter and is available on only one ventilator platform, not universally across brands.",
+      "section": "Neurally Adjusted Ventilatory Assist (NAVA)",
+      "topic": "NAVA limitations biphasic double triggering EAdi threshold Brander titration single ventilator trap",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv4_a23",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "All of the following are recognised limitations of NAVA EXCEPT:",
+      "options": [
+        "A: It requires insertion of a dedicated nasogastric catheter",
+        "B: It is available on only one ventilator platform",
+        "C: A high incidence of flow-triggered cycles has been reported when EAdi signal quality is poor",
+        "D: NAVA has been definitively shown, in all large randomized trials, to reduce mortality compared to pressure support",
+        "E: Difficulty acquiring and maintaining a satisfactory EAdi signal has led to cross-over to PSV in some trials"
+      ],
+      "correct": 3,
+      "explanation": "A large randomised study found no superiority in weaning duration or ICU outcome between NAVA and PSV; a mortality benefit is only suggested by some meta-analyses, particularly in weaning-difficulty subgroups, not 'definitively shown in all large randomized trials.' Options A, B, C and E are all correctly described limitations.",
+      "section": "Neurally Adjusted Ventilatory Assist (NAVA)",
+      "topic": "NAVA limitations negative stem nasogastric catheter single ventilator EAdi signal mortality trial EXCEPT",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv4_a24",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "In modern ICU ventilators, a mode is set with a triggering threshold selected by the operator; if the patient triggers the ventilator, the breath is delivered in the same way as the mandatory (control) breath. What best describes this arrangement, and how does it apply to 'control' modes generally?",
+      "options": [
+        "A: This describes SIMV specifically and does not apply to standard control modes",
+        "B: This describes assist-control: in modern ventilators, all 'control' modes are actually assist-control, meaning a patient trigger delivers a breath identical in character to the set mandatory breath",
+        "C: This arrangement is only available in pressure support mode",
+        "D: This means the patient cannot influence breath timing at all in a control mode",
+        "E: This arrangement eliminates the need for any triggering threshold setting"
+      ],
+      "correct": 1,
+      "explanation": "In modern ventilators, all 'control' modes are, in practice, assist-control: a triggering threshold is set, and if the patient's effort triggers the ventilator, the resulting breath is delivered in the same way (same volume or pressure target) as the set mandatory breath - distinguishing this from SIMV, where spontaneous breaths are supported separately from mandatory breaths.",
+      "section": "Modes of ventilation with combinations of triggering and pressurisation variables",
+      "topic": "assist control concept modern ventilators mandatory breath trigger threshold",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv4_a25",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "How does SIMV (spontaneous intermittent mandatory ventilation) fundamentally differ from assist-control, even though both deliver a set number of mandatory breaths?",
+      "options": [
+        "A: SIMV never allows any spontaneous breathing between mandatory breaths",
+        "B: In SIMV, spontaneous breaths between mandatory breaths are supported (or not) according to settings chosen separately by the user, rather than being delivered identically to the mandatory breath as in assist-control",
+        "C: Assist-control and SIMV are identical in every respect",
+        "D: SIMV always delivers more mandatory breaths per minute than assist-control",
+        "E: SIMV cannot be combined with either volume or pressure control for the mandatory breaths"
+      ],
+      "correct": 1,
+      "explanation": "While assist-control delivers a patient-triggered breath identically to the set mandatory breath, SIMV instead allows spontaneous breaths between mandatory breaths to be supported (e.g. by pressure support) or left unsupported according to separate settings chosen by the user - a fundamentally different approach to patient-triggered breathing between mandatory breaths.",
+      "section": "Modes of ventilation with combinations of triggering and pressurisation variables",
+      "topic": "SIMV assist control distinction spontaneous breath support separate setting",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv4_a26",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Recordings from two patients show progressively increasing inspiratory effort (larger negative oesophageal pressure swings) from the first to the fourth breath. In one patient (pressure support), airway pressure remains stable at the set level and volume changes little; in the other (proportional assist), both airway pressure and volume increase progressively with effort. What does this comparison illustrate?",
+      "options": [
+        "A: Pressure support and proportional assist behave identically as effort increases",
+        "B: In pressure support, delivered pressure is fixed regardless of effort, so volume varies little with effort; in proportional assist, delivered pressure (and thus volume) tracks the patient's effort, increasing as effort increases",
+        "C: Proportional assist always delivers less volume than pressure support, regardless of effort",
+        "D: Airway pressure is unrelated to oesophageal pressure in either mode",
+        "E: This pattern only occurs in patients with normal respiratory mechanics"
+      ],
+      "correct": 1,
+      "explanation": "This recording illustrates the core distinction between the two modes: pressure support delivers a fixed pressure regardless of effort, so tidal volume stays relatively stable even as effort rises, whereas proportional assist scales delivered pressure to the patient's own effort, so both airway pressure and volume rise together with increasing effort.",
+      "section": "Assisted modes of ventilation",
+      "topic": "pressure support proportional assist real patient recording effort volume relationship comparison",
+      "image": "images/img_16b5801a9c.jpg",
+      "section_url": null
+    },
+    {
+      "id": "mv4_a27",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "The EAdi signal used to drive NAVA is obtained via a catheter positioned at which anatomical level, and what does the catheter detect?",
+      "options": [
+        "A: A catheter positioned in the trachea, detecting airway pressure changes",
+        "B: A nasogastric catheter with electrodes positioned at the level of the diaphragm (via the oesophagus/stomach), detecting the diaphragm's electrical activity directly",
+        "C: A peripheral venous catheter, detecting changes in central venous pressure",
+        "D: An oesophageal balloon catheter positioned in the upper oesophagus, detecting only intrathoracic pressure, not electrical activity",
+        "E: A catheter positioned in the pulmonary artery, detecting mixed venous oxygen saturation"
+      ],
+      "correct": 1,
+      "explanation": "The EAdi signal is obtained via a nasogastric-type feeding tube fitted with electrodes, passed through the oesophagus to sit at the level of the diaphragm, where it directly records the diaphragm's own electrical activity - distinct from pressure-based catheters (oesophageal balloon, pulmonary artery) which measure mechanical rather than electrical signals.",
+      "section": "Neurally Adjusted Ventilatory Assist (NAVA)",
+      "topic": "NAVA EAdi catheter positioning nasogastric diaphragm level electrical activity anatomy",
+      "image": "images/img_66fe4e96c4.png",
+      "section_url": null
+    }
+  ]
+}
