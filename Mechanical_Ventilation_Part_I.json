@@ -1,0 +1,537 @@
+{
+  "module": "Mechanical Ventilation Part I",
+  "sections": {
+    "Indications for mechanical ventilation": "Respiratory failure is classified into failure to maintain adequate ventilation (CNS depression, nerve/neuromuscular failure, respiratory muscle failure, or mechanical load exceeding muscle capacity, e.g. low compliance in ARDS or high resistance in COPD) and failure to maintain adequate oxygenation (V/Q mismatch, shunt, diffusion impairment, or inadequate ventilation). Airway-patency failure is a straightforward indication for intubation, but mechanical ventilation is only needed if other respiratory failure causes co-exist (e.g. GCS<9 in trauma patients). Main indications in respiratory failure: hypercapnic acidosis, dyspnoea with increased work of breathing, or severe hypoxaemia unresponsive to oxygen (PaO2<60 mmHg with FiO2>=50%). Clinical signs of increased work of breathing: nasal flaring, mouth breathing, accessory/expiratory muscle use, tracheal tug, intercostal recession, paradoxical abdominal movement, tachypnoea, tachycardia, hyper-/hypotension, diaphoresis. Note: initiating mechanical ventilation during shock reduced the proportion of cardiac output directed to the respiratory muscles ~7-fold in an experimental setting.",
+    "Aims of mechanical ventilation": "The goal is to support gas exchange and sustain life until the cause of respiratory failure resolves, guided by 'first do no harm'. Aims: CO2 elimination, improved oxygenation, and relief of respiratory distress by unloading the respiratory muscles. Ventilation can itself cause harm - ventilator-induced lung injury (VILI) from over-stretching/cyclical reopening of alveoli, and ventilator-induced diaphragmatic dysfunction (VIDD) from prolonged unloading (detailed in Mechanical Ventilation Part VI). Ventilator settings also affect intrathoracic and pulmonary vascular pressures, impacting heart function.",
+    "PCO2 and pH targets": "Normal PCO2/pH are typically targeted in healthy lungs (perioperatively) and in any brain injury, to avoid raising intracranial pressure - but a normal PCO2 is not mandatory at any cost in all patients. Permissive hypercapnia targets a higher-than-normal PaCO2 by using a low tidal volume/minute ventilation, to prevent lung over-distension, which can cause VILI (low FRC, e.g. ARDS) or dynamic hyperinflation (flow-limited patients, e.g. COPD/asthma). Patients ventilated this way often need deep sedation and/or paralysis to tolerate passive ventilation.",
+    "Oxygenation targets": "An SpO2 above 90-92% is a reasonable target in most patients. Because the oxyhaemoglobin dissociation curve plateaus, a supraphysiological PaO2 gives no significant additional oxygen delivery benefit; targeting hyperoxia has shown no benefit and may be associated with worse outcomes. Oxygen delivery (DO2) = cardiac output x (Hb x SaO2 x 1.34 + dissolved oxygen [PaO2 x 0.003]) - the hameoglobin-bound term dominates, so once SaO2 is near-maximal, raising PaO2 further contributes very little extra oxygen delivery compared to correcting anaemia or cardiac output.",
+    "Means to deliver positive pressure ventilation": "Two interfaces exist: the endotracheal/tracheostomy tube (invasive) or a tight-fitting facial mask (non-invasive, NIMV). Endotracheal tube: protects against aspiration, relieves fixed upper airway obstruction, permits secretion suction, gives a stable leak-proof connection - but needs sedation, prevents effective cough and speech, and removes upper-airway infection-protective reflexes. NIV mask: comfortable, preserves cough/speech, needs no sedation - but requires patient cooperation, gives no aspiration protection, no suctioning, and no guaranteed leak-proof connection. Variable airway obstruction (e.g. OSA) can be managed with NIMV; fixed obstruction cannot.",
+    "NIMV": "NIMV avoids intubation and device-related complications (VAP, catheter-related infections). Contraindications: cardiac/respiratory arrest, inability to protect the airway, inability to manage secretions, facial/upper-airway trauma/surgery/obstruction, intractable emesis or GI bleeding, and shock (a relative contraindication and a common cause of NIMV failure). Close monitoring is required for the first 1-2 hours to catch early failure. Two main modes: CPAP (mainly hypoxaemic failure, e.g. cardiogenic pulmonary oedema) and BIPAP/IPAP+EPAP (preferred for hypercapnic failure, e.g. COPD). Initiation criteria include: absence of contraindications, moderate-severe dyspnoea, tachypnoea (>24/min obstructive, >30/min restrictive), signs of increased work of breathing, acute-on-chronic COPD failure with PaCO2>45mmHg, pH<7.35, hypoxaemia uncorrected by oxygen alone (use with caution), PaO2/FiO2<300. Termination criteria: haemodynamic instability, decreasing consciousness, worsening pH/PaCO2/PaO2, tachypnoea>30, intense dyspnoea, inability to clear secretions, agitation/intolerance with progressive failure. Evidence: NIV in AECOPD reduced mortality 46% and intubation need 65% (17 RCTs, n=1264); in cardiogenic pulmonary oedema, reduced mortality 35% and intubation need 50% (24 RCTs); in hypoxaemic ARDS/pneumonia (non-COVID), evidence is inconsistent with high failure rates and possible increased mortality; in COVID-19 ARDS, both CPAP and high-flow nasal oxygen reduced need for invasive ventilation. Failure risk factors: disease severity, comorbidities, shock, impaired consciousness, non-COVID ARDS, severe acidosis, high tidal volume/minute ventilation, failure to improve within 1-2h."
+  },
+  "questions": [
+    {
+      "id": "mv1_a01",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 68-year-old man is admitted with worsening confusion and a respiratory rate of 8/min after a large opioid overdose. Arterial blood gas shows PaCO2 8.5 kPa (64 mmHg) with a normal A-a gradient. Which mechanism best explains his respiratory failure?",
+      "options": [
+        "A: Ventilation-perfusion mismatch",
+        "B: Diffusion impairment",
+        "C: Central nervous system depression of the respiratory drive",
+        "D: Respiratory muscle fatigue from increased load",
+        "E: Intrapulmonary shunt"
+      ],
+      "correct": 2,
+      "explanation": "Opioid-induced respiratory depression suppresses central respiratory drive, causing failure to maintain adequate ventilation with a normal A-a gradient - distinct from oxygenation failure (V/Q mismatch, shunt, diffusion impairment), which typically widens the A-a gradient. Muscle fatigue reflects a load-capacity mismatch, not the primary mechanism here.",
+      "section": "Indications for mechanical ventilation",
+      "topic": "classification respiratory failure ventilatory vs oxygenation CNS depression opioid",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv1_a02",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 24-year-old man with severe traumatic brain injury has a GCS of 6. He is breathing spontaneously with normal oxygen saturation and unremarkable arterial blood gases. What is the most appropriate next step regarding his airway and ventilation?",
+      "options": [
+        "A: No intervention needed as gas exchange is currently normal",
+        "B: Endotracheal intubation for airway protection, with initiation of mechanical ventilation",
+        "C: Non-invasive ventilation to avoid sedation-related complications",
+        "D: High-flow nasal oxygen with close observation",
+        "E: Endotracheal intubation for airway protection only, without mechanical ventilation"
+      ],
+      "correct": 1,
+      "explanation": "A GCS <9 is a recognised threshold for intubation in trauma patients because of loss of airway-protective reflexes; once intubated, mechanical ventilation is required as the patient cannot reliably breathe spontaneously through a cuffed tube. Option A ignores this airway risk despite currently normal gas exchange.",
+      "section": "Indications for mechanical ventilation",
+      "topic": "GCS9 trauma intubation indication airway protection ventilation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv1_a03",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with an asthma exacerbation on high-flow oxygen develops nasal flaring, tracheal tug, and paradoxical abdominal movement. Respiratory rate increases from 22 to 34/min despite bronchodilator therapy. What do these findings most directly indicate?",
+      "options": [
+        "A: Improving air entry and resolving bronchospasm",
+        "B: Signs of increased work of breathing and impending respiratory muscle fatigue",
+        "C: An anxiety-related hyperventilation syndrome unrelated to the underlying disease",
+        "D: Adequate compensation requiring no change in management",
+        "E: A vasovagal response to bronchodilator therapy"
+      ],
+      "correct": 1,
+      "explanation": "Nasal flaring, tracheal tug and paradoxical abdominal movement are classic signs of increased work of breathing; their emergence with rising respiratory rate despite treatment signals impending muscle fatigue and warrants reassessment for ventilatory support. The other options mischaracterise objective distress signs as benign.",
+      "section": "Indications for mechanical ventilation",
+      "topic": "signs increased work of breathing tracheal tug paradoxical abdominal fatigue asthma",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv1_a04",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with moderate ARDS is ventilated with a tidal volume of 6 mL/kg predicted body weight. Plateau pressure is 29 cmH2O and arterial pH is 7.28 with PaCO2 7.3 kPa (55 mmHg). Oxygenation is adequate and there is no significant intracranial pathology. What is the most appropriate next step?",
+      "options": [
+        "A: Increase tidal volume to normalise PaCO2",
+        "B: Accept the current hypercapnia and acidosis while maintaining lung-protective tidal volume",
+        "C: Add intravenous sodium bicarbonate to correct the acidosis",
+        "D: Switch to high-frequency oscillatory ventilation",
+        "E: Increase respiratory rate substantially to normalise pH, regardless of resulting auto-PEEP"
+      ],
+      "correct": 1,
+      "explanation": "Permissive hypercapnia accepts hypercapnia/acidosis to avoid raising tidal volume and worsening lung over-distension; there is no contraindication here (no raised intracranial pressure). Increasing tidal volume (A) undermines lung-protective ventilation, and routine bicarbonate correction (C) is not indicated for this degree of compensated respiratory acidosis.",
+      "section": "PCO2 and pH targets",
+      "topic": "permissive hypercapnia ARDS lung protective tidal volume acidosis acceptable",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv1_a05",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient in septic shock on high-dose noradrenaline develops severe respiratory distress with markedly increased work of breathing. Beyond improving gas exchange, what additional physiological benefit does initiating mechanical ventilation provide in this scenario?",
+      "options": [
+        "A: It has no additional haemodynamic effect beyond gas exchange",
+        "B: It reduces the proportion of cardiac output diverted to the overworked respiratory muscles, potentially benefiting other organs",
+        "C: It reliably increases cardiac output by improving venous return in all shock states",
+        "D: It eliminates the need for vasopressor support",
+        "E: It reduces oxygen consumption by the myocardium exclusively"
+      ],
+      "correct": 1,
+      "explanation": "In shock, hard-working respiratory muscles can consume a disproportionate share of cardiac output; taking over ventilation reduces this 'steal' and may improve perfusion to other organs, independent of any gas-exchange benefit. Options C-E overstate or mischaracterise the haemodynamic effects - positive-pressure ventilation can in fact reduce venous return, particularly in hypovolaemic shock.",
+      "section": "Indications for mechanical ventilation",
+      "topic": "mechanical ventilation shock cardiac output respiratory muscle steal redistribution",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv1_a06",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A mechanically ventilated patient has an SpO2 of 98% on FiO2 0.6, with no evidence of hypoxaemia or carbon monoxide poisoning. What is the most appropriate next step regarding FiO2?",
+      "options": [
+        "A: Maintain FiO2 at 0.6 to keep a comfortable safety margin",
+        "B: Increase FiO2 to 1.0 to maximise PaO2",
+        "C: Reduce FiO2 while targeting an SpO2 of around 90-92%",
+        "D: Reduce FiO2 only if SpO2 falls below 85%",
+        "E: Increase FiO2 and add inhaled nitric oxide empirically"
+      ],
+      "correct": 2,
+      "explanation": "Once oxygenation is adequate, FiO2 should be weaned toward the lowest level achieving an SpO2 of roughly 90-92%, since targeting supraphysiological PaO2/hyperoxia gives no proven benefit and has been linked to worse outcomes. Maintaining unnecessarily high FiO2 (A, B) exposes the patient to hyperoxia without benefit.",
+      "section": "Oxygenation targets",
+      "topic": "oxygenation target SpO2 90-92 hyperoxia harm FiO2 weaning",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv1_a07",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A ventilated patient has Hb 68 g/L, SaO2 98%, cardiac output 5.5 L/min, and PaO2 12 kPa (90 mmHg). Using the oxygen delivery relationship shown, which intervention would increase oxygen delivery the most?",
+      "options": [
+        "A: Increasing FiO2 to raise PaO2 further",
+        "B: Correcting the anaemia with red cell transfusion to raise haemoglobin",
+        "C: Administering a diuretic to reduce preload",
+        "D: Adding inhaled nitric oxide",
+        "E: Increasing PEEP without addressing the anaemia"
+      ],
+      "correct": 1,
+      "explanation": "Oxygen delivery is dominated by the haemoglobin-bound term (Hb x SaO2 x 1.34), while dissolved oxygen (PaO2 x 0.003) contributes very little; with SaO2 already near-maximal and significant anaemia present, correcting haemoglobin gives by far the largest gain in DO2. Raising FiO2 further (A) barely changes the small dissolved-oxygen term.",
+      "section": "Oxygenation targets",
+      "topic": "oxygen delivery equation DO2 haemoglobin cardiac output dissolved oxygen transfusion",
+      "image": "images/img_f23ac352d7.png",
+      "section_url": null
+    },
+    {
+      "id": "mv1_a08",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A hypoxaemic patient and a normoxic patient both experience the same rise in PaCO2. Based on the ventilatory response relationship shown, how does the hypoxaemic patient's increase in minute ventilation compare to the normoxic patient's?",
+      "options": [
+        "A: It is similar, since PaCO2 is the only major determinant of respiratory drive",
+        "B: It is markedly greater, as hypoxaemia left-shifts and steepens the ventilatory response to PaCO2",
+        "C: It is markedly less, as hypoxaemia blunts the central chemoreceptor response",
+        "D: It is absent, since hypoxaemic patients cannot increase minute ventilation further",
+        "E: It depends only on the degree of metabolic alkalosis present"
+      ],
+      "correct": 1,
+      "explanation": "Hypoxaemia (like acidosis) shifts the ventilation-PaCO2 relationship left and steepens its slope, so a hypoxaemic patient hyperventilates substantially more for the same rise in PaCO2 than a normoxic patient - relevant to why hypoxaemic or acidotic patients often show markedly increased respiratory drive and distress. Option C describes the opposite, incorrect direction.",
+      "section": "Aims of mechanical ventilation",
+      "topic": "ventilatory response curve hypoxia acidosis left shift respiratory drive PaCO2",
+      "image": "images/img_b06b3e1c54.png",
+      "section_url": null
+    },
+    {
+      "id": "mv1_a09",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with pneumonia and copious purulent secretions has a reduced conscious level and an impaired cough. Which interface for delivering positive pressure ventilation is most appropriate?",
+      "options": [
+        "A: Non-invasive ventilation via a total face mask",
+        "B: Non-invasive ventilation via a helmet interface",
+        "C: Endotracheal intubation for invasive mechanical ventilation",
+        "D: High-flow nasal oxygen alone",
+        "E: CPAP via nasal mask"
+      ],
+      "correct": 2,
+      "explanation": "Copious secretions with impaired cough and reduced consciousness both favour an endotracheal tube, which allows airway protection and direct suctioning - capabilities non-invasive interfaces lack. NIV (A, B, E) requires an intact cough and adequate consciousness to be safe and effective.",
+      "section": "Means to deliver positive pressure ventilation",
+      "topic": "interface selection invasive NIV secretions consciousness cough airway protection",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv1_a10",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "An elderly patient presents with acute pulmonary oedema, SpO2 84% on high-flow oxygen, and a normal PaCO2. She is haemodynamically stable and alert. Which initial non-invasive mode is most appropriate?",
+      "options": [
+        "A: CPAP",
+        "B: BIPAP with high inspiratory pressure support",
+        "C: Volume-controlled invasive ventilation",
+        "D: Pressure support ventilation via tracheostomy",
+        "E: Low-flow nasal cannula oxygen only"
+      ],
+      "correct": 0,
+      "explanation": "CPAP is the preferred initial non-invasive mode for hypoxaemic respiratory failure due to cardiogenic pulmonary oedema, whereas BIPAP is favoured when hypercapnic failure predominates (e.g. COPD); this patient has isolated hypoxaemia with a normal PaCO2. Escalating directly to invasive ventilation (C, D) is not indicated in a stable, alert patient.",
+      "section": "NIMV",
+      "topic": "CPAP BIPAP selection cardiogenic pulmonary oedema hypoxaemic hypercapnic",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv1_a11",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with moderate ARDS due to pneumonia (not COVID-19) is being considered for non-invasive ventilation as an alternative to intubation. Which statement best reflects the current evidence?",
+      "options": [
+        "A: NIV consistently reduces mortality in hypoxaemic ARDS and should be first-line",
+        "B: NIV has a high failure rate in moderate-to-severe ARDS, and some studies suggest increased mortality; close monitoring for early escalation is required if attempted",
+        "C: NIV is contraindicated in all forms of ARDS regardless of severity",
+        "D: NIV eliminates the risk of ventilator-associated pneumonia and is therefore always preferred",
+        "E: NIV should replace invasive ventilation once ARDS is diagnosed, irrespective of severity"
+      ],
+      "correct": 1,
+      "explanation": "In de novo hypoxaemic respiratory failure and ARDS outside COVID-19, evidence for NIV benefit is inconsistent, failure rates are high in moderate-to-severe disease, and some studies show increased mortality, so it should be used cautiously with close monitoring rather than routinely. Options A and E overstate benefit; C is too absolute given the COVID-19 ARDS evidence.",
+      "section": "NIMV",
+      "topic": "NIV hypoxaemic ARDS evidence failure rate mortality caution non-COVID",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv1_a12",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with COVID-19-related ARDS is hypoxaemic but haemodynamically stable and cooperative. Based on the evidence discussed, which non-invasive strategies have been shown to reduce the need for invasive ventilation in this population?",
+      "options": [
+        "A: Neither CPAP nor high-flow nasal oxygen has shown benefit",
+        "B: Only endotracheal intubation should be considered; non-invasive strategies are contraindicated",
+        "C: Both CPAP and high-flow nasal oxygen therapy have been shown to reduce the need for invasive ventilation",
+        "D: BIPAP is the only effective non-invasive strategy in COVID-19 ARDS",
+        "E: Helmet CPAP is contraindicated in COVID-19 and should never be used"
+      ],
+      "correct": 2,
+      "explanation": "In COVID-19-related ARDS, both CPAP and high-flow nasal oxygen therapy have been shown to reduce the need for invasive mechanical ventilation, distinguishing this population from ARDS of other aetiologies where NIV evidence is less consistent. Options A, B and D misstate or overstate the evidence.",
+      "section": "NIMV",
+      "topic": "COVID-19 ARDS CPAP high-flow nasal oxygen invasive ventilation reduction evidence",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv1_a13",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient is started on BIPAP for an acute exacerbation of COPD in the emergency department. What is the most important aspect of care in the first 1-2 hours after initiation?",
+      "options": [
+        "A: No specific monitoring is required if initial blood gases improve",
+        "B: Close monitoring to allow early recognition of NIV failure and timely escalation",
+        "C: Immediate transfer to a general ward once the mask is fitted",
+        "D: Sedation to improve mask tolerance regardless of respiratory status",
+        "E: Discontinuing arterial blood gas monitoring once NIV is started"
+      ],
+      "correct": 1,
+      "explanation": "The first 1-2 hours after NIV initiation are critical for detecting early signs of failure (worsening gases, consciousness or haemodynamics) so escalation is not delayed; failure to improve within this window is itself a recognised predictor of NIV failure. The other options would each delay recognition of a failing patient.",
+      "section": "NIMV",
+      "topic": "NIV monitoring first hours early failure recognition escalation COPD",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv1_a14",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Two hours after starting NIV for acute hypercapnic respiratory failure, a patient becomes increasingly agitated, with worsening pH and rising PaCO2 despite optimised mask fit and settings. What is the most appropriate next step?",
+      "options": [
+        "A: Increase sedation to improve tolerance and continue NIV unchanged",
+        "B: Escalate to invasive mechanical ventilation",
+        "C: Switch from BIPAP to CPAP and reassess in another 2 hours",
+        "D: Proceed with discharge planning, as agitation suggests improving mentation",
+        "E: Add high-flow nasal oxygen alongside continued NIV"
+      ],
+      "correct": 1,
+      "explanation": "Worsening pH and PaCO2 with agitation and intolerance despite optimisation are recognised termination criteria for NIV, indicating a need to escalate to invasive ventilation rather than persist or merely adjust the non-invasive strategy. Increasing sedation (A) risks worsening respiratory drive and airway protection in a failing, non-intubated patient.",
+      "section": "NIMV",
+      "topic": "NIV failure termination criteria escalation invasive ventilation agitation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv1_a15",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "All of the following are recognised clinical signs of increased work of breathing EXCEPT:",
+      "options": [
+        "A: Nasal flaring",
+        "B: Intercostal recession",
+        "C: Bradycardia",
+        "D: Tracheal tug",
+        "E: Diaphoresis"
+      ],
+      "correct": 2,
+      "explanation": "Increased work of breathing is typically accompanied by tachycardia (and often tachypnoea, hypertension or hypotension), not bradycardia; bradycardia is not among the recognised signs and may instead suggest a different, often more ominous, process. The remaining options are all listed signs of increased work of breathing.",
+      "section": "Indications for mechanical ventilation",
+      "topic": "signs increased work of breathing negative stem bradycardia NOT",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv1_a16",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with ARDS and reduced functional residual capacity is ventilated using a lung-protective, low tidal volume strategy, accepting the resulting hypercapnia. Which of the following is NOT a recognised rationale for this approach?",
+      "options": [
+        "A: Reducing the risk of ventilator-induced lung injury from alveolar over-distension",
+        "B: Avoiding cyclical over-stretching of a lung with reduced compliance",
+        "C: Normalising PaCO2 is essential in all ARDS patients regardless of lung mechanics",
+        "D: Limiting tidal volume and minute ventilation to protect the lung, even at the cost of hypercapnia",
+        "E: Accepting a compromise between ventilation targets and lung protection"
+      ],
+      "correct": 2,
+      "explanation": "Permissive hypercapnia is specifically a departure from normalising PaCO2 when doing so would require potentially injurious tidal volumes; normalising PaCO2 'at any cost' is explicitly not required and contradicts the rationale for this strategy. The other options correctly describe the protective rationale.",
+      "section": "PCO2 and pH targets",
+      "topic": "permissive hypercapnia VILI rationale negative stem NOT normalise PaCO2",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv1_k01",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding contraindications to non-invasive ventilation (NIV):",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Facial or upper airway trauma with potential obstruction is a contraindication to NIV.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "An acute exacerbation of COPD is a contraindication to NIV.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Inability to manage secretions is a contraindication to NIV.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Shock is an absolute contraindication to NIV regardless of severity.",
+          "correct": false
+        }
+      ],
+      "explanation": "A/C are listed contraindications. B is false - COPD exacerbation is one of the best-evidenced INDICATIONS for NIV, not a contraindication. D is false - shock is explicitly a RELATIVE contraindication and a common cause of NIV failure, not an absolute one.",
+      "section": "NIMV",
+      "topic": "NIV contraindications COPD trap shock relative facial trauma secretions",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv1_k02",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding criteria for initiating NIV:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A respiratory rate above 24 breaths/min in a patient with obstructive lung disease supports initiating NIV.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "A respiratory rate above 24 breaths/min in a patient with restrictive lung disease supports initiating NIV.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "A PaO2/FiO2 ratio below 300 supports initiating NIV.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "An arterial PaCO2 below 45 mmHg in a patient with an acute-on-chronic COPD exacerbation supports initiating NIV.",
+          "correct": false
+        }
+      ],
+      "explanation": "A/C match the initiation thresholds. B is false - the restrictive-disease threshold is >30 breaths/min, not >24 (that figure applies to obstructive disease). D is false - it is a PaCO2 ABOVE 45 mmHg, not below, that supports initiation in acute-on-chronic COPD failure.",
+      "section": "NIMV",
+      "topic": "NIV initiation criteria respiratory rate PaO2 FiO2 PaCO2 threshold trap",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv1_k03",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding criteria for terminating a trial of NIV:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Haemodynamic instability is an indication to terminate a trial of NIV.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "A decreasing level of consciousness during NIV supports continuing therapy unchanged.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Inability to clear secretions during NIV supports terminating the trial.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Improving PaO2 during NIV is a recognised indication to terminate therapy.",
+          "correct": false
+        }
+      ],
+      "explanation": "A/C are recognised termination criteria. B is false - decreasing consciousness is itself a termination criterion, not a reason to continue unchanged. D is false - it is WORSENING PaO2, not improving, that indicates termination/escalation.",
+      "section": "NIMV",
+      "topic": "NIV termination criteria consciousness PaO2 direction trap",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv1_k04",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding factors associated with NIV failure:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Significant comorbidities are associated with an increased risk of NIV failure.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "A depressed level of consciousness is associated with an increased risk of NIV failure.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Failure to show improvement within the first 1-2 hours of NIV is a reassuring sign and predicts eventual success.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "ARDS due to COVID-19 carries the same high NIV failure risk as non-COVID ARDS.",
+          "correct": false
+        }
+      ],
+      "explanation": "A/B are recognised failure risk factors. C is false and inverted - failure to improve in the first 1-2 hours is a predictor of FAILURE, not success. D is false - COVID-19 ARDS is distinguished from non-COVID ARDS, where CPAP/high-flow oxygen showed benefit in reducing need for invasive ventilation; non-COVID ARDS specifically is the listed failure risk factor.",
+      "section": "NIMV",
+      "topic": "NIV failure risk factors comorbidity consciousness 1-2h COVID trap",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv1_k05",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Comparing an endotracheal tube with a non-invasive ventilation (NIV) mask as interfaces for positive pressure ventilation:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "An endotracheal tube provides more reliable protection against aspiration than an NIV mask.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "An NIV mask better preserves the patient's ability to cough effectively than an endotracheal tube.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "An endotracheal tube generally requires less sedation than an NIV mask.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "An NIV mask allows more effective suctioning of lower airway secretions than an endotracheal tube.",
+          "correct": false
+        }
+      ],
+      "explanation": "A/B correctly reflect the relative advantages in Table 1. C is inverted - an endotracheal tube generally requires MORE sedation, not less, than an NIV mask. D is inverted - an endotracheal tube, not an NIV mask, permits direct suctioning of secretions.",
+      "section": "Means to deliver positive pressure ventilation",
+      "topic": "endotracheal tube NIV mask comparison sedation suction cough table",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv1_k06",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding unloading the respiratory muscles during mechanical ventilation:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Unloading the respiratory muscles can help prevent muscle fatigue.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Prolonged, complete respiratory muscle rest during mechanical ventilation carries no risk to muscle structure or function.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Reducing respiratory muscle workload may help prevent self-induced lung injury from vigorous spontaneous breathing effort.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Avoiding excessive respiratory muscle blood flow is clinically irrelevant in patients with shock.",
+          "correct": false
+        }
+      ],
+      "explanation": "A/C are recognised benefits of unloading. B is false - prolonged, complete rest risks ventilator-induced diaphragmatic dysfunction and structural muscle weakness. D is false and inverted - avoiding increased respiratory muscle blood flow is specifically noted as important in shock states, not irrelevant.",
+      "section": "Aims of mechanical ventilation",
+      "topic": "unloading respiratory muscles VIDD fatigue self-induced lung injury shock blood flow",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}
