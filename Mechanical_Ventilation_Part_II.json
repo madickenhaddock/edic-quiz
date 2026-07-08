@@ -13,16 +13,16 @@
       "type": "A",
       "set": 1,
       "source": "pact_generated",
-      "question": "Based on the pressure-volume relationship of the respiratory system shown, near total lung capacity (TLC) the curve flattens markedly. What is the clinical significance of this for mechanical ventilation?",
+      "question": "Based on the pressure-volume curve of the respiratory system shown, the curve flattens markedly as volume approaches total lung capacity (TLC). What is the clinical significance for mechanical ventilation?",
       "options": [
-        "A: Near TLC, small increases in pressure produce large increases in volume, allowing efficient recruitment",
-        "B: Near TLC, progressively larger increases in pressure are needed for each additional increment in volume, increasing the risk of over-distension and lung injury",
-        "C: The flattening indicates that airway resistance, not elastance, limits further inflation near TLC",
-        "D: The flattening only applies to the chest wall, not the lungs or combined respiratory system",
-        "E: Ventilating near TLC has no implications for ventilator-induced lung injury"
+        "A: Progressively larger pressure increases are needed for each further increment in volume, raising the risk of over-distension",
+        "B: Progressively smaller pressure increases achieve each further increment in volume, making recruitment efficient near TLC",
+        "C: The flattening reflects rising airway resistance rather than the elastic properties of the lung",
+        "D: The flattening applies to the chest wall curve but not to the lung or the combined respiratory system",
+        "E: The flattening marks the point of optimal compliance, where tidal ventilation is safest"
       ],
-      "correct": 1,
-      "explanation": "As the pressure-volume curve flattens near TLC, respiratory system compliance falls, so disproportionately high pressures are needed for further small increases in volume - a warning sign of impending over-distension and a mechanism contributing to ventilator-induced lung injury. Option A describes the opposite (mid-curve) relationship, and C mischaracterises the cause as resistive rather than elastic.",
+      "correct": 0,
+      "explanation": "As the curve flattens near TLC, compliance falls, so ever-larger pressures are needed for small further volume gains - a warning of over-distension and a mechanism of ventilator-induced lung injury. B describes the opposite relationship, C misattributes it to resistance, D wrongly restricts it to the chest wall, and E mistakes the stiff upper curve for a zone of safe, optimal compliance.",
       "section": "Equation of motion",
       "topic": "PV curve TLC flattening compliance over-distension VILI risk",
       "image": "images/img_f7c6d5b143.png",
@@ -33,19 +33,19 @@
       "type": "A",
       "set": 1,
       "source": "pact_generated",
-      "question": "At functional residual capacity (FRC), the pressure required to hold the respiratory system at that volume is approximately zero. What best explains this, based on the pressure-volume relationships shown?",
+      "question": "Under passive conditions, the pressure needed to hold the respiratory system at functional residual capacity (FRC) is approximately zero. What best explains this?",
       "options": [
-        "A: Neither the lung nor the chest wall exert any elastic recoil at FRC",
-        "B: The inward elastic recoil of the lung is exactly balanced by the outward elastic recoil of the chest wall at this volume",
-        "C: The chest wall is fully relaxed and exerts no recoil at any lung volume",
-        "D: FRC represents the volume at which airway resistance is minimal, independent of elastic forces",
-        "E: The lung's compliance curve is flat at FRC, so no pressure change occurs"
+        "A: The lung's inward elastic recoil is balanced by the chest wall's outward recoil at this particular volume",
+        "B: Neither the lung nor the chest wall generates any elastic recoil once the system sits at FRC",
+        "C: The chest wall stays fully relaxed at every lung volume, so the lung's recoil is the only force present",
+        "D: FRC is the lung volume at which airway resistance is lowest, and this is what drives the pressure to zero",
+        "E: Respiratory system compliance reaches its maximum at FRC, so no pressure is needed to hold that volume"
       ],
-      "correct": 1,
-      "explanation": "FRC is, by definition, the volume at which the lung's inward elastic recoil and the chest wall's outward elastic recoil are equal and opposite, so the combined respiratory-system pressure is zero - not because either structure is passive (A, C), and unrelated to airway resistance (D) or to curve flattening, which instead occurs near TLC (E).",
+      "correct": 0,
+      "explanation": "FRC is defined as the volume where the lung's inward recoil and the chest wall's outward recoil are equal and opposite, giving a net respiratory-system pressure of zero - the forces balance rather than being absent (B) or one-sided (C). D conflates elastic balance with airway resistance, and E offers a plausible-sounding but incorrect compliance-based explanation.",
       "section": "Equation of motion",
-      "topic": "FRC zero pressure lung chest wall recoil balance PV curve",
-      "image": "images/img_f7c6d5b143.png",
+      "topic": "FRC zero pressure lung chest wall recoil balance passive",
+      "image": null,
       "section_url": null
     },
     {
@@ -53,18 +53,18 @@
       "type": "A",
       "set": 1,
       "source": "pact_generated",
-      "question": "A ventilated patient is kept at a fixed minute ventilation of 12 L/min. Based on the relationship between minute ventilation and PaCO2 shown, which of the following would most plausibly explain a rise in this patient's PaCO2 from around 20 mmHg to over 50 mmHg without any change in minute ventilation?",
+      "question": "A ventilated patient is held at a fixed minute ventilation of 12 L/min. Based on the relationship shown, which change would most plausibly raise this patient's PaCO2 from about 20 mmHg to over 50 mmHg with minute ventilation unchanged?",
       "options": [
-        "A: A reduction in dead space fraction (VD/VT), for example from improved pulmonary perfusion",
-        "B: A combined increase in CO2 production (e.g. fever, shivering, sepsis) and dead space fraction (e.g. from pulmonary embolism or severe hypovolaemia)",
-        "C: An increase in tidal volume with a compensatory decrease in respiratory rate, at unchanged minute ventilation",
-        "D: Improved cardiac output with better matching of pulmonary perfusion to ventilation",
-        "E: Switching from volume-controlled to pressure-controlled ventilation without changing set tidal volume or rate"
+        "A: A combined rise in CO2 production and dead-space fraction, such as fever alongside a rising dead space from hypovolaemia",
+        "B: A fall in the dead-space fraction, for example when improved pulmonary perfusion recovers previously wasted ventilation",
+        "C: A rise in tidal volume with a matching fall in respiratory rate, keeping the minute ventilation the same",
+        "D: An improvement in cardiac output that more closely matches pulmonary perfusion to the ventilation",
+        "E: A switch from volume-controlled to pressure-controlled ventilation at the same set tidal volume and rate"
       ],
-      "correct": 1,
-      "explanation": "The graph shows that at a fixed minute ventilation, PaCO2 is markedly affected by both CO2 production (VCO2) and dead space fraction (VD/VT); a simultaneous rise in both shifts the curve rightward, raising PaCO2 substantially despite unchanged minute ventilation. Options A and D describe changes that would instead reduce VD/VT and lower PaCO2, and C would, if anything, tend to reduce VD/VT rather than raise PaCO2.",
+      "correct": 0,
+      "explanation": "The graph shows that at a fixed minute ventilation, PaCO2 rises with both CO2 production and dead-space fraction; a simultaneous increase in each shifts the curve rightward. B and D describe changes that would lower dead-space fraction and thus PaCO2, C would if anything reduce dead-space fraction, and E does not change the determinants of alveolar ventilation.",
       "section": "PCO2 elimination",
-      "topic": "metabolic hyperbola VCO2 VD/VT PaCO2 minute ventilation dead space fever PE",
+      "topic": "metabolic hyperbola VCO2 VD/VT PaCO2 minute ventilation dead space fever",
       "image": "images/img_542171e036.png",
       "section_url": null
     },
@@ -73,16 +73,16 @@
       "type": "A",
       "set": 1,
       "source": "pact_generated",
-      "question": "In a mechanically ventilated patient in the ICU, which of the following is NOT typically a clinically relevant mechanism of hypoxaemia?",
+      "question": "In a mechanically ventilated ICU patient, which of the following is NOT typically a clinically relevant mechanism of hypoxaemia?",
       "options": [
         "A: Ventilation-perfusion mismatch",
         "B: Intrapulmonary shunt",
         "C: Alveolar hypoventilation",
-        "D: Decreased mixed venous oxygen content in shock",
+        "D: A reduced mixed venous oxygen content in shock",
         "E: Diffusion limitation in advanced pulmonary fibrosis"
       ],
       "correct": 2,
-      "explanation": "In mechanically ventilated ICU patients, alveolar hypoventilation is prevented by the ventilator itself and is therefore not a clinically relevant cause of hypoxaemia in this context - unlike V/Q mismatch and shunt, which dominate, diffusion limitation in advanced fibrosis, and decreased mixed venous oxygen content, which contributes in shock states.",
+      "explanation": "Alveolar hypoventilation is prevented by the ventilator itself, so it is not a clinically relevant cause of hypoxaemia in this setting - unlike V/Q mismatch and shunt, which dominate, a low mixed venous oxygen content in shock, and diffusion limitation in advanced fibrosis, all of which can contribute.",
       "section": "Oxygenation",
       "topic": "hypoxaemia mechanisms ventilated patient negative stem hypoventilation NOT relevant",
       "image": null,
@@ -93,16 +93,16 @@
       "type": "A",
       "set": 1,
       "source": "pact_generated",
-      "question": "A patient with ARDS and diffuse bilateral atelectasis is started on PEEP. Through which primary mechanism does PEEP improve oxygenation in this scenario?",
+      "question": "A patient with ARDS and diffuse bilateral atelectasis is started on PEEP. Through which primary mechanism does PEEP improve oxygenation here?",
       "options": [
-        "A: By directly increasing cardiac output and therefore oxygen delivery",
-        "B: By reopening and stabilising collapsed alveoli, increasing functional residual capacity and reducing intrapulmonary shunt",
-        "C: By increasing minute ventilation",
-        "D: By reducing carbon dioxide production",
-        "E: By bypassing the need for adequate FiO2"
+        "A: By reopening and stabilising collapsed alveoli, which raises functional residual capacity and reduces shunt",
+        "B: By raising the cardiac output, which increases oxygen delivery to the tissues even without any change in the lungs",
+        "C: By increasing alveolar ventilation and thereby improving the clearance of carbon dioxide from the blood",
+        "D: By lowering pulmonary vascular resistance and redistributing blood flow toward better-ventilated lung regions",
+        "E: By increasing the fraction of the inspired oxygen that actually reaches the alveoli each breath"
       ],
-      "correct": 1,
-      "explanation": "PEEP improves oxygenation mainly by recruiting and stabilising previously collapsed or fluid-filled alveoli, increasing functional residual capacity, improving V/Q matching, and reducing intrapulmonary shunt - not through a direct haemodynamic or ventilatory mechanism (A, C), and it does not alter CO2 production (D) or replace the need for oxygen supplementation (E).",
+      "correct": 0,
+      "explanation": "PEEP improves oxygenation chiefly by recruiting and stabilising collapsed alveoli, raising FRC, improving V/Q matching and reducing shunt. B misattributes the effect to cardiac output (PEEP often reduces it), C confuses oxygenation with CO2 clearance, D describes an unrelated vascular mechanism, and E conflates PEEP with a rise in FiO2.",
       "section": "Positive End Expiratory Pressure",
       "topic": "PEEP oxygenation mechanism FRC recruitment shunt reduction ARDS",
       "image": null,
@@ -113,18 +113,18 @@
       "type": "A",
       "set": 1,
       "source": "pact_generated",
-      "question": "A patient with severe COPD and significant intrinsic PEEP (auto-PEEP) is triggering the ventilator with visible difficulty. Applying a level of extrinsic PEEP close to the intrinsic PEEP level would be expected to have which effect on the patient's work of breathing?",
+      "question": "A patient with severe COPD and significant intrinsic PEEP (auto-PEEP) is triggering the ventilator with visible difficulty. Applying extrinsic PEEP close to the intrinsic PEEP level would be expected to have which effect on the work of breathing?",
       "options": [
-        "A: No effect, since PEEP only affects oxygenation, not triggering effort",
-        "B: Increased work of breathing, as additional pressure must now be overcome",
-        "C: Reduced work of breathing, by substituting for the pressure the inspiratory muscles would otherwise need to generate to overcome intrinsic PEEP before triggering",
-        "D: Reduced work of breathing, purely because of improved oxygenation reducing respiratory drive",
-        "E: Increased risk of dynamic hyperinflation with no benefit to triggering effort"
+        "A: Reduce it, by offsetting much of the pressure the muscles must generate to overcome intrinsic PEEP before triggering",
+        "B: Increase it, because the added external pressure must now also be overcome by the patient in order to inhale",
+        "C: Leave it unchanged, since PEEP acts on oxygenation rather than on the effort needed to trigger a breath",
+        "D: Reduce it, but solely because the improved oxygenation lowers the patient's respiratory drive and effort",
+        "E: Increase the risk of dynamic hyperinflation while leaving the triggering effort essentially unchanged"
       ],
-      "correct": 2,
-      "explanation": "In the presence of airflow obstruction and intrinsic PEEP, matched extrinsic PEEP substitutes for part of the pressure the inspiratory muscles must generate to overcome intrinsic PEEP before flow (and triggering) can begin, reducing the work of breathing associated with triggering - a distinct mechanism from any oxygenation-related reduction in respiratory drive (D).",
+      "correct": 0,
+      "explanation": "In airflow obstruction with intrinsic PEEP, matched extrinsic PEEP offsets part of the pressure the inspiratory muscles must generate to overcome intrinsic PEEP before flow can begin, reducing the triggering work. B follows the intuition that any added pressure increases work, C and E deny the triggering effect, and D attributes the benefit to the wrong mechanism (oxygenation rather than the intrinsic-PEEP offset).",
       "section": "Positive End Expiratory Pressure",
-      "topic": "PEEP intrinsic auto-PEEP work of breathing triggering substitution COPD",
+      "topic": "PEEP intrinsic auto-PEEP work of breathing triggering offset COPD",
       "image": null,
       "section_url": null
     },
@@ -135,16 +135,16 @@
       "source": "pact_generated",
       "question": "All of the following are recognised beneficial effects of PEEP EXCEPT:",
       "options": [
-        "A: Improved oxygenation by increasing functional residual capacity",
-        "B: Reduced work of breathing in patients with intrinsic PEEP, by substituting the pressure the inspiratory muscles must generate",
-        "C: Prevention of ventilator-induced lung injury by reducing cyclic alveolar opening and closing",
-        "D: Increased physiological dead space from overdistension of normally aerated alveoli",
-        "E: Improved left ventricular function by decreasing transmural pressure in preload-independent states"
+        "A: Improved oxygenation through an increase in functional residual capacity",
+        "B: Reduced work of breathing in patients with intrinsic PEEP",
+        "C: Prevention of ventilator-induced lung injury by limiting cyclic alveolar opening and closing",
+        "D: An increase in physiological dead space from over-distension of normally aerated alveoli",
+        "E: Improved left ventricular function through a reduced transmural pressure in preload-independent states"
       ],
       "correct": 3,
-      "explanation": "Increased dead space from overdistension of normally aerated alveoli is a detrimental effect of PEEP, reducing the efficiency of CO2 removal and promoting VILI/barotrauma - the opposite of a benefit. Options A, B, C and E are all recognised beneficial effects.",
+      "explanation": "An increase in dead space from over-distension of normally aerated alveoli is a detrimental effect of PEEP, worsening CO2 clearance and promoting injury - not a benefit. A, B, C and E are all recognised beneficial effects.",
       "section": "Positive End Expiratory Pressure",
-      "topic": "PEEP beneficial effects negative stem overdistension dead space detrimental",
+      "topic": "PEEP beneficial effects negative stem overdistension dead space detrimental EXCEPT",
       "image": null,
       "section_url": null
     },
@@ -153,18 +153,18 @@
       "type": "A",
       "set": 1,
       "source": "pact_generated",
-      "question": "A ventilator is set so that both the initiation and termination of every breath are determined entirely by preset time intervals, regardless of any patient effort. The delivered pressure profile is preset (pressure-targeted). How should this mode most correctly be classified?",
+      "question": "A ventilator is set so that both the start and the end of every breath are determined entirely by preset time intervals, regardless of patient effort, while the delivered pressure profile is preset. How is this mode best classified?",
       "options": [
-        "A: Assisted, pressure-targeted, because pressure (not volume) is delivered",
-        "B: Control, pressure-targeted, because triggering and cycling-off are both time-based rather than patient-initiated",
-        "C: Assisted, volume-targeted, because all modern ventilators are volume-targeted by default",
-        "D: Control, volume-targeted, because control mode always implies volume delivery",
-        "E: This combination is not possible on modern ventilators"
+        "A: Control and pressure-targeted, because triggering and cycling-off are both time-based while pressure is the preset variable",
+        "B: Assisted and pressure-targeted, since delivering a set pressure rather than a set volume defines an assisted mode",
+        "C: Control and volume-targeted, because a fully controlled mode implies a preset tidal volume",
+        "D: Assisted and volume-targeted, because time-based triggering still allows the patient to interact",
+        "E: A combination of settings that modern ventilators do not permit"
       ],
-      "correct": 1,
-      "explanation": "'Control' versus 'assisted' depends solely on whether triggering and cycling-off are operator/time-determined or patient-effort-determined; 'volume' versus 'pressure' targeted is a separate, independent axis describing which variable governs pressure delivery. Since both triggering and cycling here are time-based, this is a control mode, and since pressure delivery is preset, it is pressure-targeted - control mode does not imply volume delivery (D), and pressure delivery does not imply an assisted mode (A).",
+      "correct": 0,
+      "explanation": "'Control' versus 'assisted' depends only on whether triggering and cycling are time- or patient-determined; 'volume' versus 'pressure' is a separate axis describing delivery. Here both are time-based (control) and pressure is preset (pressure-targeted). B wrongly ties pressure delivery to an assisted mode, C ties control to volume, and D misreads time-triggering as patient interaction.",
       "section": "Basic functions of positive pressure ventilators",
-      "topic": "control assisted mode definition volume pressure targeted orthogonal axes near-miss",
+      "topic": "control assisted mode volume pressure targeted orthogonal axes classification",
       "image": null,
       "section_url": null
     },
@@ -173,19 +173,39 @@
       "type": "A",
       "set": 1,
       "source": "pact_generated",
-      "question": "A ventilated patient is placed on a mode in which delivered pressure is proportional to the electrical activity of the diaphragm, measured via an oesophageal catheter. Which mode is being used, and what determines pressure delivery in this mode?",
+      "question": "A patient is placed on a mode in which the delivered pressure is proportional to the electrical activity of the diaphragm, measured via an oesophageal catheter. Which mode is this, and what determines the delivered pressure?",
       "options": [
-        "A: Proportional Assist Ventilation (PAV); pressure is proportional to instantaneous flow and volume",
-        "B: Neurally-Adjusted Ventilatory Assist (NAVA); pressure is proportional to diaphragmatic electrical activity",
-        "C: Pressure Support Ventilation; pressure is a fixed preset value",
-        "D: Volume-controlled ventilation; pressure varies with a preset flow-time profile",
-        "E: Flow-controlled ventilation; pressure is proportional to expiratory flow"
+        "A: Neurally-Adjusted Ventilatory Assist (NAVA); pressure proportional to diaphragmatic electrical activity",
+        "B: Proportional Assist Ventilation (PAV); pressure proportional to the patient's instantaneous flow and volume",
+        "C: Pressure Support Ventilation; a fixed preset pressure applied to each breath",
+        "D: Volume-controlled ventilation; pressure following a preset flow-time profile",
+        "E: Flow-controlled ventilation; pressure proportional to the expiratory flow"
       ],
-      "correct": 1,
-      "explanation": "NAVA delivers pressure proportional to the diaphragm's electrical activity, monitored via an oesophageal catheter - distinct from PAV, where delivered pressure is instead proportional to the patient's instantaneous flow and volume (reflecting respiratory muscle pressure), and from fixed-pressure or preset flow-time-profile modes (C, D).",
+      "correct": 0,
+      "explanation": "NAVA delivers pressure proportional to the diaphragm's electrical activity via an oesophageal catheter. B describes PAV, where pressure instead tracks instantaneous flow and volume (the closest near-miss), while C, D and E describe fixed-pressure or preset-profile modes that do not follow diaphragmatic activity.",
       "section": "Basic functions of positive pressure ventilators",
       "topic": "NAVA PAV diaphragmatic electrical activity proportional assist mode distinction",
       "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv2_a10",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "The traces compare pressure-triggering (left) and flow-triggering (right). At the marked trigger point, the pressure-triggering panel shows a dip in airway pressure while the flow-triggering panel shows no such pressure dip at that instant. What best explains this?",
+      "options": [
+        "A: Pressure-triggering senses the effort as a pressure fall, while flow-triggering senses a flow change, so airway pressure stays steadier",
+        "B: Flow-triggering requires no patient effort at all, so there is no muscular pressure change to appear on the trace",
+        "C: The pressure dip is a sign of significant intrinsic PEEP that happens to be present in this particular patient",
+        "D: Flow-triggering actually causes an even larger pressure dip that is simply hidden by the compressed scale of this display",
+        "E: The difference reflects a change in delivered tidal volume between the two panels rather than the triggering method"
+      ],
+      "correct": 0,
+      "explanation": "Pressure-triggering works by sensing a fall in circuit pressure caused by the patient's effort, so a Paw dip appears; flow-triggering senses a change in circuit flow instead, so the trigger shows on the flow trace while airway pressure stays steadier. Both require genuine effort (contradicting B), and the panels indicate neither intrinsic PEEP (C) nor a tidal-volume difference (E).",
+      "section": "Basic functions of positive pressure ventilators",
+      "topic": "pressure triggering flow triggering waveform mechanism Paw dip flow change",
+      "image": "images/img_eff12444bf.png",
       "section_url": null
     },
     {
@@ -197,28 +217,28 @@
       "statements": [
         {
           "label": "A",
-          "text": "There is a well-defined optimal PEEP range that applies broadly across different patients and clinical situations.",
-          "correct": false
+          "text": "PEEP can reduce ventilator-induced lung injury by limiting the cyclic opening and closing of alveoli.",
+          "correct": true
         },
         {
           "label": "B",
-          "text": "PEEP can help prevent ventilator-induced lung injury by reducing cyclic opening and closing of alveoli.",
+          "text": "Whether PEEP raises or lowers cardiac output depends on whether cardiac output is preload-dependent.",
           "correct": true
         },
         {
           "label": "C",
-          "text": "Whether PEEP increases or decreases cardiac output depends on whether cardiac output is preload-dependent.",
-          "correct": true
+          "text": "A single optimal PEEP range can be defined that applies broadly across different patients and situations.",
+          "correct": false
         },
         {
           "label": "D",
-          "text": "PEEP has no effect on the work of breathing in patients without airflow obstruction.",
-          "correct": false
+          "text": "PEEP can reduce the work of breathing even in patients without airflow obstruction.",
+          "correct": true
         }
       ],
-      "explanation": "B/C are correct. A is false - no specific PEEP range can be pre-defined as optimal for a given patient at a given time. D is false - PEEP can reduce work of breathing even without obstruction, by shifting tidal breathing to a more compliant part of the pressure-volume curve; the intrinsic-PEEP-substitution mechanism is an additional effect specific to obstruction, not the only one.",
+      "explanation": "A, B and D are correct. C is false - no specific PEEP range can be pre-defined as optimal for a given patient at a given time. D is a genuinely correct but easily-doubted statement: PEEP can reduce work of breathing by shifting tidal breathing to a more compliant part of the pressure-volume curve, not only via the intrinsic-PEEP mechanism seen in obstruction.",
       "section": "Positive End Expiratory Pressure",
-      "topic": "PEEP optimal range myth VILI prevention cardiac output preload dependence work of breathing compliance",
+      "topic": "PEEP optimal range myth VILI cardiac output preload work of breathing compliance",
       "image": null,
       "section_url": null
     },
@@ -231,26 +251,26 @@
       "statements": [
         {
           "label": "A",
-          "text": "In Proportional Assist Ventilation (PAV), pressure delivery terminates when inspiratory flow decreases to zero.",
+          "text": "In Proportional Assist Ventilation (PAV), pressure delivery ends when inspiratory flow falls to zero.",
           "correct": true
         },
         {
           "label": "B",
-          "text": "In Neurally-Adjusted Ventilatory Assist (NAVA), the cycling-off signal is a preset flow threshold, similar to standard flow-cycling.",
-          "correct": false
-        },
-        {
-          "label": "C",
-          "text": "During pressure-triggering, the patient's respiratory muscles perform isometric contraction before inspiratory flow begins.",
+          "text": "During pressure-triggering, the inspiratory muscles contract isometrically before inspiratory flow begins.",
           "correct": true
         },
         {
+          "label": "C",
+          "text": "In Neurally-Adjusted Ventilatory Assist (NAVA), cycling-off is governed by a preset flow threshold, as in standard flow-cycling.",
+          "correct": false
+        },
+        {
           "label": "D",
-          "text": "Modern ventilators have no safety mechanism to terminate an abnormally prolonged inspiratory phase.",
+          "text": "Modern ventilators have no safety mechanism to end an abnormally prolonged inspiration.",
           "correct": false
         }
       ],
-      "explanation": "A/C are correct. B is false - in NAVA the cycling-off signal is diaphragmatic electrical activity dropping below a preset level, not a flow threshold. D is false - a safety time-cutoff exists, typically terminating inspiration if its duration becomes considerably long (e.g. above ~3 seconds).",
+      "explanation": "A and B are correct. C is false - in NAVA, cycling-off occurs when diaphragmatic electrical activity falls by a set percentage from its maximum, not at a preset flow threshold. D is false - a safety time-cutoff exists, typically ending inspiration if it becomes excessively long (e.g. beyond ~3 seconds).",
       "section": "Basic functions of positive pressure ventilators",
       "topic": "PAV NAVA cycling off isometric contraction pressure triggering safety cutoff",
       "image": null,
@@ -270,23 +290,23 @@
         },
         {
           "label": "B",
-          "text": "A mode classified as 'assisted' cannot also be volume-targeted.",
-          "correct": false
+          "text": "The volume- versus pressure-targeted label depends on which variable governs the delivered breath, not on how it is triggered or cycled.",
+          "correct": true
         },
         {
           "label": "C",
-          "text": "The volume/pressure-targeted classification depends on which variable determines the delivered breath, not on how the breath is triggered or cycled.",
+          "text": "A pressure-targeted mode with time-based triggering and cycling-off is a control mode.",
           "correct": true
         },
         {
           "label": "D",
-          "text": "All pressure-targeted modes are necessarily 'assisted' modes.",
+          "text": "A mode classified as 'assisted' cannot also be volume-targeted.",
           "correct": false
         }
       ],
-      "explanation": "A/C are correct. B is false - control/assisted and volume/pressure-targeted are independent axes, so an assisted mode can be volume-targeted (e.g. patient-triggered volume-controlled breaths). D is false for the same reason - pressure-controlled ventilation with time-triggering/cycling is a 'control' pressure-targeted mode.",
+      "explanation": "A, B and C are correct. D is false - control/assisted and volume/pressure-targeted are independent axes, so an assisted mode can be volume-targeted (e.g. patient-triggered volume-controlled breaths). The common error is to treat the two classifications as linked.",
       "section": "Basic functions of positive pressure ventilators",
-      "topic": "control assisted volume pressure targeted orthogonal axes classification trap",
+      "topic": "control assisted volume pressure targeted orthogonal axes classification independent",
       "image": null,
       "section_url": null
     },
@@ -299,28 +319,28 @@
       "statements": [
         {
           "label": "A",
-          "text": "In a patient with acute bronchospasm, the resistive pressure (Pres) component of the equation of motion increases.",
+          "text": "In acute bronchospasm, the resistive pressure component of the equation of motion increases.",
           "correct": true
         },
         {
           "label": "B",
-          "text": "In a patient with pulmonary fibrosis, the elastic pressure (Pel) component decreases for a given lung volume.",
+          "text": "In pulmonary fibrosis, the elastic pressure component decreases for a given lung volume.",
           "correct": false
         },
         {
           "label": "C",
-          "text": "During fully passive mechanical ventilation with no patient effort, Pmus is zero and the total pressure applied equals the ventilator's airway pressure (Paw).",
+          "text": "During fully passive ventilation with no patient effort, Pmus is zero and the total applied pressure equals the ventilator's airway pressure.",
           "correct": true
         },
         {
           "label": "D",
-          "text": "The resistance and elastance of the respiratory system remain constant throughout a breath, regardless of lung or chest wall disease.",
+          "text": "Respiratory system resistance and elastance remain constant throughout a breath regardless of lung or chest wall disease.",
           "correct": false
         }
       ],
-      "explanation": "A/C are correct. B is false and inverted - fibrosis reduces compliance (increases elastance), so Pel INCREASES, not decreases, for a given volume. D is false - resistance and elastance show considerable flow and volume dependency through a breath, particularly in lung or chest wall disease.",
+      "explanation": "A and C are correct. B is false and points the wrong way - fibrosis reduces compliance (raises elastance), so the elastic pressure increases, not decreases, for a given volume. D is false - resistance and elastance show considerable flow- and volume-dependency through a breath, especially in disease.",
       "section": "Equation of motion",
-      "topic": "equation of motion bronchospasm fibrosis resistance elastance passive ventilation disease application",
+      "topic": "equation of motion bronchospasm fibrosis resistance elastance passive ventilation",
       "image": null,
       "section_url": null
     },
@@ -333,49 +353,29 @@
       "statements": [
         {
           "label": "A",
-          "text": "In flow-controlled ventilation (FCV), the ventilator delivers continuous flow during inspiration and a continuous negative flow during expiration.",
+          "text": "In FCV, the ventilator delivers continuous flow during inspiration and continuous negative flow during expiration.",
           "correct": true
         },
         {
           "label": "B",
-          "text": "In FCV mode, tidal volume and respiratory rate are variables set directly by the operator.",
-          "correct": false
+          "text": "In FCV, the operator sets peak inspiratory pressure, inspiratory flow, and the I:E ratio.",
+          "correct": true
         },
         {
           "label": "C",
-          "text": "Routine, scheduled changes of the ventilator circuit are recommended as a means of preventing ventilator-associated pneumonia.",
-          "correct": false
+          "text": "A positive-pressure ventilator's basic components include a pressurised gas source, inspiratory and expiratory valves, and a controller with monitoring and alarms.",
+          "correct": true
         },
         {
           "label": "D",
-          "text": "A positive pressure ventilator's basic components include a pressurised gas source, inspiratory and expiratory valves, and a controller regulating valve function with monitoring and alarms.",
-          "correct": true
+          "text": "Routine, scheduled changes of the ventilator circuit are recommended to prevent ventilator-associated pneumonia.",
+          "correct": false
         }
       ],
-      "explanation": "A/D are correct. B is false - in FCV, tidal volume and respiratory rate are dependent variables; the operator sets peak inspiratory pressure, inspiratory flow and I:E ratio. C is false - routine scheduled circuit changes are explicitly not considered necessary to prevent VAP.",
+      "explanation": "A, B and C are correct (in FCV, tidal volume and respiratory rate are the dependent variables, while the operator sets peak pressure, flow and I:E). D is false - routine scheduled circuit changes are not considered necessary to prevent VAP.",
       "section": "Basic functions of positive pressure ventilators",
-      "topic": "flow-controlled ventilation FCV set variables dependent variables VAP circuit change ventilator components",
+      "topic": "flow-controlled ventilation FCV set variables VAP circuit change ventilator components",
       "image": null,
-      "section_url": null
-    },
-    {
-      "id": "mv2_a10",
-      "type": "A",
-      "set": 1,
-      "source": "pact_generated",
-      "question": "The waveform pair shown compares pressure-triggering (left) and flow-triggering (right). At the marked trigger point, the pressure-triggering panel shows a visible drop in airway pressure (Paw), while the flow-triggering panel shows no corresponding pressure change at that same instant. What best explains this difference?",
-      "options": [
-        "A: Flow-triggering does not require any patient effort to initiate a breath",
-        "B: Pressure-triggering detects the patient's inspiratory effort via a fall in circuit pressure below a preset threshold, whereas flow-triggering detects a change in circuit flow instead, so Paw stays comparatively stable at that instant",
-        "C: The pressure-triggering panel demonstrates the presence of significant intrinsic PEEP in this patient",
-        "D: Flow-triggering produces a larger drop in airway pressure than pressure-triggering, which is not visible on this scale",
-        "E: The difference reflects a change in tidal volume between the two panels, not a difference in triggering mechanism"
-      ],
-      "correct": 1,
-      "explanation": "Pressure-triggering works by detecting a fall in circuit pressure below a preset threshold caused by the patient's inspiratory effort, which is why a visible Paw dip appears at the trigger point; flow-triggering instead detects a change in circuit flow, so the trigger signal shows on the flow trace while Paw remains comparatively stable at that same instant. Both trigger types require genuine patient effort (contradicting A), and the panels do not indicate intrinsic PEEP (C) or a tidal volume difference (E).",
-      "section": "Basic functions of positive pressure ventilators",
-      "topic": "pressure triggering flow triggering waveform mechanism Paw drop flow change trigger signal",
-      "image": "images/img_eff12444bf.png",
       "section_url": null
     }
   ]
