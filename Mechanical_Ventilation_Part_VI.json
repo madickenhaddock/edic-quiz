@@ -1,0 +1,922 @@
+{
+  "module": "Mechanical Ventilation Part VI",
+  "sections": {
+    "Ventilator Induced Lung Injury (VILI)": "VILI = acute lung injury induced/aggravated by MV, histopathologically indistinguishable from ARDS. Two main mechanisms: (1) lung heterogeneity - collapsed/oedematous alveoli act as 'stress raisers' for neighbouring open units, which undergo significant overdistension during tidal changes; (2) atelectrauma - repetitive collapse/reopening causing high dynamic strain and shear stress. Stress = pressure difference alveoli-to-lung-surface; strain = deformation relative to original size. Reduced FRC increases stress/strain at a given VT change. Biotrauma = inflammatory mediator release (TNF-a, IL-1b, IL-6, IL-8, MIP-2, NF-kB) from stress/strain/atelectrauma. VILI features: increased infiltration (high distending pressure raises transmural vascular pressure/decreases interstitial pressure; surfactant depletion/inactivation increases alveolar surface tension), high alveolo-capillary permeability (overinflation damages the barrier), leukocyte activation/biotrauma. Estimation: Stress - Pplat and driving pressure (DP=Pplat-PEEP=VT/Crs; airway opening pressure must be <PEEP for accurate DP); transpulmonary pressure (PL=alveolar-pleural pressure, Ppl approximated by oesophageal pressure Pes): PLendinsp=Pplat-Pes(end-insp); PLendexp=PEEP-Pes(end-exp), driving transpulmonary pressure DPL=PLendinsp-PLendexp. Stress measurement is challenging (non-uniform expansion, non-communicating alveoli, concentrated stress at aerated/non-aerated interfaces). Strain - static=VT; dynamic=VT/FRC (better reflects VILI risk, no widespread FRC measurement method exists); PL=ELspec x Strain (ELspec~12cmH2O). Mechanical power incorporates VT, DP, flow, resistance, RR, PEEP - energy delivered over time; RR is a component (LUNG SAFE study: RR a modifiable mortality factor). Table 1 targets: VT/PBW 4-6ml/kg; Pplat<30cmH2O; VT/FRC 1.5-2.0; PLendinsp<20-25cmH2O; PLendexp 0-2cmH2O (negative=collapse); DP<14cmH2O (strongest mortality predictor, Amato et al: DP predicts survival independent of VT/Pplat/PEEP changes at constant DP); DPL probably <12cmH2O; PEEP individualised; mechanical power target not known; prone >16h/session early in severe ARDS; NMB (no inspiratory efforts). P-SILI (patient self-inflicted lung injury): vigorous spontaneous effort decreases pleural pressure, increases PL/VT, worsens stress/strain; pendelluft = non-uniform pleural pressure swing (more negative in dependent regions) causes early gas shift from non-dependent to dependent regions, worsening injury; negative intrathoracic pressure increases venous return and pulmonary vascular transmural pressure, promoting oedema; asynchrony (double triggering/breath stacking) further raises PL/VT. Monitoring: gold standard = oesophageal catheter (effort magnitude/timing, distending pressure); non-invasive = P0.1, Pocc; PAV+ continuously monitors DP. PEEP improves homogeneity: prevents end-expiratory collapse (reduces atelectrauma) and increases aerated alveoli number (improves compliance); response is NOT uniform - recruitable lungs show reduced strain/atelectrauma with PEEP increase, non-recruitable lungs show worsened strain/distension without benefit - recruitability must be assessed first. PEEP-FiO2 tables, P-V curve, compliance, recruitment-to-inflation ratio, DP/PL, stress index, imaging (CT/US/EIT) can guide PEEP. Recruitment manoeuvres: sustained inflation (CPAP 30-40cmH2O for 30-40s, most common); stepwise/incremental (PEEP 20->30->40cmH2O q2min on fixed PC, then decremented to find de-recruitment point, optimal PEEP set 2.5cmH2O above it); evidence mixed, not routinely recommended, consider in selected severe/persistent hypoxaemia; monitor for hypoxia/haemodynamic instability; consider before any PEEP change or circuit disconnection. HFOV: very low VT (1-3ml/kg, below dead space), frequency 3-15Hz; FiO2/mean Paw determine PaO2, frequency/amplitude/Ti determine PaCO2; two large RCTs found no benefit/possible harm overall; meta-analysis of 4 studies: benefit in severe ARDS (P/F<100) but worse mortality at higher P/F - selected severe ARDS may benefit. Prone position: improves V/Q matching (ventilation more homogeneous, perfusion still dorsal-predominant), reduces shunt, improves gas exchange, protects from VILI. PROSEVA: severe ARDS (P/F<150), >=16h/day, improved survival vs supine. Network meta-analysis: prone + low VT most effective for reducing mortality in moderate-severe ARDS; recommend early (within 36h), combined with lung-protective ventilation. Discontinuation criteria: P/F>=150, FiO2<=0.6, PEEP<=10cmH2O for >=4h after last session. NMB: mechanism unclear (lower PL, improved patient-ventilator interaction; cisatracurium anti-inflammatory via nicotinic-acetylcholine receptor a1 blockade); ACURASYS (340 pts, moderate-severe ARDS) - decreased 90-day mortality; ROSE (1006 pts, severe ARDS, 48h cisatracurium) - no survival benefit; given P-SILI risk, selective use reasonable in early severe ARDS with spontaneous efforts/dyssynchrony. ECCO2R: enables ultra-protective VT (3-4ml/kg) when hypercapnia/acidosis limits lung-protective ventilation. ECMO: considered for persistent hypoxaemia; EOLIA trial - 11% mortality reduction (not statistically significant but clinically relevant) with VV-ECMO vs standard lung-protective ventilation in severe ARDS; risks include major haemorrhage, cannula/circuit complications; optimal targets/patient selection/long-term impact still unclear. Most effective VILI-mortality-reduction strategies: low tidal volume and prone positioning.",
+    "Ventilator Induced Diaphragmatic Dysfunction (VIDD)": "VIDD = loss of diaphragmatic force-generating capacity specifically related to MV, not fully explained by sepsis/drugs/metabolic derangement (though these can worsen it). Unlike ICU-acquired weakness, phrenic nerve transmission and neuromuscular junction transduction are normal or increased in VIDD - the problem is within the muscle fibres. Prevalence: ~60% have severe diaphragmatic weakness at first SBT; VIDD ~2x more common than ICU-acquired weakness; up to 67% of patients WITHOUT apparent ICU-acquired weakness still have VIDD (substantial dissociation); contributes to weaning failure (>50%), prolonged ICU stay, higher mortality. Pathophysiology: atrophy (both slow- and fast-twitch fibres) + contractile dysfunction; histology - fibre atrophy, remodeling, injury (disrupted myofibrils, abnormal mitochondria, increased vascular structures). 4 injury mechanisms: (1) over-assistance - abolished/deficient diaphragm contraction -> rapid disuse atrophy via increased proteolysis + depressed protein synthesis (proteolysis activated within 6h, with oxidative stress); affects ~50% of ventilated patients, cardinal VIDD mechanism; (2) under-assistance - excessive load -> injury/contractile dysfunction; (3) asynchrony with eccentric contractions (diaphragm lengthening during contraction) - from ineffective efforts or reverse triggering; (4) longitudinal atrophy from high PEEP - diaphragm shortens at end-expiration, sarcomere number along fibre length decreases; on PEEP reduction (e.g. weaning), diaphragm overstretched beyond optimal length, impairing performance. Timeline: 12h controlled MV -> ~15% fibre reduction; 18-24h -> ~30%. Assisted MV can also cause atrophy at high support/unloading levels, but more slowly than control MV. Diagnosis: exclude other weaning-failure causes (lung disease, drugs, electrolytes, malnutrition, CHF, CNS/neuromuscular disorders) first; assess respiratory muscle strength (MIP - easy, no equipment, but assesses ALL inspiratory muscles not diaphragm-specific, effort-dependent) and diaphragm-specific strength; ultrasonography (excursion, thickening fraction TFdi - easily available, diaphragm-specific, short learning curve, but variable; also excludes other causes e.g. heart failure/pneumonia). Table 2 comparison: MIP/NIF (threshold -30 to -40cmH2O) easy/no equipment vs not diaphragm-specific/needs cooperation; Pdimax (30-40cmH2O) easy/specific/reproducible vs needs oesophageal+gastric catheter/cooperation; Pdi,twitch (18cmH2O, GOLD STANDARD, combined with magnetic phrenic stimulation) specific/no cooperation needed/valid in passive ventilation vs needs magnetic stimulation/skill/variable; Ptr,stim (7cmH2O, endotracheal pressure with phrenic stimulation, alternative when oesophageal pressure unavailable) no cooperation/no special catheter/valid passive vs not diaphragm-specific/variable/reproducibility issues; TFdi (30%) easily available/specific/short learning curve vs variable; EAdi (threshold unknown) specific/reproducible vs needs dedicated catheter+ventilator/normal values unknown. TFdi = (thickness end-inspiration - thickness end-expiration)/thickness end-expiration; excursion <1cm and TFdi<30% associated with weaning failure. Patients can have VIDD without weaning difficulty. Prevention/management: no specific treatment once developed (antioxidants/protease inhibitors under investigation) - focus on prevention: shorten MV duration, minimise sedation, avoid NMB agents, carefully adjust PEEP, early use of assisted modes, address dyssynchrony, and (most challenging) avoid both excessive AND inadequate assistance. Monitoring effort (P0.1, distress signs, oesophageal manometry, EAdi, muscle ultrasound) aids titration. PAV+/NAVA may protect the diaphragm (better patient-ventilator interaction, ensures ongoing inspiratory contraction); evidence suggests proportional ventilation improves diaphragm function vs pressure support. Phrenic nerve stimulation under investigation: a trial found temporary transvenous stimulation did not increase successful weaning proportion but significantly increased MIP, suggesting reversal of diaphragm dysfunction.",
+    "Ventilator Associated Pneumonia (VAP)": "Definition: pneumonia occurring >=48h after endotracheal intubation/invasive MV. ~half of hospital-acquired pneumonia cases; occurs in 5-40% of ventilated patients; 2nd most common ICU infection. Epidemiology/diagnostic criteria remain controversial. Daily risk highest between days 5-9 of MV; cumulative incidence increases with total MV duration. Clinical impact: prolongs MV duration, increases antibiotic use/ICU stay/hospitalisation/cost. Mortality: 36.6% per INICC data, up to 50% reported; varies by country, ICU type, diagnostic criteria, illness severity, underlying conditions, causative organism. Diagnosis: positive lower-respiratory-tract cultures + respiratory deterioration + clinical infection signs (fever, leukocytosis/leukopenia, elevated inflammatory markers) + new/progressive infiltrates; definitive diagnosis challenging - systematic review/meta-analysis found classic indicators (fever, purulent secretions, leukocytosis, CXR, ETA/PSB/BAL cultures, CPIS) have poor specificity. Prevention: most effective = avoid intubation or minimise MV duration; NIV/high-flow oxygen help by avoiding intubation/re-intubation and shortening MV duration; in intubated patients - lighten sedation, institute SBTs, timely extubation, early mobilisation minimise risk; also head-of-bed elevation, alcohol-based hand hygiene; role of stress ulcer prophylaxis, early tracheostomy, subglottic secretion drainage, conical/polyurethane cuffs, silver/antibiotic-coated tubes, prophylactic probiotics, selective digestive decontamination, chlorhexidine oral care remains CONTROVERSIAL. Table 3 MDR risk factors: local MDR resistance rate >25%; long hospitalisation before VAP; parenteral antibiotics in preceding 90 days; hospital stay >5 days before VAP; previous MDR colonisation; ARDS prior to VAP; concurrent septic shock; acute RRT prior to VAP (mortality chance ~15%). MRSA-specific: local MRSA rate >20% or unknown, or MRSA colonisation. MDR Pseudomonas-specific: local resistance to first-line agents >10% or unknown, or colonisation with MDR Pseudomonas/other MDR Gram-negatives. Treatment: empirical then etiological (based on cultures/susceptibility); majority Gram-negative (Pseudomonas aeruginosa, E. coli, Klebsiella pneumoniae, Acinetobacter spp.); Staphylococcus aureus most common Gram-positive; growing ESBL/AmpC/carbapenemase-producing Enterobacteriaceae; MDR Pseudomonas increasingly prevalent; 50-67% of Acinetobacter baumannii VAP strains carbapenem-resistant; rising colistin resistance; fungi rarely cause VAP except Aspergillus spp. (late-onset, especially post-influenza or COVID-19-associated pneumonia); rapid diagnostic testing increasingly used - potential to reduce antibiotic use and improve outcomes given the tension between early appropriate treatment and avoiding unnecessary broad-spectrum use."
+  },
+  "questions": [
+    {
+      "id": "mv6_a01",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "In a lung with heterogeneous aeration, containing both collapsed/oedematous alveoli and normally aerated alveoli, what happens to the aerated alveoli adjacent to the collapsed units during tidal ventilation?",
+      "options": [
+        "A: They are protected from excess stress because neighbouring collapsed units absorb the applied pressure",
+        "B: They act as \"stress raisers,\" undergoing significant additional transformation and overdistension during tidal volume changes, compared to a uniformly aerated lung",
+        "C: They remain entirely unaffected by the state of neighbouring alveoli",
+        "D: They collapse further in response to the overdistension of neighbouring units",
+        "E: Alveolar heterogeneity has no bearing on regional stress distribution"
+      ],
+      "correct": 1,
+      "explanation": "In heterogeneous lungs, collapsed or oedema-filled alveoli act as 'stress raisers' for neighbouring open alveolar units - the patent alveoli surrounding closed or oedematous ones undergo significant additional transformation and overdistension during tidal volume changes, concentrating injurious stress at these interfaces.",
+      "section": "Ventilator Induced Lung Injury (VILI)",
+      "topic": "VILI mechanism lung heterogeneity stress raisers collapsed alveoli overdistension",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a02",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Alveolar units that repetitively collapse at end-expiration and reopen with each subsequent breath are subject to which specific injurious mechanism?",
+      "options": [
+        "A: Barotrauma, caused exclusively by excessive absolute airway pressure",
+        "B: Atelectrauma, resulting from high dynamic strain and shear stress as units cyclically recruit and derecruit",
+        "C: This pattern of repetitive collapse and reopening has no described injurious mechanism",
+        "D: Volutrauma, caused exclusively by excessively high tidal volumes regardless of recruitment status",
+        "E: Oxygen toxicity, unrelated to mechanical forces"
+      ],
+      "correct": 1,
+      "explanation": "Alveolar units that repetitively collapse and reopen with each breath experience high dynamic strain, generating high shear stress and cellular damage - a mechanism termed atelectrauma, distinct from volutrauma or barotrauma, though these mechanisms interrelate.",
+      "section": "Ventilator Induced Lung Injury (VILI)",
+      "topic": "atelectrauma repetitive collapse reopening dynamic strain shear stress mechanism",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_k01",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the pathophysiologic alterations underlying VILI:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Leukocyte activation and release of proinflammatory mediators such as TNF-alpha, IL-6, and IL-8 contribute to a pulmonary and systemic inflammatory response termed biotrauma.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "High distending pressures during mechanical ventilation can increase infiltration by increasing transmural vascular pressure and/or decreasing lung interstitial pressure.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Mechanical ventilation-induced surfactant depletion or inactivation decreases alveolar surface tension, protecting against alveolar collapse.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Lung overinflation may damage the alveolo-capillary barrier, increasing both epithelial and endothelial permeability.",
+          "correct": true
+        }
+      ],
+      "explanation": "A, B and D correctly describe VILI pathophysiology. C is false and reversed - surfactant depletion/inactivation INCREASES (not decreases) alveolar surface tension, promoting rather than protecting against collapse and contributing to increased infiltration.",
+      "section": "Ventilator Induced Lung Injury (VILI)",
+      "topic": "biotrauma inflammatory mediators surfactant surface tension infiltration permeability trap",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a03",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with ARDS has an end-inspiratory plateau pressure of 28 cmH2O and an end-inspiratory oesophageal pressure of 18 cmH2O, measured during an end-inspiratory occlusion. What is the estimated end-inspiratory transpulmonary pressure (PLendinsp), and how should it be interpreted relative to typical protective targets?",
+      "options": [
+        "A: PLendinsp = 46 cmH2O; this is far above the typical protective target and reflects the airway pressure alone",
+        "B: PLendinsp = 10 cmH2O (28 - 18); this is within the typical protective target of <20-25 cmH2O for end-inspiratory transpulmonary pressure",
+        "C: PLendinsp cannot be calculated without measuring PEEP separately",
+        "D: PLendinsp = 18 cmH2O, equal to the oesophageal pressure alone",
+        "E: PLendinsp is calculated by adding, not subtracting, oesophageal pressure from plateau pressure"
+      ],
+      "correct": 1,
+      "explanation": "PLendinsp = Pplat - Pes(end-insp) = 28 - 18 = 10 cmH2O, within the typical protective target of <20-25 cmH2O - illustrating that plateau pressure alone can overestimate true lung-distending pressure when chest wall elastance contributes substantially to measured Pplat.",
+      "section": "Ventilator Induced Lung Injury (VILI)",
+      "topic": "transpulmonary pressure PLendinsp calculation oesophageal pressure plateau protective target",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a04",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Two patients are both ventilated with a tidal volume of 500 mL. Patient A has a functional residual capacity of 2500 mL; Patient B, with severe ARDS and a much smaller aerated lung, has an FRC of 1000 mL. How do their dynamic strains (VT/FRC) compare, and what does this illustrate about static versus dynamic strain?",
+      "options": [
+        "A: Both patients have identical strain, since static strain (which equals VT) is the same for both, and dynamic strain has no relationship to FRC",
+        "B: Patient B has substantially higher dynamic strain (0.5) than Patient A (0.2), illustrating that dynamic strain better reflects VILI risk than static strain (VT alone), since it accounts for the size of the aerated lung",
+        "C: Patient A has higher dynamic strain than Patient B, because Patient A has a larger absolute FRC",
+        "D: Dynamic strain is calculated as VT multiplied by FRC, not divided by it",
+        "E: Static and dynamic strain are always numerically identical regardless of FRC"
+      ],
+      "correct": 1,
+      "explanation": "Dynamic strain = VT/FRC; Patient B's smaller aerated lung (1000 mL) gives a dynamic strain of 0.5 versus Patient A's 0.2, despite identical tidal volumes - illustrating why dynamic strain better reflects VILI risk than static strain (VT alone), which fails to incorporate how much lung is actually available to receive that volume.",
+      "section": "Ventilator Induced Lung Injury (VILI)",
+      "topic": "static dynamic strain VT FRC ratio calculation VILI risk aerated lung size",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_k02",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding targets used to estimate and limit VILI risk in clinical practice:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A dynamic strain (VT/FRC) exceeding 1.5-2.0 is associated with VILI, but routine measurement of FRC is not widely available in everyday clinical practice.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "An end-inspiratory transpulmonary pressure (PLendinsp) below 20-25 cmH2O and a lung driving pressure (DPL) below approximately 12 cmH2O are considered lung-protective, though clear safe upper limits have not been definitively established.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "A negative end-expiratory transpulmonary pressure (PLendexp) suggests alveolar overdistension at end-expiration.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "The mechanical power target associated with minimising VILI risk has been clearly established through dedicated clinical trials.",
+          "correct": false
+        }
+      ],
+      "explanation": "A and B correctly describe recognised targets and limitations. C is false and reversed - negative PLendexp values reflect alveolar COLLAPSE, not overdistension. D is false - the mechanical power protective target has not been established; the module explicitly notes this remains uninvestigated.",
+      "section": "Ventilator Induced Lung Injury (VILI)",
+      "topic": "VILI protection targets PLendexp collapse mechanical power unknown target trap",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a05",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "In a patient with acute lung injury making vigorous spontaneous inspiratory efforts, gas is observed to move from non-dependent to dependent lung regions early in inspiration, before overall lung inflation begins, causing significant distension of the dependent regions. What is this phenomenon called, and what causes it?",
+      "options": [
+        "A: Auto-PEEP; caused by inadequate expiratory time",
+        "B: Pendelluft; caused by a non-uniform, more negative pleural pressure swing in dependent compared to non-dependent lung regions during vigorous spontaneous effort in injured lungs",
+        "C: Barotrauma; caused exclusively by excessive positive pressure ventilation",
+        "D: Double triggering; caused by strong effort triggering the ventilator twice",
+        "E: Diffusion limitation; caused by alveolar-capillary membrane thickening"
+      ],
+      "correct": 1,
+      "explanation": "Pendelluft occurs when inspiratory effort produces a more negative pleural pressure in dependent than non-dependent lung regions in injured lungs, causing air to move from non-dependent to dependent regions early in inspiration - a distinct mechanism of regional lung injury aggravation contributing to patient self-inflicted lung injury (P-SILI).",
+      "section": "Ventilator Induced Lung Injury (VILI)",
+      "topic": "pendelluft phenomenon P-SILI pleural pressure dependent non-dependent regions mechanism",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a06",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Beyond directly increasing transpulmonary pressure and tidal volume, through what additional mechanism can vigorous spontaneous breathing effort in an injured lung promote pulmonary oedema?",
+      "options": [
+        "A: By decreasing venous return and reducing pulmonary vascular pressures",
+        "B: Negative intrathoracic pressure from spontaneous breathing increases venous return and raises the transmural pressure of the pulmonary vessels, increasing the propensity to oedema",
+        "C: By directly causing bronchospasm, unrelated to any vascular mechanism",
+        "D: By reducing cardiac output to zero, eliminating any pulmonary vascular pressure changes",
+        "E: This mechanism has never been proposed in the literature"
+      ],
+      "correct": 1,
+      "explanation": "Negative intrathoracic pressure generated by vigorous spontaneous breathing increases venous return and raises the transmural pressure of the pulmonary vessels, increasing the propensity for pulmonary oedema - an additional mechanism, alongside pendelluft, by which vigorous spontaneous effort can aggravate lung injury.",
+      "section": "Ventilator Induced Lung Injury (VILI)",
+      "topic": "P-SILI venous return transmural pressure pulmonary vessels oedema mechanism",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a07",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Beyond vigorous spontaneous effort itself, what additional patient-ventilator interaction pattern has been shown to further augment transpulmonary pressures and tidal volumes, potentially undermining an otherwise lung-protective ventilation strategy?",
+      "options": [
+        "A: Perfect synchrony between patient effort and ventilator delivery",
+        "B: Double triggering and breath stacking",
+        "C: A completely passive, sedated patient with no spontaneous effort",
+        "D: Reduced respiratory rate alone, independent of any triggering pattern",
+        "E: The application of low levels of PEEP alone"
+      ],
+      "correct": 1,
+      "explanation": "Patient-ventilator asynchrony, particularly double triggering and breath stacking, can further augment transpulmonary pressures and tidal volumes beyond set lung-protective targets, potentially negating the intended benefit of a lung-protective ventilation strategy.",
+      "section": "Ventilator Induced Lung Injury (VILI)",
+      "topic": "P-SILI double triggering breath stacking asynchrony lung protective strategy undermined",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a08",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "In a patient under assisted mechanical ventilation, what non-invasive techniques can be used to estimate potentially injurious inspiratory efforts without requiring an oesophageal catheter?",
+      "options": [
+        "A: Airway occlusion pressure (P0.1) and single-breath expiratory occlusion pressure (Pocc)",
+        "B: Only invasive pulmonary artery catheterisation",
+        "C: Chest radiography alone, with no functional measurement",
+        "D: There are no non-invasive alternatives to oesophageal manometry",
+        "E: Arterial blood gas analysis alone, without any pressure measurement"
+      ],
+      "correct": 0,
+      "explanation": "While the gold-standard method for assessing effort involves an oesophageal catheter to calculate lung distending pressure, non-invasive techniques such as airway occlusion pressure (P0.1) and single-breath expiratory occlusion pressure (Pocc) can be used to estimate potentially injurious inspiratory efforts.",
+      "section": "Ventilator Induced Lung Injury (VILI)",
+      "topic": "inspiratory effort monitoring P0.1 Pocc non-invasive oesophageal catheter alternative",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_k03",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding lung recruitability and the response of ARDS patients to increased PEEP:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Patients with ARDS respond uniformly to an increase in PEEP, with all patients showing similar degrees of lung recruitment.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "In a patient whose lung is recruitable, increasing PEEP reduces mechanical strain and atelectrauma by recruiting previously collapsed lung units.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "In a patient whose lung is not recruitable, increasing PEEP will worsen mechanical strain by causing additional distension of already-aerated alveoli, without meaningful recruitment.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Assessing lung recruitability before selecting a PEEP level is unnecessary, since higher PEEP is always beneficial regardless of recruitability status.",
+          "correct": false
+        }
+      ],
+      "explanation": "B and C correctly describe the two response patterns. A is false - patients do not respond uniformly to PEEP increases. D is false - assessing recruitability before selecting PEEP is explicitly recommended, since increasing PEEP in a non-recruitable lung worsens strain without benefit.",
+      "section": "Ventilator Induced Lung Injury (VILI)",
+      "topic": "PEEP recruitability responder non-responder atelectrauma overdistension assessment trap",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a09",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A \"sustained inflation\" recruitment manoeuvre, one of the most commonly used techniques, is performed how?",
+      "options": [
+        "A: By switching the ventilator to CPAP mode and applying a pressure of 30-40 cmH2O for 30-40 seconds",
+        "B: By switching to volume control and delivering a single breath of 20 mL/kg",
+        "C: By applying negative pressure to the airway for several minutes",
+        "D: By rapidly cycling PEEP between 0 and 5 cmH2O for one hour",
+        "E: Sustained inflation is a purely theoretical technique that has never been described in practice"
+      ],
+      "correct": 0,
+      "explanation": "Sustained inflation, one of the most commonly used recruitment manoeuvre techniques, involves switching the ventilator to CPAP mode and increasing pressure to 30-40 cmH2O for 30-40 seconds, aiming to reopen previously collapsed lung units.",
+      "section": "Ventilator Induced Lung Injury (VILI)",
+      "topic": "recruitment manoeuvre sustained inflation technique CPAP pressure duration",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a10",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Based on recent evidence, what is the current understanding of high-frequency oscillatory ventilation (HFOV) in ARDS?",
+      "options": [
+        "A: Two large randomised trials showed clear benefit with HFOV in all patients with ARDS, regardless of severity, and it should be used routinely",
+        "B: Two large randomised trials found no benefit and possible harm with HFOV compared to conventional ventilation overall; however, a meta-analysis suggested a possible mortality benefit specifically in patients with severe ARDS (P/F<100 mmHg)",
+        "C: HFOV has never been studied in randomised trials",
+        "D: HFOV is associated with improved mortality only in patients with mild ARDS (P/F>300 mmHg)",
+        "E: HFOV eliminates the need for any conventional ventilator settings and is now first-line therapy for all ARDS"
+      ],
+      "correct": 1,
+      "explanation": "Two large randomised trials found no benefit and possible harm with HFOV; however, a meta-analysis of 4 studies found the association with 30-day mortality varied with hypoxaemia severity - HFOV was associated with improved mortality in severe ARDS (P/F<100mmHg) but worsened mortality at higher P/F.",
+      "section": "Ventilator Induced Lung Injury (VILI)",
+      "topic": "HFOV high frequency oscillatory ventilation evidence severe ARDS P/F subgroup mortality",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a11",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "In the PROSEVA multicentre randomised controlled trial, placing patients with severe ARDS (PaO2/FiO2<150 mmHg) in the prone position improved survival compared to the semi-recumbent supine position. What duration of daily prone positioning was used, and what has subsequent evidence suggested about combining prone position with other strategies?",
+      "options": [
+        "A: At least 16 hours/day; a network meta-analysis found prone position combined with low tidal volume was the most effective ventilation strategy for reducing mortality in moderate-to-severe ARDS",
+        "B: 30 minutes/day; prone positioning should never be combined with other lung-protective strategies",
+        "C: At least 16 hours/day; prone positioning has been shown to be equally effective when combined with high tidal volume ventilation",
+        "D: 2 hours/week; combining strategies has no additional benefit over prone positioning alone",
+        "E: At least 16 hours/day; prone positioning should be delayed until at least 7 days into severe ARDS"
+      ],
+      "correct": 0,
+      "explanation": "PROSEVA used prone positioning for at least 16 hours/day; a subsequent network meta-analysis found prone position combined with low tidal volume was the most effective strategy for reducing mortality in moderate-to-severe ARDS, with guidelines recommending early institution (ideally within 36 hours) alongside lung-protective ventilation.",
+      "section": "Ventilator Induced Lung Injury (VILI)",
+      "topic": "prone positioning PROSEVA duration low tidal volume combination network meta-analysis",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a12",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "According to recent clinical recommendations, which combination of criteria supports discontinuing prone position sessions in a patient with ARDS?",
+      "options": [
+        "A: PaO2/FiO2 >=150 mmHg, FiO2 <=0.6, and PEEP <=10 cmH2O maintained for at least 4 hours after the last prone session",
+        "B: A single measurement of PaO2/FiO2 >=100 mmHg taken during a prone session",
+        "C: Discontinuation should occur automatically after exactly 24 hours of prone positioning, regardless of oxygenation",
+        "D: PaO2/FiO2 <100 mmHg, indicating the patient has stabilised",
+        "E: There are no defined criteria for discontinuing prone positioning"
+      ],
+      "correct": 0,
+      "explanation": "Recognised discontinuation criteria include PaO2/FiO2 >=150 mmHg, FiO2 <=0.6, and PEEP <=10 cmH2O, maintained for at least 4 hours after the end of the last prone session - reflecting sustained improvement rather than a single measurement or fixed time point.",
+      "section": "Ventilator Induced Lung Injury (VILI)",
+      "topic": "prone positioning discontinuation criteria PaO2 FiO2 PEEP sustained improvement",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a13",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Two major randomised controlled trials examined early neuromuscular blockade in ARDS with somewhat differing results. What did these trials find, and what is a reasonable current interpretation?",
+      "options": [
+        "A: Both trials found identical, unambiguous survival benefit, so neuromuscular blockade should be used routinely and continuously in all ARDS patients",
+        "B: The earlier trial in moderate-to-severe ARDS found decreased 90-day mortality with early neuromuscular blockade, but a subsequent larger trial (ROSE) in severe ARDS did not demonstrate a survival benefit from early 48-hour cisatracurium; it is reasonable to consider neuromuscular blockade selectively, particularly in patients with spontaneous efforts or dyssynchrony risking P-SILI",
+        "C: Both trials found neuromuscular blockade to be harmful and it should never be used in ARDS",
+        "D: Neither trial found any effect, positive or negative, on any outcome measure",
+        "E: The ROSE trial found a clear mortality benefit, while the earlier trial found harm"
+      ],
+      "correct": 1,
+      "explanation": "An earlier multicentre trial (340 patients, moderate-to-severe ARDS) found decreased 90-day mortality with early neuromuscular blockade; ROSE (1006 patients, severe ARDS) did not demonstrate a survival benefit. Given these conflicting results and P-SILI risk, selective use in patients with spontaneous efforts or dyssynchrony is considered prudent rather than routine application.",
+      "section": "Ventilator Induced Lung Injury (VILI)",
+      "topic": "neuromuscular blockade ACURASYS ROSE trial discrepancy selective use P-SILI",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a14",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with ARDS requires ultra-protective ventilation with a very low tidal volume, but this results in significant hypercapnia and acidosis that impedes further lung-protective ventilation. Which extracorporeal strategy is specifically suited to addressing this problem, as distinct from addressing severe hypoxaemia?",
+      "options": [
+        "A: Extracorporeal membrane oxygenation (ECMO), since it is the only extracorporeal option available",
+        "B: Extracorporeal carbon dioxide removal (ECCO2R), which allows the application of ultra-protective ventilation with very low tidal volumes (3-4 mL/kg PBW) when hypercapnia/acidosis limits lung-protective ventilation",
+        "C: Neither ECCO2R nor ECMO has any role when hypercapnia limits ventilation strategy",
+        "D: High-frequency oscillatory ventilation is the only option in this scenario",
+        "E: ECCO2R is used exclusively for severe, persistent hypoxaemia, not for hypercapnia"
+      ],
+      "correct": 1,
+      "explanation": "ECCO2R is specifically suited to situations where hypercapnia/acidosis impede lung-protective ventilation, allowing ultra-protective ventilation with very low tidal volumes (3-4 mL/kg PBW); ECMO, by contrast, is primarily considered for persistent severe hypoxaemia (e.g. the EOLIA trial population).",
+      "section": "Ventilator Induced Lung Injury (VILI)",
+      "topic": "ECCO2R ECMO distinction hypercapnia hypoxaemia ultra-protective ventilation EOLIA",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a15",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "According to the module, low tidal volume ventilation and prone positioning are identified as the most effective strategies for reducing VILI-associated mortality. Which of the following strategies has NOT been shown to provide a similarly clear, consistent mortality benefit across large trials?",
+      "options": [
+        "A: High-frequency oscillatory ventilation, which showed no benefit and possible harm in two large trials",
+        "B: Low tidal volume ventilation",
+        "C: Prone positioning in severe ARDS",
+        "D: The combination of low tidal volume and prone positioning",
+        "E: None of the above; all strategies listed have equally clear, consistent mortality benefit"
+      ],
+      "correct": 0,
+      "explanation": "Unlike low tidal volume ventilation and prone positioning - explicitly identified as the most effective VILI-mortality-reduction strategies - HFOV showed no overall benefit and possible harm in two large randomised trials, with benefit suggested only in a specific severe-ARDS subgroup by meta-analysis, not as a consistent, broadly applicable strategy.",
+      "section": "Ventilator Induced Lung Injury (VILI)",
+      "topic": "VILI mortality reduction most effective strategies low tidal volume prone positioning HFOV negative stem",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a16",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "All of the following are recognised effects of PEEP on lung homogeneity and mechanics EXCEPT:",
+      "options": [
+        "A: Prevention of end-expiratory collapse of unstable alveolar units, minimising atelectrauma risk",
+        "B: An increase in the number of aerated alveoli, improving lung compliance and homogeneity",
+        "C: A reduction in shear strain and injury at the margins between aerated and collapsed lung tissue",
+        "D: A guaranteed reduction in mechanical strain in ALL patients with ARDS, regardless of lung recruitability",
+        "E: A rise in end-inspiratory stress, which may or may not be accompanied by beneficial recruitment depending on the individual patient's recruitability"
+      ],
+      "correct": 3,
+      "explanation": "PEEP's effect on mechanical strain depends on individual recruitability - in patients whose lungs are NOT recruitable, increasing PEEP raises stress without meaningful recruitment, worsening rather than reducing mechanical strain. Options A, B, C and E all correctly describe recognised PEEP effects on lung homogeneity.",
+      "section": "Ventilator Induced Lung Injury (VILI)",
+      "topic": "PEEP lung homogeneity negative stem recruitability guaranteed strain reduction EXCEPT",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a17",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "How is ventilator-induced diaphragmatic dysfunction (VIDD) distinguished from generalised ICU-acquired weakness in terms of neuromuscular transmission?",
+      "options": [
+        "A: In VIDD, phrenic nerve signal transmission and neuromuscular junction signal transduction are impaired, identical to ICU-acquired weakness",
+        "B: In VIDD, phrenic nerve signal transmission and neuromuscular junction signal transduction are normal or even increased, distinguishing it from a primary neuropathic or junctional process",
+        "C: VIDD and ICU-acquired weakness are simply two different names for exactly the same condition with no distinguishing features",
+        "D: VIDD exclusively affects the neuromuscular junction, with no effect on the muscle fibres themselves",
+        "E: VIDD is diagnosed purely by the presence of sepsis, independent of any diaphragm-specific findings"
+      ],
+      "correct": 1,
+      "explanation": "Unlike ICU-acquired weakness, in VIDD phrenic nerve signal transmission and neuromuscular junction signal transduction are normal or even increased - the dysfunction instead arises directly from changes within the diaphragm muscle fibres themselves (atrophy and contractile dysfunction).",
+      "section": "Ventilator Induced Diaphragmatic Dysfunction (VIDD)",
+      "topic": "VIDD definition ICU-acquired weakness distinction phrenic nerve neuromuscular junction normal",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_k04",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the prevalence and clinical impact of VIDD:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Approximately 60% of patients have severe diaphragmatic weakness at the time of their first spontaneous breathing trial.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Diaphragmatic dysfunction is approximately twice as frequent as ICU-acquired weakness.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Nearly all patients with VIDD also have clinically apparent ICU-acquired weakness, and VIDD essentially never occurs in patients without ICU-acquired weakness.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Diaphragmatic weakness significantly contributes to weaning failure, prolonged ICU stay, and higher mortality.",
+          "correct": true
+        }
+      ],
+      "explanation": "A, B and D correctly state recognised prevalence data and clinical impact. C is false and reversed - up to 67% of patients WITHOUT apparent ICU-acquired weakness still have VIDD, indicating substantial dissociation between the two conditions.",
+      "section": "Ventilator Induced Diaphragmatic Dysfunction (VIDD)",
+      "topic": "VIDD prevalence statistics ICU-acquired weakness overlap dissociation trap",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_k05",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the mechanisms by which mechanical ventilation can injure the diaphragm:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Over-assistance, where diaphragmatic contraction is abolished or suppressed to deficient levels, rapidly leads to disuse atrophy through increased proteolysis and depressed protein synthesis.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Under-assistance, causing excessive diaphragmatic load, is a recognised mechanism of diaphragmatic injury and contractile dysfunction, distinct from disuse atrophy.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Patient-ventilator asynchrony associated with eccentric diaphragmatic contractions (contraction while the diaphragm is lengthening) is not a recognised mechanism of diaphragm injury.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "High levels of PEEP can induce longitudinal atrophy of the diaphragm by shortening the muscle at end-expiration, reducing the number of sarcomeres along the fibre length.",
+          "correct": true
+        }
+      ],
+      "explanation": "A, B and D correctly describe three of the four recognised injury mechanisms. C is false and reversed - eccentric contractions (e.g. from ineffective efforts or reverse triggering) ARE a recognised mechanism, the fourth of the four described.",
+      "section": "Ventilator Induced Diaphragmatic Dysfunction (VIDD)",
+      "topic": "VIDD four mechanisms over-assistance under-assistance eccentric contraction longitudinal atrophy trap",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a18",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Based on experimental data on the time-course of diaphragmatic atrophy during controlled mechanical ventilation, approximately what reduction in diaphragmatic muscle fibre size occurs after 12 hours, and after 18-24 hours, of fully controlled ventilation?",
+      "options": [
+        "A: No measurable reduction occurs before 72 hours of controlled ventilation",
+        "B: Approximately a 15% reduction after 12 hours, approaching 30% after 18-24 hours",
+        "C: Approximately a 70% reduction after 12 hours, with no further change thereafter",
+        "D: A fixed 5% reduction regardless of duration, from 1 hour to several days",
+        "E: Diaphragmatic fibre size increases, rather than decreases, during the first 24 hours of controlled ventilation"
+      ],
+      "correct": 1,
+      "explanation": "Experimental data indicate that 12 hours of controlled mechanical ventilation results in approximately a 15% reduction in diaphragmatic fibre size, approaching 30% after 18-24 hours - illustrating how rapidly disuse atrophy develops once diaphragmatic contraction is abolished.",
+      "section": "Ventilator Induced Diaphragmatic Dysfunction (VIDD)",
+      "topic": "diaphragm atrophy timeline 12 hours 15 percent 18-24 hours 30 percent controlled ventilation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a19",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient has been ventilated with high PEEP for several days. During weaning, PEEP is acutely reduced. Based on the concept of longitudinal diaphragmatic atrophy, what effect might this have on diaphragm performance?",
+      "options": [
+        "A: Diaphragm performance will improve immediately, since reducing PEEP always benefits diaphragm function",
+        "B: The diaphragm, having adapted to a shortened length at high lung volume (fewer sarcomeres in series), may now be overstretched beyond its optimal length when PEEP is reduced, impairing its performance",
+        "C: PEEP has no effect on diaphragm muscle fibre length or sarcomere number",
+        "D: Longitudinal atrophy only affects the diaphragm's blood supply, not its contractile geometry",
+        "E: Reducing PEEP has no relationship to the length-tension relationship of any muscle"
+      ],
+      "correct": 1,
+      "explanation": "High PEEP shortens the diaphragm at end-expiration, experimentally reducing sarcomere number in series (longitudinal atrophy); when PEEP is acutely reduced, the diaphragm - adapted to a shorter length - can be overstretched beyond its optimal length, impairing contractile performance during weaning.",
+      "section": "Ventilator Induced Diaphragmatic Dysfunction (VIDD)",
+      "topic": "longitudinal atrophy PEEP sarcomere number length tension relationship weaning impairment",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_k06",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding methods to assess diaphragm function, based on the comparison table shown:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Maximal inspiratory pressure (MIP/NIF) is easy to measure and requires no specific equipment, but it assesses all inspiratory muscles rather than being specific to the diaphragm, and requires patient cooperation.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Twitch transdiaphragmatic pressure (Pdi,twitch) is specific for the diaphragm and does not require patient cooperation, but requires magnetic stimulation equipment and shows considerable variability.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The thickening fraction of the diaphragm (TFdi) requires a dedicated nasogastric catheter and specialised ventilator, unlike the other listed methods.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Endotracheal pressure produced by phrenic nerve stimulation (Ptr,stim) does not require patient cooperation and is valid during passive ventilation, but is not specific for the diaphragm.",
+          "correct": true
+        }
+      ],
+      "explanation": "A, B and D correctly reflect the comparison table. C is false and reversed - TFdi (diaphragm ultrasound) is described as easily available with a short learning curve; it is EAdi that requires a dedicated catheter and ventilator, with normal values still unknown.",
+      "section": "Ventilator Induced Diaphragmatic Dysfunction (VIDD)",
+      "topic": "diaphragm assessment methods table MIP Pdi twitch Ptr stim TFdi EAdi comparison trap",
+      "image": "images/img_9b0b8969f2.png",
+      "section_url": null
+    },
+    {
+      "id": "mv6_a20",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "On diaphragm ultrasound in a patient on assisted mechanical ventilation, diaphragm thickness at end-expiration (D1) measures 1.9 mm, and thickness at end-inspiration (D2) measures 2.5 mm. What is the calculated thickening fraction (TFdi), and does this value suggest adequate diaphragmatic effort?",
+      "options": [
+        "A: TFdi = 2.5/1.9 = 132%; this is far above any meaningful threshold and suggests excessive effort",
+        "B: TFdi = (D2-D1)/D1 = (2.5-1.9)/1.9 ~ 32%; since this exceeds the 30% threshold associated with weaning failure, it suggests adequate diaphragmatic effort rather than the pattern associated with failure",
+        "C: TFdi = D2-D1 = 0.6 mm; this is calculated in millimetres, not as a percentage, and has no defined threshold",
+        "D: TFdi = (D1-D2)/D2 ~ -24%; a negative value indicating diaphragm paralysis",
+        "E: TFdi cannot be calculated from this information; additional measurements are required"
+      ],
+      "correct": 1,
+      "explanation": "TFdi = (thickness end-inspiration - thickness end-expiration) / thickness end-expiration = (2.5-1.9)/1.9 ~ 32% - since a TFdi below 30% has been associated with weaning failure, this value above threshold suggests adequate diaphragmatic contractile effort.",
+      "section": "Ventilator Induced Diaphragmatic Dysfunction (VIDD)",
+      "topic": "TFdi thickening fraction calculation ultrasound D1 D2 threshold weaning failure worked example",
+      "image": "images/img_89e455f0aa.png",
+      "section_url": null
+    },
+    {
+      "id": "mv6_a21",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "What is the gold-standard method for evaluating diaphragmatic strength, and what alternative can be used if oesophageal pressure measurement is not available?",
+      "options": [
+        "A: Gold standard: maximal inspiratory pressure (MIP) alone; alternative: chest radiography",
+        "B: Gold standard: twitch transdiaphragmatic pressure (twitch Pdi, from magnetic phrenic nerve stimulation combined with oesophageal/gastric pressure measurement), with a value below 18 cmH2O suggesting weakness; alternative, if oesophageal pressure is unavailable: endotracheal pressure change with phrenic nerve stimulation (Ptr,stim), with a value below 7 cmH2O indicating dysfunction",
+        "C: Gold standard: diaphragm ultrasound thickening fraction alone, with no defined threshold",
+        "D: Gold standard: electrical activity of the diaphragm (EAdi), with well-established normal values",
+        "E: There is no recognised gold-standard method for diaphragmatic strength assessment"
+      ],
+      "correct": 1,
+      "explanation": "The gold standard is twitch Pdi (via magnetic phrenic nerve stimulation with oesophageal/gastric catheters), with values below 18 cmH2O suggesting weakness; when oesophageal pressure measurement is unavailable, Ptr,stim can be used instead, with values below 7 cmH2O indicating dysfunction.",
+      "section": "Ventilator Induced Diaphragmatic Dysfunction (VIDD)",
+      "topic": "twitch Pdi gold standard Ptr stim alternative phrenic nerve stimulation thresholds",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a22",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "According to the module, what represents the most challenging issue in diaphragm-protective ventilator strategy, and which ventilation modes may facilitate addressing it?",
+      "options": [
+        "A: Determining the optimal level of ventilator assistance (avoiding both excessive and inadequate support); proportional modes such as PAV+ and NAVA may facilitate diaphragm protection by improving patient-ventilator interaction and ensuring the patient contracts inspiratory muscles throughout inspiration",
+        "B: Choosing the correct antibiotic regimen; this is best addressed with broad-spectrum prophylaxis",
+        "C: Selecting the correct endotracheal tube size; this has no relationship to diaphragm protection",
+        "D: There is no particularly challenging aspect of diaphragm-protective ventilation; all strategies are equally straightforward to implement",
+        "E: Determining the correct FiO2; oxygen toxicity is the primary determinant of diaphragm protection"
+      ],
+      "correct": 0,
+      "explanation": "The optimal level of ventilator assistance - avoiding both excessive assistance (disuse atrophy) and inadequate assistance (injurious overload) - is identified as the most challenging issue; proportional modes (PAV+, NAVA) may help by improving patient-ventilator interaction and guaranteeing ongoing inspiratory muscle contraction, with evidence suggesting improved diaphragm function versus pressure support.",
+      "section": "Ventilator Induced Diaphragmatic Dysfunction (VIDD)",
+      "topic": "VIDD prevention optimal assist titration PAV+ NAVA diaphragm protection challenging issue",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a23",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "All of the following are recognised diaphragm-protective ventilator strategies EXCEPT:",
+      "options": [
+        "A: Shortening the duration of mechanical ventilation",
+        "B: Minimising sedation",
+        "C: Avoiding neuromuscular blocking agents where possible",
+        "D: Deliberately maximising the level of ventilator assistance for the entire duration of ventilation to ensure complete diaphragm rest",
+        "E: Addressing patient-ventilator dyssynchrony"
+      ],
+      "correct": 3,
+      "explanation": "Deliberately maximising assistance to ensure complete diaphragm rest promotes disuse atrophy through the over-assistance mechanism - the opposite of a protective strategy; preventing BOTH excessive and inadequate assistance is the actual goal. Options A, B, C and E are all explicitly listed diaphragm-protective strategies.",
+      "section": "Ventilator Induced Diaphragmatic Dysfunction (VIDD)",
+      "topic": "diaphragm protective strategies negative stem maximise assistance disuse atrophy EXCEPT",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a24",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A recent randomised study investigated temporary transvenous diaphragm neurostimulation in difficult-to-wean patients. What was the key finding regarding weaning success and maximal inspiratory pressure?",
+      "options": [
+        "A: The intervention significantly increased the proportion of successful weaning and had no effect on maximal inspiratory pressure",
+        "B: The intervention did not increase the proportion of successful weaning from mechanical ventilation, but was associated with a significant increase in maximal inspiratory pressure, suggesting reversal of diaphragm dysfunction",
+        "C: The intervention significantly worsened both weaning success and maximal inspiratory pressure",
+        "D: The intervention had no measurable physiological effect of any kind",
+        "E: The intervention was abandoned before any results could be obtained due to safety concerns"
+      ],
+      "correct": 1,
+      "explanation": "Temporary transvenous diaphragm neurostimulation did not increase the proportion of successful weaning in this trial, but was associated with a significant increase in maximal inspiratory pressure - suggesting physiological reversal of diaphragm dysfunction even without a demonstrated effect on clinical weaning outcome.",
+      "section": "Ventilator Induced Diaphragmatic Dysfunction (VIDD)",
+      "topic": "phrenic nerve stimulation trial weaning success maximal inspiratory pressure diaphragm reversal",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a25",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "How is ventilator-associated pneumonia (VAP) defined in terms of timing relative to intubation?",
+      "options": [
+        "A: Pneumonia occurring at any time before intubation",
+        "B: Pneumonia that occurs at least 48 hours following endotracheal intubation and invasive mechanical ventilation",
+        "C: Pneumonia occurring exclusively within the first 24 hours of intubation",
+        "D: Any pneumonia diagnosed during an ICU admission, regardless of ventilation status",
+        "E: Pneumonia occurring only after extubation"
+      ],
+      "correct": 1,
+      "explanation": "VAP is defined as pneumonia occurring at least 48 hours following endotracheal intubation and invasive mechanical ventilation - distinguishing it from pneumonia present at, or occurring very shortly after, intubation.",
+      "section": "Ventilator Associated Pneumonia (VAP)",
+      "topic": "VAP definition timing 48 hours intubation mechanical ventilation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a26",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the epidemiology of VAP, during which period of mechanical ventilation is the daily risk of developing VAP highest, and how does cumulative incidence relate to ventilation duration?",
+      "options": [
+        "A: The daily risk is highest during the first 24 hours, and cumulative incidence decreases as ventilation duration increases",
+        "B: The daily risk is higher between days 5-9 of mechanical ventilation, while cumulative incidence increases as total duration of mechanical ventilation increases",
+        "C: The daily risk remains constant throughout the entire duration of ventilation, with no time-dependent pattern",
+        "D: The daily risk is highest only after 30 days of ventilation",
+        "E: Cumulative incidence has no relationship to ventilation duration"
+      ],
+      "correct": 1,
+      "explanation": "The daily risk of VAP is higher between days 5-9 of mechanical ventilation, while cumulative incidence continues to increase as total ventilation duration increases - reinforcing why minimising MV duration is a key VAP prevention strategy.",
+      "section": "Ventilator Associated Pneumonia (VAP)",
+      "topic": "VAP epidemiology daily risk 5-9 days cumulative incidence duration",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a27",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "According to data from the International Nosocomial Infection Control Consortium (INICC), what is the reported mortality rate associated with VAP, and what factors contribute to variation in reported mortality across studies?",
+      "options": [
+        "A: Mortality is reported at 36.6% (with rates up to 50% reported in some studies), varying by country, ICU type, diagnostic criteria, illness severity, underlying conditions, and causative organism",
+        "B: Mortality is uniformly 5% across all studies and settings, with no meaningful variation",
+        "C: VAP has no measurable impact on mortality in any reported study",
+        "D: Mortality is reported at over 95% in all studies, regardless of setting",
+        "E: Mortality rates are identical regardless of the causative pathogen or patient population"
+      ],
+      "correct": 0,
+      "explanation": "INICC data report a VAP mortality rate of 36.6%, with rates up to 50% reported in some studies; this variation reflects differences in country, ICU type, diagnostic criteria, illness severity, patients' underlying conditions, and the causative organism.",
+      "section": "Ventilator Associated Pneumonia (VAP)",
+      "topic": "VAP mortality rate INICC 36.6 percent variation factors",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a28",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A systematic review and meta-analysis examined the diagnostic accuracy of classically used clinical indicators for VAP, including fever, purulent secretions, leukocytosis, chest radiography, various culture sampling techniques, and the Clinical Pulmonary Infection Score (CPIS). What did this review find regarding their diagnostic performance?",
+      "options": [
+        "A: These indicators showed excellent specificity, making VAP diagnosis straightforward and unambiguous in all cases",
+        "B: These classically used clinical indicators had poor specificity for the diagnosis of VAP",
+        "C: Chest radiography alone was found to have perfect diagnostic accuracy for VAP",
+        "D: The CPIS score was found to be 100% specific and sensitive for VAP diagnosis",
+        "E: This review found no meaningful differences in diagnostic performance between any indicators studied, as all were equally excellent"
+      ],
+      "correct": 1,
+      "explanation": "The systematic review and meta-analysis found that classically used clinical indicators - fever, purulent secretions, leukocytosis, chest radiography, culture sampling techniques (ETA, PSB, BAL), and CPIS - had poor specificity for VAP diagnosis, contributing to ongoing controversy around VAP diagnostic criteria.",
+      "section": "Ventilator Associated Pneumonia (VAP)",
+      "topic": "VAP diagnosis poor specificity clinical indicators CPIS systematic review challenge",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a29",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "What is identified as the single most effective method to prevent VAP, and what role do NIV and high-flow oxygen therapy play in this strategy?",
+      "options": [
+        "A: Universal prophylactic broad-spectrum antibiotics; NIV and high-flow oxygen have no role in VAP prevention",
+        "B: Avoiding intubation altogether, or minimising the duration of mechanical ventilation if intubation is required; NIV and high-flow oxygen therapy help by avoiding intubation, avoiding re-intubation, and decreasing ventilation duration",
+        "C: Routine early tracheostomy in all patients; this is the only measure with proven benefit",
+        "D: Selective digestive decontamination alone, with no role for avoiding or shortening intubation",
+        "E: Silver-coated endotracheal tubes, used universally regardless of other measures"
+      ],
+      "correct": 1,
+      "explanation": "The most effective method to prevent VAP is avoiding intubation altogether or minimising MV duration; NIV and high-flow oxygen therapy play an essential role by helping avoid intubation, avoid re-intubation, and decrease overall ventilation duration.",
+      "section": "Ventilator Associated Pneumonia (VAP)",
+      "topic": "VAP prevention avoid intubation minimise duration NIV high flow oxygen role",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_k07",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding measures to prevent VAP in intubated, mechanically ventilated patients:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Lightening sedation, instituting spontaneous breathing trials, timely extubation, and early mobilisation are all recognised measures that help minimise VAP risk in intubated patients.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Head-of-bed elevation and an alcohol-based hand hygiene policy are additional measures that may help reduce VAP risk.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The role of measures such as stress ulcer prophylaxis, subglottic secretion drainage, and selective digestive decontamination in VAP prevention is well-established and universally agreed upon, without controversy.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Oral care with chlorhexidine is one of the measures whose role in VAP prevention remains controversial, according to the module.",
+          "correct": true
+        }
+      ],
+      "explanation": "A, B and D correctly describe recognised and controversial measures respectively. C is false and reversed - the module explicitly states the role of measures including stress ulcer prophylaxis, subglottic secretion drainage, and selective digestive decontamination remains controversial, not well-established.",
+      "section": "Ventilator Associated Pneumonia (VAP)",
+      "topic": "VAP prevention bundle sedation mobilisation head of bed controversial measures trap",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_k08",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding risk factors for VAP caused by multidrug-resistant (MDR) pathogens, based on the table shown:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A local multidrug-resistant (MDR) organism resistance rate exceeding 25% is a recognised risk factor for VAP caused by an MDR pathogen.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Parenteral antibiotic exposure in the preceding 90 days and a hospital stay exceeding 5 days prior to VAP onset are both recognised risk factors for MDR VAP.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "ARDS prior to VAP onset and concurrent septic shock are recognised severity-related risk factors for MDR VAP.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "A local methicillin-resistant Staphylococcus aureus (MRSA) rate below 5% is listed as a specific risk factor for MRSA-related VAP.",
+          "correct": false
+        }
+      ],
+      "explanation": "A, B and C correctly reflect the table. D is false and reversed - the table lists a local MRSA rate greater than 20% (or unknown) as the specific risk factor, not a rate below 5%.",
+      "section": "Ventilator Associated Pneumonia (VAP)",
+      "topic": "VAP MDR risk factors table local resistance rate antibiotic exposure MRSA threshold trap",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a30",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the microbiology of VAP, which category of organisms causes the majority of cases, and which is the most common Gram-positive pathogen?",
+      "options": [
+        "A: The majority of cases are caused by Gram-positive bacteria; Pseudomonas aeruginosa is the most common Gram-negative pathogen",
+        "B: The majority of cases are caused by Gram-negative bacteria (e.g. Pseudomonas aeruginosa, E. coli, Klebsiella pneumoniae, Acinetobacter species); Staphylococcus aureus is the most common Gram-positive pathogen",
+        "C: Fungi cause the majority of VAP cases in all patient populations",
+        "D: Viral pathogens are responsible for the majority of VAP cases",
+        "E: All VAP cases are caused by a single universal organism regardless of setting"
+      ],
+      "correct": 1,
+      "explanation": "The majority of VAP cases are caused by Gram-negative bacteria, including Pseudomonas aeruginosa, Escherichia coli, Klebsiella pneumoniae, and Acinetobacter species; Staphylococcus aureus is the most common Gram-positive pathogen.",
+      "section": "Ventilator Associated Pneumonia (VAP)",
+      "topic": "VAP pathogens gram-negative predominance Pseudomonas Staphylococcus aureus microbiology",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a31",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Fungal organisms rarely cause VAP, with one notable exception. Which fungal genus can cause late-onset VAP, and in which specific clinical context is this particularly relevant?",
+      "options": [
+        "A: Candida species, particularly in patients with diabetes mellitus",
+        "B: Aspergillus species, particularly in patients with a recent history of influenza or COVID-19-associated pneumonia",
+        "C: Cryptococcus species, particularly in immunocompetent young patients with no risk factors",
+        "D: Fungal organisms have never been implicated in any case of VAP",
+        "E: Histoplasma species, particularly in patients following cardiac surgery"
+      ],
+      "correct": 1,
+      "explanation": "Fungi rarely cause VAP, with Aspergillus species being the notable exception - particularly implicated in late-onset VAP in patients with a recent history of influenza or COVID-19-associated pneumonia.",
+      "section": "Ventilator Associated Pneumonia (VAP)",
+      "topic": "fungal VAP Aspergillus late-onset influenza COVID-19 associated pneumonia context",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv6_a32",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Given the high rates of antibiotic-resistant strains implicated in VAP, alongside the competing needs to start appropriate treatment early and avoid unnecessary broad-spectrum antibiotic use, what approach has seen increasing application, and what is its potential benefit?",
+      "options": [
+        "A: Universal empirical treatment with a single fixed antibiotic regimen for all patients, without any diagnostic testing",
+        "B: Rapid diagnostic testing for VAP, which has the potential to reduce antibiotic use and improve clinical outcomes",
+        "C: Withholding all antibiotic treatment until final culture results are available, regardless of clinical severity",
+        "D: Rapid diagnostics have been shown to have no impact on antibiotic use or clinical outcomes",
+        "E: Abandoning microbiological testing entirely in favour of clinical judgement alone"
+      ],
+      "correct": 1,
+      "explanation": "Given the tension between starting appropriate treatment early and avoiding unnecessary broad-spectrum antibiotic use amid rising resistance, rapid diagnostic testing for VAP has seen increasing application, with the potential to reduce antibiotic use and improve clinical outcomes.",
+      "section": "Ventilator Associated Pneumonia (VAP)",
+      "topic": "VAP rapid diagnostics antibiotic resistance appropriate treatment reduce use outcomes",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}
