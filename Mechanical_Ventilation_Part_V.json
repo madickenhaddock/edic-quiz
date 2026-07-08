@@ -1,0 +1,1097 @@
+{
+  "module": "Mechanical Ventilation Part V",
+  "sections": {
+    "Definitions": "Weaning = the entire process of liberating the patient from mechanical support and the endotracheal tube. Weaning failure = failing an SBT or needing reintubation/NIV support within 48h (some: 72h) of extubation. Extubation failure = need for reintubation. Traditional classification: simple weaning (successful after 1st SBT, 30-59% of patients), difficult weaning (successful by 2nd-3rd SBT within 7 days, 26-40%), prolonged weaning (>3 SBTs or >7 days, 6-30%). WIND study classification (duration-based, from first separation attempt): Group no-weaning (died before weaning/unsuccessful process/discharged ventilated, ~24% combined); Group 1 short weaning (resolved within 24h); Group 2 (resolved 1 day-1 week); Group 3 prolonged (unresolved at 7 days). WEAN SAFE study: only 65% successfully weaned by day 90; median 1 day (IQR 0-4) from eligibility to first attempt; 22.4% delayed >=5 days (commonly due to high sedation); of those with separation attempts: 64.7% short wean, 10.1% intermediate, 9.6% prolonged, 15.6% weaning failure at day 90. Higher sedation levels and delayed separation initiation = modifiable factors independently associated with failure. Risk factors: age, frailty, immunocompromised status, comorbidities (mortality 16% with none vs 34% with >=3), neurological events, cardiac arrest, higher SOFA, higher RR, lower PaO2/FiO2, higher PEEP; medical patients >20% extubation failure vs surgical <10%; chronic cardiac failure on admission associated with BETTER outcomes. Impact: SBT failure -> higher ICU mortality, longer stays/ventilation; extubation failure/reintubation mortality ~30-50% vs 5-10% success; WIND mortality by group: 5.8%, 16.5%, 29.8% (Groups 1-3); each additional day without success after first attempt increased crude mortality.",
+    "Weaning Outcome Predictors": "RSBI (respiratory rate/tidal volume after 2 min spontaneous breathing) - sensitive screen identifying candidates who might pass a confirmatory SBT, but does NOT confirm actual SBT success. Other predictors: P0.1, MIP, RR, Vt, MV, CROP - moderate reliability, accuracy improvement remains elusive. Diaphragm ultrasound (thickening fraction DTF, excursion) predicts successful weaning with satisfactory accuracy per meta-analysis. Weaning Index (WI) = RSBI x EI x VDI, where EI (elasticity index) = PIP/MIP, and VDI (ventilation demand index) = MV/10; WI shows higher predictive ability than single parameters; combining WI with DTF further improves prediction accuracy.",
+    "The course of weaning": "4 steps: (1) illness resolves (at least partially); (2) readiness-to-wean suspected early, assessed by objective criteria (Table 1: PaO2/FiO2>200mmHg with PEEP<=5cmH2O, hemodynamic stability/no continuous vasopressors, adequate consciousness, adequate cough/secretion clearance, RSBI<100 after 2 min); (3) SBT performed - T-piece (no assistance) most accurately simulates post-extubation conditions; low pressure support (up to 7cmH2O) decreases work of breathing significantly and may overestimate readiness; 30 min usually adequate, up to 120 min in high-risk patients (elderly, COPD, heart failure, neuromuscular disease); delayed SBT initiation associated with longer MV duration and ICU/hospital stay; (4) extubation after successful SBT. Table 2 success criteria: RR<35/min, good tolerance, HR<140/min or HRV>20%, SatO2>90%/PaO2>60mmHg on FiO2<0.4, SBP 80-180mmHg or <20% change from baseline, no signs of increased WOB/distress. Table 3 failure criteria - clinical: diaphoresis, nasal flaring, increasing respiratory effort, tachycardia (HR increase >40bpm), arrhythmias, hypotension, apnoea; gas exchange: PetCO2 rise>10mmHg, pH<7.32, pH drop>0.07, PaO2<60mmHg on FiO2>0.4 (P/F<150), SpO2 fall>5%. A patient failing >3 SBTs or exceeding 7 days enters prolonged weaning; facilitative NIV, and after extubation preventive NIV or re-intubation, are used along this pathway; persistent failure -> permanent weaning failure.",
+    "Diagnostic approach to weaning failure": "Most patients extubate after the first SBT; failing an SBT or extubation automatically places a patient in the difficult-to-wean group. Common causes of SBT failure: incomplete resolution of critical illness, errors in assessing readiness to wean, presence of a new problem. High-risk: age>65, chronic cardiovascular/respiratory disease. Weaning failure pathophysiology is complex/multifactorial, requiring a systematic, knowledgeable diagnostic approach; primary mechanisms (alone or combined): respiratory pump insufficiency, cardiovascular dysfunction, neuromuscular disorders, psychological factors, metabolic/endocrine disease. A comprehensive illustration highlights many overlapping potential causes: inadequate reversal of sedation/paralysis, depressed central drive, laryngospasm, increased resistive/elastic workload, critical illness myopathy/diaphragmatic atrophy, cardiac disease, ventilator dyssynchrony, and more.",
+    "Respiratory pump insufficiency": "Probably the most common cause of weaning failure; imbalance between respiratory muscle workload and neuromuscular capability. Table 4 (neuromuscular capability): decreased capacity - decreased respiratory centre output, phrenic nerve dysfunction, respiratory muscle pump dysfunction (hyperinflation, decreased O2 delivery, respiratory acidosis, mineral/electrolyte abnormalities, malnutrition, muscle fatigue, critical illness neuromyopathy, VIDD); increased workload - increased ventilatory requirements (CO2 production, dead space) and increased mechanical loads (airway resistance, dynamic elastance, intrinsic PEEP). Table 5 (mechanical load): increased airway resistance - tube (small diameter/sputum/kinking), central airways (tracheostomy malposition, sputum plug, vocal cord/laryngeal injury, tracheomalacia/stenosis), small airways (bronchospasm, mucosal oedema, secretions); reduced compliance - chest wall (elevated abdominal pressure, pleural fluid/ascites, pneumothorax, obesity, flail chest, kyphoscoliosis), lung (intrinsic PEEP, alveolar filling/ARDS, atelectasis, interstitial disease/fibrosis, pneumonia). Laryngeal injury (structural/vocal cord) increases workload, causes post-extubation stridor/failure - cuff leak test recommended if high risk. COPD: muscle dysfunction mainly from dynamic-hyperinflation-induced geometrical distortion. Critical illness neuromyopathy: sepsis, COPD, corticosteroids/neuromuscular blockers. VIDD more prevalent in prolonged/difficult vs simple weaning; diaphragm atrophy associated with delayed liberation. TTi (tension time index): rises through SBT in those who fail (unchanged in success); >0.15 associated with fatigue. Prevention of atrophy: maintain some spontaneous inspiratory effort, avoid injurious strong effort (adequate assist for demand), correct expiratory dyssynchrony (eccentric injury), avoid excessive PEEP (longitudinal atrophy), avoid excessive assist/low effort/low drive (disuse atrophy), use proportional modes, avoid myotoxic drugs.",
+    "Cardiovascular Dysfunction": "First described 1988 (Lemaire et al.), obstructive lung disease. Heart failure implicated in up to 42% of unsuccessful SBTs in one cohort; weaning-induced pulmonary oedema (WiPO) in ~12% of SBTs, accounting for 36% of weaning failures. Mechanism: decreased intrathoracic pressure on spontaneous breathing increases venous return (RV preload) and LV afterload; increased work of breathing -> increased extradiaphragmatic muscle/diaphragm activity, decreased intrapleural pressure; RV dilation increases RV/LV interdependence, decreasing LV compliance/increasing filling pressure; increased dyspnoea/anxiety/adrenergic tone plus impaired gas exchange can precipitate myocardial ischaemia. COPD + pre-existing LV disease = particularly high WiPO/acute LV dysfunction risk. LV diastolic dysfunction with preserved EF increasingly recognised as more frequent contributor than systolic dysfunction in some cohorts. Fluid overload/positive fluid balance = risk factor; BNP higher in failure; restrictive fluid intake did not reduce failure overall but helped in COPD specifically. Diagnosis: historically PAOP, now non-invasive preferred - echocardiography Doppler is preferred tool for elevated LV filling pressures; also BNP, plasma protein/Hb concentration changes, extravascular lung water; combined cardiac/lung/diaphragm ultrasound may further enhance prediction. Management: fluid removal/optimise preload-afterload-inotropy; diuretics/vasodilators for filling pressure/congestion; treat ischaemia if present. SBT technique: pressure support generally preferred (less cardiopulmonary stress) but T-piece can be useful to proactively unmask WiPO susceptibility.",
+    "Other causes of weaning failure": "Brain dysfunction (mainly delirium, assessed via CAM-ICU) significantly associated with difficult weaning and higher failed-extubation risk; psychological disturbances (anxiety, depression) also associated with failed extubation.",
+    "Diagnostic workup and management of weaning failure": "Table 6 (respiratory pump): diagnosis - flow/Paw waveform inspection, gas exchange, dynamic compliance/PEEPi/inspiratory resistance measurement, lung-abdomen ultrasound/CXR, upper airway/tube patency assessment (bronchoscopy), cuff leak test; and for neuromuscular capability - MIP/Pdimax, bedside ultrasound (diaphragm descent/thickening), bilateral phrenic nerve stimulation. Therapy - treat underlying disease, optimise airway (bronchodilation, steroids), tracheotomy (rarely); for neuromuscular - optimise sedation/analgesia, muscle training, early mobilisation, minimise asynchrony, rest if fatigued, adequate nutrition. Table 7 (cardiac): diagnosis - 12-lead ECG and echo before/during SBT, SvO2 monitoring, BNP, rule out ischaemia/coronary angiography, pulmonary artery catheter. Therapy - optimise fluid balance (diuretics, restrictive fluids), reduce afterload (inotropes/vasodilators: dobutamine, levosimendan, nitrates), treat ischaemia (beta-blockers, anti-platelets, Hb optimisation, PCI). Table 8 (brain/psych): CAM-ICU, screen depression/anxiety/sleep; therapy - optimise sedation, early mobilisation, pharmacotherapy, dexmedetomidine, optimise ICU environment, sleep-promoting measures. Table 9 (metabolic/endocrine): measure electrolytes/glucose/hormone levels; therapy - glucose control, normalise electrolytes, hormone replacement if deficient.",
+    "The role of NIV and HFNC in weaning failure": "NIV/HFNC used at 3 timepoints: (1) facilitation - after non-successful SBT, particularly recommended in COPD with PaCO2>45mmHg; a meta-analysis in hypercapnic COPD found reduced invasive MV duration, ICU stay, and nosocomial pneumonia. (2) prevention - after successful SBT in patients with risk factors; early NIV/HFNC post-extubation decreases reintubation and ICU mortality in high-risk patients (>65y + chronic cardiovascular/respiratory disease), benefit more pronounced in high-risk patients (network meta-analysis, 36 RCTs); alternating NIV with HFNC decreases reintubation risk vs HFNC alone in high-risk patients. (3) curative/rescue - treating established post-extubation ARF: 2 large RCTs found NO benefit and INCREASED ICU mortality (possible mechanism: preserved oxygenation delays reintubation despite high work of breathing/risk of self-inflicted lung injury); HFNC shown INFERIOR to conventional O2 in reducing treatment/reintubation failure in this rescue context; network meta-analysis found no reduced short-term mortality with either; a trial may be considered in selected patients (mainly COPD) if it doesn't delay reintubation; for hypoxaemic post-extubation ARF on NIV, intubate if no improvement within 1-2h.",
+    "The role of tracheostomy": "Facilitates weaning; improves weaning parameters (reduced airway resistance, improved respiratory muscle strength, decreased RSBI). 86-patient study: after tracheostomy, MIP +4.4cmH2O, MEP +5.4cmH2O, VT +33.7mL, RSBI -14.6, airway resistance -4.9cmH2O/L/s (all p<0.01); greater improvement in successful weaners. Mechanisms: reduced dead space, decreased resistance, improved secretion clearance, reduced sedation need, decreased aspiration risk (though some benefit may reflect changed clinician behaviour). Timing evidence is mixed: 2024 meta-analysis (21 RCTs) - early (<=10d) shortened MV duration (-2.77d) and ICU LOS (-6.36d) but NOT mortality/pneumonia; 2015 Cochrane - lower mortality (RR0.83, NNT~11) and higher day-28 ICU discharge (RR1.29, NNT~8) with early trach; 2023 non-neuro systematic review - NO mortality benefit (RR0.91), likely underpowered per trial sequential analysis - genuinely conflicting evidence. Observational: 508 patients >=14d MV - trach independently associated with lower mortality (aHR0.26) and higher weaning success (aHR2.05) vs continued intubation. Shorter tracheostomy delay time (decision-to-procedure) associated with higher weaning success, independent of decision timing. Structured weaning protocols reduced median ventilator days 17->10.6 and ICU LOS by 4.3 days in a QI study. Decision should be individualised; benefit may be greatest in prolonged/difficult weaning."
+  },
+  "questions": [
+    {
+      "id": "mv5_a01",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient fails a spontaneous breathing trial three days after a first attempt; two days later they are extubated but require reintubation within 24 hours. How should this second event be classified?",
+      "options": [
+        "A: Weaning failure only, unrelated to extubation terminology",
+        "B: Extubation failure (need for reintubation)",
+        "C: Simple weaning",
+        "D: A normal, expected part of ventilator liberation requiring no formal classification",
+        "E: Difficult weaning, but not extubation failure"
+      ],
+      "correct": 1,
+      "explanation": "Extubation failure is specifically defined as the need for reintubation after extubation; this is distinct from (though related to) weaning failure, defined as failing an SBT or needing reintubation/NIV support within 48 (or 72) hours of extubation - the need for reintubation itself is, by definition, extubation failure.",
+      "section": "Definitions",
+      "topic": "weaning failure extubation failure definitions distinction reintubation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a02",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient requires a total of 5 spontaneous breathing trials over 10 days before successful extubation. How should this be classified using both the traditional (Boles) classification and the WIND study classification?",
+      "options": [
+        "A: Traditional: simple weaning; WIND: Group 1",
+        "B: Traditional: prolonged weaning (>3 SBTs, >7 days); WIND: Group 3 (not terminated within 7 days of first attempt)",
+        "C: Traditional: difficult weaning; WIND: Group 2",
+        "D: Traditional: prolonged weaning; WIND: Group 1",
+        "E: This scenario cannot be classified by either system"
+      ],
+      "correct": 1,
+      "explanation": "More than 3 SBTs and more than 7 days from the first attempt meets the traditional definition of prolonged weaning; under the WIND classification, weaning still unresolved 7 days after the first separation attempt places the patient in Group 3 (prolonged weaning) - both systems converge here despite using different specific criteria.",
+      "section": "Definitions",
+      "topic": "weaning classification simple difficult prolonged WIND study groups",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a03",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "In the WEAN SAFE international observational study, what was identified as a potentially modifiable factor independently associated with weaning failure?",
+      "options": [
+        "A: Patient's blood type",
+        "B: Higher sedation levels and delayed initiation of ventilator separation",
+        "C: The specific brand of ventilator used",
+        "D: Time of day the SBT was performed",
+        "E: The patient's height"
+      ],
+      "correct": 1,
+      "explanation": "The WEAN SAFE study identified higher sedation levels and delayed initiation of the first separation attempt as potentially modifiable factors independently associated with weaning failure - highlighting sedation management as an actionable target, in contrast to non-modifiable factors like age or comorbidities.",
+      "section": "Definitions",
+      "topic": "WEAN SAFE study sedation modifiable factor delayed separation weaning failure",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a04",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Compared to patients successfully extubated on the first attempt, patients who require reintubation after extubation failure have approximately what mortality rate?",
+      "options": [
+        "A: 1-2%, similar to successful extubation",
+        "B: 5-10%, slightly higher than successful extubation",
+        "C: 30-50%, substantially higher than the 5-10% seen with successful extubation",
+        "D: Mortality is unaffected by reintubation status",
+        "E: Mortality decreases after reintubation due to closer monitoring"
+      ],
+      "correct": 2,
+      "explanation": "Patients who fail extubation and require reintubation have mortality rates around 30-50%, substantially higher than the 5-10% mortality seen with successful extubation - reflecting both the severity of the underlying condition and potential harms of the failed-extubation episode itself.",
+      "section": "Definitions",
+      "topic": "extubation failure reintubation mortality rate comparison successful extubation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_k01",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding risk factors for difficult and prolonged weaning identified in recent studies:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Older age and frailty are strong predictors of weaning failure identified in the WEAN SAFE study.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Immunocompromised patients have notably higher rates of weaning failure compared to non-immunocompromised patients.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Surgical patients generally have higher extubation failure rates than medical patients.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Chronic cardiac failure present on admission has been associated with worse, not better, weaning outcomes.",
+          "correct": false
+        }
+      ],
+      "explanation": "A and B are correct per WEAN SAFE findings. C is false and reversed - medical patients had extubation failure rates exceeding 20%, while surgical patients had rates below 10%. D is false and reversed - chronic cardiac failure on admission was, somewhat counterintuitively, associated with BETTER weaning outcomes.",
+      "section": "Definitions",
+      "topic": "weaning failure risk factors WEAN SAFE frailty immunocompromised surgical medical chronic heart failure trap",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a05",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "The rapid shallow breathing index (RSBI) is widely used as a weaning predictor. What is its main clinical utility, and what is an important limitation?",
+      "options": [
+        "A: RSBI reliably confirms which patients will pass a subsequent SBT, so a low RSBI alone is sufficient to proceed directly to extubation",
+        "B: RSBI is a sensitive screening test that identifies patients who have a chance of passing a confirmatory SBT, but it does not identify those who will actually pass the SBT",
+        "C: RSBI is calculated from a full 30-minute SBT and cannot be measured earlier",
+        "D: RSBI has no relationship to respiratory rate or tidal volume",
+        "E: RSBI is only validated in patients with COPD and cannot be used in other populations"
+      ],
+      "correct": 1,
+      "explanation": "RSBI (respiratory rate/tidal volume ratio after 2 minutes of spontaneous breathing) is a sensitive early screening test identifying candidates who have a chance of passing a confirmatory SBT - but a favourable RSBI does not itself confirm the patient will actually pass the SBT, so a formal SBT is still required.",
+      "section": "Weaning Outcome Predictors",
+      "topic": "RSBI rapid shallow breathing index screening test limitation SBT confirmation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a06",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "The weaning index (WI) was proposed to improve on the predictive specificity of RSBI by incorporating two correction factors. What are these factors, and how is WI calculated?",
+      "options": [
+        "A: WI = RSBI plus the patient's age, with no other corrections",
+        "B: WI = RSBI multiplied by the elasticity index (EI, peak inspiratory pressure/maximal inspiratory pressure) and the ventilation demand index (VDI, minute ventilation/10)",
+        "C: WI is calculated purely from diaphragmatic ultrasound measurements, without RSBI",
+        "D: WI = RSBI divided by respiratory rate",
+        "E: WI has no defined mathematical relationship to RSBI"
+      ],
+      "correct": 1,
+      "explanation": "The weaning index is the product of RSBI, the elasticity index (EI = PIP/MIP, reflecting compliance/muscle strength), and the ventilation demand index (VDI = minute ventilation/10) - combining breathing pattern, respiratory mechanics, and ventilatory demand, with reportedly higher predictive ability than RSBI alone.",
+      "section": "Weaning Outcome Predictors",
+      "topic": "weaning index WI elasticity index EI ventilation demand index VDI RSBI calculation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a07",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Diaphragmatic ultrasound indices, such as diaphragmatic thickening fraction (DTF) and diaphragm excursion, have been proposed as weaning predictors. What does current evidence suggest about combining these with other indices?",
+      "options": [
+        "A: Diaphragm ultrasound has no demonstrated predictive value for weaning outcome",
+        "B: A meta-analysis found diaphragmatic excursion and thickening fraction predict successful weaning with satisfactory diagnostic accuracy, and combining DTF with the weaning index (WI) has been shown to improve overall predictive accuracy",
+        "C: Diaphragm ultrasound can only be used to diagnose pneumothorax, not to predict weaning outcome",
+        "D: Diaphragmatic thickening fraction is inversely related to successful weaning",
+        "E: Diaphragm ultrasound has replaced all other weaning predictors in current guidelines"
+      ],
+      "correct": 1,
+      "explanation": "A meta-analysis found diaphragmatic excursion and thickening fraction predict successful weaning with satisfactory accuracy, and combining WI with DTF improved prediction accuracy beyond either measure alone - supporting a multimodal approach rather than reliance on a single predictor.",
+      "section": "Weaning Outcome Predictors",
+      "topic": "diaphragm ultrasound thickening fraction excursion weaning predictor combined accuracy",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a08",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "According to the described weaning process, at what point does the weaning process formally begin?",
+      "options": [
+        "A: Only once the endotracheal tube is physically removed",
+        "B: At the time that the illness leading to the need for mechanical ventilation has at least partially resolved",
+        "C: Only after a successful spontaneous breathing trial",
+        "D: At the moment of intubation, since weaning planning should start immediately regardless of illness status",
+        "E: Weaning has no defined starting point"
+      ],
+      "correct": 1,
+      "explanation": "The weaning process is described as beginning once the illness that led to the need for mechanical ventilation has at least partially resolved - the first of four described steps, preceding readiness-to-wean assessment, the SBT, and extubation.",
+      "section": "The course of weaning",
+      "topic": "weaning process first step illness resolution starting point",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a09",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Why might performing a spontaneous breathing trial using low-level pressure support (up to 7 cmH2O) rather than a T-piece potentially overestimate a patient's readiness for extubation?",
+      "options": [
+        "A: Pressure support always increases the work of breathing compared to a T-piece",
+        "B: Pressure support significantly decreases the work of breathing compared to unassisted breathing, so it may not accurately simulate the higher workload the patient will face after extubation",
+        "C: T-piece trials are never used in clinical practice",
+        "D: Pressure support and T-piece trials produce identical physiological conditions",
+        "E: Pressure support trials cannot be performed for any duration"
+      ],
+      "correct": 1,
+      "explanation": "Low-level pressure support significantly decreases work of breathing compared to breathing with no assistance, so a patient may pass a pressure-support SBT while still unable to tolerate the higher post-extubation workload - the T-piece method, with no assistance, most accurately simulates post-extubation conditions.",
+      "section": "The course of weaning",
+      "topic": "SBT method T-piece pressure support work of breathing overestimate readiness",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a10",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "For most patients, a spontaneous breathing trial of what duration is generally adequate to identify success or failure, and in which patients might a longer trial (up to 120 minutes) be warranted?",
+      "options": [
+        "A: 5 minutes is adequate for all patients; longer trials are never needed",
+        "B: 30 minutes is generally adequate; longer trials (up to 120 minutes) may be needed in patients at high risk for reintubation, such as the elderly or those with COPD, heart failure, or neuromuscular disorders",
+        "C: All patients require a minimum 24-hour SBT",
+        "D: SBT duration has no relationship to patient risk factors",
+        "E: 120 minutes is the standard duration for all patients regardless of risk"
+      ],
+      "correct": 1,
+      "explanation": "A 30-minute trial is adequate to identify success or failure in most patients, but a longer trial (up to 120 minutes) may be warranted in patients at higher risk for reintubation - specifically the elderly and those with COPD, heart failure, or neuromuscular disorders.",
+      "section": "The course of weaning",
+      "topic": "SBT duration 30 minutes 120 minutes high risk elderly COPD heart failure neuromuscular",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_k02",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the criteria defining the success of a spontaneous breathing trial (Table 2):",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A respiratory rate below 35 breaths/minute is part of the criteria defining SBT success.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "An SpO2 above 90% or PaO2 above 60 mmHg on FiO2 below 0.4 is part of the criteria defining SBT success.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "A heart rate increase of any magnitude during the SBT automatically defines failure, regardless of the starting heart rate.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "A systolic blood pressure between 80 and 180 mmHg, or a change of less than 20% from baseline, is consistent with SBT success.",
+          "correct": true
+        }
+      ],
+      "explanation": "A, B and D correctly describe the success criteria. C is false - the criterion is a heart rate below 140/min or heart rate variability greater than 20%, not simply 'any increase' as an automatic failure trigger.",
+      "section": "The course of weaning",
+      "topic": "SBT success criteria table respiratory rate heart rate SpO2 blood pressure trap",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a11",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Based on the clinical signs of SBT failure shown, along with recognised gas exchange criteria, which of the following combinations would most strongly support terminating an SBT as failed?",
+      "options": [
+        "A: Mild diaphoresis alone, with stable vital signs and no other findings",
+        "B: Diaphoresis, nasal flaring, abdominal paradox, an increase in heart rate of more than 40 bpm, and a fall in SpO2 of more than 5%",
+        "C: A single episode of coughing with otherwise normal findings",
+        "D: A brief yawn during the trial",
+        "E: A respiratory rate that decreases slightly from baseline"
+      ],
+      "correct": 1,
+      "explanation": "The combination of diaphoresis, nasal flaring, abdominal paradox (a sign of respiratory muscle dysfunction), a heart rate rise of more than 40 bpm, and a significant SpO2 fall together represent multiple recognised clinical and gas-exchange failure criteria occurring simultaneously - a strong indication to terminate the trial, unlike isolated, mild, or transient findings.",
+      "section": "The course of weaning",
+      "topic": "SBT failure criteria clinical signs diaphoresis abdominal paradox tachycardia SpO2 combination",
+      "image": "images/img_4f0e7bfbf0.png",
+      "section_url": null
+    },
+    {
+      "id": "mv5_a12",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "An observational international study found that, compared with patients who underwent early initial SBTs, patients with late initial SBTs experienced what outcome?",
+      "options": [
+        "A: Shorter duration of mechanical ventilation and shorter ICU stay",
+        "B: No difference in any outcome measure",
+        "C: Longer duration of mechanical ventilation and more prolonged ICU and hospital stay",
+        "D: Improved long-term neurological outcomes",
+        "E: Reduced risk of ventilator-associated pneumonia"
+      ],
+      "correct": 2,
+      "explanation": "Patients who underwent late initial SBTs had a longer duration of mechanical ventilation and more prolonged ICU and hospital stays compared to those with early initial SBTs - supporting prompt, active assessment of readiness-to-wean rather than delay.",
+      "section": "The course of weaning",
+      "topic": "SBT timing delay early late duration mechanical ventilation ICU stay",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a13",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "All of the following are components of standard readiness-to-wean criteria EXCEPT:",
+      "options": [
+        "A: Satisfactory oxygenation, e.g. PaO2/FiO2 >200 mmHg with PEEP <=5 cmH2O",
+        "B: Haemodynamic stability, such as the absence of continuous vasopressor infusion",
+        "C: An adequate level of consciousness, with the patient awake or easily aroused",
+        "D: A rapid shallow breathing index above 150 after 2 minutes of a spontaneous breathing trial",
+        "E: Adequate cough and secretion management, roughly assessed by coughing in response to endotracheal aspiration"
+      ],
+      "correct": 3,
+      "explanation": "An RSBI BELOW 100 (not above 150) after 2 minutes of spontaneous breathing is the readiness-to-wean threshold - a high RSBI reflects rapid, shallow breathing suggestive of inadequate reserve, the opposite of readiness. Options A, B, C and E are all correctly stated readiness-to-wean criteria.",
+      "section": "The course of weaning",
+      "topic": "readiness to wean criteria negative stem RSBI oxygenation hemodynamic stability consciousness EXCEPT",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a14",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Based on the weaning process flow shown, a patient who fails their first three SBTs is classified into which weaning category, and what happens if more than three SBTs are needed without success?",
+      "options": [
+        "A: Simple weaning; no further action is defined if SBTs continue to fail",
+        "B: Prolonged weaning (having required more than three SBTs and exceeding seven days); the pathway leads to consideration of facilitative NIV, and after extubation, preventive NIV or re-intubation, with eventual permanent weaning failure if unsuccessful",
+        "C: Difficult weaning; this pathway has no relationship to the number of SBT attempts",
+        "D: This scenario cannot be classified using the described weaning pathway",
+        "E: Simple weaning, since extubation was eventually successful regardless of the number of attempts"
+      ],
+      "correct": 1,
+      "explanation": "Requiring more than three SBTs and extending beyond seven days places this patient in the prolonged weaning category; the pathway shows that after more than three SBTs, options include facilitative NIV to support extubation, or - after extubation - preventive NIV or re-intubation if needed, with persistent failure ultimately leading to permanent weaning failure.",
+      "section": "The course of weaning",
+      "topic": "weaning process flow simple difficult prolonged pathway facilitative NIV permanent failure",
+      "image": "images/img_c3bcc01b25.png",
+      "section_url": null
+    },
+    {
+      "id": "mv5_a15",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Following a failed spontaneous breathing trial, what are recognised common underlying causes that should be considered before attempting a repeat SBT?",
+      "options": [
+        "A: Incomplete resolution of the critical illness, errors in assessing readiness to wean, or the presence of a new problem",
+        "B: SBT failure is always due to ventilator malfunction and requires only a circuit change",
+        "C: SBT failure has a single universal cause in all patients: inadequate sedation",
+        "D: SBT failure cannot be attributed to any specific cause and requires no further investigation",
+        "E: SBT failure is exclusively caused by patient anxiety and requires only psychological reassurance"
+      ],
+      "correct": 0,
+      "explanation": "The most common causes of SBT failure are incomplete resolution of the critical illness, errors in the initial readiness assessment, or an emerging new problem - identifying which applies guides the subsequent diagnostic workup and treatment strategy before a repeat SBT.",
+      "section": "Diagnostic approach to weaning failure",
+      "topic": "SBT failure common causes incomplete resolution readiness assessment new problem",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_k03",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the primary pathophysiological mechanisms of weaning failure:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Respiratory pump insufficiency and cardiovascular dysfunction are both recognised primary pathophysiological mechanisms of weaning failure.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Neuromuscular disorders and psychological factors are also recognised contributors to weaning failure.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Metabolic and endocrine diseases are never a cause of weaning failure and can be excluded from the workup entirely.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "These pathophysiological mechanisms can occur in combination in a single patient, rather than always being isolated to one cause.",
+          "correct": true
+        }
+      ],
+      "explanation": "A, B and D are correct. C is false - metabolic/endocrine disease is explicitly listed among the primary pathophysiologic mechanisms, alongside respiratory pump insufficiency, cardiovascular dysfunction, neuromuscular disorders, and psychological factors, and these can occur alone or combined.",
+      "section": "Diagnostic approach to weaning failure",
+      "topic": "weaning failure pathophysiology categories respiratory cardiovascular neuromuscular psychological metabolic trap",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a16",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "The illustrated overview of causes of weaning failure includes factors such as inadequate reversal of paralysis/narcotics, laryngospasm, critical illness myopathy, and increased resistive/elastic workload. What does this comprehensive figure illustrate about the diagnostic approach to weaning failure?",
+      "options": [
+        "A: Weaning failure has a single dominant cause in nearly all patients, making a broad diagnostic survey unnecessary",
+        "B: The pathophysiology of weaning failure is complex and multifactorial, spanning pharmacological, neuromuscular, mechanical, and cardiopulmonary domains, requiring a systematic, comprehensive diagnostic approach",
+        "C: Only endocrine causes are relevant to weaning failure, as shown in the figure",
+        "D: The figure demonstrates that ventilator dyssynchrony is never a relevant consideration in weaning failure",
+        "E: This figure applies only to paediatric patients and has no relevance to adult critical care"
+      ],
+      "correct": 1,
+      "explanation": "This figure illustrates that weaning failure can arise from many different, sometimes overlapping domains - inadequate reversal of sedative/paralytic drugs, depressed central drive, laryngospasm, increased mechanical loads, critical illness myopathy/diaphragmatic atrophy, cardiac disease, and ventilator dyssynchrony among others - underscoring the need for a systematic, knowledgeable diagnostic approach rather than assuming a single cause.",
+      "section": "Diagnostic approach to weaning failure",
+      "topic": "weaning failure comprehensive causes figure multifactorial diagnostic approach systematic",
+      "image": "images/img_c12bfce49f.png",
+      "section_url": null
+    },
+    {
+      "id": "mv5_k04",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding respiratory neuromuscular capability and workload, based on the table shown:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Phrenic nerve dysfunction and decreased respiratory centre output are both recognised causes of decreased respiratory neuromuscular capacity.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Increased CO2 production and increased dead space ventilation both contribute to increased ventilatory requirements, which in turn increases respiratory muscle workload.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Critical illness neuromyopathy is categorised under increased respiratory muscle workload rather than decreased neuromuscular capacity.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Malnutrition is listed as a contributor to decreased respiratory neuromuscular capacity.",
+          "correct": true
+        }
+      ],
+      "explanation": "A, B and D correctly reflect the table. C is false and reversed - critical illness neuromyopathy is categorised under decreased respiratory neuromuscular capacity (respiratory muscle pump dysfunction), not under increased workload.",
+      "section": "Respiratory pump insufficiency",
+      "topic": "respiratory neuromuscular capacity workload table phrenic nerve malnutrition critical illness neuromyopathy trap",
+      "image": "images/img_06eb37289a.png",
+      "section_url": null
+    },
+    {
+      "id": "mv5_k05",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding causes of increased airway resistance and reduced compliance contributing to weaning failure, based on the table shown:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Sputum retention, kinking, and a small tube diameter are all recognised causes of increased airway resistance related to the endotracheal tube itself.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Elevated abdominal pressure and obesity are recognised causes of reduced compliance related to the chest wall.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Intrinsic PEEP (PEEPi) is categorised as a cause of increased airway resistance rather than reduced compliance.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Interstitial lung disease and fibrosis are recognised causes of reduced compliance.",
+          "correct": true
+        }
+      ],
+      "explanation": "A, B and D correctly reflect the table. C is false and reversed - intrinsic PEEP is categorised under reduced compliance (lung), not under increased airway resistance.",
+      "section": "Respiratory pump insufficiency",
+      "topic": "airway resistance compliance table tube chest wall lung PEEPi interstitial fibrosis trap",
+      "image": "images/img_5a752e5e8c.png",
+      "section_url": null
+    },
+    {
+      "id": "mv5_a17",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient meets standard extubation criteria but has been intubated for over 24 hours and is judged at high risk for post-extubation stridor. What test should be considered before extubation, and what does it screen for?",
+      "options": [
+        "A: A cuff leak test, which screens for laryngeal injury and upper airway oedema that could cause post-extubation stridor and extubation failure",
+        "B: A cardiac stress test, unrelated to airway concerns",
+        "C: A formal swallow study, which has no relationship to stridor risk",
+        "D: There is no specific test available for this risk; extubation should simply proceed",
+        "E: A repeat chest radiograph, which directly visualises laryngeal structures"
+      ],
+      "correct": 0,
+      "explanation": "A cuff leak test is recommended in patients judged at high risk for post-extubation stridor, since laryngeal injuries - including structural injury and abnormal vocal cord mobility - can significantly increase mechanical workload and cause post-extubation stridor and extubation failure.",
+      "section": "Respiratory pump insufficiency",
+      "topic": "laryngeal injury cuff leak test post-extubation stridor high risk prolonged intubation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a18",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "In patients with COPD, respiratory muscle dysfunction is a predominant mechanism of weaning failure. What is the primary causative factor underlying this dysfunction?",
+      "options": [
+        "A: Direct toxic injury to the diaphragm from bronchodilator medications",
+        "B: Geometrical distortion of the respiratory muscles due to dynamic hyperinflation",
+        "C: Complete absence of any diaphragmatic electrical activity",
+        "D: An isolated vitamin D deficiency common in COPD patients",
+        "E: Excessive respiratory muscle strength leading to fatigue from overuse alone"
+      ],
+      "correct": 1,
+      "explanation": "In COPD, the primary causative factor for respiratory muscle dysfunction contributing to weaning failure is geometrical distortion of the respiratory muscles (particularly the diaphragm) due to dynamic hyperinflation, placing the muscles at a mechanical disadvantage on their length-tension curve.",
+      "section": "Respiratory pump insufficiency",
+      "topic": "COPD respiratory muscle dysfunction dynamic hyperinflation geometrical distortion mechanism",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a19",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Which patient population is most classically associated with critical illness neuromyopathy as a contributing cause of weaning failure?",
+      "options": [
+        "A: Patients with well-controlled type 2 diabetes and no other comorbidities",
+        "B: Patients with sepsis, COPD, or those treated with corticosteroids and/or neuromuscular blockers",
+        "C: Patients with isolated ankle fractures and no critical illness",
+        "D: Only patients under 30 years of age with no prior medical history",
+        "E: Patients who have never received sedation"
+      ],
+      "correct": 1,
+      "explanation": "Critical illness neuromyopathy (polyneuropathy and/or myopathy) is particularly seen in patients with sepsis, COPD, or those treated with corticosteroids and/or neuromuscular blockers - recognised risk factors for this common contributor to weaning failure, alongside ventilator-induced diaphragmatic dysfunction (VIDD).",
+      "section": "Respiratory pump insufficiency",
+      "topic": "critical illness neuromyopathy risk factors sepsis COPD corticosteroids neuromuscular blockers",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a20",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "The tension time index (TTi) quantifies the magnitude and duration of inspiratory muscle contraction. What pattern during an SBT, and what threshold value, have been associated with respiratory muscle fatigue and weaning failure?",
+      "options": [
+        "A: TTi decreasing throughout the trial in patients who fail, with any value below 0.05 associated with fatigue",
+        "B: TTi increasing throughout the trial in patients who fail (while remaining unchanged in those who succeed), with values above 0.15 associated with respiratory muscle fatigue",
+        "C: TTi has no relationship to weaning outcome",
+        "D: TTi is only measurable using invasive pulmonary artery catheterisation",
+        "E: A TTi of exactly 1.0 is the normal, expected value in all patients"
+      ],
+      "correct": 1,
+      "explanation": "TTi increases throughout the SBT in patients who go on to fail, while remaining unchanged in those successfully extubated; a TTi value above 0.15 has been associated with respiratory muscle fatigue, making it a useful physiological marker during trial monitoring.",
+      "section": "Respiratory pump insufficiency",
+      "topic": "tension time index TTi respiratory muscle fatigue threshold 0.15 SBT",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a21",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "All of the following are recognised measures to help prevent respiratory muscle atrophy during mechanical ventilation EXCEPT:",
+      "options": [
+        "A: Maintaining some inspiratory effort with spontaneous breathing to limit the duration and degree of muscle inactivity",
+        "B: Avoiding excessive positive expiratory pressure to prevent longitudinal atrophy",
+        "C: Deliberately maximising sedation and assist level to ensure complete respiratory muscle rest throughout ventilation",
+        "D: Utilising proportional modes of assisted ventilation",
+        "E: Avoiding myotoxic drugs where possible"
+      ],
+      "correct": 2,
+      "explanation": "Deliberately maximising sedation and assist level to achieve complete muscle rest promotes disuse atrophy - the opposite of the recommended approach, which specifically aims to avoid excessive assist, low effort, and low drive. Options A, B, D and E are all recognised preventive measures.",
+      "section": "Respiratory pump insufficiency",
+      "topic": "respiratory muscle atrophy prevention negative stem disuse excessive assist EXCEPT",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a22",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Cardiovascular dysfunction as a cause of weaning failure was first described by Lemaire et al. in 1988, in which patient population? Approximately what proportion of unsuccessful SBTs has heart failure been reported to account for in a large medical ICU cohort?",
+      "options": [
+        "A: Patients with obstructive lung disease; up to 42% of unsuccessful SBTs",
+        "B: Patients with isolated renal failure; less than 1% of unsuccessful SBTs",
+        "C: Paediatric patients exclusively; approximately 90% of unsuccessful SBTs",
+        "D: Patients with no cardiac or pulmonary disease; heart failure was never implicated",
+        "E: Patients with isolated hepatic failure; approximately 5% of unsuccessful SBTs"
+      ],
+      "correct": 0,
+      "explanation": "Cardiovascular dysfunction as a cause of weaning failure was first described in 1988 by Lemaire et al. in patients with obstructive lung disease; heart failure has since been reported to account for up to 42% of unsuccessful SBTs in a large medical ICU cohort.",
+      "section": "Cardiovascular Dysfunction",
+      "topic": "cardiovascular dysfunction weaning failure Lemaire 1988 obstructive lung disease heart failure incidence",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a23",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "In recent multicentre observational data, approximately what proportion of spontaneous breathing trials were complicated by weaning-induced pulmonary oedema (WiPO), and what proportion of weaning failures did WiPO account for?",
+      "options": [
+        "A: WiPO occurs in approximately 12% of SBTs and accounts for 36% of weaning failures",
+        "B: WiPO occurs in 90% of SBTs and accounts for nearly all weaning failures",
+        "C: WiPO has never been documented to occur during SBTs",
+        "D: WiPO occurs in less than 0.1% of SBTs and is clinically irrelevant",
+        "E: WiPO accounts for 100% of all weaning failures, with no other cause ever contributing"
+      ],
+      "correct": 0,
+      "explanation": "Recent multicentre observational data indicate that WiPO occurs in approximately 12% of SBTs and accounts for 36% of weaning failures - a substantial proportion, underscoring the importance of considering cardiac causes when a patient fails an SBT.",
+      "section": "Cardiovascular Dysfunction",
+      "topic": "weaning induced pulmonary oedema WiPO incidence SBT weaning failure proportion",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_k06",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the mechanisms potentially involved in developing weaning-induced pulmonary oedema, based on the figure shown:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The transition from mechanical ventilation to spontaneous breathing decreases intrathoracic pressure, which increases both venous return (right ventricular preload) and left ventricular afterload.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Right ventricular dilation can increase left/right ventricular interdependence, reducing left ventricular compliance.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Increased work of breathing during weaning is associated with decreased extradiaphragmatic muscle activity and decreased diaphragm activity.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "The combination of increased dyspnoea/anxiety, increased adrenergic tone, and impaired gas exchange can contribute to myocardial ischaemia during a failing SBT.",
+          "correct": true
+        }
+      ],
+      "explanation": "A, B and D correctly describe the mechanisms shown. C is false and reversed - increased work of breathing is associated with INCREASED extradiaphragmatic muscle and diaphragm activity (and decreased intrapleural pressure), not decreased activity.",
+      "section": "Cardiovascular Dysfunction",
+      "topic": "weaning induced pulmonary oedema mechanism preload afterload interdependence myocardial ischaemia trap",
+      "image": "images/img_b4ba53de0f.png",
+      "section_url": null
+    },
+    {
+      "id": "mv5_a24",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Which combination of pre-existing conditions places a patient at particularly high risk of experiencing acute left ventricular dysfunction and weaning-induced pulmonary oedema during weaning?",
+      "options": [
+        "A: Isolated well-controlled hypertension with no other disease",
+        "B: Concomitant pre-existing COPD and left ventricular disease",
+        "C: A remote history of appendectomy with no cardiopulmonary disease",
+        "D: Isolated, mild, asymptomatic anaemia",
+        "E: A single previous episode of self-limiting gastroenteritis"
+      ],
+      "correct": 1,
+      "explanation": "Patients with concomitant pre-existing COPD and left ventricular disease have a substantially high risk of experiencing acute LV dysfunction and WiPO during weaning - both conditions are independently associated with WiPO risk, and their combination compounds it further.",
+      "section": "Cardiovascular Dysfunction",
+      "topic": "COPD left ventricular disease combination weaning induced pulmonary oedema risk",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a25",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Recent findings emphasise the role of which type of left ventricular dysfunction as a contributor to weaning failure, even when ejection fraction is preserved?",
+      "options": [
+        "A: Left ventricular diastolic dysfunction with preserved ejection fraction",
+        "B: Right ventricular systolic dysfunction exclusively, with no left-sided contribution",
+        "C: Mitral valve prolapse, unrelated to ventricular function",
+        "D: Aortic stenosis exclusively",
+        "E: Diastolic dysfunction has been shown to have no relationship to weaning failure"
+      ],
+      "correct": 0,
+      "explanation": "Recent findings emphasise LV diastolic dysfunction with preserved ejection fraction as a contributor to weaning failure - in one ICU cohort, weaning failure was more frequently attributable to varying degrees of diastolic than systolic dysfunction, highlighting the importance of assessing diastolic function even when ejection fraction appears normal.",
+      "section": "Cardiovascular Dysfunction",
+      "topic": "left ventricular diastolic dysfunction preserved ejection fraction weaning failure contributor",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a26",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "How has the diagnostic approach to weaning-induced pulmonary oedema evolved, and what is currently the preferred diagnostic modality?",
+      "options": [
+        "A: Pulmonary artery occlusion pressure measurement remains the only accepted diagnostic method, and echocardiography has no role",
+        "B: Historically, pulmonary artery occlusion pressure was used, but current practice favours non-invasive modalities, with echocardiography Doppler now the preferred tool for detecting elevated LV filling pressures",
+        "C: Chest radiography alone is now considered sufficient and has replaced all other modalities",
+        "D: Diagnosis relies exclusively on arterial blood gas analysis, with no role for any cardiac imaging",
+        "E: BNP measurement has completely replaced the need for any imaging modality"
+      ],
+      "correct": 1,
+      "explanation": "While pulmonary artery occlusion pressure measurement was historically used, current practice favours non-invasive modalities, with echocardiography Doppler now preferred for detecting elevated LV filling pressures and guiding management - though BNP, protein/haemoglobin concentration changes, and extravascular lung water remain supportive markers.",
+      "section": "Cardiovascular Dysfunction",
+      "topic": "weaning induced pulmonary oedema diagnosis echocardiography pulmonary artery occlusion pressure evolution",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a27",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "For patients at risk of weaning-induced pulmonary oedema, current guidelines generally recommend which SBT technique as preferred, and why might a T-piece trial nonetheless sometimes be useful?",
+      "options": [
+        "A: T-piece trials are preferred because they impose less cardiopulmonary stress than pressure support",
+        "B: Pressure support ventilation SBTs are generally preferred, as T-piece trials impose greater cardiopulmonary stress; however, T-piece trials can be useful for identifying patients susceptible to WiPO by unmasking the risk",
+        "C: Neither technique has any relevance to cardiopulmonary stress or WiPO risk",
+        "D: High-frequency oscillatory ventilation is the preferred SBT technique in these patients",
+        "E: SBTs should never be attempted in any patient with cardiac risk factors"
+      ],
+      "correct": 1,
+      "explanation": "Guidelines generally recommend SBTs with pressure support as preferred since T-piece trials impose greater cardiopulmonary stress; however, precisely because of this greater stress, T-piece trials can be useful in selected patients to proactively unmask susceptibility to WiPO that a gentler trial might not reveal.",
+      "section": "Cardiovascular Dysfunction",
+      "topic": "SBT technique choice pressure support T-piece cardiopulmonary stress WiPO unmask",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a28",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Brain dysfunction is a recognised cause of weaning failure, most commonly due to which condition, and how is it assessed?",
+      "options": [
+        "A: Delirium, most commonly, assessed using the Confusion Assessment Method for the ICU (CAM-ICU)",
+        "B: Dementia exclusively, assessed only by formal neuropsychological testing over several weeks",
+        "C: Brain dysfunction has no recognised association with weaning outcomes",
+        "D: Only structural brain lesions on CT scan are relevant; functional assessment tools play no role",
+        "E: Delirium is assessed exclusively through patient self-report, with no validated bedside tool available"
+      ],
+      "correct": 0,
+      "explanation": "Delirium is the main cause of brain dysfunction contributing to weaning failure and is assessed using the CAM-ICU; delirium has been significantly associated with difficult weaning and a higher risk of failed extubation, alongside other psychological disturbances such as anxiety and depression.",
+      "section": "Other causes of weaning failure",
+      "topic": "delirium brain dysfunction CAM-ICU weaning failure association",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_k07",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the diagnostic and therapeutic approach to respiratory pump insufficiency as a cause of weaning failure:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Inspection of flow and airway pressure waveforms, and measurement of dynamic compliance/PEEPi/inspiratory resistance, are part of the diagnostic approach to increased inspiratory muscle workload.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Bedside ultrasound assessing diaphragm descent or thickening, and bilateral phrenic nerve stimulation, are part of the diagnostic approach to impaired respiratory neuromuscular capability.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Tracheotomy is listed as the first-line, most commonly used therapeutic intervention for increased inspiratory muscle workload.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Early mobilisation and minimising patient-ventilator asynchrony are recognised therapeutic interventions for impaired respiratory neuromuscular capability.",
+          "correct": true
+        }
+      ],
+      "explanation": "A, B and D correctly describe the diagnostic/therapeutic approach. C is false - tracheotomy is listed as a therapeutic option but explicitly noted as used rarely, not first-line; treating the underlying disease and optimising airway function (bronchodilation, steroids) are the primary interventions.",
+      "section": "Diagnostic workup and management of weaning failure",
+      "topic": "respiratory pump insufficiency diagnostic therapeutic table tracheotomy rarely bronchodilation trap",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_k08",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the diagnostic and therapeutic approach to cardiac dysfunction as a cause of weaning failure:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A 12-lead ECG and echocardiography, performed before and during/after the SBT, are part of the diagnostic approach to suspected cardiac dysfunction.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Monitoring mixed venous oxygen saturation (SvO2) during the SBT is part of the recommended diagnostic approach.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Diuretics and restrictive fluid management are therapeutic strategies aimed at reducing afterload, not optimising fluid balance.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "If myocardial ischaemia is suspected, appropriate treatment may include beta-blockers, anti-platelet therapy, haemoglobin optimisation, and percutaneous coronary intervention.",
+          "correct": true
+        }
+      ],
+      "explanation": "A, B and D correctly describe the approach. C is false and reversed - diuretics and restrictive fluid management are categorised under optimising fluid balance; reducing afterload instead uses inotropes/vasodilators such as dobutamine, levosimendan, and nitrates.",
+      "section": "Diagnostic workup and management of weaning failure",
+      "topic": "cardiac dysfunction diagnostic therapeutic table fluid balance afterload reduction myocardial ischaemia trap",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a29",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "For a patient with suspected brain dysfunction/delirium contributing to weaning failure, which of the following is a recognised therapeutic intervention, and what diagnostic measurements are relevant for suspected metabolic/endocrine causes of weaning failure?",
+      "options": [
+        "A: Dexmedetomidine for delirium management; measurement of electrolytes, glucose, and relevant hormone plasma levels for metabolic/endocrine causes",
+        "B: High-dose benzodiazepines are the first-line treatment for ICU delirium in this context; metabolic causes require no specific laboratory testing",
+        "C: Delirium should never be pharmacologically treated under any circumstances; metabolic causes are diagnosed exclusively by clinical examination",
+        "D: Only physical restraints are recommended for delirium management; metabolic/endocrine causes cannot be identified through blood testing",
+        "E: Sleep-promoting measures and ICU environment optimisation have no role in delirium management"
+      ],
+      "correct": 0,
+      "explanation": "Dexmedetomidine, alongside sedation optimisation, early mobilisation, appropriate pharmacotherapy, and sleep-promoting measures, is a recognised intervention for delirium; for suspected metabolic/endocrine causes, measurement of electrolyte and glucose levels, along with relevant hormone plasma levels, guides targeted correction.",
+      "section": "Diagnostic workup and management of weaning failure",
+      "topic": "delirium dexmedetomidine metabolic endocrine diagnostic electrolytes glucose hormone",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a30",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "NIV and HFNC have been used at three distinct time points during the weaning process. Based on the algorithm shown, what are these three roles?",
+      "options": [
+        "A: To facilitate extubation in patients failing an SBT; to prevent reintubation in high-risk patients after successful weaning; and, with no evidence of benefit except in surgical patients, to treat post-extubation respiratory failure",
+        "B: Only to treat established post-extubation respiratory failure, with no other recognised role",
+        "C: Only as a facilitation technique, with no preventive or curative application",
+        "D: Exclusively in patients with normal lungs and no risk factors for respiratory failure",
+        "E: NIV and HFNC have identical evidence and are recommended equally at all three time points"
+      ],
+      "correct": 0,
+      "explanation": "NIV/HFNC are used as a facilitation technique after a non-successful SBT (particularly recommended in COPD with PaCO2>45mmHg), as a preventive technique after a successful SBT in patients with risk factors, and as a curative/rescue technique for established post-extubation respiratory failure - where evidence shows no benefit except in surgical patients.",
+      "section": "The role of NIV and HFNC in weaning failure",
+      "topic": "NIV HFNC weaning three timepoints facilitation prevention curative algorithm",
+      "image": "images/img_0eff85f596.png",
+      "section_url": null
+    },
+    {
+      "id": "mv5_a31",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "All of the following have been associated with the use of NIV as a facilitation technique in COPD patients with hypercapnia who fail an SBT EXCEPT:",
+      "options": [
+        "A: Reduced duration of invasive mechanical ventilation",
+        "B: Decreased ICU length of stay",
+        "C: Lower incidence of nosocomial pneumonia",
+        "D: An increased overall reintubation rate",
+        "E: Earlier extubation than would otherwise be achieved"
+      ],
+      "correct": 3,
+      "explanation": "A meta-analysis found NIV as a facilitation technique in hypercapnic COPD patients was associated with reduced invasive MV duration, decreased ICU stay, and lower nosocomial pneumonia incidence - not an increased reintubation rate, which would contradict the entire rationale for this facilitative strategy.",
+      "section": "The role of NIV and HFNC in weaning failure",
+      "topic": "facilitative NIV COPD hypercapnia negative stem reintubation rate EXCEPT",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a32",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Early application of NIV or HFNC immediately after extubation, in patients at high risk for extubation failure (e.g. over 65 years old with chronic cardiovascular or respiratory disease), has been shown to have what effect?",
+      "options": [
+        "A: No effect on reintubation rate in any patient group",
+        "B: Increased reintubation rate and increased ICU mortality",
+        "C: Decreased reintubation rate and decreased ICU mortality, with a more pronounced effect in patients at high risk of extubation failure",
+        "D: Benefit only in patients under 40 years of age with no comorbidities",
+        "E: NIV and HFNC are contraindicated in this preventive context"
+      ],
+      "correct": 2,
+      "explanation": "Early preventive NIV or HFNC application after extubation in high-risk patients decreases reintubation rates and ICU mortality; a network meta-analysis of 36 randomised studies found this benefit more pronounced specifically in patients at high risk of extubation failure - distinct from the lack of benefit (and possible harm) with NIV as rescue therapy for established failure.",
+      "section": "The role of NIV and HFNC in weaning failure",
+      "topic": "preventive NIV HFNC high risk extubation failure reintubation mortality network meta-analysis",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a33",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "What has recent evidence shown regarding alternating NIV with HFNC (compared to HFNC alone) after extubation in patients at high risk of extubation failure?",
+      "options": [
+        "A: Alternating NIV with HFNC significantly increases the risk of reintubation compared to HFNC alone",
+        "B: Alternating NIV with HFNC significantly decreases the risk of reintubation compared to high-flow nasal oxygen alone",
+        "C: There is no difference between the two strategies in any outcome",
+        "D: This combined strategy has never been studied",
+        "E: HFNC alone is always contraindicated in high-risk patients"
+      ],
+      "correct": 1,
+      "explanation": "Current evidence supports that alternating NIV with HFNC, compared with high-flow nasal oxygen alone, significantly decreases the risk of reintubation in patients carrying a high risk of extubation failure - potentially combining benefits of both modalities in this preventive context.",
+      "section": "The role of NIV and HFNC in weaning failure",
+      "topic": "NIV HFNC alternating strategy reintubation risk high-flow nasal oxygen alone comparison",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_k09",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the use of NIV and HFNC as rescue/curative therapy for established post-extubation respiratory failure:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Two large randomised studies found that NIV used as rescue therapy for established post-extubation respiratory failure failed to demonstrate benefit and was associated with increased ICU mortality.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "A proposed explanation for this increased mortality is that preserved oxygenation on NIV may lead to delayed reintubation, despite ongoing high work of breathing and risk of self-inflicted lung injury.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "HFNC has been shown to be clearly superior to conventional oxygen therapy in reducing treatment failure rates when used to treat established post-extubation acute respiratory failure.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "When NIV is applied for hypoxaemic post-extubation acute respiratory failure, guidance recommends intubation if the patient's clinical status has not improved within the first 1-2 hours.",
+          "correct": true
+        }
+      ],
+      "explanation": "A, B and D correctly describe the evidence and recommendations. C is false and reversed - HFNC has been shown to be INFERIOR (not superior) to conventional oxygen therapy in reducing treatment/reintubation rates specifically in this rescue/curative context, distinct from its more favourable role in prevention.",
+      "section": "The role of NIV and HFNC in weaning failure",
+      "topic": "rescue curative NIV post-extubation failure increased mortality self-inflicted lung injury HFNC inferior trap",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a34",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A prospective study of 86 difficult-to-wean patients found that, after conversion to tracheostomy, which of the following changes in weaning parameters was observed?",
+      "options": [
+        "A: Maximum inspiratory pressure decreased and airway resistance increased",
+        "B: Maximum inspiratory pressure increased by 4.4 cmH2O, tidal volume increased by 33.7 mL, rapid shallow breathing index decreased by 14.6, and airway resistance decreased by 4.9 cmH2O/L/s",
+        "C: No measurable change in any weaning parameter was observed",
+        "D: Only maximum expiratory pressure changed, with all other parameters remaining static",
+        "E: Rapid shallow breathing index increased significantly after tracheostomy"
+      ],
+      "correct": 1,
+      "explanation": "This study found measurable improvements across multiple weaning parameters after tracheostomy - increased maximum inspiratory/expiratory pressures, increased tidal volume, decreased RSBI, and decreased airway resistance (all statistically significant) - with successful weaners showing greater improvements in respiratory muscle strength.",
+      "section": "The role of tracheostomy",
+      "topic": "tracheostomy physiologic benefit weaning parameters study numbers MIP RSBI resistance",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a35",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Through which proposed mechanisms does tracheostomy facilitate weaning compared to translaryngeal (endotracheal tube) intubation?",
+      "options": [
+        "A: Increased dead space and increased airway resistance",
+        "B: Reduced dead space, decreased airway resistance, improved secretion clearance, reduced sedation requirements, and decreased aspiration risk",
+        "C: Tracheostomy has no plausible physiologic mechanism and any benefit is purely coincidental",
+        "D: Increased sedation requirements compared to endotracheal intubation",
+        "E: Tracheostomy exclusively works by directly strengthening the diaphragm"
+      ],
+      "correct": 1,
+      "explanation": "Proposed mechanisms include reduced anatomical dead space, decreased airway resistance (a shorter, wider conduit than an endotracheal tube), improved secretion clearance, reduced sedation requirements, and decreased aspiration risk - though some clinical benefit may also relate to changes in clinician behaviour and management.",
+      "section": "The role of tracheostomy",
+      "topic": "tracheostomy mechanisms dead space resistance secretion clearance sedation aspiration",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_k10",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding evidence on the timing of tracheostomy:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A 2024 meta-analysis of 21 RCTs found that early tracheostomy (within 10 days) significantly shortened duration of mechanical ventilation and ICU length of stay compared to late tracheostomy.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The same 2024 meta-analysis found that early tracheostomy significantly reduced mortality and pneumonia incidence.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "A 2015 Cochrane review found lower mortality and a higher probability of ICU discharge by day 28 with early tracheostomy.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "A more recent 2023 systematic review in non-neurologically injured patients found a clear, statistically robust mortality benefit with early tracheostomy, fully consistent with the 2015 Cochrane review.",
+          "correct": false
+        }
+      ],
+      "explanation": "A and C are correct. B is false - despite shortening MV duration and ICU stay, the 2024 meta-analysis did NOT find a significant reduction in mortality or pneumonia. D is false - the 2023 review found NO mortality benefit in non-neurologically injured patients and noted the analysis was likely underpowered, illustrating genuinely conflicting evidence, not confirmation of the Cochrane findings.",
+      "section": "The role of tracheostomy",
+      "topic": "tracheostomy timing evidence conflicting 2024 meta-analysis 2015 Cochrane 2023 systematic review mortality trap",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a36",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A retrospective study of 508 patients requiring mechanical ventilation for 14 days or more found that tracheostomy (compared with continued translaryngeal intubation) was independently associated with which outcomes?",
+      "options": [
+        "A: Higher in-hospital mortality and lower successful weaning rates",
+        "B: Lower in-hospital mortality (adjusted HR 0.26) and higher successful weaning rates (adjusted HR 2.05)",
+        "C: No difference in mortality or weaning success",
+        "D: Lower successful weaning rates but no effect on mortality",
+        "E: Higher mortality but improved weaning success"
+      ],
+      "correct": 1,
+      "explanation": "In this study of patients requiring prolonged mechanical ventilation (>=14 days), tracheostomy was independently associated with substantially lower in-hospital mortality (adjusted HR 0.26) and higher successful weaning rates (adjusted HR 2.05) compared to continued translaryngeal intubation.",
+      "section": "The role of tracheostomy",
+      "topic": "tracheostomy versus prolonged intubation observational study mortality weaning success hazard ratio",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5_a37",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "What has been shown regarding the time from a physician's decision to perform tracheostomy and the actual procedure ('tracheostomy delay time'), and regarding structured tracheostomy weaning protocols?",
+      "options": [
+        "A: Shorter tracheostomy delay time is associated with higher weaning success, independent of when the decision was made; structured weaning protocols have reduced median ventilator days after tracheostomy in quality improvement studies",
+        "B: Tracheostomy delay time has no relationship to weaning outcomes; weaning protocols have never been shown to reduce ventilator days",
+        "C: Longer delay time improves weaning success by allowing more physiological recovery",
+        "D: Weaning protocols after tracheostomy are associated with increased ICU length of stay",
+        "E: Tracheostomy delay time only matters in patients under 40 years of age"
+      ],
+      "correct": 0,
+      "explanation": "A shorter tracheostomy delay time (from decision to procedure) is associated with higher weaning success, independent of when the decision itself was made; a quality improvement initiative using a structured weaning protocol reduced median ventilator days from 17 to 10.6 and decreased ICU length of stay by 4.3 days.",
+      "section": "The role of tracheostomy",
+      "topic": "tracheostomy delay time weaning protocol quality improvement ventilator days reduction",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}
