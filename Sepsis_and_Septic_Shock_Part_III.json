@@ -15,17 +15,18 @@
       "question": "A 74-year-old man presents with dysuria, fever (38.9 degrees C), and altered mental status. Blood pressure is 88/52 mmHg despite a 500 mL crystalloid bolus over 10 minutes. Lactate is 4.8 mmol/L. Two sets of blood cultures have been drawn. What is the most appropriate timing for initiating antibiotic therapy?",
       "options": [
         "A: Within 30 minutes of recognition, as any delay in septic shock proportionally increases mortality",
-        "B: Within 1 hour of recognition of septic shock",
-        "C: Within 3 hours, after completing a rapid diagnostic assessment",
-        "D: Only after a second lactate measurement confirms persistent elevation above 4 mmol/L",
-        "E: After identification of the causative organism to allow targeted therapy"
+        "B: Within 3 hours, after completing a rapid diagnostic assessment",
+        "C: After identification of the causative organism to allow targeted therapy",
+        "D: Within 1 hour of recognition of septic shock",
+        "E: Only after a second lactate measurement confirms persistent elevation above 4 mmol/L"
       ],
-      "correct": 1,
+      "correct": 3,
       "explanation": "In patients with septic shock or highly probable sepsis, SSC 2026 recommends antibiotic administration within 1 hour of recognition (B). Option C (within 3 hours) is the near-miss trap: this applies to stable patients with moderate-to-low suspicion after rapid diagnostic assessment — not to a patient in frank septic shock with lactate 4.8 mmol/L. Waiting for organism identification (E) would cause unacceptable and life-threatening delay.",
       "section": "Clinical Recognition of Infection",
       "topic": "antibiotic timing shock 1 hour stable 3 hours SSC",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sss3_a02",
@@ -33,18 +34,19 @@
       "set": 1,
       "question": "A 62-year-old man undergoes elective coronary artery bypass grafting. On the first post-operative day he develops a temperature of 38.8 degrees C and a procalcitonin (PCT) of 4.2 ng/mL. The surgical team requests an urgent infectious workup for bacterial sepsis. Which of the following BEST explains the elevated PCT in this context?",
       "options": [
-        "A: Sternal wound infection complicating the cardiac surgery",
-        "B: Hospital-acquired pneumonia from aspiration during intubation",
-        "C: Systemic inflammatory response to cardiopulmonary bypass and surgical trauma",
+        "A: Hospital-acquired pneumonia from aspiration during intubation for the surgery",
+        "B: Candida bloodstream infection",
+        "C: Sternal wound infection complicating the cardiac surgery",
         "D: Gram-negative bacteraemia arising from gut translocation",
-        "E: Candida bloodstream infection"
+        "E: Systemic inflammatory response to cardiopulmonary bypass and surgical trauma"
       ],
-      "correct": 2,
+      "correct": 4,
       "explanation": "PCT can be significantly elevated in the post-operative period following major cardiac surgery with cardiopulmonary bypass due to systemic inflammatory response — not necessarily bacterial infection (C). Surgery and trauma are recognised non-infectious causes of PCT elevation. Options A and B are near-miss distractors: both are genuine post-operative complications that must be excluded, but early PCT elevation on day 1 is more consistent with operative SIRS than established infection. PCT alone is insufficient to diagnose infection after cardiac surgery.",
       "section": "Laboratory Investigations, Microbiological Testing and Imaging",
       "topic": "PCT false positive surgery CPB systemic inflammation",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sss3_a03",
@@ -52,18 +54,19 @@
       "set": 1,
       "question": "A 58-year-old woman with community-acquired pneumonia and septic shock is clinically improving after 72 hours of IV meropenem. Blood and BAL cultures confirm penicillin-susceptible Streptococcus pneumoniae. PCT has fallen from 28 ng/mL at admission to 3.1 ng/mL, a decline of greater than 80% from peak. The team is uncertain about optimal antibiotic duration. Which approach is MOST consistent with current evidence (ADAPT-Sepsis, SSC 2026)?",
       "options": [
-        "A: Continue a fixed 14-day antibiotic course regardless of PCT trend",
-        "B: Use PCT decline greater than 80% from peak to support safe antibiotic discontinuation",
-        "C: Switch immediately to oral amoxicillin, as PCT is below 5 ng/mL",
-        "D: Repeat blood cultures every 48 hours until PCT falls below 1 ng/mL before stopping",
-        "E: PCT-guided de-escalation is not recommended in patients with confirmed septic shock"
+        "A: Switch immediately to oral amoxicillin, as PCT is below 5 ng/mL",
+        "B: PCT-guided de-escalation is not recommended in patients with confirmed septic shock",
+        "C: Use PCT decline greater than 80% from peak to support safe antibiotic discontinuation",
+        "D: Continue a fixed 14-day antibiotic course regardless of PCT trend",
+        "E: Repeat blood cultures every 48 hours until PCT falls below 1 ng/mL before stopping"
       ],
-      "correct": 1,
+      "correct": 2,
       "explanation": "SSC 2026 and ADAPT-Sepsis support using PCT decline to guide antibiotic discontinuation when optimal duration is unclear: a fall of greater than 80% from peak, alongside clinical improvement and adequate source control, supports safe stopping (B). Option E is the key trap: SSC 2026 specifically recommends FOR using PCT to guide de-escalation (not initiation) — septic shock does not exclude PCT-guided stopping. Option A imposes an unnecessary fixed course; prolonged therapy increases resistance risk, C. difficile, and toxicity.",
       "section": "Laboratory Investigations, Microbiological Testing and Imaging",
       "topic": "PCT de-escalation ADAPT-Sepsis 80% decline antibiotic duration",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sss3_a04",
@@ -71,18 +74,19 @@
       "set": 1,
       "question": "A 45-year-old man with acute myeloid leukaemia on high-dose corticosteroids is admitted to the ICU with fever, dry cough, and a CT chest showing a cavitating nodule in the right upper lobe. Bronchoalveolar lavage galactomannan returns 1.4 ng/mL (positive threshold greater than 1 ng/mL). Which pathogen does a positive galactomannan result most specifically indicate?",
       "options": [
-        "A: Candida albicans",
-        "B: Pneumocystis jirovecii",
-        "C: Aspergillus spp.",
-        "D: Cryptococcus neoformans",
-        "E: Mucorales spp. (mucormycosis)"
+        "A: Aspergillus spp.",
+        "B: Cryptococcus neoformans",
+        "C: Mucorales spp. (mucormycosis)",
+        "D: Pneumocystis jirovecii",
+        "E: Candida albicans"
       ],
-      "correct": 2,
+      "correct": 0,
       "explanation": "Galactomannan is a polysaccharide component of the Aspergillus cell wall; a result greater than 1 ng/mL most specifically indicates invasive aspergillosis (C). Option E is the critical near-miss trap: Mucorales (mucormycosis) also causes cavitating nodules in immunocompromised patients but does NOT produce galactomannan — a positive galactomannan therefore argues against mucormycosis. BDG (not galactomannan) is the assay covering Candida, Aspergillus, and Pneumocystis jirovecii broadly.",
       "section": "Laboratory Investigations, Microbiological Testing and Imaging",
       "topic": "galactomannan Aspergillus specific not mucormycosis threshold",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sss3_a05",
@@ -90,18 +94,19 @@
       "set": 1,
       "question": "A 54-year-old with a prolonged ICU stay is on total parenteral nutrition and has received broad-spectrum antibiotics for 12 days. He develops a new fever unresponsive to antibiotics. Serum beta-D-glucan (BDG) returns at 320 pg/mL (positive threshold greater than 80 pg/mL). What is the MOST appropriate interpretation?",
       "options": [
-        "A: This result confirms systemic candidiasis and empiric antifungal therapy should be started immediately",
-        "B: This result confirms invasive aspergillosis and voriconazole should be initiated",
-        "C: This result supports fungal infection by Candida, Aspergillus, or Pneumocystis jirovecii and warrants further clinical evaluation",
-        "D: This result confirms invasive mucormycosis and liposomal amphotericin B should be started",
-        "E: BDG above 80 pg/mL is non-specific and not clinically actionable in ICU patients"
+        "A: This result supports fungal infection by Candida, Aspergillus, or Pneumocystis and warrants further evaluation",
+        "B: This result confirms invasive mucormycosis and liposomal amphotericin B should be started",
+        "C: BDG above 80 pg/mL is non-specific and not clinically actionable in ICU patients",
+        "D: This result confirms invasive aspergillosis and voriconazole should be initiated",
+        "E: This result confirms systemic candidiasis and empiric antifungal therapy should be started immediately"
       ],
-      "correct": 2,
+      "correct": 0,
       "explanation": "A positive BDG (greater than 80 pg/mL) supports fungal infection by Candida, Aspergillus, or Pneumocystis jirovecii but cannot distinguish between organisms — further evaluation is required before targeted therapy (C). Option D is the important near-miss trap: Mucorales spp. do NOT produce BDG, so a positive BDG does not support mucormycosis — the finding actually makes mucormycosis less likely. Options A and B incorrectly assume species-level diagnosis from BDG alone.",
       "section": "Laboratory Investigations, Microbiological Testing and Imaging",
       "topic": "BDG Candida Aspergillus Pneumocystis not mucor interpretation",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sss3_a06",
@@ -109,18 +114,19 @@
       "set": 1,
       "question": "A 66-year-old woman with suspected septic shock is being prepared for blood culture collection prior to antibiotic administration. The nursing team asks for guidance on optimal technique. Which of the following statements about blood culture collection is MOST accurate?",
       "options": [
-        "A: 5 mL of blood per bottle is sufficient to achieve adequate sensitivity",
-        "B: At least 10 mL of blood should be inoculated into each culture bottle",
-        "C: A single blood culture set from a central venous catheter is preferred to reduce skin contamination",
-        "D: Only aerobic bottles need to be collected in immunocompetent patients",
-        "E: Blood cultures should be timed to coincide with temperature spikes above 38.5 degrees C to maximise yield"
+        "A: At least 10 mL of blood should be inoculated into each culture bottle",
+        "B: A single blood culture set from a central venous catheter is preferred to reduce skin contamination",
+        "C: Only aerobic bottles need to be collected in immunocompetent patients",
+        "D: Blood cultures should be timed to coincide with temperature spikes above 38.5 degrees C to maximise yield",
+        "E: 5 mL of blood per bottle is sufficient to achieve adequate sensitivity"
       ],
-      "correct": 1,
+      "correct": 0,
       "explanation": "Inoculating at least 10 mL per bottle is recommended to maximise bacteraemia detection sensitivity (B). Option E is the near-miss trap: only approximately 45% of bacteraemic patients have fever above 38 degrees C, so timing cultures to temperature spikes misses the majority of cases. Option C is incorrect: at least two pairs from different sites are required — a single CVC-only set cannot distinguish true bacteraemia from hub colonisation. Anaerobic bottles remain important as anaerobic bacteraemia is clinically significant.",
       "section": "Laboratory Investigations, Microbiological Testing and Imaging",
       "topic": "blood culture volume 10 mL per bottle technique",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sss3_a07",
@@ -128,10 +134,10 @@
       "set": 1,
       "question": "A 71-year-old man is on day 2 after emergency laparotomy. He develops new confusion and hypotension (BP 88/54 mmHg). His temperature is 37.2 degrees C and WBC is 11,200/mm3. The junior doctor defers blood cultures, reasoning that bacteraemia is unlikely given the absence of fever. What is the MOST significant error in this reasoning?",
       "options": [
-        "A: Hypothermia, not hyperthermia, is the more specific sign of bacteraemia",
-        "B: Only approximately 45% of bacteraemic patients have fever above 38 degrees C, so absence of fever does not exclude bacteraemia",
+        "A: Post-operative inflammation invariably produces false-positive blood cultures",
+        "B: Around 45% of bacteraemic patients are febrile, so absent fever does not exclude bacteraemia",
         "C: WBC must exceed 20,000/mm3 before bacteraemia can be suspected post-operatively",
-        "D: Post-operative inflammation invariably produces false-positive blood cultures",
+        "D: Hypothermia, not hyperthermia, is the more specific sign of bacteraemia",
         "E: Blood cultures are only indicated when PCT exceeds 2 ng/mL"
       ],
       "correct": 1,
@@ -139,7 +145,8 @@
       "section": "Laboratory Investigations, Microbiological Testing and Imaging",
       "topic": "bacteremia absence fever 45% incidence blood cultures",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sss3_a08",
@@ -147,18 +154,19 @@
       "set": 1,
       "question": "Blood cultures from a 58-year-old with febrile neutropenia flag positive after 14 hours of incubation. The laboratory applies MALDI-TOF mass spectrometry directly on the positive broth. What is the PRIMARY advantage of MALDI-TOF compared with conventional culture-based species identification?",
       "options": [
-        "A: It quantifies bacterial load in the blood, enabling severity assessment",
-        "B: It identifies the causative organism within hours rather than the 2-3 days required by conventional methods",
-        "C: It provides full antibiotic susceptibility testing results within 2 hours",
-        "D: It can detect antibiotic resistance genes directly from whole blood before culture positivity",
+        "A: It identifies the causative organism within hours rather than the 2-3 days required by conventional methods",
+        "B: It provides full antibiotic susceptibility testing results within 2 hours",
+        "C: It can detect antibiotic resistance genes directly from whole blood before culture positivity",
+        "D: It quantifies bacterial load in the blood, enabling severity assessment",
         "E: It eliminates the need for prior blood culture incubation"
       ],
-      "correct": 1,
+      "correct": 0,
       "explanation": "MALDI-TOF identifies organisms from positive blood culture broth within hours, versus 2-3 days for conventional culture-based identification (B). Option C is the key near-miss trap: MALDI-TOF provides rapid species identification but does NOT generate antibiotic susceptibility results — that still requires additional testing such as disc diffusion or MIC methods. Option D describes PCR-based resistance gene detection, a separate technology. The method requires prior blood culture incubation before MALDI-TOF can be applied (eliminating E).",
       "section": "Laboratory Investigations, Microbiological Testing and Imaging",
       "topic": "MALDI-TOF hours identification not susceptibility data",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sss3_a09",
@@ -167,17 +175,18 @@
       "question": "A 55-year-old man with septic shock has a femoral central venous catheter in situ for 8 days. Blood cultures drawn simultaneously from the catheter hub and a peripheral vein grow coagulase-negative Staphylococci in all four bottles, confirming catheter-related bloodstream infection (CRBSI). Which of the following is NOT an acceptable source control approach?",
       "options": [
         "A: Remove the catheter as the primary source control measure",
-        "B: Remove the catheter and insert a new CVC at a different anatomical site when ongoing access is required",
-        "C: Replace the catheter over a guidewire at the same femoral site",
+        "B: Replace the catheter over a guidewire at the same femoral site",
+        "C: Consider antibiotic lock therapy as an adjunct in selected patients with long-term tunnelled catheters after catheter removal",
         "D: Remove the catheter and commence targeted systemic vancomycin",
-        "E: Consider antibiotic lock therapy as an adjunct in selected patients with long-term tunnelled catheters after catheter removal"
+        "E: Remove the catheter and insert a new CVC at a different anatomical site when ongoing access is required"
       ],
-      "correct": 2,
+      "correct": 1,
       "explanation": "Guidewire exchange (C) is NOT acceptable in confirmed CRBSI — it reuses the same infected tract and is associated with treatment failure and persistent bacteraemia. Catheter removal (A, B, D) is the correct primary source control; a new CVC at a different site (B) is appropriate when ongoing vascular access is required. Antibiotic lock therapy (E) may be an adjunct for selected long-term tunnelled catheters but is not the primary intervention, particularly in septic shock.",
       "section": "Source Control",
       "topic": "CRBSI catheter removal source control not guidewire",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sss3_a10",
@@ -185,18 +194,19 @@
       "set": 1,
       "question": "A 49-year-old woman presents with septic shock (MAP 55 mmHg on norepinephrine 0.1 mcg/kg/min) and a CT scan showing a 7 cm pelvic abscess. After 30 minutes of fluids and broad-spectrum antibiotics, MAP improves to 65 mmHg. The intensivist and surgeon discuss the timing of percutaneous drainage. According to SSC 2026, what is the MOST appropriate approach?",
       "options": [
-        "A: Defer source control for at least 24 hours to further stabilise haemodynamics",
-        "B: Proceed to source control as soon as feasible following initial resuscitation",
-        "C: Delay source control until blood cultures confirm the causative pathogen",
+        "A: Delay source control until blood cultures confirm the causative pathogen",
+        "B: Defer source control for at least 24 hours to further stabilise haemodynamics",
+        "C: Source control is only necessary if antibiotics alone fail to improve the clinical picture within 48 hours",
         "D: A fixed 6-hour window from ICU admission constitutes a universal deadline for all source control procedures",
-        "E: Source control is only necessary if antibiotics alone fail to improve the clinical picture within 48 hours"
+        "E: Proceed to source control as soon as feasible following initial resuscitation"
       ],
-      "correct": 1,
+      "correct": 4,
       "explanation": "SSC 2026 supports prompt source control as soon as feasible after initial resuscitation to reduce mortality (B). Option D is the near-miss trap: the 6-hour window is the most frequently cited definition of 'early' in observational studies, but SSC 2026 explicitly states optimal timing remains controversial and must be individualised — it is not a fixed universal mandate. Option A delays treatment unnecessarily in the context of a large untreated abscess and ongoing vasopressor dependence. Option C introduces harmful delay; source control should not wait for culture results.",
       "section": "Source Control",
       "topic": "source control timing feasible resuscitation 6-hour not fixed",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sss3_a11",
@@ -204,18 +214,19 @@
       "set": 1,
       "question": "A 63-year-old man with a history of intravenous drug use presents with 3 weeks of progressive severe lower back pain, fever (38.6 degrees C), and CRP 280 mg/L. Two peripheral blood culture sets grow Staphylococcus aureus. Plain lumbar X-ray shows mild L4-L5 disc space narrowing. What is the imaging modality of CHOICE to confirm the diagnosis of spondylodiscitis?",
       "options": [
-        "A: CT myelogram with intrathecal contrast",
-        "B: Positron emission tomography (PET) scan",
-        "C: MRI of the spine",
-        "D: Repeat plain X-rays at 2 weeks to assess for radiological progression",
-        "E: Technetium-99m bone scintigraphy"
+        "A: Technetium-99m bone scintigraphy",
+        "B: Repeat plain X-rays at 2 weeks to assess for radiological progression",
+        "C: CT myelogram with intrathecal contrast",
+        "D: Positron emission tomography (PET) scan",
+        "E: MRI of the spine"
       ],
-      "correct": 2,
+      "correct": 4,
       "explanation": "MRI is the imaging modality of choice for spondylodiscitis due to superior delineation of disc space, soft tissue, and epidural extent of infection (C). In this subacute, haemodynamically stable presentation, the time required for MRI is acceptable. Option B (PET scan) is reserved for occult chronic infection when MRI and other conventional imaging have failed — it is not a first-line investigation. Plain X-rays (D) lag behind clinical and MRI changes by weeks, and bone scintigraphy (E) has lower specificity for disc space infection.",
       "section": "Laboratory Investigations, Microbiological Testing and Imaging",
       "topic": "spondylodiscitis MRI imaging modality choice IVDU",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sss3_a12",
@@ -223,18 +234,19 @@
       "set": 1,
       "question": "A 38-year-old man with active intravenous drug use presents with fever (39.2 degrees C), a new pansystolic murmur radiating to the axilla, and bilateral septic pulmonary emboli on CT chest. Two peripheral blood culture sets grow Staphylococcus aureus within 12 hours. The team suspects infective endocarditis. What is the MOST appropriate next imaging step?",
       "options": [
-        "A: Chest CT with IV contrast to characterise valvular anatomy and exclude aortic root abscess",
-        "B: Transthoracic echocardiography (TTE) first-line, followed by transoesophageal echocardiography (TOE) if TTE is negative or inconclusive",
-        "C: Coronary angiography to exclude concurrent aortic root abscess prior to surgical planning",
+        "A: Transthoracic echocardiography first-line, then transoesophageal echocardiography if inconclusive",
+        "B: Chest CT with IV contrast to characterise valvular anatomy and exclude aortic root abscess",
+        "C: PET-CT to localise areas of valvular metabolic activity and establish the diagnosis",
         "D: Cardiac MRI to identify and size vegetations",
-        "E: PET-CT to localise areas of valvular metabolic activity and establish the diagnosis"
+        "E: Coronary angiography to exclude concurrent aortic root abscess prior to surgical planning"
       ],
-      "correct": 1,
+      "correct": 0,
       "explanation": "Echocardiography — TTE first-line, followed by TOE if TTE is negative or inconclusive — is the standard imaging approach for diagnosing infective endocarditis, identifying vegetations and perivalvular abscesses (B). TOE has superior sensitivity for posterior structures and prosthetic valves. Option A (CT) has a role in pre-surgical planning but cannot replace echocardiographic diagnosis. Cardiac MRI (D) is not a validated first-line endocarditis diagnostic modality and lacks dynamic real-time functional assessment.",
       "section": "Laboratory Investigations, Microbiological Testing and Imaging",
       "topic": "endocarditis TTE TOE echocardiography first-line imaging",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sss3_a13",
@@ -242,18 +254,19 @@
       "set": 1,
       "question": "A 67-year-old woman treated with broad-spectrum antibiotics for 8 days develops profuse watery diarrhoea (8 bowel motions per day), fever (38.3 degrees C), and leukocytosis (WBC 22,000/mm3). A C. difficile enzyme immunoassay (EIA) for toxin is ordered. Which of the following BEST describes the diagnostic performance of the EIA?",
       "options": [
-        "A: Sensitivity approximately 95% and specificity above 98%, making it highly reliable for ruling in and out CDI",
-        "B: Sensitivity ranges from 29-86% and performance is variable, meaning a negative result does not reliably exclude CDI",
-        "C: EIA should only be performed on formed stool samples to reduce false-positive rates",
-        "D: EIA can reliably distinguish between toxin A-only and toxin A/B producing strains",
-        "E: A negative EIA result in this clinical presentation is sufficient to exclude C. difficile infection"
+        "A: EIA should only be performed on formed stool samples to reduce false-positive rates",
+        "B: Sensitivity approximately 95% and specificity above 98%, making it highly reliable for ruling in and out CDI",
+        "C: A negative EIA result in this clinical presentation is sufficient to exclude C. difficile infection",
+        "D: Sensitivity ranges from 29-86% and performance is variable, meaning a negative result does not reliably exclude CDI",
+        "E: EIA can reliably distinguish between toxin A-only and toxin A/B producing strains"
       ],
-      "correct": 1,
+      "correct": 3,
       "explanation": "The EIA for C. difficile toxin has a wide and variable sensitivity range of 29-86% (B) — a negative result does not reliably exclude CDI in high-pretest-probability patients. Option E is the key trap: given poor sensitivity, a negative EIA in a patient with profuse antibiotic-associated diarrhoea and leukocytosis should prompt further testing (e.g., PCR-based assay). Option A vastly overstates EIA sensitivity. EIA is performed on unformed or liquid stool, not formed stool (C is incorrect).",
       "section": "Laboratory Investigations, Microbiological Testing and Imaging",
       "topic": "C. difficile EIA sensitivity 29-86% variable negative",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sss3_a14",
@@ -261,18 +274,19 @@
       "set": 1,
       "question": "A 55-year-old with septic shock is enrolled in a precision medicine trial. Transcriptomic profiling classifies him as Sepsis Response Signature-1 (SRS1). Which of the following BEST characterises the SRS1 endotype compared with SRS2?",
       "options": [
-        "A: SRS1 is hyperinflammatory with markedly elevated IL-6, TNF-alpha, and ferritin",
-        "B: SRS1 is immunosuppressed/hypoinflammatory and is associated with higher mortality than SRS2",
-        "C: SRS1 has consistently demonstrated superior response to corticosteroid immunosuppression",
-        "D: SRS1 is defined by elevated PCT above 10 ng/mL and positive galactomannan",
-        "E: SRS2 carries a worse prognosis than SRS1"
+        "A: SRS2 carries a worse prognosis than SRS1",
+        "B: SRS1 is hyperinflammatory with markedly elevated IL-6, TNF-alpha, and ferritin",
+        "C: SRS1 is defined by elevated PCT above 10 ng/mL and positive galactomannan",
+        "D: SRS1 has consistently demonstrated superior response to corticosteroid immunosuppression",
+        "E: SRS1 is immunosuppressed/hypoinflammatory and is associated with higher mortality than SRS2"
       ],
-      "correct": 1,
+      "correct": 4,
       "explanation": "SRS1 represents the immunosuppressed/hypoinflammatory endotype associated with higher mortality than SRS2 (B). Option A describes SRS2 (the hyperinflammatory phenotype); option E directly inverts the correct mortality relationship between SRS1 and SRS2. The distinction is therapeutically relevant: SRS1 patients may be harmed by immunosuppressive treatments that could benefit SRS2 patients — though clinical validation of endotype-directed therapy remains ongoing.",
       "section": "Sepsis phenotypes",
       "topic": "SRS1 immunosuppressed hypoinflammatory higher mortality endotype",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sss3_a15",
@@ -281,9 +295,9 @@
       "question": "A 60-year-old woman with septic shock secondary to a perforated appendix has completed 5 days of IV meropenem. She is afebrile for 48 hours, WBC has normalised, appendectomy and washout have been performed, cultures confirm meropenem-susceptible Escherichia coli, and PCT has fallen from 42 ng/mL to 2.3 ng/mL (greater than 80% decline from peak). The team considers antibiotic de-escalation. Which of the following is NOT a valid clinical justification for considering de-escalation now?",
       "options": [
         "A: Sustained clinical improvement over 48 hours with normalisation of inflammatory markers",
-        "B: Adequate source control achieved through surgical intervention",
+        "B: Culture identification of a susceptible pathogen allowing spectrum narrowing",
         "C: PCT decline of greater than 80% from peak supporting infection resolution",
-        "D: Culture identification of a susceptible pathogen allowing spectrum narrowing",
+        "D: Adequate source control achieved through surgical intervention",
         "E: A minimum 14-day antibiotic course has not yet been completed"
       ],
       "correct": 4,
@@ -291,7 +305,8 @@
       "section": "Clinical Recognition of Infection",
       "topic": "de-escalation 14-day fixed course NOT valid reason",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sss3_k01",
@@ -301,22 +316,22 @@
       "statements": [
         {
           "label": "A",
-          "text": "PCT has an AUC of approximately 0.79 for diagnosing sepsis in critically ill adults.",
+          "text": "PCT-guided protocols can safely support antibiotic discontinuation in patients with sepsis or septic shock when source control is achieved.",
           "correct": true
         },
         {
           "label": "B",
+          "text": "PCT has an AUC of approximately 0.79 for diagnosing sepsis in critically ill adults.",
+          "correct": true
+        },
+        {
+          "label": "C",
           "text": "An elevated PCT reliably distinguishes bacterial infection from fungal or severe viral infection in critically ill patients.",
           "correct": false
         },
         {
-          "label": "C",
-          "text": "PCT may be significantly elevated in the absence of bacterial infection following major surgery, trauma, or in patients with thyroid medullary carcinoma.",
-          "correct": true
-        },
-        {
           "label": "D",
-          "text": "PCT-guided protocols can safely support antibiotic discontinuation in patients with sepsis or septic shock when source control is achieved.",
+          "text": "PCT may be significantly elevated in the absence of bacterial infection following major surgery, trauma, or in patients with thyroid medullary carcinoma.",
           "correct": true
         }
       ],
@@ -324,7 +339,8 @@
       "section": "Laboratory Investigations, Microbiological Testing and Imaging",
       "topic": "PCT AUC 0.79 false positive de-escalation viral not discriminate",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sss3_k02",
@@ -334,22 +350,22 @@
       "statements": [
         {
           "label": "A",
-          "text": "Serum beta-D-glucan (BDG) greater than 80 pg/mL supports infection with Candida, Aspergillus, or Pneumocystis jirovecii.",
+          "text": "Quantiferon-TB Gold detects tuberculosis infection by measuring interferon-gamma release from sensitised T-cells following antigen stimulation.",
           "correct": true
         },
         {
           "label": "B",
+          "text": "Serum beta-D-glucan (BDG) greater than 80 pg/mL supports infection with Candida, Aspergillus, or Pneumocystis jirovecii.",
+          "correct": true
+        },
+        {
+          "label": "C",
           "text": "A positive serum galactomannan (greater than 1 ng/mL) reliably supports the diagnosis of invasive mucormycosis.",
           "correct": false
         },
         {
-          "label": "C",
-          "text": "Galactomannan is an Aspergillus cell wall component; serum levels greater than 1 ng/mL indicate possible invasive aspergillosis.",
-          "correct": true
-        },
-        {
           "label": "D",
-          "text": "Quantiferon-TB Gold detects tuberculosis infection by measuring interferon-gamma release from sensitised T-cells following antigen stimulation.",
+          "text": "Galactomannan is an Aspergillus cell wall component; serum levels greater than 1 ng/mL indicate possible invasive aspergillosis.",
           "correct": true
         }
       ],
@@ -357,7 +373,8 @@
       "section": "Laboratory Investigations, Microbiological Testing and Imaging",
       "topic": "BDG galactomannan Aspergillus mucormycosis negative not positive",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sss3_k03",
@@ -367,30 +384,31 @@
       "statements": [
         {
           "label": "A",
-          "text": "At least 10 mL of blood per culture bottle should be inoculated to maximise yield.",
-          "correct": true
-        },
-        {
-          "label": "B",
           "text": "Fever above 38 degrees C is present in more than 80% of bacteraemic patients, making it a reliable mandatory trigger for collection.",
           "correct": false
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "Collecting a third aerobic blood culture bottle has been shown to improve bacteraemia detection sensitivity.",
           "correct": true
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "Cultures obtained from skin surface wounds or pressure ulcers are reliable for guiding systemic antibiotic therapy in septic shock.",
           "correct": false
+        },
+        {
+          "label": "D",
+          "text": "At least 10 mL of blood per culture bottle should be inoculated to maximise yield.",
+          "correct": true
         }
       ],
       "explanation": "Statement B is false and the near-miss trap: only approximately 45% of bacteraemic patients have fever above 38 degrees C — temperature is therefore an insufficient and unreliable trigger for deciding to draw blood cultures. Statement D is false: skin surface and wound swabs are unreliable because distinguishing colonisation from true infection is difficult and the threshold for interpretation is controversial. Both false statements reflect common clinical errors in culture practice.",
       "section": "Laboratory Investigations, Microbiological Testing and Imaging",
       "topic": "blood culture 10 mL fever 45% bacteremia technique",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sss3_k04",
@@ -400,8 +418,8 @@
       "statements": [
         {
           "label": "A",
-          "text": "MALDI-TOF mass spectrometry can identify organisms from positive blood culture broths within hours, compared with 2-3 days for conventional culture-based identification.",
-          "correct": true
+          "text": "Unlike conventional culture methods, PCR-based molecular assays cannot detect colonising or non-viable organisms and therefore always indicate true infection.",
+          "correct": false
         },
         {
           "label": "B",
@@ -410,12 +428,12 @@
         },
         {
           "label": "C",
-          "text": "Unlike conventional culture methods, PCR-based molecular assays cannot detect colonising or non-viable organisms and therefore always indicate true infection.",
-          "correct": false
+          "text": "Rapid diagnostic tests for bloodstream infections have been associated with improved clinical outcomes including reduced mortality.",
+          "correct": true
         },
         {
           "label": "D",
-          "text": "Rapid diagnostic tests for bloodstream infections have been associated with improved clinical outcomes including reduced mortality.",
+          "text": "MALDI-TOF mass spectrometry can identify organisms from positive blood culture broths within hours, compared with 2-3 days for conventional culture-based identification.",
           "correct": true
         }
       ],
@@ -423,7 +441,8 @@
       "section": "Laboratory Investigations, Microbiological Testing and Imaging",
       "topic": "MALDI-TOF PCR colonization false positive rapid diagnostics outcomes",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sss3_k05",
@@ -433,22 +452,22 @@
       "statements": [
         {
           "label": "A",
-          "text": "CT scanning with IV contrast is among the most versatile modalities for evaluating infection regardless of body compartment.",
-          "correct": true
-        },
-        {
-          "label": "B",
-          "text": "Bedside ultrasonography can identify cholecystitis, free abdominal fluid, pleural effusion, and soft tissue purulent collections.",
-          "correct": true
-        },
-        {
-          "label": "C",
           "text": "MRI is the preferred first-line imaging modality in haemodynamically unstable septic patients due to its superior soft tissue resolution.",
           "correct": false
         },
         {
-          "label": "D",
+          "label": "B",
           "text": "Positron emission tomography (PET) may identify occult chronic infection of bone or CNS structures when conventional imaging has failed.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "CT scanning with IV contrast is among the most versatile modalities for evaluating infection regardless of body compartment.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Bedside ultrasonography can identify cholecystitis, free abdominal fluid, pleural effusion, and soft tissue purulent collections.",
           "correct": true
         }
       ],
@@ -456,7 +475,8 @@
       "section": "Laboratory Investigations, Microbiological Testing and Imaging",
       "topic": "CT versatile MRI not unstable echo PET chronic infection",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sss3_k06",
@@ -489,7 +509,8 @@
       "section": "Source Control",
       "topic": "source control biofilm 6-hour not universal CRBSI removal",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sss3_k07",
@@ -499,22 +520,22 @@
       "statements": [
         {
           "label": "A",
-          "text": "In patients with septic shock, antibiotic therapy should ideally be initiated within 1 hour of recognition.",
-          "correct": true
-        },
-        {
-          "label": "B",
-          "text": "In stable patients with moderate-to-low suspicion of sepsis, empiric antibiotics should be initiated within 3 hours if infection remains likely following rapid diagnostic assessment.",
-          "correct": true
-        },
-        {
-          "label": "C",
           "text": "When clinical uncertainty is high and infection cannot be excluded, antibiotic initiation should be deferred for up to 6 hours to allow a comprehensive microbiological workup.",
           "correct": false
         },
         {
-          "label": "D",
+          "label": "B",
           "text": "Antibiotic therapy should preferably be reassessed for de-escalation within 72 hours, guided by microbiological results and clinical evolution.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "In stable patients with moderate-to-low suspicion of sepsis, empiric antibiotics should be initiated within 3 hours if infection remains likely following rapid diagnostic assessment.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "In patients with septic shock, antibiotic therapy should ideally be initiated within 1 hour of recognition.",
           "correct": true
         }
       ],
@@ -522,7 +543,8 @@
       "section": "Clinical Recognition of Infection",
       "topic": "antibiotic 1 hour shock 3 hours stable de-escalation 72h",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sss3_k08",
@@ -532,12 +554,12 @@
       "statements": [
         {
           "label": "A",
-          "text": "Sepsis Response Signature-1 (SRS1) represents an immunosuppressed/hypoinflammatory endotype associated with higher mortality than SRS2.",
+          "text": "Hyperinflammatory and hypoinflammatory molecular phenotypes have shown differential responses to immunomodulatory therapies in clinical trials.",
           "correct": true
         },
         {
           "label": "B",
-          "text": "Hyperinflammatory and hypoinflammatory molecular phenotypes have shown differential responses to immunomodulatory therapies in clinical trials.",
+          "text": "Sepsis Response Signature-1 (SRS1) represents an immunosuppressed/hypoinflammatory endotype associated with higher mortality than SRS2.",
           "correct": true
         },
         {
@@ -555,7 +577,8 @@
       "section": "Sepsis phenotypes",
       "topic": "SRS1 SRS2 phenotype hypoinflammatory not validated clinical data",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sss3_k09",
@@ -575,20 +598,21 @@
         },
         {
           "label": "C",
-          "text": "A positive urine culture in a catheterised ICU patient always confirms catheter-associated urinary tract infection (CAUTI) as the source of sepsis.",
-          "correct": false
+          "text": "Specimens from normally sterile body fluids (e.g., CSF, pleural fluid) obtained with appropriate technique provide strong microbiological evidence of infection when positive.",
+          "correct": true
         },
         {
           "label": "D",
-          "text": "Specimens from normally sterile body fluids (e.g., CSF, pleural fluid) obtained with appropriate technique provide strong microbiological evidence of infection when positive.",
-          "correct": true
+          "text": "A positive urine culture in a catheterised ICU patient always confirms catheter-associated urinary tract infection (CAUTI) as the source of sepsis.",
+          "correct": false
         }
       ],
       "explanation": "Statement C is false and the trap: catheter bacteriuria in ICU patients frequently represents asymptomatic colonisation of the urinary catheter, not true CAUTI — a positive urine culture alone, without supporting clinical features and exclusion of alternative sources, does not confirm CAUTI as the sepsis source. Quantitative BAL (B) reduces contamination-related false positives from tracheobronchial colonisation. Sterile site specimens (D) carry much greater diagnostic specificity when positive.",
       "section": "Laboratory Investigations, Microbiological Testing and Imaging",
       "topic": "sputum colonization BAL quantitative CAUTI not confirms infection",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sss3_k10",
@@ -598,22 +622,22 @@
       "statements": [
         {
           "label": "A",
-          "text": "Surgical removal of infected or necrotic tissue is an appropriate source control strategy for peritonitis arising from a perforated viscus.",
-          "correct": true
-        },
-        {
-          "label": "B",
           "text": "Drainage of pleural empyema is a component of source control for sepsis arising from a thoracic infectious focus.",
           "correct": true
         },
         {
-          "label": "C",
+          "label": "B",
           "text": "Pacemaker leads implicated in device-related infective endocarditis can be managed safely with prolonged antibiotic therapy alone, without device removal.",
           "correct": false
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "Brain abscess causing CNS sepsis may be managed with neurosurgical drainage and, where appropriate, intrathecal antibiotics.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Surgical removal of infected or necrotic tissue is an appropriate source control strategy for peritonitis arising from a perforated viscus.",
           "correct": true
         }
       ],
@@ -621,7 +645,8 @@
       "section": "Source Control",
       "topic": "source control empyema peritonitis pacemaker removal not antibiotics",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     }
   ]
 }
