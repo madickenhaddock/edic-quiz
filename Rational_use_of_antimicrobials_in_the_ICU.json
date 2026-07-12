@@ -16,18 +16,19 @@
       "set": 1,
       "question": "A 72-year-old ICU patient with hospital-acquired gram-negative pneumonia is started on gentamicin. Which PK/PD parameter best characterises the optimal dosing target for aminoglycosides?",
       "options": [
-        "A: Prolonged infusion to maintain T>MIC >50% of the dosing interval",
-        "B: AUC24/MIC ≥400 as the primary pharmacodynamic target",
-        "C: Cmax/MIC ratio of 8–10 times the MIC",
-        "D: Continuous infusion to maintain trough concentrations consistently above MIC",
-        "E: AUC24/MIC >125, consistent with fluoroquinolone targets"
+        "A: Continuous infusion to maintain trough concentrations consistently above MIC",
+        "B: AUC24/MIC >125, consistent with fluoroquinolone targets",
+        "C: Prolonged infusion to maintain T>MIC >50% of the dosing interval",
+        "D: AUC24/MIC ≥400 as the primary pharmacodynamic target",
+        "E: Cmax/MIC ratio of 8–10 times the MIC"
       ],
-      "correct": 2,
+      "correct": 4,
       "explanation": "Aminoglycosides are concentration-dependent antibiotics; bactericidal activity correlates with Cmax/MIC of 8–10x MIC, driving once-daily (extended-interval) dosing to maximise peak while allowing a drug-free interval to limit accumulation and toxicity. T>MIC >50% is the target for time-dependent beta-lactams (nearest distractor). AUC/MIC ≥400 is the vancomycin target; AUC/MIC >125 applies to fluoroquinolones.",
       "section": "Pharmacokinetic and pharmacodynamic issues in critically ill patients",
       "topic": "aminoglycoside Cmax MIC once-daily concentration-dependent PK/PD",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "rua_a02",
@@ -35,18 +36,19 @@
       "set": 1,
       "question": "A 58-year-old with septic shock receives piperacillin-tazobactam. The clinical pharmacist recommends a 4-hour extended infusion rather than a standard 30-minute bolus. Which statement most accurately supports this recommendation?",
       "options": [
-        "A: Extended infusion raises the Cmax/MIC ratio, which is the primary PK/PD driver for beta-lactams",
+        "A: Prolonged infusion reduces peak concentrations, thereby limiting beta-lactam nephrotoxicity",
         "B: Beta-lactams are lipophilic and achieve high intracellular concentrations, making bolus administration suboptimal",
-        "C: The BLING III randomised trial and subsequent meta-analysis demonstrated reduced 90-day mortality with prolonged beta-lactam infusion in sepsis/septic shock",
-        "D: Prolonged infusion reduces peak concentrations, thereby limiting beta-lactam nephrotoxicity",
-        "E: Extended infusion specifically overcomes augmented renal clearance by increasing the dose per interval"
+        "C: The BLING III randomised trial demonstrated a statistically significant reduction in 90-day mortality with prolonged infusion in its primary analysis",
+        "D: Beta-lactams exhibit time-dependent killing; extended infusion prolongs the time serum concentration remains above the MIC compared with a short bolus",
+        "E: Extended infusion raises the Cmax/MIC ratio, which is the primary PK/PD driver for beta-lactams"
       ],
-      "correct": 2,
-      "explanation": "Beta-lactams are time-dependent antibiotics (T>MIC is the key PK/PD driver, not Cmax/MIC). Prolonged infusion maintains concentrations above MIC for longer. The BLING III RCT (2024) and associated meta-analysis confirmed lower 90-day mortality with prolonged infusion in sepsis/septic shock patients. Option A is the nearest miss — confusing Cmax/MIC (concentration-dependent mechanism) with beta-lactam PK/PD. Beta-lactam nephrotoxicity (Option D) is not a relevant clinical concern.",
+      "correct": 3,
+      "explanation": "Beta-lactams are time-dependent antibiotics — the key PK/PD driver is the proportion of the dosing interval spent above MIC (T>MIC), not Cmax/MIC. Prolonged infusion directly extends this time. Option A confuses this with the concentration-dependent mechanism of aminoglycosides. Option B is incorrect: beta-lactams are hydrophilic, not lipophilic, with poor intracellular penetration. Option D misattributes a nephrotoxicity rationale that is not the primary driver. Option E overstates the evidence: BLING III's own primary analysis found a non-significant 90-day mortality difference (24.9% vs 26.8%, OR 0.91); only the pre-specified companion meta-analysis reached significance for mortality — a commonly misremembered nuance.",
       "section": "Adapting therapy",
       "topic": "beta-lactam prolonged infusion BLING III time-dependent T>MIC mortality",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "rua_a03",
@@ -57,15 +59,16 @@
         "A: Cmax/MIC 8–10 is the optimal vancomycin PK/PD target; the current peak is insufficient",
         "B: AUC24/MIC ≥400 is the optimal target; trough 15–20 mg/L is the recommended surrogate, and 12 mg/L is subtherapeutic",
         "C: T>MIC >50% is optimal; a trough of 12 mg/L already exceeds MIC so no change is required",
-        "D: AUC24/MIC >125 is the standard vancomycin target; the current trough is below the required range",
-        "E: Vancomycin should be switched to continuous infusion, which increases nephrotoxicity and mandates closer monitoring"
+        "D: Vancomycin should be switched to continuous infusion, which increases nephrotoxicity and mandates closer monitoring",
+        "E: AUC24/MIC >125 is the standard vancomycin target; the current trough is below the required range"
       ],
       "correct": 1,
       "explanation": "Vancomycin pharmacodynamics are characterised by AUC24/MIC ≥400. In clinical practice, trough concentration 15–20 mg/L serves as the practical surrogate since calculating AUC24 is cumbersome. A trough of 12 mg/L is below target. AUC >125 is a fluoroquinolone target (Option D). Regarding Option E: continuous infusion actually reduces nephrotoxicity — it is not contraindicated.",
       "section": "Different antibiotic classes",
       "topic": "vancomycin AUC MIC trough surrogate MRSA monitoring",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "rua_a04",
@@ -73,37 +76,39 @@
       "set": 1,
       "question": "A patient with carbapenem-resistant Acinetobacter baumannii VAP is started on intravenous colistin with a loading dose. What is the primary pharmacological rationale for the loading dose?",
       "options": [
-        "A: Colistin is administered as the active compound but has zero-order kinetics requiring saturation dosing",
-        "B: Colistin undergoes extensive hepatic first-pass metabolism necessitating a compensatory loading dose",
-        "C: Colistin is administered as the prodrug colistin methanesulfonate (CMS), which requires hours to hydrolyse to active colistin; a loading dose prevents prolonged subtherapeutic concentrations during this conversion",
-        "D: Colistin has a very high volume of distribution and the loading dose is needed to achieve adequate tissue penetration",
-        "E: Colistin achieves maximal bactericidal effect via T>MIC and a loading dose extends the time above MIC"
+        "A: Colistin has a very high volume of distribution and the loading dose is needed to achieve adequate tissue penetration",
+        "B: CMS requires hours to hydrolyse to active colistin; a loading dose prevents subtherapeutic levels during conversion",
+        "C: Colistin achieves maximal bactericidal effect via T>MIC and a loading dose extends the time above MIC",
+        "D: Colistin is administered as the active compound but has zero-order kinetics requiring saturation dosing",
+        "E: Colistin undergoes extensive hepatic first-pass metabolism necessitating a compensatory loading dose"
       ],
-      "correct": 2,
+      "correct": 1,
       "explanation": "Colistin is administered intravenously as the prodrug CMS; hydrolysis to active colistin takes several hours, creating a risk of prolonged subtherapeutic concentrations and delayed antimicrobial effect. A loading dose compensates for this conversion delay. While colistin activity correlates with AUC/MIC, the specific rationale for a loading dose is the prodrug conversion pharmacokinetics. Hepatic first-pass metabolism (Option B) and zero-order kinetics (Option A) are incorrect.",
       "section": "Different antibiotic classes",
       "topic": "colistin CMS prodrug loading dose MDR gram-negative",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "rua_a05",
       "type": "A",
       "set": 1,
-      "question": "Which of the following is NOT a recognised property of hydrophilic antibiotics in critically ill patients?",
+      "question": "A 45-year-old man with septic shock and severe capillary leak (+12 L positive fluid balance over 48 hours) is receiving standard-dose meropenem for ventilator-associated pneumonia. Renal function is normal (CrCl 110 mL/min/1.73m²), but a measured trough concentration is subtherapeutic. What is the most likely explanation and appropriate response?",
       "options": [
-        "A: Low volume of distribution relative to lipophilic agents",
-        "B: Predominantly renal elimination, requiring dose adjustment in AKI",
-        "C: Susceptibility to underdosing during states of augmented renal clearance",
-        "D: High intracellular concentration in immune-active phagocytes",
-        "E: Reduced plasma concentrations due to capillary leak and fluid resuscitation expanding the volume of distribution"
+        "A: Meropenem is lipophilic and sequesters in adipose tissue during critical illness, lowering plasma levels; switch to a hydrophilic alternative",
+        "B: Augmented renal clearance is the most likely cause; assume a higher CrCl than measured and increase the dose accordingly",
+        "C: Capillary leak and fluid resuscitation have expanded the volume of distribution of this hydrophilic drug; increase the dose or extend the infusion",
+        "D: Meropenem is being cleared too quickly by normal renal function; extend the dosing interval",
+        "E: The subtherapeutic trough reflects assay interference from concurrent vasopressor therapy; repeat the level before acting"
       ],
-      "correct": 3,
-      "explanation": "High intracellular concentration in phagocytes is a property of lipophilic antibiotics (e.g. fluoroquinolones, macrolides), NOT hydrophilic agents. Hydrophilic antibiotics (beta-lactams, glycopeptides, aminoglycosides) have low Vd, poor tissue and intracellular penetration, and are renally cleared. Options A, B, C, and E are all genuine characteristics of hydrophilic antibiotics in the critically ill.",
+      "correct": 2,
+      "explanation": "Capillary leak and large-volume resuscitation expand the volume of distribution specifically for hydrophilic antibiotics (beta-lactams, glycopeptides, aminoglycosides), diluting plasma concentrations independent of renal clearance. Renal function is normal here, so clearance-based explanations (A, E) are less relevant; augmented renal clearance (E) is a genuine but distinct phenomenon usually identified by a measured CrCl >130 mL/min, not the case here. Option C inverts the hydrophilic/lipophilic distinction — meropenem is hydrophilic, which is precisely the property responsible for option B's mechanism.",
       "section": "Pharmacokinetic and pharmacodynamic issues in critically ill patients",
       "topic": "hydrophilic antibiotics properties ICU volume distribution intracellular NOT",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "rua_a06",
@@ -111,18 +116,19 @@
       "set": 1,
       "question": "A 34-year-old with HIV (CD4 count 42 cells/μL) presents with progressive dyspnoea, dry cough, fever, and bilateral ground-glass opacities on CT thorax. LDH is 580 U/L. What is the drug of choice?",
       "options": [
-        "A: Voriconazole",
-        "B: Micafungin",
-        "C: High-dose co-trimoxazole (trimethoprim-sulfamethoxazole)",
-        "D: Liposomal amphotericin B",
+        "A: Liposomal amphotericin B",
+        "B: High-dose co-trimoxazole (trimethoprim-sulfamethoxazole)",
+        "C: Micafungin, for empirical coverage of a suspected invasive fungal pneumonia",
+        "D: Voriconazole, targeting suspected invasive pulmonary aspergillosis given the CT pattern",
         "E: Ceftriaxone plus azithromycin"
       ],
-      "correct": 2,
+      "correct": 1,
       "explanation": "This is classic Pneumocystis jirovecii pneumonia (PCP): AIDS with CD4 <200/μL, bilateral ground-glass opacification, elevated LDH, dry cough. Co-trimoxazole (TMP-SMX) is the drug of choice, exploiting synergistic inhibition of protozoal folate synthesis. Voriconazole and echinocandins (micafungin) have no activity against P. jirovecii. Amphotericin B has limited PCP activity and significant toxicity. Ceftriaxone/azithromycin targets CAP organisms, not PCP.",
       "section": "Different antibiotic classes",
       "topic": "co-trimoxazole Pneumocystis jirovecii drug choice HIV AIDS",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "rua_a07",
@@ -130,18 +136,19 @@
       "set": 1,
       "question": "A 67-year-old is in the ICU after elective hemicolectomy. On day 3: temperature 38.3°C, HR 95 bpm, BP 122/74 mmHg, lactate 1.0 mmol/L, WBC 11.8×10⁹/L. Chest X-ray, urine dipstick, and wound inspection are unremarkable. Which approach is most appropriate?",
       "options": [
-        "A: Start piperacillin-tazobactam immediately; any post-operative fever in the ICU should be treated empirically",
-        "B: Start vancomycin plus meropenem given the ICU setting and MDR pathogen risk",
-        "C: Administer antibiotics within 1 hour per SSC guidelines for possible sepsis",
-        "D: Implement watchful waiting: obtain cultures, perform further investigations, monitor closely, and withhold antibiotics pending a confirmed infectious source",
-        "E: Commence antifungal therapy, as post-surgical fungal infection is likely on day 3"
+        "A: Watchful waiting — cultures, further investigation, close monitoring, withhold antibiotics pending a source",
+        "B: Commence antifungal therapy, as post-surgical fungal infection is likely on day 3",
+        "C: Start piperacillin-tazobactam immediately; any post-operative fever in the ICU should be treated empirically",
+        "D: Start vancomycin plus meropenem given the ICU setting and MDR pathogen risk",
+        "E: Administer antibiotics within 1 hour per SSC guidelines for possible sepsis"
       ],
-      "correct": 3,
+      "correct": 0,
       "explanation": "This haemodynamically stable post-operative patient with undifferentiated low-grade fever and no identified infection focus meets criteria for 'watchful waiting': close monitoring while investigations are pursued, withholding antibiotics unless deterioration or confirmed infection occurs. Starting empirical broad-spectrum antibiotics (A, B) is overtreatment and contributes to AMR. The SSC 1-hour timing (C) applies to septic shock or high-likelihood sepsis — not to stable, undifferentiated fever without a focus.",
       "section": "Starting therapy",
       "topic": "watchful waiting antibiotics undifferentiated fever stable ICU overtreatment",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "rua_a08",
@@ -149,18 +156,19 @@
       "set": 1,
       "question": "A patient with gram-negative bloodstream infection has been on IV meropenem for 6 days. Initial PCT was 38 ng/mL; today's value is 6.5 ng/mL. The patient is afebrile, vasopressor-free, and tolerating oral intake. What is the most appropriate antibiotic decision?",
       "options": [
-        "A: Continue meropenem for a minimum of 14 days; bacteraemia always mandates extended therapy",
-        "B: Continue until PCT returns to <0.1 ng/mL (undetectable range)",
-        "C: Switch to oral antibiotics and continue for a further 7 days minimum",
-        "D: Discontinue antibiotics: PCT has fallen >80% from peak (83% decline) in a clinically improving patient",
-        "E: Escalate therapy; a PCT of 6.5 ng/mL indicates ongoing bacteraemia requiring broader spectrum"
+        "A: Discontinue antibiotics: PCT has fallen >80% from peak (83% decline) in a clinically improving patient",
+        "B: Switch to oral antibiotics and continue for a further 7 days minimum",
+        "C: Continue until PCT returns to <0.1 ng/mL (undetectable range)",
+        "D: Escalate therapy; a PCT of 6.5 ng/mL indicates ongoing bacteraemia requiring broader spectrum",
+        "E: Continue meropenem for a minimum of 14 days; bacteraemia always mandates extended therapy"
       ],
-      "correct": 3,
+      "correct": 0,
       "explanation": "A PCT decline >80% from peak in a clinically improving patient supports antibiotic discontinuation in many infections. Here: 38 → 6.5 ng/mL = 83% decline, meeting the threshold. At least two PCT measurements are required to assess kinetics — single values are unreliable. Option A reflects fixed-duration dogma; the source (UTI, unobstructed) and clinical improvement — not duration — should drive the decision. Option B requires undetectable PCT, which is not the validated criterion.",
       "section": "Adapting therapy",
       "topic": "PCT 80 percent decline antibiotic discontinuation duration guidance dynamics",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "rua_a09",
@@ -168,37 +176,39 @@
       "set": 1,
       "question": "A febrile ICU patient with central venous access develops rigors and haemodynamic instability. What is the most evidence-based blood culture collection strategy before starting antibiotics?",
       "options": [
-        "A: One set (aerobic bottle only) drawn immediately from the central venous catheter",
-        "B: Two aerobic bottles obtained from the existing CVC port",
-        "C: Two to four sets, each consisting of one aerobic and one anaerobic bottle with approximately 10 mL per bottle, drawn from separate sites",
-        "D: A single large-volume (50 mL) sample from one peripheral vein to maximise yield",
-        "E: Blood for cultures should be drawn 30 minutes after a temperature spike to capture peak bacteraemia density"
+        "A: Two aerobic bottles obtained from the existing CVC port",
+        "B: Blood for cultures should be drawn 30 minutes after a temperature spike to capture peak bacteraemia density",
+        "C: Two to four sets (aerobic + anaerobic bottle each, ~10 mL/bottle) drawn from separate sites",
+        "D: One set (aerobic bottle only) drawn immediately from the central venous catheter",
+        "E: A single large-volume (50 mL) sample from one peripheral vein to maximise yield"
       ],
       "correct": 2,
       "explanation": "Two to four blood culture sets (each = one aerobic + one anaerobic bottle, approximately 10 mL per bottle, approximately 20 mL per set) from separate venepuncture sites increases sensitivity to >80%. Using aerobic and anaerobic bottles as a 'set' improves diagnostic yield. Drawing only from a CVC (Option B) risks higher contamination rates. Bacteraemia is commonly intermittent — repeat sampling (not timed to fever spikes) is the correct approach.",
       "section": "Diagnosis of Infection and Microbiological sampling, biomarkers",
       "topic": "blood cultures 10 mL sets aerobic anaerobic sensitivity 80 percent",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "rua_a10",
       "type": "A",
       "set": 1,
-      "question": "According to current guidelines, which of the following is NOT a recognised independent risk factor for MDR pathogens in ventilator-associated pneumonia (VAP)?",
+      "question": "A 70-year-old develops VAP on ICU day 4, ventilated since admission for post-operative respiratory failure after elective surgery. He received a single prophylactic dose of IV cefazolin at induction of anaesthesia 10 days ago; no antibiotics since. He is not in septic shock, has no ARDS, and has not required RRT. Does this patient meet criteria for empirical MDR coverage based on validated independent risk factors for MDR VAP?",
       "options": [
-        "A: Prior intravenous antibiotic use within the preceding 90 days",
-        "B: ARDS preceding VAP onset",
-        "C: Acute renal replacement therapy prior to VAP",
-        "D: Septic shock at the time of VAP diagnosis",
-        "E: Immunosuppression due to long-term corticosteroid therapy"
+        "A: Yes — mechanical ventilation for post-operative respiratory failure is itself an independent MDR risk factor",
+        "B: Yes — VAP occurring after ICU day 4 automatically qualifies as late-onset VAP, which is itself a validated MDR risk factor requiring empirical broad coverage",
+        "C: Yes — any antibiotic exposure within 90 days, including surgical prophylaxis, satisfies the 'prior antibiotic use' MDR risk factor",
+        "D: No — a single prophylactic dose is not the 'prior IV antibiotic use' risk factor, which means treatment courses, not surgical prophylaxis; no other risk factor is present",
+        "E: Insufficient information; MDR risk stratification cannot be determined without a local antibiogram"
       ],
-      "correct": 4,
-      "explanation": "The validated MDR VAP risk factors from IDSA/ATS guidelines (CID 2016) listed in this module are: prior IV antibiotics ≤90 days, ARDS preceding VAP, ≥5 days of hospitalisation, septic shock at time of VAP, and prior RRT. Corticosteroid-associated immunosuppression increases risk for specific organisms (e.g. Aspergillus, PCP) but is NOT listed in the standard MDR VAP risk factor table. Options A–D are all validated MDR VAP risk factors.",
+      "correct": 3,
+      "explanation": "The validated independent MDR VAP risk factors (IDSA/ATS 2016) are prior IV antibiotics within 90 days, ARDS preceding VAP, ≥5 days hospitalisation before VAP onset, septic shock at VAP diagnosis, and prior acute RRT. A single peri-operative prophylactic dose is not 'prior antibiotic use' in this sense — that risk factor specifically reflects selection pressure from a treatment course. Option C confuses the separate 'late-onset VAP' classification (≥5 days after intubation) with the specific MDR risk-factor checklist; this VAP is day 4, early-onset. Option D describes a plausible-sounding but non-validated factor.",
       "section": "Starting therapy",
       "topic": "MDR VAP risk factors ARDS prior IV antibiotics RRT NOT steroids",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "rua_a11",
@@ -207,17 +217,18 @@
       "question": "A 68-year-old with neutropenic fever following chemotherapy develops septic shock. He has documented MRSA nasal colonisation. Chest X-ray shows bilateral consolidations. Which empirical antibiotic regimen is most appropriate?",
       "options": [
         "A: Ceftriaxone alone",
-        "B: Ceftazidime plus metronidazole",
-        "C: Vancomycin monotherapy",
-        "D: Meropenem plus vancomycin",
+        "B: Vancomycin monotherapy",
+        "C: Meropenem plus vancomycin",
+        "D: Ceftazidime plus metronidazole",
         "E: Linezolid plus ceftriaxone"
       ],
-      "correct": 3,
+      "correct": 2,
       "explanation": "Multidrug empirical therapy is indicated in septic shock to broaden coverage. Meropenem provides broad gram-negative coverage including Pseudomonas aeruginosa — critical in neutropenic patients — plus anaerobic coverage; vancomycin adds MRSA coverage given known colonisation. Option A omits MRSA and Pseudomonas coverage. Vancomycin alone (C) covers MRSA but misses gram-negatives. Linezolid + ceftriaxone (E) lacks Pseudomonal activity — a critical gap in neutropenic septic shock.",
       "section": "Starting therapy",
       "topic": "empirical combination therapy neutropenic septic shock MRSA Pseudomonas coverage",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "rua_a12",
@@ -225,18 +236,19 @@
       "set": 1,
       "question": "A 54-year-old presents with septic shock from perforated sigmoid diverticulitis with faecal peritonitis. After initial resuscitation and IV antibiotics, what is the recommended approach to source control?",
       "options": [
-        "A: Defer surgical intervention until full haemodynamic stabilisation is confirmed, even if this takes 48–72 hours",
-        "B: Implement source control as soon as medically and logistically feasible, optimally within 12 hours of sepsis recognition",
-        "C: Antibiotics alone are sufficient for intraabdominal sepsis; source control should be considered only if there is clinical deterioration at 48 hours",
-        "D: Source control should await full microbiological results (typically 48–72 hours) to guide the surgical approach",
-        "E: Emergency surgery should always precede haemodynamic resuscitation to achieve the earliest possible source control"
+        "A: Source control should await full microbiological results (typically 48–72 hours) to guide the surgical approach",
+        "B: Emergency surgery should always precede haemodynamic resuscitation to achieve the earliest possible source control",
+        "C: Defer surgical intervention until full haemodynamic stabilisation is confirmed, even if this takes 48–72 hours",
+        "D: Antibiotics alone are sufficient for intraabdominal sepsis; source control should be considered only if there is clinical deterioration at 48 hours",
+        "E: Implement source control as soon as medically and logistically feasible, optimally within 12 hours of sepsis recognition"
       ],
-      "correct": 1,
+      "correct": 4,
       "explanation": "The SSC 2021 guidelines recommend source control as soon as medically and logistically practical, optimally within 12 hours of sepsis recognition. Deferring >48 hours significantly worsens outcomes in faecal peritonitis. Option A unnecessarily delays. Options C and D are incorrect — source control is a cornerstone of sepsis management, not a last resort. Option E is incorrect: resuscitation and surgery proceed concurrently rather than sequentially in sequence.",
       "section": "Starting therapy",
       "topic": "source control 12 hours intraabdominal sepsis peritonitis SSC timing",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "rua_a13",
@@ -244,18 +256,19 @@
       "set": 1,
       "question": "A patient with septic shock from urosepsis was started empirically on meropenem. Blood cultures grow Escherichia coli sensitive to ceftriaxone, cefotaxime, and piperacillin-tazobactam. The patient is clinically improving on day 3. What is the most appropriate antibiotic management?",
       "options": [
-        "A: Continue meropenem for 14 days; changing antibiotics in a responding patient risks clinical deterioration",
-        "B: Switch from meropenem to a third-generation cephalosporin (e.g. ceftriaxone)",
-        "C: Add vancomycin to meropenem to cover a possible co-infecting gram-positive organism",
-        "D: Switch to ceftriaxone only if the patient shows clinical deterioration on day 4",
-        "E: Add metronidazole to meropenem to ensure anaerobic coverage for urosepsis"
+        "A: Add metronidazole to meropenem to ensure anaerobic coverage for urosepsis",
+        "B: Add vancomycin to meropenem to cover a possible co-infecting gram-positive organism",
+        "C: Switch to ceftriaxone only if the patient shows clinical deterioration on day 4",
+        "D: Continue meropenem for 14 days; changing antibiotics in a responding patient risks clinical deterioration",
+        "E: Switch from meropenem to a third-generation cephalosporin (e.g. ceftriaxone)"
       ],
-      "correct": 1,
+      "correct": 4,
       "explanation": "De-escalation to the narrowest active agent when susceptibility is confirmed is a core stewardship principle. Ceftriaxone covers this susceptible E. coli with narrower spectrum than meropenem, reducing selection pressure. Option A perpetuates unnecessarily broad therapy. Option D incorrectly ties de-escalation to clinical deterioration — a clinically improving patient with confirmed susceptibility is precisely the right context for de-escalation. A narrower spectrum does not imply inferior efficacy when susceptibility is confirmed.",
       "section": "Adapting therapy",
       "topic": "de-escalation carbapenem cephalosporin susceptible Enterobacterales culture result stewardship",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "rua_a14",
@@ -263,18 +276,19 @@
       "set": 1,
       "question": "A 50-year-old with biliary sepsis has a CT-confirmed perihepatic collection and has been on day 8 of IV ceftriaxone. The causative Klebsiella pneumoniae is fully susceptible to ceftriaxone. Despite appropriate dosing, the patient remains febrile with persistently elevated CRP. What is the most likely explanation and next step?",
       "options": [
-        "A: Antimicrobial resistance has emerged; escalate to a carbapenem",
-        "B: Co-infection with Candida species has developed; add an echinocandin empirically",
-        "C: In vitro vs in vivo susceptibility discordance; switch to a different antibiotic class",
-        "D: Inadequate source control — the perihepatic collection is not drained; repeat imaging and consider interventional drainage",
+        "A: Inadequate source control; repeat imaging and consider drainage",
+        "B: In vitro vs in vivo susceptibility discordance; switch to a different antibiotic class",
+        "C: Antimicrobial resistance has emerged; escalate to a carbapenem",
+        "D: Co-infection with Candida species has developed; add an echinocandin empirically",
         "E: Drug fever from prolonged ceftriaxone; stop all antibiotics and observe for 48 hours"
       ],
-      "correct": 3,
+      "correct": 0,
       "explanation": "This is the classic scenario of anatomical (source control) failure — the antibiotic spectrum and dosing are correct, but an undrained abscess maintains a local inoculum that antibiotics cannot eradicate. Imaging reassessment and interventional drainage or surgery is the appropriate next step. Options A and C incorrectly assume microbiological failure when confirmed susceptibility is documented. Drug fever (E) is a near-miss but would not sustain this degree of elevated inflammatory markers.",
       "section": "Adapting therapy",
       "topic": "treatment failure abscess undrained source control imaging drainage",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "rua_a15",
@@ -283,8 +297,8 @@
       "question": "A 61-year-old with gram-negative bacteraemia from an unobstructed urinary tract infection (no endovascular source, no prosthetic material, normal echocardiogram) responds well to IV ceftriaxone. Blood cultures are negative at 48 hours. What is the most appropriate treatment duration?",
       "options": [
         "A: 5–7 days",
-        "B: Minimum 14 days, as bacteraemia mandates prolonged therapy regardless of source",
-        "C: 21–28 days given the severity of initial septic presentation",
+        "B: 21–28 days given the severity of initial septic presentation",
+        "C: Minimum 14 days, as bacteraemia mandates prolonged therapy regardless of source",
         "D: Continue until afebrile for 72 consecutive hours, then stop immediately",
         "E: At least 10 days, guided by repeat blood cultures every 48 hours"
       ],
@@ -293,7 +307,8 @@
       "section": "Adapting therapy",
       "topic": "duration UTI bacteraemia 5-7 days gram-negative source uncomplicated",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "rua_k01",
@@ -303,30 +318,31 @@
       "statements": [
         {
           "label": "A",
-          "text": "Aminoglycosides achieve maximal bactericidal effect when the peak concentration (Cmax) is 8–10 times above the MIC.",
-          "correct": true
-        },
-        {
-          "label": "B",
-          "text": "For beta-lactam antibiotics in critically ill patients, 100% free-fraction time above MIC (100% fT>MIC) is generally recommended rather than the standard 50% T>MIC target used in non-critically ill patients.",
-          "correct": true
-        },
-        {
-          "label": "C",
           "text": "Vancomycin bactericidal activity is best characterised by Cmax/MIC, supporting the use of high single intermittent doses to maximise peak levels.",
           "correct": false
         },
         {
-          "label": "D",
+          "label": "B",
           "text": "Fluoroquinolones achieve optimal bactericidal killing via a purely time-dependent mechanism; dosing should aim to maintain concentrations above MIC for >90% of the dosing interval.",
           "correct": false
+        },
+        {
+          "label": "C",
+          "text": "For beta-lactam antibiotics in critically ill patients, 100% free-fraction time above MIC (100% fT>MIC) is generally recommended rather than the standard 50% T>MIC target used in non-critically ill patients.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Aminoglycosides achieve maximal bactericidal effect when the peak concentration (Cmax) is 8–10 times above the MIC.",
+          "correct": true
         }
       ],
       "explanation": "A and B are true: aminoglycosides are Cmax/MIC-dependent (target 8-10x MIC); beta-lactams are time-dependent with 100% fT>MIC preferred in critically ill patients. C is false: vancomycin is AUC24/MIC-dependent (target ≥400), not Cmax/MIC-driven. D is false: fluoroquinolones are AUC24/MIC-dependent (both concentration and time contribute), with AUC >125–250 as the target — not purely time-dependent.",
       "section": "Pharmacokinetic and pharmacodynamic issues in critically ill patients",
       "topic": "PK/PD targets Cmax MIC T>MIC AUC MIC antibiotic classes",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "rua_k02",
@@ -336,30 +352,31 @@
       "statements": [
         {
           "label": "A",
-          "text": "Beta-lactams are hydrophilic antibiotics with low volume of distribution and predominantly renal elimination, requiring dose adjustment for fluctuating renal function.",
-          "correct": true
-        },
-        {
-          "label": "B",
-          "text": "Sepsis-related capillary leak and fluid resuscitation can expand the volume of distribution of hydrophilic agents, reducing plasma concentrations and risking underdosing.",
-          "correct": true
-        },
-        {
-          "label": "C",
           "text": "Beta-lactam activity is primarily concentration-dependent (Cmax/MIC-driven), making intermittent high-dose boluses preferable to extended infusions.",
           "correct": false
         },
         {
-          "label": "D",
-          "text": "The BLING III randomised trial demonstrated reduced 90-day mortality when beta-lactams were administered as continuous compared to intermittent infusions in patients with sepsis or septic shock.",
+          "label": "B",
+          "text": "Beta-lactams are hydrophilic antibiotics with low volume of distribution and predominantly renal elimination, requiring dose adjustment for fluctuating renal function.",
           "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sepsis-related capillary leak and fluid resuscitation can expand the volume of distribution of hydrophilic agents, reducing plasma concentrations and risking underdosing.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "The BLING III randomised trial demonstrated a statistically significant reduction in 90-day mortality with continuous compared to intermittent beta-lactam infusion in its primary analysis.",
+          "correct": false
         }
       ],
-      "explanation": "A and B are true — hydrophilic PK properties are well established. C is false — beta-lactams are time-dependent (T>MIC), not Cmax/MIC-dependent; extended infusion is therefore beneficial. D is true — BLING III (2024) confirmed mortality reduction with prolonged infusion in sepsis/septic shock.",
+      "explanation": "A and B are true: beta-lactams are hydrophilic with renal elimination requiring dose adjustment, and sepsis-related capillary leak/fluid resuscitation can expand their volume of distribution, risking underdosing. C is false: beta-lactam killing is primarily time-dependent (T>MIC), not Cmax/MIC-driven — this favours extended/continuous infusion over high-dose boluses. D is false as stated: BLING III's primary analysis found a non-significant 90-day mortality difference (24.9% vs 26.8%, OR 0.91, 95% CI 0.81–1.01); only the pre-specified companion meta-analysis reached statistical significance for mortality — a frequently misremembered distinction.",
       "section": "Pharmacokinetic and pharmacodynamic issues in critically ill patients",
       "topic": "beta-lactam hydrophilic time-dependent BLING III prolonged infusion VD capillary leak",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "rua_k03",
@@ -369,22 +386,22 @@
       "statements": [
         {
           "label": "A",
-          "text": "Vancomycin has activity against gram-positive organisms including MRSA and enterococci, but has no clinically relevant activity against gram-negative bacteria.",
+          "text": "A loading dose of 25–30 mg/kg is recommended to achieve rapid therapeutic vancomycin concentrations.",
           "correct": true
         },
         {
           "label": "B",
-          "text": "The recommended PK/PD target for vancomycin is AUC24/MIC ≥400, with trough concentration of 15–20 mg/L used as a practical clinical surrogate.",
-          "correct": true
-        },
-        {
-          "label": "C",
           "text": "Continuous infusion of vancomycin is associated with a higher risk of nephrotoxicity compared to intermittent bolus dosing.",
           "correct": false
         },
         {
+          "label": "C",
+          "text": "Vancomycin has activity against gram-positive organisms including MRSA and enterococci, but has no clinically relevant activity against gram-negative bacteria.",
+          "correct": true
+        },
+        {
           "label": "D",
-          "text": "A loading dose of 25–30 mg/kg is recommended to achieve rapid therapeutic vancomycin concentrations.",
+          "text": "The recommended PK/PD target for vancomycin is AUC24/MIC ≥400, with trough concentration of 15–20 mg/L used as a practical clinical surrogate.",
           "correct": true
         }
       ],
@@ -392,7 +409,8 @@
       "section": "Different antibiotic classes",
       "topic": "vancomycin AUC MIC trough loading dose continuous infusion nephrotoxicity gram-positive",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "rua_k04",
@@ -425,7 +443,8 @@
       "section": "Different antibiotic classes",
       "topic": "aminoglycosides concentration-dependent once-daily renal TDM no anaerobic activity",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "rua_k05",
@@ -458,7 +477,8 @@
       "section": "Different antibiotic classes",
       "topic": "colistin CMS prodrug loading dose combination therapy trough limit MDR",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "rua_k06",
@@ -468,30 +488,31 @@
       "statements": [
         {
           "label": "A",
-          "text": "Each blood culture 'set' consists of one aerobic and one anaerobic bottle, with approximately 10 mL of blood instilled into each bottle.",
-          "correct": true
+          "text": "The anaerobic bottle in a blood culture 'set' may be omitted when the suspected source makes anaerobic bacteraemia unlikely, without meaningfully reducing diagnostic yield.",
+          "correct": false
         },
         {
           "label": "B",
-          "text": "Collecting two to four sets from separate venepuncture sites increases diagnostic sensitivity to above 80%.",
+          "text": "The 'initial specimen diversion technique', directing the first millilitre(s) of withdrawn blood to other tests, reduces skin flora contamination of blood culture bottles.",
           "correct": true
         },
         {
           "label": "C",
-          "text": "Blood cultures should ideally be drawn after the first dose of antibiotics to reduce false-positive results from non-viable organisms.",
-          "correct": false
+          "text": "Collecting two to four sets from separate venepuncture sites increases diagnostic sensitivity to above 80%.",
+          "correct": true
         },
         {
           "label": "D",
-          "text": "The 'initial specimen diversion technique', directing the first millilitre(s) of withdrawn blood to other tests, reduces skin flora contamination of blood culture bottles.",
-          "correct": true
+          "text": "Blood cultures should ideally be drawn after the first dose of antibiotics to reduce false-positive results from non-viable organisms.",
+          "correct": false
         }
       ],
-      "explanation": "A, B, and D are true. C is false and a critical trap: blood cultures must be drawn BEFORE antibiotic administration — collecting after the first dose significantly reduces yield by killing organisms before culture. The principle 'sampling precedes empirical treatment' is fundamental to the module.",
+      "explanation": "A is false: standard practice is to inoculate both an aerobic and an anaerobic bottle per set (~10 mL each) regardless of the suspected source — relying on clinical suspicion to skip the anaerobic bottle risks missing unexpected anaerobic or fastidious facultative organisms; anaerobic bottles also support recovery of some non-anaerobic organisms under certain conditions. B is true: 2–4 sets from separate sites raises sensitivity above 80%. C is false: cultures should be drawn BEFORE antibiotics, not after — post-antibiotic sampling reduces yield, it does not reduce false positives. D is true: the initial specimen diversion technique reduces skin-flora contamination.",
       "section": "Diagnosis of Infection and Microbiological sampling, biomarkers",
       "topic": "blood cultures volume sets aerobic anaerobic before antibiotics contamination",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "rua_k07",
@@ -501,22 +522,22 @@
       "statements": [
         {
           "label": "A",
-          "text": "Gram staining of specimens (e.g. CSF, BAL) can provide preliminary morphological pathogen identification within 0–2 hours of sample collection.",
-          "correct": true
-        },
-        {
-          "label": "B",
-          "text": "MALDI-TOF mass spectrometry enables rapid species identification, typically within minutes, when performed directly from positive blood culture bottles.",
-          "correct": true
-        },
-        {
-          "label": "C",
           "text": "Antimicrobial susceptibility testing (antibiogram) from standard culture is typically available within 2–8 hours, enabling targeted therapy within the first day.",
           "correct": false
         },
         {
-          "label": "D",
+          "label": "B",
           "text": "Multiplex PCR panels for bloodstream infection may detect colonising organisms, non-viable bacteria, or reactivated viruses, potentially overestimating the burden of active infection.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Gram staining of specimens (e.g. CSF, BAL) can provide preliminary morphological pathogen identification within 0–2 hours of sample collection.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "MALDI-TOF mass spectrometry enables rapid species identification, typically within minutes, when performed directly from positive blood culture bottles.",
           "correct": true
         }
       ],
@@ -524,7 +545,8 @@
       "section": "Diagnosis of Infection and Microbiological sampling, biomarkers",
       "topic": "microbiological timeline Gram stain MALDI-TOF antibiogram PCR timing",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "rua_k08",
@@ -534,13 +556,13 @@
       "statements": [
         {
           "label": "A",
-          "text": "De-escalation is best guided by microbiological results and involves narrowing therapy to the agent with the smallest effective spectrum against the identified pathogen.",
-          "correct": true
+          "text": "De-escalation should be withheld until the patient has been clinically stable for a mandatory 72-hour period to avoid precipitating clinical deterioration.",
+          "correct": false
         },
         {
           "label": "B",
-          "text": "De-escalation should be withheld until the patient has been clinically stable for a mandatory 72-hour period to avoid precipitating clinical deterioration.",
-          "correct": false
+          "text": "De-escalation is best guided by microbiological results and involves narrowing therapy to the agent with the smallest effective spectrum against the identified pathogen.",
+          "correct": true
         },
         {
           "label": "C",
@@ -549,15 +571,16 @@
         },
         {
           "label": "D",
-          "text": "A pathogen confirmed as 'sensitive' (S) or 'sensitive with increased exposure' (I) on susceptibility testing is equally likely to respond to narrow-spectrum and broad-spectrum agents that include that organism.",
-          "correct": true
+          "text": "A pathogen confirmed as 'sensitive with increased exposure' (I) is equally likely to respond to standard dosing of any agent that includes it in its spectrum, without need for dose optimisation.",
+          "correct": false
         }
       ],
-      "explanation": "A, C, and D are true. B is false: there is no mandatory 72-hour stability period before de-escalation. De-escalation should occur when microbiological results confirm susceptibility, regardless of whether the stability threshold is met. The clinical improvement observed at 24–72 hours provides reassurance, but the trigger for de-escalation is microbiological, not a fixed time interval.",
+      "explanation": "A is true: de-escalation narrows to the smallest effective spectrum once a pathogen is identified. B is false: there is no mandatory 72-hour stability period — de-escalation should occur as soon as susceptibility data allow. C is true: carbapenem-to-cephalosporin switching on a susceptible Enterobacterales is a standard de-escalation example. D is false: the CLSI 'I' category specifically means the organism may respond only if increased drug exposure is achieved (higher dose, more frequent dosing, or a route/site that concentrates the drug) — it is not equivalent to a straightforward 'S' result at standard dosing across all agents.",
       "section": "Adapting therapy",
       "topic": "de-escalation microbiological guidance spectrum carbapenem cephalosporin no fixed 72h",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "rua_k09",
@@ -567,12 +590,12 @@
       "statements": [
         {
           "label": "A",
-          "text": "At least two PCT measurements are required to assess kinetics; single PCT values are insufficient for reliable antibiotic discontinuation decisions.",
-          "correct": true
+          "text": "A single normal PCT value (<0.5 ng/mL) reliably excludes bacterial infection in ICU patients and permits safe antibiotic withholding without further clinical evaluation.",
+          "correct": false
         },
         {
           "label": "B",
-          "text": "A PCT decline of more than 80% from peak value, in a clinically improving patient, supports antibiotic discontinuation in many infections.",
+          "text": "At least two PCT measurements are required to assess kinetics; single PCT values are insufficient for reliable antibiotic discontinuation decisions.",
           "correct": true
         },
         {
@@ -582,15 +605,16 @@
         },
         {
           "label": "D",
-          "text": "A single normal PCT value (<0.5 ng/mL) reliably excludes bacterial infection in ICU patients and permits safe antibiotic withholding without further clinical evaluation.",
-          "correct": false
+          "text": "A PCT decline of more than 80% from peak value, in a clinically improving patient, supports antibiotic discontinuation in many infections.",
+          "correct": true
         }
       ],
       "explanation": "A, B, and C are all true — these are core principles of PCT-guided antibiotic therapy. D is false and the key trap: PCT has poor specificity in the ICU and cannot be used as a standalone test for infection exclusion. A normal PCT does NOT reliably exclude bacterial infection (many factors blunt the PCT response, especially in immunocompromised patients). Clinical assessment remains essential.",
       "section": "Adapting therapy",
       "topic": "PCT kinetics 80 percent decline two measurements normal not exclude infection",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "rua_k10",
@@ -600,29 +624,50 @@
       "statements": [
         {
           "label": "A",
-          "text": "The core AMS team typically includes a clinical microbiologist, an infectious diseases specialist, and a clinical pharmacist.",
+          "text": "Approximately half of antibiotics prescribed to ICU patients have been estimated to be suboptimal, highlighting substantial scope for stewardship improvement.",
           "correct": true
         },
         {
           "label": "B",
-          "text": "Evidence shows that adherence to AMS objectives can improve patient outcomes, reduce costs, decrease resistance rates, and reduce adverse events.",
-          "correct": true
-        },
-        {
-          "label": "C",
           "text": "Restrictive AMS interventions (prior authorisation for last-resort antibiotics) have been demonstrated to be consistently superior to educational and enabling strategies in all ICU settings.",
           "correct": false
         },
         {
+          "label": "C",
+          "text": "All 14 defined antimicrobial stewardship objectives are individually supported by evidence of improved patient outcomes, reduced costs, or decreased resistance.",
+          "correct": false
+        },
+        {
           "label": "D",
-          "text": "Approximately half of antibiotics prescribed to ICU patients have been estimated to be suboptimal, highlighting substantial scope for stewardship improvement.",
+          "text": "The core AMS team typically includes a clinical microbiologist, an infectious diseases specialist, and a clinical pharmacist.",
           "correct": true
         }
       ],
-      "explanation": "A, B, and D are true. C is false: both restrictive and enabling strategies are components of AMS programs; neither has been proven universally superior. The module describes them as complementary approaches. Restricting last-resort antibiotics is one 'how' strategy, while education and feedback represent another; their relative benefit depends on the institutional context.",
+      "explanation": "A is true: the core AMS team typically includes a clinical microbiologist, ID specialist, and clinical pharmacist. B is false as stated: of the 14 defined stewardship objectives, evidence supports benefit (improved outcome, reduced cost, decreased resistance, or fewer adverse events) for 9 of them — not all 14 individually. C is false: restrictive interventions are not consistently superior to enabling/educational strategies across all settings; the evidence favours a combined approach. D is true: roughly half of ICU antibiotic prescribing is estimated to be suboptimal.",
       "section": "Antimicrobial stewardship",
       "topic": "AMS program team evidence restrictive enabling suboptimal antibiotics ICU",
       "image": null,
+      "section_url": null,
+      "source": "pact_generated"
+    },
+    {
+      "id": "rua_a16",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "The spectrum chart below shows antibiotic activity against key ICU pathogens. Meropenem and imipenem reliably cover Pseudomonas aeruginosa and Acinetobacter baumannii. Based on the chart, which other organism do carbapenems characteristically NOT cover?",
+      "options": [
+        "A: Haemophilus influenzae",
+        "B: Klebsiella pneumoniae (non-ESBL, non-carbapenemase-producing)",
+        "C: Stenotrophomonas maltophilia",
+        "D: Enterobacterales producing AmpC beta-lactamase",
+        "E: Neisseria species"
+      ],
+      "correct": 2,
+      "explanation": "Stenotrophomonas maltophilia is intrinsically resistant to carbapenems via a chromosomal metallo-beta-lactamase (L1) that hydrolyses them — the one common non-fermenter carbapenems do not cover, distinguishing it from Pseudomonas and Acinetobacter. Co-trimoxazole is the classic first-line agent. The other organisms listed (H. influenzae, AmpC-producing Enterobacterales, non-ESBL Klebsiella, Neisseria) are all reliably covered by carbapenems — notably, carbapenems remain active against AmpC producers because AmpC does not hydrolyse them, unlike most cephalosporins.",
+      "section": "Different antibiotic classes",
+      "topic": "antibiotic spectrum chart carbapenem resistance stenotrophomonas non-fermenter coverage",
+      "image": "images/img_db7a3cdca6.png",
       "section_url": null
     }
   ]
