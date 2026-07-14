@@ -6,7 +6,7 @@
     "Clinical Assessment and Investigations": "Cardinal features: congestion (dyspnoea, bibasal crepitations, raised JVP, peripheral oedema) and/or cardiogenic shock (hypotension, cold peripheries, oliguria, confusion). Key investigations: ECG, CXR (upper lobe diversion, Kerley B lines, pleural effusions; normal cardiothoracic ratio does not exclude LV dysfunction), echocardiography (most useful imaging), BNP/NT-proBNP (falsely low in obesity), troponin, and pulmonary artery catheterisation for complex cases. Elevated PCWP (>18 mmHg) supports cardiogenic rather than non-cardiogenic pulmonary oedema.",
     "Grading and Prognostication": "Killip-Kimball classifies post-AMI AHF: Class I = no HF (<6% 30-day mortality); Class II = congestion/3rd heart sound (<17%); Class III = florid pulmonary oedema (~38%); Class IV = cardiogenic shock (~81%). SAVE score predicts in-hospital survival in cardiogenic shock on VA-ECMO (external validation AUC 0.9) — should NOT be used to determine individual futility. Protective SAVE factors: younger age, VT/VF aetiology, acute myocarditis. Adverse factors: chronic renal failure, pre-ECMO arrest, prolonged ventilation, multi-organ failure.",
     "Management: ESC Guidelines": "ESC 2016 two haemodynamic states: (1) Wet-warm (congestion without shock, 95% of AHF): IV loop diuretics 1st line ± vasodilators (especially if hypertensive); target SpO2 ≥90%; NIV/CPAP for respiratory distress. (2) Cold (cardiogenic shock): inotropes (sympathomimetics, PDE-3 inhibitors, calcium sensitisers) ± vasopressors; MCS if refractory. Avoid beta-blockers in acute decompensation. Levosimendan acts via troponin C calcium sensitisation, independent of beta-adrenoceptors — efficacy unaffected by chronic beta-blocker use.",
-    "Other Supportive Care": "NIV: CPAP reduces LV afterload (decreased transmural pressure) and work of breathing. BiPAP improves CO2 clearance but has NOT shown mortality superiority over CPAP in AHF (3CPO trial, Masip et al.). Depressed sensorium or airway compromise = mandatory intubation, not NIV. Hyperoxia is harmful in ACS: causes coronary vasoconstriction, reduces coronary blood flow, impairs ventricular contractility — target SpO2 ≥90%, avoid overcorrection. RRT indicated in diuretic-refractory volume overload, K+ >6.5 mmol/L, AKI, metabolic acidosis.",
+    "Other Supportive Care": "NIV: CPAP reduces LV afterload (decreased transmural pressure) and work of breathing. BiPAP improves CO2 clearance but has NOT shown mortality superiority over CPAP in AHF (3CPO trial). Depressed sensorium or airway compromise = mandatory intubation, not NIV. Hyperoxia is harmful in ACS: causes coronary vasoconstriction, reduces coronary blood flow, impairs ventricular contractility — target SpO2 ≥90%, avoid overcorrection. RRT indicated in diuretic-refractory volume overload, K+ >6.5 mmol/L, AKI, metabolic acidosis.",
     "Short-term MCS": "Indicated in cardiogenic shock refractory to medical therapy. Exit strategy must be defined before implantation: bridge to decision (uncertain suitability), bridge to bridge (stabilise before long-term MCS), bridge to transplant (listed patients), bridge to recovery (reversible aetiology e.g. myocarditis). IABP: inflates diastole (coronary perfusion ↑, afterload ↓ on deflation); modest LV benefit; contraindications = moderate+ AR, severe PVD; IABP-SHOCK II: no mortality benefit in AMI-CS → ESC Class III (not routinely recommended). Impella: transvalvular (across AV), AS/AR = relative CI, mechanical AVR = precluded. VA-ECMO (peripheral): increases LV afterload via retrograde aortic flow — fails to unload LV; often requires additional LV venting (IABP, Impella); contraindications = moderate+ AR, severe PVD, anticoagulation CI.",
     "Long-term MCS and Transplantation": "Long-term continuous-flow LVADs (HeartMate II/III, HeartWare HVAD) pump LV blood to ascending aorta. 2–3 year survival approaches transplant in selected patients; morbidity (bleeding, stroke, infection, haemolysis) remains higher; longer-term outcomes inferior to transplantation. Destination therapy for transplant-ineligible patients. Heart transplant contraindications: irreversible pulmonary hypertension, significant comorbidity (renal/hepatic/pulmonary), active malignancy, active infection, repeated non-compliance. Age >65 is a RELATIVE (not absolute) contraindication. UK allocation: super-urgent (ECMO/VAD-dependent) > urgent (inotropes/IABP) > routine (ambulant)."
   },
@@ -17,18 +17,19 @@
       "set": 1,
       "question": "A 68-year-old woman with known ischaemic cardiomyopathy (LVEF 25%) presents to the ICU with severe dyspnoea. BP 174/96 mmHg, HR 114 bpm, SpO2 87% on high-flow oxygen, bibasal crepitations to mid-zones, raised JVP, and warm peripheries. According to ESC guidelines, what is the most appropriate first-line pharmacological strategy?",
       "options": [
-        "A: IV dobutamine infusion",
-        "B: IV furosemide with IV glyceryl trinitrate",
-        "C: IV norepinephrine and vasopressin",
+        "A: IV norepinephrine and vasopressin",
+        "B: Oral bisoprolol titration",
+        "C: IV dobutamine infusion",
         "D: IV levosimendan infusion",
-        "E: Oral bisoprolol titration"
+        "E: IV furosemide with IV glyceryl trinitrate"
       ],
-      "correct": 1,
-      "explanation": "This is a 'wet-warm' presentation — congestion with adequate peripheral perfusion and hypertension. ESC guidelines recommend IV loop diuretics as first-line (to reduce congestion), with vasodilators as beneficial adjuncts in hypertensive patients. Inotropes (A, D) are reserved for the 'cold' cardiogenic shock phenotype. Starting or titrating beta-blockers (E) in acute decompensation reduces cardiac output and worsens the clinical state.",
+      "correct": 4,
+      "explanation": "This is a 'wet-warm' presentation — congestion with adequate peripheral perfusion and hypertension. ESC guidelines recommend IV loop diuretics as first-line (to reduce congestion), with vasodilators as beneficial adjuncts in hypertensive patients. Inotropes (levosimendan, dobutamine) are reserved for the 'cold' cardiogenic shock phenotype. Starting or titrating beta-blockers in acute decompensation reduces cardiac output and worsens the clinical state.",
       "section": "Management: ESC Guidelines",
       "topic": "AHF wet-warm ESC treatment algorithm diuretics vasodilators",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "lshf_a02",
@@ -36,18 +37,19 @@
       "set": 1,
       "question": "A 61-year-old man is admitted with inferior STEMI. He has mild tachycardia (HR 102 bpm), bibasal crepitations to the lower zones, a third heart sound, but no florid pulmonary oedema and no haemodynamic compromise (BP 118/72 mmHg). What is his Killip-Kimball class and associated approximate 30-day mortality?",
       "options": [
-        "A: Class I — <6%",
-        "B: Class II — <17%",
-        "C: Class III — 38%",
-        "D: Class IV — 81%",
-        "E: Class II — 38%"
+        "A: Class II — <17%",
+        "B: Class I — <6%",
+        "C: Class IV — 81%",
+        "D: Class II — 38%",
+        "E: Class III — 38%"
       ],
-      "correct": 1,
-      "explanation": "Killip Class II = heart failure with signs of congestion (bibasal crepitations, 3rd heart sound) without florid pulmonary oedema, carrying <17% 30-day mortality. Class III = florid pulmonary oedema throughout all lung fields (~38%). Option E is the near-miss trap — correct class identification but wrong mortality; candidates who know 'Class II' without knowing the mortality threshold will select it.",
+      "correct": 0,
+      "explanation": "Killip Class II = heart failure with signs of congestion (bibasal crepitations, 3rd heart sound) without florid pulmonary oedema, carrying <17% 30-day mortality. Class III = florid pulmonary oedema throughout all lung fields (~38%). The 'Class II — 38%' distractor is the near-miss trap — correct class identification but wrong mortality; candidates who know 'Class II' without knowing the mortality threshold will select it.",
       "section": "Grading and Prognostication",
       "topic": "Killip-Kimball classification AMI mortality criteria",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "lshf_a03",
@@ -55,18 +57,19 @@
       "set": 1,
       "question": "A 74-year-old man with known ischaemic cardiomyopathy develops worsening dyspnoea and hypoxaemia (SpO2 88%, PaCO2 4.6 kPa) despite high-flow oxygen. You commence non-invasive ventilation. Which statement most accurately reflects current evidence for NIV mode selection in acute heart failure?",
       "options": [
-        "A: BiPAP is preferred as it has demonstrated superior reduction in mortality over CPAP in randomised trials",
-        "B: CPAP and BiPAP are both appropriate; randomised data have not shown BiPAP to be superior to CPAP in AHF",
-        "C: BiPAP is contraindicated in AHF when PaCO2 is normal",
-        "D: CPAP is contraindicated with severely impaired LV function (EF <20%) due to haemodynamic compromise",
-        "E: CPAP should be avoided in AHF as it increases LV transmural pressure and worsens afterload"
+        "A: CPAP should be avoided in AHF as it increases LV transmural pressure and worsens afterload",
+        "B: BiPAP is contraindicated in AHF when PaCO2 is normal",
+        "C: CPAP is contraindicated with severely impaired LV function (EF <20%) due to haemodynamic compromise",
+        "D: BiPAP is preferred as it has demonstrated superior reduction in mortality over CPAP in randomised trials",
+        "E: CPAP and BiPAP are both appropriate; randomised data have not shown BiPAP to be superior to CPAP in AHF"
       ],
-      "correct": 1,
-      "explanation": "Multiple RCTs show BiPAP improves CO2 clearance but has NOT demonstrated superiority over CPAP for mortality or intubation rates in AHF. Both modes reduce work of breathing and improve oxygenation. CPAP reduces LV afterload by decreasing ventricular transmural pressure — Option E reverses the physiology. Neither mode is contraindicated on the basis of EF or PaCO2 alone.",
+      "correct": 4,
+      "explanation": "Multiple RCTs show BiPAP improves CO2 clearance but has NOT demonstrated superiority over CPAP for mortality or intubation rates in AHF. Both modes reduce work of breathing and improve oxygenation. CPAP reduces LV afterload by decreasing ventricular transmural pressure — the distractor claiming CPAP should be avoided because it worsens afterload reverses this physiology. Neither mode is contraindicated on the basis of EF or PaCO2 alone.",
       "section": "Other Supportive Care",
       "topic": "NIV CPAP BiPAP acute heart failure evidence comparison",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "lshf_a04",
@@ -74,18 +77,19 @@
       "set": 1,
       "question": "A 58-year-old man with anterior STEMI and mild hypoxaemia (SpO2 94%) is on 15L/min O2 via non-rebreather mask, achieving SpO2 100%. A colleague argues this is beneficial. Which best describes the cardiovascular effects of hyperoxia in this context?",
       "options": [
-        "A: Hyperoxia improves coronary vasomotor tone and reduces myocardial oxygen demand",
-        "B: Hyperoxia causes coronary vasoconstriction, reduces coronary blood flow, impairs ventricular contractility, and may worsen outcomes in acute coronary syndrome",
-        "C: SpO2 ≥98% is recommended by ESC guidelines in all patients with acute myocardial infarction",
+        "A: SpO2 ≥98% is recommended by ESC guidelines in all patients with acute myocardial infarction",
+        "B: Hyperoxia improves coronary vasomotor tone and reduces myocardial oxygen demand",
+        "C: Hyperoxia is beneficial in cardiogenic shock as increased dissolved oxygen compensates for reduced cardiac output",
         "D: The haemodynamic effects of hyperoxia are only clinically relevant when PaO2 exceeds 60 kPa",
-        "E: Hyperoxia is beneficial in cardiogenic shock as increased dissolved oxygen compensates for reduced cardiac output"
+        "E: Hyperoxia causes coronary vasoconstriction and impairs ventricular contractility, worsening outcomes in acute coronary syndrome"
       ],
-      "correct": 1,
-      "explanation": "Hyperoxia causes coronary vasoconstriction, reduces coronary blood flow, and is associated with impaired ventricular contractility and worse outcomes in ACS. The pragmatic target is SpO2 ≥90% — correcting hypoxaemia is appropriate but overcorrection is harmful. Dissolved oxygen contributes negligibly to oxygen delivery at physiological atmospheric pressure (Option E), and there is no ESC recommendation for SpO2 ≥98% in non-hypoxaemic ACS patients.",
+      "correct": 4,
+      "explanation": "Hyperoxia causes coronary vasoconstriction, reduces coronary blood flow, and is associated with impaired ventricular contractility and worse outcomes in ACS. The pragmatic target is SpO2 ≥90% — correcting hypoxaemia is appropriate but overcorrection is harmful. Dissolved oxygen contributes negligibly to oxygen delivery at physiological atmospheric pressure, contradicting the claim that it can compensate for reduced cardiac output in cardiogenic shock, and there is no ESC recommendation for SpO2 ≥98% in non-hypoxaemic ACS patients.",
       "section": "Other Supportive Care",
       "topic": "hyperoxia harm coronary vasoconstriction ACS SpO2 target",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "lshf_a05",
@@ -93,18 +97,19 @@
       "set": 1,
       "question": "A 65-year-old man with cardiogenic shock following anterior STEMI is assessed for IABP insertion. TTE reveals moderate-to-severe aortic regurgitation in addition to severely impaired LV function (EF 15%). Why does the aortic regurgitation represent a contraindication to IABP?",
       "options": [
-        "A: Aortic regurgitation is only a contraindication to Impella, not to IABP",
-        "B: IABP diastolic inflation increases aortic diastolic pressure, augmenting the regurgitant volume into the LV and worsening volume overload",
-        "C: Moderate AR is not a contraindication; only severe (grade IV) AR precludes IABP use",
-        "D: AR limits IABP efficacy only through reduced diastolic blood pressure, not through LV volume overload",
-        "E: The IABP balloon physically obstructs regurgitant flow across the aortic valve"
+        "A: AR limits IABP efficacy only through reduced diastolic blood pressure, not through LV volume overload",
+        "B: The IABP balloon physically obstructs regurgitant flow across the aortic valve",
+        "C: IABP diastolic inflation increases aortic diastolic pressure, augmenting regurgitant flow and LV volume overload",
+        "D: Aortic regurgitation is only a contraindication to Impella, not to IABP",
+        "E: Moderate AR is not a contraindication; only severe (grade IV) AR precludes IABP use"
       ],
-      "correct": 1,
-      "explanation": "IABP inflates in diastole, augmenting aortic diastolic pressure. In aortic regurgitation, this increases the driving pressure for regurgitant flow back into the LV, worsening LV volume overload. The module specifies moderate (or greater) AR as the threshold — Option C is the near-miss trap, suggesting only severe AR is a contraindication when the actual threshold is moderate-or-greater.",
+      "correct": 2,
+      "explanation": "IABP inflates in diastole, augmenting aortic diastolic pressure. In aortic regurgitation, this increases the driving pressure for regurgitant flow back into the LV, worsening LV volume overload. The module specifies moderate (or greater) AR as the threshold — the distractor claiming only severe AR precludes IABP is the near-miss trap, since the actual threshold is moderate-or-greater.",
       "section": "Short-term MCS",
       "topic": "IABP contraindication aortic regurgitation diastolic augmentation mechanism",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "lshf_a06",
@@ -112,18 +117,19 @@
       "set": 1,
       "question": "A 40-year-old woman with fulminant myocarditis and refractory cardiogenic shock is placed on peripheral femoro-femoral VA-ECMO. Despite haemodynamic stabilisation, repeat TTE 12 hours later shows a severely dilated LV with markedly elevated end-diastolic pressure and worsening pulmonary oedema. Which best explains this finding?",
       "options": [
-        "A: VA-ECMO bypasses the left heart by drawing blood directly from the pulmonary circulation",
-        "B: Peripheral VA-ECMO returns blood retrograde into the aorta, increasing LV afterload and failing to unload the LV — potentially worsening LV wall stress and myocardial oxygen consumption",
+        "A: Peripheral VA-ECMO reduces systemic venous return, causing reduced LV preload and secondary dilatation",
+        "B: The membrane oxygenator generates reactive oxygen species that directly impair myocardial contractility",
         "C: VA-ECMO causes LV dilatation by over-filling the left ventricle via the membrane oxygenator",
-        "D: The membrane oxygenator generates reactive oxygen species that directly impair myocardial contractility",
-        "E: Peripheral VA-ECMO reduces systemic venous return, causing reduced LV preload and secondary dilatation"
+        "D: VA-ECMO bypasses the left heart by drawing blood directly from the pulmonary circulation",
+        "E: Peripheral VA-ECMO returns blood retrograde into the aorta, increasing LV afterload without unloading the LV"
       ],
-      "correct": 1,
+      "correct": 4,
       "explanation": "Peripheral VA-ECMO returns oxygenated blood retrograde into the aorta, increasing arterial elastance and LV afterload. Unlike Impella or TandemHeart — which directly unload the LV by drawing blood from the ventricle — peripheral VA-ECMO does not vent the LV. The net effect may be increased LV stroke work and myocardial oxygen consumption. LV venting strategies (IABP, Impella, surgical vent) are often required alongside VA-ECMO.",
       "section": "Short-term MCS",
       "topic": "VA-ECMO peripheral LV afterload no unloading pulmonary oedema paradox",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "lshf_a07",
@@ -131,18 +137,19 @@
       "set": 1,
       "question": "A 29-year-old previously healthy man presents with fulminant lymphocytic myocarditis and refractory cardiogenic shock. Cardiac MRI shows extensive myocardial oedema without fibrosis. Short-term MCS is initiated. Which MCS strategy designation is most appropriate given the clinical context?",
       "options": [
-        "A: Bridge to transplant",
-        "B: Destination therapy",
-        "C: Bridge to recovery",
-        "D: Bridge to bridge",
+        "A: Bridge to bridge",
+        "B: Bridge to transplant",
+        "C: Destination therapy",
+        "D: Bridge to recovery",
         "E: Bridge to decision"
       ],
-      "correct": 2,
-      "explanation": "Bridge to recovery = short-term MCS to stabilise haemodynamics until cardiac function recovers in patients with potentially reversible myocardial dysfunction. Fulminant myocarditis in a young patient without fibrosis has good recovery potential. Bridge to decision (Option E) is the near-miss — it is used when suitability for transplantation or long-term MCS is uncertain, not when recovery is the primary expectation. Destination therapy is for patients ineligible for transplantation.",
+      "correct": 3,
+      "explanation": "Bridge to recovery = short-term MCS to stabilise haemodynamics until cardiac function recovers in patients with potentially reversible myocardial dysfunction. Fulminant myocarditis in a young patient without fibrosis has good recovery potential. 'Bridge to decision' is the near-miss distractor — it is used when suitability for transplantation or long-term MCS is uncertain, not when recovery is the primary expectation. Destination therapy is for patients ineligible for transplantation.",
       "section": "Short-term MCS",
       "topic": "MCS strategy bridge to recovery myocarditis reversible",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "lshf_a08",
@@ -150,18 +157,19 @@
       "set": 1,
       "question": "A 58-year-old man with refractory cardiogenic shock secondary to STEMI is on VA-ECMO. A trainee calculates a low SAVE score and suggests withdrawing ECMO on grounds of futility. Which statement most accurately reflects the intended use of the SAVE score?",
       "options": [
-        "A: A low SAVE score mandates ECMO withdrawal discussion at 48 hours",
-        "B: The SAVE score predicts in-hospital survival in cardiogenic shock on VA-ECMO and should not be used to determine futility or replace clinical judgement in individual patients",
-        "C: The SAVE score was validated in a single-centre European cohort and has limited applicability beyond that population",
+        "A: Higher SAVE scores indicate greater predicted in-hospital mortality",
+        "B: The SAVE score was validated in a single-centre European cohort and has limited applicability beyond that population",
+        "C: A low SAVE score mandates ECMO withdrawal discussion at 48 hours",
         "D: The SAVE score was designed for the general critically ill population and predicts 30-day survival independent of ECMO",
-        "E: Higher SAVE scores indicate greater predicted in-hospital mortality"
+        "E: The SAVE score predicts in-hospital survival in cardiogenic shock on VA-ECMO; it should not determine individual futility or replace clinical judgement"
       ],
-      "correct": 1,
-      "explanation": "The SAVE score predicts in-hospital survival specifically for cardiogenic shock patients on VA-ECMO (developed via ELSO/Alfred Hospital, multinational cohort). Developers explicitly state it should not substitute clinical judgement or determine individual futility. Higher SAVE scores predict higher survival — not mortality (Option E reverses this). The external validation AUC was 0.9, contradicting Option C's claim of limited applicability.",
+      "correct": 4,
+      "explanation": "The SAVE score predicts in-hospital survival specifically for cardiogenic shock patients on VA-ECMO (developed via ELSO/Alfred Hospital, multinational cohort). Developers explicitly state it should not substitute clinical judgement or determine individual futility. Higher SAVE scores predict higher survival, not mortality — the distractor claiming higher scores indicate greater mortality reverses this. The external validation AUC was 0.9, contradicting the claim of limited applicability beyond a single-centre European cohort.",
       "section": "Grading and Prognostication",
       "topic": "SAVE score cardiogenic shock VA-ECMO survival prediction futility limitation",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "lshf_a09",
@@ -169,18 +177,19 @@
       "set": 1,
       "question": "A 62-year-old woman, 3 days post-cardiac surgery, develops bilateral pulmonary infiltrates, severe hypoxaemia (P:F ratio 90), and worsening respiratory mechanics. Temperature is 38.6°C. Echocardiographic windows are poor. It is clinically unclear whether this represents cardiogenic pulmonary oedema or ARDS. Which monitoring strategy is most useful to discriminate between these diagnoses?",
       "options": [
-        "A: Serial BNP measurements every 4 hours",
-        "B: Repeat echocardiography with IV contrast",
-        "C: Pulmonary artery catheterisation (PAC), enabling measurement of PCWP and mixed venous oxygen saturation",
-        "D: Minimally invasive cardiac output monitoring (e.g., PiCCO) provides equivalent diagnostic discrimination",
-        "E: High-resolution CT of the thorax"
+        "A: Minimally invasive cardiac output monitoring (e.g., PiCCO) provides equivalent diagnostic discrimination",
+        "B: High-resolution CT of the thorax",
+        "C: Repeat echocardiography with IV contrast",
+        "D: Pulmonary artery catheterisation (PAC), enabling measurement of PCWP and mixed venous oxygen saturation",
+        "E: Serial BNP measurements every 4 hours"
       ],
-      "correct": 2,
+      "correct": 3,
       "explanation": "PAC enables direct measurement of PCWP (proxy for LV filling pressure): elevated PCWP (>18 mmHg) supports cardiogenic oedema; low PCWP with clinical infection supports ARDS. SvO2 additionally guides adequacy of oxygen delivery. Although the PAC-MAN trial showed no survival benefit with PAC in the general ICU population, discriminating between cardiogenic and non-cardiogenic pulmonary oedema with inadequate echo windows is a recognised specific indication. PiCCO estimates cardiac output but cannot directly measure filling pressures with the same reliability as PAC.",
       "section": "Clinical Assessment and Investigations",
       "topic": "PAC PCWP cardiogenic ARDS pulmonary oedema discrimination monitoring",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "lshf_a10",
@@ -189,17 +198,18 @@
       "question": "A 68-year-old patient with ischaemic cardiomyopathy on long-term carvedilol develops acute decompensated heart failure with cardiogenic shock (CI 1.6 L/min/m², lactate 4.8 mmol/L). Despite IV furosemide and fluid optimisation, he remains cold and hypoperfused. Which inotrope's efficacy is LEAST likely to be attenuated by chronic carvedilol use?",
       "options": [
         "A: Dobutamine",
-        "B: Adrenaline (epinephrine)",
+        "B: Levosimendan",
         "C: Dopamine",
-        "D: Levosimendan",
-        "E: Isoprenaline"
+        "D: Isoprenaline",
+        "E: Adrenaline (epinephrine)"
       ],
-      "correct": 3,
+      "correct": 1,
       "explanation": "Levosimendan increases myocardial contractility by sensitising cardiac troponin C to calcium ions, independent of beta-adrenoceptor activation. Chronic beta-blocker use and consequent receptor down-regulation do not attenuate its inotropic effect. All other options (dobutamine, adrenaline, dopamine, isoprenaline) act through beta-adrenoceptors and may have reduced efficacy in the context of chronic beta-blockade. Levosimendan is also a potent vasodilator via vascular K+ channel activation.",
       "section": "Management: ESC Guidelines",
       "topic": "levosimendan troponin C calcium sensitiser beta-blocker independent inotrope",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "lshf_a11",
@@ -207,18 +217,19 @@
       "set": 1,
       "question": "A 62-year-old man with BMI 46 kg/m² presents with dyspnoea. BNP returns at 68 pg/mL (local threshold for HF unlikely: <100 pg/mL). A colleague concludes that heart failure is excluded. What is the most important reason to question this conclusion?",
       "options": [
-        "A: BNP is invariably elevated in obese patients, making the threshold unreliable in the opposite direction",
-        "B: Obesity is associated with lower circulating BNP levels, potentially producing a falsely reassuring result even in the presence of heart failure",
-        "C: BNP <100 pg/mL has 100% sensitivity and specificity for excluding heart failure in all populations",
+        "A: Obesity is associated with lower circulating BNP levels, risking a falsely reassuring result despite true heart failure",
+        "B: BNP <100 pg/mL has 100% sensitivity and specificity for excluding heart failure in all populations",
+        "C: BNP is often elevated in obese patients, making the threshold unreliable in the opposite direction",
         "D: In obese patients, only NT-proBNP should be used; BNP testing is invalid",
         "E: BNP levels are unaffected by BMI and the clinical threshold remains valid regardless of body weight"
       ],
-      "correct": 1,
-      "explanation": "Obesity is associated with reduced circulating BNP levels, likely due to increased clearance via natriuretic peptide receptors expressed on adipose tissue. This means standard BNP thresholds may yield false-negative results in obese patients. Option A reverses the direction of the association. Clinical assessment and echocardiography remain essential when suspicion is high despite a low BNP.",
+      "correct": 0,
+      "explanation": "Obesity is associated with reduced circulating BNP levels, likely due to increased clearance via natriuretic peptide receptors expressed on adipose tissue. This means standard BNP thresholds may yield false-negative results in obese patients. The distractor claiming BNP is elevated in obesity reverses the true direction of the association. Clinical assessment and echocardiography remain essential when suspicion is high despite a low BNP.",
       "section": "Clinical Assessment and Investigations",
       "topic": "BNP falsely low obesity false negative heart failure diagnosis",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "lshf_a12",
@@ -227,17 +238,18 @@
       "question": "A 69-year-old man with acute decompensated heart failure has received IV furosemide 500 mg/24h for 3 days. Urine output is 180 mL/24h. Serum K+ is 6.9 mmol/L, creatinine 368 µmol/L, and he has worsening pulmonary oedema. What is the most appropriate next step?",
       "options": [
         "A: Increase IV furosemide to 1000 mg/24h",
-        "B: Add IV acetazolamide to overcome loop diuretic resistance",
+        "B: Initiate levosimendan to improve renal perfusion and restore diuretic responsiveness",
         "C: Commence renal replacement therapy with ultrafiltration",
-        "D: Administer IV sodium bicarbonate to improve diuretic response",
-        "E: Initiate levosimendan to improve renal perfusion and restore diuretic responsiveness"
+        "D: Add IV acetazolamide to overcome loop diuretic resistance",
+        "E: Administer IV sodium bicarbonate to improve diuretic response"
       ],
       "correct": 2,
-      "explanation": "This patient has multiple concurrent absolute indications for RRT: diuretic-refractory volume overload with pulmonary oedema, severe hyperkalaemia (K+ >6.5 mmol/L), and rising creatinine indicating AKI. Ultrafiltration/haemofiltration effectively reduces circulating volume, lowers LVEDP, and corrects electrolyte abnormalities. Escalating diuretics (A) in established diuretic resistance is ineffective and risks further AKI. Levosimendan (E) may improve cardiac output but does not reliably and urgently address severe life-threatening hyperkalaemia.",
+      "explanation": "This patient has multiple concurrent absolute indications for RRT: diuretic-refractory volume overload with pulmonary oedema, severe hyperkalaemia (K+ >6.5 mmol/L), and rising creatinine indicating AKI. Ultrafiltration/haemofiltration effectively reduces circulating volume, lowers LVEDP, and corrects electrolyte abnormalities. Escalating the diuretic dose in established diuretic resistance is ineffective and risks further AKI. Levosimendan may improve cardiac output but does not reliably and urgently address severe life-threatening hyperkalaemia.",
       "section": "Other Supportive Care",
       "topic": "RRT indication diuretic refractory volume overload hyperkalaemia AKI",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "lshf_a13",
@@ -245,18 +257,19 @@
       "set": 1,
       "question": "Which of the following is NOT a contraindication or significant limitation to intra-aortic balloon pump (IABP) insertion?",
       "options": [
-        "A: Moderate-to-severe aortic regurgitation",
-        "B: Severe peripheral vascular disease with absent femoral pulses bilaterally",
-        "C: Cardiogenic shock refractory to inotropes and vasopressors",
+        "A: Known aortic dissection involving the descending thoracic aorta",
+        "B: Cardiogenic shock refractory to inotropes and vasopressors",
+        "C: Moderate-to-severe aortic regurgitation",
         "D: Rapid atrial fibrillation (ventricular rate 140–160 bpm)",
-        "E: Known aortic dissection involving the descending thoracic aorta"
+        "E: Severe peripheral vascular disease with absent femoral pulses bilaterally"
       ],
-      "correct": 2,
+      "correct": 1,
       "explanation": "Cardiogenic shock refractory to medical therapy is an INDICATION for IABP, not a contraindication. Moderate-to-severe AR is a contraindication (diastolic inflation worsens regurgitation). Severe PVD risks limb ischaemia. Rapid AF significantly reduces IABP efficacy as insufficient diastolic time is available for augmentation — while not an absolute contraindication, it substantially limits benefit. Aortic dissection involving the descending aorta is an anatomical contraindication.",
       "section": "Short-term MCS",
       "topic": "IABP NOT contraindication cardiogenic shock indication limitation",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "lshf_a14",
@@ -264,18 +277,19 @@
       "set": 1,
       "question": "A 57-year-old woman with acute decompensated heart failure has developed RV failure (CVP 22 mmHg, dilated RV on echo, estimated PVR 6.8 WU on PAC). Despite dobutamine, RV function continues to deteriorate. An inotrope with pulmonary vasodilatory properties is needed. Which drug class best provides this combination?",
       "options": [
-        "A: Catecholamines (e.g., adrenaline) — via alpha-1-mediated pulmonary vasoconstriction",
-        "B: Phosphodiesterase-3 inhibitors (e.g., milrinone) — via vascular cAMP accumulation causing pulmonary and systemic vasodilation combined with increased myocardial contractility",
-        "C: Vasopressin — via V1-receptor-mediated selective pulmonary vasodilation",
-        "D: Digoxin — via Na/K-ATPase inhibition with selective pulmonary vasodilation",
-        "E: Beta-2 agonists (e.g., salbutamol) — via selective pulmonary vasoconstriction and positive inotropy"
+        "A: PDE-3 inhibitors (e.g., milrinone) increase myocardial cAMP, boosting contractility and causing pulmonary vasodilation",
+        "B: Digoxin — via Na/K-ATPase inhibition with selective pulmonary vasodilation",
+        "C: Beta-2 agonists (e.g., salbutamol) — via selective pulmonary vasoconstriction and positive inotropy",
+        "D: Vasopressin — via V1-receptor-mediated selective pulmonary vasodilation",
+        "E: Catecholamines (e.g., adrenaline) — via alpha-1-mediated pulmonary vasoconstriction"
       ],
-      "correct": 1,
+      "correct": 0,
       "explanation": "PDE-3 inhibitors (milrinone, enoximone) inhibit phosphodiesterase-3, increasing myocardial cAMP and contractility independent of beta-adrenoceptors. Elevated vascular smooth muscle cAMP causes vasodilation — particularly pronounced in the pulmonary circulation — making them valuable in RV failure with elevated PVR. The main clinical risk is systemic hypotension. Catecholamines do not selectively dilate pulmonary vasculature; vasopressin causes pulmonary vasoconstriction (not dilation); digoxin has no relevant pulmonary vasodilatory effect.",
       "section": "Management: ESC Guidelines",
       "topic": "PDE3 inhibitor milrinone pulmonary vasodilation RV failure inotrope",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "lshf_a15",
@@ -285,16 +299,17 @@
       "options": [
         "A: Chronic renal failure prior to ECMO initiation",
         "B: Pre-ECMO cardiac arrest",
-        "C: Refractory ventricular tachycardia/fibrillation as the primary indication for VA-ECMO",
-        "D: Prolonged mechanical ventilation prior to ECMO initiation",
-        "E: Established multi-organ failure before ECMO commencement"
+        "C: Established multi-organ failure before ECMO commencement",
+        "D: Refractory VT/VF as the primary indication for VA-ECMO",
+        "E: Prolonged mechanical ventilation prior to ECMO initiation"
       ],
-      "correct": 2,
-      "explanation": "Refractory VT/VF as the indication for VA-ECMO is a PROTECTIVE factor in the SAVE score (associated with better survival), likely reflecting potentially reversible arrhythmic aetiology and less antecedent comorbidity compared to structural cardiomyopathy. All other options — chronic renal failure (A), pre-ECMO cardiac arrest (B), prolonged pre-ECMO mechanical ventilation (D), and established multi-organ failure (E) — are adverse factors associated with lower SAVE scores and worse in-hospital survival.",
+      "correct": 3,
+      "explanation": "Refractory VT/VF as the indication for VA-ECMO is a PROTECTIVE factor in the SAVE score (associated with better survival), likely reflecting potentially reversible arrhythmic aetiology and less antecedent comorbidity compared to structural cardiomyopathy. All other listed factors — chronic renal failure, pre-ECMO cardiac arrest, prolonged pre-ECMO mechanical ventilation, and established multi-organ failure — are adverse factors associated with lower SAVE scores and worse in-hospital survival.",
       "section": "Grading and Prognostication",
       "topic": "SAVE score protective factors VT VF NOT poor outcome ECMO",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "lshf_k01",
@@ -323,11 +338,12 @@
           "correct": false
         }
       ],
-      "explanation": "A–B: True — SNS and RAAS initially compensate, then become deleterious. C: False — pulmonary oedema results from increased intravascular pulmonary pressures driving transudation of protein-depleted plasma, not inflammatory injury (which is the ARDS mechanism). D: False — the enclosed loop AREA represents myocardial oxygen consumption (stroke work + potential energy); stroke volume is the WIDTH (EDV minus ESV).",
       "section": "Pathophysiology",
       "topic": "neurohormonal RAAS sympathetic PV loop stroke volume area",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated",
+      "explanation": "A: True — SNS activation initially compensates for reduced cardiac output by increasing heart rate and contractility. B: True — Persistent RAAS activation is ultimately deleterious, driving fluid retention, vasoconstriction, and adverse remodelling. C: False — Pulmonary oedema results from increased intravascular pulmonary pressures driving transudation of protein-depleted plasma, not inflammatory injury (which is the ARDS mechanism). D: False — The enclosed loop AREA represents myocardial oxygen consumption (stroke work + potential energy); stroke volume is the WIDTH (EDV minus ESV)."
     },
     {
       "id": "lshf_k02",
@@ -337,8 +353,8 @@
       "statements": [
         {
           "label": "A",
-          "text": "Killip Class I denotes no clinical signs of heart failure, with an associated 30-day mortality below 6%.",
-          "correct": true
+          "text": "Killip Class IV (cardiogenic shock) is associated with approximately 50% 30-day mortality.",
+          "correct": false
         },
         {
           "label": "B",
@@ -347,20 +363,21 @@
         },
         {
           "label": "C",
-          "text": "The Killip-Kimball classification was primarily designed and validated in non-ischaemic cardiomyopathy.",
+          "text": "Killip Class I is characterised by a third heart sound and bibasilar crepitations, with an associated 30-day mortality below 6%.",
           "correct": false
         },
         {
           "label": "D",
-          "text": "Killip Class IV (cardiogenic shock) is associated with approximately 50% 30-day mortality.",
+          "text": "The Killip-Kimball classification was primarily designed and validated in non-ischaemic cardiomyopathy.",
           "correct": false
         }
       ],
-      "explanation": "A–B: True — Class I <6%, Class III ~38%. C: False — the score was designed specifically for heart failure following AMI and validated in STEMI/NSTEMI populations. D: False — Class IV carries approximately 81% 30-day mortality, not 50%; the 50% figure is a common underestimate trap.",
       "section": "Grading and Prognostication",
       "topic": "Killip-Kimball AMI mortality class criteria cardiogenic shock",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated",
+      "explanation": "A: False — Class IV carries approximately 81% 30-day mortality, not 50%; the 50% figure is a common underestimate trap. B: True — Class III = florid pulmonary oedema, carrying approximately 38% 30-day mortality. C: False — A third heart sound and bibasilar crepitations describe Class II, not Class I (Class I = no clinical signs of heart failure); the <6% mortality figure belongs to Class I, so the statement mismatches its own criteria and mortality. D: False — The score was designed specifically for heart failure following AMI and validated in STEMI/NSTEMI populations."
     },
     {
       "id": "lshf_k03",
@@ -370,30 +387,31 @@
       "statements": [
         {
           "label": "A",
-          "text": "IABP inflation during diastole augments aortic diastolic pressure and increases coronary artery perfusion pressure.",
-          "correct": true
-        },
-        {
-          "label": "B",
           "text": "The IABP-SHOCK II trial demonstrated a significant reduction in 30-day mortality from IABP in AMI-related cardiogenic shock, resulting in a Class I ESC recommendation.",
           "correct": false
         },
         {
+          "label": "B",
+          "text": "IABP inflation during diastole augments aortic diastolic pressure and increases coronary artery perfusion pressure.",
+          "correct": true
+        },
+        {
           "label": "C",
-          "text": "IABP provides greater LV stroke work reduction than the Impella or TandemHeart devices.",
-          "correct": false
+          "text": "Moderate or greater aortic regurgitation is a contraindication to IABP insertion.",
+          "correct": true
         },
         {
           "label": "D",
-          "text": "Moderate or greater aortic regurgitation is a contraindication to IABP insertion.",
-          "correct": true
+          "text": "IABP provides greater LV stroke work reduction than the Impella or TandemHeart devices.",
+          "correct": false
         }
       ],
-      "explanation": "A: True — diastolic inflation augments coronary perfusion; systolic deflation reduces afterload. B: False — IABP-SHOCK II showed NO mortality benefit in AMI-CS; ESC 2016 downgraded IABP to Class III (not routinely recommended). C: False — IABP provides modest LV benefit; Impella and TandemHeart achieve significantly greater reductions in LV stroke work and myocardial oxygen consumption per PV loop analysis. D: True — diastolic inflation worsens AR regurgitant volume.",
       "section": "Short-term MCS",
       "topic": "IABP haemodynamic effects SHOCK II trial ESC Class III AR contraindication",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated",
+      "explanation": "A: False — IABP-SHOCK II showed NO mortality benefit in AMI-related cardiogenic shock; ESC 2016 downgraded IABP to Class III (not routinely recommended). B: True — Diastolic inflation augments aortic diastolic pressure and coronary perfusion; systolic deflation reduces afterload. C: True — Diastolic inflation worsens the regurgitant volume in aortic regurgitation, so moderate-or-greater AR is a contraindication. D: False — IABP provides only modest LV benefit; Impella and TandemHeart achieve significantly greater reductions in LV stroke work and myocardial oxygen consumption on PV loop analysis."
     },
     {
       "id": "lshf_k04",
@@ -403,30 +421,31 @@
       "statements": [
         {
           "label": "A",
-          "text": "Peripheral VA-ECMO provides both biventricular haemodynamic support and respiratory gas exchange.",
-          "correct": true
-        },
-        {
-          "label": "B",
           "text": "Peripheral VA-ECMO reliably unloads the left ventricle by reducing LV end-diastolic pressure and wall stress.",
           "correct": false
         },
         {
-          "label": "C",
-          "text": "Moderate or greater aortic regurgitation is a contraindication to VA-ECMO.",
+          "label": "B",
+          "text": "Peripheral VA-ECMO provides both biventricular haemodynamic support and respiratory gas exchange.",
           "correct": true
         },
         {
-          "label": "D",
+          "label": "C",
           "text": "VA-ECMO is an established long-term device suitable as 'destination therapy' for patients ineligible for cardiac transplantation.",
           "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Moderate or greater aortic regurgitation is a contraindication to VA-ECMO.",
+          "correct": true
         }
       ],
-      "explanation": "A: True — peripheral VA-ECMO provides biventricular support plus gas exchange via the membrane oxygenator. B: False — peripheral VA-ECMO returns blood retrograde into the aorta, increasing LV afterload; it may worsen LV wall stress and requires additional LV venting. C: True — moderate+ AR is a contraindication as with TandemHeart. D: False — VA-ECMO is a short-term device (typically ≤21 days); destination therapy employs implantable long-term LVADs.",
       "section": "Short-term MCS",
       "topic": "VA-ECMO LV afterload unloading AR contraindication destination therapy",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated",
+      "explanation": "A: False — Peripheral VA-ECMO returns blood retrograde into the aorta, increasing LV afterload; it may worsen LV wall stress and typically requires additional LV venting. B: True — Peripheral VA-ECMO provides biventricular support plus gas exchange via the membrane oxygenator. C: False — VA-ECMO is a short-term device (typically ≤21 days); destination therapy employs implantable long-term LVADs. D: True — Moderate-or-greater AR is a contraindication, as with TandemHeart."
     },
     {
       "id": "lshf_k05",
@@ -436,12 +455,12 @@
       "statements": [
         {
           "label": "A",
-          "text": "In 'wet-warm' patients (congestion without haemodynamic compromise), IV loop diuretics are first-line treatment.",
-          "correct": true
+          "text": "Inotropic agents are recommended as routine first-line therapy in all patients admitted with acute decompensated heart failure.",
+          "correct": false
         },
         {
           "label": "B",
-          "text": "Inotropic agents are recommended as routine first-line therapy in all patients admitted with acute decompensated heart failure.",
+          "text": "Beta-blockers should be initiated within 24 hours of ADHF admission to reduce short-term mortality.",
           "correct": false
         },
         {
@@ -451,15 +470,16 @@
         },
         {
           "label": "D",
-          "text": "Beta-blockers should be initiated within 24 hours of ADHF admission to reduce short-term mortality.",
-          "correct": false
+          "text": "In 'wet-warm' patients (congestion without haemodynamic compromise), IV loop diuretics are first-line treatment.",
+          "correct": true
         }
       ],
-      "explanation": "A: True — diuretics ± vasodilators for wet-warm. B: False — inotropes are reserved for the 'cold'/cardiogenic shock phenotype; they are not routine for all AHF and carry risks including arrhythmia and increased myocardial oxygen demand. C: True — vasopressors maintain perfusion pressure in refractory shock alongside inotropes. D: False — beta-blockers are withheld or dose-reduced during acute decompensation; they are disease-modifying agents initiated only after clinical stabilisation.",
       "section": "Management: ESC Guidelines",
       "topic": "ESC guidelines inotropes wet-warm beta-blocker vasopressors cardiogenic shock",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated",
+      "explanation": "A: False — Inotropes are reserved for the 'cold'/cardiogenic-shock phenotype; they are not routine for all AHF and carry risks including arrhythmia and increased myocardial oxygen demand. B: False — Beta-blockers are withheld or dose-reduced during acute decompensation; they are disease-modifying agents started only after clinical stabilisation. C: True — Vasopressors maintain perfusion pressure in refractory shock alongside inotropes. D: True — Diuretics ± vasodilators are first-line for wet-warm patients."
     },
     {
       "id": "lshf_k06",
@@ -469,8 +489,8 @@
       "statements": [
         {
           "label": "A",
-          "text": "CPAP reduces LV afterload by decreasing left ventricular transmural pressure.",
-          "correct": true
+          "text": "Reduced level of consciousness (low GCS) in the context of acute heart failure is an indication for NIV rather than intubation.",
+          "correct": false
         },
         {
           "label": "B",
@@ -484,15 +504,16 @@
         },
         {
           "label": "D",
-          "text": "Reduced level of consciousness (low GCS) in the context of acute heart failure is an indication for NIV rather than intubation.",
-          "correct": false
+          "text": "CPAP reduces LV afterload by decreasing left ventricular transmural pressure.",
+          "correct": true
         }
       ],
-      "explanation": "A: True — positive intrathoracic pressure reduces LV transmural pressure, lowering afterload. B: False — BiPAP improves CO2 clearance but has NOT shown mortality superiority over CPAP in AHF (3CPO trial, Masip et al.). C: True — elevated alveolar pressures increase pulmonary vascular resistance and RV afterload — an important haemodynamic consideration. D: False — depressed sensorium and airway compromise are mandatory indications for intubation, not NIV.",
       "section": "Other Supportive Care",
       "topic": "CPAP BiPAP NIV afterload RV mortality AHF airway compromise intubation",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated",
+      "explanation": "A: False — Depressed sensorium and airway compromise are mandatory indications for intubation, not NIV. B: False — BiPAP improves CO2 clearance but has NOT shown mortality superiority over CPAP in AHF (3CPO trial). C: True — Elevated alveolar pressures increase pulmonary vascular resistance and RV afterload — an important haemodynamic consideration. D: True — Positive intrathoracic pressure reduces LV transmural pressure, lowering afterload."
     },
     {
       "id": "lshf_k07",
@@ -502,30 +523,31 @@
       "statements": [
         {
           "label": "A",
-          "text": "B-type natriuretic peptide (BNP) is released in response to increased ventricular wall stress and volume overload.",
-          "correct": true
-        },
-        {
-          "label": "B",
-          "text": "Obesity is associated with elevated BNP levels, increasing the risk of false-positive heart failure diagnosis in obese patients.",
-          "correct": false
-        },
-        {
-          "label": "C",
           "text": "Markedly elevated troponin in a patient with acute heart failure may indicate an ischaemic precipitant requiring urgent coronary evaluation.",
           "correct": true
         },
         {
-          "label": "D",
+          "label": "B",
+          "text": "B-type natriuretic peptide (BNP) is released in response to increased ventricular wall stress and volume overload.",
+          "correct": true
+        },
+        {
+          "label": "C",
           "text": "A normal BNP reliably excludes the diagnosis of acute heart failure in all clinical contexts.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Obesity is associated with elevated BNP levels, increasing the risk of false-positive heart failure diagnosis in obese patients.",
           "correct": false
         }
       ],
-      "explanation": "A: True — BNP is released in response to myocardial wall stress. B: False — obesity is associated with LOWER BNP levels (increased clearance via adipose natriuretic peptide receptors), risking false-negative results; the direction of the association is reversed in option B. C: True — troponin elevation prompts consideration of ACS as a precipitant. D: False — BNP may be falsely low in obesity, early flash pulmonary oedema, and certain right heart failure states.",
       "section": "Clinical Assessment and Investigations",
       "topic": "BNP obesity falsely low troponin ischaemic precipitant diagnosis",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated",
+      "explanation": "A: True — Troponin elevation prompts consideration of ACS as a precipitant. B: True — BNP is released in response to myocardial wall stress. C: False — BNP may be falsely low in obesity, early flash pulmonary oedema, and certain right heart failure states. D: False — Obesity is associated with LOWER BNP levels (increased clearance via adipose natriuretic peptide receptors), risking false-negative rather than false-positive results."
     },
     {
       "id": "lshf_k08",
@@ -535,30 +557,31 @@
       "statements": [
         {
           "label": "A",
-          "text": "Short-term MCS is indicated in cardiogenic shock refractory to medical therapy or in patients in whom medical therapy is expected to be ineffective or harmful.",
+          "text": "Contraindications to anticoagulation, severe peripheral vascular disease, and the presence of a mechanical aortic valve replacement may preclude the use of certain short-term MCS devices.",
           "correct": true
         },
         {
           "label": "B",
-          "text": "Before initiating short-term MCS, an exit strategy (bridge to decision, transplant, bridge, or recovery) should ideally be defined in advance.",
-          "correct": true
-        },
-        {
-          "label": "C",
           "text": "Early institution of MCS before requiring multiple vasopressors to prevent multi-organ failure is supported by robust RCT evidence.",
           "correct": false
         },
         {
+          "label": "C",
+          "text": "Before initiating short-term MCS, an exit strategy (bridge to decision, transplant, bridge, or recovery) should ideally be defined in advance.",
+          "correct": true
+        },
+        {
           "label": "D",
-          "text": "Advanced age is an absolute and universal contraindication to all forms of short-term MCS.",
-          "correct": false
+          "text": "Short-term MCS is indicated in cardiogenic shock refractory to medical therapy or in patients in whom medical therapy is expected to be ineffective or harmful.",
+          "correct": true
         }
       ],
-      "explanation": "A–B: True — these are the ESC-aligned indications and the requirement for pre-defined strategy. C: False — this approach is 'theoretically attractive but requires testing in randomised controlled trials' (per module); it is not evidence-based. D: False — advanced age is a consideration and raises the likelihood of comorbidity, but thresholds and application vary between institutions; it is not a universal absolute contraindication.",
       "section": "Short-term MCS",
       "topic": "MCS indications exit strategy RCT evidence age contraindication",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated",
+      "explanation": "A: True — These are recognised factors that may rule out certain devices, distinct from age, which is only a relative consideration with varying institutional thresholds. B: False — This approach is 'theoretically attractive but requires testing in randomised controlled trials' per the module; it is not yet evidence-based. C: True — A pre-defined exit strategy should be established before implantation. D: True — This is the ESC-aligned indication for short-term MCS."
     },
     {
       "id": "lshf_k09",
@@ -568,8 +591,8 @@
       "statements": [
         {
           "label": "A",
-          "text": "Age greater than 65 years is an absolute contraindication to cardiac transplantation.",
-          "correct": false
+          "text": "In the UK, patients dependent on VA-ECMO or short-term ventricular assist devices are classified as 'super-urgent' priority for organ allocation.",
+          "correct": true
         },
         {
           "label": "B",
@@ -578,8 +601,8 @@
         },
         {
           "label": "C",
-          "text": "In the UK, patients dependent on VA-ECMO or short-term ventricular assist devices are classified as 'super-urgent' priority for organ allocation.",
-          "correct": true
+          "text": "Age greater than 65 years is an absolute contraindication to cardiac transplantation.",
+          "correct": false
         },
         {
           "label": "D",
@@ -587,11 +610,12 @@
           "correct": false
         }
       ],
-      "explanation": "A: False — age >65 is a RELATIVE marker of likely comorbidity, not an absolute universal contraindication; this is an important EDIC trap. B: True — fixed pulmonary hypertension risks acute RV failure in the donor heart (right ventricle adapted to normal pulmonary pressures). C: True — UK allocation hierarchy: super-urgent (ECMO/VAD) > urgent (inotropes/IABP) > routine. D: False — 2–3 year survival can approach transplant in selected patients, but longer-term outcomes with LVADs remain inferior and morbidity is higher.",
       "section": "Long-term MCS and Transplantation",
       "topic": "cardiac transplantation contraindications age relative pulmonary hypertension allocation",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated",
+      "explanation": "A: True — UK allocation hierarchy: super-urgent (ECMO/VAD) > urgent (inotropes/IABP) > routine. B: True — Fixed pulmonary hypertension risks acute RV failure in the donor heart (right ventricle adapted to normal pulmonary pressures). C: False — Age >65 is a RELATIVE marker of likely comorbidity, not an absolute universal contraindication — an important EDIC trap. D: False — 2–3 year survival can approach transplant in selected patients, but longer-term outcomes with LVADs remain inferior and morbidity is higher."
     },
     {
       "id": "lshf_k10",
@@ -601,28 +625,89 @@
       "statements": [
         {
           "label": "A",
-          "text": "The width of the pressure-volume loop (difference between EDV and ESV) represents the stroke volume.",
-          "correct": true
-        },
-        {
-          "label": "B",
-          "text": "Load-independent LV contractility (Emax) is reflected by the slope of the end-systolic pressure-volume relationship under varying loading conditions.",
-          "correct": true
-        },
-        {
-          "label": "C",
           "text": "The area enclosed by the pressure-volume loop primarily reflects cardiac afterload rather than myocardial oxygen consumption.",
           "correct": false
         },
         {
-          "label": "D",
+          "label": "B",
           "text": "Peripheral VA-ECMO reduces LV stroke work by decreasing the area of the pressure-volume loop.",
           "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Load-independent LV contractility (Emax) is reflected by the slope of the end-systolic pressure-volume relationship under varying loading conditions.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "The width of the pressure-volume loop (difference between EDV and ESV) represents the stroke volume.",
+          "correct": true
         }
       ],
-      "explanation": "A–B: True — width = SV; Emax (slope of ESPVR) = load-independent contractility. C: False — the PV loop area (pressure-volume area) is closely correlated with myocardial oxygen consumption (stroke work + potential energy), not afterload directly. D: False — peripheral VA-ECMO INCREASES LV afterload via retrograde aortic return, potentially increasing the PV loop area (greater stroke work); it is Impella and TandemHeart that reduce LV stroke work by direct LV unloading.",
       "section": "Pathophysiology",
       "topic": "LV pressure-volume loop stroke volume Emax oxygen consumption VA-ECMO",
+      "image": null,
+      "section_url": null,
+      "source": "pact_generated",
+      "explanation": "A: False — The PV loop area (pressure-volume area) is closely correlated with myocardial oxygen consumption (stroke work + potential energy), not afterload directly. B: False — Peripheral VA-ECMO INCREASES LV afterload via retrograde aortic return, potentially increasing the PV loop area (greater stroke work); it is Impella and TandemHeart that reduce LV stroke work by direct LV unloading. C: True — Emax (slope of ESPVR) = load-independent contractility. D: True — Width = stroke volume."
+    },
+    {
+      "id": "lshf_a16",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "The figure compares three left ventricular pressure-volume loops: Panel A (steady state), Panel B (acute myocardial infarction), and Panel C (cardiogenic shock). A patient progresses from an uncomplicated anterior STEMI, as in Panel B, into florid cardiogenic shock six hours later, as in Panel C. Compared to the Panel B loop, which change best characterises the Panel C loop?",
+      "options": [
+        "A: A leftward shift with reduced LVEDV and a narrower loop, reflecting improved diastolic filling",
+        "B: A rightward shift with increased LVEDV, further-reduced Emax, and an enlarged pressure-volume area reflecting greater oxygen demand",
+        "C: An unchanged loop position with an isolated reduction in stroke volume only",
+        "D: Normalisation of Emax toward the steady-state slope as compensatory mechanisms restore contractility",
+        "E: A loop essentially indistinguishable from the acute MI state, since the two conditions produce near-identical pressure-volume relationships"
+      ],
+      "correct": 1,
+      "explanation": "Cardiogenic shock (the Panel C loop) is displaced markedly to the right with significantly increased LVEDV, more severely reduced Emax than the AMI loop, and an enlarged pressure-volume area indicating increased myocardial oxygen demand despite reduced stroke volume. This distinguishes the magnitude of shock from the more modest contractile impairment of uncomplicated AMI (Panel B), where LV pressure and stroke volume may be preserved or only mildly reduced.",
+      "section": "Pathophysiology",
+      "topic": "PV loop AMI vs cardiogenic shock magnitude Emax LVEDV oxygen demand",
+      "image": "images/img_7d0ccb52bb.png",
+      "section_url": null
+    },
+    {
+      "id": "lshf_a17",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with cardiogenic shock is established on peripheral VA-ECMO. The figure illustrates the resulting effect on the LV pressure-volume loop in Panel C compared to baseline. Based on the loop change shown, which best describes this haemodynamic effect?",
+      "options": [
+        "A: The loop shifts leftward with reduced end-diastolic volume, consistent with improved ventricular filling",
+        "B: The loop area remains similar or increases with a steeper Ea line, consistent with increased arterial elastance and afterload without effective LV unloading",
+        "C: The enclosed loop area is reduced and the Ea line is flattened, consistent with effective LV unloading and reduced myocardial oxygen consumption",
+        "D: Stroke volume increases substantially while the Ea line becomes shallower, consistent with combined inotropic and vasodilatory support",
+        "E: No discernible change from the baseline loop is shown, indicating a haemodynamically neutral effect"
+      ],
+      "correct": 1,
+      "explanation": "Panel C shows the characteristic VA-ECMO pattern: increased arterial elastance (steeper Ea) reflecting increased afterload, with the loop failing to shrink — stroke work and myocardial oxygen consumption remain unchanged or increase. This contrasts with the pLVAD panel (Impella/TandemHeart), which shows genuine loop-area reduction from direct LV unloading. Peripheral VA-ECMO returns blood retrograde into the aorta and does not vent the LV, which is why adjunctive unloading strategies (IABP, Impella, surgical vent) are often required alongside it.",
+      "section": "Short-term MCS",
+      "topic": "VA-ECMO PV loop afterload Ea arterial elastance no unloading Panel C",
+      "image": "images/img_fcb1584019.png",
+      "section_url": null
+    },
+    {
+      "id": "lshf_a18",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 76-year-old man with a background of COPD is admitted with new-onset acute heart failure. On admission he has a systolic BP of 96 mmHg, community-acquired pneumonia, and an eGFR of 28 mL/min/1.73m². A colleague states his overall risk profile is unremarkable for a first presentation. Which combination of features from this vignette is most strongly associated with increased mortality in acute heart failure registries?",
+      "options": [
+        "A: Male sex is not an independent predictor of mortality in acute heart failure",
+        "B: New (de novo) presentation, which registries show carries a uniformly worse prognosis than decompensation of chronic heart failure",
+        "C: Advanced age, male sex, low systolic blood pressure, renal dysfunction, and pneumonia",
+        "D: An eGFR of 28 mL/min/1.73m² is within the expected range for a 76-year-old and does not represent a risk factor",
+        "E: COPD alone, independent of the other clinical features"
+      ],
+      "correct": 2,
+      "explanation": "Age, male sex, low systolic BP, renal dysfunction, and pneumonia are all established predictors of poor outcome in acute heart failure registries. This patient embodies several of these simultaneously. COPD is a common comorbidity in AHF populations but is not itself among the specific outcome predictors identified in the registries. Male sex — not female — is the predictor identified in registry data, and de novo presentation is not shown to carry a uniformly worse prognosis than decompensated chronic heart failure.",
+      "section": "Background and Epidemiology",
+      "topic": "AHF epidemiology predictors poor outcome age renal pneumonia registries",
       "image": null,
       "section_url": null
     }
