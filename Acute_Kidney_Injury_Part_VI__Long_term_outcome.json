@@ -1,0 +1,254 @@
+{
+  "module": "Acute Kidney Injury Part VI: Long term outcome",
+  "sections": {
+    "Mortality and long-term outcomes": "AKI is linked to higher long-term risk of cardiovascular events, stroke, and infection; after discharge, baseline renal function before the AKI episode matters more for death risk than AKI severity itself. Non-recovery of kidney function carries worse survival than partial or complete recovery. In ASSESS-AKI, AKI in patients with pre-existing CKD was independently associated with nearly double the death rate, persisting after adjustment for 3-month kidney function and proteinuria. In a 7-year cohort of critical care survivors, death (1199/1301) vastly outnumbered subsequent dialysis need (47/1301), underlining that mortality, not dialysis dependency, is the dominant long-term risk.",
+    "Health-related quality of life and RRT": "HRQL is lower in AKI survivors than age/sex-matched peers at discharge and up to 12 months, with physical components more affected than mental ones, but converges toward that of non-AKI critically ill survivors by around 6 months. Frailty is common (>25% at baseline) and higher at 1 year after stage 3 AKI at discharge. Neither RRT initiation strategy nor the need for RRT itself is associated with worse long-term mortality or quality of life; 71% of patients would accept RRT again if needed.",
+    "Kidney outcome epidemiology and recovery": "AKI and CKD are interconnected syndromes, with incomplete recovery linked to maladaptive renal repair (inflammation, fibrosis, vascular rarefaction). CKD can develop via several trajectories after AKI: no recovery, direct continuum, partial recovery with later deterioration, full recovery with late deterioration over 5-10 years (uncommon), or full recovery with reduced renal reserve. Full recovery without pre-existing CKD generally carries low subsequent CKD risk; RRT-treated patients may have day-30 dialysis dependency up to 30% and 5-year ESKD risk up to 11.7%, though up to 35% of those dialysis-dependent post-AKI recover off dialysis by 1 year. Counterintuitively, eGFR decline after AKI is steeper in patients without diabetes than in those with diabetes and pre-existing CKD.",
+    "RRT modality, dose, and recovery": "Observational studies associate CRRT with better renal recovery than intermittent haemodialysis, but this is not confirmed in RCT-only meta-analyses, suggesting confounding; a confounder-adjusted cohort found fluid-overloaded patients specifically did better with CRRT. Higher-intensity RRT dosing is associated with delayed, not faster, recovery to dialysis independence, possibly related to intradialytic hypotension, membrane incompatibility, catheter complications, and removal of niacin (an NAD+ precursor needed for tubular regeneration). Non-resolving AKI patterns and AKI severity/RRT need are risk factors for major adverse kidney events and non-recovery.",
+    "Post-AKI follow-up and biomarkers": "Follow-up for CKD should be considered in all AKI patients regardless of apparent recovery; the KAMPS bundle (Kidney function measurement, Advocacy, Medication review, blood Pressure control, Sick day rules) is a consensus post-AKI care framework, with reassessment typically suggested at 3, 6, and 12 months. No universally agreed threshold for nephrology referral exists. The FUSION RCT found no benefit of nephrologist follow-up on 1-year major adverse kidney events, while a Thai RCT found multidisciplinary team care improved blood pressure and ACR at 12 months in severe AKI survivors. Proteinuria (protein-creatinine ratio, ACR) is a useful, easily measured prognostic marker, but no biomarker has yet proven clinically useful for predicting renal outcome overall."
+  },
+  "questions": [
+    {
+      "id": "aki6_a01",
+      "_module": "Acute Kidney Injury Part VI: Long term outcome",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Mortality and long-term outcomes",
+      "question": "A 70-year-old with pre-existing CKD stage 3 develops AKI stage 1 during a hospital admission for pneumonia, while a 40-year-old with previously normal renal function develops AKI stage 3 during septic shock. Regarding post-discharge mortality risk, what does recent evidence suggest is the more important determinant?",
+      "options": [
+        "AKI severity (stage 3) is always a stronger predictor of death than baseline renal function, regardless of context",
+        "Post-discharge mortality risk is entirely determined by whether RRT was required during the AKI episode",
+        "Age is the only factor that matters; AKI severity and baseline function are both irrelevant once adjusted for age",
+        "Baseline renal function before the AKI episode matters more for post-discharge mortality risk than how severe the AKI itself was",
+        "Neither baseline function nor AKI severity has been shown to predict post-discharge mortality"
+      ],
+      "correct": 3,
+      "explanation": "Recent evidence indicates that after hospital discharge, a patient's baseline renal function prior to the AKI episode is a more important determinant of death risk than the severity of the AKI itself. This does not mean AKI severity is irrelevant, but baseline function should not be discounted simply because the acute episode itself was milder."
+    },
+    {
+      "id": "aki6_a02",
+      "_module": "Acute Kidney Injury Part VI: Long term outcome",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Mortality and long-term outcomes",
+      "question": "In the ASSESS-AKI cohort study, patients with pre-existing CKD who experienced an episode of AKI during hospitalisation were compared with similar patients without AKI. After adjusting for 3-month post-discharge kidney function and proteinuria, what was found regarding mortality risk?",
+      "options": [
+        "AKI conferred no additional mortality risk once 3-month kidney function was accounted for",
+        "AKI was associated with a modestly lower mortality risk, likely due to closer post-discharge monitoring",
+        "The excess mortality risk was entirely explained by proteinuria alone",
+        "Mortality risk could only be explained by whether the patient required RRT during the index admission",
+        "AKI was associated with an independently nearly 2-fold higher rate of death, even after this adjustment"
+      ],
+      "correct": 4,
+      "explanation": "In ASSESS-AKI, AKI was independently associated with a nearly 2-fold higher rate of death in patients with pre-existing CKD, and this excess risk persisted even after additional adjustment for 3-month post-discharge kidney function and proteinuria. This suggests the AKI episode itself carries prognostic significance beyond what residual renal function and proteinuria alone can explain."
+    },
+    {
+      "id": "aki6_a03",
+      "_module": "Acute Kidney Injury Part VI: Long term outcome",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Health-related quality of life and RRT",
+      "question": "A patient with AKI stage 3 at hospital discharge is being counselled about expected recovery. Based on current evidence on health-related quality of life (HRQL) and frailty after AKI, which statement is most accurate?",
+      "options": [
+        "By around 6 months, HRQL in AKI survivors becomes comparable to that of critically ill survivors who did not have AKI, though frailty scores at 1 year tend to be higher after stage 3 AKI",
+        "Frailty risk is unaffected by AKI stage; only pre-existing comorbidities predict 1-year frailty",
+        "HRQL remains permanently and severely impaired compared with non-AKI critically ill survivors, with no meaningful improvement over time",
+        "Mental health components of HRQL are more severely affected than physical components in AKI survivors",
+        "Most AKI survivors return fully to their prior employment within 3 months of discharge"
+      ],
+      "correct": 0,
+      "explanation": "By approximately 6 months, HRQL in AKI survivors becomes comparable to that of critically ill survivors without AKI, although physical components are initially more affected than mental components. Patients who had AKI stage 3 at hospital discharge do show higher clinical frailty scores at 1 year, and survivors commonly have persistent limitations in activities of daily living with few returning to work."
+    },
+    {
+      "id": "aki6_a04",
+      "_module": "Acute Kidney Injury Part VI: Long term outcome",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Health-related quality of life and RRT",
+      "question": "A patient with severe AKI is anxious that needing renal replacement therapy (RRT) will permanently worsen their long-term quality of life and survival. What does current evidence suggest?",
+      "options": [
+        "RRT initiation strategy and the need for RRT itself have not been shown to be associated with worse long-term mortality or quality of life",
+        "Patients who require RRT have a significantly lower HRQL than those who do not, regardless of underlying AKI severity",
+        "Fewer than 20% of patients who required RRT would be willing to undergo it again if needed",
+        "RRT initiation timing (early versus delayed) has been definitively shown to change long-term survival",
+        "Needing RRT during AKI is the single strongest predictor of long-term mortality, exceeding all other factors"
+      ],
+      "correct": 0,
+      "explanation": "Current evidence suggests that RRT initiation strategy is not associated with long-term mortality outcomes, and the need for RRT itself is not associated with worse quality of life. Despite diminished HRQL overall in AKI survivors, it is generally perceived as acceptable, and 71% of patients report being willing to receive RRT again in the future if necessary."
+    },
+    {
+      "id": "aki6_a05",
+      "_module": "Acute Kidney Injury Part VI: Long term outcome",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "RRT modality, dose, and recovery",
+      "question": "A trainee notes that several observational studies and meta-analyses suggest continuous renal replacement therapy (CRRT) is associated with better renal recovery than intermittent haemodialysis (IHD), and concludes this proves CRRT causes better recovery and should always be preferred. What is the key limitation of this conclusion?",
+      "options": [
+        "CRRT has never been compared with IHD in any study, so no conclusion can be drawn",
+        "IHD has been proven definitively superior in randomised trials, contradicting the observational data",
+        "CRRT is only available in specific countries, making comparison statistically impossible",
+        "When a meta-analysis restricted to randomised controlled trials was performed, the apparent recovery benefit of CRRT over IHD was not confirmed, suggesting confounding in the observational data",
+        "Renal recovery is not an outcome that differs by RRT modality under any circumstances"
+      ],
+      "correct": 3,
+      "explanation": "While several large cohort studies and meta-analyses of observational data have associated CRRT with better renal recovery, a meta-analysis restricted to only randomised controlled trials did not confirm this benefit, suggesting the observational association may partly reflect confounding (e.g. sicker or more haemodynamically unstable patients preferentially receiving one modality). This discrepancy between observational and randomised evidence is a classic signal that unmeasured confounders, such as variables determining the choice of initial modality, may be at play."
+    },
+    {
+      "id": "aki6_a06",
+      "_module": "Acute Kidney Injury Part VI: Long term outcome",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "RRT modality, dose, and recovery",
+      "question": "An individual patient data meta-analysis of RCTs found that patients treated with higher-intensity RRT dosing remained dialysis-dependent for longer than those treated with lower-intensity dosing. Which of the following has been proposed as a contributing mechanism for this counterintuitive finding?",
+      "options": [
+        "Higher-intensity RRT causes irreversible destruction of functioning nephrons through mechanical shear stress",
+        "The finding is considered a pure statistical artefact with no plausible biological mechanism",
+        "Higher-intensity RRT is invariably associated with more severe underlying AKI, which fully explains the association",
+        "Higher-intensity RRT increases serum creatinine production, artificially masking true recovery",
+        "Higher-intensity RRT removes niacin, a precursor of NAD+ that is required for tubular regeneration, in addition to increasing risk of intradialytic hypotension and catheter-related complications"
+      ],
+      "correct": 4,
+      "explanation": "Proposed mechanisms for delayed dialysis independence with higher-intensity RRT include a greater risk of intradialytic hypotension, biological incompatibility with dialysis membranes, catheter-related complications, and removal of niacin \u2014 a precursor for the NAD+ needed for tubular regeneration, which is already depleted during AKI. This is a genuine dose-related signal from individual patient data meta-analysis of RCTs, not merely confounding by underlying severity."
+    },
+    {
+      "id": "aki6_a07",
+      "_module": "Acute Kidney Injury Part VI: Long term outcome",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Post-AKI follow-up and biomarkers",
+      "question": "A unit wants to implement routine nephrologist follow-up for all AKI survivors after reading observational data suggesting this improves survival. Based on the FUSION randomised controlled trial (nephrologist follow-up with a standardised basket of care versus usual care), what should temper this expectation?",
+      "options": [
+        "FUSION found nephrologist follow-up dramatically reduced 1-year mortality, confirming the observational data",
+        "FUSION found no difference in major adverse kidney events (death, maintenance dialysis, or incident/progressive CKD) at 1 year between nephrologist follow-up and usual care, and burden of extra appointments led some patients to decline enrolment",
+        "FUSION was stopped early due to overwhelming benefit in the intervention group",
+        "FUSION exclusively enrolled patients who had already progressed to end-stage kidney disease",
+        "FUSION demonstrated that nephrologist follow-up significantly worsened patient-reported outcomes"
+      ],
+      "correct": 1,
+      "explanation": "FUSION, a randomised trial, found no difference in major adverse kidney events (death, maintenance dialysis, or incident/progressive CKD) at 1 year between structured nephrologist follow-up and usual care \u2014 contrasting with the lower-quality observational evidence suggesting benefit. Additionally, the burden of extra appointments, travel time, and hospital-related fatigue was cited by patients who declined enrolment, a practical consideration for implementing routine follow-up programmes."
+    },
+    {
+      "id": "aki6_a08",
+      "_module": "Acute Kidney Injury Part VI: Long term outcome",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Kidney outcome epidemiology and recovery",
+      "question": "Following an episode of AKI, a cohort study examined subsequent eGFR decline in patients with and without diabetes mellitus. What did this study find regarding the steepness of eGFR decline after AKI?",
+      "options": [
+        "eGFR decline was steeper in patients with diabetes and pre-existing CKD than in those without these conditions",
+        "eGFR decline was identical regardless of diabetes status or pre-existing CKD",
+        "eGFR decline was steeper in patients without diabetes, but this steeper decline was not seen among those with diabetes and pre-existing CKD",
+        "eGFR decline only occurred in patients who required RRT during the index AKI episode",
+        "Diabetes status could not be assessed in this cohort due to confounding by insulin therapy"
+      ],
+      "correct": 2,
+      "explanation": "This cohort study found that the decline in eGFR slope after an AKI episode was steeper in people without diabetes, but this steeper decline was not observed among those with diabetes and pre-existing CKD \u2014 a counterintuitive finding given that diabetes and CKD are usually considered risk factors for worse renal trajectories. This illustrates that the relationship between AKI, diabetes, and subsequent renal trajectory is more complex than a simple additive risk model would predict."
+    },
+    {
+      "id": "aki6_a09",
+      "_module": "Acute Kidney Injury Part VI: Long term outcome",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Post-AKI follow-up and biomarkers",
+      "question": "An international consensus meeting recommended the KAMPS post-AKI care bundle as a framework for follow-up after hospital discharge. Which of the following is NOT one of the KAMPS components?",
+      "options": [
+        "Kidney function measurement",
+        "Advocacy",
+        "Statin initiation for all post-AKI patients",
+        "Medication review",
+        "Sick day rules"
+      ],
+      "correct": 2,
+      "explanation": "KAMPS stands for Kidney function measurement, Advocacy, Medication review, blood Pressure control, and Sick day rules. Routine statin initiation for all post-AKI patients is not part of this consensus bundle and is not a recommended universal intervention in this context."
+    },
+    {
+      "id": "aki6_k01",
+      "_module": "Acute Kidney Injury Part VI: Long term outcome",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Kidney outcome epidemiology and recovery",
+      "question": "Regarding kidney outcome epidemiology and recovery patterns after AKI:",
+      "statements": [
+        {"label": "A", "text": "The risk of dialysis dependency at day 30 in more severely ill AKI patients treated with RRT can be as low as 2%.", "correct": false},
+        {"label": "B", "text": "Incomplete renal recovery following AKI is believed to result partly from maladaptive renal repair, involving inflammation, fibrosis, and vascular rarefaction.", "correct": true},
+        {"label": "C", "text": "Patients without underlying CKD who achieve complete recovery of renal function after AKI generally have a low subsequent risk of progressing to CKD.", "correct": true},
+        {"label": "D", "text": "A common clinical pattern is full initial recovery of kidney function followed by gradual deterioration over 5 to 10 years, and this is the most frequently observed trajectory after AKI.", "correct": false}
+      ],
+      "explanation": "The day-30 dialysis dependency risk in more severely ill RRT-treated AKI patients has been reported as high as 30%, not as low as 2%. While full recovery followed by late deterioration over 5-10 years is a recognised trajectory, it is explicitly described as uncommon, not the most frequent pattern \u2014 partial recovery with gradual deterioration or persistent non-recovery are more typical routes to CKD."
+    },
+    {
+      "id": "aki6_k02",
+      "_module": "Acute Kidney Injury Part VI: Long term outcome",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Mortality and long-term outcomes",
+      "question": "Regarding long-term mortality and complications after AKI:",
+      "statements": [
+        {"label": "A", "text": "In a 7-year follow-up cohort of 1301 critical care survivors, the number of patients who required dialysis considerably exceeded the number who died.", "correct": false},
+        {"label": "B", "text": "Worse long-term survival after AKI has been partly attributed to increased risk of cardiovascular events, stroke, sepsis, gastrointestinal bleeding, malignancy, and bone fractures.", "correct": true},
+        {"label": "C", "text": "The 5-year cumulative risk of end-stage kidney disease after dialysis-requiring AKI has been estimated at well over 50%.", "correct": false},
+        {"label": "D", "text": "Up to 35% of patients who are dialysis-dependent immediately after an AKI episode will have recovered off dialysis by 1 year.", "correct": true}
+      ],
+      "explanation": "In the cited 7-year cohort of 1301 critical care survivors, deaths (1199) vastly outnumbered patients requiring dialysis (47) \u2014 the reverse of what this statement claims. The estimated 5-year cumulative risk of end-stage kidney disease after dialysis-requiring AKI is up to 11.7%, far below 50%."
+    },
+    {
+      "id": "aki6_k03",
+      "_module": "Acute Kidney Injury Part VI: Long term outcome",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "RRT modality, dose, and recovery",
+      "question": "Regarding RRT dose, modality, and risk of major adverse kidney events:",
+      "statements": [
+        {"label": "A", "text": "Observational cohort studies and meta-analyses have associated continuous RRT (CRRT) with better renal recovery than intermittent haemodialysis, though this was not confirmed when only randomised trials were analysed.", "correct": true},
+        {"label": "B", "text": "A cohort study using specific methodology to account for confounders found that patients with fluid overload had worse outcomes when treated with continuous RRT specifically, favouring intermittent haemodialysis in this subgroup.", "correct": false},
+        {"label": "C", "text": "Individual patient data meta-analysis of RCTs found that higher-intensity RRT dosing was associated with faster recovery to dialysis independence.", "correct": false},
+        {"label": "D", "text": "A non-resolving pattern of AKI has been associated with a greater risk of major adverse kidney events, even after adjustment for diabetes, cardiovascular disease, CKD, sepsis, and other factors.", "correct": true}
+      ],
+      "explanation": "The confounder-adjusted cohort study found that fluid-overloaded patients had BETTER, not worse, outcomes when treated with CRRT specifically. Individual patient data meta-analysis of RCTs found that higher-intensity RRT dosing was associated with DELAYED, not faster, recovery to dialysis independence, proposed to relate partly to niacin removal and intradialytic hypotension."
+    },
+    {
+      "id": "aki6_k04",
+      "_module": "Acute Kidney Injury Part VI: Long term outcome",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Post-AKI follow-up and biomarkers",
+      "question": "Regarding proteinuria and biomarkers as markers of long-term kidney outcome:",
+      "statements": [
+        {"label": "A", "text": "In the ASSESS-AKI and CRIC cohorts, an episode of AKI was independently associated with an increase in urine protein-to-creatinine ratio, and this increase correlated with the severity of the initial injury.", "correct": true},
+        {"label": "B", "text": "Urine albumin-creatinine ratio (ACR) has been shown to be a strong discriminant for future kidney disease progression after AKI treated with RRT.", "correct": true},
+        {"label": "C", "text": "A validated AKI biomarker panel has now definitively replaced serum creatinine and proteinuria as the clinical standard for predicting long-term renal outcome.", "correct": false},
+        {"label": "D", "text": "In the ASSESS-AKI cohort, a rise in urine uromodulin over the first year after AKI was associated with an increased risk of subsequent CKD, similar to KIM-1 and MCP-1.", "correct": false}
+      ],
+      "explanation": "No biomarker has yet demonstrated proven clinical usefulness for predicting long-term renal outcome after AKI; this remains a largely speculative, actively researched area rather than an established clinical standard. In the ASSESS-AKI cohort, rising urine uromodulin over the first year was specifically associated with a REDUCED, not increased, risk of subsequent CKD, unlike KIM-1, MCP-1, and TNFR1, which were associated with increased risk."
+    },
+    {
+      "id": "aki6_k05",
+      "_module": "Acute Kidney Injury Part VI: Long term outcome",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Post-AKI follow-up and biomarkers",
+      "question": "Regarding organisation of post-AKI follow-up:",
+      "statements": [
+        {"label": "A", "text": "Follow-up for development of CKD should be considered in all AKI patients, irrespective of the apparent degree of renal recovery.", "correct": true},
+        {"label": "B", "text": "Most experts suggest renal function reassessment only once, at 12 months after an AKI episode, with no earlier review needed.", "correct": false},
+        {"label": "C", "text": "The FUSION trial found no difference in 1-year major adverse kidney events with nephrologist follow-up, whereas a Thai RCT found that multidisciplinary team care (nephrology, nursing, nutrition, pharmacy) improved blood pressure control and reduced urine ACR at 12 months in severe AKI survivors.", "correct": true},
+        {"label": "D", "text": "A clear, universally agreed threshold of AKI severity or duration for triggering nephrology follow-up has been established and is used consistently worldwide.", "correct": false}
+      ],
+      "explanation": "Most experts suggest renal function reassessment at multiple time points \u2014 3, 6, and 12 months after AKI \u2014 not just once at 12 months. No clear, universally agreed threshold of AKI severity or duration for triggering nephrology follow-up currently exists, reflected by ongoing expert debate on the topic, including published point-counterpoint opinion pieces reaching different conclusions."
+    }
+  ]
+}

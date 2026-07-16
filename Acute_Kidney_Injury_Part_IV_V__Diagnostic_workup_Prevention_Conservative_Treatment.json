@@ -1,0 +1,326 @@
+{
+  "module": "Acute Kidney Injury Part IV-V: Diagnostic Work-up, Prevention and Conservative Treatment",
+  "sections": {
+    "Urine dipstick and imaging": "Urine dipstick is simple and recommended in all AKI cases; blood, protein, leucocytes, nitrites, or glucose may indicate treatable glomerular or tubular pathology (glomerulonephritis, pyelonephritis, interstitial nephritis), though catheter-related trauma is a common confounder for isolated haematuria. Renal ultrasound is the first-line imaging modality, useful for detecting obstruction and structural disease; reduced corticomedullary differentiation and small kidneys suggest CKD, while enlarged kidneys suggest infiltrative disease or renal vein thrombosis. Doppler/VExUS assessment of intrarenal blood flow can detect venous congestion (pulsatile/discontinuous pattern); CT is useful for excluding AAA, dissection, or retroperitoneal haemorrhage.",
+    "Urine electrolytes, biopsy, and biomarkers": "Urinary electrolytes/FENa correlate poorly with clinical and histopathological findings and can be confounded by CKD, diuretics, and even early sepsis (where low FENa can occur despite structural injury); single measurements have limited diagnostic value. Renal biopsy is rarely performed in the ICU but should be considered for persistent AKI, proteinuria >3g/day, or suspected systemic disease \u2014 about half of biopsied AKI patients have a diagnosis other than ATN, often changing management; transjugular biopsy may be safer than percutaneous approaches. Newer biomarkers (NGAL for HRS vs ATN, CXCL9/TNF-\u03b1/IL-9 for interstitial nephritis) show promise but need further validation; autoimmune serology (ANCA etc.) has a higher false-positive rate in critical illness and must be interpreted in clinical context.",
+    "Fluids and diuretics": "Crystalloids are first-line resuscitation fluids; HES is associated with worse renal outcomes and is no longer recommended in sepsis, burns, or critical illness. The balanced-versus-saline debate remains unresolved (SMART/SALT suggested benefit; BaSICS did not confirm this and suggested harm from balanced solutions in TBI). Restrictive fluid strategies show no clear benefit in septic shock (CLASSIC, CLOVERS) but may increase AKI risk perioperatively in high-risk abdominal surgery. Loop diuretics do not reduce AKI incidence or severity and should be reserved for treating established fluid overload, sometimes at higher-than-conventional doses.",
+    "Hemodynamic management and vasopressors": "A minimum renal perfusion pressure is needed once autoregulation is impaired. SEPSISPAM (65-70 vs 80-85 mmHg MAP) showed no overall mortality/RRT difference but less RRT need with higher MAP in chronic hypertensive patients, at the cost of more atrial fibrillation; subsequent trials (OVATION, the 65 trial) support that lower MAP targets (60-65 mmHg) are generally safe, especially in older patients. Norepinephrine is first-line; low-dose \u2018renal-dose\u2019 dopamine is obsolete and not recommended. Vasopressin/terlipressin have mixed evidence for renal benefit; angiotensin II reduces norepinephrine requirement without proven mortality/SOFA benefit, though a subgroup on RRT showed a possible signal.",
+    "Drugs for AKI prevention and care bundles": "No specific pharmacological therapy prevents or treats AKI. Perioperative high-dose statins show no benefit (and a signal of harm in statin-naive patients) and are not recommended for AKI prevention. Hydration, bicarbonate, and NAC have not reduced serious outcomes from contrast-associated AKI in recent large RCTs (AMACING, PRESERVE, KOMPAS); necessary imaging should not be withheld for this fear. Tight glycaemic control (80-110 mg/dl) reduces AKI stage 3/RRT compared with more liberal targets. Biomarker-guided (TIMP-2\u00d7IGFBP7 \u22650.3) implementation of the KDIGO care bundle (haemodynamic optimisation, nephrotoxin avoidance, glucose control) reduces moderate-to-severe AKI, though not RRT need or mortality; remote ischaemic preconditioning has mixed evidence, possibly blunted by propofol anaesthesia.",
+    "Conservative management of AKI": "Three basic questions guide initial AKI management: volume overload? hyperkalaemia? metabolic acidosis? Hyperkalaemia's most dangerous effect is on cardiac conduction (peaked T waves progressing to a sine-wave pattern); IV calcium is indicated specifically when ECG changes are present (short-lived, doesn't lower total body potassium), insulin/glucose shifts potassium intracellularly (onset ~15 min), and definitive removal requires diuresis, resins, or RRT \u2014 intracellular-shifting therapies should be stopped during RRT to avoid rebound. Severe metabolic acidosis (pH<7.2 or HCO3 10-15) may warrant bicarbonate; BICAR-ICU showed reduced RRT need in the AKI subgroup. Uremic pericarditis is itself an RRT indication (unless tamponade); the furosemide stress test and biomarkers like CCL14 help predict AKI progression and RRT need, though CCL14 doesn't specifically identify RRT candidates."
+  },
+  "questions": [
+    {
+      "id": "aki4_a01",
+      "_module": "Acute Kidney Injury Part IV-V: Diagnostic Work-up, Prevention and Conservative Treatment",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Urine dipstick and imaging",
+      "question": "A patient with AKI who does not have a urinary catheter has a urine dipstick showing 3+ blood and 2+ protein. What does this finding most strongly suggest?",
+      "options": [
+        "A potentially treatable glomerular pathology such as glomerulonephritis, warranting further specific workup",
+        "Simple mucosal irritation, requiring no further investigation",
+        "A definitively confirmed diagnosis of interstitial nephritis",
+        "Pre-renal AKI due to volume depletion",
+        "A normal variant requiring no action"
+      ],
+      "correct": 0,
+      "explanation": "Haematuria and proteinuria on dipstick in a non-catheterised patient with AKI raises concern for glomerular disease and should prompt further specific investigation (e.g. autoimmune serology, biopsy consideration) rather than being dismissed as incidental. Simple mucosal irritation is a more relevant confounder specifically in catheterised patients, which does not apply here."
+    },
+    {
+      "id": "aki4_a02",
+      "_module": "Acute Kidney Injury Part IV-V: Diagnostic Work-up, Prevention and Conservative Treatment",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Urine dipstick and imaging",
+      "question": "A patient presents with a creatinine of 450 \u00b5mol/L and no available prior baseline values. Renal ultrasound shows bilateral small kidneys with reduced corticomedullary differentiation. What does this most strongly suggest?",
+      "options": [
+        "Acute tubular necrosis from a recent ischaemic insult",
+        "Underlying chronic kidney disease rather than a purely acute process",
+        "Acute obstruction of the urinary collecting system",
+        "Renal vein thrombosis",
+        "Infiltrative renal disease such as lymphoma"
+      ],
+      "correct": 1,
+      "explanation": "Reduced corticomedullary differentiation and decreased kidney size on ultrasound are indicative of underlying chronic kidney disease, helping establish that at least part of the renal dysfunction is likely longstanding rather than purely acute. Enlarged kidneys, by contrast, would raise concern for infiltrative disease or renal vein thrombosis."
+    },
+    {
+      "id": "aki4_a03",
+      "_module": "Acute Kidney Injury Part IV-V: Diagnostic Work-up, Prevention and Conservative Treatment",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Urine electrolytes, biopsy, and biomarkers",
+      "question": "A patient in the first few hours of septic shock has a low fractional excretion of sodium (FENa) and a normal urinary sediment. The clinical team concludes this confirms a purely functional, prerenal cause of AKI that will resolve rapidly with fluid resuscitation. What is the key limitation of this interpretation?",
+      "options": [
+        "FENa cannot be measured in patients receiving diuretics",
+        "A low FENa can also be observed in early sepsis and in experimental sepsis with increased renal blood flow, so it does not reliably exclude structural/intrinsic injury",
+        "FENa is only valid in patients over the age of 65",
+        "Urinary sediment analysis is more accurate than FENa in all circumstances",
+        "FENa values are only interpretable after 72 hours of oliguria"
+      ],
+      "correct": 1,
+      "explanation": "Low FENa has also been observed in experimental sepsis with increased renal blood flow and in the first hours of human sepsis, so its presence does not reliably distinguish transient/functional AKI from evolving structural injury in this setting. A single urinary electrolyte measurement has a limited role in AKI aetiology overall; serial trends, not single values, parallel AKI development more usefully."
+    },
+    {
+      "id": "aki4_a04",
+      "_module": "Acute Kidney Injury Part IV-V: Diagnostic Work-up, Prevention and Conservative Treatment",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Urine electrolytes, biopsy, and biomarkers",
+      "question": "A patient has persistent AKI with proteinuria of 4g/day and a clinical picture suggestive of a systemic disease. The team is reluctant to pursue renal biopsy because of perceived bleeding risk in a critically ill patient. What is the most appropriate next consideration?",
+      "options": [
+        "Renal biopsy should never be performed in critically ill patients under any circumstances",
+        "Biopsy should be deferred indefinitely until the patient is no longer critically ill",
+        "Biopsy should be considered, since proteinuria >3g/day and suspected systemic disease are recognised indications, and techniques such as transjugular biopsy may reduce bleeding risk",
+        "Urine dipstick alone is sufficient to establish a definitive diagnosis without biopsy",
+        "Biopsy is only indicated once the patient requires renal replacement therapy"
+      ],
+      "correct": 2,
+      "explanation": "Persistent loss of kidney function, proteinuria greater than 3g/day, or a picture suggestive of systemic disease are recognised indications for renal biopsy where the diagnostic benefit outweighs the risk; transjugular biopsy has been suggested as a potentially safer alternative to percutaneous or open techniques. A French study found that half of AKI patients undergoing biopsy had a diagnosis distinct from ATN that often changed management, underlining the value of pursuing this when indicated."
+    },
+    {
+      "id": "aki4_k01",
+      "_module": "Acute Kidney Injury Part IV-V: Diagnostic Work-up, Prevention and Conservative Treatment",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Urine dipstick and imaging",
+      "question": "Regarding renal imaging and urine microscopy in the diagnostic work-up of AKI:",
+      "statements": [
+        {"label": "A", "text": "Renal ultrasonography is mainly useful for functional assessment of GFR, with limited value in detecting structural disease or urinary tract obstruction.", "correct": false},
+        {"label": "B", "text": "A pulsatile or discontinuous intrarenal blood flow (IRBF) Doppler pattern indicates venous obstruction or renal congestion.", "correct": true},
+        {"label": "C", "text": "CT is useful in the AKI work-up mainly for excluding structural causes such as abdominal aortic aneurysm, aortic dissection, or retroperitoneal haemorrhage.", "correct": true},
+        {"label": "D", "text": "Urine microscopy is simple, rapid, and routinely performed by ICU nursing staff without special training, given its high inter-operator reliability.", "correct": false}
+      ],
+      "explanation": "Renal ultrasound is valued precisely for detecting structural disease and urinary tract obstruction, not for functional GFR assessment. Urine microscopy is in fact highly operator-dependent and requires specific training and experience, which is exactly why it remains underused in routine ICU practice despite its diagnostic value."
+    },
+    {
+      "id": "aki4_k02",
+      "_module": "Acute Kidney Injury Part IV-V: Diagnostic Work-up, Prevention and Conservative Treatment",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Urine electrolytes, biopsy, and biomarkers",
+      "question": "Regarding diagnostic biomarkers and challenges in AKI work-up:",
+      "statements": [
+        {"label": "A", "text": "Urinary NGAL can help distinguish hepatorenal syndrome from acute tubular necrosis in patients with cirrhosis, with higher values associated with non-response to terlipressin.", "correct": true},
+        {"label": "B", "text": "Urinary CXCL9, TNF-\u03b1, and IL-9 have been shown to reliably distinguish septic from cardiorenal AKI, but have no established role in interstitial nephritis.", "correct": false},
+        {"label": "C", "text": "False-positive autoimmune serology (e.g. ANCA) is rare in critically ill patients, and results can generally be interpreted without considering the clinical context.", "correct": false},
+        {"label": "D", "text": "Dipstick haematuria in a catheterised patient is most commonly due to simple mucosal/catheter trauma rather than glomerulonephritis, though the differential remains broad.", "correct": true}
+      ],
+      "explanation": "CXCL9, TNF-\u03b1, and IL-9 have specifically been linked to distinguishing acute interstitial nephritis from other AKI causes and predicting steroid responsiveness \u2014 not septic versus cardiorenal AKI. Autoimmune serology such as ANCA has a higher risk of false-positive results in critically ill patients (e.g. triggered by infection), so results must always be interpreted within the clinical context."
+    },
+    {
+      "id": "aki5_a01",
+      "_module": "Acute Kidney Injury Part IV-V: Diagnostic Work-up, Prevention and Conservative Treatment",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Fluids and diuretics",
+      "question": "A patient with septic shock requires ongoing fluid resuscitation. The team is deciding between hydroxyethyl starch (HES), 0.9% saline, and a balanced crystalloid solution. Which approach is best supported by current evidence?",
+      "options": [
+        "HES should be used first-line, since it provides superior volume expansion per millilitre infused",
+        "Albumin 20% should replace crystalloids entirely, since it has been shown to improve survival in septic shock",
+        "0.9% saline is absolutely contraindicated in all critically ill patients regardless of clinical context",
+        "Crystalloids (either balanced or saline) should be used first-line; HES has been associated with worse renal outcomes and is no longer recommended in sepsis, critical illness, or burns",
+        "Balanced crystalloids have been definitively proven superior to saline across all critically ill populations, including traumatic brain injury"
+      ],
+      "correct": 3,
+      "explanation": "Several RCTs have shown worse renal outcomes with HES, and both international guidelines and the European Medicines Agency advise against its use in sepsis, burns, or critical illness; crystalloids (saline or balanced) remain first-line. The balanced-versus-saline question remains genuinely unresolved (SMART/SALT suggested benefit, but the larger BaSICS trial did not confirm this and even suggested harm from balanced solutions in traumatic brain injury), and albumin 20% supplementation has not improved outcomes in septic shock."
+    },
+    {
+      "id": "aki5_a02",
+      "_module": "Acute Kidney Injury Part IV-V: Diagnostic Work-up, Prevention and Conservative Treatment",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Hemodynamic management and vasopressors",
+      "question": "A patient with chronic, poorly controlled hypertension is in septic shock requiring high-dose norepinephrine. The team is deciding between a MAP target of 65-70 mmHg versus 80-85 mmHg. Based on the SEPSISPAM trial, what is the most relevant consideration?",
+      "options": [
+        "The higher MAP target improved 28-day mortality in the overall trial population, so it should always be used",
+        "MAP targets have no demonstrated effect on renal outcomes in any patient subgroup",
+        "The lower MAP target is absolutely contraindicated in any patient with a history of hypertension",
+        "The higher MAP target should be avoided entirely, as it provides no benefit in any subgroup",
+        "The higher MAP target reduced the need for RRT specifically in patients with chronic hypertension, but this must be weighed against a higher incidence of atrial fibrillation"
+      ],
+      "correct": 4,
+      "explanation": "In SEPSISPAM, the higher MAP target did not change overall 28-day mortality or overall RRT need, but in the pre-specified subgroup with chronic hypertension, the higher target reduced RRT requirement (42.2% vs 31.7%) at the cost of more atrial fibrillation. This subgroup-specific trade-off, not a uniform effect, is what should inform individualised MAP targeting in this population."
+    },
+    {
+      "id": "aki5_a03",
+      "_module": "Acute Kidney Injury Part IV-V: Diagnostic Work-up, Prevention and Conservative Treatment",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Hemodynamic management and vasopressors",
+      "question": "A junior colleague suggests starting low-dose ('renal-dose') dopamine in a patient with early AKI, aiming to protect kidney function by promoting renal vasodilation. What is the most appropriate response?",
+      "options": [
+        "Agree, since renal-dose dopamine is well established to prevent progression of AKI",
+        "Agree, but only if combined with high-dose norepinephrine",
+        "Disagree; meta-analyses show low-dose dopamine increases urine output without preventing renal dysfunction or death, and its use for renal protection is now considered obsolete",
+        "Agree, since dopamine has fewer arrhythmic side effects than norepinephrine",
+        "Disagree, but only because dopamine is more expensive than norepinephrine"
+      ],
+      "correct": 2,
+      "explanation": "Meta-analyses have shown that low-dose dopamine increases urine output without conferring any protection against renal dysfunction or death, and current guidelines explicitly recommend against its use for renal protection. Dopamine is also associated with more arrhythmias than norepinephrine, making the arrhythmia-based justification factually backwards."
+    },
+    {
+      "id": "aki5_a04",
+      "_module": "Acute Kidney Injury Part IV-V: Diagnostic Work-up, Prevention and Conservative Treatment",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Drugs for AKI prevention and care bundles",
+      "question": "Regarding perioperative statin therapy to prevent AKI after cardiac surgery, which of the following statements is FALSE?",
+      "options": [
+        "Statin-naive patients randomised to high-dose perioperative atorvastatin had a numerically lower incidence of postoperative AKI than those given placebo",
+        "A large placebo-controlled RCT of high-dose perioperative atorvastatin was stopped early for futility",
+        "Patients already established on chronic statin therapy showed no additional renal benefit from perioperative high-dose atorvastatin",
+        "A meta-analysis of over 3000 patients found no significant difference in AKI outcomes between statin and placebo groups",
+        "Current recommendations advise against initiating statin therapy specifically for the purpose of AKI prevention before cardiac surgery"
+      ],
+      "correct": 0,
+      "explanation": "In the Billings et al. RCT, statin-naive patients randomised to high-dose perioperative atorvastatin actually trended toward a HIGHER incidence of postoperative AKI than placebo (21.6% vs 13.4%) \u2014 the opposite of this claim. Every other option accurately reflects the trial's findings, the subsequent meta-analysis, and current recommendations against statin initiation purely for AKI prevention."
+    },
+    {
+      "id": "aki5_a05",
+      "_module": "Acute Kidney Injury Part IV-V: Diagnostic Work-up, Prevention and Conservative Treatment",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Drugs for AKI prevention and care bundles",
+      "question": "Regarding prevention of contrast-associated AKI (CA-AKI), which of the following statements is FALSE?",
+      "options": [
+        "Large RCTs (AMACING, PRESERVE, KOMPAS) have failed to show a clear benefit of prophylactic IV hydration strategies for preventing CA-AKI or its serious outcomes",
+        "N-acetylcysteine has not been shown to reduce the composite outcome of death, dialysis, or persistent renal function decline after angiography",
+        "Necessary, clinically indicated imaging should not be withheld solely out of fear of CA-AKI",
+        "Modern iso-osmolar contrast agents carry essentially zero nephrotoxic risk in any patient population, making prophylactic measures entirely unnecessary",
+        "Correcting a patient's volume status remains a reasonable consideration before contrast administration, despite the negative hydration trials"
+      ],
+      "correct": 3,
+      "explanation": "While modern iso-osmolar contrast agents and propensity-matched studies have substantially lowered the estimated risk of CA-AKI, the risk is probably not zero and remains concentrated in patients with multiple risk factors (eGFR <30, diabetes, dehydration, low cardiac output) \u2014 claiming essentially zero risk in any population overstates the evidence. Every other option accurately reflects the negative results of AMACING, PRESERVE, and KOMPAS, and current guidance not to withhold necessary imaging."
+    },
+    {
+      "id": "aki5_a06",
+      "_module": "Acute Kidney Injury Part IV-V: Diagnostic Work-up, Prevention and Conservative Treatment",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Conservative management of AKI",
+      "image": "images/img_35f9e3f9f2.png",
+      "question": "A patient with AKI stage 3 and a serum potassium of 7.2 mmol/L has the ECG shown below. What is the most appropriate immediate first step?",
+      "options": [
+        "Insulin and glucose infusion, since this has the fastest onset of any hyperkalaemia treatment",
+        "Sodium bicarbonate infusion, since correcting acidosis is always the first priority",
+        "Intravenous calcium (gluconate or chloride) to stabilise the cardiac membrane, since ECG changes of hyperkalaemia are present",
+        "A potassium-binding resin, since it acts fastest to lower total body potassium",
+        "Immediate initiation of RRT before any other measures, since ECG changes mandate dialysis as the sole first step"
+      ],
+      "correct": 2,
+      "explanation": "Calcium antagonises the cardiac membrane excitability caused by hyperkalaemia and begins acting within minutes; administration is specifically indicated when ECG disturbances are present, as they are here. Insulin/glucose and bicarbonate shift potassium intracellularly with slower onset, resins act even more slowly, and RRT \u2014 while ultimately needed for definitive potassium removal \u2014 is not the fastest first step to address the immediate arrhythmia risk."
+    },
+    {
+      "id": "aki5_a07",
+      "_module": "Acute Kidney Injury Part IV-V: Diagnostic Work-up, Prevention and Conservative Treatment",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Drugs for AKI prevention and care bundles",
+      "question": "A large multicentre RCT (n=9230) in critically ill patients compares a blood glucose target of 80-110 mg/dl versus 180-215 mg/dl. Regarding renal outcomes, what did this trial find?",
+      "options": [
+        "AKI stage 3 and RRT occurred less often with the tighter (80-110 mg/dl) glucose target",
+        "AKI stage 3 and RRT occurred less often with the more liberal (180-215 mg/dl) glucose target",
+        "There was no difference in any renal outcome between the two glucose targets",
+        "Hypoglycaemia was so frequent in the tight-control group that the trial was stopped early for safety",
+        "The trial only assessed cardiovascular, not renal, outcomes"
+      ],
+      "correct": 0,
+      "explanation": "AKI stage 3 and the need for RRT occurred less often in patients managed with the tighter glucose target (80-110 mg/dl) compared with the more liberal target (180-215 mg/dl), consistent with the recognised nephrotoxic effects of hyperglycaemia in critical illness. The trial specifically evaluated renal outcomes and was not stopped early for hypoglycaemia-related safety concerns."
+    },
+    {
+      "id": "aki5_a08",
+      "_module": "Acute Kidney Injury Part IV-V: Diagnostic Work-up, Prevention and Conservative Treatment",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Drugs for AKI prevention and care bundles",
+      "question": "A patient after cardiac surgery has an elevated urinary [TIMP-2]\u00d7[IGFBP7] of 0.5 (above the 0.3 threshold), identifying them as high-risk for AKI. Based on trial evidence (PrevAKI, BigpAK), what is the most appropriate next step, and what outcome benefit can realistically be expected?",
+      "options": [
+        "No specific action is needed, since biomarker-guided care bundles have never shown any benefit",
+        "Immediately initiate prophylactic RRT, since the biomarker threshold mandates dialysis",
+        "Start prophylactic fenoldopam infusion, since this is the biomarker-specific therapy validated in these trials",
+        "Implement the KDIGO care bundle; this has been definitively shown to reduce ICU length of stay, RRT need, and 90-day mortality",
+        "Implement the KDIGO care bundle (optimise haemodynamics, discontinue nephrotoxic agents, avoid hyperglycaemia, avoid contrast where possible); this has been shown to reduce moderate-to-severe AKI, though not RRT need or mortality"
+      ],
+      "correct": 4,
+      "explanation": "In the PrevAKI, BigpAK, and PrevAKI-multicenter trials, biomarker-guided implementation of the KDIGO care bundle reduced the incidence of moderate-to-severe AKI, but did not significantly change RRT need, ICU/hospital length of stay, or 90-day mortality. A post-hoc analysis suggested the benefit was mainly driven by haemodynamic optimisation and reduced nephrotoxin exposure rather than the bundle's other components equally."
+    },
+    {
+      "id": "aki5_k01",
+      "_module": "Acute Kidney Injury Part IV-V: Diagnostic Work-up, Prevention and Conservative Treatment",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Fluids and diuretics",
+      "question": "Regarding fluid and diuretic management for AKI prevention:",
+      "statements": [
+        {"label": "A", "text": "Hydroxyethyl starch (HES) has an established safety profile in sepsis and critical illness and remains a recommended first-line resuscitation fluid.", "correct": false},
+        {"label": "B", "text": "Loop diuretics such as furosemide have not been shown in systematic review to reduce the incidence or severity of AKI when used prophylactically.", "correct": true},
+        {"label": "C", "text": "Perioperative fluid restriction reduced the incidence of postoperative AKI in high-risk patients undergoing major abdominal surgery.", "correct": false},
+        {"label": "D", "text": "The Surviving Sepsis Campaign's recommendation of a minimum 30 ml/kg initial fluid bolus in sepsis is based on low-quality evidence and has been a subject of debate.", "correct": true}
+      ],
+      "explanation": "HES has been associated with worse, not established-safe, renal outcomes and is no longer recommended in sepsis, burns, or critical illness. Contrary to the general trend toward restrictive fluid strategies, perioperative fluid restriction actually increased postoperative AKI in high-risk abdominal surgery patients."
+    },
+    {
+      "id": "aki5_k02",
+      "_module": "Acute Kidney Injury Part IV-V: Diagnostic Work-up, Prevention and Conservative Treatment",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Hemodynamic management and vasopressors",
+      "question": "Regarding vasopressor choice and renal effects:",
+      "statements": [
+        {"label": "A", "text": "Norepinephrine is currently the first-line vasopressor in patients with sepsis.", "correct": true},
+        {"label": "B", "text": "The Surviving Sepsis Campaign recommends dopamine as an acceptable first-line alternative for renal protection in septic shock.", "correct": false},
+        {"label": "C", "text": "Fear of excessive intrarenal vasoconstriction from norepinephrine is generally unfounded when it is used appropriately to counteract pathological vasodilation.", "correct": true},
+        {"label": "D", "text": "Angiotensin II has been shown to improve overall mortality and total SOFA score compared with placebo in the main trial of vasodilatory shock.", "correct": false}
+      ],
+      "explanation": "Current guidelines explicitly recommend against dopamine, including specifically for renal protection, with norepinephrine remaining first-line. Angiotensin II reduced norepinephrine requirements (improving cardiovascular SOFA) but showed no benefit on overall SOFA score or mortality at day 7 or 28 in the main trial, though a post-hoc subgroup requiring RRT showed a possible signal."
+    },
+    {
+      "id": "aki5_k03",
+      "_module": "Acute Kidney Injury Part IV-V: Diagnostic Work-up, Prevention and Conservative Treatment",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Conservative management of AKI",
+      "question": "Regarding treatment of hyperkalaemia in AKI:",
+      "statements": [
+        {"label": "A", "text": "Intravenous calcium lowers total body potassium and provides a durable, long-lasting protective effect against hyperkalaemia-related arrhythmia.", "correct": false},
+        {"label": "B", "text": "Potassium-binding resins act within minutes and are the treatment of choice for acute, severe, ECG-manifest hyperkalaemia.", "correct": false},
+        {"label": "C", "text": "Insulin and glucose administration typically produces a fall in plasma potassium within 15 minutes, with maximal effect around 60 minutes, requiring close blood glucose monitoring.", "correct": true},
+        {"label": "D", "text": "Treatments that shift potassium intracellularly (insulin, beta-agonists) must be stopped during stimulated diuresis or RRT to prevent rebound hyperkalaemia afterward.", "correct": true}
+      ],
+      "explanation": "Calcium's cardioprotective effect is short-lived and does not lower total body potassium \u2014 it must be followed by measures that actually remove or redistribute potassium. Potassium-binding resins act slowly via gastrointestinal excretion and are not appropriate as the acute treatment for ECG-manifest hyperkalaemia, which requires calcium first."
+    },
+    {
+      "id": "aki5_k04",
+      "_module": "Acute Kidney Injury Part IV-V: Diagnostic Work-up, Prevention and Conservative Treatment",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Conservative management of AKI",
+      "question": "Regarding uremic complications and prediction of AKI progression/RRT need:",
+      "statements": [
+        {"label": "A", "text": "Uremic pericarditis, though rare in AKI, is itself considered an indication to start RRT, unless cardiac tamponade is present.", "correct": true},
+        {"label": "B", "text": "The ECG in uremic pericarditis does not typically show the diffuse ST- and T-wave elevations seen in other causes of acute pericarditis.", "correct": true},
+        {"label": "C", "text": "The furosemide stress test has poor sensitivity and specificity for predicting progression from AKI stage 1/2 to stage 3, limiting its clinical usefulness.", "correct": false},
+        {"label": "D", "text": "Urinary CCL14 predicts persistent stage 3 AKI with good accuracy and also reliably identifies which patients will specifically require RRT.", "correct": false}
+      ],
+      "explanation": "The furosemide stress test has in fact shown high, not poor, sensitivity and specificity for predicting progression from AKI stage 1/2 to stage 3. Urinary CCL14 predicts persistent stage 3 AKI well but does not necessarily identify which of those patients will specifically require RRT \u2014 these are related but distinct predictive targets."
+    }
+  ]
+}

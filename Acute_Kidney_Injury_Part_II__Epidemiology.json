@@ -1,0 +1,254 @@
+{
+  "module": "Acute Kidney Injury Part II: Epidemiology",
+  "sections": {
+    "AKI incidence and global epidemiology": "AKI affects roughly 1 in 5 hospitalised adults and 1 in 3 children worldwide by KDIGO definition. In the ICU, incidence ranges from about one-third to two-thirds of patients depending on criteria and population, with 10\u201315% requiring RRT. The multinational AKI-EPI study found broadly similar adjusted risks of AKI and associated mortality across different continents and regions.",
+    "Non-modifiable risk factors": "Age \u226565, male sex (larger meta-analyses show men, not women, are more likely to develop hospital-acquired AKI), and Afro-American ethnicity are non-modifiable risk factors. Comorbidities such as hypertension, diabetes mellitus, pre-existing CKD, heart failure, coronary/peripheral artery disease, COPD, obesity, and malignancy further increase risk, with CKD conferring the strongest additional risk of both AKI and incomplete recovery.",
+    "Disease-related and modifiable risk factors": "Sepsis accounts for almost half of ICU AKI cases. Other factors include hypovolaemia, hypervolaemia/fluid choice (starch-based colloids increase risk), nephrotoxins (~23% of drugs, contributing to ~30% of hospital AKI), major surgery (~1 in 5 after major surgery in EPIS-AKI), trauma (24%) and burns (38%), critical illness, anaemia, emergency procedures, radiologic contrast (true contrast-induced AKI now considered rare/overestimated), and COVID-19.",
+    "Patient outcomes of AKI": "Short-term effects include acid-base/electrolyte disturbance, uraemia, and fluid overload. Long-term effects include increased mortality across clinical settings, longer ICU/hospital stay, 90-day readmission, and transfer to long-term care. A definitive causal mechanism linking AKI to these outcomes remains unproven, with proposed explanations including fluid overload, uraemia, and cytokine-mediated organ cross-talk.",
+    "AKD, CKD, and renal recovery": "Acute kidney disease (AKD) is AKI persisting beyond day 7; if it persists beyond 90 days it is reclassified as CKD or end-stage kidney disease. Rapid reversal (recovery within 48 hours) carries lower mortality risk than persistent AKI. Approximately 40% of patients with stage 2\u20133 AKI have not fully recovered kidney function at hospital discharge. Recovery epidemiology is confounded by unknown baseline creatinine, muscle-mass loss during critical illness (overestimating recovery), and competing-risk bias from patients who die before recovery can occur."
+  },
+  "questions": [
+    {
+      "id": "aki2_a01",
+      "_module": "Acute Kidney Injury Part II: Epidemiology",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Disease-related and modifiable risk factors",
+      "question": "An international multicentre study (EPIS-AKI) enrolled more than 10,000 patients undergoing major surgery across 30 countries. What proportion of these patients developed postoperative AKI, and how did this affect ICU/hospital mortality?",
+      "options": [
+        "Approximately 1 in 20 developed AKI, with no mortality difference",
+        "Approximately 1 in 2 developed AKI, with no significant mortality difference",
+        "Approximately 1 in 3 developed AKI, with lower ICU mortality due to earlier detection",
+        "Approximately 1 in 5 developed AKI, with greater ICU and hospital mortality than those without AKI",
+        "Approximately 1 in 10 developed AKI, primarily driven by contrast-induced nephropathy"
+      ],
+      "correct": 3,
+      "explanation": "The EPIS-AKI study found that around one in five patients developed AKI after major surgery, and these patients had greater ICU and hospital mortality and longer length of stay than those without AKI. The other proportions and outcome directions do not match the reported findings."
+    },
+    {
+      "id": "aki2_a02",
+      "_module": "Acute Kidney Injury Part II: Epidemiology",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Disease-related and modifiable risk factors",
+      "question": "A patient with stable CKD (eGFR 45 ml/min) requires an urgent contrast-enhanced CT for suspected pulmonary embolism. The team is reluctant because of fear of contrast-induced AKI. What is the most appropriate approach based on current evidence?",
+      "options": [
+        "Withhold contrast in all patients with CKD stage 3, since CI-AKI risk outweighs diagnostic benefit",
+        "Delay imaging until a non-contrast MRI can be arranged instead",
+        "Proceed with contrast only after prophylactic RRT is initiated",
+        "Cancel the imaging and rely on clinical probability scoring alone",
+        "Proceed with contrast if clinically indicated, ensuring the patient is euvolaemic; true contrast-induced AKI is now considered rare and often overestimated"
+      ],
+      "correct": 4,
+      "explanation": "Current consensus distinguishes common contrast-associated AKI (a temporal association confounded by many other factors) from genuine contrast-induced AKI, which is difficult to prove and probably rare; necessary imaging should not be withheld provided the patient is euvolaemic. Withholding indicated imaging or resorting to prophylactic RRT is not supported and could delay diagnosis of a life-threatening condition."
+    },
+    {
+      "id": "aki2_a03",
+      "_module": "Acute Kidney Injury Part II: Epidemiology",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Non-modifiable risk factors",
+      "question": "A 68-year-old man with type 2 diabetes and hypertension develops postoperative AKI stage 2 after emergency laparotomy, on a background of pre-existing CKD. Which combination of factors most directly increases both his risk of developing AKI and his risk of incomplete renal recovery?",
+      "options": [
+        "Diabetes mellitus, hypertension, and underlying CKD",
+        "Male sex and emergency (rather than elective) surgical timing only",
+        "Diabetes mellitus and hypertension alone, unrelated to baseline renal function",
+        "Only the emergency nature of the surgery, since comorbidities do not affect renal risk",
+        "Anaemia alone, since diabetes and hypertension are not established AKI risk factors"
+      ],
+      "correct": 0,
+      "explanation": "Diabetes and hypertension are both established comorbid risk factors for AKI, and pre-existing CKD is a strong risk factor for both developing AKI and for slow, incomplete recovery. Isolating any single factor (surgical timing, sex, or anaemia alone) ignores the compounding effect of pre-existing comorbidity."
+    },
+    {
+      "id": "aki2_a04",
+      "_module": "Acute Kidney Injury Part II: Epidemiology",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "AKD, CKD, and renal recovery",
+      "question": "A patient survives an episode of KDIGO stage 3 AKI requiring RRT during a prolonged ICU admission. At hospital discharge, creatinine has not returned to baseline. Based on published cohort data, what proportion of patients with stage 2\u20133 AKI fail to fully recover kidney function by hospital discharge?",
+      "options": [
+        "Approximately 5%",
+        "Approximately 40%",
+        "Approximately 15%",
+        "Approximately 65%",
+        "Approximately 90%"
+      ],
+      "correct": 1,
+      "explanation": "Cohort data indicate that approximately 40% of patients with severe (stage 2\u20133) AKI have not fully recovered kidney function at hospital discharge, in contrast to stage 1 AKI, where most patients recover shortly after the insult. The other figures over- or under-state this proportion."
+    },
+    {
+      "id": "aki2_a05",
+      "_module": "Acute Kidney Injury Part II: Epidemiology",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "AKD, CKD, and renal recovery",
+      "question": "A cohort study concludes that failure to recover renal function after AKI is strongly associated with increased mortality. A critical appraisal identifies a potential source of bias in this association. What is the most likely explanation?",
+      "options": [
+        "Competing risk bias \u2014 patients who die before renal recovery can occur are inevitably classified as non-recovering",
+        "Selection bias from excluding patients with baseline CKD",
+        "Detection bias from more frequent creatinine sampling in survivors",
+        "Confounding by indication from RRT modality choice",
+        "Immortal time bias from delayed study enrollment"
+      ],
+      "correct": 0,
+      "explanation": "Because patients who die before recovery can occur will, by definition, never be classified as recovered, the association between non-recovery and mortality may be partly a competing-risk artefact rather than a purely causal relationship. The other biases described are not the specific limitation highlighted for AKI recovery epidemiology."
+    },
+    {
+      "id": "aki2_a06",
+      "_module": "Acute Kidney Injury Part II: Epidemiology",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "AKD, CKD, and renal recovery",
+      "question": "In a cohort of more than 16,000 critically ill patients with KDIGO AKI stage 2/3, those with AKD that had not resolved by hospital discharge had approximately what change in 1-year mortality compared with those whose AKI resolved rapidly within a week?",
+      "options": [
+        "No significant difference",
+        "A 10% relative increase",
+        "A halving of 1-year mortality",
+        "A five-fold increase",
+        "A doubling of 1-year mortality"
+      ],
+      "correct": 4,
+      "explanation": "In the Kellum et al. cohort, unresolved AKD by hospital discharge was associated with a doubling of 1-year mortality compared with sustained recovery within a week (10% one-year mortality in that group). The other magnitudes do not match the reported effect size."
+    },
+    {
+      "id": "aki2_a07",
+      "_module": "Acute Kidney Injury Part II: Epidemiology",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Non-modifiable risk factors",
+      "question": "Which of the following is best classified as a non-modifiable, rather than disease-related/modifiable, risk factor for AKI in the ICU?",
+      "options": [
+        "Nephrotoxin exposure",
+        "Hypervolaemia from resuscitation fluid choice",
+        "Ethnicity",
+        "Anaemia from surgical blood loss",
+        "Radiologic contrast administration"
+      ],
+      "correct": 2,
+      "explanation": "Ethnicity, along with age and gender, is grouped among the non-modifiable risk factors for AKI, whereas nephrotoxin exposure, fluid resuscitation choices, anaemia, and contrast administration are all disease-related factors that can, at least partly, be mitigated."
+    },
+    {
+      "id": "aki2_a08",
+      "_module": "Acute Kidney Injury Part II: Epidemiology",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Disease-related and modifiable risk factors",
+      "question": "A recent meta-analysis reports the incidence of AKI in ICU-admitted burn patients. What proportion of burn patients admitted to the ICU develop AKI, and what proportion of all burn patients receive RRT?",
+      "options": [
+        "10% AKI, 2% RRT",
+        "38% AKI, 12% RRT",
+        "24% AKI, 10% RRT",
+        "50% AKI, 25% RRT",
+        "65% AKI, 30% RRT"
+      ],
+      "correct": 1,
+      "explanation": "The burn-patient meta-analysis found AKI in 38% of ICU-admitted burn patients, with 12% receiving RRT, both associated with increased length of stay and mortality. The 24%/10% figures instead correspond to the separate trauma-patient meta-analysis, a common source of confusion."
+    },
+    {
+      "id": "aki2_a09",
+      "_module": "Acute Kidney Injury Part II: Epidemiology",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Disease-related and modifiable risk factors",
+      "question": "Which of the following is NOT one of the disease-related/modifiable risk factors for AKI described for ICU patients?",
+      "options": [
+        "Sepsis",
+        "Hypervolaemia and choice of resuscitation fluid",
+        "Anaemia",
+        "Ethnicity",
+        "Radiologic contrast media"
+      ],
+      "correct": 3,
+      "explanation": "Ethnicity is classified among the non-modifiable risk factors for AKI (alongside age and gender), not the disease-related/modifiable group, which includes sepsis, fluid balance/choice, anaemia, and contrast media exposure."
+    },
+    {
+      "id": "aki2_k01",
+      "_module": "Acute Kidney Injury Part II: Epidemiology",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "AKI incidence and global epidemiology",
+      "question": "Regarding the global epidemiology of AKI:",
+      "statements": [
+        {"label": "A", "text": "A meta-analysis found that the majority of AKI cases worldwide are diagnosed only in ICU patients, with negligible incidence on general hospital wards.", "correct": false},
+        {"label": "B", "text": "In the ICU, the incidence of AKI varies between one-third and two-thirds of patients depending on the criteria and population studied.", "correct": true},
+        {"label": "C", "text": "Of all ICU patients with AKI, the majority (>50%) require renal replacement therapy.", "correct": false},
+        {"label": "D", "text": "The adjusted risk of AKI and associated mortality was similar across different continents and regions in the AKI-EPI study.", "correct": true}
+      ],
+      "explanation": "Global AKI incidence is measured broadly across hospitalised patients (about 1 in 5 adults, 1 in 3 children), not confined to ICU populations. Only 10\u201315% of ICU patients with AKI require RRT, not the majority; the AKI-EPI study found adjusted risks of AKI and mortality were similar across continents rather than showing regional disparity."
+    },
+    {
+      "id": "aki2_k02",
+      "_module": "Acute Kidney Injury Part II: Epidemiology",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Non-modifiable risk factors",
+      "question": "Regarding non-modifiable risk factors for AKI:",
+      "statements": [
+        {"label": "A", "text": "Elderly patients (\u226565 years) have a heightened AKI risk due to age-related reductions in functioning glomeruli and renal blood flow.", "correct": true},
+        {"label": "B", "text": "Meta-analyses including over 6 million patients have found that women are more likely than men to develop hospital-acquired AKI.", "correct": false},
+        {"label": "C", "text": "Persons of Afro-American descent have a higher risk of developing AKI, most clearly in those with previously normal renal function.", "correct": true},
+        {"label": "D", "text": "Diabetes mellitus has not been established as a risk factor for developing AKI, unlike hypertension.", "correct": false}
+      ],
+      "explanation": "Large meta-analyses (including one covering over 6 million patients) actually found men, not women, more likely to develop hospital-acquired AKI (OR ~1.23). Diabetes mellitus, alongside hypertension, is an established comorbid risk factor for AKI, not an exception to it."
+    },
+    {
+      "id": "aki2_k03",
+      "_module": "Acute Kidney Injury Part II: Epidemiology",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Disease-related and modifiable risk factors",
+      "question": "Regarding disease-related and modifiable risk factors for AKI in the ICU:",
+      "statements": [
+        {"label": "A", "text": "Sepsis accounts for only a small minority (under 10%) of AKI cases in the ICU.", "correct": false},
+        {"label": "B", "text": "Approximately two-thirds of all drugs are renally excreted, and roughly 23% of drugs are known to be nephrotoxic.", "correct": true},
+        {"label": "C", "text": "Adding urine output criteria to creatinine-only AKI definitions has been shown to substantially increase the measured incidence of AKI after major surgery (from 8% to 64% in one study).", "correct": true},
+        {"label": "D", "text": "Starch-based colloids have been shown to reduce the risk of AKI development compared with crystalloids.", "correct": false}
+      ],
+      "explanation": "Sepsis is responsible for almost half, not a small minority, of ICU AKI cases. Starch-based colloids have specifically been associated with an increased, not reduced, risk of AKI compared with other resuscitation fluids."
+    },
+    {
+      "id": "aki2_k04",
+      "_module": "Acute Kidney Injury Part II: Epidemiology",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Patient outcomes of AKI",
+      "question": "Regarding patient outcomes after AKI:",
+      "statements": [
+        {"label": "A", "text": "Increasing severity of AKI is associated with increased mortality risk across diverse clinical settings, including cardiac surgery, trauma, and critical illness.", "correct": true},
+        {"label": "B", "text": "Short-term effects of AKI, such as acid-base disturbance and uraemia, only become apparent after progression to chronic kidney disease.", "correct": false},
+        {"label": "C", "text": "A definitive causal mechanism linking AKI to adverse long-term outcomes has been firmly established and is no longer debated.", "correct": false},
+        {"label": "D", "text": "Long-term effects of AKI include increased hospital readmission within 90 days and increased likelihood of transfer to a long-term care facility.", "correct": true}
+      ],
+      "explanation": "The short-term effects of AKI (acid-base disturbance, uraemia, fluid overload) occur acutely as part of the syndrome itself, independent of any progression to CKD. A definitive causal mechanism linking AKI to long-term adverse outcomes remains unproven and is actively debated, with proposed explanations including organ cross-talk and cytokine-mediated effects."
+    },
+    {
+      "id": "aki2_k05",
+      "_module": "Acute Kidney Injury Part II: Epidemiology",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "AKD, CKD, and renal recovery",
+      "question": "Regarding acute kidney disease (AKD) and renal recovery:",
+      "statements": [
+        {"label": "A", "text": "AKD is defined as persistence of AKI criteria beyond day 7 after AKI onset.", "correct": true},
+        {"label": "B", "text": "If AKD persists beyond 90 days, this is redefined as chronic kidney disease (CKD) or end-stage kidney disease depending on GFR.", "correct": true},
+        {"label": "C", "text": "Recovery within 7 days of AKI onset is termed \"rapid reversal\" and is associated with lower short- and long-term mortality.", "correct": false},
+        {"label": "D", "text": "Loss of muscle mass during critical illness tends to cause underestimation of renal recovery, since creatinine remains inappropriately elevated.", "correct": false}
+      ],
+      "explanation": "Rapid reversal of AKI specifically refers to recovery within 48 hours of onset, not 7 days. Loss of muscle mass during critical illness lowers creatinine production, which tends to cause overestimation, not underestimation, of true renal recovery."
+    }
+  ]
+}

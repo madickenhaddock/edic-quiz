@@ -1,0 +1,255 @@
+{
+  "module": "Acute Kidney Injury Part I: Definition and diagnosis",
+  "sections": {
+    "KDIGO staging": "KDIGO (2012) merged the earlier RIFLE and AKIN classifications. AKI is defined by a serum creatinine rise of \u22650.3 mg/dl (\u226526.5 \u00b5mol/l) within 48 hours, OR a rise to \u22651.5-fold from baseline within 7 days, OR urine output <0.5 ml/kg/h for \u22656 hours. Staging (1\u20133) is assigned using whichever of creatinine or urine output indicates the more severe stage. Initiation of RRT automatically confers AKI stage 3, independent of the creatinine or urine output values at the time.",
+    "Limitations of serum creatinine": "Serum creatinine typically takes 24\u201336 hours to rise after a definite renal insult. It is influenced by muscle mass, diet, and drugs that block tubular creatinine secretion (e.g. trimethoprim, cimetidine) without truly changing GFR, and is diluted by aggressive fluid resuscitation. No standardised assay exists; Jaffe-based methods are vulnerable to interference from bilirubin and certain drugs. Baseline creatinine is often unknown and must be estimated, which can inflate or reduce the apparent incidence of AKI \u2014 patients with reduced muscle mass, sepsis, or pre-existing CKD are particularly prone to misclassification.",
+    "Limitations of urinary output": "Oliguria (<0.5 ml/kg/h) can be an entirely appropriate physiological response to pain, stress, or hypovolaemia mediated by ADH, without true kidney injury. Weight-based urine output thresholds can overdiagnose AKI in obese patients unless ideal body weight (rather than actual weight) is used. The KDIGO minimum duration of 6 hours for oliguria is debated, with some experts proposing a longer minimum period or a lower threshold to achieve adequate specificity.",
+    "Furosemide stress test": "A 1.0 mg/kg IV furosemide bolus (1.5 mg/kg if furosemide was given within the preceding 7 days) is administered to euvolemic patients with early-stage AKI. A urine output response of less than 200 ml over the following 2 hours identifies patients at high risk of progression to stage 3 AKI, need for RRT, and mortality, reflecting impaired renal tubular secretory function.",
+    "AKI biomarkers": "Unlike creatinine, which reflects glomerular filtration, newer biomarkers detect tubular stress (TIMP-2 \u00d7 IGFBP7) or tubular damage (NGAL, KIM-1, L-FABP) and inflammation (IL-18, CCL14), often earlier than creatinine rises. Urinary NGAL can be detected as early as 2 hours after injury. TIMP-2 \u00d7 IGFBP7 levels above 0.3 identify high-risk patients and above 2 very-high-risk patients for KDIGO stage 2/3 AKI; a point-of-care device for this combined biomarker was FDA-approved in 2014. Patients with elevated biomarkers but normal creatinine/urine output have \u201csubclinical AKI\u201d and carry increased risk of adverse outcomes compared with biomarker-negative patients.",
+    "Recovery, AKD and CKD": "Recovery of AKI is defined by resolution of both creatinine and urine-output criteria within 7 days of AKI onset; resolution within 48 hours of onset is termed \u201crapid reversal.\u201d If AKI criteria persist at day 7, the condition is termed acute kidney disease (AKD). If AKD is still present at day 90, it is reclassified as chronic kidney disease (CKD)."
+  },
+  "questions": [
+    {
+      "id": "aki1_a01",
+      "_module": "Acute Kidney Injury Part I: Definition and diagnosis",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "KDIGO staging",
+      "question": "A patient's baseline serum creatinine is 70 \u00b5mol/l. On ICU day 2, creatinine has risen to 115 \u00b5mol/l (1.64-fold from baseline), and urine output has been 0.4 ml/kg/h for the preceding 10 hours. What is the correct KDIGO AKI stage?",
+      "options": [
+        "No AKI \u2014 the creatinine rise alone does not meet the threshold",
+        "AKI stage 1",
+        "AKI stage 2",
+        "AKI stage 3",
+        "Cannot stage without a documented cause of the creatinine rise"
+      ],
+      "correct": 1,
+      "explanation": "A creatinine rise of 1.5\u20131.9\u00d7 baseline and urine output <0.5 ml/kg/h for 6\u201312h both correspond to KDIGO stage 1, so the two criteria are concordant here. Stage 2 would require a rise to 2.0\u20132.9\u00d7 baseline or oliguria persisting \u226512 hours, neither of which is yet met."
+    },
+    {
+      "id": "aki1_a02",
+      "_module": "Acute Kidney Injury Part I: Definition and diagnosis",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Limitations of serum creatinine",
+      "question": "A 78-year-old patient with sarcopenia and septic shock has a serum creatinine that rises only marginally over 3 days despite clinical deterioration and a falling estimated GFR. What is the most likely explanation for this discrepancy?",
+      "options": [
+        "Reduced creatinine production due to muscle wasting and sepsis, masking the true severity of renal injury",
+        "Interference from bilirubin with the Jaffe-based creatinine assay",
+        "Dilution of creatinine from aggressive fluid resuscitation",
+        "Extrinsic creatinine administration from concurrent corticosteroid therapy",
+        "Physiologically increased GFR due to hyperfiltration"
+      ],
+      "correct": 0,
+      "explanation": "Critical illness \u2014 especially sepsis combined with reduced muscle mass \u2014 lowers creatinine production, so a given fall in GFR produces a smaller rise in creatinine, a well-recognised cause of delayed or missed AKI diagnosis. Dilutional and analytical effects are real phenomena but are not the best fit for this specific clinical picture of sarcopenia plus sepsis."
+    },
+    {
+      "id": "aki1_a03",
+      "_module": "Acute Kidney Injury Part I: Definition and diagnosis",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "KDIGO staging",
+      "question": "A patient with known CKD has a baseline serum creatinine of 3.9 mg/dl (345 \u00b5mol/l). Over the next 48 hours it rises by 0.3 mg/dl. According to KDIGO, how should this be staged?",
+      "options": [
+        "AKI stage 1",
+        "AKI stage 2",
+        "No AKI, since the relative rise is minimal in a patient with advanced CKD",
+        "Staging cannot be applied because the patient has pre-existing CKD",
+        "AKI stage 3"
+      ],
+      "correct": 4,
+      "explanation": "KDIGO stage 3 includes an absolute serum creatinine \u22654.0 mg/dl (\u2265354 \u00b5mol/l); even a modest 0.3 mg/dl rise crosses this absolute threshold here. The same absolute rise in a patient with normal baseline renal function would only meet stage 1 criteria \u2014 illustrating a key limitation of creatinine-based staging in patients with high baseline creatinine."
+    },
+    {
+      "id": "aki1_a04",
+      "_module": "Acute Kidney Injury Part I: Definition and diagnosis",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Limitations of urinary output",
+      "question": "An obese ICU patient (actual body weight 130 kg, ideal body weight 75 kg) has a measured urine output of 45 ml/hr. Using actual body weight, this equals 0.35 ml/kg/h and would be flagged as oliguric. What does current guidance recommend to avoid overdiagnosis of AKI in this scenario?",
+      "options": [
+        "Use actual body weight, since it reflects true renal perfusion demand",
+        "Use ideal body weight rather than actual weight when calculating urine output in ml/kg/h",
+        "Double the oliguria threshold in obese patients regardless of which weight is used",
+        "Rely exclusively on serum creatinine and disregard urine output entirely",
+        "Apply a fixed absolute urine output threshold of 30 ml/hr for all patients"
+      ],
+      "correct": 1,
+      "explanation": "European Renal Best Practice guidance recommends using ideal rather than actual body weight for weight-based urine output criteria, since actual weight in obesity systematically overdiagnoses AKI. Using 75 kg, the same 45 ml/hr equals ~0.6 ml/kg/h \u2014 above the oliguria threshold, so no AKI would be flagged."
+    },
+    {
+      "id": "aki1_a05",
+      "_module": "Acute Kidney Injury Part I: Definition and diagnosis",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Limitations of urinary output",
+      "question": "A haemodynamically stable, adequately volume-resuscitated patient on postoperative day 1 has urine output of 0.4 ml/kg/h for 7 hours, with ongoing pain and nausea but no other signs of organ dysfunction. What is the most likely explanation?",
+      "options": [
+        "Definite AKI stage 1 requiring immediate nephrology referral",
+        "Obstructive uropathy secondary to postoperative catheter malposition",
+        "Established acute tubular necrosis",
+        "A physiological ADH-mediated response to pain, nausea, and perioperative stress",
+        "Contrast-induced nephropathy from intraoperative imaging"
+      ],
+      "correct": 3,
+      "explanation": "Pain, nausea, and perioperative stress trigger ADH release, producing appropriately concentrated, low-volume urine from functioning kidneys \u2014 a recognised cause of misdiagnosing AKI in otherwise stable patients. Diagnosing structural pathology such as obstruction, ATN, or contrast nephropathy is not supported without additional clinical evidence."
+    },
+    {
+      "id": "aki1_a06",
+      "_module": "Acute Kidney Injury Part I: Definition and diagnosis",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Furosemide stress test",
+      "question": "A patient with AKI stage 2 is given a furosemide stress test (1.0 mg/kg IV, no prior furosemide exposure). Over the following 2 hours, urine output totals 150 ml. How should this result be interpreted?",
+      "options": [
+        "A normal tubular response, effectively excluding progression to stage 3 AKI",
+        "Insufficient information \u2014 the test requires a 1.5 mg/kg dose to be interpretable in this patient",
+        "High risk of progression to stage 3 AKI and need for RRT",
+        "Indicates prerenal azotaemia that will respond to further fluid resuscitation",
+        "The test is invalid because the patient is not euvolaemic"
+      ],
+      "correct": 2,
+      "explanation": "A urine output response of less than 200 ml over 2 hours after a furosemide stress test identifies patients at high risk of progressing to stage 3 AKI and requiring RRT. The 1.0 mg/kg dose used here is correct for a furosemide-naive patient \u2014 the higher 1.5 mg/kg dose only applies if furosemide was given within the preceding 7 days."
+    },
+    {
+      "id": "aki1_a07",
+      "_module": "Acute Kidney Injury Part I: Definition and diagnosis",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "KDIGO staging",
+      "question": "A patient develops severe, refractory hyperkalaemia and is started on RRT, despite serum creatinine and urine output values that would only meet AKI stage 1 criteria. How should this patient's AKI be staged?",
+      "options": [
+        "AKI stage 3, because initiation of RRT automatically assigns stage 3 regardless of creatinine or urine output",
+        "AKI stage 1, based on the creatinine and urine output values",
+        "Staging should be deferred until RRT is discontinued and recovery assessed",
+        "AKI stage 2, as an intermediate category pending further deterioration",
+        "No formal AKI stage applies once RRT has been initiated"
+      ],
+      "correct": 0,
+      "explanation": "Per KDIGO, treatment with RRT automatically assigns AKI stage 3, independent of the creatinine or urine output values at the time treatment begins. This reflects the clinical severity implied by the need for renal support rather than the biochemical trajectory alone."
+    },
+    {
+      "id": "aki1_a08",
+      "_module": "Acute Kidney Injury Part I: Definition and diagnosis",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "AKI biomarkers",
+      "question": "A patient after cardiac surgery has serum creatinine and urine output remaining within normal limits throughout, but urinary NGAL is markedly elevated postoperatively. What does this most likely represent?",
+      "options": [
+        "A false-positive NGAL result, since normal creatinine and urine output exclude renal injury",
+        "Definite KDIGO AKI stage 1, since biomarker elevation alone meets diagnostic criteria",
+        "Contrast-induced pseudo-injury unrelated to true tubular stress",
+        "Subclinical AKI \u2014 biomarker-positive tubular injury without meeting functional (creatinine/urine output) criteria",
+        "A laboratory artefact requiring repeat sampling before any interpretation"
+      ],
+      "correct": 3,
+      "explanation": "Subclinical AKI describes patients who are biomarker-positive (e.g. elevated NGAL) but do not meet creatinine or urine output criteria; this group has increased risk of adverse outcomes compared with biomarker-negative patients. Official KDIGO staging is still based on functional criteria, not biomarkers alone, so this cannot be called stage 1 AKI."
+    },
+    {
+      "id": "aki1_a09",
+      "_module": "Acute Kidney Injury Part I: Definition and diagnosis",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Limitations of serum creatinine",
+      "question": "Which of the following is NOT a recognised pitfall of using serum creatinine alone to diagnose or stage AKI?",
+      "options": [
+        "Drugs such as trimethoprim interfering with tubular creatinine secretion, causing misdiagnosis",
+        "A rise in urinary TIMP-2 \u00d7 IGFBP7 preceding any change in serum creatinine",
+        "Reduced creatinine production in sepsis or muscle wasting, causing delayed or missed diagnosis",
+        "Dilution of creatinine concentration from fluid resuscitation, delaying diagnosis",
+        "Elevated baseline creatinine from underlying CKD, causing overdiagnosis of AKI"
+      ],
+      "correct": 1,
+      "explanation": "TIMP-2 \u00d7 IGFBP7 is a distinct tubular-stress biomarker, not a creatinine-based measure, so its early rise reflects a separate diagnostic pathway rather than a limitation of creatinine itself. The other four options are all documented pitfalls of creatinine-based AKI diagnosis (drug interference, reduced production, dilution, and CKD-related baseline elevation)."
+    },
+    {
+      "id": "aki1_k01",
+      "_module": "Acute Kidney Injury Part I: Definition and diagnosis",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "KDIGO staging",
+      "question": "Regarding the KDIGO diagnostic criteria for AKI:",
+      "statements": [
+        {"label": "A", "text": "A rise in serum creatinine of \u22650.3 mg/dl (\u226526.5 \u00b5mol/l) within 48 hours meets criteria for AKI diagnosis.", "correct": true},
+        {"label": "B", "text": "A rise to \u22651.5-fold from baseline within 14 days meets criteria for AKI diagnosis.", "correct": false},
+        {"label": "C", "text": "Urine output <0.5 ml/kg/h for 4 hours is sufficient to diagnose AKI.", "correct": false},
+        {"label": "D", "text": "If a patient requires RRT, AKI stage 3 is automatically assigned regardless of creatinine or urine output changes.", "correct": true}
+      ],
+      "explanation": "The relative creatinine rise criterion applies within 7 days, not 14, and the oliguria criterion requires a minimum of 6 hours, not 4. RRT initiation does automatically confer AKI stage 3 regardless of the biochemical values at that time."
+    },
+    {
+      "id": "aki1_k02",
+      "_module": "Acute Kidney Injury Part I: Definition and diagnosis",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Limitations of serum creatinine",
+      "question": "Regarding limitations of serum creatinine as an AKI biomarker:",
+      "statements": [
+        {"label": "A", "text": "Serum creatinine concentration typically rises within 2\u20134 hours of a definite renal insult.", "correct": false},
+        {"label": "B", "text": "Serum creatinine is affected by volume status, and dilution from aggressive fluid resuscitation can delay AKI diagnosis.", "correct": true},
+        {"label": "C", "text": "In critically ill patients with sepsis, creatinine production can fall substantially, delaying AKI recognition.", "correct": true},
+        {"label": "D", "text": "Cystatin C is more influenced by muscle mass than creatinine is.", "correct": false}
+      ],
+      "explanation": "Serum creatinine actually takes 24\u201336 hours to rise after a renal insult, not 2\u20134 hours. Cystatin C is, if anything, less influenced by muscle mass than creatinine, making it comparatively more stable across differing body compositions."
+    },
+    {
+      "id": "aki1_k03",
+      "_module": "Acute Kidney Injury Part I: Definition and diagnosis",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Limitations of urinary output",
+      "question": "Regarding limitations of urinary output as an AKI criterion:",
+      "statements": [
+        {"label": "A", "text": "Physiologically concentrated urine can reach osmolalities up to approximately 1400 mOsm/L in response to ADH.", "correct": true},
+        {"label": "B", "text": "In obese patients, urine output should be calculated using actual body weight to avoid missing true AKI.", "correct": false},
+        {"label": "C", "text": "The KDIGO 6-hour oliguria threshold is universally regarded as highly specific for AKI, without controversy.", "correct": false},
+        {"label": "D", "text": "Postoperative pain, nausea, and hypovolaemia can trigger ADH-mediated oliguria without underlying renal injury.", "correct": true}
+      ],
+      "explanation": "Using actual rather than ideal body weight in obese patients overdiagnoses AKI, not underdiagnoses it \u2014 guidance recommends ideal body weight. The 6-hour oliguria threshold is in fact debated, with some experts favouring a longer minimum duration or a lower ml/kg/h threshold for better specificity."
+    },
+    {
+      "id": "aki1_k04",
+      "_module": "Acute Kidney Injury Part I: Definition and diagnosis",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "AKI biomarkers",
+      "question": "Regarding AKI biomarkers:",
+      "statements": [
+        {"label": "A", "text": "Urinary NGAL can be detected within 15 minutes of ischaemic or nephrotoxic kidney injury.", "correct": false},
+        {"label": "B", "text": "TIMP-2 \u00d7 IGFBP7 levels above 0.3 identify patients at high risk of AKI, and levels above 2 indicate very high risk.", "correct": true},
+        {"label": "C", "text": "KIM-1 is normally present at high levels in healthy kidney tissue and urine, and decreases after tubular injury.", "correct": false},
+        {"label": "D", "text": "A point-of-care device measuring TIMP-2 \u00d7 IGFBP7 was approved by the FDA in 2014.", "correct": true}
+      ],
+      "explanation": "NGAL is detectable as early as 2 hours after injury, not 15 minutes. KIM-1 is essentially undetectable in normal kidney tissue and urine and shows marked upregulation only after ischaemic or nephrotoxic injury \u2014 the opposite of what statement C describes."
+    },
+    {
+      "id": "aki1_k05",
+      "_module": "Acute Kidney Injury Part I: Definition and diagnosis",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Recovery, AKD and CKD",
+      "question": "Regarding recovery, acute kidney disease (AKD), and chronic kidney disease (CKD):",
+      "statements": [
+        {"label": "A", "text": "Recovery of AKI is defined by the absence of creatinine and urine-output criteria within 7 days after AKI onset.", "correct": true},
+        {"label": "B", "text": "Recovery occurring within 24 hours of onset is termed \"rapid reversal.\"", "correct": false},
+        {"label": "C", "text": "If AKI criteria persist at day 7, the condition is termed acute kidney disease (AKD).", "correct": true},
+        {"label": "D", "text": "AKD still present at day 90 is reclassified as subclinical AKI rather than CKD.", "correct": false}
+      ],
+      "explanation": "Rapid reversal refers to recovery within 48 hours of onset, not 24 hours. AKD persisting to day 90 is reclassified as chronic kidney disease (CKD) \u2014 \u201csubclinical AKI\u201d is an unrelated concept describing biomarker-positive, functional-criteria-negative injury."
+    }
+  ]
+}

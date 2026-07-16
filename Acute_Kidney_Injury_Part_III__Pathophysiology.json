@@ -1,0 +1,255 @@
+{
+  "module": "Acute Kidney Injury Part III: Pathophysiology",
+  "sections": {
+    "Aetiology of AKI in the ICU": "AKI in the ICU typically arises from combinations of baseline risk factors (age, CKD, diabetes, male gender), acute precipitating conditions (sepsis, hypotension/shock, rhabdomyolysis, cardiovascular/abdominal surgery, abdominal compartment syndrome, mechanical ventilation), and nephrotoxic exposures (contrast, antimicrobials, chemotherapy, myoglobin/free haem) \u2014 a burden-of-exposure model rather than one discrete cause. In the international BEST Kidney study, septic shock was the leading identified aetiology for RRT-requiring AKI, present in close to half of cases. AKI incidence varies markedly by surgical setting: ~18% after cardiac surgery, ~13% after major abdominal surgery, but \u226550% after liver transplantation or emergency aortic surgery.",
+    "Glomerular haemodynamics and autoregulation": "GFR depends on glomerular capillary pressure, set by the balance of afferent and efferent arteriolar resistance and systemic perfusion pressure. Afferent vasoconstriction reduces RBF and glomerular pressure in parallel, sharply lowering GFR; efferent vasoconstriction raises glomerular pressure (and GFR) at the cost of RBF, an effect limited by falling renal plasma flow; efferent vasodilation (as in hyperdynamic sepsis) produces high RBF with low glomerular pressure and low GFR. In established AKI, pathological tubulo-glomerular feedback (triggered by increased distal chloride delivery to the macula densa) causes afferent vasoconstriction, while tubular obstruction, back-leak, and interstitial oedema raise tubular/capsular pressure \u2014 together sustaining low GFR even after systemic haemodynamics normalise.",
+    "Pathophysiology of AKI in sepsis": "Sepsis is typically hyperdynamic, with increased cardiac output, systemic vasodilation, and heterogeneous microcirculatory flow. Renal blood flow is often preserved or increased, yet GFR falls \u2014 a dissociation explained by efferent arteriolar vasodilation and altered afferent-efferent balance. In experimental models, renal vasoconstriction develops hours into sepsis, preceded by rises in pro-inflammatory cytokines (IL-6, TNF), suggesting inflammation drives vasoconstriction rather than the reverse. Toll-like receptors on tubular and endothelial cells recognise DAMPs and PAMPs, triggering local inflammation, redistribution of flow away from the medulla (worsening medullary hypoxaemia), and tubular cell stress responses (autophagy, mitochondrial dysfunction, loss of polarity).",
+    "Pathology of AKI in the ICU": "Renal biopsy is rarely performed in critically ill patients with AKI, so human histopathological data are scarce. The distal proximal tubule and thick ascending limb, at the cortico-medullary junction, are the most metabolically active and least well-oxygenated nephron segments (due to the vasa recta countercurrent arrangement), making them most vulnerable to ischaemic injury. Unlike classical ischaemia-reperfusion models with extensive tubular necrosis, postmortem septic AKI shows heterogeneous tubular cell injury \u2014 de-differentiation, loss of cell-cell junctions, loss of polarity, cytoskeletal shedding, and apoptosis \u2014 combined with endothelial activation and inflammatory infiltrate.",
+    "Pathophysiology of AKI in nephrotoxin exposure": "The kidney receives a disproportionately large 20\u201325% of resting cardiac output, and tubular cells concentrate filtered toxins via specific transporters, making them especially vulnerable to toxic injury. Nephrotoxins can cause AKI via haemodynamic alteration, direct tubular toxicity, tubular obstruction from precipitation, interstitial inflammation, or vascular injury/thrombotic microangiopathy. Endogenous nephrotoxins (myoglobin, free haemoglobin/haem) act through mechanisms similar to exogenous toxins.",
+    "Contrast-associated AKI": "The causal link between contemporary (iso-/low-osmolar) contrast media and AKI has been increasingly questioned by propensity-score-matched studies, including in ICU and CKD populations; terminology has shifted to contrast-associated (CA-AKI) or post-contrast AKI (PC-AKI). True contrast-induced injury is now considered rare and mainly confined to patients with multiple risk factors \u2014 chiefly eGFR <30 ml/min/1.73m2, diabetes, dehydration, and low cardiac output. Necessary imaging should not be delayed for fear of CA-AKI; dehydration/hypovolaemia should be corrected where possible, and individualised periprocedural isotonic crystalloid hydration considered in high-risk patients (KDIGO suggests ~1 ml/kg/h for 12h before and after)."
+  },
+  "questions": [
+    {
+      "id": "aki3_a01",
+      "_module": "Acute Kidney Injury Part III: Pathophysiology",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Pathophysiology of AKI in sepsis",
+      "question": "A patient with septic shock has an elevated cardiac output and a mean arterial pressure of 58 mmHg despite vasopressor support. Renal blood flow is measured as elevated, yet GFR is markedly reduced and the patient remains oliguric. Which underlying renal haemodynamic mechanism best explains this dissociation between RBF and GFR?",
+      "options": [
+        "Afferent arteriolar vasoconstriction reducing glomerular capillary pressure despite preserved RBF",
+        "Efferent arteriolar vasodilation producing a high-flow, low-pressure renal circulation",
+        "Combined afferent and efferent vasoconstriction proportionally reducing both RBF and GFR",
+        "Complete renal artery occlusion with collateral flow maintaining RBF",
+        "Primary glomerular basement membrane thickening reducing filtration surface area"
+      ],
+      "correct": 1,
+      "explanation": "In hyperdynamic septic shock, efferent arteriolar vasodilation combined with systemic vasodilation produces a high-flow, low-pressure renal circulation in which RBF is preserved or increased while glomerular capillary pressure \u2014 and therefore GFR \u2014 falls, uncoupling the two variables. Afferent vasoconstriction (option A) would reduce RBF in parallel with GFR, which does not match the preserved RBF described here."
+    },
+    {
+      "id": "aki3_a02",
+      "_module": "Acute Kidney Injury Part III: Pathophysiology",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Glomerular haemodynamics and autoregulation",
+      "question": "A patient with established oliguric AKI has had cardiac output and blood pressure fully corrected for 48 hours, yet urine output and GFR remain markedly reduced. The clinical picture is consistent with elevated tubular and interstitial pressure. What is the most likely explanation for persistently low GFR despite normalised systemic haemodynamics?",
+      "options": [
+        "Pathological activation of tubulo-glomerular feedback causing afferent vasoconstriction, combined with elevated interstitial pressure from tubular obstruction and back-leak",
+        "Ongoing efferent arteriolar vasodilation identical to the hyperdynamic state that initially triggered AKI",
+        "Permanent destruction of Bowman's capsule preventing any filtrate collection",
+        "Reflex systemic hypertension overwhelming renal autoregulation",
+        "Compensatory afferent vasodilation increasing glomerular capillary pressure beyond normal"
+      ],
+      "correct": 0,
+      "explanation": "In established AKI, tubular dysfunction increases distal chloride delivery to the macula densa, triggering pathological tubulo-glomerular feedback and afferent vasoconstriction; this combines with raised tubular/interstitial pressure from obstruction, back-leak, and oedema to sustain low GFR independent of systemic haemodynamics. This structural/functional state, not ongoing systemic hypoperfusion, explains why correcting blood pressure and cardiac output alone is often insufficient once AKI is established."
+    },
+    {
+      "id": "aki3_a03",
+      "_module": "Acute Kidney Injury Part III: Pathophysiology",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Glomerular haemodynamics and autoregulation",
+      "question": "A volume-depleted patient with bilateral renal artery stenosis is started on an ACE inhibitor for blood pressure control. Shortly afterward, serum creatinine rises sharply. Which mechanism best explains this deterioration in renal function?",
+      "options": [
+        "Direct tubular toxicity from the ACE inhibitor causing acute tubular necrosis",
+        "Afferent arteriolar vasoconstriction triggered by increased angiotensin II levels",
+        "Immune-mediated interstitial nephritis triggered by the ACE inhibitor",
+        "Loss of efferent arteriolar vasoconstriction (angiotensin II-dependent), reducing glomerular capillary pressure and GFR",
+        "Acute thrombotic microangiopathy secondary to endothelial injury"
+      ],
+      "correct": 3,
+      "explanation": "In volume depletion or renal artery stenosis, GFR becomes critically dependent on angiotensin II-mediated efferent arteriolar constriction to maintain glomerular capillary pressure; ACE inhibition removes this compensatory efferent tone, so glomerular pressure and GFR fall sharply, even without any direct nephrotoxic tubular injury. This is a haemodynamically mediated, typically reversible effect rather than structural damage."
+    },
+    {
+      "id": "aki3_a04",
+      "_module": "Acute Kidney Injury Part III: Pathophysiology",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Pathology of AKI in the ICU",
+      "question": "Which nephron segment is most vulnerable to ischaemic tubular injury during severe renal hypoperfusion, and why?",
+      "options": [
+        "The glomerulus itself, because it has the highest oxygen demand of any renal structure",
+        "The collecting duct, because it lies in the most poorly vascularised area of the kidney",
+        "Bowman's capsule, due to its thin single-cell-layer structure",
+        "The renal pelvis epithelium, due to direct exposure to concentrated urine",
+        "The distal proximal tubule and thick ascending limb, due to high metabolic activity in a region with the least favourable oxygen supply-demand balance"
+      ],
+      "correct": 4,
+      "explanation": "The distal proximal tubule and thick ascending limb, located at the cortico-medullary junction, are highly metabolically active (active sodium reabsorption) in a region where the countercurrent vasa recta arrangement produces a progressive fall in oxygen tension from cortex to medulla, creating the least favourable oxygen supply-demand balance in the kidney. This combination makes these segments the most susceptible to ischaemic tubular injury."
+    },
+    {
+      "id": "aki3_a05",
+      "_module": "Acute Kidney Injury Part III: Pathophysiology",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Aetiology of AKI in the ICU",
+      "question": "In the international BEST Kidney study of ICU patients with AKI severe enough to require renal replacement therapy, which single aetiology was identified most frequently?",
+      "options": [
+        "Cardiogenic shock",
+        "Hypovolaemia",
+        "Drug-related nephrotoxicity",
+        "Major surgery",
+        "Septic shock"
+      ],
+      "correct": 4,
+      "explanation": "Septic shock was the leading identified aetiology for RRT-requiring AKI in the BEST Kidney study, present in close to half of cases, ahead of major surgery, cardiogenic shock, hypovolaemia, and drug-related causes. Sepsis remains consistently identified as the leading cause of AKI in ICU populations more broadly."
+    },
+    {
+      "id": "aki3_a06",
+      "_module": "Acute Kidney Injury Part III: Pathophysiology",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Aetiology of AKI in the ICU",
+      "question": "A patient is scheduled for emergency aortic aneurysm repair. The surgical team counsels the patient on postoperative renal risk. Compared with elective major abdominal surgery (~13% AKI incidence) and cardiac surgery (~18% AKI incidence), what postoperative AKI incidence would be most appropriate to quote for emergency aortic surgery or liver transplantation?",
+      "options": [
+        "Similar, at approximately 15%",
+        "Lower, at approximately 5%, due to careful perioperative monitoring",
+        "Approximately 25%, roughly double the abdominal surgery rate",
+        "\u226550%",
+        "Essentially 0%, as these are highly specialised centres"
+      ],
+      "correct": 3,
+      "explanation": "AKI incidence is disproportionately high \u2014 at least 50% \u2014 after procedures such as liver transplantation or emergency aortic surgery, substantially exceeding rates after elective cardiac (~18%) or major abdominal (~13%) surgery. This reflects the combination of haemodynamic instability, ischaemia-reperfusion injury, and inflammatory activation particular to these high-risk procedures."
+    },
+    {
+      "id": "aki3_a07",
+      "_module": "Acute Kidney Injury Part III: Pathophysiology",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Contrast-associated AKI",
+      "question": "A patient with an eGFR of 25 ml/min/1.73m2 and type 2 diabetes requires an urgent contrast-enhanced CT to assess for an intra-abdominal source of sepsis. Following current guidance, what is the most appropriate management strategy regarding contrast administration?",
+      "options": [
+        "Cancel the contrast-enhanced study, as the eGFR is below an absolute safety threshold",
+        "Correct dehydration/hypovolaemia where possible, proceed with the clinically indicated scan, and consider individualised periprocedural isotonic crystalloid hydration",
+        "Delay the scan by 48 hours to allow renal function to improve spontaneously",
+        "Proceed with contrast without any precautions, since diabetes and low eGFR are not established risk factors for contrast-associated AKI",
+        "Substitute gadolinium-based contrast to eliminate all nephrotoxic risk"
+      ],
+      "correct": 1,
+      "explanation": "This patient has multiple recognised risk factors for contrast-associated AKI (eGFR <30, diabetes), but fear of contrast nephropathy should not delay an urgent, clinically indicated scan; current guidance recommends correcting dehydration and considering individualised periprocedural isotonic crystalloid hydration in high-risk patients rather than withholding necessary imaging. Substituting gadolinium in this context is not an appropriate nephroprotective strategy and carries its own risks."
+    },
+    {
+      "id": "aki3_a08",
+      "_module": "Acute Kidney Injury Part III: Pathophysiology",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Pathology of AKI in the ICU",
+      "question": "Postmortem renal histology from a patient who died of septic shock with severe AKI shows heterogeneous tubular cell injury with de-differentiation, loss of cell-cell junctions, and apoptosis, but notably lacks the extensive tubular necrosis seen in severe ischaemic injury models. What does this finding suggest about the pathology of septic AKI?",
+      "options": [
+        "Septic AKI predominantly involves sublethal tubular cell dysfunction and stress rather than widespread frank necrosis, unlike classical ischaemia-reperfusion models",
+        "Septic AKI is not a true form of tubular injury and is purely a haemodynamic/functional phenomenon",
+        "The histological findings indicate a laboratory processing artefact and should be disregarded",
+        "This pattern is unique to septic AKI and has never been reported in other causes of critical illness-associated AKI",
+        "The absence of necrosis confirms that renal recovery will necessarily be rapid and complete"
+      ],
+      "correct": 0,
+      "explanation": "Human postmortem data show that septic AKI is characterised more by heterogeneous, sublethal tubular cell injury and dysfunction (de-differentiation, loss of junctions, apoptosis) than by the extensive frank tubular necrosis seen in animal ischaemia-reperfusion models, suggesting the pathophysiology differs meaningfully from the classical ischaemic paradigm. This does not mean septic AKI is purely functional \u2014 genuine cellular injury is present \u2014 nor does it guarantee a particular recovery trajectory."
+    },
+    {
+      "id": "aki3_a09",
+      "_module": "Acute Kidney Injury Part III: Pathophysiology",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Aetiology of AKI in the ICU",
+      "question": "According to the classification of typical aetiological factors in ICU AKI (baseline risks, acute conditions, and nephrotoxic exposures), which of the following is NOT listed as an acute condition precipitating AKI?",
+      "options": [
+        "Rhabdomyolysis",
+        "Abdominal compartment syndrome",
+        "Chronic kidney disease",
+        "Cardiovascular surgery",
+        "Mechanical ventilation"
+      ],
+      "correct": 2,
+      "explanation": "Chronic kidney disease is classified as a baseline risk factor for AKI, not an acute precipitating condition; rhabdomyolysis, abdominal compartment syndrome, cardiovascular surgery, and mechanical ventilation are all listed among the acute conditions that can precipitate AKI in the ICU."
+    },
+    {
+      "id": "aki3_k01",
+      "_module": "Acute Kidney Injury Part III: Pathophysiology",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Glomerular haemodynamics and autoregulation",
+      "question": "Regarding glomerular haemodynamics and autoregulation:",
+      "statements": [
+        {"label": "A", "text": "Afferent arteriolar vasoconstriction reduces both renal blood flow and glomerular capillary pressure in parallel, causing a marked fall in GFR.", "correct": true},
+        {"label": "B", "text": "Efferent arteriolar constriction increases glomerular capillary pressure and GFR indefinitely, regardless of the degree of reduction in renal plasma flow.", "correct": false},
+        {"label": "C", "text": "Myogenic reflex vasodilation of the afferent arteriole combined with efferent vasoconstriction helps maintain GFR and RBF during systemic hypotension, until a critical perfusion pressure is reached.", "correct": true},
+        {"label": "D", "text": "Renal autoregulation is unaffected by chronic disease or drug effects, and GFR always falls at the same rate for a given reduction in renal perfusion.", "correct": false}
+      ],
+      "explanation": "Efferent constriction increases glomerular pressure and GFR only up to a point \u2014 the rise is ultimately limited by the accompanying reduction in renal plasma flow and increasing haemoconcentration, not indefinite. Renal autoregulation can indeed be impaired by acute or chronic disease and by drug effects, which alters how rapidly GFR falls for a given reduction in perfusion pressure."
+    },
+    {
+      "id": "aki3_k02",
+      "_module": "Acute Kidney Injury Part III: Pathophysiology",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Pathophysiology of AKI in sepsis",
+      "question": "Regarding the pathophysiology of AKI in sepsis:",
+      "statements": [
+        {"label": "A", "text": "In early sepsis, cardiac output and renal blood flow are typically increased, yet GFR can still fall and AKI can develop within hours.", "correct": true},
+        {"label": "B", "text": "The renal vasoconstriction observed in an experimental porcine sepsis model has been shown to precede and cause the systemic inflammatory cytokine rise, rather than follow it.", "correct": false},
+        {"label": "C", "text": "Toll-like receptors on tubular and endothelial cells are activated only by pathogen-associated molecular patterns (PAMPs), not by endogenous damage-associated molecular patterns (DAMPs).", "correct": false},
+        {"label": "D", "text": "Septic AKI is associated with redistribution of renal blood flow away from the medulla toward the cortex, worsening medullary hypoxaemia.", "correct": true}
+      ],
+      "explanation": "In the cited porcine sepsis model, the rise in pro-inflammatory cytokines preceded the later increase in renal vascular resistance, suggesting inflammation triggers renal vasoconstriction rather than the reverse. The relevant Toll-like receptors recognise both pathogen-associated molecular patterns (PAMPs) and endogenous damage-associated molecular patterns (DAMPs), not PAMPs alone."
+    },
+    {
+      "id": "aki3_k03",
+      "_module": "Acute Kidney Injury Part III: Pathophysiology",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Pathology of AKI in the ICU",
+      "question": "Regarding the pathology of AKI in the ICU:",
+      "statements": [
+        {"label": "A", "text": "Renal biopsy is commonly performed in critically ill patients with AKI, providing abundant human histopathological data.", "correct": false},
+        {"label": "B", "text": "Postmortem studies of septic AKI show extensive tubular necrosis identical to that seen in classical ischaemia-reperfusion animal models.", "correct": false},
+        {"label": "C", "text": "Tubular cell injury in AKI is associated with cell cycle arrest, loss of cell polarity, and shedding of cytoskeletal debris into the tubular lumen.", "correct": true},
+        {"label": "D", "text": "The pathology of most severe AKI in the ICU reflects a combination of tubular cell injury/dysfunction, endothelial activation, and local inflammatory infiltrate.", "correct": true}
+      ],
+      "explanation": "Renal biopsy is rarely performed in critically ill patients with AKI, leaving a scarcity of human histopathological data \u2014 most mechanistic understanding comes from animal models. Postmortem septic AKI specifically lacks the extensive tubular necrosis characteristic of severe ischaemic injury, instead showing heterogeneous tubular cellular injury."
+    },
+    {
+      "id": "aki3_k04",
+      "_module": "Acute Kidney Injury Part III: Pathophysiology",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Pathophysiology of AKI in nephrotoxin exposure",
+      "question": "Regarding nephrotoxin-induced AKI:",
+      "statements": [
+        {"label": "A", "text": "The kidney receives a disproportionately small fraction (around 2\u20135%) of resting cardiac output, limiting its exposure to circulating nephrotoxins.", "correct": false},
+        {"label": "B", "text": "Tubular epithelial cells are especially prone to toxic injury because they concentrate filtered toxins and express transporters that increase intracellular toxin uptake.", "correct": true},
+        {"label": "C", "text": "Nephrotoxin-mediated injury can occur through renal haemodynamic alteration, direct tubular toxicity, tubular obstruction from precipitation, interstitial inflammation, or vascular injury with thrombotic microangiopathy.", "correct": true},
+        {"label": "D", "text": "Endogenous substances such as myoglobin and free haemoglobin cannot act as nephrotoxins; only exogenous drugs and contrast agents can cause nephrotoxic AKI.", "correct": false}
+      ],
+      "explanation": "The kidney actually receives a disproportionately large share of resting cardiac output (20\u201325%), which increases rather than limits its exposure to circulating toxins. Endogenous substances such as myoglobin and free haemoglobin can act as nephrotoxins through mechanisms similar to exogenous toxins, not only exogenous drugs and contrast agents."
+    },
+    {
+      "id": "aki3_k05",
+      "_module": "Acute Kidney Injury Part III: Pathophysiology",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Contrast-associated AKI",
+      "question": "Regarding contrast-associated AKI:",
+      "statements": [
+        {"label": "A", "text": "Recent propensity-score-matched studies have strengthened the causal link between iso-/low-osmolar contrast media and AKI.", "correct": false},
+        {"label": "B", "text": "The terminology has shifted toward \"contrast-associated AKI\" (CA-AKI) partly because many at-risk patients have multiple other AKI risk factors unrelated to the contrast itself.", "correct": true},
+        {"label": "C", "text": "The most important risk factor for contrast-associated AKI in ICU patients and those with CKD has been shown to be young age.", "correct": false},
+        {"label": "D", "text": "Fear of contrast nephropathy should never be the sole reason to postpone an important or urgently needed imaging study.", "correct": true}
+      ],
+      "explanation": "Recent propensity-score-matched studies have actually questioned, not strengthened, the causal link between contemporary contrast media and AKI. The most important risk factor for contrast-associated AKI is reduced eGFR/pre-existing CKD (along with diabetes, dehydration, and low cardiac output), not young age."
+    }
+  ]
+}
