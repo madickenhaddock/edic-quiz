@@ -142,7 +142,7 @@
         "E: Rising time has no effect on the inspiratory flow shape or the size of a leak"
       ],
       "correct": 1,
-      "explanation": "A short rising time gives a rapid pressure rise and a sharp inspiratory flow peak, matching high demand; a longer rising time gives a gradual rise and lower peak flow, which reduces an uncorrectable leak. Setting both the same (B, C) fails one patient, D denies the effect, and E reverses the correct pairing.",
+      "explanation": "A short rising time gives a rapid pressure rise and a sharp inspiratory flow peak, matching high demand; a longer rising time gives a gradual rise and lower peak flow, which reduces an uncorrectable leak — pairing a short rising time with the high-demand patient and a longer one with the leak patient. Using the same rising time for both patients, whether long or short, fails one of the two needs; assuming a long rising time helps the high-demand patient while a short one helps the leak patient reverses the correct pairing, and rising time is not without effect on inspiratory flow shape or leak size.",
       "section": "Pressure Support",
       "topic": "rising time pressurisation rate high demand leak inspiratory flow shape",
       "image": "images/img_6c33b23acc.jpg",
@@ -576,7 +576,7 @@
           "correct": true
         }
       ],
-      "explanation": "A, C and D are correct. B is false - in volume support the delivered volume is held CONSTANT regardless of effort; it is the level of assist (pressure) that falls as effort rises.",
+      "explanation": "In pressure support, the level of assist is held constant regardless of the patient's effort, and the delivered tidal volume instead depends on the patient's own respiratory mechanics rather than on the preset pressure alone; in proportional modes such as PAV and NAVA, both the level of assist and the delivered tidal volume rise as effort increases. The claim that in volume support the delivered tidal volume increases as effort increases is false — in volume support the delivered volume is held constant regardless of effort; it is the level of assist (pressure) that falls as effort rises.",
       "section": "Assisted modes of ventilation",
       "topic": "pressure support volume support proportional modes comparison assist level tidal volume",
       "image": null,
@@ -610,7 +610,7 @@
           "correct": false
         }
       ],
-      "explanation": "A and B are correct. C is false - auto-triggering occurs in the ABSENCE of patient effort, with no rise in diaphragmatic activity. D is false - ineffective efforts and auto-triggering call for opposite threshold changes, so one adjustment cannot fix both.",
+      "explanation": "A high triggering threshold and intrinsic PEEP are both recognised causes of triggering delay and ineffective efforts, and circuit leaks together with water in the circuit are recognised causes of auto-triggering. The claim that auto-triggering is characterised by ventilator triggering that follows a clear rise in diaphragmatic activity is false — auto-triggering occurs in the absence of patient effort, with no rise in diaphragmatic activity. The claim that a single change in triggering threshold sensitivity can reduce both ineffective efforts and auto-triggering at the same time is also false — ineffective efforts and auto-triggering call for opposite threshold changes, so one adjustment cannot fix both.",
       "section": "Pressure Support",
       "topic": "triggering dyssynchrony causes ineffective effort auto-triggering threshold",
       "image": null,
@@ -644,7 +644,7 @@
           "correct": false
         }
       ],
-      "explanation": "A, B and C are correct. D is false and reversed - delayed cycling-off (from excessive support and low drive) is managed by DECREASING support and raising the cycling-off flow threshold, not by increasing support, which would worsen it.",
+      "explanation": "A long time constant, high assist level, and dynamic hyperinflation causing delayed opening of the exhalation valve; a short time constant and a relatively high cycling-off flow threshold causing premature termination of inspiration; and raising the pressure support level while lowering the cycling-off flow threshold as reasonable ways to address premature cycling-off, are all accurately described. The claim that delayed cycling-off is typically managed by increasing the level of pressure support is false and reversed — delayed cycling-off (from excessive support and low drive) is managed by decreasing support and raising the cycling-off flow threshold, not by increasing support, which would worsen it.",
       "section": "Pressure Support",
       "topic": "cycling off dyssynchrony delayed premature time constant intervention",
       "image": null,
@@ -678,7 +678,7 @@
           "correct": false
         }
       ],
-      "explanation": "A, B and C correctly describe recognised consequences. D is false and reversed - over-assist driving PaCO2 below the apnoeic threshold is a recognised mechanism promoting apnoeas and periodic breathing, not something unrelated.",
+      "explanation": "Under-assist typically causing compensatory increases in respiratory rate and muscle pressure, and if insufficient, distress or hypercapnia; over-assist causing complete muscle relaxation after triggering, linked to diaphragmatic disuse atrophy; and, in obstructive disease, over-assist producing high tidal volumes promoting dynamic hyperinflation and ineffective efforts, are all recognised consequences. The claim that over-assist lowering PaCO2 below the apnoeic threshold has no bearing on the development of apnoeas is false and reversed — this is in fact a recognised mechanism promoting apnoeas and periodic breathing, not something unrelated.",
       "section": "Pressure Support",
       "topic": "under-assist over-assist consequences diaphragm atrophy dynamic hyperinflation apnoea periodic breathing",
       "image": null,
@@ -712,7 +712,7 @@
           "correct": false
         }
       ],
-      "explanation": "A and B are correct. C is false - the technique assumes a small difference between inspiratory and expiratory resistance, so it becomes inaccurate when this difference is large (as in obstruction). D is false - the tube's resistance is derived from constants based on tube length and diameter, not from diaphragmatic activity.",
+      "explanation": "Resistance is measured during the expiration following the end-inspiratory pause, using the expiratory flow-time relationship, and the total measured resistance includes both the endotracheal tube and the respiratory system. The claim that the automated resistance measurement is equally accurate however different the inspiratory and expiratory resistances are is false — the technique assumes a small difference between inspiratory and expiratory resistance, so it becomes inaccurate when this difference is large, as in obstruction. The claim that the tube's resistance is derived from the diaphragm's electrical activity rather than from the tube's dimensions is also false — the tube's resistance is derived from constants based on tube length and diameter, not from diaphragmatic activity.",
       "section": "Proportional Assist Ventilation (PAV+)",
       "topic": "PAV+ resistance measurement RTOT Rtube expiratory flow inspiratory expiratory resistance difference",
       "image": null,
@@ -746,7 +746,7 @@
           "correct": true
         }
       ],
-      "explanation": "A, B and D are correct. C is false - severe neuromuscular disease is a condition in which PAV+ 'might be problematic' (impaired muscle output undermines the mode's assumptions), not one of particular benefit.",
+      "explanation": "Considerable patient-ventilator asynchrony being a condition in which PAV+ is particularly beneficial, deep sedation with central apnoeas being a contraindication, and a large bronchopleural fistula also being a contraindication, are all accurately described. The claim that severe neuromuscular disease is a condition in which PAV+ is particularly beneficial and free of special concern is false — severe neuromuscular disease is instead a condition in which PAV+ might be problematic, since impaired muscle output undermines the mode's underlying assumptions.",
       "section": "Proportional Assist Ventilation (PAV+)",
       "topic": "PAV+ applicability beneficial problematic contraindicated neuromuscular disease bronchopleural fistula",
       "image": null,
@@ -780,7 +780,7 @@
           "correct": false
         }
       ],
-      "explanation": "A, B and C are correct. D is false and reversed - because the EAdi signal reflects diaphragm electrical activity, conditions affecting the phrenic nerves or diaphragm (including certain drugs) directly compromise the signal and are a contraindication.",
+      "explanation": "NAVA being able to replace conventional assisted modes in most critically ill patients, any condition precluding nasogastric catheter insertion being a contraindication, and suppressed respiratory drive (as with brain injury or certain drugs) being a contraindication, are all accurately described. The claim that conditions affecting the phrenic nerves or diaphragm do not affect NAVA, since the EAdi signal is independent of them, is false and reversed — because the EAdi signal reflects diaphragm electrical activity, conditions affecting the phrenic nerves or diaphragm (including certain drugs) directly compromise the signal and are a contraindication.",
       "section": "Neurally Adjusted Ventilatory Assist (NAVA)",
       "topic": "NAVA indications contraindications nasogastric catheter respiratory drive phrenic nerve diaphragm",
       "image": null,
@@ -814,7 +814,7 @@
           "correct": false
         }
       ],
-      "explanation": "A and B are correct. C is false - NAVA needs a dedicated catheter and is available on only one ventilator platform, not universally. D is false - the default EAdi trigger threshold is set slightly ABOVE the minimum EAdi (about 0.5 microvolts above it), not below.",
+      "explanation": "A biphasic shape in the EAdi signal being associated with double triggering during NAVA, and titrating the NAVA level to the point where further increases produce little additional airway pressure or tidal volume, are both accurately described. The claim that NAVA function can be used with any commercially available ventilator, being a universal mode, is false — NAVA needs a dedicated catheter and is available on only one ventilator platform, not universally. The claim that the default EAdi trigger threshold is set well below the minimum recorded EAdi value is also false — the default threshold is set slightly above the minimum EAdi (about 0.5 microvolts above it), not below.",
       "section": "Neurally Adjusted Ventilatory Assist (NAVA)",
       "topic": "NAVA limitations biphasic double triggering EAdi threshold titration single ventilator",
       "image": null,

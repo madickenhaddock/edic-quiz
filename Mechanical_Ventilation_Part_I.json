@@ -43,7 +43,7 @@
         "E: Provide high-flow nasal oxygen and reassess the GCS hourly"
       ],
       "correct": 1,
-      "explanation": "A GCS below 9 in a trauma patient is an indication for intubation to protect the airway; once intubated, mechanical ventilation is provided, since a deeply obtunded patient will not reliably ventilate spontaneously through a cuffed tube. Intubating 'for protection only' (C) overlooks this, and options A, D and E leave an unprotected airway in a patient who cannot guard it.",
+      "explanation": "A GCS below 9 in a trauma patient is an indication for intubation to protect the airway; once intubated, mechanical ventilation is provided, since a deeply obtunded patient will not reliably ventilate spontaneously through a cuffed tube. Intubating for airway protection only, without providing ventilation, overlooks this need, and continued observation, non-invasive ventilation, or high-flow oxygen all leave an unprotected airway in a patient who cannot guard it himself.",
       "section": "Indications for mechanical ventilation",
       "topic": "GCS trauma intubation indication airway protection ventilation obtunded",
       "image": null,
@@ -63,7 +63,7 @@
         "E: Tremor and tachypnoea attributable to beta-agonist therapy rather than distress"
       ],
       "correct": 1,
-      "explanation": "Nasal flaring, tracheal tug and (particularly) paradoxical abdominal movement indicate a failing respiratory pump with impending muscle fatigue; their appearance alongside a rising respiratory rate despite treatment signals the need to reassess for ventilatory support. Accessory-muscle use is a sign of distress rather than benign compensation (A), and the other options attribute objective failure signs to less threatening causes.",
+      "explanation": "Nasal flaring, tracheal tug and (particularly) paradoxical abdominal movement indicate a failing respiratory pump with impending muscle fatigue; their appearance alongside a rising respiratory rate despite treatment signals the need to reassess for ventilatory support. Framing this accessory-muscle use as effective, benign compensation that can continue without escalation misreads a sign of distress as reassuring, and the remaining options attribute these objective failure signs to less threatening causes such as psychogenic hyperventilation, pneumothorax, or a drug effect.",
       "section": "Indications for mechanical ventilation",
       "topic": "signs increased work of breathing tracheal tug paradoxical abdominal fatigue asthma escalation",
       "image": null,
@@ -83,7 +83,7 @@
         "E: It reduces myocardial oxygen demand mainly by directly slowing the heart rate"
       ],
       "correct": 0,
-      "explanation": "Hard-working respiratory muscles can consume a disproportionate fraction of cardiac output in shock; taking over ventilation reduces this demand and can free perfusion for other organs. Positive-pressure ventilation tends to reduce rather than augment venous return (B), does not primarily act by lowering vascular resistance (C), and the dissolved-oxygen term (D) is a negligible contributor to oxygen delivery.",
+      "explanation": "Hard-working respiratory muscles can consume a disproportionate fraction of cardiac output in shock; taking over ventilation reduces this demand and can free perfusion for other organs. Positive-pressure ventilation tends to reduce rather than augment venous return, so it does not raise cardiac output by this route; it does not primarily act by lowering systemic vascular resistance either, and the dissolved-oxygen contribution to oxygen delivery is negligible, so raising it is not the mechanism at play here.",
       "section": "Indications for mechanical ventilation",
       "topic": "mechanical ventilation shock cardiac output respiratory muscle demand redistribution",
       "image": null,
@@ -103,7 +103,7 @@
         "E: Add a further increase in PEEP to improve CO2 clearance"
       ],
       "correct": 0,
-      "explanation": "Permissive hypercapnia accepts a raised PaCO2 and mild acidosis to avoid the higher tidal volumes and plateau pressures that worsen lung injury; with adequate oxygenation and no raised intracranial pressure, no change is needed. Raising tidal volume (B) abandons lung protection, bicarbonate (C) is not indicated for this compensated respiratory acidosis, a large rate rise (D) risks gas trapping, and PEEP (E) is not a means of CO2 removal here.",
+      "explanation": "Permissive hypercapnia accepts a raised PaCO2 and mild acidosis to avoid the higher tidal volumes and plateau pressures that worsen lung injury; with adequate oxygenation and no raised intracranial pressure, no change is needed. Raising the tidal volume abandons lung protection, giving intravenous bicarbonate is not indicated for this compensated respiratory acidosis, substantially raising the respiratory rate risks gas trapping, and adding further PEEP is not a means of CO2 removal here.",
       "section": "PCO2 and pH targets",
       "topic": "permissive hypercapnia ARDS lung protective tidal volume acidosis acceptable",
       "image": null,
@@ -123,7 +123,7 @@
         "E: Avoiding the higher plateau pressures that larger tidal volumes would generate"
       ],
       "correct": 2,
-      "explanation": "Permissive hypercapnia is a deliberate departure from normalising PaCO2 when doing so would require injurious tidal volumes; prioritising a normal PaCO2 over lung protection is the opposite of its rationale. Options A, B, D and E all correctly describe why the strategy is used.",
+      "explanation": "Permissive hypercapnia is a deliberate departure from normalising PaCO2 when doing so would require injurious tidal volumes; prioritising a normal PaCO2 over lung protection is the opposite of its rationale, making that the EXCEPT answer here. Limiting alveolar over-distension in a lung with reduced functional residual capacity, reducing the risk of ventilator-induced lung injury from high distending pressures, accepting a trade-off between ventilation targets and lung protection, and avoiding the higher plateau pressures that larger tidal volumes would generate, all correctly describe why the strategy is used.",
       "section": "PCO2 and pH targets",
       "topic": "permissive hypercapnia rationale negative stem normalise PaCO2 lung protection EXCEPT",
       "image": null,
@@ -143,7 +143,7 @@
         "E: Leave the FiO2 unchanged but add PEEP to permit a later reduction"
       ],
       "correct": 0,
-      "explanation": "With adequate oxygenation, FiO2 should be weaned toward the lowest level maintaining an SpO2 of roughly 90-92%, since targeting supraphysiological PaO2 confers no benefit and hyperoxia has been linked to worse outcomes. Keeping a high FiO2 (B, C) exposes the patient to hyperoxia without benefit; D tolerates unnecessary hyperoxia until desaturation, and E defers the straightforward step of weaning FiO2.",
+      "explanation": "With adequate oxygenation, FiO2 should be weaned toward the lowest level maintaining an SpO2 of roughly 90-92%, since targeting supraphysiological PaO2 confers no benefit and hyperoxia has been linked to worse outcomes. Keeping the FiO2 at its current level or raising it toward 1.0 both expose the patient to hyperoxia without benefit; waiting to reduce FiO2 only once SpO2 falls below 88% tolerates unnecessary hyperoxia until desaturation, and leaving FiO2 unchanged while adding PEEP defers the straightforward step of weaning FiO2.",
       "section": "Oxygenation targets",
       "topic": "oxygenation target SpO2 90-92 hyperoxia harm FiO2 weaning",
       "image": null,
@@ -163,7 +163,7 @@
         "E: Adding inhaled nitric oxide to improve ventilation-perfusion matching"
       ],
       "correct": 0,
-      "explanation": "Oxygen delivery is dominated by the haemoglobin-bound term (Hb x SaO2 x 1.34); with SaO2 already near-maximal and a haemoglobin of 68 g/L, correcting the anaemia gives by far the largest gain. Raising PaO2 (B) adds only to the negligible dissolved-oxygen term, and while cardiac output is a genuine determinant (D), the modest achievable rise is outweighed by correcting the marked anaemia here.",
+      "explanation": "Oxygen delivery is dominated by the haemoglobin-bound term (Hb x SaO2 x 1.34); with SaO2 already near-maximal and a haemoglobin of 68 g/L, correcting the anaemia gives by far the largest gain. Raising the FiO2 to increase PaO2 further adds only to the negligible dissolved-oxygen term, and while cardiac output is a genuine determinant of delivery, the modest achievable rise from an inodilator is outweighed by correcting the marked anaemia here.",
       "section": "Oxygenation targets",
       "topic": "oxygen delivery DO2 haemoglobin cardiac output dissolved oxygen transfusion anaemia",
       "image": null,
@@ -183,7 +183,7 @@
         "E: Unchanged in slope but shifted only to a higher resting minute ventilation"
       ],
       "correct": 0,
-      "explanation": "The curves show that hypoxaemia (like acidosis) shifts the ventilation-PaCO2 relationship leftward and steepens it, so a hypoxaemic patient increases minute ventilation more for the same rise in PaCO2 - relevant to why hypoxaemic patients often show marked respiratory drive and distress. Option C describes the opposite direction, and the others misread the curve's position or slope.",
+      "explanation": "The curves show that hypoxaemia (like acidosis) shifts the ventilation-PaCO2 relationship leftward and steepens it, so a hypoxaemic patient increases minute ventilation more for the same rise in PaCO2 - relevant to why hypoxaemic patients often show marked respiratory drive and distress. Describing the response as smaller, as if hypoxaemia blunted the central chemoreceptor response to carbon dioxide, describes the opposite direction, and the remaining options misread the curve's position or slope.",
       "section": "Aims of mechanical ventilation",
       "topic": "ventilatory response curve hypoxia acidosis left shift respiratory drive PaCO2 slope",
       "image": "images/img_b06b3e1c54.png",
@@ -223,7 +223,7 @@
         "E: Low-flow nasal cannula oxygen alone"
       ],
       "correct": 0,
-      "explanation": "CPAP is the preferred initial non-invasive mode for hypoxaemic failure from cardiogenic pulmonary oedema; bilevel modes are favoured when hypercapnic failure predominates, which is not the case with a normal PaCO2 (B, C). Escalating straight to invasive ventilation (D) is unwarranted in a stable, alert patient, and low-flow oxygen (E) is inadequate for the degree of hypoxaemia.",
+      "explanation": "CPAP is the preferred initial non-invasive mode for hypoxaemic failure from cardiogenic pulmonary oedema; bilevel modes are favoured when hypercapnic failure predominates, which is not the case here given the normal PaCO2. Reaching for a bilevel mode, whether with high inspiratory pressure support or titrated to lower PaCO2, is therefore not the first choice; escalating straight to invasive ventilation is unwarranted in a stable, alert patient, and low-flow nasal cannula oxygen is inadequate for the degree of hypoxaemia.",
       "section": "NIMV",
       "topic": "CPAP BIPAP selection cardiogenic pulmonary oedema hypoxaemic hypercapnic",
       "image": null,
@@ -303,7 +303,7 @@
         "E: Add high-flow nasal oxygen alongside the continued NIV"
       ],
       "correct": 0,
-      "explanation": "Worsening pH and PaCO2 with agitation and intolerance despite optimisation are termination criteria indicating NIV failure, so escalation to invasive ventilation is appropriate. Deepening sedation (B) is hazardous in a failing, non-intubated patient, and C, D and E prolong an ineffective trial while the patient deteriorates.",
+      "explanation": "Worsening pH and PaCO2 with agitation and intolerance despite optimisation are termination criteria indicating NIV failure, so escalation to invasive ventilation is appropriate. Deepening sedation to improve tolerance is hazardous in a failing, non-intubated patient, and switching to CPAP, increasing inspiratory pressure, or adding high-flow nasal oxygen alongside the continued NIV all prolong an ineffective trial while the patient deteriorates.",
       "section": "NIMV",
       "topic": "NIV failure termination criteria escalation invasive ventilation agitation",
       "image": null,
@@ -357,7 +357,7 @@
           "correct": false
         }
       ],
-      "explanation": "A, B and C are recognised contraindications. D is false - an acute COPD exacerbation is one of the strongest indications for NIV, not a contraindication; the intuition that a severely unwell COPD patient is 'too sick' for NIV is a common misconception.",
+      "explanation": "Facial or upper-airway trauma with potential obstruction, an inability to protect the airway, and an inability to clear secretions are all recognised contraindications to NIV. The claim that an acute exacerbation of COPD is a contraindication is false — an acute COPD exacerbation is in fact one of the strongest indications for NIV, not a contraindication; the intuition that a severely unwell COPD patient is 'too sick' for NIV is a common misconception.",
       "section": "NIMV",
       "topic": "NIV contraindications COPD indication trap airway secretions facial trauma",
       "image": null,
@@ -391,7 +391,7 @@
           "correct": false
         }
       ],
-      "explanation": "A and C match the initiation criteria. B is false - it is a PaCO2 above 45 mmHg (with pH<7.35) that supports initiation in acute-on-chronic COPD; a low PaCO2 does not. D is false - the thresholds differ (>24/min in obstructive versus >30/min in restrictive disease).",
+      "explanation": "A respiratory rate above 30/min supporting initiation in restrictive lung disease, and a PaO2/FiO2 ratio below 300 supporting initiation, both match the recognised initiation criteria. The claim that a PaCO2 below 45 mmHg supports initiation in an acute-on-chronic COPD exacerbation is false — it is a PaCO2 above 45 mmHg (with pH below 7.35) that supports initiation in acute-on-chronic COPD; a low PaCO2 does not. The claim that the respiratory-rate threshold for initiation is the same in obstructive and restrictive disease is also false — the thresholds differ (above 24/min in obstructive versus above 30/min in restrictive disease).",
       "section": "NIMV",
       "topic": "NIV initiation criteria respiratory rate PaCO2 PaO2 FiO2 threshold obstructive restrictive",
       "image": null,
@@ -425,7 +425,7 @@
           "correct": true
         }
       ],
-      "explanation": "B, C and D are recognised termination criteria. A is false and points the wrong way - it is a worsening (not improving) PaO2 that indicates termination and escalation; an improving PaO2 is a sign the trial is succeeding.",
+      "explanation": "Haemodynamic instability, a decreasing level of consciousness, and an inability to clear secretions are all recognised indications to terminate an NIV trial. The claim that an improving PaO2 during NIV is an indication to terminate the trial is false and points the wrong way — it is a worsening, not improving, PaO2 that indicates termination and escalation; an improving PaO2 is instead a sign the trial is succeeding.",
       "section": "NIMV",
       "topic": "NIV termination criteria consciousness PaO2 direction haemodynamic secretions",
       "image": null,
@@ -459,7 +459,7 @@
           "correct": false
         }
       ],
-      "explanation": "A and B correctly reflect the relative advantages of each interface. C is false - an endotracheal tube generally requires more sedation, not less. D is false - it is the endotracheal tube, not the mask, that permits direct suctioning of secretions.",
+      "explanation": "An endotracheal tube providing more reliable protection against aspiration, and a mask better preserving the ability to cough and speak, correctly reflect the relative advantages of each interface. The claim that an endotracheal tube generally requires less sedation than a mask is false — an endotracheal tube generally requires more sedation, not less. The claim that a mask allows more effective suctioning of lower-airway secretions than a tube is also false — it is the endotracheal tube, not the mask, that permits direct suctioning of secretions.",
       "section": "Means to deliver positive pressure ventilation",
       "topic": "endotracheal tube NIV mask comparison sedation suction cough aspiration",
       "image": null,
@@ -493,7 +493,7 @@
           "correct": false
         }
       ],
-      "explanation": "A and B are recognised benefits of unloading. C is false - prolonged complete rest promotes ventilator-induced diaphragmatic dysfunction and weakness. D is false - in shock, the respiratory muscles can consume a large share of cardiac output, so reducing that demand is clinically important, not negligible.",
+      "explanation": "Unloading the respiratory muscles helping prevent respiratory muscle fatigue, and reducing muscle workload lessening self-inflicted lung injury from vigorous spontaneous effort, are recognised benefits of unloading. The claim that prolonged, complete respiratory muscle rest carries no risk to muscle structure or function is false — prolonged complete rest promotes ventilator-induced diaphragmatic dysfunction and weakness. The claim that reducing the respiratory muscles' share of cardiac output in shock is of little clinical importance is also false — in shock, the respiratory muscles can consume a large share of cardiac output, so reducing that demand is clinically important, not negligible.",
       "section": "Aims of mechanical ventilation",
       "topic": "unloading respiratory muscles VIDD fatigue self-inflicted lung injury shock cardiac output",
       "image": null,

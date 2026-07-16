@@ -42,7 +42,7 @@
         "E: Respiratory system compliance reaches its maximum at FRC, so no pressure is needed to hold that volume"
       ],
       "correct": 0,
-      "explanation": "FRC is defined as the volume where the lung's inward recoil and the chest wall's outward recoil are equal and opposite, giving a net respiratory-system pressure of zero - the forces balance rather than being absent (B) or one-sided (C). D conflates elastic balance with airway resistance, and E offers a plausible-sounding but incorrect compliance-based explanation.",
+      "explanation": "FRC is defined as the volume where the lung's inward recoil and the chest wall's outward recoil are equal and opposite, giving a net respiratory-system pressure of zero — the forces balance rather than being absent (as if neither structure recoiled at FRC) or one-sided (as if the chest wall stayed fully relaxed at every volume). Attributing this to airway resistance conflates elastic balance with a resistive property, and invoking maximal compliance is plausible-sounding but incorrect — compliance describes the volume-pressure relationship, not why the recoil forces cancel at this point.",
       "section": "Equation of motion",
       "topic": "FRC zero pressure lung chest wall recoil balance passive",
       "image": null,
@@ -202,7 +202,7 @@
         "E: The difference reflects a change in delivered tidal volume between the two panels rather than the triggering method"
       ],
       "correct": 0,
-      "explanation": "Pressure-triggering works by sensing a fall in circuit pressure caused by the patient's effort, so a Paw dip appears; flow-triggering senses a change in circuit flow instead, so the trigger shows on the flow trace while airway pressure stays steadier. Both require genuine effort (contradicting B), and the panels indicate neither intrinsic PEEP (C) nor a tidal-volume difference (E).",
+      "explanation": "Pressure-triggering works by sensing a fall in circuit pressure caused by the patient's effort, so a Paw dip appears; flow-triggering senses a change in circuit flow instead, so the trigger shows on the flow trace while airway pressure stays steadier. Both modes require genuine patient effort, which rules out the claim that flow-triggering needs no effort at all, and the traces reflect the triggering mechanism itself rather than intrinsic PEEP or a difference in delivered tidal volume between the two panels.",
       "section": "Basic functions of positive pressure ventilators",
       "topic": "pressure triggering flow triggering waveform mechanism Paw dip flow change",
       "image": "images/img_eff12444bf.png",
@@ -236,7 +236,7 @@
           "correct": true
         }
       ],
-      "explanation": "A, B and D are correct. C is false - no specific PEEP range can be pre-defined as optimal for a given patient at a given time. D is a genuinely correct but easily-doubted statement: PEEP can reduce work of breathing by shifting tidal breathing to a more compliant part of the pressure-volume curve, not only via the intrinsic-PEEP mechanism seen in obstruction.",
+      "explanation": "PEEP's lung-protective effect through limiting cyclic alveolar opening and closing is well established, and its haemodynamic effect on cardiac output genuinely does depend on preload-dependency rather than acting uniformly. The claim that a single optimal PEEP range can be defined broadly across patients is false — no such universal range exists; the correct level depends on the individual patient's respiratory mechanics and haemodynamics at a given time. The statement that PEEP can reduce work of breathing even without airflow obstruction is true but easily doubted: PEEP can lower work of breathing by shifting tidal breathing to a more compliant part of the pressure-volume curve, not only via the intrinsic-PEEP mechanism seen in obstruction.",
       "section": "Positive End Expiratory Pressure",
       "topic": "PEEP optimal range myth VILI cardiac output preload work of breathing compliance",
       "image": null,
@@ -270,7 +270,7 @@
           "correct": false
         }
       ],
-      "explanation": "A and B are correct. C is false - in NAVA, cycling-off occurs when diaphragmatic electrical activity falls by a set percentage from its maximum, not at a preset flow threshold. D is false - a safety time-cutoff exists, typically ending inspiration if it becomes excessively long (e.g. beyond ~3 seconds).",
+      "explanation": "PAV's flow-cycling mechanism and the isometric muscle contraction preceding flow onset during pressure-triggering are both accurately described. The claim that NAVA cycles off via a preset flow threshold, as in standard flow-cycling, is false — NAVA instead cycles off when diaphragmatic electrical activity falls by a set percentage from its maximum, a fundamentally different, patient-derived signal. The claim that modern ventilators lack any safety mechanism for an abnormally prolonged inspiration is also false: a safety time-cutoff exists, typically ending inspiration if it becomes excessively long (e.g. beyond ~3 seconds).",
       "section": "Basic functions of positive pressure ventilators",
       "topic": "PAV NAVA cycling off isometric contraction pressure triggering safety cutoff",
       "image": null,
@@ -304,7 +304,7 @@
           "correct": false
         }
       ],
-      "explanation": "A, B and C are correct. D is false - control/assisted and volume/pressure-targeted are independent axes, so an assisted mode can be volume-targeted (e.g. patient-triggered volume-controlled breaths). The common error is to treat the two classifications as linked.",
+      "explanation": "The definitions of a control mode by its time-based triggering and cycling, the independence of the volume- versus pressure-targeted label from how a breath is triggered or cycled, and the classification of a time-triggered, time-cycled, pressure-targeted mode as control are all accurate. The claim that an assisted mode cannot also be volume-targeted is false: control/assisted and volume/pressure-targeted are independent axes, so an assisted mode can be volume-targeted (e.g. patient-triggered volume-controlled breaths). The common error is to treat the two classifications as linked.",
       "section": "Basic functions of positive pressure ventilators",
       "topic": "control assisted volume pressure targeted orthogonal axes classification independent",
       "image": null,
@@ -338,7 +338,7 @@
           "correct": false
         }
       ],
-      "explanation": "A and C are correct. B is false and points the wrong way - fibrosis reduces compliance (raises elastance), so the elastic pressure increases, not decreases, for a given volume. D is false - resistance and elastance show considerable flow- and volume-dependency through a breath, especially in disease.",
+      "explanation": "The rise in resistive pressure during acute bronchospasm and the equivalence between total applied pressure and the ventilator's airway pressure during fully passive ventilation (where Pmus is zero) are both accurately described. The claim that pulmonary fibrosis decreases the elastic pressure component for a given volume points the wrong way: fibrosis reduces compliance (raises elastance), so the elastic pressure increases, not decreases, for a given volume. The claim that resistance and elastance remain constant throughout a breath regardless of disease is also false — both show considerable flow- and volume-dependency through a breath, especially in disease.",
       "section": "Equation of motion",
       "topic": "equation of motion bronchospasm fibrosis resistance elastance passive ventilation",
       "image": null,
@@ -372,7 +372,7 @@
           "correct": false
         }
       ],
-      "explanation": "A, B and C are correct (in FCV, tidal volume and respiratory rate are the dependent variables, while the operator sets peak pressure, flow and I:E). D is false - routine scheduled circuit changes are not considered necessary to prevent VAP.",
+      "explanation": "FCV's continuous-flow delivery pattern in both phases, the operator-set parameters of peak inspiratory pressure, inspiratory flow, and I:E ratio (with tidal volume and respiratory rate as the dependent variables), and the basic component list for a positive-pressure ventilator are all accurately described. The claim that routine, scheduled ventilator circuit changes are recommended to prevent VAP is false — such changes are not considered necessary to prevent VAP.",
       "section": "Basic functions of positive pressure ventilators",
       "topic": "flow-controlled ventilation FCV set variables VAP circuit change ventilator components",
       "image": null,

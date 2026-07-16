@@ -23,7 +23,7 @@
         "E: Refractory septic shock"
       ],
       "correct": 1,
-      "explanation": "Septic shock (Sepsis-3) requires vasopressors to maintain MAP ≥65 mmHg AND serum lactate >2 mmol/L despite adequate fluid resuscitation — both criteria are met here. 'Severe sepsis' (Option A) is an obsolete term abandoned in Sepsis-3 because organ dysfunction is now inherent in the definition itself. Refractory septic shock (Option C) requires norepinephrine equivalent ≥0.5 mcg/kg/min with persistent lactate elevation, not met at 0.2 mcg/kg/min.",
+      "explanation": "Septic shock (Sepsis-3) requires vasopressors to maintain MAP ≥65 mmHg AND serum lactate >2 mmol/L despite adequate fluid resuscitation — both criteria are met here. 'Severe sepsis' is an obsolete term abandoned in Sepsis-3 because organ dysfunction is now inherent in the definition itself, and SIRS with an infectious cause is a broader, less specific category that does not capture the vasopressor requirement and lactate elevation seen here. Refractory septic shock requires a norepinephrine equivalent of ≥0.5 mcg/kg/min with persistent lactate elevation, which is not met at 0.2 mcg/kg/min, and sepsis with organ dysfunction pending vasopressor optimisation understates a picture that already meets the vasopressor-dependent shock definition.",
       "section": "Definition of Sepsis",
       "topic": "septic shock Sepsis-3 vasopressor lactate MAP criteria",
       "image": null,
@@ -43,7 +43,7 @@
         "E: An infection-related increase of ≥2 points from baseline"
       ],
       "correct": 4,
-      "explanation": "Sepsis-3 requires an infection-related increase of ≥2 SOFA points from baseline to operationalise organ dysfunction — not an absolute threshold. Options B and E fail because they use absolute values rather than a change from baseline. This distinction is clinically important: a patient with chronic kidney disease may have a baseline SOFA of 3, but only qualifies for sepsis if a new ≥2-point increment occurs.",
+      "explanation": "Sepsis-3 requires an infection-related increase of 2 or more SOFA points from baseline to operationalise organ dysfunction — not an absolute threshold and not a different point increment. An absolute SOFA score of 4 or more, or any SOFA score of 2 or more, both fail because they rely on an absolute value rather than a change from baseline; an increase of 3 or more points, or an increase of just 1 point, both use the right change-from-baseline concept but the wrong magnitude — the threshold is specifically 2 points, not 3 or 1. This distinction is clinically important: a patient with chronic kidney disease may have a baseline SOFA of 3, but only qualifies for sepsis if a new increase of 2 or more points occurs.",
       "section": "Assessment of Organ Dysfunction",
       "topic": "SOFA increase sepsis diagnosis Sepsis-3 organ dysfunction baseline",
       "image": null,
@@ -63,7 +63,7 @@
         "E: A qSOFA score of ≥2 confirms sepsis and mandates immediate ICU admission"
       ],
       "correct": 0,
-      "explanation": "SSC 2026 explicitly recommends against using qSOFA because of its low sensitivity — it misses a substantial proportion of sepsis cases, which is dangerous in a condition where early recognition is critical. qSOFA is NOT intended for ICU patients (designed for non-ICU settings), and a positive score does not confirm sepsis nor mandate ICU admission; it only prompts further investigation. A negative qSOFA (Option D) does not reliably exclude sepsis.",
+      "explanation": "SSC 2026 explicitly recommends against using qSOFA as a routine screening tool because of its low sensitivity — it misses a substantial proportion of sepsis cases, which is dangerous in a condition where early recognition is critical; this also means it should not be relied on as the primary screening tool for all ED patients with suspected infection. qSOFA is not intended for ICU patients, having been designed and validated for non-ICU settings, so recommending it there because it avoids laboratory testing misunderstands its intended use. A positive qSOFA score does not confirm sepsis nor mandate immediate ICU admission — it only prompts further investigation — and conversely, a negative qSOFA does not reliably exclude sepsis either.",
       "section": "Assessment of Organ Dysfunction",
       "topic": "qSOFA SSC 2026 low sensitivity recommendation against use",
       "image": null,
@@ -83,7 +83,7 @@
         "E: Sepsis diagnosis requires microbiological confirmation of infection before it can be established"
       ],
       "correct": 2,
-      "explanation": "SIRS requires ≥2 of 4 criteria, so Option A is factually incorrect — 3 criteria are present. The critical failure of SIRS is poor specificity: it is present in almost all critically ill patients from non-infectious causes including post-operative states, burns, and pancreatitis. This is precisely why Sepsis-3 replaced SIRS with SOFA-based organ dysfunction. Microbiological confirmation (Option B) is desirable but not required — sepsis is a clinical diagnosis.",
+      "explanation": "SIRS requires 2 or more of 4 criteria, and in this patient heart rate, temperature and white cell count together already meet 3 criteria, so a claim that only 2 are met (with 3 required) is factually incorrect on both counts. The critical failure of SIRS is poor specificity: it is present in almost all critically ill patients from non-infectious causes including post-operative states, burns, and pancreatitis — which is precisely why Sepsis-3 replaced SIRS with SOFA-based organ dysfunction, and why SIRS criteria are not validated by simply adding a haemodynamic-instability requirement. A specific 39.0°C temperature threshold is not correct either — the SIRS temperature criterion is met above 38°C. Microbiological confirmation is desirable but not required for a sepsis diagnosis — sepsis remains a clinical diagnosis.",
       "section": "Definition of Sepsis",
       "topic": "SIRS specificity limitations post-operative Sepsis-3 non-infectious",
       "image": null,
@@ -103,7 +103,7 @@
         "E: Tachycardia, warm extremities, increased cardiac output, reduced systemic vascular resistance"
       ],
       "correct": 4,
-      "explanation": "Resuscitated septic shock is characteristically hyperdynamic: tachycardia, warm extremities from profound vasodilation, increased cardiac output, and reduced SVR. Although sepsis-induced myocardial depression occurs, cardiac output is typically maintained or increased when fluid resuscitation is adequate. Cold extremities with high SVR and low cardiac output (Option A) describes cardiogenic or unresuscitated distributive shock — the classic near-miss distractor.",
+      "explanation": "Resuscitated septic shock is characteristically hyperdynamic: tachycardia, warm extremities from profound vasodilation, increased cardiac output, and reduced systemic vascular resistance. Although sepsis-induced myocardial depression occurs, cardiac output is typically maintained or increased when fluid resuscitation is adequate. Cold extremities with increased systemic vascular resistance and low cardiac output instead describes cardiogenic or unresuscitated distributive shock — the classic near-miss distractor — while the remaining profiles combine findings (normal or increased SVR with normal cardiac output, or bradycardia with vasodilation and low output) that do not match the hyperdynamic, adequately resuscitated picture described here.",
       "section": "Pathophysiology of Sepsis",
       "topic": "resuscitated septic shock hyperdynamic cardiac output SVR warm extremities",
       "image": null,
@@ -123,7 +123,7 @@
         "E: Delay antibiotics until all culture sets show microbial growth to ensure targeted therapy"
       ],
       "correct": 0,
-      "explanation": "At least 2 blood culture sets (not 1) must be drawn before antibiotics, but must never unnecessarily delay antimicrobial therapy. Awaiting culture growth (Option C) takes 2–3 days and is dangerous in sepsis. Central-line-only sampling (Option E) increases contamination rates; peripheral blood cultures should be included. Even with correct technique, only 30–40% of cultures are positive in sepsis.",
+      "explanation": "At least two blood culture sets, not just one, must be drawn before starting antibiotics, but sampling must never unnecessarily delay antimicrobial therapy. Skipping cultures entirely is not appropriate either, even though culture yield in sepsis is imperfect — cultures still guide de-escalation and targeted therapy when they are positive. Drawing cultures only from the central venous catheter increases contamination rates; peripheral blood cultures should be included alongside or instead. Delaying antibiotics until all culture sets show microbial growth is dangerous, since growth takes 2-3 days and antimicrobial therapy should not be withheld while awaiting results. Even with correct technique, only 30-40% of cultures are positive in sepsis.",
       "section": "Finding the Causative Agent",
       "topic": "blood cultures two sets antibiotic timing peripheral CVC",
       "image": null,
@@ -143,7 +143,7 @@
         "E: Blood cultures have acceptable sensitivity only for gram-positive organisms in ICU-acquired sepsis"
       ],
       "correct": 2,
-      "explanation": "Positive blood cultures occur in only 30–40% of patients with sepsis regardless of technique or antibiotic timing — a well-recognised limitation. Growth takes 2–3 days and false negatives are common. Negative cultures should not lead to antibiotic discontinuation when clinical sepsis is clear (Option B). Gram-negative bacteria actually predominate, accounting for 67% of identified ICU pathogens.",
+      "explanation": "Positive blood cultures occur in only 30-40% of patients with sepsis regardless of technique or antibiotic timing — a well-recognised limitation, not a sign of inadequate sampling or an insufficient number of culture sets. Growth typically takes 2-3 days, so blood cultures are not nearly always positive within 24 hours even in true bacteraemia, and false negatives are common. Negative cultures at 72 hours should not be read as evidence that the antibiotic selection was inappropriate, nor should they lead to discontinuing therapy when the clinical picture of sepsis remains clear. Gram-negative bacteria actually predominate, accounting for 67% of identified ICU pathogens, so blood culture sensitivity is not limited to gram-positive organisms.",
       "section": "Finding the Causative Agent",
       "topic": "blood culture sensitivity 30-40% false negative gram-negative sepsis",
       "image": null,
@@ -163,7 +163,7 @@
         "E: Procalcitonin peaks within 2 hours of infectious stimulus, providing a faster signal than CRP"
       ],
       "correct": 3,
-      "explanation": "CRP's primary limitation is poor specificity — it rises in non-infectious conditions including pancreatitis, trauma, and post-surgical states. Procalcitonin has better specificity for infection, though its sensitivity is moderate. The 2-hour peak kinetics (Option B) describe IL-6, not PCT. Critically, SSC 2026 actually recommends clinical evaluation ALONE over PCT + clinical evaluation for antibiotic initiation — the opposite of Option C.",
+      "explanation": "CRP's primary limitation is poor specificity — it rises in non-infectious conditions including pancreatitis, trauma, and post-surgical states — whereas procalcitonin has better specificity for infection, though its sensitivity is moderate. Procalcitonin is not simply a faster-kinetics version of the same acute-phase pathway as CRP; the two are synthesised via different mechanisms. SSC 2026 actually recommends clinical evaluation alone over adding procalcitonin to clinical evaluation when deciding whether to initiate antibiotics, so the guidelines do not endorse routinely adding PCT to that decision. Its value lies in specificity for infection rather than in normalising more slowly than CRP for monitoring purposes. The distinctive 2-hour peak after an infectious stimulus describes IL-6 kinetics, not procalcitonin, which peaks later.",
       "section": "Use of Biomarkers",
       "topic": "procalcitonin CRP specificity non-infectious inflammation SSC 2026",
       "image": null,
@@ -223,7 +223,7 @@
         "E: Renin-angiotensin-aldosterone activation causing pathological sodium and water retention"
       ],
       "correct": 2,
-      "explanation": "Endothelial cell activation in sepsis causes glycocalyx damage, increasing vascular permeability so fluid leaks from the intravascular space into the interstitium. This oedema not only worsens effective hypovolaemia but also impairs tissue oxygenation by increasing the diffusion distance for oxygen. RAAS activation (Option C) is secondary. Raised oncotic pressure (Option B) would be expected to retain, not leak, fluid.",
+      "explanation": "Endothelial cell activation in sepsis causes glycocalyx damage, increasing vascular permeability so fluid leaks from the intravascular space into the interstitium. This oedema not only worsens effective hypovolaemia but also impairs tissue oxygenation by increasing the diffusion distance for oxygen. Raised oncotic pressure from acute-phase protein synthesis would be expected to retain fluid within the vasculature, not cause it to leak into the interstitium, so this does not explain the oedema seen here. Capillary occlusion by thrombi is a feature of microcirculatory dysfunction but does not primarily raise upstream hydrostatic pressure enough to explain widespread oedema, impaired lymphatic drainage is not a recognised consequence of a hyperdynamic circulation, and renin-angiotensin-aldosterone activation, which promotes sodium and water retention, is a secondary compensatory response rather than the primary driver of capillary leak.",
       "section": "Pathophysiology of Sepsis",
       "topic": "glycocalyx endothelial permeability oedema interstitial diffusion oxygen",
       "image": null,
@@ -243,7 +243,7 @@
         "E: Microcirculatory occlusion diverts oxygenated blood past hypoperfused tissue beds, impairing local oxygen delivery"
       ],
       "correct": 4,
-      "explanation": "The classic sepsis microcirculatory lesion is distributive flow failure: capillary occlusion by thrombi, activated leukocytes, and poorly deformable erythrocytes redirects blood through patent capillaries, leaving adjacent hypoperfused cells hypoxic and generating lactate despite normal systemic delivery parameters. Mitochondrial dysfunction (Option D) also contributes to cytopathic hypoxia in sepsis, but the pattern of normal systemic parameters with tissue failure most specifically points to microvascular shunting.",
+      "explanation": "The classic sepsis microcirculatory lesion is distributive flow failure: capillary occlusion by thrombi, activated leukocytes, and poorly deformable erythrocytes redirects blood through patent capillaries, leaving adjacent hypoperfused cells hypoxic and generating lactate despite normal systemic delivery parameters. Systemic oxygen delivery is not in fact inadequate here — the haemodynamic parameters given are normal — so the discrepancy lies downstream of delivery rather than in delivery itself. Glycocalyx damage affects vascular permeability rather than haemoglobin oxygen loading at the alveolar-capillary interface, and mitochondrial dysfunction from excess reactive oxygen species also contributes to cytopathic hypoxia in sepsis, but the pattern of normal systemic parameters with tissue failure most specifically points to microvascular shunting rather than a cellular utilisation defect alone. Elevated cardiac output reducing capillary transit time is not the mechanism driving the tissue oxygen deficit described here.",
       "section": "Pathophysiology of Sepsis",
       "topic": "microcirculation capillary occlusion tissue hypoxia lactate systemic delivery",
       "image": null,
@@ -283,7 +283,7 @@
         "E: Serum procalcitonin"
       ],
       "correct": 4,
-      "explanation": "SOFA assesses 6 organ systems: respiratory (PaO2/FiO2), coagulation (platelets), liver (bilirubin), cardiovascular (MAP and/or vasopressor dose), CNS (GCS), and renal (creatinine and/or urine output). Procalcitonin is a biomarker of infection/inflammation and is NOT a SOFA component — it is the classic near-miss here because PCT is routinely used alongside SOFA in sepsis management, causing confusion. PaO2/FiO2 (A), platelets (B), GCS (C), and bilirubin (E) are all genuine SOFA components.",
+      "explanation": "SOFA assesses 6 organ systems: respiratory (PaO2/FiO2), coagulation (platelets), liver (bilirubin), cardiovascular (MAP and/or vasopressor dose), CNS (Glasgow Coma Scale), and renal (creatinine and/or urine output). Procalcitonin is a biomarker of infection/inflammation and is not a SOFA component — it is the classic near-miss here because PCT is routinely used alongside SOFA in sepsis management, causing confusion. The Glasgow Coma Scale score, PaO2/FiO2 ratio, platelet count, and serum bilirubin are all genuine SOFA components.",
       "section": "Assessment of Organ Dysfunction",
       "topic": "SOFA score components procalcitonin NOT included six systems",
       "image": null,
@@ -337,7 +337,7 @@
           "correct": true
         }
       ],
-      "explanation": "Sepsis-3 replaced SIRS with SOFA-based organ dysfunction (≥2-point increase from baseline) — SIRS is no longer part of the definition (A=False). 'Severe sepsis' was abolished because organ dysfunction is now inherent in the core sepsis definition, making the term redundant (C=False). The Sepsis-3 taskforce comprised 19 worldwide experts and was published in JAMA in 2016 (D=True).",
+      "explanation": "Sepsis-3 replaced SIRS with SOFA-based organ dysfunction (an infection-related increase of 2 or more points from baseline) — SIRS is no longer part of the definition, so the claim that the definition still requires 2 or more SIRS criteria is false. 'Severe sepsis' was abolished as a term because organ dysfunction is now inherent in the core sepsis definition, making it redundant, so it does not remain a valid separate clinical classification. The Sepsis-3 taskforce comprised international experts and the definition was published in 2016, as described.",
       "section": "Definition of Sepsis",
       "topic": "Sepsis-3 definition SOFA severe sepsis SIRS obsolete 2016",
       "image": null,
@@ -371,7 +371,7 @@
           "correct": true
         }
       ],
-      "explanation": "Septic shock requires both vasopressors (MAP ≥65) AND lactate >2 mmol/L despite resuscitation (A and B both True). Since septic shock is a subset of sepsis, organ dysfunction is always implied (C=False). Refractory septic shock requires norepinephrine equivalent ≥0.5 mcg/kg/min — not 0.25 (D=False); 0.25 is a common error halving the correct threshold.",
+      "explanation": "Septic shock requires both a vasopressor requirement to maintain MAP of 65 mmHg or more, and a serum lactate above 2 mmol/L despite adequate fluid resuscitation — both genuine diagnostic criteria. Since septic shock is a subset of sepsis, organ dysfunction is always implied, so the claim that septic shock can be diagnosed in the absence of organ dysfunction is false. Refractory septic shock requires a norepinephrine equivalent of 0.5 mcg/kg/min or more with persistent lactate elevation — not 0.25, which is a common error that halves the correct threshold.",
       "section": "Definition of Sepsis",
       "topic": "septic shock criteria vasopressor lactate MAP refractory threshold",
       "image": null,
@@ -405,7 +405,7 @@
           "correct": false
         }
       ],
-      "explanation": "qSOFA has three criteria only (A=True). It is explicitly NOT recommended for ICU patients; its intended domain was non-ICU settings and even there SSC 2026 recommends against routine use because of low sensitivity (B=False, C=True). A qSOFA ≥2 prompts investigation for sepsis and possible ICU escalation but does not confirm the diagnosis — SOFA remains the reference standard (D=False).",
+      "explanation": "qSOFA has three criteria: respiratory rate 22/min or more, altered mentation, and systolic blood pressure 100 mmHg or below. SSC 2026 recommends against routine qSOFA use specifically because of its low sensitivity, even in its intended non-ICU domain. The claim that a qSOFA score of 2 or more confirms the diagnosis of sepsis is false — a raised qSOFA prompts further investigation and possible escalation but does not itself confirm sepsis; SOFA remains the reference standard for organ dysfunction. qSOFA is also not recommended for use in ICU patients as a rapid, laboratory-free tool — it was designed and validated for non-ICU settings.",
       "section": "Assessment of Organ Dysfunction",
       "topic": "qSOFA criteria SSC 2026 sensitivity ICU recommendation confirmation",
       "image": null,
@@ -439,7 +439,7 @@
           "correct": false
         }
       ],
-      "explanation": "SOFA covers all 6 stated organ systems (A=True). Sepsis-3 requires a change of ≥2 from baseline, not an absolute threshold — a patient with a chronic baseline of 3 does not have 'sepsis' until a new increment is added (B=False). SOFA-2 exists but is not in routine use (C=True). A rising SOFA score is consistently associated with higher mortality, not improved survival (D=False — a common reversal trap).",
+      "explanation": "The SOFA score encompasses respiratory, cardiovascular, renal, hepatic, coagulation, and neurological function — all 6 organ systems as described. Sepsis-3 requires a change of 2 or more points from baseline, not an absolute threshold — a patient with a chronic baseline SOFA of 3 does not meet the sepsis organ-dysfunction criterion until a new increment of 2 or more is added, so the claim that any absolute SOFA score of 2 or more satisfies the criterion regardless of baseline is false. SOFA-2 exists, having been published in 2025, but has not yet entered routine clinical practice, as described. A persistently rising SOFA score during ICU admission is associated with higher mortality, not improved survival — a common reversal trap.",
       "section": "Assessment of Organ Dysfunction",
       "topic": "SOFA components absolute vs increase SOFA-2 prognosis rising",
       "image": null,
@@ -473,7 +473,7 @@
           "correct": false
         }
       ],
-      "explanation": "PCT's better specificity versus CRP for infection is correct (A=True). IL-6 peaks at 2 hours — the fastest of the three biomarkers (B=True). SSC 2026 actually recommends the OPPOSITE of option C: clinical evaluation ALONE is preferred over PCT + clinical evaluation for antibiotic initiation decisions (C=False — a high-yield trap). PCT has only moderate diagnostic accuracy; a single normal value does not exclude sepsis (D=False).",
+      "explanation": "IL-6 reaches peak plasma levels within 2 hours of an infectious stimulus, faster than both CRP and procalcitonin. Procalcitonin is more specific for sepsis than CRP, since CRP also rises markedly in non-infectious inflammatory conditions. SSC 2026 actually recommends clinical evaluation alone, not procalcitonin combined with clinical evaluation, when deciding to initiate antibiotics — a high-yield reversal trap. Procalcitonin has only moderate diagnostic accuracy, so a single normal result does not reliably exclude a diagnosis of sepsis.",
       "section": "Use of Biomarkers",
       "topic": "PCT CRP IL-6 kinetics SSC 2026 antibiotic initiation single biomarker",
       "image": null,
@@ -507,7 +507,7 @@
           "correct": false
         }
       ],
-      "explanation": "At least 2 sets before antibiotics, without delaying treatment (A and C both True). Positive cultures occur in only 30–40% of sepsis patients — not 70–80% (B=False; the high number is a common optimistic misconception). Standard cultures take 2–3 days for growth, not 6–8 hours (D=False). Only molecular methods such as multiplex PCR can provide results within a working day.",
+      "explanation": "Blood culture collection should not unnecessarily delay the start of antibiotic therapy, and a minimum of two blood culture sets should be obtained before initiating antimicrobial therapy — both correct. The claim that positive blood cultures are found in approximately 70-80% of patients with confirmed sepsis is false — positive cultures occur in only 30-40% of sepsis patients, and the higher figure is a common optimistic misconception. The claim that bacterial colonies typically become detectable within 6-8 hours is also false — standard cultures take 2-3 days for growth; only molecular methods such as multiplex PCR can provide results within a working day.",
       "section": "Finding the Causative Agent",
       "topic": "blood cultures two sets 30-40% positivity growth time delay",
       "image": null,
@@ -541,7 +541,7 @@
           "correct": false
         }
       ],
-      "explanation": "Glycocalyx damage → increased capillary (not arterial) permeability → interstitial oedema (A=True, D=False). The resulting oedema worsens hypoxia by increasing the oxygen diffusion distance (B=True). There is currently no tool available to assess endothelial dysfunction at the ICU bedside — sublingual imaging is only available in research settings (C=False).",
+      "explanation": "Glycocalyx damage increases capillary, not arterial, permeability, leading to interstitial fluid leakage and peripheral oedema — so the claim that it primarily increases arterial wall permeability is false. This resulting interstitial oedema impairs tissue oxygenation by increasing the diffusion distance from capillary to cell. The claim that endothelial dysfunction and glycocalyx damage can be routinely quantified at the ICU bedside using standard monitoring equipment is also false — there is currently no such bedside tool; sublingual imaging techniques that can assess this are only available in research settings.",
       "section": "Pathophysiology of Sepsis",
       "topic": "glycocalyx capillary permeability oedema diffusion bedside monitoring",
       "image": null,
@@ -575,7 +575,7 @@
           "correct": false
         }
       ],
-      "explanation": "SIRS criteria are correct as stated (A=True). SIRS was abandoned for POOR SPECIFICITY (present in non-infectious conditions), not poor sensitivity — reversing sensitivity and specificity is the archetypal trap here (B=False). Hypothermia is a recognised sepsis manifestation and a SIRS criterion (C=True). PIRO was introduced in the 2001 update, though it never gained widespread clinical adoption (D=True).",
+      "explanation": "Hypothermia (temperature below 36°C) qualifies as a temperature criterion in SIRS and can be a manifestation of sepsis, and SIRS itself requires 2 or more of: heart rate above 90/min, respiratory rate above 20/min, temperature below 36°C or above 38°C, and white cell count below 4,000 or above 11,000/mm³ — both accurately described. The 2001 Sepsis-2 update did introduce the PIRO staging concept (Predisposition, Insult, Response, Organ dysfunction), though it never gained widespread clinical adoption. The claim that SIRS criteria were removed from the sepsis definition primarily because of poor sensitivity for detecting infection is false — SIRS was abandoned for poor specificity, since it is present in many non-infectious conditions; reversing sensitivity and specificity here is the archetypal trap.",
       "section": "Definition of Sepsis",
       "topic": "SIRS criteria specificity sensitivity PIRO hypothermia Sepsis-2",
       "image": null,
@@ -609,7 +609,7 @@
           "correct": true
         }
       ],
-      "explanation": "Sepsis drives ~33% of ICU admissions (A=True). Gram-negative organisms predominate at 67% of identified pathogens (B=True). Community-acquired infections are actually the LARGEST single category at 44%, ahead of hospital-acquired (34.5%) and ICU-acquired (21.6%) — the opposite of statement C (C=False). The respiratory tract is the most common focus at 60.1% (D=True).",
+      "explanation": "The respiratory tract is indeed the most commonly identified focus of infection in ICU patients, accounting for about 60.1% of cases, and sepsis drives approximately one-third of all ICU admissions worldwide — both accurately described. Among identified pathogens in ICU infections, gram-negative organisms do account for the majority, at around 67%. The claim that hospital-acquired infections represent the largest single category, exceeding community-acquired infections, is false — community-acquired infections are actually the largest single category at about 44%, ahead of hospital-acquired (34.5%) and ICU-acquired (21.6%) infections.",
       "section": "Introduction",
       "topic": "sepsis epidemiology ICU gram-negative community-acquired respiratory foci",
       "image": null,
@@ -643,7 +643,7 @@
           "correct": true
         }
       ],
-      "explanation": "Microvascular occlusion causes distributive flow failure — tissue hypoxia despite adequate systemic delivery (A=True). Mitochondrial damage involves excess NO, CO, H2S, and reactive oxygen species (B=True). Although myocardial depression occurs, cardiac output is characteristically INCREASED in adequately resuscitated sepsis (hyperdynamic circulation) — a classic reversal trap (C=False). Sublingual imaging is validated for research settings but is not available clinically (D=True).",
+      "explanation": "Mitochondrial dysfunction in sepsis does involve the generation of excess reactive oxygen and nitrogen species, including NO, CO, and H2S, causing direct damage to mitochondrial structures. Microvascular abnormalities in sepsis can indeed be assessed in research settings using sublingual imaging techniques such as sidestream dark-field microscopy, though this is not yet available for routine clinical use. The claim that cardiac output is characteristically reduced in adequately resuscitated septic shock due to myocardial depression is false and reversed — although myocardial depression does occur, cardiac output is characteristically increased in adequately resuscitated sepsis, reflecting a hyperdynamic circulation. Capillary occlusion by thrombi and poorly deformable red cells can indeed cause tissue hypoxia despite adequate systemic oxygen delivery parameters, consistent with distributive microcirculatory flow failure.",
       "section": "Pathophysiology of Sepsis",
       "topic": "microcirculation capillary occlusion cardiac output hyperdynamic sublingual imaging",
       "image": null,
