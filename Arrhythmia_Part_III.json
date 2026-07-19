@@ -1,0 +1,744 @@
+{
+  "module": "Arrhythmia Part III",
+  "sections": {
+    "Sinus Node Dysfunction": "Sinus node dysfunction (SND) is a heterogeneous group of conditions: inappropriate sinus bradycardia, chronotropic incompetence (inadequate heart rate response to physiological demand), sinus pause/arrest, sinoatrial exit block, and tachycardia-bradycardia syndrome. Aetiologies include increased vagal tone; drugs (beta-blockers, non-dihydropyridine calcium channel blockers, digoxin, antiarrhythmics, acetylcholinesterase inhibitors); infection (e.g. Chagas disease); inflammation (rheumatic fever, pericarditis); myocardial ischaemia/infarction; electrolyte abnormalities; fibrosis/degenerative disease (the most common cause); genetic causes; trauma; metabolic disease (hypothyroidism, hypothermia, hypoxia); and infiltrative disease (amyloidosis, sarcoidosis, scleroderma, haemochromatosis). SND occurs in 5-30% of acute MI, often with concomitant AV nodal block; usually no treatment is required unless there is cardiac failure, significant hypotension, or continuing ischaemia. Intermittent SND may respond to small doses of atropine (unpredictable rate response). Temporary pacing should be considered if bradycardia is prolonged, severe, haemodynamically unstable, aggravating ventricular irritability, or unresponsive to atropine/isoproterenol/dopamine/epinephrine.",
+    "Atrioventricular Conduction Disease": "AV block nomenclature reflects ECG pattern, not underlying pathophysiology. First-degree AV block is PR interval prolongation (>0.20 sec) with normal QRS — a conduction delay, not a true block; associated with vagal tone or beta-blocker/calcium-channel-blocker therapy. Second-degree Mobitz type I (Wenckebach) shows progressive PR prolongation then a dropped beat, usually at the AV node (narrow QRS). Mobitz type II shows a constant PR interval with intermittent dropped beats, usually below the AV node (wide QRS), associated with conduction system disease. Third-degree (complete) AV block shows atria and ventricles beating independently (AV dissociation), driven by an infranodal escape pacemaker (wide QRS). In acute MI, AV block occurs in 12-25% of cases, most often with inferoposterior MI (AV nodal ischaemia — usually transient, resolves). In anterior MI, block usually occurs in the bundles (infranodal) and can progress suddenly to complete block without warning — associated with severe LV dysfunction and high mortality. First-degree and Mobitz I block rarely need pacing (low progression risk); Mobitz II with wide QRS, or any high-grade block in anterior MI, is an indication for temporary pacing. First-line treatment of symptomatic high-grade block is atropine 0.5-1 mg IV, repeated every 3-5 minutes to a maximum of 3 mg; if insufficient, chronotropic infusion (dopamine, epinephrine, isoproterenol) pending transvenous pacing, with transcutaneous pacing as a bridge if transvenous is unavailable. Atropine can paradoxically worsen block when the escape rhythm arises from infranodal (His-Purkinje) tissue: atropine increases sinus rate via vagal blockade but has no significant effect on the infranodal escape focus, so the block appears to worsen — chronotropic infusion is indicated instead.",
+    "Bundle Branch Block": "New bundle branch block (BBB) in the ICU does not by itself usually mandate specific action, but should raise suspicion of myocardial infarction. Right bundle branch block (RBBB): QRS >0.12 sec, secondary positive deflection (rsR') in V1, deep slurred S waves in I/aVL/V4-6, secondary ST-T changes V1-V3; causes include pulmonary hypertension, COPD, pulmonary embolism, cor pulmonale, cardiomyopathy, myocarditis, ischaemia, congenital heart disease, and iatrogenic causes (e.g. right heart catheterisation) — new RBBB should raise suspicion for acute cor pulmonale/pulmonary embolism. Left bundle branch block (LBBB): QRS >0.12 sec, absence of septal Q waves in I/aVL/V4-V6, absence of secondary R wave in V1; causes include coronary disease, hypertension, valvular disease, cardiomyopathy, and RV pacing. New BBB in anterior MI signifies a poorer prognosis (larger infarct, LV dysfunction); bifascicular block, trifascicular block, and alternating BBB (both RBBB and LBBB patterns appearing on the same or serial ECGs) warrant consideration of backup temporary pacing.",
+    "Permanent Pacemaker Complications": "Procedure-related complications (mostly acute): haemo/pneumothorax, tamponade (lead perforation), infection. Lead-related: muscle twitching or hiccups from lead dislodgement/phrenic stimulation. Malfunction causing bradycardia: failure to output (pacing artefacts absent — battery depletion, lead fracture/disconnection, or oversensing causing inappropriate inhibition); failure to capture (pacing artefacts present but not followed by depolarisation — lead insulation tear/dislodgement, rising threshold, fibrosis at the electrode-myocardium interface, electrolyte disturbance, MI, or flecainide/antiarrhythmics). Malfunction causing tachycardia: undersensing (pacing artefacts dissociated from intrinsic QRS/P waves, occasionally triggering VT with non-synchronised pacing); inappropriate high pacing rate (tracking atrial flutter/fibrillation, pacemaker-mediated tachycardia, or 'runaway' pacemaker) — a magnet placed over the pacemaker can acutely terminate rapid pacing rates when reprogramming isn't immediately available.",
+    "Special Clinical Contexts for Bradyarrhythmia": "Infective endocarditis: new AV block or BBB implies an aortic root abscess and carries significant risk of abrupt high-grade block — immediate temporary pacing is indicated, with cardiology/cardiac surgery input; aortic valve endocarditis patients should have regular ECG monitoring or daily 12-lead ECGs. Lyme disease: AV block is the most common cardiac manifestation of Lyme myocarditis, usually resolving with antibiotic treatment, but may require temporary pacing. Post-cardiac surgery (particularly valve surgery): bradycardia often requires temporary pacing via epicardial wires placed intraoperatively. Post-TAVR: patients developing conduction abnormalities are managed with a temporary pacemaker while being evaluated for a permanent device."
+  },
+  "questions": [
+    {
+      "id": "arr3_a01",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 68-year-old man in the ICU has the 12-lead ECG shown, compared with a normal ECG recorded on admission two days earlier. What does this ECG show, and what should this new finding prompt the team to consider?",
+      "options": [
+        "A: Complete heart block; arrange urgent temporary pacing",
+        "B: Right bundle branch block; consider evaluation for pulmonary embolism",
+        "C: Normal variant of ventricular conduction; no further action or comparison with prior tracings is required",
+        "D: Left bundle branch block; consider evaluation for myocardial infarction",
+        "E: First-degree AV block; no specific action is required"
+      ],
+      "correct": 3,
+      "explanation": "This ECG shows left bundle branch block: QRS duration >0.12 sec, absence of septal Q waves in the lateral leads (I, aVL, V4-V6), and loss of the secondary R wave in V1. A new BBB in the ICU does not by itself mandate a specific intervention, but should prompt suspicion of an evolving myocardial infarction, particularly given the change from a normal baseline ECG two days earlier. Right bundle branch block has a different, distinctive pattern (secondary positive deflection in V1, deep slurred S waves laterally) and would instead raise suspicion for pulmonary embolism or cor pulmonale if new. First-degree block and complete heart block are distinct ECG diagnoses not represented here, and dismissing a new conduction change as a normal variant risks missing an evolving infarction.",
+      "section": "Bundle Branch Block",
+      "topic": "LBBB recognition new-BBB suspect-MI 12-lead",
+      "image": "images/img_7abdec4136.png",
+      "section_url": null
+    },
+    {
+      "id": "arr3_a02",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 55-year-old man admitted with acute dyspnoea and hypoxaemia develops the 12-lead ECG pattern shown, which was not present on a prior ECG. What does this ECG show, and what diagnosis should be specifically considered?",
+      "options": [
+        "A: Non-specific intraventricular conduction delay; no further evaluation needed",
+        "B: Mobitz type II second-degree AV block; arrange temporary pacing",
+        "C: First-degree AV block; no specific evaluation is required beyond routine review",
+        "D: Right bundle branch block; consider acute cor pulmonale and pulmonary embolism",
+        "E: Left bundle branch block; consider evolving myocardial infarction"
+      ],
+      "correct": 3,
+      "explanation": "This ECG shows right bundle branch block: QRS duration >0.12 sec, a secondary positive deflection (rsR') in V1, deep slurred S waves in I, aVL, and V4-6, with secondary ST-T changes in V1-V3. New RBBB in a patient with acute dyspnoea and hypoxaemia should specifically raise suspicion for acute cor pulmonale from pulmonary embolism, and prompt further investigation such as echocardiography and PE work-up. Left bundle branch block has a distinct pattern (absent septal Q waves, absent secondary R in V1) associated more with ischaemic or hypertensive heart disease. Neither AV block pattern is shown here, and dismissing a new conduction abnormality in this clinical context would miss a time-critical diagnosis.",
+      "section": "Bundle Branch Block",
+      "topic": "RBBB recognition cor-pulmonale PE 12-lead",
+      "image": "images/img_53b3b9a08a.png",
+      "section_url": null
+    },
+    {
+      "id": "arr3_a03",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "An ICU patient recently started on a beta-blocker for rate control has the rhythm strip shown. The PR interval measures 0.24 seconds, the QRS is narrow, and the patient is asymptomatic and haemodynamically stable. What is the most appropriate management?",
+      "options": [
+        "A: Start an isoproterenol infusion to increase the sinus rate",
+        "B: Perform emergency transcutaneous pacing pending transvenous access",
+        "C: Administer atropine 0.5 mg IV immediately to shorten the PR interval",
+        "D: Arrange urgent temporary transvenous pacing given the markedly prolonged PR interval observed on this tracing",
+        "E: No specific treatment is required; continue monitoring and review the need for the beta-blocker"
+      ],
+      "correct": 4,
+      "explanation": "This rhythm strip shows first-degree AV block: PR interval prolongation beyond 0.20 seconds with a narrow QRS complex, reflecting a conduction delay rather than a true block. It is commonly associated with increased vagal tone or AV-nodal-blocking drugs such as beta-blockers. In an asymptomatic, haemodynamically stable patient, first-degree block alone is not an indication for pacing or chronotropic therapy — the appropriate step is continued monitoring and reviewing whether the contributing drug is still needed. Reaching for atropine, isoproterenol, or any form of pacing would be a disproportionate response to an asymptomatic conduction delay with a low risk of progression.",
+      "section": "Atrioventricular Conduction Disease",
+      "topic": "first-degree-AV-block PR-interval beta-blocker conservative-management",
+      "image": "images/img_72a96bea35.jpg",
+      "section_url": null
+    },
+    {
+      "id": "arr3_a04",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient on the cardiology ward develops the rhythm shown on telemetry. What degree of AV block is this?",
+      "options": [
+        "A: Second-degree AV block, Mobitz type I (Wenckebach)",
+        "B: First-degree AV block",
+        "C: Third-degree (complete) AV block, with atria and ventricles beating entirely independently of one another",
+        "D: Second-degree AV block, Mobitz type II",
+        "E: Sinoatrial exit block"
+      ],
+      "correct": 0,
+      "explanation": "This strip shows second-degree AV block, Mobitz type I (Wenckebach): progressive lengthening of the PR interval across successive beats, culminating in a dropped (non-conducted) QRS complex, after which the cycle restarts with a shorter PR interval. This pattern typically arises at the level of the AV node and is usually associated with a narrow QRS complex. First-degree block would show a constant, simply prolonged PR interval with no dropped beats. Mobitz type II shows a constant PR interval before an unheralded dropped beat, without the progressive lengthening seen here. Complete heart block shows atria and ventricles beating entirely independently, and sinoatrial exit block reflects a problem at the SA node itself rather than AV conduction.",
+      "section": "Atrioventricular Conduction Disease",
+      "topic": "Mobitz-I Wenckebach recognition progressive-PR-lengthening raw-strip",
+      "image": "images/img_9d646db9e1.jpg",
+      "section_url": null
+    },
+    {
+      "id": "arr3_a05",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "The annotated rhythm strip shown marks each P wave (arrowheads) and the PR interval (double-headed arrows) leading up to a dropped beat, confirming second-degree AV block, Mobitz type I. The patient is asymptomatic with a stable blood pressure. Based on the PACT module's risk stratification, what is the most appropriate next step?",
+      "options": [
+        "A: Start an isoproterenol infusion pre-emptively to prevent progression",
+        "B: Arrange urgent temporary transvenous pacing regardless of symptoms",
+        "C: Perform emergency transcutaneous pacing immediately as a bridge to urgent permanent pacemaker implantation, regardless of current haemodynamic stability",
+        "D: Continue observation; Mobitz type I carries a low risk of progression to high-grade block and rarely requires pacing",
+        "E: Treat identically to Mobitz type II, since both are second-degree AV block"
+      ],
+      "correct": 3,
+      "explanation": "Mobitz type I block typically arises at the AV node and carries a low risk of progression to high-grade block, so it rarely requires pacing — observation is appropriate in an asymptomatic, haemodynamically stable patient, alongside review of any contributing drugs or vagal triggers. This contrasts sharply with Mobitz type II, particularly with a wide QRS or in the context of anterior MI, which does carry a pacing indication — treating the two identically ignores this important risk distinction. Pre-emptive pacing or chronotropic infusion is not indicated for a low-risk, asymptomatic Mobitz I pattern.",
+      "section": "Atrioventricular Conduction Disease",
+      "topic": "Mobitz-I annotated risk-stratification low-risk observation",
+      "image": "images/img_56a5d1739f.png",
+      "section_url": null
+    },
+    {
+      "id": "arr3_a06",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient develops the rhythm shown on continuous monitoring. The PR interval is measured before and after the non-conducted beat and found to be identical. What degree of AV block does this represent?",
+      "options": [
+        "A: Second-degree AV block, Mobitz type II",
+        "B: Sinus arrest with junctional escape",
+        "C: First-degree AV block",
+        "D: Second-degree AV block, Mobitz type I (Wenckebach)",
+        "E: Third-degree (complete) AV block"
+      ],
+      "correct": 0,
+      "explanation": "A constant PR interval before and after an intermittent dropped beat, without progressive lengthening, defines second-degree AV block, Mobitz type II. This typically arises below the AV node (infranodal, His-Purkinje system) and is often associated with a wide QRS complex and underlying conduction system disease. Mobitz type I would show progressive PR lengthening before the dropped beat, specifically excluded here by the equal pre- and post-drop PR intervals. First-degree block has no dropped beats at all, complete heart block shows total AV dissociation, and sinus arrest reflects failure of P wave generation rather than a conducted-but-blocked P wave.",
+      "section": "Atrioventricular Conduction Disease",
+      "topic": "Mobitz-II recognition constant-PR raw-strip",
+      "image": "images/img_12a3206c82.png",
+      "section_url": null
+    },
+    {
+      "id": "arr3_a07",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with an acute anterior STEMI develops the annotated rhythm strip shown, confirming second-degree AV block, Mobitz type II, with a wide QRS complex. Based on the PACT module's guidance, what is the most appropriate next step?",
+      "options": [
+        "A: Administer atropine 0.5 mg IV as the definitive treatment, since it reliably improves infranodal block",
+        "B: Arrange temporary backup pacing; this combination carries a significant risk of abrupt progression to complete heart block",
+        "C: Continue observation only; Mobitz type II carries the same low risk of progression as Mobitz type I",
+        "D: No action is needed unless the patient becomes hypotensive, since anterior MI block is typically transient and resolves spontaneously within hours",
+        "E: Treat with an antiarrhythmic drug to stabilise the conduction system"
+      ],
+      "correct": 1,
+      "explanation": "Mobitz type II block with a wide QRS complex, especially in the context of anterior myocardial infarction, is a specific indication for temporary backup pacing. In anterior MI, AV block usually reflects infranodal (bundle) disease and can progress abruptly and without warning to complete heart block with a slow, unreliable escape rhythm — a combination associated with severe left ventricular dysfunction and high mortality. Unlike inferior MI (where block is usually nodal, transient, and often atropine-responsive), anterior MI block is not reliably improved by atropine, since atropine acts on the sinus and AV node rather than infranodal tissue — reaching for antiarrhythmics or simply waiting for hypotension would both dangerously delay pacing in a high-risk situation.",
+      "section": "Atrioventricular Conduction Disease",
+      "topic": "Mobitz-II annotated anterior-MI high-risk pacing-indication",
+      "image": "images/img_c448ec9502.png",
+      "section_url": null
+    },
+    {
+      "id": "arr3_a08",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with an inferior STEMI develops the rhythm strip shown, with a ventricular rate of 32 bpm and a wide QRS escape rhythm. Atropine 1 mg IV is given, but the ventricular rate does not improve and appears to fall further. What is the most likely explanation, and what should be done next?",
+      "options": [
+        "A: Atropine has caused paradoxical vagal stimulation and should be reversed with glycopyrrolate",
+        "B: This indicates the rhythm is not truly complete heart block, and the diagnosis should be reconsidered in light of the persistent bradycardia despite an adequate dose of atropine having already been administered",
+        "C: The dose of atropine was too low; repeat atropine up to a cumulative dose of 3 mg",
+        "D: The escape rhythm is infranodal (His-Purkinje) in origin; atropine increases the sinus rate without affecting the infranodal focus, so a chronotropic infusion or pacing is needed instead",
+        "E: Atropine is contraindicated in complete heart block and should never have been given"
+      ],
+      "correct": 3,
+      "explanation": "This rhythm strip shows complete (third-degree) AV block: P waves and QRS complexes occur independently of each other (AV dissociation), with a wide QRS indicating a slow, infranodal escape rhythm. Atropine can paradoxically appear to worsen block when the escape rhythm arises from infranodal tissue: it increases the sinus firing rate via vagal blockade but has little effect on the infranodal focus itself, so the block appears unchanged or worse. The appropriate next step is a chronotropic infusion (dopamine, epinephrine, or isoproterenol) while arranging transvenous pacing, using transcutaneous pacing as a bridge if needed. Simply repeating atropine, blaming vagal overstimulation, or doubting a well-supported diagnosis all misunderstand the mechanism, and atropine is an appropriate (if sometimes ineffective) first-line agent, not a contraindicated one.",
+      "section": "Atrioventricular Conduction Disease",
+      "topic": "complete-heart-block atropine-paradox infranodal-escape chronotropic-infusion",
+      "image": "images/img_96cc5934cb.png",
+      "section_url": null
+    },
+    {
+      "id": "arr3_a09",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 72-year-old woman with longstanding hypothyroidism, not currently on replacement therapy, is admitted with a heart rate of 42 bpm and a normal QRS complex. Which category of sinus node dysfunction aetiology does this most likely represent?",
+      "options": [
+        "A: Drug-induced",
+        "B: Genetic disease",
+        "C: Metabolic disease",
+        "D: Increased vagal tone",
+        "E: Infiltrative disease"
+      ],
+      "correct": 2,
+      "explanation": "Hypothyroidism is specifically listed among the metabolic causes of sinus node dysfunction, alongside hypothermia and hypoxia. It is not a vagal, infiltrative, genetic, or drug-related cause, though these categories share overlapping clinical presentations of bradycardia and must be distinguished by history: infiltrative disease (e.g. amyloidosis, sarcoidosis) usually has other systemic features, genetic causes are typically associated with congenital heart disease, and drug-induced SND requires a relevant medication history that is absent here.",
+      "section": "Sinus Node Dysfunction",
+      "topic": "SND aetiology hypothyroidism metabolic-cause",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr3_a10",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 65-year-old man reports persistent exertional fatigue. His resting heart rate is 68 bpm, but during a treadmill exercise test his heart rate rises to only 95 bpm despite reaching a workload that should produce a much higher rate. What form of sinus node dysfunction does this represent?",
+      "options": [
+        "A: Sinoatrial exit block",
+        "B: Sinus pause",
+        "C: Chronotropic incompetence",
+        "D: Tachycardia-bradycardia syndrome",
+        "E: Inappropriate sinus bradycardia"
+      ],
+      "correct": 2,
+      "explanation": "Chronotropic incompetence is defined as an inadequate heart rate response to physiological demand — here, a blunted heart rate rise despite significant exercise workload, rather than an abnormally slow resting rate. Inappropriate sinus bradycardia refers to a persistently slow resting rate. Sinus pause and sinoatrial exit block are episodic failures of impulse generation or conduction at rest, and tachycardia-bradycardia syndrome describes alternating fast and slow rhythms, none of which match this exercise-specific pattern.",
+      "section": "Sinus Node Dysfunction",
+      "topic": "chronotropic-incompetence exercise inadequate-rate-response",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr3_a11",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with an acute inferior STEMI develops sinus bradycardia at 48 bpm with a normal blood pressure and no evidence of heart failure or ongoing ischaemia. Based on the PACT module's guidance, what is the most appropriate management?",
+      "options": [
+        "A: No specific treatment is required, with continued monitoring",
+        "B: Atropine 3 mg IV as a single bolus",
+        "C: Urgent permanent pacemaker referral",
+        "D: Isoproterenol infusion to maintain the heart rate above 60 bpm",
+        "E: Immediate temporary pacing, as any bradycardia in acute MI requires backup pacing"
+      ],
+      "correct": 0,
+      "explanation": "Sinus node dysfunction occurs in 5-30% of acute MI, often with concomitant AV nodal block, but usually requires no specific treatment unless there is cardiac failure, significant hypotension, or continuing myocardial ischaemia — none of which are present here. Reflexive pacing, a maximal single-dose atropine bolus, or a chronotropic infusion would all be disproportionate interventions for an asymptomatic, haemodynamically stable bradycardia, and a permanent pacemaker referral is premature for what is typically a transient, self-limiting finding in this context.",
+      "section": "Sinus Node Dysfunction",
+      "topic": "SND acute-MI no-treatment-needed transient",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr3_a12",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Which of the following would NOT, by itself, support the need for temporary pacing in a patient with sinus node dysfunction?",
+      "options": [
+        "A: Bradycardia unresponsive to atropine and chronotropic agents",
+        "B: A single, brief, asymptomatic sinus pause that terminates spontaneously",
+        "C: Bradycardia aggravating ventricular irritability",
+        "D: Prolonged, severe bradycardia associated with haemodynamic instability",
+        "E: Severe bradycardia unresponsive to isoproterenol, dopamine, or epinephrine"
+      ],
+      "correct": 1,
+      "explanation": "Temporary pacing should be considered for sinus node dysfunction when bradycardia is prolonged, severe, associated with haemodynamic instability, aggravating ventricular irritability, or unresponsive to atropine and/or chronotropic agents — the other four options all describe recognised indications from this list. A single, brief, self-terminating, asymptomatic pause does not by itself meet any of these criteria and is a recognised benign finding that does not, alone, warrant pacing.",
+      "section": "Sinus Node Dysfunction",
+      "topic": "SND pacing-indications NOT-question benign-pause",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr3_a13",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with symptomatic bradycardia and high-grade AV block is given an initial dose of atropine 0.5 mg IV with minimal effect. According to the PACT module, what is the most appropriate next step before escalating to chronotropic infusion or pacing?",
+      "options": [
+        "A: Switch directly to glycopyrrolate, as atropine is now considered obsolete and inferior for this specific clinical indication",
+        "B: Wait at least 30 minutes between doses to avoid atropine toxicity",
+        "C: Repeat atropine 0.5-1 mg IV, which may be given every 3-5 minutes up to a maximum total dose of 3 mg",
+        "D: Administer a single further dose of 5 mg IV atropine immediately",
+        "E: Do not repeat atropine; proceed directly to chronotropic infusion after any single dose"
+      ],
+      "correct": 2,
+      "explanation": "The PACT module specifies atropine 0.5-1 mg IV, which may be repeated every 3-5 minutes to a maximum total dose of 3 mg, before escalating to chronotropic infusion (dopamine, epinephrine, or isoproterenol) pending transvenous pacing. A single 5 mg bolus exceeds the recommended incremental dosing strategy, waiting 30 minutes between doses is far longer than the recommended interval, and neither switching to glycopyrrolate nor abandoning atropine after one dose reflects the module's stepwise approach.",
+      "section": "Atrioventricular Conduction Disease",
+      "topic": "atropine-dosing repeat-interval maximum-dose",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr3_a14",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with an acute inferior STEMI develops second-degree AV block. Based on the typical mechanism in this context, which statement is most accurate?",
+      "options": [
+        "A: The block most likely reflects AV nodal ischaemia, is usually transient, and often resolves as perfusion is restored",
+        "B: The block is unrelated to the infarct territory and reflects coincidental pre-existing conduction disease",
+        "C: The block is a poor prognostic sign requiring permanent pacemaker implantation in nearly all cases",
+        "D: The block most likely reflects infranodal (bundle) disease and is likely to progress suddenly to complete heart block",
+        "E: The block indicates involvement of the left anterior descending artery territory"
+      ],
+      "correct": 0,
+      "explanation": "AV block in the context of inferior MI (often with right ventricular involvement) usually results from AV nodal ischaemia — the AV node is typically supplied by a branch of the right coronary artery, the vessel most often occluded in inferior MI. This block is usually transient and resolves as the ischaemic insult improves or perfusion is restored. This contrasts with anterior MI, where block instead reflects infranodal (bundle) disease and carries a much higher risk of sudden, unheralded progression to complete heart block. The block is not coincidental, is not an LAD-territory finding, and does not automatically mandate a permanent pacemaker given its typically transient course.",
+      "section": "Atrioventricular Conduction Disease",
+      "topic": "inferior-MI AV-block AV-nodal-ischaemia transient RCA",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr3_a15",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient in the ICU is noted to have a right bundle branch block on a routine ECG, with no prior ECG available for comparison and no acute symptoms. What is the most appropriate approach?",
+      "options": [
+        "A: A permanent pacemaker should be implanted electively within the next 24 hours regardless of symptoms or any further diagnostic evaluation",
+        "B: High-dose beta-blockade should be started to slow conduction further",
+        "C: Immediate cardioversion should be arranged",
+        "D: Urgent temporary pacing is required regardless of symptoms",
+        "E: No specific action is required for the BBB alone, though a new finding should raise suspicion for an acute process such as MI or PE"
+      ],
+      "correct": 4,
+      "explanation": "In the ICU setting, the diagnosis of bundle branch block on the ECG does not by itself usually indicate that any specific action is necessary. However, the development of a new BBB should alert the clinician to the possibility of an underlying acute process such as myocardial infarction (or, for new RBBB specifically, pulmonary embolism/cor pulmonale) — the key question is whether this represents a change from baseline, which is why a prior ECG for comparison is so valuable. Pacing, cardioversion, elective pacemaker implantation, and additional AV-nodal blockade are all disproportionate to an isolated, asymptomatic BBB finding with unknown baseline.",
+      "section": "Bundle Branch Block",
+      "topic": "BBB-general-principle no-action-alone new-BBB-suspect-cause",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr3_a16",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with an anterior MI has a 12-lead ECG showing right bundle branch block; a repeat ECG performed 18 hours later shows left bundle branch block. What is the clinical significance of this finding, and what should be considered?",
+      "options": [
+        "A: This represents alternating bundle branch block, a high-risk finding that should prompt consideration of a backup temporary pacing wire",
+        "B: This is an expected finding after any anterior MI and does not alter management",
+        "C: This is a benign, rate-related conduction variation requiring no specific action",
+        "D: This indicates the first ECG was almost certainly misread or mislabelled, since bundle branch block patterns are fixed and never change over the course of an illness",
+        "E: This confirms the infarct is now resolving and conduction is normalising"
+      ],
+      "correct": 0,
+      "explanation": "Alternating bundle branch block — when both RBBB and LBBB patterns appear on the same ECG, or within a period of hours to days, as seen here — is a recognised high-risk finding in the setting of anterior MI, reflecting extensive conduction system involvement. Insertion of a backup temporary pacing wire should be considered in this situation, alongside bifascicular and trifascicular block. This is not a benign rate-related variant, does not indicate a misread ECG (BBB patterns can genuinely evolve over hours in evolving infarction), and does not represent resolution or a universally expected post-MI finding — most anterior MIs do not develop alternating BBB, and its presence is specifically concerning rather than reassuring.",
+      "section": "Bundle Branch Block",
+      "topic": "alternating-BBB anterior-MI high-risk pacing-wire",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr3_a17",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with known aortic valve infective endocarditis, previously in sinus rhythm, develops new first-degree AV block on a routine daily 12-lead ECG. What does this finding most strongly suggest, and what is the most appropriate next step?",
+      "options": [
+        "A: Worsening valvular regurgitation alone; arrange an outpatient echocardiogram",
+        "B: A sign of treatment failure requiring an entirely new antibiotic regimen to be selected urgently, but not itself an urgent cardiac concern requiring pacing",
+        "C: A benign incidental finding unrelated to the endocarditis; continue routine monitoring only",
+        "D: An expected consequence of the antibiotic regimen; no specific action is required",
+        "E: Development of an aortic root abscess; arrange immediate temporary pacing and involve cardiology and cardiac surgery"
+      ],
+      "correct": 4,
+      "explanation": "In a patient with aortic valve infective endocarditis, the development of new AV block (even first-degree) or bundle branch block specifically implies an aortic root abscess and carries a significant risk of abrupt progression to high-grade block. This is why aortic valve endocarditis patients should be regularly assessed for conduction abnormalities with daily 12-lead ECGs, exactly as done here. Immediate temporary pacing is indicated, together with urgent discussion with cardiology and cardiac surgery — this is not a benign, expected, or purely antibiotic-related finding, and while it may prompt echocardiography, the conduction change itself demands urgent pacing readiness, not merely outpatient follow-up.",
+      "section": "Special Clinical Contexts for Bradyarrhythmia",
+      "topic": "infective-endocarditis aortic-root-abscess new-AV-block urgent-pacing",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr3_a18",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 34-year-old man with a recent history of a tick bite and an erythema migrans rash presents with dizziness and is found to have high-grade AV block. Serology confirms Lyme disease. What is the most appropriate management approach for the AV block?",
+      "options": [
+        "A: Permanent pacemaker implantation is required immediately, as Lyme-associated AV block does not resolve",
+        "B: No cardiac-specific treatment is needed; the AV block is entirely unrelated to the Lyme disease and should be investigated as a completely separate, incidental cardiac process requiring its own workup",
+        "C: Antibiotic treatment should be started, as the AV block frequently resolves with treatment of the underlying infection, though temporary pacing may be needed in the interim",
+        "D: Atropine alone is curative and no antimicrobial therapy is required",
+        "E: Corticosteroids are the definitive treatment for Lyme-associated AV block"
+      ],
+      "correct": 2,
+      "explanation": "AV block is the most common cardiac manifestation of the myocarditis associated with Lyme disease. It frequently resolves with antibiotic treatment of the underlying infection, but may require temporary pacing while treatment takes effect. Permanent pacemaker implantation is not the default first step, since the block is often reversible; the AV block is directly related to the Lyme myocarditis rather than an incidental finding; atropine may have a symptomatic role but is not curative without treating the underlying infection; and corticosteroids are not the described definitive treatment.",
+      "section": "Special Clinical Contexts for Bradyarrhythmia",
+      "topic": "Lyme-disease AV-block resolves-with-antibiotics temporary-pacing",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr3_a19",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient develops bradycardia requiring pacing on the first postoperative day following mitral valve replacement. Temporary epicardial pacing wires are already in place. Where were these wires most likely positioned, and when?",
+      "options": [
+        "A: Placed percutaneously via the femoral vein immediately after the bradycardia was identified",
+        "B: Placed on the epicardial surface of the heart during the surgical procedure itself",
+        "C: Placed via a subcutaneous tunnel from the abdominal wall during the surgery",
+        "D: These are permanent pacemaker leads placed during the same operation",
+        "E: Placed transvenously via the right internal jugular vein in the immediate postoperative period"
+      ],
+      "correct": 1,
+      "explanation": "Bradycardias in post-cardiac surgery patients, particularly after valve surgery, frequently require temporary pacing, and epicardial wires are usually placed directly on the heart's surface during the operation itself, in anticipation of this common postoperative need — allowing immediate pacing access without a further invasive procedure. This is distinct from percutaneous transvenous access (femoral or internal jugular), which would be a separate procedure performed only if epicardial wires were unavailable or had failed, and distinct from a permanent pacemaker, which epicardial wires are not.",
+      "section": "Special Clinical Contexts for Bradyarrhythmia",
+      "topic": "post-cardiac-surgery epicardial-wires intraoperative-placement",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr3_a20",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient develops new left bundle branch block immediately following transcatheter aortic valve replacement (TAVR). What is the most appropriate immediate management approach?",
+      "options": [
+        "A: Permanent pacemaker implantation should be performed immediately, within the same procedure, without further evaluation",
+        "B: No monitoring beyond standard post-procedural observation is required, as conduction abnormalities are not a recognised TAVR complication",
+        "C: A temporary pacemaker should be used while the patient is evaluated for the need for a permanent pacemaker",
+        "D: Emergency cardiac surgery should be arranged to remove the valve prosthesis",
+        "E: Discharge is appropriate once the procedure sedation has worn off, since conduction changes after TAVR are always transient and inconsequential"
+      ],
+      "correct": 2,
+      "explanation": "Post-TAVR patients who develop a conduction abnormality, such as new LBBB, are managed with a temporary pacemaker while they are evaluated for the need for a permanent pacemaker — TAVR is a recognised cause of new conduction disturbance due to the valve prosthesis's proximity to the conduction system. This is neither something to dismiss with early discharge nor something requiring immediate permanent implantation without evaluation, and it does not represent a surgical emergency requiring prosthesis removal.",
+      "section": "Special Clinical Contexts for Bradyarrhythmia",
+      "topic": "TAVR new-LBBB temporary-pacemaker-bridge evaluation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr3_a21",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with an evolving anterior MI develops new right bundle branch block combined with left anterior fascicular block (bifascicular block) on the 12-lead ECG. Based on the PACT module's guidance, what should be considered?",
+      "options": [
+        "A: Cardioversion should be performed to attempt to restore normal conduction",
+        "B: This combination is of no greater concern than an isolated bundle branch block and requires no specific consideration",
+        "C: Immediate permanent pacemaker implantation is mandatory before any further intervention",
+        "D: This pattern specifically excludes the need for any future pacing evaluation, since bifascicular block is inherently stable",
+        "E: Insertion of a backup temporary pacing wire should be considered"
+      ],
+      "correct": 4,
+      "explanation": "In the setting of anterior MI, the PACT module specifically states that insertion of a backup temporary pacing wire should be considered in the case of bifascicular and trifascicular block, as well as alternating bundle branch block — reflecting more extensive conduction system involvement and a harder-to-predict risk of progression to complete heart block. This is more concerning than an isolated BBB, does not mandate an immediate permanent device without further assessment, is not inherently stable, and cardioversion (intended for tachyarrhythmias) is not relevant to a conduction/block problem.",
+      "section": "Bundle Branch Block",
+      "topic": "bifascicular-block anterior-MI backup-pacing-wire",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr3_a22",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with a permanent pacemaker develops bradycardia. The ECG shows regular pacing spikes, but no QRS complex follows each spike. What type of pacemaker malfunction does this represent, and what is a recognised cause?",
+      "options": [
+        "A: Pacemaker-mediated tachycardia, caused by inappropriate tracking of underlying atrial fibrillation or atrial flutter activity",
+        "B: Failure to capture, caused by a rise in pacing threshold from fibrosis at the electrode-myocardium interface",
+        "C: Failure to output, caused by battery depletion",
+        "D: Failure to output, caused by lead fracture",
+        "E: Undersensing, caused by a lead dislodgement"
+      ],
+      "correct": 1,
+      "explanation": "Failure to capture is defined by pacing artefacts (spikes) that are present but not followed by depolarisation of the myocardium — exactly as described. Recognised causes include lead insulation tear or dislodgement, a rise in the pacing threshold, fibrosis at the electrode-myocardium interface, electrolyte disturbances, myocardial infarction, or antiarrhythmic drugs such as flecainide. This is distinct from failure to output, where the pacing spikes themselves are absent (caused by battery depletion, lead fracture/disconnection, or inappropriate oversensing-driven inhibition) — here, the spikes are clearly present, just not producing capture. Undersensing and pacemaker-mediated tachycardia are malfunctions associated with inappropriately fast rates, not bradycardia from failed capture.",
+      "section": "Permanent Pacemaker Complications",
+      "topic": "failure-to-capture vs failure-to-output pacing-spikes-no-QRS",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr3_a23",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Which of the following is NOT listed among the recognised causes of right bundle branch block?",
+      "options": [
+        "A: Right heart catheterisation",
+        "B: Valvular heart disease, such as aortic stenosis, in the absence of any other cause",
+        "C: Pulmonary embolism",
+        "D: Chronic obstructive pulmonary disease with associated chronic pulmonary hypertension and cor pulmonale",
+        "E: Congenital heart disease"
+      ],
+      "correct": 1,
+      "explanation": "Pulmonary embolism, COPD, congenital heart disease, and right heart catheterisation (an iatrogenic cause) are all specifically listed as causes of RBBB. Valvular heart disease is instead listed among the causes of LEFT bundle branch block, not right — a useful discrimination point, since the two lists overlap substantially (both include cardiomyopathy, myocarditis, and ischaemia/infarction) but are not identical.",
+      "section": "Bundle Branch Block",
+      "topic": "RBBB-causes NOT-question valvular-disease-is-LBBB-cause",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr3_k01",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the spectrum of sinus node dysfunction (SND):",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Chronotropic incompetence refers to an inadequate heart rate response to physiological demand, such as exercise.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Tachycardia-bradycardia syndrome is a recognised subtype of sinus node dysfunction.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Fibrosis and degenerative disease of the sinus node is the most common identified cause of sinus node dysfunction.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Sinoatrial exit block and sinus pause/arrest represent the same underlying electrophysiological mechanism and are clinically indistinguishable.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chronotropic incompetence as inadequate rate response to demand is correct, as is tachycardia-bradycardia syndrome being a recognised SND subtype, and fibrosis/degenerative disease being the most common identified cause. Sinoatrial exit block (failure of an otherwise normal sinus impulse to propagate out of the node) and sinus pause/arrest (failure of impulse generation itself) are listed as distinct subtypes of SND with different underlying mechanisms, so treating them as identical and indistinguishable is false.",
+      "section": "Sinus Node Dysfunction",
+      "topic": "SND-subtypes chronotropic-incompetence tachy-brady most-common-cause",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr3_k02",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the aetiology of sinus node dysfunction:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Amyloidosis and sarcoidosis are recognised infiltrative causes of sinus node dysfunction.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Chagas disease is a recognised infectious cause of sinus node dysfunction.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Digoxin and non-dihydropyridine calcium channel blockers are recognised drug causes of sinus node dysfunction.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Hyperthyroidism, rather than hypothyroidism, is the metabolic thyroid disorder associated with sinus node dysfunction.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chagas disease as an infectious cause, amyloidosis/sarcoidosis as infiltrative causes, and digoxin/non-dihydropyridine calcium channel blockers as drug causes are all correct, matching the PACT module's aetiology list. It is hypothyroidism, not hyperthyroidism, that is listed among the metabolic causes of sinus node dysfunction (alongside hypothermia and hypoxia) — hyperthyroidism is more classically associated with tachyarrhythmias such as atrial fibrillation, not bradycardia.",
+      "section": "Sinus Node Dysfunction",
+      "topic": "SND-aetiology Chagas infiltrative drug-causes hypothyroidism",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr3_k03",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the classification of AV conduction disease:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "First-degree AV block reflects a conduction delay rather than a true conduction block, with a normal QRS duration.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The nomenclature of AV conduction disease is based on the underlying anatomical or pathophysiological cause of the block, rather than the ECG pattern.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Mobitz type II second-degree block typically occurs below the AV node and is usually associated with a wide QRS complex.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Mobitz type I second-degree block typically occurs at the level of the AV node and is usually associated with a narrow QRS complex.",
+          "correct": true
+        }
+      ],
+      "explanation": "First-degree block as a delay (not true block) with normal QRS is correct, as is Mobitz I typically being nodal with a narrow QRS and Mobitz II typically being infranodal with a wide QRS. The PACT module explicitly states that AV block nomenclature refers to the ECG pattern, not the underlying pathophysiology or anatomy — so basing the classification on presumed cause rather than ECG appearance is false; treatment decisions are then considered separately, in the clinical context.",
+      "section": "Atrioventricular Conduction Disease",
+      "topic": "AV-block-nomenclature ECG-pattern-based ECG-vs-anatomy",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr3_k04",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding risk stratification of AV block in the context of acute myocardial infarction:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "In the context of anterior myocardial infarction, Mobitz type II block with either a wide or narrow QRS complex is an indication for temporary backup pacing.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "AV block occurring in acute myocardial infarction always requires permanent pacemaker implantation before hospital discharge, regardless of the underlying mechanism.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "First-degree AV block and Mobitz type I block both carry a low risk of progression to high-grade block and rarely require pacing.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Mobitz type II block with a wide QRS complex is an indication for temporary backup pacing.",
+          "correct": true
+        }
+      ],
+      "explanation": "The low-risk status of first-degree and Mobitz type I block, the pacing indication for Mobitz II with wide QRS, and the specific anterior-MI exception (Mobitz II pacing indication regardless of QRS width) are all correct, matching the PACT module's risk stratification. AV block in acute MI does not always require a permanent pacemaker — much of it, especially in inferior MI, is transient and resolves as ischaemia improves, so mandating permanent pacing in every case is false and would lead to unnecessary device implantation.",
+      "section": "Atrioventricular Conduction Disease",
+      "topic": "AV-block-risk-stratification anterior-MI pacing-indications not-always-permanent",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr3_k05",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the use of atropine for symptomatic bradycardia with high-grade AV block:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Atropine can paradoxically appear to worsen AV block when the escape rhythm originates from infranodal (His-Purkinje) tissue.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Atropine acts directly on infranodal (His-Purkinje) tissue to increase conduction velocity, which is why it is effective in all forms of high-grade AV block.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Atropine 0.5-1 mg IV is first-line treatment, and may be repeated every 3-5 minutes up to a maximum of 3 mg.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "If atropine is insufficient or its effect wears off, infusion of a chronotropic agent such as dopamine, epinephrine, or isoproterenol can be used while transvenous pacing is arranged.",
+          "correct": true
+        }
+      ],
+      "explanation": "The recommended atropine dose and repeat schedule, the paradoxical worsening seen with infranodal escape rhythms, and the role of chronotropic infusion as a bridge to pacing are all correct. Atropine does not act directly on infranodal tissue — its effect is mediated through vagal blockade at the sinus and AV node — which is precisely why it can fail (or paradoxically worsen the apparent block) when the escape rhythm arises below the AV node, making the claim that it is 'effective in all forms' of high-grade block false.",
+      "section": "Atrioventricular Conduction Disease",
+      "topic": "atropine-dose-schedule paradox mechanism chronotropic-bridge",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr3_k06",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the ECG features of bundle branch block:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "New right bundle branch block should specifically raise suspicion for acute cor pulmonale, while new left bundle branch block does not carry any comparable diagnostic significance.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Left bundle branch block is characterised by absence of septal Q waves in leads I, aVL, and V4-V6, and absence of a secondary R wave in V1.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Both right and left bundle branch block are defined by a QRS duration greater than 0.12 seconds.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Right bundle branch block is characterised by a secondary positive deflection (rsR') in lead V1 and deep, slurred S waves in leads I, aVL, and V4-6.",
+          "correct": true
+        }
+      ],
+      "explanation": "The RBBB and LBBB ECG criteria described are both correct, as is the shared QRS duration threshold (>0.12 sec) defining bundle branch block in general. New RBBB does specifically raise suspicion for acute cor pulmonale (e.g. pulmonary embolism), but new LBBB is not without diagnostic significance either — a new BBB of either type should alert the physician to the possibility of myocardial infarction, so claiming LBBB carries no comparable significance is false.",
+      "section": "Bundle Branch Block",
+      "topic": "RBBB-criteria LBBB-criteria QRS-duration new-BBB-significance",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr3_k07",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding permanent pacemaker malfunction:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Failure to capture is characterised by pacing artefacts that are present but not followed by myocardial depolarisation, and can be caused by a rise in pacing threshold.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Failure to output is characterised by pacing artefacts that are intermittently or permanently absent on the ECG, and can be caused by battery depletion or lead fracture.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Undersensing produces pacing artefacts that are dissociated from the patient's intrinsic QRS or P waves, and may occasionally trigger ventricular tachycardia with non-synchronised pacing.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "An inappropriately high pacing rate can never be terminated acutely without immediate device reprogramming by a specialist.",
+          "correct": false
+        }
+      ],
+      "explanation": "The definitions and causes of failure to output, failure to capture, and undersensing (with its rare VT-triggering risk) are all correct, matching the PACT module's pacemaker malfunction table. An inappropriately high pacing rate CAN be terminated acutely by placing a magnet over the pacemaker battery, without needing immediate specialist reprogramming — reprogramming is the definitive longer-term solution, but a magnet provides an immediate bridge, so claiming acute termination is never possible without a specialist is false.",
+      "section": "Permanent Pacemaker Complications",
+      "topic": "failure-to-output failure-to-capture undersensing magnet-termination",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "arr3_k08",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding special clinical contexts for bradyarrhythmia:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "AV block associated with Lyme disease myocarditis frequently resolves with antibiotic treatment.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Patients who develop conduction abnormalities after TAVR are managed with a temporary pacemaker while being evaluated for a permanent device.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Epicardial temporary pacing wires placed during cardiac surgery are typically inserted percutaneously via the femoral vein after the operation is complete.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "New AV block or bundle branch block in a patient with aortic valve infective endocarditis implies an aortic root abscess.",
+          "correct": true
+        }
+      ],
+      "explanation": "The aortic-root-abscess association with new conduction disease in endocarditis, the frequent resolution of Lyme-associated AV block with antibiotics, and the temporary-pacemaker bridge strategy after TAVR are all correct. Epicardial pacing wires are placed directly on the heart's epicardial surface during the surgical procedure itself, not inserted percutaneously via the femoral vein afterward — that describes a different, transvenous technique used in other clinical scenarios, so this statement is false.",
+      "section": "Permanent Pacemaker Complications",
+      "topic": "endocarditis-aortic-abscess Lyme-resolves epicardial-wires-intraop TAVR",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}
