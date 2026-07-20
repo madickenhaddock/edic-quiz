@@ -15,17 +15,18 @@
       "question": "A 58-year-old man with AML is receiving induction chemotherapy. He is afebrile on morning ward rounds but develops an oral temperature of 38.5°C at 14:00. His ANC from this morning is 380 cells/µL. He has a tunnelled central venous catheter and is haemodynamically stable with no localising symptoms. What is the most appropriate immediate next step?",
       "options": [
         "A: Draw blood cultures and begin broad-spectrum intravenous antibiotics within 60 minutes",
-        "B: Repeat the temperature measurement in 1–2 hours before initiating antibiotics",
-        "C: Start oral ciprofloxacin plus amoxicillin-clavulanate and observe as an outpatient",
-        "D: Perform CT chest and abdomen to identify a source before antibiotic initiation",
+        "B: Start oral ciprofloxacin plus amoxicillin-clavulanate and observe as an outpatient",
+        "C: Perform CT chest and abdomen to identify a source before antibiotic initiation",
+        "D: Repeat the temperature measurement in 1–2 hours before initiating antibiotics",
         "E: Administer intravenous fluconazole as fungi are the most common early cause of neutropenic fever"
       ],
       "correct": 0,
-      "explanation": "Any neutropenic patient with fever is a medical emergency requiring blood cultures followed by broad-spectrum IV antibiotics within 60 minutes. A single temperature >38.3°C is sufficient — waiting for repeat measurement (option B) delays treatment and increases mortality risk. Option C is the correct approach only for low-risk febrile neutropenia (MASCC ≥21, solid tumour, no comorbidities), which does not apply here. Fungi rarely cause the first febrile episode; bacteria (predominantly gram-positive) are the primary early pathogens — so fluconazole alone is inappropriate.",
+      "explanation": "Any neutropenic patient with fever is a medical emergency requiring blood cultures followed by broad-spectrum IV antibiotics within 60 minutes. A single temperature >38.3°C is sufficient — waiting for repeat measurement delays treatment and increases mortality risk. Managing this as low-risk outpatient therapy is only appropriate for low-risk febrile neutropenia (MASCC ≥21, solid tumour, no comorbidities), which does not apply here. Fungi rarely cause the first febrile episode; bacteria (predominantly gram-positive) are the primary early pathogens, so reaching for antifungal cover alone is inappropriate.",
       "section": "The neutropenic patient",
       "topic": "febrile neutropenia emergency blood cultures antibiotics 60 minutes AML ANC",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "imp3_a02",
@@ -33,18 +34,19 @@
       "set": 1,
       "question": "A 52-year-old woman with breast cancer receiving adjuvant chemotherapy develops fever (38.5°C). Her ANC is 620 cells/µL, expected to nadir at 450 cells/µL for fewer than 5 days. She has no haemodynamic instability, no mucositis, no indwelling catheter, no intra-abdominal symptoms, and no significant comorbidities. Her MASCC score is 24. Which management strategy is most appropriate?",
       "options": [
-        "A: Admit and commence IV piperacillin-tazobactam",
+        "A: Start oral fluconazole prophylaxis only and monitor as an outpatient without any antibacterial therapy at all",
         "B: Prescribe oral ciprofloxacin plus amoxicillin-clavulanate; early hospital discharge is appropriate",
-        "C: Commence IV cefepime plus vancomycin",
-        "D: Administer IV meropenem to cover possible ESBL-producing organisms",
-        "E: Start oral fluconazole prophylaxis only and monitor as outpatient without antibacterials"
+        "C: Admit and commence IV piperacillin-tazobactam",
+        "D: Commence IV cefepime plus vancomycin",
+        "E: Administer IV meropenem to cover possible ESBL-producing organisms"
       ],
       "correct": 1,
-      "explanation": "A MASCC score ≥21 identifies low-risk febrile neutropenia. For low-risk patients with solid tumours and no high-risk features, oral ciprofloxacin plus amoxicillin-clavulanate with early or ambulatory management is guideline-recommended. Option A uses an appropriate antibiotic but involves unnecessary inpatient IV therapy for a low-risk patient. Option C adds vancomycin without an indication. Meropenem is reserved for ESBL-suspected or treatment-failure scenarios, not first-line empiric therapy for low-risk patients. Antibacterials cannot be omitted in febrile neutropenia.",
+      "explanation": "A MASCC score ≥21 identifies low-risk febrile neutropenia. For low-risk patients with solid tumours and no high-risk features, oral ciprofloxacin plus amoxicillin-clavulanate with early or ambulatory management is guideline-recommended. Using an appropriate antibiotic but committing to unnecessary inpatient IV therapy overtreats a genuinely low-risk patient. Adding vancomycin without an indication, or reaching for meropenem (reserved for ESBL-suspected or treatment-failure scenarios), both overtreat this presentation. Antibacterials cannot be omitted in febrile neutropenia regardless of risk category.",
       "section": "The neutropenic patient",
       "topic": "MASCC ≥21 low-risk febrile neutropenia oral outpatient ciprofloxacin amoxicillin-clavulanate",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "imp3_a03",
@@ -53,17 +55,18 @@
       "question": "A 61-year-old man with ALL is admitted with high-risk febrile neutropenia (ANC 210 cells/µL, expected duration >7 days, MASCC score 18). He is haemodynamically stable with no localising signs, no drug allergies, and no prior colonisation with resistant organisms. Which is the most appropriate empiric antibiotic approach?",
       "options": [
         "A: IV piperacillin-tazobactam monotherapy",
-        "B: IV vancomycin monotherapy",
+        "B: IV ceftriaxone monotherapy",
         "C: IV tobramycin (aminoglycoside) monotherapy",
-        "D: IV ceftriaxone monotherapy",
-        "E: Oral ciprofloxacin monotherapy"
+        "D: Oral ciprofloxacin monotherapy",
+        "E: IV vancomycin monotherapy"
       ],
       "correct": 0,
-      "explanation": "Anti-pseudomonal beta-lactam monotherapy — piperacillin-tazobactam, cefepime, or a carbapenem — is the standard empiric regimen for high-risk febrile neutropenia. Vancomycin alone provides no gram-negative cover and is not a recommended monotherapy. Aminoglycoside monotherapy (option C) is not recommended as sole initial therapy due to inferior efficacy and significant nephrotoxicity in this setting. Ceftriaxone lacks reliable anti-pseudomonal activity. Oral therapy is inappropriate for high-risk febrile neutropenia.",
+      "explanation": "Anti-pseudomonal beta-lactam monotherapy — piperacillin-tazobactam, cefepime, or a carbapenem — is the standard empiric regimen for high-risk febrile neutropenia. Vancomycin alone provides no gram-negative cover and is not a recommended monotherapy. Aminoglycoside monotherapy is not recommended as sole initial therapy due to inferior efficacy and significant nephrotoxicity in this setting. Ceftriaxone lacks reliable anti-pseudomonal activity. Oral therapy is inappropriate for high-risk febrile neutropenia.",
       "section": "The neutropenic patient",
       "topic": "high-risk febrile neutropenia empiric monotherapy pip-tazo cefepime carbapenem anti-pseudomonal",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "imp3_a04",
@@ -71,18 +74,19 @@
       "set": 1,
       "question": "A 55-year-old patient with lymphoma and high-risk febrile neutropenia has just been commenced on IV piperacillin-tazobactam. The team discusses whether to add vancomycin. Which of the following is NOT an indication to add a glycopeptide to the empiric regimen?",
       "options": [
-        "A: Haemodynamic instability or signs of severe sepsis",
-        "B: Suspected tunnelled catheter-related bloodstream infection",
-        "C: Fever persisting for 24 hours despite adequate beta-lactam therapy",
-        "D: Known colonisation with MRSA",
-        "E: Positive blood culture for gram-positive organisms while awaiting speciation"
+        "A: Suspected tunnelled catheter-related bloodstream infection",
+        "B: Positive blood culture for gram-positive organisms while awaiting speciation",
+        "C: Haemodynamic instability or signs of severe sepsis",
+        "D: Fever persisting for 24 hours despite adequate beta-lactam therapy",
+        "E: Known colonisation with MRSA"
       ],
-      "correct": 2,
+      "correct": 3,
       "explanation": "Vancomycin is not recommended as a routine addition to empiric febrile neutropenia regimens. Validated indications include: haemodynamic instability or severe sepsis; pneumonia; known MRSA colonisation; gram-positive bacteraemia pending speciation; and suspected catheter, skin or soft tissue infection. Persistence of fever for 24 hours alone is NOT an indication for vancomycin — it is simply expected in many patients early in therapy. Fever persisting for 4–7 days despite adequate antibacterials, in the context of prolonged expected neutropenia, is the trigger for empirical antifungal therapy, not vancomycin.",
       "section": "The neutropenic patient",
       "topic": "vancomycin NOT indication neutropenic fever 24h persistence antifungal persistent fever trigger",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "imp3_a05",
@@ -90,18 +94,19 @@
       "set": 1,
       "question": "A 48-year-old woman with AML has been receiving IV piperacillin-tazobactam for 6 days for high-risk febrile neutropenia. She remains febrile (38.4°C), ANC is 90 cells/µL expected to remain <500 cells/µL for at least 5 more days. Blood cultures are persistently negative and there are no new clinical findings. She is haemodynamically stable. What is the most appropriate next step?",
       "options": [
-        "A: Broaden to IV meropenem to cover possible ESBL-producing organisms",
-        "B: Add IV vancomycin for possible occult gram-positive bacteraemia",
-        "C: Add empirical antifungal therapy (echinocandin or liposomal amphotericin B)",
-        "D: Commence granulocyte colony-stimulating factor (G-CSF)",
-        "E: Discontinue antibacterials and restart after obtaining new cultures"
+        "A: Add IV vancomycin for possible occult gram-positive bacteraemia",
+        "B: Broaden to IV meropenem to cover possible ESBL-producing organisms",
+        "C: Commence granulocyte colony-stimulating factor (G-CSF)",
+        "D: Add empirical antifungal therapy (echinocandin or liposomal amphotericin B)",
+        "E: Discontinue antibacterials entirely and restart only after obtaining a fresh set of blood cultures"
       ],
-      "correct": 2,
-      "explanation": "Persistent fever for 4–7 days despite broad-spectrum antibacterials in a patient with expected prolonged neutropenia (>7 days) is the principal indication for empirical antifungal therapy targeting Candida and Aspergillus. Option A is reasonable if gram-negative resistance is clinically suspected but does not address the unmet need for antifungal cover. Vancomycin is not indicated for uncomplicated fever persistence. Routine G-CSF is not recommended for established febrile neutropenia. Stopping antibacterials without replacement in ongoing neutropenia and fever would be dangerous.",
+      "correct": 3,
+      "explanation": "Persistent fever for 4–7 days despite broad-spectrum antibacterials in a patient with expected prolonged neutropenia (>7 days) is the principal indication for empirical antifungal therapy targeting Candida and Aspergillus. Broadening gram-negative cover further is reasonable if resistance is clinically suspected but does not address the unmet need for antifungal cover. Vancomycin is not indicated for uncomplicated fever persistence. Routine G-CSF is not recommended for established febrile neutropenia. Stopping antibacterials without replacement in ongoing neutropenia and fever would be dangerous.",
       "section": "The neutropenic patient",
       "topic": "persistent neutropenic fever 4-7 days empiric antifungal echinocandin liposomal amphotericin",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "imp3_a06",
@@ -109,18 +114,19 @@
       "set": 1,
       "question": "A 40-year-old man with AML and ANC 70 cells/µL develops fever, crampy abdominal pain, and bloody diarrhoea. CT abdomen shows diffuse bowel wall thickening in the right colon. Neutropenic enterocolitis is suspected. Which of the following should be AVOIDED?",
       "options": [
-        "A: CT scan of the abdomen and pelvis",
-        "B: Blood cultures including simultaneous peripheral vein and CVC sets",
+        "A: Empirical antibiotics including anaerobic coverage",
+        "B: Stool culture and Clostridioides difficile toxin testing",
         "C: Colonoscopy to obtain tissue for microbiological diagnosis",
-        "D: Empirical antibiotics including anaerobic coverage",
-        "E: Stool culture and Clostridioides difficile toxin testing"
+        "D: Blood cultures including simultaneous peripheral vein and CVC sets",
+        "E: CT scan of the abdomen and pelvis"
       ],
       "correct": 2,
       "explanation": "Colonoscopy is contraindicated in neutropenic enterocolitis because air insufflation and instrument manipulation carry a high risk of bowel perforation through the inflamed and friable wall. CT scan is the diagnostic method of choice, identifying bowel wall thickening that may not be apparent on plain films. Blood cultures, stool cultures and C. difficile testing are all appropriate investigations. Antibiotics including anaerobic coverage are a cornerstone of management. Surgical intervention is reserved for confirmed perforation.",
       "section": "The neutropenic patient",
       "topic": "neutropenic enterocolitis colonoscopy contraindicated perforation CT blood cultures antibiotics anaerobic",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "imp3_a07",
@@ -128,18 +134,19 @@
       "set": 1,
       "question": "A 63-year-old man with multiple myeloma has a tunnelled CVC. Blood cultures drawn simultaneously from the CVC and a peripheral vein both grow the same organism, confirming a catheter-related bloodstream infection. For which of the following organisms is immediate CVC removal mandated over antibiotic lock therapy?",
       "options": [
-        "A: Coagulase-negative Staphylococcus",
-        "B: Enterococcus faecalis",
-        "C: Candida parapsilosis",
-        "D: Streptococcus viridans",
-        "E: Corynebacterium jeikeium"
+        "A: Corynebacterium jeikeium",
+        "B: Candida parapsilosis",
+        "C: Coagulase-negative Staphylococcus",
+        "D: Enterococcus faecalis",
+        "E: Streptococcus viridans"
       ],
-      "correct": 2,
+      "correct": 1,
       "explanation": "CVC removal combined with antifungal therapy is mandated for catheter-related bloodstream infections caused by Candida species (as well as S. aureus, P. aeruginosa, and non-tuberculous mycobacteria) due to the risk of disseminated candidiasis, endophthalmitis, and endocarditis with retained hardware. Coagulase-negative Staphylococcus is the near-miss — it may be managed with antibiotic lock therapy if catheter preservation is strongly desired — but Candida is an absolute indication for removal. Enterococcus, Streptococcus viridans, and Corynebacterium generally permit a catheter-preservation approach with lock therapy.",
       "section": "The neutropenic patient",
       "topic": "CVC removal mandated Candida S aureus Pseudomonas lock therapy coagulase-negative permitted",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "imp3_a08",
@@ -147,18 +154,19 @@
       "set": 1,
       "question": "A CMV-seronegative patient (R−) is scheduled to receive a kidney from a CMV-seropositive donor (D+). Which statement best characterises this donor–recipient combination with respect to CMV infection risk after transplantation?",
       "options": [
-        "A: This represents the lowest risk combination for CMV infection",
-        "B: This represents the highest risk combination for CMV infection",
-        "C: Risk is intermediate, equivalent to the D+/R+ combination",
+        "A: This represents the highest risk combination for CMV infection",
+        "B: This represents the lowest risk combination for CMV infection",
+        "C: Routine CMV surveillance is not required as primary infection is rare post-transplant",
         "D: Risk is equivalent to the D−/R+ combination as prior serostatus of the recipient is irrelevant",
-        "E: Routine CMV surveillance is not required as primary infection is rare post-transplant"
+        "E: Risk is intermediate, equivalent to the D+/R+ combination"
       ],
-      "correct": 1,
-      "explanation": "The D+/R− combination carries the highest CMV risk because the seronegative recipient has no pre-existing CMV-specific T-cell or antibody immunity and is exposed to donor-derived viral load under iatrogenic immunosuppression. The D+/R+ combination (option C, the near-miss) also carries high risk from potential superinfection with donor virus, but residual host immunity provides partial protection, making it intermediate rather than the highest risk. D−/R+ is intermediate and D−/R− is the lowest risk. Anti-CMV prophylaxis or pre-emptive monitoring is standard for D+/R− recipients.",
+      "correct": 0,
+      "explanation": "The D+/R− combination carries the highest CMV risk because the seronegative recipient has no pre-existing CMV-specific T-cell or antibody immunity and is exposed to donor-derived viral load under iatrogenic immunosuppression. The D+/R+ combination also carries meaningful risk from potential superinfection with donor virus, but residual host immunity provides partial protection, making it intermediate rather than the highest risk — so equating the two overstates the D+/R+ risk. D−/R+ is intermediate and D−/R− is the lowest risk. Anti-CMV prophylaxis or pre-emptive monitoring is standard for D+/R− recipients, so dismissing routine surveillance as unnecessary is incorrect.",
       "section": "Infection following solid organ transplantation",
       "topic": "CMV D+R- highest risk seronegative recipient seropositive donor SOT risk stratification",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "imp3_a09",
@@ -166,18 +174,19 @@
       "set": 1,
       "question": "A 67-year-old liver transplant recipient presents 8 weeks post-transplant with 10 days of fever, fatigue, leukopenia, elevated transaminases, and a dry cough. Active CMV disease is suspected. Which of the following investigations is LEAST useful for confirming active CMV disease?",
       "options": [
-        "A: Quantitative CMV PCR in blood",
-        "B: CMV pp65 antigenemia assay",
-        "C: Bronchoalveolar lavage for CMV culture and PCR",
-        "D: CMV IgM and IgG serology",
-        "E: Histological examination of a liver biopsy specimen for CMV inclusion bodies"
+        "A: CMV pp65 antigenemia assay",
+        "B: Bronchoalveolar lavage for CMV culture and PCR",
+        "C: Quantitative CMV PCR in blood",
+        "D: Histological examination of a liver biopsy specimen for CMV inclusion bodies",
+        "E: CMV IgM and IgG serology"
       ],
-      "correct": 3,
+      "correct": 4,
       "explanation": "CMV serology (IgM/IgG) has no diagnostic value for active CMV disease in transplant recipients. Under immunosuppression, antibody responses are unreliable markers of active viral replication; the pre-transplant serological status is used for risk stratification only. Quantitative PCR and pp65 antigenemia are the validated methods to detect and quantify active viraemia. BAL with CMV PCR and culture is valuable for diagnosing CMV pneumonitis. Liver biopsy showing cytomegalic inclusion bodies is diagnostic of CMV hepatitis as end-organ disease.",
       "section": "Infection following solid organ transplantation",
       "topic": "CMV serology NOT useful active disease PCR antigenemia BAL histology diagnosis",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "imp3_a10",
@@ -185,18 +194,19 @@
       "set": 1,
       "question": "A kidney transplant recipient on tacrolimus and mycophenolate at 3 months post-transplant develops CMV pneumonitis with quantitative PCR viral load 45,000 IU/mL. What is the first-line treatment?",
       "options": [
-        "A: Foscarnet IV",
-        "B: Cidofovir IV",
-        "C: Ganciclovir IV",
-        "D: Aciclovir IV",
-        "E: High-dose oral valganciclovir"
+        "A: Cidofovir IV",
+        "B: Foscarnet IV",
+        "C: Aciclovir IV",
+        "D: High-dose oral valganciclovir",
+        "E: Ganciclovir IV"
       ],
-      "correct": 2,
-      "explanation": "Ganciclovir is the established treatment of choice for CMV disease in immunocompromised patients. IV ganciclovir is preferred over oral valganciclovir for serious manifestations such as pneumonitis, where reliable bioavailability of the oral agent cannot be guaranteed. Aciclovir has minimal activity against CMV. Foscarnet and cidofovir (options A and B) are reserved for ganciclovir-resistant CMV but carry substantial nephrotoxicity. The near-miss is option E: valganciclovir is used for prophylaxis and pre-emptive therapy of mild or moderate disease, but IV ganciclovir is the preferred first-line agent for end-organ CMV disease.",
+      "correct": 4,
+      "explanation": "Ganciclovir is the established treatment of choice for CMV disease in immunocompromised patients. IV ganciclovir is preferred over oral valganciclovir for serious manifestations such as pneumonitis, where reliable bioavailability of the oral agent cannot be guaranteed. Aciclovir has minimal activity against CMV. Foscarnet and cidofovir are reserved for ganciclovir-resistant CMV but carry substantial nephrotoxicity. Reaching for oral valganciclovir even at high dose is the near-miss: it is used for prophylaxis and pre-emptive therapy of mild or moderate disease, but IV ganciclovir remains the preferred first-line agent for end-organ CMV disease.",
       "section": "Infection following solid organ transplantation",
       "topic": "CMV pneumonitis treatment ganciclovir IV first-line valganciclovir oral prophylaxis foscarnet resistance",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "imp3_a11",
@@ -204,18 +214,19 @@
       "set": 1,
       "question": "A 47-year-old man is readmitted to ICU on day 26 after renal transplantation with fever and a surgical wound infection. Wound cultures yield Candida albicans. Which of the following best explains the timing and type of infection?",
       "options": [
-        "A: An opportunistic infection typical of the 1–6 month post-transplant period due to cumulative immunosuppression",
-        "B: A donor-derived or surgical site complication characteristic of the first month post-transplant",
-        "C: A late community-acquired infection reflecting residual immunosuppression",
+        "A: A late community-acquired infection reflecting residual immunosuppression",
+        "B: An opportunistic infection typical of the 1–6 month post-transplant period due to cumulative immunosuppression",
+        "C: A donor-derived or surgical site complication characteristic of the first month post-transplant",
         "D: This likely represents colonisation only; antifungal therapy should be deferred pending repeat cultures",
         "E: A manifestation of CMV-induced immunosuppression enabling secondary fungal breakthrough"
       ],
-      "correct": 1,
-      "explanation": "In the first month after solid organ transplantation, infections are dominated by donor-derived pathogens and surgical complications — including anastomotic infections, haematoma superinfection, surgical site infections, catheter-related infections and UTIs. Candida species frequently colonise both recipient and donor pretransplant and can emerge as surgical site pathogens in this early window. The 1–6 month period (option A, the near-miss) represents peak risk for opportunistic infections such as CMV and PCP, not surgical site candidiasis 26 days post-operatively.",
+      "correct": 2,
+      "explanation": "In the first month after solid organ transplantation, infections are dominated by donor-derived pathogens and surgical complications — including anastomotic infections, haematoma superinfection, surgical site infections, catheter-related infections and UTIs. Candida species frequently colonise both recipient and donor pretransplant and can emerge as surgical site pathogens in this early window. Attributing this to the peak opportunistic-infection window is the near-miss: that period is 1–6 months post-transplant, not surgical site candidiasis at day 26. Dismissing the positive culture as mere colonisation requiring no treatment, or attributing it to CMV-driven immunosuppression, both overlook the straightforward surgical-site-infection explanation that fits the timing.",
       "section": "Infection following solid organ transplantation",
       "topic": "SOT first month surgical donor-derived Candida wound infection timeline not opportunistic",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "imp3_a12",
@@ -223,18 +234,19 @@
       "set": 1,
       "question": "A 34-year-old man with newly diagnosed HIV (no prior cART) is admitted to ICU with a 3-week history of progressive dyspnoea and non-productive cough. CD4 count is 145 cells/µL. PaO2 on room air is 62 mmHg. High-resolution CT shows bilateral perihilar ground-glass opacities sparing the periphery with intraparenchymal cysts. Which treatment regimen is most appropriate?",
       "options": [
-        "A: IV ceftriaxone plus azithromycin",
-        "B: TMP-SMX plus prednisone",
+        "A: IV ganciclovir",
+        "B: IV liposomal amphotericin B",
         "C: TMP-SMX alone",
-        "D: IV ganciclovir",
-        "E: IV liposomal amphotericin B"
+        "D: TMP-SMX plus prednisone",
+        "E: IV ceftriaxone plus azithromycin"
       ],
-      "correct": 1,
-      "explanation": "This presentation is classic for PCP: subacute course over weeks, CD4 <200 cells/µL, perihilar bilateral ground-glass opacities with peripheral sparing and intraparenchymal cysts. TMP-SMX is the treatment of choice. Adjunctive prednisone is mandatory when PaO2 <70 mmHg on room air, reducing respiratory deterioration and mortality by attenuating the inflammatory response to dying fungi. Option C is the near-miss — TMP-SMX is correct but omits prednisone, which is critically important at this level of hypoxaemia. CMV pneumonitis (option D) is much less likely with this subacute presentation and typical CT pattern.",
+      "correct": 3,
+      "explanation": "This presentation is classic for PCP: subacute course over weeks, CD4 <200 cells/µL, perihilar bilateral ground-glass opacities with peripheral sparing and intraparenchymal cysts. TMP-SMX is the treatment of choice. Adjunctive prednisone is mandatory when PaO2 <70 mmHg on room air, reducing respiratory deterioration and mortality by attenuating the inflammatory response to dying fungi. Giving TMP-SMX alone without prednisone is the near-miss: the antimicrobial choice is correct but omits a step that is critically important at this level of hypoxaemia. CMV pneumonitis is much less likely with this subacute presentation and typical CT pattern.",
       "section": "The ICU patient with HIV disease",
       "topic": "HIV PCP TMP-SMX prednisone PaO2 <70 mmHg CD4 <200 perihilar ground-glass cysts",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "imp3_a13",
@@ -242,18 +254,19 @@
       "set": 1,
       "question": "A 29-year-old woman with HIV/AIDS is diagnosed with PCP (PaO2 76 mmHg on room air) and starts TMP-SMX. cART is initiated on day 5 of PCP treatment. Two weeks after starting cART she develops worsening hypoxaemia and new bilateral infiltrates despite ongoing PCP treatment. Repeat BAL finds no new pathogen. What is the most likely explanation?",
       "options": [
-        "A: Secondary bacterial pneumonia superimposed on PCP",
-        "B: TMP-SMX adverse reaction causing pneumonitis",
-        "C: Immune reconstitution inflammatory syndrome (IRIS)",
-        "D: PCP treatment failure requiring escalation to IV pentamidine",
-        "E: CMV pneumonitis emerging after immune reconstitution"
+        "A: PCP treatment failure requiring escalation to IV pentamidine",
+        "B: Immune reconstitution inflammatory syndrome (IRIS)",
+        "C: TMP-SMX adverse reaction causing pneumonitis",
+        "D: CMV pneumonitis emerging after immune reconstitution",
+        "E: Secondary bacterial pneumonia superimposed on PCP"
       ],
-      "correct": 2,
-      "explanation": "IRIS is a paradoxical worsening of a treated or unrecognised opportunistic infection occurring weeks to months after cART initiation, as recovering immune function mounts an exaggerated inflammatory response to residual antigens. Respiratory deterioration in a PCP patient who has started cART, in the absence of a new pathogen on repeat BAL, is the canonical scenario. cART should not be interrupted except in life-threatening cases; treatment with prednisone is appropriate (unless the infection is cryptococcal meningitis or Kaposi's sarcoma). The near-miss is option D — treatment failure is possible but requires microbiological confirmation; the temporal link to cART and negative BAL strongly favours IRIS.",
+      "correct": 1,
+      "explanation": "IRIS is a paradoxical worsening of a treated or unrecognised opportunistic infection occurring weeks to months after cART initiation, as recovering immune function mounts an exaggerated inflammatory response to residual antigens. Respiratory deterioration in a PCP patient who has started cART, in the absence of a new pathogen on repeat BAL, is the canonical scenario. cART should not be interrupted except in life-threatening cases; treatment with prednisone is appropriate (unless the infection is cryptococcal meningitis or Kaposi's sarcoma). Escalating to IV pentamidine for presumed treatment failure is the near-miss: that would require microbiological confirmation of ongoing PCP, and the temporal link to cART together with a negative repeat BAL strongly favours IRIS instead.",
       "section": "The ICU patient with HIV disease",
       "topic": "IRIS cART initiation PCP paradoxical worsening immune reconstitution do not stop cART prednisone",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "imp3_a14",
@@ -261,18 +274,19 @@
       "set": 1,
       "question": "A 14-year-old boy underwent T-cell-depleted allogeneic HSCT 45 days ago (myeloablative conditioning, unrelated mismatched donor). He now presents with high adenovirus DNA load in blood, along with pneumonia, hepatitis, haemorrhagic cystitis and colitis. Which antiviral agent is most widely used for treating disseminated adenovirus disease in this setting?",
       "options": [
-        "A: Ganciclovir",
-        "B: Aciclovir",
-        "C: Cidofovir",
-        "D: Foscarnet",
-        "E: Ribavirin"
+        "A: Cidofovir",
+        "B: Ganciclovir",
+        "C: Aciclovir",
+        "D: Ribavirin",
+        "E: Foscarnet"
       ],
-      "correct": 2,
+      "correct": 0,
       "explanation": "Cidofovir is the most widely used antiviral for adenovirus infection in HSCT patients. The clinical picture — post-allogeneic HSCT with T-cell depletion, myeloablative conditioning, mismatched unrelated donor, day 45 — represents the highest-risk profile for adenovirus reactivation from the GI tract. Disseminated adenovirus carries a mortality of 8–26%, demanding prompt treatment. Ganciclovir (the near-miss, given the post-engraftment timing suggesting CMV risk) has no meaningful activity against adenovirus. Aciclovir and foscarnet are antiherpesvirals. Treatment also includes reducing immunosuppressive therapy where possible.",
       "section": "Infection following haematopoietic stem cell transplantation",
       "topic": "adenovirus HSCT cidofovir allogeneic T-cell depletion disseminated 8-26% mortality GI reactivation",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "imp3_a15",
@@ -280,18 +294,19 @@
       "set": 1,
       "question": "A 55-year-old woman with HCV-related decompensated cirrhosis (Child-Pugh B, MELD score 14) without hepatocellular carcinoma is listed for liver transplantation. According to EASL guidance, what is the most appropriate approach regarding direct-acting antiviral (DAA) therapy?",
       "options": [
-        "A: Defer all HCV treatment until after liver transplantation",
-        "B: Initiate DAA therapy now, before transplantation",
-        "C: Wait until MELD exceeds 18–20 before starting DAA therapy pretransplant",
+        "A: Wait until MELD exceeds 18–20 before starting DAA therapy pretransplant",
+        "B: Proceed directly to transplantation regardless of MELD because post-transplant DAA is equally effective",
+        "C: Initiate DAA therapy now, before transplantation",
         "D: Treat only if HCV RNA is spontaneously undetectable on serial testing",
-        "E: Proceed directly to transplantation regardless of MELD because post-transplant DAA is equally effective"
+        "E: Defer all HCV treatment until after liver transplantation"
       ],
-      "correct": 1,
-      "explanation": "EASL recommends that patients with decompensated cirrhosis (Child-Pugh B or C) without HCC awaiting liver transplantation should receive DAA therapy when their MELD score is <18–20. This patient's MELD of 14 falls below this threshold, making pretransplant treatment the appropriate choice — HCV eradication prevents the otherwise universal graft reinfection and associated rapid progressive disease. The near-miss is option C, which inverts the EASL criterion: MELD >18–20 patients lack sufficient hepatic reserve and should be transplanted first, then treated post-transplant. Without any antiviral therapy, HCV reinfection of the new graft is universal.",
+      "correct": 2,
+      "explanation": "EASL recommends that patients with decompensated cirrhosis (Child-Pugh B or C) without HCC awaiting liver transplantation should receive DAA therapy when their MELD score is <18–20. This patient's MELD of 14 falls below this threshold, making pretransplant treatment the appropriate choice — HCV eradication prevents the otherwise universal graft reinfection and associated rapid progressive disease. Waiting until MELD exceeds 18-20 before treating is the near-miss, since it inverts the EASL criterion: MELD >18–20 patients lack sufficient hepatic reserve and should be transplanted first, then treated post-transplant. Without any antiviral therapy, HCV reinfection of the new graft is universal.",
       "section": "Infection following solid organ transplantation",
       "topic": "HCV liver transplant EASL DAA pretransplant MELD <18-20 Child-Pugh decompensated cirrhosis",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "imp3_k01",
@@ -299,16 +314,33 @@
       "set": 1,
       "question": "Regarding definitions and epidemiology of febrile neutropenia:",
       "statements": [
-        {"label": "A", "text": "Severe neutropenia is defined as ANC <500 cells/µL (or expected to fall below 500 within 48 hours).", "correct": true},
-        {"label": "B", "text": "Neutropenic fever is defined as a single oral temperature >38.3°C OR ≥38.0°C sustained over one hour.", "correct": true},
-        {"label": "C", "text": "A causative organism is identified in more than 50% of febrile neutropenic episodes.", "correct": false},
-        {"label": "D", "text": "Gram-positive bacteria now account for the majority of documented bacteraemias in neutropenic patients.", "correct": true}
+        {
+          "label": "A",
+          "text": "Gram-positive bacteria now account for the majority of documented bacteraemias in neutropenic patients.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Severe neutropenia is defined as ANC <500 cells/µL (or expected to fall below 500 within 48 hours).",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Neutropenic fever is defined as a single oral temperature >38.3°C OR ≥38.0°C sustained over one hour.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "A causative organism is identified in more than 50% of febrile neutropenic episodes.",
+          "correct": false
+        }
       ],
-      "explanation": "Severe neutropenia is ANC <500 cells/µL (or predicted to reach this within 48 h); ANC <200 cells/µL defines agranulocytosis. The fever definition requires either a single temperature >38.3°C or sustained ≥38.0°C for one hour. Statement C is false: approximately 80% of patients are 'considered infected' but a causative organism is identified in fewer than 50%, and bacteraemia is documented in only 10–25% of episodes. The shift to gram-positive predominance reflects increased CVC use, broad-spectrum prophylaxis against gram-negatives, and newer chemotherapy regimens — though gram-negatives remain associated with more severe sepsis.",
+      "explanation": "Severe neutropenia being ANC <500 cells/µL (or predicted to reach this within 48 h), and the fever definition requiring either a single temperature >38.3°C or sustained ≥38.0°C for one hour, are both correct. Claiming a causative organism is identified in more than 50% of episodes is false: approximately 80% of patients are 'considered infected' but a causative organism is identified in fewer than 50%, and bacteraemia is documented in only 10–25% of episodes. The shift to gram-positive predominance reflects increased CVC use, broad-spectrum prophylaxis against gram-negatives, and newer chemotherapy regimens, and is correctly described.",
       "section": "The neutropenic patient",
       "topic": "neutropenia severe ANC 500 fever 38.3 causative organism <50% gram-positive predominance bacteraemia",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "imp3_k02",
@@ -316,16 +348,33 @@
       "set": 1,
       "question": "Regarding risk stratification in patients with febrile neutropenia:",
       "statements": [
-        {"label": "A", "text": "A MASCC score <21 identifies patients at high risk for serious complications.", "correct": true},
-        {"label": "B", "text": "A CISNE score ≥3 identifies high-risk patients among those with solid tumours.", "correct": true},
-        {"label": "C", "text": "Anticipated severe neutropenia lasting more than 7 days is a high-risk criterion.", "correct": true},
-        {"label": "D", "text": "Alemtuzumab or CAR-T cell therapy within the past 6 months constitutes a high-risk criterion.", "correct": false}
+        {
+          "label": "A",
+          "text": "Alemtuzumab or CAR-T cell therapy within the past 6 months constitutes a high-risk criterion.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Anticipated severe neutropenia lasting more than 7 days is a high-risk criterion.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "A MASCC score <21 identifies patients at high risk for serious complications.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "A CISNE score ≥3 identifies high-risk patients among those with solid tumours.",
+          "correct": true
+        }
       ],
-      "explanation": "MASCC <21, CISNE ≥3 (in solid tumour patients), and anticipated neutropenia >7 days are all validated high-risk criteria requiring IV empiric therapy. Statement D is false: the guideline specifies alemtuzumab or CAR-T cell therapy within the past 2 months — not 6 months. This is a clinically important distinction because the profound T-cell depletion induced by these agents wanes significantly but is most dangerous in the first weeks to months after administration.",
+      "explanation": "MASCC <21, CISNE ≥3 (in solid tumour patients), and anticipated neutropenia >7 days are all validated high-risk criteria requiring IV empiric therapy. Claiming alemtuzumab or CAR-T cell therapy within the past 6 months is a high-risk criterion is false: the guideline specifies within the past 2 months, not 6 months — a clinically important distinction, since the profound T-cell depletion induced by these agents is most dangerous in the first weeks to months after administration.",
       "section": "The neutropenic patient",
       "topic": "febrile neutropenia MASCC CISNE high-risk alemtuzumab CAR-T 2 months not 6 months trap",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "imp3_k03",
@@ -333,16 +382,33 @@
       "set": 1,
       "question": "Regarding empiric antibiotic therapy in high-risk febrile neutropenia:",
       "statements": [
-        {"label": "A", "text": "Anti-pseudomonal beta-lactam monotherapy (piperacillin-tazobactam, cefepime, or carbapenem) is the recommended initial empiric regimen.", "correct": true},
-        {"label": "B", "text": "Vancomycin should be included routinely in the initial empiric regimen for all high-risk patients.", "correct": false},
-        {"label": "C", "text": "Aminoglycoside monotherapy is not recommended as the sole initial empirical treatment.", "correct": true},
-        {"label": "D", "text": "For suspected intra-abdominal infection, anaerobic coverage must be added to the regimen.", "correct": true}
+        {
+          "label": "A",
+          "text": "For suspected intra-abdominal infection, anaerobic coverage must be added to the regimen.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Anti-pseudomonal beta-lactam monotherapy (piperacillin-tazobactam, cefepime, or carbapenem) is the recommended initial empiric regimen.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Vancomycin should be included routinely in the initial empiric regimen for all high-risk patients.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Aminoglycoside monotherapy is not recommended as the sole initial empirical treatment.",
+          "correct": true
+        }
       ],
-      "explanation": "Anti-pseudomonal beta-lactam monotherapy is the cornerstone of high-risk febrile neutropenia management. Statement B is false: vancomycin is not a routine addition — it is reserved for specific indications (haemodynamic instability, MRSA colonisation, gram-positive bacteraemia, catheter or skin/soft tissue infection). Routine vancomycin use increases toxicity without improving outcomes in unselected patients. Aminoglycoside monotherapy is inferior and nephrotoxic. Anaerobic cover (e.g., metronidazole or a carbapenem) is essential whenever intra-abdominal infection is suspected.",
+      "explanation": "Anti-pseudomonal beta-lactam monotherapy is the cornerstone of high-risk febrile neutropenia management, as is avoiding aminoglycoside monotherapy (inferior and nephrotoxic) and adding anaerobic cover whenever intra-abdominal infection is suspected. Claiming vancomycin should be included routinely for all high-risk patients is false: it is not a routine addition, being reserved for specific indications (haemodynamic instability, MRSA colonisation, gram-positive bacteraemia, catheter or skin/soft tissue infection) — routine use increases toxicity without improving outcomes in unselected patients.",
       "section": "The neutropenic patient",
       "topic": "empiric antibiotics febrile neutropenia beta-lactam monotherapy vancomycin not routine aminoglycoside anaerobic",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "imp3_k04",
@@ -350,16 +416,33 @@
       "set": 1,
       "question": "Regarding fungal pathogens and antifungal management in neutropenic patients:",
       "statements": [
-        {"label": "A", "text": "Fungi rarely cause the first febrile episode; they typically appear as a cause of persistent or recurrent neutropenic fever.", "correct": true},
-        {"label": "B", "text": "Candida spp. primarily infect neutropenic patients through inhalation of airborne spores.", "correct": false},
-        {"label": "C", "text": "In patients receiving fluconazole prophylaxis, breakthrough invasive infections are typically due to fluconazole-resistant Candida (C. glabrata, C. krusei) or Aspergillus spp.", "correct": true},
-        {"label": "D", "text": "Routine G-CSF use is recommended for neutropenic patients with established febrile episodes.", "correct": false}
+        {
+          "label": "A",
+          "text": "Routine G-CSF use is recommended for neutropenic patients with established febrile episodes.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Fungi rarely cause the first febrile episode; they typically appear as a cause of persistent or recurrent neutropenic fever.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "In patients receiving fluconazole prophylaxis, breakthrough invasive infections are typically due to fluconazole-resistant Candida (C. glabrata, C. krusei) or Aspergillus spp.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Candida spp. primarily infect neutropenic patients through inhalation of airborne spores.",
+          "correct": false
+        }
       ],
-      "explanation": "Fungi emerge as late complications of prolonged neutropenia and rarely cause the initial febrile episode. Statement B is false: Candida spp. infect through gastrointestinal colonisation and translocation — inhalation of spores is the route for Aspergillus spp. Statement C correctly identifies the shift in breakthrough fungal pathogens when azole prophylaxis is used. Routine G-CSF for established febrile neutropenia is controversial and is not recommended by current guidelines; its prophylactic use before chemotherapy is a distinct indication.",
+      "explanation": "Fungi emerge as late complications of prolonged neutropenia and rarely cause the initial febrile episode, breakthrough fungal infections shifting toward fluconazole-resistant Candida or Aspergillus under azole prophylaxis, and routine G-CSF not being recommended for established febrile neutropenia (a distinct question from its prophylactic use before chemotherapy) are all correctly described. Claiming Candida infects primarily via inhalation of airborne spores is false: Candida spp. infect through gastrointestinal colonisation and translocation — inhalation of spores is instead the route for Aspergillus spp.",
       "section": "The neutropenic patient",
       "topic": "Candida GI translocation Aspergillus inhalation fluconazole breakthrough C glabrata C krusei G-CSF not routine",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "imp3_k05",
@@ -367,16 +450,33 @@
       "set": 1,
       "question": "Regarding the timeline of infections following solid organ transplantation (SOT):",
       "statements": [
-        {"label": "A", "text": "Infections in the first month post-SOT are predominantly donor-derived or related to surgical complications.", "correct": true},
-        {"label": "B", "text": "The greatest risk for opportunistic infections (CMV, Pneumocystis jirovecii) occurs during the 1–6 month post-transplant period.", "correct": true},
-        {"label": "C", "text": "After 6 months, all solid organ transplant recipients return to the same infection risk as the general population.", "correct": false},
-        {"label": "D", "text": "HSV reactivation in the first month post-transplant is largely prevented by prophylactic aciclovir.", "correct": true}
+        {
+          "label": "A",
+          "text": "HSV reactivation in the first month post-transplant is largely prevented by prophylactic aciclovir.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The greatest risk for opportunistic infections (CMV, Pneumocystis jirovecii) occurs during the 1–6 month post-transplant period.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Infections in the first month post-SOT are predominantly donor-derived or related to surgical complications.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "After 6 months, all solid organ transplant recipients return to the same infection risk as the general population.",
+          "correct": false
+        }
       ],
-      "explanation": "The three-period framework underpins SOT infection management. Statement C is false: patients who develop multiple episodes of acute rejection or chronic rejection requiring intensified immunosuppression remain at elevated opportunistic infection risk beyond 6 months and may require prolonged antimicrobial prophylaxis. Only those on stable, reduced immunosuppression approach community infection rates. Prophylactic aciclovir is highly effective at preventing first-month HSV reactivation.",
+      "explanation": "Infections in the first month post-SOT being predominantly donor-derived or surgery-related, the greatest opportunistic-infection risk occurring in the 1-6 month window, and prophylactic aciclovir largely preventing first-month HSV reactivation are all correctly described. Claiming all recipients return to general-population infection risk after 6 months is false: patients who develop multiple episodes of acute rejection or chronic rejection requiring intensified immunosuppression remain at elevated opportunistic infection risk beyond 6 months and may require prolonged antimicrobial prophylaxis — only those on stable, reduced immunosuppression approach community infection rates.",
       "section": "Infection following solid organ transplantation",
       "topic": "SOT infection 3 periods first month surgical donor 1-6 months CMV PCP chronic rejection ongoing risk",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "imp3_k06",
@@ -384,16 +484,33 @@
       "set": 1,
       "question": "Regarding cytomegalovirus (CMV) in solid organ transplant recipients:",
       "statements": [
-        {"label": "A", "text": "The donor-positive/recipient-negative (D+/R−) combination carries the highest risk for CMV infection after SOT.", "correct": true},
-        {"label": "B", "text": "Ganciclovir and valganciclovir prophylaxis frequently causes myelosuppression and neutropenia as a side effect.", "correct": true},
-        {"label": "C", "text": "CMV serology (IgM/IgG antibody titres) is reliable for diagnosing active CMV disease in transplant recipients.", "correct": false},
-        {"label": "D", "text": "Through its immunomodulatory effects, CMV infection can precipitate graft rejection and predispose to secondary opportunistic infections.", "correct": true}
+        {
+          "label": "A",
+          "text": "CMV serology (IgM/IgG antibody titres) is reliable for diagnosing active CMV disease in transplant recipients.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Through its immunomodulatory effects, CMV infection can precipitate graft rejection and predispose to secondary opportunistic infections.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The donor-positive/recipient-negative (D+/R−) combination carries the highest risk for CMV infection after SOT.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Ganciclovir and valganciclovir prophylaxis frequently causes myelosuppression and neutropenia as a side effect.",
+          "correct": true
+        }
       ],
-      "explanation": "D+/R− carries the highest CMV risk as the seronegative recipient has no prior immunity. Myelosuppression — including neutropenia — is a well-recognised and clinically significant side effect of ganciclovir/valganciclovir; this can necessitate switching to a pre-emptive monitoring strategy. Statement C is false: under immunosuppression, antibody responses are unreliable markers of active viraemia; CMV serology is used pre-transplant for risk stratification only. CMV's immunomodulatory effects genuinely increase the risk of graft rejection and secondary infections — it is not merely coincidental.",
+      "explanation": "The D+/R− combination carrying the highest CMV risk, ganciclovir/valganciclovir prophylaxis frequently causing myelosuppression and neutropenia, and CMV's immunomodulatory effects genuinely predisposing to graft rejection and secondary infections are all correctly described. Claiming CMV serology is reliable for diagnosing active disease is false: under immunosuppression, antibody responses are unreliable markers of active viraemia, and CMV serology is instead used pre-transplant for risk stratification only — quantitative PCR or pp65 antigenemia are the validated methods for diagnosing active infection.",
       "section": "Infection following solid organ transplantation",
       "topic": "CMV D+R- highest risk ganciclovir myelosuppression serology not active disease graft rejection immunomodulation",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "imp3_k07",
@@ -401,16 +518,33 @@
       "set": 1,
       "question": "Regarding the infection timeline after allogeneic haematopoietic stem cell transplantation (HSCT):",
       "statements": [
-        {"label": "A", "text": "The pre-engraftment phase (day 0–30) is primarily characterised by bacterial infections and invasive Candida.", "correct": true},
-        {"label": "B", "text": "CMV reactivation is the predominant viral complication during the pre-engraftment phase.", "correct": false},
-        {"label": "C", "text": "Patients with chronic graft-versus-host disease (GVHD) beyond day 100 remain at sustained high risk of infection due to ongoing immunosuppression.", "correct": true},
-        {"label": "D", "text": "In the late post-engraftment phase, functional asplenia predisposes to infections with encapsulated organisms such as Streptococcus pneumoniae.", "correct": true}
+        {
+          "label": "A",
+          "text": "The pre-engraftment phase (day 0–30) is primarily characterised by bacterial infections and invasive Candida.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Patients with chronic graft-versus-host disease (GVHD) beyond day 100 remain at sustained high risk of infection due to ongoing immunosuppression.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "In the late post-engraftment phase, functional asplenia predisposes to infections with encapsulated organisms such as Streptococcus pneumoniae.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "CMV reactivation is the predominant viral complication during the pre-engraftment phase.",
+          "correct": false
+        }
       ],
-      "explanation": "The pre-engraftment phase is dominated by bacterial infections (gram-positive and gram-negative) and Candida from gut translocation; HSV reactivation also occurs. Statement B is false: CMV reactivation occurs primarily in the early post-engraftment phase (day 30–100), after immune reconstitution has partially begun and cell-mediated immunity is insufficient to control latent virus. Chronic GVHD beyond day 100 perpetuates infection risk through necessary immunosuppressive therapy. Functional asplenia in HSCT creates susceptibility to encapsulated bacteria.",
+      "explanation": "The pre-engraftment phase being dominated by bacterial infections and Candida from gut translocation, chronic GVHD beyond day 100 perpetuating infection risk through ongoing immunosuppression, and functional asplenia in the late phase creating susceptibility to encapsulated bacteria are all correctly described. Claiming CMV reactivation predominates during the pre-engraftment phase is false: CMV reactivation occurs primarily in the early post-engraftment phase (day 30-100), after immune reconstitution has partially begun but cell-mediated immunity remains insufficient to control latent virus.",
       "section": "Infection following haematopoietic stem cell transplantation",
       "topic": "HSCT timeline pre-engraftment bacteria Candida HSV CMV post-engraftment chronic GVHD encapsulated asplenia",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "imp3_k08",
@@ -418,16 +552,33 @@
       "set": 1,
       "question": "Regarding adenovirus infection in haematopoietic stem cell transplant (HSCT) recipients:",
       "statements": [
-        {"label": "A", "text": "Adenovirus infection in HSCT is most commonly caused by reactivation from the gastrointestinal tract.", "correct": true},
-        {"label": "B", "text": "Disseminated adenovirus disease in HSCT carries a reported mortality of 8–26%.", "correct": true},
-        {"label": "C", "text": "Cidofovir is the most widely used antiviral agent for adenovirus infection in HSCT patients.", "correct": true},
-        {"label": "D", "text": "Adenovirus infection is more common after autologous than allogeneic HSCT.", "correct": false}
+        {
+          "label": "A",
+          "text": "Cidofovir is the most widely used antiviral agent for adenovirus infection in HSCT patients.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Disseminated adenovirus disease in HSCT carries a reported mortality of 8–26%.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Adenovirus infection is more common after autologous than allogeneic HSCT.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Adenovirus infection in HSCT is most commonly caused by reactivation from the gastrointestinal tract.",
+          "correct": true
+        }
       ],
-      "explanation": "Adenovirus reactivates from the gastrointestinal tract and is predominantly a complication of allogeneic — not autologous — HSCT. Risk is highest with T-cell depletion, myeloablative conditioning, severe GVHD, and mismatched unrelated donor grafts, because adenovirus-specific T-cell surveillance is critically impaired. Statement D is therefore false. The high mortality of disseminated disease and the absence of highly effective antivirals make cidofovir (despite nephrotoxicity) the standard treatment, alongside reduction of immunosuppression where feasible.",
+      "explanation": "Adenovirus reactivating from the gastrointestinal tract, disseminated disease carrying a reported mortality of 8–26%, and cidofovir being the most widely used antiviral agent are all correctly described. Claiming adenovirus infection is more common after autologous than allogeneic HSCT is false: it is predominantly a complication of allogeneic — not autologous — HSCT, with risk highest with T-cell depletion, myeloablative conditioning, severe GVHD, and mismatched unrelated donor grafts, since adenovirus-specific T-cell surveillance is critically impaired in these settings.",
       "section": "Infection following haematopoietic stem cell transplantation",
       "topic": "adenovirus HSCT GI reactivation cidofovir 8-26% mortality allogeneic T-cell depletion autologous not common",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "imp3_k09",
@@ -435,16 +586,33 @@
       "set": 1,
       "question": "Regarding HIV/AIDS patients admitted to the ICU:",
       "statements": [
-        {"label": "A", "text": "PCP is the most common AIDS-defining cause of ICU admission.", "correct": true},
-        {"label": "B", "text": "PCP in HIV-infected patients typically presents as acute respiratory failure developing over 24–48 hours.", "correct": false},
-        {"label": "C", "text": "Adjunctive corticosteroids should be added to TMP-SMX when PaO2 on room air is <70 mmHg.", "correct": true},
-        {"label": "D", "text": "In-hospital mortality of HIV-infected patients in the ICU is primarily determined by CD4 count and HIV viral load.", "correct": false}
+        {
+          "label": "A",
+          "text": "PCP in HIV-infected patients typically presents as acute respiratory failure developing over 24–48 hours.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Adjunctive corticosteroids should be added to TMP-SMX when PaO2 on room air is <70 mmHg.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "PCP is the most common AIDS-defining cause of ICU admission.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "In-hospital mortality of HIV-infected patients in the ICU is primarily determined by CD4 count and HIV viral load.",
+          "correct": false
+        }
       ],
-      "explanation": "PCP remains the leading AIDS-defining diagnosis precipitating ICU admission, particularly in patients with previously undiagnosed HIV. Statement B is false: PCP in HIV-infected patients has a characteristically gradual onset over 2–4 weeks — in contrast to the more fulminant presentation seen in organ transplant or haematological patients. Adjunctive prednisone significantly reduces respiratory failure and mortality when PaO2 <70 mmHg on room air by attenuating the inflammatory response. Statement D is false: ICU mortality of HIV patients is determined by the severity of organ dysfunction and comorbidities, not by HIV-specific parameters (CD4, viral load, prior cART use).",
+      "explanation": "PCP remaining the leading AIDS-defining diagnosis precipitating ICU admission, and adjunctive corticosteroids being indicated when PaO2 on room air is <70 mmHg, are both correctly described — prednisone significantly reduces respiratory failure and mortality by attenuating the inflammatory response. Claiming PCP typically presents as acute respiratory failure over 24-48 hours is false: PCP in HIV-infected patients has a characteristically gradual onset over 2-4 weeks, in contrast to the more fulminant presentation seen in organ transplant or haematological patients. Claiming in-hospital mortality is primarily determined by CD4 count and viral load is also false: ICU mortality of HIV patients is determined by the severity of organ dysfunction and comorbidities, not HIV-specific parameters.",
       "section": "The ICU patient with HIV disease",
       "topic": "HIV PCP most common AIDS ICU gradual onset 2-4 weeks prednisone PaO2 70 mortality organ dysfunction not CD4",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "imp3_k10",
@@ -452,14 +620,179 @@
       "set": 1,
       "question": "Regarding HBV and HCV management in the context of liver transplantation:",
       "statements": [
-        {"label": "A", "text": "The main risk factor for HBV reinfection of the transplanted liver graft is detectable HBV DNA at the time of transplantation.", "correct": true},
-        {"label": "B", "text": "Entecavir or tenofovir should be initiated before liver transplantation to suppress HBV replication.", "correct": true},
-        {"label": "C", "text": "According to EASL, patients with HCV-related decompensated cirrhosis (Child-Pugh B/C) and MELD >18–20 should be treated with DAAs before liver transplantation.", "correct": false},
-        {"label": "D", "text": "Without antiviral therapy, HCV reinfection of the transplanted liver graft is universal.", "correct": true}
+        {
+          "label": "A",
+          "text": "Without antiviral therapy, HCV reinfection of the transplanted liver graft is universal.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "According to EASL, patients with HCV-related decompensated cirrhosis (Child-Pugh B/C) and MELD >18–20 should be treated with DAAs before liver transplantation.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "The main risk factor for HBV reinfection of the transplanted liver graft is detectable HBV DNA at the time of transplantation.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Entecavir or tenofovir should be initiated before liver transplantation to suppress HBV replication.",
+          "correct": true
+        }
       ],
-      "explanation": "Detectable HBV DNA at transplantation is the primary driver of graft reinfection, rapid progressive liver disease and graft loss; suppression with entecavir or tenofovir pretransplant is standard. Statement C is false — it inverts the EASL criterion: patients with MELD <18–20 have adequate hepatic reserve to tolerate and benefit from DAA pretransplant; those with MELD >18–20 should be transplanted first (hepatic function is too poor to wait for treatment) and treated post-transplant if the anticipated wait is <6 months. Universal HCV graft reinfection without antivirals has historically been the rule, and this is why DAA therapy before or after transplantation has transformed outcomes.",
+      "explanation": "Detectable HBV DNA at transplantation being the primary driver of graft reinfection, entecavir or tenofovir suppression being standard pretransplant, and universal HCV graft reinfection without antivirals historically being the rule are all correctly described. Claiming EASL recommends pretransplant DAA specifically for MELD >18-20 patients is false and inverts the actual criterion: patients with MELD <18-20 have adequate hepatic reserve to tolerate and benefit from DAA pretransplant, while those with MELD >18-20 should be transplanted first (hepatic function is too poor to wait for treatment) and treated post-transplant if the anticipated wait is <6 months.",
       "section": "Infection following solid organ transplantation",
       "topic": "HBV DNA reinfection entecavir tenofovir EASL HCV MELD <18-20 pretransplant >18-20 transplant first",
+      "image": null,
+      "section_url": null,
+      "source": "pact_generated"
+    },
+    {
+      "id": "imp3_a16",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 44-year-old man with AML and prolonged neutropenia (ANC <100 cells/µL for 12 days) develops fever, cough, and pleuritic chest pain despite broad-spectrum antibiotics. The CT chest obtained is shown. Which additional investigation would most specifically support a diagnosis of invasive pulmonary aspergillosis?",
+      "options": [
+        "A: Blood cultures alone, incubated for an extended 10-day period specifically to maximise fungal recovery yield",
+        "B: Urinary antigen testing for Legionella pneumophila",
+        "C: Galactomannan testing in blood and bronchoalveolar lavage, noting BAL sensitivity exceeds serum",
+        "D: Quantitative CMV PCR from peripheral blood",
+        "E: Sputum Gram stain and routine bacterial culture alone"
+      ],
+      "correct": 2,
+      "explanation": "In prolonged neutropenia with new pulmonary nodules on CT (as shown, potentially with a halo sign or vessel occlusion sign), galactomannan testing in both blood and BAL is recommended alongside conventional microscopy and culture to support a diagnosis of invasive pulmonary aspergillosis, with BAL sensitivity higher than serum. Routine sputum Gram stain and bacterial culture, prolonged blood culture incubation, CMV PCR, and Legionella urinary antigen are all reasonable general investigations in a febrile neutropenic patient with pulmonary infiltrates, but none specifically support an aspergillosis diagnosis the way galactomannan testing does.",
+      "section": "Managing respiratory failure in the neutropenic patient",
+      "topic": "invasive-aspergillosis galactomannan-BAL-blood CT-nodules halo-sign",
+      "image": "images/img_d988f83f3b.png",
+      "section_url": null
+    },
+    {
+      "id": "imp3_a17",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with HIV and a CD4 count of 45 cells/µL is admitted with fever, night sweats, and pancytopenia, with no localising respiratory or neurological findings. Based on CD4-stratified opportunistic infection risk, which organisms should be highest on the differential?",
+      "options": [
+        "A: Pneumocystis jirovecii pneumonia and miliary tuberculosis, both classically associated with subacute systemic decline",
+        "B: Mycobacterium avium complex and disseminated cytomegalovirus, both classically causing systemic febrile illness",
+        "C: Oropharyngeal candidiasis and herpes zoster",
+        "D: Candidal vaginitis as an isolated finding",
+        "E: Kaposi's sarcoma and lymphoma"
+      ],
+      "correct": 1,
+      "explanation": "At a CD4 count below 50 cells/µL, the opportunistic infections of greatest concern are Mycobacterium avium complex (MAC) and disseminated cytomegalovirus — both classically presenting with systemic features including fever, night sweats, and cytopenias, consistent with this presentation. Oropharyngeal candidiasis and zoster are associated with the 200-500 range, PCP and miliary TB with <200, and Kaposi's sarcoma/lymphoma with <150 — each too high a CD4 threshold to be the top concern at 45 cells/µL, and candidal vaginitis alone is associated with a relatively preserved CD4 count (>500) and would not explain this systemic presentation.",
+      "section": "The ICU patient with HIV disease",
+      "topic": "CD4-count-stratified-risk MAC disseminated-CMV below-50 systemic-presentation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp3_k11",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding combination antiretroviral therapy (cART) toxicity and immune reconstitution inflammatory syndrome (IRIS):",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Zidovudine is associated with lactic acidosis as a recognised toxicity.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "IRIS should always be treated with prednisone regardless of the specific underlying opportunistic infection.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "The risk of IRIS is associated with the CD4 cell count at the time cART is started.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Tenofovir and nevirapine are associated with proximal tubulopathy/acute kidney injury and toxic epidermal necrolysis respectively.",
+          "correct": true
+        }
+      ],
+      "explanation": "Zidovudine-associated lactic acidosis, tenofovir-associated proximal tubulopathy/AKI, nevirapine-associated toxic epidermal necrolysis, and the association between CD4 count at cART initiation and subsequent IRIS risk are all correctly described. Claiming IRIS should always be treated with prednisone regardless of cause is false: severe IRIS should be treated with prednisone unless caused by cryptococcal meningitis or Kaposi's sarcoma, where corticosteroids can worsen outcomes — this exception is a clinically important safety point.",
+      "section": "The ICU patient with HIV disease",
+      "topic": "cART-toxicity zidovudine tenofovir nevirapine IRIS-CD4-risk prednisone-exceptions",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp3_a18",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient who underwent autologous HSCT 8 months ago remains off all immunosuppressive therapy with an uncomplicated course. Compared with an uncomplicated allogeneic HSCT recipient at the same time point, how does full B- and T-cell immune recovery timing typically compare?",
+      "options": [
+        "A: Recovery timing depends solely on the patient's age at the time of transplantation and is entirely unrelated to whether the graft source is autologous or allogeneic",
+        "B: Allogeneic recovery is consistently faster than autologous because donor cells are already immunologically mature",
+        "C: Neither transplant type shows meaningful B- or T-cell recovery before 24 months under any circumstances",
+        "D: Autologous recovery is typically complete by 6-12 months; allogeneic recovery typically takes 12-24 months, longer still with GVHD or T-cell suppressive therapy",
+        "E: Both types of transplant have identical immune recovery timelines of 6-12 months regardless of graft source"
+      ],
+      "correct": 3,
+      "explanation": "The general risk of infection persists until B- and T-cell recovery, which takes approximately 6-12 months in autologous HSCT but 12-24 months in allogeneic HSCT — recovery can take even longer if T-cell suppressive therapies are used or graft-versus-host disease occurs. This reflects the additional immunological complexity of allogeneic transplantation (donor-recipient histocompatibility management, GVHD prophylaxis and treatment) that autologous transplantation does not involve. Claiming identical timelines, faster allogeneic recovery, no recovery before 24 months in either case, or recovery depending solely on age all misstate this well-established distinction.",
+      "section": "Infection following haematopoietic stem cell transplantation",
+      "topic": "HSCT-immune-recovery autologous-6-12-months allogeneic-12-24-months GVHD-prolongs",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp3_a19",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A neutropenic patient with hypoxaemic respiratory failure from pneumonia is trialled on high-flow oxygen therapy. After 6 hours, work of breathing is worsening and oxygenation has not improved. What is the most appropriate next step?",
+      "options": [
+        "A: Add a loop diuretic and reassess oxygenation in 24 hours",
+        "B: Continue high-flow oxygen therapy indefinitely, since intubation carries excessive risk in neutropenic patients",
+        "C: Switch to non-invasive ventilation and reassess again in another 12 hours before considering intubation",
+        "D: Arrange transfer to a general ward for a palliative approach given the underlying neutropenia",
+        "E: Proceed to intubation without further delay"
+      ],
+      "correct": 4,
+      "explanation": "Although invasive mechanical ventilation is associated with high mortality in immunosuppressed patients, intubation should not be delayed when a patient fails to respond to non-invasive respiratory support — delayed intubation is specifically associated with increased mortality. Continuing high-flow therapy indefinitely, extending a trial of non-invasive ventilation for many more hours, arranging a palliative ward transfer, or pursuing a diuretic-based strategy in a patient with a primarily infectious (not fluid-overload) respiratory failure all risk exactly this dangerous delay in a deteriorating patient.",
+      "section": "Managing respiratory failure in the neutropenic patient",
+      "topic": "NIV-HFOT-failure do-not-delay-intubation mortality-risk",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imp3_k12",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding site-specific infections in the neutropenic patient:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Sinus tenderness, periorbital oedema, or purulent nasopharyngeal secretions in a neutropenic patient should prompt consideration of fungal pathogens such as Aspergillus and Mucormycosis.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "CT scanning and ENT referral to facilitate sample collection may be indicated for suspected sinus infection in neutropenic patients.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Oral mucositis in neutropenic patients is exclusively a direct chemotoxic effect of treatment, with no associated infectious risk requiring specific antimicrobial consideration.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Candida species and herpes simplex virus are the most common causes of infectious mucositis of the mouth and oesophagus in neutropenic patients.",
+          "correct": true
+        }
+      ],
+      "explanation": "Candida and HSV as the most common causes of infectious mucositis, fungal pathogens (Aspergillus, Mucormycosis) requiring consideration with sinus symptoms, and CT plus ENT referral being appropriate for suspected sinus infection are all correctly described. Claiming oral mucositis carries no infectious risk is false: while chemotherapy- or radiotherapy-induced mucositis has a direct chemotoxic component, it also creates a high risk for secondary infection, with Candida and HSV specifically leading to necrotising ulcerations and vesicular lesions respectively — this infectious component requires active consideration, not dismissal.",
+      "section": "The neutropenic patient",
+      "topic": "mucositis Candida HSV sinusitis fungal-pathogens CT-ENT-referral infectious-risk-not-purely-chemotoxic",
       "image": null,
       "section_url": null
     }
