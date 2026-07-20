@@ -12,7 +12,9 @@
     "Other VHFs: Diagnosis": "Characteristic laboratory triad: leukopenia + thrombocytopenia + ASAT > ALAT. Normal platelet count and normal transaminases make VHF HIGHLY UNLIKELY. Primary diagnostic method during viraemia: RT-PCR (blood or body fluids). Repeat testing is mandatory before de-isolating high-probability patients with a negative test taken within 72h of symptom onset. Serology (IgM/IgG): for later stages/convalescence; risk of cross-reactivity; vaccination causes false-positive serology. Rhabdomyolysis (elevated CK, myoglobin) common in Ebola. CCHF specifically associated with hypoglycaemia — monitor blood glucose. Pregnancy test in all women of childbearing age (substantial abortion risk with CCHF and Lassa). All samples = biohazard; reference laboratories only outside outbreaks.",
     "Other VHFs: Antiviral Therapy": "Ribavirin (synthetic nucleoside analogue) is the ONLY recommended antiviral for: Lassa fever, CCHF, Hanta HFRS. NOT indicated for Ebola or Marburg. Dosing (IV): loading 30–34 mg/kg (max 2g), then 15–17 mg/kg every 6 hours (max 1g per dose), diluted in 100–500 ml normal saline, for 6–10 days. Reduce maintenance to 7.5 mg/kg in AKI. Early/empirical initiation is critical. Adverse effects: haemolytic anaemia, bone marrow depression. Post-exposure prophylaxis (PEP): oral ribavirin 4×10 mg/kg per dose for 5 days — for Lassa and CCHF exposures ONLY. Monoclonal antibodies (Ebola): effects unclear, use experimental. Remdesivir, interferon, immune plasma: no demonstrated mortality benefit in VHF.",
     "Other VHFs: Supportive Care": "Pain/fever: paracetamol, metamizole, opioids preferred; AVOID aspirin/NSAIDs (bleeding risk). Anti-emetics: metoclopramide, ondansetron. Fluid resuscitation: crystalloids = first choice; synthetic colloids avoided (adverse effects on coagulation and renal function). Empirical broad-spectrum antibiotics: recommended in Ebola/Marburg with severe GI symptoms. Empirical antimalarials: in high-malaria-transmission areas if malaria cannot be excluded. NGT insertion: risk of severe epistaxis → HCW viral contamination — high-risk procedure in Ebola/Marburg. NIPPV → early switch to invasive MV at first signs of progressive respiratory insufficiency (aerosol risk in isolation). Thromboprophylaxis: NOT recommended in acute phase (thrombocytopenia, bleeding risk); may consider once platelets >50 G/L during convalescence. Stress ulcer prophylaxis: indicated in all critically ill VHF patients.",
-    "Other VHFs: Infection Control": "Isolation: single room, negative pressure preferred, repeated air exchanges, anteroom, separate bathroom. PPE: goggles, N95/FFP2 fluid-resistant mask, head/neck cover, fluid-resistant gown, waterproof apron, TWO pairs of gloves, waterproof boots, surgical scrubs. Most HCW infections occur during DOFFING — buddy system essential. Meticulous hand hygiene. De-isolation: clinical symptoms resolved + two consecutive negative PCR samples 48–72h apart. Viral persistence after recovery (Ebola): semen, breast milk, tears, CSF for months — patient education required. PEP ribavirin: oral 4×10 mg/kg × 5 days — Lassa and CCHF exposures only."
+    "Other VHFs: Infection Control": "Isolation: single room, negative pressure preferred, repeated air exchanges, anteroom, separate bathroom. PPE: goggles, N95/FFP2 fluid-resistant mask, head/neck cover, fluid-resistant gown, waterproof apron, TWO pairs of gloves, waterproof boots, surgical scrubs. Most HCW infections occur during DOFFING — buddy system essential. Meticulous hand hygiene. De-isolation: clinical symptoms resolved + two consecutive negative PCR samples 48–72h apart. Viral persistence after recovery (Ebola): semen, breast milk, tears, CSF for months — patient education required. PEP ribavirin: oral 4×10 mg/kg × 5 days — Lassa and CCHF exposures only.",
+    "Other VHFs: Co-Infections": "Data on the true incidence of co-infections in viral haemorrhagic fevers are sparse. Bacterial bloodstream infections from translocation via an impaired intestinal mucosal barrier are postulated to be common, particularly in VHFs with gastrointestinal dysfunction and capillary leak such as Ebola or Marburg virus disease. Since almost all VHF-endemic regions are also stable malaria transmission areas, malaria co-infection is likely to occur at a relevant rate. These considerations underline the importance of early bacteriological and malarial testing in patients with suspected or confirmed viral haemorrhagic fevers. Nosocomial bacterial infections become more frequent during the later stages of illness and critical illness.",
+    "Severe Dengue: ICU Complications": "Electrolyte disturbances are common in severe dengue, particularly hypokalaemia and hypocalcaemia; hyponatraemia may result from gastrointestinal losses, and hyperkalaemia can complicate acute kidney injury. Liberal isotonic saline causes hyperchloraemic metabolic acidosis. Fluid overload — with pleural effusions and ascites — is a frequent recovery-phase complication linked to duration of mechanical ventilation and ICU stay; diuretics may be needed despite persisting thrombocytopenia, with caution for bleeding. Persistent hypovolaemic shock can progress to a vasodilatory pattern requiring vasopressors; myocarditis is rare. Sinus bradycardia and other arrhythmias occur during early convalescence and require continuous cardiac monitoring. Acute kidney or liver injury and ARDS can complicate severe dengue and are managed as in other sepsis-related organ dysfunction. Routine pharmacological thromboprophylaxis is not recommended given persisting thrombocytopenia, despite an increased thromboembolic risk."
   },
   "questions": [
     {
@@ -22,17 +24,18 @@
       "question": "A 28-year-old woman returns from Vietnam with a 4-day history of fever, myalgia, and vomiting. Heart rate is 112/min, BP 102/85 mmHg, capillary refill 3 seconds, skin mottling over the knees. Haematocrit has risen from 38% to 46% over 24 hours and platelet count is 72 G/L. Which finding is MOST consistent with dengue shock syndrome at this stage?",
       "options": [
         "A: Systolic blood pressure of 102 mmHg indicating frank decompensated hypotension",
-        "B: Pulse pressure of 17 mmHg reflecting reduced stroke volume from plasma leakage",
-        "C: Haematocrit rise of 8% indicating haemolysis rather than haemoconcentration",
+        "B: Haematocrit rise of 8% indicating haemolysis rather than haemoconcentration",
+        "C: Capillary refill time of 3 seconds indicating distributive vasodilatory shock",
         "D: Platelet count of 72 G/L indicating disseminated intravascular coagulation",
-        "E: Capillary refill time of 3 seconds indicating distributive vasodilatory shock"
+        "E: Pulse pressure of 17 mmHg reflecting reduced stroke volume from plasma leakage"
       ],
-      "correct": 1,
-      "explanation": "In early compensated dengue shock, plasma leakage causes intravascular volume depletion that manifests as HIGH diastolic blood pressure (increased SVR) with a NARROWED pulse pressure ≤20 mmHg. This patient's pulse pressure is 17 mmHg (102−85), meeting the WHO criterion for shock. Frank systolic hypotension is a late, decompensated sign. The haematocrit rise reflects haemoconcentration from plasma leakage, not haemolysis. Thrombocytopenia in severe dengue results from platelet consumption and bone marrow suppression, not DIC per se. Distributive vasodilatory shock (option E) would present with a WIDENED pulse pressure.",
+      "correct": 4,
+      "explanation": "In early compensated dengue shock, plasma leakage causes intravascular volume depletion that manifests as HIGH diastolic blood pressure (increased SVR) with a NARROWED pulse pressure ≤20 mmHg. This patient's pulse pressure is 17 mmHg (102−85), meeting the WHO criterion for shock. Frank systolic hypotension is a late, decompensated sign, not an early one. The haematocrit rise reflects haemoconcentration from plasma leakage, not haemolysis. Thrombocytopenia in severe dengue results from platelet consumption and bone marrow suppression, not disseminated intravascular coagulation per se. Distributive vasodilatory shock would instead present with a WIDENED, not narrowed, pulse pressure — the opposite of the physiology described here.",
       "section": "Severe Dengue: Clinical Symptoms",
       "topic": "dengue shock pulse pressure ≤20 mmHg plasma leakage compensated",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "tdp1_a02",
@@ -40,18 +43,19 @@
       "set": 1,
       "question": "A 30-year-old man presents on day 2 of febrile illness after returning from Indonesia. Dengue is suspected. Which diagnostic test has the highest sensitivity and specificity at this stage AND additionally provides serotype information?",
       "options": [
-        "A: NS1 antigen ELISA",
-        "B: Dengue IgM serology",
-        "C: Reverse transcriptase polymerase chain reaction (RT-PCR)",
-        "D: Combined rapid dengue IgM/IgG test",
+        "A: Dengue IgM serology",
+        "B: Reverse transcriptase polymerase chain reaction (RT-PCR)",
+        "C: Combined rapid dengue IgM/IgG test",
+        "D: NS1 antigen ELISA",
         "E: Dengue IgG serology with IgG:IgM ratio"
       ],
-      "correct": 2,
+      "correct": 1,
       "explanation": "During the first days of illness (viraemic phase), RT-PCR has the highest sensitivity and specificity of all available tests and additionally identifies the infecting serotype — information unavailable from antigen or antibody tests. NS1 antigen ELISA is also an early-phase test with ~90% sensitivity in primary infection, but its sensitivity drops to 60–80% in secondary infection and it cannot provide serotype data. IgM antibodies only achieve ~75% sensitivity from day 3–5 onward. Combined rapid tests have variable accuracy due to cross-reactivity with other flaviviruses, malaria, and leptospirosis.",
       "section": "Severe Dengue: Diagnostic Work-up",
       "topic": "dengue RT-PCR first choice early diagnosis serotype sensitivity",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "tdp1_a03",
@@ -59,18 +63,19 @@
       "set": 1,
       "question": "A 34-year-old Filipino nurse presents on day 3 of illness with fever, rash, and platelet count 88 G/L. She had confirmed DENV-2 infection two years ago. NS1 antigen ELISA returns negative. What is the most appropriate next diagnostic step?",
       "options": [
-        "A: Repeat NS1 antigen ELISA in 48 hours — the result is premature at day 3",
-        "B: Perform dengue IgM and IgG serology — secondary infection shifts the window to an earlier antibody response",
-        "C: Send blood for RT-PCR — NS1 sensitivity is significantly reduced in secondary dengue infection",
-        "D: Accept the negative result — NS1 ELISA negative at day 3 reliably excludes dengue",
+        "A: Perform dengue IgM and IgG serology — secondary infection shifts the window to an earlier antibody response",
+        "B: Send blood for RT-PCR — NS1 sensitivity is significantly reduced in secondary dengue infection",
+        "C: Accept the negative result — NS1 ELISA negative at day 3 reliably excludes dengue",
+        "D: Repeat NS1 antigen ELISA in 48 hours — the result is premature at day 3",
         "E: Request IgG titres only to quantify secondary immune response"
       ],
-      "correct": 2,
+      "correct": 1,
       "explanation": "NS1 antigen ELISA sensitivity is 90% in primary dengue infection but falls to 60–80% in secondary infection, making a false-negative result substantially more likely in this patient with a prior DENV-2 infection. RT-PCR remains the gold-standard diagnostic test during the viraemic phase (first few days) and is the appropriate next step. IgM/IgG serology is more accurate after defervescence when viraemia has resolved. A negative NS1 in a patient with prior dengue infection does NOT exclude the diagnosis.",
       "section": "Severe Dengue: Diagnostic Work-up",
       "topic": "NS1 false negative secondary dengue RT-PCR diagnosis next step",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "tdp1_a04",
@@ -78,18 +83,19 @@
       "set": 1,
       "question": "A 40-year-old man with severe dengue has received 18 hours of IV crystalloid resuscitation. Current findings: haematocrit 44% (down from 52%), heart rate 82/min, BP 118/76 mmHg, urine output 1.2 ml/kg/h, and abdominal pain resolving. What is the most appropriate next action?",
       "options": [
-        "A: Administer a further 500 ml crystalloid bolus to prevent shock recurrence",
+        "A: Decrease and then stop intravenous fluid administration",
         "B: Switch to colloid infusion to sustain oncotic pressure as haematocrit falls",
-        "C: Decrease and then stop intravenous fluid administration",
+        "C: Maintain current infusion rate for a further 24 hours to complete the critical phase",
         "D: Start loop diuretic therapy to treat fluid overload",
-        "E: Maintain current infusion rate for a further 24 hours to complete the critical phase"
+        "E: Administer a further 500 ml crystalloid bolus to prevent shock recurrence"
       ],
-      "correct": 2,
+      "correct": 0,
       "explanation": "A falling haematocrit with stable haemodynamics, improving urine output, and resolving abdominal symptoms collectively signal reversal of plasma leakage — the indication to taper and stop IV fluids. Continuing fluids beyond this point risks interstitial fluid overload, pleural effusions, abdominal compartment syndrome, and prolonged ventilator dependence. Colloids are not indicated. Diuretics may be needed later if spontaneous diuresis fails, but are not the immediate first action. Unnecessary boluses once leakage has resolved are directly harmful.",
       "section": "Severe Dengue: Fluid Management",
       "topic": "stopping IV fluids dengue haematocrit falling plasma leakage reversal criteria",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "tdp1_a05",
@@ -97,18 +103,19 @@
       "set": 1,
       "question": "A 35-year-old woman with severe dengue develops worsening haemodynamic instability. It is clinically uncertain whether hypovolaemia results from plasma leakage or occult internal haemorrhage. After 500 ml of crystalloid, her haematocrit has risen from 48% to 54%. Which process most likely explains this finding?",
       "options": [
-        "A: Haemorrhage-induced red cell concentration due to ongoing blood loss into a body cavity",
-        "B: Plasma leakage causing haemoconcentration that persists despite fluid loading as infused fluid moves to the interstitium",
-        "C: Crystalloid-induced haemoconcentration via a paradoxical oncotic mechanism",
-        "D: Autotransfusion from resolving haematoma increasing the circulating red cell mass",
-        "E: Splenic contraction releasing stored erythrocytes during haemodynamic stress"
+        "A: Autotransfusion from resolving haematoma increasing the circulating red cell mass",
+        "B: Splenic contraction releasing stored erythrocytes during haemodynamic stress",
+        "C: Haemorrhage-induced red cell concentration due to ongoing blood loss into a body cavity",
+        "D: Plasma leakage causing haemoconcentration that persists despite fluid loading as infused fluid moves to the interstitium",
+        "E: Crystalloid-induced haemoconcentration via a paradoxical oncotic mechanism"
       ],
-      "correct": 1,
+      "correct": 3,
       "explanation": "A rising haematocrit DESPITE fluid loading is the hallmark of plasma leakage: crystalloid administered intravenously is rapidly lost across the leaky endothelium into the interstitium, so haemoconcentration persists. In contrast, haemorrhage-induced hypovolaemia causes the haematocrit to FALL during fluid resuscitation, because intravascular volume is restored while the red cell mass remains unchanged. This dynamic haematocrit response is a key bedside tool to differentiate the mechanism of shock in severe dengue.",
       "section": "Severe Dengue: Haemorrhagic Complications",
       "topic": "plasma leakage vs haemorrhage haematocrit response fluid loading dengue",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "tdp1_a06",
@@ -117,17 +124,18 @@
       "question": "A 26-year-old woman with severe dengue has a platelet count of 14 G/L and no active bleeding. She is haemodynamically stable but requires subclavian central venous access — no peripheral or femoral route is available. What is the most appropriate management of her platelet count before the procedure?",
       "options": [
         "A: Proceed without platelet transfusion; prophylactic transfusion is not recommended in stable dengue patients",
-        "B: Transfuse platelets immediately before or during the subclavian procedure",
-        "C: Defer the procedure until platelets recover spontaneously above 50 G/L",
+        "B: Defer the procedure until platelets recover spontaneously above 50 G/L",
+        "C: Proceed and transfuse platelets only if clinically significant haemorrhage occurs",
         "D: Administer fresh frozen plasma as an alternative to address the coagulopathy",
-        "E: Proceed and transfuse platelets only if clinically significant haemorrhage occurs"
+        "E: Transfuse platelets immediately before or during the subclavian procedure"
       ],
-      "correct": 1,
-      "explanation": "Prophylactic platelet transfusion to prevent spontaneous bleeding in stable severe dengue is NOT recommended (a recent RCT found no benefit and more adverse events). However, this is a procedurally distinct situation: for invasive procedures with exceptionally high bleeding risk — such as subclavian vein cannulation when alternative access is unavailable — the module explicitly recommends transfusing platelets immediately before or during the procedure. Option A is incorrect because this peri-procedural transfusion is a different indication from routine prophylactic transfusion. FFP does not correct thrombocytopenia.",
+      "correct": 4,
+      "explanation": "Prophylactic platelet transfusion to prevent spontaneous bleeding in stable severe dengue is NOT recommended (a recent RCT found no benefit and more adverse events). However, this is a procedurally distinct situation: for invasive procedures with exceptionally high bleeding risk — such as subclavian vein cannulation when alternative access is unavailable — the module explicitly recommends transfusing platelets immediately before or during the procedure. Withholding transfusion here would conflate this peri-procedural, high-risk indication with the routine prophylactic scenario, which is a different clinical situation. Fresh frozen plasma does not correct thrombocytopenia and has no role here.",
       "section": "Severe Dengue: Haemorrhagic Complications",
       "topic": "peri-procedural platelet transfusion dengue subclavian thrombocytopenia",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "tdp1_a07",
@@ -135,18 +143,19 @@
       "set": 1,
       "question": "A 22-year-old man living in Singapore had confirmed DENV-1 infection four years ago. He is now admitted with severe dengue caused by DENV-3. He asks why his second infection is more severe. What is the primary pathophysiological mechanism?",
       "options": [
-        "A: DENV-3 is inherently more virulent than DENV-1 due to differences in viral replication capacity",
-        "B: Antibody-dependent enhancement of inflammation mediated by cross-reactive non-neutralising antibodies from the primary infection",
+        "A: Complement depletion from the first infection renders the host unable to mount an adaptive immune response",
+        "B: DENV-3 is inherently more virulent than DENV-1 due to differences in viral replication capacity",
         "C: Loss of lifelong cross-serotype immunity that was acquired after the primary DENV-1 infection",
-        "D: Reactivation of latent DENV-1 proviral genome by DENV-3 superinfection",
-        "E: Complement depletion from the first infection renders the host unable to mount an adaptive immune response"
+        "D: Antibody-dependent enhancement of inflammation mediated by cross-reactive non-neutralising antibodies from the primary infection",
+        "E: Reactivation of latent DENV-1 proviral genome by DENV-3 superinfection"
       ],
-      "correct": 1,
+      "correct": 3,
       "explanation": "Recovery from primary dengue confers lifelong serotype-specific immunity only. Cross-reactive antibodies from the primary DENV-1 infection bind to DENV-3 but fail to neutralise it; instead, they facilitate viral uptake into macrophages and amplify the inflammatory response — antibody-dependent enhancement. This mechanism predominantly explains why secondary dengue infections within 3–6 years of the primary infection carry a substantially higher risk of severe disease. DENV serotypes do not differ substantially in intrinsic virulence. There is no latent proviral state in dengue.",
       "section": "Severe Dengue: Introduction",
       "topic": "secondary dengue antibody-dependent enhancement serotype immunity 3–6 years",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "tdp1_a08",
@@ -154,18 +163,19 @@
       "set": 1,
       "question": "A 7-year-old child (25 kg) is admitted with compensated dengue shock syndrome: heart rate 135/min, BP 88/70 mmHg (pulse pressure 18 mmHg), haematocrit 50%, restless. What is the recommended initial intravenous fluid bolus?",
       "options": [
-        "A: 250 ml of crystalloid over 15 minutes",
-        "B: 500 ml of crystalloid over 1 hour",
-        "C: 10 ml/kg (250 ml) of crystalloid over 1 hour",
-        "D: 20 ml/kg (500 ml) of crystalloid over 30 minutes",
+        "A: 10 ml/kg (250 ml) of crystalloid over 1 hour",
+        "B: 20 ml/kg (500 ml) of crystalloid over 30 minutes",
+        "C: 500 ml of crystalloid over 1 hour",
+        "D: 250 ml of crystalloid over 15 minutes",
         "E: 15 ml/kg (375 ml) of 5% human albumin over 30 minutes"
       ],
-      "correct": 2,
+      "correct": 0,
       "explanation": "The WHO algorithm for children with compensated dengue shock recommends 10 ml/kg of crystalloid administered over 1 hour — in this 25 kg child, that is 250 ml. This is distinct from the adult recommendation of 500–1,000 ml per hour (fixed volume, not weight-based). Children are particularly vulnerable to fluid overload causing respiratory compromise, which is why large boluses (>15 ml/kg) should not be infused rapidly in non-hypotensive patients. Albumin is not supported by current evidence for dengue resuscitation.",
       "section": "Severe Dengue: Children",
       "topic": "paediatric dengue fluid bolus 10 ml/kg WHO compensated shock",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "tdp1_a09",
@@ -173,18 +183,19 @@
       "set": 1,
       "question": "Which of the following is NOT a recognised feature of severe dengue?",
       "options": [
-        "A: Pulse pressure ≤20 mmHg as an early marker of plasma leakage-induced hypovolaemia",
-        "B: Haematocrit rise >20% during the critical phase reflecting haemoconcentration",
-        "C: A falling haematocrit during the febrile phase as a reliable early indicator of plasma leakage",
-        "D: Platelet count <100 G/L as a laboratory warning sign",
-        "E: A period of plasma leakage typically lasting 24–48 hours before spontaneous resolution"
+        "A: A period of plasma leakage typically lasting 24–48 hours before spontaneous resolution",
+        "B: Pulse pressure ≤20 mmHg as an early marker of plasma leakage-induced hypovolaemia",
+        "C: Platelet count <100 G/L as a laboratory warning sign",
+        "D: Haematocrit rise >20% during the critical phase reflecting haemoconcentration",
+        "E: A falling haematocrit during the febrile phase as a reliable early indicator of plasma leakage"
       ],
-      "correct": 2,
-      "explanation": "A FALLING haematocrit during the febrile phase is NOT an indicator of plasma leakage — it is a haematocrit RISE >20% that signals haemoconcentration from plasma loss. A falling haematocrit during fluid resuscitation in a haemodynamically unstable patient instead raises concern for haemorrhage. Narrowed pulse pressure ≤20 mmHg (A), rising haematocrit (B), thrombocytopenia <100 G/L (D), and the 24–48-hour self-limited plasma leakage phase (E) are all established features of severe dengue.",
+      "correct": 4,
+      "explanation": "A FALLING haematocrit during the febrile phase is NOT an indicator of plasma leakage — it is a haematocrit RISE >20% that signals haemoconcentration from plasma loss. A falling haematocrit during fluid resuscitation in a haemodynamically unstable patient instead raises concern for haemorrhage. The remaining statements are all established features of severe dengue: a narrowed pulse pressure ≤20 mmHg as an early marker of hypovolaemia from plasma leakage, a self-limited plasma leakage phase typically lasting 24–48 hours, a critical-phase haematocrit rise >20% reflecting haemoconcentration, and a platelet count below 100 G/L as a recognised laboratory warning sign.",
       "section": "Severe Dengue: Clinical Symptoms",
       "topic": "NOT feature severe dengue haematocrit direction plasma leakage",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "tdp1_a10",
@@ -192,18 +203,19 @@
       "set": 1,
       "question": "A 31-year-old man with confirmed severe dengue, admitted to the ICU 40 hours ago, develops a new fever spike (39.9°C) with haemodynamic deterioration. His procalcitonin (PCT) is 5.2 ng/ml. Dengue inflammatory markers have been normal throughout. What is the most appropriate interpretation?",
       "options": [
-        "A: PCT is non-specific in dengue and should not be used to guide antibiotic decisions",
-        "B: PCT elevation confirms ongoing viraemia and intensified dengue-induced systemic inflammation",
-        "C: The elevated PCT supports suspicion of bacterial bloodstream co-infection and should prompt empirical antibiotic initiation",
-        "D: PCT >2 ng/ml always mandates immediate carbapenem therapy in dengue patients",
-        "E: New fever in dengue ICU patients is invariably viral — PCT reliably excludes bacterial co-infection only when negative"
+        "A: New fever in dengue ICU patients is invariably viral — PCT reliably excludes bacterial co-infection only when negative",
+        "B: The elevated PCT supports suspicion of bacterial bloodstream co-infection and should prompt empirical antibiotic initiation",
+        "C: PCT >2 ng/ml always mandates immediate carbapenem therapy in dengue patients",
+        "D: PCT elevation confirms ongoing viraemia and intensified dengue-induced systemic inflammation",
+        "E: PCT is non-specific in dengue and should not be used to guide antibiotic decisions"
       ],
-      "correct": 2,
-      "explanation": "Inflammatory markers including PCT are typically NOT relevantly elevated in dengue itself, making a high PCT a clinically useful indicator to differentiate dengue-related fever from superimposed bacterial co-infection. Bacterial primary bloodstream infections complicate up to 50% of fatal severe dengue cases, occurring predominantly in the first 48 hours of ICU admission, driven by dengue-induced neutropenia and intestinal translocation during hypoperfusion. Option D is incorrect: PCT elevation guides the decision to start empirical antibiotics and obtain blood cultures, but does not mandate a specific drug class.",
+      "correct": 1,
+      "explanation": "Inflammatory markers including PCT are typically NOT relevantly elevated in dengue itself, making a high PCT a clinically useful indicator to differentiate dengue-related fever from superimposed bacterial co-infection. Bacterial primary bloodstream infections complicate up to 50% of fatal severe dengue cases, occurring predominantly in the first 48 hours of ICU admission, driven by dengue-induced neutropenia and intestinal translocation during hypoperfusion. A markedly elevated PCT should prompt empirical antibiotics and blood cultures, but no single biomarker threshold mandates a specific antibiotic class such as a carbapenem — antibiotic choice depends on local epidemiology and clinical context, not PCT value alone.",
       "section": "Severe Dengue: Co-Infections",
       "topic": "PCT bacterial co-infection dengue bloodstream empirical antibiotics",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "tdp1_a11",
@@ -211,18 +223,19 @@
       "set": 1,
       "question": "A 38-year-old aid worker is evacuated from Sierra Leone with confirmed Lassa fever and severe organ dysfunction. Intravenous ribavirin is indicated. What is the correct initial loading dose?",
       "options": [
-        "A: 7.5 mg/kg IV — the maintenance dose used in patients with acute kidney injury",
+        "A: 1 g IV as a fixed loading dose regardless of body weight",
         "B: 15–17 mg/kg IV — the standard 6-hourly maintenance dose",
         "C: 30–34 mg/kg IV (maximum 2 g) as a loading dose",
-        "D: 4 × 10 mg/kg orally for 5 days",
-        "E: 1 g IV as a fixed loading dose regardless of body weight"
+        "D: 7.5 mg/kg IV — the maintenance dose used in patients with acute kidney injury",
+        "E: 4 × 10 mg/kg orally for 5 days"
       ],
       "correct": 2,
-      "explanation": "IV ribavirin for Lassa fever: loading dose 30–34 mg/kg (maximum 2 g), then 15–17 mg/kg every 6 hours (maximum 1 g per dose) for 6–10 days. Option B is the maintenance dose only. Option D is the oral post-exposure prophylaxis regimen for Lassa/CCHF — not treatment of active disease. The 7.5 mg/kg maintenance dose (option A) applies only in patients with AKI/reduced GFR. The 1 g fixed dose (option E) is the maximum maintenance dose cap. Early and often empirical initiation of ribavirin is critical for treatment efficacy.",
+      "explanation": "IV ribavirin for Lassa fever: loading dose 30–34 mg/kg (maximum 2 g), then a maintenance dose of 15–17 mg/kg every 6 hours (maximum 1 g per dose) for 6–10 days. The 15–17 mg/kg 6-hourly regimen is the maintenance dose, not the loading dose. The 4×10 mg/kg oral regimen is post-exposure prophylaxis for Lassa/CCHF exposure, not treatment of confirmed active disease. A reduced maintenance dose of 7.5 mg/kg applies only in patients with acute kidney injury or reduced GFR — this patient's renal function is not stated to be impaired. A fixed 1 g dose corresponds to the maximum maintenance dose cap, not the loading dose. Early, often empirical, initiation of ribavirin is critical for treatment efficacy.",
       "section": "Other VHFs: Antiviral Therapy",
       "topic": "ribavirin IV loading dose Lassa fever 30–34 mg/kg treatment regimen",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "tdp1_a12",
@@ -230,18 +243,19 @@
       "set": 1,
       "question": "A 44-year-old veterinarian working in Kenya is confirmed to have Rift Valley fever. The infection control team asks whether strict patient isolation with a negative-pressure room is required. What is the most accurate statement?",
       "options": [
-        "A: Strict negative-pressure isolation is mandatory for all confirmed viral haemorrhagic fever diagnoses",
-        "B: Rift Valley fever does NOT require strict patient isolation as it lacks sustained human-to-human transmission",
-        "C: Droplet precautions alone are sufficient for Rift Valley fever; contact transmission does not occur",
-        "D: Isolation is required only if the patient develops active haemorrhagic complications",
-        "E: Transfer to a high-consequence infectious disease centre is mandatory for all confirmed VHF cases regardless of type"
+        "A: Transfer to a high-consequence infectious disease centre is mandatory for all confirmed VHF cases regardless of type",
+        "B: Droplet precautions alone are sufficient for Rift Valley fever; contact transmission does not occur",
+        "C: Rift Valley fever does NOT require strict patient isolation as it lacks sustained human-to-human transmission",
+        "D: Strict negative-pressure isolation is mandatory for all confirmed viral haemorrhagic fever diagnoses",
+        "E: Isolation is required only if the patient develops active haemorrhagic complications"
       ],
-      "correct": 1,
+      "correct": 2,
       "explanation": "Strict patient isolation is NOT required for Rift Valley fever. The module explicitly identifies the Rift Valley fever viruses, South American haemorrhagic fever viruses, and Flaviviruses as exceptions to the requirement for strict isolation, as they lack sustained human-to-human transmission. Rift Valley fever is mosquito- and animal-transmitted. In contrast, Ebola, Marburg, Lassa, and CCHF have high human-to-human transmission risk and require full isolation including a negative-pressure room. Transfer to a specialist centre is recommended depending on national regulation, not mandatory for all VHF types.",
       "section": "Other VHFs: Infection Control",
       "topic": "Rift Valley fever isolation NOT required human-to-human transmission VHF",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "tdp1_a13",
@@ -251,16 +265,17 @@
       "options": [
         "A: Confirmed Lassa fever",
         "B: Confirmed Crimean-Congo haemorrhagic fever (CCHF)",
-        "C: Haemorrhagic fever with renal syndrome (HFRS) due to Hantavirus infection",
-        "D: Confirmed Ebola virus disease",
-        "E: Post-exposure prophylaxis after high-risk contact with a confirmed Lassa fever patient"
+        "C: Confirmed Ebola virus disease",
+        "D: Post-exposure prophylaxis after high-risk contact with a confirmed Lassa fever patient",
+        "E: Haemorrhagic fever with renal syndrome (HFRS) due to Hantavirus infection"
       ],
-      "correct": 3,
-      "explanation": "Ribavirin is the only currently recommended antiviral agent for Lassa fever, CCHF, and Hanta HFRS — it is NOT indicated for Ebola or Marburg virus disease. For Ebola, monoclonal antibodies have been investigated (benefit unclear, use experimental) and remdesivir has not shown a discernible mortality benefit. Option E (Lassa PEP) is a valid ribavirin indication: oral 4×10 mg/kg for 5 days. The nearest distractor is HFRS (option C), which is a genuine ribavirin indication and distinguishes those who know the full list from those who only recall Lassa.",
+      "correct": 2,
+      "explanation": "Ribavirin is the only currently recommended antiviral agent for Lassa fever, CCHF, and Hanta HFRS — it is NOT indicated for Ebola or Marburg virus disease. For Ebola, monoclonal antibodies have been investigated (benefit unclear, use experimental) and remdesivir has not shown a discernible mortality benefit. Post-exposure prophylaxis after high-risk Lassa contact IS a valid ribavirin indication (oral 4×10 mg/kg for 5 days), so it does not qualify as the exception being asked for. The closest distractor is HFRS due to Hantavirus, which is also a genuine ribavirin indication — this distinguishes candidates who know the full indication list from those who only recall the Lassa indication.",
       "section": "Other VHFs: Antiviral Therapy",
       "topic": "ribavirin NOT indicated Ebola VHF antiviral Lassa CCHF Hanta",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "tdp1_a14",
@@ -268,18 +283,19 @@
       "set": 1,
       "question": "A nurse has a high-risk needlestick injury involving blood from a patient with confirmed Crimean-Congo haemorrhagic fever (CCHF). Post-exposure prophylaxis is indicated. What is the correct ribavirin PEP regimen?",
       "options": [
-        "A: IV ribavirin 30–34 mg/kg loading dose, then 15–17 mg/kg every 6 hours for 6 days",
-        "B: Oral ribavirin 4 × 10 mg/kg per dose for 5 days",
-        "C: Oral ribavirin 15 mg/kg twice daily for 10 days",
-        "D: No antiviral PEP is available for CCHF; supportive monitoring is the only option",
-        "E: IV immunoglobulin 1 g/kg for 2 doses is the recommended PEP for CCHF"
+        "A: Oral ribavirin 4 × 10 mg/kg per dose for 5 days",
+        "B: No antiviral PEP is available for CCHF; supportive monitoring is the only option",
+        "C: IV immunoglobulin 1 g/kg for 2 doses is the recommended PEP for CCHF",
+        "D: Oral ribavirin 15 mg/kg twice daily for 10 days",
+        "E: IV ribavirin 30–34 mg/kg loading dose, then 15–17 mg/kg every 6 hours for 6 days"
       ],
-      "correct": 1,
-      "explanation": "Post-exposure prophylaxis with oral ribavirin is recommended for healthcare workers with high-risk exposure to Lassa virus or CCHF virus. The correct PEP regimen is oral ribavirin 4×10 mg/kg per dose for 5 days. Option A describes the full intravenous treatment regimen for confirmed active VHF disease — not the PEP dose. The reduced oral dosing reflects the prophylactic rather than therapeutic context. Ribavirin PEP does NOT apply to Ebola exposures, where no specific antiviral PEP exists.",
+      "correct": 0,
+      "explanation": "Post-exposure prophylaxis with oral ribavirin is recommended for healthcare workers with high-risk exposure to Lassa virus or CCHF virus. The correct PEP regimen is oral ribavirin 4×10 mg/kg per dose for 5 days. The intravenous loading-then-maintenance regimen is the treatment protocol for confirmed active VHF disease, not the PEP dose — the reduced oral dosing reflects the prophylactic rather than therapeutic context. Ribavirin PEP does NOT apply to Ebola exposures, where no specific antiviral PEP exists.",
       "section": "Other VHFs: Infection Control",
       "topic": "ribavirin PEP CCHF oral 4x10 mg/kg 5 days post-exposure",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "tdp1_a15",
@@ -287,18 +303,19 @@
       "set": 1,
       "question": "A junior doctor treating a patient with confirmed Ebola virus disease contracts the infection despite using full PPE throughout all patient encounters. An audit identifies the breach. During which activity do most healthcare worker infections occur with high-virulence VHF viruses?",
       "options": [
-        "A: During donning (putting on) of PPE at the beginning of a care session",
-        "B: During doffing (removal) of PPE at the end of patient care",
+        "A: During intravenous cannulation with the risk of needlestick injury",
+        "B: During donning (putting on) of PPE at the beginning of a care session",
         "C: During endotracheal suctioning requiring close proximity to the patient's airway",
-        "D: During intravenous cannulation with the risk of needlestick injury",
+        "D: During doffing (removal) of PPE at the end of patient care",
         "E: During patient transport between isolation areas within the hospital"
       ],
-      "correct": 1,
+      "correct": 3,
       "explanation": "The module explicitly states that most healthcare worker infections occur during doffing — the removal of PPE — not during donning. During doffing, the contaminated outer surfaces of PPE come into contact with the skin and mucous membranes, creating a high risk of self-contamination. A buddy system must be implemented and strictly adhered to during this phase. Aerosol-generating procedures and needlestick injuries also carry risk, but the highest-risk phase identified is doffing.",
       "section": "Other VHFs: Infection Control",
       "topic": "doffing PPE highest HCW transmission risk Ebola buddy system",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "tdp1_k01",
@@ -306,16 +323,33 @@
       "set": 1,
       "question": "Regarding the laboratory diagnosis of dengue virus disease:",
       "statements": [
-        {"label": "A", "text": "RT-PCR can confirm dengue infection and simultaneously identify the infecting serotype.", "correct": true},
-        {"label": "B", "text": "NS1 antigen ELISA has equivalent sensitivity (~90%) in primary and secondary dengue infection.", "correct": false},
-        {"label": "C", "text": "IgM antibody testing is the preferred first-line diagnostic method during the first 48 hours of illness.", "correct": false},
-        {"label": "D", "text": "A simultaneous rise in haematocrit and fall in serum albumin (>0.5 g/dL) supports haemoconcentration from plasma leakage.", "correct": true}
+        {
+          "label": "A",
+          "text": "RT-PCR can confirm dengue infection and simultaneously identify the infecting serotype.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "IgM antibody testing is the preferred first-line diagnostic method during the first 48 hours of illness.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "NS1 antigen ELISA has equivalent sensitivity (~90%) in primary and secondary dengue infection.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "A simultaneous rise in haematocrit and fall in serum albumin (>0.5 g/dL) supports haemoconcentration from plasma leakage.",
+          "correct": true
+        }
       ],
-      "explanation": "RT-PCR is the gold standard in the early viraemic phase and uniquely provides serotype data (A: TRUE). NS1 sensitivity is ~90% in primary infection but falls to 60–80% in secondary infection — not equivalent (B: FALSE). IgM achieves only ~75% sensitivity from day 3–5; RT-PCR is preferred in the first 48 hours (C: FALSE). Concurrent rising haematocrit and falling albumin are linked markers of plasma leakage and haemoconcentration in severe dengue (D: TRUE).",
+      "explanation": "RT-PCR is the gold standard in the early viraemic phase and uniquely provides serotype data, unlike other diagnostic methods. NS1 antigen ELISA sensitivity is ~90% in primary infection but falls to 60–80% in secondary infection, so its sensitivity is not equivalent across infection types. IgM antibody testing achieves only ~75% sensitivity from day 3–5 of illness, making RT-PCR the preferred test within the first 48 hours rather than IgM serology. A concurrent rise in haematocrit with a fall in serum albumin are linked markers of plasma leakage and resulting haemoconcentration in severe dengue.",
       "section": "Severe Dengue: Diagnostic Work-up",
       "topic": "dengue diagnosis RT-PCR NS1 IgM sensitivity serotype albumin haematocrit",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "tdp1_k02",
@@ -323,16 +357,33 @@
       "set": 1,
       "question": "Regarding intravenous fluid resuscitation in adults with severe dengue:",
       "statements": [
-        {"label": "A", "text": "The initial recommended fluid bolus is 500–1,000 ml of crystalloid administered over 1 hour.", "correct": true},
-        {"label": "B", "text": "Synthetic colloids are preferred over crystalloids due to their superior oncotic effect during plasma leakage.", "correct": false},
-        {"label": "C", "text": "Large boluses exceeding 15 ml/kg should not be infused in less than 30 minutes in non-hypotensive patients, to reduce the risk of pulmonary oedema.", "correct": true},
-        {"label": "D", "text": "Stabilisation of haemodynamic parameters combined with a decreasing haematocrit signals that plasma leakage has resolved and fluids should be tapered.", "correct": true}
+        {
+          "label": "A",
+          "text": "The initial recommended fluid bolus is 500–1,000 ml of crystalloid administered over 1 hour.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Synthetic colloids are preferred over crystalloids due to their superior oncotic effect during plasma leakage.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Large boluses exceeding 15 ml/kg should not be infused in less than 30 minutes in non-hypotensive patients, to reduce the risk of pulmonary oedema.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Stabilisation of haemodynamic parameters combined with a decreasing haematocrit signals that plasma leakage has resolved and fluids should be tapered.",
+          "correct": true
+        }
       ],
-      "explanation": "500–1,000 ml over 1 hour is the recommended adult bolus (A: TRUE). Synthetic colloids lack supporting evidence in dengue and should be avoided — crystalloids are the first choice (B: FALSE). Rapid large boluses risk pulmonary oedema from redistribution into an already over-loaded interstitium; the 15 ml/kg threshold applies to non-hypotensive patients (C: TRUE). A falling haematocrit with stable haemodynamics is the key stopping signal for dengue fluid therapy (D: TRUE).",
+      "explanation": "An initial bolus of 500–1,000 ml crystalloid over 1 hour is the recommended adult starting volume. Synthetic colloids lack supporting evidence in dengue and are not preferred over crystalloids, which remain the first-choice resuscitation fluid despite ongoing plasma leakage. Rapid large boluses risk pulmonary oedema from fluid redistribution into an already overloaded interstitium; the 15 ml/kg threshold for slower infusion applies specifically to non-hypotensive patients. A falling haematocrit together with stable haemodynamics is the key signal that plasma leakage has resolved and fluids should be tapered.",
       "section": "Severe Dengue: Fluid Management",
       "topic": "dengue fluid resuscitation adults crystalloid bolus colloids stopping criteria",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "tdp1_k03",
@@ -340,16 +391,33 @@
       "set": 1,
       "question": "Regarding haemorrhagic complications in severe dengue:",
       "statements": [
-        {"label": "A", "text": "A randomised controlled trial found that prophylactic platelet transfusion in patients with platelet counts ≤20 G/L reduced the rate of clinical bleeding events.", "correct": false},
-        {"label": "B", "text": "Non-steroidal anti-inflammatory drugs and aspirin are contraindicated due to their adverse effects on platelet function.", "correct": true},
-        {"label": "C", "text": "A haematocrit that falls despite fluid loading in a haemodynamically unstable dengue patient suggests haemorrhage rather than plasma leakage.", "correct": true},
-        {"label": "D", "text": "In severe dengue complicated by disseminated intravascular coagulation, tranexamic acid and fibrinogen concentrates may be required, guided by viscoelastic coagulation testing.", "correct": true}
+        {
+          "label": "A",
+          "text": "A randomised controlled trial found that prophylactic platelet transfusion in patients with platelet counts ≤20 G/L reduced the rate of clinical bleeding events.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "A haematocrit that falls despite fluid loading in a haemodynamically unstable dengue patient suggests haemorrhage rather than plasma leakage.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "In severe dengue complicated by disseminated intravascular coagulation, tranexamic acid and fibrinogen concentrates may be required, guided by viscoelastic coagulation testing.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Non-steroidal anti-inflammatory drugs and aspirin are contraindicated due to their adverse effects on platelet function.",
+          "correct": true
+        }
       ],
-      "explanation": "The RCT showed prophylactic platelet transfusion had NO benefit on bleeding events, platelet recovery, or mortality and was associated with MORE adverse events — the opposite of what this statement claims (A: FALSE — critical myt-trap). NSAIDs and aspirin are explicitly contraindicated in severe dengue (B: TRUE). Haemorrhage causes haematocrit to FALL during fluid loading; plasma leakage causes it to RISE — this haematocrit response is a key clinical differentiator (C: TRUE). VET-guided tranexamic acid and fibrinogen are appropriate in dengue-associated DIC (D: TRUE).",
+      "explanation": "The relevant randomised controlled trial found prophylactic platelet transfusion had NO benefit on bleeding events, platelet recovery, or mortality, and was instead associated with MORE adverse events — the opposite of a benefit, making this a classic misconception to guard against. NSAIDs and aspirin are explicitly contraindicated in severe dengue because of their adverse effects on platelet function. A haematocrit that FALLS despite fluid loading in a haemodynamically unstable patient points to haemorrhage, whereas plasma leakage instead causes the haematocrit to RISE — this divergent response is a key clinical differentiator between the two causes of instability. Viscoelastic-testing-guided tranexamic acid and fibrinogen concentrates are appropriate when disseminated intravascular coagulation complicates severe dengue.",
       "section": "Severe Dengue: Haemorrhagic Complications",
       "topic": "prophylactic platelet RCT NSAIDs haematocrit DIC tranexamic acid dengue",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "tdp1_k04",
@@ -357,16 +425,33 @@
       "set": 1,
       "question": "Regarding dengue virus serotypes and immunity:",
       "statements": [
-        {"label": "A", "text": "There are four dengue virus serotypes (DENV-1 to DENV-4), all transmitted primarily by Aedes aegypti.", "correct": true},
-        {"label": "B", "text": "Recovery from dengue infection with one serotype provides lifelong immunity against all four serotypes.", "correct": false},
-        {"label": "C", "text": "Secondary dengue infection with a different serotype within 3–6 years of the primary infection increases the risk of developing severe dengue.", "correct": true},
-        {"label": "D", "text": "Secondary dengue infections are predominantly encountered in travellers returning from endemic regions.", "correct": false}
+        {
+          "label": "A",
+          "text": "There are four dengue virus serotypes (DENV-1 to DENV-4), all transmitted primarily by Aedes aegypti.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Recovery from dengue infection with one serotype provides lifelong immunity against all four serotypes.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Secondary dengue infections are predominantly encountered in travellers returning from endemic regions.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Secondary dengue infection with a different serotype within 3–6 years of the primary infection increases the risk of developing severe dengue.",
+          "correct": true
+        }
       ],
-      "explanation": "Four dengue serotypes exist, all transmitted primarily by Aedes aegypti (A: TRUE). Post-infection immunity is serotype-specific only — a frequent misconception is that it covers all serotypes (B: FALSE). Antibody-dependent enhancement in secondary infections within 3–6 years is the dominant mechanism of severe dengue (C: TRUE). Secondary infections occur predominantly within endemic populations; travellers typically experience only primary infection on their first exposure (D: FALSE).",
+      "explanation": "Four dengue serotypes exist, all transmitted primarily by Aedes aegypti. Post-infection immunity is serotype-specific only, protecting solely against the infecting serotype — a frequent misconception is that recovery confers immunity against all four serotypes. Antibody-dependent enhancement occurring in secondary infections within 3–6 years of the primary infection is the dominant mechanism driving progression to severe dengue. Secondary infections occur predominantly within endemic populations who are repeatedly exposed over time; travellers typically experience only a primary infection on their first, and usually only, exposure.",
       "section": "Severe Dengue: Introduction",
       "topic": "dengue serotype immunity secondary infection enhancement endemic traveller",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "tdp1_k05",
@@ -374,16 +459,33 @@
       "set": 1,
       "question": "Regarding dengue virus disease in paediatric patients:",
       "statements": [
-        {"label": "A", "text": "Paediatric patients more frequently progress to severe dengue compared to adults.", "correct": true},
-        {"label": "B", "text": "In children, hepatomegaly is a late clinical sign of fluid overload that appears only after peripheral oedema has developed.", "correct": false},
-        {"label": "C", "text": "In compensated dengue shock, children typically require higher amounts of resuscitation fluid per kilogram than adults.", "correct": true},
-        {"label": "D", "text": "Cardiac arrhythmias during convalescence occur more frequently in paediatric patients than in adults.", "correct": false}
+        {
+          "label": "A",
+          "text": "In children, hepatomegaly is a late clinical sign of fluid overload that appears only after peripheral oedema has developed.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Cardiac arrhythmias during convalescence occur more frequently in paediatric patients than in adults.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "In compensated dengue shock, children typically require higher amounts of resuscitation fluid per kilogram than adults.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Paediatric patients more frequently progress to severe dengue compared to adults.",
+          "correct": true
+        }
       ],
-      "explanation": "Children progress to severe dengue more often — children <5 are disproportionately affected, particularly in Southeast Asia and South America (A: TRUE). Hepatomegaly is an EARLY clinical sign of fluid overload in children — this is a key paediatric distinction, not a late sign (B: FALSE — trap). Paediatric WHO algorithms recommend higher weight-based fluid volumes in compensated shock (C: TRUE). Bradycardia and arrhythmias during convalescence are LESS common in children than in adults (D: FALSE).",
+      "explanation": "Children progress to severe dengue more often than adults — children under 5 are disproportionately affected, particularly in Southeast Asia and South America. Hepatomegaly is in fact an EARLY clinical sign of fluid overload in children, appearing before peripheral oedema — this is a key paediatric distinction, the reverse of what a 'late sign' claim would suggest. Paediatric WHO algorithms recommend higher weight-based fluid volumes than adult algorithms for the equivalent degree of compensated shock. Bradycardia and arrhythmias during convalescence are in fact LESS common in children than in adults, the opposite of a claim that they occur more frequently.",
       "section": "Severe Dengue: Children",
       "topic": "paediatric dengue hepatomegaly early fluid overload arrhythmia fluid requirements",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "tdp1_k06",
@@ -391,16 +493,33 @@
       "set": 1,
       "question": "Regarding antiviral therapy in viral haemorrhagic fevers:",
       "statements": [
-        {"label": "A", "text": "Ribavirin is the only currently recommended antiviral agent for Lassa fever, Crimean-Congo haemorrhagic fever, and Hantavirus HFRS.", "correct": true},
-        {"label": "B", "text": "In patients with acute kidney injury, the ribavirin IV maintenance dose should be reduced to 7.5 mg/kg.", "correct": true},
-        {"label": "C", "text": "Monoclonal antibodies against Ebola virus have demonstrated a clear and consistent mortality benefit in published clinical trials.", "correct": false},
-        {"label": "D", "text": "Remdesivir and interferon therapy have each shown a significant mortality benefit in patients with viral haemorrhagic fevers.", "correct": false}
+        {
+          "label": "A",
+          "text": "Remdesivir and interferon therapy have each shown a significant mortality benefit in patients with viral haemorrhagic fevers.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Ribavirin is the only currently recommended antiviral agent for Lassa fever, Crimean-Congo haemorrhagic fever, and Hantavirus HFRS.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "In patients with acute kidney injury, the ribavirin IV maintenance dose should be reduced to 7.5 mg/kg.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Monoclonal antibodies against Ebola virus have demonstrated a clear and consistent mortality benefit in published clinical trials.",
+          "correct": false
+        }
       ],
-      "explanation": "Ribavirin is the only recommended antiviral and covers Lassa, CCHF, and Hanta HFRS (A: TRUE). The maintenance dose must be reduced to 7.5 mg/kg in AKI with reduced GFR (B: TRUE). Monoclonal antibodies for Ebola have been tested but their effects 'remain unclear and their use experimental' (C: FALSE). Remdesivir, interferon, and immune plasma have not shown discernible mortality benefit in VHF (D: FALSE).",
+      "explanation": "Ribavirin is the only currently recommended antiviral agent and covers Lassa fever, CCHF, and Hantavirus-associated HFRS. Its intravenous maintenance dose must be reduced to 7.5 mg/kg in patients with acute kidney injury and reduced GFR. Monoclonal antibodies against Ebola virus have been investigated, but their benefit remains unclear and their use is considered experimental rather than demonstrating a clear, consistent mortality benefit. Remdesivir and interferon therapy have likewise not shown a discernible mortality benefit in viral haemorrhagic fevers, contrary to a claim of significant benefit.",
       "section": "Other VHFs: Antiviral Therapy",
       "topic": "ribavirin VHF indication AKI dose monoclonal antibodies remdesivir interferon",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "tdp1_k07",
@@ -408,16 +527,33 @@
       "set": 1,
       "question": "Regarding patient isolation in viral haemorrhagic fevers:",
       "statements": [
-        {"label": "A", "text": "Isolation measures can be lifted once symptoms have resolved and two consecutive negative PCR samples taken 48–72 hours apart are confirmed.", "correct": true},
-        {"label": "B", "text": "Ebola virus may persist in semen, breast milk, and cerebrospinal fluid for several months after clinical recovery.", "correct": true},
-        {"label": "C", "text": "Rift Valley fever viruses and Flaviviruses do not require strict patient isolation.", "correct": true},
-        {"label": "D", "text": "South American haemorrhagic fever viruses (e.g., Junin, Machupo) require the same strict isolation precautions as Ebola virus disease.", "correct": false}
+        {
+          "label": "A",
+          "text": "Rift Valley fever viruses and Flaviviruses do not require strict patient isolation.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "South American haemorrhagic fever viruses (e.g., Junin, Machupo) require the same strict isolation precautions as Ebola virus disease.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Isolation measures can be lifted once symptoms have resolved and two consecutive negative PCR samples taken 48–72 hours apart are confirmed.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Ebola virus may persist in semen, breast milk, and cerebrospinal fluid for several months after clinical recovery.",
+          "correct": true
+        }
       ],
-      "explanation": "Two consecutive negative PCRs ≥48–72h apart after symptom resolution is the correct de-isolation threshold (A: TRUE). Ebola viral persistence in semen, breast milk, tears, and CSF for months after recovery requires patient education about ongoing transmission risk (B: TRUE). Rift Valley fever and Flaviviruses are explicitly among those NOT requiring strict isolation (C: TRUE). South American HF viruses are also listed as NOT requiring strict isolation — a common misconception given their pathogenic classification (D: FALSE).",
+      "explanation": "Two consecutive negative PCR samples taken 48–72 hours apart after symptom resolution is the correct threshold for lifting isolation. Ebola virus can persist in semen, breast milk, tears, and cerebrospinal fluid for months after clinical recovery, so patients need counselling about this ongoing transmission risk even after de-isolation. Rift Valley fever viruses and flaviviruses (which include dengue and yellow fever) are explicitly among the agents that do NOT require strict patient isolation. South American haemorrhagic fever viruses such as Junin and Machupo are, despite their severity, also listed among agents that do NOT require the same strict isolation precautions as Ebola virus disease — a common misconception given how these viruses are otherwise classified.",
       "section": "Other VHFs: Infection Control",
       "topic": "VHF de-isolation PCR criteria Ebola persistence South American HF isolation",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "tdp1_k08",
@@ -425,16 +561,33 @@
       "set": 1,
       "question": "Regarding the diagnostic work-up of viral haemorrhagic fevers:",
       "statements": [
-        {"label": "A", "text": "The characteristic laboratory triad of VHF is leukopenia combined with thrombocytopenia and ASAT greater than ALAT.", "correct": true},
-        {"label": "B", "text": "A normal platelet count with serum transaminases within the reference range makes the diagnosis of VHF highly unlikely.", "correct": true},
-        {"label": "C", "text": "A negative RT-PCR result taken within 72 hours of symptom onset reliably excludes viral haemorrhagic fever.", "correct": false},
-        {"label": "D", "text": "Blood glucose should be monitored regularly in patients with suspected Crimean-Congo haemorrhagic fever.", "correct": true}
+        {
+          "label": "A",
+          "text": "The characteristic laboratory triad of VHF is leukopenia combined with thrombocytopenia and ASAT greater than ALAT.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "A normal platelet count with serum transaminases within the reference range makes the diagnosis of VHF highly unlikely.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "A negative RT-PCR result taken within 72 hours of symptom onset reliably excludes viral haemorrhagic fever.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Blood glucose should be monitored regularly in patients with suspected Crimean-Congo haemorrhagic fever.",
+          "correct": true
+        }
       ],
-      "explanation": "Leukopenia + thrombocytopenia + ASAT > ALAT is the hallmark VHF laboratory pattern (A: TRUE). The module explicitly states that normal platelet count and normal transaminases make VHF 'highly unlikely' — useful to rule out (B: TRUE). RT-PCR may be negative during the very early viraemic stage (<72h); the module mandates repeat testing before de-isolating high-probability patients with an early negative result (C: FALSE — patient safety trap). CCHF is specifically associated with hypoglycaemia, requiring regular blood glucose monitoring (D: TRUE).",
+      "explanation": "The combination of leukopenia, thrombocytopenia, and ASAT greater than ALAT is the hallmark laboratory pattern of viral haemorrhagic fever. A normal platelet count together with normal transaminases makes the diagnosis highly unlikely, which is clinically useful for ruling VHF out. RT-PCR can still be negative during the very early viraemic stage — within roughly the first 72 hours — so an early negative result in a high-probability patient should prompt repeat testing rather than being treated as reliably excluding the diagnosis. CCHF specifically is associated with hypoglycaemia, so regular blood glucose monitoring is warranted in suspected cases.",
       "section": "Other VHFs: Diagnosis",
       "topic": "VHF laboratory triad leukopenia thrombocytopenia ASAT early PCR CCHF hypoglycaemia",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "tdp1_k09",
@@ -442,16 +595,33 @@
       "set": 1,
       "question": "Regarding personal protective equipment and post-exposure prophylaxis in viral haemorrhagic fevers:",
       "statements": [
-        {"label": "A", "text": "A buddy system should be implemented particularly during doffing of PPE, as most healthcare worker infections occur during this phase.", "correct": true},
-        {"label": "B", "text": "Post-exposure prophylaxis with oral ribavirin is recommended for healthcare workers exposed to Ebola virus disease.", "correct": false},
-        {"label": "C", "text": "Recommended PPE for high-virulence VHF includes two pairs of gloves and waterproof boots.", "correct": true},
-        {"label": "D", "text": "A vaccine against Ebola virus disease is available.", "correct": true}
+        {
+          "label": "A",
+          "text": "A buddy system should be implemented particularly during doffing of PPE, as most healthcare worker infections occur during this phase.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Recommended PPE for high-virulence VHF includes two pairs of gloves and waterproof boots.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Post-exposure prophylaxis with oral ribavirin is recommended for healthcare workers exposed to Ebola virus disease.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "A vaccine against Ebola virus disease is available.",
+          "correct": true
+        }
       ],
-      "explanation": "Doffing (not donning) is the phase of highest HCW transmission risk; the buddy system is essential during doffing (A: TRUE). Ribavirin PEP is recommended for Lassa and CCHF exposures ONLY — NOT for Ebola, where no specific antiviral PEP exists (B: FALSE — high-stakes clinical trap). PPE specifications include two pairs of gloves and waterproof boots among other elements (C: TRUE). An approved Ebola vaccine is listed in Table 1 of the module (D: TRUE).",
+      "explanation": "Doffing, not donning, of PPE is the phase carrying the highest risk of healthcare-worker transmission, which is why a buddy system is considered essential specifically during doffing. Ribavirin post-exposure prophylaxis is recommended only for Lassa and CCHF exposures — it does NOT apply to Ebola exposure, for which no specific antiviral PEP currently exists, making a claim of ribavirin PEP for Ebola a high-stakes clinical error. Recommended PPE for high-virulence VHF includes two pairs of gloves and waterproof boots, among other components. An approved vaccine against Ebola virus disease does exist and is available for use.",
       "section": "Other VHFs: Infection Control",
       "topic": "PPE doffing buddy system ribavirin PEP Ebola NOT indicated vaccine",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "tdp1_k10",
@@ -459,16 +629,141 @@
       "set": 1,
       "question": "Regarding supportive care in critically ill patients with viral haemorrhagic fevers:",
       "statements": [
-        {"label": "A", "text": "Crystalloid fluids are the resuscitation fluid of choice; synthetic colloids should be avoided due to adverse effects on coagulation and renal function.", "correct": true},
-        {"label": "B", "text": "Pharmacological thromboprophylaxis is recommended during the acute phase of viral haemorrhagic fevers.", "correct": false},
-        {"label": "C", "text": "Pharmacological thromboprophylaxis may be considered once platelet count has recovered above 50 G/L during convalescence.", "correct": true},
-        {"label": "D", "text": "Nasogastric tube insertion is a low-risk procedure in patients with Ebola or Marburg virus disease.", "correct": false}
+        {
+          "label": "A",
+          "text": "Pharmacological thromboprophylaxis may be considered once platelet count has recovered above 50 G/L during convalescence.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Pharmacological thromboprophylaxis is recommended during the acute phase of viral haemorrhagic fevers.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Crystalloid fluids are the resuscitation fluid of choice; synthetic colloids should be avoided due to adverse effects on coagulation and renal function.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Nasogastric tube insertion is a low-risk procedure in patients with Ebola or Marburg virus disease.",
+          "correct": false
+        }
       ],
-      "explanation": "Crystalloids are standard; synthetic colloids are explicitly avoided due to adverse coagulation and renal effects (A: TRUE). Thromboprophylaxis is NOT recommended during the acute phase due to universal thrombocytopenia and high bleeding risk (B: FALSE). Once platelets recover >50 G/L in convalescence, pharmacological thromboprophylaxis may be considered (C: TRUE). NGT insertion in Ebola/Marburg is explicitly identified as a high-risk procedure because it can cause severe epistaxis, placing healthcare workers at risk of viral contamination with blood (D: FALSE).",
+      "explanation": "Crystalloids are the standard resuscitation fluid; synthetic colloids are explicitly avoided because of their adverse effects on coagulation and renal function. Pharmacological thromboprophylaxis is NOT recommended during the acute phase of viral haemorrhagic fevers, given near-universal thrombocytopenia and a correspondingly high bleeding risk. Once the platelet count has recovered above 50 G/L during convalescence, pharmacological thromboprophylaxis may then be considered. Nasogastric tube insertion in Ebola or Marburg virus disease is explicitly identified as a high-risk rather than low-risk procedure, since it can provoke severe epistaxis and expose healthcare workers to contaminated blood.",
       "section": "Other VHFs: Supportive Care",
       "topic": "VHF crystalloids thromboprophylaxis 50 G/L threshold NGT Ebola HCW risk",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
+    },
+    {
+      "id": "tdp1_a16",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "topic": "dengue IgM IgG kinetics primary vs secondary infection serology antibody-dependent enhancement",
+      "section": "Severe Dengue: Diagnostic Work-up",
+      "section_url": null,
+      "image": "images/img_91acdb0db0.png",
+      "question": "A 42-year-old woman residing in a dengue-endemic area presents with fever for 4 days. She recalls a well-documented dengue infection 5 years ago. Current serology shows a strongly positive IgG titre and a weakly positive IgM titre. Which interpretation is most consistent with the diagnostic marker kinetics shown?",
+      "options": [
+        "A: This pattern indicates recent vaccination rather than natural infection",
+        "B: This pattern is most consistent with a secondary dengue infection, given the early, high-titre IgG response",
+        "C: This pattern indicates a primary dengue infection, as IgM typically peaks before IgG",
+        "D: This pattern is inconclusive; serology should be deferred until the second week of illness",
+        "E: This pattern most likely reflects a false-positive cross-reaction with another circulating flavivirus"
+      ],
+      "correct": 1,
+      "explanation": "In secondary dengue infection, pre-existing memory B cells trigger an early, high-amplitude anamnestic IgG response, while the IgM response is comparatively blunted and lower in titre — the inverse of the primary-infection pattern, where IgM rises first and dominates before a slower IgG rise around one week after symptom onset. This patient's history of a prior confirmed infection together with the current IgG-dominant, early pattern points to secondary infection, which carries a higher risk of progressing to severe dengue via antibody-dependent enhancement. A primary-infection interpretation would instead require a low or absent IgG with a dominant early IgM response. Cross-reactivity with other flaviviruses is a genuine pitfall for rapid diagnostic tests, but it does not produce this specific kinetic pattern, which the reference curve attributes to a secondary immune response."
+    },
+    {
+      "id": "tdp1_k11",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "topic": "VHF virus family vector isolation vaccine availability Lassa CCHF Ebola yellow fever",
+      "section": "Other VHFs: Introduction",
+      "section_url": null,
+      "image": null,
+      "question": "Regarding viral haemorrhagic fevers other than dengue:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Crimean-Congo haemorrhagic fever is transmitted by Hyalomma ticks and requires patient isolation precautions.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "All viral haemorrhagic fever agents require strict isolation of infected patients.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Ebola virus disease has no approved vaccine, unlike yellow fever.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Lassa fever is caused by an arenavirus transmitted by contact with rodent excreta, without an arthropod vector.",
+          "correct": true
+        }
+      ],
+      "explanation": "Crimean-Congo haemorrhagic fever is tick-borne (Hyalomma spp.) and, unlike most arthropod-borne viral haemorrhagic fevers, still carries a risk of human-to-human transmission that requires patient isolation. An approved Ebola vaccine exists, contrary to the common misconception that none is available — yellow fever has likewise had an effective vaccine for decades. Lassa fever is caused by an arenavirus with no arthropod vector; transmission occurs via contact with rodent excreta or, less commonly, infected body fluids. Isolation requirements vary considerably across agents: several vector-borne viral haemorrhagic fevers without significant person-to-person spread — including dengue, yellow fever, and Rift Valley fever — do not require patient isolation, unlike the contact-transmissible filoviruses and arenaviruses."
+    },
+    {
+      "id": "tdp1_a17",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "topic": "VHF malaria co-infection concurrent testing not delayed treatable diagnosis",
+      "section": "Other VHFs: Co-Infections",
+      "section_url": null,
+      "image": null,
+      "question": "A 34-year-old aid worker returns from rural Sierra Leone with fever, myalgia, and diarrhoea. Viral haemorrhagic fever is suspected and isolation precautions are instituted pending laboratory confirmation. Which of the following is the most appropriate concurrent diagnostic step?",
+      "options": [
+        "A: Send malaria testing and blood cultures immediately alongside viral haemorrhagic fever diagnostics, since treatable co-infections are common and should not be missed",
+        "B: Postpone all diagnostic testing until the patient is transferred to a designated high-consequence infectious disease unit",
+        "C: Initiate broad-spectrum antibiotics only, as malaria co-infection is rare in patients with a clinical picture suggestive of viral haemorrhagic fever",
+        "D: Defer all bacteriological and malaria testing until viral haemorrhagic fever has been excluded, to minimise specimen handling risk",
+        "E: Withhold empirical antimalarial therapy until parasitaemia is confirmed by thick and thin blood films, given the risk of masking viral haemorrhagic fever symptoms"
+      ],
+      "correct": 0,
+      "explanation": "Malaria co-infection is common in patients with suspected viral haemorrhagic fever, since almost all VHF-endemic regions are also malaria-endemic; malaria is treatable and can be rapidly fatal if missed, so testing should proceed in parallel with VHF diagnostics rather than being deferred. Isolation precautions govern specimen-handling technique, not whether testing is performed at all — delaying bacteriological or malaria workup risks missing a treatable, time-critical diagnosis. Empirical antimalarial therapy should not be withheld pending microscopy in a patient with a compatible exposure and clinical picture: a VHF diagnosis does not exclude concurrent malaria, and antimalarial treatment does not obscure or delay VHF diagnosis."
+    },
+    {
+      "id": "tdp1_k12",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "topic": "severe dengue recovery phase fluid overload diuretics VTE prophylaxis bradycardia convalescence AKI",
+      "section": "Severe Dengue: ICU Complications",
+      "section_url": null,
+      "image": null,
+      "question": "Regarding intensive care complications during the recovery phase of severe dengue:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Routine pharmacological thromboprophylaxis is recommended given the increased thromboembolic risk associated with severe dengue.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Persistent hypovolaemic shock despite adequate fluid resuscitation may progress to a vasodilatory pattern requiring vasopressor support.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sinus bradycardia during early convalescence is a common finding that does not routinely require continuous cardiac monitoring.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Diuretic therapy may be required to manage fluid overload and pleural effusions during the recovery phase, even though thrombocytopenia often persists.",
+          "correct": true
+        }
+      ],
+      "explanation": "Diuretics are commonly needed to manage fluid overload and pleural effusions during the dengue recovery phase; persisting thrombocytopenia at this stage warrants caution regarding bleeding risk but is not a contraindication to diuretic use. Despite an increased thromboembolic tendency in severe dengue, routine pharmacological thromboprophylaxis is not recommended, because the concurrent low platelet count means bleeding risk is judged to outweigh thrombotic risk in routine practice. Sinus bradycardia is a frequent finding during early convalescence and warrants continuous cardiac monitoring to detect progression to conduction abnormalities such as heart block, rather than being safely disregarded. Persistent hypovolaemic shock despite adequate volume resuscitation can evolve into a vasodilatory pattern needing vasopressor support, similar to prolonged shock states of other aetiologies."
     }
   ]
 }
