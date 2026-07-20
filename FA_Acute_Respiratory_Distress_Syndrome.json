@@ -16,7 +16,7 @@
         "E: None"
       ],
       "correct": 2,
-      "explanation": "The Berlin definition requires a PEEP of at least 5 cmH2O to interpret the PaO2/FiO2 ratio, and no PEEP level has yet been specified — this is the missing piece (C). The Berlin definition does not restrict imaging to chest X-ray, and the picture described is already compatible with ARDS, so CT (A) and lung ultrasound (B) are not required to make the diagnosis. A clear risk factor for ARDS (severe pneumonia) is already identified, so echocardiography to exclude a purely hydrostatic/cardiac cause (D) is not mandatory. Since C is genuinely missing, 'None' (E) is wrong.",
+      "explanation": "The Berlin definition requires a PEEP of at least 5 cmH2O to interpret the PaO2/FiO2 ratio, and no PEEP level has yet been specified — this is the missing piece. The Berlin definition does not restrict imaging to chest X-ray, and the picture described is already compatible with ARDS, so CT and lung ultrasound are not required to make the diagnosis. A clear risk factor for ARDS (severe pneumonia) is already identified, so echocardiography to exclude a purely hydrostatic/cardiac cause is not mandatory. Since the PEEP level is genuinely missing, 'None' is wrong.",
       "section": "Respiratory",
       "topic": "ARDS diagnosis Berlin definition PEEP requirement",
       "image": "images/ards_fa01.png",
@@ -69,7 +69,7 @@
         "D: Check the esophageal pressure"
       ],
       "correct": 1,
-      "explanation": "A trial (ACURASYS) showed benefit of a continuous IV cisatracurium infusion on outcome and oxygenation in early severe ARDS, making neuromuscular blockade the preferred next step here (B). The current plateau pressure (32 cmH2O) already exceeds the accepted upper safety limit of 28–30 cmH2O, so increasing PEEP further (A) is not appropriate. Lowering tidal volume to 6 ml/kg (C) is a valid general principle for controlling plateau pressure, but is not prioritised over paralysis in this scenario. Measuring esophageal pressure (D) is a useful tool for calculating transpulmonary pressure, but is not itself a therapeutic step.",
+      "explanation": "A trial (ACURASYS) showed benefit of a continuous IV cisatracurium infusion on outcome and oxygenation in early severe ARDS, making neuromuscular blockade the preferred next step here. The current plateau pressure (32 cmH2O) already exceeds the accepted upper safety limit of 28–30 cmH2O, so increasing PEEP further is not appropriate. Lowering tidal volume to 6 ml/kg is a valid general principle for controlling plateau pressure, but is not prioritised over paralysis in this scenario. Measuring esophageal pressure is a useful tool for calculating transpulmonary pressure, but is not itself a therapeutic step.",
       "section": "Respiratory",
       "topic": "ARDS neuromuscular blockade plateau pressure",
       "image": null,
@@ -123,7 +123,7 @@
         "E: The intrinsic PEEP (auto-PEEP) is 16 cmH2O"
       ],
       "correct": 2,
-      "explanation": "Using the elastance method, transpulmonary plateau pressure = plateau pressure × (lung elastance/total elastance), which here equals 26 cmH2O (C correct). Transpulmonary pressure can be obtained by either the absolute method (plateau − esophageal pressure = 14 cmH2O) or the elastance method; 17 cmH2O (A) matches neither. Driving pressure = plateau − total PEEP = 32 − 16 = 16 cmH2O, not 17 (B false). Transpulmonary driving pressure = transpulmonary plateau − transpulmonary total PEEP = 26 − 13 = 13 cmH2O, not 26 (D false). Intrinsic (auto-)PEEP = total PEEP − set PEEP = 16 − 15 = 1 cmH2O, not 16 (E false).",
+      "explanation": "Using the elastance method, transpulmonary plateau pressure = plateau pressure × (lung elastance/total elastance), which here equals 26 cmH2O. Transpulmonary pressure can be obtained by either the absolute method (plateau − esophageal pressure = 14 cmH2O) or the elastance method; 17 cmH2O matches neither. Driving pressure = plateau − total PEEP = 32 − 16 = 16 cmH2O, not 17. Transpulmonary driving pressure = transpulmonary plateau − transpulmonary total PEEP = 26 − 13 = 13 cmH2O, not 26. Intrinsic (auto-)PEEP = total PEEP − set PEEP = 16 − 15 = 1 cmH2O, not 16.",
       "section": "Respiratory",
       "topic": "transpulmonary pressure elastance method driving pressure auto-PEEP",
       "image": null,
@@ -278,7 +278,7 @@
         "D: 24 hours"
       ],
       "correct": 1,
-      "explanation": "The PROSEVA trial used prone sessions of at least 16 consecutive hours and showed a mortality benefit with this duration (B). Shorter durations (8 or 12 hours) and continuous 24-hour proning have not been specifically validated by trial evidence in this way.",
+      "explanation": "The PROSEVA trial used prone sessions of at least 16 consecutive hours and showed a mortality benefit with this duration. Shorter durations (8 or 12 hours) and continuous 24-hour proning have not been specifically validated by trial evidence in this way.",
       "section": "Respiratory",
       "topic": "prone position duration PROSEVA",
       "image": null,
@@ -400,7 +400,7 @@
         "E: Chest x-ray can be used in order to diagnose ARDS"
       ],
       "correct": 4,
-      "explanation": "Bilateral opacities on chest X-ray are part of the Berlin ARDS diagnostic criteria, so chest X-ray can indeed be used to help diagnose ARDS (E correct). Gas dilution (nitrogen washin/washout) methods measure lung gas volume but cannot distinguish whether an increase is due to recruitment of collapsed units or distention of already-open units, so option A is not ‘clearly’ diagnostic of recruitment. Electric impedance tomography has not been shown to reduce mortality (B false). Pneumothorax CAN be diagnosed by ultrasound — absent lung sliding, absent B-lines, lung point (C false). This patient has severe COPD; lung regions with long time constants are measured poorly by gas dilution methods, causing underestimation rather than overestimation of lung volume (D false).",
+      "explanation": "Bilateral opacities on chest X-ray are part of the Berlin ARDS diagnostic criteria, so chest X-ray can indeed be used to help diagnose ARDS. Gas dilution (nitrogen washin/washout) methods measure lung gas volume but cannot distinguish whether an increase is due to recruitment of collapsed units or distention of already-open units, so an increase in end-expiratory lung volume after raising PEEP is not 'clearly' diagnostic of recruitment. Electric impedance tomography has not been shown to reduce mortality. Pneumothorax CAN be diagnosed by ultrasound — absent lung sliding, absent B-lines, lung point. This patient has severe COPD; lung regions with long time constants are measured poorly by gas dilution methods, causing underestimation rather than overestimation of lung volume.",
       "section": "Respiratory",
       "topic": "ARDS diagnosis chest X-ray COPD",
       "image": null,
@@ -420,7 +420,7 @@
         "E: Veno-venous ECMO is very effective to increase oxygenation with flows of 1000 mL/min"
       ],
       "correct": 3,
-      "explanation": "The CESAR trial showed that early referral to an ECMO center improved survival in severe ARDS (D correct). Veno-venous, not veno-arterial, is the standard first-line ECMO approach in ARDS (A false). No RCT has conclusively shown that ECCO2R improves survival (B false). At typical ECCO2R flows (up to about 1000 ml/min), PaO2 does not increase markedly (C false). ECMO flows of around 6000 ml/min, not 1000 ml/min, are needed to substantially improve oxygenation (E false).",
+      "explanation": "The CESAR trial showed that early referral to an ECMO center improved survival in severe ARDS. Veno-venous, not veno-arterial, is the standard first-line ECMO approach in ARDS. No RCT has conclusively shown that ECCO2R improves survival. At typical ECCO2R flows (up to about 1000 ml/min), PaO2 does not increase markedly. ECMO flows of around 6000 ml/min, not 1000 ml/min, are needed to substantially improve oxygenation.",
       "section": "Respiratory",
       "topic": "ECMO ECCO2R CESAR referral",
       "image": null,
@@ -440,7 +440,7 @@
         "E: Muscle spasms of the left leg"
       ],
       "correct": 3,
-      "explanation": "Fat embolism syndrome classically presents with a triad of respiratory failure (which can meet ARDS criteria), neurological involvement, and a petechial rash following long-bone fracture; respiratory involvement meeting ARDS criteria is a recognised diagnostic feature (D correct). Fever, headache, tingling, and localised muscle spasms are non-specific and not diagnostic of fat embolism syndrome.",
+      "explanation": "Fat embolism syndrome classically presents with a triad of respiratory failure (which can meet ARDS criteria), neurological involvement, and a petechial rash following long-bone fracture; respiratory involvement meeting ARDS criteria is a recognised diagnostic feature. Fever, headache, tingling, and localised muscle spasms are non-specific and not diagnostic of fat embolism syndrome.",
       "section": "Respiratory",
       "topic": "fat embolism syndrome ARDS criteria",
       "image": null,
@@ -460,7 +460,7 @@
         "E: Start ECMO"
       ],
       "correct": 3,
-      "explanation": "PaO2/FiO2 = 68/0.8 ≈ 85 mmHg, i.e. severe ARDS. Early prone positioning (sessions ≥16 h) has been shown in the PROSEVA trial to reduce mortality in patients with PaO2/FiO2 <150 mmHg (D correct). No ventilator mode has demonstrated superiority in ARDS (B false). This patient is not hypercapnic and airway pressures are acceptable, so ECCO2R is not indicated (A false). Aggressive recruitment maneuvers (peak 60/PEEP 45) have been associated with increased mortality, especially in a haemodynamically unstable patient already on norepinephrine (C false). ECMO would be considered only if prone positioning fails or is contraindicated (E false, premature here).",
+      "explanation": "PaO2/FiO2 = 68/0.8 ≈ 85 mmHg, i.e. severe ARDS. Early prone positioning (sessions ≥16 h) has been shown in the PROSEVA trial to reduce mortality in patients with PaO2/FiO2 <150 mmHg. No ventilator mode has demonstrated superiority in ARDS. This patient is not hypercapnic and airway pressures are acceptable, so ECCO2R is not indicated. Aggressive recruitment maneuvers (peak 60/PEEP 45) have been associated with increased mortality, especially in a haemodynamically unstable patient already on norepinephrine. ECMO would be considered only if prone positioning fails or is contraindicated — premature here.",
       "section": "Respiratory",
       "topic": "severe ARDS prone positioning management",
       "image": null,
@@ -480,7 +480,7 @@
         "E: Call an ECMO center and discuss the case"
       ],
       "correct": 4,
-      "explanation": "This is very severe ARDS (PaO2/FiO2 ≈ 68 mmHg) in a pregnant patient — two lives may depend on ECMO availability, so an ECMO center should be contacted early for discussion, alongside obstetric involvement (E correct). Prone positioning has unproven safety in pregnancy, since the gravid abdomen limits chest and lung expansion, so it is not preferred as the first step here (B false in this specific context). No single ventilator mode has proven advantageous in ARDS (C false). PaCO2 is normal; the driving pressure could likely be lowered with a higher respiratory rate rather than starting ECCO2R (A false). The described aggressive recruitment maneuver is associated with increased mortality, though a milder maneuver with higher PEEP might cautiously be tried while awaiting ECMO center input (D false as literally stated).",
+      "explanation": "This is very severe ARDS (PaO2/FiO2 ≈ 68 mmHg) in a pregnant patient — two lives may depend on ECMO availability, so an ECMO center should be contacted early for discussion, alongside obstetric involvement. Prone positioning has unproven safety in pregnancy, since the gravid abdomen limits chest and lung expansion, so it is not preferred as the first step here in this specific context. No single ventilator mode has proven advantageous in ARDS. PaCO2 is normal; the driving pressure could likely be lowered with a higher respiratory rate rather than starting ECCO2R. The described aggressive recruitment maneuver is associated with increased mortality, though a milder maneuver with higher PEEP might cautiously be tried while awaiting ECMO center input — false as literally stated.",
       "section": "Respiratory",
       "topic": "severe ARDS pregnancy ECMO referral H1N1",
       "image": null,

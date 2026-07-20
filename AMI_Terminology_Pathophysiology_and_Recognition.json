@@ -344,7 +344,7 @@
       "image": null,
       "section_url": null,
       "source": "pact_generated",
-      "explanation": "A: False — Fibrinolytics are contraindicated in NSTEMI (active non-occlusive thrombus; risk of harm without benefit). B: True — The ECG-based classification (STE vs no-STE) drives initial treatment decisions at presentation, while troponin confirms myocardial necrosis retrospectively. C: True — UA is the ACS category where troponin remains below the 99th percentile URL. D: False — Only about 10% of ACS presentations involve ST-segment elevation, not 50%."
+      "explanation": "Fibrinolytic therapy is not appropriate for NSTEMI — this statement is false, since NSTEMI thrombus is typically non-occlusive and fibrinolytics carry risk without proven benefit in that setting. The claim that STEMI and NSTEMI are distinguished primarily by ECG findings rather than troponin levels is true: the ECG-based classification (ST-elevation vs no ST-elevation) drives initial treatment decisions at presentation, while troponin only confirms myocardial necrosis retrospectively. Defining unstable angina by ischaemic symptoms without troponin elevation above the 99th percentile URL is true — this is exactly what distinguishes UA from NSTEMI. The claim that roughly 50% of ACS patients show ST-elevation is false — only about 10% of ACS presentations involve ST-segment elevation."
     },
     {
       "id": "ami1_k02",
@@ -378,7 +378,7 @@
       "image": null,
       "section_url": null,
       "source": "pact_generated",
-      "explanation": "A: False — DAPT is indicated only for Type 1 MI (atherothrombotic). Type 2 MI should be managed by addressing the underlying supply-demand stressor, not with DAPT. B: False — Type 5 (CABG-associated) MI requires troponin >10× the 99th percentile URL — twice the Type 4a threshold (>5×), not the same threshold. C: True — Type 2 MI is defined by ischaemia due to O2 supply-demand imbalance, not plaque disruption. D: True — Type 4a MI is defined by troponin elevation >5× the 99th percentile URL within 48 hours of PCI."
+      "explanation": "Recommending dual antiplatelet therapy for both Type 1 and Type 2 MI is false — DAPT is indicated only for Type 1 (atherothrombotic) MI; Type 2 MI should instead be managed by addressing the underlying oxygen supply-demand stressor. The claim that Type 5 (CABG-associated) MI uses the same biomarker threshold as Type 4a is false — Type 5 requires troponin >10× the 99th percentile URL, twice the Type 4a threshold of >5×. Type 2 MI resulting from myocardial oxygen supply-demand imbalance rather than atherosclerotic plaque disruption is true by definition. Type 4a MI being defined by troponin elevation >5× the 99th percentile URL within 48 hours of PCI is also true."
     },
     {
       "id": "ami1_k03",
@@ -412,7 +412,7 @@
       "image": null,
       "section_url": null,
       "source": "pact_generated",
-      "explanation": "A: True — hs-cTn assays reduce time to diagnosis to within 1–3 hours in many patients. B: False — Cardiac troponin (cTnI and cTnT) is both more sensitive and more specific for myocardial injury than CK-MB; CK-MB is also found in skeletal muscle and brain, reducing its specificity. C: True — Late presenters (>12–18h) may already be on the downslope; a falling pattern alone satisfies the AMI definition. D: False — AMI requires a rising and/or falling pattern — a single elevated value indicates myocardial injury but does not confirm acute MI by the Fourth Universal Definition."
+      "explanation": "High-sensitivity troponin assays shortening the diagnostic window to 1–3 hours in many patients is true. Claiming CK-MB is more sensitive and specific than cardiac troponin is false — troponin (cTnI/cTnT) is both more sensitive and more specific for myocardial injury, since CK-MB is also found in skeletal muscle and brain. A falling troponin pattern in a patient presenting 19 hours after symptom onset being consistent with acute MI is true — late presenters may already be on the downslope, and a falling pattern alone satisfies the diagnostic criteria. Relying on a single hs-cTn value above the 99th percentile URL to confirm AMI without further sampling is false — the Fourth Universal Definition requires a rising and/or falling pattern; a single elevated value indicates myocardial injury but not necessarily acute MI."
     },
     {
       "id": "ami1_k04",
@@ -446,7 +446,7 @@
       "image": null,
       "section_url": null,
       "source": "pact_generated",
-      "explanation": "A: True — V2–V3 use sex- and age-adjusted thresholds (≥2mm men >40y; ≥2.5mm men ≤40y; ≥1.5mm women). B: True — This is the guideline-specified maximum time target from first medical contact to ECG acquisition. C: True — Prior ECG unavailability must not delay reperfusion when new or presumed new LBBB accompanies ischaemic symptoms. D: False — 'A normal ECG does not exclude AMI' — some infarcts (especially posterior and RCA territory) can produce minimal or no STE on a standard 12-lead. Serial ECGs and supplemental leads are essential when clinical suspicion is high."
+      "explanation": "The sex- and age-adjusted ST-elevation threshold of ≥2mm in leads V2–V3 for men over 40 is true (with ≥2.5mm for men ≤40 and ≥1.5mm for women). Obtaining the first ECG within 10 minutes of first medical contact in suspected ACS is true — this is the guideline-specified maximum time target. New or presumed-new LBBB with ischaemic symptoms warranting a primary PCI strategy regardless of prior ECG availability is true — unavailability of a prior ECG for comparison must not delay reperfusion in this setting. Claiming a normal 12-lead ECG reliably excludes acute MI is false — some infarcts, especially posterior and RCA-territory events, can produce minimal or no ST-elevation on a standard 12-lead, so serial ECGs and supplemental leads remain essential when clinical suspicion is high."
     },
     {
       "id": "ami1_k05",
@@ -480,7 +480,7 @@
       "image": null,
       "section_url": null,
       "source": "pact_generated",
-      "explanation": "A: True — Posterior leads (V7-V9) detect inferobasal infarction not visible on standard leads. B: False — V3R/V4R are recorded for INFERIOR MI (RCA territory, where RV infarction commonly co-occurs), not anterior MI — anterior MI is an LAD-territory event unrelated to RV perfusion. C: True — Inferior leads (II, III, aVF) ST elevation localises to the RCA territory per standard ECG localisation. D: False — This specific ECG pattern (widespread inferolateral ST depression plus aVR/V1 elevation) identifies left main coronary artery obstruction, left main equivalent, or severe three-vessel ischaemia — not an isolated LAD occlusion, which typically produces anterior ST elevation instead."
+      "explanation": "ST elevation ≥0.5mm in posterior leads V7–V9 being diagnostic of posterior (inferobasal) MI is true — these leads detect infarction not visible on the standard 12 leads. Recording right precordial leads V3R/V4R in anterior MI to identify right ventricular infarction is false — V3R/V4R are recorded for INFERIOR MI, where RV infarction commonly co-occurs since both territories are RCA-supplied; anterior MI is an LAD-territory event unrelated to RV perfusion. ST elevation in leads II, III and aVF being most commonly associated with right coronary artery occlusion is true, per standard ECG localisation. Describing ST depression ≥1mm in ≥8 surface leads with ST elevation in aVR as identifying an isolated proximal LAD occlusion is false — this widespread pattern instead indicates left main coronary obstruction, a left main equivalent, or severe three-vessel ischaemia, not an isolated LAD lesion, which typically produces anterior ST elevation instead."
     },
     {
       "id": "ami1_k06",
@@ -514,7 +514,7 @@
       "image": null,
       "section_url": null,
       "source": "pact_generated",
-      "explanation": "A: True — Takotsubo disproportionately affects post-menopausal females and is often triggered by physical or emotional stress. B: False — Normal coronary angiography is the confirming diagnostic finding in Takotsubo, not an exclusionary one — the diagnosis requires precordial STE, apical ballooning with basal sparing, AND absence of obstructive CAD. C: True — The echocardiographic hallmark is apical wall motion abnormality (ballooning) with preserved basal segment contractility. D: False — Takotsubo accounts for approximately 1–2% of clinically suspected STEMI, not 10–15% — a significant overestimate."
+      "explanation": "Takotsubo disproportionately affecting post-menopausal women and often being triggered by physical or emotional stress is true. Claiming that normal coronary arteries on angiography excludes the diagnosis of Takotsubo is false — normal angiography is actually a CONFIRMING finding: diagnosis requires precordial ST-elevation, apical ballooning with basal sparing, AND absence of obstructive coronary disease. The echocardiographic hallmark being apical wall motion abnormality with preserved basal segment contractility is true. Stating that Takotsubo accounts for approximately 10–15% of clinically suspected STEMI is false — the true figure is closer to 1–2%, a significant overestimate."
     },
     {
       "id": "ami1_k07",
@@ -548,7 +548,7 @@
       "image": null,
       "section_url": null,
       "source": "pact_generated",
-      "explanation": "A: False — The median time from STEMI to the onset of cardiogenic shock is 5–6 hours after admission — shock often develops after initial presentation, not at the time of admission itself. B: True — Cardiogenic shock complicates approximately 7–10% of STEMI cases. C: True — LV failure is the most common underlying cause of CS in AMI, accounting for approximately 78% of cases. D: True — Loss of >40% of functional LV myocardium is typically required for CS in the absence of mechanical complications."
+      "explanation": "Cardiogenic shock most commonly presenting at the time of hospital admission is false — the median time from STEMI to shock onset is 5–6 hours after admission, so shock typically develops after initial presentation rather than at admission itself. Cardiogenic shock complicating approximately 7–10% of STEMI cases is true. LV failure being the most common underlying cause of cardiogenic shock in AMI, accounting for roughly 78% of cases, is true. Requiring loss of more than 40% of functional LV myocardium for cardiogenic shock in the absence of mechanical complications is also true."
     },
     {
       "id": "ami1_k08",
@@ -582,7 +582,7 @@
       "image": null,
       "section_url": null,
       "source": "pact_generated",
-      "explanation": "A: True — Papillary muscle rupture is heard best at the apex, radiating to the axilla, reflecting acute mitral regurgitation. B: False — LV free wall rupture is a catastrophic event presenting with sudden, severe haemodynamic collapse and tamponade physiology — not gradual deterioration — requiring immediate surgical intervention. C: False — Post-MI VSD produces its holosystolic murmur (with thrill) at the LOWER LEFT STERNAL BORDER, not the apex — the apex/sternal-border distinction is exactly what differentiates it from papillary muscle rupture at the bedside, not a similarity between them. D: True — RV infarction causes decreased RV compliance and systolic dysfunction, leading to venous congestion and LOW cardiac output, the opposite of a hyperdynamic state."
+      "explanation": "Papillary muscle rupture typically presenting with a new apical holosystolic murmur due to acute mitral regurgitation is true — the murmur is heard best at the apex, radiating to the axilla. Describing acute LV free wall rupture as gradual haemodynamic deterioration over 12–24 hours is false — it is a catastrophic event causing sudden, severe collapse with tamponade physiology, requiring immediate surgical intervention. Claiming the post-MI VSD murmur is indistinguishable from papillary muscle rupture at the apex is false — VSD produces its holosystolic murmur (often with a palpable thrill) at the LOWER LEFT STERNAL BORDER, and it's precisely that apex-versus-sternal-border distinction that differentiates the two conditions at the bedside. Right ventricular infarction causing decreased cardiac output rather than a hyperdynamic state is true — reduced RV compliance and systolic dysfunction lead to venous congestion and low output."
     },
     {
       "id": "ami1_k09",
@@ -616,7 +616,7 @@
       "image": null,
       "section_url": null,
       "source": "pact_generated",
-      "explanation": "A: False — The TIMI UA/NSTEMI score uses 7 independent predictors, not 5 (age ≥65, ≥3 CHD risk factors, prior stenosis ≥50%, ST deviation, ≥2 anginal events/24h, elevated biomarkers, prior aspirin use). B: False — A GRACE score >140 identifies HIGH risk of in-hospital mortality (not intermediate); 109–140 indicates intermediate risk. C: False — The CRUSADE score includes FEMALE sex (not male sex) as one of its 8 bleeding-risk variables, alongside baseline haematocrit, creatinine clearance, diabetes, PVD, HF signs, systolic BP, and heart rate. D: True — The GRACE score comprises these 8 variables: age, heart rate, systolic blood pressure, serum creatinine, Killip class, cardiac arrest at admission, elevation of markers of myocardial injury, and ST-segment deviation."
+      "explanation": "Describing the TIMI risk score for UA/NSTEMI as using 5 independent predictors is false — it actually uses 7 (age ≥65, ≥3 coronary risk factors, prior stenosis ≥50%, ST-segment deviation, ≥2 anginal events in 24 hours, elevated biomarkers, and prior aspirin use). A GRACE score above 140 identifying intermediate risk is false — a score that high identifies HIGH risk of in-hospital mortality; 109–140 is the intermediate band. The CRUSADE bleeding score including male sex as one of its 8 variables is false — it is FEMALE sex that counts toward bleeding risk, alongside baseline haematocrit, creatinine clearance, diabetes, peripheral vascular disease, heart failure signs, systolic blood pressure and heart rate. The GRACE score comprising age, heart rate, systolic blood pressure, serum creatinine, Killip class, cardiac arrest at admission, biomarker elevation and ST-segment deviation as its 8 components is true."
     },
     {
       "id": "ami1_k10",
@@ -650,7 +650,7 @@
       "image": null,
       "section_url": null,
       "source": "pact_generated",
-      "explanation": "A: False — Total occlusion typically produces ST-segment ELEVATION (STEMI), while partial/non-occlusive thrombus produces ST depression or no elevation (NSTEMI/UA) — not the reverse. B: True — Platelet aggregation on ruptured plaque forms platelet-rich 'white thrombus,' subsequently reinforced by fibrin and red cells forming 'red thrombus.' C: False — Endothelial/inducible NO synthase and pro-inflammatory cytokines (peroxynitrite, interleukins, TNF) contribute to pathological VASODILATION (not vasoconstriction) as cardiogenic shock progresses, counterbalancing the earlier compensatory vasoconstriction phase. D: False — The relationship is reversed from this statement: fibrinolytic agents lyse fibrin-rich 'red thrombus' but are NOT active against platelet-rich 'white thrombus' — antiplatelet agents target white thrombus instead."
+      "explanation": "Describing total coronary occlusion as typically producing ST depression while partial occlusion produces ST elevation is false — the relationship is reversed: total occlusion typically produces ST-elevation (STEMI), while partial or non-occlusive thrombus produces ST depression or no elevation (NSTEMI/UA). Platelet aggregation on ruptured plaque forming a platelet-rich 'white thrombus' that is then reinforced by fibrin and red cells into a 'red thrombus' is true. Attributing enhanced vasoconstriction in prolonged cardiogenic shock to nitric oxide and pro-inflammatory cytokines is false — these mediators actually drive pathological VASODILATION as shock progresses, counterbalancing the earlier compensatory vasoconstriction phase. Claiming fibrinolytic agents are effective against platelet-rich white thrombus but not fibrin-rich red thrombus is false — the relationship is reversed: fibrinolytics lyse fibrin-rich red thrombus, while antiplatelet agents (not fibrinolytics) target white thrombus."
     },
     {
       "id": "ami1_a16",
