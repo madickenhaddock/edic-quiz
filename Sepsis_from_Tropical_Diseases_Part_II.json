@@ -17,9 +17,9 @@
       "set": 1,
       "question": "A 32-year-old Swedish woman returns from a 3-week trekking expedition in rural Malaysian Borneo with a 4-day history of high fever, rigors, and confusion. Thick blood smear confirms malaria. The species identified is a zoonotic parasite primarily transmitted from macaques, recognised as causing severe malaria specifically in this geographic region. Which Plasmodium species is responsible?",
       "options": [
-        "A: Plasmodium falciparum",
+        "A: Plasmodium malariae",
         "B: Plasmodium vivax",
-        "C: Plasmodium malariae",
+        "C: Plasmodium falciparum",
         "D: Plasmodium knowlesi",
         "E: Plasmodium ovale wallikeri"
       ],
@@ -28,7 +28,8 @@
       "section": "Background",
       "topic": "Plasmodium knowlesi severe malaria Malaysia zoonotic macaques species",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sftd2_a02",
@@ -36,18 +37,19 @@
       "set": 1,
       "question": "A 45-year-old non-immune traveller with confirmed P. falciparum malaria is assessed on admission. Findings: GCS 13, BP 110/70 mmHg, SpO2 97%, Hb 6.5 g/dL, serum creatinine 220 µmol/L, serum bilirubin 45 µmol/L, blood glucose 2.0 mmol/L, venous lactate 4.2 mmol/L, parasitaemia 8%. Which single finding meets WHO criteria for severe malaria?",
       "options": [
-        "A: GCS 13",
-        "B: Serum creatinine 220 µmol/L",
-        "C: Serum bilirubin 45 µmol/L",
-        "D: Blood glucose 2.0 mmol/L",
-        "E: Venous lactate 4.2 mmol/L"
+        "A: Serum bilirubin 45 µmol/L",
+        "B: GCS 13",
+        "C: Serum creatinine 220 µmol/L",
+        "D: Venous lactate 4.2 mmol/L",
+        "E: Blood glucose 2.0 mmol/L"
       ],
-      "correct": 3,
+      "correct": 4,
       "explanation": "Blood glucose 2.0 mmol/L meets the WHO criterion for severe hypoglycaemia (<2.2 mmol/L). All other values fall just below their respective thresholds: GCS threshold for impaired consciousness is <11 (GCS 13 does not qualify); creatinine must be >265 µmol/L (220 does not qualify); bilirubin must be >50 µmol/L with parasitaemia >100,000/µL (45 µmol/L does not qualify); venous lactate must be ≥5 mmol/L for the acidosis criterion (4.2 does not qualify). Parasitaemia 8% also falls below the hyperparasitaemia threshold of >10%. This question tests discrimination between near-threshold values.",
       "section": "Background",
       "topic": "WHO severe malaria criteria glucose creatinine bilirubin lactate GCS thresholds",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sftd2_a03",
@@ -55,18 +57,19 @@
       "set": 1,
       "question": "A peripheral blood smear from a 38-year-old non-immune traveller with P. falciparum malaria shows predominantly ring-stage parasites with a small proportion of trophozoite and schizont forms also visible. What is the correct interpretation of this finding?",
       "options": [
-        "A: Presence of mature-stage parasites indicates effective splenic clearance and is a reassuring finding",
+        "A: This pattern is typical of all P. falciparum infections and carries no additional prognostic weight",
         "B: Trophozoites and schizonts in the periphery represent overflow from a high burden of sequestered parasites and carry poor prognostic significance",
-        "C: This pattern is typical of all P. falciparum infections and carries no additional prognostic weight",
+        "C: Presence of mature-stage parasites indicates effective splenic clearance and is a reassuring finding",
         "D: This finding indicates early artesunate has mobilised sequestered parasites and is expected after treatment initiation",
         "E: The presence of schizonts suggests P. vivax co-infection given its synchronised release pattern"
       ],
       "correct": 1,
-      "explanation": "In P. falciparum malaria, mature stage parasites (trophozoites and schizonts) are normally sequestered in the microcirculation via cytoadherence. Their appearance in peripheral blood represents overflow from a high sequestered parasite burden and is a recognised poor prognostic sign. Option D is a common misinterpretation — mobilisation after artesunate does not produce peripheral mature-stage parasitaemia. P. vivax does not predominantly sequester (it accounts for ARDS via immune-pathogenesis), making option E incorrect.",
+      "explanation": "In P. falciparum malaria, mature-stage parasites (trophozoites and schizonts) are normally sequestered in the microcirculation via cytoadherence. Their appearance in peripheral blood represents overflow from a high sequestered parasite burden and is a recognised poor prognostic sign, not a reassuring one. A common misinterpretation is that artesunate mobilises sequestered parasites into the periphery — it does not; peripheral mature-stage parasitaemia is not an expected post-treatment finding. P. vivax does not predominantly sequester in the same way and is instead associated with ARDS via immune-mediated pathogenesis, so a co-infection interpretation based on schizont presence is not supported.",
       "section": "Pathophysiology",
       "topic": "trophozoites schizonts peripheral smear poor prognosis sequestration overflow falciparum",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sftd2_a04",
@@ -74,18 +77,19 @@
       "set": 1,
       "question": "A 35-year-old woman returns from West Africa with 5 days of fever, headache, rigors, and thrombocytopenia. She has not taken chemoprophylaxis. A high-quality thick blood smear reviewed by an experienced laboratory operator is negative for malaria parasites. What is the most appropriate next step?",
       "options": [
-        "A: Initiate empirical IV artesunate given the high clinical probability",
-        "B: Perform a PfHRP2 rapid diagnostic test as a definitive confirmatory test to replace microscopy",
-        "C: Repeat the thick blood smear within 8–12 hours",
-        "D: Send blood for PCR and await results before any treatment decision",
-        "E: Discharge with outpatient follow-up as a negative expert smear effectively excludes malaria"
+        "A: Repeat the thick blood smear within 8–12 hours",
+        "B: Send blood for PCR and await results before any treatment decision",
+        "C: Initiate empirical IV artesunate given the high clinical probability",
+        "D: Discharge with outpatient follow-up as a negative expert smear effectively excludes malaria",
+        "E: Perform a PfHRP2 rapid diagnostic test as a definitive confirmatory test to replace microscopy"
       ],
-      "correct": 2,
+      "correct": 0,
       "explanation": "A single negative high-quality blood smear makes malaria unlikely but does not exclude it. A second smear must be repeated within 8–12 hours when clinical suspicion persists. RDT is described as a supplementary secondary test, not as a definitive replacement for microscopy. PCR is highly reliable but requires specialist infrastructure and is not immediately available. Initiating treatment without any positive diagnostic confirmation is premature. Discharge would be dangerous with persistent clinical suspicion in a traveller returning from a malaria-endemic area.",
       "section": "Diagnostic Work-up",
       "topic": "negative blood smear repeat 8-12 hours malaria diagnosis clinical suspicion",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sftd2_a05",
@@ -93,18 +97,19 @@
       "set": 1,
       "question": "A 29-year-old man returns from sub-Saharan Africa with severe P. falciparum malaria and completes a full course of IV artesunate. On day 7, peripheral blood smears confirm complete parasite clearance, but a PfHRP2-based rapid diagnostic test remains strongly positive. What is the most accurate interpretation?",
       "options": [
-        "A: Persistent RDT positivity indicates ongoing deep microvascular parasitaemia; continue IV artesunate",
-        "B: PfHRP2-based RDTs commonly remain positive for weeks after acute infection; this is an expected finding post-treatment",
-        "C: This pattern is consistent with artemisinin partial resistance requiring addition of IV quinine",
-        "D: RDT positivity beyond day 3 invariably signals treatment failure",
-        "E: The result is unreliable as PfHRP2-negative parasite strains predominate in sub-Saharan Africa"
+        "A: The result is unreliable as PfHRP2-negative parasite strains predominate in sub-Saharan Africa",
+        "B: RDT positivity beyond day 3 invariably signals treatment failure",
+        "C: Persistent RDT positivity indicates ongoing deep microvascular parasitaemia; continue IV artesunate",
+        "D: This pattern is consistent with artemisinin partial resistance requiring addition of IV quinine",
+        "E: PfHRP2-based RDTs commonly remain positive for weeks after acute infection; this is an expected finding post-treatment"
       ],
-      "correct": 1,
+      "correct": 4,
       "explanation": "PfHRP2-based RDTs are known to remain positive for weeks after acute P. falciparum infection, even after successful treatment and confirmed parasite clearance on microscopy. This is expected and does not indicate ongoing active infection. In fact, PfHRP2 persistence can be useful to diagnose malaria in patients who have pre-cleared peripheral parasitaemia with artesunate. Artemisinin resistance manifests as slow parasite clearance on daily microscopy, not persistent RDT positivity. PfHRP2-negative strains are a concern mainly in South America and the Horn of Africa, not sub-Saharan Africa broadly.",
       "section": "Diagnostic Work-up",
       "topic": "PfHRP2 RDT persistent positivity weeks post-treatment artesunate pre-cleared parasitaemia",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sftd2_a06",
@@ -112,18 +117,19 @@
       "set": 1,
       "question": "A 52-year-old non-immune German tourist (80 kg) is admitted to your ICU with GCS 9, fever 40°C, and confirmed severe P. falciparum malaria acquired in sub-Saharan Africa. He is haemodynamically stable. Which is the most appropriate immediate treatment?",
       "options": [
-        "A: Artesunate IV 2.4 mg/kg at hours 0, 12 and 24, then every 24 hours",
+        "A: Artemether IM 3.2 mg/kg loading dose, then 1.6 mg/kg every 24 hours",
         "B: Quinine dihydrochloride IV 20 mg/kg loading dose over 4 hours, then 10 mg/kg every 8 hours",
-        "C: Artemether IM 3.2 mg/kg loading dose, then 1.6 mg/kg every 24 hours",
-        "D: Artesunate IV 3.2 mg/kg at hours 0, 12 and 24 (higher adult loading dose)",
-        "E: Artemether-lumefantrine orally since the patient is haemodynamically stable"
+        "C: Artesunate IV 2.4 mg/kg at hours 0, 12 and 24, then every 24 hours",
+        "D: Artemether-lumefantrine orally since the patient is haemodynamically stable",
+        "E: Artesunate IV 3.2 mg/kg at hours 0, 12 and 24 (higher adult loading dose)"
       ],
-      "correct": 0,
+      "correct": 2,
       "explanation": "IV artesunate 2.4 mg/kg at hours 0, 12, and 24 then every 24 hours is the first-line treatment for severe malaria in all adults. The 3.2 mg/kg dose applies only to children <20 kg, given their higher volume of distribution and more rapid clearance — it is not an adult dose. Artemether IM is the second choice and quinine IV the third (avoid due to arrhythmias and hypoglycaemia). Oral artemether-lumefantrine is step-down therapy after the patient can eat and drink (earliest 24 hours), not initial treatment for cerebral severe malaria.",
       "section": "Therapeutic Management",
       "topic": "artesunate IV 2.4 mg/kg dosing severe malaria first-line adults hours 0 12 24",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sftd2_a07",
@@ -131,18 +137,19 @@
       "set": 1,
       "question": "A 42-year-old non-immune traveller with high-parasitaemia severe P. falciparum malaria successfully completes IV artesunate therapy and is being prepared for discharge. Which follow-up action is specifically recommended to detect a recognised adverse effect of artesunate?",
       "options": [
-        "A: Full blood count approximately 10–14 days after completing artesunate to detect delayed haemolysis",
-        "B: Liver function tests at day 3 post-discharge to detect artesunate hepatotoxicity",
-        "C: ECG at day 7 to detect artesunate-induced QTc prolongation",
-        "D: Repeat blood smear at day 28 to confirm sustained parasite clearance",
-        "E: Renal function tests at day 7 given artesunate-associated nephrotoxicity risk"
+        "A: Liver function tests at day 3 post-discharge to detect artesunate hepatotoxicity",
+        "B: ECG at day 7 to detect artesunate-induced QTc prolongation",
+        "C: Repeat blood smear at day 28 to confirm sustained parasite clearance",
+        "D: Renal function tests at day 7 given artesunate-associated nephrotoxicity risk",
+        "E: Full blood count approximately 10–14 days after completing artesunate to detect delayed haemolysis"
       ],
-      "correct": 0,
+      "correct": 4,
       "explanation": "Delayed haemolysis occurring 1–2 weeks after artesunate therapy is a recognised adverse effect, particularly common in non-immune travellers presenting with high peripheral parasitaemia. The mechanism involves late haemolysis of once-infected erythrocytes following splenic 'pitting' of ring-stage parasites, leaving cells with a reduced lifespan. Blood count monitoring at approximately 10–14 days post-treatment is specifically recommended. QTc prolongation is a concern with quinine, not artesunate. Artesunate does not have hepatotoxicity or nephrotoxicity warnings; these are near-miss distractors associated with quinine.",
       "section": "Therapeutic Management",
       "topic": "post-artesunate delayed haemolysis blood count 10-14 days monitoring non-immune",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sftd2_a08",
@@ -150,18 +157,19 @@
       "set": 1,
       "question": "A 48-year-old non-immune traveller has severe P. falciparum malaria with parasitaemia of 15%, lactic acidosis, and impaired consciousness. You review the evidence for adjunctive therapies. Which of the following is NOT recommended in the management of severe malaria?",
       "options": [
-        "A: Adding broad-spectrum antibiotics empirically in all paediatric patients with severe malaria",
-        "B: Paracetamol administration for its renoprotective and antioxidative properties",
-        "C: Exchange blood transfusion for hyperparasitaemia",
-        "D: Full blood count check approximately 10–14 days after completing artesunate",
-        "E: Levetiracetam for secondary seizure prophylaxis in cerebral malaria"
+        "A: Exchange blood transfusion for hyperparasitaemia",
+        "B: Levetiracetam for secondary seizure prophylaxis in cerebral malaria",
+        "C: Adding broad-spectrum antibiotics empirically in all paediatric patients with severe malaria",
+        "D: Paracetamol administration for its renoprotective and antioxidative properties",
+        "E: Full blood count check approximately 10–14 days after completing artesunate"
       ],
-      "correct": 2,
-      "explanation": "Exchange transfusion is NOT recommended for hyperparasitaemia in severe malaria. Despite anecdotal reports, no RCT has demonstrated benefit and retrospective analyses show no advantage. The critical limitation is that exchange transfusion only removes circulating ring-stage parasites, while the pathogenic sequestered mature stages remain in the microcirculation and are effectively cleared by artesunate. All other options are appropriate: paracetamol (B), post-artesunate haemolysis monitoring (D), empirical antibiotics in children (A), and levetiracetam for seizure prophylaxis (E) are all supported.",
+      "correct": 0,
+      "explanation": "Exchange transfusion is NOT recommended for hyperparasitaemia in severe malaria. Despite anecdotal reports, no randomised trial has demonstrated benefit, and retrospective analyses show no advantage. The critical limitation is that exchange transfusion only removes circulating ring-stage parasites, while the pathogenic sequestered mature stages remain in the microcirculation and are effectively cleared by artesunate regardless. All other listed measures are appropriate and supported: paracetamol for its renoprotective and antioxidative properties, a follow-up full blood count around 10–14 days to monitor for post-artesunate haemolysis, empirical broad-spectrum antibiotics in paediatric patients, and levetiracetam for secondary seizure prophylaxis in cerebral malaria.",
       "section": "Therapeutic Management",
       "topic": "exchange transfusion NOT recommended hyperparasitaemia ring stages sequestered adjunctive",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sftd2_a09",
@@ -169,18 +177,19 @@
       "set": 1,
       "question": "A 41-year-old man with severe cerebral P. falciparum malaria has completed 72 hours of IV artesunate and is now alert and tolerating oral intake. You plan oral step-down artemisinin combination therapy (ACT). Which combination should specifically be AVOIDED in this patient?",
       "options": [
-        "A: Artemether-lumefantrine for 3 days",
-        "B: Artesunate-mefloquine for 3 days",
+        "A: Artesunate-mefloquine for 3 days",
+        "B: The choice of ACT partner drug does not influence neurological outcomes in cerebral malaria",
         "C: Artesunate-amodiaquine for 3 days",
-        "D: The choice of ACT partner drug does not influence neurological outcomes in cerebral malaria",
-        "E: Oral artesunate monotherapy for 3 days before adding a partner drug"
+        "D: Oral artesunate monotherapy for 3 days before adding a partner drug",
+        "E: Artemether-lumefantrine for 3 days"
       ],
-      "correct": 1,
-      "explanation": "Artesunate-mefloquine is specifically contraindicated as oral step-down therapy in cerebral malaria because it is associated with post-malaria neurological syndrome. Artemether-lumefantrine and artesunate-amodiaquine are appropriate alternatives. The ACT choice does influence neurological outcomes in this context, making option D incorrect. Oral artesunate monotherapy is not a recommended approach — a full ACT combination is required for adequate treatment.",
+      "correct": 0,
+      "explanation": "Artesunate-mefloquine is specifically contraindicated as oral step-down therapy after cerebral malaria because it is associated with post-malaria neurological syndrome. Artemether-lumefantrine and artesunate-amodiaquine remain appropriate alternatives in this setting. The choice of ACT partner drug does influence neurological outcomes in cerebral malaria, so a claim that it makes no difference is incorrect. Oral artesunate monotherapy is also not a recommended approach — step-down treatment requires a full artemisinin combination therapy regimen, not artesunate alone.",
       "section": "Therapeutic Management",
       "topic": "artesunate-mefloquine AVOID cerebral malaria post-malaria neurological syndrome ACT step-down",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sftd2_a10",
@@ -188,18 +197,19 @@
       "set": 1,
       "question": "A 28-year-old woman is treated for severe P. vivax malaria after returning from Papua New Guinea. IV artesunate is initiated. Once she has recovered, you plan to add primaquine to prevent relapse by eradicating persistent liver forms. Which mandatory prerequisite test must be performed before initiating primaquine?",
       "options": [
-        "A: Hepatic function tests to assess primaquine metabolism",
-        "B: Glucose-6-phosphate dehydrogenase (G6PD) activity testing to prevent haemolysis",
-        "C: Renal function to guide dose adjustment of primaquine",
-        "D: Echocardiogram to exclude cardiac contraindications",
+        "A: Renal function to guide dose adjustment of primaquine",
+        "B: Hepatic function tests to assess primaquine metabolism",
+        "C: Echocardiogram to exclude cardiac contraindications",
+        "D: Glucose-6-phosphate dehydrogenase (G6PD) activity testing to prevent haemolysis",
         "E: Repeat blood smear confirming complete parasite clearance before adding primaquine"
       ],
-      "correct": 1,
+      "correct": 3,
       "explanation": "G6PD testing is obligatory before initiating primaquine in all patients. Primaquine eradicates hypnozoites (persistent liver forms) of P. vivax and prevents relapse. However, in G6PD-deficient patients primaquine causes potentially severe haemolysis, making prior testing non-negotiable. No hepatic, renal, or cardiac testing is a mandatory prerequisite. Parasitological clearance is verified by clinical recovery and microscopy during treatment but is not the safety gate before adding primaquine.",
       "section": "Therapeutic Management",
       "topic": "primaquine vivax hypnozoites G6PD mandatory testing haemolysis relapse prevention",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sftd2_a11",
@@ -207,18 +217,19 @@
       "set": 1,
       "question": "A 35-year-old non-immune traveller with severe P. falciparum malaria has a venous lactate of 7.2 mmol/L, base deficit of 10 mmol/L, and normal blood pressure (118/74 mmHg). There are no features suggesting bacterial co-infection. What is the most appropriate fluid management strategy?",
       "options": [
-        "A: Administer a 30 ml/kg IV crystalloid bolus to correct lactic acidosis, as in Surviving Sepsis Campaign protocol",
-        "B: Restrict all fluids until parasitaemia falls below 5% to prevent pulmonary oedema",
-        "C: Administer 20 ml/kg IV colloid bolus to correct metabolic acidosis more rapidly",
-        "D: Initiate crystalloid at 2–4 ml/kg/hour; lactic acidosis in normotensive malaria does not reflect hypovolaemia",
+        "A: Restrict all fluids until parasitaemia falls below 5% to prevent pulmonary oedema",
+        "B: Administer a 30 ml/kg IV crystalloid bolus to correct lactic acidosis, as in Surviving Sepsis Campaign protocol",
+        "C: Initiate crystalloid at 2–4 ml/kg/hour; lactic acidosis in normotensive malaria does not reflect hypovolaemia",
+        "D: Administer 20 ml/kg IV colloid bolus to correct metabolic acidosis more rapidly",
         "E: Start vasopressors immediately given the severity of lactic acidosis regardless of blood pressure"
       ],
-      "correct": 3,
+      "correct": 2,
       "explanation": "In normotensive severe malaria, lactic acidosis primarily results from anaerobic glycolysis due to microcirculatory obstruction by parasitised erythrocytes — not from systemic hypovolaemia. A maintenance crystalloid rate of 2–4 ml/kg/hour is recommended. The SSC fluid bolus strategy (30 ml/kg) does not apply: fluid bolus therapy has been shown to increase mortality in African children with severe malaria and compensated shock. Patients with severe malaria are exquisitely sensitive to fluid overload (risk of non-cardiogenic pulmonary oedema and ARDS). Vasopressors without hypotension are not indicated.",
       "section": "Intensive Care Pearls",
       "topic": "lactic acidosis malaria not hypovolaemia crystalloid 2-4 ml/kg/h avoid SSC bolus",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sftd2_a12",
@@ -226,18 +237,19 @@
       "set": 1,
       "question": "A 40-year-old non-immune woman with severe P. falciparum malaria develops arterial hypotension (78/42 mmHg) with worsening lactic acidosis. Bacterial co-infection is suspected. IV artesunate and judicious IV fluids have been initiated. Which vasopressor is the most appropriate first-line agent?",
       "options": [
-        "A: Epinephrine, as it provides combined vasopressor and inotropic support",
-        "B: Vasopressin as first-line to avoid catecholamine-associated side effects",
-        "C: Dopamine to maintain renal perfusion in this context",
-        "D: Norepinephrine, in line with current Surviving Sepsis Campaign recommendations",
-        "E: Phenylephrine to avoid tachycardia associated with other vasopressors"
+        "A: Phenylephrine to avoid tachycardia associated with other vasopressors",
+        "B: Dopamine to maintain renal perfusion in this context",
+        "C: Norepinephrine, in line with current Surviving Sepsis Campaign recommendations",
+        "D: Epinephrine, as it provides combined vasopressor and inotropic support",
+        "E: Vasopressin as first-line to avoid catecholamine-associated side effects"
       ],
-      "correct": 3,
+      "correct": 2,
       "explanation": "Norepinephrine is the first-line vasopressor in severe malaria with arterial hypotension, consistent with Surviving Sepsis Campaign recommendations. Epinephrine is explicitly not preferred in severe malaria because of its propensity to induce or aggravate lactic acidosis — a particularly significant concern given that lactic acidosis is already a key marker of severity and a poor prognostic indicator in severe malaria. Vasopressin and dopamine are not stated as first-line agents in this context.",
       "section": "Intensive Care Pearls",
       "topic": "norepinephrine first-line vasopressor severe malaria epinephrine avoid lactic acidosis SSC",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sftd2_a13",
@@ -245,18 +257,19 @@
       "set": 1,
       "question": "A 29-year-old with severe cerebral P. falciparum malaria is intubated, ventilated, and a CT head shows cerebral oedema. You review the evidence-based management options. Which intervention is NOT indicated in this patient?",
       "options": [
-        "A: Elevation of the head of the bed",
-        "B: Fever control and glycaemic management",
-        "C: Secondary seizure prophylaxis with levetiracetam or phenytoin",
-        "D: Avoiding hypercapnia during mechanical ventilation",
-        "E: Mannitol therapy for cerebral oedema"
+        "A: Secondary seizure prophylaxis with levetiracetam or phenytoin",
+        "B: Mannitol therapy for cerebral oedema",
+        "C: Fever control and glycaemic management",
+        "D: Elevation of the head of the bed",
+        "E: Avoiding hypercapnia during mechanical ventilation"
       ],
-      "correct": 4,
-      "explanation": "Mannitol therapy for cerebral oedema in cerebral malaria has NOT been shown to be beneficial in either adult or paediatric patients and is therefore not indicated. Head elevation (A), fever and glycaemic control (B), levetiracetam or phenytoin for seizure prophylaxis (C), and avoidance of hypercapnia during mechanical ventilation (D — hypercapnia worsens intracranial hypertension) are all evidence-based management principles in cerebral malaria.",
+      "correct": 1,
+      "explanation": "Mannitol therapy for cerebral oedema in cerebral malaria has NOT been shown to be beneficial in either adult or paediatric patients and is therefore not indicated, despite being an intuitive choice given the CT findings. Head elevation, fever and glycaemic control, secondary seizure prophylaxis with levetiracetam or phenytoin, and avoidance of hypercapnia during mechanical ventilation are all evidence-based management principles in cerebral malaria — hypercapnia in particular worsens intracranial hypertension and should be avoided.",
       "section": "Intensive Care Pearls",
       "topic": "mannitol NOT indicated cerebral malaria oedema no benefit management pearls",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sftd2_a14",
@@ -264,18 +277,19 @@
       "set": 1,
       "question": "A 4-year-old girl (16 kg) presents to a peripheral rural health centre in sub-Saharan Africa with suspected severe P. falciparum malaria. IV artesunate and artemether IM are not available. Transfer to a higher-level facility is arranged. What is the most appropriate immediate intervention?",
       "options": [
-        "A: Oral artemether-lumefantrine as the most widely available ACT",
-        "B: IM quinine 20 mg/kg loading dose as the only available parenteral option",
+        "A: IV artesunate 2.4 mg/kg using any available parenteral formulation",
+        "B: Rectal artesunate 10 mg/kg as pre-referral treatment, followed by urgent transfer",
         "C: Delay all treatment until arrival at the referral centre to avoid drug interactions",
-        "D: IV artesunate 2.4 mg/kg using any available parenteral formulation",
-        "E: Rectal artesunate 10 mg/kg as pre-referral treatment, followed by urgent transfer"
+        "D: Oral artemether-lumefantrine as the most widely available ACT",
+        "E: IM quinine 20 mg/kg loading dose as the only available parenteral option"
       ],
-      "correct": 4,
+      "correct": 1,
       "explanation": "Pre-referral rectal artesunate at 10 mg/kg is the WHO-recommended community-level intervention for children with suspected severe malaria when parenteral treatment is unavailable, followed by urgent transfer to a higher-level facility for ongoing care. Oral ACT is insufficient for severe malaria. Delaying treatment is unacceptable given the high 24-hour mortality risk. For children <20 kg, the parenteral artesunate dose would be 3 mg/kg (not 2.4 mg/kg as in adults), but this is not available here. IM quinine would be a fallback only if rectal artesunate is also unavailable.",
       "section": "Specific Considerations in Children",
       "topic": "rectal artesunate 10 mg/kg pre-referral children severe malaria <20 kg community",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sftd2_a15",
@@ -283,18 +297,19 @@
       "set": 1,
       "question": "A 50-year-old non-immune traveller with severe P. falciparum malaria develops oliguric acute kidney injury on day 3 and is commenced on continuous RRT. Parasitaemia clears on day 5 following IV artesunate. On day 10, the patient remains anuric and dependent on RRT. What is the most appropriate interpretation and management?",
       "options": [
-        "A: Persistent anuria at day 10 suggests underlying CKD; initiate long-term renal replacement planning",
-        "B: Malaria-induced AKI typically requires 2–3 weeks of RRT support before renal recovery; continue current management",
-        "C: Failure to recover by day 10 indicates inadequate RRT dose; increase clearance targets",
-        "D: Persistent renal failure after parasite clearance strongly suggests occult bacterial co-infection; broaden antibiotics",
-        "E: Peritoneal dialysis is contraindicated in malaria-induced AKI and must be avoided"
+        "A: Persistent renal failure after parasite clearance strongly suggests occult bacterial co-infection; broaden antibiotics",
+        "B: Peritoneal dialysis is contraindicated in malaria-induced AKI and must be avoided",
+        "C: Persistent anuria at day 10 suggests underlying CKD; initiate long-term renal replacement planning",
+        "D: Malaria-induced AKI typically requires 2–3 weeks of RRT support before renal recovery; continue current management",
+        "E: Failure to recover by day 10 indicates inadequate RRT dose; increase clearance targets"
       ],
-      "correct": 1,
+      "correct": 3,
       "explanation": "Renal recovery in malaria-induced AKI is notably prolonged compared with most other causes of critical illness AKI, typically requiring 2–3 weeks of RRT before recovery. Day 10 anuria is therefore not unexpected and does not indicate treatment failure, CKD, or inadequate RRT dose. Peritoneal dialysis is explicitly described as an acceptable alternative to CRRT in austere settings, not a contraindicated modality. Ongoing expectant management with continued RRT is appropriate.",
       "section": "Intensive Care Pearls",
       "topic": "malaria AKI renal recovery 2-3 weeks RRT prolonged peritoneal dialysis austere settings",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sftd2_k01",
@@ -304,12 +319,12 @@
       "statements": [
         {
           "label": "A",
-          "text": "The P. falciparum erythrocyte cycle lasts 48 hours, after which schizont rupture releases merozoites that invade new red blood cells.",
+          "text": "Cytoadherence of parasitised red blood cells to the endothelium leads to microvascular obstruction and impaired tissue oxygen supply.",
           "correct": true
         },
         {
           "label": "B",
-          "text": "Cytoadherence of parasitised red blood cells to the endothelium leads to microvascular obstruction and impaired tissue oxygen supply.",
+          "text": "The P. falciparum erythrocyte cycle lasts 48 hours, after which schizont rupture releases merozoites that invade new red blood cells.",
           "correct": true
         },
         {
@@ -323,11 +338,12 @@
           "correct": true
         }
       ],
-      "explanation": "The 48-hour erythrocyte cycle (A) and cytoadherence-mediated microvascular obstruction (B) are core pathophysiological mechanisms. Trophozoites and schizonts in peripheral blood (D) represent overflow from a high sequestered parasite burden and are prognostically significant. C is the critical trap: lactic acidosis in severe malaria results from anaerobic glycolysis due to microcirculatory obstruction by parasitised erythrocytes — NOT hypovolaemia — and is not amenable to fluid resuscitation. This distinction from bacterial sepsis drives fundamentally different fluid management.",
+      "explanation": "The 48-hour erythrocyte cycle and cytoadherence-mediated microvascular obstruction are both core pathophysiological mechanisms in severe falciparum malaria. Trophozoites and schizonts appearing in peripheral blood represent overflow from a high sequestered parasite burden and are prognostically significant. The critical trap is the claim about lactic acidosis: in severe malaria it results from anaerobic glycolysis due to microcirculatory obstruction by parasitised erythrocytes, NOT from hypovolaemia, and is therefore not amenable to fluid resuscitation. This distinction from bacterial sepsis drives fundamentally different fluid management in severe malaria.",
       "section": "Pathophysiology",
       "topic": "falciparum 48h cycle cytoadherence lactic acidosis mechanism schizonts poor prognosis",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sftd2_k02",
@@ -337,8 +353,8 @@
       "statements": [
         {
           "label": "A",
-          "text": "Thick blood smear microscopy by an experienced operator can detect parasitaemia as low as 50 parasites per µL (0.01% parasitaemia).",
-          "correct": true
+          "text": "PfHRP2-based rapid diagnostic tests cannot assist in diagnosing malaria in patients who have been pre-treated with artesunate and cleared peripheral parasitaemia.",
+          "correct": false
         },
         {
           "label": "B",
@@ -347,20 +363,21 @@
         },
         {
           "label": "C",
-          "text": "PfHRP2-based rapid diagnostic tests cannot assist in diagnosing malaria in patients who have been pre-treated with artesunate and cleared peripheral parasitaemia.",
-          "correct": false
+          "text": "In patients with severe malaria, peripheral blood smears should be repeated daily during treatment to assess parasite clearance and detect artemisinin resistance early.",
+          "correct": true
         },
         {
           "label": "D",
-          "text": "In patients with severe malaria, peripheral blood smears should be repeated daily during treatment to assess parasite clearance and detect artemisinin resistance early.",
+          "text": "Thick blood smear microscopy by an experienced operator can detect parasitaemia as low as 50 parasites per µL (0.01% parasitaemia).",
           "correct": true
         }
       ],
-      "explanation": "Expert thick smear microscopy achieves high sensitivity down to 50 parasites/µL (A). Daily smears during treatment are essential for monitoring clearance and detecting resistance (D). B is false: a single negative smear does not exclude malaria — a repeat within 8–12 hours is mandatory if clinical suspicion persists. C is also false: PfHRP2-based RDTs remain positive for weeks after infection and can actually help diagnose malaria in patients who have pre-cleared peripheral parasitaemia after artesunate — the opposite of what C states.",
+      "explanation": "Expert thick smear microscopy achieves high sensitivity, down to roughly 50 parasites per µL. Daily smears during treatment are essential for monitoring parasite clearance and detecting resistance early. A single negative smear does NOT exclude malaria — a repeat within 8–12 hours is mandatory if clinical suspicion persists, so relying on one negative result is unsafe. PfHRP2-based rapid diagnostic tests in fact remain positive for weeks after infection and can help diagnose malaria in patients who have already pre-cleared peripheral parasitaemia after artesunate treatment — the opposite of a claim that they are unhelpful in this situation.",
       "section": "Diagnostic Work-up",
       "topic": "thick smear 50 parasites/µL repeat 8-12h PfHRP2 persistence artesunate daily smear resistance",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sftd2_k03",
@@ -375,25 +392,26 @@
         },
         {
           "label": "B",
+          "text": "Hyperparasitaemia is defined as parasitaemia exceeding 10%.",
+          "correct": true
+        },
+        {
+          "label": "C",
           "text": "The haemoglobin threshold for severe malarial anaemia is below 5 g/dL in adults.",
           "correct": false
         },
         {
-          "label": "C",
-          "text": "A venous lactate of ≥5 mmol/L fulfils the acidosis criterion for severe malaria.",
-          "correct": true
-        },
-        {
           "label": "D",
-          "text": "Hyperparasitaemia is defined as parasitaemia exceeding 10%.",
+          "text": "A venous lactate of ≥5 mmol/L fulfils the acidosis criterion for severe malaria.",
           "correct": true
         }
       ],
-      "explanation": "GCS <11 defines impaired consciousness in adults (A). Venous lactate ≥5 mmol/L meets the acidosis criterion (C). Hyperparasitaemia is defined as parasitaemia >10% (D). The trap is B: the severe malarial anaemia threshold in ADULTS is Hb <7 g/dL (haematocrit <20%) — the <5 g/dL threshold applies to CHILDREN. Confusing adult and paediatric thresholds is a common error.",
+      "explanation": "A Glasgow Coma Scale score below 11 defines impaired consciousness in adults with severe malaria. A venous lactate of 5 mmol/L or higher meets the acidosis criterion. Hyperparasitaemia is defined as parasitaemia exceeding 10%. The trap concerns the haemoglobin threshold: the severe malarial anaemia threshold in ADULTS is haemoglobin below 7 g/dL (haematocrit below 20%) — a threshold of below 5 g/dL instead applies to CHILDREN. Confusing the adult and paediatric thresholds is a common error worth guarding against.",
       "section": "Background",
       "topic": "WHO severe malaria adults GCS <11 Hb 7 g/dL lactate 5 hyperparasitaemia 10%",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sftd2_k04",
@@ -403,12 +421,12 @@
       "statements": [
         {
           "label": "A",
-          "text": "Fluid bolus therapy (20–40 ml/kg) has been shown to increase mortality in African children with severe falciparum malaria and compensated shock.",
+          "text": "In normotensive patients with severe malaria, an initial crystalloid infusion rate of 2–4 ml/kg/hour is recommended.",
           "correct": true
         },
         {
           "label": "B",
-          "text": "In normotensive patients with severe malaria, an initial crystalloid infusion rate of 2–4 ml/kg/hour is recommended.",
+          "text": "Fluid bolus therapy (20–40 ml/kg) has been shown to increase mortality in African children with severe falciparum malaria and compensated shock.",
           "correct": true
         },
         {
@@ -422,11 +440,12 @@
           "correct": false
         }
       ],
-      "explanation": "The FEAST trial demonstrated increased mortality with fluid boluses in African children with severe malaria (A). Maintenance crystalloid at 2–4 ml/kg/h is recommended for normotensive patients (B). C is the critical clinical trap: reduced peripheral perfusion and lactic acidosis in severe malaria reflect microcirculatory obstruction by parasitised erythrocytes — NOT hypovolaemia — and should not prompt fluid loading (contrast with bacterial sepsis). There are no published data supporting balanced crystalloids over normal saline in severe malaria — D is false.",
+      "explanation": "The FEAST trial demonstrated increased mortality with fluid boluses in African children with severe malaria and compensated shock. A maintenance crystalloid infusion at 2–4 ml/kg/hour is recommended for normotensive patients. The critical clinical trap concerns interpretation of hypoperfusion: reduced peripheral perfusion and lactic acidosis in severe malaria reflect microcirculatory obstruction by parasitised erythrocytes, NOT hypovolaemia, and should not prompt additional fluid loading — this is a key contrast with the management of bacterial sepsis. There are also no published data supporting a preference for balanced crystalloids over normal saline specifically in severe malaria.",
       "section": "Intensive Care Pearls",
       "topic": "fluid bolus increases mortality malaria 2-4 ml/kg/h lactic acidosis not hypovolaemia balanced saline",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sftd2_k05",
@@ -436,13 +455,13 @@
       "statements": [
         {
           "label": "A",
-          "text": "IV artesunate is superior to parenteral quinine in reducing mortality in both adults and children with severe malaria.",
-          "correct": true
+          "text": "Artesunate requires dose adjustment in patients with significant renal impairment or those receiving renal replacement therapy.",
+          "correct": false
         },
         {
           "label": "B",
-          "text": "Artesunate requires dose adjustment in patients with significant renal impairment or those receiving renal replacement therapy.",
-          "correct": false
+          "text": "In patients with P. falciparum malaria from artemisinin-resistant regions such as Southeast Asia, IV artesunate combined with IV quinine is recommended by expert opinion.",
+          "correct": true
         },
         {
           "label": "C",
@@ -451,15 +470,16 @@
         },
         {
           "label": "D",
-          "text": "In patients with P. falciparum malaria from artemisinin-resistant regions such as Southeast Asia, IV artesunate combined with IV quinine is recommended by expert opinion.",
+          "text": "IV artesunate is superior to parenteral quinine in reducing mortality in both adults and children with severe malaria.",
           "correct": true
         }
       ],
-      "explanation": "Artesunate is superior to quinine for mortality reduction in both adults and children (A). Post-artesunate delayed haemolysis warrants blood count check at 10–14 days post-treatment (C). In artemisinin resistance (SE Asia, China), artesunate plus quinine combination is recommended (D). The trap is B: artesunate requires NO dose adjustment in renal failure or during RRT — a common misconception given its hepatic metabolism. This is an important practical point in ICU patients.",
+      "explanation": "IV artesunate is superior to parenteral quinine for mortality reduction in both adults and children with severe malaria. Post-artesunate delayed haemolysis is a recognised complication that warrants a follow-up blood count around 10–14 days post-treatment. In regions with artemisinin resistance, such as parts of Southeast Asia, an artesunate plus quinine combination is recommended by expert opinion. The trap concerns renal dosing: artesunate requires NO dose adjustment in renal failure or during renal replacement therapy, since it is predominantly hepatically metabolised — a common misconception, and an important practical point for ICU patients on RRT.",
       "section": "Therapeutic Management",
       "topic": "artesunate superior quinine no renal dose adjustment delayed haemolysis SE Asia resistance",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sftd2_k06",
@@ -469,13 +489,13 @@
       "statements": [
         {
           "label": "A",
-          "text": "Elevation of the head of the bed is a recommended management principle in cerebral malaria.",
-          "correct": true
+          "text": "Mannitol is the recommended first-line therapy for cerebral oedema in adults with cerebral malaria.",
+          "correct": false
         },
         {
           "label": "B",
-          "text": "Permissive hypercapnia is acceptable in ventilated adults with cerebral malaria as it promotes cerebral vasodilation and reduces seizure threshold.",
-          "correct": false
+          "text": "Elevation of the head of the bed is a recommended management principle in cerebral malaria.",
+          "correct": true
         },
         {
           "label": "C",
@@ -484,15 +504,16 @@
         },
         {
           "label": "D",
-          "text": "Mannitol is the recommended first-line therapy for cerebral oedema in adults with cerebral malaria.",
+          "text": "Permissive hypercapnia is acceptable in ventilated adults with cerebral malaria as it promotes cerebral vasodilation and reduces seizure threshold.",
           "correct": false
         }
       ],
-      "explanation": "Head elevation is standard management (A). Phenobarbital carries respiratory depression risk and is only acceptable if MV is immediately available (C). B is false and dangerous: permissive hypercapnia is explicitly contraindicated in cerebral malaria — hypercapnia further increases intracranial pressure and worsens intracranial hypertension. D is false: mannitol has not been shown to be beneficial in cerebral malaria in either adults or children and is not recommended.",
+      "explanation": "Elevation of the head of the bed is standard management in cerebral malaria. Phenobarbital carries a risk of respiratory depression and is only an acceptable choice for seizure prophylaxis if mechanical ventilatory support is immediately available. The dangerous trap is the claim about hypercapnia: permissive hypercapnia is explicitly contraindicated in cerebral malaria, since it further raises intracranial pressure and worsens intracranial hypertension, rather than being a benign or beneficial strategy. Mannitol has also not been shown to be beneficial in cerebral malaria in either adults or children and is not recommended as first-line therapy for cerebral oedema.",
       "section": "Intensive Care Pearls",
       "topic": "cerebral malaria head elevation hypercapnia avoid phenobarbital MV mannitol no benefit",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sftd2_k07",
@@ -512,20 +533,21 @@
         },
         {
           "label": "C",
-          "text": "Diffuse intravascular coagulation (DIC) is a common complication of severe malaria and does not require evaluation for bacterial co-infection.",
+          "text": "Empirical broad-spectrum antibiotics are recommended in all adult patients with severe malaria regardless of signs of bacterial co-infection.",
           "correct": false
         },
         {
           "label": "D",
-          "text": "Empirical broad-spectrum antibiotics are recommended in all adult patients with severe malaria regardless of signs of bacterial co-infection.",
+          "text": "Diffuse intravascular coagulation (DIC) is a common complication of severe malaria and does not require evaluation for bacterial co-infection.",
           "correct": false
         }
       ],
-      "explanation": "Up to 1/3 of African children may have coincidental parasitaemia with a different primary illness (A). Splanchnic ischaemia and bacterial translocation explain primary bacteraemia (B). C is false and clinically important: DIC and petechial haemorrhages are uncommon in severe malaria and when present should actively prompt evaluation for bacterial co-infection — not be dismissed. D is false: routine empirical antibiotics in adults are only recommended when bacterial co-infection is specifically suspected (hypotension/shock); routine coverage is recommended only in paediatric patients.",
+      "explanation": "Up to one third of African children diagnosed with severe falciparum malaria may in fact have an alternative cause of their febrile illness with only coincidental peripheral parasitaemia. Splanchnic ischaemia and bacterial translocation are the postulated mechanisms behind primary bacteraemia in severe malaria. The clinically important trap concerns disseminated intravascular coagulation: DIC and petechial haemorrhages are uncommon in severe malaria, and when present should actively prompt evaluation for bacterial co-infection rather than being dismissed as an expected finding. Routine empirical antibiotics in adults are recommended only when bacterial co-infection is specifically suspected, such as with hypotension or shock — routine antibiotic coverage regardless of such signs is instead the recommendation specifically for paediatric patients.",
       "section": "Co-Infections",
       "topic": "co-infection 1/3 children splanchnic translocation DIC unusual antibiotic adults vs children",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sftd2_k08",
@@ -535,30 +557,31 @@
       "statements": [
         {
           "label": "A",
-          "text": "Glucocorticoids have demonstrated a mortality benefit in severe malaria and should be administered in patients with cerebral oedema.",
-          "correct": false
-        },
-        {
-          "label": "B",
           "text": "Paracetamol administration may be beneficial in severe malaria due to its renoprotective and antioxidative properties.",
           "correct": true
         },
         {
+          "label": "B",
+          "text": "Glucocorticoids have demonstrated a mortality benefit in severe malaria and should be administered in patients with cerebral oedema.",
+          "correct": false
+        },
+        {
           "label": "C",
-          "text": "Exchange transfusion primarily removes circulating ring-stage parasites, while sequestered mature forms in the microcirculation are not eliminated.",
+          "text": "N-acetylcysteine, aspirin, and pentoxifylline are among the adjunctive therapies that have failed to show benefit in severe malaria.",
           "correct": true
         },
         {
           "label": "D",
-          "text": "N-acetylcysteine, aspirin, and pentoxifylline are among the adjunctive therapies that have failed to show benefit in severe malaria.",
+          "text": "Exchange transfusion primarily removes circulating ring-stage parasites, while sequestered mature forms in the microcirculation are not eliminated.",
           "correct": true
         }
       ],
-      "explanation": "Paracetamol is beneficial for renoprotective and antioxidative effects (B). Exchange transfusion's fundamental limitation is that it only eliminates circulating ring-stage parasites while pathogenic sequestered mature forms remain in the microcirculation (C). Multiple other adjunctive agents — N-acetylcysteine, aspirin, pentoxifylline, heparin, prostacyclin, desferroxamine, anti-TNF antibodies — have all failed to demonstrate benefit (D). The trap is A: glucocorticoids are specifically listed as a therapy that has failed to show benefit in severe malaria and should NOT be administered — this contradicts intuition in a patient with cerebral oedema.",
+      "explanation": "Paracetamol may be beneficial in severe malaria for its renoprotective and antioxidative effects. Exchange transfusion's fundamental limitation is that it only eliminates circulating ring-stage parasites, while the pathogenic sequestered mature forms remain in the microcirculation and are unaffected. Multiple other adjunctive agents — N-acetylcysteine, aspirin, pentoxifylline, heparin, prostacyclin, desferroxamine, and anti-TNF antibodies — have all failed to demonstrate benefit and are not recommended. The counterintuitive trap concerns glucocorticoids: despite seeming appealing in a patient with cerebral oedema, glucocorticoids have not demonstrated a mortality benefit in severe malaria and should NOT be administered for this indication.",
       "section": "Therapeutic Management",
       "topic": "glucocorticoids no benefit paracetamol beneficial exchange transfusion limitation failed adjunctives",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sftd2_k09",
@@ -568,30 +591,31 @@
       "statements": [
         {
           "label": "A",
-          "text": "Children weighing less than 20 kg should receive artesunate at 3 mg/kg per dose rather than 2.4 mg/kg due to higher volume of distribution and more rapid clearance.",
-          "correct": true
-        },
-        {
-          "label": "B",
-          "text": "Infants and young children with severe malaria are no more sensitive to fluid overload than adults.",
-          "correct": false
-        },
-        {
-          "label": "C",
           "text": "In African children with severe malaria, red blood cells should be rapidly transfused when haemoglobin falls below 4 g/dL, irrespective of clinical condition.",
           "correct": true
         },
         {
-          "label": "D",
+          "label": "B",
+          "text": "Children weighing less than 20 kg should receive artesunate at 3 mg/kg per dose rather than 2.4 mg/kg due to higher volume of distribution and more rapid clearance.",
+          "correct": true
+        },
+        {
+          "label": "C",
           "text": "Children with haemoglobin between 4–6 g/dL should receive transfusion when severity features such as respiratory distress or altered consciousness are present.",
           "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Infants and young children with severe malaria are no more sensitive to fluid overload than adults.",
+          "correct": false
         }
       ],
-      "explanation": "Children <20 kg require artesunate 3 mg/kg due to pharmacokinetic differences (A). Transfusion is mandated at Hb <4 g/dL irrespective of clinical condition (C), and at Hb 4–6 g/dL when severity features are present (D). The trap is B: infants and young children are in fact even MORE sensitive to fluid loading than adults — fluid boluses in those with anaemia and/or metabolic acidosis were associated with higher rates of pulmonary oedema, intracranial hypertension, and early death.",
+      "explanation": "Children weighing less than 20 kg require a higher artesunate dose of 3 mg/kg per dose rather than the standard 2.4 mg/kg, reflecting pharmacokinetic differences such as a higher volume of distribution and more rapid clearance. Red blood cell transfusion is mandated when haemoglobin falls below 4 g/dL, irrespective of clinical condition, and is also indicated at haemoglobin 4–6 g/dL when severity features such as respiratory distress or altered consciousness are present. The trap concerns fluid sensitivity: infants and young children are in fact even MORE sensitive to fluid loading than adults, not equally or less sensitive — fluid boluses in children with anaemia and/or metabolic acidosis were associated with higher rates of pulmonary oedema, intracranial hypertension, and early death.",
       "section": "Specific Considerations in Children",
       "topic": "artesunate 3 mg/kg <20 kg children fluid overload transfusion Hb 4 g/dL severity features",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
     },
     {
       "id": "sftd2_k10",
@@ -601,30 +625,85 @@
       "statements": [
         {
           "label": "A",
-          "text": "Thrombocytopenia is almost invariably present in malaria, and its absence should prompt consideration of alternative diagnoses.",
+          "text": "Case fatality in severe malaria varies between 5–50%, depending on degree of organ involvement, availability of antimalarial therapy, and timeliness of supportive care.",
           "correct": true
         },
         {
           "label": "B",
-          "text": "Convulsions occur more frequently in adults than children with cerebral malaria (approximately 80% vs 15% respectively).",
-          "correct": false
-        },
-        {
-          "label": "C",
           "text": "The median time to coma recovery in survivors of cerebral malaria is approximately 24 hours in children and two or more days in adults.",
           "correct": true
         },
         {
+          "label": "C",
+          "text": "Convulsions occur more frequently in adults than children with cerebral malaria (approximately 80% vs 15% respectively).",
+          "correct": false
+        },
+        {
           "label": "D",
-          "text": "Case fatality in severe malaria varies between 5–50%, depending on degree of organ involvement, availability of antimalarial therapy, and timeliness of supportive care.",
+          "text": "Thrombocytopenia is almost invariably present in malaria, and its absence should prompt consideration of alternative diagnoses.",
           "correct": true
         }
       ],
-      "explanation": "Thrombocytopenia is almost universal in malaria and its absence should raise doubt about the diagnosis (A). Coma recovery is faster in children (~24 hours) than in adults (≥2 days) (C). Case fatality ranges 5–50% depending on multiple factors (D). The trap is B: the statement has the figures reversed. Convulsions occur in approximately 80% of CHILDREN and only 15% of ADULTS with cerebral malaria — a common fact-reversal trap.",
+      "explanation": "Thrombocytopenia is almost universally present in malaria, and its absence should raise doubt about the diagnosis. Coma recovery is faster in children, at roughly 24 hours, than in adults, where it typically takes two or more days. Case fatality in severe malaria ranges from about 5% to 50%, depending on the degree of organ involvement, availability of antimalarial therapy, and timeliness of supportive care. The trap has the age figures reversed: convulsions occur in approximately 80% of CHILDREN but only around 15% of ADULTS with cerebral malaria, the opposite of what a reversed claim would suggest — a common fact-reversal trap worth watching for.",
       "section": "Clinical Symptoms",
       "topic": "thrombocytopenia invariant convulsions children 80% adults 15% coma recovery case fatality",
       "image": null,
-      "section_url": null
+      "section_url": null,
+      "source": "pact_generated"
+    },
+    {
+      "id": "sftd2_a16",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "topic": "severe malaria age-dependent organ dysfunction jaundice children adults pattern",
+      "section": "Clinical Symptoms",
+      "section_url": null,
+      "image": "images/img_f033beb53a.png",
+      "question": "A 3-year-old child and a 45-year-old adult are both admitted with severe P. falciparum malaria. Based on the typical age-dependent pattern of organ dysfunction in severe malaria, which clinical feature is disproportionately more common in the adult than in the young child?",
+      "options": [
+        "A: Jaundice",
+        "B: The pattern of organ dysfunction does not vary meaningfully with age",
+        "C: Shock",
+        "D: Severe anaemia",
+        "E: Convulsions"
+      ],
+      "correct": 0,
+      "explanation": "Jaundice in severe malaria results from a combination of haemolysis, hepatocyte injury, and cholestasis, and its prevalence rises sharply with age — it is rare in young children but affects roughly half of adult patients with severe malaria. Convulsions and severe anaemia show the opposite pattern, being considerably more common in young children and declining in prevalence with increasing age. Shock ('algid malaria') remains an uncommon feature across all ages and is not a distinguishing feature between children and adults. The pattern of organ dysfunction in severe malaria varies substantially and predictably with patient age, reflecting differences in background immunity and disease chronicity."
+    },
+    {
+      "id": "sftd2_k11",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "topic": "severe malaria complication overlap coma convulsions uraemia acidosis clustering",
+      "section": "Clinical Symptoms",
+      "section_url": null,
+      "image": "images/img_f033beb53a.png",
+      "question": "Regarding the overlap of severe complications in severe malaria (coma or convulsions, uraemia, and acidosis):",
+      "statements": [
+        {
+          "label": "A",
+          "text": "This overlap pattern supports actively screening for uraemia and acidosis in any patient presenting with coma or convulsions due to severe malaria, rather than treating them as independent, unrelated complications.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Isolated acidosis, without accompanying coma, convulsions, or uraemia, is the most frequently observed pattern among patients with these severe malaria complications.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "The combination of coma or convulsions, uraemia, and acidosis occurring together represents the largest single overlap segment shown, larger than any other individual combination or isolated complication.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "These three severe complications frequently co-occur, such that isolated single-complication presentation appears to be the exception rather than the rule.",
+          "correct": true
+        }
+      ],
+      "explanation": "The largest single segment in the overlap diagram represents patients with all three complications together — coma or convulsions, uraemia, and acidosis — which is clearly larger than any other individual combination or isolated complication shown. Isolated acidosis alone, without any of the other two features, is in fact one of the smallest segments, not the largest, making it an uncommon rather than typical presentation. Across the diagram, overlapping combinations are consistently larger than the isolated single-complication segments, indicating that these severe complications of malaria cluster together far more often than they occur in isolation. This clustering has direct clinical relevance: a patient presenting with coma or convulsions from severe malaria should be actively screened for uraemia and acidosis rather than assuming these are separate, unrelated problems, given how frequently they co-occur."
     }
   ]
 }
