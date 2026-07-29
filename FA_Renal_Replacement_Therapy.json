@@ -1,0 +1,915 @@
+{
+  "module": "Renal Replacement Therapy",
+  "sections": {},
+  "questions": [
+    {
+      "id": "rrt1_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which RRT (Renal Replacement Therapy) modality is associated with the best outcomes and why?",
+      "options": [
+        "A: CVVH (continuous veno-venous haemofiltration): because of improved clearance of middle size molecules",
+        "B: IHD (intermittent haemodialysis): because there is a large experience from the End-Stage Renal Disease (ESRD) clinics",
+        "C: CVVHDF (continuous veno-venous haemodiafiltration): due to the combination of diffusive and convective solute removal",
+        "D: CVVHD (continuous veno-venous haemodialysis): this technique shows the best clearance for small size molecules",
+        "E: All therapies are overall equivalent with corresponding advantages and limitations"
+      ],
+      "correct": 4,
+      "explanation": "No CRRT modality has been shown to be superior for patient-centred outcomes, despite differing theoretical rationales - pure convection for larger molecule clearance, diffusion-based therapy for ease of use, or combined diffusive/convective removal. Trials comparing intermittent and continuous therapies exist, but none has directly compared CRRT modalities against each other. In practice, modality choice depends on available equipment, membranes, costs and team experience rather than proven outcome superiority.",
+      "section": "Renal",
+      "topic": "RRT modality selection outcomes CVVH CVVHD CVVHDF IHD",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt1_fa02",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Diffusive and convective solute clearance are limited by different factors in renal replacement therapy. Which of the following statements is correct?",
+      "options": [
+        "A: Solute molecular weight does not affect solute clearance in dialysis",
+        "B: In continuous hemodialysis blood flow is more important for solute clearance than dialysate flow",
+        "C: In postdilution hemofiltration the blood flow is a limiting factor for solute clearance because filters will clot earlier with filtration fractions above 20%",
+        "D: Predilution does not affect solute clearance in hemofiltration",
+        "E: Solute removal with diffusion is independent from membrane characteristics"
+      ],
+      "correct": 2,
+      "explanation": "Diffusion depends on solute molecular weight and membrane characteristics. In continuous dialysis, dialysate flow is always much smaller than blood flow, so the dialysate leaving the filter equilibrates fully with inflowing blood - increasing blood flow further does not increase solute elimination, meaning dialysate flow, not blood flow, is what actually matters. In hemofiltration, solute clearance is determined by effluent flow: achieving a given effluent flow with a lower blood flow requires a higher filtration fraction, which increases haemoconcentration and the risk of filter clotting once filtration fraction exceeds roughly 20%. Predilution reduces this clotting risk but lowers solute clearance because it dilutes the blood entering the filter.",
+      "section": "Renal",
+      "topic": "diffusive convective solute clearance blood flow dialysate flow filtration fraction",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt1_fa03",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The following measures have been recommended to improve haemodynamic tolerance of intermittent haemodialysis in critically ill patients:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Set dialysate sodium concentration >145 mmol/L",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Use short dialysis sessions",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Set dialysate temperature at 35°C",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Use Low [Na+] in dialysate (<135 mmol/l)",
+          "correct": false
+        }
+      ],
+      "explanation": "Measures shown to improve haemodynamic stability during IHD include using cool or isothermal dialysate (around 35°C) and using a high dialysate sodium concentration, which limits solute shifts from the extracellular to intracellular compartment and reduces RRT-induced hypovolaemia - the opposite of a low dialysate sodium, which would worsen this effect. Other helpful measures include low initial blood flow, biofeedback-equipped machines, avoiding vasodilators, and extending rather than shortening session length and frequency.",
+      "section": "Renal",
+      "topic": "IHD haemodynamic tolerance dialysate sodium temperature",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt1_fa04",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Regarding continuous veno-venous hemodialysis (CVVHD), which of the following statement(s) is (are) CORRECT?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Blood flow must be kept as high as possible to minimize filtration fraction",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Blood flow must be kept as high as possible to optimize therapy",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Blood flow has only minimal influence on filter life and therapy quality",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Dialysate flow is set according to patients' weight",
+          "correct": true
+        }
+      ],
+      "explanation": "In CVVHD, diffusion is the main mechanism of solute removal, so filtration fraction is usually low and not clinically relevant, and dialysate flow - not blood flow - is the limiting factor for therapeutic efficacy. This means CRRT can run in CVVHD mode with low blood flows (80-150 ml/min) without compromising filter life or therapy quality. Dialysate flow, on the other hand, closely approximates the delivered effluent dose and must be set according to the patient's weight to reach a target dose of roughly 25 ml/kg/h.",
+      "section": "Renal",
+      "topic": "CVVHD blood flow filtration fraction dialysate flow dose",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt1_fa05",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Regarding continuous veno-venous hemofiltration (CVVH), which of the following statement(s), is (are) TRUE?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Administration of a pre-dilution substitution solution is a mandatory constituent of the therapy",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Diffusion is the dominant mechanism for solute clearance",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Pre-dilution substitution fluid should be kept to the minimum as it increases the risk of circuit clotting",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Filtration fraction should be kept under 20-25% to prevent premature circuit clotting",
+          "correct": true
+        }
+      ],
+      "explanation": "CVVH can be run with pre-dilution, post-dilution, or a combination of both - pre-dilution is not mandatory. Convection, not diffusion, is the dominant clearance mechanism in CVVH. Pre-dilution substitution fluid actually decreases haemoconcentration in the filter and therefore lowers, not raises, the risk of circuit clotting, though it does proportionally reduce clearance efficacy and requires a higher replacement dose to compensate. Filtration fraction reflects the degree of haemoconcentration in the filter, and keeping it under roughly 20-25% limits the risk of early circuit failure.",
+      "section": "Renal",
+      "topic": "CVVH predilution postdilution convection filtration fraction",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt1_fa06",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "When choosing a vein for insertion of a dialysis catheter in patients with AKI, which one of the following is least preferred?",
+      "options": [
+        "A: Right jugular vein",
+        "B: Left jugular vein",
+        "C: Femoral vein",
+        "D: Subclavian vein (dominant side)",
+        "E: Subclavian vein (non-dominant side)"
+      ],
+      "correct": 4,
+      "explanation": "The order of preference for dialysis catheter insertion in AKI is right jugular vein first, then femoral vein, then left jugular vein, with subclavian access saved for last - and if subclavian access is unavoidable, the dominant side is preferred over the non-dominant side (this specific ordering is not a formally graded KDIGO recommendation). Subclavian access is avoided where possible because of the risk of central vein stenosis after catheter removal, which can compromise a future arteriovenous fistula for chronic dialysis. Since a fistula is usually created on the non-dominant side, the non-dominant subclavian vein should remain the very last choice of all.",
+      "section": "Renal",
+      "topic": "dialysis catheter vein choice vascular access jugular subclavian femoral",
+      "image": null,
+      "section_url": "http://www.kdigo.org/clinical_practice_guidelines/pdf/KDIGO%20AKI%20Guideline.pdf",
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt1_fa07",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "What is the optimal design of the internal lumen of a dialysis catheter?",
+      "options": [
+        "A: Co-axial",
+        "B: Double D",
+        "C: Double O",
+        "D: Cycle C",
+        "E: Double C"
+      ],
+      "correct": 3,
+      "explanation": "The \"cycle C\" (kidney-shaped) internal lumen design offers the best compromise for dialysis catheters. It limits the contact area between blood and the catheter surface, avoids sharp angles that would otherwise cause turbulent or stagnant flow, and has an entrance lumen larger than the return lumen, which optimises blood rheology and pressures within the catheter.",
+      "section": "Renal",
+      "topic": "dialysis catheter lumen design cycle C",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt1_fa08",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Regarding recirculation inside a dialysis catheter, which of the following statement(s), is (are) TRUE?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Recirculation is increased during a RRT session if the catheter lines are \"reversed\" by the medical team in order to fix a \"pressure\" issue",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The more the recirculation, the less efficient (in terms of solute clearance) the RRT session.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Recirculation is important when a 15 cm catheter is placed at the femoral site.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Recirculation is low if there is a significant distance (> 2 cm) between the proximal and the distal holes of the dialysis catheter",
+          "correct": true
+        }
+      ],
+      "explanation": "Recirculation increases when catheter lines are reversed to fix a pressure problem, and higher recirculation reduces the solute clearance efficiency of the session. A short (15 cm) femoral catheter is prone to significant recirculation because its tip sits in a lower-flow location closer to the return line. Conversely, recirculation stays low when there is adequate separation, at least 2-3 cm, between the proximal and distal catheter holes, alongside correct tip placement in a high-flow vessel and avoidance of line reversal.",
+      "section": "Renal",
+      "topic": "dialysis catheter recirculation",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt1_fa09",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Among the following disturbances, which one(s) correspond to \"non-discussed\" indications for RRT initiation?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Severe hyperkalaemia with acute EKG changes",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Uremic encephalopathy",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Diuretics refractory acute pulmonary oedema",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Serum creatinine > 500 mmol/L",
+          "correct": false
+        }
+      ],
+      "explanation": "There are no fixed universal criteria for RRT initiation and considerable controversy over ideal timing, but a small set of situations is treated as an absolute, undisputed indication: severe hyperkalaemia with EKG changes, uremic encephalopathy, and diuretic-refractory acute pulmonary oedema. An elevated serum creatinine alone, even markedly so, should not by itself drive the decision to start RRT - it should raise attention to the possible need for RRT, but initiation should not be based on a creatinine or urea number in isolation.",
+      "section": "Renal",
+      "topic": "RRT initiation indications hyperkalaemia encephalopathy pulmonary oedema creatinine",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt3_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Regarding CRRT haemofilters, which of the following statement(s) is (are) correct:",
+      "options": [
+        "A: Current generation CRRT membranes have a low water permeability to minimize fluid loss",
+        "B: The membrane surface depends on the length and number of fibres and is typically between 1.2 and 2 m2",
+        "C: The cut-off of a typical CRRT membrane is around 60.000 Da",
+        "D: Specific membranes are required for each CRRT modality (CVVH, CVVHD or CVVHDF)",
+        "E: Polysulfone membranes have demonstrated superiority in randomized clinical trials"
+      ],
+      "correct": 1,
+      "explanation": "Current generation CRRT membranes are termed “high-flux” membranes because they have a high ultrafiltration coefficient, or water permeability - the opposite of a low-permeability design. Membrane surface area depends on fibre length and number and is typically between 1.2 and 2 m2. The typical cut-off (pore size) of current membranes is around 30,000 Da, not 60,000. Similar membranes can be used across all CRRT modalities rather than requiring modality-specific designs, and to date no membrane type, including polysulfone, has demonstrated superiority in clinical outcomes over another.",
+      "section": "Renal",
+      "topic": "CRRT haemofilter membrane characteristics cut-off surface area",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt3_fa02",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following statements regarding CRRT dose is correct?",
+      "options": [
+        "A: According to current recommendations, a dose of 35 ml/kg/min of effluent flow should be delivered",
+        "B: To achieve recommended CRRT dose, prescription of 25-30 ml/kg/h to account for downtime is usually required",
+        "C: Higher CRRT doses are associated with worse clinical outcomes",
+        "D: In septic shock, higher CRRT doses are associated with improved outcomes",
+        "E: Regular monitoring of the KT/V is recommended during CRRT to ascertain adequate renal dose"
+      ],
+      "correct": 1,
+      "explanation": "Large randomised controlled trials failed to show any outcome benefit from higher (>30 ml/kg/h) CRRT doses; such higher doses were not harmful but did not improve outcomes, including in septic shock, despite increased cost and nursing workload. KDIGO guidelines therefore recommend an effluent dose of 20-25 ml/kg/h, which in practice usually means prescribing a somewhat higher rate, around 25-30 ml/kg/h, to compensate for treatment downtime when therapy is not actually running. KT/V is used to evaluate dose in chronic intermittent dialysis, but is of limited value in critically ill AKI patients, since neither urea generation rate nor distribution volume can be reliably defined in that setting.",
+      "section": "Renal",
+      "topic": "CRRT dose recommendations KDIGO effluent rate downtime KT/V",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt3_fa03",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "During renal replacement therapy in CVVHDF mode, solute clearance depends on:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Proportion of pre- and post-dilution replacement",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Solute molecular size",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Blood flow",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Effluent flow rate",
+          "correct": true
+        }
+      ],
+      "explanation": "CVVHDF combines diffusion and convection. Diffusion moves solutes from high to low concentration and favours smaller molecules; although blood and dialysate flow in opposite directions to maximise exchange, dialysate flow is much lower than blood flow, so the dialysate leaving the filter equilibrates with the inflowing blood, and further increases in blood flow do not improve solute clearance, unlike in intermittent haemodialysis. Convection relies on a transmembrane pressure gradient, generated mainly by the effluent pump, dragging plasma water and dissolved solutes across the membrane; this removes solutes independently of their molecular weight, provided they are not protein-bound and fall below the membrane's cut-off. The proportion of pre- versus post-dilution replacement affects clearance by diluting, or not diluting, the blood entering the filter, and the effluent flow rate is the main overall determinant of solute removal.",
+      "section": "Renal",
+      "topic": "CVVHDF solute clearance diffusion convection mechanisms",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt3_fa04",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Regarding treatment dose in CVVH, CVVHD and CVVHDF, which of the following statements is correct?",
+      "options": [
+        "A: In CVVHD (continuous veno-venous haemodialysis) treatment dose equals blood flow",
+        "B: In CVVH (continuous veno-venous haemofiltration) the proportion of pre- and post-filter infusion of the replacement fluid affects treatment dose",
+        "C: The optimal treatment dose with CVVHDF (continuous veno-venous haemodiafiltration) is an effluent rate of 35ml/kg/h",
+        "D: In CVVHDF (continuous veno-venous hemodiafiltration) the treatment dose is the same as the replacement fluid rate",
+        "E: Increasing treatment dose to 50ml/kg/h improves outcome in sepsis"
+      ],
+      "correct": 1,
+      "explanation": "In CVVHD, blood flow is much higher than dialysate flow, which allows full equilibration between the two, so blood flow itself does not determine treatment dose. In CVVH, increasing the proportion of pre-dilution replacement lowers treatment dose because it dilutes the blood entering the filter, so the pre-/post-dilution split directly affects dose. In CVVHDF, treatment dose equals the sum of replacement rate, dialysate flow rate and ultrafiltration rate (net fluid removal), not simply the replacement fluid rate alone. Large randomised controlled trials have shown no outcome benefit, including in sepsis, from raising dose above roughly 20-25 ml/kg/h.",
+      "section": "Renal",
+      "topic": "CRRT treatment dose calculation CVVH CVVHD CVVHDF",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt4_fa01",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following statements regarding heparin anticoagulation for CRRT are correct:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Heparin infusion must always be interrupted when regional citrate anticoagulation is initiated for CRRT",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "When systemic heparin anticoagulation is prescribed for CRRT, the average circuit life is more than 48 hours",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "In critically ill patients, heparinization for CRRT is very commonly under therapeutic targets, leading to poor filter life.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "In order to optimize filter life, heparin should be titrated to increase aPTT to 1.5 - 2x baseline value.",
+          "correct": true
+        }
+      ],
+      "explanation": "Regional citrate anticoagulation acts only within the CRRT circuit and, under normal conditions, does not alter the patient's systemic coagulation system - so it can safely be run in parallel with systemic heparin given at prophylactic or therapeutic dose, and heparin does not need to be stopped when citrate is started. With systemic heparin anticoagulation for CRRT, average circuit life is typically below 30 hours, not more than 48. Sub-therapeutic dosing is common in ICU patients because of concerns about bleeding, abnormal coagulation tests, or frequent interruptions for procedures, which shortens filter life. To optimise filter life, heparin should be titrated to an aPTT target of 1.5 to 2 times baseline.",
+      "section": "Renal",
+      "topic": "heparin anticoagulation CRRT circuit life aPTT",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt4_fa02",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Adequate monitoring for regional citrate anticoagulation (RCA) includes:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Systemic ionized calcium",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Circuit ionized calcium",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Total / ionized calcium ratio",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Daily citrate blood level",
+          "correct": false
+        }
+      ],
+      "explanation": "Systemic ionized calcium should be monitored regularly during RCA to ensure adequate calcium substitution is given, targeting a normal blood level above 1.10 mmol/l, and circuit ionized calcium should also be monitored to confirm adequate anticoagulation is being achieved, with a target below 0.35 mmol/l. The total-to-ionized calcium ratio is used as a screening test for citrate accumulation. Citrate blood level itself is not part of routine monitoring, since it cannot typically be measured by standard hospital laboratories.",
+      "section": "Renal",
+      "topic": "regional citrate anticoagulation monitoring ionized calcium ratio",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt4_fa03",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 75-year-old patient with history of ischemic heart disease, hypertension and chronic kidney disease (stage 3) had been admitted to the ICU for urosepsis and septic shock. He became anuric and hyperkalemic. The team decided to start continuous renal replacement therapy (CRRT). Which of the following is the most recommended anticoagulation strategy?",
+      "options": [
+        "A: Regional citrate anticoagulation",
+        "B: No anticoagulation is needed as risk of filter clotting is minimal in CRRT",
+        "C: Systemic anticoagulation with unfractionated heparin",
+        "D: One dose of low molecular weight heparin at the start of CRRT",
+        "E: No anticoagulation but CVVH mode with high pre-dilution / post dilution ratio"
+      ],
+      "correct": 0,
+      "explanation": "Some form of anticoagulation is needed to maintain circuit patency and therapy efficacy, particularly in sepsis, which is a hypercoagulable state - running without anticoagulation is not appropriate here. KDIGO guidelines recommend regional citrate anticoagulation as first-line in critically ill patients requiring CRRT. Unfractionated heparin is a reasonable alternative when citrate is contraindicated, but carries a higher bleeding risk and shorter circuit life. Low molecular weight heparin is used in intermittent haemodialysis, not CRRT, because its duration of action is too short to cover a continuous therapy. Non-pharmacological strategies such as a high pre-/post-dilution ratio in CVVH mode are only appropriate as a last resort, when all anticoagulation strategies are contraindicated or ineffective.",
+      "section": "Renal",
+      "topic": "anticoagulation strategy choice CRRT sepsis case",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt4_fa04",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 72 year-old patient had been admitted to the ICU for septic shock secondary to bowel perforation. He developed stage III AKI on day 2 and was started on CVVHD with regional citrate anticoagulation. The therapy was provided for 6 days without any complications. After an initial period of clinical improvement, his condition deteriorates again because of acquiring a ventilator-associated pneumonia. His Noradrenaline requirement as well as his lactate were increasing over the last 12 hours. CVVHD settings are as follow: Calcium substitution: 2.0 mmol/l (110%); Citrate / Blood ratio (4.1 mmol/l); Blood flow 100 ml/min, Dialysate flow 2000 ml/h; Tot/ion Calcium: 2.2, pH: 7.32, HCO3-: 16 mmol/l, Lactate: 4.4 mmol/l. What do you recommend at this stage?",
+      "options": [
+        "A: Continue regional citrate anticoagulation as the patient has demonstrated its ability to metabolize lactate for 6 days",
+        "B: Regional citrate anticoagulation should immediately be interrupted, as the patient's deterioration is very likely due to citrate accumulation",
+        "C: At this stage, regional citrate anticoagulation can be continued, however, the patient is at risk of citrate accumulation. Close monitoring and perhaps citrate delivery adaptation is recommended",
+        "D: Increase the blood flow to enable adequate blood purification",
+        "E: Dialysate flow should be decreased to minimize risks of citrate accumulation"
+      ],
+      "correct": 2,
+      "explanation": "The amount of citrate a patient can metabolise depends on liver, microcirculatory and mitochondrial function, and this capacity can change over time - a patient who has tolerated citrate well for days can still develop accumulation in the context of a severe new secondary insult, though this is rare. Citrate accumulation is defined by a severe metabolic acidosis together with a raised (>2.5) total-to-ionized calcium ratio and increasing calcium supplementation needs; this patient's ratio of 2.2 does not meet that threshold, and the acidosis is more likely explained by lactic acidosis from the evolving septic shock. That said, worsening lactic acidosis reflects reduced aerobic metabolism and does place the patient at increased risk of citrate accumulation going forward, so citrate anticoagulation can be continued but warrants closer monitoring of acid-base status and the total/ionized calcium ratio, with adaptation of citrate delivery if needed, rather than stopping citrate outright or assuming continued safety. In CVVHD, dialysate flow, not blood flow, is the limiting factor for solute clearance, so raising blood flow would not meaningfully improve purification, and reducing dialysate flow would only worsen citrate clearance.",
+      "section": "Renal",
+      "topic": "citrate accumulation CRRT case lactate calcium ratio",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt4_sa01",
+      "type": "A",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "A 71-year-old man is being treated in the ICU for septic shock secondary to community-acquired pneumonia and remains anuric despite adequate fluid resuscitation. Shortly after intubation for worsening respiratory failure, his post-intubation arterial blood gas shows pH 7.12, PaCO2 40 mmHg, HCO3- 13 mmol/l, lactate 5 mmol/l. What is the most appropriate immediate step?",
+      "options": [
+        "A: Start RRT immediately because of the severe metabolic acidosis",
+        "B: Adapt sedation and ventilator settings, since the acidosis is most likely due to loss of respiratory compensation",
+        "C: Give an empirical sodium bicarbonate infusion to correct the pH before considering RRT",
+        "D: Increase the noradrenaline dose to improve renal perfusion before reassessing acid-base status",
+        "E: Repeat the arterial blood gas in 6 hours before taking any further action"
+      ],
+      "correct": 1,
+      "explanation": "The acidosis here is most likely driven by loss of respiratory compensation around the time of intubation and sedation, rather than being a new indication for RRT in its own right - the appropriate step is to adapt sedation and ventilator settings and reassess. Metabolic acidosis alone, without other absolute indications, does not mandate immediate RRT. Empirical bicarbonate does not address a primarily ventilatory problem, escalating noradrenaline does not target the actual cause, and simply repeating the gas later delays an easily correctable issue.",
+      "section": "Renal",
+      "topic": "RRT indication metabolic acidosis post-intubation sedation ventilation",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt4_sa02",
+      "type": "A",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "The same patient remains in septic shock over the following hours, with worsening lactate (4 mmol/l), potassium 5.6 mmol/l, and escalating noradrenaline requirements (0.4 µg/kg/min). He remains anuric, and you decide to initiate renal replacement therapy. Which modality would you select?",
+      "options": [
+        "A: Continuous renal replacement therapy (CRRT)",
+        "B: Intermittent haemodialysis (IHD)",
+        "C: Sustained low-efficiency dialysis (SLED)",
+        "D: Peritoneal dialysis",
+        "E: Delay RRT until haemodynamics improve"
+      ],
+      "correct": 0,
+      "explanation": "Given this degree of haemodynamic instability, CRRT is the preferred modality, since it removes solutes and fluid more gradually and is generally better tolerated than intermittent therapies in shock. IHD is not formally contraindicated in experienced hands, but would require specific adaptations, such as cool dialysate, a higher dialysate sodium concentration, and low blood flow, to improve tolerance. Peritoneal dialysis is not standard practice for AKI in this setting, and delaying RRT is not appropriate given ongoing anuria, worsening acidosis and hyperkalaemia.",
+      "section": "Renal",
+      "topic": "CRRT modality choice haemodynamic instability septic shock",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt4_sa03",
+      "type": "K",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "The same patient is started on CRRT via a double-lumen catheter for his septic shock and anuria. The bedside nurse asks which anticoagulation regimen to use. Regarding this choice:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "No systemic or regional anticoagulation is needed, since the patient is in septic shock",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Regional citrate anticoagulation is an acceptable first-line choice, provided calcium levels, particularly the total-to-ionized calcium ratio, are monitored closely",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Heparin anticoagulation is also an acceptable choice if there are no specific contraindications",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Because septic shock can impair citrate metabolism, a technique that minimises citrate delivery, such as a lower blood flow or a higher dialysate/replacement rate, should be considered if citrate is chosen",
+          "correct": true
+        }
+      ],
+      "explanation": "Some form of anticoagulation is generally still needed to maintain circuit patency, even in septic shock, which is itself a hypercoagulable state - running without anticoagulation on that basis is not appropriate. Regional citrate anticoagulation remains an acceptable default in patients without contraindications, but because severe shock can impair citrate metabolism, a technique that minimises citrate delivery, using a lower blood flow or a higher dialysate/replacement rate, along with close calcium monitoring, is prudent if citrate is chosen. Heparin anticoagulation remains an acceptable alternative when there are no specific contraindications to it.",
+      "section": "Renal",
+      "topic": "anticoagulation choice CRRT initiation septic shock citrate heparin",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt4_sa04",
+      "type": "K",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "The same patient's CRRT circuit clots on heparin anticoagulation after several hours, and the team switches to regional citrate anticoagulation in CVVHD mode, per unit protocol. Regarding monitoring in the first 6 hours after starting regional citrate anticoagulation:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Systemic (patient) ionized calcium should be checked",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Post-filter (circuit) ionized calcium should be checked",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Total serum calcium should be checked, to allow calculation of the total-to-ionized calcium ratio",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Arterial blood gas, haemoglobin and lactate should be checked specifically to monitor for citrate accumulation",
+          "correct": false
+        }
+      ],
+      "explanation": "Systemic ionized calcium should be checked and kept within the normal range, roughly 1.1-1.2 mmol/l, to ensure adequate calcium substitution, while post-filter (circuit) ionized calcium should be checked to confirm adequate regional anticoagulation, targeting roughly 0.2-0.35 mmol/l. From 6 hours after starting citrate, and every 6 hours thereafter, total serum calcium should also be measured so the total-to-ionized calcium ratio can be calculated; a ratio rising toward 2.5, especially alongside increasing calcium substitution needs, raises suspicion of citrate accumulation. Arterial blood gas, haemoglobin and lactate are useful general ICU parameters but are not the specific tests used to monitor for citrate accumulation after starting regional citrate anticoagulation.",
+      "section": "Renal",
+      "topic": "regional citrate anticoagulation monitoring calcium parameters",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt4_sa05",
+      "type": "A",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "The same patient, now on regional citrate anticoagulation in CVVHD mode, has a post-filter ionized calcium of 0.45 mmol/l six hours after starting therapy (target range approximately 0.2-0.35 mmol/l). What should you do?",
+      "options": [
+        "A: Lower the citrate-to-blood-flow ratio",
+        "B: Increase the citrate-to-blood-flow ratio",
+        "C: Make no changes, since the value is close enough to target",
+        "D: Switch immediately to systemic heparin anticoagulation",
+        "E: Stop regional citrate anticoagulation and run the circuit without anticoagulation"
+      ],
+      "correct": 1,
+      "explanation": "A post-filter ionized calcium above the target range indicates under-anticoagulation of the circuit, so the citrate-to-blood-flow ratio should be increased, according to the unit's protocol, to bring the post-filter calcium down into the target range. Lowering the ratio would worsen circuit anticoagulation further, leaving the value unchanged would not correct an out-of-range result, and switching to heparin or stopping anticoagulation altogether are not the appropriate response to a single monitoring value that can be corrected by adjusting the citrate dose.",
+      "section": "Renal",
+      "topic": "regional citrate anticoagulation post-filter calcium troubleshooting",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt4_sa06",
+      "type": "A",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "The same patient continues to improve and is weaned off all vasoactive drugs while remaining on regional citrate anticoagulation. On admission day 3, his arterial blood gas shows pH 7.50, PaCO2 40 mmHg, HCO3- 31 mmol/l, lactate 1.3 mmol/l, with normal calcium substitution requirements and a normal total-to-ionized calcium ratio. A colleague is worried the patient might be citrate intoxicated. What is the correct assessment?",
+      "options": [
+        "A: No worries, citrate intoxication does not exist as citrate is not toxic",
+        "B: Citrate, although not toxic, may be accumulating and causing this metabolic disturbance",
+        "C: Change into heparin anticoagulation",
+        "D: Decrease the blood flow or increase the dialysate flow",
+        "E: No action is needed, since the arterial blood gas is entirely normal"
+      ],
+      "correct": 3,
+      "explanation": "Citrate accumulation is classically associated with metabolic acidosis and a rising total-to-ionized calcium ratio, neither of which is present here - the calcium substitution rate and ratio are normal, and the gas shows alkalosis, not acidosis. With normal calcium parameters, this metabolic alkalosis is more likely explained by an excessive alkalotic load from citrate, a minor and common complication of regional citrate anticoagulation that does not indicate accumulation. It is managed by decreasing the blood flow, which reduces citrate delivery since citrate administration is coupled to blood flow, or by increasing the dialysate flow, which increases removal of citrate-calcium complexes at the filter - either approach corrects the alkalosis without needing to switch to heparin. A pH of 7.50 with HCO3- of 31 mmol/l is not a normal gas and does warrant action.",
+      "section": "Renal",
+      "topic": "regional citrate anticoagulation alkalosis vs accumulation troubleshooting",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt4_sa07",
+      "type": "K",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "Regarding citrate accumulation, which of the following statements is correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Elevated lactate levels are typically associated with citrate accumulation",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "A decreased total-to-ionized calcium ratio is associated with citrate accumulation",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Liver dysfunction is a risk factor for citrate accumulation",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Metabolic acidosis is typically associated with citrate accumulation",
+          "correct": true
+        }
+      ],
+      "explanation": "Citrate-calcium complexes are normally metabolised through the Krebs cycle. Impaired microcirculation, reducing citrate delivery to cells, or mitochondrial dysfunction can both impair this metabolism; clinically significant impairment is usually associated with increased lactate levels, as a by-product of anaerobic metabolism, and with metabolic acidosis. Liver dysfunction is a recognised risk factor, since it reduces the number of cells available for citrate metabolism. Citrate accumulation is associated with a rising, not falling, total-to-ionized calcium ratio, since citrate binds calcium and lowers the ionized fraction relative to the total.",
+      "section": "Renal",
+      "topic": "citrate accumulation associated findings lactate calcium ratio liver",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt5_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "CVVH is initiated in a septic patient with the following biochemistry parameters: Na=127 mmol/l, Cl=99 mmol/l, K=5.3 mmol/l, pH=7.21, HCO3=15. Among the following statements, which one(s) is (are) correct?",
+      "options": [
+        "A: The substitution fluid should not contain potassium",
+        "B: The substitution fluid should contain the standard (4 mmol/l) potassium concentration",
+        "C: The substitution fluid should have a high (145 mmol/l) sodium concentration",
+        "D: Metabolic acidosis cannot be corrected with a standard restitution fluid"
+      ],
+      "correct": 1,
+      "explanation": "In both CVVH and CVVHD, the patient's electrolyte composition trends toward that of the substitution or dialysate fluid, so a standard 4 mmol/l potassium concentration is generally appropriate even if the patient was hyperkalaemic before starting therapy - potassium will tend to normalise toward that value. The same principle applies to other electrolytes: a high-sodium substitution fluid in a hyponatraemic patient risks correcting the sodium too rapidly, with a risk of neurological complications, and metabolic acidosis is compensated, more or less completely, by the standard bicarbonate concentration in the substitution fluid rather than needing a special formulation.",
+      "section": "Renal",
+      "topic": "CVVH substitution fluid electrolyte composition potassium sodium acidosis",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt5_fa02",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following principles should be applied for antimicrobials dosing during RRT in the critically ill?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Weighing the risks of toxicity and therapeutic failure",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Antimicrobial's dose should be modified according to recommended dosage for ESRD patients.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Considering the dose of the RRT",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Use of therapeutic drug monitoring (TDM)",
+          "correct": true
+        }
+      ],
+      "explanation": "Antimicrobial dosing during RRT in the critically ill should weigh the risks of toxicity against those of therapeutic failure, and should take the dose of RRT itself into account, since it is an important determinant of extracorporeal drug removal. Dosing recommendations derived from chronic (ESRD) dialysis patients are not applicable in this setting, since ICU patients requiring RRT differ substantially from chronic dialysis patients and pharmacokinetic data are highly heterogeneous and often not transferable between RRT modalities or settings. Because of this heterogeneity and the difficulty of generalising small pharmacokinetic studies, therapeutic drug monitoring is recommended wherever available.",
+      "section": "Renal",
+      "topic": "antimicrobial dosing principles RRT ICU TDM",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt5_fa03",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Regarding antibiotic therapy during CRRT, which of the following statements are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Polyacrylonitrile membranes have a high adsorbing capacity for certain types of antibiotics",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The higher the protein binding of a molecule, the higher its removal by CRRT.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Doses of all antimicrobials should be reduced during CRRT",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Antibiotic doses should always be adapted to patient's creatinine clearance (TDM)",
+          "correct": false
+        }
+      ],
+      "explanation": "Membrane type can influence antibiotic pharmacokinetics: polyacrylonitrile membranes have a high adsorbing capacity for certain antibiotics, such as aminoglycosides (up to around 25% of a dose), while polysulfone membranes adsorb virtually none, though this effect is limited mainly to the initial phase of treatment since adsorption saturates quickly. Higher protein binding reduces, rather than increases, removal by CRRT, since only the free fraction is available for extracorporeal exchange - for many antibiotics, CRRT actually increases clearance and doses need to be increased rather than reduced across the board. Because residual renal clearance is usually limited in AKI patients requiring RRT, antibiotic dosing should generally not be adjusted to residual creatinine clearance, and guidelines designed for chronic kidney disease patients do not account for the pharmacokinetic changes of critical illness, often leading to underdosing if applied here.",
+      "section": "Renal",
+      "topic": "antibiotic pharmacokinetics CRRT membrane adsorption protein binding",
+      "image": null,
+      "section_url": "https://doi.org/10.1007/s00134-017-4789-x",
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt6_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 70-year-old female with history of diabetes and CKD (stage 4) is brought to the emergency department by ambulance because of acute abdominal pain. The surgeons requested a CT abdomen and pelvis with contrast because they think she may need an urgent laparotomy. The patient is hypotensive (80/40 mmHg) and tachycardic (HR 124 b/min). At this point, which is the best course of action?",
+      "options": [
+        "A: Cancel the CT with contrast because it is contra-indicated in this setting as the patient is at risk for AKI",
+        "B: Delay the CT with contrast 48 hours so that there is time to perform more resuscitation",
+        "C: Proceed with the CT with contrast",
+        "D: Perform one session of IHD as prophylaxis before the CT with contrast",
+        "E: Perform the CT with contrast, then send the patient for immediate dialysis after to remove the contrast"
+      ],
+      "correct": 2,
+      "explanation": "The patient is critically unstable, and despite the risk of contrast-induced nephropathy, the benefit-risk balance clearly favours proceeding with the scan to diagnose and control the underlying surgical cause. Given her CKD stage 4 and age, there is a real risk she will eventually need long-term dialysis, which should be discussed with her directly. Delaying the scan to allow more resuscitation, or performing prophylactic dialysis first, risks further deterioration from the unaddressed surgical problem; although contrast media can be efficiently removed by intermittent haemodialysis, prophylactic dialysis has not been shown to reduce the incidence of contrast-induced nephropathy, likely because the renal insult has usually already occurred by the time contrast is given.",
+      "section": "Renal",
+      "topic": "contrast-induced nephropathy CT contrast AKI risk decision",
+      "image": null,
+      "section_url": "http://www.kdigo.org/clinical_practice_guidelines/pdf/KDIGO%20AKI%20Guideline.pdf",
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt6_fa02",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 75-year-old man with a past medical history of CKD (stage 3) had been admitted to the ICU secondary to pneumonia, septic shock and acute kidney injury (AKI). He had been started on CVVH for 72 hours now. Which of the following factors would predict successful discontinuation from RRT?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Weaning off vasopressors",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Normalized serum potassium level",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Absence of evidence of fluid overload",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "More than 50 ml/h urinary output",
+          "correct": true
+        }
+      ],
+      "explanation": "Once haemodynamics and biochemistry have normalised, many intensivists will attempt a trial off RRT and judge success by clinical (diuresis) and biochemical (arterial blood gases, serum creatinine) response; patients with pre-existing CKD carry a higher risk of failing this trial. The best current evidence for predicting successful discontinuation, though based mainly on small retrospective studies, points to urine output above roughly 400 mL/day without diuretics, or above 2300 mL/day with diuretics, daily urinary creatinine excretion of at least 5.2 mmol, daily urea excretion above 1.35 mmol/kg/24h, and a 2-hour measured creatinine clearance above 23 mL/min. Weaning off vasopressors and normalising serum potassium through RRT are not, on their own, reliable predictors of successful weaning.",
+      "section": "Renal",
+      "topic": "RRT discontinuation predictors urine output creatinine clearance",
+      "image": null,
+      "section_url": "https://doi.org/10.1186/s13613-016-0176-y",
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt6_fa03",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 68-year-old patient is admitted to the ICU after developing sepsis and multi-organ dysfunction. He requires circulatory, renal and ventilatory support. By day 10, he shows significant improvement, is successfully weaned from vasopressors and extubated. However, he remains oliguric and RRT dependent. Among the following factors, which one is an independent predictor for being dependent on RRT after 30 days:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Longer duration of RRT",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "High Sequential Organ Failure Assessment score",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Oliguria",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Age > 65 years",
+          "correct": true
+        }
+      ],
+      "explanation": "Longer duration of RRT, a higher Sequential Organ Failure Assessment score, oliguria, and age over 65 years have all been identified as independent risk factors for remaining dependent on RRT at 30 days.",
+      "section": "Renal",
+      "topic": "30-day RRT dependency risk factors SOFA oliguria age",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt6_fa04",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A patient is admitted in ICU for acute cardiac failure and acute pulmonary oedema with fluid overload. Diuresis is 0.3 ml/kg/h despite 500 mg of furosemide, creat: 90 µmol/l, urea: 9 mmol/l. Among the following propositions, which one(s) is (are) correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "RRT is not indicated",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "RRT should be initiated promptly",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Intermittent haemodialysis is the preferred RRT option to improve patient's condition rapidly",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Slow Continuous Ultra-Filtration is the preferred RRT option to improve patient's condition rapidly",
+          "correct": true
+        }
+      ],
+      "explanation": "This patient has acute pulmonary oedema from fluid overload with cardiac insufficiency and diuretic-resistant oliguria, so RRT is indicated and should be started promptly to remove salt and water as quickly as possible - it would be inappropriate to withhold RRT here. While every RRT technique can remove fluid, haemodynamic tolerance tends to be better with continuous rather than intermittent therapy, so intermittent haemodialysis is not the preferred option for rapid, well-tolerated fluid removal. Since renal function is close to normal and blood purification is not required, slow continuous ultrafiltration, which removes only water and salt, is generally sufficient in this scenario rather than a full continuous renal replacement modality.",
+      "section": "Renal",
+      "topic": "RRT indication cardiac failure pulmonary oedema fluid removal modality",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    },
+    {
+      "id": "rrt6_fa05",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A Patient is admitted to the ICU with septic shock following a surgical procedure for peritonitis. He requires high dose norepinephrine; renal function is normal currently and diuresis is at 0.5 ml/kg/h. What is correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "CRRT is indicated to \"help the patient's kidney\"",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "High volume hemofiltration is indicated for blood purification",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "CRRT with high cut-off membrane should be initiated to remove cytokines",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "No RRT techniques have proved their efficacy in adjunctive sepsis therapy in absence of AKI",
+          "correct": true
+        }
+      ],
+      "explanation": "In a patient with septic shock but currently normal renal function and preserved diuresis, CRRT is not indicated simply to 'support the kidney', and there is no proven role for high-volume haemofiltration or high-cut-off membranes to remove cytokines as adjunctive sepsis therapy. To date, no RRT technique has demonstrated efficacy as adjunctive therapy for sepsis in the absence of AKI, and current sepsis guidelines neither recommend for nor against its use in this context given the lack of high-quality evidence - this remains an area needing further research.",
+      "section": "Renal",
+      "topic": "CRRT adjunctive sepsis therapy absence AKI evidence",
+      "image": null,
+      "section_url": null,
+      "_module": "Renal Replacement Therapy"
+    }
+  ]
+}
