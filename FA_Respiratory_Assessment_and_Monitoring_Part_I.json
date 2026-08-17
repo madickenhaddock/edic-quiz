@@ -1,0 +1,201 @@
+{
+  "module": "Respiratory Assessment and Monitoring Part I",
+  "sections": {},
+  "questions": [
+    {
+      "id": "ram1_sba1_01",
+      "module": "Respiratory Assessment and Monitoring Part I",
+      "type": "A",
+      "source": "sba_generated",
+      "section": "Bedside imaging in acute desaturation",
+      "question": "A polytrauma patient in the ICU, mechanically ventilated, develops a sudden desaturation to SpO2 80%. Which investigation is most likely to give the quickest, most reliable information?",
+      "options": [
+        "A: Point-of-care ultrasound",
+        "B: Clinical examination (auscultation and inspection) alone",
+        "C: Supine chest radiograph",
+        "D: Computed tomography with transfer off the unit",
+        "E: Arterial blood gas analysis alone"
+      ],
+      "correct": 0,
+      "explanation": "Point-of-care ultrasound has high sensitivity and specificity for both pneumothorax and pleural effusion, can be performed immediately at the bedside, and can also guide therapeutic drainage. Clinical examination is quickest but has many limitations in the critically ill. Chest radiography is quick but the need for a supine view limits assessment of effusions and anterior pneumothoraces. CT is the most detailed but is lengthy and carries risks from transferring an unstable patient off the unit with limited monitoring. Arterial blood gas can confirm hypoxaemia but does not localise its cause."
+    },
+    {
+      "id": "ram1_sba1_02",
+      "module": "Respiratory Assessment and Monitoring Part I",
+      "type": "K",
+      "source": "sba_generated",
+      "section": "Bedside imaging in acute desaturation",
+      "question": "Regarding bedside investigations for a desaturating, mechanically ventilated polytrauma patient:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Supine chest radiography reliably detects anterior pneumothoraces",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Point-of-care ultrasound can also be used to guide therapeutic drainage of an effusion or pneumothorax",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Computed tomography carries no additional risk compared with bedside investigations in an unstable patient",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Clinical examination alone has important limitations in the critically ill patient",
+          "correct": true
+        }
+      ],
+      "explanation": "Chest radiographs are quick and easy to obtain, but patients often must be imaged supine, which limits assessment of both pleural effusions and anterior pneumothoraces. Point-of-care ultrasound has high sensitivity and specificity for pneumothorax and effusion and can also guide therapeutic interventions such as drainage. CT scanning is the most detailed option but is lengthy and carries the risk of transferring an unstable patient off the unit with limited monitoring and potential for deterioration. Clinical examination is the quickest option but carries many limitations in the critically ill polytrauma patient."
+    },
+    {
+      "id": "ram1_sba2_01",
+      "module": "Respiratory Assessment and Monitoring Part I",
+      "type": "A",
+      "source": "sba_generated",
+      "section": "Methaemoglobinaemia",
+      "question": "A patient in the Emergency Department appears centrally cyanosed with an SpO2 of 85% despite a high fraction of inspired oxygen. He takes phenytoin for epilepsy. What is the most likely diagnosis?",
+      "options": [
+        "A: Pulmonary embolism",
+        "B: Carbon monoxide poisoning",
+        "C: Methaemoglobinaemia",
+        "D: Severe anaemia",
+        "E: Right-to-left intracardiac shunt"
+      ],
+      "correct": 2,
+      "explanation": "Methaemoglobinaemia can be congenital or acquired, most often from drugs including some local anaesthetics, nitrates, and phenytoin. Methaemoglobin cannot carry oxygen and also shifts the oxyhaemoglobin dissociation curve to the left, reducing oxygen-carrying capacity by two mechanisms. A low SpO2 with a normal partial pressure of arterial oxygen is highly suggestive of the diagnosis, distinguishing it from the other options: pulmonary embolism and right-to-left shunt typically also lower the PaO2, carbon monoxide poisoning classically gives a falsely normal (not low) pulse oximetry reading, and severe anaemia alone does not explain this SpO2/FiO2 mismatch."
+    },
+    {
+      "id": "ram1_sba2_02",
+      "module": "Respiratory Assessment and Monitoring Part I",
+      "type": "K",
+      "source": "sba_generated",
+      "section": "Methaemoglobinaemia",
+      "question": "Regarding methaemoglobinaemia:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Methaemoglobin is unable to carry oxygen molecules",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The presence of methaemoglobin shifts the oxyhaemoglobin dissociation curve to the right",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Diagnosis requires a co-oximeter and an arterial blood sample",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "A high SpO2 with an elevated partial pressure of arterial oxygen would be expected in this condition",
+          "correct": false
+        }
+      ],
+      "explanation": "Methaemoglobin reduces the oxygen-carrying capacity of blood by two mechanisms: it cannot itself carry oxygen, and its presence shifts the oxyhaemoglobin dissociation curve to the left (not right), further impairing oxygen unloading to tissues. Standard pulse oximetry cannot distinguish methaemoglobin from oxyhaemoglobin, so diagnosis requires co-oximetry on an arterial blood sample. The classic and highly suggestive picture is a LOW SpO2 alongside a NORMAL PaO2 - not a high SpO2 with elevated PaO2."
+    },
+    {
+      "id": "ram1_fa01",
+      "module": "Respiratory Assessment and Monitoring Part I",
+      "type": "A",
+      "source": "esicm_final_assessment",
+      "section": "Lung ultrasound",
+      "question": "Lung ultrasound is a useful bedside examination for all conditions except:",
+      "options": [
+        "A: Lobar pneumonia",
+        "B: Atelectasis",
+        "C: Anterior pneumothorax",
+        "D: Pulmonary embolus",
+        "E: Pleural effusion"
+      ],
+      "correct": 3,
+      "explanation": "Lung ultrasound can give reliable information for parenchymal changes including consolidation, collapse and oedema, as well as pleural disease processes. Pulmonary emboli are not visualised with lung ultrasound."
+    },
+    {
+      "id": "ram1_fa02",
+      "module": "Respiratory Assessment and Monitoring Part I",
+      "type": "A",
+      "source": "esicm_final_assessment",
+      "section": "Chest radiography",
+      "question": "Chest radiography in the intensive care unit:",
+      "options": [
+        "A: Should be performed daily.",
+        "B: Is essential following placement of femoral central lines.",
+        "C: Is not useful in detecting pneumothoraces.",
+        "D: Should be performed after endotracheal intubation.",
+        "E: Should be limited to one a day due to radiation dose."
+      ],
+      "correct": 3,
+      "explanation": "There is no evidence that daily chest radiographs improve patient care, and there is no trigger for routine repetition. The radiation dose is small and should not affect decision-making. While anterior pneumothoraces are poorly visualised, chest radiographs are still useful for detecting the majority of pneumothoraces. They should be taken after endotracheal intubation to ensure adequate tube placement."
+    },
+    {
+      "id": "ram1_fa03",
+      "module": "Respiratory Assessment and Monitoring Part I",
+      "type": "A",
+      "source": "esicm_final_assessment",
+      "section": "Extravascular lung water",
+      "question": "You decide to measure extravascular lung water (EVLW) to best manage the fluid balance of a patient with acute respiratory distress syndrome. Which of the following is incorrect?",
+      "options": [
+        "A: Higher values of EVLW are associated with longer duration of ventilation.",
+        "B: Fluid administration can be titrated to EVLW.",
+        "C: A fiberoptic pulmonary artery catheter is used.",
+        "D: Most often a thermodilution technique is used.",
+        "E: Results can be indexed to body surface area."
+      ],
+      "correct": 2,
+      "explanation": "EVLW is a measurement that can be used to guide fluid administration, and higher values are associated with a longer duration of ventilation. Results are most often indexed to body surface area. A transpulmonary thermodilution curve, using a distant arterial detector, is the most frequently used technique - pulmonary artery catheterisation is not necessary."
+    },
+    {
+      "id": "ram1_fa04",
+      "module": "Respiratory Assessment and Monitoring Part I",
+      "type": "A",
+      "source": "esicm_final_assessment",
+      "section": "Electrical impedance tomography",
+      "question": "A patient with acute respiratory distress syndrome has been deemed unstable for transfer for computed tomography, so you decide to use electrical impedance tomography (EIT). EIT does not have the ability to detect:",
+      "options": [
+        "A: Pleural effusion",
+        "B: Lobar collapse",
+        "C: Pulmonary embolus",
+        "D: Atelectasis"
+      ],
+      "correct": 2,
+      "explanation": "EIT uses variation in impedance across the chest wall to detect heterogeneity related to altered lung mechanics, giving real-time feedback on lung parenchyma and response to therapies. Pulmonary embolus and other changes in blood flow are not necessarily reflected in a parenchymal change, so EIT cannot reliably detect it."
+    },
+    {
+      "id": "ram1_fa05",
+      "module": "Respiratory Assessment and Monitoring Part I",
+      "type": "A",
+      "source": "esicm_final_assessment",
+      "section": "Capnography",
+      "question": "Capnography waveform cannot give information about:",
+      "options": [
+        "A: Oxygen carriage",
+        "B: Bronchospasm",
+        "C: Cardiac output",
+        "D: Dead space"
+      ],
+      "correct": 0,
+      "explanation": "Many aspects of lung mechanics and cardiovascular state can be inferred from capnography as a measure of carbon dioxide transfer across the alveolar membrane. Differences between arterial and alveolar carbon dioxide give information about dead space, the slope of Phase 3 can be affected by bronchospasm, and the overall height and value of the trace relates to cardiac output via pulmonary blood flow. No direct relation exists between capnography and oxygenation."
+    },
+    {
+      "id": "ram1_fa06",
+      "module": "Respiratory Assessment and Monitoring Part I",
+      "type": "A",
+      "source": "esicm_final_assessment",
+      "section": "Oxygen delivery",
+      "question": "A patient in profound septic shock displays multiorgan dysfunction with hypotension, oliguric acute kidney injury and respiratory failure. Invasive monitoring is instituted, including pulmonary artery catheterisation, to allow calculation of oxygen delivery and consumption. In relation to oxygen delivery, which factor is not important?",
+      "options": [
+        "A: Cardiac contractility",
+        "B: Hypoxia",
+        "C: Anaemia",
+        "D: Blood viscosity"
+      ],
+      "correct": 3,
+      "explanation": "While at extremes of viscosity (e.g. marked polycythaemia) capillary sludging may impair cellular oxygen delivery, viscosity does not factor into the calculation of oxygen delivery, which is concerned with the product of cardiac output and arterial oxygen content."
+    }
+  ]
+}
