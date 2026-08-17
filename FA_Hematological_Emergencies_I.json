@@ -1,0 +1,374 @@
+{
+  "module": "Hematological Emergencies I",
+  "sections": {},
+  "questions": [
+    {
+      "id": "heme1_fa01",
+      "module": "Hematological Emergencies I",
+      "type": "A",
+      "source": "esicm_final_assessment",
+      "section": "TTP",
+      "question": "What is the primary aetiology of Thrombotic Thrombocytopenic Purpura (TTP)?",
+      "options": [
+        "A: Deficiency in platelet aggregation",
+        "B: Dysfunction of von Willebrand factor",
+        "C: Impaired ADAMTS-13 enzyme activity",
+        "D: Excessive thrombocytosis",
+        "E: High-dose chemotherapy"
+      ],
+      "correct": 2,
+      "explanation": "TTP results from severe deficiency (typically <10% activity) of ADAMTS-13, the enzyme that cleaves ultra-large von Willebrand factor multimers. Without this cleavage, platelets aggregate excessively in the microvasculature, causing microangiopathic haemolytic anaemia, thrombocytopenia, and organ ischaemia."
+    },
+    {
+      "id": "heme1_fa02",
+      "module": "Hematological Emergencies I",
+      "type": "A",
+      "source": "esicm_final_assessment",
+      "section": "TTP",
+      "question": "What is the primary treatment modality for Thrombotic Thrombocytopenic Purpura (TTP)?",
+      "options": [
+        "A: Anticoagulation therapy",
+        "B: Immunosuppressive therapy",
+        "C: Emergent plasmapheresis",
+        "D: Antibiotic administration",
+        "E: Renal replacement therapy"
+      ],
+      "correct": 2,
+      "explanation": "Emergent plasma exchange is the cornerstone of TTP treatment: it removes ultra-large vWF multimers and any ADAMTS-13 autoantibody while replacing ADAMTS-13. Delaying plasma exchange is associated with higher mortality, so treatment should not wait for confirmatory ADAMTS-13 results."
+    },
+    {
+      "id": "heme1_fa03",
+      "module": "Hematological Emergencies I",
+      "type": "A",
+      "source": "esicm_final_assessment",
+      "section": "TTP",
+      "question": "What is a critical component in the diagnosis of TTP using the PLASMIC score?",
+      "options": [
+        "A: Liver function",
+        "B: Creatinine levels",
+        "C: Platelet count",
+        "D: Lactate dehydrogenase levels",
+        "E: Ferritin"
+      ],
+      "correct": 2,
+      "explanation": "The PLASMIC score combines platelet count, haemolysis markers, absence of active cancer, absence of transplant, MCV, INR and creatinine to estimate the pre-test probability of severe ADAMTS-13 deficiency; a low platelet count is one of its core weighted components."
+    },
+    {
+      "id": "heme1_fa04",
+      "module": "Hematological Emergencies I",
+      "type": "A",
+      "source": "esicm_final_assessment",
+      "section": "aHUS",
+      "question": "In which condition is eculizumab used as part of the treatment?",
+      "options": [
+        "A: Shiga toxin-related haemolytic uraemic syndrome (ST-HUS)",
+        "B: Complement-mediated HUS (C-HUS)",
+        "C: Thrombotic thrombocytopenic purpura (TTP)",
+        "D: Drug-induced thrombotic microangiopathy",
+        "E: Autoimmune haemolytic anaemia"
+      ],
+      "correct": 1,
+      "explanation": "Eculizumab, a complement C5 inhibitor, is first-line targeted therapy for complement-mediated (atypical) HUS, where uncontrolled alternative-pathway complement activation drives the thrombotic microangiopathy. It has no established role in ST-HUS, TTP, or drug-induced TMA."
+    },
+    {
+      "id": "heme1_fa05",
+      "module": "Hematological Emergencies I",
+      "type": "A",
+      "source": "esicm_final_assessment",
+      "section": "TTP",
+      "question": "What is the primary factor influencing the prognosis of TTP?",
+      "options": [
+        "A: Response to treatment",
+        "B: Severity of initial presentation",
+        "C: Presence of comorbidities",
+        "D: Age of the affected individual",
+        "E: Duration of disease prior to diagnosis"
+      ],
+      "correct": 0,
+      "explanation": "With prompt plasma exchange and immunosuppression, most TTP patients respond well; failure to respond to treatment (refractory disease) is the strongest driver of poor outcome and mortality, more so than the severity of the initial presentation."
+    },
+    {
+      "id": "heme1_fa06",
+      "module": "Hematological Emergencies I",
+      "type": "A",
+      "source": "esicm_final_assessment",
+      "section": "aHUS",
+      "question": "Which of these is currently recommended as the first line therapy for aHUS?",
+      "options": [
+        "A: IL6 inhibition",
+        "B: Plasma therapy",
+        "C: Corticosteroids",
+        "D: Renal replacement therapy",
+        "E: Anti-complement agents"
+      ],
+      "correct": 4,
+      "explanation": "Currently, anti-complement agents, specifically eculizumab, are recommended as first-line treatment for aHUS. Plasma therapy (infusion or exchange) is second line, though often adopted first while awaiting ADAMTS-13 activity results. Earlier adoption of anti-complement therapy should reduce the need for dialysis. Steroids are generally used in conjunction with another treatment in patients with autoantibody-positive aHUS."
+    },
+    {
+      "id": "heme1_fa07",
+      "module": "Hematological Emergencies I",
+      "type": "K",
+      "source": "esicm_final_assessment",
+      "section": "aHUS",
+      "question": "The following presentation is necessary for the consideration of aHUS as a diagnosis:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Family history of aHUS",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Acute kidney injury",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Diarrhoea",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Thrombocytopenia",
+          "correct": true
+        }
+      ],
+      "explanation": "Atypical haemolytic uraemic syndrome (aHUS) is an ultra-rare, life-threatening thrombotic microangiopathy characterised by thrombocytopenia, microangiopathic haemolytic anaemia, and renal impairment. Family history is not required - in those where mutations are detected, the majority are sporadic rather than familial - and diarrhoea is a feature of Shiga toxin-related HUS rather than a necessary feature of aHUS."
+    },
+    {
+      "id": "heme1_fa08",
+      "module": "Hematological Emergencies I",
+      "type": "A",
+      "source": "esicm_final_assessment",
+      "section": "aHUS",
+      "question": "A 19-year-old male presents with nausea, vomiting, and non-bloody diarrhoea for the past 2 days. He was recently commenced on chemotherapy for a haematological malignancy. He is afebrile and has mild tachycardia without hypotension. Physical examination reveals pallor, a normal neurologic examination, scleral icterus, and a petechial rash on the trunk and extremities. Laboratory tests show elevated lactate dehydrogenase, creatinine, serum bilirubin levels, and severe thrombocytopenia. Complement factor H (CFH) IgG and IgM are positive. What is the best initial treatment in addition to supportive treatment?",
+      "options": [
+        "A: Intravenous methylprednisolone",
+        "B: Plasma exchange",
+        "C: Eculizumab",
+        "D: Renal replacement therapy",
+        "E: Broad spectrum antibiotics"
+      ],
+      "correct": 2,
+      "explanation": "Autoantibodies are implicated in atypical haemolytic uraemic syndrome (aHUS); in this case the antibody is to complement factor H (CFH), and chemotherapeutic agents can trigger aHUS. Plasma exchange (PEX) may be adopted but is not the recommended first-line therapy. Immunosuppressive therapy should follow to decrease production of anti-CFH antibodies, including corticosteroids with or without cyclophosphamide, rituximab, or mycophenolate mofetil (MMF). Usual supportive treatments such as fluids and antibiotics should be considered in all patients."
+    },
+    {
+      "id": "heme1_fa09",
+      "module": "Hematological Emergencies I",
+      "type": "A",
+      "source": "esicm_final_assessment",
+      "section": "DIC",
+      "question": "When thinking about coagulation factors and intrinsic circulating anticoagulants, the central actor in DIC is:",
+      "options": [
+        "A: Factor VII",
+        "B: Activated Protein C",
+        "C: Thrombin",
+        "D: Antithrombin III",
+        "E: Plasmin"
+      ],
+      "correct": 2,
+      "explanation": "Although FVII monitoring via PT/INR is one parameter for diagnosing DIC, and widespread tissue factor exposure activating FVII is important in initiating coagulation, FVII and FVIIa do not hold the central regulatory role over coagulation factor and intrinsic anticoagulant activation, platelet activation, and fibrinolysis that thrombin does. Excess circulating activated protein C is thought to drive acute traumatic coagulopathy, which can progress to DIC, but the two are considered separate entities. Although antithrombin III levels are reduced in DIC, administering antithrombin III has failed to impact mortality in large sepsis trials, and neither antithrombin III nor the fibrinolytic protein plasmin holds the regulatory position that thrombin does."
+    },
+    {
+      "id": "heme1_fa10",
+      "module": "Hematological Emergencies I",
+      "type": "K",
+      "source": "esicm_final_assessment",
+      "section": "DIC",
+      "question": "The following situations are compatible with a diagnosis of overt DIC:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Acute confusion, ECG changes with myocardial injury. Platelet count 3 x 10^9/L, INR 1.2, fibrinogen 308 mg/dL, D-dimer 7200 ng/mL (ULN = 250 ng/mL), ADAMTS13 <5%",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Fever, hypoxia, infected pleural collection in a malnourished patient. Platelet count 986 x 10^9/L, INR 1.2, fibrinogen 1026 mg/dL, D-dimer 2064 ng/mL (ULN = 250 ng/mL)",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "General malaise. Pancytopenia, blast cells on blood film. Gingival contact bleeding. Platelet count 105 x 10^9/L, INR 2.0, fibrinogen 46 mg/dL, D-dimer 7836 ng/mL (ULN = 250 ng/mL)",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "End-stage liver disease patient with refractory infection-induced Grade 3 acute kidney injury and bi-basal consolidation, CRP 104, thromboses or bleeding. Platelet count 66 x 10^9/L (baseline 130), INR 2.5 (baseline 1.6), fibrinogen 148 mg/dL, D-dimer 7575 ng/mL (ULN = 250 ng/mL)",
+          "correct": true
+        }
+      ],
+      "explanation": "The ISTH score in the first scenario is 4 and not compatible with overt DIC - DIC sees reduced ADAMTS13 but not to the level seen here (<5%), and the history and results instead point to thrombotic thrombocytopenic purpura (TTP). DIC causes fibrin-rich microthrombosis, whereas microvascular occlusion in TTP consists of fibrin-poor platelet plugs; D-dimer and fibrinogen are frequently normal in TTP but can be abnormal in both conditions, so they are not reliable for differentiating the two in isolation. In the second scenario the ISTH score is 1, with results compatible with hypercoagulability likely from a robust inflammatory response to the empyema rather than DIC - one day prior, before malnutrition-driven Vitamin K administration corrected the INR, the ISTH score had been 4, illustrating the importance of excluding confounders and monitoring scores dynamically. In the third scenario the ISTH score is 6, with a diagnosis of acute promyelocytic leukaemia - the aetiology and results are compatible with overt DIC. In the fourth scenario the ISTH score is 6 and is technically compatible with DIC, though this needs care in patients with advanced liver disease, since ISTH scores can be high at baseline purely from underlying thrombocytopenia and impaired liver synthetic function, and isolated sepsis-associated D-dimer rises do not necessarily help distinguish the two. Here, however, the patient has a known DIC aetiology (acute infection) and all metrics are far beyond the patient's known abnormal baseline, supporting overt DIC over uncomplicated worsening liver-related coagulopathy - confirmed two days later when the D-dimer rose further (>10,000 ng/mL) and the patient began to bleed spontaneously from invasive lines."
+    },
+    {
+      "id": "heme1_fa11",
+      "module": "Hematological Emergencies I",
+      "type": "A",
+      "source": "esicm_final_assessment",
+      "section": "Antiphospholipid antibodies",
+      "question": "Antiphospholipid antibodies include the following except:",
+      "options": [
+        "A: Anti-cardiolipin antibody",
+        "B: Lupus anticoagulant",
+        "C: Anti-beta 2-glycoprotein 1 antibody",
+        "D: All the above",
+        "E: Anti-double stranded DNA antibody"
+      ],
+      "correct": 4,
+      "explanation": "The three antibodies used in the classification criteria for antiphospholipid syndrome are anti-cardiolipin, lupus anticoagulant, and anti-beta-2-glycoprotein I antibodies. Anti-double-stranded DNA antibody is a marker of systemic lupus erythematosus, not an antiphospholipid antibody, even though the two conditions frequently coexist."
+    },
+    {
+      "id": "heme1_fa12",
+      "module": "Hematological Emergencies I",
+      "type": "A",
+      "source": "esicm_final_assessment",
+      "section": "CAPS",
+      "question": "Which of the following contribute to the pathophysiology of CAPS?",
+      "options": [
+        "A: Complement deficiency",
+        "B: Monocyte and neutrophil activation",
+        "C: Extravascular haemolysis",
+        "D: Clotting factor downregulation",
+        "E: Endothelial damage"
+      ],
+      "correct": 1,
+      "explanation": "CAPS pathophysiology involves a 'thrombotic storm': antiphospholipid antibodies activate monocytes, neutrophils, complement, and endothelium, triggering a systemic inflammatory and procoagulant cascade with widespread microthrombosis - distinct from complement deficiency, extravascular haemolysis, or clotting factor downregulation."
+    },
+    {
+      "id": "heme1_fa13",
+      "module": "Hematological Emergencies I",
+      "type": "A",
+      "source": "esicm_final_assessment",
+      "section": "CAPS",
+      "question": "Which factor is not associated with an increased morbidity/mortality in CAPS?",
+      "options": [
+        "A: Delay in starting anticoagulation",
+        "B: Corticosteroid use",
+        "C: Direct oral anticoagulant use",
+        "D: Systemic lupus erythematosus",
+        "E: Triple therapy (anticoagulation, corticosteroids and IVIg)"
+      ],
+      "correct": 1,
+      "explanation": "Delay in starting anticoagulation, direct oral anticoagulant use (DOACs are inferior to warfarin in this setting), and underlying systemic lupus erythematosus are all associated with worse CAPS outcomes, and triple therapy without adequate anticoagulation control does not offset this. Corticosteroid use, as part of standard triple therapy, is not itself a driver of increased morbidity or mortality."
+    },
+    {
+      "id": "heme1_fa14",
+      "module": "Hematological Emergencies I",
+      "type": "A",
+      "source": "esicm_final_assessment",
+      "section": "CAPS",
+      "question": "Which of the following statements about CAPS is true?",
+      "options": [
+        "A: Gastrointestinal manifestations are commonest",
+        "B: Rheumatoid arthritis is the commonest disease associated with secondary CAPS",
+        "C: Renal involvement is most common",
+        "D: Triple therapy consists of steroids, plasmapheresis and rituximab",
+        "E: It's a benign condition with negligible mortality"
+      ],
+      "correct": 2,
+      "explanation": "Renal involvement is the most common organ manifestation in CAPS, followed by pulmonary, cerebral, cardiac, and cutaneous involvement. Systemic lupus erythematosus, not rheumatoid arthritis, is the disease most classically associated with secondary CAPS; standard triple therapy is anticoagulation, corticosteroids, and plasma exchange and/or IVIg (not rituximab); and CAPS carries a high, not negligible, mortality."
+    },
+    {
+      "id": "heme1_fa15",
+      "module": "Hematological Emergencies I",
+      "type": "A",
+      "source": "esicm_final_assessment",
+      "section": "CAPS",
+      "question": "CAPS is associated with:",
+      "options": [
+        "A: Microvascular thrombosis only",
+        "B: Micro and macrovascular thrombosis (predominantly microvascular)",
+        "C: Micro and macrovascular thrombosis (predominantly macrovascular)",
+        "D: Microvascular thrombosis only",
+        "E: Increased anticoagulation"
+      ],
+      "correct": 1,
+      "explanation": "CAPS is characterised predominantly by microvascular (small-vessel) thrombosis, though larger-vessel thrombosis can also occur alongside it - it is not purely microvascular, and 'increased anticoagulation' is a treatment consideration, not a disease association. (Options A and D are identical in the original source material - not an omission on the transcription side.)"
+    },
+    {
+      "id": "heme1_fa16",
+      "module": "Hematological Emergencies I",
+      "type": "A",
+      "source": "esicm_final_assessment",
+      "section": "CAPS",
+      "question": "Mortality in CAPS is most commonly due to:",
+      "options": [
+        "A: Stroke",
+        "B: Haemorrhagic complications",
+        "C: Mesenteric thrombosis",
+        "D: Infections secondary to treatment-related immunosuppression",
+        "E: Multi-organ failure"
+      ],
+      "correct": 0,
+      "explanation": "Despite the widespread thrombotic burden of CAPS, mortality is most commonly attributable to cerebral involvement, particularly stroke, rather than to haemorrhage, mesenteric thrombosis, infection, or multi-organ failure considered in isolation."
+    },
+    {
+      "id": "heme1_fa17",
+      "module": "Hematological Emergencies I",
+      "type": "A",
+      "source": "esicm_final_assessment",
+      "section": "Antiphospholipid antibodies",
+      "question": "Regarding antiphospholipid antibodies, which of the following statements is true?",
+      "options": [
+        "A: Antiphospholipid antibodies are always pathological",
+        "B: Confirmation with positive titres is recommended prior to starting therapy",
+        "C: Antiphospholipid titres remain elevated during acute thrombotic events",
+        "D: Lupus anticoagulant prolongs APTT in vitro",
+        "E: When in ICU, mortality approaches 100%"
+      ],
+      "correct": 3,
+      "explanation": "Lupus anticoagulant is detected by its paradoxical in vitro effect of prolonging phospholipid-dependent clotting assays such as the APTT, despite being pro-thrombotic in vivo. Antiphospholipid antibodies are not always pathological and can appear transiently (e.g. with infection); diagnostic confirmation requires two positive results at least 12 weeks apart, not simply one test before starting therapy; titres are not reliably persistently elevated during acute events, so they are not used as a real-time activity marker; and while ICU mortality with antiphospholipid-related disease is high, it does not approach 100%."
+    },
+    {
+      "id": "heme1_fa18",
+      "module": "Hematological Emergencies I",
+      "type": "A",
+      "source": "esicm_final_assessment",
+      "section": "CAPS",
+      "question": "Which of the following statements regarding CAPS is false?",
+      "options": [
+        "A: CAPS does not require a prior diagnosis of APS",
+        "B: CAPS mortality is >80%",
+        "C: CAPS affects 1% APS",
+        "D: CAPS is associated with more macrovascular complications than APS",
+        "E: CAPS causes widespread small vessel thrombosis"
+      ],
+      "correct": 1,
+      "explanation": "CAPS can occur without a prior diagnosis of antiphospholipid syndrome (it may be the presenting event), affects roughly 1% of patients with antiphospholipid syndrome, and is characterised by widespread small-vessel (microvascular) thrombosis rather than being defined by macrovascular disease. Reported mortality is high - historically around 50%, with more recent registry data around 30-40% with triple therapy - but does not reach above 80%, making that the false statement."
+    },
+    {
+      "id": "heme1_fa19",
+      "module": "Hematological Emergencies I",
+      "type": "A",
+      "source": "esicm_final_assessment",
+      "section": "CAPS",
+      "question": "Which one of the following is part of the definite CAPS criteria?",
+      "options": [
+        "A: Development of manifestations simultaneously or in less than a week",
+        "B: Laboratory confirmation of triple antiphospholipid antibody positivity at presentation",
+        "C: Evidence of involvement of two or more organs, systems, and/or tissues",
+        "D: Histopathological confirmation of medium and large vessel occlusion in >1 organ/tissues",
+        "E: Positive bone marrow aspirate for antiphospholipid antibodies"
+      ],
+      "correct": 0,
+      "explanation": "Definite CAPS requires all four criteria: involvement of three or more organs/systems/tissues (not two), development of manifestations simultaneously or in under a week, histopathological confirmation of SMALL (not medium/large) vessel occlusion in at least one organ or tissue, and laboratory confirmation of antiphospholipid antibodies (lupus anticoagulant and/or anticardiolipin and/or anti-beta-2-glycoprotein-I) - triple positivity and bone marrow aspirate are not part of the criteria."
+    },
+    {
+      "id": "heme1_fa20",
+      "module": "Hematological Emergencies I",
+      "type": "A",
+      "source": "esicm_final_assessment",
+      "section": "CAPS",
+      "question": "Regarding the management of CAPS:",
+      "options": [
+        "A: DOACs have been shown to be inferior to warfarin anticoagulation (TRAPS trial)",
+        "B: Cyclophosphamide is indicated in refractory primary CAPS",
+        "C: All patients should be established on antiplatelet therapy",
+        "D: APTT should be used to guide heparin therapy",
+        "E: A 'wait-and-see' approach is best"
+      ],
+      "correct": 0,
+      "explanation": "The TRAPS trial found direct oral anticoagulants inferior to warfarin for thrombotic antiphospholipid syndrome, so warfarin remains the anticoagulant of choice. Cyclophosphamide is reserved mainly for CAPS secondary to an underlying autoimmune disease such as lupus, not routinely for refractory primary CAPS; antiplatelet therapy is not a required addition for all patients; APTT-guided heparin dosing is unreliable in the presence of lupus anticoagulant, which itself prolongs the APTT; and given the high mortality, a 'wait-and-see' approach is inappropriate - prompt triple therapy is required."
+    }
+  ]
+}
