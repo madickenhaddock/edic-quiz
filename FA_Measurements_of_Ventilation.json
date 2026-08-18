@@ -1,139 +1,139 @@
 {
-  "module": "Measurements of Ventilation",
-  "sections": {},
-  "questions": [
+ "module": "Measurements of Ventilation",
+ "sections": {},
+ "questions": [
+  {
+   "id": "movent_fa01",
+   "module": "Measurements of Ventilation",
+   "type": "K",
+   "source": "esicm_final_assessment",
+   "section": "Pressure control ventilation",
+   "question": "Regarding pressure control ventilation:",
+   "statements": [
     {
-      "id": "movent_fa01",
-      "module": "Measurements of Ventilation",
-      "type": "K",
-      "source": "esicm_final_assessment",
-      "section": "Pressure control ventilation",
-      "question": "Regarding pressure control ventilation:",
-      "statements": [
-        {
-          "label": "A",
-          "text": "During pressure control ventilation, decreasing the respiratory system resistance results in an increase in peak inspiratory flow",
-          "correct": true
-        },
-        {
-          "label": "B",
-          "text": "During pressure control ventilation, decreasing the respiratory system compliance results in an increase in peak inspiratory flow",
-          "correct": false
-        },
-        {
-          "label": "C",
-          "text": "During pressure control ventilation, increasing the respiratory system compliance results in an increase in peak inspiratory flow",
-          "correct": true
-        },
-        {
-          "label": "D",
-          "text": "During pressure control ventilation, decreasing the respiratory system compliance, zero value of inspiratory flow is achieved earlier",
-          "correct": true
-        }
-      ],
-      "explanation": "In pressure control mode, the independent variable is pressure, and the dependent variables are flow and volume - because the instant flow depends on the mechanical properties of the respiratory system, the flow waveform can provide information on these properties. Increasing resistance depresses and flattens the inspiratory flow. Decreasing compliance decreases peak flow and shortens the time of inspiratory flow (the lower the compliance, or the higher the elastance, the faster the component VT*E reaches the set value of Paw, so flow reaches zero sooner)."
+     "label": "A",
+     "text": "During pressure control ventilation, decreasing the respiratory system resistance results in an increase in peak inspiratory flow",
+     "correct": true
     },
     {
-      "id": "movent_fa02",
-      "module": "Measurements of Ventilation",
-      "type": "A",
-      "source": "esicm_final_assessment",
-      "section": "Auto-PEEP management",
-      "question": "You are ventilating an asthmatic patient with a tidal volume of 450 ml, a breath rate of 18, an external positive end-expiratory pressure (PEEP) of 0, and an inspiration to expiration (I:E) ratio of 1:3.5. Airway pressures start to rise and an end-expiratory hold reveals an intrinsic PEEP of 14. Which of the following may not help?",
-      "options": [
-        "A: Increase external PEEP to 5 cmH2O",
-        "B: Lengthen I:E ratio to 1:5",
-        "C: Reduce rate to 10",
-        "D: Reduce tidal volume to 350 ml",
-        "E: Administer nebulised salbutamol"
-      ],
-      "correct": 1,
-      "explanation": "The most likely cause of increased intrinsic PEEP is bronchospasm leading to expiratory flow limitation and air trapping. Because of this expiratory flow limitation, further lengthening of the I:E ratio (beyond 1:3.5) may not be as helpful as measures such as increasing external PEEP, reducing tidal volume, reducing breath rate, or administering bronchodilators, which are the definitive treatment in bronchial asthma."
+     "label": "B",
+     "text": "During pressure control ventilation, decreasing the respiratory system compliance results in an increase in peak inspiratory flow",
+     "correct": false
     },
     {
-      "id": "movent_fa03",
-      "module": "Measurements of Ventilation",
-      "type": "A",
-      "source": "esicm_final_assessment",
-      "section": "Lung recruitment maneuvers",
-      "question": "Which of the following statements regarding recruitment maneuvers is wrong?",
-      "options": [
-        "A: They should not be performed in obese patients.",
-        "B: Prone positioning can be viewed as a gentle recruitment maneuver.",
-        "C: They may improve oxygenation.",
-        "D: They may lead to hemodynamic compromise.",
-        "E: They should always be followed by setting appropriate positive end-expiratory pressure (PEEP) to maintain their effect."
-      ],
-      "correct": 0,
-      "explanation": "Recruitment maneuvers are indicated in obese patients right after intubation to improve oxygenation, so the claim that they should not be performed in obese patients is the wrong statement. The remaining statements are correct: prone positioning is itself a gentle recruitment maneuver, recruitment maneuvers may improve oxygenation, may cause hemodynamic compromise, and their benefit is only maintained if followed by appropriate PEEP."
+     "label": "C",
+     "text": "During pressure control ventilation, increasing the respiratory system compliance results in an increase in peak inspiratory flow",
+     "correct": true
     },
     {
-      "id": "movent_fa04",
-      "module": "Measurements of Ventilation",
-      "type": "A",
-      "source": "esicm_final_assessment",
-      "section": "PEEP titration",
-      "question": "Which of the following statements regarding setting of external positive end-expiratory pressure (PEEP) may not be correct?",
-      "options": [
-        "A: Optimal PEEP depends on lung recruitability.",
-        "B: Optimal PEEP depends on oxygenation.",
-        "C: Optimal PEEP may differ in the same patient depending on time since intubation.",
-        "D: Optimal PEEP may differ in the same patient depending on position of the patient (prone versus supine).",
-        "E: All above statements are correct."
-      ],
-      "correct": 1,
-      "explanation": "The greater the lung recruitability, the higher the optimal PEEP level - but oxygenation is not a reliable surrogate of lung recruitability, so PEEP setting should not be based on oxygenation alone. As time since intubation increases, lung recruitability tends to reduce, so lower PEEP may be needed; turning a patient from supine to prone may also change recruitability and require PEEP adjustment."
-    },
-    {
-      "id": "movent_fa05",
-      "module": "Measurements of Ventilation",
-      "type": "A",
-      "source": "esicm_final_assessment",
-      "section": "Pressure control ventilation",
-      "question": "In pressure control (PC) ventilation, peak inspiratory flow decreases when:",
-      "options": [
-        "A: Intrinsic PEEP increases.",
-        "B: Resistance decreases.",
-        "C: Set inspiratory pressure increases.",
-        "D: Driving pressure increases.",
-        "E: Elastance decreases."
-      ],
-      "correct": 0,
-      "explanation": "Peak inspiratory flow depends on two factors: the pressure gradient driving flow and the inspiratory resistance. Peak flow = (set Ppeak - total PEEP) / inspiratory resistance. Accordingly, an increase in intrinsic PEEP reduces this driving gradient and results in a decrease in inspiratory flow."
-    },
-    {
-      "id": "movent_fa06",
-      "module": "Measurements of Ventilation",
-      "type": "A",
-      "source": "esicm_final_assessment",
-      "section": "Stress index",
-      "question": "If the stress index in volume control (VC) ventilation is:",
-      "options": [
-        "A: < 1, the tidal volume could be increased.",
-        "B: < 1, PEEP should be increased.",
-        "C: > 1, the tidal volume should be decreased.",
-        "D: > 1, PEEP should be decreased.",
-        "E: All of the statements are correct."
-      ],
-      "correct": 4,
-      "explanation": "A linear increase in pressure (constant compliance, stress index = 1) suggests adequate alveolar recruitment without over-distension. If compliance worsens as the lungs are inflated (progressive decrease in compliance, upward concavity, stress index > 1), this suggests over-distension, and the recommendation is to decrease PEEP, tidal volume, or both. If compliance improves as the lungs are inflated (progressive increase in compliance, downward concavity, stress index < 1), this suggests tidal recruitment and potential for further recruitment, and the recommendation is to increase PEEP (or tidal volume)."
-    },
-    {
-      "id": "movent_fa07",
-      "module": "Measurements of Ventilation",
-      "type": "A",
-      "source": "esicm_final_assessment",
-      "section": "End-inspiratory occlusion",
-      "question": "When performing an end-inspiratory occlusion, all are true except:",
-      "options": [
-        "A: A positive pressure swing occurs in the case of an expiratory effort.",
-        "B: The plateau pressure can be measured between two swings.",
-        "C: A negative pressure swing occurs in the case of an inspiratory effort.",
-        "D: The plateau pressure is stable if the patient is fully relaxed and there is no leak.",
-        "E: A gradual decrease of pressure indicates a leak."
-      ],
-      "correct": 1,
-      "explanation": "The plateau pressure is not stable in the presence of patient effort, which shows up as a negative or positive pressure swing with contraction of inspiratory or expiratory muscles respectively - so a reliable plateau cannot be 'measured between two swings', making that statement the false one. A gradual decrease of pressure during the occlusion indicates a leak, such as from the ventilator circuit or a bronchopleural fistula. A stable plateau requires a fully relaxed patient and no leak."
+     "label": "D",
+     "text": "During pressure control ventilation, decreasing the respiratory system compliance, zero value of inspiratory flow is achieved earlier",
+     "correct": true
     }
-  ]
+   ],
+   "explanation": "In pressure control mode, the independent variable is pressure, and the dependent variables are flow and volume - because the instant flow depends on the mechanical properties of the respiratory system, the flow waveform can provide information on these properties. Increasing resistance depresses and flattens the inspiratory flow. Decreasing compliance decreases peak flow and shortens the time of inspiratory flow (the lower the compliance, or the higher the elastance, the faster the component VT*E reaches the set value of Paw, so flow reaches zero sooner)."
+  },
+  {
+   "id": "movent_fa02",
+   "module": "Measurements of Ventilation",
+   "type": "A",
+   "source": "esicm_final_assessment",
+   "section": "Auto-PEEP management",
+   "question": "You are ventilating an asthmatic patient with a tidal volume of 450 ml, a breath rate of 18, an external positive end-expiratory pressure (PEEP) of 0, and an inspiration to expiration (I:E) ratio of 1:3.5. Airway pressures start to rise and an end-expiratory hold reveals an intrinsic PEEP of 14. Which of the following may not help?",
+   "options": [
+    "Increase external PEEP to 5 cmH2O",
+    "Lengthen I:E ratio to 1:5",
+    "Reduce rate to 10",
+    "Reduce tidal volume to 350 ml",
+    "Administer nebulised salbutamol"
+   ],
+   "correct": 1,
+   "explanation": "The most likely cause of increased intrinsic PEEP is bronchospasm leading to expiratory flow limitation and air trapping. Because of this expiratory flow limitation, further lengthening of the I:E ratio (beyond 1:3.5) may not be as helpful as measures such as increasing external PEEP, reducing tidal volume, reducing breath rate, or administering bronchodilators, which are the definitive treatment in bronchial asthma."
+  },
+  {
+   "id": "movent_fa03",
+   "module": "Measurements of Ventilation",
+   "type": "A",
+   "source": "esicm_final_assessment",
+   "section": "Lung recruitment maneuvers",
+   "question": "Which of the following statements regarding recruitment maneuvers is wrong?",
+   "options": [
+    "They should not be performed in obese patients.",
+    "Prone positioning can be viewed as a gentle recruitment maneuver.",
+    "They may improve oxygenation.",
+    "They may lead to hemodynamic compromise.",
+    "They should always be followed by setting appropriate positive end-expiratory pressure (PEEP) to maintain their effect."
+   ],
+   "correct": 0,
+   "explanation": "Recruitment maneuvers are indicated in obese patients right after intubation to improve oxygenation, so the claim that they should not be performed in obese patients is the wrong statement. The remaining statements are correct: prone positioning is itself a gentle recruitment maneuver, recruitment maneuvers may improve oxygenation, may cause hemodynamic compromise, and their benefit is only maintained if followed by appropriate PEEP."
+  },
+  {
+   "id": "movent_fa04",
+   "module": "Measurements of Ventilation",
+   "type": "A",
+   "source": "esicm_final_assessment",
+   "section": "PEEP titration",
+   "question": "Which of the following statements regarding setting of external positive end-expiratory pressure (PEEP) may not be correct?",
+   "options": [
+    "Optimal PEEP depends on lung recruitability.",
+    "Optimal PEEP depends on oxygenation.",
+    "Optimal PEEP may differ in the same patient depending on time since intubation.",
+    "Optimal PEEP may differ in the same patient depending on position of the patient (prone versus supine).",
+    "All above statements are correct."
+   ],
+   "correct": 1,
+   "explanation": "The greater the lung recruitability, the higher the optimal PEEP level - but oxygenation is not a reliable surrogate of lung recruitability, so PEEP setting should not be based on oxygenation alone. As time since intubation increases, lung recruitability tends to reduce, so lower PEEP may be needed; turning a patient from supine to prone may also change recruitability and require PEEP adjustment."
+  },
+  {
+   "id": "movent_fa05",
+   "module": "Measurements of Ventilation",
+   "type": "A",
+   "source": "esicm_final_assessment",
+   "section": "Pressure control ventilation",
+   "question": "In pressure control (PC) ventilation, peak inspiratory flow decreases when:",
+   "options": [
+    "Intrinsic PEEP increases.",
+    "Resistance decreases.",
+    "Set inspiratory pressure increases.",
+    "Driving pressure increases.",
+    "Elastance decreases."
+   ],
+   "correct": 0,
+   "explanation": "Peak inspiratory flow depends on two factors: the pressure gradient driving flow and the inspiratory resistance. Peak flow = (set Ppeak - total PEEP) / inspiratory resistance. Accordingly, an increase in intrinsic PEEP reduces this driving gradient and results in a decrease in inspiratory flow."
+  },
+  {
+   "id": "movent_fa06",
+   "module": "Measurements of Ventilation",
+   "type": "A",
+   "source": "esicm_final_assessment",
+   "section": "Stress index",
+   "question": "If the stress index in volume control (VC) ventilation is:",
+   "options": [
+    "< 1, the tidal volume could be increased.",
+    "< 1, PEEP should be increased.",
+    "> 1, the tidal volume should be decreased.",
+    "> 1, PEEP should be decreased.",
+    "All of the statements are correct."
+   ],
+   "correct": 4,
+   "explanation": "A linear increase in pressure (constant compliance, stress index = 1) suggests adequate alveolar recruitment without over-distension. If compliance worsens as the lungs are inflated (progressive decrease in compliance, upward concavity, stress index > 1), this suggests over-distension, and the recommendation is to decrease PEEP, tidal volume, or both. If compliance improves as the lungs are inflated (progressive increase in compliance, downward concavity, stress index < 1), this suggests tidal recruitment and potential for further recruitment, and the recommendation is to increase PEEP (or tidal volume)."
+  },
+  {
+   "id": "movent_fa07",
+   "module": "Measurements of Ventilation",
+   "type": "A",
+   "source": "esicm_final_assessment",
+   "section": "End-inspiratory occlusion",
+   "question": "When performing an end-inspiratory occlusion, all are true except:",
+   "options": [
+    "A positive pressure swing occurs in the case of an expiratory effort.",
+    "The plateau pressure can be measured between two swings.",
+    "A negative pressure swing occurs in the case of an inspiratory effort.",
+    "The plateau pressure is stable if the patient is fully relaxed and there is no leak.",
+    "A gradual decrease of pressure indicates a leak."
+   ],
+   "correct": 1,
+   "explanation": "The plateau pressure is not stable in the presence of patient effort, which shows up as a negative or positive pressure swing with contraction of inspiratory or expiratory muscles respectively - so a reliable plateau cannot be 'measured between two swings', making that statement the false one. A gradual decrease of pressure during the occlusion indicates a leak, such as from the ventilator circuit or a bronchopleural fistula. A stable plateau requires a fully relaxed patient and no leak."
+  }
+ ]
 }

@@ -1,684 +1,684 @@
 {
-  "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-  "sections": {},
-  "questions": [
+ "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+ "sections": {},
+ "questions": [
+  {
+   "id": "pkpd_fa01",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "K",
+   "source": "esicm_final_assessment",
+   "section": "PK/PD indices",
+   "question": "The graph below shows a typical serum concentration-time curve for an antibiotic, with three labelled regions (1, 2, 3) relative to the MIC. Which of the following statements about the graph are correct?",
+   "statements": [
     {
-      "id": "pkpd_fa01",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "K",
-      "source": "esicm_final_assessment",
-      "section": "PK/PD indices",
-      "question": "The graph below shows a typical serum concentration-time curve for an antibiotic, with three labelled regions (1, 2, 3) relative to the MIC. Which of the following statements about the graph are correct?",
-      "statements": [
-        {
-          "label": "A",
-          "text": "Region 1 corresponds to the Cmax:MIC ratio",
-          "correct": true
-        },
-        {
-          "label": "B",
-          "text": "Region 2 corresponds to the Cmax:MIC ratio",
-          "correct": false
-        },
-        {
-          "label": "C",
-          "text": "Region 3 corresponds to the percentage of time the free drug concentration remains above the MIC (T>MIC)",
-          "correct": true
-        },
-        {
-          "label": "D",
-          "text": "Region 2 corresponds to the AUC:MIC ratio",
-          "correct": true
-        },
-        {
-          "label": "E",
-          "text": "Region 2 could correspond to both the AUC:MIC ratio and the Cmax:MIC ratio",
-          "correct": false
-        }
-      ],
-      "explanation": "Each area of the curve maps onto exactly one PK/PD index. The peak height above the MIC line (region 1) reflects Cmax:MIC. The shaded area under the curve above the MIC line (region 2) reflects AUC:MIC. The portion of the dosing interval during which concentration stays above the MIC (region 3) reflects T>MIC. The three indices are distinct and do not overlap.",
-      "image": "images/pkpd_fa01.png"
+     "label": "A",
+     "text": "Region 1 corresponds to the Cmax:MIC ratio",
+     "correct": true
     },
     {
-      "id": "pkpd_fa02",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "K",
-      "source": "esicm_final_assessment",
-      "section": "Colistin",
-      "question": "Regarding colistin:",
-      "statements": [
-        {
-          "label": "A",
-          "text": "It is not absorbed through the oral mucosa or gastrointestinal tract",
-          "correct": true
-        },
-        {
-          "label": "B",
-          "text": "It has been reported to have very high protein binding",
-          "correct": true
-        },
-        {
-          "label": "C",
-          "text": "It has no post-antibiotic effect (PAE)",
-          "correct": false
-        },
-        {
-          "label": "D",
-          "text": "It has questionable clinical efficacy when inhaled and should therefore not be used",
-          "correct": false
-        }
-      ],
-      "explanation": "Colistin (sulfate) is not usefully absorbed from the GI tract, which is why oral/enteral colistin is used only for bowel decontamination rather than systemic infection - parenteral treatment instead requires colistin methanesulfonate (CMS). Reported protein binding is around 59-90%. Colistin shows a modest post-antibiotic effect at high concentrations against P. aeruginosa, and killing correlates best with fAUC/MIC. Despite poor lung distribution, published data support adding CMS aerosol delivery to IV therapy for pulmonary infections in critically ill patients, so inhalation is not without a role. (Falagas, Kasiakou & Saravolatz, Clin Infect Dis 2005;40(9):1333-1341)"
+     "label": "B",
+     "text": "Region 2 corresponds to the Cmax:MIC ratio",
+     "correct": false
     },
     {
-      "id": "pkpd_fa03",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "K",
-      "source": "esicm_final_assessment",
-      "section": "Aminoglycosides",
-      "question": "Regarding aminoglycoside antibiotics:",
-      "statements": [
-        {
-          "label": "A",
-          "text": "They should be subject to therapeutic drug monitoring because high peak levels correlate with toxicity",
-          "correct": false
-        },
-        {
-          "label": "B",
-          "text": "They are bacteriostatic",
-          "correct": false
-        },
-        {
-          "label": "C",
-          "text": "They display a post-antibiotic effect (PAE), whereby antibacterial activity persists when drug concentrations fall below the MIC",
-          "correct": true
-        },
-        {
-          "label": "D",
-          "text": "Dosing is optimised by extending dosing intervals",
-          "correct": true
-        }
-      ],
-      "explanation": "Aminoglycosides are bactericidal, not bacteriostatic, with concentration-dependent killing (a Cmax:MIC of at least 10 predicts clinical success) and a PAE that persists even once concentrations fall below the MIC - properties that together support extended-interval (once-daily) dosing. Toxicity monitoring is still essential, but it is high trough concentrations, not high peak concentrations, that correlate with nephro- and ototoxicity; peak levels correlate with efficacy. (Peck, Hill & Williams, Pharmacology for Anaesthesia and Intensive Care, 2nd ed., 2006, pp. 311-35)"
+     "label": "C",
+     "text": "Region 3 corresponds to the percentage of time the free drug concentration remains above the MIC (T>MIC)",
+     "correct": true
     },
     {
-      "id": "pkpd_fa04",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "K",
-      "source": "esicm_final_assessment",
-      "section": "Minimal inhibitory concentration",
-      "question": "Regarding minimal inhibitory concentration (MIC):",
-      "statements": [
-        {
-          "label": "A",
-          "text": "It is defined as the lowest antimicrobial concentration that inhibits microbial growth in vivo",
-          "correct": false
-        },
-        {
-          "label": "B",
-          "text": "It is a measure of antibiotic potency against a specific bacteria",
-          "correct": true
-        },
-        {
-          "label": "C",
-          "text": "Drug concentrations above the MIC ensure that the antibiotic is effective",
-          "correct": false
-        },
-        {
-          "label": "D",
-          "text": "Breakpoints discriminate between susceptible and resistant bacteria for a given antibiotic",
-          "correct": true
-        }
-      ],
-      "explanation": "MIC is defined using artificial media under fixed incubation conditions, not in vivo, so it does not mimic physiological conditions or guarantee clinical effectiveness on its own; concentrations above the MIC are necessary but not sufficient for effect, since adequate PK exposure, immune status and source control also matter. Breakpoints (largely harmonised across Europe via EUCAST) are the concentrations used to classify an isolate as susceptible, intermediate or resistant to a given agent."
+     "label": "D",
+     "text": "Region 2 corresponds to the AUC:MIC ratio",
+     "correct": true
     },
     {
-      "id": "pkpd_fa05",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "K",
-      "source": "esicm_final_assessment",
-      "section": "PD indices",
-      "question": "Major pharmacodynamic (PD) indices for antimicrobials include:",
-      "statements": [
-        {
-          "label": "A",
-          "text": "The percentage of time that free drug remains above the MIC over a 24-hour period (T>MIC)",
-          "correct": true
-        },
-        {
-          "label": "B",
-          "text": "The ratio of free drug area under the concentration-time curve to MIC over a 24-hour period (AUC:MIC)",
-          "correct": true
-        },
-        {
-          "label": "C",
-          "text": "The ratio of maximum concentration to MIC (Cmax:MIC)",
-          "correct": true
-        },
-        {
-          "label": "D",
-          "text": "The percentage of time that free drug remains above a multiple of the MIC (fT>4xMIC)",
-          "correct": false
-        },
-        {
-          "label": "E",
-          "text": "The minimum free drug concentration to MIC ratio (Cmin:MIC)",
-          "correct": false
-        }
-      ],
-      "explanation": "T>MIC, AUC:MIC and Cmax:MIC are the three PD indices with the strongest evidence linking antimicrobial exposure to efficacy. Alternative indices such as fT>4xMIC or Cmin:MIC have been proposed but are far less supported by evidence. (Onufrak et al., Clin Ther 2016;38(9):1930-1947)"
-    },
-    {
-      "id": "pkpd_fa06",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "K",
-      "source": "esicm_final_assessment",
-      "section": "Pharmacodynamics - general",
-      "question": "Regarding pharmacodynamics (PD) of antibiotics:",
-      "statements": [
-        {
-          "label": "A",
-          "text": "For beta-lactams, increasing drug concentrations has major effects on the extent of bacterial killing",
-          "correct": false
-        },
-        {
-          "label": "B",
-          "text": "The MIC provides no information regarding the time course of the antimicrobial effect",
-          "correct": true
-        },
-        {
-          "label": "C",
-          "text": "PD targets have been extensively studied in a considerable number of clinical studies",
-          "correct": false
-        },
-        {
-          "label": "D",
-          "text": "Adjusting antibiotic dosage to a PK/PD target has been reported to improve clinical and microbiologic outcomes",
-          "correct": true
-        }
-      ],
-      "explanation": "Beta-lactams are concentration-independent (\"time-dependent\") killers, so raising the concentration further does little to increase the extent of killing once it is above the MIC - what matters is the time spent above MIC. The MIC itself is a static endpoint from a fixed incubation period and says nothing about the rate or time-course of killing. Clinical outcome data linking PK/PD targets to outcomes are comparatively sparse, but the studies that exist do suggest benefit from dosing adjusted to PK/PD targets."
-    },
-    {
-      "id": "pkpd_fa07",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "K",
-      "source": "esicm_final_assessment",
-      "section": "Hydrophilic agents",
-      "question": "Regarding hydrophilic antimicrobial agents:",
-      "statements": [
-        {
-          "label": "A",
-          "text": "They have a limited tissue distribution, normally restricted to the extracellular space",
-          "correct": true
-        },
-        {
-          "label": "B",
-          "text": "Their elimination is only slightly impaired by renal dysfunction compared with lipophilic agents",
-          "correct": false
-        },
-        {
-          "label": "C",
-          "text": "Macrolides are an example of hydrophilic agents",
-          "correct": false
-        },
-        {
-          "label": "D",
-          "text": "They have substantial hepatic clearance",
-          "correct": false
-        }
-      ],
-      "explanation": "Hydrophilic agents (beta-lactams, aminoglycosides, glycopeptides, linezolid) stay largely in the extracellular space and are predominantly renally cleared, so renal dysfunction affects their elimination considerably - more so, not less, than for lipophilic agents, which rely more on hepatic metabolism. Macrolides are lipophilic, not hydrophilic. In sepsis, capillary leak and third-spacing increase the volume of distribution for hydrophilic drugs, which can lower plasma and tissue concentrations and is a reason to increase, not decrease, the dose."
-    },
-    {
-      "id": "pkpd_fa08",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "A",
-      "source": "esicm_final_assessment",
-      "section": "MRSA pneumonia",
-      "question": "A 55-year-old man is admitted to the ICU after presenting a week earlier with flu-like symptoms. He is diagnosed with community-acquired pneumonia; CT chest shows a diffuse ground-glass appearance of the lung parenchyma with bilateral cavitations. Empirical therapy for methicillin-resistant Staphylococcus aureus (MRSA) is started while sputum and blood culture results are awaited. How should antibiotic treatment be guided in this patient?",
-      "options": [
-        "A: If the MIC for vancomycin is >2 mcg/mL, daptomycin should be used",
-        "B: Empirical MRSA coverage should continue even if cultures come back negative",
-        "C: Linezolid is preferred over vancomycin due to a lower mortality rate",
-        "D: In patients with good renal function, vancomycin once daily is the optimal pharmacokinetic profile",
-        "E: The target vancomycin trough concentration is 15-20 mcg/mL"
-      ],
-      "correct": 4,
-      "explanation": "Vancomycin penetrates lung tissue poorly, and the exposure parameter that best predicts efficacy is AUC:MIC - an AUC:MIC >400 is associated with improved clinical and microbiological cure for staphylococcal pneumonia, which corresponds to a trough target of 15-20 mcg/mL. Daptomycin is inactivated by pulmonary surfactant and must not be used for pneumonia regardless of vancomycin MIC. Linezolid and vancomycin have shown comparable cure rates for community-acquired MRSA pneumonia (linezolid has a specific advantage in nosocomial pneumonia per the Zephyr study). There is no recommendation to continue empirical MRSA cover once cultures return negative and the organism is not isolated. With preserved renal function, 12-hourly dosing - not once daily - is generally the optimal PK/PD profile, though some evidence supports 2 g once daily as satisfactory. (Chastre et al., Clin Microbiol Infect 2014;20(Suppl 4):19-36; Carballo et al., Farm Hosp 2017;41(2):187-203)"
-    },
-    {
-      "id": "pkpd_fa09",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "K",
-      "source": "esicm_final_assessment",
-      "section": "Meropenem",
-      "question": "Regarding meropenem:",
-      "statements": [
-        {
-          "label": "A",
-          "text": "It has a spectrum that does not cover anaerobes",
-          "correct": false
-        },
-        {
-          "label": "B",
-          "text": "It is a beta-lactam antibiotic",
-          "correct": true
-        },
-        {
-          "label": "C",
-          "text": "It is absolutely contraindicated in patients with a penicillin allergy",
-          "correct": false
-        },
-        {
-          "label": "D",
-          "text": "It can be used as a continuous or extended infusion in septic patients",
-          "correct": true
-        }
-      ],
-      "explanation": "Meropenem is a carbapenem (a beta-lactam) with one of the broadest spectrums of any antibacterial, covering Gram-positive, Gram-negative and anaerobic organisms (though not MRSA or Enterococcus faecium, and some Pseudomonas strains are meropenem-resistant). Cross-sensitivity with penicillin is possible but not absolute - a patient with a history of a mild reaction such as rash should not automatically be excluded from meropenem if it is strongly indicated. Being relatively time-dependent in its killing (a T>MIC of at least 40% is needed), PK/PD targets for meropenem are better achieved with extended or continuous infusion, and dosing requires reduction as glomerular filtration falls, including in renal replacement therapy. (Peck, Hill & Williams, Pharmacology for Anaesthesia and Intensive Care, 2nd ed., 2006, p. 311; Thirunavakkarasu & Lynch, Anaesthesia Tutorial of the Week 2010;168)"
-    },
-    {
-      "id": "pkpd_fa10",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "A",
-      "source": "esicm_final_assessment",
-      "section": "Pharmacokinetics - general",
-      "question": "Which of the following statements regarding antibiotic pharmacokinetics is INCORRECT?",
-      "options": [
-        "A: In simple PK models, volume of distribution (Vd) is a constant that relates the dose administered to the plasma concentration at time zero",
-        "B: Drugs absorbed from the buccal mucosa are subject to first-pass metabolism",
-        "C: The time constant corresponds to a reduction in concentration to 37% of the original value",
-        "D: A large elimination rate constant (k) produces a short elimination half-life (t1/2)",
-        "E: Tetracycline bioavailability is reduced by milk intake"
-      ],
-      "correct": 1,
-      "explanation": "Unlike gastrointestinal absorption, buccal (and rectal) mucosal absorption drains directly into the systemic circulation and bypasses first-pass hepatic metabolism, which makes the claim that buccal absorption undergoes first-pass metabolism the incorrect one. The remaining statements are accurate: Vd = dose/C0 in simple models; the time constant is the time for concentration to fall to 37% of its previous value (with about 95% of a process complete after 3 time-constants); half-life is inversely related to the elimination rate constant (t1/2 = 0.693/k); and calcium in milk chelates tetracycline, reducing its bioavailability. (Peck, Hill & Williams, Pharmacology for Anaesthesia and Intensive Care, 3rd ed., 2008)"
-    },
-    {
-      "id": "pkpd_pc1_sa01",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "A",
-      "source": "sba_generated",
-      "section": "Sepsis diagnostic approach",
-      "question": "A ventilated trauma patient (32 years old, day 5 post motorcycle accident with splenectomy and bowel/liver repair) develops a new fever of 40.1C, hypotension (75/40 mmHg) and oliguria, with purulent sputum, despite 5 days of amoxicillin-clavulanate. What is the most appropriate initial approach to this new presumed sepsis?",
-      "options": [
-        "A: Examine the patient to identify the likely source, obtain blood, sputum and any relevant drainage cultures and imaging, then start broad empirical therapy",
-        "B: Escalate the current amoxicillin-clavulanate dose and reassess in 24 hours",
-        "C: Switch directly to oral antibiotics once the patient is afebrile",
-        "D: Withhold antibiotics until all culture results are available",
-        "E: Treat empirically for fungal sepsis given the duration of ICU stay"
-      ],
-      "correct": 0,
-      "explanation": "New sepsis in a ventilated, post-traumatic ICU patient warrants a focused search for the source (examination plus relevant cultures and imaging) together with prompt empirical antimicrobial therapy; delaying therapy until cultures return, or simply escalating a narrower agent that has already been running for 5 days, would not adequately cover a new nosocomial process. There is no indication here to jump to empirical antifungal therapy or to de-escalate to oral treatment in an unstable patient."
-    },
-    {
-      "id": "pkpd_pc1_sa02",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "A",
-      "source": "sba_generated",
-      "section": "Empirical antibiotic selection",
-      "question": "For the same patient, empirical vancomycin plus levofloxacin plus piperacillin-tazobactam is started. What best explains this choice?",
-      "options": [
-        "A: The patient has no risk factors for resistant organisms, so triple therapy is used purely for broader initial coverage",
-        "B: Levofloxacin is added solely to treat possible urinary tract infection",
-        "C: Vancomycin is included because piperacillin-tazobactam has no gram-positive activity at all",
-        "D: The patient has risk factors for MDR organisms, so vancomycin covers MRSA while the combination provides double antipseudomonal cover",
-        "E: This regimen is chosen to specifically target anaerobic organisms from the bowel injury"
-      ],
-      "correct": 3,
-      "explanation": "Prolonged ICU stay, prior antibiotics, and trauma/surgery are risk factors for MDR pathogens. Per HAP/VAP guidance (IDSA/ATS 2016), that risk profile supports MRSA cover (vancomycin) plus two agents active against Pseudomonas from different classes (piperacillin-tazobactam and levofloxacin) rather than a single antipseudomonal agent. Piperacillin-tazobactam does have some gram-positive activity, but not reliably against MRSA, which is why vancomycin is added specifically for that indication."
-    },
-    {
-      "id": "pkpd_pc1_sa03",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "K",
-      "source": "sba_generated",
-      "section": "Vancomycin PK/PD",
-      "question": "Regarding intravenous vancomycin in this critically ill patient:",
-      "statements": [
-        {
-          "label": "A",
-          "text": "Rapid bolus administration of vancomycin can precipitate red-man syndrome, so a slower infusion is generally preferred",
-          "correct": true
-        },
-        {
-          "label": "B",
-          "text": "Vancomycin has low protein binding, so critical illness has little effect on its volume of distribution",
-          "correct": false
-        },
-        {
-          "label": "C",
-          "text": "Trough monitoring targeting 15-20 mg/L (aiming for an AUC:MIC of at least 400) is the standard approach to vancomycin therapeutic drug monitoring",
-          "correct": true
-        },
-        {
-          "label": "D",
-          "text": "In renal impairment, the vancomycin dose should be increased to compensate for reduced clearance",
-          "correct": false
-        }
-      ],
-      "explanation": "Vancomycin displays moderate protein binding, and the capillary leak and fluid shifts of critical illness can increase its volume of distribution, changing dosing requirements. Rapid IV administration risks red-man syndrome, a concentration-dependent reaction, so vancomycin is usually infused more slowly than a quick bolus. Trough monitoring at 15-20 mg/L, targeting an AUC:MIC of at least 400 for staphylococcal eradication, is standard; maintenance doses up to 30-40 mg/kg/day (or continuous infusion) may be needed in critically ill patients with increased Vd or clearance. In renal impairment, the dose should be reduced, not increased, and a random level rather than a trough is used to monitor toxicity risk."
-    },
-    {
-      "id": "pkpd_pc1_sa04",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "K",
-      "source": "sba_generated",
-      "section": "Fluoroquinolone PK/PD",
-      "question": "Regarding fluoroquinolone PK/PD in this scenario:",
-      "statements": [
-        {
-          "label": "A",
-          "text": "Fluoroquinolones are lipophilic, so fluid shifts in critically ill patients have minimal effect on their volume of distribution",
-          "correct": true
-        },
-        {
-          "label": "B",
-          "text": "Fluoroquinolones display purely concentration-independent (time-dependent) killing",
-          "correct": false
-        },
-        {
-          "label": "C",
-          "text": "A Cmax:MIC ratio of around 10 correlates with bacterial eradication",
-          "correct": true
-        },
-        {
-          "label": "D",
-          "text": "An AUC:MIC below 100 is associated with a lower risk of selecting for antimicrobial resistance",
-          "correct": false
-        }
-      ],
-      "explanation": "Fluoroquinolones are lipophilic antimicrobials, so unlike hydrophilic drugs, fluid shifts in critical illness have little effect on their volume of distribution. They show concentration-dependent killing, and in vitro data link a Cmax:MIC ratio of about 10 to bacterial eradication. Subtherapeutic exposure - defined as an AUC:MIC below 100 - has been associated with the emergence of resistance, so dosing aims to maximise exposure while minimising resistance development, the opposite of what a low AUC:MIC achieves."
-    },
-    {
-      "id": "pkpd_pc1_sa05",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "A",
-      "source": "sba_generated",
-      "section": "Antimicrobial resistance emergence",
-      "question": "The patient is de-escalated to piperacillin-tazobactam after cultures grow Enterobacter cloacae sensitive to third-generation cephalosporins, piperacillin-tazobactam, carbapenems and TMP/SMX. Seven days later he remains febrile, and repeat sputum cultures again grow E. cloacae, now resistant to all beta-lactams except meropenem. What is the most likely explanation, and the appropriate next step?",
-      "options": [
-        "A: Cross-contamination of the culture sample; repeat the culture and continue piperacillin-tazobactam",
-        "B: This represents a new hospital-acquired infection unrelated to the first; add an aminoglycoside to the existing regimen",
-        "C: Enterobacter cloacae has selected for high-level AmpC beta-lactamase production during beta-lactam therapy; stop piperacillin-tazobactam and start meropenem",
-        "D: The patient has developed an allergic reaction to piperacillin-tazobactam; switch to a fluoroquinolone alone",
-        "E: Laboratory error is the most likely explanation; no change in therapy is needed"
-      ],
-      "correct": 2,
-      "explanation": "Enterobacter cloacae can develop high-level inducible AmpC beta-lactamases during treatment, most often with cephalosporins and, to a lesser extent, piperacillin-tazobactam, leading to treatment failure even though the original isolate tested susceptible. For serious infections, carbapenems remain the most reliable agents against this resistance mechanism, which is why stopping piperacillin-tazobactam and starting meropenem is appropriate here - repeating the culture or assuming a new unrelated infection would miss this well-recognised resistance pattern."
-    },
-    {
-      "id": "pkpd_pc1_sa06",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "K",
-      "source": "sba_generated",
-      "section": "Antimicrobial selection factors",
-      "question": "Regarding factors that influence the choice of antimicrobial agent in a critically ill septic patient:",
-      "statements": [
-        {
-          "label": "A",
-          "text": "The causative organism's tendency to develop resistance during treatment (e.g. Pseudomonas species) is a relevant consideration",
-          "correct": true
-        },
-        {
-          "label": "B",
-          "text": "Aminoglycosides are a good choice for infections caused by strictly intracellular organisms such as Chlamydia or Coxiella burnetii",
-          "correct": false
-        },
-        {
-          "label": "C",
-          "text": "A history of prior antibiotic exposure and relevant comorbidities should inform empirical antibiotic choice",
-          "correct": true
-        },
-        {
-          "label": "D",
-          "text": "Renal or hepatic dysfunction is irrelevant to antimicrobial choice as long as the organism is susceptible in vitro",
-          "correct": false
-        }
-      ],
-      "explanation": "Choice of antimicrobial should account for the organism (susceptibility profile, PK/PD strategy needed, tendency to develop resistance on therapy, and whether it is an intracellular pathogen - aminoglycosides penetrate poorly into cells and are therefore poor choices for strictly intracellular organisms like Rickettsia, Chlamydia or Coxiella burnetii), the patient (current illness, allergies, prior antibiotic exposure, comorbidities, relevant social history), and organ function - renal or hepatic dysfunction can reduce elimination and increase toxicity risk regardless of in vitro susceptibility, and multiple organ dysfunction in sepsis is itself a relevant factor."
-    },
-    {
-      "id": "pkpd_pc1_sa07",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "K",
-      "source": "sba_generated",
-      "section": "Antimicrobial selection factors",
-      "question": "Continuing on factors relevant to antimicrobial selection:",
-      "statements": [
-        {
-          "label": "A",
-          "text": "Site of infection matters: hydrophilic drugs penetrate poorly into organs with non-fenestrated capillaries such as the brain or prostate",
-          "correct": true
-        },
-        {
-          "label": "B",
-          "text": "Daptomycin is a reasonable choice for pneumonia because it penetrates lung tissue well",
-          "correct": false
-        },
-        {
-          "label": "C",
-          "text": "Combining a beta-lactam with an aminoglycoside can produce a synergistic, but potentially also a noxious, interaction",
-          "correct": true
-        },
-        {
-          "label": "D",
-          "text": "Cost-effectiveness and local antibiotic stewardship policy are not relevant considerations once an organism is identified",
-          "correct": false
-        }
-      ],
-      "explanation": "Drug- and system-level factors matter alongside the organism and patient: penetration depends on site of infection (poor penetration of hydrophilic drugs into non-fenestrated-capillary organs like brain, prostate or eye; daptomycin specifically is inactivated by surfactant and should not be used for pneumonia; biliary/urinary infections favour agents with hepatic/urinary excretion such as ceftriaxone or cefotaxime). Beta-lactam/aminoglycoside combinations can be synergistic but also carry a noxious interaction risk. Toxicity profiles (aminoglycoside reno/ototoxicity, vancomycin nephrotoxicity, carbapenem neurotoxicity), local microbiology and resistance patterns, availability of therapeutic drug monitoring, presence of an antimicrobial stewardship team, route of administration, and cost-effectiveness are all legitimate parts of the decision - none become irrelevant just because an organism has been identified."
-    },
-    {
-      "id": "pkpd_pc1_sa08",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "K",
-      "source": "sba_generated",
-      "section": "Dose adjustment in critical illness",
-      "question": "Regarding dose adjustment of hydrophilic antibiotics (e.g. beta-lactams, aminoglycosides, vancomycin) in critically ill patients with pathophysiological changes:",
-      "statements": [
-        {
-          "label": "A",
-          "text": "Fluid shifts that increase the volume of distribution tend to lower trough/peak concentrations, supporting higher or more frequent dosing",
-          "correct": true
-        },
-        {
-          "label": "B",
-          "text": "An increased cardiac output has no meaningful effect on the clearance of hydrophilic antibiotics",
-          "correct": false
-        },
-        {
-          "label": "C",
-          "text": "Renal dysfunction that reduces clearance of these agents is best managed by increasing the dose",
-          "correct": false
-        },
-        {
-          "label": "D",
-          "text": "For beta-lactams, renal dysfunction is managed by decreasing the dose to avoid toxicity",
-          "correct": true
-        }
-      ],
-      "explanation": "For hydrophilic antibiotics, fluid shifts increase the volume of distribution and lower peak/trough concentrations, which is a rationale for higher or more frequent dosing (e.g. maximal loading doses, extended infusions) to maintain PK/PD targets. An increased cardiac output does raise renal (and other organ) clearance of these agents, lowering concentrations, and needs to be accounted for rather than ignored. Renal dysfunction, in contrast, reduces clearance and calls for a dose reduction to avoid toxic accumulation, not an increase - this applies across the hydrophilic agents including beta-lactams, aminoglycosides and vancomycin, though the specific target parameter monitored differs by drug class."
-    },
-    {
-      "id": "pkpd_pc2_sa01",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "A",
-      "source": "sba_generated",
-      "section": "Postoperative fever work-up",
-      "question": "A 74-year-old man, three days after uncomplicated resection of a transverse colon adenocarcinoma, develops fever, cough, purulent sputum and dyspnoea and is transferred to the ICU. What is the most appropriate next step?",
-      "options": [
-        "A: Start broad-spectrum antibiotics immediately without further assessment, given the high suspicion of pneumonia",
-        "B: Discharge the patient back to the surgical ward with oral antibiotics",
-        "C: Proceed directly to reoperation given the recent abdominal surgery",
-        "D: Observe for 24 hours before any investigation, since postoperative fever is usually benign",
-        "E: Perform a thorough physical examination and obtain oriented laboratory and imaging investigations, together with a review of history, current medications and known allergies"
-      ],
-      "correct": 4,
-      "explanation": "New respiratory symptoms and fever in a postoperative ICU patient warrant a focused work-up before (or alongside) starting empirical therapy: examination, oriented labs and imaging, and a review of history, current medications and allergies, to establish the likely diagnosis and guide safe antibiotic selection. Neither empirical treatment without any assessment, nor watchful waiting, nor assuming a surgical complication requiring reoperation, is appropriate as the first step here."
-    },
-    {
-      "id": "pkpd_pc2_sa02",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "A",
-      "source": "sba_generated",
-      "section": "Diagnostic microbiology",
-      "question": "Sputum Gram stain is performed and shown below, alongside blood and sputum cultures sent for processing. What is the main diagnostic value of the Gram stain at this stage?",
-      "options": [
-        "A: It definitively identifies the causative organism to species level",
-        "B: It provides rapid, broad information - Gram reaction and bacterial morphology - that can help narrow empirical therapy while culture results are awaited",
-        "C: It reliably detects antibiotic resistance genes",
-        "D: It replaces the need for culture and antimicrobial susceptibility testing",
-        "E: It can identify viral pathogens contributing to the pneumonia"
-      ],
-      "correct": 1,
-      "explanation": "Gram stain is quick, cheap and widely available, and gives an early read on Gram reaction and morphology (e.g. Gram-negative rods versus Gram-positive cocci) that can help focus empirical therapy before culture results return. It cannot reliably identify an organism to species level on morphology alone, does not detect resistance genes, cannot detect viruses, and does not replace culture and susceptibility testing, which remain necessary to confirm the pathogen and guide definitive therapy. Common causes of hospital-acquired pneumonia include Staphylococcus aureus (including MRSA), E. coli, Klebsiella pneumoniae and Pseudomonas aeruginosa, plus oral anaerobic flora such as Peptococcus and Peptostreptococcus species - the Gram stain narrows this differential but does not settle it on its own.",
-      "image": "images/pkpd_pc2_sa02.png"
-    },
-    {
-      "id": "pkpd_pc2_sa03",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "K",
-      "source": "sba_generated",
-      "section": "Surgical site infection prophylaxis",
-      "question": "The patient's current medications include cefuroxime 1.5 g IV tid and metronidazole 500 mg IV tid, continuing since his colon surgery. Regarding this regimen as surgical site infection (SSI) prophylaxis:",
-      "statements": [
-        {
-          "label": "A",
-          "text": "Effective SSI prophylaxis requires the antibiotic to reach the operative site, usually given intravenously within 1 hour before skin incision",
-          "correct": true
-        },
-        {
-          "label": "B",
-          "text": "Because metronidazole and cefuroxime have similarly short half-lives, they can be re-dosed on the same intraoperative schedule",
-          "correct": false
-        },
-        {
-          "label": "C",
-          "text": "SSI prophylaxis should generally be continued for at least 5-7 days after surgery to ensure adequate coverage",
-          "correct": false
-        },
-        {
-          "label": "D",
-          "text": "Continuing prophylactic antibiotics into the postoperative period is ineffective because vasoconstriction, thrombosis and the local inflammatory response limit drug delivery to the wound",
-          "correct": true
-        }
-      ],
-      "explanation": "SSI prophylaxis principles: give the antibiotic intravenously within about an hour before incision so therapeutic levels are present at the time of contamination; re-dose intraoperatively if the procedure exceeds roughly two half-lives of the drug or blood loss is large (>1000-1500 mL) - metronidazole's ~8-hour half-life is much longer than cefuroxime's under 2 hours, so their re-dosing intervals differ, not the same schedule. For most procedures, prophylaxis should not extend beyond 24 hours: continuing it postoperatively is not effective, since vasoconstriction, thrombosis and the inflammatory response at the wound limit further antibiotic delivery there - in this case the prescriber simply forgot to stop the regimen on the first postoperative day. Using antibiotics reserved for treating serious infections as prophylaxis should also be avoided, to limit selection for resistance. (Bratzler et al., Am J Health Syst Pharm 2013;70:195-283)"
-    },
-    {
-      "id": "pkpd_pc2_sa04",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "A",
-      "source": "sba_generated",
-      "section": "Antimicrobial spectrum and site penetration",
-      "question": "Blood, BAL and peritoneal cultures subsequently grow Enterobacter cloacae, and therapy is de-escalated to piperacillin-tazobactam. The surgeon then suggests adding daptomycin 6 mg/kg daily. Is this a reasonable approach?",
-      "options": [
-        "A: Yes, daptomycin is a first-line agent for hospital-acquired pneumonia",
-        "B: Yes, because daptomycin has broad Gram-negative and Gram-positive activity",
-        "C: No, because daptomycin is ineffective against Gram-negative organisms and does not achieve therapeutic lung concentrations",
-        "D: No, because daptomycin requires therapeutic drug monitoring that is not available in this hospital",
-        "E: Yes, but only if the dose is increased to 10 mg/kg daily"
-      ],
-      "correct": 2,
-      "explanation": "Daptomycin is a cyclic lipopeptide with potent bactericidal activity against Gram-positive organisms, including resistant strains such as MRSA, but it has no useful Gram-negative activity - irrelevant here since the isolated organism is Enterobacter cloacae - and it is inactivated by pulmonary surfactant, so it does not reach therapeutic concentrations in the lung and should not be used for pneumonia regardless of dose."
-    },
-    {
-      "id": "pkpd_pc2_sa05",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "A",
-      "source": "sba_generated",
-      "section": "Pseudomonas aeruginosa pneumonia",
-      "question": "Repeat cultures a week later grow Pseudomonas aeruginosa. Regarding the choice of antipseudomonal antibiotic for this patient's pneumonia:",
-      "options": [
-        "A: No single agent has been shown clearly superior; choice should be guided by severity, patient risk factors, local resistance patterns and PK/PD parameters",
-        "B: A single, clearly superior antipseudomonal agent has been established by randomised comparative trials",
-        "C: Imipenem and ciprofloxacin are the safest choices because they are least prone to selecting for resistance during therapy",
-        "D: Aztreonam should never be used for Pseudomonas infections",
-        "E: Antipseudomonal beta-lactams and fluoroquinolones cannot be used interchangeably in any circumstance"
-      ],
-      "correct": 0,
-      "explanation": "Agents with antipseudomonal activity include ureidopenicillins, aminoglycosides, ticarcillin, third- and fourth-generation cephalosporins (ceftazidime, cefepime), aztreonam, carbapenems (except ertapenem), and ciprofloxacin/levofloxacin - but a lack of comparative randomised trials means no single agent has been shown clearly superior. Current guidance instead bases the choice on infection severity, individual risk factors and prior antibiotic exposure, local epidemiology and resistance phenotypes, and PK/PD parameters. Some agents, including imipenem and ciprofloxacin, are in fact more prone to selecting for resistance during therapy - the opposite of being the 'safest' choice. (El Solh & Alhajhusain, J Antimicrob Chemother 2009;64(2):229-38)"
-    },
-    {
-      "id": "pkpd_pc2_sa06",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "K",
-      "source": "sba_generated",
-      "section": "Pseudomonas aeruginosa pneumonia",
-      "question": "Regarding general principles for antimicrobial administration in suspected Pseudomonas aeruginosa infection:",
-      "statements": [
-        {
-          "label": "A",
-          "text": "Aggressive pathogen retrieval should ideally be delayed until after starting antimicrobial therapy, to avoid delaying treatment",
-          "correct": false
-        },
-        {
-          "label": "B",
-          "text": "Examination of national and local surveillance data on resistance patterns is a recommended step in choosing therapy",
-          "correct": true
-        },
-        {
-          "label": "C",
-          "text": "Prior antibiotic exposure and risk factors for multidrug resistance are not relevant once empirical therapy is chosen",
-          "correct": false
-        },
-        {
-          "label": "D",
-          "text": "Local antibiograms are useful for assessing local susceptibility rates and monitoring resistance trends",
-          "correct": true
-        }
-      ],
-      "explanation": "Recommended principles (based largely on expert opinion, given the lack of comparative trial data) are: retrieve the pathogen aggressively, ideally before starting antimicrobial therapy, not after; then base administration on examination of national/local surveillance data, knowledge of the susceptibility profile of recently isolated pathogens, awareness of risk factors for MDR Pseudomonas and prior antibiotic exposure (which remain relevant on an ongoing basis, not just at the point empirical therapy is first chosen), and use of local antibiograms to assess susceptibility and monitor resistance trends over time. (El Solh & Alhajhusain, J Antimicrob Chemother 2009;64(2):229-38)"
-    },
-    {
-      "id": "pkpd_pc2_sa07",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "A",
-      "source": "sba_generated",
-      "section": "Alternative routes of administration",
-      "question": "For this ventilated pneumonia patient, what has been reported regarding aerosolised (inhaled) aminoglycosides as an adjunct to treatment?",
-      "options": [
-        "A: They have been associated with worse resolution of clinical symptoms compared with intravenous therapy",
-        "B: They are contraindicated in mechanically ventilated patients",
-        "C: They eliminate the need for any systemic antibiotic therapy",
-        "D: They have been associated with more complete resolution of clinical symptoms and less renal dysfunction than intravenous aminoglycosides",
-        "E: They are only effective against Gram-positive organisms"
-      ],
-      "correct": 3,
-      "explanation": "Studies in mechanically ventilated patients with pneumonia have shown that inhaled/aerosolised aminoglycosides were associated with more complete resolution of clinical symptoms than intravenous administration, along with less renal dysfunction than the IV group - they are used as an adjunct alongside, not instead of, systemic therapy, and are not restricted to Gram-positive coverage (aminoglycosides are active against Gram-negative organisms). (Estrada, Borgatta & Rello, Infect Drug Resist 2016;9:7-18)"
-    },
-    {
-      "id": "pkpd_pc2_sa08",
-      "module": "Clinical Pharmacokinetics and Pharmacodynamics",
-      "type": "K",
-      "source": "sba_generated",
-      "section": "Aminoglycosides - summary",
-      "question": "Regarding the overall use of aminoglycosides in critically ill patients:",
-      "statements": [
-        {
-          "label": "A",
-          "text": "They are typically used as monotherapy in patients with shock or hypotension, rather than combined with other antibiotics",
-          "correct": false
-        },
-        {
-          "label": "B",
-          "text": "Large single daily doses are generally preferred over multiple smaller daily doses",
-          "correct": true
-        },
-        {
-          "label": "C",
-          "text": "Courses are typically continued well beyond 5-6 days in critically ill patients",
-          "correct": false
-        },
-        {
-          "label": "D",
-          "text": "Aerosolised delivery may allow use in hard-to-treat, resistant VAP organisms without the development of toxicity",
-          "correct": true
-        }
-      ],
-      "explanation": "Aminoglycosides are typically used together with a beta-lactam or fluoroquinolone, particularly in shock or hypotension, rather than as monotherapy. They are given as large single-daily doses, and are rarely continued for more than about 5-6 days given their toxicity profile. Therapeutic drug monitoring remains fundamental to avoiding nephro- and ototoxicity. Aerosolised delivery appears to be a rational option in ventilator-associated pneumonia caused by hard-to-treat or resistant organisms, allowing benefit without the toxicity seen with prolonged systemic exposure."
+     "label": "E",
+     "text": "Region 2 could correspond to both the AUC:MIC ratio and the Cmax:MIC ratio",
+     "correct": false
     }
-  ]
+   ],
+   "explanation": "Each area of the curve maps onto exactly one PK/PD index. The peak height above the MIC line (region 1) reflects Cmax:MIC. The shaded area under the curve above the MIC line (region 2) reflects AUC:MIC. The portion of the dosing interval during which concentration stays above the MIC (region 3) reflects T>MIC. The three indices are distinct and do not overlap.",
+   "image": "images/pkpd_fa01.png"
+  },
+  {
+   "id": "pkpd_fa02",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "K",
+   "source": "esicm_final_assessment",
+   "section": "Colistin",
+   "question": "Regarding colistin:",
+   "statements": [
+    {
+     "label": "A",
+     "text": "It is not absorbed through the oral mucosa or gastrointestinal tract",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "It has been reported to have very high protein binding",
+     "correct": true
+    },
+    {
+     "label": "C",
+     "text": "It has no post-antibiotic effect (PAE)",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "It has questionable clinical efficacy when inhaled and should therefore not be used",
+     "correct": false
+    }
+   ],
+   "explanation": "Colistin (sulfate) is not usefully absorbed from the GI tract, which is why oral/enteral colistin is used only for bowel decontamination rather than systemic infection - parenteral treatment instead requires colistin methanesulfonate (CMS). Reported protein binding is around 59-90%. Colistin shows a modest post-antibiotic effect at high concentrations against P. aeruginosa, and killing correlates best with fAUC/MIC. Despite poor lung distribution, published data support adding CMS aerosol delivery to IV therapy for pulmonary infections in critically ill patients, so inhalation is not without a role. (Falagas, Kasiakou & Saravolatz, Clin Infect Dis 2005;40(9):1333-1341)"
+  },
+  {
+   "id": "pkpd_fa03",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "K",
+   "source": "esicm_final_assessment",
+   "section": "Aminoglycosides",
+   "question": "Regarding aminoglycoside antibiotics:",
+   "statements": [
+    {
+     "label": "A",
+     "text": "They should be subject to therapeutic drug monitoring because high peak levels correlate with toxicity",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "They are bacteriostatic",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "They display a post-antibiotic effect (PAE), whereby antibacterial activity persists when drug concentrations fall below the MIC",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "Dosing is optimised by extending dosing intervals",
+     "correct": true
+    }
+   ],
+   "explanation": "Aminoglycosides are bactericidal, not bacteriostatic, with concentration-dependent killing (a Cmax:MIC of at least 10 predicts clinical success) and a PAE that persists even once concentrations fall below the MIC - properties that together support extended-interval (once-daily) dosing. Toxicity monitoring is still essential, but it is high trough concentrations, not high peak concentrations, that correlate with nephro- and ototoxicity; peak levels correlate with efficacy. (Peck, Hill & Williams, Pharmacology for Anaesthesia and Intensive Care, 2nd ed., 2006, pp. 311-35)"
+  },
+  {
+   "id": "pkpd_fa04",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "K",
+   "source": "esicm_final_assessment",
+   "section": "Minimal inhibitory concentration",
+   "question": "Regarding minimal inhibitory concentration (MIC):",
+   "statements": [
+    {
+     "label": "A",
+     "text": "It is defined as the lowest antimicrobial concentration that inhibits microbial growth in vivo",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "It is a measure of antibiotic potency against a specific bacteria",
+     "correct": true
+    },
+    {
+     "label": "C",
+     "text": "Drug concentrations above the MIC ensure that the antibiotic is effective",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "Breakpoints discriminate between susceptible and resistant bacteria for a given antibiotic",
+     "correct": true
+    }
+   ],
+   "explanation": "MIC is defined using artificial media under fixed incubation conditions, not in vivo, so it does not mimic physiological conditions or guarantee clinical effectiveness on its own; concentrations above the MIC are necessary but not sufficient for effect, since adequate PK exposure, immune status and source control also matter. Breakpoints (largely harmonised across Europe via EUCAST) are the concentrations used to classify an isolate as susceptible, intermediate or resistant to a given agent."
+  },
+  {
+   "id": "pkpd_fa05",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "K",
+   "source": "esicm_final_assessment",
+   "section": "PD indices",
+   "question": "Major pharmacodynamic (PD) indices for antimicrobials include:",
+   "statements": [
+    {
+     "label": "A",
+     "text": "The percentage of time that free drug remains above the MIC over a 24-hour period (T>MIC)",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "The ratio of free drug area under the concentration-time curve to MIC over a 24-hour period (AUC:MIC)",
+     "correct": true
+    },
+    {
+     "label": "C",
+     "text": "The ratio of maximum concentration to MIC (Cmax:MIC)",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "The percentage of time that free drug remains above a multiple of the MIC (fT>4xMIC)",
+     "correct": false
+    },
+    {
+     "label": "E",
+     "text": "The minimum free drug concentration to MIC ratio (Cmin:MIC)",
+     "correct": false
+    }
+   ],
+   "explanation": "T>MIC, AUC:MIC and Cmax:MIC are the three PD indices with the strongest evidence linking antimicrobial exposure to efficacy. Alternative indices such as fT>4xMIC or Cmin:MIC have been proposed but are far less supported by evidence. (Onufrak et al., Clin Ther 2016;38(9):1930-1947)"
+  },
+  {
+   "id": "pkpd_fa06",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "K",
+   "source": "esicm_final_assessment",
+   "section": "Pharmacodynamics - general",
+   "question": "Regarding pharmacodynamics (PD) of antibiotics:",
+   "statements": [
+    {
+     "label": "A",
+     "text": "For beta-lactams, increasing drug concentrations has major effects on the extent of bacterial killing",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "The MIC provides no information regarding the time course of the antimicrobial effect",
+     "correct": true
+    },
+    {
+     "label": "C",
+     "text": "PD targets have been extensively studied in a considerable number of clinical studies",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "Adjusting antibiotic dosage to a PK/PD target has been reported to improve clinical and microbiologic outcomes",
+     "correct": true
+    }
+   ],
+   "explanation": "Beta-lactams are concentration-independent (\"time-dependent\") killers, so raising the concentration further does little to increase the extent of killing once it is above the MIC - what matters is the time spent above MIC. The MIC itself is a static endpoint from a fixed incubation period and says nothing about the rate or time-course of killing. Clinical outcome data linking PK/PD targets to outcomes are comparatively sparse, but the studies that exist do suggest benefit from dosing adjusted to PK/PD targets."
+  },
+  {
+   "id": "pkpd_fa07",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "K",
+   "source": "esicm_final_assessment",
+   "section": "Hydrophilic agents",
+   "question": "Regarding hydrophilic antimicrobial agents:",
+   "statements": [
+    {
+     "label": "A",
+     "text": "They have a limited tissue distribution, normally restricted to the extracellular space",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "Their elimination is only slightly impaired by renal dysfunction compared with lipophilic agents",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "Macrolides are an example of hydrophilic agents",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "They have substantial hepatic clearance",
+     "correct": false
+    }
+   ],
+   "explanation": "Hydrophilic agents (beta-lactams, aminoglycosides, glycopeptides, linezolid) stay largely in the extracellular space and are predominantly renally cleared, so renal dysfunction affects their elimination considerably - more so, not less, than for lipophilic agents, which rely more on hepatic metabolism. Macrolides are lipophilic, not hydrophilic. In sepsis, capillary leak and third-spacing increase the volume of distribution for hydrophilic drugs, which can lower plasma and tissue concentrations and is a reason to increase, not decrease, the dose."
+  },
+  {
+   "id": "pkpd_fa08",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "A",
+   "source": "esicm_final_assessment",
+   "section": "MRSA pneumonia",
+   "question": "A 55-year-old man is admitted to the ICU after presenting a week earlier with flu-like symptoms. He is diagnosed with community-acquired pneumonia; CT chest shows a diffuse ground-glass appearance of the lung parenchyma with bilateral cavitations. Empirical therapy for methicillin-resistant Staphylococcus aureus (MRSA) is started while sputum and blood culture results are awaited. How should antibiotic treatment be guided in this patient?",
+   "options": [
+    "If the MIC for vancomycin is >2 mcg/mL, daptomycin should be used",
+    "Empirical MRSA coverage should continue even if cultures come back negative",
+    "Linezolid is preferred over vancomycin due to a lower mortality rate",
+    "In patients with good renal function, vancomycin once daily is the optimal pharmacokinetic profile",
+    "The target vancomycin trough concentration is 15-20 mcg/mL"
+   ],
+   "correct": 4,
+   "explanation": "Vancomycin penetrates lung tissue poorly, and the exposure parameter that best predicts efficacy is AUC:MIC - an AUC:MIC >400 is associated with improved clinical and microbiological cure for staphylococcal pneumonia, which corresponds to a trough target of 15-20 mcg/mL. Daptomycin is inactivated by pulmonary surfactant and must not be used for pneumonia regardless of vancomycin MIC. Linezolid and vancomycin have shown comparable cure rates for community-acquired MRSA pneumonia (linezolid has a specific advantage in nosocomial pneumonia per the Zephyr study). There is no recommendation to continue empirical MRSA cover once cultures return negative and the organism is not isolated. With preserved renal function, 12-hourly dosing - not once daily - is generally the optimal PK/PD profile, though some evidence supports 2 g once daily as satisfactory. (Chastre et al., Clin Microbiol Infect 2014;20(Suppl 4):19-36; Carballo et al., Farm Hosp 2017;41(2):187-203)"
+  },
+  {
+   "id": "pkpd_fa09",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "K",
+   "source": "esicm_final_assessment",
+   "section": "Meropenem",
+   "question": "Regarding meropenem:",
+   "statements": [
+    {
+     "label": "A",
+     "text": "It has a spectrum that does not cover anaerobes",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "It is a beta-lactam antibiotic",
+     "correct": true
+    },
+    {
+     "label": "C",
+     "text": "It is absolutely contraindicated in patients with a penicillin allergy",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "It can be used as a continuous or extended infusion in septic patients",
+     "correct": true
+    }
+   ],
+   "explanation": "Meropenem is a carbapenem (a beta-lactam) with one of the broadest spectrums of any antibacterial, covering Gram-positive, Gram-negative and anaerobic organisms (though not MRSA or Enterococcus faecium, and some Pseudomonas strains are meropenem-resistant). Cross-sensitivity with penicillin is possible but not absolute - a patient with a history of a mild reaction such as rash should not automatically be excluded from meropenem if it is strongly indicated. Being relatively time-dependent in its killing (a T>MIC of at least 40% is needed), PK/PD targets for meropenem are better achieved with extended or continuous infusion, and dosing requires reduction as glomerular filtration falls, including in renal replacement therapy. (Peck, Hill & Williams, Pharmacology for Anaesthesia and Intensive Care, 2nd ed., 2006, p. 311; Thirunavakkarasu & Lynch, Anaesthesia Tutorial of the Week 2010;168)"
+  },
+  {
+   "id": "pkpd_fa10",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "A",
+   "source": "esicm_final_assessment",
+   "section": "Pharmacokinetics - general",
+   "question": "Which of the following statements regarding antibiotic pharmacokinetics is INCORRECT?",
+   "options": [
+    "In simple PK models, volume of distribution (Vd) is a constant that relates the dose administered to the plasma concentration at time zero",
+    "Drugs absorbed from the buccal mucosa are subject to first-pass metabolism",
+    "The time constant corresponds to a reduction in concentration to 37% of the original value",
+    "A large elimination rate constant (k) produces a short elimination half-life (t1/2)",
+    "Tetracycline bioavailability is reduced by milk intake"
+   ],
+   "correct": 1,
+   "explanation": "Unlike gastrointestinal absorption, buccal (and rectal) mucosal absorption drains directly into the systemic circulation and bypasses first-pass hepatic metabolism, which makes the claim that buccal absorption undergoes first-pass metabolism the incorrect one. The remaining statements are accurate: Vd = dose/C0 in simple models; the time constant is the time for concentration to fall to 37% of its previous value (with about 95% of a process complete after 3 time-constants); half-life is inversely related to the elimination rate constant (t1/2 = 0.693/k); and calcium in milk chelates tetracycline, reducing its bioavailability. (Peck, Hill & Williams, Pharmacology for Anaesthesia and Intensive Care, 3rd ed., 2008)"
+  },
+  {
+   "id": "pkpd_pc1_sa01",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "A",
+   "source": "sba_generated",
+   "section": "Sepsis diagnostic approach",
+   "question": "A ventilated trauma patient (32 years old, day 5 post motorcycle accident with splenectomy and bowel/liver repair) develops a new fever of 40.1C, hypotension (75/40 mmHg) and oliguria, with purulent sputum, despite 5 days of amoxicillin-clavulanate. What is the most appropriate initial approach to this new presumed sepsis?",
+   "options": [
+    "Examine the patient to identify the likely source, obtain blood, sputum and any relevant drainage cultures and imaging, then start broad empirical therapy",
+    "Escalate the current amoxicillin-clavulanate dose and reassess in 24 hours",
+    "Switch directly to oral antibiotics once the patient is afebrile",
+    "Withhold antibiotics until all culture results are available",
+    "Treat empirically for fungal sepsis given the duration of ICU stay"
+   ],
+   "correct": 0,
+   "explanation": "New sepsis in a ventilated, post-traumatic ICU patient warrants a focused search for the source (examination plus relevant cultures and imaging) together with prompt empirical antimicrobial therapy; delaying therapy until cultures return, or simply escalating a narrower agent that has already been running for 5 days, would not adequately cover a new nosocomial process. There is no indication here to jump to empirical antifungal therapy or to de-escalate to oral treatment in an unstable patient."
+  },
+  {
+   "id": "pkpd_pc1_sa02",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "A",
+   "source": "sba_generated",
+   "section": "Empirical antibiotic selection",
+   "question": "For the same patient, empirical vancomycin plus levofloxacin plus piperacillin-tazobactam is started. What best explains this choice?",
+   "options": [
+    "The patient has no risk factors for resistant organisms, so triple therapy is used purely for broader initial coverage",
+    "Levofloxacin is added solely to treat possible urinary tract infection",
+    "Vancomycin is included because piperacillin-tazobactam has no gram-positive activity at all",
+    "The patient has risk factors for MDR organisms, so vancomycin covers MRSA while the combination provides double antipseudomonal cover",
+    "This regimen is chosen to specifically target anaerobic organisms from the bowel injury"
+   ],
+   "correct": 3,
+   "explanation": "Prolonged ICU stay, prior antibiotics, and trauma/surgery are risk factors for MDR pathogens. Per HAP/VAP guidance (IDSA/ATS 2016), that risk profile supports MRSA cover (vancomycin) plus two agents active against Pseudomonas from different classes (piperacillin-tazobactam and levofloxacin) rather than a single antipseudomonal agent. Piperacillin-tazobactam does have some gram-positive activity, but not reliably against MRSA, which is why vancomycin is added specifically for that indication."
+  },
+  {
+   "id": "pkpd_pc1_sa03",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "K",
+   "source": "sba_generated",
+   "section": "Vancomycin PK/PD",
+   "question": "Regarding intravenous vancomycin in this critically ill patient:",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Rapid bolus administration of vancomycin can precipitate red-man syndrome, so a slower infusion is generally preferred",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "Vancomycin has low protein binding, so critical illness has little effect on its volume of distribution",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "Trough monitoring targeting 15-20 mg/L (aiming for an AUC:MIC of at least 400) is the standard approach to vancomycin therapeutic drug monitoring",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "In renal impairment, the vancomycin dose should be increased to compensate for reduced clearance",
+     "correct": false
+    }
+   ],
+   "explanation": "Vancomycin displays moderate protein binding, and the capillary leak and fluid shifts of critical illness can increase its volume of distribution, changing dosing requirements. Rapid IV administration risks red-man syndrome, a concentration-dependent reaction, so vancomycin is usually infused more slowly than a quick bolus. Trough monitoring at 15-20 mg/L, targeting an AUC:MIC of at least 400 for staphylococcal eradication, is standard; maintenance doses up to 30-40 mg/kg/day (or continuous infusion) may be needed in critically ill patients with increased Vd or clearance. In renal impairment, the dose should be reduced, not increased, and a random level rather than a trough is used to monitor toxicity risk."
+  },
+  {
+   "id": "pkpd_pc1_sa04",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "K",
+   "source": "sba_generated",
+   "section": "Fluoroquinolone PK/PD",
+   "question": "Regarding fluoroquinolone PK/PD in this scenario:",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Fluoroquinolones are lipophilic, so fluid shifts in critically ill patients have minimal effect on their volume of distribution",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "Fluoroquinolones display purely concentration-independent (time-dependent) killing",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "A Cmax:MIC ratio of around 10 correlates with bacterial eradication",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "An AUC:MIC below 100 is associated with a lower risk of selecting for antimicrobial resistance",
+     "correct": false
+    }
+   ],
+   "explanation": "Fluoroquinolones are lipophilic antimicrobials, so unlike hydrophilic drugs, fluid shifts in critical illness have little effect on their volume of distribution. They show concentration-dependent killing, and in vitro data link a Cmax:MIC ratio of about 10 to bacterial eradication. Subtherapeutic exposure - defined as an AUC:MIC below 100 - has been associated with the emergence of resistance, so dosing aims to maximise exposure while minimising resistance development, the opposite of what a low AUC:MIC achieves."
+  },
+  {
+   "id": "pkpd_pc1_sa05",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "A",
+   "source": "sba_generated",
+   "section": "Antimicrobial resistance emergence",
+   "question": "The patient is de-escalated to piperacillin-tazobactam after cultures grow Enterobacter cloacae sensitive to third-generation cephalosporins, piperacillin-tazobactam, carbapenems and TMP/SMX. Seven days later he remains febrile, and repeat sputum cultures again grow E. cloacae, now resistant to all beta-lactams except meropenem. What is the most likely explanation, and the appropriate next step?",
+   "options": [
+    "Cross-contamination of the culture sample; repeat the culture and continue piperacillin-tazobactam",
+    "This represents a new hospital-acquired infection unrelated to the first; add an aminoglycoside to the existing regimen",
+    "Enterobacter cloacae has selected for high-level AmpC beta-lactamase production during beta-lactam therapy; stop piperacillin-tazobactam and start meropenem",
+    "The patient has developed an allergic reaction to piperacillin-tazobactam; switch to a fluoroquinolone alone",
+    "Laboratory error is the most likely explanation; no change in therapy is needed"
+   ],
+   "correct": 2,
+   "explanation": "Enterobacter cloacae can develop high-level inducible AmpC beta-lactamases during treatment, most often with cephalosporins and, to a lesser extent, piperacillin-tazobactam, leading to treatment failure even though the original isolate tested susceptible. For serious infections, carbapenems remain the most reliable agents against this resistance mechanism, which is why stopping piperacillin-tazobactam and starting meropenem is appropriate here - repeating the culture or assuming a new unrelated infection would miss this well-recognised resistance pattern."
+  },
+  {
+   "id": "pkpd_pc1_sa06",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "K",
+   "source": "sba_generated",
+   "section": "Antimicrobial selection factors",
+   "question": "Regarding factors that influence the choice of antimicrobial agent in a critically ill septic patient:",
+   "statements": [
+    {
+     "label": "A",
+     "text": "The causative organism's tendency to develop resistance during treatment (e.g. Pseudomonas species) is a relevant consideration",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "Aminoglycosides are a good choice for infections caused by strictly intracellular organisms such as Chlamydia or Coxiella burnetii",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "A history of prior antibiotic exposure and relevant comorbidities should inform empirical antibiotic choice",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "Renal or hepatic dysfunction is irrelevant to antimicrobial choice as long as the organism is susceptible in vitro",
+     "correct": false
+    }
+   ],
+   "explanation": "Choice of antimicrobial should account for the organism (susceptibility profile, PK/PD strategy needed, tendency to develop resistance on therapy, and whether it is an intracellular pathogen - aminoglycosides penetrate poorly into cells and are therefore poor choices for strictly intracellular organisms like Rickettsia, Chlamydia or Coxiella burnetii), the patient (current illness, allergies, prior antibiotic exposure, comorbidities, relevant social history), and organ function - renal or hepatic dysfunction can reduce elimination and increase toxicity risk regardless of in vitro susceptibility, and multiple organ dysfunction in sepsis is itself a relevant factor."
+  },
+  {
+   "id": "pkpd_pc1_sa07",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "K",
+   "source": "sba_generated",
+   "section": "Antimicrobial selection factors",
+   "question": "Continuing on factors relevant to antimicrobial selection:",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Site of infection matters: hydrophilic drugs penetrate poorly into organs with non-fenestrated capillaries such as the brain or prostate",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "Daptomycin is a reasonable choice for pneumonia because it penetrates lung tissue well",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "Combining a beta-lactam with an aminoglycoside can produce a synergistic, but potentially also a noxious, interaction",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "Cost-effectiveness and local antibiotic stewardship policy are not relevant considerations once an organism is identified",
+     "correct": false
+    }
+   ],
+   "explanation": "Drug- and system-level factors matter alongside the organism and patient: penetration depends on site of infection (poor penetration of hydrophilic drugs into non-fenestrated-capillary organs like brain, prostate or eye; daptomycin specifically is inactivated by surfactant and should not be used for pneumonia; biliary/urinary infections favour agents with hepatic/urinary excretion such as ceftriaxone or cefotaxime). Beta-lactam/aminoglycoside combinations can be synergistic but also carry a noxious interaction risk. Toxicity profiles (aminoglycoside reno/ototoxicity, vancomycin nephrotoxicity, carbapenem neurotoxicity), local microbiology and resistance patterns, availability of therapeutic drug monitoring, presence of an antimicrobial stewardship team, route of administration, and cost-effectiveness are all legitimate parts of the decision - none become irrelevant just because an organism has been identified."
+  },
+  {
+   "id": "pkpd_pc1_sa08",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "K",
+   "source": "sba_generated",
+   "section": "Dose adjustment in critical illness",
+   "question": "Regarding dose adjustment of hydrophilic antibiotics (e.g. beta-lactams, aminoglycosides, vancomycin) in critically ill patients with pathophysiological changes:",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Fluid shifts that increase the volume of distribution tend to lower trough/peak concentrations, supporting higher or more frequent dosing",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "An increased cardiac output has no meaningful effect on the clearance of hydrophilic antibiotics",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "Renal dysfunction that reduces clearance of these agents is best managed by increasing the dose",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "For beta-lactams, renal dysfunction is managed by decreasing the dose to avoid toxicity",
+     "correct": true
+    }
+   ],
+   "explanation": "For hydrophilic antibiotics, fluid shifts increase the volume of distribution and lower peak/trough concentrations, which is a rationale for higher or more frequent dosing (e.g. maximal loading doses, extended infusions) to maintain PK/PD targets. An increased cardiac output does raise renal (and other organ) clearance of these agents, lowering concentrations, and needs to be accounted for rather than ignored. Renal dysfunction, in contrast, reduces clearance and calls for a dose reduction to avoid toxic accumulation, not an increase - this applies across the hydrophilic agents including beta-lactams, aminoglycosides and vancomycin, though the specific target parameter monitored differs by drug class."
+  },
+  {
+   "id": "pkpd_pc2_sa01",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "A",
+   "source": "sba_generated",
+   "section": "Postoperative fever work-up",
+   "question": "A 74-year-old man, three days after uncomplicated resection of a transverse colon adenocarcinoma, develops fever, cough, purulent sputum and dyspnoea and is transferred to the ICU. What is the most appropriate next step?",
+   "options": [
+    "Start broad-spectrum antibiotics immediately without further assessment, given the high suspicion of pneumonia",
+    "Discharge the patient back to the surgical ward with oral antibiotics",
+    "Proceed directly to reoperation given the recent abdominal surgery",
+    "Observe for 24 hours before any investigation, since postoperative fever is usually benign",
+    "Perform a thorough physical examination and obtain oriented laboratory and imaging investigations, together with a review of history, current medications and known allergies"
+   ],
+   "correct": 4,
+   "explanation": "New respiratory symptoms and fever in a postoperative ICU patient warrant a focused work-up before (or alongside) starting empirical therapy: examination, oriented labs and imaging, and a review of history, current medications and allergies, to establish the likely diagnosis and guide safe antibiotic selection. Neither empirical treatment without any assessment, nor watchful waiting, nor assuming a surgical complication requiring reoperation, is appropriate as the first step here."
+  },
+  {
+   "id": "pkpd_pc2_sa02",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "A",
+   "source": "sba_generated",
+   "section": "Diagnostic microbiology",
+   "question": "Sputum Gram stain is performed and shown below, alongside blood and sputum cultures sent for processing. What is the main diagnostic value of the Gram stain at this stage?",
+   "options": [
+    "It definitively identifies the causative organism to species level",
+    "It provides rapid, broad information - Gram reaction and bacterial morphology - that can help narrow empirical therapy while culture results are awaited",
+    "It reliably detects antibiotic resistance genes",
+    "It replaces the need for culture and antimicrobial susceptibility testing",
+    "It can identify viral pathogens contributing to the pneumonia"
+   ],
+   "correct": 1,
+   "explanation": "Gram stain is quick, cheap and widely available, and gives an early read on Gram reaction and morphology (e.g. Gram-negative rods versus Gram-positive cocci) that can help focus empirical therapy before culture results return. It cannot reliably identify an organism to species level on morphology alone, does not detect resistance genes, cannot detect viruses, and does not replace culture and susceptibility testing, which remain necessary to confirm the pathogen and guide definitive therapy. Common causes of hospital-acquired pneumonia include Staphylococcus aureus (including MRSA), E. coli, Klebsiella pneumoniae and Pseudomonas aeruginosa, plus oral anaerobic flora such as Peptococcus and Peptostreptococcus species - the Gram stain narrows this differential but does not settle it on its own.",
+   "image": "images/pkpd_pc2_sa02.png"
+  },
+  {
+   "id": "pkpd_pc2_sa03",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "K",
+   "source": "sba_generated",
+   "section": "Surgical site infection prophylaxis",
+   "question": "The patient's current medications include cefuroxime 1.5 g IV tid and metronidazole 500 mg IV tid, continuing since his colon surgery. Regarding this regimen as surgical site infection (SSI) prophylaxis:",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Effective SSI prophylaxis requires the antibiotic to reach the operative site, usually given intravenously within 1 hour before skin incision",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "Because metronidazole and cefuroxime have similarly short half-lives, they can be re-dosed on the same intraoperative schedule",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "SSI prophylaxis should generally be continued for at least 5-7 days after surgery to ensure adequate coverage",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "Continuing prophylactic antibiotics into the postoperative period is ineffective because vasoconstriction, thrombosis and the local inflammatory response limit drug delivery to the wound",
+     "correct": true
+    }
+   ],
+   "explanation": "SSI prophylaxis principles: give the antibiotic intravenously within about an hour before incision so therapeutic levels are present at the time of contamination; re-dose intraoperatively if the procedure exceeds roughly two half-lives of the drug or blood loss is large (>1000-1500 mL) - metronidazole's ~8-hour half-life is much longer than cefuroxime's under 2 hours, so their re-dosing intervals differ, not the same schedule. For most procedures, prophylaxis should not extend beyond 24 hours: continuing it postoperatively is not effective, since vasoconstriction, thrombosis and the inflammatory response at the wound limit further antibiotic delivery there - in this case the prescriber simply forgot to stop the regimen on the first postoperative day. Using antibiotics reserved for treating serious infections as prophylaxis should also be avoided, to limit selection for resistance. (Bratzler et al., Am J Health Syst Pharm 2013;70:195-283)"
+  },
+  {
+   "id": "pkpd_pc2_sa04",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "A",
+   "source": "sba_generated",
+   "section": "Antimicrobial spectrum and site penetration",
+   "question": "Blood, BAL and peritoneal cultures subsequently grow Enterobacter cloacae, and therapy is de-escalated to piperacillin-tazobactam. The surgeon then suggests adding daptomycin 6 mg/kg daily. Is this a reasonable approach?",
+   "options": [
+    "Yes, daptomycin is a first-line agent for hospital-acquired pneumonia",
+    "Yes, because daptomycin has broad Gram-negative and Gram-positive activity",
+    "No, because daptomycin is ineffective against Gram-negative organisms and does not achieve therapeutic lung concentrations",
+    "No, because daptomycin requires therapeutic drug monitoring that is not available in this hospital",
+    "Yes, but only if the dose is increased to 10 mg/kg daily"
+   ],
+   "correct": 2,
+   "explanation": "Daptomycin is a cyclic lipopeptide with potent bactericidal activity against Gram-positive organisms, including resistant strains such as MRSA, but it has no useful Gram-negative activity - irrelevant here since the isolated organism is Enterobacter cloacae - and it is inactivated by pulmonary surfactant, so it does not reach therapeutic concentrations in the lung and should not be used for pneumonia regardless of dose."
+  },
+  {
+   "id": "pkpd_pc2_sa05",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "A",
+   "source": "sba_generated",
+   "section": "Pseudomonas aeruginosa pneumonia",
+   "question": "Repeat cultures a week later grow Pseudomonas aeruginosa. Regarding the choice of antipseudomonal antibiotic for this patient's pneumonia:",
+   "options": [
+    "No single agent has been shown clearly superior; choice should be guided by severity, patient risk factors, local resistance patterns and PK/PD parameters",
+    "A single, clearly superior antipseudomonal agent has been established by randomised comparative trials",
+    "Imipenem and ciprofloxacin are the safest choices because they are least prone to selecting for resistance during therapy",
+    "Aztreonam should never be used for Pseudomonas infections",
+    "Antipseudomonal beta-lactams and fluoroquinolones cannot be used interchangeably in any circumstance"
+   ],
+   "correct": 0,
+   "explanation": "Agents with antipseudomonal activity include ureidopenicillins, aminoglycosides, ticarcillin, third- and fourth-generation cephalosporins (ceftazidime, cefepime), aztreonam, carbapenems (except ertapenem), and ciprofloxacin/levofloxacin - but a lack of comparative randomised trials means no single agent has been shown clearly superior. Current guidance instead bases the choice on infection severity, individual risk factors and prior antibiotic exposure, local epidemiology and resistance phenotypes, and PK/PD parameters. Some agents, including imipenem and ciprofloxacin, are in fact more prone to selecting for resistance during therapy - the opposite of being the 'safest' choice. (El Solh & Alhajhusain, J Antimicrob Chemother 2009;64(2):229-38)"
+  },
+  {
+   "id": "pkpd_pc2_sa06",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "K",
+   "source": "sba_generated",
+   "section": "Pseudomonas aeruginosa pneumonia",
+   "question": "Regarding general principles for antimicrobial administration in suspected Pseudomonas aeruginosa infection:",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Aggressive pathogen retrieval should ideally be delayed until after starting antimicrobial therapy, to avoid delaying treatment",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "Examination of national and local surveillance data on resistance patterns is a recommended step in choosing therapy",
+     "correct": true
+    },
+    {
+     "label": "C",
+     "text": "Prior antibiotic exposure and risk factors for multidrug resistance are not relevant once empirical therapy is chosen",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "Local antibiograms are useful for assessing local susceptibility rates and monitoring resistance trends",
+     "correct": true
+    }
+   ],
+   "explanation": "Recommended principles (based largely on expert opinion, given the lack of comparative trial data) are: retrieve the pathogen aggressively, ideally before starting antimicrobial therapy, not after; then base administration on examination of national/local surveillance data, knowledge of the susceptibility profile of recently isolated pathogens, awareness of risk factors for MDR Pseudomonas and prior antibiotic exposure (which remain relevant on an ongoing basis, not just at the point empirical therapy is first chosen), and use of local antibiograms to assess susceptibility and monitor resistance trends over time. (El Solh & Alhajhusain, J Antimicrob Chemother 2009;64(2):229-38)"
+  },
+  {
+   "id": "pkpd_pc2_sa07",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "A",
+   "source": "sba_generated",
+   "section": "Alternative routes of administration",
+   "question": "For this ventilated pneumonia patient, what has been reported regarding aerosolised (inhaled) aminoglycosides as an adjunct to treatment?",
+   "options": [
+    "They have been associated with worse resolution of clinical symptoms compared with intravenous therapy",
+    "They are contraindicated in mechanically ventilated patients",
+    "They eliminate the need for any systemic antibiotic therapy",
+    "They have been associated with more complete resolution of clinical symptoms and less renal dysfunction than intravenous aminoglycosides",
+    "They are only effective against Gram-positive organisms"
+   ],
+   "correct": 3,
+   "explanation": "Studies in mechanically ventilated patients with pneumonia have shown that inhaled/aerosolised aminoglycosides were associated with more complete resolution of clinical symptoms than intravenous administration, along with less renal dysfunction than the IV group - they are used as an adjunct alongside, not instead of, systemic therapy, and are not restricted to Gram-positive coverage (aminoglycosides are active against Gram-negative organisms). (Estrada, Borgatta & Rello, Infect Drug Resist 2016;9:7-18)"
+  },
+  {
+   "id": "pkpd_pc2_sa08",
+   "module": "Clinical Pharmacokinetics and Pharmacodynamics",
+   "type": "K",
+   "source": "sba_generated",
+   "section": "Aminoglycosides - summary",
+   "question": "Regarding the overall use of aminoglycosides in critically ill patients:",
+   "statements": [
+    {
+     "label": "A",
+     "text": "They are typically used as monotherapy in patients with shock or hypotension, rather than combined with other antibiotics",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "Large single daily doses are generally preferred over multiple smaller daily doses",
+     "correct": true
+    },
+    {
+     "label": "C",
+     "text": "Courses are typically continued well beyond 5-6 days in critically ill patients",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "Aerosolised delivery may allow use in hard-to-treat, resistant VAP organisms without the development of toxicity",
+     "correct": true
+    }
+   ],
+   "explanation": "Aminoglycosides are typically used together with a beta-lactam or fluoroquinolone, particularly in shock or hypotension, rather than as monotherapy. They are given as large single-daily doses, and are rarely continued for more than about 5-6 days given their toxicity profile. Therapeutic drug monitoring remains fundamental to avoiding nephro- and ototoxicity. Aerosolised delivery appears to be a rational option in ventilator-associated pneumonia caused by hard-to-treat or resistant organisms, allowing benefit without the toxicity seen with prolonged systemic exposure."
+  }
+ ]
 }
