@@ -1,0 +1,608 @@
+{
+  "module": "Haematological Emergencies in ICU Part I",
+  "sections": {},
+  "questions": [
+    {
+      "id": "haemicu1_a01",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Thrombotic thrombocytopenic purpura: Management",
+      "question": "A 34-year-old woman is admitted with fever, fluctuating confusion and purpura. Hb 78 g/L, platelets 18 x 10^9/L, LDH markedly raised, schistocytes on film, direct antiglobulin test negative, creatinine 130 µmol/L, INR 1.1. What is the most appropriate immediate management?",
+      "options": [
+        "Give intravenous immunoglobulin and repeat the blood film in 24 hours",
+        "Transfuse platelets to a count above 50 x 10^9/L before any other intervention",
+        "Start eculizumab immediately as complement-mediated microangiopathy is the most likely diagnosis",
+        "Send an ADAMTS13 activity assay and start plasma exchange with corticosteroids without waiting for the result",
+        "Withhold all treatment until the ADAMTS13 activity result is available to avoid treating the wrong microangiopathy"
+      ],
+      "correct": 3,
+      "explanation": "This is microangiopathic haemolytic anaemia with severe thrombocytopenia, neurological features and only mild renal impairment — the classical picture of TTP, which is a haematological emergency. The ADAMTS13 assay must be drawn before treatment or transfusion because plasma therapy invalidates it, but treatment must not wait for the result, since early plasma exchange plus steroids improves mortality. Complement inhibition is reserved for confirmed non-TTP microangiopathy (ADAMTS13 above 10%), and platelet transfusion is avoided unless there is significant bleeding because it can fuel further microthrombosis."
+    },
+    {
+      "id": "haemicu1_a02",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Thrombotic thrombocytopenic purpura: Diagnosis",
+      "question": "A 52-year-old woman is referred with anaemia, platelets 26 x 10^9/L and a creatinine of 140 µmol/L. The ADAMTS13 assay has been sent but will take days to return, and you are calculating a PLASMIC score to decide on empiric plasma exchange. Which of the following findings would score a point, favouring a diagnosis of TTP?",
+      "options": [
+        "Creatinine above 2 mg/dL (176.8 µmol/L)",
+        "Active malignancy",
+        "Mean corpuscular volume above 90 fL",
+        "Previous haematopoietic stem cell transplant",
+        "Platelet count below 30 x 10^9/L"
+      ],
+      "correct": 4,
+      "explanation": "The PLASMIC score awards one point each for platelets below 30 x 10^9/L, MCV below 90 fL, creatinine below 2 mg/dL, INR below 1.5, evidence of haemolysis, no active malignancy and no history of stem cell or solid organ transplant — a total of 0 to 7, with 5 to 7 indicating a high probability of TTP that may justify empiric plasma exchange. Each of the other options is the inverse of a scoring criterion and therefore argues against TTP rather than for it. The score is decision support, not a stand-alone diagnostic test."
+    },
+    {
+      "id": "haemicu1_a03",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Thrombotic thrombocytopenic purpura: Management",
+      "question": "A patient with confirmed acute TTP is stable on plasma exchange with a platelet count of 62 x 10^9/L and is not bleeding. All of the following are appropriate components of management EXCEPT:",
+      "options": [
+        "Prophylactic platelet transfusion",
+        "Prophylactic low molecular weight heparin",
+        "Solvent/detergent-treated plasma such as Octaplas for the exchange fluid",
+        "Low-dose aspirin, particularly if caplacizumab is being used",
+        "Methylprednisolone alongside plasma exchange"
+      ],
+      "correct": 0,
+      "explanation": "All blood products other than plasma are avoided in acute TTP: platelets are given only for significant bleeding, and red cells only if the haemoglobin is below about 7 g/dL with symptoms. Once the platelet count exceeds 50 x 10^9/L, thromboprophylaxis with low molecular weight heparin and low-dose aspirin become appropriate, and steroids are given routinely with exchange. Transfusing platelets prophylactically into an ongoing microthrombotic process risks fuelling it without treating the underlying ADAMTS13 deficiency."
+    },
+    {
+      "id": "haemicu1_a04",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Thrombotic thrombocytopenic purpura: Differential diagnosis",
+      "question": "A patient presents with microangiopathic haemolysis, thrombocytopenia and dialysis-dependent acute kidney injury. The pre-treatment ADAMTS13 activity returns at 45%. Which conclusion is best supported?",
+      "options": [
+        "TTP is effectively excluded; pursue a complement-mediated or secondary cause",
+        "The result confirms congenital TTP, for which plasma infusion is the definitive treatment",
+        "TTP remains the most likely diagnosis and plasma exchange should be continued indefinitely",
+        "The result is uninterpretable and the assay must be repeated after several days of plasma exchange",
+        "The severity of the renal failure means the ADAMTS13 result can be disregarded"
+      ],
+      "correct": 0,
+      "explanation": "Severe deficiency, conventionally activity below 10%, is what defines TTP; an activity above 10% points away from TTP towards atypical HUS, secondary microangiopathy from a concurrent illness, or another cause. This distinction is the gate for complement inhibition, since eculizumab should only be started once ADAMTS13 activity is confirmed above 10%. Prominent dialysis-requiring renal failure also fits better with atypical HUS, because renal involvement in TTP tends to be milder than in the other microangiopathies. Repeating the assay after plasma exchange is futile, as exchange itself raises the measured activity."
+    },
+    {
+      "id": "haemicu1_a05",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Thrombotic thrombocytopenic purpura: Management",
+      "question": "A 41-year-old man with acquired TTP has ongoing seizures and a rising troponin despite two days of plasma exchange and high-dose steroids. Which additional agent directly targets the interaction between von Willebrand factor and platelets?",
+      "options": [
+        "Tranexamic acid",
+        "Caplacizumab",
+        "Rituximab",
+        "Eculizumab",
+        "Antithrombin III concentrate"
+      ],
+      "correct": 1,
+      "explanation": "Caplacizumab is an antibody fragment that blocks von Willebrand factor from binding platelets, and is used in severe disease, particularly with cardiac or neurological involvement. Rituximab is also used for refractory or relapsing acquired TTP, but it works by depleting the B cells producing anti-ADAMTS13 antibodies rather than by acting on the von Willebrand factor–platelet axis, so it does not give the rapid effect needed here. Eculizumab targets complement C5 and belongs to the treatment of atypical HUS."
+    },
+    {
+      "id": "haemicu1_k01",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Thrombotic thrombocytopenic purpura: Signs and Symptoms",
+      "question": "Regarding the clinical features and epidemiology of thrombotic thrombocytopenic purpura, decide whether each statement is true or false.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Congenital TTP accounts for approximately 5% of adult cases.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The classical pentad of features is present at presentation in the majority of patients.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Acute kidney injury occurs in around half of cases and is typically milder than in other thrombotic microangiopathies.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "TTP is approximately twice as common in men as in women.",
+          "correct": false
+        }
+      ],
+      "explanation": "The full pentad of microangiopathic haemolysis, thrombocytopenia, neurological signs, acute kidney injury and fever is seen in only about 5% of patients, which is precisely why waiting for it delays life-saving treatment. Congenital TTP dominates in children but causes only around 5% of adult cases, the rest being acquired autoantibody-mediated disease. Renal involvement affects roughly half of patients and is characteristically less severe than in atypical or Shiga toxin-related HUS. The sex distribution runs the other way: the disease is about twice as common in women, typically presenting between 20 and 50 years of age."
+    },
+    {
+      "id": "haemicu1_k02",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Thrombotic thrombocytopenic purpura: Management",
+      "question": "Regarding plasma exchange and outcome in thrombotic thrombocytopenic purpura, decide whether each statement is true or false.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Untreated TTP carries a mortality of approximately 30%.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Exchange is continued until the platelet count remains above 150 x 10^9/L for two days.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Plasma exchange both replenishes ADAMTS13 and removes the causative autoantibodies.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Shiga toxin-associated (typical) haemolytic uraemic syndrome also requires urgent plasma exchange.",
+          "correct": false
+        }
+      ],
+      "explanation": "Exchange achieves two things simultaneously — it supplies functional ADAMTS13 and removes the inhibitory autoantibody — which is why simple plasma infusion is inferior and why exchange is continued until the platelet count has been above 150 x 10^9/L for two days. Typical Shiga toxin-related HUS is normally managed supportively, whereas complement-mediated atypical HUS needs eculizumab; treating all microangiopathies with exchange reflects a failure to distinguish between them. The mortality figures are far starker than 30%: around 80% respond to initial treatment with a post-treatment mortality of 10 to 15%, but untreated disease kills more than 90% of patients."
+    },
+    {
+      "id": "haemicu1_a06",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Atypical haemolytic uremic syndrome: Treatment (in the acute phase) and prognosis",
+      "question": "A 28-year-old woman develops microangiopathic haemolysis, platelets 45 x 10^9/L and oligoanuric acute kidney injury three days after delivery. Stool PCR for Shiga toxin genes is negative and ADAMTS13 activity is 62%. What is the first-line disease-specific treatment?",
+      "options": [
+        "Eculizumab",
+        "Supportive care and renal replacement therapy alone",
+        "Daily therapeutic plasma exchange continued for at least 14 days",
+        "Cyclophosphamide with pulsed methylprednisolone",
+        "Rituximab"
+      ],
+      "correct": 0,
+      "explanation": "With Shiga toxin excluded and ADAMTS13 activity well above 10%, this postpartum microangiopathy with dominant renal failure is atypical HUS, for which the first-line agent is the anti-C5 monoclonal antibody eculizumab; it has cut the risk of end-stage renal disease or death from around 50% to between 6 and 15% at one to two years. Plasma therapy was the mainstay before 2011 and is still used as a temporising measure while the diagnosis is clarified, but it does not reliably arrest complement-mediated organ damage. Steroids and immunosuppression are reserved for the subgroup with anti-factor H antibodies."
+    },
+    {
+      "id": "haemicu1_a07",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Atypical haemolytic uremic syndrome: Treatment (in the acute phase) and prognosis",
+      "question": "A patient is about to start C5 inhibition for atypical HUS on the ICU. Which infection-related precaution is most important?",
+      "options": [
+        "Routine antifungal prophylaxis for the duration of treatment",
+        "Prophylaxis against Pneumocystis jirovecii for six months",
+        "Antibiotic prophylaxis against encapsulated organisms",
+        "No specific prophylaxis, as C5 blockade does not affect infection risk",
+        "A single dose of meningococcal vaccine, after which no further prophylaxis is needed"
+      ],
+      "correct": 2,
+      "explanation": "Blocking C5 removes the membrane attack complex and leaves the patient highly susceptible to encapsulated organisms, above all Neisseria meningitidis. Vaccination is recommended but in the acute setting there is often no time to give it or to allow a response to develop, so antibiotic prophylaxis carries the burden — continued throughout treatment and for up to two months after stopping, or at least two weeks after vaccination. Relying on vaccination alone leaves an unprotected window at exactly the point of greatest risk. Fungal and Pneumocystis prophylaxis relate to other forms of immunosuppression, not to terminal complement blockade."
+    },
+    {
+      "id": "haemicu1_a08",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Atypical haemolytic uremic syndrome: Pathophysiology",
+      "question": "A 31-year-old man is diagnosed with atypical haemolytic uraemic syndrome and genetic testing is arranged for prognosis and family counselling. Which gene is most commonly mutated in this condition?",
+      "options": [
+        "THBD (thrombomodulin)",
+        "CFH (complement factor H)",
+        "CFI (complement factor I)",
+        "CD46 (membrane cofactor protein)",
+        "DGKE (diacylglycerol kinase epsilon)"
+      ],
+      "correct": 1,
+      "explanation": "Loss-of-function mutations in complement factor H are the commonest identified genetic driver of atypical HUS; factor H is the principal fluid-phase regulator restraining the alternative pathway, so losing it permits unchecked complement activation on endothelium. Membrane cofactor protein, factor I, thrombomodulin and DGKE mutations all occur but are less frequent, while gain-of-function mutations in C3 and factor B act by the mirror-image mechanism of excessive activation rather than failed regulation. A mutation is identified in only about half to sixty per cent of patients."
+    },
+    {
+      "id": "haemicu1_a09",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Atypical haemolytic uremic syndrome: Diagnostic workup and differential diagnoses",
+      "question": "Which of the following statements about the diagnosis of atypical haemolytic uraemic syndrome is NOT correct?",
+      "options": [
+        "It remains a diagnosis of exclusion requiring systematic exclusion of TTP and Shiga toxin-associated HUS",
+        "Complement protein levels are more useful for later confirmation than for acute decisions",
+        "Treatment should be started within 24 hours where suspicion is high, before confirmatory results return",
+        "The absence of a detectable complement gene mutation excludes the diagnosis",
+        "A history of prodromal diarrhoea does not exclude the diagnosis"
+      ],
+      "correct": 3,
+      "explanation": "Between 30 and 40% of patients with atypical HUS have neither a detectable complement gene mutation nor autoantibodies, so a negative genetic workup cannot exclude the diagnosis and must not delay treatment; genetic testing is more useful for prognosis, treatment duration and family counselling. The diagnosis rests on excluding TTP and Shiga toxin-related HUS while treating empirically within 24 hours when suspicion is high. Prodromal diarrhoea occurs in up to 28% of cases, so its presence is a classic trap rather than a discriminator, and complement protein levels take too long to guide the acute decision."
+    },
+    {
+      "id": "haemicu1_k03",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Atypical haemolytic uremic syndrome: Pathophysiology",
+      "question": "Regarding the pathophysiology and diagnosis of atypical haemolytic uraemic syndrome, decide whether each statement is true or false.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Most causative mutations are familial rather than sporadic.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Eculizumab should only be commenced once ADAMTS13 activity has been confirmed above 10%.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Renal biopsy histology reliably distinguishes atypical HUS from Shiga toxin-associated HUS.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Autoantibodies against complement regulatory proteins are found in up to 10% of cases.",
+          "correct": true
+        }
+      ],
+      "explanation": "Anti-factor H antibodies account for roughly one in ten cases and identify the subgroup in whom steroids and immunosuppression are added. Histology cannot separate the microangiopathies: biopsies from typical and atypical HUS are indistinguishable, and the aetiology cannot be determined from histopathology alone. Confirming ADAMTS13 activity above 10% is the necessary step before complement inhibition, because a severely deficient patient needs plasma exchange for TTP instead. Most mutations arise sporadically rather than being inherited within families, and they carry incomplete penetrance, which is why a second hit such as infection, pregnancy or malignancy is usually needed to unmask disease."
+    },
+    {
+      "id": "haemicu1_k04",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Atypical haemolytic uremic syndrome: Treatment (in the acute phase) and prognosis",
+      "question": "Regarding atypical haemolytic uraemic syndrome in the intensive care unit, decide whether each statement is true or false.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Platelet transfusion should be given routinely to keep the count above 50 x 10^9/L.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "It accounts for approximately 10% of all cases of haemolytic uraemic syndrome.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Confirmed genetic testing results are required before complement inhibition can be started.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Ravulizumab provides more prolonged C5 inhibition than eculizumab but is not commonly used acutely.",
+          "correct": true
+        }
+      ],
+      "explanation": "Atypical disease makes up around a tenth of HUS cases, the remainder being predominantly Shiga toxin-associated. Platelet infusion is contraindicated unless the patient is bleeding, faces an at-risk procedure, or is severely thrombocytopenic below about 30 x 10^9/L — a routine threshold of 50 would mean transfusing into an active microthrombotic process. Ravulizumab is the next-generation C5 inhibitor with extended duration of action and comparable efficacy and safety, but the acute setting still generally uses eculizumab. Waiting for genetic results before treating would be indefensible, since expert consensus is to treat within 24 hours of high suspicion and a third of patients have no identifiable mutation at all."
+    },
+    {
+      "id": "haemicu1_a10",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Disseminated intravascular coagulopathy: Diagnosing DIC",
+      "question": "A patient with severe pneumonia has platelets 45 x 10^9/L, INR 1.8, fibrinogen 0.9 g/L and a D-dimer more than ten times the upper limit of normal. What is the ISTH DIC score, and how should it be interpreted?",
+      "options": [
+        "5 — borderline, requiring thromboelastography before any conclusion",
+        "The score cannot be calculated without an activated partial thromboplastin time",
+        "4 — DIC is excluded",
+        "8 — compatible with overt DIC",
+        "8 — below the diagnostic threshold, so repeat testing tomorrow"
+      ],
+      "correct": 3,
+      "explanation": "The ISTH score awards 2 points for a platelet count below 50 x 10^9/L, 2 for an INR above 1.7, 1 for a fibrinogen below 100 mg/dL (1 g/L) and 3 for a strong D-dimer rise above ten times normal, totalling 8. Any score of 5 or more in the presence of a recognised precipitant such as sepsis is compatible with overt DIC. The APTT is not part of the score — the ISTH deliberately uses the prothrombin time instead — and daily repeat testing is for tracking trajectory or response, not for a result already well above threshold."
+    },
+    {
+      "id": "haemicu1_a11",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Disseminated intravascular coagulopathy: Diagnosing DIC",
+      "question": "Why does the ISTH scoring system use the prothrombin time rather than the activated partial thromboplastin time?",
+      "options": [
+        "The APTT cannot be measured reliably in the presence of a raised D-dimer",
+        "It reflects the extrinsic pathway and factor VII, mirroring tissue factor-driven initiation",
+        "The prothrombin time specifically quantifies the degree of hyperfibrinolysis",
+        "The APTT is unaffected by clotting factor consumption in DIC",
+        "The prothrombin time is the only coagulation test that is prolonged before organ failure develops"
+      ],
+      "correct": 1,
+      "explanation": "The prothrombin time interrogates the extrinsic pathway and factor VII activity, and tissue factor exposure with factor VIIa complex formation is the initiation step common to every phenotype of DIC, from the fibrinolysis-suppressed thrombotic form through to hyperfibrinolytic bleeding. The APTT would also be expected to rise in overt DIC as intrinsic factors are consumed, so it is informative but was not chosen as the scored parameter. Neither test measures fibrinolysis; that is the role of the D-dimer or fibrin degradation products component."
+    },
+    {
+      "id": "haemicu1_a12",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Disseminated intravascular coagulopathy: Rational Management of DIC in the Light of Trial Data",
+      "question": "A patient with sepsis-related DIC has a stable, non-bleeding, balanced phenotype with platelets 22 x 10^9/L and no planned procedures. What is the recommended approach to platelet transfusion?",
+      "options": [
+        "Transfuse to maintain the count above 30 x 10^9/L",
+        "Transfuse together with fresh frozen plasma to normalise the prothrombin time",
+        "Transfuse to maintain the count above 50 x 10^9/L",
+        "Transfuse platelets and give tranexamic acid to reduce the risk of spontaneous bleeding",
+        "Withhold transfusion; the threshold in this setting is 10 x 10^9/L or below"
+      ],
+      "correct": 4,
+      "explanation": "In balanced or thrombotic DIC without bleeding, the transfusion trigger is around 10 x 10^9/L; a threshold of 50 belongs to overt bleeding or a perceived high risk of it, such as before an invasive procedure. Correcting abnormal coagulation results for their own sake is not recommended in the absence of bleeding, high bleeding risk or a planned intervention, so plasma to normalise the prothrombin time is not indicated here. Tranexamic acid is reserved for life-threatening non-variceal haemorrhage or demonstrated hyperfibrinolysis and would be actively unhelpful in a thrombotic phenotype."
+    },
+    {
+      "id": "haemicu1_a13",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Disseminated intravascular coagulopathy: Understanding DIC",
+      "question": "A patient with septic shock develops overt DIC. Endothelial thrombomodulin and endothelial protein C receptor expression are known to be downregulated in this setting. Which mechanism represents the major intrinsic anticoagulant pathway that is thereby lost?",
+      "options": [
+        "Antithrombin III neutralising thrombin to form thrombin-antithrombin complexes",
+        "Tissue factor pathway inhibitor binding factor Xa and factor VIIa",
+        "Thrombin with thrombomodulin and the endothelial protein C receptor, generating activated protein C",
+        "ADAMTS13 cleaving von Willebrand factor multimers",
+        "Plasminogen activator inhibitor-1 suppressing tissue plasminogen activator"
+      ],
+      "correct": 2,
+      "explanation": "Thrombin bound to endothelial thrombomodulin and the endothelial protein C receptor converts protein C to activated protein C, a potent inhibitor of factors Va and VIIIa — the principal built-in brake, and one that is lost in sepsis because thrombomodulin and the receptor are downregulated. Tissue factor pathway inhibitor and antithrombin III are genuine anticoagulant mechanisms and plausible near-misses, but neither is described as the major pathway. ADAMTS13 acts on platelet adhesion rather than the coagulation cascade, and plasminogen activator inhibitor-1 is prothrombotic because it suppresses fibrinolysis."
+    },
+    {
+      "id": "haemicu1_a14",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Disseminated intravascular coagulopathy: Rational Management of DIC in the Light of Trial Data",
+      "question": "Which statement best reflects the trial evidence for DIC-directed therapies in critically ill adults?",
+      "options": [
+        "Aspirin given during sepsis reduces mortality in patients with coagulation activation",
+        "Most randomised trials in this field enrolled only patients with confirmed DIC, giving high-quality DIC-specific evidence",
+        "Recombinant activated protein C increased bleeding without improving mortality on retesting",
+        "Soluble thrombomodulin is now standard of care worldwide following a positive phase III trial",
+        "Antithrombin III concentrate has established a consistent mortality benefit in sepsis-associated DIC"
+      ],
+      "correct": 2,
+      "explanation": "Early trials of activated protein C were positive, but on repeat testing in the subgroups predicted to gain most it produced significantly more bleeding with no mortality benefit — a pattern also seen with antithrombin III and soluble thrombomodulin, neither of which showed efficacy and neither of which is mainstream outside Japan. Aspirin has failed to show benefit whether given before sepsis, in ARDS or during sepsis. The central caveat is that most trials mixed patients with and without DIC, so there is remarkably little primary evidence about DIC itself, and post-hoc signals in biomarker-defined subgroups remain hypothesis-generating."
+    },
+    {
+      "id": "haemicu1_k05",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Disseminated intravascular coagulopathy: Background",
+      "question": "Regarding the presentation and epidemiology of disseminated intravascular coagulation in intensive care, decide whether each statement is true or false.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Sepsis and trauma are the commonest precipitants in the critically ill population.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "DIC is an independent risk factor for mortality rather than merely a marker of illness severity.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Major bleeding is the presenting manifestation in the majority of patients with DIC.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Acute promyelocytic leukaemia is a recognised haematological precipitant.",
+          "correct": true
+        }
+      ],
+      "explanation": "Sepsis and trauma dominate as causes in intensive care, while obstetric catastrophes, malignancy — acute promyelocytic leukaemia and adenocarcinomas in particular — massive transfusion and sterile necrosis make up much of the remainder. Bleeding is the most visible manifestation but not the commonest: major bleeding occurs in only 5 to 12% of cases, because DIC forms a spectrum running from fibrinolysis-suppressed thrombotic forms through to hyperfibrinolytic bleeding, with thrombotic and mixed presentations at least as frequent. Critically, DIC carries an independent association with death even after accounting for illness severity, which is what makes it a potential therapeutic target rather than an epiphenomenon."
+    },
+    {
+      "id": "haemicu1_k06",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Disseminated intravascular coagulopathy: Understanding DIC",
+      "question": "Regarding the physiology of clotting and its dysregulation in disseminated intravascular coagulation, decide whether each statement is true or false.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A high factor VIII level reliably distinguishes liver-related coagulopathy from overt DIC.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Tissue factor is normally located subendothelially and concealed from circulating clotting factors.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Plasminogen activator inhibitor-1 promotes fibrinolysis and its rise in sepsis predisposes to bleeding.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Antithrombin III inactivates thrombin and also intrinsic pathway factors IXa through XIIa.",
+          "correct": true
+        }
+      ],
+      "explanation": "Concealment of tissue factor beneath the endothelium is the anatomical barrier that localises coagulation; its widespread exposure, or its delivery on circulating microparticles from necrotic or malignant cells, is what permits dissemination. Plasminogen activator inhibitor-1 does the opposite of promoting fibrinolysis — it inhibits tissue and urokinase plasminogen activators, so the raised levels seen in sepsis and late after trauma favour thrombosis. Factor VIII is synthesised by endothelium rather than hepatocytes, so theory predicts it should stay high in liver disease and fall in consumptive DIC, but in practice it does not discriminate reliably. Antithrombin III, potentiated by endothelial heparan sulfates and by pharmacological heparins, neutralises thrombin and the intrinsic factors, and its levels commonly fall in critical illness."
+    },
+    {
+      "id": "haemicu1_a15",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Catastrophic antiphospholipid antibody syndrome: Management",
+      "question": "A 29-year-old woman with known SLE develops renal failure, a cerebral infarct and pulmonary microvascular occlusion over four days. Lupus anticoagulant is positive and catastrophic antiphospholipid syndrome is strongly suspected. What is the first-line management?",
+      "options": [
+        "Antiplatelet therapy with high-dose aspirin and supportive care",
+        "Therapeutic anticoagulation alone, withholding immunosuppression until aPL titres are confirmed at 12 weeks",
+        "Cyclophosphamide alone, given the underlying SLE",
+        "Rituximab combined with eculizumab as initial therapy",
+        "Therapeutic anticoagulation, corticosteroids and plasma exchange or immunoglobulin"
+      ],
+      "correct": 4,
+      "explanation": "The mainstay is so-called triple therapy — therapeutic anticoagulation to address the hypercoagulable state, corticosteroids to suppress inflammation, and plasma exchange or immunoglobulin to remove circulating antibodies and complement proteins — started as soon as there is diagnostic suspicion, together with treatment of the trigger. Waiting 12 weeks for confirmatory antibody titres is impractical and potentially fatal, which is why the formal CAPS definition criteria are explicitly not intended for emergency diagnosis. Cyclophosphamide, rituximab and eculizumab belong to refractory disease that fails to respond to triple therapy."
+    },
+    {
+      "id": "haemicu1_a16",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Catastrophic antiphospholipid antibody syndrome: Management",
+      "question": "A patient with catastrophic antiphospholipid syndrome is started on unfractionated heparin. The baseline APTT is already prolonged. How should the adequacy of anticoagulation best be monitored?",
+      "options": [
+        "APTT ratio, accepting a higher target range",
+        "Anti-Xa levels",
+        "Prothrombin time and INR",
+        "Thromboelastography clot amplitude",
+        "Serial fibrinogen and D-dimer measurement"
+      ],
+      "correct": 1,
+      "explanation": "Lupus anticoagulant prolongs the APTT in vitro despite the patient being profoundly prothrombotic in vivo, so an APTT-based target is unreliable and risks either under- or over-dosing; anti-Xa levels should be used instead. Unfractionated heparin is the preferred initial agent because of its additional anti-inflammatory and complement-inhibitory effects, with later conversion to warfarin, while direct oral anticoagulants are avoided because of increased thrombotic events. The INR reflects the extrinsic pathway and is not a measure of heparin effect."
+    },
+    {
+      "id": "haemicu1_a17",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Catastrophic antiphospholipid antibody syndrome: Signs and Symptoms",
+      "question": "Which organ system is most frequently involved in catastrophic antiphospholipid syndrome?",
+      "options": [
+        "Pulmonary",
+        "Cardiac",
+        "Gastrointestinal",
+        "Renal",
+        "Central nervous system"
+      ],
+      "correct": 3,
+      "explanation": "The kidneys are affected in around three-quarters of cases, followed by the central nervous system, lungs and heart, each in the region of half of patients. Skin, liver and peripheral vessel involvement are less frequent, and gastrointestinal involvement is the least common at roughly one in eight. The breadth of possible involvement is exactly why the syndrome is so often mistaken for sepsis or another multi-organ process, and why urinalysis showing proteinuria or haematuria is a useful early pointer."
+    },
+    {
+      "id": "haemicu1_a18",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Catastrophic antiphospholipid antibody syndrome: Definition",
+      "question": "Which of the following is NOT one of the four criteria required for a diagnosis of definite catastrophic antiphospholipid syndrome?",
+      "options": [
+        "Persistent thrombocytopenia below 50 x 10^9/L",
+        "Laboratory confirmation of antiphospholipid antibodies at least 12 weeks apart",
+        "Evidence of involvement of three or more organs, systems or tissues",
+        "Development of manifestations simultaneously or in less than one week",
+        "Histopathological confirmation of small vessel occlusion in at least one organ or tissue"
+      ],
+      "correct": 0,
+      "explanation": "Definite disease requires all four of the following: at least three organs or systems involved, manifestations appearing simultaneously or within a week, histopathological confirmation of small vessel occlusion, and antibody confirmation 12 weeks apart. Thrombocytopenia is a common accompaniment and a diagnostic complication because it constrains anticoagulation, but it is not a defining criterion. Probable disease covers the near-misses, such as only two organs involved, or the absence of repeat antibody confirmation because the patient died early. These criteria are for classification, not for emergency bedside diagnosis."
+    },
+    {
+      "id": "haemicu1_a19",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Catastrophic antiphospholipid antibody syndrome: Investigations",
+      "question": "A 46-year-old man on the ICU has multi-site thrombosis, thrombocytopenia, schistocytes, raised LDH and low haptoglobin. Fibrinogen is normal and D-dimer markedly raised. Which investigation is most important in distinguishing the leading differential diagnoses?",
+      "options": [
+        "Bone marrow aspirate and trephine",
+        "Anti-nuclear antibody titre",
+        "ADAMTS13 activity, drawn before any plasma or transfusion is given",
+        "Serum complement C3 and C4 levels",
+        "Repeat blood film in 24 hours"
+      ],
+      "correct": 2,
+      "explanation": "This is a thrombotic microangiopathy picture in which TTP is the key differential to exclude, and ADAMTS13 activity must be sampled before plasma exchange or transfusion or the result becomes uninterpretable. A normal fibrinogen argues somewhat against DIC, where consumption is expected, though a simultaneously prolonged prothrombin time would raise that possibility. Complement levels and autoantibody titres are part of the wider workup but return too slowly and too non-specifically to drive the immediate decision, and antiphospholipid antibodies can be falsely negative during an acute thrombotic event."
+    },
+    {
+      "id": "haemicu1_k07",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Catastrophic antiphospholipid antibody syndrome: Epidemiology",
+      "question": "Regarding catastrophic antiphospholipid syndrome, decide whether each statement is true or false.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The 2023 ACR/EULAR classification criteria provide diagnostic criteria specific to the catastrophic form.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Approximately 1% of patients with antiphospholipid syndrome will develop the catastrophic form.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Fibrinogen is characteristically markedly reduced, which helps separate it from disseminated intravascular coagulation.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "In up to half of patients it is the presenting manifestation of antiphospholipid syndrome.",
+          "correct": true
+        }
+      ],
+      "explanation": "Around one in a hundred patients with antiphospholipid syndrome progresses to the catastrophic form, and in up to half of these it is the first presentation, meaning a previous diagnosis cannot be relied upon as a prerequisite for suspicion. Fibrinogen is typically normal rather than low, with ferritin and D-dimer elevated; the low fibrinogen of consumption points towards DIC instead, so this is a diagnostic pointer in the opposite direction. The 2023 criteria refine the classification of antiphospholipid syndrome and do not mention the catastrophic form at all; they are primarily a research tool rather than an emergency diagnostic instrument."
+    },
+    {
+      "id": "haemicu1_k08",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Catastrophic antiphospholipid antibody syndrome: Prognosis",
+      "question": "Regarding triggers, treatment and outcome in catastrophic antiphospholipid syndrome, decide whether each statement is true or false.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Infection is the single commonest identified trigger.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Secondary disease associated with SLE carries a better prognosis than the primary form.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Overall mortality currently stands at approximately 37%.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Direct oral anticoagulants are the preferred initial anticoagulant.",
+          "correct": false
+        }
+      ],
+      "explanation": "About 60% of patients have an identifiable trigger, with infection accounting for 30 to 50% of cases, ahead of pregnancy, surgery or trauma, and malignancy; malignancy-triggered disease tends to occur in older patients and infection-triggered disease in younger ones. SLE-associated secondary disease does worse, not better, with a mortality near 48% against an overall figure of about 37% that has slowly fallen over the last decade. Unfractionated heparin is preferred initially because of its anti-inflammatory and complement-inhibitory effects, with later conversion to a vitamin K antagonist; direct oral anticoagulants are avoided because they are associated with more thrombotic events."
+    },
+    {
+      "id": "haemicu1_k09",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Thrombotic thrombocytopenic purpura: Differential diagnosis",
+      "question": "Regarding the differentiation of thrombotic microangiopathy syndromes in the critically ill, decide whether each statement is true or false.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Malignant hypertension is not a recognised cause of secondary thrombotic microangiopathy.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "ADAMTS13 activity below 10% is diagnostic of thrombotic thrombocytopenic purpura.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Severe vitamin B12 deficiency can produce thrombocytopenia with microangiopathic haemolytic anaemia.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Mechanical red cell fragmentation from a prosthetic valve or a transjugular intrahepatic portosystemic shunt requires urgent plasma exchange.",
+          "correct": false
+        }
+      ],
+      "explanation": "Severe ADAMTS13 deficiency is the defining laboratory finding in TTP and the gate that separates it from complement-mediated and secondary microangiopathies. Malignant hypertension is a well recognised secondary cause, alongside rheumatological disease, pregnancy, drugs such as quinine and calcineurin inhibitors, infection, malignancy and transplantation. Severe B12 deficiency is an important non-microangiopathic mimic that rarely produces the same blood picture and is worth excluding because the treatment is trivial by comparison. Mechanical fragmentation from prosthetic valves, cardiac assist devices or portosystemic shunts is likewise a mimic rather than a true microangiopathy, and plasma exchange has no role — the mechanical cause needs addressing."
+    }
+  ]
+}

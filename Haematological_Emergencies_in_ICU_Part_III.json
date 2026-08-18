@@ -1,0 +1,543 @@
+{
+  "module": "Haematological Emergencies in ICU Part III",
+  "sections": {},
+  "questions": [
+    {
+      "id": "haemicu3_a01",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Hemophagocytic lymphohistiocytosis: Diagnosis",
+      "question": "A 44-year-old woman on ICU has a persistent fever of 39.6°C, hepatosplenomegaly, pancytopenia, ferritin 14,000 µg/L, triglycerides 5.2 mmol/L, fibrinogen 1.8 g/L and rising transaminases. Blood cultures are repeatedly negative and she has not improved on broad-spectrum antimicrobials. What is the most likely diagnosis?",
+      "options": [
+        "Haemophagocytic lymphohistiocytosis",
+        "Catastrophic antiphospholipid syndrome",
+        "Culture-negative septic shock",
+        "Disseminated intravascular coagulation",
+        "Thrombotic thrombocytopenic purpura"
+      ],
+      "correct": 0,
+      "explanation": "Persistent high fever with organomegaly, multilineage cytopenias, striking hyperferritinaemia, hypertriglyceridaemia, hypofibrinogenaemia and transaminitis is the composite picture of HLH, and every one of those variables is an H-Score parameter. The failure to respond to antimicrobials with negative cultures is an important pointer, because the syndrome mimics sepsis closely enough that it is regularly missed in the ICU. Thrombotic thrombocytopenic purpura would show microangiopathic haemolysis with schistocytes rather than this inflammatory profile, and the low fibrinogen here reflects cytokine-driven consumption rather than the coagulation activation of DIC."
+    },
+    {
+      "id": "haemicu3_a02",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Hemophagocytic lymphohistiocytosis: Diagnosis",
+      "question": "An H-Score is calculated for a critically ill patient with suspected HLH. Which threshold and test performance is correct?",
+      "options": [
+        "Above 50, with sensitivity and specificity that have not been formally established",
+        "Above 250, with 93% sensitivity and 86% specificity",
+        "Above 100, with 75% sensitivity and specificity",
+        "Above 169, with approximately 93% sensitivity and 86% specificity",
+        "Above 169, with approximately 60% sensitivity and 99% specificity"
+      ],
+      "correct": 3,
+      "explanation": "A total H-Score exceeding 169 carries roughly 93% sensitivity and 86% specificity for HLH, which is what makes it usable as a bedside probability tool rather than a confirmatory test. Its parameters are temperature, organomegaly, number of cytopenias, triglycerides, fibrinogen, ferritin, AST, haemophagocytosis on marrow aspirate and known immunosuppression. The high sensitivity matters more than the specificity in this setting, because the cost of missing the diagnosis is a condition with ICU mortality above 50%."
+    },
+    {
+      "id": "haemicu3_a03",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Hemophagocytic lymphohistiocytosis: Diagnosis",
+      "question": "Why are the traditional HLH 2004 criteria considered less practical than the H-Score for a critically unwell adult on ICU?",
+      "options": [
+        "They can only be applied once the underlying trigger has been identified",
+        "They were validated only in patients with underlying rheumatological disease and adult-onset Still’s disease",
+        "They require a bone marrow biopsy, whereas the H-Score does not consider marrow findings",
+        "They demand serial measurements over a minimum of two weeks",
+        "They rely on slow-turnaround tests and were devised for a paediatric trial"
+      ],
+      "correct": 4,
+      "explanation": "The HLH 2004 criteria were originally devised for paediatric patients in a clinical trial and involve investigations whose turnaround times are too long for a deteriorating adult, which is precisely the gap the H-Score fills. Haemophagocytosis on marrow aspirate is in fact one of the H-Score parameters, so the distinction is not that one ignores the marrow. Waiting for the trigger to be identified would be self-defeating, since the trigger is often established only after treatment has begun, and delay in a syndrome with this mortality is what the bedside score is designed to avoid."
+    },
+    {
+      "id": "haemicu3_a04",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Hemophagocytic lymphohistiocytosis: Pathophysiology",
+      "question": "A 36-year-old man develops secondary HLH. Which infectious trigger is the most prevalent cause?",
+      "options": [
+        "Epstein-Barr virus",
+        "Plasmodium falciparum",
+        "Cytomegalovirus",
+        "Invasive aspergillosis",
+        "Visceral leishmaniasis"
+      ],
+      "correct": 0,
+      "explanation": "Infections are the commonest trigger of secondary HLH and Epstein-Barr virus dominates among them, which is also why rituximab is favoured in EBV-driven disease. The wider list of triggers is broad — other herpesviruses, hepatitis, HIV, parvovirus and influenza; mycobacteria, rickettsia, legionella and staphylococci; leishmaniasis, falciparum malaria and toxoplasma; and fungi including histoplasma, pneumocystis, candida and aspergillus. All of these are genuine causes, so the discrimination being tested is frequency rather than plausibility, and leishmaniasis deserves particular attention because it is treatable and clinically mimics HLH."
+    },
+    {
+      "id": "haemicu3_a05",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Hemophagocytic lymphohistiocytosis: Definition",
+      "question": "A rheumatologist refers a patient with adult-onset Still's disease who has developed macrophage activation syndrome. How does this relate to HLH?",
+      "options": [
+        "It is HLH induced by rheumatological disease, forming a recognised subset of the syndrome",
+        "It is the term used when HLH occurs in the absence of any identifiable trigger",
+        "It is a separate entity sharing no pathophysiological mechanism with HLH, despite the overlapping clinical picture",
+        "It denotes HLH arising specifically from a germline cytotoxic gene mutation",
+        "It refers to HLH occurring only after haematopoietic stem cell transplantation"
+      ],
+      "correct": 0,
+      "explanation": "Macrophage activation syndrome is HLH triggered by rheumatological disease and is treated as a subset of the syndrome rather than a distinct condition; systemic lupus erythematosus, juvenile rheumatoid arthritis and adult-onset Still's disease are the commoner associations. Familial disease driven by germline mutations affecting cytotoxic function is termed primary HLH, and the primary–secondary division is conventional rather than absolute, since adults with an apparent trigger frequently carry an underlying predisposition. Recognising the rheumatological subset matters because treatment must address the underlying disease alongside the hyperinflammation."
+    },
+    {
+      "id": "haemicu3_a06",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Hemophagocytic lymphohistiocytosis: Management",
+      "question": "A patient with malignancy-associated HLH fails to respond to corticosteroids and is started on etoposide. Which adverse effect profile should be anticipated?",
+      "options": [
+        "Hepatic veno-occlusive disease and pulmonary fibrosis",
+        "Myelosuppression, posterior reversible encephalopathy and later secondary leukaemia",
+        "Nephrotoxicity, hypertension, tremor and gingival hyperplasia",
+        "Meningococcal sepsis and haemolysis in G6PD deficiency",
+        "Cytokine release syndrome and neurotoxicity within 48 hours"
+      ],
+      "correct": 1,
+      "explanation": "Etoposide is a second-line agent used particularly in malignancy-associated disease, and its recognised toxicities are myelosuppression, posterior reversible encephalopathy syndrome and the later development of secondary leukaemia. The nephrotoxicity, hypertension and gingival hyperplasia profile belongs to ciclosporin, which is used in maintenance rather than induction, and meningococcal risk with G6PD-related haemolysis belongs to complement inhibitors and rasburicase respectively. Cytokine release syndrome is a feature of CAR-T therapy, which is itself a recognised trigger of HLH rather than a treatment for it."
+    },
+    {
+      "id": "haemicu3_a07",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Hemophagocytic lymphohistiocytosis: Differential diagnosis",
+      "question": "You are trying to distinguish HLH from septic shock in a patient with fever, cytopenias and multi-organ dysfunction. Which investigation is described as most helpful in making this distinction?",
+      "options": [
+        "Blood cultures, which are positive in most cases of HLH",
+        "An interleukin-2 level above 10,000 U/mL, which favours HLH",
+        "Procalcitonin, with a level above 10 ng/mL confirming HLH",
+        "Serum lactate, which stays normal in HLH but rises in septic shock",
+        "C-reactive protein, which is characteristically normal in HLH"
+      ],
+      "correct": 1,
+      "explanation": "Separating HLH from sepsis is genuinely difficult, and an interleukin-2 concentration exceeding 10,000 U/mL is the discriminator described as useful. C-reactive protein is significantly raised in HLH rather than normal, so it cannot be used to exclude the diagnosis, and marked hyperferritinaemia, while a hallmark, also occurs in malignancy, graft-versus-host disease, antiphospholipid syndrome and adult-onset Still's disease. The wider differential in a hyperinflammatory ICU patient includes sepsis, malignancy, autoimmune disease, liver disease, catastrophic antiphospholipid syndrome and DRESS."
+    },
+    {
+      "id": "haemicu3_a08",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Hemophagocytic lymphohistiocytosis: Diagnosis",
+      "question": "Which of the following is NOT one of the parameters used to calculate the H-Score?",
+      "options": [
+        "Serum triglycerides",
+        "Known underlying immunosuppression",
+        "Haemophagocytosis on bone marrow aspirate",
+        "Serum lactate dehydrogenase",
+        "Serum ferritin"
+      ],
+      "correct": 3,
+      "explanation": "The nine H-Score parameters are underlying immunosuppression, temperature, organomegaly, number of cytopenias, ferritin, triglycerides, fibrinogen, AST and haemophagocytosis on marrow aspirate. Lactate dehydrogenase is a useful marker of inflammation and is measured as part of the general workup, but it does not contribute points to the score — a good example of a test that is clinically relevant yet not part of the scoring instrument. Note also that AST rather than ALT is the transaminase used, at a threshold above 30 U/L."
+    },
+    {
+      "id": "haemicu3_k01",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Hemophagocytic lymphohistiocytosis: Pathophysiology",
+      "question": "Regarding the pathophysiology of haemophagocytic lymphohistiocytosis, decide whether each statement is true or false.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Haemophagocytosis, in which macrophages consume blood cells, is the defining histological feature.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Serum ferritin is characteristically normal or low in HLH.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "In adults, HLH is almost always purely genetic with no identifiable inflammatory trigger.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "In primary HLH, mutations impair the ability of natural killer cells and cytotoxic T lymphocytes to eliminate infected or aberrant cells.",
+          "correct": true
+        }
+      ],
+      "explanation": "Loss of cytotoxic function in NK cells and CD8 T lymphocytes prevents clearance of the antigenic stimulus, so immune activation continues unchecked and drives release of interferon-gamma, TNF-alpha and IL-6. Macrophages consuming erythrocytes, leukocytes and platelets is the defining histological finding, though obtaining marrow on ICU can be difficult. Marked hyperferritinaemia is a hallmark of the syndrome and ferritin levels correlate directly with mortality risk, so a normal ferritin argues strongly against the diagnosis. The genetic pattern runs the other way in adults: paediatric cases lean towards a genetic cause, while adults typically have a trigger acting on an underlying predisposition."
+    },
+    {
+      "id": "haemicu3_k02",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Hemophagocytic lymphohistiocytosis: Pathophysiology",
+      "question": "Regarding triggers of secondary haemophagocytic lymphohistiocytosis, decide whether each statement is true or false.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Fungal infections are not recognised as triggers.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Immune checkpoint inhibitors such as nivolumab and ipilimumab are recognised precipitants.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Only haematological malignancies can trigger HLH; solid tumours cannot.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Chimeric antigen receptor (CAR)-T therapy is a recognised precipitant.",
+          "correct": true
+        }
+      ],
+      "explanation": "Checkpoint inhibitors and CAR-T therapy are both recognised drug and treatment-related triggers, alongside lamotrigine, which is a useful one to know because it is otherwise unremarkable. Malignancy-associated disease is commonest with haematological cancers, particularly NK cell or T cell leukaemias and lymphomas, but some solid tumours are also implicated, and treatment itself — chemotherapy, stem cell transplant, novel immune therapies — can precipitate the syndrome. Fungal triggers are well described, including histoplasmosis, pneumocystis, candida and aspergillus species, which matters because the differential in an immunocompromised ICU patient is otherwise easily narrowed prematurely to bacterial sepsis."
+    },
+    {
+      "id": "haemicu3_k03",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Hemophagocytic lymphohistiocytosis: Management",
+      "question": "Regarding the treatment of haemophagocytic lymphohistiocytosis, decide whether each statement is true or false.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Rituximab is favoured in cases triggered by Epstein-Barr virus or autoimmune disease.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Treating the underlying trigger is unnecessary once immunosuppression has been started.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Haematopoietic stem cell transplantation has no role in the management of HLH.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Anakinra, an IL-1 receptor antagonist, may be used as an alternative or addition to steroids when the trigger is unclear.",
+          "correct": true
+        }
+      ],
+      "explanation": "Anakinra blocks IL-1 signalling and is a useful option when the trigger has not been established, while rituximab depletes B cells and is directed at EBV-driven and autoimmune-associated disease. Transplantation is reserved for primary HLH and for severe secondary disease refractory to immunosuppression, so it has a definite if narrow role. Management rests on three simultaneous strands — controlling the hyperinflammation, treating the trigger with antimicrobials, chemotherapy or disease-specific therapy, and supporting failing organs — and abandoning the trigger once steroids are running would leave the driving stimulus in place."
+    },
+    {
+      "id": "haemicu3_k04",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Hemophagocytic lymphohistiocytosis: Prognosis and outcomes",
+      "question": "Regarding the prognosis of haemophagocytic lymphohistiocytosis, decide whether each statement is true or false.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Malignancy-associated HLH carries a lower mortality than other forms.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Reported mortality in the ICU population ranges from approximately 52% to 68%.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Serum ferritin levels correlate directly with an elevated risk of mortality.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Once remission is achieved, relapse does not occur and follow-up is unnecessary.",
+          "correct": false
+        }
+      ],
+      "explanation": "Acute mortality is around 40% overall but rises to between 52% and 68% among ICU patients, reflecting the severity of organ dysfunction at that point. Malignancy-associated disease does considerably worse rather than better, with mortality exceeding 80% and five-year survival below 15%. Ferritin functions as both a diagnostic and prognostic marker, with higher levels tracking mortality risk, and shock or severe thrombocytopenia identify particularly vulnerable patients. Relapses and treatment-related complications both occur, so sustained monitoring and long-term follow-up are part of care rather than optional extras."
+    },
+    {
+      "id": "haemicu3_a09",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Tumour lysis syndrome: Definition",
+      "question": "According to the 2004 Cairo-Bishop definition, what distinguishes clinical from laboratory tumour lysis syndrome?",
+      "options": [
+        "The presence of three rather than two biochemical abnormalities",
+        "Laboratory TLS plus creatinine ≥1.5 x ULN, arrhythmia, seizure or death",
+        "Laboratory TLS arising more than 7 days after the start of anti-tumour treatment",
+        "Laboratory TLS plus any degree of oliguria lasting more than six hours",
+        "Laboratory TLS occurring spontaneously rather than after treatment"
+      ],
+      "correct": 1,
+      "explanation": "Laboratory TLS requires two or more of raised uric acid, potassium or phosphate, or a fall in calcium, arising from three days before to seven days after treatment starts. Clinical TLS adds an end-organ consequence: creatinine at least 1.5 times the upper limit of normal, cardiac arrhythmia, seizure or sudden death. The number of biochemical abnormalities does not change between the two categories, and spontaneous TLS — which does occur without any treatment trigger — is classified by the same criteria rather than forming a separate category."
+    },
+    {
+      "id": "haemicu3_a10",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Tumour lysis syndrome: Management",
+      "question": "A 58-year-old man with Burkitt's lymphoma, bulky disease and LDH three times the upper limit of normal is due to start chemotherapy tomorrow. He is stratified as high risk for tumour lysis syndrome. What prophylaxis is indicated?",
+      "options": [
+        "Allopurinol for 7 days with increased hydration",
+        "Careful monitoring with a low threshold for intravenous fluids only",
+        "Rasburicase together with increased hydration",
+        "Haemodialysis",
+        "Febuxostat 120 mg daily started two days before treatment"
+      ],
+      "correct": 2,
+      "explanation": "Risk stratification drives prophylaxis: low-risk patients need monitoring with a low threshold for fluids and consideration of allopurinol, intermediate-risk patients receive seven days of allopurinol with increased hydration, and high-risk patients receive rasburicase with increased hydration. Allopurinol only prevents further urate formation by inhibiting xanthine oxidase, whereas rasburicase actively degrades existing uric acid — a decisive advantage when a large tumour burden is about to lyse. Febuxostat is reserved for patients in whom both allopurinol and rasburicase are contraindicated, and its evidence base is less robust."
+    },
+    {
+      "id": "haemicu3_a11",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Tumour lysis syndrome: Management",
+      "question": "A patient with high-risk tumour lysis syndrome is found to have G6PD deficiency. How should this alter pharmacological management?",
+      "options": [
+        "Allopurinol becomes contraindicated and rasburicase is the only remaining option",
+        "G6PD deficiency has no bearing on the choice of urate-lowering therapy",
+        "Both allopurinol and rasburicase are contraindicated, leaving only kidney replacement therapy",
+        "Rasburicase may be given at half the usual dose with close haemolysis monitoring",
+        "Rasburicase is contraindicated, so allopurinol or febuxostat should be used instead"
+      ],
+      "correct": 4,
+      "explanation": "Rasburicase is contraindicated in G6PD deficiency, alongside known rasburicase allergy, because the hydrogen peroxide generated as urate is oxidised to allantoin precipitates severe haemolysis in patients unable to regenerate reduced glutathione. Allopurinol is the second-line treatment option in exactly this situation, and febuxostat is available where both other agents are unsuitable. Dose reduction does not mitigate the mechanism, so it is not an acceptable compromise."
+    },
+    {
+      "id": "haemicu3_a12",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Tumour lysis syndrome: Pathophysiology",
+      "question": "By what mechanism does rasburicase lower uric acid, and why is this effective?",
+      "options": [
+        "It binds uric acid in the gut, preventing its enteral reabsorption",
+        "It is a non-purine selective inhibitor of guanine deaminase",
+        "It is a xanthine oxidase inhibitor preventing conversion of hypoxanthine to xanthine",
+        "It is a recombinant urate oxidase, converting uric acid to the more soluble allantoin",
+        "It alkalinises the urine, raising the solubility of uric acid within the renal tubules and preventing crystal formation"
+      ],
+      "correct": 3,
+      "explanation": "Urate oxidase converts uric acid to allantoin, which is considerably more soluble and readily excreted by the kidney; humans lack this enzyme naturally, so the recombinant form adds a metabolic step that does not otherwise exist. That is why it lowers a uric acid burden that has already formed, in contrast to allopurinol and febuxostat, which inhibit xanthine oxidase and therefore only prevent further production from hypoxanthine and xanthine. The therapeutic relevance of solubility is direct: uric acid precipitating in the renal tubules causes obstruction and renal injury."
+    },
+    {
+      "id": "haemicu3_a13",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Tumour lysis syndrome: Management",
+      "question": "A patient with established tumour lysis syndrome has a corrected calcium of 1.70 mmol/L but no neuromuscular symptoms, tetany or arrhythmia. What is the recommended approach?",
+      "options": [
+        "Give oral calcium with activated vitamin D to correct the level gradually over several days",
+        "Start kidney replacement therapy solely to correct the calcium",
+        "Give intravenous calcium gluconate to normalise the biochemistry",
+        "Give intravenous calcium chloride and repeat until the level exceeds 2.0 mmol/L",
+        "Withhold calcium replacement, given the risk of phosphate deposition"
+      ],
+      "correct": 4,
+      "explanation": "Asymptomatic hypocalcaemia in TLS should not be treated, because giving calcium in the presence of hyperphosphataemia promotes calcium phosphate precipitation in the renal tubules and occasionally in the cardiac conduction system. When symptoms such as tetany, seizures or arrhythmia do occur, treatment aims at symptom control rather than normalising the number — the same distinction, applied in the opposite direction. The hypocalcaemia is secondary to hyperphosphataemia, so the effective approach is prevention through prompt hydration and rasburicase."
+    },
+    {
+      "id": "haemicu3_a14",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Tumour lysis syndrome: Management",
+      "question": "A patient with tumour lysis syndrome develops refractory hyperkalaemia and worsening fluid overload despite rasburicase, hydration and standard medical therapy. Which form of kidney replacement therapy is specifically NOT recommended here?",
+      "options": [
+        "Haemodiafiltration",
+        "Peritoneal dialysis",
+        "Continuous haemofiltration",
+        "Intermittent haemodialysis",
+        "Continuous venovenous haemodialysis"
+      ],
+      "correct": 1,
+      "explanation": "Peritoneal dialysis is not recommended in tumour lysis syndrome because its clearance rates are relatively slow, and the problem here is a rapidly accumulating solute load. Haemofiltration, haemodiafiltration and haemodialysis are all acceptable. Kidney replacement therapy is indicated once pharmacological therapy, hydration and electrolyte management have failed to prevent renal deterioration, significant fluid overload or significant electrolyte derangement, and it may also be started pre-emptively in anticipation of hazardous tumour lysis."
+    },
+    {
+      "id": "haemicu3_a15",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Tumour lysis syndrome: Management",
+      "question": "An adult with established tumour lysis syndrome is being fluid resuscitated. Which statement about hydration is correct?",
+      "options": [
+        "Use hypotonic dextrose solutions to promote free water clearance of uric acid",
+        "Add potassium to maintenance fluids once the serum potassium falls below 4.0 mmol/L",
+        "Aim for urine output above 100 ml/m2/hour with balanced or isotonic fluid, with no added potassium",
+        "Restrict fluid to approximately 1 litre per 24 hours to avoid worsening hyperphosphataemia and fluid overload",
+        "Aim for a urine output above 0.5 ml/kg/hour, adding potassium to replace urinary losses"
+      ],
+      "correct": 2,
+      "explanation": "Balanced or isotonic solutions are used to maintain a urine output above 100 ml/m2/hour in adults, with fluid replacement of roughly 3 litres/m2 over 24 hours. Potassium must not be added to replacement fluid, since potassium is being released in large quantities from lysing cells and renal clearance is often simultaneously impaired — this is the trap in the question. Fluid restriction would be counterproductive, as adequate flow is what prevents urate and calcium phosphate precipitation in the tubules."
+    },
+    {
+      "id": "haemicu3_a16",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Tumour lysis syndrome: Risk factors",
+      "question": "Which of the following is NOT a recognised patient-related risk factor for tumour lysis syndrome?",
+      "options": [
+        "Female sex at presentation",
+        "Hypovolaemia and concurrent nephrotoxic drugs",
+        "Pre-treatment uric acid above 446.1 µmol/l",
+        "Pre-treatment creatinine above 123.8 µmol/l",
+        "Age over 65"
+      ],
+      "correct": 0,
+      "explanation": "Male sex, not female, is the recognised patient-related risk factor, alongside age above 65, pre-existing renal impairment or obstruction, a pre-treatment creatinine above 1.4 mg/dL (123.8 µmol/l), a pre-treatment uric acid above 7.5 mg/dL (446.1 µmol/l), and associated conditions such as hypotension, hypovolaemia, nephrotoxic drugs and chronic kidney disease. Risk factors are grouped as tumour-related, patient-related and treatment-related, the last including drugs that raise uric acid such as thiazides, aspirin and ciclosporin, and highly cell-cycle-specific agents such as etoposide and fludarabine."
+    },
+    {
+      "id": "haemicu3_a17",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Tumour lysis syndrome: Pathophysiology",
+      "question": "Why is hyperphosphataemia particularly pronounced in tumour lysis syndrome compared with other causes of cell death?",
+      "options": [
+        "Phosphate is actively secreted by malignant cells before they lyse",
+        "Uric acid competes with phosphate for tubular reabsorption, raising serum levels",
+        "Malignant cells hold about four times the intracellular phosphate of normal cells",
+        "Chemotherapeutic agents directly inhibit renal tubular phosphate excretion",
+        "Hypocalcaemia stimulates parathyroid hormone release, which raises serum phosphate"
+      ],
+      "correct": 2,
+      "explanation": "Malignant cells carry around four times the intracellular phosphate of normal cells, so a given volume of lysis liberates a disproportionate phosphate load. This is then compounded by acute renal insufficiency reducing excretion, while the hyperphosphataemia itself worsens renal failure through calcium phosphate deposition — a self-reinforcing loop. The resulting hypocalcaemia follows from phosphate binding calcium, so parathyroid physiology is not the driver, and the direction of the distractor is wrong in any case since parathyroid hormone is phosphaturic."
+    },
+    {
+      "id": "haemicu3_k05",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Tumour lysis syndrome: Pathophysiology",
+      "question": "Regarding the metabolic derangements of tumour lysis syndrome, decide whether each statement is true or false.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Tumour lysis syndrome occurs only after cytotoxic chemotherapy or radiotherapy.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Humans possess endogenous urate oxidase, which is upregulated during tumour lysis.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Uric acid precipitating in the renal tubules causes obstruction and renal injury.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Hypocalcaemia arises because excess phosphate binds calcium to form calcium phosphate.",
+          "correct": true
+        }
+      ],
+      "explanation": "Urate crystallising in the tubules is the principal mechanism of renal injury, which is why lowering the uric acid load and maintaining flow are both central. Humans lack urate oxidase entirely — that absence is precisely why the recombinant enzyme works as a therapy, adding a metabolic step that converts uric acid to the far more soluble allantoin. Hypocalcaemia is a consequence of hyperphosphataemia rather than an independent derangement, which explains why treating it directly risks precipitating calcium phosphate. Spontaneous tumour lysis occurs without any treatment trigger, so a patient who has not yet received chemotherapy is not thereby protected."
+    },
+    {
+      "id": "haemicu3_k06",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Tumour lysis syndrome: Risk factors",
+      "question": "Regarding risk stratification for tumour lysis syndrome, decide whether each statement is true or false.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Thiazide diuretics reduce uric acid levels and are therefore protective.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "High sensitivity to chemotherapy reduces the risk of tumour lysis syndrome.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "An LDH more than twice the normal value is used as a marker of tumour growth rate.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Burkitt's lymphoma and lymphoblastic lymphoma are recognised high-risk tumour types.",
+          "correct": true
+        }
+      ],
+      "explanation": "Burkitt's and lymphoblastic lymphomas, together with diffuse large-cell lymphoma, are the classic high-risk tumour types, and tumour burden is assessed by volume above 10 cm, leucocytosis above 25,000/mm3, metastatic disease and an LDH more than twice normal as a proxy for growth rate. Chemosensitivity increases rather than decreases risk, since the danger lies in how rapidly and completely the tumour lyses — a counterintuitive point worth holding onto. Thiazides raise uric acid levels and appear on the list of treatment-related risk factors alongside aspirin, caffeine, ciclosporin and pyrazinamide, which is also why they are avoided as diuretics in this setting."
+    },
+    {
+      "id": "haemicu3_k07",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Tumour lysis syndrome: Management",
+      "question": "Regarding the pharmacological agents used in tumour lysis syndrome, decide whether each statement is true or false.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Febuxostat is a non-purine selective xanthine oxidase inhibitor.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Allopurinol is first-line prophylaxis for intermediate-risk patients.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Febuxostat has a more robust evidence base than allopurinol.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Rasburicase is second-line for the treatment of established tumour lysis syndrome.",
+          "correct": false
+        }
+      ],
+      "explanation": "Allopurinol is first-line prophylaxis at intermediate risk and second-line for treatment, the mirror image of rasburicase, which is first-line for both prophylaxis in high-risk patients and for treating established disease. Febuxostat is correctly described as a non-purine selective xanthine oxidase inhibitor and occupies a narrow niche where the other two are contraindicated. Despite advantages including fewer drug interactions and no dose adjustment in mild renal impairment, its evidence base is less robust than allopurinol's, reflecting its much later approval in 2008 against 1966 for allopurinol and 2002 for rasburicase."
+    },
+    {
+      "id": "haemicu3_k08",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Tumour lysis syndrome: Management",
+      "question": "Regarding monitoring and supportive management in tumour lysis syndrome, decide whether each statement is true or false.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "High-risk patients should have biochemical monitoring every 4 to 6 hours after starting anti-tumour therapy.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Hyperkalaemia should be managed with kidney replacement therapy before any medical measures are tried.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Refractory hyperkalaemia is an indication for kidney replacement therapy.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Kidney replacement therapy should never be started before overt renal failure has developed.",
+          "correct": false
+        }
+      ],
+      "explanation": "Monitoring frequency follows risk: every 4 to 6 hours at high risk, every 8 to 12 hours at intermediate risk and daily at low risk. Standard medical therapy — intravenous insulin with dextrose and nebulised salbutamol — comes first for hyperkalaemia, with kidney replacement therapy reserved for refractory cases, so the two statements about potassium are not contradictory but describe sequential steps. Pre-emptive initiation is explicitly endorsed where hazardous tumour lysis is anticipated, so waiting for established renal failure would forfeit that option; management should also involve haematology, intensive care and nephrology together, with transfer to a higher level of support if local facilities are inadequate."
+    }
+  ]
+}
