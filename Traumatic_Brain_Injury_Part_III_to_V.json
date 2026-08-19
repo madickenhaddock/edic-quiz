@@ -1,0 +1,719 @@
+{
+  "module": "Traumatic_Brain_Injury_Part_III_to_V",
+  "sections": {},
+  "questions": [
+    {
+      "id": "tbi2_a01",
+      "type": "A",
+      "set": 3,
+      "source": "pact_generated",
+      "section": "TBI Part III: Assessment and Management",
+      "topic": "ICP waveform",
+      "image": "images/img_03e6e9ccd8.png",
+      "question": "The ICP waveform shown demonstrates three characteristic peaks. In the recorded trace, P2 exceeds P1 in amplitude. What does this waveform pattern most directly indicate?",
+      "options": [
+        "Normal intracranial pressure with adequate compensatory reserve",
+        "Impaired intracranial compliance with reduced compensatory reserve",
+        "Cerebral vasospasm causing critically reduced CPP",
+        "Adequate CSF absorption with no risk of intracranial hypertension",
+        "Resolution of intracranial hypertension following osmotherapy"
+      ],
+      "correct": 1,
+      "explanation": "Under normal intracranial compliance, P1 > P2 > P3. When P2 exceeds P1, the system is operating on the steep portion of the pressure-volume curve — intracranial compensatory reserve is exhausted. Even small volume additions will produce large ICP increases, representing a high-risk state for ICP crises."
+    },
+    {
+      "id": "tbi2_a02",
+      "type": "A",
+      "set": 3,
+      "source": "pact_generated",
+      "section": "TBI Part III: Assessment and Management",
+      "topic": "CPP targets",
+      "question": "For a patient with severe TBI under ICP-guided management, which cerebral perfusion pressure (CPP) target range is recommended by the Brain Trauma Foundation 4th Edition?",
+      "options": [
+        "60–70 mmHg",
+        "50–55 mmHg",
+        "70–80 mmHg",
+        ">80 mmHg to ensure cerebral perfusion",
+        "CPP is not targeted independently of MAP"
+      ],
+      "correct": 0,
+      "explanation": "The BTF 4th Edition recommends CPP 60–70 mmHg. Values below 50 mmHg are associated with poor outcomes. Aggressive augmentation (>70 mmHg with vasopressors) increases ARDS and systemic complication risk without improving neurological outcomes. Optimal CPP may be individually guided by autoregulation indices (PRx)."
+    },
+    {
+      "id": "tbi2_a03",
+      "type": "A",
+      "set": 3,
+      "source": "pact_generated",
+      "section": "TBI Part III: Assessment and Management",
+      "topic": "ICP thresholds",
+      "question": "In a patient with severe TBI and continuous ICP monitoring, at what SUSTAINED ICP threshold does the BTF commonly recommend initiating treatment, used in conjunction with clinical and radiological indicators?",
+      "options": [
+        "ICP >10 mmHg",
+        "ICP >15 mmHg",
+        "ICP >30 mmHg",
+        "Measured ICP values are unreliable; clinical signs alone suffice",
+        "ICP >20–22 mmHg"
+      ],
+      "correct": 4,
+      "explanation": "A sustained ICP >20–22 mmHg is the threshold commonly referenced as a trigger for escalating therapy. This is not used in isolation — it must be interpreted alongside clinical examination and CT findings. Normal adult ICP is <15 mmHg; treatment begins well before 30 mmHg is reached."
+    },
+    {
+      "id": "tbi2_a04",
+      "type": "A",
+      "set": 3,
+      "source": "pact_generated",
+      "section": "TBI Part III: Assessment and Management",
+      "topic": "ICP monitoring devices",
+      "question": "Which ICP monitoring device uniquely provides the dual advantage of measuring ICP continuously AND actively treating intracranial hypertension?",
+      "options": [
+        "Intraparenchymal Camino fibre-optic probe",
+        "Subdural bolt pressure transducer",
+        "Near-infrared spectroscopy (NIRS) sensor",
+        "Ventricular catheter (EVD)",
+        "Epidural piezoelectric ICP sensor"
+      ],
+      "correct": 3,
+      "explanation": "A ventricular catheter (EVD) uniquely allows simultaneous continuous ICP measurement AND therapeutic CSF drainage to actively reduce ICP. Intraparenchymal probes measure ICP accurately but cannot drain CSF. Subdural and epidural recordings are unreliable and not recommended. EVD is especially valuable when hydrocephalus contributes to ICP elevation."
+    },
+    {
+      "id": "tbi2_a05",
+      "type": "A",
+      "set": 3,
+      "source": "pact_generated",
+      "section": "TBI Part III: Assessment and Management",
+      "topic": "Decompressive craniectomy — DECRA",
+      "question": "The DECRA randomised trial evaluated early decompressive craniectomy (DC) for refractory ICP (>20 mmHg for >15 min) in diffuse TBI. What was the PRIMARY conclusion?",
+      "options": [
+        "Early DC significantly improved 6-month neurological outcomes in diffuse TBI",
+        "DC was equally effective to barbiturate coma at reducing ICP and disability",
+        "DC reduced ICP but not neurological outcomes, with worse disability in survivors",
+        "DC is optimal for diffuse TBI with ICP >20 mmHg and should be offered early",
+        "DC was abandoned after interim analysis owing to excess 30-day mortality"
+      ],
+      "correct": 2,
+      "explanation": "DECRA demonstrated that early aggressive DC effectively reduced ICP but did not improve 6-month neurological outcomes. The DC group had a higher proportion in an unfavourable state (vegetative or severely disabled). This contrasts with RESCUEicp, which showed mortality benefit for DC but at the cost of increased severe disability."
+    },
+    {
+      "id": "tbi2_a06",
+      "type": "A",
+      "set": 3,
+      "source": "pact_generated",
+      "section": "TBI Part III: Assessment and Management",
+      "topic": "Decompressive craniectomy — RESCUEicp",
+      "question": "The RESCUEicp trial compared decompressive craniectomy (DC) with barbiturate coma for refractory intracranial hypertension. What was the KEY finding?",
+      "options": [
+        "DC reduced mortality but increased severe disability and vegetative state rates",
+        "Barbiturate coma was superior to DC in terms of both mortality and functional outcome",
+        "DC and barbiturate coma produced identical outcomes at 6 months",
+        "DC reduced disability but had no effect on mortality at 6 months",
+        "The trial was stopped early owing to excess mortality in the barbiturate group"
+      ],
+      "correct": 0,
+      "explanation": "RESCUEicp showed DC significantly reduced 6-month mortality compared with barbiturate coma. However, for every 100 patients treated with DC rather than barbiturates, approximately 22 more survived — of whom 6 were in a vegetative state and 16 had severe disability. Surrogates should be informed of this mortality-disability trade-off before DC is performed."
+    },
+    {
+      "id": "tbi2_a07",
+      "type": "A",
+      "set": 3,
+      "source": "pact_generated",
+      "section": "TBI Part III: Assessment and Management",
+      "topic": "Barbiturate therapy",
+      "question": "A patient with severe TBI requires high-dose barbiturates for refractory intracranial hypertension. Which monitoring tool should guide barbiturate dosing and confirm therapeutic effect?",
+      "options": [
+        "Serial serum barbiturate drug levels alone",
+        "Jugular venous bulb oximetry (SjvO2) as the primary assessment",
+        "Daily CT scans to assess brain oedema regression",
+        "Core body temperature as a surrogate for metabolic suppression",
+        "Continuous EEG monitoring for depth of suppression"
+      ],
+      "correct": 4,
+      "explanation": "Continuous EEG monitoring is recommended when high-dose barbiturates are used. The endpoint is ICP control — not EEG burst suppression. If burst suppression is achieved and ICP remains uncontrolled, further barbiturate dosing is inappropriate. EEG also detects subclinical seizures that may contribute to ICP elevation."
+    },
+    {
+      "id": "tbi2_a08",
+      "type": "A",
+      "set": 3,
+      "source": "pact_generated",
+      "section": "TBI Part III: Assessment and Management",
+      "topic": "Hypothermia — POLAR trial",
+      "question": "The POLAR randomised trial (n=511) evaluated prophylactic hypothermia (33–35°C for ≥72 hours) in severe TBI. What was the main finding regarding 6-month neurological outcomes?",
+      "options": [
+        "Prophylactic hypothermia significantly improved 6-month neurological outcomes",
+        "Hypothermia reduced ICP effectively with no impact on neurological recovery",
+        "Hypothermia benefited only patients with ICP >25 mmHg",
+        "No improvement in 6-month neurological outcomes with prophylactic hypothermia",
+        "Hypothermia significantly increased intracranial bleeding and was stopped early"
+      ],
+      "correct": 3,
+      "explanation": "POLAR showed no difference in 6-month neurological outcomes between prophylactic hypothermia and normothermia (48.8% vs 49.1% favourable). The Eurotherm3235 trial previously showed potential harm from ICP-directed hypothermia. Current evidence does not support prophylactic hypothermia in severe TBI outside clinical trials."
+    },
+    {
+      "id": "tbi2_a09",
+      "type": "A",
+      "set": 3,
+      "source": "pact_generated",
+      "section": "TBI Part III: Assessment and Management",
+      "topic": "Hyperventilation mechanism",
+      "question": "In a patient with severe TBI who undergoes brief hyperventilation for acute ICP reduction, what is the PRIMARY physiological mechanism responsible for the ICP decrease?",
+      "options": [
+        "Reduced cerebral metabolic rate of oxygen consumption",
+        "Hypocapnia causes cerebral vasoconstriction, reducing cerebral blood volume",
+        "Inhibition of CSF production at the choroid plexus",
+        "Systemic vasodilation improving venous return and reducing cerebral venous pressure",
+        "Direct osmotic reduction of cerebral interstitial water content"
+      ],
+      "correct": 1,
+      "explanation": "Hypocapnia from hyperventilation causes cerebral vasoconstriction, reducing CBF and cerebral blood volume (CBV) and thereby decreasing ICP. If CBF reduction exceeds oxygen extraction capacity, ischaemia may result — hence hyperventilation is reserved for crisis situations and PaCO2 should not fall below 30 mmHg."
+    },
+    {
+      "id": "tbi2_a10",
+      "type": "A",
+      "set": 3,
+      "source": "pact_generated",
+      "section": "TBI Part III: Assessment and Management",
+      "topic": "Tiered ICP management",
+      "question": "Which of the following is NOT a first-tier (tier 1) intervention for intracranial hypertension in severe TBI?",
+      "options": [
+        "Head-of-bed elevation to 30 degrees",
+        "Sedation and analgesia",
+        "Decompressive craniectomy",
+        "Mannitol osmotherapy",
+        "CSF drainage via external ventricular drain"
+      ],
+      "correct": 2,
+      "explanation": "Decompressive craniectomy is a second-tier intervention reserved for refractory ICP that does not respond to maximal medical therapy. First-tier therapies include head positioning (30°), sedation and analgesia, CPP optimisation, osmotherapy (mannitol or HTS), and CSF drainage via EVD. Second-tier also includes sustained hyperventilation (with oxygenation monitoring) and high-dose barbiturates."
+    },
+    {
+      "id": "tbi2_k01",
+      "type": "K",
+      "set": 3,
+      "source": "pact_generated",
+      "section": "TBI Part III: Assessment and Management",
+      "topic": "ICP monitoring",
+      "question": "Regarding ICP monitoring in severe TBI, indicate whether each statement is TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "ICP monitoring is strongly recommended in severe TBI (GCS 3-8) with an abnormal CT scan",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "A ventricular catheter allows both continuous ICP measurement and therapeutic CSF drainage",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Subdural ICP recordings are the most reliable alternative when ventricular catheter placement is not feasible",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Normal adult intracranial pressure is below 15 mmHg",
+          "correct": true
+        }
+      ],
+      "explanation": "ICP monitoring is strongly recommended in severe TBI with abnormal CT. EVD allows both measurement and treatment. Subdural recordings are UNRELIABLE — intraparenchymal probes are the preferred alternative when EVD cannot be placed. Normal adult ICP is <15 mmHg (not <25 mmHg, as sometimes incorrectly stated)."
+    },
+    {
+      "id": "tbi2_k02",
+      "type": "K",
+      "set": 3,
+      "source": "pact_generated",
+      "section": "TBI Part III: Assessment and Management",
+      "topic": "Advanced monitoring",
+      "question": "Regarding advanced neurological monitoring in severe TBI, indicate whether each statement is TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A Pressure Reactivity Index (PRx) consistently above +0.2 indicates INTACT cerebrovascular autoregulation",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Brain tissue oxygen monitoring (PbtO2) requires placement of an intraparenchymal probe",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Continuous EEG in TBI is used primarily to diagnose post-traumatic hydrocephalus",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Transcranial Doppler provides non-invasive estimation of cerebral blood flow velocities and pulsatility",
+          "correct": true
+        }
+      ],
+      "explanation": "PRx >+0.2 indicates IMPAIRED autoregulation (ICP passively follows MAP); negative PRx = intact autoregulation. PbtO2 requires intraparenchymal probe; intervention threshold is approximately 15–20 mmHg. Continuous EEG is used to detect subclinical seizures and titrate barbiturate therapy — not to diagnose hydrocephalus. TCD is non-invasive."
+    },
+    {
+      "id": "tbi2_k03",
+      "type": "K",
+      "set": 3,
+      "source": "pact_generated",
+      "section": "TBI Part III: Assessment and Management",
+      "topic": "Decompressive craniectomy trials",
+      "question": "Regarding the evidence base for decompressive craniectomy (DC) in severe TBI, indicate whether each statement is TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "DECRA demonstrated that early DC effectively reduced ICP but did not improve neurological outcomes",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "DC in RESCUEicp produced a survival benefit without increasing the proportion with severe disability or vegetative state",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "RESCUEicp demonstrated significant 6-month mortality reduction with DC compared with barbiturate coma",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "When DC is performed, the extent of decompression should be large enough to prevent cortical ischaemia at the bone border",
+          "correct": true
+        }
+      ],
+      "explanation": "DECRA: DC reduced ICP but not neurological outcomes — worse disability. RESCUEicp: DC reduced mortality but INCREASED severe disability and vegetative state (~22 more survivors per 100, of whom 6 were vegetative and 16 severely disabled). DC extent should be large to prevent cortical ischaemia from venous engorgement."
+    },
+    {
+      "id": "tbi2_k04",
+      "type": "K",
+      "set": 3,
+      "source": "pact_generated",
+      "section": "TBI Part III: Assessment and Management",
+      "topic": "Post-traumatic seizures",
+      "question": "Regarding post-traumatic seizures after severe TBI, indicate whether each statement is TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Phenytoin reduces the risk of both early AND late post-traumatic epilepsy",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Early post-traumatic seizures are defined as occurring within 7 days of injury",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Levetiracetam was shown in randomised trials to significantly reduce post-traumatic seizure incidence",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "A seizure in a comatose TBI patient is life-threatening because it increases ICP and reduces CPP",
+          "correct": true
+        }
+      ],
+      "explanation": "Phenytoin reduces EARLY seizures (within 7 days) only — no effect on late epilepsy. Early: <7 days; late: >7 days. LEV studies showed no statistically significant reduction in seizure incidence or neurological outcome. Seizures in comatose TBI patients dramatically increase cerebral metabolic demand and CBF/CO2, raising ICP and reducing CPP."
+    },
+    {
+      "id": "tbi2_k05",
+      "type": "K",
+      "set": 3,
+      "source": "pact_generated",
+      "section": "TBI Part III: Assessment and Management",
+      "topic": "Hypothermia in TBI",
+      "question": "Regarding therapeutic hypothermia in severe TBI, indicate whether each statement is TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Therapeutic hypothermia is recommended as a first-tier intervention for ICP management in severe TBI",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "The POLAR trial demonstrated significant improvement in 6-month neurological outcomes with prophylactic hypothermia",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Current evidence supports prophylactic hypothermia as a routine neuroprotective strategy in severe TBI",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Based on current RCT evidence, prophylactic hypothermia is NOT recommended in severe TBI outside clinical trials",
+          "correct": true
+        }
+      ],
+      "explanation": "Hypothermia is NOT first-tier — it is a second-tier option with significant adverse effects (barbiturate accumulation, immunodepression, coagulopathy). POLAR showed no neurological benefit from prophylactic hypothermia. Eurotherm3235 was stopped early for safety concerns. Current guidelines do not support routine hypothermia outside trials."
+    },
+    {
+      "id": "tbi2_a11",
+      "type": "A",
+      "set": 4,
+      "source": "pact_generated",
+      "section": "TBI Part IV: General Intensive Care",
+      "topic": "Diabetes insipidus",
+      "question": "An intubated patient with severe TBI develops a urine output of 580 mL/hour. Urine specific gravity is 1.002 and urine osmolality 105 mOsm/kg. Serum sodium has risen to 149 mmol/L. Which diagnosis-treatment pair is MOST appropriate?",
+      "options": [
+        "SIADH; treat with fluid restriction and loop diuretic",
+        "Cerebral salt wasting; treat with fludrocortisone and hypertonic saline",
+        "Central diabetes insipidus; treat with desmopressin (DDAVP)",
+        "Osmotic diuresis from mannitol; discontinue mannitol and observe",
+        "Over-resuscitation; reduce IV fluid rate and monitor urine output"
+      ],
+      "correct": 2,
+      "explanation": "Central/neurogenic diabetes insipidus occurs when TBI disrupts ADH secretion. Diagnostic features: high urine output (>3 mL/kg/h), low urine specific gravity (1.001–1.005), low urine osmolality (<150 mOsm/kg), low urinary sodium (<50 mmol/L), and rising serum sodium. Treatment: desmopressin plus free water replacement. SIADH produces concentrated urine with LOW urine output — the opposite."
+    },
+    {
+      "id": "tbi2_a12",
+      "type": "A",
+      "set": 4,
+      "source": "pact_generated",
+      "section": "TBI Part IV: General Intensive Care",
+      "topic": "SIADH vs cerebral salt wasting",
+      "question": "A TBI patient develops serum sodium of 128 mmol/L. Both SIADH and cerebral salt wasting (CSW) produce elevated urinary sodium. Which single clinical parameter BEST distinguishes CSW from SIADH?",
+      "options": [
+        "Urine output volume",
+        "Serum osmolality",
+        "Serum potassium level",
+        "Core body temperature",
+        "Arterial base excess"
+      ],
+      "correct": 0,
+      "explanation": "The key differentiator is urine output: CSW produces HIGH urine output (sodium loss drives water loss, causing hypovolaemia), while SIADH produces LOW urine output (water retention with euvolaemia/mild hypervolaemia). Both syndromes have elevated urinary sodium — hence urinary sodium alone does not reliably differentiate them. Fluid balance and volume status are therefore critical."
+    },
+    {
+      "id": "tbi2_a13",
+      "type": "A",
+      "set": 4,
+      "source": "pact_generated",
+      "section": "TBI Part IV: General Intensive Care",
+      "topic": "Glucose management",
+      "question": "Following severe TBI, which blood glucose management strategy is NOT recommended based on current evidence?",
+      "options": [
+        "A target of 8.3–11 mmol/L to account for altered cerebral glucose metabolism",
+        "Frequent serum glucose monitoring to detect and prevent hypoglycaemia",
+        "Intensive insulin therapy targeting glucose 4–6 mmol/L ('tight control')",
+        "Avoiding hyperosmolar glucose solutions in fluid management",
+        "Individualising targets using cerebral microdialysis data where available"
+      ],
+      "correct": 2,
+      "explanation": "Intensive insulin therapy targeting 4–6 mmol/L is NOT recommended in severe TBI. Injured brain tissue has accelerated glucose metabolism and reduced transporter capacity, meaning blood glucose in the low-normal range can produce critically low cerebral extracellular glucose. Meta-analysis (Hermanides et al.) showed no mortality benefit but increased hypoglycaemia risk. The recommended target is 8.3–11 mmol/L."
+    },
+    {
+      "id": "tbi2_a14",
+      "type": "A",
+      "set": 4,
+      "source": "pact_generated",
+      "section": "TBI Part IV: General Intensive Care",
+      "topic": "DVT prophylaxis timing",
+      "question": "In a patient with severe TBI and a stable repeat CT at 72 hours showing no haematoma progression, when is pharmacological DVT prophylaxis with LMWH MOST appropriately initiated?",
+      "options": [
+        "Day 1 post-injury regardless of CT findings",
+        "Only after neurosurgical review at any time point",
+        "Only after 7–10 days post-injury to ensure stability",
+        "After the first 3 days when CT-demonstrated haematoma progression is unlikely",
+        "Pharmacological prophylaxis is contraindicated throughout ICU admission in TBI"
+      ],
+      "correct": 3,
+      "explanation": "CT-demonstrated haematoma progression is unlikely after the first 3 days. LMWH plus mechanical compression devices is recommended after this window. Starting before day 3 risks haematoma expansion. No large RCTs precisely define the optimal timing, so an individualised approach balancing DVT and intracranial haemorrhage risks is recommended."
+    },
+    {
+      "id": "tbi2_a15",
+      "type": "A",
+      "set": 4,
+      "source": "pact_generated",
+      "section": "TBI Part IV: General Intensive Care",
+      "topic": "Paroxysmal sympathetic hyperactivity",
+      "question": "Five days after severe TBI (GCS 7), sedation is being weaned. The patient suddenly develops episodic tachycardia (HR 148 bpm), hypertension (BP 195/105 mmHg), hyperthermia (39.8°C), diaphoresis, and bilateral extensor posturing lasting several minutes. What syndrome is MOST consistent?",
+      "options": [
+        "Opioid withdrawal syndrome",
+        "Nosocomial septic shock from hospital-acquired infection",
+        "Neuroleptic malignant syndrome from antipsychotic use",
+        "Focal post-traumatic seizures with autonomic involvement",
+        "Paroxysmal sympathetic hyperactivity (PSH)"
+      ],
+      "correct": 4,
+      "explanation": "Paroxysmal sympathetic hyperactivity (PSH) is characterised by episodic tachycardia, hypertension, tachypnoea, hyperthermia, diaphoresis, and motor posturing in survivors of severe acquired brain injury. It affects 8–32% of severe TBI patients and results from loss of cortical inhibitory pathways releasing spinal excitatory circuits. It can mimic opioid withdrawal, which may co-occur."
+    },
+    {
+      "id": "tbi2_a16",
+      "type": "A",
+      "set": 4,
+      "source": "pact_generated",
+      "section": "TBI Part IV: General Intensive Care",
+      "topic": "Nutrition",
+      "question": "In a ventilated patient with severe TBI and a functioning gastrointestinal tract, which nutritional strategy is MOST appropriate?",
+      "options": [
+        "Parenteral nutrition to avoid aspiration risk from enteral feeding",
+        "Enteral nutrition is preferred; parenteral increases infection risk",
+        "No nutritional support for the first 7 days to reduce metabolic demand",
+        "Enteral feeding only once GCS has improved above 12",
+        "Caloric intake restricted to 25% of target for the first 72 hours"
+      ],
+      "correct": 1,
+      "explanation": "Enteral nutrition is preferred in TBI when GI function is intact. It is more physiological, less expensive, and associated with fewer infectious complications than parenteral nutrition. In the presence of a functioning GI tract, parenteral nutrition should be avoided as it increases catheter-related bacteraemia risk. Aim to reach full nutritional intake by day 3 in ICU."
+    },
+    {
+      "id": "tbi2_k06",
+      "type": "K",
+      "set": 4,
+      "source": "pact_generated",
+      "section": "TBI Part IV: General Intensive Care",
+      "topic": "Sodium disturbances",
+      "question": "Regarding sodium disturbances in severe TBI, indicate whether each statement is TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Both SIADH and cerebral salt wasting (CSW) produce elevated urinary sodium concentrations",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Cerebral salt wasting is characterised by a LOW urine output, which distinguishes it from SIADH",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Fludrocortisone is used in the management of cerebral salt wasting",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Desmopressin should be used first-line for all causes of hypernatraemia in TBI patients",
+          "correct": false
+        }
+      ],
+      "explanation": "Both SIADH and CSW produce elevated urinary sodium — urinary sodium alone cannot differentiate them. CSW has HIGH urine output (sodium loss → hypovolaemia); SIADH has LOW urine output (water retention). Fludrocortisone (starting 0.1–0.2 mg/day) and hypertonic sodium treat CSW. Desmopressin is specific to confirmed central diabetes insipidus, not all hypernatraemia."
+    },
+    {
+      "id": "tbi2_k07",
+      "type": "K",
+      "set": 4,
+      "source": "pact_generated",
+      "section": "TBI Part IV: General Intensive Care",
+      "topic": "Glucose management",
+      "question": "Regarding blood glucose management in severe TBI, indicate whether each statement is TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A blood glucose target of approximately 8.3–11 mmol/L is broadly supported for severe TBI",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Hypoglycaemia in TBI is potentially more dangerous than mild hyperglycaemia due to cerebral glucose depletion",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Intensive insulin therapy targeting 4–6 mmol/L reduces mortality in severe TBI based on meta-analysis evidence",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Tight glycaemic control is safe in TBI because the injured brain does not rely on blood glucose for energy",
+          "correct": false
+        }
+      ],
+      "explanation": "The recommended TBI glucose target is 8.3–11 mmol/L. Hypoglycaemia is particularly dangerous because injured brain areas have hyperglycolysis and reduced glucose transport capacity — blood glucose in the low-normal range can produce critically low cerebral extracellular glucose. Hermanides et al. meta-analysis showed intensive insulin increases hypoglycaemia risk without mortality benefit."
+    },
+    {
+      "id": "tbi2_k08",
+      "type": "K",
+      "set": 4,
+      "source": "pact_generated",
+      "section": "TBI Part IV: General Intensive Care",
+      "topic": "General ICU care",
+      "question": "Regarding general intensive care management in severe TBI, indicate whether each statement is TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Stress ulcers occur at the same frequency in TBI patients as in the general ICU population",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Enteral nutrition should aim to reach full nutritional intake by day 3 in ICU",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "DVT prophylaxis with LMWH is typically initiated after the first 3 days when CT shows no haematoma progression",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Parenteral nutrition is preferred over enteral in TBI patients with an intact and functioning GI tract",
+          "correct": false
+        }
+      ],
+      "explanation": "Stress ulcers occur in approximately 10% of TBI patients — about twice the rate of other ICU patients. Full enteral nutrition by day 3 is the target; early feeding reduces catabolic effects and infection risk. LMWH is started after day 3 when haematoma progression is unlikely. Parenteral nutrition should be AVOIDED with intact GI function — higher catheter-related infection and bacteraemia risk."
+    },
+    {
+      "id": "tbi2_a17",
+      "type": "A",
+      "set": 5,
+      "source": "pact_generated",
+      "section": "TBI Part V: Complications and Outcomes",
+      "topic": "Post-traumatic hydrocephalus",
+      "question": "A patient shows a plateau in coma recovery at 4 weeks post-severe TBI. Serial CT reveals progressive ventricular enlargement with compression of cerebral sulci. What is the MOST likely diagnosis and definitive treatment?",
+      "options": [
+        "Cerebral atrophy from axonal loss; supportive care only",
+        "Post-traumatic hydrocephalus; ventriculo-peritoneal shunt",
+        "Sunken skin flap syndrome; cranioplasty",
+        "Refractory ICP from oedema; barbiturate coma",
+        "Post-traumatic meningitis; prolonged antibiotic course"
+      ],
+      "correct": 1,
+      "explanation": "Post-traumatic communicating hydrocephalus affects approximately 1–5% of severe TBI patients. Key features: plateau or decline in coma recovery and CT showing progressive ventricular enlargement with sulcal compression. Approximately 90% of cases develop within 6 weeks. A CSF withdrawal test (external spinal drainage) can predict shunt response. Definitive treatment is a ventriculo-peritoneal or ventriculo-atrial shunt."
+    },
+    {
+      "id": "tbi2_a18",
+      "type": "A",
+      "set": 5,
+      "source": "pact_generated",
+      "section": "TBI Part V: Complications and Outcomes",
+      "topic": "Sunken skin flap syndrome",
+      "question": "Six weeks after decompressive craniectomy for refractory ICP, a patient develops new focal neurological deficits, fluctuating headaches, and a sunken craniectomy site worsening in the upright position. Which procedure is MOST STRONGLY CONTRAINDICATED?",
+      "options": [
+        "Cranioplasty for surgical repair",
+        "Non-contrast CT of the brain",
+        "Repeat surface EEG recording",
+        "Non-contrast MRI of the brain",
+        "Diagnostic lumbar puncture"
+      ],
+      "correct": 4,
+      "explanation": "Sunken skin flap syndrome (SSFS) occurs when brain and skin sink at the craniectomy defect, causing neurological deterioration. Lumbar puncture (and therapeutic lumbar CSF drainage) is CONTRAINDICATED due to paradoxical herniation risk — CSF removal reduces intracranial pressure and shifts brain toward the defect. Cranioplasty is both therapeutic and cosmetic and is the definitive treatment."
+    },
+    {
+      "id": "tbi2_a19",
+      "type": "A",
+      "set": 5,
+      "source": "pact_generated",
+      "section": "TBI Part V: Complications and Outcomes",
+      "topic": "Glasgow Outcome Scale",
+      "question": "Clinical trials reporting TBI outcomes typically dichotomise the Glasgow Outcome Scale (GOS) into 'favourable' and 'unfavourable'. Which GOS categories are classified as 'favourable'?",
+      "options": [
+        "Good recovery only (GOS 5)",
+        "All survivors, including those with severe disability (GOS 3–5)",
+        "Good recovery, moderate disability, and severe disability (GOS 3–5)",
+        "Good recovery and moderate disability (GOS 4–5)",
+        "All categories excluding death and vegetative state (GOS 3–5)"
+      ],
+      "correct": 3,
+      "explanation": "Standard GOS dichotomisation classifies 'favourable' as good recovery (GOS 5) plus moderate disability (GOS 4). 'Unfavourable' includes severe disability (GOS 3), vegetative state (GOS 2), and death (GOS 1). The GOSE extends this to 8 levels by subdividing the upper 3 GOS categories (good recovery, moderate disability, severe disability) into upper and lower to improve discrimination."
+    },
+    {
+      "id": "tbi2_a20",
+      "type": "A",
+      "set": 5,
+      "source": "pact_generated",
+      "section": "TBI Part V: Complications and Outcomes",
+      "topic": "Post-traumatic ventriculitis — causative organisms",
+      "question": "A patient with severe TBI who has an in-situ ventricular catheter (EVD) for ICP monitoring develops fever, neck stiffness, and photophobia on day 9. CSF shows glucose 1.7 mmol/L, WBC 15,000/mm³ (predominantly neutrophils), protein 420 mg/dL, and gram-negative rods on gram-stain. Which organism is MOST likely?",
+      "options": [
+        "Pseudomonas aeruginosa",
+        "Streptococcus pneumoniae",
+        "Neisseria meningitidis",
+        "Haemophilus influenzae",
+        "Listeria monocytogenes"
+      ],
+      "correct": 0,
+      "explanation": "Ventricular catheter-associated ventriculitis is most commonly caused by gram-negative organisms including Pseudomonas aeruginosa, and gram-positive organisms including Staphylococcus aureus, S. epidermidis, and sometimes Acinetobacter baumannii in epidemic form. This contrasts with community-acquired meningitis via basal skull fracture, which is caused by nasopharyngeal flora (S. pneumoniae, H. influenzae, N. meningitidis)."
+    },
+    {
+      "id": "tbi2_k10",
+      "type": "K",
+      "set": 5,
+      "source": "pact_generated",
+      "section": "TBI Part V: Complications and Outcomes",
+      "topic": "Late complications",
+      "question": "Regarding late complications following severe TBI, indicate whether each statement is TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "True post-traumatic communicating hydrocephalus affects approximately 1–5% of severe TBI patients",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Post-traumatic hydrocephalus typically develops 3–6 months after injury in the majority of cases",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Sunken skin flap syndrome is a purely cosmetic complication of decompressive craniectomy with no functional impact",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Antibiotic prophylaxis for basilar skull fracture is NOT proven effective in preventing post-traumatic meningitis",
+          "correct": true
+        }
+      ],
+      "explanation": "Post-traumatic communicating hydrocephalus: ~1–5% incidence; approximately 90% of cases develop within 6 WEEKS (not 3–6 months). SSFS is NOT purely cosmetic — it causes focal deficits, altered consciousness, seizures, and neuroendocrine abnormalities; cranioplasty is therapeutic. Antibiotic prophylaxis for basilar skull fracture is NOT proven to prevent meningitis."
+    },
+    {
+      "id": "tbi2_k11",
+      "type": "K",
+      "set": 5,
+      "source": "pact_generated",
+      "section": "TBI Part V: Complications and Outcomes",
+      "topic": "Post-traumatic meningitis",
+      "question": "Regarding post-traumatic meningitis in severe TBI, indicate whether each statement is TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Risk factors include open skull fractures, CSF leaks via basal skull fractures, and ventricular drainage catheters",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "CSF glucose below 50 mg/dL (2.8 mmol/L) is not a useful diagnostic criterion for bacterial meningitis",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Post-traumatic bacterial meningitis requires immediate treatment as untreated disease carries high mortality",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Routine scheduled replacement of ventricular catheters effectively prevents catheter-associated ventriculitis",
+          "correct": false
+        }
+      ],
+      "explanation": "Open wounds, CSF leaks, and EVDs are the main risk factors. CSF glucose <50 mg/dL IS a useful diagnostic criterion — along with WBC >10,000/mm³, protein >100 mg/dL, and high CSF lactate. Treatment must be immediate given high untreated mortality. Routine catheter replacement does NOT reduce infection risk and is not recommended."
+    },
+    {
+      "id": "tbi2_k12",
+      "type": "K",
+      "set": 5,
+      "source": "pact_generated",
+      "section": "TBI Part V: Complications and Outcomes",
+      "topic": "Outcome measurement",
+      "question": "Regarding outcome measurement and prediction after severe TBI, indicate whether each statement is TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Broadly, approximately one-third of severe TBI patients die, one-third recover, and one-third remain disabled",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The Glasgow Outcome Extended Scale (GOSE) has 10 levels to improve discrimination over the GOS",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "The Glasgow Outcome Scale (GOS) has 5 levels, ranging from death to good recovery",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Most severe TBI patients have reached their final GOS outcome category within 6 months of injury",
+          "correct": true
+        }
+      ],
+      "explanation": "The broad outcomes of severe TBI: one-third die, one-third recover, one-third remain disabled. The GOSE has 8 levels — NOT 10 — subdividing the upper three GOS categories into upper/lower. The GOS has 5 levels (dead, vegetative, severely disabled, moderately disabled, good recovery). Over 90% of patients reach their final GOS category by 6 months; further gains are possible with rehabilitation."
+    }
+  ]
+}
