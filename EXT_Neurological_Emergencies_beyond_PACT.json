@@ -1,0 +1,594 @@
+{
+ "module": "EXT Neurological Emergencies beyond PACT",
+ "sections": {},
+ "questions": [
+  {
+   "id": "xneu_a01",
+   "type": "A",
+   "set": 1,
+   "source": "guideline_generated",
+   "question": "A 48-year-old woman presents six hours after a sudden severe headache. She is fully alert with no focal deficit. Computed tomography confirms diffuse subarachnoid blood and angiography shows a 7 mm posterior communicating artery aneurysm that the neurovascular team judges equally amenable to endovascular and surgical treatment. What is the recommended approach?",
+   "options": [
+    "Endovascular coiling, preferred when both options are equally suitable",
+    "Microsurgical clipping, which achieves more durable occlusion at this location",
+    "Conservative management with blood pressure control and delayed reassessment",
+    "Flow-diverting stent placement with dual antiplatelet therapy started now",
+    "Deferral of aneurysm treatment until the vasospasm window has passed"
+   ],
+   "correct": 0,
+   "explanation": "European guidance recommends coiling in preference to microsurgical clipping for patients in good clinical condition when both treatments are equally suitable, based on randomised evidence of better functional outcome. Clipping is the tempting alternative because it achieves more complete initial occlusion and lower retreatment rates, but that advantage has not translated into better patient-centred outcomes in this population. Any delay in securing the aneurysm leaves the patient exposed to rebleeding, which is the single most preventable cause of death in the first days.",
+   "section": "ESO/EANS/ESMINT 2026 aneurysmal SAH",
+   "section_url": "https://academic.oup.com/esj/article/11/5/aakag043/8671382"
+  },
+  {
+   "id": "xneu_a02",
+   "type": "A",
+   "set": 1,
+   "source": "guideline_generated",
+   "question": "A 55-year-old man with aneurysmal subarachnoid haemorrhage secured by coiling twelve hours ago is admitted to the neurointensive care unit. He is haemodynamically stable and has a functioning enteral feeding tube. Regarding nimodipine, which management is most appropriate?",
+   "options": [
+    "Intravenous nimodipine infusion titrated against mean arterial pressure",
+    "Enteral nimodipine 60 mg every four hours started immediately",
+    "Enteral nimodipine started only if transcranial Doppler velocities rise",
+    "Intrathecal nimodipine via an external ventricular drain as first line",
+    "No nimodipine, since the ruptured aneurysm has already been secured"
+   ],
+   "correct": 1,
+   "explanation": "Oral or enteral nimodipine is the only pharmacological intervention with high-quality evidence of improved functional outcome after aneurysmal subarachnoid haemorrhage, and it should begin as soon as the diagnosis is made rather than waiting for signs of vasospasm. The intravenous formulation is the most plausible wrong answer in a sedated intensive care patient, but it causes more hypotension and has not shown the same outcome benefit in pooled analyses. Securing the aneurysm removes the rebleeding risk but does nothing about delayed cerebral ischaemia, which is what nimodipine addresses.",
+   "section": "ESO/EANS/ESMINT 2026 aneurysmal SAH",
+   "section_url": "https://academic.oup.com/esj/article/11/5/aakag043/8671382"
+  },
+  {
+   "id": "xneu_a03",
+   "type": "A",
+   "set": 1,
+   "source": "guideline_generated",
+   "question": "Which of the following is NOT recommended in current European guidance for aneurysmal subarachnoid haemorrhage?",
+   "options": [
+    "Enteral nimodipine started early after the diagnosis is established",
+    "Securing the ruptured aneurysm as early as is practically feasible",
+    "Short-course tranexamic acid given before the aneurysm is secured",
+    "Blood pressure lowering during the interval before aneurysm treatment",
+    "Endovascular coiling in preference to clipping when both are suitable"
+   ],
+   "correct": 2,
+   "explanation": "Routine antifibrinolytic therapy before aneurysm treatment is explicitly recommended against, because the reduction in rebleeding demonstrated in earlier work was offset by ischaemic complications and no improvement in functional outcome. This remains a common trap since short-course tranexamic acid was widespread practice for years and persists in older teaching. The other four statements all reflect current recommendations, with blood pressure lowering before the aneurysm is secured resting on expert consensus rather than randomised data.",
+   "section": "ESO/EANS/ESMINT 2026 aneurysmal SAH",
+   "section_url": "https://academic.oup.com/esj/article/11/5/aakag043/8671382"
+  },
+  {
+   "id": "xneu_a04",
+   "type": "A",
+   "set": 1,
+   "source": "guideline_generated",
+   "question": "On day seven after aneurysmal subarachnoid haemorrhage secured by clipping, a 61-year-old woman develops new left arm weakness and reduced alertness. Computed tomography excludes new haemorrhage and hydrocephalus, and perfusion imaging shows a right middle cerebral artery territory deficit. She is euvolaemic and normothermic. What is the most appropriate next step?",
+   "options": [
+    "Prophylactic hypervolaemia aiming at a fixed positive fluid balance",
+    "Intravenous magnesium sulphate infusion to reverse the ischaemia",
+    "Add a statin to the regimen and continue the current supportive care",
+    "Induce hypertension with vasopressors and then reassess the deficit",
+    "Proceed to immediate decompressive hemicraniectomy for the deficit"
+   ],
+   "correct": 3,
+   "explanation": "Symptomatic delayed cerebral ischaemia in a euvolaemic patient is treated by raising the mean arterial pressure and observing whether the neurological deficit resolves, with endovascular rescue reserved for those who fail to respond. Induced hypervolaemia is the classic wrong answer inherited from triple-H therapy: it increases pulmonary and cardiac complications without improving outcome, and volume expansion beyond euvolaemia is no longer recommended. Statins and magnesium have been tested and abandoned, and craniectomy addresses mass effect rather than a perfusion deficit.",
+   "section": "AHA/ASA 2023 aneurysmal SAH",
+   "section_url": "https://www.ahajournals.org/doi/10.1161/STR.0000000000000436"
+  },
+  {
+   "id": "xneu_a05",
+   "type": "A",
+   "set": 1,
+   "source": "guideline_generated",
+   "question": "Twelve hours after admission with a poor-grade aneurysmal subarachnoid haemorrhage, a 66-year-old man's Glasgow Coma Scale score falls from 10 to 6. Repeat computed tomography shows enlarging lateral and third ventricles with no new haemorrhage and no new infarction. What is the most appropriate immediate intervention?",
+   "options": [
+    "Start hypertonic saline and repeat the imaging in six hours",
+    "Increase the depth of sedation and institute mild hyperventilation",
+    "Proceed directly to decompressive craniectomy for raised pressure",
+    "Start acetazolamide and perform serial lumbar punctures for drainage",
+    "Insert an external ventricular drain to relieve the hydrocephalus"
+   ],
+   "correct": 4,
+   "explanation": "Acute obstructive hydrocephalus is one of the few immediately reversible causes of deterioration after subarachnoid haemorrhage and is treated by cerebrospinal fluid diversion, which often produces rapid neurological improvement. Osmotherapy and hyperventilation are temporising measures that treat the consequence rather than the cause and would delay definitive drainage. Lumbar puncture is contraindicated while an obstructive picture and blood-laden ventricles are present, and craniectomy has no role when the problem is cerebrospinal fluid outflow rather than parenchymal swelling.",
+   "section": "AHA/ASA 2023 aneurysmal SAH",
+   "section_url": "https://www.ahajournals.org/doi/10.1161/STR.0000000000000436"
+  },
+  {
+   "id": "xneu_k01",
+   "type": "K",
+   "set": 1,
+   "source": "guideline_generated",
+   "question": "Regarding grading and diagnosis of aneurysmal subarachnoid haemorrhage, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "A negative computed tomogram performed twelve hours after headache onset makes lumbar puncture unnecessary.",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "The modified Fisher grade predicts the risk of delayed cerebral ischaemia.",
+     "correct": true
+    },
+    {
+     "label": "C",
+     "text": "The World Federation of Neurosurgical Societies grade is derived from blood pressure and pupil size.",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "The sensitivity of non-contrast computed tomography for subarachnoid blood falls appreciably beyond six hours from ictus.",
+     "correct": true
+    }
+   ],
+   "explanation": "The modified Fisher scale grades the volume and distribution of cisternal and ventricular blood and correlates with the risk of delayed cerebral ischaemia, whereas the World Federation grade is built from the Glasgow Coma Scale score together with the presence of a major focal deficit. Computed tomography approaches complete sensitivity within the first six hours but declines steadily thereafter as blood is cleared, which is why lumbar puncture for xanthochromia retains a role in the patient presenting late with a convincing history. Relying on a negative scan at twelve hours is a recognised route to a missed sentinel bleed.",
+   "section": "AHA/ASA 2023 aneurysmal SAH",
+   "section_url": "https://www.ahajournals.org/doi/10.1161/STR.0000000000000436"
+  },
+  {
+   "id": "xneu_k02",
+   "type": "K",
+   "set": 1,
+   "source": "guideline_generated",
+   "question": "Regarding vasospasm and delayed cerebral ischaemia after aneurysmal subarachnoid haemorrhage, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Prophylactic hypervolaemia increases complications without improving outcome.",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "A Lindegaard ratio above three on transcranial Doppler indicates hyperaemia rather than vasospasm.",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "Nimodipine reduces cerebral infarction without abolishing angiographic vasospasm.",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "Statins and magnesium sulphate are recommended for prevention of delayed cerebral ischaemia.",
+     "correct": false
+    }
+   ],
+   "explanation": "The dissociation between nimodipine's clear benefit on infarction and functional outcome and its lack of effect on angiographic narrowing is the strongest evidence that delayed cerebral ischaemia is more than large-vessel spasm, and probably involves microvascular constriction, microthrombosis and cortical spreading depolarisation. The Lindegaard ratio compares middle cerebral artery with extracranial internal carotid velocity, and a ratio above three points towards vasospasm while a low ratio with high velocities suggests hyperaemia, so the statement inverts the rule. Statins, magnesium and endothelin antagonists have all been tested and are recommended against, and volume loading beyond euvolaemia adds cardiopulmonary harm without benefit.",
+   "section": "ESO/EANS/ESMINT 2026 aneurysmal SAH",
+   "section_url": "https://academic.oup.com/esj/article/11/5/aakag043/8671382"
+  },
+  {
+   "id": "xneu_a06",
+   "type": "A",
+   "set": 2,
+   "source": "guideline_generated",
+   "question": "A 68-year-old man arrives 90 minutes after the onset of left hemiparesis. Computed tomography shows a 25 mL right basal ganglia haemorrhage. Blood pressure is 198/104 mmHg, glucose is 13.2 mmol/L, temperature is 38.1 °C and he takes warfarin with an international normalised ratio of 2.8. Which strategy is best supported by randomised evidence?",
+   "options": [
+    "A goal-directed bundle addressing pressure, glucose, temperature and reversal",
+    "Intensive blood pressure lowering alone, with the other variables managed conventionally",
+    "Immediate craniotomy for haematoma evacuation before any medical therapy",
+    "Blood pressure lowering deferred 24 hours to protect perihaematomal perfusion",
+    "Prophylactic antiseizure medication combined with blood pressure lowering"
+   ],
+   "correct": 0,
+   "explanation": "A goal-directed care bundle combining systolic pressure below 140 mmHg, protocolised glucose and temperature control and rapid anticoagulation reversal, all initiated within an hour and maintained for a week, improved functional outcome and reduced mortality in a large stepped-wedge trial. Blood pressure lowering alone is the near-miss answer because it is the single most studied component, but the trial evidence for benefit rests on the package rather than any element in isolation. Prophylactic antiseizure medication is not recommended, and surgery is not the first move in a moderate-sized deep haemorrhage.",
+   "section": "INTERACT3 care bundle",
+   "section_url": "https://www.thelancet.com/article/S0140-6736(23)00806-1/fulltext"
+  },
+  {
+   "id": "xneu_a07",
+   "type": "A",
+   "set": 2,
+   "source": "guideline_generated",
+   "question": "A 74-year-old woman taking apixaban for atrial fibrillation presents three hours after symptom onset with a 20 mL lobar haemorrhage and a Glasgow Coma Scale score of 13. Her last dose was eight hours ago. Which haemostatic strategy is most appropriate?",
+   "options": [
+    "Four-factor prothrombin complex concentrate, which has proven superiority for haemostasis",
+    "Andexanet alfa, accepting an increased risk of thrombotic events",
+    "Tranexamic acid combined with prothrombin complex concentrate",
+    "Idarucizumab given as two consecutive 2.5 g intravenous boluses",
+    "Fresh frozen plasma with vitamin K and repeat imaging at six hours"
+   ],
+   "correct": 1,
+   "explanation": "Andexanet alfa is the specific reversal agent for direct factor Xa inhibitors and achieved superior haemostatic efficacy compared with usual care, predominantly prothrombin complex concentrate, in a randomised trial of acute intracranial haemorrhage. The trade-off must be stated: thrombotic events were more frequent and neither mortality nor functional outcome improved, so guidelines differ in how strongly they recommend it and prothrombin complex concentrate remains a reasonable option where andexanet is unavailable. Idarucizumab is specific to dabigatran, and plasma with vitamin K reverses vitamin K antagonists far too slowly for an expanding haematoma.",
+   "section": "AHA/ASA 2022 spontaneous ICH",
+   "section_url": "https://www.ahajournals.org/doi/10.1161/STR.0000000000000407"
+  },
+  {
+   "id": "xneu_a08",
+   "type": "A",
+   "set": 2,
+   "source": "guideline_generated",
+   "question": "A 79-year-old man taking dabigatran presents with a 15 mL cerebellar haemorrhage and progressive drowsiness. His last dose was five hours ago and renal function is normal. Which specific reversal agent is indicated?",
+   "options": [
+    "Andexanet alfa given as a bolus followed by a two-hour infusion",
+    "Four-factor prothrombin complex concentrate at 50 units per kilogram",
+    "Idarucizumab given as two consecutive 2.5 g intravenous boluses",
+    "Protamine sulphate titrated against the activated clotting time",
+    "Recombinant activated factor VII with tranexamic acid cover"
+   ],
+   "correct": 2,
+   "explanation": "Idarucizumab is a monoclonal antibody fragment that binds dabigatran with far greater affinity than thrombin and produces rapid and near-complete reversal, given as two 2.5 g boluses. Prothrombin complex concentrate is the most plausible alternative and is used when idarucizumab is unavailable, but it does not remove circulating drug and reverses the anticoagulant effect less reliably. Andexanet is specific to factor Xa inhibitors, protamine reverses heparin, and recombinant factor VIIa has no established role in intracerebral haemorrhage.",
+   "section": "AHA/ASA 2022 spontaneous ICH",
+   "section_url": "https://www.ahajournals.org/doi/10.1161/STR.0000000000000407"
+  },
+  {
+   "id": "xneu_k03",
+   "type": "K",
+   "set": 2,
+   "source": "guideline_generated",
+   "question": "Regarding blood pressure management in acute spontaneous intracerebral haemorrhage, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Lowering systolic pressure towards 140 mmHg reduces haematoma expansion.",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "ATACH-2 demonstrated a functional benefit from lowering systolic pressure below 140 mmHg.",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "Smooth sustained control with low variability is associated with better functional outcome.",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "Reduction below 130 mmHg is recommended within the first hours.",
+     "correct": false
+    }
+   ],
+   "explanation": "The consistent signal across trials is reduced haematoma growth with a systolic target around 140 mmHg, and the way the target is achieved matters as much as the number, since wide variability and large drops are associated with worse outcome. ATACH-2 randomised to a more aggressive target and found no functional benefit with more renal adverse events, which is why intensive lowering is framed around 140 rather than 120 mmHg. Observational analyses suggest that going below 130 mmHg may cause harm, so the lower bound of the target range matters clinically.",
+   "section": "INTERACT and ATACH trial evidence"
+  },
+  {
+   "id": "xneu_k04",
+   "type": "K",
+   "set": 2,
+   "source": "guideline_generated",
+   "question": "Regarding surgical management of spontaneous supratentorial intracerebral haemorrhage, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Decompressive craniectomy for severe deep haemorrhage reached statistical significance for its primary outcome.",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "Craniotomy may be considered as a life-saving measure when minimally invasive surgery is not feasible.",
+     "correct": true
+    },
+    {
+     "label": "C",
+     "text": "Early minimally invasive evacuation improved functional outcome in lobar haematomas of 30 to 80 mL.",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "The benefit of evacuation in deep basal ganglia haemorrhage remains uncertain.",
+     "correct": true
+    }
+   ],
+   "explanation": "Minimally invasive trans-sulcal evacuation within 24 hours improved functional outcome in the lobar subgroup of a randomised adaptive trial, while the deep subgroup showed no clear benefit, and only a small fraction of screened patients were eligible, which limits how broadly the result applies. The randomised trial of decompressive craniectomy for deep haemorrhage favoured surgery for death or severe dependency but narrowly missed statistical significance, and the gain lay in survival with moderate disability rather than in good recovery. Conventional craniotomy retains a role as rescue for deterioration with mass effect when less invasive options are unavailable.",
+   "section": "ENRICH and SWITCH trial evidence"
+  },
+  {
+   "id": "xneu_a09",
+   "type": "A",
+   "set": 3,
+   "source": "guideline_generated",
+   "question": "A 42-year-old man weighing 80 kg has had continuous generalised tonic-clonic seizure activity for eight minutes in the emergency department. Intravenous access is established and capillary glucose is normal. What is the most appropriate first drug treatment?",
+   "options": [
+    "Intravenous lorazepam 2 mg, repeated at two-minute intervals as needed",
+    "Intravenous levetiracetam 60 mg/kg given as the initial agent instead",
+    "Intravenous phenytoin 20 mg/kg infused over the next twenty minutes",
+    "Intravenous lorazepam 4 mg as a single adequate weight-based dose",
+    "Intravenous midazolam 2 mg titrated slowly to clinical effect"
+   ],
+   "correct": 3,
+   "explanation": "Benzodiazepines remain first-line and should be given as a single adequate weight-based dose rather than split into cautious increments, since underdosing is documented in the large majority of real-world administrations and delay allows the seizure to become progressively harder to terminate. Titrating small repeated doses is the intuitive but wrong approach: it prolongs the seizure without reducing respiratory depression, which is more strongly associated with untreated status than with adequate benzodiazepine dosing. Non-benzodiazepine agents belong at the second step, after an adequate first-line dose has failed.",
+   "section": "ICS 2025 status epilepticus guidance",
+   "section_url": "https://journals.sagepub.com/doi/10.1177/17511437251321338"
+  },
+  {
+   "id": "xneu_a10",
+   "type": "A",
+   "set": 3,
+   "source": "guideline_generated",
+   "question": "A 35-year-old woman continues to seize after two adequate doses of intravenous lorazepam. She has normal renal and hepatic function and is not pregnant. Regarding the choice of second-line antiseizure medication, what does the best randomised evidence show?",
+   "options": [
+    "Fosphenytoin is superior to both levetiracetam and intravenous valproate",
+    "Valproate is superior to levetiracetam but inferior to fosphenytoin",
+    "Levetiracetam is superior when given at 20 mg/kg rather than 60 mg/kg",
+    "None of these agents is better than a third dose of benzodiazepine",
+    "Levetiracetam, fosphenytoin and valproate are of comparable efficacy"
+   ],
+   "correct": 4,
+   "explanation": "A blinded randomised comparison of levetiracetam, fosphenytoin and valproate in benzodiazepine-refractory status epilepticus found seizure cessation with improved responsiveness in roughly half of patients in each arm, with no significant difference between agents. The practical consequence is that choice rests on comorbidity, drug interactions and availability rather than on efficacy, with levetiracetam favoured for haemodynamic and hepatic safety and valproate avoided in pregnancy and hepatic disease. Repeating benzodiazepines a third time adds respiratory depression without addressing the receptor changes that underlie ongoing seizure activity.",
+   "section": "ESETT and ICS 2025 guidance",
+   "section_url": "https://journals.sagepub.com/doi/10.1177/17511437251321338"
+  },
+  {
+   "id": "xneu_a11",
+   "type": "A",
+   "set": 3,
+   "source": "guideline_generated",
+   "question": "A 58-year-old man has received an adequate dose of lorazepam followed by a full loading dose of levetiracetam, but rhythmic clonic movements of the right arm continue 40 minutes after onset and he remains unresponsive between them. What is the most appropriate next step?",
+   "options": [
+    "Intubate and start a continuous anaesthetic infusion with electroencephalography",
+    "Give a third dose of benzodiazepine and observe him closely for a further twenty minutes",
+    "Repeat the levetiracetam loading dose and continue observation on the ward",
+    "Start oral topiramate through a nasogastric tube and avoid intubation",
+    "Give a neuromuscular blocking agent to stop the movements and reassess"
+   ],
+   "correct": 0,
+   "explanation": "Failure of an adequately dosed benzodiazepine followed by an adequately dosed second-line agent defines refractory status epilepticus, which requires anaesthetic infusion with airway control and continuous electroencephalography to confirm that electrographic seizure activity has actually stopped. Some equipoise exists about loading a second non-anaesthetic agent first in selected patients, but that does not extend to a patient who remains unresponsive with ongoing convulsive activity beyond 40 minutes. Giving a neuromuscular blocker without anaesthesia is the dangerous answer, because it abolishes the visible manifestation while leaving the seizure and its metabolic consequences untreated.",
+   "section": "ICS 2025 status epilepticus guidance",
+   "section_url": "https://journals.sagepub.com/doi/10.1177/17511437251321338"
+  },
+  {
+   "id": "xneu_k05",
+   "type": "K",
+   "set": 3,
+   "source": "guideline_generated",
+   "question": "Regarding the definitions and staging of status epilepticus, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Non-convulsive status epilepticus can be diagnosed reliably on clinical grounds without electroencephalography.",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "Super-refractory status epilepticus is defined by recurrence within twelve hours of starting anaesthesia.",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "Refractory status epilepticus is defined by failure of two adequately dosed antiseizure medications of different classes.",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "Convulsive status epilepticus is defined by seizure activity lasting 30 minutes or longer.",
+     "correct": false
+    }
+   ],
+   "explanation": "The operational threshold was shortened to five minutes of continuous convulsive activity, or recurrent seizures without recovery of consciousness, precisely because waiting half an hour allows the pharmacoresistance that follows receptor trafficking to develop. Refractory disease means failure of a benzodiazepine plus one further adequately dosed agent from a different class, and super-refractory means persistence or recurrence despite more than 24 hours of anaesthesia. Non-convulsive status has no reliable clinical signature and is the reason electroencephalography is required in any patient who fails to wake after a convulsive episode.",
+   "section": "ICS 2025 status epilepticus guidance",
+   "section_url": "https://journals.sagepub.com/doi/10.1177/17511437251321338"
+  },
+  {
+   "id": "xneu_k06",
+   "type": "K",
+   "set": 3,
+   "source": "guideline_generated",
+   "question": "Regarding the pharmacology and practical management of prolonged status epilepticus, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Valproate is contraindicated in myoclonic status epilepticus.",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "Upregulation of N-methyl-D-aspartate receptors provides the rationale for using ketamine.",
+     "correct": true
+    },
+    {
+     "label": "C",
+     "text": "Phenytoin is preferred over fosphenytoin when both preparations are available.",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "Prolonged seizure activity causes internalisation of gamma-aminobutyric acid type A receptors.",
+     "correct": true
+    }
+   ],
+   "explanation": "Within roughly half an hour of continuous seizure activity, inhibitory receptors are withdrawn from the synaptic membrane while excitatory receptors accumulate, which explains both why benzodiazepines lose potency with time and why an agent acting at the N-methyl-D-aspartate receptor becomes attractive in refractory disease. Fosphenytoin is preferred where available because of better local tolerability and a faster permissible infusion rate, not because of superior efficacy. Valproate is in fact a reasonable choice in myoclonic status and is often favoured in older patients for its haemodynamic and respiratory safety.",
+   "section": "ICS 2025 status epilepticus guidance",
+   "section_url": "https://journals.sagepub.com/doi/10.1177/17511437251321338"
+  },
+  {
+   "id": "xneu_a12",
+   "type": "A",
+   "set": 4,
+   "source": "guideline_generated",
+   "question": "Which of the following statements about temperature management after cardiac arrest is NOT consistent with the 2025 European guidance?",
+   "options": [
+    "Fever should be actively prevented with a target of 37.5 °C or below",
+    "Active cooling to 32 to 36 °C for 24 hours remains the standard of care",
+    "Temperature control should be maintained for at least 72 hours after return of circulation",
+    "Core temperature should be monitored continuously in comatose patients",
+    "Temperature control is now the preferred term rather than targeted temperature management"
+   ],
+   "correct": 1,
+   "explanation": "The 2025 European guidance removed the legacy option of active cooling to 32 to 36 °C and recommends instead that fever be actively prevented with a target at or below 37.5 °C for at least 72 hours after return of spontaneous circulation. This followed the randomised comparison of hypothermia with strict normothermia that showed no survival or functional advantage from cooling. Note the vintage risk: the 2021 guidance did recommend 32 to 36 °C, and current North American guidance still permits a range up to 37.5 °C, so an examination question written before late 2025 may expect the older answer.",
+   "section": "ERC/ESICM 2025 post-resuscitation care",
+   "section_url": "https://link.springer.com/article/10.1007/s00134-025-08117-3"
+  },
+  {
+   "id": "xneu_a13",
+   "type": "A",
+   "set": 4,
+   "source": "guideline_generated",
+   "question": "A 62-year-old man remains comatose 48 hours after return of spontaneous circulation from an out-of-hospital cardiac arrest. Propofol was stopped six hours ago. Pupillary and corneal reflexes are absent and the family asks about his prognosis. What is the most appropriate approach?",
+   "options": [
+    "Predict a poor outcome now on the basis of the absent brainstem reflexes",
+    "Predict a poor outcome once neuron-specific enolase becomes available",
+    "Defer prognostication until at least 72 hours with confounders excluded",
+    "Perform a single somatosensory evoked potential study and decide on that",
+    "Withdraw life-sustaining treatment given the duration of coma so far"
+   ],
+   "correct": 2,
+   "explanation": "Formal prognostication should not begin before 72 hours from return of spontaneous circulation, and only once residual sedation, neuromuscular blockade, hypothermia, metabolic derangement and hypotension have been excluded as confounders. Six hours after stopping propofol is not long enough to guarantee clearance in a patient with impaired hepatic perfusion, so brainstem findings at 48 hours risk a falsely pessimistic conclusion. When the time comes, at least two concordant predictors are required rather than any single test, however specific it appears in isolation.",
+   "section": "ERC/ESICM 2025 post-resuscitation care",
+   "section_url": "https://link.springer.com/article/10.1007/s00134-025-08117-3"
+  },
+  {
+   "id": "xneu_a14",
+   "type": "A",
+   "set": 4,
+   "source": "guideline_generated",
+   "question": "A 54-year-old woman is comatose 72 hours after cardiac arrest and has generalised myoclonic jerks. Continuous electroencephalography shows a continuous reactive background without epileptiform discharges, and somatosensory evoked potentials show preserved N20 responses bilaterally. What is the most appropriate action?",
+   "options": [
+    "Predict a poor outcome, since post-arrest myoclonus indicates severe injury",
+    "Start deep sedation and repeat the prognostic assessment in a further week",
+    "Proceed to testing for death by neurological criteria given the depth of coma",
+    "Undertake a sedation wake-up trial rather than predicting a poor outcome",
+    "Add a second antiseizure medication and withdraw care if myoclonus persists"
+   ],
+   "correct": 3,
+   "explanation": "The 2025 guidance states explicitly that patients with myoclonus but a benign electroencephalographic background should undergo wake-up trials in the following days, because myoclonus in this setting is not by itself a reliable marker of devastating injury. Here two favourable indicators coexist, a continuous reactive background and preserved cortical responses, and treating the movement disorder as decisive would risk a self-fulfilling withdrawal decision. Predicting a poor outcome requires concordant unfavourable predictors, none of which is present.",
+   "section": "ERC/ESICM 2025 post-resuscitation care",
+   "section_url": "https://link.springer.com/article/10.1007/s00134-025-08117-3"
+  },
+  {
+   "id": "xneu_a15",
+   "type": "A",
+   "set": 4,
+   "source": "guideline_generated",
+   "question": "A 31-year-old woman taking a combined oral contraceptive presents with a two-week history of progressive headache and a new generalised seizure. Magnetic resonance venography confirms superior sagittal sinus thrombosis, and imaging shows a 3 cm haemorrhagic venous infarct in the right parietal lobe. What is the most appropriate management?",
+   "options": [
+    "Withhold anticoagulation because of the intracranial haemorrhage present",
+    "Give corticosteroids to reduce the associated cerebral oedema and mass effect",
+    "Proceed to endovascular thrombolysis as the first-line treatment for the sinus",
+    "Start aspirin alone and reassess the venogram again in about one week",
+    "Start therapeutic heparin despite the haemorrhagic venous infarction"
+   ],
+   "correct": 4,
+   "explanation": "Haemorrhagic venous infarction is a consequence of the thrombosis rather than a contraindication to treating it, and full anticoagulation with heparin is recommended even when intracranial blood is present, because relieving venous congestion is what stops the bleeding from progressing. Withholding anticoagulation is the intuitive but harmful answer imported from arterial haemorrhagic stroke, where the pathophysiology is entirely different. Corticosteroids have not been shown to help and may worsen outcome, and endovascular treatment is reserved for deterioration despite adequate anticoagulation.",
+   "section": "ESO 2017 cerebral venous thrombosis"
+  },
+  {
+   "id": "xneu_a16",
+   "type": "A",
+   "set": 4,
+   "source": "guideline_generated",
+   "question": "A 27-year-old man has a C6 fracture-dislocation with complete motor and sensory loss below that level after a fall. He is hypotensive at 82/44 mmHg with a heart rate of 52 per minute. Haemorrhagic shock has been excluded by imaging and serial assessment. Which management target is most appropriate?",
+   "options": [
+    "Maintain mean arterial pressure at 85 to 90 mmHg for the first week",
+    "Give high-dose methylprednisolone within eight hours of the injury",
+    "Maintain mean arterial pressure above 65 mmHg and avoid vasopressors",
+    "Permit relative hypotension in order to reduce spinal cord oedema",
+    "Target systolic pressure below 120 mmHg to limit haematoma expansion"
+   ],
+   "correct": 0,
+   "explanation": "Neurogenic shock from loss of sympathetic outflow leaves the injured cord vulnerable to secondary ischaemic injury, and guidance supports augmenting mean arterial pressure to 85 to 90 mmHg for approximately the first week using vasopressors once hypovolaemia is corrected. The classic distractor is high-dose methylprednisolone, which was standard practice for two decades but is no longer recommended because the evidence of benefit was weak and infection, hyperglycaemia and gastrointestinal complications were increased. The bradycardia here reflects unopposed vagal tone rather than a separate problem and often accompanies high cervical injury.",
+   "section": "Acute spinal cord injury guidance"
+  },
+  {
+   "id": "xneu_a17",
+   "type": "A",
+   "set": 4,
+   "source": "guideline_generated",
+   "question": "A 47-year-old woman fulfils the clinical criteria for suspected death by neurological criteria after a devastating intracerebral haemorrhage. The team is preparing to perform the apnoea test. Which set of prerequisites must be satisfied before the test proceeds?",
+   "options": [
+    "Hypothermia below 35 °C, normotension and complete absence of sedative drugs",
+    "Normothermia, tolerated hypotension and reversal of neuromuscular blockade alone",
+    "Normothermia, normotension, no sedative effect and no severe electrolyte disturbance",
+    "Normothermia plus a normal cerebral angiogram performed within the preceding six hours",
+    "Absence of sedative drugs alone, since the other variables do not affect the result"
+   ],
+   "correct": 2,
+   "explanation": "The apnoea test is valid only when every reversible cause of absent respiratory drive has been excluded, which means core temperature at or above 36 °C, adequate systolic pressure and mean arterial pressure, no residual sedative or neuromuscular blocking effect, and correction of severe metabolic and electrolyte derangement. Hypothermia is a confounder rather than a prerequisite, so requiring a low core temperature inverts the rule entirely. Ancillary tests such as cerebral angiography are used when the clinical examination or apnoea test cannot be completed, not as a routine precondition.",
+   "section": "Death by neurological criteria"
+  },
+  {
+   "id": "xneu_k07",
+   "type": "K",
+   "set": 4,
+   "source": "guideline_generated",
+   "question": "Regarding physiological targets in post-resuscitation intensive care, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Bradycardia below 40 per minute should be left untreated when there are no signs of hypoperfusion.",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "A mean arterial pressure target above 60 to 65 mmHg is specified.",
+     "correct": true
+    },
+    {
+     "label": "C",
+     "text": "Corticosteroids are recommended routinely after cardiac arrest.",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "Hyperoxaemia should be maintained during the first 24 hours to protect the injured brain.",
+     "correct": false
+    }
+   ],
+   "explanation": "The 2025 guidance specifies a mean arterial pressure above 60 to 65 mmHg rather than the higher targets some units had adopted, and notes that bradycardia is associated with good outcome and needs no treatment provided perfusion is adequate. Hyperoxaemia should be avoided because excess oxygen aggravates reperfusion injury, so inspired oxygen is titrated down as soon as reliable saturation measurement is available. Routine corticosteroids after cardiac arrest are not recommended, which is separate from giving them for an independent indication such as vasopressor-refractory shock.",
+   "section": "ERC/ESICM 2025 post-resuscitation care",
+   "section_url": "https://link.springer.com/article/10.1007/s00134-025-08117-3"
+  },
+  {
+   "id": "xneu_k08",
+   "type": "K",
+   "set": 4,
+   "source": "guideline_generated",
+   "question": "Regarding multimodal neuroprognostication after cardiac arrest, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "A highly malignant electroencephalographic background supports prediction of a poor outcome.",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "One predictor with very high specificity is sufficient to justify withdrawal of treatment.",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "Neuron-specific enolase above 60 micrograms per litre at 48 to 72 hours supports prediction of a poor outcome.",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "Bilaterally absent N20 somatosensory evoked potentials support prediction of a poor outcome.",
+     "correct": true
+    }
+   ],
+   "explanation": "The recognised unfavourable predictors are bilaterally absent cortical evoked potentials, a markedly raised neuron-specific enolase in the 48 to 72 hour window, a suppressed or burst-suppressed electroencephalographic background, absent pupillary and corneal reflexes at 72 hours or later, and diffuse anoxic injury on imaging. What defines the algorithm is that no single one of them is used alone, since even a very high reported specificity carries a false positive rate that would translate into withdrawing treatment from a patient who could recover. At least two concordant predictors are required, and the 2025 revision also adds indicators of favourable outcome to reduce prognostic uncertainty in both directions.",
+   "section": "ERC/ESICM 2025 post-resuscitation care",
+   "section_url": "https://link.springer.com/article/10.1007/s00134-025-08117-3"
+  },
+  {
+   "id": "xneu_k09",
+   "type": "K",
+   "set": 4,
+   "source": "guideline_generated",
+   "question": "Regarding cerebral venous sinus thrombosis, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Dabigatran was comparable to warfarin for recurrent venous thrombosis in a randomised trial.",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "Intracranial haemorrhage at presentation contraindicates anticoagulation.",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "Corticosteroids improve outcome and are recommended in most patients.",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "Pregnancy, the puerperium and combined oral contraceptives are recognised risk factors.",
+     "correct": true
+    }
+   ],
+   "explanation": "Hormonal and pregnancy-related prothrombotic states dominate the risk profile in young women, alongside thrombophilia, malignancy, dehydration and local infection. A randomised comparison of dabigatran with dose-adjusted warfarin after the acute phase found similar low rates of recurrent thrombosis and bleeding, which supports direct oral anticoagulants in selected patients although vitamin K antagonists remain the better studied option. Anticoagulation is given despite haemorrhagic venous infarction, whereas corticosteroids have not shown benefit and observational data suggest possible harm in patients without parenchymal lesions.",
+   "section": "ESO 2017 cerebral venous thrombosis"
+  }
+ ]
+}

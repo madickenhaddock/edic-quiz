@@ -1,0 +1,594 @@
+{
+ "module": "EXT Cardiac Arrest and CV Emergencies beyond PACT",
+ "sections": {},
+ "questions": [
+  {
+   "id": "xcva_a01",
+   "type": "A",
+   "set": 1,
+   "source": "guideline_generated",
+   "question": "A 64-year-old man has an in-hospital cardiac arrest in ventricular fibrillation. He has now received five shocks in total, with adrenaline first given after the third. Between shocks the rhythm has converted briefly to organised complexes without a pulse before fibrillating again. Which amiodarone regimen is correct?",
+   "options": [
+    "A total of 300 mg after the third shock and a further 150 mg after the fifth",
+    "300 mg after the third shock only, with no further dose thereafter",
+    "150 mg after the third shock and a further 300 mg after the fifth shock is given",
+    "300 mg only when the fibrillation is refractory rather than recurrent in nature",
+    "No amiodarone, since the rhythm has converted between shocks on several occasions"
+   ],
+   "correct": 0,
+   "explanation": "European guidance gives 300 mg of amiodarone after three shocks and a further 150 mg after five, and the 2025 revision states explicitly that this applies whether the shockable rhythm is sequential and refractory or intermittent and recurrent. The distinction between refractory and recurrent fibrillation is the trap, because it was previously used to justify withholding the second dose. Lidocaine 100 mg with a further 50 mg after five shocks is the alternative where amiodarone is unavailable or local policy differs.",
+   "section": "ERC 2025 adult advanced life support",
+   "section_url": "https://www.resuscitationjournal.com/article/S0300-9572(25)00281-3/fulltext"
+  },
+  {
+   "id": "xcva_a02",
+   "type": "A",
+   "set": 1,
+   "source": "guideline_generated",
+   "question": "A 58-year-old woman remains in ventricular fibrillation after three shocks delivered with pads in the antero-lateral position. Two defibrillators are available in the resuscitation room. According to the 2025 European guidance, what should be done next?",
+   "options": [
+    "Deliver dual sequential defibrillation using both defibrillators in quick succession",
+    "Reposition the pads to an antero-posterior configuration for subsequent shocks",
+    "Analyse the fibrillation waveform amplitude to time the next shock optimally",
+    "Escalate to maximum energy while continuing with the current pad position",
+    "Pause compressions for a longer interval to allow better rhythm assessment"
+   ],
+   "correct": 1,
+   "explanation": "A new recommendation in 2025 is to change pad position to antero-posterior after three unsuccessful shocks, which alters the path of current through the myocardium and may improve the chance of defibrillation. Dual sequential defibrillation is the tempting alternative given that two machines are present, but the European guidance does not recommend its routine use because the evidence is limited and the practical difficulties are considerable, whereas North American guidance treats it more permissively. Waveform analysis has no established role in timing shocks.",
+   "section": "ERC 2025 adult advanced life support",
+   "section_url": "https://www.resuscitationjournal.com/article/S0300-9572(25)00281-3/fulltext"
+  },
+  {
+   "id": "xcva_a03",
+   "type": "A",
+   "set": 1,
+   "source": "guideline_generated",
+   "question": "Which of the following is NOT recommended in the 2025 European adult advanced life support guidance?",
+   "options": [
+    "Completing the rhythm assessment within five seconds",
+    "Placing the lateral pad in the mid-axillary line below the armpit",
+    "Routine use of dual sequential defibrillation in refractory fibrillation",
+    "Using waveform capnography to monitor the quality of chest compressions",
+    "Siting intravenous or intraosseous access above the diaphragm where possible"
+   ],
+   "correct": 2,
+   "explanation": "The European council reviewed dual sequential defibrillation and decided against recommending it routinely, citing limited evidence of efficacy and the practical difficulty of coordinating two defibrillators. The other four statements are all current recommendations, with the 2025 revision shortening the permitted rhythm check from ten seconds to five and placing greater emphasis on correct initial pad placement below the armpit rather than too anteriorly on the chest wall.",
+   "section": "ERC 2025 adult advanced life support",
+   "section_url": "https://www.resuscitationjournal.com/article/S0300-9572(25)00281-3/fulltext"
+  },
+  {
+   "id": "xcva_a04",
+   "type": "A",
+   "set": 1,
+   "source": "guideline_generated",
+   "question": "A 71-year-old woman collapses four days after hip arthroplasty and is found in pulseless electrical activity. During a rhythm check, focused echocardiography shows a dilated, poorly contracting right ventricle with a small underfilled left ventricle. What is the most appropriate specific intervention?",
+   "options": [
+    "Give a fluid bolus of 30 mL/kg and otherwise continue standard resuscitation",
+    "Give calcium chloride with sodium bicarbonate empirically during the arrest",
+    "Stop resuscitation after twenty minutes, since the outcome here is hopeless",
+    "Give a thrombolytic drug and continue resuscitation for 60 to 90 minutes",
+    "Perform immediate pericardiocentesis for presumed cardiac tamponade instead"
+   ],
+   "correct": 3,
+   "explanation": "The combination of recent major orthopaedic surgery, pulseless electrical activity and an acutely dilated right ventricle points to pulmonary embolism, and European guidance recommends considering immediate thrombolysis when embolism is the suspected or confirmed cause. The essential corollary is that resuscitation must then continue for a further 60 to 90 minutes to allow the drug to work, so stopping at the usual point discards the only intervention that could help. Aggressive fluid loading is the most harmful wrong answer here because it worsens an already overloaded right ventricle.",
+   "section": "ERC 2025 adult advanced life support",
+   "section_url": "https://www.resuscitationjournal.com/article/S0300-9572(25)00281-3/fulltext"
+  },
+  {
+   "id": "xcva_a05",
+   "type": "A",
+   "set": 1,
+   "source": "guideline_generated",
+   "question": "A 26-year-old man is extricated from an avalanche in cardiac arrest with a core temperature of 26 °C. Ventricular fibrillation persists after three defibrillation attempts. What is the most appropriate management?",
+   "options": [
+    "Continue shocking at three-minute intervals irrespective of the measured core temperature",
+    "Give adrenaline every 3 to 5 minutes exactly as in a normothermic cardiac arrest",
+    "Terminate resuscitation now, since survival at this temperature is not expected",
+    "Rewarm using warmed intravenous fluids alone and defer any transfer decision",
+    "Withhold further shocks until above 30 °C and transfer to a centre offering ECPR"
+   ],
+   "correct": 4,
+   "explanation": "The severely hypothermic myocardium responds poorly to defibrillation and to drugs, so further shocks are delayed until the core temperature exceeds 30 °C, adrenaline is withheld or given only once below 30 °C, and the priority becomes transfer to a centre that can rewarm on extracorporeal support. Between 30 and 35 °C the adrenaline interval is extended to 6 to 10 minutes rather than the usual 3 to 5. The instinct to terminate resuscitation is wrong because intact neurological survival has been reported after prolonged hypothermic arrest.",
+   "section": "ERC 2025 special circumstances",
+   "section_url": "https://www.resuscitationjournal.com/article/S0300-9572(25)00265-5/fulltext"
+  },
+  {
+   "id": "xcva_k01",
+   "type": "K",
+   "set": 1,
+   "source": "guideline_generated",
+   "question": "Regarding drug therapy during adult advanced life support, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Analysis of the fibrillation waveform identifies the optimal moment to defibrillate.",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "Adrenaline 1 mg is repeated every 3 to 5 minutes while resuscitation continues.",
+     "correct": true
+    },
+    {
+     "label": "C",
+     "text": "Lidocaine is recommended in preference to amiodarone.",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "The first amiodarone dose follows three shocks whether the fibrillation is refractory or recurrent.",
+     "correct": true
+    }
+   ],
+   "explanation": "Adrenaline dosing is unchanged and the 2025 revision clarified that the amiodarone schedule follows the cumulative shock count rather than the pattern of the arrhythmia. Lidocaine is positioned as an alternative when amiodarone is unavailable or where local policy favours it, not as the preferred agent. Waveform analysis has been studied as a way of choosing when to shock but has not entered the guidance, so shocks are delivered according to the algorithm and defibrillator prompts.",
+   "section": "ERC 2025 adult advanced life support",
+   "section_url": "https://www.resuscitationjournal.com/article/S0300-9572(25)00281-3/fulltext"
+  },
+  {
+   "id": "xcva_k02",
+   "type": "K",
+   "set": 1,
+   "source": "guideline_generated",
+   "question": "Regarding monitoring and quality of cardiopulmonary resuscitation, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Point-of-care ultrasound should be performed at every rhythm check whatever the delay it causes.",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "A sudden rise in end-tidal carbon dioxide may indicate return of spontaneous circulation.",
+     "correct": true
+    },
+    {
+     "label": "C",
+     "text": "Waveform capnography is used to monitor the quality of chest compressions.",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "The rhythm assessment should be completed within five seconds.",
+     "correct": true
+    }
+   ],
+   "explanation": "Capnography serves three purposes during resuscitation: confirming tracheal tube position, giving continuous feedback on compression quality, and signalling return of circulation through an abrupt rise. The 2025 revision halved the permitted rhythm check from ten seconds to five and asks that any shock be delivered within five seconds, reflecting how strongly outcome depends on minimising pauses. Focused ultrasound is valuable for identifying reversible causes but must be performed by someone competent enough not to prolong the pause, so it is not mandated at every check.",
+   "section": "ERC 2025 adult advanced life support",
+   "section_url": "https://www.resuscitationjournal.com/article/S0300-9572(25)00281-3/fulltext"
+  },
+  {
+   "id": "xcva_a06",
+   "type": "A",
+   "set": 2,
+   "source": "guideline_generated",
+   "question": "A 68-year-old man on maintenance haemodialysis arrests on the renal unit with a wide-complex pulseless rhythm. Potassium measured shortly before the arrest was 7.8 mmol/L. Alongside standard advanced life support, which approach is most appropriate?",
+   "options": [
+    "Intravenous calcium chloride with insulin and glucose, and urgent dialysis",
+    "Routine sodium bicarbonate as the primary potassium-lowering therapy here",
+    "Nebulised salbutamol as the sole shifting agent during the resuscitation",
+    "An oral potassium binder administered through a nasogastric tube at once",
+    "Withhold calcium until a formal laboratory potassium result is available"
+   ],
+   "correct": 0,
+   "explanation": "Hyperkalaemic cardiac arrest is treated with intravenous calcium to antagonise the membrane effect together with insulin and glucose to shift potassium intracellularly, and dialysis is arranged as the only route of elimination in an anuric patient. The 2025 guidance also advises recording an electrocardiogram before and after calcium and recommends against routine bicarbonate for hyperkalaemia outside cardiac arrest. Waiting for a laboratory confirmation in an arrest with a compatible history and a wide-complex rhythm wastes the only window in which treatment can work.",
+   "section": "ERC 2025 special circumstances",
+   "section_url": "https://www.resuscitationjournal.com/article/S0300-9572(25)00265-5/fulltext"
+  },
+  {
+   "id": "xcva_a07",
+   "type": "A",
+   "set": 2,
+   "source": "guideline_generated",
+   "question": "A 44-year-old woman develops stridor, widespread wheeze and a blood pressure of 60/30 mmHg within minutes of an intravenous antibiotic infusion. What is the most appropriate immediate treatment?",
+   "options": [
+    "Intravenous hydrocortisone 200 mg with chlorphenamine as first-line therapy",
+    "Intramuscular adrenaline 0.5 mg, repeated if there is no improvement",
+    "Nebulised salbutamol and fluid, with adrenaline held in reserve",
+    "Intravenous adrenaline 1 mg by bolus as used in cardiac arrest management",
+    "An intravenous antihistamine with fluid resuscitation and airway observation"
+   ],
+   "correct": 1,
+   "explanation": "Anaphylaxis is recognised by airway, breathing or circulation problems with or without skin changes, and intramuscular adrenaline is given at first suspicion and repeated if there is no improvement within about five minutes. Corticosteroids and antihistamines have been demoted to adjuncts and do nothing for the airway or circulatory collapse in the first minutes. A 1 mg intravenous bolus is the dangerous distractor: intravenous adrenaline is titrated in small increments by practitioners experienced with it, and arrest doses given to a perfusing patient cause hypertensive crisis and arrhythmia.",
+   "section": "ERC 2025 special circumstances",
+   "section_url": "https://www.resuscitationjournal.com/article/S0300-9572(25)00265-5/fulltext"
+  },
+  {
+   "id": "xcva_a08",
+   "type": "A",
+   "set": 2,
+   "source": "guideline_generated",
+   "question": "A 42-year-old man has a witnessed out-of-hospital ventricular fibrillation arrest with immediate bystander resuscitation. He arrives in the emergency department 35 minutes after collapse, still in refractory fibrillation, with an end-tidal carbon dioxide of 3.0 kPa. Which statement best describes the role of extracorporeal cardiopulmonary resuscitation here?",
+   "options": [
+    "It is contraindicated once the arrest has exceeded thirty minutes in duration",
+    "It should replace conventional resuscitation in every refractory cardiac arrest now",
+    "It should be considered in centres with an established protocol for its delivery",
+    "It is indicated only in arrests of confirmed hypothermic aetiology in practice",
+    "It requires return of spontaneous circulation before cannulation can proceed"
+   ],
+   "correct": 2,
+   "explanation": "European guidance positions extracorporeal resuscitation as an option to consider in refractory arrest specifically in hospitals where it can be implemented with a defined protocol and trained team, rather than as a universal recommendation. This patient has several features associated with better outcome, namely a witnessed arrest, bystander resuscitation, a shockable rhythm and a maintained end-tidal carbon dioxide, which is why an arbitrary time cut-off would be the wrong reason to decline. Cannulation occurs during ongoing resuscitation, which is the entire point of the intervention.",
+   "section": "ERC 2025 special circumstances",
+   "section_url": "https://www.resuscitationjournal.com/article/S0300-9572(25)00265-5/fulltext"
+  },
+  {
+   "id": "xcva_k03",
+   "type": "K",
+   "set": 2,
+   "source": "guideline_generated",
+   "question": "Regarding cardiac arrest in accidental hypothermia, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Below 30 °C adrenaline may accumulate and cause more harm than benefit.",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "Defibrillation should continue at standard intervals whatever the core temperature.",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "Between 30 and 35 °C the adrenaline dosing interval is extended to 6 to 10 minutes.",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "Continuous resuscitation must be maintained during prolonged extrication below 28 °C.",
+     "correct": false
+    }
+   ],
+   "explanation": "Drug metabolism slows profoundly in the cold, so adrenaline accumulates without benefit below 30 °C and the interval is stretched in the intermediate range. Defibrillation attempts are suspended after three unsuccessful shocks until rewarming has raised the core temperature above 30 °C, because the cold myocardium is resistant to conversion. Below 28 °C delayed or intermittent resuscitation is explicitly permitted when continuous compressions are not feasible during difficult extrication, which is a deliberate departure from the normal rule of uninterrupted compressions.",
+   "section": "ERC 2025 special circumstances",
+   "section_url": "https://www.resuscitationjournal.com/article/S0300-9572(25)00265-5/fulltext"
+  },
+  {
+   "id": "xcva_k04",
+   "type": "K",
+   "set": 2,
+   "source": "guideline_generated",
+   "question": "Regarding resuscitation in special circumstances, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Sodium bicarbonate is recommended routinely for hyperkalaemia outside cardiac arrest.",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "Cardiac arrest in pregnancy is managed without any addendum to the standard algorithm.",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "During arrest on dialysis the vascular access should be left open and used for drug administration.",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "Patients with obesity require a modified basic and advanced life support approach.",
+     "correct": false
+    }
+   ],
+   "explanation": "When arrest occurs on dialysis the machine is stopped and the circuit volume returned, but the access itself remains the fastest route for drugs. Obesity does not warrant deviation from standard technique, although rescuer fatigue means changing the person compressing more frequently. The 2025 revision added a recommendation against routine bicarbonate for hyperkalaemia in the non-arrest setting, and the algorithm now carries a specific maternal addendum covering uterine displacement and timing of delivery.",
+   "section": "ERC 2025 special circumstances",
+   "section_url": "https://www.resuscitationjournal.com/article/S0300-9572(25)00265-5/fulltext"
+  },
+  {
+   "id": "xcva_a09",
+   "type": "A",
+   "set": 3,
+   "source": "guideline_generated",
+   "question": "A 63-year-old hypertensive man has sudden tearing interscapular chest pain, a 20 mmHg difference in systolic pressure between the arms and a new early diastolic murmur. He is haemodynamically stable and the electrocardiogram shows no ST elevation. What is the most appropriate first-line imaging?",
+   "options": [
+    "Bedside transthoracic echocardiography alone before any further imaging",
+    "Chest radiography, proceeding further only if the mediastinum looks widened",
+    "Magnetic resonance angiography of the thoracic aorta as the initial study",
+    "ECG-gated contrast computed tomography from the neck to the pelvis",
+    "Invasive aortography as the definitive diagnostic test"
+   ],
+   "correct": 3,
+   "explanation": "European guidance recommends early electrocardiogram-gated contrast computed tomography covering neck to pelvis as the first-line technique, since gating removes the pulsation artefact that mimics a flap in the ascending aorta and the wide coverage defines entry tear and malperfusion in one study. Transthoracic echocardiography is useful at the bedside for tamponade and aortic regurgitation but cannot exclude the diagnosis. A normal chest radiograph occurs in a substantial minority, so using it as a gatekeeper is a recognised route to missed dissection.",
+   "section": "ESC 2024 peripheral arterial and aortic diseases",
+   "section_url": "https://academic.oup.com/eurheartj/article/45/36/3538/7738955"
+  },
+  {
+   "id": "xcva_a10",
+   "type": "A",
+   "set": 3,
+   "source": "guideline_generated",
+   "question": "A 59-year-old woman has severe chest pain radiating to the back. Computed tomography shows a dissection flap originating in the ascending aorta with a small pericardial effusion and no malperfusion. Blood pressure is 168/94 mmHg and the heart rate is 104 per minute. What is the most appropriate management?",
+   "options": [
+    "Medical therapy alone with strict pressure control and repeat imaging at 48 hours",
+    "Thoracic endovascular repair as the first-line intervention for this dissection",
+    "Immediate pericardiocentesis before any other treatment",
+    "Systemic thrombolysis, since the presentation may represent myocardial infarction",
+    "Rate and pressure control followed by emergency surgical repair of the aorta"
+   ],
+   "correct": 4,
+   "explanation": "A dissection involving the ascending aorta is a surgical emergency because untreated mortality rises by roughly one per cent per hour, driven by rupture into the pericardium, coronary involvement and acute aortic regurgitation. Medical therapy controls shear stress while the theatre is prepared but does not substitute for repair. Draining a small effusion before surgery is the dangerous distractor, since relieving tamponade can restore the pressure that ruptures the aorta completely, and thrombolysis in this setting is catastrophic.",
+   "section": "ESC 2024 peripheral arterial and aortic diseases",
+   "section_url": "https://academic.oup.com/eurheartj/article/45/36/3538/7738955"
+  },
+  {
+   "id": "xcva_a11",
+   "type": "A",
+   "set": 3,
+   "source": "guideline_generated",
+   "question": "A 66-year-old man has a dissection originating distal to the left subclavian artery. There is no malperfusion, no rupture, no refractory pain and no rapid aortic expansion on serial imaging. What is the most appropriate initial management?",
+   "options": [
+    "Medical therapy targeting a systolic pressure below 120 mmHg and a rate below 60",
+    "Immediate thoracic endovascular repair despite the absence of any complication",
+    "Open surgical replacement of the descending thoracic aorta within 24 hours",
+    "Anticoagulation with heparin to prevent false lumen thrombosis and embolism",
+    "Observation without antihypertensive therapy in order to preserve perfusion"
+   ],
+   "correct": 0,
+   "explanation": "Uncomplicated type B dissection is managed medically with tight control of both blood pressure and heart rate, because it is the rate of rise of pressure rather than the pressure alone that propagates the false lumen. Endovascular repair is reserved for complicated disease, defined by rupture, malperfusion, rapid expansion or refractory pain, although some surgical guidance now argues for intervention when high-risk features are present. Anticoagulation has no role and would increase the risk of haemorrhagic complications.",
+   "section": "ESC 2024 peripheral arterial and aortic diseases",
+   "section_url": "https://academic.oup.com/eurheartj/article/45/36/3538/7738955"
+  },
+  {
+   "id": "xcva_a12",
+   "type": "A",
+   "set": 3,
+   "source": "guideline_generated",
+   "question": "A 55-year-old man with a confirmed acute aortic dissection has a blood pressure of 190/105 mmHg and a heart rate of 110 per minute while awaiting transfer. Which pharmacological sequence is correct?",
+   "options": [
+    "Start sodium nitroprusside first and add a beta-blocker once the pressure has fallen",
+    "Start an intravenous beta-blocker first, adding a vasodilator if needed",
+    "Start a dihydropyridine calcium channel blocker as the sole initial agent used",
+    "Start hydralazine as the first agent because of its rapid onset of action here",
+    "Withhold antihypertensive therapy until definitive imaging has been completed"
+   ],
+   "correct": 1,
+   "explanation": "Beta-blockade comes first because it lowers both the heart rate and the rate of rise of aortic pressure, which are the forces that propagate the dissection. A vasodilator given before rate control produces reflex tachycardia and a steeper pressure upstroke, which can extend the flap, and this is the single most examined pitfall in the topic. Hydralazine and dihydropyridines share that problem, and deferring treatment while imaging is arranged leaves the aorta exposed to exactly the shear stress that must be suppressed.",
+   "section": "ESC 2024 peripheral arterial and aortic diseases",
+   "section_url": "https://academic.oup.com/eurheartj/article/45/36/3538/7738955"
+  },
+  {
+   "id": "xcva_k05",
+   "type": "K",
+   "set": 3,
+   "source": "guideline_generated",
+   "question": "Regarding the diagnosis of acute aortic syndrome, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Transthoracic echocardiography is the recommended first-line imaging in a stable patient.",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "A normal D-dimer within six hours of onset reliably excludes acute dissection.",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "The aortic dissection detection risk score combines high-risk conditions, pain features and examination findings.",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "The 2024 classification adds entry tear location and malperfusion to the type of syndrome.",
+     "correct": true
+    }
+   ],
+   "explanation": "The new classification records type, entry tear location and malperfusion together because each element carries separate prognostic and therapeutic weight, and it is applied alongside a risk score built from predisposing conditions, the character of the pain and the physical findings. D-dimer has reasonable sensitivity but is not sufficient on its own to rule out dissection in a patient with a high pre-test probability, and it can be normal in intramural haematoma. Transoesophageal echocardiography has a defined role in guiding perioperative management, but gated computed tomography is the first-line diagnostic study.",
+   "section": "ESC 2024 peripheral arterial and aortic diseases",
+   "section_url": "https://academic.oup.com/eurheartj/article/45/36/3538/7738955"
+  },
+  {
+   "id": "xcva_k06",
+   "type": "K",
+   "set": 3,
+   "source": "guideline_generated",
+   "question": "Regarding intervention in aortic disease, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Intramural haematoma of the ascending aorta is managed medically in preference to surgery.",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "Transoesophageal echocardiography is recommended to guide perioperative management and detect early complications.",
+     "correct": true
+    },
+    {
+     "label": "C",
+     "text": "Surgery is recommended for an ascending aortic aneurysm at a maximal diameter of 55 mm or more.",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "Complicated type B dissection with favourable anatomy is treated by endovascular repair.",
+     "correct": true
+    }
+   ],
+   "explanation": "Endovascular repair is the preferred approach in complicated type B disease when the anatomy suits it, with open surgery as an alternative, and intraoperative transoesophageal imaging is recommended to guide management and identify complications early. The 55 mm threshold for the ascending aorta was retained as a class one recommendation in 2024, with lower thresholds in genetic aortopathy. Intramural haematoma involving the ascending aorta is treated as the equivalent of a type A dissection and managed surgically, since progression to overt dissection and rupture is common.",
+   "section": "ESC 2024 peripheral arterial and aortic diseases",
+   "section_url": "https://academic.oup.com/eurheartj/article/45/36/3538/7738955"
+  },
+  {
+   "id": "xcva_a13",
+   "type": "A",
+   "set": 4,
+   "source": "guideline_generated",
+   "question": "A 72-year-old man three days after pacemaker implantation becomes hypotensive at 80/58 mmHg with a heart rate of 122, a raised jugular venous pressure and pulsus paradoxus of 18 mmHg. Echocardiography shows a circumferential pericardial effusion with right atrial systolic collapse and a plethoric inferior vena cava. What is the most appropriate management?",
+   "options": [
+    "Intubate and start positive pressure ventilation before attempting any drainage",
+    "Give furosemide and a vasodilator to reduce the filling pressures",
+    "Perform urgent pericardiocentesis while maintaining preload and heart rate",
+    "Start beta-blockade to slow the heart and improve diastolic ventricular filling",
+    "Observe with serial echocardiography, since the effusion is not yet very large"
+   ],
+   "correct": 2,
+   "explanation": "Tamponade is relieved by drainage, and everything before that is holding therapy aimed at preserving the compensatory mechanisms, namely a full circulation, a fast heart rate and spontaneous negative-pressure breathing. Induction of anaesthesia with positive pressure ventilation is the classic lethal error because it abolishes venous return in a patient who depends on it, so drainage should precede intubation wherever possible. Diuretics, vasodilators and rate control all remove the compensation and can precipitate arrest.",
+   "section": "Cardiac tamponade management"
+  },
+  {
+   "id": "xcva_a14",
+   "type": "A",
+   "set": 4,
+   "source": "guideline_generated",
+   "question": "A 48-year-old man with infective endocarditis of the aortic valve develops acute severe aortic regurgitation with pulmonary oedema and a heart rate of 105 per minute. Which of the following is NOT appropriate?",
+   "options": [
+    "Urgent referral for surgical valve replacement",
+    "Vasodilator therapy to reduce the regurgitant fraction",
+    "Avoiding drugs that substantially slow the heart rate",
+    "Insertion of an intra-aortic balloon pump for support",
+    "Inotropic support while definitive surgery is arranged"
+   ],
+   "correct": 3,
+   "explanation": "Intra-aortic balloon counterpulsation is contraindicated in significant aortic regurgitation because diastolic augmentation drives blood back through the incompetent valve and worsens ventricular loading. The physiology of acute regurgitation into a small non-compliant ventricle explains the rest of the management: afterload reduction increases forward flow, the tachycardia is compensatory by shortening diastole and should not be suppressed, and inotropes support the ventricle while surgery is arranged, since only valve replacement is definitive.",
+   "section": "Acute valvular emergencies"
+  },
+  {
+   "id": "xcva_a15",
+   "type": "A",
+   "set": 4,
+   "source": "guideline_generated",
+   "question": "A 79-year-old woman with known severe aortic stenosis becomes hypotensive at 76/50 mmHg during an episode of urinary sepsis. She is in sinus rhythm at 96 per minute. Which haemodynamic strategy is most appropriate?",
+   "options": [
+    "Give a vasodilator to reduce afterload and improve flow across the stenotic valve",
+    "Aim for a fast heart rate to compensate for the fixed obstruction that is present",
+    "Use dobutamine as the sole agent in order to increase contractility across it",
+    "Restrict fluid to reduce wall stress in the hypertrophied left ventricle instead",
+    "Maintain preload and sinus rhythm and use a vasopressor to preserve pressure"
+   ],
+   "correct": 4,
+   "explanation": "The hypertrophied non-compliant ventricle depends on adequate preload and on the atrial contribution to filling, and coronary perfusion of that thickened muscle depends on diastolic aortic pressure, so noradrenaline is usually the right first agent in septic hypotension complicating severe stenosis. Vasodilators are the classic error because the stroke volume cannot rise to compensate for the fall in systemic resistance, producing an abrupt collapse. Tachycardia shortens diastole and impairs both filling and coronary perfusion, and dobutamine alone tends to worsen the pressure.",
+   "section": "Acute valvular emergencies"
+  },
+  {
+   "id": "xcva_a16",
+   "type": "A",
+   "set": 4,
+   "source": "guideline_generated",
+   "question": "A 61-year-old woman with a mechanical mitral prosthesis presents with pulmonary oedema and class four symptoms. Her international normalised ratio is 1.4. Transoesophageal echocardiography confirms an obstructive thrombus with restricted leaflet motion and a raised transvalvular gradient. What is the most appropriate management?",
+   "options": [
+    "Heart Team evaluation for redo valve replacement or low-dose slow fibrinolysis",
+    "Therapeutic unfractionated heparin alone with repeat imaging in seven days",
+    "Switch to a direct oral anticoagulant and arrange early outpatient review",
+    "Full-dose bolus alteplase given immediately without specialist consultation",
+    "Add an antiplatelet drug to warfarin and target a higher anticoagulation range"
+   ],
+   "correct": 0,
+   "explanation": "Obstructive mechanical valve thrombosis causing acute heart failure requires Heart Team assessment for either repeat valve replacement or low-dose slow-infusion fibrinolysis, the two options set out in the 2025 European guidance, with the choice resting on surgical risk, thrombus burden and local expertise. Heparin alone is inadequate for an obstructed valve in class four failure. Direct oral anticoagulants remain contraindicated in mechanical prostheses, and full-dose bolus thrombolysis carries a substantially higher embolic and haemorrhagic risk than the slow regimen.",
+   "section": "ESC/EACTS 2025 valvular heart disease",
+   "section_url": "https://academic.oup.com/ehjvshd/article/1/1/xwag001/8429937"
+  },
+  {
+   "id": "xcva_a17",
+   "type": "A",
+   "set": 4,
+   "source": "guideline_generated",
+   "question": "A 34-year-old woman presents with cardiogenic shock, a troponin of 8000 ng/L, unobstructed coronary arteries on angiography, an ejection fraction of 15 per cent and new complete atrioventricular block. Which management step is most appropriate?",
+   "options": [
+    "Start high-dose non-steroidal anti-inflammatory therapy for the myocardial inflammation",
+    "Start immunosuppression empirically before establishing any histological diagnosis",
+    "Consider temporary mechanical circulatory support and endomyocardial biopsy",
+    "Start beta-blockade at full dose immediately to protect the heart",
+    "Manage as an acute coronary syndrome with dual antiplatelet therapy and heparin"
+   ],
+   "correct": 2,
+   "explanation": "Fulminant myocarditis with shock and conduction disease warrants early consideration of temporary mechanical circulatory support, since many patients recover ventricular function completely if they survive the acute phase, and biopsy is indicated because giant cell and eosinophilic myocarditis are treatable with immunosuppression while lymphocytic disease generally is not. Starting immunosuppression blind is the plausible wrong answer that forfeits the diagnostic information. Full-dose beta-blockade in overt cardiogenic shock and non-steroidal drugs are both harmful in this setting.",
+   "section": "Fulminant myocarditis management"
+  },
+  {
+   "id": "xcva_k07",
+   "type": "K",
+   "set": 4,
+   "source": "guideline_generated",
+   "question": "Regarding the physiology and recognition of cardiac tamponade, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Right atrial systolic collapse is an early echocardiographic sign.",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "Pulsus paradoxus reflects exaggerated ventricular interdependence.",
+     "correct": true
+    },
+    {
+     "label": "C",
+     "text": "A large effusion is required before tamponade physiology can develop.",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "Positive pressure ventilation improves haemodynamics before drainage.",
+     "correct": false
+    }
+   ],
+   "explanation": "With a constrained pericardium the ventricles compete for a fixed volume, so inspiratory filling of the right ventricle displaces the septum and reduces left-sided output, which is measured at the bedside as pulsus paradoxus. Right atrial collapse during systole appears at lower pressures than right ventricular diastolic collapse and is therefore the earlier sign. Positive pressure ventilation reduces venous return and can precipitate arrest in a preload-dependent patient, and the rate of accumulation matters more than the volume, so a rapidly collecting 150 mL after a procedure can tamponade while a litre of chronic effusion does not.",
+   "section": "Cardiac tamponade management"
+  },
+  {
+   "id": "xcva_k08",
+   "type": "K",
+   "set": 4,
+   "source": "guideline_generated",
+   "question": "Regarding prosthetic valves and acute valvular emergencies, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Transoesophageal echocardiography or four-dimensional computed tomography is recommended in suspected valve thrombosis.",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "Dual antiplatelet therapy is routinely recommended after transcatheter aortic valve implantation.",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "An intra-aortic balloon pump is helpful in acute severe aortic regurgitation.",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "Direct oral anticoagulants are an accepted alternative to a vitamin K antagonist in mechanical valves.",
+     "correct": false
+    }
+   ],
+   "explanation": "Direct oral anticoagulants remain contraindicated in mechanical prostheses and in rheumatic mitral stenosis, a restriction reaffirmed in the 2025 guidance, and counterpulsation is contraindicated in significant aortic regurgitation because diastolic augmentation increases the regurgitant volume. Suspected valve thrombosis is investigated with transoesophageal echocardiography or four-dimensional computed tomography, both of which resolve leaflet motion and thrombus burden. Antithrombotic therapy after transcatheter implantation was simplified to single antiplatelet treatment, with dual therapy reserved for a separate indication.",
+   "section": "ESC/EACTS 2025 valvular heart disease",
+   "section_url": "https://academic.oup.com/ehjvshd/article/1/1/xwag001/8429937"
+  },
+  {
+   "id": "xcva_k09",
+   "type": "K",
+   "set": 4,
+   "source": "guideline_generated",
+   "question": "Regarding myocarditis and pericarditis in the critically ill, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Colchicine added to aspirin or a non-steroidal drug reduces recurrence in acute pericarditis.",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "Corticosteroids are the recommended first-line treatment for acute idiopathic pericarditis.",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "Non-steroidal anti-inflammatory drugs are the mainstay of treatment in fulminant myocarditis.",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "Giant cell myocarditis is identified on endomyocardial biopsy and may respond to immunosuppression.",
+     "correct": true
+    }
+   ],
+   "explanation": "Biopsy earns its place in fulminant disease because it separates the treatable phenotypes, giant cell and eosinophilic myocarditis, from lymphocytic disease where immunosuppression has no established benefit. Colchicine roughly halves recurrence when added to standard anti-inflammatory therapy in pericarditis, whereas early corticosteroids are associated with a higher recurrence rate and are reserved for failure of first-line treatment or for specific autoimmune causes. Non-steroidal drugs are avoided in myocarditis with ventricular impairment because they promote fluid retention and may worsen myocardial injury.",
+   "section": "Myocarditis and pericarditis"
+  }
+ ]
+}

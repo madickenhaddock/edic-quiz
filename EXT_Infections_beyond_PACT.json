@@ -1,0 +1,644 @@
+{
+ "module": "EXT Infections beyond PACT",
+ "sections": {},
+ "questions": [
+  {
+   "id": "xinf_a01",
+   "type": "A",
+   "set": 1,
+   "source": "guideline_generated",
+   "question": "A 62-year-old man with a bioprosthetic aortic valve undergoes valve surgery for suspected infective endocarditis after three weeks of fever. Blood cultures have remained sterile on antibiotics and preoperative transoesophageal echocardiography showed only mild leaflet thickening. At operation the surgeon documents a paravalvular abscess with vegetations on the prosthesis; histology and tissue culture are still pending. Under the 2023 Duke-ISCVID criteria, how does this operative finding contribute to classification?",
+   "options": [
+    "It counts as a minor criterion until histopathology or tissue culture confirms infection",
+    "It has no classification value unless tissue culture or molecular testing is positive",
+    "It counts as a major clinical criterion on the basis of direct surgical inspection",
+    "It is treated as a major imaging criterion equivalent to positron emission tomography",
+    "It removes the need for positive blood cultures in prosthetic valve disease only"
+   ],
+   "correct": 2,
+   "explanation": "Evidence of endocarditis seen by direct inspection during cardiac surgery was added as a new major clinical criterion in the 2023 update, so the surgeon's observation stands on its own without waiting for histopathology. Treating it as merely supportive would underclassify a case that is already definite, and confirmed pathology is a separate pathway to the diagnosis rather than a precondition for this criterion. Imaging criteria such as fluorodeoxyglucose positron emission tomography belong to a different category and are not what the operative finding substitutes for.",
+   "section": "Duke-ISCVID 2023 criteria",
+   "section_url": "https://academic.oup.com/cid/article/77/4/518/7151107"
+  },
+  {
+   "id": "xinf_a02",
+   "type": "A",
+   "set": 1,
+   "source": "guideline_generated",
+   "question": "A 54-year-old woman with native mitral valve endocarditis caused by viridans streptococci has completed 12 days of appropriate intravenous antibiotics. She is afebrile with sterile blood cultures, but has now sustained a second symptomatic splenic infarct, and repeat transoesophageal echocardiography shows a persistent 14 mm anterior leaflet vegetation with mild regurgitation. What is the most appropriate management?",
+   "options": [
+    "Refer for urgent valve surgery to prevent further systemic embolic events",
+    "Complete the planned six-week antibiotic course and repeat imaging afterwards",
+    "Add gentamicin to the regimen and continue medical treatment alone",
+    "Start therapeutic anticoagulation to reduce vegetation-related embolism",
+    "Switch to oral step-down therapy now that her blood cultures are sterile"
+   ],
+   "correct": 0,
+   "explanation": "European guidance recommends urgent surgery for a vegetation larger than 10 mm that persists after one or more embolic episodes despite adequate antimicrobial therapy, because the risk of a further and potentially cerebral embolus outweighs the operative risk. Simply completing the medical course accepts that ongoing risk, and adding an aminoglycoside does not reduce embolic potential in streptococcal disease. Anticoagulation is the most tempting wrong answer: it does not prevent vegetation embolism and increases the risk of haemorrhagic transformation of an existing infarct.",
+   "section": "ESC 2023 infective endocarditis"
+  },
+  {
+   "id": "xinf_a03",
+   "type": "A",
+   "set": 1,
+   "source": "guideline_generated",
+   "question": "A 70-year-old man develops fever and new heart failure four months after mechanical aortic valve replacement. Blood cultures have been drawn and transoesophageal echocardiography demonstrates a paravalvular abscess. He is haemodynamically unstable and empirical therapy must begin before culture results are available. Which regimen is most appropriate?",
+   "options": [
+    "Ampicillin with flucloxacillin and gentamicin",
+    "Ceftriaxone with gentamicin and metronidazole",
+    "Piperacillin-tazobactam with vancomycin and fluconazole",
+    "Meropenem with daptomycin and fosfomycin",
+    "Vancomycin with gentamicin and rifampicin"
+   ],
+   "correct": 4,
+   "explanation": "Prosthetic valve endocarditis presenting within 12 months of surgery is dominated by staphylococci, including methicillin-resistant and coagulase-negative species, so empirical cover combines vancomycin with gentamicin and rifampicin for activity against organisms embedded in prosthetic material. The ampicillin-based combination is the recommended empirical choice for community-acquired native valve disease and would leave resistant staphylococci untreated here. Broad Gram-negative or antifungal cover adds toxicity without addressing the organisms that actually cause early prosthetic infection.",
+   "section": "ESC 2023 infective endocarditis"
+  },
+  {
+   "id": "xinf_k01",
+   "type": "K",
+   "set": 1,
+   "source": "guideline_generated",
+   "question": "Regarding the 2023 Duke-ISCVID diagnostic criteria for infective endocarditis, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "The requirement for blood cultures taken at separate times from separate venepuncture sites has been removed.",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "Evidence of endocarditis seen at cardiac surgery is a major clinical criterion.",
+     "correct": true
+    },
+    {
+     "label": "C",
+     "text": "Coagulase-negative staphylococci are typical causative organisms irrespective of whether intracardiac prosthetic material is present.",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "A normal transthoracic echocardiogram rejects the diagnosis when clinical suspicion remains high.",
+     "correct": false
+    }
+   ],
+   "explanation": "The 2023 update dropped the historical rules about timing and separate venepuncture sites for blood cultures, and added intraoperative inspection as a major clinical criterion. The list of typical organisms was expanded, but several additions including coagulase-negative staphylococci count as typical only when intracardiac prosthetic material is in place, which is the distinction most often missed. A normal transthoracic study has limited sensitivity, particularly for prosthetic valves and abscesses, so transoesophageal imaging is required before the diagnosis can be rejected.",
+   "section": "Duke-ISCVID 2023 criteria",
+   "section_url": "https://academic.oup.com/cid/article/77/4/518/7151107"
+  },
+  {
+   "id": "xinf_k02",
+   "type": "K",
+   "set": 1,
+   "source": "guideline_generated",
+   "question": "Regarding complications and management of left-sided infective endocarditis, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "The postoperative antibiotic course restarts from the day of surgery in every patient undergoing valve replacement.",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "Splenic infarction demonstrated on imaging is classified as a major criterion.",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "Transoesophageal echocardiography should be repeated within five to seven days when the initial study is negative but suspicion persists.",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "New second- or third-degree atrioventricular block suggests perivalvular abscess formation.",
+     "correct": true
+    }
+   ],
+   "explanation": "Conduction delay in aortic valve endocarditis reflects extension of infection into the septum adjacent to the conduction system and is an indication for urgent imaging and surgical consideration. Embolic phenomena such as splenic infarction are vascular findings and sit among the minor criteria, not the major ones. A negative initial transoesophageal study does not exclude the diagnosis and should be repeated within about a week, whereas the antibiotic clock is reset from the day of surgery only when intraoperative valve cultures are positive.",
+   "section": "ESC 2023 infective endocarditis"
+  },
+  {
+   "id": "xinf_a04",
+   "type": "A",
+   "set": 1,
+   "source": "guideline_generated",
+   "question": "A 34-year-old previously healthy woman presents with a 12-hour history of fever, severe headache and neck stiffness. She is drowsy but rousable with a Glasgow Coma Scale score of 13, has no focal neurological deficit, no papilloedema and has not had a seizure. According to European guidance, what is the most appropriate next step?",
+   "options": [
+    "Obtain a cranial computed tomogram first because of her reduced consciousness",
+    "Perform lumbar puncture immediately, then give antibiotics and dexamethasone",
+    "Give antibiotics and defer lumbar puncture for 24 hours to reduce herniation risk",
+    "Obtain a cranial computed tomogram first because of photophobia and neck stiffness",
+    "Start antiviral therapy and postpone lumbar puncture until magnetic resonance imaging"
+   ],
+   "correct": 1,
+   "explanation": "European guidance restricts imaging before lumbar puncture to focal neurological deficit excluding cranial nerve palsy, new-onset seizures, a Glasgow Coma Scale score below 10, or severe immunocompromise, and this patient meets none of them. Drowsiness alone is the commonest reason lumbar puncture is wrongly delayed, yet a score of 13 sits well above the threshold and imaging would only postpone both diagnosis and treatment. Swedish cohort data go further and suggest that prompt lumbar puncture improves outcome even in patients with impaired mental status, so the case for proceeding directly is strong.",
+   "section": "ESCMID 2016 acute bacterial meningitis",
+   "section_url": "https://www.clinicalmicrobiologyandinfection.org/article/S1198-743X(16)00020-3/fulltext"
+  },
+  {
+   "id": "xinf_a05",
+   "type": "A",
+   "set": 1,
+   "source": "guideline_generated",
+   "question": "A 71-year-old man taking long-term prednisolone for polymyalgia rheumatica presents with fever, confusion and neck stiffness. Cerebrospinal fluid shows 2400 leucocytes per microlitre with neutrophil predominance, a cerebrospinal fluid to blood glucose ratio of 0.2 and raised protein. Gram stain is negative. Which empirical regimen is most appropriate?",
+   "options": [
+    "Ceftriaxone with dexamethasone alone",
+    "Meropenem with vancomycin and aciclovir",
+    "Benzylpenicillin with aciclovir and rifampicin",
+    "Ceftriaxone with ampicillin and dexamethasone",
+    "Cefotaxime with metronidazole and aciclovir"
+   ],
+   "correct": 3,
+   "explanation": "Age above 50 years and corticosteroid-induced impairment of cell-mediated immunity both make Listeria monocytogenes a realistic pathogen, and cephalosporins have no activity against it, so ampicillin must be added to third-generation cephalosporin cover. Ceftriaxone with dexamethasone alone is the near-miss answer that would be correct in a young immunocompetent adult but leaves this man's most dangerous treatable pathogen uncovered. Where pneumococcal resistance to cephalosporins is significant, vancomycin or rifampicin is added as well.",
+   "section": "ESCMID 2016 acute bacterial meningitis",
+   "section_url": "https://www.clinicalmicrobiologyandinfection.org/article/S1198-743X(16)00020-3/fulltext"
+  },
+  {
+   "id": "xinf_a06",
+   "type": "A",
+   "set": 1,
+   "source": "guideline_generated",
+   "question": "A 48-year-old man with suspected pneumococcal meningitis had blood cultures taken and received ceftriaxone in the emergency department 40 minutes ago. Lumbar puncture has just been performed and shows turbid fluid with Gram-positive diplococci. Dexamethasone has not yet been given. What is the most appropriate action?",
+   "options": [
+    "Give dexamethasone now and continue it four times daily for the next four days",
+    "Withhold dexamethasone because the first antibiotic dose has been given",
+    "Give dexamethasone only if he deteriorates neurologically over the coming hours",
+    "Give one dose of dexamethasone and stop once the pathogen is confirmed",
+    "Withhold dexamethasone and give mannitol for presumed cerebral oedema"
+   ],
+   "correct": 0,
+   "explanation": "Adjunctive dexamethasone works best when it precedes or accompanies the first antibiotic dose, but European guidance still supports starting it within a few hours afterwards rather than abandoning it altogether. The standard course is 10 mg every six hours for four days, so stopping after a single dose forfeits most of the benefit on mortality and hearing loss. Mannitol treats raised intracranial pressure and has no role as a substitute for the anti-inflammatory effect that dexamethasone provides in the subarachnoid space.",
+   "section": "ESCMID 2016 acute bacterial meningitis",
+   "section_url": "https://www.clinicalmicrobiologyandinfection.org/article/S1198-743X(16)00020-3/fulltext"
+  },
+  {
+   "id": "xinf_a07",
+   "type": "A",
+   "set": 1,
+   "source": "guideline_generated",
+   "question": "A 29-year-old man has a four-day history of fever, personality change and one generalised seizure. Magnetic resonance imaging shows asymmetrical high signal in the right medial temporal lobe and insula. Cerebrospinal fluid contains 90 lymphocytes per microlitre with normal glucose and mildly raised protein. Viral polymerase chain reaction results are 12 hours away. What is the most appropriate immediate management?",
+   "options": [
+    "Await the polymerase chain reaction result before committing to antiviral therapy",
+    "Start high-dose corticosteroids as the primary treatment for the encephalitis",
+    "Start intravenous aciclovir now without waiting for the virology result",
+    "Start ceftriaxone with dexamethasone and withhold antiviral therapy for now",
+    "Repeat the lumbar puncture in 24 hours before starting any specific treatment"
+   ],
+   "correct": 2,
+   "explanation": "Untreated herpes simplex encephalitis carries very high mortality and outcome depends on how quickly aciclovir is started, so treatment begins on clinical and radiological suspicion rather than on confirmed virology. Waiting for the polymerase chain reaction is the most seductive wrong answer because the test is highly specific, but a delay of even hours worsens neurological outcome and early samples can be falsely negative. Corticosteroids are at best adjunctive and antibacterial cover alone would leave the actual pathogen untreated.",
+   "section": "ESCMID and EAN encephalitis guidance"
+  },
+  {
+   "id": "xinf_k03",
+   "type": "K",
+   "set": 1,
+   "source": "guideline_generated",
+   "question": "Regarding cerebrospinal fluid investigation in suspected acute bacterial meningitis, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Cranial imaging is mandatory before lumbar puncture in any patient with impaired consciousness.",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "A cerebrospinal fluid leucocyte count within the normal range excludes bacterial meningitis.",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "Cerebrospinal fluid lactate loses diagnostic sensitivity when antibiotics were given before the sample was taken.",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "Polymerase chain reaction can identify the pathogen after antibiotics have rendered cultures sterile.",
+     "correct": true
+    }
+   ],
+   "explanation": "Cerebrospinal fluid lactate performs well in untreated patients but its sensitivity falls markedly once antibiotics have been given, which limits its usefulness in exactly the situation where clinicians most want it. Normal cell counts occur in fulminant disease and in profoundly immunosuppressed or neutropenic patients, so a normal count is reassuring rather than exclusionary. Molecular testing retains yield after antibiotic exposure, and imaging is required only for the defined subgroup with focal deficit, new seizures, a Glasgow Coma Scale score below 10 or severe immunocompromise.",
+   "section": "ESCMID 2016 acute bacterial meningitis",
+   "section_url": "https://www.clinicalmicrobiologyandinfection.org/article/S1198-743X(16)00020-3/fulltext"
+  },
+  {
+   "id": "xinf_k04",
+   "type": "K",
+   "set": 1,
+   "source": "guideline_generated",
+   "question": "Regarding adjunctive dexamethasone in community-acquired bacterial meningitis in adults, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "It reduces mortality in pneumococcal meningitis.",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "It is contraindicated when the patient presents with septic shock.",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "It should be discontinued once a pathogen other than pneumococcus or Haemophilus influenzae is identified.",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "It reduces the incidence of hearing loss.",
+     "correct": true
+    }
+   ],
+   "explanation": "The mortality benefit of dexamethasone in high-income settings is driven almost entirely by pneumococcal disease, and the hearing benefit is well demonstrated across pathogens, which is why it is started empirically before the organism is known. Once a different pathogen is confirmed the rationale disappears and the steroid is stopped. Septic shock is not a contraindication; corticosteroids are given in that setting for a separate haemodynamic indication, so withholding dexamethasone on those grounds confuses two different treatment rationales.",
+   "section": "ESCMID 2016 acute bacterial meningitis",
+   "section_url": "https://www.clinicalmicrobiologyandinfection.org/article/S1198-743X(16)00020-3/fulltext"
+  },
+  {
+   "id": "xinf_a08",
+   "type": "A",
+   "set": 2,
+   "source": "guideline_generated",
+   "question": "A 63-year-old man is admitted to intensive care with pneumococcal pneumonia, a PaO2/FiO2 ratio of 140 and septic shock requiring noradrenaline. Appropriate antibiotics were started two hours ago. Regarding adjunctive corticosteroids, what is the most appropriate action?",
+   "options": [
+    "Withhold corticosteroids until vasopressor requirements exceed a defined threshold",
+    "Give one dose of methylprednisolone 1 mg/kg and reassess him at 24 hours",
+    "Withhold corticosteroids because they increase superinfection in bacterial pneumonia",
+    "Start dexamethasone 6 mg daily for ten days as used in viral pneumonia",
+    "Start hydrocortisone 200 mg daily as an infusion or in four divided doses"
+   ],
+   "correct": 4,
+   "explanation": "This patient meets the indication under both current frameworks: European guidance from 2023 recommends corticosteroids in severe community-acquired pneumonia with shock, and a randomised trial published shortly afterwards showed that early hydrocortisone reduced 28-day mortality in severe disease. The threshold-based answer reflects older sepsis practice that has since been abandoned, and a single methylprednisolone dose does not reproduce any studied regimen. Note the live disagreement: the 2023 European guideline restricts steroids to shock, whereas the 2024 North American focused update recommends them for severe bacterial pneumonia more broadly, so exam answers may hinge on which framework is cited.",
+   "section": "ERS/ESICM/ESCMID/ALAT 2023 severe CAP",
+   "section_url": "https://publications.ersnet.org/content/erj/61/4/2200735"
+  },
+  {
+   "id": "xinf_a09",
+   "type": "A",
+   "set": 2,
+   "source": "guideline_generated",
+   "question": "A 58-year-old woman with no recent hospitalisation, no bronchiectasis and no previous Pseudomonas isolation is admitted to intensive care with severe community-acquired pneumonia and hypoxaemic respiratory failure. Which empirical regimen best matches European guidance?",
+   "options": [
+    "A beta-lactam combined with an aminoglycoside",
+    "A beta-lactam combined with a macrolide",
+    "An antipseudomonal beta-lactam with ciprofloxacin",
+    "A carbapenem combined with linezolid",
+    "A beta-lactam alone with review at 48 hours"
+   ],
+   "correct": 1,
+   "explanation": "European guidance recommends a beta-lactam with a macrolide for severe community-acquired pneumonia, because macrolide combination therapy is associated with lower mortality and covers atypical pathogens that conventional cultures miss. Antipseudomonal cover is reserved for documented risk factors such as previous isolation, structural lung disease or recent broad-spectrum exposure, none of which apply here. Aminoglycosides add nephrotoxicity without covering atypicals, and beta-lactam monotherapy leaves a genuine diagnostic gap in the sickest patients.",
+   "section": "ERS/ESICM/ESCMID/ALAT 2023 severe CAP",
+   "section_url": "https://publications.ersnet.org/content/erj/61/4/2200735"
+  },
+  {
+   "id": "xinf_a10",
+   "type": "A",
+   "set": 2,
+   "source": "guideline_generated",
+   "question": "A 61-year-old man returns from a hotel stay with fever, dry cough, diarrhoea and confusion. Sodium is 124 mmol/L, C-reactive protein is 380 mg/L and chest radiography shows patchy consolidation. He requires intensive care. Which is the most appropriate initial diagnostic step for the suspected pathogen?",
+   "options": [
+    "Paired serology, interpreted on the acute-phase sample alone",
+    "Sputum Gram stain, looking for the characteristic Gram-negative rods",
+    "Standard blood culture, which reliably grows this organism",
+    "Legionella urinary antigen, accepting that it detects serogroup 1",
+    "Bronchoalveolar lavage galactomannan to cover atypical pathogens"
+   ],
+   "correct": 3,
+   "explanation": "Hyponatraemia, diarrhoea and confusion in a returning traveller with severe pneumonia point strongly to Legionella, and urinary antigen gives a result within hours, which is why it is the recommended first test despite detecting only Legionella pneumophila serogroup 1. Culture and molecular testing of lower respiratory samples remain necessary when the antigen is negative but suspicion persists, since other serogroups and species will be missed. Legionella stains poorly on routine Gram preparations and does not grow on standard blood culture media, and galactomannan detects Aspergillus rather than bacterial atypicals.",
+   "section": "ERS/ESICM/ESCMID/ALAT 2023 severe CAP",
+   "section_url": "https://publications.ersnet.org/content/erj/61/4/2200735"
+  },
+  {
+   "id": "xinf_k05",
+   "type": "K",
+   "set": 2,
+   "source": "guideline_generated",
+   "question": "Regarding adjunctive corticosteroids in pneumonia, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Hydrocortisone reduced 28-day mortality in a randomised trial of severe community-acquired pneumonia.",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "Routine corticosteroids are recommended in severe influenza pneumonia.",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "Gastrointestinal bleeding was consistently increased in the corticosteroid arms of these trials.",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "Corticosteroids are recommended irrespective of pneumonia severity in hospitalised adults.",
+     "correct": false
+    }
+   ],
+   "explanation": "European guidance advises against routine corticosteroids in severe influenza pneumonia and against their use in non-severe disease, where harm outweighs any benefit. The strongest supporting evidence comes from a randomised trial in which early hydrocortisone reduced 28-day mortality in intensive care patients with severe community-acquired pneumonia. Hyperglycaemia was the consistently reported adverse effect across trials, whereas gastrointestinal bleeding and secondary infection rates were not convincingly increased, which is a common misconception.",
+   "section": "ERS/ESICM/ESCMID/ALAT 2023 severe CAP",
+   "section_url": "https://publications.ersnet.org/content/erj/61/4/2200735"
+  },
+  {
+   "id": "xinf_k06",
+   "type": "K",
+   "set": 2,
+   "source": "guideline_generated",
+   "question": "Regarding severity assessment in community-acquired pneumonia, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Severe pneumonia requires at least one major criterion together with three minor criteria.",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "CURB-65 was derived specifically to determine the need for intensive care admission.",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "CURB-65 comprises confusion, urea, respiratory rate, blood pressure and age.",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "The Pneumonia Severity Index is the better validated tool for predicting mortality.",
+     "correct": true
+    }
+   ],
+   "explanation": "CURB-65 is built from confusion, urea above 7 mmol/L, respiratory rate of 30 or more, low blood pressure and age of 65 or more, and was derived to stratify mortality and site of care rather than to select patients for intensive care. Severe pneumonia is defined by either one major criterion, namely invasive ventilation or vasopressor-requiring shock, or three minor criteria, so requiring both together is the classic misreading. The Pneumonia Severity Index remains the more extensively validated mortality predictor, although it is cumbersome at the bedside.",
+   "section": "ERS/ESICM/ESCMID/ALAT 2023 severe CAP",
+   "section_url": "https://publications.ersnet.org/content/erj/61/4/2200735"
+  },
+  {
+   "id": "xinf_a11",
+   "type": "A",
+   "set": 2,
+   "source": "guideline_generated",
+   "question": "A 66-year-old man ventilated for six days develops new purulent secretions, a rising oxygen requirement and a new radiographic infiltrate. He is hypotensive and has just been started on noradrenaline. Bronchoalveolar lavage has been sent for quantitative culture. What is the most appropriate approach?",
+   "options": [
+    "Start empirical antibiotics now and use a lavage threshold of 10⁴ CFU/mL to de-escalate",
+    "Withhold antibiotics until the quantitative culture result becomes available in 48 hours",
+    "Start antibiotics only if the lavage grows more than 10⁶ CFU/mL of a pathogen",
+    "Treat on tracheal aspirate Gram stain alone and avoid bronchoalveolar lavage entirely",
+    "Start antibiotics and continue the same regimen regardless of the culture result"
+   ],
+   "correct": 0,
+   "explanation": "In a patient with septic shock, empirical therapy must not wait for microbiology, while the quantitative lavage threshold of 10 000 colony-forming units per millilitre then guides whether treatment is narrowed or stopped. Withholding antibiotics pending culture is the answer that looks like good stewardship but costs lives in shock, and a threshold of 10⁶ applies to endotracheal aspirates rather than lavage. Committing to a fixed regimen regardless of results abandons de-escalation, which is the main purpose of obtaining a quantitative sample at all.",
+   "section": "ERS/ESICM/ESCMID/ALAT 2017 HAP and VAP",
+   "section_url": "https://pubmed.ncbi.nlm.nih.gov/28890434/"
+  },
+  {
+   "id": "xinf_a12",
+   "type": "A",
+   "set": 2,
+   "source": "guideline_generated",
+   "question": "Which of the following statements about antibiotic duration in ventilator-associated pneumonia is NOT supported by European guidance?",
+   "options": [
+    "A seven-day course is appropriate for most patients with a good clinical response",
+    "Procalcitonin can be used to support earlier discontinuation of therapy",
+    "Infection with non-fermenting Gram-negative organisms mandates a 14-day course",
+    "Duration should be reassessed once susceptibility results become available",
+    "Persisting clinical failure should prompt a search for an alternative source"
+   ],
+   "correct": 2,
+   "explanation": "European guidance recommends seven to eight days for most patients with ventilator-associated pneumonia and explicitly extends this to infection with non-fermenting Gram-negative organisms such as Pseudomonas, provided the clinical response is adequate. The belief that these organisms mandate a fortnight persists from older practice and from concern about relapse, but trial data show comparable outcomes with the shorter course. Longer treatment remains reasonable in immunodeficiency, empyema, lung abscess or necrotising pneumonia, which is a matter of individual assessment rather than a rule tied to the organism.",
+   "section": "ERS/ESICM/ESCMID/ALAT 2017 HAP and VAP",
+   "section_url": "https://pubmed.ncbi.nlm.nih.gov/28890434/"
+  },
+  {
+   "id": "xinf_k07",
+   "type": "K",
+   "set": 2,
+   "source": "guideline_generated",
+   "question": "Regarding ventilator-associated pneumonia, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Inhaled antibiotics are recommended as routine adjunctive therapy.",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "Subglottic secretion drainage reduces the incidence of ventilator-associated pneumonia.",
+     "correct": true
+    },
+    {
+     "label": "C",
+     "text": "Selective digestive decontamination reduces mortality in units with low antimicrobial resistance.",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "The Clinical Pulmonary Infection Score has high specificity for the diagnosis.",
+     "correct": false
+    }
+   ],
+   "explanation": "Subglottic drainage consistently reduces incidence, although an effect on mortality and ventilator days is harder to demonstrate. The Clinical Pulmonary Infection Score is sensitive but poorly specific, so it drives overtreatment when used as a diagnostic rule rather than as a prompt to sample. Inhaled antibiotics remain reserved for difficult resistant organisms rather than routine use, whereas selective digestive decontamination has shown a mortality benefit in settings with low baseline resistance, which is why its adoption differs so sharply between countries.",
+   "section": "ERS/ESICM/ESCMID/ALAT 2017 HAP and VAP",
+   "section_url": "https://pubmed.ncbi.nlm.nih.gov/28890434/"
+  },
+  {
+   "id": "xinf_a13",
+   "type": "A",
+   "set": 3,
+   "source": "guideline_generated",
+   "question": "A 52-year-old man with type 2 diabetes has a 10-hour history of rapidly spreading erythema of the thigh with pain far out of proportion to the appearance, crepitus at the margin and a systolic blood pressure of 82 mmHg. Resuscitation and broad-spectrum antibiotics have been started. What is the most appropriate immediate management?",
+   "options": [
+    "Obtain magnetic resonance imaging first to define the extent of fascial involvement",
+    "Calculate the LRINEC score and observe him if it falls below the cut-off",
+    "Arrange bedside ultrasound and repeat clinical assessment in four hours",
+    "Arrange hyperbaric oxygen therapy before any surgical intervention",
+    "Transfer immediately to theatre for surgical exploration and radical debridement"
+   ],
+   "correct": 4,
+   "explanation": "Pain out of proportion, rapid progression, crepitus and shock together make necrotising infection the working diagnosis, and survival depends on how quickly all necrotic tissue is excised, with delay beyond 24 hours clearly associated with higher mortality. Magnetic resonance imaging is the most attractive wrong answer because it defines fascial involvement well, but it takes an unstable patient away from theatre for a diagnosis that will be made and treated in the same operation. Scoring systems and hyperbaric oxygen have supporting roles at most and neither should delay the knife.",
+   "section": "WSES/SIS-E 2018 skin and soft tissue infections",
+   "section_url": "https://link.springer.com/article/10.1186/s13017-018-0219-9"
+  },
+  {
+   "id": "xinf_a14",
+   "type": "A",
+   "set": 3,
+   "source": "guideline_generated",
+   "question": "Intraoperative Gram stain and subsequent culture from a patient with necrotising fasciitis of the arm grow group A streptococcus in pure culture. She has undergone adequate debridement and remains in septic shock. Which definitive antimicrobial regimen is most appropriate?",
+   "options": [
+    "High-dose benzylpenicillin as monotherapy",
+    "Benzylpenicillin combined with clindamycin",
+    "Piperacillin-tazobactam with metronidazole",
+    "Vancomycin combined with gentamicin",
+    "Meropenem combined with fluconazole"
+   ],
+   "correct": 1,
+   "explanation": "Clindamycin is added to penicillin because it inhibits bacterial protein synthesis and therefore suppresses exotoxin production, an effect that persists when organisms are in stationary phase and beta-lactams lose efficacy. Penicillin monotherapy is the tempting answer given full in vitro susceptibility, but it does nothing to switch off the toxin driving the shock state. The remaining regimens broaden Gram-negative, anaerobic or fungal cover that a pure streptococcal isolate does not require, and rising clindamycin resistance has made linezolid an accepted alternative toxin-suppressing agent.",
+   "section": "WSES/SIS-E 2018 skin and soft tissue infections",
+   "section_url": "https://link.springer.com/article/10.1186/s13017-018-0219-9"
+  },
+  {
+   "id": "xinf_a15",
+   "type": "A",
+   "set": 3,
+   "source": "guideline_generated",
+   "question": "Which statement about the Laboratory Risk Indicator for Necrotising Fasciitis score is NOT correct?",
+   "options": [
+    "The score incorporates C-reactive protein, white cell count and haemoglobin",
+    "Sodium, creatinine and glucose also contribute to the total score",
+    "A high score supports the diagnosis but does not replace surgical exploration",
+    "A score below the threshold reliably excludes necrotising infection",
+    "Sensitivity in validation cohorts has been lower than in the derivation cohort"
+   ],
+   "correct": 3,
+   "explanation": "The score combines C-reactive protein, white cell count, haemoglobin, sodium, creatinine and glucose, and a high value raises the probability of necrotising infection substantially. Its weakness is sensitivity, reported in validation cohorts at around 40 per cent, so a low score cannot be used to send a patient home or to defer exploration. Some national guidance now advises against using the score at all for this reason, and clinical judgement combined with surgical exploration remains the reference standard.",
+   "section": "WSES/SIS-E 2018 skin and soft tissue infections",
+   "section_url": "https://link.springer.com/article/10.1186/s13017-018-0219-9"
+  },
+  {
+   "id": "xinf_k08",
+   "type": "K",
+   "set": 3,
+   "source": "guideline_generated",
+   "question": "Regarding management of necrotising soft tissue infection, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Clindamycin is added for its bactericidal activity against group A streptococcus.",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "Planned re-exploration within 24 hours of the first debridement is recommended.",
+     "correct": true
+    },
+    {
+     "label": "C",
+     "text": "Hyperbaric oxygen should take priority over surgical debridement when a chamber is available.",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "Intravenous immunoglobulin has shown a clear mortality benefit in randomised trials.",
+     "correct": false
+    }
+   ],
+   "explanation": "A second look within a day is standard because the extent of necrosis is routinely underestimated at the first operation and progression is rapid. Randomised data on immunoglobulin, including a placebo-controlled trial in necrotising soft tissue infection, have not demonstrated a mortality benefit despite widespread use, and hyperbaric oxygen must never displace or delay surgery. The reason clindamycin is given is toxin suppression through inhibition of protein synthesis, not bactericidal killing, since it is bacteriostatic and penicillin remains the bactericidal partner.",
+   "section": "WSES/SIS-E 2018 skin and soft tissue infections",
+   "section_url": "https://link.springer.com/article/10.1186/s13017-018-0219-9"
+  },
+  {
+   "id": "xinf_a16",
+   "type": "A",
+   "set": 3,
+   "source": "guideline_generated",
+   "question": "A 59-year-old woman in intensive care has Staphylococcus aureus grown from two sets of peripheral blood cultures and from differential time to positivity through her tunnelled central venous catheter, which is her only vascular access. She remains febrile 36 hours into flucloxacillin. What is the most appropriate management?",
+   "options": [
+    "Remove the catheter and treat for at least 14 days from the first negative culture",
+    "Attempt catheter salvage with antibiotic lock therapy plus systemic treatment",
+    "Exchange the catheter over a guidewire and continue the current antibiotic course",
+    "Continue treatment through the existing catheter and reassess her at seven days",
+    "Remove the catheter and stop antibiotics once she has been afebrile for 48 hours"
+   ],
+   "correct": 0,
+   "explanation": "Catheter-related bloodstream infection caused by Staphylococcus aureus requires removal of the device, and the treatment clock starts from the first negative blood culture rather than from the day of diagnosis, with a minimum of 14 days and longer if complications such as endocarditis or osteomyelitis are found. Catheter salvage with lock therapy is reasonable for coagulase-negative staphylococci but not for Staphylococcus aureus, where retention is associated with relapse and metastatic infection. Persistent fever at 36 hours should also trigger repeat cultures and echocardiography rather than a shortened course.",
+   "section": "Catheter-related bloodstream infection guidance"
+  },
+  {
+   "id": "xinf_a17",
+   "type": "A",
+   "set": 3,
+   "source": "guideline_generated",
+   "question": "A 74-year-old woman develops profuse diarrhoea, abdominal distension and hypotension after prolonged antibiotic therapy. Clostridioides difficile toxin testing is positive, lactate is 4.1 mmol/L and computed tomography shows a dilated colon with ileus. What is the most appropriate antimicrobial management?",
+   "options": [
+    "Oral fidaxomicin 200 mg twice daily as monotherapy for ten days",
+    "Oral vancomycin 125 mg four times daily as monotherapy for ten days",
+    "Oral or nasogastric vancomycin 500 mg four times daily with intravenous metronidazole",
+    "Intravenous vancomycin combined with oral metronidazole for ten days",
+    "Oral metronidazole 500 mg three times daily as sole therapy for 14 days total"
+   ],
+   "correct": 2,
+   "explanation": "Fulminant infection with hypotension, ileus or megacolon is treated with high-dose enteral vancomycin at 500 mg four times daily combined with intravenous metronidazole, and rectal vancomycin is added when ileus prevents the drug reaching the colon. Fidaxomicin is preferred first-line for initial and first recurrent episodes but has not been studied in fulminant disease, which makes it the most plausible wrong answer here. Intravenous vancomycin does not reach the colonic lumen at therapeutic concentrations, and early surgical review should run in parallel with medical therapy.",
+   "section": "ESCMID 2021 Clostridioides difficile",
+   "section_url": "https://www.clinicalmicrobiologyandinfection.org/article/S1198-743X(21)00568-1/fulltext"
+  },
+  {
+   "id": "xinf_a18",
+   "type": "A",
+   "set": 3,
+   "source": "guideline_generated",
+   "question": "A 67-year-old man with a repaired colonic perforation and septic shock on day 9 in intensive care has Candida glabrata grown from two blood culture sets. He has a central venous catheter in situ that was inserted on admission. Which combination of actions is most appropriate?",
+   "options": [
+    "Start fluconazole and remove the central venous catheter",
+    "Start an echinocandin and exchange the catheter over a guidewire",
+    "Start liposomal amphotericin B and leave the catheter in place",
+    "Start voriconazole and remove the catheter after 48 hours of therapy",
+    "Start an echinocandin and remove the central venous catheter"
+   ],
+   "correct": 4,
+   "explanation": "Echinocandins are first-line for candidaemia and invasive candidiasis outside the central nervous system and eye, and are particularly indicated in septic shock and where reduced azole susceptibility is likely, as with Candida glabrata. Fluconazole is the near-miss choice that would be defensible for a susceptible Candida albicans isolate in a stable patient but risks treatment failure here. The catheter should be removed rather than exchanged over a guidewire, and management also requires follow-up blood cultures until clearance and an ophthalmological examination to exclude endophthalmitis.",
+   "section": "ECMM/ISHAM/ASM global candidiasis guideline",
+   "section_url": "https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(24)00749-7/fulltext"
+  },
+  {
+   "id": "xinf_k09",
+   "type": "K",
+   "set": 3,
+   "source": "guideline_generated",
+   "question": "Regarding invasive pulmonary aspergillosis in critically ill patients, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Serum galactomannan is less sensitive in non-neutropenic than in neutropenic patients.",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "Isavuconazole and voriconazole are preferred first-line agents.",
+     "correct": true
+    },
+    {
+     "label": "C",
+     "text": "Echinocandin monotherapy is an equivalent first-line option.",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "Severe influenza is an established risk factor in patients without classical immunosuppression.",
+     "correct": true
+    }
+   ],
+   "explanation": "Influenza and severe viral pneumonia are now recognised risk factors alongside decompensated cirrhosis and chronic obstructive pulmonary disease, which is why the disease appears in patients who lack classical host factors. Serum galactomannan performs considerably worse outside neutropenia, so bronchoalveolar lavage galactomannan and culture carry more diagnostic weight in intensive care. The mould-active triazoles remain the recommended first-line agents with liposomal amphotericin B as an alternative, whereas echinocandins belong in salvage or combination roles and recent observational data suggest worse survival when used alone.",
+   "section": "ESCMID-ECMM-ERS 2017 Aspergillus diseases",
+   "section_url": "https://www.clinicalmicrobiologyandinfection.org/article/S1198-743X(18)30051-X/fulltext"
+  },
+  {
+   "id": "xinf_k10",
+   "type": "K",
+   "set": 3,
+   "source": "guideline_generated",
+   "question": "Regarding source control in intra-abdominal infection, evaluate each statement.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Delayed source control is associated with increased mortality.",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "Percutaneous drainage is appropriate first-line management of a well-defined single abscess.",
+     "correct": true
+    },
+    {
+     "label": "C",
+     "text": "A normal contrast-enhanced computed tomogram excludes intra-abdominal infection.",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "Empirical antifungal cover is unnecessary in postoperative peritonitis following upper gastrointestinal perforation.",
+     "correct": false
+    }
+   ],
+   "explanation": "Every hour of delay in achieving source control worsens outcome in septic shock of abdominal origin, and image-guided drainage is preferred to laparotomy when the collection is single and well defined. Computed tomography can be falsely reassuring early in the course or in the presence of postoperative changes, so a normal scan does not exclude infection when the clinical picture is convincing. Candida is recovered often enough in postoperative peritonitis after upper gastrointestinal perforation for empirical antifungal cover to be reasonable in critically ill patients.",
+   "section": "WSES intra-abdominal infection guidance"
+  }
+ ]
+}
