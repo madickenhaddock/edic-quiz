@@ -1,0 +1,571 @@
+{
+  "module": "Severe Acute Pancreatitis",
+  "sections": {},
+  "questions": [
+    {
+      "id": "sap_a01",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 58-year-old woman is admitted with sudden-onset severe epigastric pain radiating to the back. Serum lipase is 4.8 times the upper limit of normal. What is the minimum additional information required to confirm the diagnosis of acute pancreatitis?",
+      "options": [
+        "A characteristic finding on abdominal CT or MRI is mandatory regardless of other findings present",
+        "No additional information is needed — two of the three diagnostic criteria are already satisfied",
+        "An elevated serum amylase above three times the upper limit of normal must also be documented",
+        "Abdominal ultrasound confirming gallstones as the aetiology is required before the diagnosis can be made",
+        "Evidence of organ dysfunction on clinical examination must be present to fulfil diagnostic criteria"
+      ],
+      "correct": 1,
+      "explanation": "The diagnosis of acute pancreatitis requires two of three criteria: (1) characteristic upper abdominal pain, (2) serum amylase or lipase ≥3× the upper limit of normal, and (3) characteristic imaging findings. This patient fulfils two criteria — pain and lipase ≥3× ULN — making imaging unnecessary to establish the diagnosis. Imaging may subsequently be needed to assess severity or exclude other diagnoses but is not mandatory when two criteria are already met.",
+      "section": "Introduction / Diagnosis",
+      "section_url": ""
+    },
+    {
+      "id": "sap_a02",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with suspected acute pancreatitis presents 96 hours after symptom onset. Serum amylase is within normal limits. Which statement best explains this finding and indicates the correct assay to use?",
+      "options": [
+        "Normal amylase reliably excludes acute pancreatitis; a different diagnosis should be sought",
+        "Amylase is always elevated throughout the disease course; a normal result is a laboratory error",
+        "Serum amylase may normalise within 3–5 days; lipase is more disease-specific and remains elevated for longer — it should be measured instead",
+        "Amylase is suppressed by concurrent opioid analgesia; a repeat measurement after withholding all opioid premedication for 6 hours is required",
+        "C-reactive protein is more sensitive than amylase beyond 48 hours and should be substituted"
+      ],
+      "correct": 2,
+      "explanation": "Serum amylase rises within hours of onset and returns to normal within 3–5 days, and may be normal on admission in up to 20% of attacks. Serum lipase is more sensitive, more disease-specific, and remains elevated for longer — making it the preferred enzyme assay, particularly when presentation is delayed. Neither enzyme should be relied upon as the sole diagnostic criterion, and CRP is a non-specific inflammatory marker.",
+      "section": "Introduction / Diagnosis",
+      "section_url": ""
+    },
+    {
+      "id": "sap_a03",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 62-year-old man with acute pancreatitis develops respiratory failure requiring mechanical ventilation and acute kidney injury requiring continuous renal replacement therapy. Both organ failures persist at 72 hours. According to the Revised Atlanta classification, how should this attack be classified?",
+      "options": [
+        "Mild acute pancreatitis — organ failure is expected in elderly patients and does not alter classification",
+        "Moderately severe acute pancreatitis — two-organ failure must be present for severe classification",
+        "Moderately severe acute pancreatitis — transient organ failure lasting less than 48 hours applies retrospectively here",
+        "Severe acute pancreatitis — persistent organ failure beyond 48 hours in one or more organs defines this category",
+        "Severe acute pancreatitis — only if CT-confirmed pancreatic necrosis is also documented"
+      ],
+      "correct": 3,
+      "explanation": "The Revised Atlanta classification defines severe acute pancreatitis as persistent organ failure lasting >48 hours, which may involve one or more organs. At 72 hours, this patient clearly fulfils this criterion regardless of necrosis status. Moderately severe pancreatitis is defined by transient organ failure (<48 hours) and/or local or systemic complications without persistent organ failure. The number of organs involved does not determine the category.",
+      "section": "Early assessment of severity",
+      "section_url": ""
+    },
+    {
+      "id": "sap_a04",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A contrast-enhanced CT performed 4 days after onset of acute pancreatitis shows two ill-defined peripancreatic fluid collections with no gas, and enhancement failure in approximately 40% of the pancreatic parenchyma. What is the CT Severity Index (CTSI) score and how should it be interpreted?",
+      "options": [
+        "CTSI = 4; indicates mild pancreatitis",
+        "CTSI = 6; indicates moderate pancreatitis",
+        "CTSI = 7; indicates severe pancreatitis",
+        "CTSI = 8; indicates severe pancreatitis with significantly increased morbidity and mortality",
+        "CTSI = 10; the maximum possible score, indicating greater than 50% parenchymal necrosis and the most severe disease category with highest complication risk"
+      ],
+      "correct": 3,
+      "explanation": "The CTSI combines the Balthazar inflammatory grade and extent of pancreatic necrosis. Two or more ill-defined peripancreatic fluid collections without gas corresponds to Balthazar grade E, scoring 4 points. Necrosis of 30–50% scores 4 additional points. Total CTSI = 8, placing this patient in the severe category (score 7–10). A CTSI of 0–3 is mild, 4–6 moderate, and 7–10 severe — scores in the 7–10 range are associated with substantially higher complication rates and mortality.",
+      "section": "Early assessment of severity",
+      "section_url": ""
+    },
+    {
+      "id": "sap_a05",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 45-year-old man is admitted with acute pancreatitis. Haemodynamics are stable, organ function preserved at 24 hours, and there is no diagnostic uncertainty. What is the most appropriate timing for contrast-enhanced CT to assess pancreatic necrosis?",
+      "options": [
+        "Immediately on admission to guide early intervention and exclude necrosis",
+        "Within 24 hours if the APACHE II score exceeds 8 to stratify risk",
+        "At 48 hours when organ failure can first be formally documented per Atlanta criteria",
+        "At 72 hours or later, to allow necrotic areas to become fully established on imaging",
+        "Only when clinical features suggest infected necrosis, regardless of disease duration"
+      ],
+      "correct": 3,
+      "explanation": "Pancreatic necrosis may take 3–4 days to become fully established on CT; scanning before 72 hours risks underestimating its extent and can lead to misclassification of severity. Where the diagnosis is clear and the patient is clinically stable, CT should be deferred until ≥72 hours after symptom onset. If the diagnosis is uncertain or there is acute clinical deterioration, earlier CT is appropriate. Extra-pancreatic fluid collections can be assessed within 24 hours if early prognostic evaluation is needed.",
+      "section": "Early assessment of severity",
+      "section_url": ""
+    },
+    {
+      "id": "sap_a06",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 48-year-old woman presents with acute pancreatitis. Serum alanine aminotransferase (ALT) is 4.2 times the upper limit of normal. Which investigation should be performed first, and why?",
+      "options": [
+        "Abdominal ultrasound — detects gallstones with 70–90% accuracy and is the first-line non-invasive test for suspected biliary aetiology",
+        "MRCP — most accurate for bile duct stones without ionising radiation and should always be performed before ultrasound",
+        "ERCP — allows simultaneous diagnosis and treatment of common bile duct stones when biliary aetiology is suspected",
+        "Endoscopic ultrasound — more sensitive than transabdominal ultrasound and should replace it in all suspected biliary cases",
+        "CT abdomen — detects gallstones and assesses necrosis simultaneously, making it the most efficient first test"
+      ],
+      "correct": 0,
+      "explanation": "A biliary aetiology should be suspected in females over 40 years with ALT >3× ULN. Abdominal ultrasound is the first-line investigation in all patients with suspected gallstone pancreatitis, detecting gallstones with 70–90% accuracy. It is readily available, bedside-applicable, and non-invasive. Common bile duct stones are more difficult to detect ultrasonographically; MRCP or endoscopic ultrasound may follow if bile duct stone is suspected. ERCP is reserved for therapeutic indication — cholangitis or persistent biliary obstruction — not routine diagnostic workup.",
+      "section": "Aetiological assessment",
+      "section_url": ""
+    },
+    {
+      "id": "sap_a07",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "During assessment of a patient with severe acute pancreatitis, you notice periumbilical ecchymosis. What is the correct name for this sign and what does it indicate?",
+      "options": [
+        "Cullen's sign; indicates periumbilical tracking of blood from retroperitoneal haemorrhage",
+        "Grey-Turner's sign; indicates retroperitoneal haemorrhage that has tracked to the flank",
+        "Murphy's sign; suggests gallbladder inflammation as the precipitating cause of pancreatitis",
+        "Grey-Turner's sign; indicates direct intraperitoneal haemorrhage requiring laparotomy",
+        "Cullen's sign; indicates splenic rupture requiring urgent surgical exploration"
+      ],
+      "correct": 0,
+      "explanation": "Cullen's sign refers to periumbilical ecchymosis; Grey-Turner's sign refers to flank ecchymosis. Both result from retroperitoneal haemorrhage tracking along fascial planes in the context of severe acute pancreatitis with haemorrhagic involvement. Grey-Turner's sign affects the flanks, not the periumbilical area. Neither sign mandates immediate surgery, but both indicate severe disease and significant haemorrhagic involvement. Murphy's sign is specific to gallbladder inflammation and is unrelated to these skin findings.",
+      "section": "Early assessment of severity",
+      "section_url": ""
+    },
+    {
+      "id": "sap_a08",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "An intubated 55-year-old patient with known alcohol use disorder develops unexplained hypoxic respiratory failure and haemodynamic instability with no clear septic source. Serum amylase is within normal limits. Which of the following statements about this result is LEAST accurate?",
+      "options": [
+        "Normal serum amylase reliably excludes acute pancreatitis in patients without pre-existing chronic pancreatic disease",
+        "Normal serum amylase occurs in up to 20% of acute pancreatitis attacks at admission and lipase should be measured",
+        "A high index of suspicion for pancreatitis is warranted in unconscious patients with alcohol history and unexplained organ failure",
+        "Serum lipase is more sensitive and disease-specific than amylase and remains elevated for longer",
+        "In patients with renal failure, elevated amylase may represent a false positive due to impaired clearance"
+      ],
+      "correct": 0,
+      "explanation": "Normal serum amylase does not exclude acute pancreatitis — it is within normal limits at admission in approximately 20% of attacks. Serum lipase is more sensitive, more disease-specific, and should be measured in all suspected cases. A high index of suspicion must be maintained in unconscious patients or those with unexplained organ failure and alcohol or gallstone history. In renal failure, impaired amylase clearance can produce false-positive elevations. The least accurate statement is that normal amylase reliably excludes the diagnosis.",
+      "section": "Introduction / Diagnosis",
+      "section_url": ""
+    },
+    {
+      "id": "sap_a09",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "image": "images/img_d91ed23daa.jpg",
+      "question": "This contrast-enhanced CT was performed in a patient with confirmed acute pancreatitis, 4 days after symptom onset. Clinical and biochemical status has been stable throughout. Based on the imaging findings, what is the most appropriate management?",
+      "options": [
+        "Urgent CT-guided percutaneous drainage of the peripancreatic fluid collection",
+        "Immediate surgical debridement to prevent progression to infected necrosis",
+        "CT-guided fine needle aspiration to determine sterile versus infected status before any decision",
+        "ERCP to relieve suspected biliary obstruction causing the peripancreatic fluid",
+        "Continued supportive care with close monitoring; no interventional procedure is indicated at this stage"
+      ],
+      "correct": 4,
+      "explanation": "The CT shows heterogeneous pancreatic enhancement consistent with oedema or early necrosis, with an acute peripancreatic fluid collection (APFC). In the absence of gas (suggesting infection) and without clinical or biochemical deterioration, this appearance does not mandate intervention. APFCs resolve spontaneously in the majority of cases. Surgical debridement before 4 weeks carries very high morbidity. FNA is no longer routinely required; CT-guided drainage is reserved for confirmed infected necrosis causing clinical deterioration. Supportive care with monitoring remains the standard at this stage.",
+      "section": "Management Of Severe Acute Pancreatitis",
+      "section_url": ""
+    },
+    {
+      "id": "sap_a10",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 67-year-old man presents with sudden severe periumbilical pain and known atrial fibrillation. Serum amylase is at the upper limit of normal. Which finding would be MOST consistent with acute mesenteric ischaemia rather than acute pancreatitis?",
+      "options": [
+        "Pain radiating to the back accompanied by nausea and vomiting",
+        "Metabolic acidosis with elevated lactate and superior mesenteric artery thrombus on biphasic CT",
+        "Diffuse periumbilical tenderness on palpation with guarding",
+        "Serum amylase at the upper limit of normal with markedly elevated C-reactive protein, rising leucocyte count, and periumbilical pain",
+        "Elevated serum lipase at 2× the upper limit of normal"
+      ],
+      "correct": 1,
+      "explanation": "Both conditions can cause severe abdominal pain, nausea, and vomiting. The discriminating features of mesenteric ischaemia are vascular occlusion (arterial or venous thrombus/embolus on biphasic CT), intramural gas, and metabolic acidosis with elevated lactate disproportionate to other findings. Atrial fibrillation is a strong risk factor for SMA embolism. The amylase is within normal limits here (not ≥3× ULN), which does not confirm acute pancreatitis. Pain radiation to the back and lipase elevation favour pancreatitis; the lactate/thrombus combination is most specific for mesenteric ischaemia.",
+      "section": "Introduction / Diagnosis",
+      "section_url": ""
+    },
+    {
+      "id": "sap_k01",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Assess each of the following statements regarding disease severity assessment in acute pancreatitis.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Persistent organ failure lasting more than 48 hours defines severe acute pancreatitis according to the Revised Atlanta classification",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The CT Severity Index assigns up to 6 additional points based solely on the extent of pancreatic parenchymal necrosis",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "C-reactive protein reliably distinguishes infected from sterile pancreatic necrosis and should be used to guide intervention decisions",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "A CT Severity Index score of 4–6 indicates severe pancreatitis with the highest rates of morbidity and mortality",
+          "correct": false
+        }
+      ],
+      "explanation": "Persistent organ failure >48 hours is the defining criterion for severe pancreatitis in the Revised Atlanta classification. The necrosis component of the CTSI assigns 0, 2, 4, or 6 points based on <30%, 30–50%, or >50% parenchymal involvement. CRP is a non-specific inflammatory marker that cannot differentiate infected from sterile necrosis — gas on CT and clinical deterioration are more useful indicators. A CTSI of 0–3 indicates mild disease, 4–6 moderate, and 7–10 severe; scores of 7–10 carry the highest morbidity and mortality.",
+      "section": "Early assessment of severity",
+      "section_url": ""
+    },
+    {
+      "id": "sap_k02",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Assess each of the following statements regarding the aetiology and epidemiology of acute pancreatitis.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Gallstone disease predominantly affects males, making female sex a protective factor against biliary acute pancreatitis",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Post-ERCP pancreatitis occurs in approximately 5–10% of procedures and is associated with higher mortality partly due to diagnostic delay",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Hypertriglyceridaemia and hypercalcaemia are recognised metabolic triggers of acute pancreatitis",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Alcohol-induced acute pancreatitis can be precipitated by a single binge-drinking episode without prior sustained excessive alcohol consumption",
+          "correct": false
+        }
+      ],
+      "explanation": "A biliary aetiology should be suspected particularly in females over 40 with ALT >3× ULN — gallstone pancreatitis is more common in females, not males, making female sex a risk factor rather than a protective factor. Post-ERCP pancreatitis occurs in 5–10% of procedures and carries higher mortality partly due to late diagnosis. Hypertriglyceridaemia (>2–5% of cases) and hypercalcaemia are recognised metabolic causes. Alcohol-induced pancreatitis typically requires prolonged heavy consumption (>50g/day for >5 years); binge drinking without sustained excess does not appear to precipitate the disease.",
+      "section": "Aetiological assessment",
+      "section_url": ""
+    },
+    {
+      "id": "sap_a11",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "A 50-year-old woman is admitted with severe acute pancreatitis and clinical signs of hypovolaemia. Which fluid resuscitation strategy is currently recommended?",
+      "options": [
+        "Moderate resuscitation: 10 mL/kg bolus if hypovolaemic followed by 1.5 mL/kg/h; balanced crystalloids preferred over normal saline",
+        "Aggressive resuscitation: 250–500 mL/hour of 0.9% normal saline until serum creatinine normalises",
+        "Aggressive resuscitation: 20 mL/kg bolus followed by 3 mL/kg/h of hydroxyethyl starch to reduce early organ failure",
+        "Restrict intravenous fluids entirely in the first 48 hours to prevent intra-abdominal hypertension",
+        "Administer 500 mL albumin 4% twice daily alongside crystalloid infusion as the preferred resuscitation fluid to maintain oncotic pressure and improve outcomes"
+      ],
+      "correct": 0,
+      "explanation": "Aggressive fluid resuscitation (20 mL/kg bolus followed by 3 mL/kg/h) is associated with higher rates of fluid overload, respiratory failure, and abdominal hypertension compared with moderate resuscitation (10 mL/kg bolus for hypovolaemia, no bolus if normovolaemic, followed by 1.5 mL/kg/h). Balanced crystalloids are preferred over normal saline; hydroxyethyl starch (HES) should not be used. Previous recommendations targeting 'dilution of laboratory values' with 250–500 mL/hour are not evidence-based and may be harmful. Frequent reassessment is essential.",
+      "section": "Management Of Severe Acute Pancreatitis",
+      "section_url": ""
+    },
+    {
+      "id": "sap_a12",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "A patient with severe acute pancreatitis develops high fever and worsening multi-organ failure on day 12. CT demonstrates gas within the pancreatic necrosis. Which statement best describes the recommended antibiotic strategy?",
+      "options": [
+        "Broad-spectrum empirical antibiotics should be started without delay while cultures are obtained; CT-guided FNA is not routinely required",
+        "Prophylactic antibiotics should have been started at admission to prevent this complication",
+        "Antibiotics must be withheld until CT-guided FNA confirms infected necrosis with a positive culture result",
+        "Antifungal therapy should be initiated empirically alongside antibiotics, as fungi are the dominant pathogens in infected pancreatic necrosis and are responsible for most treatment failures in severe cases",
+        "Antibiotic therapy is not indicated for infected necrosis; drainage alone provides adequate source control"
+      ],
+      "correct": 0,
+      "explanation": "Prophylactic antibiotics in acute pancreatitis are not recommended and do not prevent infected necrosis. Once infection is suspected — indicated here by gas in necrosis and worsening organ failure — broad-spectrum empirical antibiotics should be started without delay while cultures are taken. CT-guided FNA has a 25% false-negative rate and is no longer routinely required for diagnosis; its use has declined with increasing conservative management. Antifungals are not routinely indicated empirically. De-escalation or discontinuation should follow culture results.",
+      "section": "Management Of Severe Acute Pancreatitis",
+      "section_url": ""
+    },
+    {
+      "id": "sap_a13",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "A patient develops infected walled-off pancreatic necrosis (WOPN) 5 weeks after onset of severe acute pancreatitis, with clinical deterioration despite adequate antibiotic therapy. Which intervention strategy is most appropriate as the initial step?",
+      "options": [
+        "Immediate open surgical necrosectomy to achieve complete eradication of infected tissue",
+        "CT-guided percutaneous drainage, escalating to minimally invasive necrosectomy only if drainage fails",
+        "Laparoscopic debridement as the least invasive surgical option in all patients with WOPN",
+        "Observation for a further 3 weeks before intervention to allow further demarcation of necrosis",
+        "Total pancreatectomy to eradicate all infected tissue and prevent recurrence"
+      ],
+      "correct": 1,
+      "explanation": "The PANTER trial established the step-up approach as optimal for infected pancreatic necrosis: begin with CT-guided percutaneous drainage; escalate to minimally invasive surgical necrosectomy only if drainage fails. Open surgical debridement is reserved for refractory cases. The TENSION trial demonstrated that an endoscopic step-up approach (EUS-guided transgastric drainage) is non-inferior to the surgical step-up approach, with fewer pancreatico-cutaneous fistulas. WOPN has already formed at 5 weeks, so further delay is not appropriate — both step-up strategies require the collection to be walled off before intervention.",
+      "section": "Management Of Severe Acute Pancreatitis",
+      "section_url": ""
+    },
+    {
+      "id": "sap_a14",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "image": "images/img_92b2e36d22.png",
+      "question": "This contrast-enhanced CT was obtained 6 weeks after an episode of severe acute pancreatitis complicated by significant peripancreatic necrosis. The patient is clinically stable with improving inflammatory markers. What is the most likely finding and the most appropriate initial management?",
+      "options": [
+        "Acute peripancreatic fluid collection (APFC); requires immediate percutaneous drainage regardless of clinical status to prevent progression to established pancreatic necrosis",
+        "Pancreatic pseudocyst containing only fluid; requires urgent surgical cyst-gastrostomy",
+        "Walled-off pancreatic necrosis (WOPN); observe if asymptomatic and no evidence of infection — intervene only if infected or causing symptoms",
+        "Pancreatic abscess; immediate surgical debridement is mandated by the time course alone",
+        "Normal post-pancreatitis evolution; no further monitoring or treatment is required"
+      ],
+      "correct": 2,
+      "explanation": "By 6 weeks after severe acute pancreatitis with significant necrosis, peripancreatic collections demarcate and become encapsulated, forming walled-off pancreatic necrosis (WOPN). The CT shows a well-defined encapsulated collection in keeping with WOPN. In a clinically stable patient without evidence of infection, conservative management with observation is appropriate. Intervention (drainage or necrosectomy) is indicated for confirmed infected WOPN, symptomatic compression, or clinical deterioration. APFCs occur in the acute phase, not 6 weeks later. Pseudocysts contain pure fluid (not necrotic debris) and follow a different clinical course.",
+      "section": "Management Of Severe Acute Pancreatitis",
+      "section_url": ""
+    },
+    {
+      "id": "sap_a15",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "image": "images/img_75841994da.png",
+      "question": "The image shows an endoscopic procedure being performed in a patient admitted with biliary acute pancreatitis. He has spiking fevers to 39.5°C, rigors, and rising serum bilirubin and alkaline phosphatase. Which indication for this procedure applies in this context?",
+      "options": [
+        "ERCP is performed routinely in all patients with biliary acute pancreatitis within 24 hours to prevent necrosis",
+        "ERCP is indicated to assess pancreatic ductal disruption and guide the nutritional route",
+        "ERCP is indicated prophylactically to prevent progression to infected pancreatic necrosis",
+        "ERCP is contraindicated in the acute phase of pancreatitis as it worsens the inflammatory process",
+        "ERCP is indicated here for acute cholangitis complicating biliary obstruction, requiring urgent biliary decompression"
+      ],
+      "correct": 4,
+      "explanation": "Rising bilirubin, fever, and rigors indicate cholangitis complicating persistent bile duct stone impaction — the primary indication for urgent ERCP in biliary pancreatitis. Urgent biliary decompression (within 24 hours) is lifesaving in cholangitis. ERCP is NOT indicated routinely in all biliary acute pancreatitis; it is reserved for cases complicated by cholangitis or persistent biliary obstruction. Routine early ERCP in uncomplicated biliary pancreatitis does not improve outcomes and carries the risk of post-ERCP pancreatitis (5–10% of procedures). Persistent stone impaction in the common bile duct aggravates remote organ dysfunction.",
+      "section": "Aetiological assessment",
+      "section_url": ""
+    },
+    {
+      "id": "sap_a16",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "A patient with severe acute pancreatitis is receiving nasojejunal enteral nutrition. A colleague suggests adding postpyloric probiotics to reduce infectious complications. Which response is most appropriate?",
+      "options": [
+        "Agree — probiotics are recommended in severe acute pancreatitis to prevent bacterial translocation and infected necrosis",
+        "Agree — probiotics reduce ICU mortality in severe acute pancreatitis by restoring the gut microbiome",
+        "Disagree — postpyloric probiotics are specifically contraindicated in severe acute pancreatitis and may worsen outcomes",
+        "Disagree — probiotics are neutral in this context; they are unnecessary but cause no harm",
+        "Agree — only synbiotics combining prebiotics and probiotics have been shown beneficial in severe pancreatitis"
+      ],
+      "correct": 2,
+      "explanation": "The PROPATRIA trial demonstrated that postpyloric probiotic administration in severe acute pancreatitis was associated with increased mortality compared with placebo, likely due to worsened gut ischaemia in an already compromised splanchnic circulation. Probiotics are specifically contraindicated and must not be used — this is a critical practice point distinct from other critically ill populations where probiotics may sometimes be considered. The finding of increased mortality was unexpected and reinforces the importance of not extrapolating probiotic evidence across patient groups.",
+      "section": "Feeding The Patient With Acute Pancreatitis",
+      "section_url": ""
+    },
+    {
+      "id": "sap_a17",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "A mechanically ventilated patient with severe acute pancreatitis receiving nasojejunal nutrition and high-dose propofol sedation has serum triglycerides of 6.2 mmol/L. Which is the most appropriate initial intervention?",
+      "options": [
+        "Stop enteral nutrition immediately and switch to total parenteral nutrition to rest the pancreas",
+        "Continue enteral nutrition unchanged; hypertriglyceridaemia is an expected metabolic consequence of the inflammatory response in acute pancreatitis and does not require any intervention until triglycerides exceed 10 mmol/L",
+        "Start intravenous insulin infusion as the sole intervention for hypertriglyceridaemia",
+        "Increase the rate of enteral nutrition to dilute serum lipid concentrations",
+        "Reduce the lipid content of enteral nutrition, include propofol's lipid load in the total calculation, and target serum triglycerides below 4.5 mmol/L"
+      ],
+      "correct": 4,
+      "explanation": "Hypertriglyceridaemia results from overfeeding, insulin resistance, and poor nutrient utilisation. Propofol is formulated in a 10% lipid emulsion and constitutes a significant triglyceride load that must be included in total daily lipid delivery calculations. The target serum triglyceride is <400 mg/dL (4.5 mmol/L); above this threshold, the lipid content of enteral nutrition should be reduced and propofol's contribution accounted for. Stopping enteral nutrition entirely is not the first step. Glycaemic control should also be optimised as insulin resistance contributes to hypertriglyceridaemia.",
+      "section": "Feeding The Patient With Acute Pancreatitis",
+      "section_url": ""
+    },
+    {
+      "id": "sap_k03",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "Assess each of the following statements concerning local complications of acute pancreatitis.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Walled-off pancreatic necrosis (WOPN) is a mature encapsulated collection of necrotic material that typically develops at least 4 weeks after onset of pancreatitis",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Infected pancreatic necrosis can be reliably distinguished from sterile necrosis by clinical features alone, without imaging or microbiological investigation",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "CT-guided fine needle aspiration for suspected infected necrosis has a false-negative rate of approximately 25%",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Acute peripancreatic fluid collections (APFCs) resolve spontaneously in the majority of cases and do not routinely require drainage",
+          "correct": true
+        }
+      ],
+      "explanation": "WOPN is the mature encapsulated form requiring ≥4 weeks to develop; surgical or endoscopic intervention should be deferred until this point to allow safe demarcation and liquefaction. Clinical features (fever, leucocytosis, worsening organ failure) cannot reliably distinguish infected from sterile necrosis — gas on CT is most specific but has limited sensitivity, and FNA has a 25% false-negative rate. APFCs are acute, non-encapsulated collections that resolve spontaneously in most patients and do not require drainage.",
+      "section": "Management Of Severe Acute Pancreatitis",
+      "section_url": ""
+    },
+    {
+      "id": "sap_k04",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "Assess each of the following statements regarding nutritional management in severe acute pancreatitis.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Glycaemic control should target a blood glucose below 10 mmol/L, with an optimal range of 7–9 mmol/L",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Medium-chain triglycerides offer theoretical advantages in acute pancreatitis because they are absorbed directly into the portal vein independently of lipase activity",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Semi-elemental enteral formulas have been shown in randomised controlled trials to be superior to polymeric formulas in severe acute pancreatitis",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Nasogastric tube feeding is absolutely contraindicated in all patients with severe acute pancreatitis and must always be replaced with nasojejunal feeding",
+          "correct": false
+        }
+      ],
+      "explanation": "Blood glucose target is <10 mmol/L (optimally 7–9 mmol/L); tight control below 6 mmol/L increases hypoglycaemia risk. Medium-chain triglycerides are absorbed via the portal vein without requiring pancreatic lipase, providing theoretical advantages both enterally and parenterally. Meta-analyses of RCTs have not demonstrated benefit of semi-elemental over polymeric formulas; polymeric solutions are cheaper and well tolerated. Nasogastric feeding is acceptable if tolerated; nasojejunal feeding is preferred in gastroparesis, but nasogastric is not an absolute contraindication.",
+      "section": "Feeding The Patient With Acute Pancreatitis",
+      "section_url": ""
+    },
+    {
+      "id": "sap_k05",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "Assess each of the following statements regarding general ICU management of severe acute pancreatitis.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Thoracic epidural analgesia with diluted local anaesthetic and opiates may improve pain control and reduce systemic opioid requirements compared with intravenous opioids alone",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Morphine is absolutely contraindicated in acute pancreatitis due to its effect on the sphincter of Oddi causing worsening of pancreatic duct obstruction",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Intra-abdominal hypertension in acute pancreatitis may worsen splanchnic ischaemia and contribute to respiratory failure through diaphragmatic elevation",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Aggressive fluid resuscitation targeting dilution of laboratory values such as serum creatinine and urea is the recommended approach to fluid therapy in severe acute pancreatitis",
+          "correct": false
+        }
+      ],
+      "explanation": "Thoracic epidural analgesia improves pain control, reduces systemic opioid use, and a retrospective study of over 1000 patients showed reduced 30-day mortality. Morphine is not contraindicated; the sphincter of Oddi concern has not been shown to worsen clinical outcomes. IAH ≥20 mmHg causes elevated diaphragm (increased airway pressures), reduced venous return, haemodynamic compromise, and exacerbated splanchnic ischaemia. Targeting 'dilution of laboratory values' with aggressive resuscitation is specifically discouraged; goal-directed moderate resuscitation with frequent reassessment is the standard.",
+      "section": "Management Of Severe Acute Pancreatitis",
+      "section_url": ""
+    },
+    {
+      "id": "sap_k06",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "Assess each of the following statements regarding intervention strategies in severe acute pancreatitis.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The PANTER trial demonstrated that a step-up approach starting with percutaneous drainage reduces major morbidity compared with primary open necrosectomy",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Current guidelines recommend surgical debridement of infected pancreatic necrosis within the first 2 weeks to prevent propagation of infection through viable tissue",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "The TENSION trial showed that an endoscopic step-up approach results in fewer pancreatico-cutaneous fistulas and shorter hospital stay compared with the surgical step-up approach",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "In the endoscopic step-up approach, the initial intervention is direct endoscopic transgastric necrosectomy rather than EUS-guided drainage of the collection",
+          "correct": false
+        }
+      ],
+      "explanation": "The PANTER trial established the step-up approach (percutaneous drainage first, minimally invasive necrosectomy if needed) as superior to primary open necrosectomy in terms of complications. Surgical debridement should be delayed ≥4 weeks until WOPN has formed, to allow demarcation and safe intervention; earlier intervention is associated with high morbidity. The TENSION trial showed the endoscopic step-up is non-inferior overall but produces fewer pancreatico-cutaneous fistulas and shorter hospital stays. In the endoscopic step-up approach, the first step is EUS-guided drainage — not necrosectomy, which follows if drainage fails.",
+      "section": "Management Of Severe Acute Pancreatitis",
+      "section_url": ""
+    },
+    {
+      "id": "sap_k07",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "Assess each of the following statements regarding diagnostic pitfalls in acute pancreatitis.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Diabetic coma, severe hypothermia, and haemodynamic shock may present as the dominant features of acute pancreatitis, concealing abdominal pain",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The pancreas invariably appears abnormal on contrast-enhanced CT within the first 24 hours of onset of acute pancreatitis",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Serum lipase is less sensitive than serum amylase at the time of presentation and should not be used as a substitute for amylase measurement",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "In patients with renal failure, elevated serum amylase may represent a false positive due to impaired amylase clearance rather than active pancreatic inflammation",
+          "correct": true
+        }
+      ],
+      "explanation": "Acute pancreatitis can present without abdominal pain — diabetic coma, hypothermia, and shock may dominate the clinical picture, particularly in sedated or unconscious patients. The pancreas can appear normal on CT during the first 2 days, making early CT unreliable for necrosis assessment. Serum lipase is in fact MORE sensitive and disease-specific than amylase, and remains elevated for longer — it is the preferred marker, not a substitute to be avoided. In renal failure, impaired amylase clearance produces elevations unrelated to pancreatic inflammation; lipase is more specific in this context.",
+      "section": "Introduction / Diagnosis",
+      "section_url": ""
+    },
+    {
+      "id": "sap_k08",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "Assess each of the following statements regarding nutritional timing and specific interventions in severe acute pancreatitis.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The PYTHON trial demonstrated that early nasojejunal tube feeding within 24 hours significantly reduces the rate of infectious complications compared with on-demand feeding after 72 hours",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Continuous enteral nutrition infusion is preferred over bolus or cyclic administration in severe acute pancreatitis",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Among macronutrients, fat has the greatest stimulatory effect on pancreatic exocrine secretion — a relevant consideration when reintroducing oral diet",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Postpyloric probiotic supplementation restores gut flora and reduces infectious complications in severe acute pancreatitis",
+          "correct": false
+        }
+      ],
+      "explanation": "The multicentre PYTHON trial showed no significant difference in infection rate (25% vs 26%) or mortality between early tube feeding within 24 hours and on-demand feeding after 72 hours. Continuous enteral infusion is preferred to reduce aspiration risk and maintain gut function. Fat has the strongest stimulatory effect on pancreatic secretion among macronutrients; a low-fat diet is therefore introduced gradually during oral refeeding. Probiotics are specifically contraindicated in severe acute pancreatitis following the PROPATRIA trial, which demonstrated increased mortality with probiotic supplementation.",
+      "section": "Feeding The Patient With Acute Pancreatitis",
+      "section_url": ""
+    }
+  ]
+}

@@ -1,0 +1,655 @@
+{
+  "module": "The Abdomen in critical care",
+  "sections": {},
+  "questions": [
+    {
+      "id": "abd_a01",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Which method is currently accepted as the gold standard for measuring intra-abdominal pressure (IAP) in critically ill patients, and what is the recommended maximum instillation volume?",
+      "options": [
+        "Intra-gastric measurement via nasogastric tube; maximum instillation volume 50 mL saline",
+        "Intra-vesical (bladder) measurement; maximum instillation volume 25 mL sterile saline",
+        "Intra-rectal measurement via a dedicated pressure balloon catheter",
+        "Direct intraperitoneal measurement via a peritoneal dialysis catheter if one is already in place",
+        "Inferior vena cava pressure via a femoral central venous catheter as a continuous surrogate"
+      ],
+      "correct": 1,
+      "explanation": "Intra-vesical measurement via the Foley catheter is the gold standard for IAP assessment, combining ease of use with a minimally invasive approach. The maximum recommended instillation volume is 25 mL of sterile saline; higher volumes may stretch the bladder detrusor and falsely elevate readings. The transducer is zeroed at the mid-axillary line at the iliac crest with the patient supine, and measurements are taken at end-expiration. Intra-gastric measurement (via the nasogastric tube) is an acceptable alternative when the bladder route is contraindicated.",
+      "section": "Assessment of GI function",
+      "section_url": ""
+    },
+    {
+      "id": "abd_a02",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "An ICU patient has three serial intra-vesical IAP measurements over 12 hours of 14, 16, and 15 mmHg (normal resting IAP is 5–7 mmHg in critically ill adults). How should these findings be classified and what is the recommended first action?",
+      "options": [
+        "Normal; no further action required as values do not exceed 20 mmHg",
+        "Abdominal compartment syndrome (ACS); immediate decompressive laparotomy is indicated",
+        "Intra-abdominal hypertension (IAH); start vasopressors immediately to restore abdominal perfusion pressure",
+        "Intra-abdominal hypertension (IAH); increase monitoring frequency and address modifiable contributing factors",
+        "Normal finding in obese patients; BMI-adjusted thresholds apply and no action is required"
+      ],
+      "correct": 3,
+      "explanation": "Intra-abdominal hypertension (IAH) is defined as a sustained or repeated pathological elevation in IAP ≥12 mmHg. This patient has three measurements above this threshold, confirming IAH. The recommended response is to increase monitoring frequency (to every 4 hours or more in unstable patients) and address modifiable causes such as fluid overload, bowel distension, and positioning. Abdominal compartment syndrome (ACS) requires IAP ≥20 mmHg with new-onset organ dysfunction — this threshold is not reached here. Vasopressors alone do not address the underlying cause.",
+      "section": "Assessment of GI function",
+      "section_url": ""
+    },
+    {
+      "id": "abd_a03",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "An ICU patient on enteral nutrition develops massive bowel ischaemia confirmed by CT, haemorrhagic shock from GI bleeding, and worsening multi-organ failure despite vasopressors and blood products. How should the GI dysfunction be classified, and what does this grade imply?",
+      "options": [
+        "AGI Grade I — self-limiting GI symptoms related to a known cause without systemic impact",
+        "AGI Grade II — GI dysfunction requiring therapeutic intervention such as prokinetics or nutritional adjustments, but without evidence of systemic deterioration, new organ failure, or persistent MODS",
+        "AGI Grade III — GI failure with persistence of MODS despite appropriate interventions",
+        "No AGI grading applies; massive bowel ischaemia is classified as a separate surgical emergency",
+        "AGI Grade IV — GI failure that has become directly and immediately life-threatening, associated with worsening haemodynamics and MODS"
+      ],
+      "correct": 4,
+      "explanation": "AGI Grade IV represents the most severe category: GI failure that has progressed to become directly and immediately life-threatening, with worsening haemodynamic instability and MODS despite all interventions. Examples include bowel ischaemia with necrosis, GI haemorrhage causing haemorrhagic shock, Ogilvie's syndrome with perforation, and abdominal compartment syndrome requiring decompression. This grade mandates urgent surgical, radiological, or endoscopic intervention. AGI Grade III represents failure with persistent MODS; Grade IV represents GI failure as the proximate driver of ongoing organ dysfunction.",
+      "section": "Acute gastrointestinal injury",
+      "section_url": ""
+    },
+    {
+      "id": "abd_a04",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A mechanically ventilated patient on nasogastric enteral nutrition has a gastric residual volume (GRV) of 380 mL aspirated during a routine 6-hourly check. He has no vomiting and his abdomen is soft. What is the most appropriate action?",
+      "options": [
+        "Continue enteral nutrition unchanged; a GRV of 380 mL is below the threshold at which gastroparesis-specific intervention is required",
+        "Stop enteral nutrition immediately and reassess after 4 hours before restarting",
+        "Switch to postpyloric (nasojejunal) feeding immediately, as a GRV of 380 mL is considered definitive evidence of gastroparesis and an indication that gastric feeding has failed",
+        "Administer metoclopramide and withhold the next two feeding boluses pending reassessment",
+        "Halve the current infusion rate of enteral nutrition pending a decision on prokinetic therapy"
+      ],
+      "correct": 0,
+      "explanation": "A GRV up to 500 mL is not an indication to delay or discontinue enteral nutrition. Current evidence does not support stopping feeding based on GRV values below this threshold. GRV >500 mL is considered a sign of gastroparesis requiring specific attention (prokinetics, consideration of postpyloric feeding). At 380 mL with no other signs of intolerance (no vomiting, soft abdomen, no aspiration events), enteral nutrition should continue. Routine GRV monitoring has been questioned as a necessary practice, but GRV alone should not drive unnecessary withholding of nutritional support.",
+      "section": "Assessment of GI function",
+      "section_url": ""
+    },
+    {
+      "id": "abd_a05",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "image": "images/img_b8b3af655b.png",
+      "question": "This plain abdominal radiograph was obtained in a sedated ICU patient with progressive abdominal distension and absent bowel sounds. It demonstrates dilated loops of small bowel. According to current criteria, at what diameter is dilatation of the small bowel considered pathological?",
+      "options": [
+        "More than 6 cm",
+        "More than 9 cm",
+        "More than 3 cm",
+        "More than 5 cm",
+        "More than 2 cm"
+      ],
+      "correct": 2,
+      "explanation": "Standard diameter thresholds for bowel dilatation are: small bowel >3 cm, colon >6 cm, and caecum >9 cm. These thresholds help guide the clinical significance of radiographic bowel dilatation. The caecum carries the highest risk of perforation when excessively dilated; a caecal diameter exceeding 12 cm substantially increases perforation risk. In this patient, small bowel dilatation >3 cm indicates bowel paralysis or obstruction warranting further evaluation. Plain radiography has limited overall diagnostic utility but remains useful for monitoring bowel diameter when obstruction or pseudo-obstruction is suspected.",
+      "section": "Patient developing abdominal problems in ICU",
+      "section_url": ""
+    },
+    {
+      "id": "abd_a06",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 70-year-old critically ill patient develops massive colonic distension with a caecal diameter of 11 cm. There is no peritonitis, no fever, and CT confirms absence of mechanical obstruction. Laxatives have been ineffective. Which pharmacological agent is most appropriate next, and on which bowel segment does it primarily act?",
+      "options": [
+        "Erythromycin; acts primarily on the stomach via motilin receptor agonism",
+        "Metoclopramide; acts primarily on the stomach and proximal small bowel via D2 receptor antagonism",
+        "Domperidone; acts primarily on the stomach as a peripheral D2 antagonist",
+        "Neostigmine; acts primarily on the colon by inhibiting acetylcholinesterase and increasing propulsive colonic motility",
+        "Methylnaltrexone; reverses opioid-induced bowel dysmotility throughout the GI tract without reversing analgesia"
+      ],
+      "correct": 3,
+      "explanation": "Neostigmine is the drug of choice for acute colonic pseudo-obstruction (Ogilvie's syndrome). It acts as an acetylcholinesterase inhibitor, increasing acetylcholine availability in the colon and stimulating propulsive colonic motility. The recommended dose is 0.4–0.8 mg/h up to a maximum of 2.5 mg total. Monitoring with cardiac telemetry is essential due to risk of bradycardia. Erythromycin and metoclopramide act primarily on the upper GI tract (stomach and small bowel) and are ineffective for colonic dysmotility. Endoscopic decompression should be considered if neostigmine fails or is contraindicated.",
+      "section": "Patient developing abdominal problems in ICU",
+      "section_url": ""
+    },
+    {
+      "id": "abd_a07",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with feeding intolerance has received intravenous erythromycin for gastroparesis for 5 days. The nursing team notes that its effectiveness in reducing gastric residual volumes has waned markedly. What is the most likely explanation?",
+      "options": [
+        "Erythromycin has been substituted to an oral preparation with lower bioavailability in the ICU dispensary",
+        "The patient has developed Clostridioides difficile diarrhoea as a complication of erythromycin use, overriding its prokinetic effect",
+        "Tachyphylaxis to erythromycin and metoclopramide typically occurs within 3–5 days of continuous use, substantially reducing their effectiveness",
+        "Erythromycin requires dose escalation beyond 3 mg/kg per dose after 5 days to maintain its motilin receptor agonist activity",
+        "Concomitant opioid use has permanently abolished erythromycin's motilin receptor activity through receptor internalisation"
+      ],
+      "correct": 2,
+      "explanation": "Tachyphylaxis — rapid loss of pharmacological effect — is a well-recognised limitation of both erythromycin and metoclopramide, typically emerging within 3–5 days of continuous administration. This limits their role to short-term treatment of gastroparesis. Additional concerns with erythromycin include QT prolongation at higher doses. Once tachyphylaxis has developed, dose escalation is not recommended. If prokinetic therapy is needed beyond this period, strategies include drug holidays, switching agents, postpyloric feeding, or combination therapy, all with careful monitoring.",
+      "section": "Patient developing abdominal problems in ICU",
+      "section_url": ""
+    },
+    {
+      "id": "abd_a08",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "In a patient receiving high-dose noradrenaline for septic shock, splanchnic blood flow is markedly reduced. Which part of the intestinal mucosa is most vulnerable to ischaemic injury, and why?",
+      "options": [
+        "The intestinal crypts; they have the highest metabolic demand as the site of mucosal stem cell proliferation",
+        "The muscularis mucosae; it is the deepest mucosal layer and most remote from the submucosal arterial supply",
+        "The goblet cells lining the colonic mucosa; their high mucin secretory activity creates the greatest oxygen demand",
+        "The Peyer's patches of the terminal ileum; lymphoid aggregates have the highest metabolic rate per unit mass, and their extensive immune cell turnover creates the greatest oxygen demand and vulnerability to ischaemic injury during splanchnic hypoperfusion",
+        "The tip of the intestinal villi; counter-current oxygen exchange progressively reduces PaO2 from the villus base to the tip, which may fall to 30 mmHg during hypoperfusion"
+      ],
+      "correct": 4,
+      "explanation": "The microvasculature of intestinal villi has a counter-current exchange arrangement: oxygen diffuses from arterioles to adjacent venules along the length of the villus, progressively reducing PaO2 from approximately 100 mmHg at the base to as low as 30 mmHg at the tip even under normal conditions. During hypoperfusion, this gradient is amplified, and the villus tip becomes critically hypoxic first, leading to mucosal sloughing, barrier failure, and bacterial translocation. This mechanism helps explain why splanchnic hypoperfusion — even without frank mesenteric ischaemia — can propagate systemic inflammation and MODS.",
+      "section": "GI physiology",
+      "section_url": ""
+    },
+    {
+      "id": "abd_a09",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Which of the following is NOT a recognised function of gastric secretions in normal physiology?",
+      "options": [
+        "Sterilisation of ingested food through hydrochloric acid secretion by gastric parietal cells",
+        "Synthesis and secretion of alpha-amylase for the initial digestion of dietary carbohydrates",
+        "Initiation of protein digestion through pepsinogen secretion from gastric chief cells",
+        "Production of intrinsic factor by parietal cells, essential for subsequent vitamin B12 absorption in the terminal ileum",
+        "Mucus and bicarbonate secretion from surface epithelial cells to protect the gastric mucosa from acid injury"
+      ],
+      "correct": 1,
+      "explanation": "Alpha-amylase is secreted by salivary glands (ptyalin) and subsequently by the exocrine pancreas — not by the stomach. Gastric secretions include hydrochloric acid (bactericidal sterilisation), pepsinogen (initiates protein digestion), intrinsic factor (essential for terminal ileal vitamin B12 absorption), and mucus/bicarbonate (mucosal protection). The absence of intrinsic factor after gastrectomy results in B12 deficiency. Loss of gastric acid secretion through PPI use, vagotomy, or chronic atrophic gastritis reduces the bactericidal function and may impair cobalamin release from dietary protein.",
+      "section": "GI physiology",
+      "section_url": ""
+    },
+    {
+      "id": "abd_a10",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Which of the following is NOT a recognised contraindication or limitation to performing standard intra-vesical intra-abdominal pressure measurement?",
+      "options": [
+        "Traumatic bladder injury confirmed on CT cystography",
+        "Prior cystectomy with removal of the bladder",
+        "Morbid obesity with a chronically elevated body mass index",
+        "Pelvic packing in situ following damage control surgery for pelvic haemorrhage",
+        "Bladder haematoma with intraluminal clot formation"
+      ],
+      "correct": 2,
+      "explanation": "True contraindications to intra-vesical IAP measurement include structural or traumatic bladder pathology: bladder injury, prior cystectomy, pelvic packing, and bladder haematoma — in these cases, intra-gastric measurement via the nasogastric tube is the recommended alternative. Morbid obesity is NOT a contraindication to the intra-vesical technique; however, obese patients have chronically elevated baseline IAP (often 9–14 mmHg), and the standard diagnostic thresholds for IAH and ACS may require individualised interpretation, as these patients may tolerate higher baseline pressures without equivalent pathophysiological consequences.",
+      "section": "Assessment of GI function",
+      "section_url": ""
+    },
+    {
+      "id": "abd_k01",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Assess each of the following statements concerning ESICM Acute Gastrointestinal Injury (AGI) grading.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Post-operative nausea and vomiting in an otherwise improving patient following uncomplicated elective bowel surgery represents AGI Grade I",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "A ventilated patient with gastroparesis requiring prokinetics and GRV consistently above 500 mL, but without additional organ dysfunction, should be classified as AGI Grade III",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Bowel ischaemia with necrosis causing haemorrhagic shock and worsening multi-organ failure represents AGI Grade IV",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Persistent GI paralysis despite erythromycin and postpyloric tube placement, associated with worsening acute kidney injury, should be classified as AGI Grade III",
+          "correct": true
+        }
+      ],
+      "explanation": "AGI Grade I represents self-limiting GI symptoms related to a known cause, expected in the post-operative period. AGI Grade II is GI dysfunction requiring therapeutic interventions (such as prokinetics for gastroparesis with GRV >500 mL) without systemic deterioration — not Grade III. AGI Grade III is sustained GI failure despite interventions, associated with persistent or worsening MODS. AGI Grade IV is life-threatening GI failure that directly drives ongoing haemodynamic instability and organ failure.",
+      "section": "Acute gastrointestinal injury",
+      "section_url": ""
+    },
+    {
+      "id": "abd_k02",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Assess each of the following statements regarding the correct technique for intra-vesical IAP measurement.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The transducer should be zeroed at the level of the mid-axillary line at the iliac crest with the patient positioned supine",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "IAP measurements should be taken at peak inspiration to capture maximum intra-abdominal pressure accurately",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "The maximum recommended instillation volume for intra-vesical IAP measurement is 25 mL of sterile saline",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Intra-abdominal hypertension (IAH) is defined as a sustained or repeated IAP of 20 mmHg or greater",
+          "correct": false
+        }
+      ],
+      "explanation": "The transducer is zeroed at the mid-axillary line at the iliac crest level with the patient supine; this reference point ensures reproducibility. Measurements must be taken at end-expiration — not peak inspiration — because respiratory movements alter abdominal pressure and inspiratory readings are falsely elevated. The maximum recommended instillation volume is 25 mL; higher volumes cause detrusor contraction that artifactually elevates readings. IAH is defined as sustained or repeated IAP ≥12 mmHg; abdominal compartment syndrome (ACS) requires IAP ≥20 mmHg with new-onset organ dysfunction.",
+      "section": "Assessment of GI function",
+      "section_url": ""
+    },
+    {
+      "id": "abd_k03",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Assess each of the following statements concerning pharmacological management of GI dysmotility in critically ill patients.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Erythromycin acts primarily on the colon as a colonic prokinetic agent and is the first-line pharmacological choice for gastroparesis",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Tachyphylaxis to both erythromycin and metoclopramide typically develops within 3–5 days of continuous administration, substantially limiting long-term efficacy",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Methylnaltrexone crosses the blood-brain barrier and therefore reverses both the peripheral GI effects of opioids and their central analgesic action",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Neostigmine is the pharmacological agent of choice for acute colonic pseudo-obstruction, acting via acetylcholinesterase inhibition to restore colonic propulsive motility",
+          "correct": true
+        }
+      ],
+      "explanation": "Erythromycin acts via motilin receptors predominantly in the stomach and proximal small bowel — it is NOT a colonic prokinetic and is not indicated for Ogilvie's syndrome. Tachyphylaxis is a recognised limitation of both erythromycin and metoclopramide, typically occurring within 3–5 days. Methylnaltrexone is a peripherally restricted opioid antagonist that does NOT cross the blood-brain barrier; it reverses GI opioid effects (constipation) without affecting central analgesia. Neostigmine is the drug of choice for Ogilvie's syndrome, acting on the colon via cholinergic stimulation.",
+      "section": "Patient developing abdominal problems in ICU",
+      "section_url": ""
+    },
+    {
+      "id": "abd_k04",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Assess each of the following statements concerning normal GI physiology and its relevance to critical illness.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The gut-associated lymphoid tissue (GALT) secretes immunoglobulin A (IgA) in response to antigen exposure, contributing to mucosal immune defence",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Parasympathetic activation inhibits GI motility, while sympathetic activation promotes propulsive bowel movements",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "The superior mesenteric artery supplies both the small intestine and the large intestine as far as the splenic flexure",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Bile salts are primarily reabsorbed in the duodenum as part of the enterohepatic circulation",
+          "correct": false
+        }
+      ],
+      "explanation": "GALT secretes secretory IgA following antigen exposure, providing a key component of mucosal immune defence. Parasympathetic activation promotes GI motility; sympathetic activation inhibits it — the opposite of what is stated. The SMA supplies the small intestine and the proximal large intestine to the splenic flexure; the inferior mesenteric artery (IMA) supplies the distal colon and rectum. Bile salts are not reabsorbed in the duodenum — they are reabsorbed in the terminal ileum via active transport and returned to the liver through the portal circulation as part of the enterohepatic cycle.",
+      "section": "GI physiology",
+      "section_url": ""
+    },
+    {
+      "id": "abd_a11",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "A 68-year-old ICU patient on day 12 develops profuse watery diarrhoea, fever of 39.2°C, and leucocytes 18×10⁹/L. Serum creatinine is 1.6× his premorbid level. Stool toxin PCR confirms Clostridioides difficile infection. What is the most appropriate treatment?",
+      "options": [
+        "Oral vancomycin 125 mg four times daily, initiated promptly given the severity of disease",
+        "Oral metronidazole 500 mg three times daily for 10–14 days as first-line therapy for severe CDI",
+        "Intravenous vancomycin as first-line therapy, since oral absorption may be impaired in critically ill patients",
+        "Fidaxomicin 200 mg twice daily as mandatory first-line therapy in all cases of severe CDI",
+        "Continue current broad-spectrum antibiotics and reassess in 48 hours before initiating CDI-specific treatment"
+      ],
+      "correct": 0,
+      "explanation": "This patient fulfils criteria for severe CDI: leucocytes >15,000 cells/µL and creatinine ≥1.5× baseline. Oral vancomycin 125 mg four times daily for 10–14 days is the treatment of choice for severe CDI. Metronidazole is now reserved for mild-to-moderate CDI only. Intravenous vancomycin does not reach the colonic lumen adequately and is not effective against CDI; if gut motility is severely impaired, per-rectal vancomycin combined with IV metronidazole can be used. Fidaxomicin is an alternative for recurrent CDI or when oral vancomycin fails. Causative antibiotics should be stopped or narrowed where clinically possible.",
+      "section": "Clostridium difficile colitis",
+      "section_url": ""
+    },
+    {
+      "id": "abd_a12",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "A nurse caring for a patient with confirmed Clostridioides difficile infection asks about hand hygiene precautions. Which statement is most accurate?",
+      "options": [
+        "Alcohol-based hand sanitisers are preferred as they eliminate both vegetative C. difficile cells and spores within 30 seconds",
+        "Standard surgical hand disinfection with 70% isopropanol provides adequate protection against C. difficile transmission",
+        "Gloves alone are sufficient; any hand hygiene product may be used following glove removal from a CDI patient",
+        "Handwashing with soap and water is specifically recommended because C. difficile spores are resistant to alcohol-based sanitisers",
+        "UV-C light decontamination of hands provides superior spore elimination compared with all hand hygiene methods"
+      ],
+      "correct": 3,
+      "explanation": "C. difficile forms highly resistant spores that are not inactivated by alcohol-based hand sanitisers. Handwashing with soap and water is specifically required when caring for CDI patients, as the mechanical action physically removes spores from the skin surface. This is a key infection control distinction: alcohol gel — used routinely in most ICU practice — is insufficient for CDI. Contact precautions (gown and gloves) should be observed throughout care, but the specific requirement for soap and water hand hygiene distinguishes CDI care from standard ICU infection control practice.",
+      "section": "Clostridium difficile colitis",
+      "section_url": ""
+    },
+    {
+      "id": "abd_a13",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "image": "images/img_ea16dd48a3.jpg",
+      "question": "This CT was performed in a 75-year-old patient following emergency hip surgery, presenting with progressive abdominal distension and failure to pass flatus for 4 days. There is no peritonitis or fever. The CT confirms absence of mechanical obstruction; caecal diameter is 11.5 cm. Which is the most appropriate next pharmacological intervention?",
+      "options": [
+        "Oral bisacodyl 10 mg — stimulant laxative to promote lower GI motility",
+        "Intravenous metoclopramide 10 mg three times daily — D2 antagonist for upper GI dysmotility and gastroparesis",
+        "Intravenous neostigmine 0.4–0.8 mg/h titrated up to a maximum of 2.5 mg total, with cardiac monitoring",
+        "Intravenous erythromycin 3 mg/kg four times daily — motilin receptor agonist for gastric dysmotility",
+        "Oral lactulose 20 mL twice daily — osmotic laxative for general bowel stimulation"
+      ],
+      "correct": 2,
+      "explanation": "This presentation is consistent with acute colonic pseudo-obstruction (Ogilvie's syndrome). Mechanical obstruction has been excluded by CT. Neostigmine is the first-line pharmacological intervention; it acts as an anticholinesterase, increasing colonic acetylcholine and stimulating propulsive motility. A caecal diameter of 11.5 cm is approaching the critical 12 cm threshold, above which perforation risk increases exponentially, making timely intervention important. Cardiac telemetry is mandatory during administration due to risk of bradycardia. Lactulose is specifically contraindicated in Ogilvie's syndrome because it worsens bloating and caecal distension. Metoclopramide and erythromycin act on the upper GI tract and are ineffective for colonic dysmotility.",
+      "section": "Acute colonic pseudo obstruction (Ogilvie's syndrome)",
+      "section_url": ""
+    },
+    {
+      "id": "abd_a14",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "In a patient with acute colonic pseudo-obstruction, at what caecal diameter does perforation risk increase exponentially, and what is the associated mortality if perforation occurs?",
+      "options": [
+        "Greater than 6 cm; perforation mortality approximately 10%",
+        "Greater than 9 cm; perforation mortality approximately 25%",
+        "Greater than 15 cm; perforation mortality approximately 80%",
+        "Greater than 10 cm; perforation mortality approximately 30%",
+        "Greater than 12 cm; perforation mortality 50% or greater"
+      ],
+      "correct": 4,
+      "explanation": "In Ogilvie's syndrome, a caecal diameter >9 cm is a warning sign warranting close monitoring, and >12 cm represents a critical threshold above which perforation risk increases exponentially. Colonic ischaemia and perforation occur in 3–15% of cases and are associated with mortality of 50% or greater. A caecal diameter exceeding 12 cm or a duration of distension beyond 6 days should prompt urgent intervention — pharmacological (neostigmine), endoscopic decompression, or surgical — to prevent perforation.",
+      "section": "Acute colonic pseudo obstruction (Ogilvie's syndrome)",
+      "section_url": ""
+    },
+    {
+      "id": "abd_a15",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "image": "images/img_e0b2a1ff94.jpg",
+      "question": "This biphasic CT was performed in a 72-year-old patient with known atrial fibrillation presenting with acute severe periumbilical pain, normal serum amylase, and metabolic acidosis with elevated lactate. The image shows occlusion of the superior mesenteric artery. Peritoneal signs are absent. What is the most appropriate management strategy?",
+      "options": [
+        "Systemic anticoagulation alone; revascularisation is not necessary when peritonitis is absent",
+        "Immediate open surgical bowel resection without revascularisation to prevent further ischaemia",
+        "CT-guided percutaneous embolectomy via femoral approach without surgical team backup",
+        "Rapid revascularisation — endovascular or surgical embolectomy — coordinated with a vascular surgery team; bowel surgery without revascularisation carries up to 80% mortality",
+        "Conservative management with anticoagulation and bowel rest; laparotomy only if peritonitis or perforation subsequently develops — revascularisation is unnecessary when bowel viability is preserved with anticoagulation alone"
+      ],
+      "correct": 3,
+      "explanation": "Acute mesenteric ischaemia from SMA embolism is a surgical emergency. Crucially, surgical bowel resection without revascularisation is associated with mortality up to 80% — resecting necrotic bowel without restoring mesenteric blood flow does not address the underlying ischaemia. In a patient without peritonitis, the priority is rapid revascularisation: endovascular embolectomy or surgical embolectomy are both options and should be coordinated with a vascular surgery team. If peritonitis develops, damage control surgery with on-table revascularisation may be required. Anticoagulation alone is insufficient for embolic SMA occlusion.",
+      "section": "Mesenteric ischaemia",
+      "section_url": ""
+    },
+    {
+      "id": "abd_a16",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "A patient on day 3 after complex cardiac surgery requiring prolonged cardiopulmonary bypass develops abdominal distension, bloody diarrhoea, and new-onset acute kidney injury. CT shows mucosal oedema and mural thickening of the small bowel with no arterial or venous occlusion. What is the most appropriate diagnosis and management?",
+      "options": [
+        "Superior mesenteric artery embolism; urgent surgical embolectomy is required without delay",
+        "Non-occlusive mesenteric ischaemia (NOMI); optimise systemic and splanchnic perfusion, reduce vasopressors where safe, and avoid full-dose enteral nutrition in vasopressor-dependent patients",
+        "Acute mesenteric venous thrombosis; start therapeutic systemic anticoagulation immediately",
+        "Acute colonic pseudo-obstruction (Ogilvie's syndrome); administer intravenous neostigmine as the first pharmacological intervention after excluding mechanical obstruction by CT, with continuous cardiac monitoring to detect bradycardia during infusion",
+        "Ischaemic colitis post-aortic surgery; urgent colonoscopy is required to assess mucosal viability"
+      ],
+      "correct": 1,
+      "explanation": "Non-occlusive mesenteric ischaemia (NOMI) occurs when mesenteric vasoconstriction causes severe intestinal hypoperfusion despite patent mesenteric arteries. Clinical scenarios include cardiac surgery, cardiogenic shock, vasopressor use, and hypovolaemia. CT showing bowel wall oedema with no vascular occlusion is characteristic. Management is conservative: optimise systemic perfusion, reduce vasopressors where haemodynamically safe, and avoid full-dose enteral nutrition in patients requiring vasopressors — a low-dose trophic approach with close lactate and GI symptom monitoring is recommended. Surgery is required only if bowel necrosis or perforation occurs.",
+      "section": "Mesenteric ischaemia",
+      "section_url": ""
+    },
+    {
+      "id": "abd_a17",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "image": "images/img_deca166a2b.jpg",
+      "question": "This CT was performed in an 83-year-old woman with acute pancreatitis who develops spiking fevers and rising inflammatory markers on day 8 with no other identifiable septic source. The CT shows a distended, thickened gallbladder with pericholecystic fluid and no gallstones. She is haemodynamically compromised on vasopressors. What is the most appropriate intervention?",
+      "options": [
+        "Percutaneous cholecystostomy under ultrasound or CT guidance — the preferred intervention for haemodynamically compromised critically ill patients",
+        "Urgent laparoscopic cholecystectomy as the definitive treatment for all acalculous cholecystitis",
+        "Open cholecystectomy under general anaesthesia to achieve complete source control",
+        "ERCP with biliary stenting to decompress the bile duct and resolve biliary sludge",
+        "Continue antibiotics alone and obtain repeat cross-sectional imaging in 72 hours before committing to any interventional procedure; delayed presentation of AAC is common and conservative management may be adequate in haemodynamically stable patients"
+      ],
+      "correct": 0,
+      "explanation": "Acute acalculous cholecystitis (AAC) in critically ill patients is best managed initially with percutaneous cholecystostomy — performed under ultrasound or CT guidance at the bedside without general anaesthesia. This achieves source control with minimal procedural risk in haemodynamically compromised patients who cannot safely undergo surgery. Cholecystectomy (the definitive treatment) should be deferred until recovery and haemodynamic stabilisation. Diagnosis of AAC should be considered in all critically ill patients with unexplained sepsis when no other source is identified; ultrasound (gallbladder wall thickening >3 mm, distension >5 cm, pericholecystic fluid, absence of stones) is the first-line imaging modality.",
+      "section": "Acalculous cholecystitis",
+      "section_url": ""
+    },
+    {
+      "id": "abd_a18",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "image": "images/img_7a7a615e07.jpg",
+      "question": "This image was obtained during lower endoscopy in a 65-year-old man who developed profuse watery diarrhoea, fever of 38.9°C, and leucocytes 22×10⁹/L, 10 days after initiating broad-spectrum antibiotics. A PCR assay for C. difficile toxin genes was pending at the time of endoscopy. What finding is shown, and under what circumstances is endoscopy appropriate in the diagnostic workup of CDI?",
+      "options": [
+        "Ischaemic colitis; endoscopy is the mandatory first-line investigation for all ICU patients with diarrhoea",
+        "CMV colitis; endoscopy should precede microbiological testing in all CDI-suspected patients",
+        "Normal colon; the yellowish plaques represent non-significant post-antibiotic mucosal inflammatory changes that resolve spontaneously without therapy and are not associated with CDI or any other pathological condition requiring treatment",
+        "Ulcerative colitis flare requiring histological confirmation from mucosal biopsies before CDI treatment",
+        "Pseudomembranous colitis due to Clostridioides difficile; endoscopy is appropriate when CDI is strongly suspected despite negative laboratory assay or when other diagnoses need exclusion"
+      ],
+      "correct": 4,
+      "explanation": "The endoscopic image shows raised, yellowish-white plaques on erythematous oedematous mucosa — pseudomembranes — the characteristic appearance of pseudomembranous colitis due to CDI. Endoscopy is NOT a routine first-line diagnostic investigation for CDI; laboratory diagnostics (GDH screening, toxin EIA, and NAAT/PCR) are the standard pathway. Endoscopy is appropriate when CDI is strongly suspected despite negative laboratory assay, when other diagnoses (ischaemic colitis, IBD) must be excluded, or when CDI is severe and a rapid diagnosis is needed to avoid treatment delay. Importantly, not all CDI patients have pseudomembranes — particularly those with mild, early, or partially treated disease.",
+      "section": "Clostridium difficile colitis",
+      "section_url": ""
+    },
+    {
+      "id": "abd_k05",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "Assess each of the following statements concerning Clostridioides difficile infection (CDI) in critically ill patients.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Clostridioides difficile is an anaerobic gram-positive spore-forming bacterium, transmitted primarily via the faecal-oral route",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Proton pump inhibitor use is associated with an increased risk of CDI by reducing the gastric acid barrier to ingested C. difficile spores",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Intravenous vancomycin achieves adequate colonic luminal concentrations and is therefore effective as a first-line treatment for CDI",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Alcohol-based hand sanitisers are equivalent to soap and water handwashing for preventing C. difficile transmission during patient care",
+          "correct": false
+        }
+      ],
+      "explanation": "C. difficile is an anaerobic gram-positive spore-forming rod transmitted via the faecal-oral route; spores can persist on surfaces for months. PPI use reduces gastric acid, impairs the bactericidal barrier, and increases CDI risk. Intravenous vancomycin is not excreted into the gut lumen and does not achieve therapeutic colonic concentrations — oral vancomycin (125 mg QID) or per-rectal administration is required. C. difficile spores are not killed by alcohol-based sanitisers; soap and water handwashing with mechanical removal is specifically required for CDI infection control.",
+      "section": "Clostridium difficile colitis",
+      "section_url": ""
+    },
+    {
+      "id": "abd_k06",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "Assess each of the following statements regarding acute colonic pseudo-obstruction (Ogilvie's syndrome).",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Ogilvie's syndrome results from autonomic dysregulation causing massive colonic dilatation without a mechanical obstructing lesion",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Lactulose is recommended as a first-line osmotic laxative in Ogilvie's syndrome to reduce caecal distension",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Neostigmine administration requires continuous cardiac monitoring due to the risk of bradycardia and bronchospasm",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Endoscopic decompression should be performed as the initial intervention before a trial of neostigmine in all patients with Ogilvie's syndrome",
+          "correct": false
+        }
+      ],
+      "explanation": "Ogilvie's syndrome results from autonomic dysregulation (excess sympathetic/reduced parasympathetic tone) causing functional colonic obstruction. Lactulose is specifically contraindicated — it is fermented to gas-producing short-chain fatty acids in the colon, worsening bloating and distension. Neostigmine causes cholinergic side effects including bradycardia and bronchospasm; cardiac monitoring and atropine availability are mandatory during administration. Neostigmine is the first-line pharmacological intervention when not contraindicated; endoscopic decompression is reserved for neostigmine failure or contraindication.",
+      "section": "Acute colonic pseudo obstruction (Ogilvie's syndrome)",
+      "section_url": ""
+    },
+    {
+      "id": "abd_k07",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "Assess each of the following statements regarding acute mesenteric ischaemia (AMI).",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Non-occlusive mesenteric ischaemia (NOMI) can occur despite patent mesenteric arteries, due to vasopressor-induced or low-flow mesenteric vasoconstriction",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Biphasic CT (arterial and venous phases) achieves 89–100% sensitivity and specificity for diagnosing occlusive acute mesenteric ischaemia",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Mesenteric venous thrombosis is the most common cause of acute mesenteric ischaemia in elderly patients with atrial fibrillation",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Surgical intervention for occlusive AMI without concurrent mesenteric revascularisation is associated with mortality of up to 80%",
+          "correct": true
+        }
+      ],
+      "explanation": "NOMI occurs despite patent vessels due to intense mesenteric vasoconstriction in states of low cardiac output, septic shock, or vasopressor use. Biphasic CT is the investigation of choice with high diagnostic accuracy. In patients with atrial fibrillation, the most common cause of AMI is SMA embolism from cardiac thrombus — this is arterial embolism, not mesenteric venous thrombosis, which is associated with hypercoagulable states. Surgical management without revascularisation carries up to 80% mortality, underscoring the need for vascular surgical input and urgent restoration of mesenteric flow.",
+      "section": "Mesenteric ischaemia",
+      "section_url": ""
+    },
+    {
+      "id": "abd_k08",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "Assess each of the following statements regarding acute acalculous cholecystitis (AAC) in critically ill patients.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "AAC can develop without gallstones; bile stasis, gallbladder ischaemia, and systemic inflammation are the primary pathogenic mechanisms",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "MRCP is the preferred first-line imaging investigation for acalculous cholecystitis in critically ill patients",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Gallbladder wall thickening greater than 3 mm and gallbladder distension greater than 5 cm on ultrasound are recognised diagnostic findings of AAC",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Laparoscopic cholecystectomy is the safest and most appropriate definitive intervention for haemodynamically compromised critically ill patients with AAC",
+          "correct": false
+        }
+      ],
+      "explanation": "AAC is caused by bile stasis (prolonged fasting, total parenteral nutrition, ileus), combined with gallbladder ischaemia and systemic inflammation, causing acalculous cholecystitis. Bedside ultrasound is the first-line investigation in critically ill patients — it is portable, avoids transport risk, and can identify gallbladder distension (>5 cm), wall thickening (>3 mm), pericholecystic fluid, and absence of stones. MRCP is primarily used for bile duct evaluation. Percutaneous cholecystostomy — not laparoscopic cholecystectomy — is the procedure of choice in haemodynamically compromised patients; surgery should be deferred until clinical recovery.",
+      "section": "Acalculous cholecystitis",
+      "section_url": ""
+    },
+    {
+      "id": "abd_k09",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "Assess each of the following statements regarding open abdomen (laparostomy) management in critically ill patients.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Recognised indications for open abdomen include abdominal compartment syndrome, damage control surgery, severe acute pancreatitis, and abdominal sepsis",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Open abdomen management is associated with low morbidity when temporary closure devices are used, and late ventral hernia is uncommon",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Enteral nutrition is absolutely contraindicated in all patients with an open abdomen and must not be attempted under any circumstances",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Definitive fascial closure should be targeted within 8 days to prevent progressive fascial retraction, loss of abdominal domain, and late complications",
+          "correct": true
+        }
+      ],
+      "explanation": "Open abdomen (laparostomy) is indicated for ACS, damage control surgery, severe pancreatitis, and abdominal sepsis requiring repeated surgical access. Despite the use of temporary closure devices (vacuum-assisted wound closure), open abdomen carries a mortality of ≥30% and significant rates of enteroatmospheric fistulas and late ventral hernias. Enteral nutrition should not be reflexively withheld — an individualised approach is applied, with EN attempted where feasible. Definitive fascial closure should be achieved within 8 days where possible to prevent fascial retraction and loss of abdominal domain, which substantially increases complexity of later closure.",
+      "section": "Open abdomen",
+      "section_url": ""
+    },
+    {
+      "id": "abd_k10",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "Assess each of the following statements concerning the role of the gut in critical illness and multi-organ dysfunction.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Loss of intestinal mucosal integrity in critical illness is a consequence of ischaemic injury only and does not contribute to systemic inflammation through bacterial translocation",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Dysbiosis in critically ill patients has been associated with adverse outcomes including new infections, emergence of antibiotic-resistant organisms, and multi-organ dysfunction",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Large randomised controlled trials have consistently demonstrated that early enteral nutrition significantly reduces ICU mortality compared with parenteral nutrition",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "The counter-current oxygen exchange mechanism in intestinal villi results in the villus tip having the lowest partial pressure of oxygen, making it the most vulnerable region during splanchnic hypoperfusion",
+          "correct": true
+        }
+      ],
+      "explanation": "Gut barrier failure in critical illness allows bacterial products and endotoxins to translocate to the portal circulation and mesenteric lymphatics, activating systemic inflammatory cascades — the 'gut as motor of MODS' hypothesis. This is not limited to direct ischaemic injury. Dysbiosis is increasingly recognised as a driver of ICU complications. The NUTRIREA-2 trial did not demonstrate mortality benefit from early full-dose enteral nutrition over parenteral nutrition in ventilated shock patients; evidence across RCTs is inconsistent. The counter-current oxygen exchange mechanism progressively reduces PaO2 from villus base to tip, making the tip the most vulnerable region during hypoperfusion.",
+      "section": "GI physiology",
+      "section_url": ""
+    }
+  ]
+}
