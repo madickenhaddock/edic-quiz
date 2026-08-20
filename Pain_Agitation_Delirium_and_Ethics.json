@@ -1,0 +1,1194 @@
+{
+  "module": "Pain, Agitation and Delirium and Ethics",
+  "sections": {},
+  "questions": [
+    {
+      "id": "pad_a01",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Pain",
+      "section_url": null,
+      "image": "images/img_40eee46c33.png",
+      "question": "A 62-year-old mechanically ventilated patient post-emergency laparotomy cannot self-report pain. During tracheal suctioning the nurse observes: tense facial expression, slow cautious movements toward the endotracheal tube, moderate resistance to passive upper-limb flexion, and ventilator alarms that stop spontaneously. What is the CPOT score and correct clinical interpretation?",
+      "options": [
+        "CPOT 4 — above the validated pain threshold; analgesia is indicated",
+        "CPOT 2 — at threshold; observe and reassess in 30 minutes before treating",
+        "CPOT 6 — severe pain requiring immediate escalation to opioid infusion",
+        "CPOT 4 — this score falls below the validated pain threshold in ventilated patients",
+        "Haemodynamic changes alone should guide pain management in intubated, non-communicative patients"
+      ],
+      "correct": 0,
+      "explanation": "CPOT domains: facial expression (relaxed=0, tense=1, grimacing=2), body movements (absence=0, protection=1, restlessness=2), muscle tension (relaxed=0, tense/rigid=1, very tense/rigid=2), ventilator compliance (tolerating=0, coughing but tolerating=1, fighting=2). Tense=1 + protection=1 + tense/rigid=1 + coughing but tolerating=1 = CPOT 4. The validated pain threshold is CPOT >2. Haemodynamic changes are unreliable pain indicators — they should prompt formal assessment with a validated behavioural tool rather than replace one."
+    },
+    {
+      "id": "pad_a02",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Pain",
+      "section_url": null,
+      "image": "images/img_6375f146e1.png",
+      "question": "An ICU patient, extubated 2 hours ago following cardiac surgery, is alert and able to speak. She reports moderate pain. Which validated self-report pain assessment tool is recommended as MOST accurate and practical for communicative ICU patients?",
+      "options": [
+        "Behavioural Pain Scale (BPS)",
+        "Critical Care Pain Observation Tool (CPOT)",
+        "Visual Analogue Scale with written markings (VAS)",
+        "Numerical Rating Scale with visual support (NRS-V)",
+        "McGill Pain Questionnaire"
+      ],
+      "correct": 3,
+      "explanation": "The NRS-V is the most accurate and practical self-report tool for communicative ICU patients (Chanques et al., 2010) and is recommended by PAD guidelines. CPOT and BPS are validated observational tools for non-communicative patients. VAS requires fine motor coordination that many postoperative patients lack, and unidimensional use has been associated with increased opioid administration as clinicians target zero pain. The McGill Questionnaire is too complex for routine bedside ICU use."
+    },
+    {
+      "id": "pad_a03",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Pain",
+      "section_url": null,
+      "image": "images/img_8583c74bd7.png",
+      "question": "A mechanically ventilated post-operative patient displays: fully tightened facial expression with eyelid closure, no upper limb movement, and frequent ventilator alarms indicating asynchrony. What is this patient's Behavioural Pain Scale (BPS) score and correct interpretation?",
+      "options": [
+        "BPS 7 — above the validated pain threshold; analgesia is indicated",
+        "BPS 5 — equivocal; no analgesia indicated at this threshold",
+        "BPS 7 — the BPS cannot reliably detect pain in ventilated patients",
+        "BPS 10 — severe pain requiring immediate dose escalation",
+        "BPS 3 — minimum possible score; no pain indicators present"
+      ],
+      "correct": 0,
+      "explanation": "BPS domains: facial expression (relaxed=1, partially tightened=2, fully tightened=3, grimacing=4), upper limbs (no movement=1 through permanently retracted=4), ventilator compliance (tolerating=1 through unable to control=4). Fully tightened=3 + no movement=1 + fighting ventilator=3 = BPS 7. The validated threshold for pain is BPS >5. CPOT and BPS detect the presence of pain but do not reliably quantify its severity — they are observational screening tools, not intensity scales."
+    },
+    {
+      "id": "pad_a04",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Pain",
+      "section_url": null,
+      "image": "images/img_126d12ec62.png",
+      "question": "A 50-year-old patient requires analgesic-based sedation for anticipated short-term mechanical ventilation after polytrauma. The team wants the opioid with the most predictable and shortest context-sensitive half-time regardless of infusion duration, to allow rapid clinical assessment at any time. Based on the pharmacokinetic graph shown, which opioid best meets this requirement?",
+      "options": [
+        "Fentanyl",
+        "Alfentanil",
+        "Sufentanil",
+        "Remifentanil",
+        "Morphine"
+      ],
+      "correct": 3,
+      "explanation": "Remifentanil has a uniquely stable context-sensitive half-time of approximately 3–5 minutes regardless of infusion duration, because it is metabolised by non-specific plasma and tissue esterases rather than relying on hepatic or renal clearance. Fentanyl's context-sensitive half-time rises dramatically with prolonged infusion, exceeding 250 minutes after 4 hours. Alfentanil plateaus at approximately 60 minutes and sufentanil rises moderately. Morphine accumulates with renal impairment. A plan for transition analgesia after remifentanil cessation is important, as pain can re-emerge rapidly."
+    },
+    {
+      "id": "pad_a05",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Pain",
+      "section_url": null,
+      "image": null,
+      "question": "A systematic review of analgosedation regimens (Devabhakthuni et al., 2012) compared analgesia-first sedation with sedative-hypnotic-first regimens in ICU patients. Which conclusion is BEST supported by this evidence?",
+      "options": [
+        "Analgosedation significantly reduces ICU mortality compared with sedative-hypnotic regimens",
+        "Propofol must always be the first agent added when analgosedation fails to provide adequate comfort",
+        "Analgosedation is only appropriate in non-ventilated ICU patients",
+        "Analgosedation requires intravenous remifentanil and is not feasible with other opioids",
+        "Prioritising analgesia before sedation reduces hypnotic drug requirements and generally shortens mechanical ventilation"
+      ],
+      "correct": 4,
+      "explanation": "Analgosedation — prioritising pain relief before anxiolysis — was shown to reduce hypnotic drug requirements and in most studies shortened mechanical ventilation duration and ICU length of stay. However, studies were heterogeneous and few were powered for mortality outcomes. Analgosedation is feasible with multiple opioids including fentanyl, sufentanil, and remifentanil, and is recommended for all mechanically ventilated patients as part of eCASH and PADIS guidelines. It is not limited to non-ventilated patients or a single opioid."
+    },
+    {
+      "id": "pad_a06",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Agitation",
+      "section_url": null,
+      "image": "images/img_15a805f367.png",
+      "question": "A 72-year-old patient on mechanical ventilation is assessed using the Richmond Agitation–Sedation Scale (RASS). When the nurse calls the patient's name, the patient opens her eyes and makes sustained eye contact (maintained for 12 seconds) before drifting off again. What is the RASS score?",
+      "options": [
+        "RASS −1 (Drowsy)",
+        "RASS 0 (Alert and calm)",
+        "RASS −2 (Light sedation)",
+        "RASS −3 (Moderate sedation)",
+        "RASS +1 (Restless)"
+      ],
+      "correct": 0,
+      "explanation": "RASS −1 (Drowsy) is defined as not fully alert but with sustained eye-opening and eye contact (>10 seconds) in response to voice. RASS 0 is fully alert and calm without stimulation. RASS −2 is brief eye-opening (<10 seconds) with eye contact to voice. RASS −3 is any movement but no eye contact to voice. Clinical targets of RASS −1 to −2 (light sedation) are recommended as standard practice to facilitate weaning and reduce complications of deep sedation."
+    },
+    {
+      "id": "pad_a07",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Agitation",
+      "section_url": null,
+      "image": "images/img_6b00daa216.png",
+      "question": "Using the Sedation–Agitation Scale (SAS), a mechanically ventilated patient requires both loud verbal commands AND a sternal rub before opening eyes and following a simple command. What is the SAS score?",
+      "options": [
+        "SAS 3 — Sedated",
+        "SAS 2 — Very sedated",
+        "SAS 4 — Calm and cooperative",
+        "SAS 5 — Agitated",
+        "SAS 1 — Unresponsive"
+      ],
+      "correct": 0,
+      "explanation": "SAS 3 (Sedated) describes a patient who will awaken and follow commands but requires loud verbal or physical stimuli to do so. SAS 2 (Very sedated) arouses to physical stimuli but does not awaken, communicate, or follow commands — only spontaneous movements are seen. SAS 1 (Unresponsive) shows minimal or no response to noxious stimuli. SAS 4 (Calm and cooperative) awakens easily to commands without physical stimulation. PAD guidelines recommend RASS and SAS as the two most validated and reliable agitation/sedation scales for ICU use."
+    },
+    {
+      "id": "pad_a08",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Agitation",
+      "section_url": null,
+      "image": null,
+      "question": "The Awakening and Breathing Controlled (ABC) trial (Girard et al., 2008) evaluated paired spontaneous awakening trials (SAT) with spontaneous breathing trials (SBT) versus SBT alone. Which outcome was statistically significant in favour of the paired SAT+SBT group?",
+      "options": [
+        "More ventilator-free days and improved 1-year survival",
+        "Significantly reduced 28-day mortality",
+        "Significantly reduced rates of ventilator-associated pneumonia",
+        "Shorter ICU length of stay with no change in ventilator duration",
+        "Significantly reduced rates of self-extubation requiring re-intubation"
+      ],
+      "correct": 0,
+      "explanation": "The ABC trial demonstrated significantly more ventilator-free days and improved 1-year survival in the paired SAT+SBT group compared with SBT alone. Self-extubation rates were higher in the intervention group but did not result in increased re-intubation. The Cochrane review of daily sedation interruption alone (Burry et al., 2014) — without pairing with SBT — did not find strong evidence that daily sedation interruption reduced mechanical ventilation duration, mortality, or length of stay when compared with nurse-protocolled targeted light sedation."
+    },
+    {
+      "id": "pad_a09",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Agitation",
+      "section_url": null,
+      "image": null,
+      "question": "A 55-year-old with severe community-acquired pneumonia has received propofol at 5 mg/kg/h for 72 hours. She develops new metabolic acidosis, rising creatine kinase, hypertriglyceridaemia, and a new bradyarrhythmia. What is the most likely diagnosis and the MOST important immediate management step?",
+      "options": [
+        "Septic cardiomyopathy — increase vasopressor support and continue propofol",
+        "Propofol Infusion Syndrome (PRIS) — discontinue propofol and switch to an alternative sedative",
+        "Rhabdomyolysis from immobilisation — administer IV fluids and halve the propofol rate",
+        "Drug-induced QT prolongation — add magnesium sulphate and reduce propofol by 50%",
+        "Benzodiazepine accumulation toxicity — switch immediately to remifentanil infusion"
+      ],
+      "correct": 1,
+      "explanation": "The triad of metabolic acidosis, hypertriglyceridaemia, rhabdomyolysis, and cardiac arrhythmia in a patient receiving high-dose propofol (>4 mg/kg/h) for >48 hours is characteristic of Propofol Infusion Syndrome (PRIS). PRIS results from mitochondrial dysfunction and impaired fatty acid oxidation. Incidence is approximately 1%, but mortality reaches 18–30%. The cornerstone of management is immediate cessation of propofol and substitution with an alternative sedative, followed by supportive care. Prevention relies on dose limits (<4 mg/kg/h), infusion duration minimisation, and regular monitoring of lactate, creatine kinase, and triglycerides."
+    },
+    {
+      "id": "pad_a10",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Agitation",
+      "section_url": null,
+      "image": "images/img_555e155c60.png",
+      "question": "A patient requires deep sedation with thiopental infusion for refractory intracranial hypertension following TBI. Based on the context-sensitive half-time graph shown, what does the pharmacokinetic profile of thiopental predict at 4 hours of infusion compared to propofol?",
+      "options": [
+        "Thiopental and propofol have similar context-sensitive half-times at 4 hours",
+        "Propofol accumulates more than thiopental after prolonged infusion",
+        "Both agents achieve full offset within 30 minutes of stopping regardless of infusion duration",
+        "Thiopental has a substantially longer context-sensitive half-time than propofol at 4 hours, predicting delayed and unpredictable recovery",
+        "Thiopental is preferred over propofol because of its predictable, short context-sensitive half-time"
+      ],
+      "correct": 3,
+      "explanation": "The graph shows that thiopental's context-sensitive half-time rises markedly with infusion duration, exceeding 150 minutes after 4 hours, due to redistribution and accumulation in lipid-rich tissues. Propofol's context-sensitive half-time remains near zero due to rapid redistribution and extensive hepatic and extrahepatic metabolism. This explains the prolonged and unpredictable recovery after thiopental infusion. Propofol is preferred when rapid offset is required. Thiopental retains a role in refractory status epilepticus and refractory intracranial hypertension, but its accumulation profile necessitates vigilance."
+    },
+    {
+      "id": "pad_a11",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Agitation",
+      "section_url": null,
+      "image": null,
+      "question": "The A2B randomised clinical trial (Walsh et al., 2025) compared dexmedetomidine- or clonidine-based sedation with propofol in mechanically ventilated ICU patients. Which of the following BEST describes the primary and secondary findings?",
+      "options": [
+        "Dexmedetomidine significantly reduced time to extubation and 90-day mortality compared with propofol",
+        "No difference in time to successful extubation; dexmedetomidine and clonidine groups had higher agitation rates and more significant bradycardia than propofol",
+        "Dexmedetomidine reduced ICU delirium incidence by 40% versus propofol with no haemodynamic cost",
+        "Clonidine was superior to propofol for light sedation maintenance, while dexmedetomidine showed no benefit",
+        "Both alpha-2 agonists significantly reduced opioid consumption without any adverse haemodynamic effects"
+      ],
+      "correct": 1,
+      "explanation": "The A2B trial (Walsh 2025) found no difference in the primary outcome of time to successful extubation between alpha-2 agonist and propofol groups. Secondary outcomes showed significantly higher agitation rates and more clinically significant bradycardia in both the dexmedetomidine and clonidine arms compared with propofol. Delirium incidence did not differ between groups. These findings, alongside the MIDEX/PRODEX non-inferiority data (reduced MV duration vs midazolam, not propofol), have influenced practice away from routine alpha-2 agonist use for ICU sedation, though they may retain a role in selected clinical situations."
+    },
+    {
+      "id": "pad_a12",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Agitation",
+      "section_url": null,
+      "image": "images/img_090118d924.png",
+      "question": "The eCASH concept (Vincent et al., 2016) describes a patient-centred philosophy for ICU comfort management. Which of the following is NOT a component of the eCASH framework as shown?",
+      "options": [
+        "Comfortable, cooperative, and calm as the primary patient goal",
+        "Opioids and multimodal opioid-sparing analgesic adjuvants",
+        "Routine deep sedation to prevent awareness and self-extubation in all ventilated patients",
+        "Mobilisation, sleep promotion, environmental modulation, and family engagement",
+        "Sedatives minimised, targeted to a pre-specified goal, and unjustified deep sedation avoided"
+      ],
+      "correct": 2,
+      "explanation": "eCASH (early Comfort using Analgesia, minimal Sedatives and maximum Humane care) comprises four pillars: the patient goal of Comfortable/Cooperative/Calm; opioids plus multimodal adjuvants as the analgesic strategy; sedatives minimised and titrated to a pre-specified goal with unjustified deep sedation explicitly avoided; and non-pharmacological approaches — mobilisation, sleep promotion, environmental modulation, and family engagement. Routine deep sedation is directly contrary to eCASH principles. The framework emphasises that many ventilated patients do not require sedative drugs at all."
+    },
+    {
+      "id": "pad_a13",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Pain",
+      "section_url": null,
+      "image": null,
+      "question": "A 34-year-old with extensive burns requires adjunctive analgo-sedation. The team considers ketamine. Which statement BEST describes ketamine's mechanism and a clinically relevant advantage for this patient?",
+      "options": [
+        "GABA-A receptor agonist with anticonvulsant properties; first choice when intracranial pressure is elevated",
+        "Alpha-2 receptor agonist with analgesic and sedative properties; reduces opioid requirements without cardiovascular effects",
+        "Mu-opioid receptor agonist with dose-dependent respiratory depression limiting use in burns",
+        "N-methyl-D-aspartate (NMDA) receptor antagonist with bronchodilator and sympathomimetic properties, preserving haemodynamic stability",
+        "Voltage-gated sodium channel blocker providing regional anaesthesia without systemic analgesic effect"
+      ],
+      "correct": 3,
+      "explanation": "Ketamine's primary analgesic mechanism is NMDA receptor antagonism, with additional activity at mu and kappa opioid receptors. Its sympathomimetic effects preserve cardiovascular stability, making it valuable in haemodynamically compromised patients. Its bronchodilator properties are advantageous in near-fatal asthma exacerbations. Burns patients benefit from its haemodynamic preservation and analgesic multimodality. Low-dose infusions (<5–10 µg/kg/min) appear safe as an adjunct. Distressing hallucinations (usually requiring co-administration of a sedative) and concerns about raised ICP limit its use in TBI."
+    },
+    {
+      "id": "pad_a14",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Agitation",
+      "section_url": null,
+      "image": null,
+      "question": "The SESAR randomised trial (Jabaudon et al., 2025) compared inhaled sevoflurane with intravenous propofol for sedation in mechanically ventilated ARDS patients. Which finding accurately describes the primary and key secondary outcomes?",
+      "options": [
+        "Sevoflurane significantly improved 90-day survival and increased ventilator-free days versus propofol",
+        "Sevoflurane demonstrated non-inferior sedation quality with a significantly shorter time to extubation",
+        "Sevoflurane was associated with fewer ventilator-free days and lower 90-day survival compared to propofol",
+        "No difference was found in any clinical outcome, supporting either agent as equivalent alternatives",
+        "Sevoflurane reduced peak airway pressures and enabled superior lung-protective ventilation versus propofol"
+      ],
+      "correct": 2,
+      "explanation": "The SESAR trial found that sevoflurane was associated with fewer ventilator-free days and lower 90-day survival compared with propofol in ARDS patients. This evidence of harm, combined with the logistical complexity of volatile agent delivery in ICU (requiring specialist systems such as AnaConDa or Mirus), will likely limit the use of volatile sedation as routine ICU practice. Volatile agents may retain a niche role in near-fatal asthma exacerbations, refractory status epilepticus, or when all intravenous sedatives are contraindicated."
+    },
+    {
+      "id": "pad_a15",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Delirium",
+      "section_url": null,
+      "image": null,
+      "question": "A systematic review and meta-analysis (Salluh et al., 2015) of 42 studies including 16,595 ICU patients examined the impact of delirium on outcomes. After adjustment for age, sex, and APACHE score, what was the overall risk ratio for hospital mortality in patients with ICU delirium?",
+      "options": [
+        "RR 1.10 — a 10% increased risk",
+        "RR 1.45 — a 45% increased risk",
+        "RR 2.19 (95% CI 1.78–2.70; p<0.001)",
+        "RR 3.50 — over 3-fold increased risk",
+        "No statistically significant association was found after adjustment for illness severity"
+      ],
+      "correct": 2,
+      "explanation": "Salluh et al. (2015) found an overall risk ratio for hospital mortality of 2.19 (95% CI 1.78–2.70, p<0.001) in patients with ICU delirium, persisting after adjustment for age, sex, and APACHE score. Delirium was detected in 31.8% of included patients. Separately, Ely et al. (2004) demonstrated that each additional day in delirium was independently associated with a 10% increased risk of death. Delirium was also associated with prolonged mechanical ventilation, longer hospital stay, and substantial healthcare costs."
+    },
+    {
+      "id": "pad_a16",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Delirium",
+      "section_url": null,
+      "image": null,
+      "question": "The REDUCE trial (van den Boogaard et al., 2018) randomised 1,789 ICU patients considered at high delirium risk to prophylactic haloperidol or placebo. Which of the following accurately describes the primary and secondary outcomes?",
+      "options": [
+        "Haloperidol significantly reduced 28-day mortality and delirium incidence versus placebo",
+        "Haloperidol reduced delirium duration but had no significant effect on 28-day mortality",
+        "No difference was found in 28-day mortality or any of 15 secondary outcomes, including delirium incidence",
+        "Haloperidol increased delirium-free days but caused excess extrapyramidal side effects requiring trial amendment",
+        "The trial was stopped early for benefit in the subgroup of postoperative surgical patients"
+      ],
+      "correct": 2,
+      "explanation": "The REDUCE trial found no difference in the primary outcome (28-day mortality) and no difference in any of 15 secondary outcomes — including delirium incidence, delirium-free days, and ICU length of stay — between prophylactic haloperidol and placebo. Current guidelines do not recommend pharmacological prophylaxis for ICU delirium. Haloperidol retains a role in managing hyperactive delirium and agitation; a Bayesian analysis of the AID-ICU trial (Andersen-Ranberg 2023) suggested a high probability of benefit from haloperidol treatment of established delirium, though this remains under evaluation."
+    },
+    {
+      "id": "pad_a17",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Delirium",
+      "section_url": null,
+      "image": null,
+      "question": "Rivastigmine, a cholinesterase inhibitor, was studied as a potential treatment for ICU delirium based on the known acetylcholine imbalance in delirious patients. What was the outcome of the multicentre randomised trial?",
+      "options": [
+        "Rivastigmine significantly reduced delirium duration and improved cognitive outcomes at 3 months",
+        "Rivastigmine had no effect on delirium duration and was well tolerated in the critically ill",
+        "Rivastigmine reduced delirium incidence when combined with haloperidol but not as monotherapy",
+        "Stopped early for potential harm: rivastigmine-treated patients had more severe and longer delirium, with a trend toward higher mortality",
+        "The trial demonstrated significant benefit in cardiac surgical patients but not in general ICU patients"
+      ],
+      "correct": 3,
+      "explanation": "The multicentre RCT of rivastigmine was stopped early for futility and potential harm after interim analysis of 104 patients: those receiving rivastigmine had more severe and longer delirium, with a non-significant trend toward higher mortality. Rivastigmine is not recommended in the management of ICU delirium. Despite the theoretical rationale (correcting acetylcholine imbalance), this illustrates the danger of assuming that physiological plausibility guarantees clinical benefit."
+    },
+    {
+      "id": "pad_a18",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Delirium",
+      "section_url": null,
+      "image": "images/img_35b36cc589.png",
+      "question": "A 68-year-old mechanically ventilated patient (RASS −1) is assessed using the CAM-ICU algorithm shown. Feature 1 (acute change or fluctuating course) is PRESENT. Feature 2 (inattention): the patient makes 4 errors on the SAVEAHAART letter-squeeze task. Feature 3 (level of consciousness): current RASS −1. What is the CAM-ICU result?",
+      "options": [
+        "CAM-ICU negative — fewer than 5 errors on inattention testing excludes delirium",
+        "CAM-ICU negative — RASS −1 does not satisfy the altered level of consciousness criterion",
+        "CAM-ICU cannot be performed — RASS must be 0 before the assessment is valid",
+        "CAM-ICU positive — Feature 1 PLUS Feature 2 (≥3 errors) PLUS Feature 3 (RASS ≠ 0) = delirium present",
+        "CAM-ICU inconclusive — Feature 4 (disorganised thinking) must also be positive before a result can be recorded"
+      ],
+      "correct": 3,
+      "explanation": "The CAM-ICU algorithm requires Feature 1 (acute change or fluctuating course) PLUS Feature 2 (inattention: ≥3 errors on letter-squeeze or picture tasks) PLUS EITHER Feature 3 (RASS other than zero) OR Feature 4 (>1 error on disorganised thinking questions). Here: Feature 1 present + Feature 2 (4 errors = inattention confirmed) + Feature 3 (RASS −1 ≠ 0) = CAM-ICU positive (delirium present). CAM-ICU has a sensitivity of approximately 80% and specificity of approximately 95% against DSM criteria. Assessment requires RASS ≥ −3; RASS −4 or −5 renders the patient unarousable and not assessable."
+    },
+    {
+      "id": "pad_k01",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Pain",
+      "section_url": null,
+      "image": null,
+      "question": "Regarding the Critical Care Pain Observation Tool (CPOT):",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The CPOT total score ranges from 0 to 8, and a score greater than 2 is the validated threshold indicating pain",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "CPOT can reliably quantify the severity of pain, not only detect its presence, in non-communicative ICU patients",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Haemodynamic variables such as tachycardia and hypertension are included as a domain in the CPOT scoring system",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "The CPOT is validated exclusively for intubated, mechanically ventilated patients and has not been adapted for extubated ICU patients",
+          "correct": false
+        }
+      ],
+      "explanation": "The CPOT comprises four behavioural domains — facial expression, body movements, muscle tension, and ventilator compliance (intubated) or vocalization (extubated) — with a total score of 0–8. A CPOT >2 indicates pain presence. Like the BPS, CPOT detects the presence of pain but does not reliably quantify its severity; it is a behavioural screening tool. Haemodynamic parameters are not a CPOT domain and are unreliable as primary pain indicators. The CPOT has been validated across diverse ICU populations including brain-injured and delirious patients, and an adaptation exists for extubated patients."
+    },
+    {
+      "id": "pad_k02",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Pain",
+      "section_url": null,
+      "image": null,
+      "question": "Regarding the Behavioural Pain Scale (BPS) for non-communicative mechanically ventilated patients:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Compliance with the ventilator is not assessed in the BPS because the tool was designed exclusively for extubated patients",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "The BPS has been validated and recommended for pain assessment in mechanically ventilated ICU patients who cannot self-report",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The BPS total score ranges from 3 to 12, and a score greater than 5 indicates the presence of pain",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Like a self-report pain scale, the BPS can reliably quantify the intensity and severity of pain experienced by critically ill patients",
+          "correct": false
+        }
+      ],
+      "explanation": "The BPS comprises three domains: facial expression (1–4), upper limb movements (1–4), and ventilator compliance (intubated patients, 1–4) or vocalization (extubated patients). The score ranges from 3 (no pain indicators) to 12 (maximum pain expression), with BPS >5 indicating pain. Both CPOT and BPS are validated for detecting the presence of pain in non-communicative patients but neither reliably quantifies pain severity — they are observational screening tools rather than intensity scales."
+    },
+    {
+      "id": "pad_k03",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Agitation",
+      "section_url": null,
+      "image": null,
+      "question": "Regarding the consequences of sedation depth in mechanically ventilated ICU patients:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Heavy sedation consistently reduces the incidence of delirium by suppressing central nervous system excitability and agitation",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Deep sedation — even early in ICU admission — is independently associated with increased long-term mortality",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Light sedation (RASS −1 to −2) increases the risk of post-traumatic stress disorder compared with deep sedation",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Prolonged deep sedation accelerates the development and worsening of ICU-acquired neuromyopathy",
+          "correct": true
+        }
+      ],
+      "explanation": "Deep sedation is independently associated with increased long-term mortality (Shehabi et al., 2013; Tanaka et al., 2014) and worsens ICU-acquired neuromyopathy through immobility and direct drug-related myopathy. Contrary to intuition, benzodiazepines and deep sedation are established risk factors for delirium — not protective — via direct deliriogenic effects and circadian disruption. Multiple studies (Shehabi 2013, Treggiari 2009, Kress 2003) demonstrate that light sedation does not increase PTSD and may reduce it by avoiding distressing amnesia and loss of cognitive engagement."
+    },
+    {
+      "id": "pad_k04",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Agitation",
+      "section_url": null,
+      "image": null,
+      "question": "Regarding daily sedation interruption (DSI) and spontaneous awakening trials (SAT) in ICU:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The Cochrane systematic review (Burry et al., 2014) provided strong evidence that DSI consistently reduces mechanical ventilation duration across all included randomised trials",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kress et al. (2000) demonstrated that daily interruption of sedative infusions reduced mechanical ventilation duration and ICU length of stay",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The sole contraindication to daily sedation interruption is ongoing neuromuscular blockade administration",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "The ABC trial (Girard et al., 2008) showed that paired SAT and spontaneous breathing trials improved 1-year survival compared with spontaneous breathing trials alone",
+          "correct": true
+        }
+      ],
+      "explanation": "Kress et al. (2000) established daily sedation interruption as beneficial, and the ABC trial paired SATs with SBTs to achieve improved 1-year survival and more ventilator-free days. However, the 2014 Cochrane review of nine RCTs found that DSI did not provide strong evidence for reduction in mechanical ventilation duration, mortality, or other major outcomes compared with nurse-protocolled targeted light sedation — reflecting a shift in baseline practice toward lighter sedation. DSI has multiple contraindications beyond NMB, including raised intracranial pressure, unstable spinal fractures, multiple trauma, and active airway pathology."
+    },
+    {
+      "id": "pad_k05",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Delirium",
+      "section_url": null,
+      "image": null,
+      "question": "Regarding pharmacological prevention of delirium in ICU patients:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "No pharmacological agent has been reliably proven to prevent ICU delirium, and current guidelines do not recommend routine pharmacological prophylaxis",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The REDUCE trial (van den Boogaard et al., 2018) demonstrated that prophylactic haloperidol significantly reduced delirium incidence and 28-day mortality",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Dexmedetomidine has been proven in large, unconfounded, definitive randomised trials to prevent delirium in the general critically ill ICU population",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "The Pro-MEDIC randomised trial (Wibrow et al., 2022) found that enteral melatonin within 48 hours of ICU admission significantly reduced delirium prevalence compared to placebo",
+          "correct": false
+        }
+      ],
+      "explanation": "Current evidence does not support routine pharmacological delirium prophylaxis. REDUCE (n=1,789) found haloperidol had no effect on 28-day mortality or delirium incidence. Dexmedetomidine studies showing delirium reduction (SEDCOM, Skrobik 2018) are confounded by greater benzodiazepine use in control groups; the A2B trial (2025) found no delirium incidence difference between groups. Pro-MEDIC (Wibrow 2022) found enteral melatonin did not reduce delirium prevalence. Non-pharmacological bundle approaches (ABCDEF) have stronger evidence for delirium prevention."
+    },
+    {
+      "id": "pad_k06",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Agitation",
+      "section_url": null,
+      "image": null,
+      "question": "Regarding dexmedetomidine as a sedative agent in ICU:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Unlike propofol and benzodiazepines, dexmedetomidine has no clinically significant effect on respiratory drive, making it attractive for ventilator weaning",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Dexmedetomidine is licensed and indicated for sedation when deep sedation (RASS −4 to −5) is the therapeutic target",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "The MIDEX trial demonstrated that dexmedetomidine was non-inferior to midazolam for ICU sedation and reduced mechanical ventilation duration",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "A loading dose of dexmedetomidine is recommended to achieve rapid therapeutic concentrations in critically ill patients at sedation initiation",
+          "correct": false
+        }
+      ],
+      "explanation": "Dexmedetomidine acts via alpha-2 adrenoceptors in the pons, sparing respiratory drive — a key advantage over GABA-ergic agents during weaning. It is licensed for sedation targeting RASS greater than −3 (mild to moderate sedation) and is ineffective for deep sedation targets. MIDEX confirmed non-inferiority to midazolam and demonstrated shorter mechanical ventilation duration. Loading doses are not recommended because of the risk of haemodynamic instability (bradycardia and hypotension), which are already recognised dose-dependent adverse effects of the drug."
+    },
+    {
+      "id": "pad_k07",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Delirium",
+      "section_url": null,
+      "image": "images/img_75d72c4ebb.png",
+      "question": "Regarding risk factors for ICU delirium, as shown in the risk factor framework above:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Older age and pre-existing dementia are predisposing (non-modifiable) risk factors for ICU delirium with strong evidence from systematic review",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Illness severity, measured by the APACHE II score, is a strongly supported precipitating risk factor for ICU delirium",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Physical restraint consistently reduces delirium incidence by preventing patients from disturbing their ICU environment",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Lorazepam exposure is an independent risk factor for transitioning to delirium in ICU patients",
+          "correct": true
+        }
+      ],
+      "explanation": "Zaal et al. (2015) identified age, dementia, and hypertension as strongly evidenced predisposing factors, while APACHE II score, mechanical ventilation, sedation-associated coma, prior day delirium, polytrauma, and metabolic acidosis were precipitating factors. Lorazepam (Pandharipande et al., 2006) and benzodiazepines generally are independent risk factors for delirium — not protective. Physical restraint does not prevent delirium; its use without co-sedation is associated with post-traumatic stress disorder. Its application should be minimised, time-limited, and guided by a risk–benefit analysis within the local legal framework."
+    },
+    {
+      "id": "pad_k08",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Delirium",
+      "section_url": null,
+      "image": "images/img_0db5c4efd3.png",
+      "question": "Regarding the ICDSC and CAM-ICU as delirium screening tools in ICU:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The CAM-ICU has a sensitivity of approximately 80% and a specificity of approximately 95% against DSM diagnostic criteria",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Both the CAM-ICU and ICDSC require the patient to be fully alert (RASS 0) before they can be reliably applied",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Unlike the CAM-ICU, the ICDSC identifies a third intermediate category — subsyndromal delirium — between normal cognition and full delirium",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Subsyndromal delirium, identified by ICDSC, carries the same hospital mortality risk as full delirium in systematic review",
+          "correct": false
+        }
+      ],
+      "explanation": "The CAM-ICU has a sensitivity of ~80% and specificity of ~95% against DSM criteria. Both tools can be applied at RASS ≥ −3; RASS −4 or −5 renders the patient unarousable and not assessable. The ICDSC uniquely identifies subsyndromal delirium (SSD, score 1–3), which in meta-analysis (Serafim 2017) is associated with prolonged hospital stay but does not carry the same mortality risk as full delirium (score ≥4). This distinction may inform intermediate prevention and monitoring strategies."
+    },
+    {
+      "id": "pad_k09",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Delirium",
+      "section_url": null,
+      "image": null,
+      "question": "Regarding the ABCDEF bundle for ICU liberation:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The ABCDEF bundle does not include sedation management; sedation is addressed by separate protocols outside the bundle",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Higher compliance with the full ABCDEF bundle was independently associated with improved survival and more delirium/coma-free days in 6,064 patients (Barnes-Daly et al., 2017)",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Component 'D' of the bundle stands for Delirium: assess, prevent and manage",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Component 'F' — Family engagement and empowerment — is a core, integral component of the bundle",
+          "correct": true
+        }
+      ],
+      "explanation": "The ABCDEF bundle comprises: A=Assess/prevent/manage pain; B=Both spontaneous awakening trials and spontaneous breathing trials; C=Choice of analgesia and sedation; D=Delirium: assess, prevent, manage; E=Early mobility and exercise; F=Family engagement and empowerment. Sedation is explicitly part of component C. Barnes-Daly et al. (2017) demonstrated in a prospective cohort that greater bundle compliance was independently associated with improved survival and more delirium-free days, supporting a coordinated multidisciplinary approach over isolated interventions."
+    },
+    {
+      "id": "pad_k10",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Pain",
+      "section_url": null,
+      "image": null,
+      "question": "Regarding pain epidemiology and the impact of systematic pain assessment in ICU:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Pain affects approximately 45% of ICU patients, with a similar incidence across medical, cardiac, and neurosurgical ICU types (Leong et al., 2025)",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Medical ICU patients consistently receive more analgesia than surgical and trauma patients, as their pain is more readily recognised by clinicians",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Systematic pain assessment is associated with improved pain scores, increased frequency of pain management, and reduced sedative use in systematic review",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Systematic pain assessment protocols have been shown in randomised trial evidence to consistently reduce ICU mortality and length of stay",
+          "correct": false
+        }
+      ],
+      "explanation": "Leong et al. (2025) found pain prevalence of approximately 45% across ICU types with similar incidence. Medical ICU patients are, in some studies, less likely to receive analgesia than surgical patients — contributing to greater pain intensity — because pain may be less anticipated or recognised. Georgiou's systematic review (2015) found that systematic assessment improved pain management and reduced sedative use, with associated reductions in VAP. A 2020 RCT found systematic assessment increased analgesia use without significantly improving mortality or length of stay, outcomes which pain management alone cannot reliably change."
+    },
+    {
+      "id": "eth_a01",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Ethics in medicine",
+      "section_url": null,
+      "image": null,
+      "question": "Beauchamp and Childress (1979) introduced principlism as a practical framework for medical ethics. Which set of four mid-level principles forms the foundation of this approach?",
+      "options": [
+        "Veracity, fidelity, justice, and utility",
+        "Deontology, consequentialism, virtue ethics, and contractarianism",
+        "Informed consent, confidentiality, beneficence, and resource allocation",
+        "Autonomy, utility, human rights, and compassion",
+        "Autonomy, beneficence, non-maleficence, and justice"
+      ],
+      "correct": 4,
+      "explanation": "Beauchamp and Childress proposed four mid-level principles in Principles of Biomedical Ethics (1979): autonomy (respect for self-determination), beneficence (active promotion of the patient's good), non-maleficence (do no harm), and justice (fair distribution of benefits and burdens). These principles are derived from overlapping ethical theories and provide a practical starting point when overarching theories conflict. A key limitation is the absence of a hierarchical relationship between the principles, which limits their prescriptive power when they conflict with each other."
+    },
+    {
+      "id": "eth_a02",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Surrogate decision-making",
+      "section_url": null,
+      "image": null,
+      "question": "An 84-year-old woman is admitted to ICU with severe pneumonia and septic shock. She lacks decision-making capacity and has left no written advance directive. Her family is asked to guide treatment decisions. The ICU team applies the principle of substituted judgment. Which of the following BEST describes this approach?",
+      "options": [
+        "Making the decision that objectively maximises the patient's chance of biological survival",
+        "Inferring what decision the patient herself would have made based on her previously expressed values, beliefs, and behaviours",
+        "Delegating the decision entirely to the senior physician based on clinical experience and prognosis",
+        "Applying the best-interest standard by assessing which option maximises physical comfort",
+        "Reaching team consensus and informing the family of the clinical recommendation"
+      ],
+      "correct": 1,
+      "explanation": "Substituted judgment attempts to infer the patient's own preferences by exploring previously expressed opinions, wishes, and behaviours — it is an extension of the patient's autonomy exercised by proxy. It differs from the best-interest standard, which focuses on the patient's well-being when autonomy cannot be inferred, and from simple medical decision-making based on survival probability. Substituted judgment and advance directives both serve as extensions of autonomy; best interest is used only when neither is possible."
+    },
+    {
+      "id": "eth_a03",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Surrogate decision-making",
+      "section_url": null,
+      "image": null,
+      "question": "When is the 'best interest' standard MOST appropriately applied in surrogate decision-making for an incapacitated ICU patient?",
+      "options": [
+        "When the patient has a valid advance directive specifying treatment preferences",
+        "When substituted judgment would lead to a decision the clinical team disagrees with",
+        "When no advance directive exists and the patient's prior wishes cannot be reliably inferred",
+        "When the family requests the most aggressive available treatment regardless of the clinical situation",
+        "When the patient retains cognitive capacity but is unable to communicate verbally"
+      ],
+      "correct": 2,
+      "explanation": "Best interest is the surrogate decision-making standard of last resort, applied when advance directives are absent and substituted judgment is not feasible (prior wishes are unknown). It focuses on the patient's well-being by anticipating how available medical options would affect the patient's various interests and determining which to prioritise. Advance directives take precedence when available. Best interest is not a mechanism for overriding a family's legitimate substituted judgment, nor does it apply to patients who retain decision-making capacity."
+    },
+    {
+      "id": "eth_a04",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Ethics in clinical research",
+      "section_url": null,
+      "image": null,
+      "question": "A clinical trial evaluates time-sensitive treatment of refractory status epilepticus. Due to the emergency nature and lack of decision-making capacity, prospective informed consent is not feasible before enrolment. The trial uses 'deferred consent'. Which of the following BEST describes this mechanism?",
+      "options": [
+        "The trial is conducted entirely without any consent process; a waiver substitutes for all consent requirements",
+        "A relative provides consent during the emergency and no further consent process is needed after the patient recovers",
+        "Proxy consent is mandatory before any research intervention in ICU regardless of clinical urgency",
+        "Deferred consent is ethically unjustifiable and is explicitly prohibited under all international research frameworks",
+        "The patient is enrolled based on the investigator's clinical judgment, and consent is sought retroactively from the patient or proxy as soon as feasible"
+      ],
+      "correct": 4,
+      "explanation": "Deferred consent allows enrolment in emergency research based on the investigator's clinical judgment, with retroactive consent sought from the patient — when capacity is restored — or their legal proxy as soon as practicable. Studies show that patients and proxies generally support this approach when research pertains to life-threatening conditions and genuine time constraints preclude prospective consent. It is a recognised mechanism under Good Clinical Practice guidelines and has been accepted in many national and international research ethics frameworks. A complete waiver (without any subsequent consent process) is a distinct mechanism requiring Ethics Review Board approval."
+    },
+    {
+      "id": "eth_a05",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Limiting life sustaining therapies",
+      "section_url": null,
+      "image": null,
+      "question": "A terminally ill ICU patient in the final hours of life has refractory dyspnoea and distress. The ICU team administers increasing doses of morphine knowing this may hasten death. Which ethical principle BEST justifies this clinical practice?",
+      "options": [
+        "Euthanasia — intentional shortening of life is justified when suffering is refractory",
+        "Consequentialism — any action that reduces suffering is permissible regardless of intent or nature of the action",
+        "The doctrine of double effect — the primary intention is symptom relief; an earlier death is a foreseen but unintended consequence",
+        "Non-maleficence — withholding analgesics to preserve life always represents the correct application of 'do no harm'",
+        "Substituted judgment — the family's wish to end suffering overrides all other ethical considerations"
+      ],
+      "correct": 2,
+      "explanation": "The doctrine of double effect justifies actions with both a good intended effect (symptom relief) and a foreseeable harmful effect (possible earlier death), provided: the action itself is not intrinsically wrong; the agent intends only the good effect; the harmful effect does not cause the good effect; and the good is proportionate to the harm. This is ethically and legally distinct from euthanasia, where the primary intention is to end life. Administering appropriate analgesics and sedatives for symptom control at end of life is ethically defensible, clinically appropriate, and legally acceptable in most jurisdictions."
+    },
+    {
+      "id": "eth_a06",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Limiting life sustaining therapies",
+      "section_url": null,
+      "image": null,
+      "question": "A patient with metastatic malignancy and multi-organ failure deteriorates despite maximal ICU therapy. The team considers limiting life-sustaining treatment. Regarding the ethical and legal status of withholding versus withdrawing treatment, which statement is MOST accurate?",
+      "options": [
+        "Withdrawing treatment is morally more defensible than withholding because it only stops treatment after it has been fully trialled and proven insufficient, creating a stronger ethical justification for the decision to stop",
+        "Withholding and withdrawing life-sustaining treatment are morally, ethically, and legally equivalent in most countries, although many clinicians subjectively find withholding easier in practice",
+        "Withdrawing mechanical ventilation constitutes active euthanasia and is legally prohibited in all European countries",
+        "Withholding can only be decided by the patient, while withdrawal always requires family consent",
+        "ETHICUS-2 showed treatment limitation practices have not changed significantly in European ICUs since 1999"
+      ],
+      "correct": 1,
+      "explanation": "Withholding (not starting or escalating therapy) and withdrawing (discontinuing ongoing therapy) are considered morally, ethically, and legally equivalent in most countries because both are guided by the same principles — treatment is ineffective or burden outweighs benefit. Many clinicians subjectively perceive withholding as more acceptable, but this distinction lacks ethical justification. ETHICUS-2 (Avidan et al., 2021) demonstrated that significantly more ICU deaths in 2015–2016 involved treatment limitations compared with 1999–2000, reflecting an important cultural shift in European end-of-life practice."
+    },
+    {
+      "id": "eth_a07",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Limiting life sustaining therapies",
+      "section_url": null,
+      "image": null,
+      "question": "A family insists on continuing full ICU care for their 90-year-old father with multi-organ failure. Prognostication is highly uncertain. The ICU team proposes a time-limited trial. What does this involve?",
+      "options": [
+        "Immediate withdrawal of all life-sustaining therapies with a 24-hour period of physiological monitoring",
+        "Continuation of current treatment for a pre-defined period with agreed reassessment criteria; if no improvement occurs, treatment goals shift to comfort care",
+        "Escalation of all therapies unconditionally for 72 hours, followed by mandatory withdrawal regardless of response",
+        "Transfer to palliative care with simultaneous cessation of all monitoring and intervention",
+        "Unilateral physician decision to withdraw care after 5 days of clinical deterioration"
+      ],
+      "correct": 1,
+      "explanation": "A time-limited trial (Kruser et al., 2024; Vink et al., 2018) continues current treatment with the existing therapeutic goal for an agreed circumscribed period during which a defined clinical improvement is expected. If improvement occurs, treatment continues with the same goal; if not, the treatment goal changes to comfort care. This approach structures decision-making around prognostic uncertainty, aligns expectations, reduces conflict, and respects the family's need for time while establishing clear criteria for reassessment. It requires shared decision-making and explicit pre-agreement on what constitutes improvement or deterioration."
+    },
+    {
+      "id": "eth_a08",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Palliative care in ICU",
+      "section_url": null,
+      "image": null,
+      "question": "The World Health Organization defines palliative care as an approach that improves quality of life of patients and families facing life-threatening illness. Which element is EXPLICITLY included in this definition?",
+      "options": [
+        "Palliative care begins only after all curative treatments have been exhausted and the patient is actively dying — it is incompatible with concurrent intensive care interventions",
+        "Prevention and relief of suffering through early identification, assessment, and treatment of pain and other physical, psychological, social, and spiritual problems",
+        "Palliative care is limited to in-patient hospice settings and does not apply to ICU environments",
+        "Palliative care focuses exclusively on physical symptom management during the final days of life",
+        "Palliative care and intensive care are mutually exclusive and cannot be delivered simultaneously"
+      ],
+      "correct": 1,
+      "explanation": "The WHO definition of palliative care explicitly encompasses: prevention and relief of suffering through early identification, impeccable assessment, and treatment of pain and other physical, psychological, social, and spiritual problems. It applies to patients and families facing life-threatening illness — not only those at the very end of life. Palliative care is therefore complementary to, not exclusive of, intensive care. Integration has been associated with shorter ICU stay without increased mortality, improved patient quality of life, and greater family satisfaction."
+    },
+    {
+      "id": "eth_a09",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Conflicts in the intensive care unit",
+      "section_url": null,
+      "image": null,
+      "question": "The CONFLICUS study (Azoulay et al., 2009) examined the prevalence and factors of ICU conflicts. Which finding is CORRECT?",
+      "options": [
+        "Conflicts involving intensivists were reported in up to 70% of cases in the studied ICUs",
+        "Conflicts were reported in approximately 15–20% of ICU admissions in the studied units",
+        "Conflicts were primarily between nursing staff and families, with physicians rarely involved",
+        "End-of-life decisions were the least common conflict source compared with resource allocation issues",
+        "Conflicts were more common in open-visiting ICUs than in restricted-visiting units"
+      ],
+      "correct": 0,
+      "explanation": "CONFLICUS (Azoulay et al., 2009) reported that conflicts involving ICU intensivists occurred in up to 70% of sampled ICUs, and conflicts were reported to occur on a daily basis among all ICU professionals. End-of-life decisions, treatment disagreements, communication failures, and ethical dilemmas were among the most common sources. Conflicts have significant consequences for professionals (burnout, moral distress, reduced job satisfaction), patients (emotional distress, compromised care), and families (disrupted communication, lower satisfaction, increased costs)."
+    },
+    {
+      "id": "eth_a10",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Ethics in medicine",
+      "section_url": null,
+      "image": null,
+      "question": "A critically ill patient has competently refused mechanical ventilation on religious grounds, though the team believes it is life-saving. The physician proceeds with intubation anyway, arguing that the good outcome justifies the action. Which ethical framework BEST describes the physician's reasoning, and why is it problematic?",
+      "options": [
+        "Consequentialism — prioritising a good outcome (survival) violates the patient's autonomy and the deontological duty to respect competent refusal",
+        "Deontology — the duty to preserve life is the strongest and most binding obligation in medical ethics, and therefore it justifies intubating against the patient's expressed wishes when death is imminent",
+        "Deontology — the duty to preserve life justifies intubating against the patient's competent refusal",
+        "Principlism — all four principles simultaneously justify intubation against informed patient wishes",
+        "Cultural relativism — institutional norms override the patient's individual values in emergencies"
+      ],
+      "correct": 0,
+      "explanation": "The physician's reasoning exemplifies consequentialism — prioritising survival as the best outcome over the nature of the action or the patient's rights. This is ethically and legally problematic: a competent patient's informed refusal is a foundational right in medical ethics and law. Proceeding constitutes assault in most legal systems. Deontologically, there is a duty NOT to perform a procedure refused by a competent patient. Principlism identifies a conflict between beneficence and autonomy, which in the setting of a competent informed refusal resolves in favour of autonomy. The physician's consequentialist framing fails because the means (violation of autonomy) matter morally, not just the end."
+    },
+    {
+      "id": "eth_a11",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Ethics in medicine",
+      "section_url": null,
+      "image": null,
+      "question": "Kant's categorical imperative is a foundational concept in deontological ethics. Which of the following is a correct formulation of the categorical imperative directly relevant to medical ethics?",
+      "options": [
+        "Act only so as to maximise the total happiness of the greatest number of people",
+        "Virtue and good character, rather than rules, should be the primary guide to moral action",
+        "The right action is that which produces the best outcomes for the patient regardless of the method used",
+        "Moral duties are culturally defined and may legitimately vary depending on institutional context",
+        "Act so that you treat humanity, whether in your own person or in the person of any other, always as an end and never merely as a means"
+      ],
+      "correct": 4,
+      "explanation": "Kant's categorical imperative — 'Act so that you treat humanity always as an end and never merely as a means' — emphasises the inherent dignity of persons. In medical ethics this applies to respecting patient autonomy, obtaining genuine informed consent, and protecting research participants from exploitation. The other options describe utilitarian consequentialism (option based on maximising happiness), virtue ethics (character-based), consequentialism (outcomes-based), and moral relativism respectively."
+    },
+    {
+      "id": "eth_a12",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Conflicts in the intensive care unit",
+      "section_url": null,
+      "image": "images/img_b74483caa2.png",
+      "question": "The conflict management framework shown identifies five domains for addressing conflicts in the ICU. Which of the following is NOT one of the recognised domains in this framework?",
+      "options": [
+        "Clear communication with open and transparent channels among all parties",
+        "Multidisciplinary team collaboration in decision-making processes",
+        "Family meetings and emotional support for patients' families",
+        "Advance care planning initiated early in the ICU admission process",
+        "Referring all unresolved conflicts immediately to the hospital legal department for binding adjudication"
+      ],
+      "correct": 4,
+      "explanation": "The conflict management framework comprises five domains: (1) Clear communication — open channels, active listening, structured tools such as the COMFORT model; (2) Multidisciplinary team collaboration — involving physicians, nurses, social workers, ethicists; (3) Ethical and mediating consultations — ethics committees, trained mediators — not legal department referral; (4) Family meetings and support — involvement in rounds, emotional support, clear information sharing; (5) Advance care planning — early goals-of-care discussions to preempt conflict. Immediate legal referral is not a first-line strategy; it is potentially escalatory and is not part of this evidence-based framework."
+    },
+    {
+      "id": "eth_a13",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Shared decision making",
+      "section_url": null,
+      "image": null,
+      "question": "An ICU nurse disagrees with the attending intensivist's proposal to continue aggressive intervention for a patient with a poor prognosis following refractory septic shock. Which approach BEST reflects interprofessional shared decision-making (IP-SDM) principles?",
+      "options": [
+        "The intensivist makes the final decision unilaterally, as the senior medical professional has ultimate authority",
+        "The nurse's role is to implement medical decisions; their clinical opinions are not solicited in IP-SDM processes",
+        "A structured multidisciplinary team discussion is convened, incorporating nursing and physician perspectives alongside the patient's known values, with joint ownership of the decision",
+        "The family is asked to vote on the treatment plan as the primary decision-making authority",
+        "IP-SDM mandates formal ethics committee review before any end-of-life decision is made"
+      ],
+      "correct": 2,
+      "explanation": "Interprofessional SDM is defined as a collaborative process among clinicians from different disciplines and professions, incorporating combined clinical expertise and the patient's values, goals, and preferences. Active nursing involvement in end-of-life decision-making is one of the seven factors identified as critical to a positive ethical decision-making climate (Van den Bulcke et al., 2018). IP-SDM distributes the burden of difficult decisions, reduces individual moral distress and burnout, and produces more comprehensive and less biased decisions than unilateral physician authority."
+    },
+    {
+      "id": "eth_a14",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Cultural diversity and cultural relativism",
+      "section_url": null,
+      "image": null,
+      "question": "A family requests that the ICU team not disclose a terminal prognosis directly to their relative, citing cultural norms where such disclosure is considered harmful. The team must balance cultural relativism with moral objectivism. Which approach is MOST ethically appropriate?",
+      "options": [
+        "Apply full moral relativism — always defer to cultural practices without independent ethical evaluation",
+        "Apply strict moral objectivism — always disclose fully and directly regardless of cultural context or family wishes",
+        "Refer the matter exclusively to a non-clinical cultural liaison officer with no further medical team involvement",
+        "Respect and explore cultural values while ensuring core ethical principles, particularly patient autonomy, guide the approach to disclosure rather than preventing it",
+        "Legal disclosure requirements alone determine the duty to inform; no ethical deliberation is required"
+      ],
+      "correct": 3,
+      "explanation": "Moral relativism holds that moral values are culturally dependent; moral objectivism holds that universal truths (such as Beauchamp and Childress's 'common morality') exist. In practice, a balanced approach is required: cultural backgrounds and communication norms should be explored and may influence HOW and at what pace information is shared, but cannot entirely override the patient's own explicit or inferred autonomous right to information. Culturally sensitive communication — exploring the patient's own preferences, involving interpreters, staging information over time — is the recommended approach, rather than non-disclosure or culturally insensitive blunt delivery."
+    },
+    {
+      "id": "eth_a15",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Conflicts in the intensive care unit",
+      "section_url": null,
+      "image": "images/img_d22ac5b6e6.png",
+      "question": "The conflict sources framework shown identifies multiple origins of ICU conflict. A family demands all life-sustaining treatments be continued for their dying relative on religious grounds. A nurse feels that providing these treatments violates her professional ethics. The ICU physician believes treatment is futile. Which combination of conflict sources from the framework is MOST prominently illustrated?",
+      "options": [
+        "Resource allocation and legal liability concerns",
+        "End-of-life decisions, ethical considerations and moral distress, and cultural or religious diversity",
+        "Communication failures alone — all conflict would resolve with improved information provision",
+        "Treatment disagreements solely between healthcare professionals — the family is not a recognised conflict source",
+        "Emotional distress and extended length of stay"
+      ],
+      "correct": 1,
+      "explanation": "This scenario illustrates three intersecting conflict sources: (1) End-of-life decisions — disagreement about continuing life-sustaining treatment when prognosis is poor; (2) Ethical considerations and moral distress — the nurse experiences moral distress when required to provide care she considers clinically and ethically inappropriate; (3) Cultural or religious diversity — the family's religious values shape their treatment expectations and conflict with medical assessment. Communication issues and emotional distress are also present but are secondary drivers. Addressing these conflicts requires multidisciplinary collaboration, structured family meetings, and potentially ethics consultation."
+    },
+    {
+      "id": "eth_k01",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Surrogate decision-making",
+      "section_url": null,
+      "image": null,
+      "question": "Regarding surrogate decision-making and advance directives in ICU end-of-life care:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Advance directives have been shown to increase patient satisfaction, reduce unwanted aggressive treatment, and reduce associated healthcare costs",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Advance directives are completed by approximately two-thirds of Western adults, making them the primary guide in most ICU end-of-life decisions",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Substituted judgment is primarily an expression of the patient's best interest rather than an extension of the patient's own autonomy",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "A proxy designated in an advance directive may make any treatment decision independently without reference to the patient's previously expressed values or wishes",
+          "correct": false
+        }
+      ],
+      "explanation": "Advance directives increase patient satisfaction and prevent overtreatment, but they remain uncommon — approximately one-third of US adults complete any form (Yadav et al., 2017), and they are even rarer in many European countries. Substituted judgment is an extension of patient autonomy — inferring what the patient would have decided based on known values — not a best-interest analysis. A healthcare proxy should act as the patient would, guided by the patient's known values and previously expressed wishes rather than exercising fully independent judgment."
+    },
+    {
+      "id": "eth_k02",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Palliative care in ICU",
+      "section_url": null,
+      "image": null,
+      "question": "Regarding integration of palliative care into ICU management:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Palliative care consultation has been shown in randomised trials to significantly reduce 28-day ICU mortality compared with standard care",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Palliative care integration is associated with shorter ICU length of stay without an increase in ICU mortality",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Intensive care and palliative care are fundamentally incompatible and palliative care can only begin after all curative treatments have been withdrawn",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Family satisfaction and quality of communication improve when palliative care is systematically integrated into ICU practice",
+          "correct": true
+        }
+      ],
+      "explanation": "Palliative care is increasingly recognised as complementary to, not exclusive of, intensive care — it can and should start concurrently with curative treatment. Integration is associated with shorter ICU stays and better patient quality of life without a mortality penalty. Evidence does not establish that specialist palliative care reduces ICU mortality; primary benefits are in patient comfort, family experience, and care alignment with patient values. Approximately 14–20% of ICU patients could benefit from specialist consultation, and early integration is preferred over deferring until the very end of life."
+    },
+    {
+      "id": "eth_k03",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Ethics in clinical research",
+      "section_url": null,
+      "image": null,
+      "question": "Regarding ethics in clinical research involving ICU patients:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The Declaration of Helsinki provides internationally recognised ethical guidelines for research in humans and has been revised multiple times since its adoption in 1964",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Patients' inability to provide informed consent means research on the ICU population is ethically unjustifiable and must not be conducted",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Proxy consent from a legal surrogate or family member is an accepted and frequently used alternative to patient consent in ICU research",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Deferred consent — enrolling patients before consent and seeking retroactive consent — is prohibited under the Nuremberg Code",
+          "correct": false
+        }
+      ],
+      "explanation": "The Declaration of Helsinki (1964, revised multiple times) is the primary international framework for research ethics in humans. Research on ICU patients is ethically justifiable when appropriately regulated — it requires robust safeguards including ethics committee oversight, proxy or deferred consent, and independent safety monitoring. Deferred consent (enrolling first, seeking retroactive consent) is a recognised approach for emergency research, supported by evidence of patient and proxy acceptance. The Nuremberg Code addressed explicit non-consensual Nazi experimentation — it does not prohibit deferred consent in contemporary regulated research."
+    },
+    {
+      "id": "eth_k04",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Limiting life sustaining therapies",
+      "section_url": null,
+      "image": null,
+      "question": "Regarding the practical management of withdrawing life-sustaining treatment (LST) in ICU:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "When withdrawing LST, vasopressors and antibiotics should be tapered gradually over 24–48 hours to avoid physiological instability",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "There is no objective maximum dose for analgesics or sedatives used to achieve adequate symptom control at the end of life",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Withholding and withdrawing LST are considered morally and legally equivalent in most countries, though many clinicians subjectively find withholding easier",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Nutritional support must always be continued during end-of-life care to prevent patient distress from starvation",
+          "correct": false
+        }
+      ],
+      "explanation": "When withdrawing LST, medications not serving the comfort-care goal should be discontinued without tapering — tapering vasopressors or antibiotics is not required. Analgesics and sedatives should be titrated upwards to achieve symptom control, with no prescribed ceiling dose. Withholding and withdrawing are ethically equivalent, though clinician discomfort with withdrawing is well-documented. Regarding nutrition: at end of life, nutrition may be discontinued as there is no medical need for caloric intake; fluids should be provided only as required for symptom control, in accordance with any applicable legal requirements."
+    },
+    {
+      "id": "eth_k05",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Ethics in medicine",
+      "section_url": null,
+      "image": null,
+      "question": "Regarding principlism as an ethical framework in medical decision-making:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Principlism provides a clear hierarchical ranking of the four principles that enables systematic resolution of conflicts between them",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Principlism employs four mid-level principles — autonomy, beneficence, non-maleficence, and justice — derived from overlapping ethical theories",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Non-maleficence (do not harm) differs from beneficence (do good) in that it functions primarily as a duty of restraint rather than an obligation for affirmative action",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Beauchamp and Childress claimed the four principles represent a 'common morality' shared by all rational persons committed to moral conduct",
+          "correct": true
+        }
+      ],
+      "explanation": "Principlism was proposed as a practical alternative to applying overarching ethical theories directly to clinical dilemmas. A key limitation, acknowledged by critics, is the complete absence of a hierarchical relationship between the four principles — when they conflict, principlism does not resolve the ambiguity and revives the same disagreements present in the underlying ethical theories. Non-maleficence is a duty of restraint (primum non nocere); beneficence requires affirmative promotion of the patient's good. The claim of a 'common morality' has attracted criticism that it reflects Western liberal values and is not universally accepted."
+    },
+    {
+      "id": "eth_k06",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Shared decision making",
+      "section_url": null,
+      "image": null,
+      "question": "Regarding the ethical decision-making climate (EDMC) in the ICU, as described by Van den Bulcke et al. (2018):",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A positive ethical decision-making climate is associated with higher intention to leave among ICU clinicians, as they bear greater shared moral responsibility",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Active involvement of nurses in end-of-life care and decision-making is one of seven factors identified as contributing to a positive ethical decision-making climate",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "A culture of avoiding end-of-life decisions is identified as a characteristic of a positive ethical climate, as it protects staff from emotional burden",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Self-respecting and empowering leadership by physicians is identified as a key factor in the ethical decision-making climate framework",
+          "correct": true
+        }
+      ],
+      "explanation": "Van den Bulcke et al. (2018) identified seven factors contributing to a positive EDMC: self-respecting physician leadership, culture of open interdisciplinary reflection, NOT avoiding end-of-life decisions, mutual respect within the team, active nursing involvement in EOL decisions, active physician decision-making, and culture of ethical awareness. A positive EDMC is associated with LOWER intention to leave (Van den Bulcke et al., 2020) and reduced moral distress — not higher intention to leave. A culture of avoidance is characteristic of a poor EDMC, not a positive one."
+    },
+    {
+      "id": "eth_k07",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Conflicts in the intensive care unit",
+      "section_url": null,
+      "image": null,
+      "question": "Regarding the consequences of conflicts in the ICU setting:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Persistent unresolved conflicts among ICU professionals can lead to moral distress, burnout, and reduced job satisfaction",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Family members of critically ill patients are rarely affected by ICU conflicts, as such conflicts primarily occur between healthcare professionals",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Conflicts in the ICU may contribute to extended length of stay and increased healthcare costs through care inefficiencies",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "ICU conflicts are inherently destructive and can never lead to constructive outcomes such as improved communication or innovative care solutions",
+          "correct": false
+        }
+      ],
+      "explanation": "ICU conflicts affect both professionals (moral distress, burnout, reduced job satisfaction, compromised teamwork) and families and patients (emotional distress, disrupted communication, lower satisfaction, potential extended stay and increased costs). When effectively managed, conflicts need not be purely destructive — they can prompt improved communication strategies, better mutual understanding, and innovative solutions. The key is proactive identification and structured management through communication, multidisciplinary collaboration, and when needed, ethics consultation, rather than avoidance or escalation to adversarial resolution."
+    }
+  ]
+}

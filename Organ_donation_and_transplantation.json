@@ -1,0 +1,536 @@
+{
+  "module": "Organ donation and transplantation",
+  "sections": {},
+  "questions": [
+    {
+      "id": "odt_a01",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Potential Donor",
+      "section_url": null,
+      "image": null,
+      "question": "A 45-year-old patient has suffered catastrophic traumatic brain injury. The ICU team considers proceeding with brain death testing. Which set of conditions must ALL be satisfied BEFORE the neurological examination can begin?",
+      "options": [
+        "Coma documented for >24 hours, absent pupillary reflexes, and family written consent obtained",
+        "Irreversible brain lesion confirmed, core temperature >36°C, SBP >100 mmHg, exclusion of sedating drugs and severe metabolic or endocrine disturbances, and >12 hours since any CPR",
+        "Isoelectric EEG confirmed on two separate occasions ≥6 hours apart before any clinical testing",
+        "Two independent neurologists (not involved in care) must verify GCS of 3 prior to formal brain death assessment",
+        "Brain death testing can proceed at any time after TBI if the CT shows bilateral cerebral contusions"
+      ],
+      "correct": 1,
+      "explanation": "Prerequisites before neurological brain death assessment: (1) evidence of an acute CNS catastrophe compatible with brain death; (2) exclusion of severe electrolyte, acid-base, endocrine or haemodynamic disturbances; (3) absence of drug intoxication or poisoning; (4) core temperature >36°C; (5) SBP >100 mmHg; (6) >12 hours since CPR. A flat EEG is required in some countries as a confirmatory ancillary test, not as a prerequisite. Family consent requirements vary by jurisdiction."
+    },
+    {
+      "id": "odt_a02",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Potential Donor",
+      "section_url": null,
+      "image": null,
+      "question": "During the apnoea test for brain death confirmation, the ventilator is disconnected after pre-oxygenation. The patient shows no spontaneous respiratory effort throughout the observation period. An ABG at the end shows PaCO2 = 63 mmHg. What does this result indicate?",
+      "options": [
+        "The test is invalid — PaCO2 must reach ≥70 mmHg before a positive result can be recorded",
+        "This is a negative apnoea test — respiratory drive is preserved and the test must be repeated",
+        "This is a positive apnoea test — no respiratory effort despite PaCO2 >60 mmHg indicates absent brainstem respiratory drive",
+        "The result is equivocal — CT angiography showing absent cerebral blood flow is mandatory before conclusions can be drawn",
+        "The test only confirms brain death if a simultaneously performed EEG shows isoelectric activity"
+      ],
+      "correct": 2,
+      "explanation": "The apnoea test is positive (confirming absent brainstem respiratory drive) when PaCO2 exceeds 60 mmHg and the patient exhibits no spontaneous respiratory effort. PaCO2 >60 mmHg is the threshold in most protocols; 63 mmHg satisfies this requirement. The end of the first successful apnoea test is registered as the time of death. CT angiography and EEG are ancillary tests used when the apnoea test cannot safely be completed, not as mandatory adjuncts."
+    },
+    {
+      "id": "odt_a03",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Donor Management",
+      "section_url": null,
+      "image": null,
+      "question": "Following brain death, a catecholamine storm causes intense vasoconstriction and tachycardia. In what proportion of brain-dead potential donors does this catecholamine surge result in myocardial injury?",
+      "options": [
+        "20–25%",
+        "5–10%",
+        "50–60%",
+        "Less than 5% — myocardial injury is an uncommon consequence of the catecholamine storm",
+        "More than 80% — the majority of DBD hearts are structurally damaged before retrieval"
+      ],
+      "correct": 0,
+      "explanation": "The catecholamine storm following brain death causes intense vasoconstriction, tachycardia, and raised systemic vascular resistance. This storm results in myocardial injury in 20–25% of DBD hearts, which is an important consideration for cardiac donor viability. The storm is subsequently followed by loss of sympathetic tone, peripheral vasodilation, and hypotension, which is observed in 80–97% of donors."
+    },
+    {
+      "id": "odt_a04",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Overview",
+      "section_url": null,
+      "image": "images/img_07e2135d41.png",
+      "question": "The graph shows global solid organ transplant volumes from 2000–2020. According to the GODT data, what happened to total transplant volume in 2020 compared to 2019, and what was the primary cause?",
+      "options": [
+        "Transplant activity increased by 17.6% in 2020, reflecting improved organ procurement infrastructure developed during the pandemic",
+        "Transplant volume remained stable in 2020, with only negligible disruption from the COVID-19 pandemic",
+        "Global volume reached its all-time high in 2020, exceeding 175,000 procedures performed worldwide",
+        "Total transplants in 2020 fell by approximately 17.6% from the 2019 peak, primarily due to the COVID-19 pandemic's impact on organ procurement and surgical services",
+        "The decrease in 2020 affected only kidney transplantation; heart and lung volumes were unaffected by the pandemic"
+      ],
+      "correct": 3,
+      "explanation": "The GODT data show that approximately 157,494 solid organ transplant procedures were performed in 2022 worldwide, representing a 17.6% decrease from the 2019 peak. The COVID-19 pandemic significantly disrupted organ procurement networks, ICU capacity, surgical scheduling, and the functioning of transplant coordination centres globally — contributing to the largest single-year decline in the period shown. The graph illustrates the reversal of the rising trend seen from 2004 onward."
+    },
+    {
+      "id": "odt_a05",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Donor Management",
+      "section_url": null,
+      "image": null,
+      "question": "A brain-dead organ donor develops diabetes insipidus with urine output of 450 mL/h and serum sodium rising to 162 mmol/L. Which is the MOST appropriate management?",
+      "options": [
+        "Infuse hypertonic 3% saline to rapidly restore serum osmolality",
+        "High-rate 0.9% normal saline infusion with oral DDAVP via nasogastric tube",
+        "Intravenous furosemide to reduce free water losses from the kidneys",
+        "No fluid intervention — diabetes insipidus in brain-dead donors resolves spontaneously within hours",
+        "Treat with intravenous desmopressin (DDAVP) to control urinary output, and replace free water deficit with 5% glucose solution given the concurrent hypernatraemia — monitoring blood glucose closely"
+      ],
+      "correct": 4,
+      "explanation": "Diabetes insipidus (65–90% of DBD donors) results from posterior pituitary dysfunction. Management is with desmopressin (DDAVP) — either as a bolus or continuous infusion — to reduce excessive urinary losses. Because the donor has hypernatraemia (162 mmol/L), 5% glucose is the appropriate replacement fluid (normal saline would worsen hypernatraemia). Blood glucose must be closely monitored when administering 5% glucose. Fluid balance and urine output target 0.5–4 mL/kg/h."
+    },
+    {
+      "id": "odt_a06",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Donor Management",
+      "section_url": null,
+      "image": null,
+      "question": "Which set of haemodynamic and physiological targets best reflects the recommended standardised goals for maintenance of the brain-dead organ donor?",
+      "options": [
+        "MAP ≥90 mmHg, CVP 14–18 mmHg, urine output >5 mL/kg/h, Hb >10 g/dL",
+        "MAP 40–60 mmHg, CVP 2–5 mmHg, targeting low perfusion pressures to minimise organ oedema",
+        "MAP 60–80 mmHg, CVP 8–12 mmHg, urine output 0.5–4 mL/kg/h, Hb >7 g/dL, temperature 36–37.5°C, tidal volume 6–8 mL/kg",
+        "MAP >100 mmHg, CVP 14–18 mmHg, high-dose vasopressors to maintain supra-normal organ perfusion",
+        "MAP 50–60 mmHg, CVP 12–15 mmHg, tidal volume 10–12 mL/kg predicted body weight"
+      ],
+      "correct": 2,
+      "explanation": "Standardised donor management goals (adapted from Yoshikawa et al., 2021): systolic BP ≥100 mmHg, MAP 60–80 mmHg, CVP 8–12 mmHg, urine output 0.5–4 mL/kg/h, Hb >7 g/dL, temperature 36–37.5°C, tidal volume 6–8 mL/kg (lung-protective), and vasopressin 0.5–2.4 U/h if needed. These goals mirror haemodynamic management of an unstable ICU patient but are directed at organ perfusion optimisation for multiple recipients rather than the donor's own recovery."
+    },
+    {
+      "id": "odt_a07",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Potential Donor",
+      "section_url": null,
+      "image": null,
+      "question": "A potential organ donor's medical records reveal known HIV infection, currently on antiretroviral therapy with undetectable viral load. Which of the following is NOT an absolute contraindication to organ donation in most countries?",
+      "options": [
+        "Active haematological malignancy including leukaemia, lymphoma, or myeloma",
+        "Definite or probable transmissible spongiform encephalopathy including CJD or vCJD",
+        "Any active cancer with evidence of spread outside the affected organ within the last 3 years",
+        "Primary intracerebral lymphoma",
+        "Known HIV infection in a potential donor"
+      ],
+      "correct": 4,
+      "explanation": "HIV DISEASE (symptomatic AIDS) is an absolute contraindication to organ donation, but HIV INFECTION (asymptomatic or treated) is not. Inclusion of HIV-infected donors has expanded the organ pool, particularly for HIV-positive recipients. All other options listed — active haematological malignancy, TSE/CJD/vCJD, active malignancy with spread within 3 years, and primary intracerebral lymphoma — are absolute contraindications in most countries. Acceptance criteria have progressively expanded and should be verified against current national guidelines."
+    },
+    {
+      "id": "odt_a08",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Donation after circulatory death (DCD)",
+      "section_url": null,
+      "image": null,
+      "question": "A 58-year-old patient with catastrophic intracerebral haemorrhage has no realistic prospect of neurological recovery. Following interdisciplinary discussion and family consultation, a decision is reached to withdraw life-sustaining treatment. The patient is assessed for organ donation prior to the planned withdrawal. Which Maastricht category best describes this donor?",
+      "options": [
+        "Maastricht I — dead on arrival at the emergency department",
+        "Maastricht III — awaiting cardiac arrest following planned withdrawal of life-sustaining treatment (controlled DCD)",
+        "Maastricht II — unsuccessful resuscitation after an unexpected cardiac arrest",
+        "Maastricht IV — cardiac arrest occurring in a patient already declared brain-dead",
+        "Maastricht V — applicable in any European Union country as a standardised category"
+      ],
+      "correct": 1,
+      "explanation": "Maastricht III describes controlled DCD — the patient is alive, awaiting cardiac arrest that will follow a planned withdrawal of life-sustaining treatment decided upon in an interdisciplinary setting. This is the most common DCD category. Maastricht I (dead on arrival), II (failed resuscitation), and IV (cardiac arrest in brain-dead patient) are all uncontrolled DCD categories. Maastricht V (donation after euthanasia) exists only in Belgium and the Netherlands, not across all EU countries."
+    },
+    {
+      "id": "odt_a09",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Overview",
+      "section_url": null,
+      "image": "images/img_978e231a5b.png",
+      "question": "The chart shows worldwide actual deceased organ donors per million population (PMP) in 2020. According to this data, which two countries had the highest rates of deceased donation?",
+      "options": [
+        "Germany and France, reflecting strong Eurotransplant network performance",
+        "Portugal and Estonia, reflecting effective opt-out legislation in smaller populations",
+        "Spain alone — Spain has consistently led deceased donation globally for over 25 years",
+        "USA and Spain, each exceeding 37 deceased donors per million population in 2020",
+        "UK and Netherlands, reflecting their highly organised national donation programmes"
+      ],
+      "correct": 3,
+      "explanation": "According to the 2020 GODT/IRODAT data shown, the USA led with 38.03 deceased donors PMP and Spain was second with 37.97 PMP. Spain's high donation rate reflects the 'Spanish model' — dedicated transplant coordination, proactive donor identification, and a presumed consent (opt-out) framework. Despite its reputation, Spain had a slightly lower rate than the USA in 2020. Portugal (24.61 PMP) and Estonia (24.83 PMP) ranked 3rd and 4th."
+    },
+    {
+      "id": "odt_a10",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Donation after circulatory death (DCD)",
+      "section_url": null,
+      "image": null,
+      "question": "Following circulatory arrest in a Maastricht III DCD procedure, a no-touch observation period must be observed before death is declared and procurement can begin. What is the required interval in MOST countries, and what phenomenon does it prevent?",
+      "options": [
+        "5 minutes — to avoid organ retrieval during any window in which autoresuscitation could theoretically occur; autoresuscitation has not been documented beyond 5 minutes post-cardiac arrest",
+        "2 minutes — this is the international consensus minimum to confirm permanent circulatory arrest while minimising warm ischaemia time",
+        "10 minutes — EEG monitoring must confirm a flat trace for at least this duration before death can be declared in DCD",
+        "20 minutes — international protocols require a prolonged observation period to satisfy medicolegal certainty criteria universally",
+        "There is no minimum no-touch interval — the interval is determined entirely by individual institutional protocol"
+      ],
+      "correct": 0,
+      "explanation": "A no-touch interval of 5 minutes applies in most countries, though the interval varies internationally between 2 and 20 minutes. The waiting period ensures permanent cessation of circulation before death is declared. Autoresuscitation (spontaneous return of circulation) has been documented only very rarely in patients immediately after resuscitation, and has never been documented after 5 minutes post-cardiac death. EEG becomes flat within 30 seconds of cardiac arrest — well before the 5-minute observation ends."
+    },
+    {
+      "id": "odt_a11",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Donation after circulatory death (DCD)",
+      "section_url": null,
+      "image": null,
+      "question": "In a controlled DCD (Maastricht III) scenario, when should the option of organ donation FIRST be discussed with the next of kin, according to international recommendations?",
+      "options": [
+        "Simultaneously with the withdrawal decision — integrated conversation is recommended to reduce family distress and administrative delay",
+        "As soon as the treating team identifies that the patient's brain injury is severe, to allow the family adequate preparation time",
+        "Only after the decision to withdraw treatment has already been made and the family has been fully informed and consulted on this decision",
+        "The transplant coordinator should approach the family before the treating team discusses withdrawal, to allow adequate logistical preparation",
+        "Donation discussions may begin immediately once it is clear the patient will not survive their current admission"
+      ],
+      "correct": 2,
+      "explanation": "Recommendation 9 of the European DCD ethics framework states: 'The option of organ donation should not be discussed with the next of kin before the decision to withdraw or limit treatment has been made, and the family has been informed and consulted on this issue.' This separation of the WLST decision from donation discussions is essential to ensure that the end-of-life decision is made solely in the patient's best interests, without any actual or perceived conflict of interest from the donation process."
+    },
+    {
+      "id": "odt_a12",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Potential Donor",
+      "section_url": null,
+      "image": null,
+      "question": "In an opt-out (presumed consent) system for organ donation, what is the key distinguishing principle compared to an opt-in system?",
+      "options": [
+        "Opt-out systems require explicit family consent for every donation, regardless of the donor's registered status",
+        "Opt-out systems eliminate the need for family discussion and legally mandate donation in all eligible deceased patients",
+        "Opt-out systems require explicit written consent registered in a national database, similar to opt-in systems but with broader public engagement",
+        "Opt-out and opt-in systems achieve equivalent donation rates when healthcare infrastructure and resourcing are controlled",
+        "In an opt-out system, silence is taken as consent — donation proceeds unless the individual has explicitly registered an objection prior to death"
+      ],
+      "correct": 4,
+      "explanation": "In an opt-out (presumed consent) system, individuals who have not actively registered their objection are presumed to consent to organ donation. In an opt-in system, explicit prior consent is required. Opt-out systems are associated with higher donation rates and are one strategy for expanding the organ donor pool. However, family communication remains essential in both systems, and many countries with opt-out legislation still involve families in the donation decision."
+    },
+    {
+      "id": "odt_a13",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Donor Management",
+      "section_url": null,
+      "image": null,
+      "question": "A single dose of corticosteroid is routinely recommended in the management of the brain-dead organ donor. Which is the correct agent, dose, and primary rationale?",
+      "options": [
+        "Methylprednisolone 250 mg IV once — to reduce the upregulation of proinflammatory cytokines, particularly protecting the liver",
+        "Dexamethasone 8 mg IV twice daily — to manage residual cerebral oedema in the deceased donor",
+        "Hydrocortisone 50 mg IV every 6 hours — to replace the near-universal adrenal insufficiency seen after brain death",
+        "No corticosteroids are recommended in donor management because of the risk of immunological sensitisation in the recipient",
+        "Prednisolone 1 mg/kg oral — to attenuate immunological rejection prior to organ transplantation"
+      ],
+      "correct": 0,
+      "explanation": "A single dose of methylprednisolone 250 mg (or equivalent) IV is recommended in the management of the brain-dead donor to reduce the upregulation of proinflammatory cytokines — particularly protective for the liver, which is vulnerable to ischaemia-reperfusion injury and systemic inflammation. This is not an adrenal replacement strategy, but rather a targeted anti-inflammatory intervention. Routine high-dose or prolonged steroid use is not recommended."
+    },
+    {
+      "id": "odt_a14",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Overview",
+      "section_url": null,
+      "image": "images/img_b705e94b6a.png",
+      "question": "The chart shows worldwide living organ donor rates per million population in 2020. Which two countries had the highest living donation rates globally according to this data?",
+      "options": [
+        "Spain and USA, reflecting their large overall transplantation programmes",
+        "Germany and Netherlands, reflecting Eurotransplant living donor coordination",
+        "Israel and Iceland, reflecting statistical variation in small-population countries",
+        "Turkey and Israel, with 41.15 and 31.7 living donors per million population respectively",
+        "Japan and Denmark, reflecting high rates in Asian and Scandinavian populations"
+      ],
+      "correct": 3,
+      "explanation": "According to the 2020 IRODAT data shown, Turkey had the highest living donor rate at 41.15 PMP and Israel was second at 31.7 PMP. This reflects strong living kidney and liver donation programmes in both countries. The USA ranked 7th at 17.45 PMP. Living donation complements deceased donation and is an important component of the transplant system, particularly for kidney and partial-liver transplantation."
+    },
+    {
+      "id": "odt_k01",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Potential Donor",
+      "section_url": null,
+      "image": null,
+      "question": "Regarding the clinical diagnosis of brain death:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A systolic blood pressure above 180 mmHg is required before brain death neurological examination can be initiated, to ensure adequate cerebral perfusion during testing",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Absent cough reflex to tracheal suctioning is one of the required clinical findings for brain death determination",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "A flat (isoelectric) electroencephalogram is mandatory in all countries before clinical brain death can be declared",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "The apnoea test is positive when PaCO2 exceeds 60 mmHg with no observed spontaneous respiratory effort, indicating absent brainstem respiratory drive",
+          "correct": true
+        }
+      ],
+      "explanation": "The prerequisite for neurological testing is SBP >100 mmHg (not >180 mmHg), ensuring haemodynamic stability before testing. Seven clinical criteria are assessed: coma, absent pupillary light reflexes, absent corneal reflexes, absent oculocephalic/oculovestibular reflexes, absent cerebral response to pain, absent cough with suctioning, and the apnoea test. EEG is a confirmatory ancillary test used in some countries but is not universally mandated — the clinical examination remains the primary diagnostic method."
+    },
+    {
+      "id": "odt_k02",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Donor Management",
+      "section_url": null,
+      "image": null,
+      "question": "Regarding pathophysiological changes following brain death:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Brain death triggers an initial catecholamine storm resulting in vasoconstriction, tachycardia, and myocardial injury in approximately 20–25% of cases",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Diabetes insipidus occurs in fewer than 20% of brain-dead donors, as posterior pituitary function is usually preserved",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "A sudden fall in antidiuretic hormone, cortisol, insulin, and thyroid hormones follows the initial catecholamine surge after brain death",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Disseminated intravascular coagulation is uncommon after brain death, occurring in fewer than 10% of potential donors",
+          "correct": false
+        }
+      ],
+      "explanation": "The catecholamine storm causes myocardial injury in 20–25% of DBD hearts. Diabetes insipidus is highly prevalent, occurring in 65–90% of donors as a result of posterior pituitary failure — not in fewer than 20%. Hormonal drops following brain death include ADH, cortisol, insulin, T3, and T4. DIC occurs in 30–55% of donors due to tissue thromboplastin release from necrotic brain — not fewer than 10%."
+    },
+    {
+      "id": "odt_k03",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Donor Management",
+      "section_url": null,
+      "image": null,
+      "question": "Regarding recommended physiological targets in management of the brain-dead organ donor:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A target mean arterial pressure of 60–80 mmHg is recommended for the brain-dead organ donor",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Vasopressin when used in donor management is typically administered at doses of 10–20 U/h to achieve maximal vasopressor effect",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "A urine output of 0.5–4 mL/kg/h is the recommended target range for organ donor fluid management",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Lung-protective ventilation with tidal volumes of 6–8 mL/kg applies to the ventilated organ donor",
+          "correct": true
+        }
+      ],
+      "explanation": "Standardised donor management targets include MAP 60–80 mmHg, CVP 8–12 mmHg, urine output 0.5–4 mL/kg/h, Hb >7 g/dL, temperature 36–37.5°C, and tidal volume 6–8 mL/kg. Vasopressin is dosed at 0.5–2.4 U/h in donor management — doses of 10–20 U/h would be excessive and harmful. Lung-protective ventilation standards apply to organ donors as for all mechanically ventilated ICU patients."
+    },
+    {
+      "id": "odt_k04",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Potential Donor",
+      "section_url": null,
+      "image": null,
+      "question": "Regarding absolute contraindications to organ donation:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Known HIV infection (not HIV disease) is an absolute contraindication to organ donation in all countries",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Active haematological malignancy (leukaemia, lymphoma, myeloma) is an absolute contraindication to organ donation",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "A history of successfully treated solid organ malignancy with no evidence of recurrence for more than 5 years is an absolute contraindication to donation",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Any donor with positive hepatitis C serology cannot donate, as HCV transmission to the recipient is universally fatal and untreatable",
+          "correct": false
+        }
+      ],
+      "explanation": "HIV DISEASE (AIDS) is an absolute contraindication, but HIV INFECTION (asymptomatic or treated) is no longer absolute in many jurisdictions — HIV-infected donors can donate to HIV-positive recipients. Active haematological malignancy is an absolute contraindication. The absolute threshold for solid organ malignancy is active cancer with spread outside the affected organ within 3 years — treated cancers beyond this window may be considered on a case-by-case basis. HCV-seropositive donors are now increasingly used because direct-acting antiviral therapy can effectively cure HCV in recipients."
+    },
+    {
+      "id": "odt_k05",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Donation after circulatory death (DCD)",
+      "section_url": null,
+      "image": null,
+      "question": "Regarding the Maastricht classification of donation after circulatory death (DCD):",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Maastricht category III (awaiting cardiac arrest) is classified as controlled DCD, as the cardiac arrest follows a planned withdrawal of life-sustaining treatment",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Maastricht category I (dead on arrival) is classified as controlled DCD, as death is predictable upon hospital presentation",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Maastricht category II (unsuccessful resuscitation) represents uncontrolled DCD, as the cardiac arrest was unexpected",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Maastricht category V (donation after euthanasia) is a standardised category applicable in all European countries",
+          "correct": false
+        }
+      ],
+      "explanation": "Maastricht III is controlled DCD — the cardiac arrest is planned and anticipated following an interdisciplinary WLST decision. Categories I, II, and IV are uncontrolled DCD. Category I (dead on arrival) is uncontrolled because death occurred outside the hospital with no prior planning. Category V (donation after euthanasia) exists only in Belgium and the Netherlands — it is not a standardised European category and raises distinct ethical considerations."
+    },
+    {
+      "id": "odt_k06",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Potential Donor",
+      "section_url": null,
+      "image": null,
+      "question": "Regarding the correct procedure for the apnoea test in brain death determination:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The ventilator should be disconnected immediately without prior oxygenation, and the ABG should be checked at exactly 5 minutes for PaCO2 level",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "The patient should be hyper-oxygenated with 100% oxygen for 10 minutes before disconnecting the ventilator",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Passive delivery of oxygen via the endotracheal tube is recommended while the ventilator is disconnected during the test",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "The end of the first completed apnoea test is registered as the official time of death",
+          "correct": true
+        }
+      ],
+      "explanation": "The correct apnoea test procedure: (1) normalise PaCO2 and confirm with ABG; (2) hyper-oxygenate with 100% O2 for 10 minutes; (3) disconnect ventilator but deliver passive O2 via endotracheal tube; (4) observe for respiratory effort until PaCO2 >60 mmHg (approximately 6–10 minutes). Disconnecting the ventilator without prior oxygenation risks severe hypoxaemia, which could confound the test and cause haemodynamic instability. The end of the first completed apnoea test is the registered time of death."
+    },
+    {
+      "id": "odt_k07",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Donation after circulatory death (DCD)",
+      "section_url": null,
+      "image": null,
+      "question": "Regarding the timing and declaration of death in DCD procedures:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "In most countries a no-touch interval of 5 minutes after circulatory arrest must elapse before death is declared and organ procurement begins",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Autoresuscitation (spontaneous return of circulation after cardiac arrest) has never been documented after 5 minutes post-cardiac arrest",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The EEG becomes flat approximately 5–10 minutes after cardiac arrest, confirming cortical death in DCD",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "In Maastricht III DCD, family members are not permitted to remain with the patient during withdrawal of life-sustaining treatment",
+          "correct": false
+        }
+      ],
+      "explanation": "A 5-minute no-touch interval is standard in most countries (range 2–20 minutes internationally). Autoresuscitation is an extremely rare phenomenon that has never been documented beyond 5 minutes post-cardiac arrest. The EEG becomes flat within 30 seconds of cardiac arrest — not 5–10 minutes — and even earlier in low-flow states prior to withdrawal. In Maastricht III, the family may and should be allowed to stay with the patient during withdrawal; palliative care standards fully apply and donation must not interfere with comfort care."
+    },
+    {
+      "id": "odt_k08",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Potential Donor",
+      "section_url": null,
+      "image": null,
+      "question": "Regarding strategies to expand the pool of transplantable organs:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Opt-out systems have been proven in all implementing countries to at least double deceased donation rates compared with opt-in systems",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "HIV infection remains an absolute contraindication to organ donation in all international jurisdictions",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hepatitis C seropositive donors cannot be used because HCV transmission to the recipient is invariably fatal and untreatable",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Increasing DCD activity has made a positive impact on the number of transplantable organs available worldwide",
+          "correct": true
+        }
+      ],
+      "explanation": "Opt-out systems are associated with higher donation rates but results vary considerably by country — other factors including healthcare infrastructure, ICU capacity, and cultural attitudes also determine donation rates; doubling is not guaranteed. HIV infection (not disease) is no longer an absolute contraindication in many countries — HIV-to-HIV donation is practised. HCV-positive donors are increasingly used because direct-acting antiviral agents achieve >95% cure rates in recipients. DCD has been validated as an effective strategy to expand the donor pool, with machine perfusion techniques now extending its application to heart and other fragile organs."
+    }
+  ]
+}
