@@ -1,0 +1,1260 @@
+{
+  "module": "Coma and Neuromuscular Conditions",
+  "sections": {
+    "Coma: Definitions and Classification": "Consciousness = arousal (wakefulness, ARAS-regulated) + awareness (cortex-dependent). Coma = both absent. VS/UWS = arousal without awareness. MCS = arousal with inconsistent but reproducible goal-directed behaviour. LIS = full awareness, complete efferent motor paralysis. Brain death = irreversible cessation of all brain activity. CMD: preserved cognition detectable only by fMRI/EEG paradigms, up to 15-20% of DOC patients.",
+    "Coma: Investigations": "Primary labs: electrolytes, glucose, FBC, liver enzymes, coagulation, creatinine, ABG, urine toxicology, serum osmolality. Secondary: ammonia (in all unexplained coma), thyroid, cortisol, anti-neuronal antibodies. EEG: only reliable method for non-convulsive seizures; triphasic waves = metabolic/HE; PLEDs = acutely destructive. LP if fever/neck stiffness; start antibiotics+acyclovir BEFORE LP in suspected meningitis/encephalitis. MRI: DWI post-CA; FLAIR/T2* TBI; DTI white-matter integrity.",
+    "Coma: Prognosis": "Post-CA: combination of >=2 predictors from absent brainstem reflexes / unreactive EEG / bilateral absent N20 SSEP predicts poor outcome. N20 reliable from 24h. NSE: cut-off varies with hypothermia; haemolysis causes false elevation. EEG reactivity = better prognosis. Lance-Adams = action myoclonus in CONSCIOUS patient; distinct from myoclonic SE. Brain death: clinical + apnea test + confirmatory (jurisdiction-dependent).",
+    "Coma: Early Management": "Parallel diagnostic-therapeutic approach. Thiamine BEFORE glucose in nutritional deficiency (prevents Wernicke's). Naloxone for opioid toxidrome (pinpoint pupils + respiratory depression). ERC/ESICM 2025: fever prevention <=37.5 C >=72h replaces active cooling 32-36 C post-cardiac arrest.",
+    "Coma: Further Management": "DVT: LMWH + intermittent pneumatic compression. AVOID high-dose steroids and excessive NMBAs (risk ICU-AW). Passive ROM exercises x10/day; frequent repositioning; pressure mattresses. Enteral nutrition (post-pyloric if NG not feasible). tDCS targeting left DLPFC: approximately 20% behavioural improvement + EEG improvement in DOC (Hermann 2020). Multidisciplinary team + family communication.",
+    "Neuromuscular: Assessment": "Four elements: severity of weakness, bulbar involvement, respiratory muscle involvement, cause. MRC sum score: 6 bilateral groups (shoulder abd, forearm flex, wrist ext, thigh flex, leg ext, foot flex), max 60; <48 = ICU-AW. FVC <1L or >50% decline or MIP < -20 cmH2O = consider intubation in GBS. Count-to-20 test: failure before 20 = VC likely <15-18 mL/kg. RSBI (f/VT) rises with respiratory muscle weakness.",
+    "Neuromuscular: Primary Disorders": "GBS: post-infectious ascending weakness, areflexia, albuminocytologic dissociation (elevated protein, normal WCC). Variants: AIDP, AMAN, AMSAN, Miller Fisher (ophthalmoplegia+ataxia+areflexia, anti-GQ1b 90%). Treatment: IVIg = PE (glucocorticoids INEFFECTIVE). Autonomic instability: asystole from tracheal suction possible. MG: anti-AChR 85%, anti-MuSK, seronegative 10-15%; crisis = secure airway + PE/IVIg; thymectomy non-thymomatous age 18-65 <5yr. Edrophonium: risky, resus facilities essential. Botulism: symmetrical descending paralysis, intact cognition, no fever; early antitoxin. Tetanus: tetanospasmin blocks inhibitory NTs; Mg 2-4 mmol/L; metronidazole; TIG 500 IU. ALS: UMN+LMN; riluzole; NIV if VC<50%/sniff NIP<40cm/orthopnoea. Myotonic dystrophy: anaesthetic hypersensitivity, myotonia, cardiac conduction abnormalities.",
+    "Neuromuscular: ICU-Acquired Conditions": "CIP: axonal sensorimotor neuropathy (reduced CMAP + SNAP). CIM: myopathy (reduced CMAP, normal SNAP, myopathic EMG). CIM better prognosis than CIP. ICU-AW risk: sepsis/SIRS, prolonged NMBAs, high-dose steroids, hyperglycaemia, immobility. Prevention: early mobilisation, glycaemic control, minimise NMBAs/steroids. PRIS: cardiac failure + metabolic acidosis + rhabdomyolysis + renal failure + hypertriglyceridaemia; high-dose/prolonged propofol; higher risk in head trauma. Succinylcholine in myopathy: extrasynaptic AChR upregulation => fatal hyperkalaemia. Rhabdomyolysis: IV fluids to UO 200-300 mL/h."
+  },
+  "questions": [
+    {
+      "id": "coma_a01",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Coma: Definitions and Classification",
+      "question": "A 54-year-old man is assessed 3 weeks after hypoxic-ischaemic brain injury. He opens his eyes spontaneously and has sleep-wake cycles, but does not follow commands, shows only reflex withdrawal to pain, and makes no meaningful sounds. Which diagnosis best describes his current state?",
+      "options": [
+        "Locked-in syndrome",
+        "Coma",
+        "Vegetative state/unresponsive wakefulness syndrome",
+        "Cognitive motor dissociation confirmed by bedside behavioural assessment",
+        "Minimally conscious state"
+      ],
+      "correct": 2,
+      "explanation": "VS/UWS is defined by return of arousal—spontaneous eye opening and sleep-wake cycles—in the complete absence of awareness; patients produce only reflex or non-purposeful responses and cannot follow commands. MCS requires at least one inconsistent but reproducible goal-directed behaviour such as command-following, verbalisation, or visual pursuit, none of which are present here. Cognitive motor dissociation is detectable only by advanced paraclinical tools (fMRI or EEG paradigms), not by bedside observation."
+    },
+    {
+      "id": "coma_a02",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Coma: Definitions and Classification",
+      "question": "A comatose 40-year-old woman shows no behavioural response to any bedside command during repeated structured assessments. Brain MRI is normal. Resting-state fMRI and EEG-based motor imagery paradigms reveal activation of motor planning areas in response to imagined hand movements. Which statement most accurately describes this condition?",
+      "options": [
+        "Cognitive motor dissociation affects up to 15-20% of patients with disorders of consciousness and has profound prognostic and therapeutic implications",
+        "Cognitive motor dissociation is specific to post-traumatic brain injury and cannot occur after hypoxic injury",
+        "She has locked-in syndrome and should be assessed for vertical eye movement communication",
+        "EEG-based motor imagery paradigms are not yet validated for clinical use in DOC patients",
+        "This finding excludes any clinical diagnosis of a disorder of consciousness"
+      ],
+      "correct": 0,
+      "explanation": "Cognitive motor dissociation (CMD) describes preserved cognitive function detectable only via advanced paraclinical methods such as fMRI or EEG paradigms, in the absence of any behavioural response. Emerging evidence suggests up to 15-20% of patients classified behaviourally as having a DOC demonstrate CMD, which has profound implications for prognosis and potential communication. CMD occurs across multiple aetiologies, not only post-traumatic injury. Locked-in syndrome requires preserved voluntary motor output, which is absent here."
+    },
+    {
+      "id": "coma_a03",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Coma: Definitions and Classification",
+      "question": "Which neuroanatomical structure is primarily responsible for maintaining arousal (wakefulness), and which mechanism best explains why bilateral thalamic infarcts produce coma?",
+      "options": [
+        "The cerebellum — disruption of cerebellar-thalamic circuits dysregulates the sleep-wake cycle",
+        "The Ascending Reticular Activating System — bilateral thalamic infarcts interrupt its projections to the cortex, abolishing arousal despite intact cortical architecture",
+        "The basal ganglia — loss of dopaminergic circuits impairs alertness",
+        "The cerebral cortex — direct cortical injury abolishes awareness, producing coma",
+        "The hypothalamus alone — hypothalamic dysfunction controls the sleep-wake switch exclusively"
+      ],
+      "correct": 1,
+      "explanation": "The ARAS spans the brainstem, diencephalon (including the thalami and hypothalamus), basal forebrain, and projects to the cerebral cortex to regulate arousal. Bilateral thalamic infarcts interrupt these relay projections, causing loss of arousal even when cortical architecture is intact. The cerebellum coordinates movement but does not regulate consciousness. The hypothalamus participates in sleep-wake regulation but is not the sole ARAS substrate."
+    },
+    {
+      "id": "coma_a04",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Coma: Definitions and Classification",
+      "question": "A 55-year-old man presents with sudden-onset quadriplegia, anarthria, and inability to swallow. He is fully alert, tracks visual stimuli with his eyes, and blinks to command. EEG is normal. MRI shows an acute ischaemic lesion in the ventral pons. What is the MOST important immediate management consideration?",
+      "options": [
+        "Order anti-NMDA receptor antibody titres to exclude autoimmune encephalitis",
+        "Initiate sedation and analgesia to prevent distress from apparent covert consciousness",
+        "Arrange urgent lumbar puncture to exclude Guillain-Barre syndrome presenting with acute quadriplegia",
+        "Recognise that this patient retains full awareness and establish a reliable eye-based communication system immediately",
+        "Start empirical broad-spectrum antibiotics for suspected brainstem meningitis"
+      ],
+      "correct": 3,
+      "explanation": "This is locked-in syndrome (LIS) caused by ventral pontine infarction: complete efferent motor paralysis with preserved vertical gaze and blinking due to sparing of the dorsal midbrain. LIS is NOT a disorder of consciousness—awareness is fully intact. The critical step is recognising this distinction, avoiding misclassification as coma, and establishing eye-movement-based communication so the patient can express needs and preferences. Sedation would be harmful and disrespectful to a fully conscious patient."
+    },
+    {
+      "id": "coma_a05",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Coma: Investigations",
+      "question": "A 67-year-old woman presents with sudden-onset severe headache, fever (39.2 C), neck stiffness, and GCS 12. CT brain shows no focal lesion, midline shift, or signs of raised ICP. Which of the following should NOT precede immediate empirical antimicrobial treatment in this patient?",
+      "options": [
+        "Clinical reassessment of pupillary responses and neurological status",
+        "Intravenous corticosteroid administration alongside antibiotics",
+        "Waiting for lumbar puncture results before initiating antibiotics",
+        "Collection of blood cultures",
+        "Obtaining intravenous access and drawing baseline bloods"
+      ],
+      "correct": 2,
+      "explanation": "In suspected bacterial meningitis or herpes encephalitis, antimicrobial treatment must NOT be delayed for lumbar puncture results — this would be dangerous. The correct sequence is: draw blood cultures, immediately administer broad-spectrum antibiotics, acyclovir, and dexamethasone, then proceed to lumbar puncture. Blood cultures, IV access, and adjunctive steroids are all appropriate steps that can occur alongside or before antibiotics without causing harmful delay. Waiting for CSF results before treating can lead to preventable death or disability."
+    },
+    {
+      "id": "coma_a06",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Coma: Investigations",
+      "question": "A 72-year-old woman on long-term thiazide diuretic therapy presents with GCS 10 (E3V2M5), no focal neurological signs, and no fever. CT head is normal. Serum sodium is 108 mmol/L. What is the MOST likely underlying mechanism of her altered consciousness?",
+      "options": [
+        "Primary polydipsia secondary to concurrent antipsychotic medication",
+        "Cerebral salt wasting causing true sodium depletion after cortical spreading depression",
+        "Inappropriate ADH secretion causing dilutional hyponatraemia secondary to thiazide diuretic therapy",
+        "Adrenocortical insufficiency from bilateral adrenal haemorrhage",
+        "Hyperglycaemic hyperosmolarity with transcellular water shift reducing effective osmolality"
+      ],
+      "correct": 2,
+      "explanation": "Thiazide diuretics are a classic cause of SIADH-related hyponatraemia, producing profound dilutional hyponatraemia (sodium 108 mmol/L) explaining the depressed consciousness without focal signs or CT abnormality. Thiazides impair free water excretion while preserving ADH sensitivity, promoting water retention. Cerebral salt wasting is associated with subarachnoid haemorrhage and involves true sodium and volume depletion. Hyperglycaemic hyperosmolarity would show very elevated blood glucose."
+    },
+    {
+      "id": "coma_a07",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Coma: Investigations",
+      "image": "images/img_603e9b0530.png",
+      "question": "A 34-year-old woman is admitted with 3 days of confusion, fever (38.8 C), and a new-onset focal seizure. The admission CT brain is normal. Brain MRI is obtained (see image). What is the most appropriate immediate pharmacological intervention?",
+      "options": [
+        "Intravenous methylprednisolone 1 g/day for 5 days",
+        "Intravenous acyclovir 10 mg/kg every 8 hours",
+        "Intravenous ceftriaxone 2 g twice daily plus ampicillin 2 g every 4 hours",
+        "Intravenous ganciclovir 5 mg/kg every 12 hours",
+        "Intravenous dexamethasone 0.15 mg/kg every 6 hours without concurrent antiviral therapy"
+      ],
+      "correct": 1,
+      "explanation": "The MRI shows diffusion restriction and FLAIR signal change in the temporal and insular cortex — the classic pattern of herpes simplex virus type 1 encephalitis. Acyclovir must be started immediately without awaiting CSF PCR confirmation, as treatment delay significantly worsens outcome. Ceftriaxone and ampicillin cover bacterial meningitis but have no anti-HSV activity. Ganciclovir is the treatment for CMV encephalitis, not HSV. Dexamethasone without antiviral cover is inappropriate."
+    },
+    {
+      "id": "coma_a08",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Coma: Investigations",
+      "image": "images/img_aeb79f3787.png",
+      "question": "Two EEG records from patients with altered consciousness are shown (see image). Record A shows continuous rhythmic activity with sharp and polysharp waves and spatial-temporal organisation. Record B shows 2-3 Hz slow activity with fluctuating triphasic waves maximal over anterior regions and inconstant reactivity to stimulation. Which diagnoses correspond to Records A and B respectively?",
+      "options": [
+        "Both records are non-specifically consistent with septic encephalopathy",
+        "A = hepatic encephalopathy; B = non-convulsive status epilepticus",
+        "A = non-convulsive status epilepticus; B = hepatic encephalopathy",
+        "A = herpes simplex encephalitis; B = uraemic encephalopathy",
+        "A = burst-suppression; B = periodic lateralised epileptiform discharges"
+      ],
+      "correct": 2,
+      "explanation": "Record A shows hallmarks of electrographic status epilepticus: continuous rhythmic sharp and polysharp waves with spatial-temporal organisation and no reactivity. Record B shows the characteristic hepatic encephalopathy pattern: slow 2-3 Hz activity with fluctuating triphasic waves frontally and inconstant reactivity. Distinguishing these patterns is clinically critical: status epilepticus demands urgent antiepileptic treatment, while the hepatic pattern redirects management toward liver dysfunction. PLEDs are a distinct entity associated with acutely destructive processes."
+    },
+    {
+      "id": "coma_a09",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Coma: Investigations",
+      "image": "images/img_5b704bf471.png",
+      "question": "A 20-year-old man presents with coma 2 weeks after a presumed viral illness. He is afebrile. Brain MRI (see image) shows diffuse bilateral white-matter lesions on FLAIR and T2-weighted sequences. CSF shows mild pleocytosis and elevated protein. Anti-NMDA receptor antibodies are negative. What is the most appropriate first-line treatment?",
+      "options": [
+        "Empirical broad-spectrum antibiotics pending CSF culture results",
+        "Intravenous rituximab 375 mg/m2 weekly for four doses",
+        "High-dose intravenous methylprednisolone 1 g/day for 3-5 days",
+        "Intravenous levetiracetam loading dose followed by oral maintenance",
+        "Intravenous acyclovir 10 mg/kg every 8 hours"
+      ],
+      "correct": 2,
+      "explanation": "Post-infectious onset, coma, and diffuse bilateral white-matter demyelinating lesions characterise acute disseminated encephalomyelitis (ADEM). First-line treatment is high-dose intravenous corticosteroids (methylprednisolone 1 g/day for 3-5 days), targeting the aberrant autoimmune response. Acyclovir is appropriate for HSV encephalitis, which typically produces temporal/insular lesions rather than diffuse bilateral white-matter change. Rituximab is reserved for steroid-refractory or recurrent disease."
+    },
+    {
+      "id": "coma_a10",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Coma: Investigations",
+      "question": "A 25-year-old woman presents with 2 weeks of psychiatric symptoms, followed by orofacial dyskinesia, coma, and new-onset seizures. CSF shows mild lymphocytic pleocytosis. CT brain and metabolic panel are normal. Which investigation is MOST likely to confirm the diagnosis?",
+      "options": [
+        "Anti-N-methyl-D-aspartate receptor antibodies measured in both serum and CSF",
+        "Nerve conduction studies and electromyography",
+        "Thyroid function tests and thyroid peroxidase antibodies",
+        "Serum and urinary cortisol with ACTH stimulation test",
+        "Serum creatine kinase and plasma myoglobin"
+      ],
+      "correct": 0,
+      "explanation": "This triad of psychiatric prodrome, orofacial dyskinesia, and seizures in a young woman is classic for anti-NMDA receptor encephalitis — the most common autoimmune encephalitis. Anti-NMDA receptor antibodies should be measured in both serum and CSF, with CSF providing higher diagnostic sensitivity. Treatment includes corticosteroids, IVIg, plasma exchange, and if an ovarian teratoma is found, surgical resection. Thyroid and adrenal investigations address other metabolic encephalopathies but do not explain the full syndrome."
+    },
+    {
+      "id": "coma_a11",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Coma: Prognosis",
+      "question": "A 61-year-old man remains comatose 72 hours after out-of-hospital cardiac arrest with sedation fully weaned. Bilateral pupillary light reflexes are absent. SSEPs show bilateral absence of the N20 cortical response. EEG reveals a non-reactive burst-suppression pattern. Which statement BEST describes the prognostic significance of this combination?",
+      "options": [
+        "All three criteria must be simultaneously present before poor outcome can be predicted",
+        "The combination of at least two predictors from the categories of incomplete brainstem reflexes, unreactive EEG, and bilateral absent cortical SSEP reliably predicts poor long-term neurological outcome",
+        "Absent pupillary reflexes alone at day 3 are sufficient for accurate prognostication; SSEP and EEG add no additional value",
+        "These predictors are unreliable in hypothermia-treated patients; NSE is the only validated tool in this context",
+        "Formal prognostication should be deferred until day 14 regardless of clinical and electrophysiological findings"
+      ],
+      "correct": 1,
+      "explanation": "After cardiac arrest, the combination of at least two predictors from three categories — incomplete brainstem reflexes, unreactive EEG, and bilateral absent N20 cortical SSEP — accurately predicts poor long-term neurological recovery. Absent N20 bilaterally is one of the most reliable individual predictors and can be assessed from 24 hours post-arrest. These predictors remain valid in hypothermia-treated patients, though the optimal timing may need adjustment. Requiring all three simultaneously unnecessarily reduces prognostic sensitivity."
+    },
+    {
+      "id": "coma_a12",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Coma: Prognosis",
+      "image": "images/img_3370616cc0.png",
+      "question": "A 58-year-old woman remains comatose 48 hours after cardiac arrest. SSEPs are shown (see image). Panel A was obtained from a healthy control; Panel B from the current patient. The arrows indicate where the N20 cortical response should appear. What is the MOST accurate interpretation of Panel B?",
+      "options": [
+        "Absent N20 in Panel B is a normal variant that typically resolves within 72 hours in cardiac arrest survivors",
+        "Absent N20 indicates spinal cord injury between C3 and C7 as the primary cause of the comatose state",
+        "Intact N13 cervical and ERB peripheral signals confirm adequate stimulus delivery; the bilaterally absent N20 indicates failure of cortical signal propagation and predicts poor neurological outcome",
+        "Absence of all waveforms in Panel B indicates a technical recording failure requiring repeat testing",
+        "SSEP is unreliable in the first 48 hours after arrest and should be repeated at day 7 for prognostic information"
+      ],
+      "correct": 2,
+      "explanation": "The ERB signal confirms brachial plexus conduction; the N13 cervical signal confirms delivery to the spinal cord. Intact N13 and ERB with bilaterally absent N20 therefore demonstrates that peripheral and spinal components are intact, but the signal fails to reach the cortex — indicating severe cortical injury. This pattern is one of the most specific predictors of poor outcome after cardiac arrest and can be assessed from 24 hours post-arrest. The intact ERB and N13 exclude technical recording failure."
+    },
+    {
+      "id": "coma_a13",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Coma: Prognosis",
+      "image": "images/img_c5b2fd4fc1.png",
+      "question": "The image shows EEG recordings from a patient comatose after cardiac arrest. The left panel was recorded during nociceptive stimulation (Painstim); the right panel during an auditory stimulus (Clap). In the right panel, EEG background activity shows a reproducible change following the clap. What is the clinical implication of this finding for prognosis?",
+      "options": [
+        "EEG reactivity indicates covert non-convulsive status epilepticus requiring urgent antiepileptic therapy",
+        "EEG reactivity is a marker of locked-in syndrome; the patient should be assessed for vertical eye movement communication",
+        "The EEG change with stimulation represents burst-suppression, a malignant pattern strongly associated with poor outcome",
+        "EEG reactivity to external stimuli is associated with more favourable neurological prognosis in post-cardiac arrest coma",
+        "EEG reactivity in this context is a non-specific artefact with no prognostic implications"
+      ],
+      "correct": 3,
+      "explanation": "EEG reactivity — a reproducible change in EEG background activity in response to external stimulation — is a positive prognostic sign in post-cardiac arrest coma. Studies by Rossetti et al. demonstrated that an unreactive EEG background is incompatible with good long-term neurological recovery (CPC 1-2) and strongly associated with in-hospital mortality. Preserved EEG reactivity, as seen in the right panel, indicates residual cortical processing and is associated with more favourable outcomes. Burst-suppression is characterised by alternating high-amplitude bursts and flat periods — a distinct malignant pattern not shown here."
+    },
+    {
+      "id": "coma_a14",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Coma: Prognosis",
+      "image": "images/img_a5d7e91d5d.png",
+      "question": "A 52-year-old man develops sudden coma, bilateral pupil abnormalities, and quadriplegia. Brain MRI is obtained urgently (see image). FLAIR (left) is unremarkable. T2* (middle, green arrow) shows a signal abnormality in the posterior fossa. MR angiography (right, green arrow) reveals an abnormality of the posterior circulation vasculature. What is the MOST likely diagnosis and the MOST time-critical intervention?",
+      "options": [
+        "Pontine cavernoma with acute haemorrhage; neurosurgical consultation for elective resection",
+        "Basilar artery occlusion; urgent endovascular thrombectomy",
+        "Hypertensive pontine haemorrhage; blood pressure reduction to systolic <140 mmHg",
+        "Posterior reversible encephalopathy syndrome; urgent antihypertensive therapy",
+        "Central pontine myelinolysis; urgent serum sodium normalisation"
+      ],
+      "correct": 1,
+      "explanation": "Basilar artery occlusion is a neurovascular emergency presenting with coma, cranial nerve palsies, and quadriplegia due to brainstem ischaemia. FLAIR may appear normal in the hyperacute phase. T2* reveals loss of the basilar artery flow void, and MR angiography directly demonstrates vascular occlusion. Endovascular thrombectomy is time-critical and evidence supports treatment benefit beyond conventional anterior circulation time windows. PRES produces bilateral cortical/subcortical FLAIR signal change and does not cause complete basilar occlusion on MRA."
+    },
+    {
+      "id": "coma_a15",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Coma: Prognosis",
+      "image": "images/img_67e88197ee.png",
+      "question": "A 74-year-old woman presents with sudden aphasia and right hemiplegia within 8 hours. MRI shows a DWI lesion of 9 mL and a PWI volume of 161 mL (see image). Which statement MOST accurately describes the significance and management implication of this finding?",
+      "options": [
+        "The 152 mL mismatch between DWI core and PWI penumbra represents a large volume of salvageable ischaemic tissue; urgent endovascular thrombectomy should be considered",
+        "The PWI abnormality represents post-ischaemic hyperaemia and will resolve spontaneously without intervention",
+        "A DWI-PWI mismatch of this magnitude contraindicates thrombectomy beyond 4.5 hours from symptom onset in all guidelines",
+        "The DWI lesion represents the penumbra and the PWI lesion the established infarct core; treatment aims to preserve DWI tissue",
+        "The large PWI volume represents irreversible infarction; endovascular treatment is futile in this scenario"
+      ],
+      "correct": 0,
+      "explanation": "In acute ischaemic stroke, the DWI lesion represents the infarct core (irreversibly injured tissue), while the PWI lesion maps the total hypoperfused territory. The 152 mL mismatch represents the ischaemic penumbra: at-risk but still-viable brain that will infarct without reperfusion. This large-mismatch profile supports urgent endovascular thrombectomy; DAWN and DEFUSE 3 trials demonstrated that large-mismatch selection identifies patients who benefit from thrombectomy up to 24 hours from symptom onset."
+    },
+    {
+      "id": "coma_a16",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Coma: Prognosis",
+      "question": "A 47-year-old man with severe TBI shows progressive brainstem dysfunction over 48 hours: absent bilateral pupillary and corneal reflexes, absent gag and cough reflexes, no motor response to any stimulation. Sedatives stopped 36 hours ago; temperature 37.0 C; metabolic panel normal. A formal apnea test is planned. Which additional element may be MANDATORY depending on local legal requirements?",
+      "options": [
+        "High-dose barbiturate treatment to exclude drug-induced coma as a reversible confound",
+        "Family consent from next-of-kin authorising the apnea test before it can proceed legally",
+        "A confirmatory test such as EEG demonstrating electrocerebral silence or cerebral angiography demonstrating absent intracranial blood flow",
+        "Repeat bedside neurological examination at 12-hourly intervals for a further 72 hours",
+        "Neurosurgical assessment for decompressive craniectomy to exclude reversible raised ICP"
+      ],
+      "correct": 2,
+      "explanation": "Brain death requires clinical examination confirming absence of all brainstem reflexes plus an apnea test. However, many jurisdictions mandate confirmatory tests — EEG (electrocerebral silence) or cerebral angiography (absent cerebral perfusion) — particularly when clinical examination is inconclusive or sedative/hypothermic confounders cannot be excluded. Prerequisites include exclusion of reversible causes. Family consent for the apnea test is ethically appropriate but generally not a legal prerequisite in most jurisdictions."
+    },
+    {
+      "id": "coma_a17",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Coma: Prognosis",
+      "question": "On day 4 after out-of-hospital cardiac arrest, sedation is fully weaned. A 60-year-old man opens his eyes to his name and follows simple commands consistently. However, he has prominent, stimulus-sensitive myoclonic jerks of all four limbs that worsen with intentional movement. EEG shows no epileptiform activity. What is the MOST accurate interpretation?",
+      "options": [
+        "Post-anoxic myoclonus always indicates cortical spreading depolarisation and mandates ICP monitoring",
+        "Myoclonus in this context indicates severe cerebellar injury and has no specific treatment implication",
+        "This represents myoclonic status epilepticus; immediate antiepileptic therapy and withdrawal of active care are appropriate given the universally poor prognosis",
+        "This is Lance-Adams syndrome (post-anoxic action myoclonus); the patient is conscious and aware, and prognosis may be favourable with appropriate treatment",
+        "The combination of command-following and myoclonus is contradictory; the command-following responses are reflexive rather than voluntary"
+      ],
+      "correct": 3,
+      "explanation": "Lance-Adams syndrome is post-anoxic action myoclonus occurring in a conscious, aware, command-following patient — the key feature distinguishing it from myoclonic status epilepticus, in which consciousness is absent and EEG shows epileptiform activity. Unlike myoclonic status epilepticus, which carries an essentially universally poor prognosis, Lance-Adams syndrome can have a favourable outcome with treatment (levetiracetam, clonazepam, or piracetam). Clinicians must recognise this entity to avoid premature withdrawal of life-sustaining treatment."
+    },
+    {
+      "id": "coma_a18",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Coma: Prognosis",
+      "question": "Serum neuron-specific enolase (NSE) is markedly elevated on day 2 in a 68-year-old man comatose after cardiac arrest. Which statement MOST accurately describes the clinical utility and limitations of this finding?",
+      "options": [
+        "A standardised NSE cut-off of 33 ug/L reliably predicts unfavourable outcome at day 2 regardless of whether targeted temperature management was used",
+        "NSE cut-off values may differ depending on temperature management, and combining NSE with EEG and MRI improves prognostic accuracy",
+        "NSE is highly specific for neuronal injury; haemolysis does not cause false elevation and is not a relevant confound",
+        "NSE is the only validated serum biomarker after cardiac arrest; GFAP and neurofilament light chain have no prognostic utility",
+        "NSE elevation at day 2 alone is diagnostic of brain death and mandates formal apnea testing"
+      ],
+      "correct": 1,
+      "explanation": "NSE is the most established serum biomarker for prognostication after cardiac arrest. However, cut-off values vary depending on whether targeted temperature management was employed, and haemolysis (red blood cells contain NSE) causes false elevation. Contemporary practice recommends multimodal prognostication: combining NSE with EEG reactivity and pattern analysis and MRI, rather than relying on NSE alone. GFAP and neurofilament light chain are emerging biomarkers showing promise but remain investigational."
+    },
+    {
+      "id": "coma_a19",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Coma: Early Management",
+      "question": "A 38-year-old man with chronic alcohol use disorder is brought to the emergency department unresponsive with a blood glucose of 2.0 mmol/L. Which of the following should NOT be administered as the first intervention?",
+      "options": [
+        "Call for senior support if the patient does not respond to initial treatment",
+        "Secure the airway and monitor oxygen saturation throughout resuscitation",
+        "Check blood glucose with a point-of-care test before administering any treatment",
+        "Intravenous thiamine 100 mg before glucose correction",
+        "Intravenous 50% glucose before thiamine has been administered"
+      ],
+      "correct": 4,
+      "explanation": "Administering glucose before thiamine in a nutritionally depleted patient (as in chronic alcohol use disorder) can precipitate Wernicke's encephalopathy by depleting remaining thiamine stores needed for the Krebs cycle. The correct sequence is: thiamine first, then glucose. Airway assessment, glycaemia measurement, and senior support are all appropriate steps, but glucose must not precede thiamine in this population."
+    },
+    {
+      "id": "coma_a20",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Coma: Early Management",
+      "question": "A 55-year-old woman is brought to the emergency department unresponsive with pinpoint pupils and a respiratory rate of 5 breaths/minute. The airway is secured and ventilation supported. Which additional pharmacological intervention has the MOST immediate life-saving potential?",
+      "options": [
+        "Intravenous flumazenil 0.2 mg as a test for benzodiazepine toxidrome",
+        "Intravenous thiamine 100 mg in view of likely nutritional deficiency",
+        "Intravenous N-acetylcysteine for suspected paracetamol overdose",
+        "Intravenous naloxone 0.4-2 mg for suspected opioid intoxication",
+        "Intravenous phenytoin loading dose for presumed non-convulsive status epilepticus"
+      ],
+      "correct": 3,
+      "explanation": "Pinpoint miosis and respiratory depression in a comatose patient strongly suggest opioid intoxication. Intravenous naloxone can rapidly and completely reverse opioid-induced coma, potentially avoiding prolonged ventilatory support. Because naloxone's half-life (30-90 minutes) is shorter than most opioids, repeated doses or a continuous infusion may be needed to prevent re-narcotisation. Flumazenil reverses benzodiazepine toxidrome but risks seizure precipitation. Thiamine and N-acetylcysteine are context-specific and lack the immediacy of reversal in this clinical picture."
+    },
+    {
+      "id": "coma_a21",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Coma: Further Management",
+      "question": "A patient with vegetative state/unresponsive wakefulness syndrome following severe TBI requires management of complications. Which of the following interventions should NOT be used?",
+      "options": [
+        "Routine prolonged high-dose corticosteroids to reduce neuroinflammation and promote neuronal recovery",
+        "Post-pyloric enteral nutrition if nasogastric access is not feasible",
+        "Low-molecular-weight heparin and intermittent pneumatic compression for DVT prophylaxis",
+        "Passive range-of-motion exercises performed ten times per day to prevent contractures",
+        "Frequent repositioning and pressure-reduction mattresses to prevent pressure ulcers"
+      ],
+      "correct": 0,
+      "explanation": "Prolonged high-dose corticosteroids are not indicated in VS/UWS management and carry substantial risks including hyperglycaemia, immune suppression, and critical illness myopathy. They are explicitly listed among modifiable risk factors for ICU-acquired neuromuscular weakness and should be avoided or minimised rather than routinely prescribed. Passive exercises reduce contractures, DVT prophylaxis is mandatory in immobilised patients, early enteral nutrition is preferred over parenteral, and repositioning prevents pressure injuries — all are recommended standard care."
+    },
+    {
+      "id": "coma_a22",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Coma: Further Management",
+      "question": "A neurologist proposes transcranial direct current stimulation (tDCS) as adjunct therapy for a patient in minimally conscious state on day 21 post-anoxic injury. Which statement BEST describes the current evidence for this intervention?",
+      "options": [
+        "tDCS is a first-line treatment recommended in all ESICM guidelines for minimally conscious state",
+        "tDCS has been shown to restore functional communication within 10 days in over 80% of MCS patients",
+        "A single session of tDCS targeting the left dorsolateral prefrontal cortex produced behavioural improvement in approximately 20% of DOC patients, accompanied by EEG improvements including theta-alpha band power and P300 responses",
+        "tDCS targeting the left dorsolateral prefrontal cortex was ineffective in all patients with disorders of consciousness in controlled studies",
+        "tDCS is contraindicated after anoxic injury; evidence supports its use only in traumatic disorders of consciousness"
+      ],
+      "correct": 2,
+      "explanation": "A controlled study of 60 DOC patients found that a single tDCS session targeting the left dorsolateral prefrontal cortex produced behavioural improvements in 20% of participants with concurrent EEG improvements (theta-alpha band power, P300 auditory responses), suggesting direct cortical modulation. However, these results are preliminary — tDCS is investigational rather than first-line, not restricted to traumatic aetiology, and multi-session protocols require further validation."
+    },
+    {
+      "id": "nmc_a01",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Neuromuscular: Primary Disorders",
+      "question": "A 42-year-old man presents with rapidly progressive ascending weakness and areflexia starting in his feet 3 weeks after a gastrointestinal illness. Lumbar puncture is performed. Which CSF finding is MOST consistent with Guillain-Barre syndrome?",
+      "options": [
+        "Normal protein and white cell count with positive viral PCR for enterovirus",
+        "Glucose <50% of serum glucose with neutrophilic pleocytosis",
+        "Lymphocytic pleocytosis >50 cells/mm3 with mildly elevated protein and low glucose",
+        "Protein 1.8 g/L with a white cell count of 2 cells/mm3",
+        "Xanthochromic appearance with elevated red cell count and elevated protein"
+      ],
+      "correct": 3,
+      "explanation": "The characteristic CSF finding in GBS is albuminocytologic dissociation: markedly elevated protein with near-normal white cell count, reflecting inflammatory involvement of spinal nerve roots causing protein leak without significant cellular pleocytosis. A CSF white cell count >5 cells/mm3 makes the diagnosis uncertain and prompts consideration of HIV-associated polyradiculopathy, Lyme neuroborreliosis, or inflammatory myelopathy. CSF protein may be normal in the first week; if GBS remains the clinical diagnosis, repeat LP after the first week is appropriate."
+    },
+    {
+      "id": "nmc_a02",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Neuromuscular: Primary Disorders",
+      "question": "A 35-year-old woman with confirmed GBS on day 4 has an FVC of 0.82 L (from 1.9 L three days prior) and maximal inspiratory pressure of -17 cmH2O. She is ambulatory but using accessory muscles. Which management approach is MOST appropriate?",
+      "options": [
+        "Intravenous immunoglobulin 0.4 g/kg/day for 5 days with urgent assessment for elective intubation before respiratory crisis",
+        "Plasma exchange as the sole treatment; IVIg is inferior to plasma exchange in all GBS patients",
+        "Oral prednisolone 60 mg/day for 4 weeks; intubate only if FVC falls below 0.5 L",
+        "Supportive care only; GBS is self-limiting and does not benefit from immunomodulatory therapy",
+        "Sequential IVIg followed immediately by plasma exchange, as combined therapy is superior to either alone"
+      ],
+      "correct": 0,
+      "explanation": "This patient meets criteria for urgent consideration of mechanical ventilation in GBS: FVC <1 L, a decline >50% from baseline (0.82 from 1.9 L), and MIP less negative than -20 cmH2O. Elective intubation before crisis is preferable. IVIg (0.4 g/kg/day for 5 days) is as effective as plasma exchange and considerably easier to administer; sequential therapy confers no additive benefit. Glucocorticoids are INEFFECTIVE in GBS."
+    },
+    {
+      "id": "nmc_a03",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Neuromuscular: Assessment",
+      "question": "Which of the following is an established threshold criterion for urgent consideration of mechanical ventilatory support in a patient with Guillain-Barre syndrome?",
+      "options": [
+        "Maximal inspiratory pressure less negative than -20 cmH2O",
+        "Inability to walk more than 10 metres independently",
+        "Ascending motor weakness reaching the knees bilaterally within 48 hours of onset",
+        "Areflexia extending to the upper limbs bilaterally",
+        "Anti-GQ1b antibody positivity indicating rapid disease progression"
+      ],
+      "correct": 0,
+      "explanation": "Three thresholds indicate the need for urgent consideration of mechanical ventilation in GBS: FVC <1 L, a decline in FVC of >50% from baseline, or maximal inspiratory force less negative than -20 cmH2O. These reflect impending ventilatory failure from respiratory muscle weakness regardless of the extent of limb weakness or sensory involvement. Anti-GQ1b antibodies are associated with Miller Fisher syndrome and do not predict respiratory severity. Areflexia is a diagnostic feature of GBS but does not independently indicate respiratory compromise."
+    },
+    {
+      "id": "nmc_a04",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Neuromuscular: Primary Disorders",
+      "question": "During tracheal suctioning in a mechanically ventilated patient with confirmed severe GBS, his heart rate drops to 28 bpm with a 3-second asystolic pause before spontaneous recovery, and blood pressure falls to 70/40 mmHg. Which statement MOST accurately describes this event and its management?",
+      "options": [
+        "This is ventricular fibrillation; immediate unsynchronised defibrillation is required",
+        "The bradycardia is pharmacologically induced by cisapride prescribed for gastrointestinal dysmotility; immediate drug review is required",
+        "This is a manifestation of Lambert-Eaton myasthenic syndrome complicating GBS and augmenting the autonomic response",
+        "This pattern confirms recovery of motor function and suggests weaning of mechanical ventilation can proceed safely",
+        "This represents an exaggerated vagal response due to GBS autonomic involvement; careful suction technique, atropine availability, and continuous cardiac monitoring are essential"
+      ],
+      "correct": 4,
+      "explanation": "GBS frequently involves autonomic fibres, producing profound autonomic instability. Tracheal suctioning can trigger exaggerated vagal reflexes causing severe bradycardia, sinus arrest, or asystole; temporary cardiac pacing has been required in some cases. Drugs affecting autonomic function (cisapride, metoclopramide) should be avoided. Continuous cardiac monitoring, careful suction technique, and ready atropine access are essential. Ventricular fibrillation does not self-terminate."
+    },
+    {
+      "id": "nmc_a05",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Neuromuscular: Primary Disorders",
+      "question": "A 28-year-old man presents with 5 days of progressive double vision, unsteady gait, and globally absent tendon reflexes following a diarrhoeal illness 4 weeks ago. Limb muscle strength is fully preserved. Serum anti-GQ1b antibodies are strongly positive. Which is the MOST likely diagnosis?",
+      "options": [
+        "Miller Fisher syndrome",
+        "Myasthenia gravis presenting with bulbar symptoms and cerebellar ataxia",
+        "Guillain-Barre syndrome, acute motor axonal neuropathy (AMAN) variant",
+        "Botulism with descending paralysis yet to fully manifest",
+        "Wernicke's encephalopathy presenting with ataxia and ophthalmoplegia in a young adult"
+      ],
+      "correct": 0,
+      "explanation": "Miller Fisher Syndrome (MFS) is a GBS variant characterised by the triad of ophthalmoplegia, ataxia, and areflexia after an infection. Anti-GQ1b antibodies are found in up to 90% of MFS patients and are highly specific for this diagnosis. Approximately 25% of MFS patients also develop limb weakness. Myasthenia gravis does not cause areflexia. Wernicke's encephalopathy presents with encephalopathy, ataxia, and ophthalmoplegia in nutritional deficiency but does not produce areflexia or anti-GQ1b positivity."
+    },
+    {
+      "id": "nmc_a06",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Neuromuscular: Primary Disorders",
+      "question": "A 52-year-old woman with AChR-antibody-positive myasthenia gravis is admitted with rapidly worsening dyspnoea and FVC of 0.88 L. She is tachypnoeic at 30/min and using accessory muscles. What is the MOST appropriate management?",
+      "options": [
+        "Secure the airway and initiate plasma exchange or intravenous immunoglobulin for acute immunomodulation",
+        "Refer urgently for emergency thymectomy as the only definitive treatment for myasthenic crisis",
+        "Double the oral pyridostigmine dose and observe for 6 hours before considering intubation",
+        "Begin high-dose oral prednisolone 80 mg/day immediately as the fastest route to crisis resolution",
+        "Administer intravenous neostigmine 0.5 mg with atropine to produce rapid reversal of myasthenic crisis"
+      ],
+      "correct": 0,
+      "explanation": "Myasthenic crisis requires immediate airway assessment — FVC 0.88 L and the clinical picture indicate imminent respiratory failure. Plasma exchange and IVIg are the mainstays of acute immunomodulatory treatment and have equivalent short-term efficacy. Increasing pyridostigmine risks cholinergic crisis. High-dose steroids may transiently worsen MG and take days to weeks to act. Thymectomy is an elective procedure for long-term management (non-thymomatous MG, aged 18-65, <5 years' duration), not an acute crisis intervention."
+    },
+    {
+      "id": "nmc_a07",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Neuromuscular: Primary Disorders",
+      "question": "A 38-year-old man presents with dysphagia, diplopia, symmetrical descending weakness, and constipation after consuming home-preserved green beans 48 hours ago. Fever is absent. His mental status is normal. Repetitive nerve stimulation shows facilitation of CMAP amplitude. What is the MOST appropriate treatment priority?",
+      "options": [
+        "Plasma exchange to remove circulating toxin from the systemic circulation",
+        "High-dose intravenous methylprednisolone for suspected autoimmune polyradiculoneuropathy",
+        "Early administration of specific botulinum antitoxin and wound debridement if a wound source is identified",
+        "Oral pyridostigmine to improve neuromuscular junction transmission",
+        "Intravenous immunoglobulin immediately as first-line immune therapy"
+      ],
+      "correct": 2,
+      "explanation": "This presentation — symmetrical descending paralysis, absent fever, intact cognition, no sensory impairment, and post-prandial onset after preserved food — is characteristic of foodborne botulism. Botulinum toxin prevents presynaptic ACh release (causing CMAP facilitation rather than decrement on repetitive stimulation). Early antitoxin significantly reduces ventilator time and hospital stay; wound debridement is mandatory if a wound source exists. IVIg, plasma exchange, and steroids have no established role in botulism."
+    },
+    {
+      "id": "nmc_a08",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Neuromuscular: Primary Disorders",
+      "question": "A 24-year-old unvaccinated farm worker is admitted with jaw stiffness, opisthotonus, and generalised spasms triggered by any minor stimulus. Blood pressure fluctuates between 70 and 220 mmHg; heart rate between 38 and 162 bpm. Which combination MOST comprehensively addresses the three key management goals in severe tetanus?",
+      "options": [
+        "Vancomycin, tetanus toxoid booster, high-dose succinylcholine infusion to prevent spasm during ventilation",
+        "Metronidazole, intravenous tetanus immunoglobulin (500 IU), benzodiazepines for spasm control, and serum magnesium maintained at 2-4 mmol/L",
+        "Metronidazole, intravenous immunoglobulin (IVIg), intrathecal baclofen at standard dose, and beta-blockade alone for haemodynamic instability",
+        "Ceftriaxone, wound debridement only, propofol for sedation, and oral carbamazepine for muscle spasm",
+        "Penicillin, anti-tetanus immunoglobulin 6000 IU, corticosteroids for autonomic instability"
+      ],
+      "correct": 1,
+      "explanation": "Tetanus management targets three goals: toxin control, muscle spasm management, and autonomic instability. Metronidazole is the preferred antibiotic for Clostridium tetani. Intravenous TIG (500 IU single dose) neutralises circulating systemic toxin — higher doses are not more effective. Benzodiazepines reduce spasm and provide sedation. Magnesium at 2-4 mmol/L reduces muscle spasm via calcium channel antagonism and decreases cardiovascular instability by reducing catecholamine release. Intrathecal baclofen carries significant risk of respiratory failure. Succinylcholine in established tetanus risks hyperkalaemic cardiac arrest."
+    },
+    {
+      "id": "nmc_a09",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Neuromuscular: Primary Disorders",
+      "question": "A 58-year-old man with a 14-month history of ALS has vital capacity of 44% of predicted and orthopnoea. Which of the following statements about his management is NOT correct?",
+      "options": [
+        "NIV should be withheld until vital capacity falls below 30% predicted to avoid premature ventilatory dependence",
+        "This patient meets NIV initiation criteria, as vital capacity <50% and orthopnoea are both fulfilled",
+        "Riluzole may slow disease progression and delay death by a few months and should be co-prescribed",
+        "At the stage where invasive ventilation is required without reversible precipitant, recovery to pre-morbid function is rare and careful advance care planning is essential",
+        "NIV improves quality of life in ALS and likely prolongs survival"
+      ],
+      "correct": 0,
+      "explanation": "Withholding NIV until vital capacity falls below 30% is NOT correct. NIV is indicated when vital capacity falls below 50% predicted, sniff nasal inspiratory pressure falls below 40 cmH2O, or orthopnoea develops — this patient meets two of these criteria. Delaying NIV until 30% would mean initiating support at a much more advanced stage of respiratory failure, missing the optimal window for benefit. Riluzole is appropriately co-prescribed, NIV improves quality of life and survival, and advance care planning is an essential component of ALS management when invasive ventilation is considered."
+    },
+    {
+      "id": "nmc_a10",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Neuromuscular: Primary Disorders",
+      "question": "A 44-year-old man with known myotonic dystrophy type 1 remains intubated 5 hours after elective hernia repair under general anaesthesia with a volatile agent and vecuronium. Neostigmine reversal was ineffective. What MOST accurately explains this clinical picture?",
+      "options": [
+        "Volatile anaesthetic agents cause dose-dependent AChR upregulation in myotonic dystrophy, producing permanent neuromuscular blockade",
+        "Vecuronium is eliminated entirely by hepatic first-pass metabolism, which is impaired in myotonic dystrophy",
+        "The prolonged blockade reflects pseudocholinesterase deficiency unmasked by vecuronium",
+        "Myotonic dystrophy causes increased sensitivity to neuromuscular blocking agents and volatile anaesthetics, and myotonia impairs muscle relaxation together producing prolonged post-anaesthetic respiratory depression",
+        "This represents an acute exacerbation triggered by surgical stress; ventilatory support alone is curative"
+      ],
+      "correct": 3,
+      "explanation": "Myotonic dystrophy type 1 causes markedly increased sensitivity to neuromuscular blocking agents and volatile anaesthetic agents, often producing prolonged respiratory depression after even minor procedures. Myotonia — inability to relax a contracted muscle — further impairs post-operative respiratory recovery. Neostigmine may be ineffective or worsen myotonia by increasing ACh. Sugammadex (encapsulates steroidal NMBAs including vecuronium) is the preferred reversal agent. Pseudocholinesterase deficiency specifically prolongs succinylcholine, not vecuronium."
+    },
+    {
+      "id": "nmc_a11",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Neuromuscular: ICU-Acquired Conditions",
+      "question": "Five days after ICU admission for septic shock, a 63-year-old woman is difficult to wean from mechanical ventilation. Sedation has been minimised. MRC sum score assessment reveals bilateral scores of 2/5 in shoulder abduction, forearm flexion, wrist extension, thigh flexion, leg extension, and foot dorsiflexion. Which statement MOST accurately interprets this finding?",
+      "options": [
+        "This degree of weakness is expected after 5 days of critical illness and requires no further investigation",
+        "An MRC sum score <48/60 defines ICU-acquired weakness; this patient's score of 24/60 confirms severe ICU-AW",
+        "A score of 24/60 indicates a primary upper motor neuron lesion requiring urgent brain MRI",
+        "The MRC sum score applies only to patients with traumatic brain injury; an alternative scale is required for sepsis-related weakness",
+        "An MRC sum score of 24/60 is within normal limits; ICU-acquired weakness is excluded"
+      ],
+      "correct": 1,
+      "explanation": "The MRC sum score evaluates six bilateral muscle groups (shoulder abduction, forearm flexion, wrist extension, thigh flexion, leg extension, foot dorsiflexion), each scored 0-5 bilaterally, giving a maximum of 60. An MRC sum score <48/60 defines ICU-acquired weakness. With bilateral 2/5 in all six groups: 2 x 6 x 2 = 24/60, confirming severe ICU-AW. The MRC sum score applies across all ICU aetiologies. NCS/EMG further characterises the type (CIP, CIM, or combined)."
+    },
+    {
+      "id": "nmc_a12",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Neuromuscular: ICU-Acquired Conditions",
+      "question": "Nerve conduction studies in a patient with ICU-acquired weakness show reduced CMAP amplitudes with preserved SNAP amplitudes and near-normal conduction velocities. EMG demonstrates early recruitment of small polyphasic motor unit potentials. Which diagnosis and prognosis MOST accurately describe this pattern?",
+      "options": [
+        "Preserved sensory nerve action potentials exclude all forms of ICU-acquired neuromuscular weakness",
+        "Reduced CMAP amplitudes indicate motor neurone disease unmasked by critical illness; genetic testing is required",
+        "Lambert-Eaton myasthenic syndrome arising during critical illness; plasmapheresis is the treatment",
+        "Critical illness myopathy (CIM); outcomes are generally more favourable than for critical illness polyneuropathy",
+        "Critical illness polyneuropathy (CIP); this pattern carries a worse long-term prognosis than critical illness myopathy"
+      ],
+      "correct": 3,
+      "explanation": "CIM is characterised by reduced CMAP amplitudes (motor fibre involvement) with preserved SNAP amplitudes (sensory fibres spared), near-normal conduction velocities, and myopathic EMG changes. This distinguishes CIM from CIP, which shows axonal sensorimotor neuropathy with reductions in both CMAP and SNAP. CIM carries a more favourable prognosis than CIP: most patients with isolated CIM recover significant strength, whereas CIP recovery is slower and less complete. CIP and CIM frequently coexist."
+    },
+    {
+      "id": "nmc_a13",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Neuromuscular: ICU-Acquired Conditions",
+      "question": "Which combination of factors represents the STRONGEST evidence-based risk profile for developing ICU-acquired weakness?",
+      "options": [
+        "High PEEP settings, therapeutic hypothermia for brain protection, and chronic outpatient steroid therapy",
+        "Prolonged mechanical ventilation with high tidal volumes, acute kidney injury, and beta-blocker therapy",
+        "Low APACHE II score on admission, early enteral nutrition, and therapeutic hypothermia",
+        "Age >60 years, female sex, chronic obstructive pulmonary disease, and pre-admission vitamin D deficiency",
+        "Sepsis or SIRS as underlying illness, prolonged neuromuscular blocking agent use, high-dose corticosteroids, and hyperglycaemia"
+      ],
+      "correct": 4,
+      "explanation": "The most strongly established risk factors for ICU-AW include sepsis/SIRS (the most common precipitant), prolonged NMBA use, high-dose corticosteroids, and hyperglycaemia. Prevention strategies target these modifiable factors: aggressive treatment of sepsis, avoidance of unnecessary NMBAs, minimising steroid doses, and glycaemic control targeting normoglycaemia. Early mobilisation is the most important single intervention for preventing and treating ICU-AW."
+    },
+    {
+      "id": "nmc_a14",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Neuromuscular: ICU-Acquired Conditions",
+      "question": "A 32-year-old man with severe TBI has been receiving propofol at 7 mg/kg/hour for 72 hours. He develops progressive metabolic acidosis (lactate 8.2 mmol/L), new-onset bradycardia, creatinine kinase 24,000 U/L, right bundle branch block on ECG, and triglycerides of 9.8 mmol/L. What is the MOST likely diagnosis and MOST appropriate immediate action?",
+      "options": [
+        "Rhabdomyolysis from traumatic muscle crush; increase IV fluid rate and add mannitol",
+        "Propofol infusion syndrome; stop propofol immediately and initiate alternative sedation",
+        "Malignant hyperthermia from volatile anaesthetic co-administration; dantrolene is the antidote",
+        "Septic cardiomyopathy; escalate norepinephrine and add vasopressin",
+        "Acute adrenal crisis precipitated by propofol metabolism; start hydrocortisone 200 mg/day"
+      ],
+      "correct": 1,
+      "explanation": "Propofol infusion syndrome (PRIS) presents with the pentad of cardiac failure (arrhythmias, conduction defects, cardiomyopathy), severe metabolic acidosis, rhabdomyolysis (elevated CK), renal failure, and hypertriglyceridaemia. It is associated with high-dose prolonged propofol infusion (>5 mg/kg/hour) and is more common in patients with severe head trauma or acute inflammatory syndromes. The immediate action is to stop propofol and switch to an alternative sedative. PRIS can occur with short-term use. Dantrolene targets malignant hyperthermia, which presents with hyperthermia and rigidity in the operating room context."
+    },
+    {
+      "id": "nmc_a15",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Neuromuscular: ICU-Acquired Conditions",
+      "question": "A 55-year-old woman with confirmed ICU-acquired weakness requires reintubation. Which of the following statements about the use of succinylcholine in this patient is NOT correct?",
+      "options": [
+        "The risk of hyperkalaemia from succinylcholine is present regardless of the patient's baseline serum potassium level",
+        "Succinylcholine is the preferred agent in ICU-AW because it provides the fastest onset and carries the lowest risk of residual paralysis",
+        "Succinylcholine should be avoided because ICU-acquired myopathy leads to upregulation of extrasynaptic acetylcholine receptors",
+        "Rocuronium with sugammadex reversal is a safer alternative for rapid sequence intubation in patients with myopathy",
+        "Succinylcholine may cause life-threatening hyperkalaemia in patients with muscle membrane pathology"
+      ],
+      "correct": 1,
+      "explanation": "In ICU-acquired or pre-existing myopathy, denervation and disuse upregulate extrasynaptic acetylcholine receptors across the entire muscle membrane. Succinylcholine depolarises all these receptors simultaneously, causing massive potassium efflux and potentially fatal hyperkalaemia regardless of baseline potassium. Succinylcholine is therefore NOT the preferred or safest agent in myopathy; it should be avoided. Rocuronium reversed with sugammadex is the correct alternative for rapid sequence intubation in this context."
+    },
+    {
+      "id": "nmc_a16",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Neuromuscular: ICU-Acquired Conditions",
+      "question": "A 46-year-old man is found unconscious after lying on the floor for an estimated 8 hours. CK is 42,000 U/L, urine is dark brown, creatinine is rising, and potassium is 6.2 mmol/L. What is the MOST critical aspect of immediate management?",
+      "options": [
+        "Immediate fasciotomy to prevent further muscle breakdown from compartment syndrome",
+        "Intravenous sodium bicarbonate as first-line therapy to alkalinise the urine and prevent myoglobin precipitation",
+        "High-dose intravenous N-acetylcysteine to prevent myoglobin-induced tubular toxicity",
+        "Urgent haemodialysis for hyperkalaemia; fluid resuscitation delays diuresis and worsens acute kidney injury",
+        "Aggressive intravenous fluid resuscitation to maintain urine output >=200-300 mL/hour and dilute myoglobin"
+      ],
+      "correct": 4,
+      "explanation": "The cornerstone of rhabdomyolysis management is aggressive IV fluid resuscitation, typically with 0.9% saline titrated to achieve urine output >=200-300 mL/hour. This dilutes myoglobin in renal tubules, maintains tubular flow, and reduces the risk of myoglobin-induced acute kidney injury. Bicarbonate alkalinisation is used in some centres but evidence is limited. Fasciotomy is reserved for confirmed compartment syndrome. Haemodialysis may be needed later for refractory hyperkalaemia or AKI, but is not the primary initial treatment."
+    },
+    {
+      "id": "nmc_a17",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Neuromuscular: ICU-Acquired Conditions",
+      "question": "A 63-year-old woman with AChR-antibody-positive myasthenia gravis requires emergency intubation with rocuronium. Postoperatively, neostigmine reversal fails to restore adequate neuromuscular function. Which statement BEST describes the reason for failure and the appropriate alternative?",
+      "options": [
+        "Edrophonium should be attempted as a bedside diagnostic test for the cause of reversal failure",
+        "Neostigmine failure indicates permanent NMJ damage; a surgical airway is the only management option",
+        "This pattern indicates pseudocholinesterase deficiency; ventilation should be maintained for 4-6 hours until natural elimination of the drug occurs",
+        "Higher neostigmine doses should be attempted; failure indicates subtherapeutic dosing",
+        "Sugammadex selectively encapsulates rocuronium to allow reliable reversal independent of the neuromuscular junction and is the preferred agent in this setting"
+      ],
+      "correct": 4,
+      "explanation": "In myasthenia gravis, the number of functional postsynaptic AChR is reduced by antibody-mediated destruction. Neostigmine reversal works by inhibiting acetylcholinesterase to increase ACh; when the receptor pool is severely depleted, even maximal ACh cannot overcome residual rocuronium blockade. Sugammadex, which encapsulates steroidal NMBAs (rocuronium, vecuronium) independent of the neuromuscular junction, provides reliable reversal in MG and is the preferred agent. Pseudocholinesterase deficiency specifically prolongs succinylcholine, not rocuronium."
+    },
+    {
+      "id": "nmc_a18",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Neuromuscular: Assessment",
+      "question": "A 34-year-old woman with rapidly progressive GBS is asked to take a maximal breath and count aloud from 1 to 20 as fast as possible. She reaches number 14 before needing to breathe. Which statement BEST interprets this finding?",
+      "options": [
+        "Count to 14 suggests mild expiratory muscle weakness only; inspiratory function can be assumed normal",
+        "Failure to reach number 20 in a single breath suggests vital capacity has fallen below 15-18 mL/kg, indicating significant respiratory muscle weakness",
+        "Reaching number 14 is a normal finding; no significant respiratory muscle compromise is present",
+        "This indicates upper airway obstruction rather than respiratory muscle weakness; urgent laryngoscopy is warranted",
+        "The count-to-20 test is unreliable in GBS because pain prevents adequate patient cooperation"
+      ],
+      "correct": 1,
+      "explanation": "The bedside count-to-20 test provides a rapid empirical estimate of vital capacity. The ability to count from 1 to 20 in a single breath requires approximately 15-18 mL/kg vital capacity. Failure to reach 20 suggests the vital capacity has fallen below this threshold, indicating significant respiratory muscle compromise. This is a useful rapid screen when formal spirometry is not immediately available. In GBS, the formal thresholds for considering mechanical ventilation remain: FVC <1 L, decline >50% from baseline, or MIP less negative than -20 cmH2O."
+    },
+    {
+      "id": "coma_k01",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Coma: Definitions and Classification",
+      "question": "Regarding the classification of disorders of consciousness encountered in the ICU, indicate whether the following statements are TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "In minimally conscious state, patients demonstrate at least one inconsistent but reproducible goal-directed behaviour such as command-following, verbalisation, or visual pursuit.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Vegetative state/UWS is characterised by arousal with fluctuating but reproducible goal-directed behaviours.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Emergence from minimally conscious state is indicated by the patient's first command-following response during any single assessment.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "In coma, both arousal (eye opening) and awareness of self and environment are absent.",
+          "correct": true
+        }
+      ],
+      "explanation": "Coma requires absence of both arousal and awareness. VS/UWS is characterised by return of arousal WITHOUT awareness; only reflex non-purposeful responses are present — goal-directed behaviours characterise MCS, not VS/UWS. MCS requires at least one inconsistent but reproducible goal-directed behaviour. Emergence from MCS requires functional use of objects or functional communication on two consecutive assessments, not merely first command-following, which is a feature of MCS itself."
+    },
+    {
+      "id": "coma_k02",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Coma: Investigations",
+      "question": "Regarding electroencephalography in comatose ICU patients, indicate whether the following statements are TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Triphasic waves and diffuse EEG slowing are consistent with metabolic or drug-induced encephalopathy.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Continuous EEG monitoring is the only reliable method to identify non-convulsive seizures as a cause of unexplained altered consciousness.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Periodic lateralised epileptiform discharges (PLEDs) are a benign, non-specific EEG finding with no prognostic implication.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Non-convulsive seizures occur in up to 8% of comatose patients and in approximately 10% of ICU patients admitted for non-neurological causes.",
+          "correct": true
+        }
+      ],
+      "explanation": "Non-convulsive seizures are common in the ICU; sepsis (approximately 60%) and metabolic disorders (approximately 19%) are the most common aetiologies. Triphasic waves and diffuse slowing are characteristic of metabolic or drug-induced encephalopathy. PLEDs are NOT benign; they indicate an acutely destructive process (encephalitis, abscess, neoplasm) and in the encephalitis context are strongly associated with HSV aetiology and poor outcome. Continuous EEG is the only reliable method for detecting non-convulsive seizures."
+    },
+    {
+      "id": "coma_k03",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Coma: Investigations",
+      "question": "Regarding lumbar puncture in comatose patients with suspected CNS infection, indicate whether the following statements are TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "In suspected bacterial meningitis, intravenous antibiotics should be administered immediately after blood cultures, even before CSF has been obtained.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "CT imaging before lumbar puncture is only required if there is a clinical suspicion of raised intracranial pressure, such as papilloedema or focal neurological deficits.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Acyclovir should await confirmation of HSV encephalitis by CSF PCR before therapy is started to avoid unnecessary treatment.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "A normal CSF white cell count reliably excludes herpes simplex virus encephalitis.",
+          "correct": false
+        }
+      ],
+      "explanation": "Antibiotics must not be delayed for diagnostic procedures in suspected bacterial meningitis — they are started immediately after blood cultures. HSV encephalitis can present with near-normal CSF white cell count, especially early; diagnosis requires MRI and PCR, not cell count alone. Acyclovir must be started IMMEDIATELY upon clinical suspicion of HSV encephalitis without awaiting PCR confirmation, as delays worsen outcome. CT before LP is performed when there is ANY clinical suspicion of raised ICP (papilloedema, focal deficits) — this does not negate the requirement for CT when these signs are present."
+    },
+    {
+      "id": "coma_k04",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Coma: Investigations",
+      "question": "Regarding the initial laboratory evaluation of a comatose patient, indicate whether the following statements are TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Serum osmolality and osmolal gap are not indicated in the primary work-up of unexplained coma.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Serum ammonia should only be measured if liver disease is established by prior medical history.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Anti-neuronal antibodies such as anti-NMDA receptor antibodies should be considered when clinical features suggest autoimmune encephalitis.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Arterial blood gas analysis should be included in the primary laboratory evaluation of any comatose patient.",
+          "correct": true
+        }
+      ],
+      "explanation": "Serum osmolality and osmolal gap are part of the primary work-up, providing clues to intoxication with ethanol, ethylene glycol, methanol, or isopropyl alcohol. ABG analysis identifies hypoxia, CO2 narcosis, and acid-base disturbances. Ammonia should be assessed in EVERY unexplained comatose state due to its therapeutic implications — not only when prior liver disease is documented. Anti-neuronal antibodies are indicated when clinical features (psychiatric prodrome, orofacial dyskinesia, seizures) suggest autoimmune encephalitis."
+    },
+    {
+      "id": "coma_k05",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Coma: Investigations",
+      "question": "Regarding the aetiology and epidemiology of coma and seizures in the ICU, indicate whether the following statements are TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Buccofacial dyskinesia, psychiatric symptoms before coma, and new-onset seizures in a young adult should prompt testing for anti-NMDA receptor antibodies and consideration of early immunotherapy.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Sepsis and metabolic disorders account for a small minority of seizure aetiologies in comatose ICU patients.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Approximately 10% of ICU patients admitted for non-neurological causes experience seizures, of which the majority are non-convulsive.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Solid organ transplantation combined with even mildly elevated blood pressure and creatinine should prompt urgent MRI to exclude posterior reversible encephalopathy syndrome.",
+          "correct": true
+        }
+      ],
+      "explanation": "Sepsis accounts for approximately 60% and metabolic disorders for 19% of seizure aetiologies in ICU patients — they are among the most common causes, not a small minority. The combination of solid organ transplantation, hypertension, and mild renal impairment raises suspicion for PRES, for which MRI is the diagnostic modality of choice. Approximately 10% of non-neurological ICU admissions experience seizures, of which 69% are non-convulsive. The triad of buccofacial dyskinesia, psychiatric prodrome, and seizures in a young adult is classic for anti-NMDA receptor encephalitis."
+    },
+    {
+      "id": "coma_k06",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Coma: Prognosis",
+      "question": "Regarding prognostication after out-of-hospital cardiac arrest, indicate whether the following statements are TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Bilateral absence of the N20 cortical response on somatosensory evoked potentials is one of the most reliable predictors of poor neurological outcome and can be assessed as early as 24 hours after cardiac arrest.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Absent corneal reflexes at 24 hours after cardiac arrest, in isolation, are sufficient to accurately predict unfavourable neurological outcome.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Absent cortical SSEP and unreactive EEG combined are insufficient to predict poor outcome; a minimum of three concordant predictors are required before prognostication is considered reliable.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Spontaneous burst-suppression on EEG after cardiac arrest is a malignant pattern strongly associated with unfavourable neurological outcome.",
+          "correct": true
+        }
+      ],
+      "explanation": "Bilateral absent N20 is highly reliable from 24 hours post-arrest. The ESICM/ERC framework requires at least TWO concordant predictors from three categories (brainstem reflexes, EEG, SSEP) to conclude poor prognosis — not three. Burst-suppression is a malignant EEG pattern strongly associated with poor outcome. Absent corneal reflexes become reliable as a predictor at day 3 in combination with other predictors; isolated absence at 24 hours lacks sufficient specificity for standalone prognostication."
+    },
+    {
+      "id": "coma_k07",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Coma: Prognosis",
+      "question": "Regarding the diagnosis of brain death in the ICU, indicate whether the following statements are TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Brain death can be diagnosed on the basis of absent brainstem reflexes alone, without performing an apnea test.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "A fixed time interval after stopping sedative infusions is universally accepted as sufficient to exclude residual drug effect before brain death testing.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hypothermia and uncorrected metabolic disturbances must be resolved before brain death testing is performed.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Confirmatory tests such as EEG or cerebral angiography are legally mandatory in all countries for the formal diagnosis of brain death.",
+          "correct": false
+        }
+      ],
+      "explanation": "Apnea testing is a mandatory component of brain death diagnosis; absent brainstem reflexes alone are insufficient. Fixed time intervals after stopping sedatives are not universally accepted because drug clearance varies substantially with organ function, body composition, and duration of infusion. Hypothermia and metabolic disturbances can mimic brain death and must be corrected before testing. Legal requirements for confirmatory tests vary by jurisdiction; they are not universally mandatory where clinical examination and apnea testing are fully achievable."
+    },
+    {
+      "id": "coma_k08",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Coma: Early Management",
+      "question": "Regarding early management priorities in a comatose patient, indicate whether the following statements are TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Hypoglycaemia is a rapidly reversible and potentially fatal cause of coma that should be identified and corrected in the initial assessment.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "In a nutritionally depleted patient with suspected Wernicke's encephalopathy, thiamine should be administered before glucose supplementation.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Airway protection and maintenance of adequate oxygenation and ventilation take priority in the initial management of any comatose patient.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Targeted temperature management to 33-36 C should be initiated in all comatose patients regardless of the underlying aetiology.",
+          "correct": false
+        }
+      ],
+      "explanation": "Airway and oxygenation are first priorities in coma management. Hypoglycaemia is immediately life-threatening and must be identified and corrected without delay. Thiamine must precede glucose in nutritionally depleted patients to prevent Wernicke's encephalopathy. ERC/ESICM 2025 guidelines replaced active cooling to 32-36 C with fever prevention <=37.5 C for >=72 hours specifically in post-cardiac arrest patients; temperature management is not indicated for all causes of coma and is not routinely prescribed as active cooling."
+    },
+    {
+      "id": "coma_k09",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Coma: Definitions and Classification",
+      "question": "Regarding the distinction between vegetative state/UWS and minimally conscious state, indicate whether the following statements are TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "FDG-PET cannot distinguish MCS from VS/UWS because both states show equally reduced cerebral glucose metabolism.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Repeated structured behavioural assessment using validated scales can help differentiate MCS from VS/UWS over time.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Functional brain imaging and EEG-based paradigms can identify covert cognition (cognitive motor dissociation) that is undetectable by standard bedside behavioural assessment.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Early diagnosis of MCS rather than VS/UWS has no significant impact on the likelihood of recovery to full consciousness.",
+          "correct": false
+        }
+      ],
+      "explanation": "Early diagnosis of MCS rather than VS/UWS is associated with a 50% higher likelihood of recovery to full consciousness — the distinction is clinically significant. CMD/covert cognition is detectable only by fMRI or EEG paradigms, not bedside observation. FDG-PET can distinguish MCS from VS/UWS: metabolic activity is higher in MCS, and secondary cortical areas can be activated in MCS but not in VS/UWS. Repeated structured behavioural assessment using validated instruments such as the Coma Recovery Scale-Revised is recommended."
+    },
+    {
+      "id": "coma_k10",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Coma: Further Management",
+      "question": "Regarding prevention and management of complications in patients with prolonged disorders of consciousness, indicate whether the following statements are TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A single session of transcranial direct current stimulation targeting the left dorsolateral prefrontal cortex produced behavioural improvement in approximately 20% of DOC patients in a controlled study.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Passive range-of-motion exercises performed approximately ten times per day are recommended to prevent contractures.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Low-molecular-weight heparin combined with intermittent pneumatic compression is recommended for DVT prophylaxis in immobilised DOC patients.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Neuromuscular blocking agents should be used liberally in DOC patients to facilitate nursing procedures and prevent agitated posturing.",
+          "correct": false
+        }
+      ],
+      "explanation": "Passive range-of-motion exercises (approximately ten times daily) are recommended to prevent contractures. Avoidance of NMBAs is explicitly recommended to prevent musculoskeletal complications and ICU-acquired neuromuscular weakness; frequent repositioning and passive exercises are the appropriate strategy. LMWH combined with pneumatic compression is standard DVT prophylaxis. A controlled study found a single tDCS session targeting the left DLPFC produced behavioural improvements in 20% of DOC patients with corresponding EEG changes."
+    },
+    {
+      "id": "nmc_k01",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Neuromuscular: Primary Disorders",
+      "question": "Regarding Guillain-Barre syndrome in critically ill patients, indicate whether the following statements are TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Approximately 20-30% of patients with GBS require mechanical ventilation.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "A CSF white cell count >5 cells/mm3, a sensory level, or persistently asymmetrical weakness should make the clinical diagnosis of GBS uncertain.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The natural history of GBS is uniformly favourable, with 95% of patients returning to full independent function within 6 months.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Glucocorticoids are effective immunotherapy for GBS and should be initiated within 48 hours of diagnosis to prevent respiratory failure.",
+          "correct": false
+        }
+      ],
+      "explanation": "Glucocorticoids are INEFFECTIVE in GBS — only IVIg and plasma exchange have proven benefit. Approximately 20-30% of GBS patients require mechanical ventilation. CSF white cell count >5/mm3, sensory level, or asymmetrical weakness make the GBS diagnosis uncertain and prompt consideration of alternatives. Up to 5% of patients die from GBS complications; while 85% recover to near-normality, this is not universal, and recovery may take months to years — 95% returning to full function within 6 months overstates the prognosis."
+    },
+    {
+      "id": "nmc_k02",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Neuromuscular: Primary Disorders",
+      "question": "Regarding myasthenia gravis in the ICU, indicate whether the following statements are TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A 10% increment (facilitation) in CMAP amplitude on repetitive nerve stimulation is characteristic of myasthenia gravis.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "The edrophonium (Tensilon) challenge is a safe bedside test suitable for routine screening of all patients with suspected myasthenia gravis.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Thymectomy improves clinical outcomes in patients aged 18-65 years with non-thymomatous myasthenia gravis of less than 5 years' duration.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Anti-AChR antibodies are detected in 100% of patients with generalised myasthenia gravis using standard commercial assays.",
+          "correct": false
+        }
+      ],
+      "explanation": "Thymectomy improves clinical outcomes over a 3-year period in non-thymomatous MG for patients aged 18-65 with disease duration <5 years. Anti-AChR antibodies are detected in approximately 85% of patients with generalised MG; 10-15% are seronegative by standard testing. Edrophonium can cause cardiovascular collapse and must only be performed with full resuscitation facilities; it is not a routine screening test. A 10% DECREMENT (not increment) in CMAP on repetitive stimulation characterises MG due to postsynaptic AChR depletion; Lambert-Eaton syndrome shows facilitation (increment) with high-frequency stimulation."
+    },
+    {
+      "id": "nmc_k03",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Neuromuscular: Primary Disorders",
+      "question": "Regarding botulism encountered in the ICU, indicate whether the following statements are TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Wound botulism arising from subcutaneous drug injection presents identically to foodborne botulism except for the absence of gastrointestinal symptoms.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Early administration of specific antitoxin in botulism is associated with shorter ventilator times and reduced hospital length of stay.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The four cardinal clinical features of botulism include symmetrical descending neurological manifestations, intact mental processes, absence of sensory impairment, and absence of fever.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Botulinum neurotoxin acts by competitively blocking acetylcholine receptors at the postsynaptic neuromuscular membrane, similar to curare.",
+          "correct": false
+        }
+      ],
+      "explanation": "The four cardinal features are symmetrical descending paralysis, intact mental processes, absent sensory impairment, and absent fever. Wound botulism from drug injection is clinically identical to foodborne botulism except for the absence of gastrointestinal symptoms. Botulinum toxin acts PRESYNAPTICALLY by cleaving SNARE proteins (VAMP/synaptobrevin), preventing ACh release from the presynaptic terminal — not by postsynaptic receptor blockade as with curare. Early antitoxin significantly reduces ventilator dependence and length of stay."
+    },
+    {
+      "id": "nmc_k04",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Neuromuscular: Primary Disorders",
+      "question": "Regarding tetanus management in the ICU, indicate whether the following statements are TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Metronidazole is the antibiotic of choice for Clostridium tetani because it is active against anaerobic organisms.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Intravenous tetanus immunoglobulin (TIG) at high doses (>6000 IU) is more effective than the standard single dose of 500 IU in reducing complications and ventilator duration.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Maintaining serum magnesium at 2-4 mmol/L reduces both muscle spasm and cardiovascular instability through calcium channel antagonism and reduction of systemic catecholamine release.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Intrathecal baclofen is a well-established, evidence-based first-line treatment for muscle spasm in severe tetanus and carries no significant risk of respiratory failure.",
+          "correct": false
+        }
+      ],
+      "explanation": "Metronidazole is preferred over penicillin for C. tetani. The standard TIG dose is 500 IU as a single dose; higher doses have not demonstrated superiority. Intrathecal baclofen is an experimental rather than established first-line treatment and carries a significant risk of respiratory failure. Magnesium at 2-4 mmol/L reduces muscle spasm via calcium channel antagonism and cardiovascular instability by reducing catecholamine release."
+    },
+    {
+      "id": "nmc_k05",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Neuromuscular: ICU-Acquired Conditions",
+      "question": "Regarding critical illness polyneuropathy and myopathy (CIP/CIM), indicate whether the following statements are TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Randomised controlled trial evidence has proven that neuromuscular blocking agent use in ARDS directly causes ICU-AW.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Critical illness polyneuropathy (CIP) is characterised by preserved motor nerve conduction with primary involvement of sensory axons only.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "EMG and nerve conduction studies are required to differentiate CIP from CIM, as clinical examination alone cannot reliably distinguish the two conditions.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Critical illness myopathy (CIM) generally has a worse prognosis than CIP in terms of long-term recovery of neuromuscular function.",
+          "correct": false
+        }
+      ],
+      "explanation": "CIP is an AXONAL SENSORIMOTOR neuropathy affecting both motor and sensory fibres — both CMAP and SNAP amplitudes are reduced. CIM generally has a MORE FAVOURABLE prognosis than CIP; recovery from CIM is typically faster and more complete. NCS/EMG are essential for distinguishing CIP from CIM as clinical examination alone is insufficient. In the only RCT of NMBAs in ARDS, no difference in ICU-AW incidence was found; direct causation has not been proven, though excessive/prolonged NMBAs may contribute indirectly via immobility."
+    },
+    {
+      "id": "nmc_k06",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Neuromuscular: ICU-Acquired Conditions",
+      "question": "Regarding prevention and management of ICU-acquired weakness, indicate whether the following statements are TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Early active mobilisation during mechanical ventilation has been shown in randomised trials to reduce long-term cognitive impairment in addition to improving physical function.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Glycaemic control targeting normoglycaemia is recommended as part of the preventive strategy for ICU-AW.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Complete bedrest and immobilisation during the acute phase of critical illness are recommended to minimise haemodynamic instability and prevent ICU-AW.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "High-dose corticosteroids and prolonged neuromuscular blocking agent administration are among the modifiable risk factors for ICU-AW that should be minimised.",
+          "correct": true
+        }
+      ],
+      "explanation": "Early mobilisation — not bedrest — is the most important intervention for preventing and treating ICU-AW; passive and active exercise should begin as soon as safely possible. Glycaemic control targeting normoglycaemia reduces ICU-AW risk. A randomised trial (Patel et al. 2023) demonstrated that early mobilisation during mechanical ventilation reduced long-term cognitive impairment at 12 months. High-dose corticosteroids and prolonged NMBAs are among the most strongly established modifiable risk factors and should be minimised."
+    },
+    {
+      "id": "nmc_k07",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Neuromuscular: ICU-Acquired Conditions",
+      "question": "Regarding propofol infusion syndrome (PRIS), indicate whether the following statements are TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The incidence of PRIS is higher in patients with severe head trauma or acute inflammatory syndromes than in the general ICU population.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "PRIS is characterised by the combination of metabolic acidosis, rhabdomyolysis, hypertriglyceridaemia, cardiac failure, and renal failure.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "PRIS cannot occur with short-term propofol use and requires continuous infusion for at least 7 days before clinical features develop.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Succinylcholine is the safest choice for neuromuscular blockade in a patient with established PRIS because its shortest duration of action minimises drug accumulation.",
+          "correct": false
+        }
+      ],
+      "explanation": "PRIS is defined by the pentad of cardiac failure, severe metabolic acidosis, rhabdomyolysis, renal failure, and hypertriglyceridaemia. Its incidence is higher in head trauma and acute inflammatory syndromes. PRIS CAN occur with short-term or lower-dose propofol — duration alone does not predict risk, and high infusion rates are the primary risk factor. Succinylcholine is dangerous in patients with PRIS because the rhabdomyolysis component leads to upregulation of extrasynaptic AChR on damaged muscle, creating risk of fatal hyperkalaemic cardiac arrest."
+    },
+    {
+      "id": "nmc_k08",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Neuromuscular: Assessment",
+      "question": "Regarding respiratory muscle assessment in neuromuscular disease, indicate whether the following statements are TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The rapid shallow breathing index (f/VT) decreases as respiratory muscle weakness worsens, indicating improved ventilatory efficiency.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "FEV1/FVC ratio is the most sensitive parameter for detecting respiratory muscle weakness in Guillain-Barre syndrome.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Paradoxical inward movement of the upper abdomen during inspiration may indicate diaphragmatic paresis.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Forced vital capacity (FVC), when within normal limits, reliably excludes moderate to severe respiratory muscle weakness.",
+          "correct": true
+        }
+      ],
+      "explanation": "Normal FVC reliably excludes moderate to severe respiratory muscle weakness; however, reduced FVC is non-specific (may reflect pulmonary disease or muscle weakness). In GBS, FEV1 and peak expiratory flow may be NORMAL despite significant respiratory muscle weakness — FVC and maximal inspiratory/expiratory pressures are more sensitive. Paradoxical upper abdominal indrawing during inspiration indicates diaphragmatic paresis: the diaphragm fails to flatten, and negative intrathoracic pressure draws the abdomen inward. Respiratory muscle weakness causes VT to fall and RR to rise, thereby INCREASING f/VT — an f/VT >50/min/L is abnormal."
+    }
+  ]
+}
