@@ -1,0 +1,1200 @@
+{
+  "module": "Multiple Trauma Parts III–VI",
+  "sections": {
+    "Sedation of the trauma patient": "Part III: Ketamine, dexmedetomidine, inhalation agents, barbiturates, regional anaesthesia",
+    "Timing of Surgical Interventions in ICU Trauma Patients": "Part III: TBI management, ETC vs DCO vs PRISM, second hit, CPP/ICP targets",
+    "Respiratory Complications in the ICU After Major Trauma": "Part III: VAP, ARDS, prone positioning, ECMO",
+    "Rhabdomyolysis and Acute Kidney Injury After Trauma": "Part III: CK threshold, UO target, AKI incidence",
+    "Infectious complications": "Part III: Open fracture antibiotics (Type I–II vs III), fracture-related infection durations",
+    "The complex trauma patient in the ICU beyond 48 hours": "Part III: MODS, PICS, persistent critical illness",
+    "Communication with trauma patients and their families in ICU": "Part III: SPIKE, TIME, family meetings, conflict management",
+    "Maxillofacial Trauma": "Part IV: Le Fort I–III classification, difficult airway, carotid-cavernous fistula",
+    "Thoracic trauma": "Part IV: Chest trauma epidemiology, haemothorax thresholds, thoracotomy indications, bilateral thoracostomy in TCA",
+    "Aortic Injuries in Trauma, Pathophysiology and Management": "Part IV: BTAI grades, isthmus, TEVAR vs open repair, CT angiography",
+    "Abdominal trauma": "Part V: FAST algorithm, haemodynamic status guides management, liver OIS-independent strategy",
+    "Pelvic ring injury": "Part V: Tile A/B/C, Young-Burgess LC/APC/VS, binder, C-clamp, angioembolisation, packing, REBOA Zone III",
+    "Extremity injury": "Part V: Compartment syndrome (4Ps, fasciotomy thresholds), fat embolism triad, VTE, ABI",
+    "Paediatric specificities": "Part VI: Tachycardia vs BP, permissive hypotension contraindicated, paediatric TXA dosing",
+    "Pre-hospital and initial management": "Part VI: cABCDE, paediatric TXA dosing, mediastinal mobility, blood products"
+  },
+  "questions": [
+    {
+      "id": "mtr2_a01",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Sedation of the trauma patient",
+      "section_url": "",
+      "question": "Which adverse effect is specifically associated with prolonged high-dose ketamine sedation in the ICU, beyond its well-known psychotomimetic effects?",
+      "options": [
+        "Cholestatic liver injury",
+        "QTc prolongation and torsades de pointes",
+        "Adrenal suppression reducing cortisol response",
+        "Progressive hypertension requiring antihypertensive therapy",
+        "Thyroid suppression with clinical hypothyroidism"
+      ],
+      "correct": 0,
+      "explanation": "Cholestatic liver injury has been documented with prolonged high-dose ketamine sedation. Ketamine-induced uropathy is also well-described in chronic abusers. Despite its sympathomimetic cardiovascular profile making it attractive in haemodynamically unstable trauma patients, prolonged ketamine use carries specific toxicity risks beyond the psychotomimetic effects (hallucinations, delirium). It should be used cautiously for prolonged sedation, especially in patients with hepatic dysfunction or psychiatric history."
+    },
+    {
+      "id": "mtr2_a02",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Sedation of the trauma patient",
+      "section_url": "",
+      "question": "In mechanically ventilated adults, dexmedetomidine compared to other sedatives demonstrates which primary benefit according to meta-analysis data?",
+      "options": [
+        "Dexmedetomidine eliminates delirium entirely in post-operative ICU patients",
+        "Dexmedetomidine reduces the risk of delirium (RR ~0.67) and modestly shortens mechanical ventilation duration (~1.8 h)",
+        "Dexmedetomidine is equivalent to benzodiazepines for delirium prevention but superior for ICU LOS reduction",
+        "Dexmedetomidine improves 90-day mortality compared to propofol in trauma patients",
+        "Dexmedetomidine reduces MV duration by a mean of 12 hours compared to midazolam"
+      ],
+      "correct": 1,
+      "explanation": "Meta-analyses show dexmedetomidine reduces delirium risk with RR 0.67 (95% CI 0.55–0.81; moderate certainty), reduces MV duration by a mean of 1.8 h (95% CI 2.89–0.71; low certainty), and reduces ICU LOS by 0.32 days (low certainty). These benefits must be weighed against increased bradycardia (RR 2.39) and hypotension (RR 1.32)."
+    },
+    {
+      "id": "mtr2_a03",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Sedation of the trauma patient",
+      "section_url": "",
+      "question": "Dexmedetomidine use in ICU patients is associated with which combination of haemodynamic adverse effects compared to other sedatives?",
+      "options": [
+        "Hypertension and reflex tachycardia",
+        "Tachycardia and vasoplegia requiring vasopressor escalation",
+        "Bradycardia (RR ~2.39) and hypotension (RR ~1.32)",
+        "Atrial fibrillation and paradoxical hypertension",
+        "Orthostatic hypotension only on rapid dose reduction"
+      ],
+      "correct": 2,
+      "explanation": "Dexmedetomidine's alpha-2 agonism reduces sympathetic outflow and heart rate. Meta-analyses quantify the adverse haemodynamic profile as increased bradycardia (RR 2.39, 95% CI 1.82–3.13; moderate certainty) and increased hypotension (RR 1.32, 95% CI 1.07–1.63; low certainty). Both effects must be anticipated and may require dose reduction or vasopressor support in haemodynamically vulnerable trauma patients."
+    },
+    {
+      "id": "mtr2_a04",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Sedation of the trauma patient",
+      "section_url": "",
+      "question": "The SESAR trial (JAMA 2025) compared inhaled sevoflurane to propofol in mechanically ventilated ICU patients with ARDS. What was its primary finding?",
+      "options": [
+        "Sevoflurane significantly reduced 90-day mortality versus propofol in all ARDS patients",
+        "Sevoflurane reduced mechanical ventilation duration by a mean of three days",
+        "Both agents demonstrated equivalent safety and efficacy with no mortality difference",
+        "Sevoflurane was associated with increased mortality compared to propofol in ARDS patients",
+        "Sevoflurane eliminated the need for opioid coadministration in the majority of patients"
+      ],
+      "correct": 3,
+      "explanation": "The SESAR trial demonstrated increased mortality with sevoflurane compared to propofol in patients with ARDS. The mechanism remains uncertain but may involve immunomodulatory effects or delayed alveolar healing. This finding has tempered enthusiasm for routine inhaled sedation in trauma-ARDS, and propofol remains first-line in most centres. Environmental concerns (greenhouse gas contribution) also limit volatile agent adoption in ICU."
+    },
+    {
+      "id": "mtr2_a05",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Timing of Surgical Interventions in ICU Trauma Patients",
+      "section_url": "",
+      "question": "Barbiturate sedation (e.g. pentobarbital, thiopental) in traumatic brain injury is reserved for which specific indication?",
+      "options": [
+        "First-line sedation to blunt ICP spikes during nursing care in all severe TBI",
+        "Mild agitation in extubated TBI patients who cannot tolerate other anxiolytics",
+        "Prophylactic ICP prevention in all patients with GCS ≤8 regardless of ICP values",
+        "Haemodynamically unstable TBI patients as a cardioprotective alternative to propofol",
+        "Refractory intracranial hypertension unresponsive to first-line sedation, osmotherapy, and hyperventilation"
+      ],
+      "correct": 4,
+      "explanation": "Barbiturates should be reserved for refractory intracranial hypertension after first-line ICP measures (deep sedation, ACSOS control, osmotherapy, hyperventilation, CSF drainage) have failed. Their use carries significant risks: accumulation due to long half-lives, hypotension requiring vasopressors, and immunosuppression with increased infection risk. They are not appropriate as first-line or prophylactic agents."
+    },
+    {
+      "id": "mtr2_a06",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Rhabdomyolysis and Acute Kidney Injury After Trauma",
+      "section_url": "",
+      "question": "Rhabdomyolysis complicating crush injury is diagnosed at which serum CK threshold, and what urine output target is recommended to prevent AKI?",
+      "options": [
+        "CK >5,000 U/L; urine output target ≥200 mL/h",
+        "CK >1,000 U/L; urine output target ≥0.5 mL/kg/h (standard threshold)",
+        "CK >10,000 U/L; urine output target ≥50 mL/h",
+        "CK >2,000 U/L; urine output target ≥100 mL/h",
+        "CK >20,000 U/L; urine output target ≥30 mL/h is adequate in non-crush trauma"
+      ],
+      "correct": 0,
+      "explanation": "Rhabdomyolysis is typically diagnosed with serum CK >5,000 U/L, accompanied by tea-coloured urine and elevated myoglobin. To reduce myoglobin precipitation in renal tubules, aggressive volume resuscitation targeting urine output ≥200 mL/h is recommended. Urinary alkalinisation with bicarbonate is controversial. Early RRT may be necessary if oliguria, hyperkalaemia, or hyperphosphataemia develop despite adequate resuscitation."
+    },
+    {
+      "id": "mtr2_a07",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Infectious complications",
+      "section_url": "",
+      "question": "A patient has a Gustilo Type III open tibial shaft fracture with extensive periosteal stripping and gross contamination. Which antibiotic regimen is recommended?",
+      "options": [
+        "First-generation cephalosporin (e.g. cefazolin) alone for 24 hours",
+        "First-generation cephalosporin PLUS an aminoglycoside (Gram-positive and Gram-negative coverage) for 24 hours",
+        "Piperacillin-tazobactam for 72 hours as broad empiric coverage",
+        "No antibiotics — thorough surgical débridement alone is sufficient for Type III injuries",
+        "First-generation cephalosporin for 5 days plus metronidazole for anaerobic coverage"
+      ],
+      "correct": 1,
+      "explanation": "Gustilo Type I and II open fractures require Gram-positive coverage with a first-generation cephalosporin (clindamycin if penicillin-allergic). Type III fractures require additional Gram-negative coverage, typically a first-generation cephalosporin plus an aminoglycoside, or alternatives such as ceftriaxone or piperacillin-tazobactam. Antibiotics should start within 1 hour of injury and continue for 24 hours. Débridement within 24 hours is essential."
+    },
+    {
+      "id": "mtr2_a08",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Timing of Surgical Interventions in ICU Trauma Patients",
+      "section_url": "",
+      "question": "International guidelines recommend which intracranial pressure (ICP) and cerebral perfusion pressure (CPP) targets for severe TBI management in the ICU?",
+      "options": [
+        "ICP <25 mmHg and CPP >50 mmHg",
+        "ICP <15 mmHg and CPP >80 mmHg",
+        "ICP <20 mmHg and CPP 60–70 mmHg",
+        "ICP <30 mmHg and CPP >55 mmHg with osmotherapy initiated above 20 mmHg",
+        "ICP <10 mmHg and CPP >70 mmHg at all times"
+      ],
+      "correct": 2,
+      "explanation": "Guidelines recommend maintaining ICP <20 mmHg and CPP between 60–70 mmHg. CPP is calculated as MAP − ICP; a CPP below 60 mmHg risks cerebral ischaemia, while above 70 mmHg may increase risk of vasogenic oedema and hyperperfusion. When ICP exceeds 20 mmHg, a tiered response begins: deep sedation, ACSOS correction, osmotherapy, CSF drainage, and ultimately surgical decompression."
+    },
+    {
+      "id": "mtr2_a09",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Timing of Surgical Interventions in ICU Trauma Patients",
+      "section_url": "",
+      "question": "A polytrauma patient has moderate TBI (GCS 11) without CT evidence of intracranial hypertension. Why should permissive hypotension be avoided, and what SBP is recommended?",
+      "options": [
+        "Permissive hypotension reduces CPP below 40 mmHg; target SBP >80 mmHg is sufficient",
+        "TBI impairs cerebrovascular autoregulation; target MAP >65 mmHg via the standard critical care threshold",
+        "Coexisting abdominal injury mandates SBP >100 mmHg to maintain mesenteric perfusion",
+        "Even without elevated ICP, low SBP reduces CPP and worsens secondary injury; target SBP >110 mmHg",
+        "SBP guidance requires continuous ICP monitoring; no target can be stated without ICP data"
+      ],
+      "correct": 3,
+      "explanation": "Even in TBI without confirmed intracranial hypertension, permissive hypotension is contraindicated because any episode of hypotension independently increases mortality and worsens neurological outcomes. Guidelines recommend SBP >110 mmHg in TBI without elevated ICP (and MAP ≥80 mmHg in TBI with elevated ICP). PaCO₂ should be maintained between 35–40 mmHg, and all ACSOS (secondary cerebral insults) must be prevented."
+    },
+    {
+      "id": "mtr2_a10",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Respiratory Complications in the ICU After Major Trauma",
+      "section_url": "",
+      "question": "In ICU trauma patients developing ARDS, which tidal volume strategy is recommended for lung-protective ventilation?",
+      "options": [
+        "8–10 mL/kg ideal body weight with moderate PEEP",
+        "4–5 mL/kg ideal body weight with permissive hypercapnia to PaCO₂ >60 mmHg",
+        "Tidal volume ≥10 mL/kg to maintain adequate CO₂ clearance in ARDS with traumatic brain injury",
+        "7 mL/kg predicted body weight with high-frequency oscillation",
+        "6 mL/kg ideal body weight with limited plateau pressure and adequate PEEP"
+      ],
+      "correct": 4,
+      "explanation": "Lung-protective ventilation in ARDS uses low tidal volumes of 6 mL/kg ideal body weight, plateau pressure limitation, and adequate PEEP. This strategy reduces ventilator-induced lung injury and improves outcomes. Neuromuscular blockade, prone positioning (unless contraindicated by unstable spine or pelvis), and rescue inhaled vasodilators may be added in refractory ARDS. ECMO may be considered for severe refractory hypoxaemia."
+    },
+    {
+      "id": "mtr2_a11",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Respiratory Complications in the ICU After Major Trauma",
+      "section_url": "",
+      "question": "Prone positioning for refractory ARDS may be relatively contraindicated in which trauma-specific clinical scenario?",
+      "options": [
+        "Unstable spinal or pelvic fractures not yet surgically stabilised",
+        "Any blunt thoracic trauma requiring bilateral chest drains",
+        "Bilateral rib fractures with pulmonary contusion as primary ARDS cause",
+        "Traumatic brain injury with an intraparenchymal ICP monitor in situ",
+        "Burns involving more than 30% total body surface area"
+      ],
+      "correct": 0,
+      "explanation": "Prone positioning is a cornerstone of refractory ARDS management but may be relatively contraindicated in trauma patients with unstable spinal or pelvic fractures that have not been surgically stabilised, as proning could cause further displacement or vascular injury. ICP monitoring is not a contraindication per se, though careful positioning is required. Chest drains and bilateral rib fractures are not contraindications to prone positioning."
+    },
+    {
+      "id": "mtr2_a12",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Infectious complications",
+      "section_url": "",
+      "question": "For fracture-related infection managed by implant removal and treatment of underlying osteomyelitis, what total duration of antibiotic therapy is recommended?",
+      "options": [
+        "3 weeks — IV initially, then oral once culture results guide de-escalation",
+        "6 weeks total antibiotic treatment",
+        "12 weeks total — the same as for implant retention strategies",
+        "48 hours of broadened perioperative prophylaxis only",
+        "Antibiotic duration is determined entirely by culture results with no standard minimum"
+      ],
+      "correct": 1,
+      "explanation": "According to fracture-related infection guidelines, implant removal with osteomyelitis treatment requires 6 weeks total antibiotic treatment. Retention strategies (one-stage or two-stage exchange) require 12 weeks. IV antibiotics are continued until cultures and sensitivities are available, after which oral agents with adequate biofilm activity may be substituted. The variability in strategies reflects the complexity of biofilm-related implant infections."
+    },
+    {
+      "id": "mtr2_a13",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Timing of Surgical Interventions in ICU Trauma Patients",
+      "section_url": "",
+      "question": "A multiply-injured patient is haemodynamically stable (lactate 1.9 mmol/L, no vasopressors) with mild TBI (GCS 13) and bilateral femur fractures. Which surgical orthopaedic strategy is most appropriate?",
+      "options": [
+        "Damage Control Orthopaedics — external fixation only, with definitive nailing deferred beyond 48 hours",
+        "PRISM (Prompt Individualised Safe Management) — temporary stabilisation with staged reassessment",
+        "Early Safe Definitive Orthopaedic Surgery (EARLY-SDOS) — definitive nailing within 48 hours",
+        "Expectant management — defer all orthopaedic procedures until CARS has resolved after day 10",
+        "No specific strategy — decision is made ad hoc between ICU and orthopaedics on a daily basis"
+      ],
+      "correct": 2,
+      "explanation": "A physiologically stable patient with mild TBI and adequate haemostasis can proceed with early definitive orthopaedic surgery (EARLY-SDOS within 48 h, or ETC within 24 h if fully stable). Definitive fixation reduces fat embolism risk, facilitates early mobilisation, and reduces ICU complications. DCO and PRISM are reserved for physiologically compromised patients with the lethal triad or severe associated injuries."
+    },
+    {
+      "id": "mtr2_a14",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Timing of Surgical Interventions in ICU Trauma Patients",
+      "section_url": "",
+      "question": "The 'second hit' hypothesis in trauma surgery describes which mechanism by which a major operative procedure may worsen outcomes after initial damage control?",
+      "options": [
+        "Direct intraoperative haemorrhage caused by volatile anaesthetic-induced anticoagulation",
+        "Depletion of coagulation factors by protracted surgical exposure to crystalloid irrigation",
+        "Hypothermia from prolonged anaesthetic exposure worsening coagulopathy in susceptible patients",
+        "A surgical-stress-triggered cytokine storm that exacerbates ARDS and multi-organ dysfunction syndrome",
+        "Increased intracranial pressure from fluid shifts during prolonged abdominal procedures"
+      ],
+      "correct": 3,
+      "explanation": "The second hit concept holds that severely injured patients who have already sustained a major physiological insult (first hit: tissue injury, haemorrhage, shock) are primed to mount an exaggerated systemic inflammatory response if exposed to a significant second stressor such as major surgery. This cytokine storm can precipitate ARDS, MODS, and increased mortality. Damage control surgery limits operative duration to avoid triggering this response; definitive procedures are deferred until the patient's physiology has normalised."
+    },
+    {
+      "id": "mtr2_a15",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Rhabdomyolysis and Acute Kidney Injury After Trauma",
+      "section_url": "",
+      "question": "What is the approximate incidence of acute kidney injury (AKI) in trauma patients requiring intensive care?",
+      "options": [
+        "Less than 5% — AKI is uncommon due to the typically young age and low comorbidity of trauma patients",
+        "5–10% — mainly attributable to contrast nephropathy from CT imaging",
+        "10–15% — driven predominantly by rhabdomyolysis in crush injuries",
+        "15–20% — mainly in haemorrhagic shock patients requiring massive transfusion",
+        "20–40% — with significant attributable mortality"
+      ],
+      "correct": 4,
+      "explanation": "AKI occurs in 20–40% of ICU trauma patients and significantly increases mortality. Risk factors include hypovolaemia and hypotension, rhabdomyolysis, sepsis, nephrotoxic agents (contrast, aminoglycosides), and crush syndrome. Management targets MAP >65 mmHg, adequate fluid resuscitation without overload, and early RRT when indicated (oliguria, uraemia, electrolyte derangements, volume overload)."
+    },
+    {
+      "id": "mtr2_k01",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Timing of Surgical Interventions in ICU Trauma Patients",
+      "section_url": "",
+      "question": "Which of the following statements about TBI management in the ICU are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Current guidelines recommend maintaining ICP below 20 mmHg and CPP between 60–70 mmHg in severe TBI.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Permissive hypotension with a target SBP of 80–90 mmHg is acceptable in TBI patients without confirmed intracranial hypertension.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Even a single episode of hypotension or hypoxia is independently associated with increased mortality and worse neurological outcome in TBI.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Prophylactic hyperventilation to PaCO₂ 25–30 mmHg is recommended to routinely reduce intracranial blood volume in all severe TBI.",
+          "correct": false
+        }
+      ],
+      "explanation": "ICP <20 mmHg and CPP 60–70 mmHg are the guideline targets. Permissive hypotension is contraindicated in TBI; SBP >110 mmHg is recommended even without confirmed ICH. A single episode of hypotension or hypoxia significantly worsens neurological outcomes. Prophylactic hyperventilation causes cerebral vasoconstriction and ischaemia; it is only a rescue measure for impending herniation, not routine care."
+    },
+    {
+      "id": "mtr2_k02",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Sedation of the trauma patient",
+      "section_url": "",
+      "question": "Which of the following statements about sedation agents in ICU trauma patients are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Ketamine is the preferred first-line agent for prolonged ICU sedation in all haemodynamically unstable trauma patients because it lacks hepatic toxicity.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Dexmedetomidine reduces delirium risk with an RR of approximately 0.67 compared to other sedative agents.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Dexmedetomidine increases the risk of bradycardia approximately 2.4-fold and hypotension approximately 1.3-fold compared to other sedatives.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Sevoflurane was associated with increased rather than decreased mortality compared to propofol in the SESAR ARDS trial.",
+          "correct": true
+        }
+      ],
+      "explanation": "Ketamine has sympathomimetic benefits in haemodynamic instability but carries risks of cholestatic liver injury and uropathy with prolonged high-dose use — it is not universally safe for long-term sedation. Dexmedetomidine does reduce delirium (RR ~0.67) and also increases bradycardia and hypotension. The SESAR trial showed increased mortality with sevoflurane vs propofol in ARDS, reversing prior enthusiasm for inhaled ICU sedation."
+    },
+    {
+      "id": "mtr2_k03",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Respiratory Complications in the ICU After Major Trauma",
+      "section_url": "",
+      "question": "Which of the following statements about respiratory complications in ICU trauma patients are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Ventilator-associated pneumonia (VAP) is uncommon in trauma patients because their young age confers immune resilience against nosocomial infection.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Prone positioning for ARDS is safe and unrestricted in all trauma patients including those with unstable pelvic or spinal fractures.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Pulmonary contusions may evolve and worsen over 24–48 hours, predisposing to hypoxia and ARDS even in initially stable patients.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Rescue veno-venous ECMO is absolutely contraindicated in early trauma ARDS due to mandatory anticoagulation requirements.",
+          "correct": false
+        }
+      ],
+      "explanation": "VAP is the *most frequent* nosocomial infection in trauma patients, driven by impaired consciousness, rib fractures, and prolonged intubation. Prone positioning is relatively contraindicated in unstable spinal/pelvic fractures, not universally applicable. Pulmonary contusions do worsen over 24–48 hours. ECMO is *not absolutely contraindicated* in trauma ARDS — veno-venous ECMO may be considered for refractory hypoxaemia even in early trauma, including when anticoagulation has a relative contraindication."
+    },
+    {
+      "id": "mtr2_k04",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Rhabdomyolysis and Acute Kidney Injury After Trauma",
+      "section_url": "",
+      "question": "Which of the following statements about rhabdomyolysis and AKI after trauma are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "AKI occurs in approximately 20–40% of ICU trauma patients and is associated with significantly increased mortality.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Rhabdomyolysis is defined by a serum CK above 1,000 U/L combined with a positive urine dipstick for blood.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Urinary alkalinisation with bicarbonate is a firmly established standard-of-care intervention in traumatic rhabdomyolysis.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Aggressive volume resuscitation targeting urine output ≥200 mL/h is the primary intervention to prevent myoglobin-induced renal tubular obstruction.",
+          "correct": true
+        }
+      ],
+      "explanation": "AKI occurs in 20–40% of ICU trauma patients. Rhabdomyolysis is defined by CK >5,000 U/L (not 1,000), plus tea-coloured urine and elevated myoglobin. Urinary alkalinisation is *controversial* — not established standard of care. The mainstay is aggressive volume resuscitation targeting UO ≥200 mL/h to flush myoglobin from tubules and prevent cast formation."
+    },
+    {
+      "id": "mtr2_k05",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Infectious complications",
+      "section_url": "",
+      "question": "Which of the following statements about fracture-related infections and antibiotic management are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Open extremity fracture types I and II require Gram-positive coverage with a first-generation cephalosporin; type III requires additional Gram-negative coverage.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Non-operative closed facial fractures routinely require prophylactic antibiotics because of proximity to oral flora.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Implant removal combined with osteomyelitis treatment requires 6 weeks of total antibiotic therapy.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Antimicrobial therapy for contaminated open fractures should ideally begin within 3 hours of injury.",
+          "correct": true
+        }
+      ],
+      "explanation": "Type I–II open fractures → first-generation cephalosporin; Type III → cephalosporin + aminoglycoside (or equivalent GN coverage), started within 1 hour of injury. Non-operative closed facial fractures do NOT routinely require prophylactic antibiotics. Removal of implant with osteomyelitis requires 6 weeks; retention strategies require 12 weeks. Antimicrobial therapy for contaminated fractures should start as soon as possible and ideally within 3 hours."
+    },
+    {
+      "id": "mtr2_k06",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Timing of Surgical Interventions in ICU Trauma Patients",
+      "section_url": "",
+      "question": "Which of the following statements about surgical timing in ICU trauma patients are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The 'second hit' phenomenon refers to a surgery-triggered cytokine storm that can worsen ARDS and MODS in physiologically compromised patients.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "In TBI patients, non-vital orthopaedic surgery should be deferred until ICP is below 20 mmHg and CPP above 60–70 mmHg.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Early Total Care (ETC) — definitive fracture fixation within 24 hours — is appropriate regardless of haemodynamic status or associated injuries.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Spinal injuries can safely be deferred beyond 48 hours to allow full physiological recovery before any operative intervention.",
+          "correct": false
+        }
+      ],
+      "explanation": "The second hit phenomenon is the physiological rationale for damage control surgery. TBI thresholds for surgery (ICP <20, CPP >60–70) are correct. ETC is appropriate only for *stable* patients — it is contraindicated in haemodynamically unstable or physiologically compromised patients where DCO/PRISM is preferred. Spinal injuries should be stabilised within 24 hours regardless of neurological deficit to enable early physiotherapy and reduce pulmonary complications."
+    },
+    {
+      "id": "mtr2_k07",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "The complex trauma patient in the ICU beyond 48 hours",
+      "section_url": "",
+      "question": "Which of the following statements about multi-organ dysfunction and persistent critical illness after major trauma are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Multi-organ failure remains the most common late cause of ICU death in polytrauma patients because modern ICU support cannot prevent organ failure.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Polytrauma patients admitted to ICU are typically older adults with significant comorbidities whose frailty drives late mortality.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "PICS (Persistent Inflammation, Immunosuppression and Catabolism Syndrome) has increasingly replaced MOF as the dominant phenotype of chronic critical illness after severe trauma.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Daily sedation interruption is universally applicable in trauma ICU patients and should be attempted for all mechanically ventilated patients from day one.",
+          "correct": false
+        }
+      ],
+      "explanation": "Improvements in ICU care have made MOF less lethal; PICS — sustained catabolism, immunosuppression, and inflammation — is now the predominant chronic phenotype. Major polytrauma patients are often *young* with little comorbid disease, making persistent critical illness particularly impactful. Daily sedation interruption has variable applicability in trauma — TBI, severe agitation, or high vasopressor requirements may limit its use."
+    },
+    {
+      "id": "mtr2_a16",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Maxillofacial Trauma",
+      "section_url": "",
+      "question": "Which Le Fort fracture classification describes craniofacial separation, with fracture lines extending through the orbital floors, lateral orbital walls, AND the zygomatic arches, completely separating the midface from the cranial base?",
+      "options": [
+        "Le Fort III",
+        "Le Fort II — pyramidal fracture involving the nasal bones and orbital floors only",
+        "Le Fort I — horizontal maxillary fracture at the level of the piriform aperture",
+        "Panfacial fracture — requires involvement of the mandible in addition to Le Fort III criteria",
+        "Le Fort II-III combination — craniofacial separation always involves mandibular comminution"
+      ],
+      "correct": 0,
+      "explanation": "Le Fort III causes complete craniofacial separation: the fracture runs through the nasal bones, continues along the medial, floor, and lateral walls of the orbits, and crosses the zygomatic arches — structures NOT involved in Le Fort II. Le Fort I separates the palate from the maxilla (horizontal low fracture). Le Fort II (pyramidal) involves the nasal bones and orbits but spares the zygomatic arches. A panfacial fracture involves multiple levels including the mandible."
+    },
+    {
+      "id": "mtr2_a17",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Aortic Injuries in Trauma, Pathophysiology and Management",
+      "section_url": "",
+      "question": "Blunt thoracic aortic injury (BTAI) most commonly occurs at which anatomical site, and why?",
+      "options": [
+        "Ascending aorta at the aortic root — highest velocity blood column during deceleration",
+        "Aortic isthmus — just distal to the left subclavian artery, where shearing forces concentrate at a relatively fixed point",
+        "Descending thoracic aorta at the level of the diaphragm — transition from mobile to fixed segment",
+        "Aortic arch between the innominate and left carotid arteries — highest curvature stress point",
+        "Abdominal aorta below the renal arteries — site of maximal visceral traction during deceleration"
+      ],
+      "correct": 1,
+      "explanation": "BTAI typically occurs at the aortic isthmus, just distal to the left subclavian artery origin. This region is relatively fixed by the ligamentum arteriosum while the more mobile aortic arch continues to move during high-energy deceleration, concentrating shearing forces at this transition point. CT angiography is the gold standard for diagnosis; widened mediastinum on chest X-ray has low sensitivity."
+    },
+    {
+      "id": "mtr2_a18",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Aortic Injuries in Trauma, Pathophysiology and Management",
+      "section_url": "",
+      "question": "A patient sustains a Grade IV blunt thoracic aortic injury (free rupture) following a high-speed collision. Which management approach is recommended?",
+      "options": [
+        "Conservative management with strict blood pressure control and beta-blockade alone, as in Grade I–II",
+        "Urgent open thoracotomy and direct aortic repair — TEVAR is contraindicated in haemodynamic instability",
+        "Thoracic endovascular aortic repair (TEVAR) — now the preferred approach over open surgery for Grade III–IV",
+        "Hybrid aortic repair combining limited thoracotomy with endovascular stenting",
+        "Damage control resuscitation and pelvic packing, deferring aortic repair until the patient is physiologically normalised"
+      ],
+      "correct": 2,
+      "explanation": "BTAI Grade I–II (intimal tear, intramural haematoma) may be managed conservatively with blood pressure and heart rate control (beta-blockers). Grade III (pseudoaneurysm) and Grade IV (free rupture) require urgent repair due to rupture risk. TEVAR has replaced open surgery as the preferred technique due to lower perioperative morbidity and mortality, and can often be performed promptly without full physiological optimisation."
+    },
+    {
+      "id": "mtr2_a19",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Thoracic trauma",
+      "section_url": "",
+      "question": "Regarding the epidemiology and injury patterns of thoracic trauma, which statement is correct?",
+      "options": [
+        "Thoracic trauma accounts for approximately 10% of annual trauma cases and is rarely immediately life-threatening",
+        "Penetrating trauma is the most common mechanism of thoracic injury globally",
+        "Sternal fractures are the most frequent blunt thoracic injury, occurring in 60% of blunt chest trauma",
+        "Thoracic trauma accounts for 25% of annual trauma cases; rib fractures are the most common injury, representing 43% of blunt chest trauma",
+        "Pulmonary contusion is the most common injury in thoracic trauma, occurring in over 50% of cases"
+      ],
+      "correct": 3,
+      "explanation": "Thoracic trauma accounts for 25% of annual overall trauma cases and is the third most common cause of death after abdominal and head trauma. Rib fractures represent 43% of blunt thoracic injuries — the most common individual injury pattern. Blunt trauma is the most common overall mechanism. Secondary respiratory complications (atelectasis, pneumonia, ARDS) are the main cause of death in initially haemodynamically stable thoracic trauma patients."
+    },
+    {
+      "id": "mtr2_a20",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Thoracic trauma",
+      "section_url": "",
+      "question": "At what haemothorax volume is chest drainage recommended to prevent fibrothorax or empyema, and when is emergency thoracotomy indicated for ongoing haemothoracic bleeding?",
+      "options": [
+        "Drainage indicated for any haemothorax visible on CXR; thoracotomy if initial output >500 mL",
+        "Drainage indicated for haemothorax >200 mL; thoracotomy if initial output >800 mL",
+        "Drainage indicated for haemothorax >1000 mL; thoracotomy if persistent bleeding >300 mL/h over 2 hours",
+        "Drainage indicated for haemothorax >300 mL; thoracotomy if initial output >1000 mL or >150 mL/h",
+        "Drainage indicated for haemothorax >500 mL; thoracotomy if initial output >1500 mL or persistent bleeding >200 mL/h over 3 hours"
+      ],
+      "correct": 4,
+      "explanation": "Haemothorax drainage is recommended for volumes >500 mL to prevent fibrothorax (trapped haemothorax causing restrictive physiology) and empyema. Thoracotomy is indicated when initial chest drain output exceeds 1500 mL or bleeding continues at >200 mL/h for 3 consecutive hours, indicating a significant arterial or major vessel source unlikely to resolve spontaneously."
+    },
+    {
+      "id": "mtr2_a21",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Pelvic ring injury",
+      "section_url": "",
+      "question": "In the Young-Burgess classification of pelvic ring fractures, which mechanism produces a pattern of internal hemipelvic rotation with a DECREASE in true pelvic volume?",
+      "options": [
+        "Lateral compression (LC) — internal rotation of the hemipelvis compresses the pelvic volume",
+        "Anterior-posterior compression (APC) — external rotation widens the symphysis pubis",
+        "Vertical shear (VS) — cephalad displacement increases pelvic volume",
+        "Combined mechanism (CM) — two vectors produce unpredictable volume changes",
+        "APC-3 — complete SI joint disruption with rotation always decreases pelvic volume"
+      ],
+      "correct": 0,
+      "explanation": "Lateral compression (LC) injuries result from a lateral force causing internal rotation of the hemipelvis, which DECREASES true pelvic volume. In contrast, APC injuries cause external rotation and INCREASE pelvic volume — making APC-2 and APC-3 patterns more likely to cause massive retroperitoneal haemorrhage from diastasis and SI joint disruption. This distinction is clinically important: LC fractures may paradoxically benefit less from pelvic binders that further compress an already-reduced volume."
+    },
+    {
+      "id": "mtr2_a22",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Pelvic ring injury",
+      "section_url": "",
+      "question": "In the Tile/AO pelvic fracture classification, which feature distinguishes a Tile C injury from Tile B?",
+      "options": [
+        "Tile C injuries involve only anterior pelvic ring disruption; Tile B involves both rings",
+        "Tile C injuries have translational instability with complete disruption of ALL posterior osteoligamentous structures and the pelvic floor",
+        "Tile C injuries require surgical fixation; Tile B can always be managed conservatively",
+        "Tile C injuries are more likely to bleed than Tile B, as measured by haemotransfusion requirements",
+        "Tile C injuries involve the sacrum only; Tile B always involves the iliac wing"
+      ],
+      "correct": 1,
+      "explanation": "Tile B injuries have rotational instability with partially preserved posterior stability. Tile C injuries are fully translationally unstable — all posterior osteoligamentous structures (sacroiliac joint complex, sacrospinous and sacrotuberous ligaments) AND the pelvic floor are disrupted. This allows vertical and/or horizontal displacement of the hemipelvis and dramatically increases haemorrhagic risk. Neurological, urogenital, and vascular injuries are more common in Tile C."
+    },
+    {
+      "id": "mtr2_a23",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Pelvic ring injury",
+      "section_url": "",
+      "question": "The radiograph shows two AP pelvis X-rays of the same patient: one on the left and one on the right after an intervention. The left image shows marked widening of the pubic symphysis with bilateral pubic rami disruption. What type of injury does this represent, and what intervention produced the change seen on the right-hand image?",
+      "options": [
+        "Lateral compression fracture (Young-Burgess LC-2) — the change reflects realignment with intramedullary nailing",
+        "Vertical shear fracture — the change reflects transcondylar traction reducing the cephalad displacement",
+        "Anterior-posterior compression fracture (open book) — the symphyseal diastasis was reduced by application of a pelvic binder or circumferential compression device",
+        "Tile A stable injury — the asymmetry is artefactual; the change reflects patient repositioning",
+        "Complex perineal fracture — the change reflects laparotomy and preperitoneal packing reducing pelvic volume"
+      ],
+      "correct": 2,
+      "explanation": "Symphyseal diastasis with bilateral pubic rami fractures is the hallmark of an APC (anterior-posterior compression) open book injury, which increases true pelvic volume. Pelvic binders or circumferential sheet wraps (Seattle technique) applied at the level of the greater trochanters close the pelvic ring, reduce the retroperitoneal haematoma compartment, and tamponade venous bleeding. The right-hand image shows the characteristic reduction in symphyseal gap after binder application.",
+      "image": "images/img_6d9910f628.png"
+    },
+    {
+      "id": "mtr2_a24",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Pelvic ring injury",
+      "section_url": "",
+      "question": "A pelvic C-clamp (Ganz technique) is applied in the management of a complex pelvic ring injury. Which statement correctly describes the primary indication for pelvic C-clamp application?",
+      "options": [
+        "C-clamp is indicated for all Tile B and C fractures to enable early definitive fixation in a single-stage procedure",
+        "C-clamp provides sufficient stability to replace external fixation in all anteriorly unstable fractures",
+        "C-clamp is indicated whenever a sacral fracture is identified on CT regardless of haemodynamic status",
+        "The indication for C-clamp is haemodynamic instability — not fracture pattern — and it is effective for sacroiliac disruptions and sacral fractures when the iliac wing is intact",
+        "C-clamp reduces all sources of pelvic bleeding equally, including venous, osseous, and arterial haemorrhage"
+      ],
+      "correct": 3,
+      "explanation": "The C-clamp indication is *haemodynamic instability*, not a specific fracture classification. It acts by compressing the posterior pelvis (effective in sacroiliac disruptions and sacral fractures when the iliac wing is intact), reducing the retroperitoneal compartment volume and counteracting venous bleeding. It is NOT effective when the iliac wing is fractured. The clamp also provides access to the abdomen and groin for concurrent angiography or surgery — an advantage over sheet wrapping."
+    },
+    {
+      "id": "mtr2_a25",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Extremity injury",
+      "section_url": "",
+      "question": "In acute compartment syndrome of the leg, which clinical finding typically appears earliest and is most sensitive for detection of developing compartment hypertension?",
+      "options": [
+        "Pulselessness — absence of distal pulses indicates arterial compromise",
+        "Pallor — capillary refill >2 s with skin mottling",
+        "Paralysis — motor weakness indicating nerve ischaemia",
+        "Paraesthesia — numbness in the distribution of the affected nerve",
+        "Pain with passive stretch (Pain on Passive Stretch) — the most sensitive and earliest clinical sign"
+      ],
+      "correct": 4,
+      "explanation": "The 4 Ps of compartment syndrome are: Pain (particularly out of proportion to injury), Pain on Passive Stretch of muscles in the compartment, Paraesthesia, and Paresis/Paralysis. Pain on passive stretch (PPS) is typically the earliest and most sensitive sign. Pulselessness (the 5th P — Pulselessness) is a late sign indicating arterial compromise and impending limb loss. In the obtunded patient, intracompartmental pressure monitoring is mandatory: fasciotomy is indicated if ICP >30 mmHg or perfusion pressure <30 mmHg."
+    },
+    {
+      "id": "mtr2_a26",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Extremity injury",
+      "section_url": "",
+      "question": "In a polytrauma patient with suspected acute compartment syndrome of the forearm, which intracompartmental pressure measurements are accepted thresholds for fasciotomy?",
+      "options": [
+        "Intracompartmental pressure (ICP) >30 mmHg, OR muscle perfusion pressure (µPP = diastolic BP − ICP) <30 mmHg",
+        "ICP >20 mmHg regardless of systemic blood pressure",
+        "ICP >40 mmHg with concomitant clinical Ps (pain, paraesthesia, paresis)",
+        "ICP >50 mmHg with confirmed pulselessness on Doppler",
+        "ICP/systolic BP ratio >0.3 (30% of systolic pressure)"
+      ],
+      "correct": 0,
+      "explanation": "Fasciotomy is indicated when intracompartmental pressure (ICP) exceeds 30 mmHg, OR when muscle perfusion pressure (µPP = diastolic blood pressure − ICP) falls below 30 mmHg. The µPP threshold is especially important in hypotensive trauma patients, where ICP <30 mmHg can still cause compartment syndrome if diastolic BP is also low. In doubt or in the obtunded patient, direct pressure measurement and early fasciotomy are preferred over observation."
+    },
+    {
+      "id": "mtr2_a27",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Pelvic ring injury",
+      "section_url": "",
+      "question": "The angiographic images show two phases of an endovascular procedure: the left image labelled 'AVANT EMBOLISATION' and the right labelled 'APRÈS PROCEDURE'. What finding in the left image indicates the need for embolisation, and what has occurred in the right image?",
+      "options": [
+        "The left image shows complete arterial occlusion requiring thrombolysis; the right shows restored flow after tPA infusion",
+        "The left image shows an arterial blush (contrast extravasation) indicating active arterial haemorrhage; the right shows successful cessation of extravasation after coil or particle embolisation",
+        "The left image shows a pseudoaneurysm that was treated with covered stenting visible in the right image",
+        "The left image shows normal pelvic arterial anatomy; the right image shows deliberate occlusion of the internal iliac artery",
+        "The left image shows arteriovenous fistula formation; the right shows occlusion with N-butyl cyanoacrylate glue"
+      ],
+      "correct": 1,
+      "explanation": "An arterial blush (focal area of contrast extravasation beyond the vessel wall) on angiography indicates active arterial haemorrhage. After selective embolisation of the bleeding vessel — typically with resorbable material (recanalization in 6–12 hours) or permanent coils — the blush disappears as blood flow to the bleeding point is occluded. This is the standard endovascular approach for arterial pelvic haemorrhage from internal iliac branches.",
+      "image": "images/img_70556c3845.png"
+    },
+    {
+      "id": "mtr2_a28",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Extremity injury",
+      "section_url": "",
+      "question": "Fat embolism syndrome (FES) most classically presents with which clinical triad?",
+      "options": [
+        "Fever, haemoptysis, and unilateral leg swelling",
+        "Hypotension, bradycardia, and diffuse erythematous skin rash",
+        "Respiratory failure, neurological dysfunction (altered consciousness), and petechial rash (classically axillary/conjunctival)",
+        "Tachycardia, thrombocytopaenia, and anaemia",
+        "Chest pain, hypoxia, and elevated D-dimer (indistinguishable from pulmonary embolism)"
+      ],
+      "correct": 2,
+      "explanation": "The classic Gurd triad of fat embolism syndrome consists of: respiratory failure (ARDS-pattern, bilateral infiltrates on CXR/CT), neurological dysfunction (altered consciousness, confusion, agitation), and petechial rash — typically in the axillae, conjunctivae, and upper chest. FES typically appears 24–72 hours after long bone fractures (particularly femur) or reaming for intramedullary nailing. Early definitive fixation of long bone fractures reduces FES risk."
+    },
+    {
+      "id": "mtr2_a29",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Abdominal trauma",
+      "section_url": "",
+      "question": "A haemodynamically unstable patient sustains high-energy abdominal trauma. FAST ultrasound shows abundant intraperitoneal free fluid. According to the abdominal trauma management algorithm, what is the next step?",
+      "options": [
+        "Proceed to whole-body CT angiography to characterise the bleeding source before surgical planning",
+        "Perform diagnostic peritoneal lavage to quantify bleeding before deciding on operative management",
+        "Transfer immediately to interventional radiology for selective embolisation of abdominal vessels",
+        "Perform urgent laparotomy (damage control surgery) without delay for CT imaging",
+        "Administer two units of uncrossmatched packed RBCs and reassess haemodynamics before committing to surgery"
+      ],
+      "correct": 3,
+      "explanation": "In a haemodynamically unstable patient with abundant hemoperitoneum on FAST, the algorithm directs immediate urgent laparotomy (damage control surgery). CT imaging requires patient transfer and table time that is not acceptable in this scenario. CT is appropriate only for haemodynamically *stable* patients with active bleeding on imaging, who can undergo interventional radiology. FAST in this context serves as the decision trigger rather than a diagnostic tool for injury characterisation."
+    },
+    {
+      "id": "mtr2_a30",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Abdominal trauma",
+      "section_url": "",
+      "question": "In haemodynamically unstable trauma patients, the sensitivity of FAST ultrasound for detecting abdominal free fluid is significantly lower than in stable patients. What approximate sensitivity does FAST achieve in the shocked patient?",
+      "options": [
+        "90% — haemodynamic shock does not affect ultrasound image acquisition",
+        "80% — minor reduction due to suboptimal examination conditions",
+        "75% — caused by reduced organ Doppler signal in low-flow states",
+        "70% — equivalent to plain chest X-ray for thoracic injury detection",
+        "Approximately 62% — compared to ~90% in haemodynamically stable patients"
+      ],
+      "correct": 4,
+      "explanation": "FAST achieves approximately 90% sensitivity and 98% specificity for abdominal free fluid in haemodynamically stable patients. In shock, sensitivity drops to approximately 62% (specificity remains ~83%). This reduced sensitivity is clinically important: a negative FAST in a shocked trauma patient does NOT exclude significant intra-abdominal haemorrhage. In this setting, the clinical decision should be guided by the overall haemodynamic response rather than FAST result alone."
+    },
+    {
+      "id": "mtr2_a31",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Extremity injury",
+      "section_url": "",
+      "question": "The composite image shows findings from a trauma patient: a femoral fracture visible on day 0, skin petechiae on the chest wall on day 3, and CT chest on day 3 showing bilateral pulmonary infiltrates. What syndrome do these findings confirm, and when did it characteristically develop?",
+      "options": [
+        "Fat embolism syndrome — characteristically appearing 24–72 hours after the initial long bone fracture",
+        "Pulmonary embolism from deep vein thrombosis — characteristically developing after day 7",
+        "Hospital-acquired pneumonia (VAP) — consistent with the 48–72 hour post-intubation window",
+        "ARDS from direct pulmonary contusion — the delay reflects radiographic evolution of acute contusion",
+        "Sepsis-induced ARDS from wound infection — the skin findings reflect septic emboli"
+      ],
+      "correct": 0,
+      "explanation": "The triad of petechial rash (axillary/conjunctival/chest), bilateral pulmonary infiltrates, and neurological dysfunction appearing 24–72 hours after a long bone fracture is pathognomonic for fat embolism syndrome (FES). Lipid globules from bone marrow disruption embolise to the pulmonary circulation, causing mechanical obstruction and toxic injury to capillary endothelium. Early definitive fracture fixation and avoidance of unnecessary reaming reduce FES risk.",
+      "image": "images/img_d05e30f9d5.jpg"
+    },
+    {
+      "id": "mtr2_a32",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Pelvic ring injury",
+      "section_url": "",
+      "question": "The composite image shows three views of the same patient's pelvis: an AP X-ray on the left, a CT coronal reconstruction in the centre, and a 3D CT reconstruction on the right. The AP X-ray is subtly abnormal, but the CT views reveal extensive posterior ring disruption with vertical displacement of one hemipelvis. Which Tile fracture type does this represent, and which haemorrhage management strategy is most appropriate given haemodynamic instability?",
+      "options": [
+        "Tile B — rotationally unstable; pelvic binder is sufficient to achieve haemostasis",
+        "Tile C — completely unstable (translational); pelvic C-clamp, angioembolisation, or preperitoneal packing based on local protocol and haemodynamic response",
+        "Tile A — stable injury; observation and analgesia are appropriate",
+        "Tile B with associated acetabular fracture; early ORIF within 24 hours is the recommended approach",
+        "Tile C — haemorrhage is best controlled by urgent bilateral iliac artery ligation via laparotomy"
+      ],
+      "correct": 1,
+      "explanation": "Vertical displacement of a hemipelvis with disruption of all posterior osteoligamentous structures (visible on CT coronal and 3D reconstructions) defines a Tile C (Young-Burgess VS) injury — the most unstable pelvic ring fracture type with the highest risk of massive haemorrhage. AP X-ray often underestimates displacement. Management of haemodynamic instability follows a damage-control algorithm: pelvic binder or C-clamp to restore pelvic volume, followed by angioembolisation if arterial bleeding is confirmed, or preperitoneal packing if angiography is unavailable.",
+      "image": "images/img_86241e0c5f.png"
+    },
+    {
+      "id": "mtr2_a33",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Paediatric specificities",
+      "section_url": "",
+      "question": "In the initial assessment of a haemodynamically compromised paediatric trauma patient, which finding is the most sensitive early indicator of significant hypovolemia?",
+      "options": [
+        "Systolic blood pressure below age-appropriate thresholds — the most reliable early indicator",
+        "Central capillary refill time greater than 2 seconds — specific and sensitive for early shock",
+        "Tachycardia — the most sensitive early predictor, though susceptible to confounders such as pain and fear",
+        "Pallor and mottling — reliable visual indicators of poor cardiac output in all age groups",
+        "Glasgow Coma Scale below 13 — neurological deterioration indicates advanced shock in children"
+      ],
+      "correct": 2,
+      "explanation": "In children, the infant myocardium is stiff and cardiac output is heart-rate dependent, making tachycardia the most sensitive early sign of significant hypovolemia. However, tachycardia is also affected by pain, fear, and discomfort. Crucially, hypotension is a very late sign of circulatory failure in children — the capacity for vasoconstriction is significant and maintains blood pressure until cardiovascular collapse is imminent. A child with hypotension in trauma should be treated as impending cardiac arrest."
+    },
+    {
+      "id": "mtr2_a34",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Pre-hospital and initial management",
+      "section_url": "",
+      "question": "A 6-year-old child (20 kg) with severe polytrauma and haemorrhagic shock is being resuscitated. What is the correct tranexamic acid (TXA) dosing regimen?",
+      "options": [
+        "TXA 1 g IV bolus (fixed adult dose), administered within 3 hours of injury",
+        "TXA 500 mg IV bolus plus 500 mg infusion over 8 hours",
+        "TXA is contraindicated in children under 12 years of age",
+        "TXA 10 mg/kg (200 mg) IV fast bolus over at least 10 minutes, administered within 3 hours of injury, maximum 1 g",
+        "TXA 15 mg/kg IM as prehospital measure, repeat at 6 hours if ongoing haemorrhage"
+      ],
+      "correct": 3,
+      "explanation": "Paediatric TXA dosing is 10–15 mg/kg IV (max 1 g), administered as a fast bolus over at least 10 minutes within 3 hours of trauma — the same timing window as in adults. For this 20 kg child, the dose is 200–300 mg (capped at 1 g). The fixed adult dose of 1 g is not appropriate for small children. As in adults, TXA should be given early alongside blood products, calcium, and fibrinogen in the management of paediatric haemorrhagic shock."
+    },
+    {
+      "id": "mtr2_a35",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Paediatric specificities",
+      "section_url": "",
+      "question": "A paediatric trauma trainee proposes using a permissive hypotension strategy (target SBP 70–80 mmHg) in a 4-year-old child in haemorrhagic shock until haemostasis is achieved. Which statement correctly evaluates this approach?",
+      "options": [
+        "Permissive hypotension is appropriate in children over 2 years as their cerebrovascular autoregulation is mature",
+        "Permissive hypotension may be used in paediatric blunt trauma but is contraindicated in penetrating injury",
+        "Permissive hypotension targets are weight-adjusted in children: SBP target equals 70 + (2 × age in years)",
+        "Permissive hypotension is applicable for children over 8 years whose physiological reserves approximate adult parameters",
+        "Permissive hypotension is CONTRAINDICATED in children; physiological/near-physiological resuscitation goals should be targeted"
+      ],
+      "correct": 4,
+      "explanation": "Unlike adult trauma where permissive hypotension is an accepted strategy in uncontrolled haemorrhage (excluding TBI), it is explicitly contraindicated in children. Paediatric guidelines recommend targeting physiological or near-physiological resuscitation goals to maintain adequate tissue perfusion and oxygen delivery. The capacity for vasoconstriction in children masks shock until decompensation occurs suddenly. Blood products rather than crystalloids should be used to achieve these goals."
+    },
+    {
+      "id": "mtr2_k08",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Maxillofacial Trauma",
+      "section_url": "",
+      "question": "Which of the following statements about Le Fort fractures and maxillofacial trauma are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Le Fort II fractures cause craniofacial separation by extending through the zygomatic arches and fully detaching the midface from the skull base.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "All Le Fort fracture levels require anticipation of a difficult airway, and a competent airway provider should be immediately available.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Le Fort I produces palate-facial separation through a horizontal fracture at the level of the lower maxilla.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Pulsatile exophthalmos following facial trauma is a benign finding caused by periorbital oedema.",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Fort III (not Le Fort II) causes craniofacial separation involving the zygomatic arches. Le Fort II is pyramidal and extends through the orbits and nasal bones but spares the zygomatic arches. All Le Fort levels mandate anticipation of a difficult airway due to altered anatomy, bleeding, and swelling. Le Fort I is the horizontal maxillary fracture. Pulsatile exophthalmos indicates a carotid–cavernous fistula and is a serious vascular complication requiring urgent evaluation."
+    },
+    {
+      "id": "mtr2_k09",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Thoracic trauma",
+      "section_url": "",
+      "question": "Which of the following statements about thoracic trauma management are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Bilateral thoracostomy should be performed as a priority in traumatic cardiac arrest to exclude tension pneumothorax as a reversible cause.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Emergency thoracotomy is indicated when initial chest drain output exceeds 1500 mL or persistent bleeding exceeds 200 mL/h over 3 hours.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "CT scan is the first-line investigation in all thoracic trauma patients regardless of haemodynamic status.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Haemothorax drainage is recommended for volumes exceeding 500 mL to prevent fibrothorax and empyema formation.",
+          "correct": true
+        }
+      ],
+      "explanation": "Bilateral thoracostomy is indeed the priority in traumatic cardiac arrest. Emergency thoracotomy thresholds of 1500 mL initial output or >200 mL/h persistent bleeding are correct. CT is first-line in *haemodynamically stable* patients — in *unstable* patients, eFAST and CXR are used first; CT is deferred until stabilisation. Haemothorax >500 mL requires drainage."
+    },
+    {
+      "id": "mtr2_k10",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Aortic Injuries in Trauma, Pathophysiology and Management",
+      "section_url": "",
+      "question": "Which of the following statements about aortic injury in trauma are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Open surgical repair has lower perioperative morbidity and mortality than TEVAR for blunt thoracic aortic injury and remains the preferred approach.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Grade I and II BTAI (intimal tear and intramural haematoma) require urgent surgical repair within 6 hours to prevent progression to free rupture.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "A widened mediastinum on chest X-ray has high sensitivity for diagnosing BTAI and should be used to guide immediate operative management.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "CT angiography is the gold standard for diagnosing aortic injury in trauma, with high sensitivity and specificity.",
+          "correct": true
+        }
+      ],
+      "explanation": "TEVAR has *replaced* open surgery as the preferred approach due to lower perioperative morbidity and mortality — not the reverse. Grade I–II BTAI (intimal tear, intramural haematoma) are often managed *conservatively* with blood pressure control; it is Grade III–IV that require urgent repair. Widened mediastinum has *low* sensitivity for BTAI and should not guide operative management without CT angiography. CT angiography is the gold standard."
+    },
+    {
+      "id": "mtr2_k11",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Abdominal trauma",
+      "section_url": "",
+      "question": "Which of the following statements about abdominal trauma assessment and decision-making are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A haemodynamically unstable patient with abundant hemoperitoneum on FAST should proceed directly to urgent laparotomy without CT imaging.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "FAST has approximately 90% sensitivity for abdominal free fluid in both haemodynamically stable and haemodynamically unstable patients.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "In liver trauma, the patient's haemodynamic status — rather than the degree of organ injury (OIS grade) — dictates management strategy.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Damage control laparotomy should include definitive bowel anastomosis during the first operation to prevent abdominal sepsis.",
+          "correct": false
+        }
+      ],
+      "explanation": "Abundant hemoperitoneum in an unstable patient is an indication for direct laparotomy. FAST sensitivity drops from ~90% in stable patients to ~62% in haemodynamic shock. Liver trauma management is directed by haemodynamic status, not OIS grade — even high-grade injuries may be managed non-operatively if the patient is stable. Damage control laparotomy involves haemostasis and contamination control (stapling, not anastomosis); anastomosis is performed during the planned relook operation when physiology has normalised."
+    },
+    {
+      "id": "mtr2_k12",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Pelvic ring injury",
+      "section_url": "",
+      "question": "Which of the following statements about pelvic ring fracture classification and haemorrhagic risk are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Lateral compression (LC) injuries cause internal hemipelvic rotation, reducing true pelvic volume and generally producing less retroperitoneal haemorrhage than APC injuries.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Tile C injuries are translationally unstable due to complete disruption of all posterior osteoligamentous structures and the pelvic floor.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "APC-2 and APC-3 injuries are associated with increased arterial bleeding risk due to symphyseal diastasis and anterior sacroiliac joint disruption.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "The initial AP pelvic radiograph reliably excludes all posterior pelvic ring injuries and negates the need for CT in haemodynamically stable patients.",
+          "correct": false
+        }
+      ],
+      "explanation": "LC injuries compress and reduce pelvic volume, limiting haemorrhage expansion. Tile C is defined by complete translational instability. APC-2 and -3 have high haemorrhagic risk from posterior ligament disruption. However, the AP radiograph has significant limitations: posterior ring injuries, sacral fractures, and complex instability may be missed or underestimated. CT (with contrast if haemodynamically stable) is essential for complete characterisation and angioembolisation planning."
+    },
+    {
+      "id": "mtr2_k13",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Pelvic ring injury",
+      "section_url": "",
+      "question": "Which of the following statements about pelvic haemorrhage management are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Pelvic C-clamp is effective regardless of fracture pattern and can be applied even when the iliac wing is fractured.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Angioembolisation of internal iliac artery branches uses resorbable materials (recanalization in 6–12 hours) to allow future reperfusion.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "REBOA in Zone III is contraindicated for pelvic ring haemorrhage because it risks retrograde aortic dissection.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Pelvic packing (preperitoneal or retroperitoneal) can be combined with external fixation and angioembolisation in a complementary damage-control strategy.",
+          "correct": true
+        }
+      ],
+      "explanation": "The C-clamp is effective only when the iliac wing is intact — it does NOT work when the iliac wing is fractured. Angioembolisation for pelvic bleeding does use resorbable embolic material, allowing vessel recanalization after 6–12 hours. REBOA in Zone III (immediately above the aortic bifurcation) is a recognised bridging strategy for pelvic haemorrhage — the contraindication concern about retrograde dissection is not a standard guideline contraindication. Pelvic packing and angioembolisation are complementary techniques that can be combined."
+    },
+    {
+      "id": "mtr2_k14",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Extremity injury",
+      "section_url": "",
+      "question": "Which of the following statements about acute compartment syndrome (ACS) and extremity complications are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Fasciotomy is indicated when intracompartmental pressure exceeds 30 mmHg or when muscle perfusion pressure (diastolic BP − ICP) falls below 30 mmHg.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Pulselessness is the first clinical sign of compartment syndrome and mandates immediate fasciotomy before other Ps develop.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "In a haemodynamically stable patient, an ankle-brachial index (ABI) above 0.9 virtually excludes clinically significant vascular injury, making CT angiography unnecessary.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Fat embolism syndrome is most reliably prevented by delaying long bone fracture fixation for 5–7 days to allow fracture haematoma organisation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Fasciotomy thresholds (ICP >30 mmHg or µPP <30 mmHg) are correct. Pulselessness is a *late* sign of compartment syndrome, indicating arterial compression — by this stage irreversible ischaemia may have begun. The earliest sign is pain with passive stretch. An ABI below 0.9 has 87% sensitivity and 97% specificity for vascular injury; a *normal* ABI (>0.9) in the absence of hard and soft signs virtually excludes injury (negative LR 0.01), but CT angiography may still be required based on clinical context. Fat embolism is *prevented* by early (not delayed) long bone fracture fixation."
+    },
+    {
+      "id": "mtr2_k15",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Extremity injury",
+      "section_url": "",
+      "question": "Which of the following statements about fat embolism syndrome and venous thromboembolism in trauma are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Fat embolism syndrome typically develops within 6 hours of long bone fracture, distinguishing it from other early traumatic complications.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "The classic triad of fat embolism syndrome includes respiratory failure, neurological dysfunction, and petechial rash.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Pelvic fractures significantly increase thromboembolic risk, particularly during the post-operative period.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Resistance to low molecular weight heparins in ICU trauma patients is an uncommon phenomenon and does not require dose adjustment.",
+          "correct": false
+        }
+      ],
+      "explanation": "FES characteristically develops 24–72 hours after long bone fracture — not within 6 hours. The Gurd triad (respiratory failure, neurological dysfunction, petechial rash) is correct. Pelvic fractures do dramatically increase VTE risk, especially post-operatively. Resistance to LMWH is well-documented in severe trauma due to progressive antithrombin III deficiency, and may require monitoring of anti-Xa levels with dose adjustment or heparin switching."
+    },
+    {
+      "id": "mtr2_k16",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Pre-hospital and initial management",
+      "section_url": "",
+      "question": "Which of the following statements about paediatric trauma management are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Permissive hypotension targeting SBP 70–80 mmHg is an acceptable strategy in haemorrhagic shock for children over 5 years of age.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Tachycardia is the most sensitive early predictor of circulatory failure in children, as blood pressure may remain normal until decompensation is imminent.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Tranexamic acid in paediatric trauma is dosed at 10 mg/kg (maximum 1 g) administered within 3 hours of injury.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "In children with thoracic trauma, tension pneumothorax is particularly dangerous due to the high mobility of mediastinal structures.",
+          "correct": true
+        }
+      ],
+      "explanation": "Permissive hypotension is explicitly *contraindicated* in children — physiological resuscitation goals are targeted. Tachycardia is indeed the most sensitive early sign of hypovolemia in children; hypotension is a late and alarming finding. Paediatric TXA dosing (10 mg/kg max 1 g within 3 h) is correct. Mediastinal mobility in children makes tension pneumothorax rapidly fatal and is the most common life-threatening thoracic injury in the paediatric population."
+    },
+    {
+      "id": "mtr2_k17",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Communication with trauma patients and their families in ICU",
+      "section_url": "",
+      "question": "Which of the following statements about communicating with trauma patients and families in the ICU are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The SPIKE framework (Setup, Perception, Invitation, Knowledge, Emotions, Strategy) provides a structured approach to communicating bad news to trauma families.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Family meetings should be deferred until the trauma patient's prognosis is certain, as uncertainty may unnecessarily increase family distress.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Conflict between families and ICU teams about goals of care typically resolves spontaneously once factual medical information is provided.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Healthcare staff managing paediatric trauma — particularly non-accidental injury — should have access to structured post-event debriefings to mitigate secondary traumatic stress.",
+          "correct": true
+        }
+      ],
+      "explanation": "SPIKE is a validated bad news communication framework used in ICU. Family meetings should NOT be deferred until certainty — early, honest communication with acknowledgement of uncertainty is recommended; the TIME framework (Truth, Interval, Measurement, End or Extend) guides time-limited trial conversations. Conflict rarely resolves with facts alone — active listening, reframing, and sometimes mediation are required. Post-event debriefings are specifically recommended for paediatric trauma teams to prevent burnout."
+    }
+  ]
+}

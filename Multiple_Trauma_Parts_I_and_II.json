@@ -1,0 +1,1141 @@
+{
+  "module": "Multiple Trauma Parts I–II",
+  "sections": {
+    "Epidemiology": "Part I: Epidemiology, mechanisms and physiological impact of multiple trauma",
+    "Mechanisms of injury": "Part I: Blunt, penetrating, blast injury mechanisms",
+    "Physiological response to trauma": "Part I: Sympathetic surge, endotheliopathy (EoT), TIC, mitochondrial dysfunction, PICS",
+    "Definitions and mortality distribution": "Part I: Trauma mortality patterns, TBI vs haemorrhage",
+    "Trauma triage": "Part II: Prehospital and hospital triage, field triage criteria, TRENAU",
+    "Management principles": "Part II: xABCDE, ATMISTER, trauma team, eFAST, diagnostic workup",
+    "Patterns of organ failures": "Part II: Code RED/BLACK/BLUE, haemorrhagic shock, TBI, respiratory failure",
+    "Haemodynamic management": "Part II: Cardiac arrest, IV access, REBOA, permissive hypotension",
+    "Damage control strategy": "Part II: DCR, DCS, permissive hypotension, lethal triad",
+    "Haemostatic resuscitation": "Part II: TXA (CRASH-2), fibrinogen, FFP, platelets, viscoelastic testing, TIC phases"
+  },
+  "questions": [
+    {
+      "id": "mtr1_a01",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Epidemiology",
+      "section_url": "",
+      "question": "Road traffic injuries (RTIs) are classified as the leading cause of death in which age group, according to WHO data?",
+      "options": [
+        "Children aged 0–4 years, predominantly due to pedestrian injuries",
+        "Adults aged 30–50 years in low-income countries",
+        "Young people aged 5–29 years globally",
+        "Elderly adults aged 65–79 years due to road-related falls",
+        "Males of all ages in sub-Saharan Africa"
+      ],
+      "correct": 2,
+      "explanation": "RTIs kill more than 1.3 million people annually and represent the leading cause of death for people aged 5–29 years worldwide. Elderly falls and violence are significant contributors in other age groups, but neither displaces RTIs in this demographically dominant bracket."
+    },
+    {
+      "id": "mtr1_a02",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Definitions and mortality distribution",
+      "section_url": "",
+      "question": "Modern trauma registries have revised Trunkey's original trimodal mortality description. Which statement best characterises the current temporal distribution of trauma deaths?",
+      "options": [
+        "An equal distribution across three peaks at 0–1 h, 3–6 h, and 3–7 days",
+        "Predominantly late ICU deaths as haemorrhage control has improved",
+        "The majority of deaths now occur between 6 and 24 hours after injury",
+        "Approximately 50% of deaths occur within the first 2 hours, with the remainder distributed over subsequent days",
+        "Trauma mortality shows no temporal pattern in mature trauma systems"
+      ],
+      "correct": 3,
+      "explanation": "With improved haemorrhage control the immediate-death peak has decreased, but roughly 50% of trauma deaths still occur within the first 2 hours, 25–30% within 6 hours, and the remainder (often from organ failure or sepsis) in the following days. The classic trimodal model has largely given way to this bimodal or continuous distribution."
+    },
+    {
+      "id": "mtr1_a03",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Definitions and mortality distribution",
+      "section_url": "",
+      "question": "Among patients who die after severe trauma, which injury type accounts for the largest overall proportion of deaths?",
+      "options": [
+        "Traumatic brain injury",
+        "Uncontrolled haemorrhage",
+        "Acute respiratory failure",
+        "Abdominal visceral injury",
+        "Spinal cord injury with neurogenic shock"
+      ],
+      "correct": 0,
+      "explanation": "Traumatic brain injury is the leading overall cause of death in severe trauma. Haemorrhage follows, contributing to 20–30% of trauma deaths but is the leading *preventable* cause — most haemorrhagic deaths occur because of delays in diagnosis or control rather than irreversible injury."
+    },
+    {
+      "id": "mtr1_a04",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Definitions and mortality distribution",
+      "section_url": "",
+      "question": "A trauma quality-improvement committee reviews preventable deaths. Which cause is classified as the leading preventable cause of death in trauma?",
+      "options": [
+        "Traumatic brain injury — due to delayed neurosurgical intervention",
+        "Airway obstruction — due to failure to intubate prehospital",
+        "Venous thromboembolism — due to inadequate prophylaxis",
+        "Sepsis — due to contaminated wounds not débrided within 6 hours",
+        "Haemorrhage — due to delays in diagnosis or haemorrhage control"
+      ],
+      "correct": 4,
+      "explanation": "Haemorrhage is the leading *preventable* cause of trauma death, responsible for roughly 20–30% of all trauma deaths. Respiratory causes account for only ~10% of preventable deaths. Traumatic brain injury leads overall mortality but a far smaller fraction is preventable compared with haemorrhage."
+    },
+    {
+      "id": "mtr1_a05",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Mechanisms of injury",
+      "section_url": "",
+      "question": "A civilian sustains injuries from an improvised explosive device detonated nearby. He has bilateral tympanic membrane ruptures and pulmonary infiltrates on chest X-ray, with no visible external wounds. Which blast injury category explains these findings?",
+      "options": [
+        "Secondary blast injury — penetrating fragmentation wounds",
+        "Primary blast injury — barotrauma to air-containing structures from the pressure wave",
+        "Tertiary blast injury — blunt trauma from body displacement",
+        "Quaternary blast injury — thermal and inhalation injury",
+        "Combined mechanism — simultaneous primary and tertiary effects"
+      ],
+      "correct": 1,
+      "explanation": "Primary blast injury results from the shockwave (pressure wave) acting on air-filled structures. The lungs and eardrums are the organs most susceptible, causing blast lung (alveolar haemorrhage, bilateral infiltrates) and tympanic membrane rupture in the absence of external wounds. Secondary injury involves shrapnel penetration, tertiary involves body displacement, and quaternary includes burns and toxic inhalation."
+    },
+    {
+      "id": "mtr1_a06",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Physiological response to trauma",
+      "section_url": "",
+      "question": "A severely injured patient has a plasma syndecan-1 level of 65 ng/mL on arrival. What is the primary clinical implication of this elevated level?",
+      "options": [
+        "Syndecan-1 elevation above 40 ng/mL is a direct indication for emergency fresh frozen plasma infusion",
+        "Elevated syndecan-1 confirms the presence of disseminated intravascular coagulation",
+        "Elevated syndecan-1 (>40 ng/mL) is associated with a nearly threefold increased risk of subsequent sepsis",
+        "Syndecan-1 level directly correlates with ISS and should replace clinical scoring in triage",
+        "Syndecan-1 elevation identifies patients with concomitant traumatic brain injury requiring CT-head priority"
+      ],
+      "correct": 2,
+      "explanation": "Wei et al. demonstrated that syndecan-1 >40 ng/mL on admission carries an odds ratio of 2.94 (95% CI 1.53–5.66) for subsequent sepsis. Syndecan-1 is the backbone of the endothelial glycocalyx; its elevation reflects glycocalyx shedding and endotheliopathy of trauma. While early plasma may benefit these patients, the measurement alone does not mandate any single therapy."
+    },
+    {
+      "id": "mtr1_a07",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Physiological response to trauma",
+      "section_url": "",
+      "question": "A trauma intensivist explains to a trainee how trauma-induced coagulopathy (TIC) evolves over the first 24–48 hours. Which temporal sequence is correct?",
+      "options": [
+        "Fibrinolytic phenotype on initial presentation, progressively shifting to a prothrombotic state during ICU admission",
+        "Prothrombotic phenotype from the outset, transitioning to fibrinolytic after 12 hours",
+        "Persistently fibrinolytic throughout the first 72 hours regardless of resuscitation",
+        "Persistently prothrombotic from the moment of injury",
+        "No predictable temporal pattern — TIC phenotype depends entirely on mechanism of injury"
+      ],
+      "correct": 0,
+      "explanation": "The dominant phenotype of TIC at trauma bay presentation is fibrinolytic, driven by massive tPA release from Weibel-Palade bodies and protein C activation. As the patient is admitted to the ICU, fibrinolytic shutdown occurs (mediated by PAI-1 and NETs-bound elastases), giving way to a prothrombotic state that markedly raises VTE risk. This explains the dual threat: early haemorrhage from fibrinolysis and late thrombosis."
+    },
+    {
+      "id": "mtr1_a08",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Physiological response to trauma",
+      "section_url": "",
+      "question": "In trauma-induced coagulopathy, early dysregulated fibrinolysis is driven by overwhelming tissue plasminogen activator (tPA) release. Which cellular structure is the primary source of this tPA release?",
+      "options": [
+        "Hepatocytes releasing tPA in response to ischaemia-reperfusion",
+        "Activated platelets degranulating alpha-granule contents",
+        "Injured skeletal myocytes releasing contractile protein-bound tPA",
+        "Weibel-Palade bodies of endothelial cells",
+        "Neutrophil extracellular traps (NETs) releasing tPA-bound elastases"
+      ],
+      "correct": 3,
+      "explanation": "tPA is stored in endothelial Weibel-Palade bodies and is released in massive quantities in response to ischaemia-reperfusion and endothelial injury. Injured cerebral tissue also releases significant tPA. This overwhelms plasminogen activator inhibitor-1 (PAI-1), converts plasminogen to plasmin, and drives hyperfibrinolysis early in trauma. Platelet alpha-granules contain other coagulation factors but not tPA."
+    },
+    {
+      "id": "mtr1_a09",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Physiological response to trauma",
+      "section_url": "",
+      "question": "Severe trauma has been described by some authors as 'an acute acquired mitochondrial disease'. Which finding best supports this characterisation?",
+      "options": [
+        "Catecholamine-mediated glycocalyx shedding producing auto-heparinisation",
+        "Massive tPA release triggering systemic plasmin activation",
+        "Splanchnic hypoperfusion causing gut ischaemia and bacterial translocation",
+        "Endothelial calcium influx leading to junctional protein disassembly",
+        "Trauma-induced inflammation and hypoperfusion causing mitochondrial DNA release, dysfunctional respiratory chain, energy failure, and reactive oxygen species production"
+      ],
+      "correct": 4,
+      "explanation": "Trauma-induced hypoperfusion and inflammation damage the mitochondrial respiratory chain, impair DNA repair, cause cytochrome c release, and trigger ROS production. Mitochondrial DNA — which lacks histone protection and repair mechanisms — enters the systemic circulation as a DAMP, exacerbating remote organ injury. This constellation of findings supports framing severe trauma as an acute mitochondrial disease."
+    },
+    {
+      "id": "mtr1_a10",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Physiological response to trauma",
+      "section_url": "",
+      "question": "A 50-year-old man survives severe polytrauma. After four weeks in the ICU he remains mechanically ventilated, with persistent catabolism, immune suppression, and low-grade inflammation despite adequate source control. Which syndrome best describes this phenotype?",
+      "options": [
+        "Post-intensive care syndrome (PICS) — functional and cognitive deficits emerging after ICU discharge",
+        "Multi-organ failure with a classic bimodal peak at days 3–5 and days 10–14",
+        "Persistent Inflammation, Immunosuppression and Catabolism Syndrome (PICS), the dominant chronic critical illness phenotype after severe trauma",
+        "Compensatory anti-inflammatory response syndrome (CARS) resolving spontaneously within 48–72 hours",
+        "Late systemic inflammatory response syndrome (SIRS) driven by occult surgical site infection"
+      ],
+      "correct": 2,
+      "explanation": "PICS (Persistent Inflammation, Immunosuppression and Catabolism Syndrome) has increasingly replaced multi-organ failure as the dominant phenotype of chronic critical illness after severe trauma. As ICU techniques improve, patients survive the initial injury but enter a prolonged state of catabolism, immune suppression, and inflammation driven by CARS mediators (e.g. prostaglandin E2, annexin A1). Crucially, what separates survivors from non-survivors is not the magnitude of the biological storm but the time taken to resolve it."
+    },
+    {
+      "id": "mtr1_a11",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Physiological response to trauma",
+      "section_url": "",
+      "question": "Early fibrinogen supplementation in severe trauma may provide a dual therapeutic benefit beyond correcting hypofibrinogenaemia. What additional mechanism has been proposed?",
+      "options": [
+        "Fibrinogen directly inhibits tPA, reducing plasminogen activation and systemic fibrinolysis",
+        "Fibrinogen binds syndecan-1, stabilising the endothelial glycocalyx and reducing inter-endothelial permeability",
+        "Fibrinogen chelates ionised calcium, normalising coagulation enzyme function at physiological pH",
+        "Fibrinogen activates platelet thromboxane production, enhancing primary haemostasis and vasoconstriction",
+        "Fibrinogen replenishes antithrombin III via hepatic feedback, reducing thrombin generation"
+      ],
+      "correct": 1,
+      "explanation": "Fibrinogen interacts with syndecan-1 — the glycocalyx backbone — stabilising the endothelium and reducing inter-cell permeability. By binding to syndecan-1, fibrinogen also modulates sheddase gene expression and shields syndecan-1 cleavage sites. This dual action on both coagulopathy and endotheliopathy of trauma explains why early fibrinogen supplementation may be especially beneficial."
+    },
+    {
+      "id": "mtr1_a12",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Physiological response to trauma",
+      "section_url": "",
+      "question": "Acute traumatic coagulopathy (ATC) is most reliably detected when which combination of physiological and injury-severity parameters is present?",
+      "options": [
+        "Core temperature below 35°C combined with pH below 7.1",
+        "Platelet count below 100×10⁹/L with INR above 2.0",
+        "Active arterial bleeding on CT angiography combined with ISS above 30",
+        "Significant hypoperfusion (base deficit >6 mmol/L) combined with severe injury (ISS >15)",
+        "Fibrinogen below 1.0 g/L with aPTT prolonged to more than three times normal"
+      ],
+      "correct": 3,
+      "explanation": "Studies demonstrate that ATC develops when significant hypoperfusion (base deficit >6 mmol/L) coincides with severe injury (ISS >15). As shock severity increases, PT and INR rise and coagulation factors fall. In contrast, hypothermia is a contributor to resuscitation-related coagulopathy but is not the defining feature of ATC, which is endogenous and precedes resuscitation."
+    },
+    {
+      "id": "mtr1_a13",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Physiological response to trauma",
+      "section_url": "",
+      "question": "Shock-induced endotheliopathy (SHINE) in trauma is described as a heterogeneous syndrome. Which statement most accurately characterises SHINE phenotypes?",
+      "options": [
+        "All SHINE phenotypes are characterised by elevated syndecan-1 and respond equally to plasma therapy",
+        "SHINE is synonymous with disseminated intravascular coagulation and resolves with fibrinogen replacement",
+        "SHINE presents as at least four distinct phenotypes that are largely independent of syndecan-1 levels",
+        "SHINE has a single identifiable phenotype defined by elevated syndecan-1 and base excess below −6",
+        "SHINE phenotypes differ only in onset timing and carry equivalent clinical outcomes"
+      ],
+      "correct": 2,
+      "explanation": "SHINE in trauma is a heterogeneous syndrome with at least four distinct identified phenotypes that are largely independent of syndecan-1 levels. Measuring syndecan-1 alone is therefore insufficient to characterise the endothelial injury state. This heterogeneity may partly explain why prehospital plasma trials (PAMPER, RePHILL, SWIFT) have not definitively improved mortality despite biological plausibility."
+    },
+    {
+      "id": "mtr1_a14",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Physiological response to trauma",
+      "section_url": "",
+      "question": "The 'lethal triad' of trauma, associated with high mortality in haemorrhagic shock, consists of which combination?",
+      "options": [
+        "Hypoxia, hypotension, and hypothermia",
+        "Hyperfibrinolysis, platelet dysfunction, and hyponatraemia",
+        "Immunosuppression, persistent inflammation, and catabolism",
+        "Coagulopathy, metabolic acidosis, and hypothermia",
+        "Fluid overload, electrolyte imbalance, and ventilator-associated pneumonia"
+      ],
+      "correct": 3,
+      "explanation": "The lethal triad comprises coagulopathy, metabolic acidosis (from tissue hypoperfusion and lactate accumulation), and hypothermia. Each element worsens the others: acidosis impairs coagulation enzyme activity, hypothermia further reduces coagulation factor function, and coagulopathy prolongs haemorrhage and acidosis. Damage control resuscitation is specifically designed to reverse this triad."
+    },
+    {
+      "id": "mtr1_k01",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Introduction",
+      "section_url": "",
+      "question": "Which of the following statements about the global epidemiology of trauma are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Over 90% of injury-related deaths worldwide occur in low- and middle-income countries.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Road traffic injuries kill more than 1.3 million people annually and are the leading cause of death among those aged 5–29 years.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Haemorrhage is the leading preventable cause of death in severe trauma, typically owing to delays in diagnosis or control.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Trauma accounts for less than 5% of global mortality.",
+          "correct": false
+        }
+      ],
+      "explanation": "RTIs are the leading cause of death in people aged 5–29. Over 90% of injury deaths occur in LMICs. Haemorrhage is the leading *preventable* cause (20–30% of trauma deaths). Trauma accounts for approximately 9% of global mortality — a burden exceeding HIV/AIDS, tuberculosis, and malaria combined."
+    },
+    {
+      "id": "mtr1_k02",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Physiological response to trauma",
+      "section_url": "",
+      "question": "Which of the following statements about the physiological response to severe trauma are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Modern trauma systems have eliminated late ICU deaths after major injury, leaving only early prehospital deaths.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Sympathetic surge following severe trauma undermines physiological ventriculo-arterial coupling and may trigger splanchnic hypoperfusion.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Glycocalyx shedding exposes heparan sulfate and facilitates selective platelet adhesion only at sites of active vascular injury.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Endotheliopathy of trauma (EoT) develops within minutes of injury, making early plasma administration important for timely correction.",
+          "correct": true
+        }
+      ],
+      "explanation": "Modern systems have reduced early haemorrhage deaths, but 20% of trauma patients still die of late ICU complications (organ failure, sepsis). The sympathetic surge does cause ventriculo-arterial uncoupling and splanchnic ischaemia. Glycocalyx shedding exposes heparan sulfate but facilitates *non-specific* (not selective) adhesion of platelets and leukocytes throughout the microcirculation. EoT begins within minutes, supporting early plasma use."
+    },
+    {
+      "id": "mtr1_k03",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Physiological response to trauma",
+      "section_url": "",
+      "question": "Which of the following statements about endotheliopathy and glycocalyx are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Syndecan-1 is the backbone of the endothelial glycocalyx and a biomarker of endothelial injury in trauma.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Shock-induced endotheliopathy (SHINE) is a homogeneous syndrome with a single measurable phenotype defined solely by syndecan-1 level.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Fibrinogen may stabilise the endothelial glycocalyx by binding syndecan-1 and shielding its cleavage site.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Endotheliopathy of trauma reduces endothelial permeability, thereby limiting fluid extravasation into the interstitium.",
+          "correct": false
+        }
+      ],
+      "explanation": "Syndecan-1 is the standard biomarker of glycocalyx shedding. SHINE is heterogeneous with at least four distinct phenotypes largely independent of syndecan-1. Fibrinogen does bind syndecan-1, modulating sheddase expression and stabilising inter-endothelial junctions. Endotheliopathy *increases* (not decreases) transendothelial permeability, mediated by RhoA GTPase activation and calcium influx."
+    },
+    {
+      "id": "mtr1_k04",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Physiological response to trauma",
+      "section_url": "",
+      "question": "Which of the following statements about trauma-induced coagulopathy (TIC) are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Platelet exhaustion results from excessive endothelial release of tissue factor, platelet-activating factor, and von Willebrand factor.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "tPA released from Weibel-Palade bodies converts plasminogen to plasmin, driving early hyperfibrinolysis.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Venous thromboembolism risk decreases once trauma patients are admitted to the ICU due to the fibrinolytic shift.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Resistance to low molecular weight heparins in severe trauma patients may result from progressive antithrombin III deficiency.",
+          "correct": true
+        }
+      ],
+      "explanation": "Platelet exhaustion is driven by endothelial release of tissue factor, PAF, and VWF. tPA from Weibel-Palade bodies does activate plasmin and drive early fibrinolysis. However, VTE risk is *markedly increased* in the ICU phase — not decreased — because fibrinolytic shutdown (PAI-1 release, NETs elastases degrading plasminogen) combined with antithrombin deficiency renders patients highly prothrombotic and resistant to LMWH."
+    },
+    {
+      "id": "mtr1_k05",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Physiological response to trauma",
+      "section_url": "",
+      "question": "Which of the following statements about PICS and post-traumatic immune suppression are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "In PICS, patients who die differ from survivors primarily in the magnitude of the initial biological inflammatory storm.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "SAMPs (suppressing damage-associated molecular patterns) such as prostaglandin E2 amplify the pro-inflammatory response after trauma.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Severe trauma has been characterised by some authors as an acute acquired mitochondrial disease.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Monocyte HLA-DR expression is not clinically useful for predicting post-traumatic infectious complications.",
+          "correct": false
+        }
+      ],
+      "explanation": "What differentiates survivors from non-survivors in PICS is the *time taken to resolve* the biological storm, not its magnitude. SAMPs (prostaglandin E2, annexin A1) are anti-inflammatory mediators that *inhibit* rather than amplify immune responses, fuelling CARS. The mitochondrial disease framing is supported by evidence of mitochondrial respiratory chain dysfunction, ROS production, and mitochondrial DNA release after severe trauma. Monocyte HLA-DR expression is indeed clinically useful: a day-3:day-1 ratio below 1.2 independently predicts sepsis with 88% sensitivity."
+    },
+    {
+      "id": "mtr1_k06",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Mechanisms of injury",
+      "section_url": "",
+      "question": "Which of the following statements about trauma systems and mechanisms of injury are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The NSCOT study demonstrated a 25% reduction in mortality when severely injured patients were treated in designated trauma centres versus non-trauma hospitals.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Blast injuries can cause life-threatening pneumothorax, air embolism, and gastrointestinal rupture even without external visible wounds.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Trauma registries such as TARN function primarily as billing and insurance databases rather than quality improvement tools.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Falls from height are currently the leading mechanism of injury-related death globally across all age groups.",
+          "correct": false
+        }
+      ],
+      "explanation": "NSCOT confirmed a 25% mortality reduction in trauma centres. Primary blast injury can cause pneumothorax, air embolism, and bowel rupture through barotrauma with no external skin disruption. TARN and similar registries (NTDB, Traumabase) are quality improvement and benchmarking tools. Road traffic injuries — not falls — are the leading mechanism of injury-related death globally."
+    },
+    {
+      "id": "mtr1_a15",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Trauma triage",
+      "section_url": "",
+      "question": "A prehospital provider assesses a 35-year-old cyclist struck by a car. He follows simple commands, has a respiratory rate of 22/min, SpO₂ of 96%, and a systolic BP of 104 mmHg. His GCS motor score is 4 (withdraws to pain). According to the 2021 National Field Triage guidelines, which single physiological finding qualifies this patient as RED-level?",
+      "options": [
+        "Respiratory rate of 22/min exceeds the upper threshold of >20",
+        "SpO₂ of 96% is below the critical threshold of <90%",
+        "GCS motor score of 4 is below the RED threshold of <6",
+        "Systolic BP of 104 mmHg meets the age-adjusted hypotension criterion",
+        "No single parameter qualifies; RED requires two physiological criteria simultaneously"
+      ],
+      "correct": 2,
+      "explanation": "The 2021 field triage guidelines classify a patient as RED if GCS motor score is <6, RR <10 or >29, SpO₂ <90%, or hypotension by age-adjusted SBP thresholds. A GCS motor score of 4 (withdrawal to pain) is below the threshold of 6 and alone qualifies the patient as RED, directing transport to the highest-level trauma centre. A single qualifying criterion is sufficient."
+    },
+    {
+      "id": "mtr1_a16",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Management principles",
+      "section_url": "",
+      "question": "During the primary survey of a multiply injured patient, the 'X' in the xABCDE algorithm refers to which intervention?",
+      "options": [
+        "Exposure — removing clothing for complete examination while preventing hypothermia",
+        "Extended assessment — performing the secondary survey for hidden injuries",
+        "Endotracheal intubation — securing the airway as the immediate priority",
+        "Control of external exsanguinating haemorrhage — using tourniquets, wound packing, or direct pressure",
+        "X-ray — obtaining a portable chest and pelvic radiograph to guide priorities"
+      ],
+      "correct": 3,
+      "explanation": "In the modified ATLS xABCDE framework, 'X' stands for control of eXternal exsanguinating haemorrhage. This precedes airway management because uncontrolled external bleeding can be immediately life-threatening and is often amenable to rapid haemostatic measures (tourniquets, wound packing with haemostatic dressings, junctional haemorrhage control devices). Exposure ('E') and secondary survey are later steps."
+    },
+    {
+      "id": "mtr1_a17",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Management principles",
+      "section_url": "",
+      "question": "The ATMISTER mnemonic for structured trauma handover extends the basic MIST format. Which additional elements does ATMISTER include that are NOT present in MIST?",
+      "options": [
+        "Age, Treatment plan, and clinical Requirements",
+        "Age, Estimated arrival time, and Requirements",
+        "Time of injury and Estimated arrival time only",
+        "Age only — MIST already includes Time, Mechanism, Injuries, Signs",
+        "Requirements and Estimated arrival time — Age is already embedded in MIST"
+      ],
+      "correct": 1,
+      "explanation": "MIST covers Mechanism, Injuries, Signs, and Treatment received. ATMISTER extends this to include Age, Time of injury, Mechanism, Injuries, Signs, Treatment received, Estimated arrival time, and Requirements. The additional elements (Age, Estimated arrival time, Requirements) allow the receiving team to prepare resources and anticipate needs before the patient arrives."
+    },
+    {
+      "id": "mtr1_a18",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Patterns of organ failures",
+      "section_url": "",
+      "question": "A patient arrives at the trauma bay with systolic BP 82 mmHg, shock index 1.4, Hb 10.8 g/dL, and lactate 3.8 mmol/L. Which organ failure code pattern do these parameters trigger?",
+      "options": [
+        "Code RED — circulatory shock pattern",
+        "Code BLACK — neurological failure pattern",
+        "Code BLUE — respiratory failure pattern",
+        "Combined RED-BLACK overlap — requiring simultaneous haemorrhage and TBI pathways",
+        "No code is triggered; standard ATLS protocol applies"
+      ],
+      "correct": 0,
+      "explanation": "Code RED criteria are: systolic BP <90 mmHg, shock index >1.2, Hb <12 g/dL, and lactate >3 mmol/L. This patient meets all four. Code BLACK requires GCS <13 or motor <6, abnormal pupil, or pathological TCD findings. Code BLUE requires RR >30, SpO₂ <92%, or O₂ requirement >10 L/min. The clinical data here indicate isolated Code RED (circulatory failure)."
+    },
+    {
+      "id": "mtr1_a19",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Haemodynamic management",
+      "section_url": "",
+      "question": "In the initial management of a haemodynamically unstable trauma patient WITHOUT suspected traumatic brain injury, what is the recommended systolic blood pressure target during permissive hypotension according to European guidelines?",
+      "options": [
+        "60–70 mmHg — minimise perfusion pressure to allow clot formation",
+        "70–80 mmHg — conservative balance between organ perfusion and bleeding",
+        "90–100 mmHg — near-normal to prevent end-organ ischaemia",
+        "100–110 mmHg — the threshold recommended for penetrating abdominal trauma",
+        "80–90 mmHg — the European guideline target until major bleeding is controlled"
+      ],
+      "correct": 4,
+      "explanation": "European guidelines (6th edition) recommend a target systolic BP of 80–90 mmHg in haemorrhagic shock without TBI during the pre-haemostasis phase. A MAP target of 60–65 mmHg is sometimes used equivalently. The goal is to allow adequate organ perfusion while avoiding pressures that disrupt clot formation. In TBI, a higher SBP (>110 mmHg or MAP ≥80 mmHg) must be maintained to preserve cerebral perfusion pressure."
+    },
+    {
+      "id": "mtr1_a20",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Patterns of organ failures",
+      "section_url": "",
+      "question": "A 29-year-old man sustains severe blunt head and abdominal trauma with a GCS of 6 and bilateral reactive pupils. He is in haemorrhagic shock. European guidelines recommend which minimum MAP target in the presence of severe TBI (GCS ≤8)?",
+      "options": [
+        "MAP ≥50 mmHg — sufficient once ICP is controlled surgically",
+        "MAP ≥65 mmHg — the standard critical care septic shock threshold is adequate for TBI",
+        "MAP ≥80 mmHg — the European guideline minimum for severe TBI",
+        "MAP ≥90 mmHg — the recommended threshold to avoid all secondary ischaemic injury",
+        "MAP is not a useful target in TBI; SBP >100 mmHg should be targeted instead"
+      ],
+      "correct": 2,
+      "explanation": "European guidelines recommend maintaining MAP ≥80 mmHg in patients with severe TBI (GCS ≤8) because CPP = MAP − ICP, and inadequate MAP reduces cerebral perfusion pressure. The standard critical care threshold of MAP ≥65 mmHg is insufficient for TBI. The recommended SBP equivalent in the same guidelines is typically ≥100–110 mmHg. This higher MAP target must be maintained alongside permissive hypotension strategies for the non-TBI injuries."
+    },
+    {
+      "id": "mtr1_a21",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Haemodynamic management",
+      "section_url": "",
+      "question": "A trauma team is considering REBOA for a haemodynamically unstable patient with suspected pelvic haemorrhage and impending cardiac arrest. Which statement best reflects the ERC 2025 position on REBOA in traumatic cardiac arrest?",
+      "options": [
+        "REBOA should be used as the first-line aortic occlusion intervention before bilateral thoracostomy in traumatic arrest",
+        "The ERC 2025 guidelines upgrade REBOA to a Class I recommendation for non-compressible torso haemorrhage",
+        "REBOA has replaced resuscitative thoracotomy as the preferred aortic occlusion strategy in all trauma centres",
+        "REBOA is de-emphasised and no longer included in the ERC traumatic cardiac arrest algorithm; it is not recommended outside clinical trials due to signals of potential harm",
+        "REBOA is recommended in Zone III for pelvic haemorrhage as a definitive rather than bridging intervention"
+      ],
+      "correct": 3,
+      "explanation": "The ERC 2025 guidelines explicitly de-emphasise REBOA and removed it from the traumatic cardiac arrest algorithm. The UK-REBOA randomised trial signalled potential increased mortality. REBOA should therefore only be used in highly selected patients within systems with established protocols and expert operators, and must be followed immediately by definitive haemorrhage control. Bilateral thoracostomy remains the priority intervention for obstructive causes."
+    },
+    {
+      "id": "mtr1_a22",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Haemodynamic management",
+      "section_url": "",
+      "question": "A patient arrives in traumatic cardiac arrest after a road traffic collision. External haemorrhage has been controlled. Which intervention should be performed as the highest priority, alongside or before chest compressions?",
+      "options": [
+        "Immediate intraosseous access and adrenaline administration to restore cardiac output",
+        "Bilateral finger thoracostomy to decompress tension pneumothorax as a reversible cause",
+        "Emergency clamshell thoracotomy to allow open cardiac massage and aortic cross-clamping",
+        "Rapid sequence induction and endotracheal intubation to secure the airway",
+        "Intravenous tranexamic acid 1 g bolus and early whole-blood transfusion"
+      ],
+      "correct": 1,
+      "explanation": "In traumatic cardiac arrest, bilateral finger thoracostomy is a priority because tension pneumothorax is a leading reversible cause and standard external decompression sites may fail in ventilated patients. Chest compressions should not delay this intervention. ERC 2025 guidelines emphasise simultaneous treatment of reversible causes: haemorrhage, tension pneumothorax, haemothorax, and cardiac tamponade. Adrenaline and advanced airway management are lower-priority until these causes are addressed."
+    },
+    {
+      "id": "mtr1_a23",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Management principles",
+      "section_url": "",
+      "question": "An eFAST examination is performed in the trauma bay. Which statement most accurately describes eFAST diagnostic performance for pneumothorax versus chest X-ray?",
+      "options": [
+        "eFAST has 47% sensitivity for pneumothorax — equivalent to chest X-ray",
+        "Chest X-ray has 91% sensitivity for pneumothorax; eFAST is less reliable",
+        "eFAST has 62% sensitivity for pneumothorax — useful only in haemodynamically unstable patients",
+        "Both modalities have comparable 90% sensitivity and are interchangeable in stable patients",
+        "eFAST has approximately 91% sensitivity and 99% specificity for pneumothorax, substantially outperforming chest X-ray"
+      ],
+      "correct": 4,
+      "explanation": "Chest X-ray has only 47% sensitivity (95% CI 31–63%) but 100% specificity for pneumothorax. eFAST achieves approximately 91% sensitivity and 99% specificity. This makes eFAST the preferred first-line imaging tool in the trauma bay for pleural pathology, particularly in rapidly deteriorating patients. For abdominal free fluid, eFAST sensitivity is approximately 90% in stable patients but drops to ~62% in haemodynamic shock."
+    },
+    {
+      "id": "mtr1_a24",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Haemostatic resuscitation",
+      "section_url": "",
+      "question": "A patient is in haemorrhagic shock after high-energy blunt trauma. The clock shows the injury occurred 85 minutes ago. Which tranexamic acid regimen is consistent with European guidelines and CRASH-2 evidence?",
+      "options": [
+        "1 g IV bolus within 3 hours of injury, followed by 1 g IV infusion over the next 8 hours",
+        "TXA is only indicated in penetrating trauma; blunt injury does not benefit",
+        "TXA 2 g IV immediately on presentation regardless of time since injury",
+        "TXA 500 mg IV over 30 minutes; repeat every 6 hours for up to 24 hours",
+        "TXA is contraindicated once fibrinolysis is detected on viscoelastic testing"
+      ],
+      "correct": 0,
+      "explanation": "CRASH-2 established the regimen of TXA 1 g IV bolus (over 10 minutes) within 3 hours of injury, followed by 1 g IV infusion over the next 8 hours. At 85 minutes post-injury this patient is well within the 3-hour window. Administration within the first hour provides the greatest reduction in bleeding mortality (2.5%). TXA is beneficial in all major trauma regardless of mechanism."
+    },
+    {
+      "id": "mtr1_a25",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Haemostatic resuscitation",
+      "section_url": "",
+      "question": "According to CRASH-2 trial data, what is the reduction in risk of death specifically due to bleeding when tranexamic acid is administered within 1 hour of injury?",
+      "options": [
+        "2.5% reduction in bleeding mortality with early TXA (≤1 h)",
+        "0.5% reduction in bleeding mortality with early TXA (≤1 h)",
+        "5.0% reduction in bleeding mortality with early TXA (≤1 h)",
+        "1.5% reduction in bleeding mortality — the same as for all TXA administration regardless of timing",
+        "0.8% reduction in bleeding mortality; timing does not affect the magnitude of benefit"
+      ],
+      "correct": 0,
+      "explanation": "CRASH-2 showed: overall all-cause mortality reduced by 1.5% with TXA; death due to bleeding reduced by 0.8% across all TXA recipients. However, for early TXA (administered within 1 hour of injury), the reduction in bleeding mortality was 2.5% — approximately three times greater than with later administration. TXA given after 3 hours may paradoxically increase bleeding mortality."
+    },
+    {
+      "id": "mtr1_a26",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Haemostatic resuscitation",
+      "section_url": "",
+      "question": "A severely injured patient in haemorrhagic shock arrives with pending fibrinogen levels. Empiric fibrinogen supplementation is being considered. Which fibrinogen threshold and initial dose are consistent with European guidelines for early haemostatic resuscitation?",
+      "options": [
+        "Fibrinogen <2.5 g/L warrants supplementation; initial empiric dose is 8 g",
+        "Fibrinogen <1.0 g/L warrants supplementation; initial dose is 1 g",
+        "Fibrinogen <2.0 g/L warrants supplementation; initial dose is 6 g with viscoelastic guidance mandatory before any further dosing",
+        "Fibrinogen <1.5 g/L warrants supplementation; initial empiric dose is 2–4 g",
+        "Fibrinogen should only be supplemented after viscoelastic confirmation of deficit — empiric treatment is contraindicated"
+      ],
+      "correct": 3,
+      "explanation": "European guidelines recommend supplementation when fibrinogen falls below 1.5–2.0 g/L, with an initial empiric dose of 2–4 g (fibrinogen concentrate or cryoprecipitate). Fibrinogen is the coagulation protein with the highest plasma concentration and is low (<1.5 g/L) in 41% of trauma patients who are hypotensive on admission and in >70% of those with Hb <100 g/L. Repeat dosing should be guided by viscoelastic tests."
+    },
+    {
+      "id": "mtr1_a27",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Haemostatic resuscitation",
+      "section_url": "",
+      "question": "During further haemostatic resuscitation of a bleeding trauma patient, what haemoglobin range should be targeted once coagulation monitoring is available?",
+      "options": [
+        "Hb 6–8 g/dL — permissive anaemia to minimise transfusion burden",
+        "Hb 8–10 g/dL",
+        "Hb 10–12 g/dL — near-normal to maximise oxygen delivery during the catabolic stress response",
+        "Hb >12 g/dL — trauma patients require aggressive normalisation of haemoglobin",
+        "No specific Hb target; transfusion should be guided entirely by serum lactate regardless of haemoglobin"
+      ],
+      "correct": 1,
+      "explanation": "European guidelines recommend maintaining Hb 8–10 g/dL in bleeding trauma patients. Values below 8 g/dL risk inadequate oxygen delivery in the context of haemodynamic instability and metabolic stress. Targeting Hb >10 g/dL has not been shown to improve outcomes and risks transfusion-related complications. The threshold should always be interpreted alongside haemodynamic variables and viscoelastic data."
+    },
+    {
+      "id": "mtr1_a28",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Patterns of organ failures",
+      "section_url": "",
+      "question": "A ventilated polytrauma patient develops acute haemodynamic deterioration with absent breath sounds on the left. Tension pneumothorax is suspected. Where should immediate finger thoracostomy be performed?",
+      "options": [
+        "2nd intercostal space, midclavicular line — the traditional landmark for needle decompression",
+        "6th intercostal space, posterior axillary line — avoids subcutaneous tissue and rib",
+        "2nd intercostal space, anterior axillary line",
+        "4th intercostal space, midclavicular line — reduces risk of cardiac puncture",
+        "4th–5th intercostal space, anterior axillary line — the guideline-recommended site for thoracostomy"
+      ],
+      "correct": 4,
+      "explanation": "Current guidelines recommend finger thoracostomy at the 4th–5th intercostal space on the anterior axillary line (above the inferior rib). Chest wall thickness is thinnest here, achieving the lowest decompression failure rate (~13%). The 2nd ICS midclavicular line is associated with high failure rates (~50%) due to chest wall thickness, particularly in obese or well-muscled patients. Needle decompression should not delay thoracostomy."
+    },
+    {
+      "id": "mtr1_a29",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Damage control strategy",
+      "section_url": "",
+      "question": "Which of the following is the most widely used clinical definition of massive transfusion in adult trauma?",
+      "options": [
+        "Transfusion of ≥5 units of packed RBCs within the first 12 hours of admission",
+        "Transfusion of ≥4 units of packed RBCs in 1 hour with anticipated continued need",
+        "Transfusion of ≥10 units of packed RBCs within 24 hours",
+        "Replacement of 100% of the estimated blood volume within 6 hours",
+        "Any transfusion exceeding 2 L of combined blood products in the first hour"
+      ],
+      "correct": 2,
+      "explanation": "The most widely used definition is transfusion of ≥10 units of packed RBCs within 24 hours, which approximates the total blood volume of an average adult. Alternative definitions include ≥4 units in 1 hour with anticipated ongoing need, or 50% total blood volume replacement within 3 hours. Prediction tools (TASH, ABC score, Red Flag score) help identify likely massive transfusion candidates early."
+    },
+    {
+      "id": "mtr1_a30",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Haemodynamic management",
+      "section_url": "",
+      "question": "A trauma nurse asks why large-bore central venous catheters are not recommended as the primary access for rapid volume resuscitation. Which physical principle best explains this limitation?",
+      "options": [
+        "According to the Hagen-Poiseuille law, resistance to flow increases proportionally with catheter length, making long CVCs slower than short wide peripheral cannulas for rapid infusion",
+        "Central catheters require heparin flushing which interferes with viscoelastic coagulation monitoring",
+        "Central catheters cannot deliver blood products without co-administration of a warming device",
+        "Central line placement requires a sterile time-out that delays resuscitation by a mean of 30 minutes",
+        "Subclavian CVCs are associated with an unacceptable 20% pneumothorax rate in coagulopathic patients"
+      ],
+      "correct": 0,
+      "explanation": "The Hagen-Poiseuille law states that flow rate is proportional to the fourth power of radius and inversely proportional to length. A standard 14G × 4.5 cm peripheral IV cannula allows substantially faster flow than a longer, narrower central venous catheter despite similar lumen diameter. The femoral route is the preferred central access site in trauma if central access is needed, as it avoids pneumothorax risk and femoral vessels remain patent even in low-flow states. Norepinephrine up to 2 mg/h is safe via peripheral IV."
+    },
+    {
+      "id": "mtr1_a31",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Haemodynamic management",
+      "section_url": "",
+      "question": "A 62-year-old woman is in haemorrhagic shock after a high-energy collision. Pelvic X-ray has NOT yet been obtained. Should a pelvic binder be applied?",
+      "options": [
+        "No — pelvic binders must only be applied after radiological confirmation of pelvic ring fracture",
+        "Yes — a pelvic binder should be applied in any patient in shock, even without confirmed pelvic fracture, to reduce venous haemorrhage",
+        "No — in isolated haemorrhagic shock without pelvic instability on examination a binder is contraindicated",
+        "Yes — but only if FAST ultrasound demonstrates hemoperitoneum suggesting pelvic vascular injury",
+        "Yes — but only after CT angiography confirms absence of intraperitoneal bleeding"
+      ],
+      "correct": 1,
+      "explanation": "Guidelines recommend applying a pelvic binder in any patient in haemorrhagic shock even without radiological confirmation of pelvic fracture. The binder compresses the retroperitoneal space, reduces fracture motion, and limits venous bleeding. Waiting for imaging risks ongoing haemorrhage. The binder should be positioned at the level of the greater trochanters (not the iliac crests, which risks bowel compression)."
+    },
+    {
+      "id": "mtr1_a32",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Damage control strategy",
+      "section_url": "",
+      "question": "Damage control surgery (DCS) is selected over definitive surgery in which clinical scenario?",
+      "options": [
+        "Any abdominal trauma with suspected hollow viscus injury, regardless of haemodynamic status",
+        "All penetrating thoracoabdominal injuries requiring operative intervention",
+        "Polytrauma patients with ISS >16 who are haemodynamically normal at presentation",
+        "Any patient with coagulopathy alone, before resuscitation in the ICU",
+        "Patients with limited physiological reserve and rapid circulatory and metabolic failure (haemorrhagic shock, coagulopathy, acidosis, hypothermia) who cannot tolerate prolonged definitive repair"
+      ],
+      "correct": 4,
+      "explanation": "DCS applies to a subset of patients with rapid physiological deterioration — the lethal triad of coagulopathy, acidosis, and hypothermia — who are unlikely to survive prolonged surgery. Short targeted procedures (packing, vascular shunting, temporary bowel closure) restore physiology. Definitive repair is deferred to a planned return to theatre after ICU stabilisation. DCS should be a multidisciplinary decision with clear predefined objectives, not applied universally."
+    },
+    {
+      "id": "mtr1_a33",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Haemostatic resuscitation",
+      "section_url": "",
+      "question": "A trauma patient presents 4 hours after injury with ongoing haemorrhage. A colleague proposes administering tranexamic acid. Which statement most accurately reflects current evidence on TXA administration at this time point?",
+      "options": [
+        "TXA remains beneficial after 3 hours provided fibrinolysis is confirmed on viscoelastic testing",
+        "Administering TXA more than 3 hours after injury is NOT recommended and may increase the risk of death from bleeding",
+        "TXA should be given routinely regardless of time since injury as long as haemorrhage is ongoing",
+        "TXA beyond 3 hours is safe but provides no mortality benefit and can be used at clinical discretion",
+        "TXA is contraindicated after 3 hours only in penetrating trauma; blunt trauma remains an indication"
+      ],
+      "correct": 1,
+      "explanation": "CRASH-2 data show that TXA beyond 3 hours of injury may paradoxically *increase* the risk of death from bleeding, likely because fibrinolysis has resolved by this point and TXA promotes a prothrombotic state without haemostatic benefit. European guidelines therefore specify that TXA should be administered within 3 hours of injury. This 3-hour window is a hard cut-off, not a preference."
+    },
+    {
+      "id": "mtr1_a34",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Patterns of organ failures",
+      "section_url": "",
+      "question": "Following endotracheal intubation of a 24-year-old with severe TBI and GCS 6, EtCO₂ monitoring is commenced. What target is recommended to maintain adequate cerebral perfusion while avoiding cerebrovascular constriction and ischaemia?",
+      "options": [
+        "EtCO₂ 35–40 mmHg",
+        "EtCO₂ 20–25 mmHg — aggressive hyperventilation to maximally reduce cerebral blood volume",
+        "EtCO₂ 25–35 mmHg — moderate hyperventilation as the standard of care in severe TBI",
+        "EtCO₂ 45–55 mmHg — mild hypercapnia to maximise cerebral vasodilation and perfusion",
+        "EtCO₂ monitoring is not applicable; only PaCO₂ on arterial blood gas should guide ventilation in TBI"
+      ],
+      "correct": 0,
+      "explanation": "CO₂ strongly influences cerebral arteriolar tone: hypocapnia (<35 mmHg) causes vasoconstriction and cerebral ischaemia, while hypercapnia (>45 mmHg) causes vasodilation and raised ICP. Guidelines therefore target EtCO₂ of 35–40 mmHg (PaCO₂ 35–40 mmHg), acknowledging an approximate 2–5 mmHg arteriovenous gradient. Hyperventilation to EtCO₂ <35 mmHg may only be used as a temporary rescue measure for impending herniation."
+    },
+    {
+      "id": "mtr1_k07",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Trauma triage",
+      "section_url": "",
+      "question": "Regarding trauma triage principles and tools, which of the following statements are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The RED field triage classification requires both a physiological AND an anatomical criterion to be simultaneously present.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "eFAST has approximately 91% sensitivity for pneumothorax, substantially outperforming plain chest X-ray at 47%.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The ATMISTER mnemonic adds Age, Estimated arrival time, and Requirements to the basic MIST handover format.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Hospital triage occurs before prehospital triage in the standard trauma care pathway.",
+          "correct": false
+        }
+      ],
+      "explanation": "RED field triage requires *any single* qualifying physiological OR anatomical criterion — not both simultaneously. eFAST does have approximately 91% sensitivity vs 47% for X-ray for pneumothorax. ATMISTER adds Age, Estimated arrival time, and Requirements to MIST. Prehospital triage is always the first step, guiding destination; hospital triage follows on arrival."
+    },
+    {
+      "id": "mtr1_k08",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Management principles",
+      "section_url": "",
+      "question": "Regarding the xABCDE primary survey and immediate resuscitation priorities in trauma, which statements are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "In the xABCDE framework, 'X' — control of external exsanguinating haemorrhage — takes priority over airway management.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Transcranial Doppler pulsatility index above 1.2 or diastolic velocity below 20 cm/s suggests reduced cerebral blood flow.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Needle decompression at the 2nd intercostal space midclavicular line is the guideline-preferred method for tension pneumothorax in ventilated patients.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "In traumatic peri-arrest states, recent evidence supports a circulation-first (C-A-B) prioritisation when hypovolaemia or obstructive causes are likely.",
+          "correct": true
+        }
+      ],
+      "explanation": "X (haemorrhage control) precedes airway in xABCDE. TCD PI >1.2 or Vd <20 cm/s are thresholds suggesting impaired cerebral perfusion. Needle decompression is explicitly *not recommended* as the first-line intervention due to approximately 50% failure rate; finger thoracostomy at the 4th–5th intercostal space anterior axillary line is preferred in ventilated patients. In traumatic peri-arrest the C-A-B approach is supported because airway manoeuvres can worsen hypotension."
+    },
+    {
+      "id": "mtr1_k09",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Haemodynamic management",
+      "section_url": "",
+      "question": "Which of the following statements about haemorrhagic shock management are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Permissive hypotension can safely be maintained for more than 90 minutes without increasing the risk of end-organ damage.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Norepinephrine is the vasopressor of choice to maintain perfusion pressure during severe or prolonged haemorrhage-induced hypotension.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Normal saline is preferred over balanced crystalloids in trauma resuscitation because its higher sodium content prevents cerebral oedema.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "A pelvic binder should be applied in any patient in haemorrhagic shock even in the absence of confirmed pelvic fracture on imaging.",
+          "correct": true
+        }
+      ],
+      "explanation": "Permissive hypotension beyond 90 minutes risks progressive organ damage and should not be prolonged. Norepinephrine is the vasopressor of choice. Normal saline is associated with hyperchloraemic acidosis and AKI, making balanced crystalloids (e.g. Ringer lactate or acetate) preferable — though hypotonic solutions are avoided in TBI. A pelvic binder should be applied empirically in shock regardless of imaging confirmation."
+    },
+    {
+      "id": "mtr1_k10",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Damage control strategy",
+      "section_url": "",
+      "question": "Which of the following statements about permissive hypotension and damage control resuscitation (DCR) are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Permissive hypotension is applicable in patients with traumatic brain injury as it reduces intracranial haemorrhage by lowering arterial pressure.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Large-volume crystalloid resuscitation to normotension improves outcomes in uncontrolled haemorrhage compared to permissive hypotension.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Colloids should be included in damage control resuscitation as an effective plasma-volume-expanding adjunct.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "DCR uses blood products (RBC:FFP:platelets in approximately 1:1:1 ratio) with limited crystalloids to avoid haemodilution and worsening coagulopathy.",
+          "correct": true
+        }
+      ],
+      "explanation": "Permissive hypotension is explicitly contraindicated in TBI and spinal cord injury, where CPP must be maintained. Large-volume crystalloid resuscitation worsens coagulopathy, inflammatory response, and outcomes in uncontrolled haemorrhage. Colloids should be avoided in DCR, particularly in severely injured patients at risk of organ failure. DCR does use a 1:1:1 blood-product ratio with minimal crystalloids."
+    },
+    {
+      "id": "mtr1_k11",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Haemostatic resuscitation",
+      "section_url": "",
+      "question": "Which of the following statements about the phases and management of trauma-induced coagulopathy (TIC) are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Acute traumatic coagulopathy (ATC) can develop within 30 minutes of injury, independently of resuscitative fluid administration.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Standard plasma-based tests (PT, APTT, INR) are the preferred point-of-care tools for guiding haemostatic resuscitation in acute trauma.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Fibrinogen is low (<1.5 g/L) in approximately 41% of trauma patients who are hypotensive on admission.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Viscoelastic tests (TEG/ROTEM) cannot assess fibrinolysis and therefore offer no advantage over standard coagulation tests in acute TIC.",
+          "correct": false
+        }
+      ],
+      "explanation": "ATC is endogenous and begins before resuscitation. Standard PT/APTT/INR have slow laboratory turnaround, cannot assess platelet function, fibrinolysis, or thrombin generation, and are not point-of-care — making them inadequate for real-time guidance. Fibrinogen is low in 41% of hypotensive trauma patients. TEG and ROTEM *can* detect systemic hyperfibrinolysis (a major advantage over standard tests) and provide comprehensive haemostatic profiling at the point of care."
+    },
+    {
+      "id": "mtr1_k12",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Haemostatic resuscitation",
+      "section_url": "",
+      "question": "Which of the following statements about haemostatic resuscitation in major trauma are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Massive transfusion in damage control resuscitation targets an RBC:FFP:platelet ratio of approximately 1:1:1 with minimal crystalloid.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Ionised calcium must be monitored and maintained within the normal range during massive transfusion.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Platelet count should be maintained above 50×10⁹/L in trauma patients with ongoing haemorrhage.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Both TEG and ROTEM can identify systemic hyperfibrinolysis at the point of care, guiding antifibrinolytic therapy.",
+          "correct": true
+        }
+      ],
+      "explanation": "DCR uses approximately 1:1:1 blood products with minimal crystalloids. Ionised calcium falls during massive transfusion (citrate chelation in blood products) and must be monitored and replaced. Platelet count should be kept above *100×10⁹/L* (not 50) in patients with ongoing bleeding or TBI — the 50 threshold is used in non-bleeding, non-TBI ICU patients. Both TEG and ROTEM assess whole-blood clot formation and fibrinolysis at the bedside."
+    },
+    {
+      "id": "mtr1_k13",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Haemodynamic management",
+      "section_url": "",
+      "question": "Which of the following statements about traumatic cardiac arrest (TCA) management are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Recent data show survival rates of 7–17% in TCA when reversible causes are rapidly identified and treated.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Bilateral finger thoracostomy should be performed as a priority in TCA to decompress tension pneumothorax.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Standard advanced cardiac life support protocols without modification should be applied in all cases of traumatic cardiac arrest.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Adrenaline is the highest-priority pharmacological intervention in TCA regardless of the suspected underlying mechanism.",
+          "correct": false
+        }
+      ],
+      "explanation": "Survival rates of 7–17% are achievable in TCA when reversible causes are treated rapidly. Bilateral thoracostomy is the priority intervention. TCA requires *significant modifications* compared to medical cardiac arrest: reversible trauma causes (haemorrhage, tension pneumothorax, tamponade, hypoxia) take priority over standard CPR and pharmacology. Treating the reversible cause — not administering adrenaline — is the primary determinant of return of spontaneous circulation in TCA."
+    },
+    {
+      "id": "mtr1_k14",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Haemodynamic management",
+      "section_url": "",
+      "question": "Which of the following statements about REBOA are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "ERC 2025 guidelines de-emphasise REBOA, recommending it only outside clinical trials in exceptional circumstances due to signals of potential harm.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The UK-REBOA randomised trial demonstrated a clear survival benefit for REBOA over standard care in haemorrhagic shock.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Once placed, REBOA provides definitive haemorrhage control and eliminates the need for urgent operative intervention.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "REBOA is a straightforward procedure that can be performed by any trauma team member with basic vascular access skills.",
+          "correct": false
+        }
+      ],
+      "explanation": "ERC 2025 does de-emphasise REBOA. The UK-REBOA trial *failed to show benefit* and signalled potential increased mortality — the opposite of what is stated. REBOA is explicitly a *bridging* intervention only, requiring immediate definitive haemorrhage control; it is not a standalone treatment. REBOA requires expert operators, established protocols, and immediate access to operative or interventional radiology resources — it is not a basic vascular access skill."
+    },
+    {
+      "id": "mtr1_k15",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Haemostatic resuscitation",
+      "section_url": "",
+      "question": "Which of the following statements about fibrinogen and coagulation management in major trauma are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "One litre of fresh frozen plasma contains approximately 4 g of fibrinogen on average.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Tranexamic acid administered beyond 3 hours from injury may increase rather than reduce the risk of death from bleeding.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "FFP and fibrinogen concentrate contain equivalent concentrations of fibrinogen, making them interchangeable for correcting hypofibrinogenaemia.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Colloids are an effective adjunct to haemostatic resuscitation because they maintain oncotic pressure without diluting coagulation factors.",
+          "correct": false
+        }
+      ],
+      "explanation": "1L FFP contains approximately 4 g fibrinogen. TXA after 3 hours may increase bleeding mortality. FFP and fibrinogen concentrate are NOT equivalent: FFP requires thawing (causing delay), contains only ~4 g/L of fibrinogen (dilutional effect at high volumes), and carries transfusion-related risks; fibrinogen concentrate provides a far higher dose more rapidly. Colloids should be *avoided* in DCR as they worsen coagulopathy and are associated with organ failure in the most severely injured."
+    },
+    {
+      "id": "mtr1_k16",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Patterns of organ failures",
+      "section_url": "",
+      "question": "Which of the following statements about airway management and respiratory support in major trauma are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Ketamine is favoured for induction in haemodynamically unstable trauma patients due to its sympathomimetic properties maintaining blood pressure.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Video laryngoscopy is contraindicated in trauma patients with suspected cervical spine injury due to the risk of hyperextension.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Thoracotomy is indicated when initial chest drain output exceeds 1500 mL or persistent bleeding exceeds 200 mL/h over 3 hours.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "EtCO₂ monitoring should target 35–40 mmHg after intubation in severe TBI to avoid both hypocapnic vasoconstriction and hypercapnic vasodilation.",
+          "correct": true
+        }
+      ],
+      "explanation": "Ketamine is preferred in haemodynamically unstable patients because its sympathomimetic effect maintains cardiac output and blood pressure. Video laryngoscopy is a *preferred* (not contraindicated) technique in trauma patients with suspected cervical spine injury, as it achieves intubation with less head and neck movement than direct laryngoscopy. Thoracotomy thresholds are 1500 mL initial output or 200 mL/h ongoing. EtCO₂ 35–40 mmHg maintains normal cerebrovascular tone in TBI."
+    }
+  ]
+}

@@ -1,0 +1,692 @@
+{
+  "module": "Disseminated Intravascular Coagulation",
+  "sections": {
+    "Introduction": "DIC definition (ISTH), clinical features, simultaneous thrombosis and haemorrhage",
+    "Etiology of DIC": "Sepsis (TNF/IL-6/NETs/PAMPs/TF), malignancy (predominantly thrombotic), obstetric (abruptio placentae TF), pancreatitis, trauma, snake venom, heat stroke",
+    "Diagnosis of DIC": "Clinical-pathological diagnosis; typical lab pattern; DIC vs liver disease; ISTH ≥5 / JAAM ≥4 / SIC two-step 2019; viscoelastic tests not used for diagnosis; DIC vs TTP (ADAMTS13, PT, fibrinogen)",
+    "The coagulation cascade in DIC": "Three pillars: procoagulant (↑TF/vWF), anticoagulant (↓protein C/S/AT/thrombomodulin), fibrinolytic (PAI-1 suppresses in sepsis; fibrinolysis prominent in malignancy). DAMPs/NETs contribute.",
+    "Management of DIC": "Cornerstone: treat underlying cause. Prophylactic UFH/LMWH: continue even with thrombocytopenia. Platelet transfusion: <10×10⁹/L (DIC does NOT raise threshold). Stress ulcer prophylaxis. Viscoelastic tests: not for diagnosis."
+  },
+  "questions": [
+    {
+      "id": "dic_a01",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Introduction",
+      "section_url": "",
+      "question": "The ISTH Subcommittee on DIC defines DIC as which of the following?",
+      "options": [
+        "An acquired syndrome characterised by intravascular activation of coagulation with loss of localisation, capable of originating from and causing damage to the microvasculature and producing organ dysfunction",
+        "A hereditary coagulopathy characterised by deficiency of clotting factors VIII and IX leading to recurrent haemarthrosis",
+        "A consumptive thrombocytopenia caused exclusively by immune-mediated platelet destruction in sepsis",
+        "A localised intravascular thrombosis confined to the microvasculature of the lung and kidney in critical illness",
+        "A transient haemostatic activation triggered by surgical trauma and resolving spontaneously within 48 hours"
+      ],
+      "correct": 0,
+      "explanation": "The ISTH defines DIC as an acquired syndrome characterised by the intravascular activation of coagulation with loss of localisation, arising from different causes. It can originate from and cause damage to the microvasculature and produce organ dysfunction. Key features of this definition: it is always secondary (never primary), it is acquired (not hereditary), coagulation is systemically activated (not localised), and organ dysfunction can result from microvascular fibrin deposition."
+    },
+    {
+      "id": "dic_a02",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Etiology of DIC",
+      "section_url": "",
+      "question": "A patient with metastatic pancreatic cancer is referred to the ICU with laboratory evidence of DIC. Which clinical manifestation is most likely to predominate in malignancy-associated DIC, compared to sepsis-induced DIC?",
+      "options": [
+        "Profuse gastrointestinal haemorrhage and widespread petechiae",
+        "Thrombotic events (venous and arterial thrombosis) occurring more frequently than haemorrhage",
+        "Bilateral pulmonary infiltrates consistent with diffuse alveolar haemorrhage",
+        "Purpura fulminans with peripheral gangrene driven by protein C depletion",
+        "Predominantly fibrinolytic phenotype resulting in uncontrollable surgical site bleeding"
+      ],
+      "correct": 1,
+      "explanation": "Malignancy-associated DIC is characterised by the predominance of thrombotic events over haemorrhage. Tumour cells and their derived microparticles express tissue factor and cancer-specific procoagulants, driving sustained systemic coagulation activation. In sepsis-induced DIC the picture is more variable, though organ dysfunction from microthrombosis tends to predominate. Haematologic malignancy-related DIC may have more prominent fibrinolysis and thus more bleeding."
+    },
+    {
+      "id": "dic_a03",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Etiology of DIC",
+      "section_url": "",
+      "question": "A 34-year-old woman at 36 weeks gestation presents with sudden onset of severe abdominal pain, vaginal bleeding, and haemodynamic shock consistent with abruptio placentae. She rapidly develops DIC. What is the most likely mechanism triggering DIC in this clinical context?",
+      "options": [
+        "Amniotic fluid embolism releasing procoagulant phosphatidylserine-exposing extracellular vesicles into the pulmonary circulation",
+        "Massive cytokine release from placental ischaemia activating monocytes and inducing NETs formation",
+        "Leakage of tissue factor from the placental system into the maternal circulation",
+        "Pre-eclamptic endothelial dysfunction triggering widespread platelet adhesion via ADAMTS13 deficiency",
+        "Maternal inflammatory response to fetal microchimerism promoting complement-mediated coagulation activation"
+      ],
+      "correct": 2,
+      "explanation": "In abruptio placentae, the most likely mechanism is leakage of tissue factor (TF) from the placental system into the maternal circulation. The placenta is normally rich in TF, and placental separation with haemorrhage allows TF to enter the systemic circulation and activate the coagulation cascade. In amniotic fluid embolism (a different obstetric emergency), the mechanism involves procoagulant phosphatidylserine-exposing extracellular vesicles entering the pulmonary circulation."
+    },
+    {
+      "id": "dic_a04",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Etiology of DIC",
+      "section_url": "",
+      "question": "In sepsis-induced DIC, microorganisms and their components (e.g. lipopolysaccharides) trigger coagulation primarily by which mechanism?",
+      "options": [
+        "Direct activation of the intrinsic coagulation pathway by bacterial cell wall components binding to Factor XII",
+        "Consumption of antithrombin III through formation of antithrombin-thrombin complexes, removing the main anticoagulant brake",
+        "Platelet-activating factor (PAF) release from activated eosinophils, causing systemic platelet aggregation and consumption",
+        "Binding of pathogen-associated molecular patterns (PAMPs) to pattern-recognition receptors, inducing tissue factor expression on monocytes and macrophages",
+        "Direct invasion of endothelial cells by bacteria, causing physical disruption of the glycocalyx and exposure of subendothelial collagen"
+      ],
+      "correct": 3,
+      "explanation": "PAMPs such as lipopolysaccharide (LPS) bind to pattern-recognition receptors (e.g. TLR4) on monocytes and macrophages, inducing the expression of tissue factor (TF). TF is the primary initiator of coagulation in sepsis-induced DIC. Additionally, activated endothelium expresses TF and sheds high quantities of von Willebrand factor, promoting platelet aggregation. Both Gram-negative and Gram-positive organisms, as well as viral and fungal pathogens, are associated with DIC."
+    },
+    {
+      "id": "dic_a05",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Etiology of DIC",
+      "section_url": "",
+      "question": "Which of the following is NOT a recognised clinical condition associated with the development of DIC?",
+      "options": [
+        "Amniotic fluid embolism",
+        "Heat stroke and hyperthermia",
+        "Severe acute pancreatitis",
+        "Snake envenomation",
+        "Stable chronic obstructive pulmonary disease (COPD) without infective exacerbation"
+      ],
+      "correct": 4,
+      "explanation": "DIC is always secondary to an underlying disorder. Recognised triggers include severe sepsis/infection, solid and haematologic malignancies, obstetric complications (including amniotic fluid embolism, abruptio placentae, pre-eclampsia), acute pancreatitis, trauma, severe transfusion reactions, snake venom, and heat stroke/hyperthermia. Stable COPD without an acute infective or inflammatory trigger is not a recognised DIC-associated condition. Note that snake envenomation is an exception to the general rule that DIC involves systemic inflammation."
+    },
+    {
+      "id": "dic_a06",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Diagnosis of DIC",
+      "section_url": "",
+      "question": "The ISTH DIC score uses four laboratory parameters to assess for overt DIC. Which set of parameters is correct, and what total score threshold supports a diagnosis of overt DIC?",
+      "options": [
+        "Platelet count, PT prolongation, fibrin-related marker (D-dimer/FDP), and fibrinogen level — ISTH score ≥5 supports overt DIC",
+        "Platelet count, aPTT prolongation, antithrombin III level, and D-dimer — ISTH score ≥4 supports overt DIC",
+        "SIRS criteria, platelet count, PT ratio, and fibrin marker — JAAM score ≥5 supports overt DIC",
+        "Platelet count, SOFA score, and PT-INR — SIC score ≥4 supports sepsis-induced coagulopathy",
+        "Platelet count, fibrinogen, D-dimer, and ADAMTS13 activity — ISTH score ≥6 supports overt DIC"
+      ],
+      "correct": 0,
+      "explanation": "The ISTH DIC score uses four laboratory values: platelet count (0–2 points), fibrin-related marker such as D-dimer or FDP (0–3 points), PT prolongation (0–2 points), and fibrinogen level (0–1 point), for a maximum of 8 points. A score ≥5 supports a diagnosis of overt DIC. The ISTH score has high specificity but relatively low sensitivity. ADAMTS13 is not part of the ISTH score. aPTT and antithrombin III are not components."
+    },
+    {
+      "id": "dic_a07",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Diagnosis of DIC",
+      "section_url": "",
+      "question": "The JAAM DIC score was specifically designed for which patient population, and what threshold score confirms a diagnosis?",
+      "options": [
+        "All critically ill patients with unexplained thrombocytopenia; JAAM ≥5 confirms DIC",
+        "Patients with acute-onset sepsis-induced coagulopathy; JAAM ≥4 confirms DIC",
+        "Obstetric patients with suspected amniotic fluid embolism; JAAM ≥3 confirms DIC",
+        "Post-cardiac arrest patients with systemic inflammatory response; JAAM ≥6 confirms DIC",
+        "Trauma patients with suspected coagulopathy; JAAM ≥5 confirms DIC"
+      ],
+      "correct": 1,
+      "explanation": "The JAAM DIC score was specifically designed for the acute onset of sepsis-induced coagulopathy. A JAAM score ≥4 supports the diagnosis. It includes SIRS criteria scoring and three laboratory values: platelet count, PT ratio, and fibrin marker (FDP/D-dimer). Unlike the ISTH score, the JAAM score excludes fibrinogen but adds SIRS criteria. The JAAM score has high sensitivity but lower specificity compared to the ISTH score, making it useful for identifying non-overt or early DIC."
+    },
+    {
+      "id": "dic_a08",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Diagnosis of DIC",
+      "section_url": "",
+      "question": "In 2019, updated ISTH guidelines proposed a two-step diagnostic approach to DIC. Which statement correctly describes this approach?",
+      "options": [
+        "Step 1: Calculate ISTH DIC score for all patients with any coagulation abnormality; if ≥5, apply JAAM score for confirmation",
+        "Step 1: Measure ADAMTS13 to exclude TTP; if activity is >20%, proceed to step 2 and calculate ISTH score",
+        "Step 1: Apply the SIC score to screen for sepsis-induced coagulopathy; if SIC criteria met, proceed to step 2 using the ISTH DIC score",
+        "Step 1: Apply the JAAM score for all sepsis patients; if JAAM <4, use SIC score as a secondary screen",
+        "Step 1: Order bedside viscoelastic testing (ROTEM/TEG); if hypocoagulable pattern identified, apply ISTH DIC score in step 2"
+      ],
+      "correct": 2,
+      "explanation": "The 2019 ISTH updated guidelines propose a two-step approach: first apply the SIC (Sepsis-Induced Coagulopathy) score as a screen — the SIC score uses SOFA score, platelet count, and PT-INR. If SIC criteria are met (SIC ≥2 with SOFA contribution), proceed to step 2 using the ISTH DIC score for confirmation of overt DIC. This approach was designed to identify patients with non-overt DIC earlier so they can be enrolled in anticoagulant intervention trials. The SIC score has lower specificity than the ISTH score."
+    },
+    {
+      "id": "dic_a09",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Diagnosis of DIC",
+      "section_url": "",
+      "question": "A 65-year-old man with pneumococcal septic shock develops progressive coagulopathy. Which combination of laboratory findings is most consistent with overt DIC?",
+      "options": [
+        "Normal PT, prolonged aPTT, normal platelet count, markedly elevated fibrinogen, and low D-dimer",
+        "Markedly prolonged PT, normal aPTT, thrombocytopenia, low D-dimer, and markedly elevated fibrinogen",
+        "Isolated thrombocytopenia with normal PT, normal aPTT, normal fibrinogen, and normal D-dimer",
+        "Prolonged PT, prolonged aPTT, thrombocytopenia, elevated D-dimer/FDP, and low fibrinogen",
+        "Normal PT and aPTT, markedly elevated platelet count, elevated fibrinogen, and mildly elevated D-dimer"
+      ],
+      "correct": 3,
+      "explanation": "Typical DIC laboratory findings are: prolonged PT (reflecting consumption of coagulation factors), prolonged aPTT, thrombocytopenia (platelet consumption in microthrombi), elevated fibrin-related markers (D-dimer/FDP, reflecting fibrinolysis of fibrin clots), and reduced fibrinogen (consumed in fibrin formation). An isolated aPTT prolongation, isolated thrombocytopenia, or normal PT with markedly elevated fibrinogen are not consistent with DIC. Note that these findings resemble advanced liver disease, making the underlying clinical context essential."
+    },
+    {
+      "id": "dic_a10",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Diagnosis of DIC",
+      "section_url": "",
+      "question": "A 28-year-old woman presents with severe thrombocytopenia, schistocytes on blood smear, and AKI. Both DIC and TTP are being considered. ADAMTS13 activity returns at 7%. Which statement correctly interprets this result and guides management?",
+      "options": [
+        "ADAMTS13 <10% is consistent with DIC; plasma exchange is not indicated and heparin prophylaxis should be started",
+        "ADAMTS13 <10% indicates HUS; initiation of eculizumab is the treatment of choice",
+        "ADAMTS13 <10% indicates reduced fibrinolytic activity; recombinant tPA should be administered",
+        "ADAMTS13 <10% is non-specific and can occur in sepsis; additional testing with serotonin release assay is required before treating",
+        "ADAMTS13 <10% indicates TTP; plasma exchange should be initiated immediately as it removes inhibitory antibodies and ultra-large vWF multimers"
+      ],
+      "correct": 4,
+      "explanation": "ADAMTS13 activity <10% confirms TTP (thrombotic thrombocytopenic purpura). ADAMTS13 cleaves ultra-large vWF multimers; deficiency (due to inhibitory antibodies) causes these multimers to accumulate, forming platelet-rich microthrombi in the microcirculation. Plasma exchange is life-saving: it removes inhibitory antibodies and ultra-large vWF, and replenishes ADAMTS13 enzyme activity. In DIC, ADAMTS13 levels are 20–80% (consumed, but not deficient to TTP levels). In sepsis, ADAMTS13 usually remains above 20–30%, allowing differentiation from TTP."
+    },
+    {
+      "id": "dic_a11",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Diagnosis of DIC",
+      "section_url": "",
+      "question": "When comparing the laboratory profile of TTP to DIC, which single coagulation parameter most reliably distinguishes the two conditions?",
+      "options": [
+        "Prothrombin time (PT) — normal in TTP, elevated in DIC",
+        "D-dimer — markedly elevated in TTP, normal or mildly elevated in DIC",
+        "Fibrinogen — markedly elevated in TTP, normal in DIC",
+        "Platelet count — severely low in DIC (often <20×10⁹/L), mildly low in TTP (typically >100×10⁹/L)",
+        "aPTT — markedly prolonged in TTP, normal in DIC"
+      ],
+      "correct": 0,
+      "explanation": "The most reliable single distinguishing parameter is the prothrombin time (PT): normal in TTP, elevated in DIC. Fibrinogen is normal in TTP but decreased in DIC. D-dimer may be normal or elevated in TTP, but is elevated (often markedly) in DIC. Both TTP and DIC have thrombocytopenia and schistocytes. Platelet counts tend to be more severely depressed in TTP, but this is not a reliable discriminator. ADAMTS13 <10% definitively confirms TTP."
+    },
+    {
+      "id": "dic_a12",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Diagnosis of DIC",
+      "section_url": "",
+      "question": "ADAMTS13 is a metalloprotease whose deficiency is the hallmark of TTP. What is the physiological function of ADAMTS13?",
+      "options": [
+        "Activating plasminogen to plasmin, thereby initiating fibrinolysis",
+        "Cleaving ultra-large von Willebrand factor multimers into smaller, less thrombogenic forms",
+        "Inhibiting the tissue factor-factor VIIa complex at the initiation of coagulation",
+        "Binding and neutralising thrombin to prevent ongoing fibrin formation",
+        "Converting prothrombin to thrombin via the prothrombinase complex"
+      ],
+      "correct": 1,
+      "explanation": "ADAMTS13 (a disintegrin and metalloproteinase with a thrombospondin type 1 motif, member 13) cleaves ultra-large von Willebrand factor (ULVWF) multimers at specific peptide bonds, reducing them to smaller, less adhesive forms. ULVWF has extremely high affinity for platelets; without ADAMTS13, these multimers accumulate and spontaneously capture platelets, forming microvascular platelet-rich thrombi — the defining feature of TTP. Plasminogen activator is tPA; TF/VIIa inhibitor is TFPI; thrombin inhibitor is antithrombin."
+    },
+    {
+      "id": "dic_a13",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "The coagulation cascade in DIC",
+      "section_url": "",
+      "question": "In sepsis-induced coagulopathy, which pathological mechanism is primarily responsible for the hallmark finding of microcirculatory thrombosis?",
+      "options": [
+        "Excessive activation of protein C leading to paradoxical consumption of its anticoagulant effect on factor Va",
+        "Direct bacterial invasion of endothelial cells causing mechanical disruption of microvascular flow",
+        "Increased plasminogen activator inhibitor-1 (PAI-1) suppressing tissue plasminogen activator (t-PA), thereby impairing fibrinolysis",
+        "Thrombomodulin upregulation amplifying the protein C pathway and blocking fibrin degradation",
+        "Elevated antithrombin III consuming all available thrombin and preventing fibrin breakdown"
+      ],
+      "correct": 2,
+      "explanation": "In sepsis-induced coagulopathy (SIC/DIC), PAI-1 is released and suppresses t-PA — the key fibrinolytic enzyme — inhibiting clot dissolution. This results in persistence of fibrin microthrombi within the microcirculation, which is the hallmark of SIC. This contrasts with malignancy-associated DIC, where fibrinolysis is more prominent (tumour cells increase plasminogen activation), leading to greater bleeding risk. In DIC, thrombomodulin expression is DOWNREGULATED (not upregulated) by cytokines, further impairing the protein C pathway."
+    },
+    {
+      "id": "dic_a14",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "The coagulation cascade in DIC",
+      "section_url": "",
+      "question": "A patient with acute promyelocytic leukaemia (APL) develops DIC. Which feature of the coagulation disturbance in haematologic malignancy-associated DIC is most clinically distinct from sepsis-induced DIC?",
+      "options": [
+        "Microcirculatory thrombosis with organ failure predominates, similar to sepsis-induced DIC",
+        "ADAMTS13 activity falls below 10%, indicating TTP-like microangiopathy from leukaemia-derived antibodies",
+        "Antithrombin III is markedly elevated due to tumour-derived anticoagulant production",
+        "Fibrinolysis is more prominent due to tumour-cell-driven plasminogen activation, increasing the risk of systemic haemorrhage",
+        "Platelet count is typically preserved in haematologic DIC as thrombocytopenia reflects bone marrow failure rather than consumption"
+      ],
+      "correct": 3,
+      "explanation": "In haematologic malignancy-related DIC, fibrinolysis is more prominent than in sepsis-DIC. Tumour cells and their derived vesicles increase plasminogen activation, generating plasmin that degrades fibrin — increasing the risk of systemic haemorrhage. This is why APL is classically associated with life-threatening haemorrhage rather than thrombosis. In sepsis-induced DIC, PAI-1 suppresses fibrinolysis, making microthrombosis and organ dysfunction more prominent. However, the module notes that exceptions exist — no presentation is stereotypical."
+    },
+    {
+      "id": "dic_a15",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "The coagulation cascade in DIC",
+      "section_url": "",
+      "question": "In DIC, the anticoagulant system is impaired across multiple components. Which specific mechanism accounts for the impairment of the protein C anticoagulant pathway?",
+      "options": [
+        "Massive AT III consumption by circulating NETs directly neutralising antithrombin activity",
+        "Competitive inhibition of protein C by elevated circulating factor VIII in sepsis",
+        "TFPI downregulation by endothelial cytokines, removing the primary inhibitor of the TF-VIIa complex",
+        "Plasmin-mediated cleavage of protein C to an inactive form during hyperfibrinolysis",
+        "Cytokine-driven downregulation of thrombomodulin expression, impairing activated protein C generation, combined with low levels of protein C and protein S"
+      ],
+      "correct": 4,
+      "explanation": "In DIC, the protein C pathway is impaired through multiple simultaneous mechanisms: (1) cytokines (TNF-α, IL-1) downregulate thrombomodulin — the endothelial cofactor essential for thrombin-mediated protein C activation; (2) protein C levels are reduced by consumption; and (3) protein S, the essential cofactor for activated protein C (APC) function, is also decreased. Together, these remove a critical 'brake' on thrombus formation. Additionally, antithrombin III levels are reduced in DIC from consumption and decreased synthesis."
+    },
+    {
+      "id": "dic_a16",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Management of DIC",
+      "section_url": "",
+      "question": "Which intervention represents the cornerstone of DIC management?",
+      "options": [
+        "Treatment of the underlying disorder triggering DIC — if eliminated, DIC will resolve",
+        "Immediate administration of recombinant activated protein C to restore anticoagulant balance",
+        "Therapeutic anticoagulation with full-dose unfractionated heparin to prevent macrothrombosis",
+        "Emergency platelet transfusion to maintain count above 50×10⁹/L in all DIC patients",
+        "Urgent fresh frozen plasma transfusion at a volume of 15 mL/kg to replace all consumed coagulation factors"
+      ],
+      "correct": 0,
+      "explanation": "The cornerstone of DIC management is treatment of the underlying disorder. DIC is always secondary, and if the triggering cause is eliminated — whether sepsis source control, delivery of the placenta in obstetric DIC, or antineoplastic therapy in malignancy — DIC will resolve. Supportive measures (anticoagulation, transfusion support) are adjuncts, not primary treatments. Recombinant activated protein C (drotrecogin alfa) was withdrawn from the market after the PROWESS-SHOCK trial showed no mortality benefit in sepsis."
+    },
+    {
+      "id": "dic_a17",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Diagnosis of DIC",
+      "section_url": "",
+      "question": "Viscoelastic tests (ROTEM/TEG) are increasingly available in ICUs managing DIC patients. Which statement correctly describes their current role in DIC?",
+      "options": [
+        "ROTEM/TEG should be used as the primary diagnostic test for DIC because they are more sensitive than the ISTH DIC score",
+        "Viscoelastic tests can demonstrate a wide range of abnormalities in DIC (both hyper- and hypocoagulable patterns) but should NOT currently be used to make the diagnosis of DIC",
+        "A hypocoagulable ROTEM pattern in a septic patient confirms overt DIC without requiring additional laboratory scoring",
+        "Viscoelastic tests are specifically recommended in the ISTH 2019 scoring algorithm as a tiebreaker between SIC and overt DIC",
+        "Normal ROTEM/TEG results reliably exclude DIC and obviate the need for standard coagulation testing"
+      ],
+      "correct": 1,
+      "explanation": "Viscoelastic tests (TEG and ROTEM) can demonstrate a wide range of abnormalities in DIC — including hyper- and hypocoagulable patterns depending on the disease phase and aetiology. This is a promising area of active research. However, viscoelastic test results are not currently included in any validated DIC scoring system (ISTH, JAAM, SIC) and should not be used to make the diagnosis of DIC at this time. Normal viscoelastic results do not exclude DIC."
+    },
+    {
+      "id": "dic_a18",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Management of DIC",
+      "section_url": "",
+      "question": "A non-bleeding patient with sepsis-induced DIC has a platelet count of 18×10⁹/L. At what platelet threshold do most current guidelines recommend prophylactic platelet transfusion to prevent spontaneous haemorrhage in non-bleeding critically ill patients?",
+      "options": [
+        "<50×10⁹/L — because DIC patients are at uniquely high risk of spontaneous haemorrhage",
+        "<25×10⁹/L — the threshold recommended by ISTH for all DIC patients regardless of bleeding status",
+        "<10×10⁹/L — the standard prophylactic threshold for non-bleeding critically ill patients",
+        "<5×10⁹/L — to minimise unnecessary transfusion and platelet consumption by thrombus formation",
+        "<30×10⁹/L — the DIC-specific threshold when concurrent anticoagulation is administered"
+      ],
+      "correct": 2,
+      "explanation": "Most current guidelines recommend a prophylactic platelet transfusion threshold of <10×10⁹/L in non-bleeding critically ill patients to prevent spontaneous haemorrhage — and this applies equally to patients with and without DIC. DIC alone is NOT a reason to use a higher threshold. The presence of DIC alone is also not a reason to transfuse platelets prior to an invasive procedure, as it is unclear whether prophylactic transfusion reduces procedural bleeding risk in DIC. A restrictive approach is recommended given theoretical concerns about accelerating thrombus formation."
+    },
+    {
+      "id": "dic_a19",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Management of DIC",
+      "section_url": "",
+      "question": "Regarding platelet transfusion decisions in DIC, which of the following is NOT a current indication to administer platelets?",
+      "options": [
+        "Platelet count <10×10⁹/L in a non-bleeding patient on anticoagulant therapy with DIC",
+        "Active life-threatening haemorrhage from DIC with a platelet count of 8×10⁹/L",
+        "Platelet count <10×10⁹/L in a non-bleeding patient with DIC prior to any major invasive procedure",
+        "The diagnosis of DIC alone in a non-bleeding patient prior to a routine invasive procedure, with a platelet count of 22×10⁹/L",
+        "Active significant haemorrhage with a platelet count of 45×10⁹/L where further platelet loss is anticipated"
+      ],
+      "correct": 3,
+      "explanation": "The presence of DIC alone — without an active haemostatic challenge, without active bleeding, and with a platelet count above the standard prophylactic threshold — is NOT a reason to transfuse platelets. DIC does not alter the standard platelet transfusion thresholds for non-bleeding patients (<10×10⁹/L for prophylaxis) or for invasive procedures. Transfusing at a platelet count of 22×10⁹/L in a non-bleeding patient merely because DIC is present is not supported by evidence and carries the theoretical risk of accelerating microvascular thrombus formation."
+    },
+    {
+      "id": "dic_a20",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Management of DIC",
+      "section_url": "",
+      "question": "In a patient with sepsis-induced DIC who is NOT actively bleeding, which management strategy is most strongly recommended regarding anticoagulation?",
+      "options": [
+        "Withhold all anticoagulation because DIC is fundamentally a haemorrhagic disorder and heparin risks fatal bleeding",
+        "Initiate therapeutic-dose anticoagulation (full-dose IV UFH) immediately to reverse the procoagulant state",
+        "Anticoagulation should be withheld until the platelet count returns to above 100×10⁹/L",
+        "Recombinant antithrombin III should be administered intravenously as the agent of choice for DIC-associated anticoagulation",
+        "Prophylactic low-dose UFH or LMWH should be strongly considered and, if already prescribed, should NOT be stopped even if the patient is thrombocytopenic"
+      ],
+      "correct": 4,
+      "explanation": "In non-bleeding DIC patients, prophylactic anticoagulation with low-dose UFH or LMWH should be strongly considered and continued even in the presence of thrombocytopenia — because patients with DIC are fundamentally in a procoagulant state and are at risk for micro- and macrothrombosis. A retrospective study showed that thromboprophylaxis also reduced the development of thrombocytopenia in DIC, presumably by slowing thrombus formation and thereby reducing platelet consumption. The 'cut-off' platelet count for this recommendation remains controversial. Stress ulcer prophylaxis is also recommended to reduce GI bleeding."
+    },
+    {
+      "id": "dic_k01",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Introduction",
+      "section_url": "",
+      "question": "Which of the following statements about the clinical features of DIC are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "DIC can cause both venous and arterial thromboembolic events, as well as haemorrhage — simultaneously.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "In DIC, thrombotic events and haemorrhagic events cannot occur in the same patient at the same time, as they are mutually exclusive.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Organ failure in DIC results from impaired microvascular perfusion due to widespread fibrin deposition in small vessels.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Skin manifestations of DIC (petechiae and ecchymoses) occur only in sepsis-induced DIC and not in malignancy-associated DIC.",
+          "correct": false
+        }
+      ],
+      "explanation": "A key feature of DIC is the simultaneous occurrence of thromboembolic events AND haemorrhage in the same patient — they are not mutually exclusive. Organ failure results from microvascular fibrin thrombi reducing tissue perfusion. Skin manifestations such as petechiae, ecchymoses, and purpura fulminans can occur in DIC from any cause, not exclusively sepsis."
+    },
+    {
+      "id": "dic_k02",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Etiology of DIC",
+      "section_url": "",
+      "question": "Which of the following statements about the pathogenesis of sepsis-induced DIC are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "TNF-α and IL-6 are key cytokines released in sepsis that activate neutrophils and promote neutrophil extracellular trap (NET) formation with high platelet-binding potential.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Both Gram-negative and Gram-positive organisms, as well as viral and fungal pathogens, have been associated with sepsis-induced DIC.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "In sepsis, increased PAI-1 release enhances fibrinolysis, resulting in widespread dissolution of microvascular thrombi and preventing organ failure.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Activated endothelium in sepsis sheds high quantities of von Willebrand factor, which initiates platelet aggregation and contributes to microvascular thrombosis.",
+          "correct": true
+        }
+      ],
+      "explanation": "TNF-α and IL-6 promote NET formation, contributing to DIC. Both Gram-positive and Gram-negative pathogens cause DIC. Activated endothelium does shed vWF, promoting platelet aggregation. However, PAI-1 in sepsis *suppresses* fibrinolysis (not enhances it) by inhibiting t-PA, resulting in persistence of fibrin microthrombi — this is the hallmark of sepsis-induced coagulopathy. Enhanced fibrinolysis is characteristic of malignancy-associated DIC, not sepsis-DIC."
+    },
+    {
+      "id": "dic_k03",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Etiology of DIC",
+      "section_url": "",
+      "question": "Which of the following statements about the aetiology of DIC are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Snake envenomation causes DIC primarily through cytokine-mediated systemic inflammation, similar to bacterial sepsis.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "DIC is always secondary to an underlying disorder and never occurs as a primary pathological process.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Heat stroke and hyperthermia are not recognised triggers of DIC.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Trauma-induced coagulopathy (TIC) and DIC are universally regarded as the same condition, with identical pathophysiology and management.",
+          "correct": false
+        }
+      ],
+      "explanation": "DIC is always secondary. Snake envenomation is notable as an exception to the general rule that DIC involves systemic inflammation — it is listed as an associated condition without inflammation being the dominant driver. Heat stroke and hyperthermia ARE recognised DIC triggers. Whether DIC in trauma truly exists is controversial — many authorities differentiate TIC from DIC, preferring the term 'Trauma-Induced Coagulopathy' as a distinct entity with some different mechanisms and management."
+    },
+    {
+      "id": "dic_k04",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Diagnosis of DIC",
+      "section_url": "",
+      "question": "Which of the following statements about the laboratory diagnosis of DIC are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "DIC is a clinical-pathological diagnosis requiring both an appropriate clinical context (risk factor) AND abnormal coagulation laboratory results.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "A single laboratory value (e.g. markedly elevated D-dimer alone) is sufficient to diagnose overt DIC in a critically ill patient.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "The laboratory pattern of DIC (prolonged PT, thrombocytopenia, elevated D-dimer, low fibrinogen) can closely resemble that of advanced liver disease.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Viscoelastic tests (ROTEM/TEG) are currently included in the ISTH scoring system and should be used to confirm the diagnosis of DIC when available.",
+          "correct": false
+        }
+      ],
+      "explanation": "DIC requires clinical context combined with laboratory findings — no single marker is diagnostic. The lab pattern closely resembles advanced liver disease (a key warning). Viscoelastic tests are NOT currently included in any validated DIC scoring system; although they show various patterns in DIC, they should not be used to make the diagnosis at this time."
+    },
+    {
+      "id": "dic_k05",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Diagnosis of DIC",
+      "section_url": "",
+      "question": "Which of the following statements about DIC scoring systems are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The ISTH DIC score has high sensitivity and low specificity, making it ideal for screening all ICU patients for early non-overt DIC.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "The JAAM DIC score was specifically designed for sepsis-induced coagulopathy and includes SIRS criteria as one of its components.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The ISTH DIC scoring systems should only be applied if risk factors for DIC are present — scoring without a clinical trigger is inappropriate.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "In the 2019 ISTH two-step approach, the SIC score is applied first to screen for sepsis-induced coagulopathy, with a positive result prompting application of the ISTH DIC score.",
+          "correct": true
+        }
+      ],
+      "explanation": "The ISTH DIC score has high *specificity* but relatively low sensitivity — the opposite of what is stated. It is not ideal for screening; the SIC/JAAM scores serve that purpose. The JAAM score does include SIRS criteria and is sepsis-specific. Scoring systems must only be applied in the presence of known DIC risk factors. The 2019 two-step ISTH approach starts with SIC screening followed by ISTH confirmation."
+    },
+    {
+      "id": "dic_k06",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Diagnosis of DIC",
+      "section_url": "",
+      "question": "When comparing laboratory features of TTP and DIC, which of the following statements are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Both TTP and DIC typically show elevated PT and aPTT, making these tests useless for distinguishing the two conditions.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "ADAMTS13 activity below 10% indicates TTP; levels between 20–80% are consistent with DIC.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Fibrinogen is characteristically normal in TTP but decreased in DIC, reflecting the absence of widespread fibrin formation in TTP.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "In sepsis, ADAMTS13 activity typically falls below 10%, making it essential to exclude TTP in all septic patients with thrombocytopenia.",
+          "correct": false
+        }
+      ],
+      "explanation": "TTP characteristically has a NORMAL PT (unlike DIC where PT is elevated) — making PT a key distinguishing test. ADAMTS13 activity: <10% = TTP; 20–80% = DIC. Fibrinogen is normal in TTP (fibrinogen is not consumed in the platelet-rich microvascular thrombi of TTP) but low in DIC. In sepsis, ADAMTS13 activity usually remains >20–30% — not <10% — allowing differentiation from TTP, though ADAMTS13 is reduced from normal by excessive vWF shedding."
+    },
+    {
+      "id": "dic_k07",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "The coagulation cascade in DIC",
+      "section_url": "",
+      "question": "Which of the following statements about the pathophysiology of DIC affecting the three coagulation pillars are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "All three coagulation pillars — procoagulant, anticoagulant, and fibrinolytic — are affected in DIC.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "In sepsis-induced DIC, fibrinolysis is amplified by increased t-PA release, resulting in low D-dimer levels as fibrin is efficiently degraded.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Antithrombin III levels are elevated in DIC due to a compensatory hepatic response, providing partial protection against thrombin accumulation.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "DAMPs (damage-associated molecular patterns) including free DNA, histones, and HMGB1 released from damaged cells contribute to thrombus formation in DIC.",
+          "correct": true
+        }
+      ],
+      "explanation": "All three pillars are affected in DIC. In sepsis-induced DIC, PAI-1 *suppresses* fibrinolysis — D-dimer levels are elevated (not low), because fibrin is still produced in large quantities even if fibrinolysis is impaired; some fibrinolysis does occur. Antithrombin III is *reduced* in DIC due to consumption in antithrombin-thrombin complex formation and decreased production — not elevated. DAMPs from damaged cells do contribute to thrombus formation."
+    },
+    {
+      "id": "dic_k08",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "The coagulation cascade in DIC",
+      "section_url": "",
+      "question": "Which of the following statements about the anticoagulant system in DIC are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Cytokines in DIC downregulate thrombomodulin expression on endothelial cells, impairing the generation of activated protein C and removing a key brake on thrombus formation.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Protein C levels are elevated in DIC because hepatic synthesis increases in response to excessive thrombin generation.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Tissue factor pathway inhibitor (TFPI) is upregulated in DIC to compensate for the excessive procoagulant stimulus from tissue factor.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Protein S is unaffected in DIC because it is not a coagulation factor and is not consumed in the process of thrombus formation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Thrombomodulin downregulation by cytokines is a key anticoagulant system impairment in DIC. Protein C levels are *reduced* in DIC (consumed), not elevated. TFPI is not upregulated — its capacity to inhibit TF/VIIa is overwhelmed in DIC. Protein S IS decreased in DIC — it is consumed along with protein C and other anticoagulant proteins, further compromising the activated protein C pathway."
+    },
+    {
+      "id": "dic_k09",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Management of DIC",
+      "section_url": "",
+      "question": "Which of the following statements about DIC management are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Treatment of the underlying disorder is the cornerstone of DIC management — eliminating the trigger allows DIC to resolve.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Prophylactic anticoagulation (UFH or LMWH) should be discontinued immediately in DIC patients once the platelet count falls below 50×10⁹/L, to prevent iatrogenic haemorrhage.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Patients with DIC are fundamentally in a procoagulant state and thus at risk for both micro- and macrovascular thrombosis, justifying continuation of prophylactic anticoagulation.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Stress ulcer prophylaxis is recommended in DIC patients to reduce gastrointestinal bleeding risk.",
+          "correct": true
+        }
+      ],
+      "explanation": "Treating the underlying cause is the cornerstone. Prophylactic anticoagulation (UFH/LMWH) should be *continued* even with thrombocytopenia (though the specific platelet cut-off is controversial) — stopping it increases thrombotic risk in this fundamentally procoagulant state; a retrospective study showed thromboprophylaxis also reduced thrombocytopenia development by slowing consumption. DIC patients are procoagulant and at macrothrombotic risk. Stress ulcer prophylaxis is also recommended to reduce GI bleeding."
+    },
+    {
+      "id": "dic_k10",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Diagnosis of DIC",
+      "section_url": "",
+      "question": "Which of the following statements about the differential diagnosis of thrombocytopenia in the ICU are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Heparin-induced thrombocytopenia (HIT) can be reliably excluded in septic patients by finding a negative anti-PF4 ELISA, as false-positive ELISA results do not occur in critically ill patients.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "TTP is a medical emergency requiring immediate consideration of plasma exchange to remove inhibitory antibodies, replenish ADAMTS13, and remove ultra-large vWF multimers.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "In any ICU patient with unexplained thrombocytopenia, ADAMTS13 testing is mandatory regardless of clinical context.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Haemophagocytic lymphohistiocytosis (HLH) should be considered in the differential diagnosis of thrombocytopenia in the critically ill, and can be investigated with ferritin, triglycerides, and NK cell activity.",
+          "correct": true
+        }
+      ],
+      "explanation": "The anti-PF4 ELISA for HIT is frequently *false-positive* in critically ill and septic patients, requiring functional confirmation (e.g. serotonin release assay) before acting on a positive result. TTP does require immediate plasma exchange — it is a true emergency. ADAMTS13 testing is indicated when TTP is clinically suspected (microangiopathic haemolytic anaemia, thrombocytopenia, neurological symptoms, renal involvement) but is not mandatory in all cases of ICU thrombocytopenia. HLH is an important differential and is investigated with ferritin, triglycerides, fibrinogen, and NK cell activity."
+    }
+  ]
+}
