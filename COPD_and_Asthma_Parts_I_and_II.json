@@ -1,0 +1,661 @@
+{
+  "module": "COPD and Asthma Parts I and II",
+  "sections": {
+    "Part I: Pathophysiology": "COPD: time constant τ=R×C reflected by FEV1/FVC. Two hyperinflation mechanisms: airway collapse/air trapping (predominant in emphysema) and dynamic hyperinflation from high resistance + insufficient expiratory time (predominant in asthma/AECOPD). Emphysema reduces elastic recoil → lowers transpulmonary driving pressure → early flow limitation at equal pressure point. PEEPi acts as inspiratory threshold load; ~50% of inspiratory effort in AECOPD may overcome it. DH raises intrathoracic pressure → ↓venous return, ↑RV afterload, ↑LV afterload, ↑dead space (Zone 3→Zone 1), ↑WOB. Diaphragmatic disadvantage: ↓zone of apposition, ↓curvature, altered costal-crural arrangement, chest wall recoil inward at high volumes. Asthma: eosinophilic/mast cell/CD4+ inflammation, reversible bronchospasm dominant; 4 narrowing mechanisms: smooth muscle contraction, oedema, mucus, structural thickening. COPD: neutrophilic/CD8+ inflammation, irreversible remodelling + emphysema.",
+    "Part II: Initial Evaluation and Triage": "AECOPD hospitalised severity — no RF (RR≤24, corrects with Venturi 24-35%, no mental change); RF (RR>24, corrects with >35% FiO2, HR>95, no mental change, PaCO2 50-60); ventilatory failure (acute mental change, FiO2>40% required, PaCO2>60, pH≤7.25 → NIV/intubation). ICU criteria COPD: pH<7.25 despite NIV, PaO2<5.3kPa despite NIV, haemodynamic instability, need for invasive MV. Asthma severe (sentences impossible, accessory muscles, SpO2<90%, PEF≤50%); imminent arrest (silent chest+paradoxical movement+bradycardia/coma). ICU asthma: non-response at 1-2h, PEF<30%, PaO2<8kPa, PaCO2>6kPa. Risk factors fatal asthma: prior ICU/intubation, SABA overuse >1 canister/month, non-use ICS, psychiatric disease, food allergy, recent oral steroids, prior hospitalisation. Three most useful tests: ABG, PEF, CXR."
+  },
+  "questions": [
+    {
+      "id": "copd12_a01",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part I: Pathophysiology",
+      "question": "In COPD the 'time constant' (τ = R × C) describes the speed of lung emptying. Which clinical parameter most directly reflects a prolonged τ at the whole-lung level?",
+      "options": [
+        "Total lung capacity (TLC)",
+        "Residual volume (RV)",
+        "Transfer factor for carbon monoxide (DLCO)",
+        "FEV1 and FEV1/FVC ratio",
+        "Functional residual capacity (FRC)"
+      ],
+      "correct": 3,
+      "explanation": "τ = R × C integrates both resistance and compliance into a single dynamic measure of how rapidly the lung empties. A prolonged τ manifests clinically as the inability to exhale a large fraction of vital capacity in one second — the essence of what FEV1 and FEV1/FVC capture. TLC and RV reflect static lung volumes, DLCO measures gas-transfer efficiency, and FRC is the passive end-expiratory volume; none directly represents the dynamic resistance–compliance interaction that defines the time constant."
+    },
+    {
+      "id": "copd12_a02",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part I: Pathophysiology",
+      "question": "A 62-year-old with severe emphysema is intubated for AECOPD; plateau pressure remains elevated despite maximal bronchodilation. A second patient with status asthmaticus normalises plateau pressure rapidly with nebulised salbutamol alone. Which statement best explains the dominant difference in hyperinflation mechanism between these two patients?",
+      "options": [
+        "Airway collapse and air trapping from lost parenchymal support predominate in COPD; reversible bronchospasm causing high expiratory resistance with insufficient expiratory time drives dynamic hyperinflation in the asthmatic",
+        "The COPD patient has higher elastic recoil than the asthmatic, worsening expiratory obstruction",
+        "The asthmatic has emphysematous parenchymal destruction that causes irreversible air trapping; the COPD patient has primarily reversible bronchospasm-driven dynamic hyperinflation that fully resolves with adequate bronchodilator therapy",
+        "Both mechanisms are identical; the difference lies only in the degree of hypercapnia",
+        "COPD patients benefit most from bronchodilators because reversible bronchospasm is the dominant mechanism"
+      ],
+      "correct": 0,
+      "explanation": "In COPD with emphysema the predominant mechanism of hyperinflation is airway collapse and air trapping: loss of parenchymal support allows small airways to collapse, permanently trapping air distal to the point of flow limitation. This is largely irreversible. In asthma, dynamic hyperinflation is driven primarily by reversible bronchospasm and oedema generating high expiratory resistance combined with inadequate expiratory time; bronchodilators can rapidly restore airway calibre. The contrasting plateau-pressure responses illustrate this mechanistic distinction."
+    },
+    {
+      "id": "copd12_a03",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part I: Pathophysiology",
+      "image": "images/img_dc786bc2f5.png",
+      "question": "The waveform shown depicts alveolar pressure and flow during spontaneous breathing with significant auto-PEEP (PEEPi). Compared to a patient without PEEPi, what is the primary additional workload imposed on the inspiratory muscles before any inspiratory flow can begin?",
+      "options": [
+        "Generating a tidal volume substantially larger than normal to compensate for increased anatomical dead space caused by hyperinflation of the conducting airways",
+        "Overcoming the positive end-expiratory alveolar pressure (PEEPi) as an elastic threshold load before inspiratory flow can commence",
+        "Sustaining supranormal peak inspiratory pressure throughout the entire breath",
+        "Compensating for increased chest wall stiffness caused by thoracic hyperinflation",
+        "Generating additional resistive work during the expiratory phase to prevent dynamic airway collapse"
+      ],
+      "correct": 1,
+      "explanation": "With PEEPi the alveolar pressure at end-expiration is positive. Before inspiratory flow can start, the inspiratory muscles must generate enough pressure to reduce alveolar pressure to the level of mouth pressure — this is the elastic threshold load (ΔP trigger). Only after overcoming this threshold does flow commence. In severe AECOPD approximately 50% of total inspiratory effort may be consumed by this threshold alone, leaving less capacity for actual gas movement. This is fundamentally different from pure resistive loading and is not relieved by increasing inspiratory flow rate."
+    },
+    {
+      "id": "copd12_a04",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part I: Pathophysiology",
+      "image": "images/img_919817ca8f.png",
+      "question": "The waveform shown demonstrates alveolar pressure and flow during spontaneous breathing with NO intrinsic PEEP. How does the trigger work in this patient differ from a patient with significant auto-PEEP?",
+      "options": [
+        "Trigger work equals zero because the patient generates no inspiratory effort",
+        "Trigger work is equivalent to a state with severe dynamic hyperinflation, as both require large Pmus swings",
+        "Trigger work is equivalent to a patient with severe dynamic hyperinflation because both states require the respiratory muscles to generate identical Pmus deflections to overcome the combined elastic and resistive impedance",
+        "Trigger work is minimal: with alveolar pressure near zero at end-expiration, a small ΔP suffices to initiate flow",
+        "Trigger work is higher because tidal volumes are larger in the absence of PEEPi"
+      ],
+      "correct": 3,
+      "explanation": "Without PEEPi the respiratory system returns to its passive FRC at end-expiration, with alveolar pressure near atmospheric. A minimal inspiratory pressure swing therefore suffices to initiate flow — the trigger work is negligible compared to the total ΔP developed during the breath. With PEEPi, the trigger work equals the full PEEPi value and can represent a substantial fraction of each breath's work. Reducing PEEPi through bronchodilators, prolonged expiratory time, or appropriately applied external PEEP directly reduces this trigger burden."
+    },
+    {
+      "id": "copd12_a05",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part I: Pathophysiology",
+      "question": "A 67-year-old ex-smoker with severe emphysema has dramatically reduced lung elastic recoil from parenchymal destruction. What is the direct consequence for expiratory airflow?",
+      "options": [
+        "Elevated total lung volume secondary to air trapping generates increased transpulmonary driving pressure that compensates for the reduced elastic recoil, preserving normal expiratory airflow",
+        "Preferential involvement of central airways, preserving peripheral expiratory flow",
+        "Enhanced expiratory flow because loss of parenchyma reduces airway compression forces",
+        "Reduced anatomical dead space because low recoil slows emptying of distal lung units",
+        "Reduced transpulmonary pressure lowers the expiratory driving force, causing earlier and more severe flow limitation even during tidal breathing"
+      ],
+      "correct": 4,
+      "explanation": "Transpulmonary pressure (Ptp = Palv − Ppl) is the effective driving force for expiration. With severe emphysema the elastic recoil pressure of the lung falls substantially, directly reducing Ptp. As the driving pressure diminishes, the pressure drop along the airways reaches the equal pressure point earlier and in more peripheral (uncartilaginous) airways, causing dynamic airway collapse and flow limitation during normal tidal breathing. Loss of parenchymal support of small airways further aggravates collapse. Increased total lung volume does not compensate — elastic recoil per unit volume is reduced, so the net driving pressure is still lower."
+    },
+    {
+      "id": "copd12_a06",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part I: Pathophysiology",
+      "question": "A 70-year-old with severe COPD and marked lung hyperinflation has difficulty generating adequate inspiratory pressure. Which of the following is NOT a primary mechanism by which diaphragmatic flattening from hyperinflation impairs inspiratory force generation?",
+      "options": [
+        "Worsening of the length-tension relationship as the diaphragm is shortened beyond its optimal operating length",
+        "Reduction in diaphragmatic curvature decreasing pressure generation per unit of tension (Laplace's law)",
+        "Change in the mechanical arrangement of costal and crural diaphragmatic components",
+        "Paradoxical outward recoil of the hyperinflated thoracic cage that actively assists inspiratory effort",
+        "Reduction in the zone of apposition between the diaphragm and the lower thoracic cage"
+      ],
+      "correct": 3,
+      "explanation": "Diaphragmatic dysfunction from hyperinflation arises through three established mechanisms: worsened length-tension relationship (diaphragm shortened beyond optimum); reduced curvature (Laplace: P=T/r; as radius increases with flattening, pressure per unit tension falls); and altered costal-crural arrangement. Additionally, at very high lung volumes the chest wall's own resting equilibrium volume (~60% TLC) is exceeded, so its elastic recoil reverses — becoming inward rather than outward — adding to the inspiratory elastic load. The notion that a hyperinflated chest wall actively assists inspiration is incorrect; it becomes an additional burden that inspiratory muscles must overcome."
+    },
+    {
+      "id": "copd12_a07",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part I: Pathophysiology",
+      "question": "A 28-year-old woman with severe acute asthma is intubated. Airway inflammation in asthma involves a distinctly different cellular pattern compared with COPD. Which combination correctly characterises the airway inflammatory infiltrate in asthma?",
+      "options": [
+        "Mast cells, eosinophils, activated CD4+ T-lymphocytes, macrophages, and epithelial cells mediated by histamine and cytokines",
+        "Predominantly neutrophilic inflammation with CD8+ cytotoxic T-lymphocytes causing progressive alveolar wall destruction and emphysema-like parenchymal loss over time",
+        "Monocytes with fibrous airway wall thickening and goblet cell hyperplasia as the primary finding",
+        "Natural killer cells with bronchial smooth muscle atrophy and mucous gland depletion",
+        "Predominantly CD8+ cells producing permanent parenchymal loss identical to emphysema"
+      ],
+      "correct": 0,
+      "explanation": "Asthma is characterised by a Th2-driven, eosinophilic airway inflammation involving mast cells, eosinophils, macrophages, activated CD4+ T-helper lymphocytes, and epithelial cells, mediated by cytokines, histamine, and leukotrienes. This underlies airway hyperresponsiveness and the typically reversible bronchoconstriction of asthma. COPD features predominantly neutrophilic and CD8+ cytotoxic T-cell inflammation with progressive airway remodelling and emphysematous alveolar destruction — a fundamentally different process. The eosinophilic pattern in asthma explains its responsiveness to inhaled corticosteroids, a feature not shared by typical COPD."
+    },
+    {
+      "id": "copd12_a08",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part I: Pathophysiology",
+      "question": "A 68-year-old with severe AECOPD is intubated and immediately develops hypotension (MAP 48 mmHg) despite euvolaemia and adequate sedation. The ventilator displays persistent end-expiratory flow. Measured PEEPi is 16 cmH2O. What is the MOST appropriate immediate next step?",
+      "options": [
+        "Administer 500 mL isotonic saline bolus",
+        "Increase set PEEP to 12 cmH2O to counteract PEEPi",
+        "Briefly disconnect the ventilator circuit and observe for resolution of hypotension",
+        "Initiate noradrenaline infusion at 0.1 mcg/kg/min",
+        "Increase tidal volume to 10 mL/kg IBW to normalise PaCO2 and reduce ventilatory drive"
+      ],
+      "correct": 2,
+      "explanation": "The combination of obstructive lung disease, post-intubation hypotension, and markedly elevated PEEPi is the classic presentation of haemodynamic compromise from dynamic hyperinflation. High intrathoracic pressure from trapped gas reduces venous return and raises right ventricular afterload, precipitating cardiovascular collapse. The fastest diagnostic and therapeutic manoeuvre is brief ventilator disconnection, allowing passive lung emptying to FRC. Rapid recovery of blood pressure confirms hyperinflation as the cause. Fluid bolus temporarily increases preload without addressing the mechanism. Increasing set PEEP to 12 cmH2O without confirming expiratory flow limitation would worsen hyperinflation. Vasopressors mask the cause. Increasing tidal volume would critically compound the problem."
+    },
+    {
+      "id": "copd12_a09",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part I: Pathophysiology",
+      "question": "During an acute severe asthma exacerbation, airway narrowing results from four distinct pathophysiological mechanisms. Which combination correctly identifies all four?",
+      "options": [
+        "Alveolar destruction, smooth muscle contraction, loss of elastic recoil, and mucus plugging",
+        "Smooth muscle atrophy, eosinophilic alveolitis, basement membrane thinning, and mucus depletion",
+        "Airway smooth muscle contraction, airway oedema, mucus hypersecretion, and structural airway thickening",
+        "Goblet cell depletion, smooth muscle hypertrophy, increased ciliary clearance, and mucosal ischaemia",
+        "Smooth muscle contraction, pleural effusion, increased surfactant production, and mucus depletion"
+      ],
+      "correct": 2,
+      "explanation": "The four mechanisms of airway narrowing in acute asthma are: (1) exaggerated contraction of airway smooth muscle — the predominant and most rapidly reversible mechanism; (2) airway oedema — a significant contributor especially during acute episodes; (3) mucus hypersecretion causing airway plugging; and (4) airway thickening from structural changes (hypertrophy and hyperplasia of smooth muscle and goblet cells), which is only partially reversible. Alveolar destruction and loss of elastic recoil are features of emphysema. Goblet cell depletion and increased mucociliary clearance are opposite to what occurs in asthma exacerbation."
+    },
+    {
+      "id": "copd12_a10",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part I: Pathophysiology",
+      "question": "In severe COPD, expiratory flow limitation is related to the equal pressure point (EPP). Which statement accurately defines the EPP and explains its significance?",
+      "options": [
+        "The EPP is where alveolar pressure equals pleural pressure; its peripheral migration reduces expiratory resistance",
+        "The EPP is where airway resistance equals tissue compliance per unit volume; its anatomical location determines residual volume but exerts no measurable influence on dynamic expiratory flow limitation",
+        "The EPP is where pleural pressure equals atmospheric; upstream migration improves expiratory airflow",
+        "The EPP is where driving pressure reaches zero; its peripheral migration widens the upstream airways",
+        "The EPP is where intraluminal airway pressure equals surrounding pleural pressure; upstream migration in COPD places dynamic compression in smaller peripheral airways, worsening flow limitation"
+      ],
+      "correct": 4,
+      "explanation": "The equal pressure point is defined as the point along the airway where intraluminal pressure equals the surrounding pleural pressure. Downstream (mouthward) of this point, pleural pressure exceeds intraluminal pressure, causing dynamic airway compression. In normal lungs this occurs in large, cartilage-supported central airways. In COPD with reduced elastic recoil the transpulmonary driving pressure is lower, so the pressure drop along the airways reaches pleural pressure levels earlier — migrating the EPP peripherally into smaller, uncartilaginous airways. Dynamic compression then occurs in structurally vulnerable peripheral airways, severely limiting expiratory flow and promoting air trapping distal to the collapse point."
+    },
+    {
+      "id": "copd12_a11",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part I: Pathophysiology",
+      "question": "In obstructive airways disease, inspiratory resistive load follows ΔP = Airway resistance × Airflow. A dyspnoeic patient with fixed airway obstruction doubles their inspiratory flow rate. What happens to the inspiratory resistive workload?",
+      "options": [
+        "It decreases by 50% because work is distributed over a shorter inspiratory time",
+        "It remains unchanged, as resistance rather than flow determines workload",
+        "It doubles, because the pressure gradient scales linearly with flow at constant resistance",
+        "It quadruples, because work equals pressure times flow times time and all three increase",
+        "It increases by 50% because workload is proportional to the square root of flow"
+      ],
+      "correct": 2,
+      "explanation": "At constant resistance, ΔP = R × flow is directly proportional to flow — doubling the flow doubles the required pressure gradient and thus the resistive workload. This explains why patients with severe airway obstruction cannot safely compensate for dyspnoea by breathing faster or harder: every increase in flow demand proportionally increases the pressure the already-burdened inspiratory muscles must generate. When PEEPi is superimposed — as in AECOPD — the combined elastic threshold and doubled resistive load can rapidly exhaust respiratory muscle reserve and precipitate ventilatory failure."
+    },
+    {
+      "id": "copd12_a12",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part I: Pathophysiology",
+      "question": "Dynamic hyperinflation (DH) is defined as the failure of the respiratory system at end-expiration to return to which reference state?",
+      "options": [
+        "Passive functional residual capacity, the elastic equilibrium where lung recoil balances chest wall recoil with no muscle activity",
+        "Total lung capacity, the maximum inflation volume at which both lung and chest wall elastic recoil are directed inward and system compliance reaches its minimum value",
+        "Residual volume (RV), the lowest volume achievable with maximal active expiration",
+        "Closing capacity, the volume at which small peripheral airways begin to close",
+        "Predicted vital capacity, the volume between RV and TLC"
+      ],
+      "correct": 0,
+      "explanation": "Dynamic hyperinflation is specifically defined as failure to return to the passive FRC — the elastic equilibrium volume at which inward lung recoil exactly balances outward chest wall recoil and net respiratory muscle activity is zero. When expiratory time is insufficient for complete lung emptying, the lung remains above FRC and the end-expiratory positive alveolar pressure constitutes PEEPi. This distinguishes DH from static hyperinflation (elevated TLC/RV from irreversible gas trapping): DH is dynamically recreated with each breath by the combination of high resistance, reduced recoil, and insufficient expiratory time."
+    },
+    {
+      "id": "copd12_a13",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Part II: Initial Evaluation and Triage",
+      "question": "A 73-year-old with known COPD arrives using accessory muscles (RR 29/min, HR 110/min) with acute confusion. ABG on 40% Venturi mask: pH 7.22, PaO2 52 mmHg, PaCO2 71 mmHg. Which severity category best applies?",
+      "options": [
+        "Mild exacerbation — outpatient management is appropriate",
+        "Moderate exacerbation — ward admission with standard bronchodilator therapy",
+        "No respiratory failure — corrects with 24–35% Venturi FiO2",
+        "Respiratory failure — correctable with supplemental oxygen without mental status change",
+        "Ventilatory failure — mechanical ventilatory support (non-invasive or invasive) is required"
+      ],
+      "correct": 4,
+      "explanation": "The ventilatory failure category requires: RR >24/min, accessory muscle use, acute mental status change, hypoxaemia not correctable with FiO2 >40%, PaCO2 elevated above baseline or >60 mmHg, and pH ≤7.25. This patient fulfils all criteria — RR 29, accessories, acute confusion, inadequate oxygenation on 40% Venturi, PaCO2 71 mmHg, and pH 7.22. Distinguishing ventilatory failure from respiratory failure is clinically critical: only ventilatory failure mandates immediate consideration of NIV or invasive mechanical ventilation. Reassessment at 1–2 hours of NIV determines whether intubation will be needed."
+    },
+    {
+      "id": "copd12_a14",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Part II: Initial Evaluation and Triage",
+      "question": "A 26-year-old with severe asthma is in the ED (unable to complete sentences, suprasternal retractions, SpO2 87%, HR 128/min, PEF 45%). Over 30 minutes her effort visibly diminishes, wheezing becomes inaudible, and she develops bradycardia. Which finding most specifically signals the transition to imminent respiratory arrest?",
+      "options": [
+        "Silent chest with paradoxical thoraco-abdominal movement and bradycardia",
+        "SpO2 of 87% on room air with persistent sinus tachycardia indicating ongoing significant hypoxaemia without haemodynamic collapse",
+        "PEF declining from 45% to 38% predicted",
+        "Escalating use of suprasternal accessory muscles with agitation",
+        "Heart rate 128/min with inability to complete a sentence"
+      ],
+      "correct": 0,
+      "explanation": "The transition to imminent respiratory arrest is signalled by: a silent chest (wheezing disappears because airflow is near-zero — NOT because obstruction improved), paradoxical thoraco-abdominal movement reflecting respiratory muscle fatigue, bradycardia, hypotension, coma, and cyanosis. The absence of pulsus paradoxus may also indicate that respiratory muscles can no longer generate the large pressure swings that produce it — another pre-arrest sign. Tachycardia, agitation, measurable PEF decline, and accessory muscle use are features of severe but not yet pre-arrest asthma. The inaudible wheeze combined with bradycardia in this patient demands immediate intubation."
+    },
+    {
+      "id": "copd12_a15",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Part II: Initial Evaluation and Triage",
+      "question": "A 31-year-old with asthma is admitted for the second time this year. He received oral prednisolone six weeks ago, uses more than two canisters of salbutamol monthly, takes no inhaled corticosteroids, and has a history of psychiatric illness. Which combination places him at the highest risk for asthma-related death?",
+      "options": [
+        "Young age (under 35 years) and male sex, as fatal asthma is statistically more common in younger males regardless of disease control or prior history",
+        "Recent oral corticosteroid use, SABA overuse, non-use of ICS, repeated hospitalisation, and psychiatric comorbidity",
+        "Mild intermittent asthma with seasonal allergen sensitisation only",
+        "Well-controlled asthma on ICS/LABA combination with good adherence",
+        "Moderate persistent asthma with excellent adherence to controller therapy and no prior ICU admissions"
+      ],
+      "correct": 1,
+      "explanation": "GINA-recognised risk factors for asthma-related death include: prior near-fatal asthma requiring intubation; hospitalisation or ED visit in the past year; recent or current oral corticosteroid use; non-use of ICS; SABA overuse (>1 canister of salbutamol monthly); psychiatric disease or psychosocial problems; poor adherence to controller medications; food allergy; and certain comorbidities. This patient accumulates five simultaneous high-risk features. Well-controlled asthma on ICS/LABA with good adherence and no hospitalisation history carries minimal mortality risk. Male sex and age under 35 are descriptive epidemiological findings but are not listed as specific independent risk factors in the GINA framework for fatal exacerbation."
+    },
+    {
+      "id": "copd12_a16",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Part II: Initial Evaluation and Triage",
+      "question": "A 34-year-old with severe asthma has received 90 minutes of continuous nebulised salbutamol, ipratropium, and IV methylprednisolone. She remains in severe distress. ABG on 60% O2: pH 7.34, PaO2 58 mmHg (7.7 kPa), PaCO2 48 mmHg. PEF is 27% predicted. Which statement correctly identifies the ICU admission criteria that are met?",
+      "options": [
+        "PaCO2 48 mmHg alone mandates ICU admission as it indicates hypercapnic failure",
+        "pH 7.34 is reassuring and indicates adequate respiratory compensation; ICU can be deferred",
+        "Non-response to bronchodilators alone is insufficient for ICU admission without additional blood gas criteria",
+        "PaO2 <8 kPa mandates ICU admission only when accompanied simultaneously by both elevated PaCO2 and a pH below 7.30, and the patient has not yet received a full bronchodilator trial",
+        "PEF <30% and failure to respond within 1–2 hours are both present; each is an independent criterion sufficient for ICU admission"
+      ],
+      "correct": 4,
+      "explanation": "ICU admission criteria in acute severe asthma include: non-response to initial 1–2 hours of treatment; risk factors for near-fatal asthma; persistent worsening; PEF <30% predicted; PaO2 <8 kPa/60 mmHg; and PaCO2 >6 kPa/45 mmHg. This patient fulfils at least three: PEF 27% (<30%), 90 minutes without response, PaO2 7.7 kPa (<8 kPa), and PaCO2 48 mmHg (6.4 kPa, >45 mmHg). Any single criterion is independently sufficient. The apparently maintained pH of 7.34 is not reassuring — a rising PaCO2 in a previously hyperventilating asthmatic signals respiratory muscle fatigue and impending arrest; normocapnia in this context is an ominous sign, not a reassuring one."
+    },
+    {
+      "id": "copd12_a17",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Part II: Initial Evaluation and Triage",
+      "question": "A patient with acute respiratory distress presents to the emergency department. Which combination of investigations is most immediately useful for evaluating severity and aetiology in exacerbation of COPD or asthma?",
+      "options": [
+        "Echocardiography, D-dimer, and chest CT pulmonary angiography to exclude cardiac dysfunction, pulmonary embolism, and parenchymal disease simultaneously",
+        "Arterial blood gas analysis, peak expiratory flow, and baseline chest radiography",
+        "Spirometry, fractional exhaled nitric oxide, and sputum culture",
+        "Complete blood count, procalcitonin, and urine Legionella antigen",
+        "Bedside lung ultrasound, high-sensitivity troponin, and NT-proBNP"
+      ],
+      "correct": 1,
+      "explanation": "The three most useful immediate investigations are: arterial blood gas analysis (quantifies hypoxaemia, hypercapnia, acidosis, and directly informs need for ventilatory support); peak expiratory flow (directly assesses severity of obstruction in asthma and monitors treatment response); and baseline chest radiography (excludes alternative and complicating diagnoses including pneumonia, pneumothorax, pleural effusion, and heart failure). Spirometry is contraindicated during severe exacerbation. CT angiography and echocardiography are reserved for specific diagnostic questions. Inflammatory biomarkers are useful adjuncts but do not inform the immediate triage decision or management urgency."
+    },
+    {
+      "id": "copd12_a18",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Part II: Initial Evaluation and Triage",
+      "question": "A 66-year-old with AECOPD has been on NIV for 2 hours. Repeat ABG: pH 7.23, PaCO2 74 mmHg, PaO2 55 mmHg; he is increasingly confused. Which criterion most clearly mandates ICU admission in this patient?",
+      "options": [
+        "PaCO2 greater than 70 mmHg alone — regardless of arterial pH, mental status, or response to non-invasive ventilation — constitutes sufficient grounds for immediate ICU admission",
+        "Persistent respiratory acidosis (pH <7.25) with worsening mental status despite an adequate NIV trial",
+        "Supplemental oxygen requirement exceeding 35% FiO2",
+        "Heart rate >95 bpm combined with RR >24/min",
+        "PaO2 <8 kPa on supplemental oxygen without respiratory acidosis"
+      ],
+      "correct": 1,
+      "explanation": "GOLD criteria for ICU admission in AECOPD include: inadequate response to initial therapy; persistent or worsening hypoxaemia (PaO2 <5.3 kPa/40 mmHg) despite NIV; persistent or worsening respiratory acidosis (pH <7.25) despite NIV; worsening mental status; need for invasive mechanical ventilation; and haemodynamic instability. The specific indicator in this patient is pH <7.25 persisting after 2 hours of NIV combined with worsening confusion — together indicating NIV failure and the need for invasive ventilation. PaCO2 level alone without regard to pH is not a trigger, as many COPD patients chronically tolerate elevated PaCO2. Worsening mental status alongside refractory acidosis unresponsive to NIV is the definitive indication for escalation."
+    },
+    {
+      "id": "copd12_a19",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Part II: Initial Evaluation and Triage",
+      "question": "Regarding the triage implications of therapeutic response in acute COPD versus acute asthma, which statement is most accurate?",
+      "options": [
+        "In COPD a rapid response within 1–2 hours means the patient can safely be observed on a general ward without monitoring for ventilatory failure",
+        "Both diseases respond equally rapidly to bronchodilators; triage is determined solely by arterial blood gas results",
+        "COPD patients require ICU admission by default because therapeutic response has no bearing on triage",
+        "In asthma, failure to improve within 1–2 hours of initial treatment is a decisive triage indicator for a setting with ventilatory support capability",
+        "Asthma patients rarely deteriorate to respiratory arrest and may be safely observed on a general ward regardless of initial response"
+      ],
+      "correct": 3,
+      "explanation": "The initial response to therapy carries fundamentally different triage implications in asthma versus COPD. In asthma, where bronchospasm is potentially rapidly reversible, failure to improve within 1–2 hours signals a severe attack and mandates a ward capable of providing NIV or intubation. In COPD, therapeutic response is typically slower, so triage relies more on ongoing severity monitoring than on early response. A COPD patient who responds well may be appropriate for a monitored general ward; one who does not should have ventilatory support available. Neither disease mandates ICU admission by default — severity trajectory and patient-specific factors determine placement."
+    },
+    {
+      "id": "copd12_a20",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part I: Pathophysiology",
+      "question": "In a mechanically ventilated patient with severe AECOPD and marked dynamic hyperinflation, mean alveolar pressure is substantially elevated. What is the direct consequence for pulmonary gas exchange physiology?",
+      "options": [
+        "Improved V/Q matching because elevated alveolar pressure recruits previously collapsed regions",
+        "Reactive pulmonary vasodilation in response to elevated alveolar pressure that redistributes blood flow to previously underperfused alveolar units, normalising V/Q ratio and reducing dead space ventilation",
+        "Conversion of West Zone 3 alveoli to Zone 1 as alveolar pressure exceeds capillary perfusion pressure, increasing physiological dead space",
+        "Reduction in anatomical dead space because high pressures stent open the larger airways",
+        "Increased shunt fraction from perfusion redistribution to collapsed but well-ventilated alveoli"
+      ],
+      "correct": 2,
+      "explanation": "When dynamic hyperinflation raises mean alveolar pressure, it can exceed capillary perfusion pressure in some lung regions, converting them from West Zone 3 (alveolar pressure < capillary pressure, perfused) to West Zone 1 (alveolar pressure > capillary pressure, unperfused). These regions continue to be ventilated but receive no blood flow, contributing to alveolar dead space. This increases the minute ventilation required to maintain alveolar ventilation, which in turn can worsen dynamic hyperinflation by shortening expiratory time — a self-perpetuating cycle. The net result is worsening hypercapnia, increased ventilatory demands, and further mechanical disadvantage."
+    },
+    {
+      "id": "copd12_k01",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part I: Pathophysiology",
+      "question": "Regarding the consequences of dynamic hyperinflation during acute exacerbation of COPD and asthma:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Dynamic hyperinflation shifts tidal breathing towards total lung capacity, where respiratory system compliance is relatively higher, reducing the elastic work of breathing",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Increased mean intrathoracic pressure from dynamic hyperinflation can reduce venous return and precipitate haemodynamic compromise",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Dynamic hyperinflation typically causes hypertension rather than hypotension through its effects on intrathoracic pressure",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Elevated alveolar pressure from dynamic hyperinflation can convert West Zone 3 to Zone 1 regions, increasing physiological dead space and total ventilatory requirements",
+          "correct": true
+        }
+      ],
+      "explanation": "Dynamic hyperinflation shifts tidal breathing toward TLC — a region where compliance is reduced, not increased — so elastic WOB increases rather than decreases. Elevated mean intrathoracic pressure compresses the heart and impairs venous return to both ventricles, typically causing hypotension, not hypertension; the rightward septal shift also compromises LV diastolic compliance. Elevated alveolar pressure can eliminate capillary perfusion pressure in affected lung units (Zone 1), expanding physiological dead space and driving a higher minute ventilation requirement, perpetuating the hyperinflation cycle."
+    },
+    {
+      "id": "copd12_k02",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part I: Pathophysiology",
+      "question": "Regarding the distinction between COPD and asthma in pathophysiology and airway inflammation:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "In acute asthma, bronchospasm from smooth muscle contraction is the predominant and most rapidly reversible mechanism of airway narrowing",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "COPD is characterised by a predominantly eosinophilic airway inflammation, in contrast to the neutrophilic pattern seen in asthma",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Emphysema results from an imbalance of proteinases and anti-proteinases (as in alpha-1-antitrypsin deficiency), causing alveolar destruction and reduced elastic recoil",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Airway obstruction in asthma becomes irreversible after recurrent exacerbations, making it pathologically indistinguishable from COPD",
+          "correct": false
+        }
+      ],
+      "explanation": "Bronchospasm from smooth muscle contraction is the predominant and most rapidly reversible mechanism in acute asthma, explaining the dramatic response to inhaled beta-2 agonists. COPD features a predominantly neutrophilic and CD8+ T-cell pattern; eosinophilic inflammation characterises asthma. Emphysema is driven by proteinase/anti-proteinase imbalance and oxidative stress from smoking. Although recurrent asthmatic inflammation can produce some structural remodelling with partial fixed obstruction, complete irreversibility is not inevitable and the pathological changes differ from the permanent parenchymal destruction and fibrotic remodelling of COPD."
+    },
+    {
+      "id": "copd12_k03",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part I: Pathophysiology",
+      "question": "Regarding factors contributing to respiratory muscle dysfunction during acute exacerbation of COPD:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Respiratory cachexia and malnutrition, common in severe COPD, improve respiratory muscle contractility by promoting adaptive hypertrophy",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "In AECOPD approximately half of each inspiratory effort may be consumed overcoming the elastic threshold imposed by PEEPi before any inspiratory flow commences",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Hypoxaemia and respiratory acidosis improve the energy metabolism of respiratory muscles, serving as a compensatory mechanism during exacerbation",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Dynamic hyperinflation worsens the length-tension relationship of the diaphragm by shortening it beyond its optimal operating length",
+          "correct": true
+        }
+      ],
+      "explanation": "Cachexia and malnutrition impair, not improve, respiratory muscle contractility. The finding that approximately 50% of inspiratory effort in AECOPD is spent overcoming the PEEPi elastic threshold is well established — this threshold work leaves proportionally less muscle reserve for actual gas delivery. Hypoxaemia disturbs aerobic energy metabolism and respiratory acidosis impairs contractile protein function — both worsen rather than support muscle performance. Diaphragmatic flattening from hyperinflation places the muscle on the descending limb of its length-tension curve, substantially reducing pressure output per unit of electrical activation."
+    },
+    {
+      "id": "copd12_k04",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Part II: Initial Evaluation and Triage",
+      "question": "Regarding the classification of severity in hospitalised patients with acute COPD exacerbation:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "In the 'respiratory failure' category, hypoxaemia is correctable with Venturi mask FiO2 up to 50%, and mental status is unchanged",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Tachycardia (HR >95 bpm) alone, in the absence of any other criterion, is sufficient to classify a hospitalised COPD patient as having ventilatory failure",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Ventilatory failure in hospitalised COPD is characterised by acute mental status changes, inability to correct hypoxaemia with FiO2 >40%, and acidosis (pH ≤7.25) with elevated PaCO2",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Accessory muscle use and respiratory rate >24/min are features shared by both the respiratory failure and ventilatory failure categories",
+          "correct": true
+        }
+      ],
+      "explanation": "In the respiratory failure category (GOLD hospitalised classification) hypoxaemia is correctable with supplemental oxygen at >35% FiO2 via Venturi — the specific ceiling is not 50%, and critically mental status is UNCHANGED (acute mental status change defines ventilatory failure). Tachycardia appears across all categories and is non-specific — it is not a standalone criterion for ventilatory failure. Ventilatory failure requires acute mental status change, inability to correct hypoxaemia with FiO2 >40%, elevated PaCO2 and pH ≤7.25. Elevated RR and accessory muscle use are present in both respiratory failure and ventilatory failure — mental status change and refractory hypercapnic acidosis are the distinguishing features of the latter."
+    },
+    {
+      "id": "copd12_k05",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Part II: Initial Evaluation and Triage",
+      "question": "Regarding severity assessment and triage signs in acute asthma:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A silent chest during a severe asthma exacerbation indicates effective bronchodilation and predicts imminent clinical improvement",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "The absence of pulsus paradoxus in a severely dyspnoeic asthmatic may indicate respiratory muscle fatigue rather than clinical improvement",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "A peak expiratory flow below 30% of predicted is an independent criterion for ICU admission in acute asthma",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "A PaCO2 returning towards normal (35–45 mmHg) from a previously low value is reassuring and indicates successful response to bronchodilator therapy in a severely dyspnoeic asthmatic",
+          "correct": false
+        }
+      ],
+      "explanation": "A silent chest does not indicate effective bronchodilation — it means near-absent airflow through severely narrowed airways and is a pre-arrest finding. Pulsus paradoxus results from large intrathoracic pressure swings during vigorous respiratory effort; its disappearance in a severely dyspnoeic patient may indicate fatigue-related loss of respiratory drive — another pre-arrest sign, not improvement. PEF <30% predicted is a standalone ICU admission criterion per GINA. A rising PaCO2 towards normal in an asthmatic who was previously hyperventilating (and should have a low PaCO2) indicates fatigue-driven hypoventilation — an ominous pre-arrest sign, not therapeutic success."
+    },
+    {
+      "id": "copd12_k06",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Part II: Initial Evaluation and Triage",
+      "question": "The following are recognised risk factors for asthma-related death according to GINA guidelines:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A history of near-fatal asthma previously requiring intubation and mechanical ventilation",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Mild or well-controlled asthma with no prior hospitalisation for asthma in the past five years",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Regular use of inhaled corticosteroids (ICS) with documented good adherence to controller therapy",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Overuse of short-acting beta-2 agonists, especially more than one canister of salbutamol per month",
+          "correct": true
+        }
+      ],
+      "explanation": "Prior near-fatal asthma requiring intubation is one of the strongest predictors of future asthma-related death and mandates heightened surveillance. Well-controlled asthma with no recent hospitalisation is not a risk factor — the presence of prior severe events, not their absence, predicts mortality. Regular ICS use with good adherence is protective — non-use of ICS is the recognised risk factor. SABA overuse (>1 canister of salbutamol monthly) reflects poor disease control and is a well-established independent risk marker for fatal exacerbation, as it correlates with undertreated or highly labile asthma."
+    },
+    {
+      "id": "copd12_k07",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part I: Pathophysiology",
+      "question": "Regarding the cardiovascular consequences of dynamic hyperinflation during spontaneous breathing in AECOPD:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Vigorous inspiratory efforts against obstructed airways increase right ventricular filling while simultaneously raising pulmonary vascular resistance from alveolar hypoxia and compressed juxta-alveolar vessels",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Large negative intrathoracic pressure swings during inspiration reduce left ventricular transmural pressure, thereby decreasing LV afterload and augmenting stroke volume",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Active expiratory muscle contraction in AECOPD can raise intra-abdominal pressure sufficiently to compress the inferior vena cava in hypovolaemic patients, further reducing venous return",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "The combination of high RV preload from augmented venous return and elevated RV afterload can cause leftward septal shift, impairing LV diastolic compliance",
+          "correct": true
+        }
+      ],
+      "explanation": "Strong inspiratory efforts during obstructed breathing augment venous return to the right heart (increased RV preload). Simultaneously, alveolar hypoxia and elevated alveolar pressure compress juxta-alveolar vessels and raise pulmonary vascular resistance (increased RV afterload). This combination causes RV dilation and leftward septal shift, impairing LV diastolic compliance and filling. Contrary to intuition, large negative pleural pressure swings during obstructed inspiration increase LV transmural pressure (effective afterload) — the LV must pump against a greater pressure difference — thereby reducing, not augmenting, stroke volume. Expiratory muscle contraction can further compromise venous return by IVC compression."
+    },
+    {
+      "id": "copd12_k08",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part I: Pathophysiology",
+      "question": "Regarding the mechanisms that cause or exacerbate dynamic hyperinflation in acute exacerbation of COPD and asthma:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "High ventilatory demands from V/Q mismatch and increased dead space ventilation reduce the risk of dynamic hyperinflation by increasing the drive for expiration",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Reduced elastic recoil in emphysema decreases transpulmonary driving pressure for expiration, contributing to dynamic hyperinflation",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "PEEPi acts primarily as a resistive load during expiration, with no additional threshold effect at the beginning of inspiration",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Tachypnoea shortens expiratory time below the multiple time constants needed for complete lung emptying, directly contributing to dynamic hyperinflation",
+          "correct": true
+        }
+      ],
+      "explanation": "High ventilatory demands worsen dynamic hyperinflation by increasing the minute volume that must be exhaled against obstructed airways and by shortening available expiratory time per breath — the opposite of reducing risk. Reduced elastic recoil in emphysema lowers the transpulmonary driving pressure (Ptp = Palv − Ppl), slowing exhalation and predisposing to air trapping. PEEPi acts primarily as an inspiratory threshold load: at the start of each breath, inspiratory muscles must first overcome the positive end-expiratory alveolar pressure before any flow begins. Tachypnoea, by reducing expiratory time, is a primary mechanical driver of dynamic hyperinflation."
+    },
+    {
+      "id": "copd12_k09",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Part II: Initial Evaluation and Triage",
+      "question": "The following are included in the GOLD criteria for ICU admission in acute exacerbation of COPD:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Persistent or worsening respiratory acidosis (pH <7.25) despite an adequate trial of non-invasive ventilation",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Persistent or worsening hypoxaemia (PaO2 <5.3 kPa/40 mmHg) with supplemental oxygen despite non-invasive ventilation",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Haemodynamic instability requiring vasopressor therapy",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Mild hypercapnia (PaCO2 55 mmHg) with normal mental status, pH 7.40, and hypoxaemia correctable with 28% Venturi oxygen",
+          "correct": false
+        }
+      ],
+      "explanation": "GOLD ICU admission criteria for AECOPD include: persistent or worsening hypoxaemia (PaO2 <5.3 kPa) despite NIV; persistent or worsening respiratory acidosis (pH <7.25) despite NIV; worsening mental status; need for invasive MV; and haemodynamic instability with vasopressors. The scenario in the last statement — mild hypercapnia with preserved pH and mental status, with hypoxaemia correctable on low-flow oxygen — describes the respiratory failure category requiring monitored ward care with NIV availability, not ICU admission. PaCO2 elevation alone without acidosis or clinical deterioration does not trigger ICU transfer in this framework."
+    },
+    {
+      "id": "copd12_k10",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part I: Pathophysiology",
+      "question": "Regarding the time constant and respiratory system mechanics in COPD:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Increasing airway resistance in COPD reduces the work of breathing by limiting expiratory flow and thereby preventing dynamic airway collapse",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Peripheral airways with diameter less than 2 mm represent the primary site of airway obstruction in COPD due to structural remodelling and inflammation",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The time constant τ = R × C is prolonged in COPD and is clinically reflected by reduced FEV1 and FEV1/FVC ratio",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Applying external PEEP in mechanically ventilated COPD patients without expiratory flow limitation is expected to reduce PEEPi by facilitating lung emptying",
+          "correct": false
+        }
+      ],
+      "explanation": "Increasing airway resistance increases WOB — a higher pressure gradient is required for any given airflow — and contributes to dynamic collapse rather than preventing it. Peripheral airways (<2 mm diameter) are the primary site of structural obstruction in COPD through fibrosis, inflammation, and remodelling of the airway wall. FEV1 and FEV1/FVC directly capture the prolonged τ = R × C by measuring how much air can be expelled in one second against the combined resistance-compliance load. In patients without expiratory flow limitation, applying external PEEP increases end-expiratory lung volume rather than reducing PEEPi — worsening hyperinflation. The PEEP-absorber effect that counterbalances upstream PEEPi is only operative when expiratory flow limitation is present."
+    }
+  ]
+}

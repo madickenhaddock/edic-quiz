@@ -1,0 +1,446 @@
+{
+  "module": "COPD and Asthma Part III",
+  "sections": {
+    "Part III: Therapeutic Interventions": "COPD treatment: SABA±SAMA preferred bronchodilators; MDI=nebuliser for FEV1 improvement; continuous nebulisation NOT recommended; if hypercapnic/acidotic use compressed air (not O2) to drive nebuliser; no methylxanthines (side effects). Corticosteroids: 40 mg prednisolone 5 days within 1 h of ED presentation; oral=IV; no benefit from tapering. GOLD antibiotic criteria: (1) critically ill/requiring invasive or non-invasive MV, or (2) ≥2 cardinal symptoms (dyspnoea, sputum volume, purulence) with purulence as one, or (3) prior positive culture. Duration 5–7 days. Common pathogens: H. influenzae, S. pneumoniae, M. catarrhalis; Pseudomonas with recurrent/severe/MV. O2 target: start if SpO2<88%, target 88–92%. O2-induced hypercapnia: dead space increase + Haldane effect (NOT blunted drive). HFNC up to 60 L/min; ERS: NIV preferred over HFNC for hypercapnic RF and post-MV extubation failure. Treatment evidence table: β-mimetics++ both; steroids++ asthma/+ COPD; antibiotics– asthma/+ COPD; O2++ asthma/(+cautious) COPD; Mg+ asthma/– COPD; theophylline– both; mucolytics– both."
+  },
+  "questions": [
+    {
+      "id": "copd3_a01",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part III: Therapeutic Interventions",
+      "question": "A 74-year-old with AECOPD has pH 7.29 and PaCO2 68 mmHg. He requires nebulised salbutamol. Which driving gas should be used for the nebuliser, and why?",
+      "options": [
+        "Oxygen at 4 L/min, as hypercapnia indicates increased ventilatory demand requiring supplemental oxygen",
+        "Nitrogen, to eliminate the risk of oxygen-induced hypercapnia entirely",
+        "Compressed air, to avoid worsening hypercapnia in a patient who is already acidotic and hypercapnic",
+        "Any driving gas is equally acceptable, as nebuliser driving gas does not affect PaCO2",
+        "Heliox (70% He/30% O2), as this improves drug deposition while reducing airflow resistance"
+      ],
+      "correct": 2,
+      "explanation": "In hypercapnic or acidotic COPD patients, the nebuliser should be driven by compressed air rather than oxygen. Using oxygen as a driving gas delivers a high FiO2 directly to the patient, which can worsen hypercapnia through the Haldane effect (oxygen displacing CO2 from haemoglobin) and by increasing physiological dead space. Compressed air allows the targeted amount of supplemental oxygen to be titrated separately via nasal cannula or Venturi mask to achieve the 88–92% SpO2 target, without inadvertently delivering an uncontrolled high FiO2 through the nebuliser circuit."
+    },
+    {
+      "id": "copd3_a02",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part III: Therapeutic Interventions",
+      "question": "A junior colleague suggests adding intravenous aminophylline to the treatment of a 68-year-old admitted with severe AECOPD who has not responded fully to bronchodilators and corticosteroids. What is the current evidence-based position on IV methylxanthines in AECOPD?",
+      "options": [
+        "Aminophylline is recommended as the definitive second-line bronchodilator when standard inhaled therapy with SABA and SAMA fails to produce adequate improvement in respiratory parameters",
+        "Theophylline can be safely used in ICU patients with severe AECOPD provided that serum drug levels are measured every 6 hours and maintained within the narrow therapeutic window of 10–20 mg/L throughout the admission",
+        "Methylxanthines may be added if the patient has a known prior response documented in the clinical record",
+        "Intravenous methylxanthines (aminophylline/theophylline) are not recommended in AECOPD due to significant side effects and lack of demonstrated benefit over inhaled bronchodilators",
+        "IV aminophylline is equivalent to NIV in AECOPD and can replace ventilatory support in selected cases"
+      ],
+      "correct": 3,
+      "explanation": "Intravenous methylxanthines (both theophylline and aminophylline) are not recommended in AECOPD due to a narrow therapeutic window, significant toxicity (cardiac arrhythmias, seizures, nausea), and lack of demonstrated clinical benefit beyond inhaled bronchodilators in controlled trials. Randomised trials in AECOPD have failed to show clinically meaningful benefit over placebo when added to standard therapy. They are not recommended in any severity category in current GOLD guidelines. The suggestion to monitor serum levels in the ICU does not change the recommendation against routine use."
+    },
+    {
+      "id": "copd3_a03",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part III: Therapeutic Interventions",
+      "question": "A 70-year-old with moderate-to-severe AECOPD is admitted without impending ventilatory failure. Systemic corticosteroids are initiated. Which regimen and timing most accurately reflects current evidence-based recommendations?",
+      "options": [
+        "Oral prednisolone 60 mg daily for 14 days with gradual taper over a further 4 weeks",
+        "Intravenous methylprednisolone only, as oral corticosteroids do not achieve adequate bioavailability during exacerbation",
+        "Systemic corticosteroids only if there is radiographic pneumonia confirming an infectious trigger",
+        "Prednisolone 20 mg daily for 10 days, initiated within 6 hours of ED presentation",
+        "Prednisolone equivalent 40 mg once daily for 5 days, within 1 hour of ED presentation; oral is as effective as intravenous"
+      ],
+      "correct": 4,
+      "explanation": "Current evidence supports a daily dose equivalent to 40 mg prednisolone as a single morning dose for 5 days, administered within 1 hour of ED presentation. Oral prednisolone is equally effective to intravenous administration and should be preferred when the patient can take oral medication. Serial studies have shown no benefit from tapering schedules compared with stopping at 5 days. Corticosteroids are indicated for all but the mildest exacerbations — not restricted to those with confirmed pneumonia. Higher doses (60 mg) and longer courses offer no additional benefit and increase steroid-related complications."
+    },
+    {
+      "id": "copd3_a04",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part III: Therapeutic Interventions",
+      "question": "According to GOLD guidelines, which of the following represents a complete and correct statement of the criteria for antibiotic initiation in AECOPD?",
+      "options": [
+        "Antibiotics are indicated when (1) the patient is critically ill or requires invasive/non-invasive MV, or (2) at least two cardinal symptoms are present with sputum purulence as one, or (3) a prior positive sputum culture exists from a previous exacerbation",
+        "Any hospitalisation for AECOPD — irrespective of symptoms, severity, or microbiological history — automatically justifies antibiotic initiation to prevent secondary bacterial infection",
+        "Antibiotics are warranted only after sputum culture and sensitivity results confirm a pathogenic organism, because empiric therapy risks promoting antibiotic resistance in a patient population already colonised with multiple respiratory bacteria",
+        "The sole indication for antibiotics in hospitalised AECOPD is fever above 38°C combined with leukocytosis exceeding 12,000/mm³ on the admission blood count",
+        "Antibiotic initiation in AECOPD should be guided solely by a procalcitonin value exceeding 0.5 ng/mL on admission bloodwork, since this biomarker has the highest positive predictive value for bacterial aetiology regardless of symptoms or severity"
+      ],
+      "correct": 0,
+      "explanation": "GOLD recommends antibiotic initiation in AECOPD in three distinct situations: (1) the patient is critically ill and/or requires invasive or non-invasive mechanical ventilation; (2) the patient has at least two of the three cardinal symptoms — increased dyspnoea, increased sputum volume, and increased sputum purulence — provided purulence is one of the two symptoms; or (3) the patient has had a prior positive sputum culture during a previous exacerbation. These criteria reflect that bacterial infection is a major driver of AECOPD but is not universal, and that purulence is the most specific clinical indicator of bacterial aetiology. Waiting for culture results would delay treatment inappropriately; hospitalisation alone is not a criterion."
+    },
+    {
+      "id": "copd3_a05",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part III: Therapeutic Interventions",
+      "question": "A 66-year-old with first presentation of AECOPD has purulent sputum. Antibiotics are indicated. Which bacterial organisms are most commonly implicated in typical community-acquired AECOPD exacerbations?",
+      "options": [
+        "Pseudomonas aeruginosa, Klebsiella pneumoniae, and Staphylococcus aureus",
+        "Haemophilus influenzae, Streptococcus pneumoniae, and Moraxella catarrhalis",
+        "Mycobacterium tuberculosis, Legionella pneumophila, and Mycoplasma pneumoniae",
+        "Aspergillus fumigatus, Candida albicans, and Pneumocystis jirovecii",
+        "Escherichia coli, Enterococcus faecalis, and Proteus mirabilis"
+      ],
+      "correct": 1,
+      "explanation": "In typical community-acquired acute exacerbations of COPD, the three most common bacterial pathogens are Haemophilus influenzae, Streptococcus pneumoniae, and Moraxella catarrhalis. These organisms colonise the lower airways in a significant proportion of COPD patients at baseline and are responsible for the majority of bacterial exacerbations. Antibiotic selection should be based on local resistance patterns but should cover these three organisms in uncomplicated AECOPD. The pathogen spectrum shifts in patients with recurrent exacerbations, severe airflow limitation, or those requiring mechanical ventilation, where gram-negative organisms including Pseudomonas become more prevalent."
+    },
+    {
+      "id": "copd3_a06",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part III: Therapeutic Interventions",
+      "question": "A 63-year-old with severe COPD has had three AECOPD admissions in the past year, each requiring NIV. He is now admitted with a new exacerbation. In choosing empiric antibiotic therapy, which additional pathogen must be considered compared with a first-time exacerbation?",
+      "options": [
+        "Streptococcus pyogenes, whose prevalence increases dramatically in the airways of patients who have required repeated hospitalisations for obstructive lung disease over the preceding 12 months",
+        "Chlamydia pneumoniae, which is the dominant pathogen in recurrent exacerbators",
+        "Respiratory syncytial virus, which becomes a frequent bacterial co-pathogen in recurrent disease",
+        "Pseudomonas aeruginosa, which becomes more prevalent in patients with recurrent exacerbations, severe airflow limitation, or prior invasive/non-invasive MV",
+        "Legionella pneumophila, which is the primary gram-negative organism in all intubated COPD patients"
+      ],
+      "correct": 3,
+      "explanation": "The bacterial spectrum of AECOPD shifts substantially in patients with recurrent exacerbations, severe airflow limitation, or those who have previously required invasive or non-invasive mechanical ventilation. In these patients, gram-negative bacteria — particularly Pseudomonas aeruginosa — become significantly more prevalent. Empiric antibiotic therapy in this subgroup must include coverage for Pseudomonas. In first-time or uncomplicated exacerbations, the focus remains on the three typical community-acquired pathogens. This patient's three prior admissions with NIV requirement places him firmly in the higher-risk category requiring Pseudomonas coverage."
+    },
+    {
+      "id": "copd3_a07",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part III: Therapeutic Interventions",
+      "question": "A patient with AECOPD and known chronic CO2 retention is admitted. What is the correct approach to oxygen therapy in this patient?",
+      "options": [
+        "Administer high-flow oxygen immediately to achieve SpO2 >98% and prevent myocardial ischaemia",
+        "Initiate supplemental oxygen if SpO2 falls below 88%, titrated to achieve a target of 88–92%",
+        "Withhold oxygen entirely to preserve hypoxic ventilatory drive",
+        "Titrate oxygen to normalise PaO2 to 100 mmHg using the highest FiO2 required",
+        "Start at SpO2 <95% threshold and target 92–98%, the same as in non-COPD respiratory failure"
+      ],
+      "correct": 1,
+      "explanation": "In COPD patients at risk of hypercapnia, oxygen therapy should be started when SpO2 falls below 88%, with the target range of 88–92%. High-flow oxygen targeting SpO2 >95% risks worsening hypercapnia through the Haldane effect and increased physiological dead space, potentially precipitating respiratory acidosis. Withholding oxygen entirely would expose the patient to dangerous hypoxaemia. The 88–92% target balances adequate tissue oxygenation with avoidance of oxygen-induced CO2 retention. This controlled-oxygen approach, using a fixed-percentage Venturi mask or carefully titrated nasal cannula, is fundamental to safe management of hypercapnia-prone COPD patients."
+    },
+    {
+      "id": "copd3_a08",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part III: Therapeutic Interventions",
+      "question": "A patient with AECOPD develops a rising PaCO2 after supplemental oxygen is initiated, despite no reduction in respiratory rate. A medical student suggests the rising PaCO2 is due to oxygen suppressing the patient's hypoxic ventilatory drive. What is the most accurate explanation for oxygen-induced hypercapnia in this context?",
+      "options": [
+        "Elevated inspired oxygen tensions damage the alveolar–capillary membrane directly, causing an acute reduction in diffusion capacity for CO2 and therefore impaired CO2 elimination",
+        "Oxygen increases haemoglobin affinity for CO2, dramatically reducing CO2 elimination",
+        "The primary mechanisms are increased physiological dead space and the Haldane effect, not hypoxic drive suppression",
+        "Oxygen causes bronchodilation, paradoxically increasing tidal volume and reducing effective alveolar ventilation",
+        "Oxygen-induced hypercapnia only occurs in patients with severe CO2 retention (PaCO2 >70 mmHg) and has no relevance in mild hypercapnia"
+      ],
+      "correct": 2,
+      "explanation": "Oxygen-induced hypercapnia in COPD is primarily explained by two mechanisms: (1) the Haldane effect, in which oxygenation of haemoglobin promotes CO2 displacement into the dissolved phase, raising PaCO2; and (2) increased physiological dead space, as supplemental oxygen relieves hypoxic pulmonary vasoconstriction and redistributes blood flow to less well-ventilated lung units, worsening V/Q mismatch. Hypoxic drive suppression, while potentially contributing in some patients, is not the dominant mechanism when respiratory rate remains unchanged. These mechanisms explain why oxygen-induced hypercapnia can occur even without a measurable change in respiratory rate, and underscore the need for controlled, titrated oxygen therapy in COPD."
+    },
+    {
+      "id": "copd3_a09",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part III: Therapeutic Interventions",
+      "question": "A nurse asks you to define sputum purulence and explain its significance in AECOPD management. Which statement most accurately characterises sputum purulence?",
+      "options": [
+        "Colour change from clear/white to yellow-green, reflecting myeloperoxidase release from neutrophils, indicating likely bacterial infection",
+        "Any change in sputum viscosity, regardless of colour, indicating increased mucus production without necessarily implying infection",
+        "Blood-streaked sputum, commonly termed haemoptysis, which results from mucosal trauma during vigorous coughing in the setting of friable inflamed bronchial mucosa",
+        "Brown or rust-coloured sputum with characteristic rusty discolouration that, when present, is essentially pathognomonic of pneumococcal lobar pneumonia and requires immediate culture confirmation before empiric antibiotics can be considered",
+        "Increased sputum volume alone, regardless of colour, which is the most sensitive indicator of bacterial AECOPD"
+      ],
+      "correct": 0,
+      "explanation": "Sputum purulence is most commonly defined as a change in sputum colour from clear or white to a yellow-green tint. This colour change reflects a substantial increase in myeloperoxidase, an enzyme released from activated neutrophils recruited to the airway in response to bacterial infection. Purulence is therefore a clinical surrogate for neutrophilic airway inflammation and is one of the three cardinal symptoms used in the GOLD antibiotic criteria. When at least two cardinal symptoms are present and purulence is one of them, antibiotic therapy is indicated. Volume change alone, without purulence, is less specific for bacterial infection."
+    },
+    {
+      "id": "copd3_a10",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part III: Therapeutic Interventions",
+      "question": "Which of the following drug classes lacks evidence (–) of benefit in BOTH acute asthma AND acute COPD exacerbation, according to the ESICM treatment evidence table?",
+      "options": [
+        "Systemic corticosteroids, which carry strong evidence in both acute asthma and AECOPD and are recommended as standard therapy across all but the mildest exacerbations of both diseases",
+        "Inhaled beta-2 agonists, which carry the strongest level of evidence (++) across both acute asthma and AECOPD and are universally recommended as the first bronchodilator in both conditions",
+        "Magnesium sulphate, which has moderate evidence in asthma but none in COPD",
+        "Antibiotics, which are effective in COPD but not indicated in asthma",
+        "Both theophylline and mucolytics, which lack evidence (–) in both conditions"
+      ],
+      "correct": 4,
+      "explanation": "According to the ESICM treatment evidence table, both methylxanthines (theophylline/aminophylline) and mucolytics carry no evidence (–) in both acute asthma and AECOPD. This contrasts with: inhaled beta-2 agonists (++ in both); systemic corticosteroids (++ in asthma, + in COPD); magnesium sulphate (+ in asthma only, – in COPD); and antibiotics (– in asthma, + in COPD). Theophylline's adverse effect profile and lack of incremental benefit over inhaled bronchodilators has led to its removal from both GINA and GOLD recommendations for acute exacerbation management."
+    },
+    {
+      "id": "copd3_a11",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part III: Therapeutic Interventions",
+      "question": "A 72-year-old with AECOPD and hypercapnic respiratory failure is admitted with pH 7.32. Following intubation and 4 days of MV, extubation is planned. A senior colleague suggests HFNC for post-extubation support, while you favour NIV. What does the most recent ERS guidance recommend?",
+      "options": [
+        "HFNC and NIV are functionally equivalent modalities in the post-extubation setting for COPD patients with hypercapnic respiratory failure, and the decision should be guided primarily by individual patient tolerance and local clinical preference",
+        "HFNC is preferred post-extubation because it provides greater patient comfort, allows normal eating and communication during treatment, and delivers a more precise and stable inspired oxygen fraction compared with conventional NIV masks",
+        "NIV is recommended only for patients with prior NIV failure; those receiving first-time NIV should use HFNC",
+        "ERS recommends NIV over HFNC for hypercapnic AECOPD extubation risk and for hospitalised hypercapnic RF, unless NIV is contraindicated",
+        "HFNC is the gold standard post-extubation approach in COPD, demonstrating a 40% reduction in re-intubation compared to NIV"
+      ],
+      "correct": 3,
+      "explanation": "ERS clinical practice guidelines for high-flow nasal cannula in acute respiratory failure recommend NIV over HFNC for patients with AECOPD and hypercapnic respiratory failure in two specific settings: post-mechanical ventilation extubation failure risk, and during hospitalisation for exacerbation with hypercapnic respiratory failure. This recommendation reflects evidence that NIV more effectively reduces PaCO2 and re-intubation risk in hypercapnic COPD patients. HFNC is an acceptable alternative when NIV is contraindicated (skin breakdown, claustrophobia, inability to maintain mask seal). In acute hypoxaemic respiratory failure without hypercapnia, evidence between the two modalities remains more uncertain."
+    },
+    {
+      "id": "copd3_a12",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part III: Therapeutic Interventions",
+      "question": "A patient with acute asthma and a second patient with AECOPD are each being assessed for adjunct pharmacotherapy. For which of the following drugs does evidence differ most clearly between the two conditions?",
+      "options": [
+        "IV magnesium sulphate: moderate evidence (+) in acute asthma, no evidence (–) in AECOPD",
+        "Inhaled beta-2 agonists, which carry no evidence of benefit in acute exacerbations of COPD but have the highest level of evidence in acute asthma where bronchospasm is the dominant reversible mechanism",
+        "Systemic corticosteroids, which are effective only in acute COPD exacerbation through their anti-inflammatory effects on neutrophilic airway disease, and lack sufficient evidence to support their use in acute asthma exacerbation",
+        "Antibiotics: equally recommended (++) in both acute asthma and AECOPD",
+        "Mucolytics: strong evidence in asthma but of no value in COPD exacerbations"
+      ],
+      "correct": 0,
+      "explanation": "Intravenous magnesium sulphate (MgSO4) has moderately good evidence (+) as adjunct therapy in acute severe asthma, where it causes bronchial smooth muscle relaxation through calcium channel antagonism. However, it carries no evidence (–) of benefit in AECOPD, where bronchospasm is not the predominant mechanism. This is one of the sharpest pharmacological distinctions between the two conditions in the ESICM evidence table. Both diseases have strong evidence for inhaled beta-2 agonists and anticholinergics. Systemic corticosteroids are indicated for both but with stronger evidence in asthma than in COPD. Antibiotics are recommended in COPD but not in asthma."
+    },
+    {
+      "id": "copd3_a13",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part III: Therapeutic Interventions",
+      "question": "A colleague asks whether a 5-day course of oral prednisolone for AECOPD should be followed by a tapering schedule to reduce the risk of relapse. What does the evidence show?",
+      "options": [
+        "A gradual taper over 3 weeks significantly reduces 30-day re-exacerbation rates compared with stopping abruptly at day 5",
+        "Serial studies have shown no benefit from tapering oral corticosteroids in AECOPD on either short- or long-term outcomes",
+        "Tapering is mandatory to prevent adrenal insufficiency in patients receiving even brief courses of systemic steroids",
+        "Tapering is recommended only for patients who received more than 7 days of corticosteroids during the current admission",
+        "A double-blind RCT demonstrated a 35% reduction in hospitalisation at 6 months with a 4-week taper compared to stopping at day 5"
+      ],
+      "correct": 1,
+      "explanation": "Serial clinical studies have demonstrated a lack of benefit from tapering oral corticosteroids in AECOPD, whether assessed on short-term or long-term outcomes. A 5-day course of 40 mg prednisolone is as effective as longer tapered courses, with no significant difference in relapse rate, lung function recovery, or hospital re-admission. Prolonged corticosteroid exposure risks additional adverse effects (hyperglycaemia, immunosuppression, muscle weakness) without clinical benefit. The evidence does not support mandatory tapering even after brief courses, and adrenal suppression from a 5-day course is clinically negligible for most patients."
+    },
+    {
+      "id": "copd3_k01",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part III: Therapeutic Interventions",
+      "question": "Regarding bronchodilator therapy in acute exacerbation of COPD:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "IV methylxanthines (aminophylline/theophylline) are recommended as second-line bronchodilators in AECOPD when inhaled agents fail to achieve adequate bronchodilation",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Systematic reviews show no significant difference in FEV1 improvement between metered-dose inhaler with spacer and nebuliser for bronchodilator delivery in AECOPD",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Continuous nebulisation of bronchodilators is the preferred mode of delivery in severe AECOPD because it provides superior bronchodilation compared with intermittent dosing",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Short-acting beta-2 agonists, with or without short-acting anticholinergics, are the preferred initial bronchodilators in AECOPD",
+          "correct": true
+        }
+      ],
+      "explanation": "Methylxanthines are not recommended in AECOPD due to significant toxicity without demonstrated incremental benefit over inhaled bronchodilators. Systematic reviews confirm no significant FEV1 difference between MDI-with-spacer and nebuliser delivery, though nebulisers may be more practical in sicker patients. Continuous nebulisation is specifically not recommended in COPD — dosing is intermittent. SABA with or without SAMA remain the cornerstone initial bronchodilator therapy in AECOPD."
+    },
+    {
+      "id": "copd3_k02",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part III: Therapeutic Interventions",
+      "question": "Regarding antibiotic therapy in acute exacerbation of COPD:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Initiation of antibiotics is indicated when the patient is critically ill and requires invasive or non-invasive mechanical ventilation, regardless of cardinal symptom presence",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Increased sputum purulence alone — without other cardinal symptoms — is sufficient to justify antibiotic initiation per GOLD guidelines",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "The recommended duration of antibiotic therapy in AECOPD is typically 5–7 days",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Empiric antibiotic selection in AECOPD should routinely target Pseudomonas aeruginosa regardless of prior clinical history or exacerbation severity",
+          "correct": false
+        }
+      ],
+      "explanation": "Requiring mechanical ventilation is a standalone GOLD antibiotic criterion independent of cardinal symptoms. Purulence alone is insufficient — GOLD requires at least two cardinal symptoms with purulence as one of them (or MV requirement, or prior positive culture). Antibiotic duration is 5–7 days (shorter — <5 days — in the outpatient setting). Pseudomonas coverage is reserved for patients with recurrent exacerbations, severe airflow limitation, or prior MV — not required empirically in all AECOPD."
+    },
+    {
+      "id": "copd3_k03",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part III: Therapeutic Interventions",
+      "question": "Regarding oxygen therapy and oxygen-induced hypercapnia in AECOPD:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The primary mechanism of oxygen-induced hypercapnia in COPD is suppression of hypoxic ventilatory drive, reducing minute ventilation and alveolar ventilation",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Supplemental oxygen in AECOPD should be initiated when SpO2 falls below 88%, with the target range 88–92%",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Increased physiological dead space and the Haldane effect are the primary mechanisms explaining oxygen-induced hypercapnia in COPD",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "A target SpO2 of 94–98% should be used in COPD exacerbations to ensure adequate tissue oxygenation and prevent end-organ hypoxia",
+          "correct": false
+        }
+      ],
+      "explanation": "Ventilatory drive suppression is not the primary mechanism of oxygen-induced hypercapnia in COPD — studies show PaCO2 rises even when respiratory rate is unchanged. The dominant mechanisms are: (1) the Haldane effect, where oxygenation of haemoglobin displaces CO2 into solution, raising PaCO2; and (2) increased physiological dead space from V/Q redistribution as hypoxic vasoconstriction is relieved. The 88–92% SpO2 target is correct, specifically to avoid these consequences. Targeting 94–98% (appropriate in most other conditions) risks worsening hypercapnia in COPD patients with chronic CO2 retention."
+    },
+    {
+      "id": "copd3_k04",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part III: Therapeutic Interventions",
+      "question": "Regarding the comparative treatment evidence for acute asthma versus acute COPD exacerbation:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Systemic corticosteroids have equally strong evidence (++) in both acute asthma and AECOPD",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Antibiotics carry no evidence (–) in acute asthma but have moderately good evidence (+) in AECOPD",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Intravenous magnesium sulphate has moderately good evidence (+) in both acute asthma and AECOPD",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Both theophylline and mucolytics lack evidence (–) in both acute asthma and acute COPD exacerbation",
+          "correct": true
+        }
+      ],
+      "explanation": "Systemic corticosteroids carry stronger evidence in acute asthma (++) than in AECOPD (+) — not equally strong in both. Antibiotics are not indicated in acute asthma (–) but have moderately good evidence (+) in AECOPD, particularly in those meeting GOLD criteria. Magnesium sulphate has moderate evidence (+) in acute asthma (smooth muscle relaxation), but no evidence (–) in AECOPD. Both theophylline and mucolytics lack evidence in both conditions — theophylline due to toxicity and lack of incremental benefit, mucolytics due to insufficient evidence in acute settings."
+    },
+    {
+      "id": "copd3_k05",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part III: Therapeutic Interventions",
+      "question": "Regarding systemic corticosteroid therapy in acute exacerbation of COPD:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Systemic corticosteroids should be administered within 1 hour of ED presentation for all but the mildest COPD exacerbations",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "A tapering corticosteroid schedule following the initial 5-day course significantly reduces relapse rates compared with stopping abruptly at day 5",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Oral prednisolone is equally effective to intravenous administration for treating AECOPD when the patient can take oral medication",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Systemic corticosteroids should be restricted to mechanically ventilated COPD patients; they offer no benefit in non-ventilated admissions",
+          "correct": false
+        }
+      ],
+      "explanation": "Systemic corticosteroids are standard therapy for AECOPD across all but the mildest severity categories and should be started within 1 hour of ED presentation. Serial studies show no benefit from tapering — stopping at 5 days is as effective as longer courses. Oral prednisolone has equivalent bioavailability and efficacy to intravenous forms and is preferred for patients who can swallow. Corticosteroids are not restricted to ventilated patients — they reduce treatment failures and shorten recovery time in hospitalised non-ventilated patients as well."
+    },
+    {
+      "id": "copd3_k06",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part III: Therapeutic Interventions",
+      "question": "Regarding high-flow nasal cannula (HFNC) oxygen therapy in AECOPD:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Current ERS clinical practice guidelines recommend HFNC over NIV as first-line treatment for hospitalised AECOPD patients with hypercapnic respiratory failure because of superior CO2 reduction",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "HFNC delivers heated and humidified oxygen at flows up to 60 L/min; its efficacy in reducing PaCO2 is greater at higher baseline PaCO2 levels and higher flow rates",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "A recent randomised controlled trial demonstrated that HFNC reliably prevents the need for intubation in AECOPD patients with hypercapnic respiratory failure",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "ERS guidelines recommend NIV over HFNC for COPD patients at high risk of extubation failure following mechanical ventilation for AECOPD, unless NIV is contraindicated",
+          "correct": true
+        }
+      ],
+      "explanation": "ERS guidelines recommend NIV — not HFNC — as preferred therapy for hospitalised AECOPD with hypercapnic respiratory failure, because NIV provides more direct ventilatory support and more reliably corrects hypercapnia. HFNC's CO2 reduction is flow- and baseline-dependent, and a recent RCT failed to demonstrate that HFNC prevents intubation in hypercapnic AECOPD. HFNC at up to 60 L/min provides more consistent FiO2 and improved patient comfort compared with conventional oxygen, but this advantage does not override the efficacy benefit of NIV in hypercapnic patients. ERS does recommend NIV over HFNC for post-extubation support in high-risk patients."
+    },
+    {
+      "id": "copd3_k07",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Part III: Therapeutic Interventions",
+      "question": "Regarding bacterial pathogens in AECOPD:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Haemophilus influenzae, Streptococcus pneumoniae, and Moraxella catarrhalis are the three most common bacterial pathogens in typical community-acquired AECOPD",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Aspergillus species are among the primary bacterial pathogens implicated in typical mild-to-moderate AECOPD in immunocompetent patients",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "In patients with recurrent exacerbations, severe airflow limitation, or those requiring invasive or non-invasive mechanical ventilation, Pseudomonas aeruginosa becomes significantly more prevalent",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Oral antibiotic therapy is generally inadequate for AECOPD due to insufficient gastrointestinal absorption, and intravenous administration is therefore required in all hospitalised patients",
+          "correct": false
+        }
+      ],
+      "explanation": "The three typical community-acquired AECOPD pathogens are H. influenzae, S. pneumoniae, and M. catarrhalis. Aspergillus is a mould, not a bacterium, and is not a primary pathogen in typical AECOPD in immunocompetent hosts. The shift to Pseudomonas and other gram-negative bacteria in recurrent, severe, or mechanically-ventilated patients is well established and must inform antibiotic selection. Oral antibiotics have equivalent efficacy to IV in patients who can swallow — route should be based on ability to take oral medication and the pharmacokinetic profile of the chosen agent, not a universal preference for intravenous delivery."
+    }
+  ]
+}
