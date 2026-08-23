@@ -1,0 +1,1231 @@
+{
+  "module": "Nutrition Parts III–V",
+  "sections": {
+    "Enteral Nutrition – Indications": "EN is indicated when adequate oral intake is not expected for more than 3 days.",
+    "Enteral Nutrition – Contraindications": "Absolute: GI perforation/obstruction, bowel ischaemia, severe shock (MAP <50 mmHg + max vasopressors + lactate >8 mmol/L). Relative: GRV >500 mL/6h, active UGI bleed. NOT contraindications: NMB, ECMO, hypothermia, prone, TBI, stroke, SAP, open abdomen, absent bowel sounds, diarrhoea.",
+    "Enteral Nutrition – Gastric Intolerance": "GRV threshold: 500 mL/6h. First-line prokinetic: erythromycin 250 mg q6h IV. Second-line: metoclopramide 10 mg q8h IV — maximum 5 days (tardive dyskinesia risk). Post-pyloric feeding for refractory intolerance.",
+    "Enteral Nutrition – NGT Monitoring": "CXR mandatory after initial insertion. Reassess at least weekly or after repositioning. pH alone is unreliable (PPIs). Auscultation is not a validated method.",
+    "Enteral Nutrition – Formula Selection": "Polymeric standard formula is first-line. Semi-elemental for confirmed malabsorption. Immune-modulating formulas not routinely recommended.",
+    "Enteral Nutrition – Clinical Trials": "CALORIES: no mortality difference EN vs PN; EN cheaper with fewer hypoglycaemic episodes. NUTRIREA-2: no mortality difference full vs restrictive EN in shock; full EN had more GI complications.",
+    "Enteral Nutrition – Supplemental PN": "Supplement PN after day 4–7 when EN <60% of target. Do not start PN before day 3. After day 7, persistent insufficiency warrants supplemental PN.",
+    "Enteral Nutrition – Specific Populations": "ECMO, prone, NMB, SAP, TBI, stroke — all NOT contraindications. Hold EN in haemodynamic instability during active resuscitation; reassess when stable.",
+    "Enteral Nutrition – Complications": "C. difficile testing if diarrhoea >3 days on antibiotics. Aspiration: risk with NGT use; head-of-bed elevation, post-pyloric feeding in high-risk.",
+    "Enteral Nutrition – Post-pyloric Feeding": "Indicated for: refractory GRV, recurrent aspiration, post-operative pancreatitis with gastric intolerance. Not routine first-line.",
+    "Enteral Nutrition – EN vs PN": "EN preferred when gut functional: more physiological, preserves gut integrity, cheaper, fewer infections. PN reserved for contraindicated/insufficient EN.",
+    "Parenteral Nutrition – Vascular Access": "CVC required if osmolarity >900 mosm/L. Peripheral PN ≤900 mosm/L. PICC appropriate if >6 days PN needed (central tip position).",
+    "Parenteral Nutrition – Macronutrients": "Glucose max 5 mg/kg/min (6 g/kg/day). Lipids: continuous infusion preferred; reduce if TG >4 mmol/L; stop if TG >9 mmol/L.",
+    "Parenteral Nutrition – Supplemental PN": "Initiate supplemental PN after day 4–7 when EN <60% target. Not before day 3.",
+    "Parenteral Nutrition – Monitoring": "LFTs twice weekly. TG regularly. Blood glucose ≤1–2h during insulin titration. Electrolytes daily in refeeding risk patients.",
+    "Parenteral Nutrition – Complications": "CRBSI, PN-associated liver disease (>60% with PN >2 weeks), metabolic bone disease, hypertriglyceridaemia. Aspiration is NOT a PN complication.",
+    "Glucose Management": "Target 7.8–10 mmol/L. Avoid >10–12 mmol/L consistently. NICE-SUGAR: tight control (4.5–6.0) increased mortality. CONTROLING: HbA1c-guided targets — no benefit. Diabetics may need higher targets.",
+    "Refeeding Syndrome": "~30% ICU incidence. Hypophosphataemia <0.65 mmol/L within 72h is cardinal sign. Mechanism: insulin-driven intracellular shift of PO4, K, Mg in depleted stores. Doig 2015: restrict to 20 kcal/h ×2 days + thiamine/B vitamins → 13% survival benefit. Monitor electrolytes daily."
+  },
+  "questions": [
+    {
+      "id": "nut2_a01",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Indications",
+      "question": "A 58-year-old man is admitted to the ICU with respiratory failure following aspiration pneumonia. He is intubated, haemodynamically stable, and has no contraindications to enteral nutrition. Based on current ESICM nutritional guidelines, what is the primary indication for initiating enteral nutrition via NGT?",
+      "options": [
+        "Adequate oral intake is not expected for more than 3 days",
+        "Oral intake is not expected for more than 24 hours regardless of clinical stability",
+        "The patient requires mechanical ventilation for more than 48 hours",
+        "BMI is below 22 kg/m² on ICU admission",
+        "Pre-existing malnutrition was documented prior to hospital admission"
+      ],
+      "correct": 0,
+      "explanation": "Enteral nutrition is indicated when adequate oral intake is not expected for more than 3 days in critically ill patients. This threshold reflects the point at which cumulative nutritional deficit begins to have clinically meaningful impact. Mechanical ventilation duration, admission BMI, and prior nutritional status all contribute to overall nutritional risk assessment, but the primary trigger for initiating EN is anticipated inability to sustain oral nutrition for more than 3 days."
+    },
+    {
+      "id": "nut2_a02",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Contraindications",
+      "question": "A patient in the ICU develops acute generalised peritonitis from a bowel perforation confirmed on CT scan. The nutritional team is asked about enteral feeding. Which statement is most accurate?",
+      "options": [
+        "Enteral feeding can be continued at a reduced rate in contained perforations with otherwise stable clinical status",
+        "Jejunal feeding distal to the site of perforation is an acceptable option to maintain gut integrity",
+        "GI perforation is an absolute contraindication to enteral nutrition; parenteral nutrition is required in this patient",
+        "Perforation is only a relative contraindication — it depends on the severity of peritonitis",
+        "Enteral nutrition is acceptable provided the patient receives concurrent broad-spectrum antibiotics"
+      ],
+      "correct": 2,
+      "explanation": "Bowel perforation is an absolute contraindication to enteral nutrition, regardless of whether feeding is proximal or distal to the perforation site. Parenteral nutrition is required. Other absolute contraindications include intestinal obstruction (mechanical), bowel ischaemia, and haemodynamic instability with MAP <50 mmHg unresponsive to maximum vasopressor therapy and lactate >8 mmol/L. Relative contraindications — where enteral feeding should be paused and reassessed — include gastric residual volume >500 mL per 6-hour period and active upper GI bleeding."
+    },
+    {
+      "id": "nut2_a03",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Contraindications",
+      "question": "A 44-year-old with severe ARDS is mechanically ventilated on high FiO2, receiving neuromuscular blocking agents, and is in prone position with stable haemodynamics. Which of the following conditions listed in his clinical scenario is NOT a contraindication to enteral nutrition?",
+      "options": [
+        "Bowel ischaemia due to superior mesenteric artery thrombosis",
+        "GI perforation confirmed on imaging",
+        "Absolute haemodynamic instability (MAP <50 mmHg, lactate >8 mmol/L on maximal vasopressors)",
+        "Prone positioning with neuromuscular blockade in a haemodynamically stable patient",
+        "Mechanical bowel obstruction confirmed on imaging"
+      ],
+      "correct": 3,
+      "explanation": "Prone positioning and neuromuscular blockade are both commonly mistaken as contraindications to EN, but neither is. In haemodynamically stable patients, EN should be continued during prone positioning and while receiving NMB. Other conditions frequently mistaken as contraindications include ECMO, hypothermia, traumatic brain injury, stroke, severe acute pancreatitis, open abdomen with maintained bowel continuity, absent bowel sounds, and diarrhoea. The true absolute contraindications (perforation, ischaemia, obstruction, severe shock) do appear among the other options."
+    },
+    {
+      "id": "nut2_a04",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Gastric Intolerance",
+      "question": "A 63-year-old on enteral nutrition at 70 mL/hour has gastric residuals of 480 mL at 0800 and 510 mL at 1400. The nursing staff ask whether to pause feeding. According to standard guidelines, what GRV threshold should prompt temporary cessation of EN and assessment for prokinetics?",
+      "options": [
+        "Any single residual volume >100 mL",
+        "Gastric residual volume exceeding 500 mL per 6-hour measurement interval",
+        "Two consecutive readings above 200 mL",
+        "Total daily aspirate volume exceeding 1 L",
+        "A residual >300 mL on any measurement during the first 48 hours of feeding"
+      ],
+      "correct": 1,
+      "explanation": "A gastric residual volume exceeding 500 mL per 6-hour measurement period is the threshold that should prompt temporary cessation of EN and initiation of prokinetic therapy in standard practice. This threshold represents gastric filling beyond what is likely to clear spontaneously, raising aspiration risk. A single reading of 480 mL in this patient does not meet the threshold; the 1400 reading of 510 mL does. Smaller individual readings without context, or arbitrary daily totals, are not validated thresholds for clinical decision-making."
+    },
+    {
+      "id": "nut2_a05",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – NGT Monitoring",
+      "image": "images/img_4e387e323a.png",
+      "question": "A 67-year-old woman requires nasogastric tube insertion for enteral feeding. Following insertion, the chest radiograph shown is obtained before feeding is commenced. What is the key finding and most appropriate immediate action?",
+      "options": [
+        "The NGT appears to be correctly positioned in the oesophagus; advance a further 10 cm and obtain a repeat CXR before commencing feeding at a reduced rate",
+        "The tip position appears acceptable in the gastric body — confirm by aspirate pH and commence feeding",
+        "Obtain a lateral chest radiograph before making any decision about tube position",
+        "Administer a small test bolus via the tube and observe for respiratory distress before commencing full feeding",
+        "The NGT follows the right bronchial pathway — stop feeding, withdraw the tube, reinsert, and confirm correct position with repeat CXR before any feeding"
+      ],
+      "correct": 4,
+      "explanation": "The chest radiograph shows the NGT following the tracheal and right bronchial pathway — a malpositioned tube in the right main bronchus rather than the oesophagus and stomach. This is a potentially fatal complication of NGT insertion, as feeding into the bronchus causes aspiration directly into the lung. The immediate action is to stop feeding, not advance the tube (which would worsen bronchial placement), withdraw the tube, and reinsert with repeat CXR confirmation of correct position. pH testing and lateral CXR alone do not safely confirm position when bronchial malposition is visible on a standard CXR."
+    },
+    {
+      "id": "nut2_a06",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – NGT Monitoring",
+      "image": "images/img_ece081d1ae.png",
+      "question": "After the NGT in the previous patient is withdrawn and reinserted, a repeat chest radiograph is obtained. What does this image confirm about NGT position and what should occur next?",
+      "options": [
+        "The NGT tip is below the diaphragm consistent with gastric placement — confirm by aspirate if possible and commence EN",
+        "The NGT tip remains at the gastroesophageal junction — advance a further 10–15 cm and repeat CXR before feeding",
+        "The NGT has been advanced into the post-pyloric position — suitable for jejunal feeding but not standard gastric bolus feeds",
+        "The tube coils in the fundus — withdraw 5 cm and reassess with repeat CXR before feeding",
+        "The tube follows the left bronchus — further repositioning is required before feeding can commence"
+      ],
+      "correct": 0,
+      "explanation": "The repeat chest radiograph confirms that the NGT tip is now positioned below the diaphragm in the gastric body. This is the correct position for gastric enteral feeding. The tip should ideally be confirmed to be past the gastroesophageal junction and within the stomach — the image is consistent with this. The appropriate next step is to aspirate to confirm further position and to check pH if aspirate is obtained, followed by commencement of enteral nutrition at the prescribed rate. No further CXR is required unless the tube is subsequently repositioned or a clinical concern arises."
+    },
+    {
+      "id": "nut2_a07",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Gastric Intolerance",
+      "question": "A 55-year-old mechanically ventilated patient has persistent high gastric residual volumes (>500 mL/6h) on two consecutive measurements despite reducing the feed rate and elevating the head of bed to 30 degrees. What is the recommended first-line prokinetic agent and dose?",
+      "options": [
+        "Metoclopramide 10 mg IV every 8 hours",
+        "Erythromycin 250 mg IV every 6 hours",
+        "Domperidone 10 mg nasogastrically every 8 hours",
+        "Cisapride 10 mg nasogastrically three times daily",
+        "Neostigmine 2.5 mg IV every 6 hours"
+      ],
+      "correct": 1,
+      "explanation": "Erythromycin 250 mg IV every 6 hours is the recommended first-line prokinetic agent for high gastric residual volumes in ICU patients. Erythromycin acts as a motilin receptor agonist and accelerates gastric emptying. Metoclopramide (10 mg IV every 8 hours) is a second-line option and has a maximum recommended duration of 5 days due to the risk of extrapyramidal side effects, including tardive dyskinesia. Cisapride is no longer available in most countries due to cardiac arrhythmia risk. Domperidone and neostigmine are not standard first-line agents for gastric EN intolerance."
+    },
+    {
+      "id": "nut2_a08",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Gastric Intolerance",
+      "question": "A 72-year-old patient has been treated with metoclopramide 10 mg IV every 8 hours for EN intolerance for 5 days. The nursing team asks whether the drug should be continued for another 7 days, as EN tolerance has only partially improved. What is the most appropriate response?",
+      "options": [
+        "Continue for a further 10 days at the same dose, as tolerability to tardive dyskinesia risk increases with longer ICU admission and the prokinetic benefit outweighs the risk",
+        "Increase the dose to 20 mg IV every 8 hours to improve efficacy before considering alternatives",
+        "Switch to IV erythromycin but continue metoclopramide alongside it for a combined approach",
+        "Metoclopramide must not be continued beyond 5 days due to the risk of irreversible tardive dyskinesia; consider post-pyloric feeding or supplemental PN",
+        "Continue only if the patient's QTc interval remains below 500 ms on daily ECG monitoring"
+      ],
+      "correct": 3,
+      "explanation": "Metoclopramide carries a black box warning for tardive dyskinesia — an irreversible movement disorder — with prolonged use. It should not be administered for more than 5 days. When EN intolerance persists despite 5 days of metoclopramide, alternative strategies include switching to erythromycin (if not already tried), post-pyloric feeding via nasojejunal tube, or — after day 4–7 of ICU admission — supplemental parenteral nutrition if EN consistently delivers less than 60% of target. QTc monitoring is relevant for erythromycin (which also prolongs QT), but does not allow extension of metoclopramide beyond the 5-day limit."
+    },
+    {
+      "id": "nut2_a09",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Clinical Trials",
+      "question": "The CALORIES trial enrolled 2388 critically ill adults and compared early enteral nutrition with early parenteral nutrition. What were the primary findings?",
+      "options": [
+        "EN significantly reduced 30-day mortality and hospital-acquired infections compared with PN in the overall cohort",
+        "PN was associated with better caloric goal attainment and superior outcomes in patients with GI failure",
+        "No significant difference in 30-day mortality between EN and PN; EN was associated with fewer hypoglycaemic episodes and lower overall cost",
+        "The trial was stopped early because PN was clearly superior in the most critically ill subgroup",
+        "EN caused significantly more GI complications, leading to the recommendation that PN should be used preferentially"
+      ],
+      "correct": 2,
+      "explanation": "The CALORIES trial (Harvey 2014) found no significant difference in 30-day mortality between early EN and early PN (33.1% vs 34.2%). EN was associated with fewer episodes of hypoglycaemia and lower overall cost than PN. There was no significant difference in infectious complications between the two groups. The trial supported EN as the preferred route when feasible — primarily on practical and cost grounds rather than a clear mortality benefit. It is important not to confuse CALORIES with the NUTRIREA-2 trial, which focused specifically on patients requiring vasopressors."
+    },
+    {
+      "id": "nut2_a10",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Formula Selection",
+      "question": "When selecting an enteral formula for a mechanically ventilated patient with no known malabsorption, specific metabolic requirements, or known food intolerances, which formula is recommended as the default first-line choice?",
+      "options": [
+        "A standard polymeric formula using whole intact proteins and standard nutrient density",
+        "A semi-elemental pre-digested formula to maximise absorption in the stressed gut",
+        "An immune-modulating formula containing glutamine, arginine, and omega-3 fatty acids",
+        "A fibre-enriched formula to prevent constipation and maintain gut motility",
+        "A high-fat, low-carbohydrate formula to reduce the respiratory quotient and CO2 production"
+      ],
+      "correct": 0,
+      "explanation": "A standard polymeric formula is recommended as the default first-line enteral formula in most critically ill patients. Polymeric formulas contain whole proteins requiring normal digestive capacity, and have been shown to be well-tolerated and effective in the general ICU population. Semi-elemental formulas are reserved for patients with confirmed malabsorption or GI failure. Immune-modulating formulas are not recommended routinely. High-fat, low-carbohydrate formulas were promoted for ARDS and ventilated patients based on theoretical RQ reduction, but RCTs have not confirmed clinical benefit."
+    },
+    {
+      "id": "nut2_a11",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Supplemental PN",
+      "question": "A 62-year-old on enteral nutrition is consistently achieving 40% of his caloric target on day 5 of ICU admission despite optimisation of EN delivery, prokinetics, and head-of-bed positioning. When should supplemental parenteral nutrition be initiated?",
+      "options": [
+        "Immediately from day 1 of EN initiation to prevent any cumulative energy deficit",
+        "After day 4–7, when EN consistently provides less than 60% of the energy target despite full optimisation",
+        "Only after 14 days of documented EN insufficiency, to allow maximum time for gut recovery",
+        "Supplemental PN should be avoided entirely, as combining EN and PN increases infectious risk in all patients",
+        "Once any caloric deficit exceeds 2000 kcal cumulative, regardless of day in ICU"
+      ],
+      "correct": 1,
+      "explanation": "Supplemental PN should be initiated after day 4–7 of ICU admission when EN consistently provides less than 60% of the energy target despite optimal management. Starting supplemental PN earlier (before day 3) is not recommended — multiple RCTs (including the EPaNIC trial) demonstrated that early PN increases infectious complications, may suppress autophagy, and does not improve outcomes. The key principle is to allow the gut time to adapt while avoiding prolonged significant energy deficits by supplementing with PN in the intermediate term."
+    },
+    {
+      "id": "nut2_a12",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Clinical Trials",
+      "question": "The NUTRIREA-2 trial randomised critically ill patients on vasopressors to full-calorie EN versus a restrictive EN strategy. What were the main results?",
+      "options": [
+        "Full-calorie EN significantly reduced 28-day mortality in vasopressor-dependent patients and should be recommended as standard of care in haemodynamically unstable critically ill patients",
+        "The trial was stopped early because full-calorie EN caused unacceptable rates of bowel ischaemia",
+        "No significant mortality difference was found; full-calorie EN was associated with more GI complications including vomiting and bowel ischaemia",
+        "Restrictive EN significantly reduced ICU-acquired infections compared with full-calorie EN in shock",
+        "Full-calorie EN was safe and should be recommended in all haemodynamically stable patients on vasopressors"
+      ],
+      "correct": 2,
+      "explanation": "NUTRIREA-2 (Reignier, NEJM 2018) randomised 2410 critically ill adults on vasopressors and mechanical ventilation to full-calorie EN (20 kcal/kg/day) versus restrictive EN (targeting 6 kcal/kg/day, approximately 500 mL/day of water). The primary outcome — 28-day mortality — was not significantly different between groups (37.0% vs 37.0%). However, patients receiving full-calorie EN had significantly more GI complications including vomiting, diarrhoea, bowel ischaemia, colonic pseudo-obstruction, and digestive haemorrhage. This suggests that attempting to meet full caloric targets via EN in haemodynamically unstable patients may cause harm."
+    },
+    {
+      "id": "nut2_a13",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Contraindications",
+      "question": "You are asked to evaluate a list of clinical conditions for their classification as contraindications to EN. Which one represents an ABSOLUTE contraindication that would prevent EN regardless of clinical context?",
+      "options": [
+        "Prone positioning in an ARDS patient with stable haemodynamics",
+        "High-output ileostomy (>2 L/day) with intact bowel continuity",
+        "Absent bowel sounds in a post-operative patient with no abdominal symptoms",
+        "Mesenteric artery occlusion confirmed on CT-angiography with bowel ischaemia",
+        "Severe acute pancreatitis confirmed by CT with Balthazar grade D"
+      ],
+      "correct": 3,
+      "explanation": "Bowel ischaemia from mesenteric artery occlusion is an absolute contraindication to enteral nutrition. Feeding into ischaemic bowel risks perforation, worsening ischaemia, and bacteraemia from bacterial translocation. Prone positioning, high-output stomas with intact bowel continuity, absent bowel sounds alone, and severe acute pancreatitis without obstruction are NOT absolute contraindications — all can receive EN with appropriate clinical management. SAP in particular may even benefit from early EN."
+    },
+    {
+      "id": "nut2_a14",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Contraindications",
+      "question": "A 71-year-old has absent bowel sounds at 48 hours following emergency laparotomy. The surgical team considers withholding EN until bowel sounds return. Which statement best guides this decision?",
+      "options": [
+        "Absent bowel sounds alone are not a contraindication to EN; small bowel motility resumes independently of audible bowel sounds in the post-operative period",
+        "EN should be delayed until bowel sounds return, as their absence reliably confirms that the small bowel has not yet resumed peristalsis and is not ready for luminal feeding",
+        "A plain abdominal radiograph should be requested in all post-operative patients before initiating EN to confirm the absence of mechanical obstruction or ileus pattern",
+        "All post-laparotomy patients require at least 72 hours of gut rest to allow anastomotic healing before enteral feeding",
+        "Absent bowel sounds mandate post-pyloric placement before EN can be commenced"
+      ],
+      "correct": 0,
+      "explanation": "Absent bowel sounds alone are not a contraindication to enteral nutrition. The absence of bowel sounds primarily reflects large intestinal motility (the large bowel resumes motility later than the small bowel following surgery or critical illness). Small bowel motility typically recovers within 6–12 hours of surgery or illness onset. Feeding decisions should be based on clinical assessment of GI function and contraindications, not on the presence or absence of bowel sounds. Early EN after major surgery is supported by evidence and may improve outcomes."
+    },
+    {
+      "id": "nut2_a15",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Post-pyloric Feeding",
+      "question": "Which of the following does NOT represent a clinical indication for post-pyloric (nasojejunal) enteral feeding rather than standard gastric EN?",
+      "options": [
+        "Proven recurrent aspiration events despite gastric feeding with appropriate head-of-bed positioning",
+        "Persistently high gastric residual volumes refractory to two prokinetic agents",
+        "A patient with prior uncomplicated cholecystectomy, otherwise asymptomatic",
+        "Post-operative acute pancreatitis where nasogastric feeding causes pain or exacerbates symptoms",
+        "Frequent desaturation events associated with gastric regurgitation in a deeply sedated patient"
+      ],
+      "correct": 2,
+      "explanation": "A prior uncomplicated cholecystectomy does not indicate a need for post-pyloric feeding — it does not alter gastric emptying or increase aspiration risk. Indications for post-pyloric feeding include: recurrent aspiration despite gastric feeding, persistent EN intolerance (high GRV) refractory to prokinetics, acute pancreatitis with gastric intolerance, and situations where aspiration risk is high (e.g., repeated desaturation events linked to gastric reflux in sedated patients). Post-pyloric feeding requires fluoroscopic or endoscopic placement in most cases."
+    },
+    {
+      "id": "nut2_a16",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Specific Populations",
+      "question": "A 52-year-old with severe ARDS is placed in prone position for 16-hour sessions to improve oxygenation. Regarding enteral nutrition during prone positioning, which statement is most appropriate?",
+      "options": [
+        "EN must be paused 2 hours before proning and restarted 2 hours after returning to supine to avoid aspiration",
+        "EN is absolutely contraindicated during prone positioning due to the anatomical alteration of gastric drainage",
+        "Prone positioning mandates post-pyloric feeding in all patients before EN can be commenced in any form",
+        "EN should be continued during prone positioning; it is not a contraindication, and feeding should not be routinely paused for proning",
+        "EN should be replaced by PN during all proning sessions to eliminate aspiration risk"
+      ],
+      "correct": 3,
+      "explanation": "Prone positioning is not a contraindication to enteral nutrition. EN should be continued during prone sessions. There is no evidence that routine pausing of EN before proning reduces aspiration risk, and the associated nutritional interruptions contribute to caloric deficit. Standard precautions such as continuous head-of-bed elevation (even in prone) and monitoring for regurgitation apply. ECMO, prone positioning, neuromuscular blockade, hypothermia, and traumatic brain injury are all conditions frequently and incorrectly cited as EN contraindications."
+    },
+    {
+      "id": "nut2_a17",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Contraindications",
+      "question": "A critically ill patient is on noradrenaline 0.3 µg/kg/min with MAP 59 mmHg and serum lactate 4.2 mmol/L, and is being actively fluid-resuscitated. What is the most appropriate approach to enteral nutrition at this stage?",
+      "options": [
+        "Increase the vasopressor dose to achieve MAP >65 mmHg before commencing any nutritional support, as nutrition should always be deferred until haemodynamic optimisation is fully complete",
+        "EN at reduced rate (10 mL/h) is safe in any vasopressor-dependent patient regardless of haemodynamic trajectory",
+        "EN should be temporarily held and reassessed when haemodynamics improve; active resuscitation with vasopressors and elevated lactate represents relative instability",
+        "Commence PN immediately as any vasopressor use is an absolute contraindication to EN",
+        "Full-calorie EN should be started immediately to compensate for physiological losses during the stress response"
+      ],
+      "correct": 2,
+      "explanation": "This patient is haemodynamically unstable — on vasopressors with ongoing resuscitation and elevated lactate. EN should be temporarily held and reassessed as haemodynamics improve. This scenario represents a relative contraindication (not absolute), as the threshold for absolute contraindication is MAP <50 mmHg on maximum vasopressor support with lactate >8 mmol/L. However, EN during active resuscitation with rising lactate carries risk of non-occlusive mesenteric ischaemia. Once the patient is stabilised (vasopressor requirement is stable or decreasing, lactate improving), EN should be initiated at a low rate and advanced cautiously."
+    },
+    {
+      "id": "nut2_a18",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Specific Populations",
+      "question": "A 37-year-old with refractory hypoxaemia is commenced on veno-venous ECMO. What is the correct approach to enteral nutrition in this patient?",
+      "options": [
+        "EN is absolutely contraindicated during VV-ECMO due to reduced splanchnic perfusion during extracorporeal bypass",
+        "EN should be withheld until ECMO flow has been successfully weaned below 3 L/min",
+        "Only PN should be used during ECMO as the ECMO circuit impairs GI motility",
+        "VA-ECMO prevents EN delivery; VV-ECMO allows EN only after 24 hours of circuit stabilisation",
+        "ECMO is not a contraindication to EN; early enteral nutrition should be initiated and continued as tolerated, with monitoring for GI complications"
+      ],
+      "correct": 4,
+      "explanation": "ECMO — in both veno-venous and veno-arterial configurations — is not a contraindication to enteral nutrition. Early EN should be initiated in ECMO patients when haemodynamically stable, as in any other critically ill patient. Observational data suggest EN is well tolerated in most ECMO patients. Clinically relevant GI complications (bleeding, bowel ischaemia) should be monitored for, particularly in patients on anticoagulation, but these do not constitute a blanket contraindication. Early EN in ECMO patients is supported by ESICM recommendations."
+    },
+    {
+      "id": "nut2_a19",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Contraindications",
+      "question": "Which of the following represents a RELATIVE contraindication to enteral nutrition — meaning EN should be temporarily paused and reconsidered when the situation resolves — as opposed to an absolute contraindication or a condition that is NOT a contraindication?",
+      "options": [
+        "Severe acute pancreatitis with preserved bowel continuity and no obstruction",
+        "Gastric residual volume exceeding 500 mL per 6-hour measurement despite prokinetic therapy",
+        "Neuromuscular blockade in a haemodynamically stable mechanically ventilated patient",
+        "ECMO support for refractory hypoxaemia in a haemodynamically stable patient",
+        "Prone positioning with stable oxygenation and no clinical sign of GI dysfunction"
+      ],
+      "correct": 1,
+      "explanation": "Persistent high gastric residual volumes despite prokinetic therapy is a relative contraindication to gastric EN — EN should be temporarily withheld and, if the situation does not resolve, post-pyloric feeding or supplemental PN should be considered. Severe acute pancreatitis, neuromuscular blockade, ECMO, and prone positioning are all conditions that are NOT contraindications to EN and should not trigger EN cessation on their own. This distinction between absolute contraindications, relative contraindications, and non-contraindications is clinically important and frequently tested."
+    },
+    {
+      "id": "nut2_k01",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Indications and Contraindications",
+      "question": "A 64-year-old is admitted to the ICU with septic shock from pneumonia. Regarding enteral nutrition indications and contraindications:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Enteral nutrition is indicated when oral intake is expected to be inadequate for more than 48 hours in any critically ill patient",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Acute colonic pseudo-obstruction without mechanical obstruction constitutes an absolute contraindication to EN regardless of clinical assessment",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "A confirmed nasogastric tube position in the stomach is required before commencing enteral feeding in mechanically ventilated patients",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Severe haemodynamic instability — defined as MAP <50 mmHg unresponsive to maximum vasopressor therapy combined with lactate >8 mmol/L — is recognised as an absolute contraindication to EN",
+          "correct": true
+        }
+      ],
+      "explanation": "The threshold for EN is oral intake not expected for more than 3 days — not 48 hours. Acute colonic pseudo-obstruction (Ogilvie's syndrome) without a mechanical cause is a relative, not absolute, contraindication; EN decisions should be based on clinical assessment. While tube position confirmation is important, this is a practical step, not a classification of contraindication. Haemodynamic instability at the level described (MAP <50, max vasopressors, lactate >8) is the absolute threshold — the only statement here that is factually correct."
+    },
+    {
+      "id": "nut2_k02",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Not Contraindications",
+      "question": "Regarding conditions commonly mistaken as contraindications to enteral nutrition in the ICU:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Neuromuscular blockade in a haemodynamically stable patient does not prevent EN — GI motility can occur independently of peripheral neuromuscular junction blockade",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Early EN in severe acute pancreatitis without bowel obstruction or perforation is not contraindicated and may be beneficial",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "ECMO support fundamentally and irreversibly impairs GI perfusion, and constitutes an absolute contraindication to EN in all ECMO configurations",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Absent bowel sounds without other clinical or radiological signs of GI dysfunction always indicate EN should be withheld until sounds return",
+          "correct": false
+        }
+      ],
+      "explanation": "Neuromuscular blocking agents act at the neuromuscular junction but do not impair GI smooth muscle motility, which is regulated independently. Early EN in SAP is safe and may reduce complications when there is no obstruction. ECMO is not a contraindication — both VV and VA configurations are compatible with EN when the patient is haemodynamically stable. Absent bowel sounds alone are not a reliable indicator of GI function — small bowel motility resumes much earlier than large bowel sounds become audible."
+    },
+    {
+      "id": "nut2_k03",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Gastric Intolerance",
+      "question": "Regarding prokinetic therapy for enteral nutrition intolerance in the ICU:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Erythromycin 250 mg IV four times daily is the recommended first-line prokinetic agent for high gastric residual volumes in the ICU",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Metoclopramide can be continued indefinitely in critically ill patients as long as blood pressure and QTc interval are monitored daily",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Prokinetic agents should only be initiated if GRV consistently exceeds 500 mL per 6-hour measurement on two or more occasions",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Combining erythromycin and metoclopramide is universally more effective than monotherapy and should be the standard first-line approach for gastric intolerance",
+          "correct": false
+        }
+      ],
+      "explanation": "Metoclopramide has a maximum recommended duration of 5 days due to the irreversible risk of tardive dyskinesia — indefinite continuation is not acceptable. Combination prokinetic therapy (erythromycin + metoclopramide) has been studied and may be considered in refractory cases after monotherapy failure, but it is not the standard first-line approach. The threshold for prokinetic initiation (GRV >500 mL/6h) and the recommendation for erythromycin as first-line are both correct as stated."
+    },
+    {
+      "id": "nut2_k04",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Clinical Trials",
+      "question": "Regarding clinical trials comparing enteral and parenteral nutrition in critically ill patients:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The CALORIES trial demonstrated that early PN significantly reduced 30-day mortality compared with early EN in unselected ICU patients",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "The NUTRIREA-2 trial found that full-calorie EN was associated with more GI complications compared with restrictive EN in vasopressor-dependent patients",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The NUTRIREA-2 trial found no significant difference in 28-day mortality between full-calorie EN and restrictive EN strategies in patients on vasopressors",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Current evidence supports EN as the preferred route over PN when the gut is functional, primarily due to lower cost, fewer hypoglycaemic episodes, and preservation of gut integrity",
+          "correct": true
+        }
+      ],
+      "explanation": "The CALORIES trial found NO significant mortality difference between early EN and early PN — not a benefit for PN. Both the NUTRIREA-2 findings (no mortality difference; more GI complications with full-calorie EN) and current evidence supporting EN preference on cost, safety, and physiological grounds are correctly stated. Recognising that CALORIES did not show a mortality difference for either route is a key fact often confused with NUTRIREA-2."
+    },
+    {
+      "id": "nut2_k05",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Gastric Intolerance",
+      "question": "Regarding gastric residual volumes and post-pyloric feeding strategies in the ICU:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A single gastric residual volume measurement of 250 mL always warrants immediate cessation of EN and prokinetic initiation",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Post-pyloric feeding has been shown in large RCTs to consistently reduce aspiration pneumonia incidence when compared with gastric feeding and should therefore replace gastric EN in all ICU patients",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "When EN intolerance persists despite optimised prokinetic therapy, post-pyloric nasojejunal feeding is a reasonable alternative to gastric EN",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Prokinetic drugs should be initiated prophylactically in all ICU patients at the start of EN to prevent GRV accumulation and reduce aspiration risk",
+          "correct": false
+        }
+      ],
+      "explanation": "A single GRV of 250 mL does not meet the threshold of >500 mL per 6-hour measurement needed to trigger EN pause or prokinetic initiation. Large RCTs have not consistently shown that post-pyloric feeding reduces aspiration pneumonia — it is used selectively for refractory gastric intolerance, not as universal first-line policy. Prophylactic prokinetics for all ICU patients are not recommended — they are reserved for established gastric intolerance. Post-pyloric feeding for persistent intolerance refractory to prokinetics is the one correct and guideline-consistent statement."
+    },
+    {
+      "id": "nut2_k06",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Specific Populations",
+      "question": "Regarding enteral nutrition in specific patient populations in the ICU:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "All patients receiving neuromuscular blocking agents should receive PN rather than EN due to absent GI motility caused by NMB",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Prone positioning is not a contraindication to EN, and enteral feeding should be continued through prone sessions in haemodynamically stable patients",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Enteral nutrition is not contraindicated in severe acute pancreatitis without bowel obstruction; nasojejunal or nasogastric feeding may be used",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "In patients on veno-venous ECMO, EN is absolutely contraindicated due to impaired splanchnic perfusion from extracorporeal circulation",
+          "correct": false
+        }
+      ],
+      "explanation": "Neuromuscular blocking agents act at the neuromuscular junction and do not impair GI smooth muscle motility; EN is not contraindicated. VV-ECMO does not inherently impair splanchnic perfusion and is not a contraindication to EN. Prone positioning and SAP (without obstruction) are both non-contraindications to EN, as stated in the two correct statements. Early EN in SAP may reduce infectious complications and is supported by current guidelines."
+    },
+    {
+      "id": "nut2_k07",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Supplemental PN",
+      "question": "Regarding the timing and thresholds for supplemental parenteral nutrition when EN is insufficient:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Supplemental PN should generally not be initiated before day 3–4 of ICU admission, as early PN may suppress autophagy, increase infections, and worsen outcomes",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "If a patient achieves only 50% of caloric target via EN on day 2, supplemental PN should be commenced immediately to prevent early energy deficit",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Early supplemental PN (day 1–2) has been shown in large RCTs to consistently improve outcomes in ICU patients who cannot tolerate full EN",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "After day 7, when EN remains consistently below 60% of the caloric target despite optimisation, supplemental or total PN should be seriously considered",
+          "correct": true
+        }
+      ],
+      "explanation": "The EPaNIC trial and others demonstrate that early PN is associated with more infectious complications, prolonged ICU stay, and delayed muscle regeneration — early supplemental PN is therefore not recommended. The threshold for initiating supplemental PN (EN <60% of target after day 4–7) is based on a balance between tolerating early energy deficit versus the risks of premature PN. Starting supplemental PN before day 3 is specifically discouraged in current guidelines. After day 7, persistent insufficiency warrants parenteral supplementation."
+    },
+    {
+      "id": "nut2_k08",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – NGT Monitoring",
+      "question": "Regarding nasogastric tube insertion and position confirmation in mechanically ventilated ICU patients:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Confirmation of NGT position by auscultation of air injection over the epigastrium alone is a validated and safe gold-standard method in mechanically ventilated patients",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "A chest radiograph is required after initial NGT insertion to confirm correct position before commencing enteral feeding",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Once a correctly positioned NGT has been confirmed by CXR, no further position checks are required if the tube has not been replaced",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Measuring the pH of the gastric aspirate (<4.5) alone is a sufficient and validated confirmation of NGT position in ICU patients on proton pump inhibitors",
+          "correct": false
+        }
+      ],
+      "explanation": "Auscultation of air injection is notoriously unreliable and has resulted in fatal feeding incidents — it is not a validated confirmation method. Once confirmed by initial CXR, NGT position should be reassessed at least weekly and whenever the tube is repositioned or clinical condition changes, as migration can occur. pH measurement is unreliable in patients on proton pump inhibitors (pH may be falsely elevated), other acid-suppressing drugs, or with non-gastric placements — it cannot be used as the sole confirmation method in ICU patients. CXR remains the required standard for initial confirmation."
+    },
+    {
+      "id": "nut2_k09",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Contraindications",
+      "question": "Regarding clinical thresholds and mechanisms relevant to absolute contraindications to EN:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Bowel ischaemia from mesenteric artery occlusion is an absolute contraindication to EN as feeding increases intestinal oxygen demand in a setting of already critically impaired perfusion",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Patients on low-dose noradrenaline (<0.1 µg/kg/min) with MAP >65 mmHg should not receive EN due to the theoretical risk of non-occlusive mesenteric ischaemia from any vasopressor use",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Enteral feeding may precipitate or worsen intestinal ischaemia by increasing splanchnic oxygen consumption when gut perfusion is already critically compromised",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "A persistent lactate above 8 mmol/L despite adequate resuscitation, combined with haemodynamic instability on maximum vasopressor support, is a recognised threshold for withholding EN",
+          "correct": true
+        }
+      ],
+      "explanation": "Low-dose vasopressor use (noradrenaline <0.1 µg/kg/min) with adequate MAP and improving trajectory is not an absolute contraindication to EN — the contraindication applies to severe haemodynamic instability with MAP <50 mmHg, maximum vasopressor support, and persistent high lactate (>8 mmol/L). The risk of EN worsening gut ischaemia is the physiological rationale for the contraindication and is a valid statement. Mesenteric ischaemia is the clearest example of an absolute contraindication, and the lactate threshold described in statement D is clinically applied."
+    },
+    {
+      "id": "nut2_a20",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Parenteral Nutrition – Vascular Access",
+      "question": "A 58-year-old requires total parenteral nutrition. The pharmacy calculates the PN solution will have an osmolarity of 1100 mosm/L. What vascular access is required for safe administration?",
+      "options": [
+        "A peripheral cannula in the antecubital fossa, as modern PN formulations have been optimised for peripheral vein tolerance",
+        "A midline catheter is sufficient since its advanced position relative to peripheral cannulas provides adequate dilution",
+        "A peripheral cannula in the femoral vein, as the higher blood flow in larger vessels allows safe administration",
+        "An intraosseous access is appropriate for short-term PN in haemodynamically unstable patients without other options",
+        "A central venous catheter is required; PN with osmolarity >900 mosm/L must be administered centrally to prevent thrombophlebitis"
+      ],
+      "correct": 4,
+      "explanation": "Parenteral nutrition solutions with osmolarity exceeding 900 mosm/L must be administered via a central vein. Peripheral veins cannot tolerate hyperosmolar solutions — they cause thrombophlebitis, chemical injury, and pain, and the resulting thrombotic events may be severe. A midline catheter does not have a central tip and is not suitable for hyperosmolar PN. Peripheral PN (osmolarity ≤900 mosm/L) can be administered via a peripheral vein, but only for limited periods and in suitable patients. Femoral veins carry higher infection risk and are also peripheral in terms of osmolarity tolerance."
+    },
+    {
+      "id": "nut2_a21",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Parenteral Nutrition – Vascular Access",
+      "question": "A patient requiring 10 days of parenteral nutrition has no central venous catheter in place. Which statement about vascular access for PN is most accurate?",
+      "options": [
+        "A peripheral cannula is adequate for any PN formulation as long as the infusion rate is kept below 60 mL/h",
+        "PICC lines should not be used for PN because the small lumen diameter creates unacceptable flow resistance",
+        "A non-tunnelled femoral central venous catheter is preferred for all PN lasting more than 7 days",
+        "A PICC is an appropriate vascular access for PN expected to last more than 6 days, as its tip is positioned centrally",
+        "Peripheral PN can be administered through any central catheter regardless of osmolarity, so PICC choice makes no difference"
+      ],
+      "correct": 3,
+      "explanation": "A peripherally inserted central catheter has its tip positioned at the cavoatrial junction, providing true central venous access despite peripheral insertion. This makes it suitable for hyperosmolar PN, and it is the preferred choice when PN is expected to last more than 6 days as it avoids repeated central line insertion, has lower infection rates than non-tunnelled CVCs in some settings, and can be managed in ward and community settings. PICC lumens are adequate for PN infusion rates. Femoral CVCs carry higher infection and thrombosis risk and are generally avoided for elective long-term access."
+    },
+    {
+      "id": "nut2_a22",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Parenteral Nutrition – Macronutrients",
+      "question": "A PN prescription is being calculated for a 75 kg patient. Regarding glucose delivery in PN, what is the maximum recommended infusion rate to prevent metabolic complications?",
+      "options": [
+        "A maximum of 5 mg/kg/min (approximately 6 g/kg/day), as exceeding this rate overwhelms glucose oxidation and promotes hepatic lipogenesis",
+        "A maximum of 10 g/kg/day, corresponding to endogenous hepatic glucose production rates during critical illness",
+        "No more than 200 g/day regardless of body weight, to maintain serum glucose below 10 mmol/L",
+        "No maximum applies as long as blood glucose is measured hourly and insulin is adjusted proportionally",
+        "Glucose should be restricted to <1 g/kg/day during the acute phase to avoid all stress hyperglycaemia"
+      ],
+      "correct": 0,
+      "explanation": "The maximum recommended glucose infusion rate in PN is 5 mg/kg/min (approximately 6 g/kg/day). Above this rate, the liver's capacity for glucose oxidation is exceeded, resulting in net lipid synthesis (de novo lipogenesis), which contributes to PN-associated liver disease including steatosis. This metabolic ceiling is independent of insulin dosing — providing more glucose than can be oxidised results in hepatic fat accumulation regardless of glycaemic control. Endogenous glucose production in critical illness is approximately 3–4 mg/kg/min and provides the baseline before any exogenous glucose is added."
+    },
+    {
+      "id": "nut2_a23",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Parenteral Nutrition – Macronutrients",
+      "question": "A 67-year-old on PN has serum triglycerides of 5.2 mmol/L on day 4. The team reviews the lipid prescription. Regarding lipid administration in PN, which approach is most appropriate?",
+      "options": [
+        "Intermittent lipid infusions over 8–12 hours allow monitoring for lipaemia between infusions and are the preferred method",
+        "Lipids should represent exactly 40% of total caloric intake; no dose modification based on TG levels is necessary",
+        "TG monitoring is not required for short-term PN lasting less than 7 days",
+        "Lipid infusion should be stopped permanently at TG >4 mmol/L and not restarted even when TG normalises",
+        "Lipids should be infused continuously rather than intermittently; reduce the dose when TG exceeds 4 mmol/L and stop entirely when TG exceeds 9 mmol/L"
+      ],
+      "correct": 4,
+      "explanation": "Lipids in PN should be administered as a continuous infusion rather than intermittent boluses — intermittent high lipid loads cause more adverse metabolic effects. When serum triglycerides exceed 4 mmol/L, the lipid dose should be reduced and TG rechecked. When TG exceeds 9 mmol/L, the lipid infusion should be stopped — it can be reintroduced at a lower dose once TG normalises. This patient with TG 5.2 mmol/L requires dose reduction. Lipids should not be stopped permanently after a single elevation, as they are the recommended caloric source for limiting carbohydrate load."
+    },
+    {
+      "id": "nut2_a24",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Glucose Management",
+      "question": "An insulin infusion is being titrated for a mechanically ventilated patient receiving PN. According to current evidence and guidelines, what blood glucose range is the recommended target in critically ill patients?",
+      "options": [
+        "4.4–6.1 mmol/L, reflecting normal fasting values in healthy adults",
+        "6.1–8.3 mmol/L, based on the original Van den Berghe (Leuven 2001) tight-control trial in surgical ICU",
+        "10–14 mmol/L, allowing a permissive hyperglycaemia approach that avoids hypoglycaemia events",
+        "4.5–6.0 mmol/L, based on the target used in the surgical cohort of the first Leuven trial",
+        "7.8–10 mmol/L, avoiding consistently elevated values above 10–12 mmol/L"
+      ],
+      "correct": 4,
+      "explanation": "The current recommended blood glucose target in critically ill patients is 7.8–10 mmol/L. Values consistently above 10–12 mmol/L are associated with adverse outcomes including increased infection risk, impaired immune function, and poor wound healing. However, targeting lower values (4.5–6.0 mmol/L) — as tested in the NICE-SUGAR trial — significantly increased mortality. The 7.8–10 mmol/L target represents the best balance between avoiding harm from hyperglycaemia and the risks of hypoglycaemia-related adverse events."
+    },
+    {
+      "id": "nut2_a25",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Glucose Management",
+      "question": "The NICE-SUGAR trial enrolled over 6000 critically ill adults and is the most influential RCT informing current glucose management practice. What was the trial's most clinically significant finding?",
+      "options": [
+        "Tight glycaemic control (4.5–6.0 mmol/L) had no effect on mortality but significantly reduced ICU-acquired infections and ICU length of stay",
+        "Tight glycaemic control targeting 4.5–6.0 mmol/L significantly increased 90-day mortality compared with a conventional target of less than 10 mmol/L",
+        "Tight glycaemic control benefited surgical ICU patients but caused harm in medical ICU patients, based on subgroup analysis",
+        "The trial was stopped early for benefit — tight glycaemic control reduced 90-day mortality by 15% in septic patients",
+        "Tight glycaemic control showed no difference in 90-day mortality but was associated with more severe hypoglycaemic events, providing a safety argument against tight control"
+      ],
+      "correct": 1,
+      "explanation": "NICE-SUGAR (NEJM 2009) found that intensive glucose control targeting 4.5–6.0 mmol/L increased 90-day mortality compared with conventional control targeting <10 mmol/L (27.5% vs 24.9%; p=0.02). Severe hypoglycaemia was more frequent in the intensive group. This landmark trial overturned the findings of the earlier single-centre Leuven (Van den Berghe) trials and established the current conventional target of 7.8–10 mmol/L as the standard of care. The result applied to both medical and surgical ICU patients."
+    },
+    {
+      "id": "nut2_a26",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Glucose Management",
+      "question": "The CONTROLING trial investigated whether individualising blood glucose targets based on patients' pre-ICU HbA1c would improve outcomes. What was the primary finding?",
+      "options": [
+        "HbA1c-guided individualised targets significantly reduced 90-day mortality compared with conventional glucose management",
+        "Individualised targets based on HbA1c were beneficial specifically in patients with pre-existing type 2 diabetes",
+        "Allowing higher glucose targets (up to 14 mmol/L) in patients with high pre-ICU HbA1c improved functional outcomes at 180 days",
+        "HbA1c-guided individualised glucose targets showed no benefit in 90-day survival compared with standard glucose management",
+        "The trial was stopped early for harm — HbA1c-guided targets increased severe hypoglycaemia in all subgroups"
+      ],
+      "correct": 3,
+      "explanation": "The CONTROLING trial (2021) randomised ICU patients to individualised blood glucose targets guided by their pre-admission HbA1c versus standard management. The HbA1c-guided targets allowed higher glucose levels in patients with previously elevated HbA1c (reflecting chronic hyperglycaemia), reflecting the theoretical concern that these patients may be adapted to higher glucose levels and harmed by aggressive lowering. However, the trial found no difference in 90-day survival between groups. This does not mean HbA1c is irrelevant to ICU glucose management — it may still guide the minimum acceptable glucose target for individual patients — but the individualised targeting strategy did not improve outcomes overall."
+    },
+    {
+      "id": "nut2_a27",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Parenteral Nutrition – Monitoring",
+      "question": "A 52-year-old has received total parenteral nutrition for 16 days. At what frequency should liver function tests be monitored in patients on long-term PN, and what is the expected prevalence of LFT abnormalities?",
+      "options": [
+        "Daily LFT monitoring is required as PN-associated liver disease may progress rapidly and is irreversible once established",
+        "Weekly LFT monitoring is sufficient unless the patient develops clinical jaundice or pruritus",
+        "Liver function tests need only be checked at PN commencement and cessation, as abnormalities are uncommon with modern PN formulations",
+        "Monthly monitoring is adequate as PN-associated cholestasis takes months to develop and is clinically relevant only in long-term home PN",
+        "At least twice weekly, as more than 60% of patients on PN for more than 2 weeks develop abnormal liver function tests"
+      ],
+      "correct": 4,
+      "explanation": "Liver function abnormalities develop in more than 60% of patients on long-term PN — a very high rate that mandates regular monitoring. LFTs should be checked at least twice weekly in patients receiving PN, to allow early detection and dose adjustment before significant hepatic dysfunction occurs. PN-associated liver disease manifests as cholestasis, steatosis, or steatohepatitis. Management includes ensuring EN is used when feasible (bile flow stimulation), reviewing lipid content, and cycling PN if feasible in long-term patients. Daily monitoring is not necessary in stable patients; monthly intervals are inadequate."
+    },
+    {
+      "id": "nut2_a28",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Refeeding Syndrome",
+      "question": "A 44-year-old with cancer cachexia has been fasting for 12 days after intestinal obstruction and weight loss of 15% over 2 months. Nutritional support is being planned. Regarding refeeding syndrome in ICU patients, which statement is most accurate?",
+      "options": [
+        "Refeeding syndrome is uncommon (<5%) in critically ill patients, because metabolic adaptation to starvation conserves intracellular electrolytes and prevents the shifts seen in outpatient malnutrition",
+        "Refeeding syndrome affects only patients who have been completely fasting for more than 3 weeks",
+        "Refeeding syndrome affects ~30% of critically ill patients and is characterised by hypophosphataemia (<0.65 mmol/L) developing within 72 hours of feeding initiation",
+        "The cardinal electrolyte abnormality of refeeding syndrome is hyperkalaemia, resulting from insulin-driven intracellular potassium release",
+        "Refeeding syndrome can be prevented by normal saline preloading before commencing nutrition in at-risk patients"
+      ],
+      "correct": 2,
+      "explanation": "Refeeding syndrome occurs in approximately 30% of ICU patients — a much higher prevalence than commonly appreciated. The cardinal feature is hypophosphataemia, defined as serum phosphate falling below 0.65 mmol/L (some references use 0.71 mmol/L) within 72 hours of initiating nutritional support. The mechanism is intracellular shift of phosphate, potassium, and magnesium — driven by insulin release in response to exogenous glucose — into cells whose intracellular stores are depleted after prolonged starvation. Hypophosphataemia (not hyperkalaemia) is the primary electrolyte abnormality. Normal saline preloading has no proven role in prevention."
+    },
+    {
+      "id": "nut2_a29",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Refeeding Syndrome",
+      "question": "The Doig 2015 RCT evaluated a specific nutritional strategy for patients at high risk of refeeding syndrome. What was the intervention and the primary finding?",
+      "options": [
+        "Full-calorie feeding from day 1 with prophylactic IV phosphate supplementation proved superior to restriction, demonstrating that phosphate replacement prevents refeeding complications",
+        "Restricting energy to 20 kcal/h for 2 days plus thiamine and B vitamins improved 6-month survival by ~13% compared with standard care",
+        "PN was superior to EN in patients at high refeeding risk; the trial established PN as the preferred route",
+        "Thiamine supplementation alone (without caloric restriction) successfully prevented refeeding syndrome and eliminated the need for initial caloric restriction",
+        "Phosphate infusion protocols effectively prevented refeeding syndrome and allowed full caloric targets to be commenced immediately in all patients"
+      ],
+      "correct": 1,
+      "explanation": "The Doig 2015 RCT randomly assigned critically ill patients at high risk of refeeding syndrome to a protocol of restricted caloric delivery (targeting 20 kcal/hour for the first 2 days) combined with thiamine 200 mg IV before feeding and B vitamin supplementation, versus standard nutritional care. The protocol group had a 13% improvement in 6-month survival. This established that restricting early caloric intake combined with thiamine supplementation — not merely treating electrolyte abnormalities after they occur — is an effective strategy. Full-calorie feeding from day 1 in high-risk patients can precipitate severe electrolyte crises."
+    },
+    {
+      "id": "nut2_a30",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Parenteral Nutrition – Supplemental PN",
+      "question": "An ICU patient on day 6 of admission is consistently achieving only 40% of his caloric target via EN despite optimisation. When should supplemental PN be initiated, and what is the clinical rationale?",
+      "options": [
+        "Supplemental PN should have been initiated on day 1 to eliminate any cumulative caloric deficit and prevent muscle wasting from the outset of ICU admission",
+        "Combined EN plus PN strategies increase infectious risk in all ICU patients; EN alone should always be used regardless of caloric achievement",
+        "Supplemental PN should wait until day 14 of inadequate EN before being initiated, as cumulative deficits only become clinically meaningful after 2 weeks",
+        "Supplemental PN is appropriate now (day 4–7); EN consistently <60% of target warrants intervention to prevent ongoing energy deficit",
+        "Total PN should replace EN entirely rather than combining the two feeding routes"
+      ],
+      "correct": 3,
+      "explanation": "This patient is on day 6 with only 40% of caloric target — well within the day 4–7 window at which supplemental PN should be initiated when EN remains consistently below 60% of target. Starting before day 3 is not recommended (increased infectious risk, suppressed autophagy), but waiting until day 14 leads to unacceptable cumulative energy deficit. Supplemental PN does not need to replace EN — EN should be continued at maximum achievable rate while PN supplements the remaining shortfall. The combination strategy is safe and guideline-consistent after the early ICU period."
+    },
+    {
+      "id": "nut2_a31",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – NGT Monitoring",
+      "question": "A mechanically ventilated patient has a new NGT inserted for enteral feeding. Regarding post-insertion confirmation and ongoing monitoring, which approach is most comprehensive and guideline-consistent?",
+      "options": [
+        "Aspirate pH testing (<4.5) alone confirms position before commencing feeding; no CXR is required",
+        "Air bolus auscultation over the epigastrium is an acceptable and validated alternative to CXR for initial NGT position confirmation in all mechanically ventilated patients",
+        "CXR is required after insertion but no further position monitoring is needed if the tube has not been replaced",
+        "Only a lateral CXR view is required to confirm NGT position; an AP view alone is insufficient",
+        "CXR is mandatory before commencing feeding; reassess position at least weekly and whenever the tube is moved or clinical status changes"
+      ],
+      "correct": 4,
+      "explanation": "An initial chest radiograph is mandatory to confirm NGT position — the only validated method in mechanically ventilated patients. pH testing is unreliable in patients on PPIs or other acid-suppressive drugs, and auscultation has resulted in fatal bronchial feeding incidents. Once confirmed, position must be reassessed at least weekly and after any manipulation or clinical deterioration, as NGTs can migrate into the oesophagus or bronchus. Both AP and lateral views are relevant, but an AP CXR is the standard initial assessment. Position monitoring is an ongoing responsibility, not a one-time check."
+    },
+    {
+      "id": "nut2_a32",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Refeeding Syndrome",
+      "question": "A 61-year-old with cancer cachexia develops hypophosphataemia and hypomagnesaemia 48 hours after enteral nutrition is restarted. What is the underlying mechanism responsible for these electrolyte shifts?",
+      "options": [
+        "Increased renal phosphate excretion driven by osmotic diuresis from the carbohydrate load causes the electrolyte abnormalities of refeeding syndrome",
+        "Inflammatory cytokines redistribute electrolytes from the intravascular space into the extracellular fluid compartment",
+        "Insulin-mediated glucose uptake drives phosphate, potassium, and magnesium into cells depleted by starvation, causing precipitous plasma falls",
+        "Enteral formula phosphate content is too low to replace losses, causing progressive dietary deficiency",
+        "Metabolic alkalosis induced by refeeding shifts potassium extracellularly and phosphate into urine"
+      ],
+      "correct": 2,
+      "explanation": "Refeeding syndrome is caused by the reintroduction of carbohydrates after a period of prolonged fasting. Carbohydrate ingestion stimulates insulin release, which drives cellular uptake of glucose alongside phosphate, potassium, and magnesium. In well-nourished individuals, intracellular stores of these electrolytes are adequate and plasma levels remain stable. In cachectic or starved patients, intracellular stores are profoundly depleted, and the insulin-driven influx of electrolytes into cells causes a precipitous fall in plasma concentrations. The metabolic consequences of severe hypophosphataemia include respiratory failure, cardiac arrhythmias, haemolytic anaemia, and neurological complications."
+    },
+    {
+      "id": "nut2_a33",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Refeeding Syndrome",
+      "question": "A clinical team is assessing refeeding syndrome risk before initiating nutritional support. Which of the following factors does NOT independently identify a patient as high risk for refeeding syndrome?",
+      "options": [
+        "Male sex (no independent association with refeeding syndrome risk has been established)",
+        "BMI below 18.5 kg/m² with documented recent weight loss of more than 10% over the preceding 3 months",
+        "History of chronic alcohol misuse with inadequate nutritional intake",
+        "Prolonged fasting for more than 5 consecutive days prior to ICU admission",
+        "History of malabsorptive conditions or resective bowel surgery"
+      ],
+      "correct": 0,
+      "explanation": "Male sex is not an independent risk factor for refeeding syndrome. Established high-risk criteria include: BMI <16 kg/m² (very high risk) or <18.5 kg/m² with additional risk factors, significant recent unintentional weight loss (>5% in 1 month or >10% in 3–6 months), minimal or no nutritional intake for more than 5 days, a history of alcohol misuse, use of insulin, chemotherapy, diuretics, or antacids, and malabsorptive conditions. Identifying patients at high risk allows implementation of the restricted-calorie plus thiamine protocol associated with improved outcomes in the Doig 2015 trial."
+    },
+    {
+      "id": "nut2_a34",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Parenteral Nutrition – Complications",
+      "question": "A patient has received total parenteral nutrition for 18 days and develops rising ALT, ALP, and bilirubin. Which statement about PN-associated liver disease is most accurate?",
+      "options": [
+        "PN-associated liver disease requires immediate permanent cessation of PN, as continuing causes irreversible cirrhosis within days",
+        "LFT abnormalities during PN are invariably drug-related and must not be attributed to PN itself — PN composition has been demonstrated to be hepatically neutral in all clinical settings",
+        "PN-associated liver disease occurs in fewer than 5% of ICU patients even with prolonged administration",
+        "More than 60% of patients on PN for >2 weeks develop LFT abnormalities; use EN whenever feasible to stimulate bile flow and review PN composition",
+        "Lipid-free PN should be permanently prescribed in all patients who develop any LFT abnormality during PN to prevent cholestasis"
+      ],
+      "correct": 3,
+      "explanation": "PN-associated liver disease is common — affecting more than 60% of patients after 2 or more weeks of PN. It encompasses cholestasis, hepatic steatosis, and, with long-term home PN, progressive steatohepatitis and cirrhosis. Management includes: using EN whenever feasible (enteral fat and bile acids stimulate bile flow), reviewing PN composition (excess glucose worsens steatosis; excess fat may worsen cholestasis), cycling PN rather than continuous infusion where possible, and monitoring LFTs twice weekly. PN does not need to be permanently stopped — it should be modified and reduced as EN is advanced."
+    },
+    {
+      "id": "nut2_a35",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – Complications",
+      "question": "A 58-year-old on broad-spectrum antibiotics and enteral nutrition develops high-output diarrhoea (5 loose stools in 24 hours) on day 6 of ICU admission. What investigation should be prioritised?",
+      "options": [
+        "Reduce the EN rate by 50% and switch to a semi-elemental formula, as high-output diarrhoea in ICU patients on enteral feeds is most commonly caused by formula osmolarity intolerance and resolves with formula modification",
+        "Stool C. difficile toxin testing is the priority; antibiotic-associated diarrhoea for >3 days warrants C. diff investigation before attributing symptoms to EN",
+        "Abdominal CT to exclude bowel ischaemia as the cause of high-output diarrhoea",
+        "Increase feeding rate and formula caloric density to compensate for water and caloric losses",
+        "Commence empiric metronidazole and vancomycin pending culture results"
+      ],
+      "correct": 1,
+      "explanation": "Diarrhoea persisting for more than 3 days in a critically ill patient receiving broad-spectrum antibiotics requires Clostridioides difficile testing as a priority. C. difficile infection is common in the ICU and can cause severe colitis. Empiric treatment without confirmation is not recommended (except in life-threatening presentations). EN-related diarrhoea is a diagnosis of exclusion; infection and medications must be ruled out first. While CT may be needed if bowel ischaemia is clinically suspected, it is not the first investigation for antibiotic-associated diarrhoea in the absence of other alarming features."
+    },
+    {
+      "id": "nut2_a36",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Parenteral Nutrition – Complications",
+      "question": "A colleague states that aspiration pneumonia is a well-recognised complication specifically attributed to parenteral nutrition. Which response is most accurate?",
+      "options": [
+        "Correct — PN impairs lower oesophageal sphincter tone, increasing regurgitation and aspiration risk independent of the presence of a nasogastric tube",
+        "Correct — the high osmolarity of PN causes reflux in most patients, increasing aspiration pneumonia",
+        "Incorrect — aspiration pneumonia is a complication of enteral nutrition; PN-specific complications include CRBSI, PN-associated liver disease, and metabolic abnormalities",
+        "Correct — patients on PN have higher rates of aspiration pneumonia than those on EN in all RCTs",
+        "Correct — aspiration pneumonia occurs with both EN and PN at equal rates and cannot be attributed to either route specifically"
+      ],
+      "correct": 2,
+      "explanation": "Aspiration pneumonia is a complication of enteral nutrition — specifically associated with the presence of a nasogastric tube, gastric reflux in sedated patients, and failure to maintain appropriate head-of-bed elevation. It is not a recognised complication of parenteral nutrition. PN-specific complications include: catheter-related bloodstream infection (CRBSI), PN-associated liver disease, metabolic bone disease with long-term use, hypertriglyceridaemia from lipid overload, hyperglycaemia, and venous thrombosis from central line placement. Differentiating between EN and PN complications is an important clinical and examination concept."
+    },
+    {
+      "id": "nut2_a37",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – EN vs PN",
+      "question": "When a critically ill patient's GI tract is functional, which nutritional route is preferred and what is the primary evidence base for this preference?",
+      "options": [
+        "EN is preferred when the gut is functional: it is more physiological, preserves gut mucosal integrity, is cheaper, and has fewer infectious complications",
+        "PN is preferred in most ICU patients because it reliably achieves caloric targets and avoids the GI complications, aspirations, and high residual volumes that frequently interrupt EN delivery",
+        "Both routes are equally effective and the choice should be driven entirely by nursing workload and IV access",
+        "PN is preferred in vasopressor-dependent patients as EN risks gut ischaemia in all such patients",
+        "EN and PN should be combined from day 1 to maximise caloric attainment and reduce nutritional deficits"
+      ],
+      "correct": 0,
+      "explanation": "Enteral nutrition is preferred over parenteral nutrition when the GI tract is functional. The rationale is based on: (1) physiological — EN stimulates gut motility, maintains gut mucosal integrity, and preserves gut-associated lymphoid tissue (GALT) function; (2) safety — EN is associated with fewer infectious complications and episodes of hypoglycaemia (CALORIES trial); (3) cost — EN is substantially cheaper than PN; and (4) feasibility — EN avoids the risks of central line placement. PN is reserved for when EN is contraindicated or consistently inadequate despite optimisation. Combined EN+PN from day 1 is specifically not recommended."
+    },
+    {
+      "id": "nut2_a38",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Glucose Management",
+      "question": "A 68-year-old with HbA1c of 10.2% (poorly controlled type 2 diabetes for 12 years) is admitted to the ICU with septic shock. Regarding blood glucose management, what specific consideration applies to this patient compared with a non-diabetic ICU patient?",
+      "options": [
+        "Diabetic patients require tighter glucose control (4.5–6.0 mmol/L) to reduce infection risk from hyperglycaemia-related immunosuppression",
+        "Patients with high baseline HbA1c may require higher ICU glucose targets to avoid relative hypoglycaemia from aggressive insulin therapy",
+        "HbA1c has no practical relevance to inpatient glucose management; the standard 7.8–10 mmol/L target applies universally to all patients",
+        "Insulin therapy should be withheld in all ICU patients with pre-existing diabetes to eliminate the risk of severe hypoglycaemia",
+        "A high baseline HbA1c confirms the patient has no hypoglycaemia risk and can safely receive tight glucose control"
+      ],
+      "correct": 1,
+      "explanation": "Patients with longstanding poorly controlled diabetes are physiologically adapted to higher blood glucose concentrations. Aggressive lowering to targets appropriate for non-diabetics may cause relative hypoglycaemia even at glucose levels that appear 'safe', because the brain and peripheral tissues have adapted to higher steady-state glucose. The CONTROLING trial investigated whether HbA1c-guided targets improve outcomes — it did not find a survival benefit, but the concept of allowing somewhat higher targets in patients with high pre-ICU HbA1c remains clinically relevant. The standard 7.8–10 mmol/L target is a reasonable starting point, but the acceptable floor may be higher in this patient."
+    },
+    {
+      "id": "nut2_k10",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Parenteral Nutrition – Vascular Access",
+      "question": "Regarding vascular access requirements and macronutrient constraints in parenteral nutrition:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Parenteral nutrition solutions with osmolarity above 500 mosm/L can be safely administered through a peripheral cannula in any large forearm vein",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "PICC lines are inappropriate for hyperosmolar PN because they require a peripheral insertion site, implying peripheral vein tolerance",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "The maximum recommended glucose infusion rate in PN is 10 mg/kg/min to match the liver's glycogen storage capacity",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Peripheral PN (osmolarity ≤900 mosm/L) may be administered via a peripheral vein for short durations when appropriate veins are available",
+          "correct": true
+        }
+      ],
+      "explanation": "PN with osmolarity >900 mosm/L requires central access — peripheral veins cannot tolerate hyperosmolar solutions. PICC lines have a peripherally inserted but centrally positioned tip (at the cavoatrial junction), making them suitable for hyperosmolar PN — the relevant factor is the tip position, not the insertion site. The maximum glucose infusion rate is 5 mg/kg/min (not 10), which corresponds to the limit of hepatic glucose oxidation before lipogenesis begins. Peripheral PN at ≤900 mosm/L is appropriate for limited use in suitable patients — the one correct statement."
+    },
+    {
+      "id": "nut2_k11",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Parenteral Nutrition – Monitoring",
+      "question": "Regarding lipid management and metabolic monitoring in patients receiving PN:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Lipid infusions in PN should be administered continuously rather than as intermittent boluses to reduce metabolic complications",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Serum triglycerides need only be monitored monthly during PN, as clinically significant hypertriglyceridaemia takes weeks to develop",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Once TG exceeds 4 mmol/L, the lipid infusion must be permanently stopped and cannot be reintroduced even after normalisation of TG",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Liver function tests should be checked at least twice weekly in patients receiving long-term parenteral nutrition",
+          "correct": true
+        }
+      ],
+      "explanation": "Serum triglycerides can rise rapidly in patients receiving PN, particularly in those with underlying lipid disorders or receiving concurrent propofol. Monthly monitoring is far too infrequent — TG should be checked regularly, and dose adjustments (reduce at >4 mmol/L, stop at >9 mmol/L) should be made promptly. Once TG normalises after stopping, lipid infusion can be recommenced at a reduced dose. The lipid infusion is not permanently contraindicated after a single TG elevation. Continuous lipid infusion and twice-weekly LFT monitoring are both correctly stated."
+    },
+    {
+      "id": "nut2_k12",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Glucose Management",
+      "question": "Regarding glucose targets and evidence from clinical trials in the ICU:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The NICE-SUGAR trial demonstrated that tight glycaemic control targeting 4.5–6.0 mmol/L significantly increased 90-day mortality compared with conventional control targeting less than 10 mmol/L",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The CONTROLING-RCT demonstrated a survival benefit from individualised HbA1c-guided blood glucose targets in critically ill patients",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Blood glucose values consistently above 10–12 mmol/L should be avoided in critically ill patients due to adverse effects on immune function and wound healing",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Patients with longstanding poorly controlled diabetes (high pre-ICU HbA1c) may require higher glucose targets in the ICU to avoid relative hypoglycaemia",
+          "correct": true
+        }
+      ],
+      "explanation": "The CONTROLING trial found no survival benefit from HbA1c-guided targets — this is the false statement. The other three statements are all factually accurate: NICE-SUGAR confirmed that tight control increases mortality; avoiding persistent hyperglycaemia >10–12 mmol/L is recommended; and patients with high baseline HbA1c may have adapted physiology that makes lower ICU glucose targets harmful."
+    },
+    {
+      "id": "nut2_k13",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Refeeding Syndrome",
+      "question": "Regarding refeeding syndrome in critically ill patients:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Refeeding syndrome affects approximately 30% of critically ill patients when high-risk populations are considered",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The cardinal electrolyte abnormalities in refeeding syndrome include hypophosphataemia, hypokalaemia, and hypomagnesaemia, caused by intracellular electrolyte shift on insulin secretion",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Refeeding syndrome can be safely prevented by administering a phosphate loading infusion and then commencing full caloric intake from day 1 in at-risk patients",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Thiamine supplementation has no role in refeeding syndrome management and should only be administered if overt Wernicke's encephalopathy is clinically evident",
+          "correct": false
+        }
+      ],
+      "explanation": "Phosphate infusion alone without caloric restriction does not prevent refeeding syndrome — the Doig 2015 RCT established that caloric restriction to 20 kcal/hour for the first 2 days, combined with thiamine, is necessary to improve outcomes. Thiamine is a standard component of refeeding syndrome prophylaxis, not a rescue treatment — it should be given before commencing nutrition in at-risk patients, including those without overt Wernicke's. The two correct statements — prevalence (~30%) and electrolyte mechanism (intracellular shift) — are both factually accurate."
+    },
+    {
+      "id": "nut2_k14",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Parenteral Nutrition – Complications",
+      "question": "Regarding recognised complications of parenteral nutrition compared with enteral nutrition:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "PN-associated liver disease develops in fewer than 10% of patients on long-term PN and typically resolves without intervention when PN is eventually discontinued",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Catheter-related bloodstream infection is a recognised and potentially serious complication of central venous access required for PN",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Aspiration pneumonia is a recognised complication of both parenteral and enteral nutrition with equal prevalence in clinical trials",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Venous thrombosis related to central venous catheter placement is a recognised complication requiring appropriate monitoring in patients on PN",
+          "correct": true
+        }
+      ],
+      "explanation": "PN-associated liver disease affects more than 60% of patients on long-term PN — not fewer than 10%. Aspiration pneumonia is a complication of enteral nutrition — associated with NGT presence, gastric reflux, and sedation — and is not attributed to PN. CRBSI and catheter-associated venous thrombosis are both genuine PN-specific complications. Recognising the distinction between EN and PN complications is clinically important: PN protects against aspiration but introduces catheter-related risks."
+    },
+    {
+      "id": "nut2_k15",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – NGT Monitoring",
+      "question": "Regarding nasogastric tube position confirmation and monitoring in the ICU:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Aspirate pH measurement (<4.5) alone is a validated and sufficient method to confirm NGT position in all ICU patients, including those on proton pump inhibitors",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Auscultation over the epigastrium after air insufflation through the NGT is an acceptable and reliable alternative to CXR for initial position confirmation",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "A chest radiograph is mandatory after initial NGT insertion to confirm correct position before commencing enteral feeding in mechanically ventilated patients",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Once confirmed by CXR at insertion, NGT position does not require further reassessment as long as the tube has not been externally manipulated",
+          "correct": false
+        }
+      ],
+      "explanation": "Aspirate pH is unreliable in patients on PPIs, PPIs-with-EN, or non-gastric placements — it cannot be used alone. Auscultation of air injection has caused fatal incidents by failing to detect bronchial placement; it is not a reliable confirmation method. NGT position can change without external manipulation — the tube can migrate into the oesophagus or beyond the pylorus with patient movement or peristalsis — requiring at least weekly reassessment. CXR after initial insertion is the only true statement and is mandatory before commencing feeding."
+    },
+    {
+      "id": "nut2_k16",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Refeeding Syndrome",
+      "question": "Regarding the clinical management of high-risk refeeding syndrome patients:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The Doig 2015 RCT demonstrated that restricting energy to 20 kcal/hour for the first 2 days combined with thiamine supplementation improved 6-month survival by approximately 13%",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Electrolyte repletion — particularly of phosphate, potassium, and magnesium — is a core component of refeeding syndrome management and should be monitored and corrected daily",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Patients at high risk of refeeding syndrome should have all nutritional support withheld for a minimum of 72 hours until all electrolytes are within the normal range",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Monitoring serum phosphate, potassium, and magnesium daily during the first week of nutrition is recommended in high-risk patients to detect early electrolyte shifts",
+          "correct": true
+        }
+      ],
+      "explanation": "Complete withholding of nutritional support for 72 hours is not recommended — it would cause further catabolism and electrolyte depletion. The evidence supports restricted caloric delivery (20 kcal/hour for the first 2 days), not complete fasting. Feeding should commence at low rates with close electrolyte monitoring, repleting electrolytes as they shift intracellularly. The three correct statements describe the elements of evidence-based refeeding management: caloric restriction, electrolyte repletion, and monitoring."
+    },
+    {
+      "id": "nut2_k17",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Enteral Nutrition – EN vs PN",
+      "question": "Regarding the comparative evidence for enteral versus parenteral nutrition in critically ill patients:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "PN is associated with fewer infectious complications than EN and should be the preferred route in all ICU patients when central access is already in place",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "EN preserves gut mucosal integrity and maintains the function of gut-associated lymphoid tissue in ways that PN does not",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "EN is substantially less expensive to provide than PN for an equivalent caloric target in the ICU",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "The CALORIES trial demonstrated that early PN significantly reduces 30-day mortality compared with early EN in critically ill adults",
+          "correct": false
+        }
+      ],
+      "explanation": "PN is associated with more infectious complications than EN — not fewer — and is not the preferred route simply because central access is available. The CALORIES trial found no significant mortality difference between early EN and PN, not a PN benefit. EN's advantages include preservation of gut mucosal integrity via luminal stimulation and maintenance of GALT immunological function, which are well-established physiological advantages over PN. EN is also markedly cheaper than PN."
+    },
+    {
+      "id": "nut2_k18",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "section": "Parenteral Nutrition – Monitoring",
+      "question": "Regarding metabolic monitoring during nutritional support in critically ill patients:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Blood glucose should be monitored at least every 1–2 hours during active insulin dose titration in critically ill patients receiving nutritional support",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Serum triglycerides should be monitored in patients receiving lipid-containing PN, with dose reduction at >4 mmol/L and cessation at >9 mmol/L",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Daily monitoring of phosphate, potassium, and magnesium during the first week of nutritional support is recommended in patients at high refeeding risk",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Indirect calorimetry should be performed daily in all mechanically ventilated ICU patients to achieve precise matching of energy delivery to measured expenditure",
+          "correct": false
+        }
+      ],
+      "explanation": "Daily IC in all ICU patients is not feasible or necessary — IC is resource-intensive, technically demanding, and is excluded in the sickest patients. Predictive equations are used in most centres, with IC reserved for specific clinical indications (obesity, prolonged ICU stay with nutritional uncertainty, weaning difficulty). All three true statements reflect guideline-based monitoring thresholds: hourly glucose during active titration, TG thresholds for lipid adjustment, and daily electrolytes during refeeding risk period. The false statement overstates IC applicability."
+    }
+  ]
+}
