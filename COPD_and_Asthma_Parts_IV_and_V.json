@@ -20,8 +20,8 @@
         "The ventilator expiratory valve has failed to open fully, creating an artificial flow restriction that mimics PEEPi"
       ],
       "correct": 3,
-      "explanation": "images/img_66c83053d5.png",
-      "image": "End-expiratory flow persistence during volume-controlled ventilation means the lung has not completed passive emptying — it remains above its passive FRC when the next inspiration begins. The driving force for this residual expiratory flow is the positive recoil pressure of the hyperinflated respiratory system at end-expiration, which equals PEEPi. This waveform sign is the primary bedside method for suspecting the presence of dynamic hyperinflation without requiring an occlusion maneuver. Normal ventilator bias-flow would not be affected by the patient's lung mechanics; active expiration generates additional positive pressure but does not alter the sign's interpretation."
+      "explanation": "End-expiratory flow persistence during volume-controlled ventilation means the lung has not completed passive emptying — it remains above its passive FRC when the next inspiration begins. The driving force for this residual expiratory flow is the positive recoil pressure of the hyperinflated respiratory system at end-expiration, which equals PEEPi. This waveform sign is the primary bedside method for suspecting the presence of dynamic hyperinflation without requiring an occlusion maneuver. Normal ventilator bias-flow would not be affected by the patient's lung mechanics; active expiration generates additional positive pressure but does not alter the sign's interpretation.",
+      "image": "images/img_66c83053d5.png"
     },
     {
       "id": "copd45_a02",
@@ -38,8 +38,8 @@
         "Auto-triggering from a small undetected circuit leak adds a secondary flow pulse at end-inspiration, which creates a pressure overshoot artefact that mimics the convex waveform of reduced compliance"
       ],
       "correct": 1,
-      "explanation": "images/img_60d55e8101.png",
-      "image": "During volume-controlled ventilation at constant tidal volume, the Paw waveform is normally linear (reflecting constant resistance and compliance). A convex shape at end-inspiration indicates that compliance is progressively decreasing as the breath proceeds. This occurs when dynamic hyperinflation has advanced to the point where the lung at end-inspiration approaches TLC — the region of lowest compliance on the pressure-volume curve. As compliance falls in this region, more pressure is required per unit of additional volume, producing a convex waveform. This sign, combined with end-expiratory flow persistence, identifies severe hyperinflation and should prompt urgent reduction of minute ventilation."
+      "explanation": "During volume-controlled ventilation at constant tidal volume, the Paw waveform is normally linear (reflecting constant resistance and compliance). A convex shape at end-inspiration indicates that compliance is progressively decreasing as the breath proceeds. This occurs when dynamic hyperinflation has advanced to the point where the lung at end-inspiration approaches TLC — the region of lowest compliance on the pressure-volume curve. As compliance falls in this region, more pressure is required per unit of additional volume, producing a convex waveform. This sign, combined with end-expiratory flow persistence, identifies severe hyperinflation and should prompt urgent reduction of minute ventilation.",
+      "image": "images/img_60d55e8101.png"
     },
     {
       "id": "copd45_a03",
@@ -56,8 +56,8 @@
         "0.75 cmH2O — half the difference, correcting for the effect of the external circuit on pressure equilibration"
       ],
       "correct": 2,
-      "explanation": "images/img_b79a6bb352.png",
-      "image": "PEEPi is calculated as PEEPtotal − PEEPe (set PEEP). In this patient: PEEPi = 7.5 − 6.0 = 1.5 cmH2O. The end-expiratory pause maneuver prevents any new breath and allows pressure to equilibrate throughout the respiratory system. The resulting equilibrated pressure (PEEPtotal) represents the mean end-expiratory alveolar pressure. Subtracting the externally set PEEP gives the intrinsic component. Although this PEEPi appears modest, successive measurements trending upward indicate worsening hyperinflation. There is no threshold value of PEEPi that predicts barotrauma, but values above approximately 5–8 cmH2O are clinically significant."
+      "explanation": "PEEPi is calculated as PEEPtotal − PEEPe (set PEEP). In this patient: PEEPi = 7.5 − 6.0 = 1.5 cmH2O. The end-expiratory pause maneuver prevents any new breath and allows pressure to equilibrate throughout the respiratory system. The resulting equilibrated pressure (PEEPtotal) represents the mean end-expiratory alveolar pressure. Subtracting the externally set PEEP gives the intrinsic component. Although this PEEPi appears modest, successive measurements trending upward indicate worsening hyperinflation. There is no threshold value of PEEPi that predicts barotrauma, but values above approximately 5–8 cmH2O are clinically significant.",
+      "image": "images/img_b79a6bb352.png"
     },
     {
       "id": "copd45_a04",
@@ -74,8 +74,8 @@
         "Dynamic auto-PEEP is consistently greater than static auto-PEEP in patients with expiratory flow limitation"
       ],
       "correct": 3,
-      "explanation": "images/img_84c8059f20.png",
-      "image": "In lungs with heterogeneous obstruction, lung units have different regional time constants — some empty rapidly (short τ, high pressure units) and some slowly (long τ). Dynamic auto-PEEP, measured at end-expiration without a pause, reflects only the end-expiratory pressure of the fastest-emptying units (those that have completed emptying). Slow units are still emptying and their pressure is not represented. The end-expiratory occlusion maneuver provides time (2–5 seconds) for pressure to equilibrate between fast and slow units through collateral channels. The resulting equilibrated value is the mean end-expiratory pressure across all units — higher than dynamic auto-PEEP because the higher-pressure slow units contribute. This also explains why measured PEEPi may underestimate the true degree of hyperinflation."
+      "explanation": "In lungs with heterogeneous obstruction, lung units have different regional time constants — some empty rapidly (short τ, high pressure units) and some slowly (long τ). Dynamic auto-PEEP, measured at end-expiration without a pause, reflects only the end-expiratory pressure of the fastest-emptying units (those that have completed emptying). Slow units are still emptying and their pressure is not represented. The end-expiratory occlusion maneuver provides time (2–5 seconds) for pressure to equilibrate between fast and slow units through collateral channels. The resulting equilibrated value is the mean end-expiratory pressure across all units — higher than dynamic auto-PEEP because the higher-pressure slow units contribute. This also explains why measured PEEPi may underestimate the true degree of hyperinflation.",
+      "image": "images/img_84c8059f20.png"
     },
     {
       "id": "copd45_a05",
@@ -92,8 +92,7 @@
         "Widespread airway closure prevents pressure equilibration between trapped alveolar gas and the airway opening during the pause, so measured PEEPi underestimates true end-expiratory alveolar pressure — termed occult or hidden auto-PEEP"
       ],
       "correct": 4,
-      "explanation": null,
-      "image": "In severe asthma, widespread bronchoconstriction can produce diffuse small airway closure. When airways are completely closed at end-expiration, there is no pathway for pressure in the trapped gas to equilibrate with the airway opening during an occlusion maneuver — the very measurement technique requires patent airways for pressure transmission. The result is a falsely low measured PEEPi despite true marked hyperinflation. Three clinical clues should raise suspicion of occult PEEPi: (1) an unexpectedly large difference between Pplat and measured PEEPi; (2) Pplat unexpectedly high for the observed compliance; (3) unexplained haemodynamic compromise. Recognition is critical because occult PEEPi carries the same haemodynamic and barotrauma risks as measured PEEPi."
+      "explanation": "In severe asthma, widespread bronchoconstriction can produce diffuse small airway closure. When airways are completely closed at end-expiration, there is no pathway for pressure in the trapped gas to equilibrate with the airway opening during an occlusion maneuver — the very measurement technique requires patent airways for pressure transmission. The result is a falsely low measured PEEPi despite true marked hyperinflation. Three clinical clues should raise suspicion of occult PEEPi: (1) an unexpectedly large difference between Pplat and measured PEEPi; (2) Pplat unexpectedly high for the observed compliance; (3) unexplained haemodynamic compromise. Recognition is critical because occult PEEPi carries the same haemodynamic and barotrauma risks as measured PEEPi."
     },
     {
       "id": "copd45_a06",
@@ -110,8 +109,8 @@
         "Nitrogen washout at end-expiration is performed by switching to 100% oxygen while measuring the cumulative nitrogen washout volume; EELV is derived from the total washout, with values exceeding 15 mL/kg IBW representing the threshold for increased barotrauma risk in obstructive disease"
       ],
       "correct": 0,
-      "explanation": "images/img_8fa38ede00.jpg",
-      "image": "EELV measurement using the apnoea method involves disconnecting the expiratory ventilator circuit and allowing the patient to exhale passively to atmospheric pressure until expiratory flow reaches zero. The total volume expired is measured; subtracting the set tidal volume yields Vei (the end-expiratory lung volume above FRC from the preceding breath). This is the only bedside parameter shown to predict complications of hyperinflation: Vei exceeding 20 mL/kg IBW is predictive of hypotension and barotrauma. This threshold is clinically important when monitoring the effectiveness of strategies to reduce dynamic hyperinflation — such as controlled hypoventilation. Pplat serves as a surrogate for monitoring trends when Vei measurement is impractical."
+      "explanation": "EELV measurement using the apnoea method involves disconnecting the expiratory ventilator circuit and allowing the patient to exhale passively to atmospheric pressure until expiratory flow reaches zero. The total volume expired is measured; subtracting the set tidal volume yields Vei (the end-expiratory lung volume above FRC from the preceding breath). This is the only bedside parameter shown to predict complications of hyperinflation: Vei exceeding 20 mL/kg IBW is predictive of hypotension and barotrauma. This threshold is clinically important when monitoring the effectiveness of strategies to reduce dynamic hyperinflation — such as controlled hypoventilation. Pplat serves as a surrogate for monitoring trends when Vei measurement is impractical.",
+      "image": "images/img_8fa38ede00.jpg"
     },
     {
       "id": "copd45_a07",
@@ -128,8 +127,8 @@
         "Cst,rs = (Pplat − PEEPtot) / VT, giving elastance (cmH2O/L), not compliance (mL/cmH2O)"
       ],
       "correct": 1,
-      "explanation": "images/img_5da7692cc6.png",
-      "image": "Static compliance of the respiratory system is calculated as Cst,rs = VT / (Pplat − PEEPtot). Pplat is measured during an end-inspiratory pause — it represents the pressure applied to small airways and alveoli after flow has stopped, eliminating the resistive component. PEEPtot (total PEEP = PEEPe + PEEPi) is the end-expiratory pressure, measured with an end-expiratory pause. The difference (Pplat − PEEPtot) is the net distending pressure applied during the tidal breath — the driving pressure. Using Ppeak instead of Pplat would overestimate compliance because Ppeak includes the resistive pressure drop across the airway. Using only PEEPe would underestimate the true elastic recoil at end-expiration when PEEPi is present, giving a falsely high compliance."
+      "explanation": "Static compliance of the respiratory system is calculated as Cst,rs = VT / (Pplat − PEEPtot). Pplat is measured during an end-inspiratory pause — it represents the pressure applied to small airways and alveoli after flow has stopped, eliminating the resistive component. PEEPtot (total PEEP = PEEPe + PEEPi) is the end-expiratory pressure, measured with an end-expiratory pause. The difference (Pplat − PEEPtot) is the net distending pressure applied during the tidal breath — the driving pressure. Using Ppeak instead of Pplat would overestimate compliance because Ppeak includes the resistive pressure drop across the airway. Using only PEEPe would underestimate the true elastic recoil at end-expiration when PEEPi is present, giving a falsely high compliance.",
+      "image": "images/img_5da7692cc6.png"
     },
     {
       "id": "copd45_a08",
@@ -146,8 +145,8 @@
         "Rmax = (P1 − Pplat)/V̇; Rmin = (Ppeak − Pplat)/V̇; ΔR = Rmin − Rmax"
       ],
       "correct": 2,
-      "explanation": "images/img_7f3097152d.png",
-      "image": "After flow ceases at end-inspiration: Rmax = (Ppeak − Pplat)/V̇, representing total inspiratory resistance including airway resistance, ETT resistance, and viscoelastic tissue resistance. Rmin = (Ppeak − P1)/V̇, representing the ohmic (newtonian) resistance of the conducting airways and ETT — the rapid pressure drop when flow stops. ΔR = Rmax − Rmin, representing the additional slow-component resistance from time-constant heterogeneity within the lungs and viscoelastic stress relaxation of lung tissue. Normal values: Rmin < 8 cmH2O/L/s (ETT-diameter dependent); Rmax < 10 cmH2O/L/s; ΔR < 2 cmH2O/L/s. In COPD, both Rmin and ΔR are markedly elevated. Note: Rmin is defined by Ppeak−P1, not by Ppeak−Pplat; the immediate pressure drop to P1 reflects ohmic resistance only."
+      "explanation": "After flow ceases at end-inspiration: Rmax = (Ppeak − Pplat)/V̇, representing total inspiratory resistance including airway resistance, ETT resistance, and viscoelastic tissue resistance. Rmin = (Ppeak − P1)/V̇, representing the ohmic (newtonian) resistance of the conducting airways and ETT — the rapid pressure drop when flow stops. ΔR = Rmax − Rmin, representing the additional slow-component resistance from time-constant heterogeneity within the lungs and viscoelastic stress relaxation of lung tissue. Normal values: Rmin < 8 cmH2O/L/s (ETT-diameter dependent); Rmax < 10 cmH2O/L/s; ΔR < 2 cmH2O/L/s. In COPD, both Rmin and ΔR are markedly elevated. Note: Rmin is defined by Ppeak−P1, not by Ppeak−Pplat; the immediate pressure drop to P1 reflects ohmic resistance only.",
+      "image": "images/img_7f3097152d.png"
     },
     {
       "id": "copd45_a09",
@@ -164,8 +163,8 @@
         "A ventilator artefact from premature expiratory valve closure that restricts late-expiratory flow"
       ],
       "correct": 3,
-      "explanation": "images/img_0c31d753b1.jpg",
-      "image": "The 'spike followed by flat plateau' is the pathognomonic waveform of expiratory flow limitation (EFL). The initial spike represents rapid emptying through large, patent central airways where flow is initially unrestricted. As the driving pressure declines and alveolar pressure falls, the equal pressure point migrates peripherally, and smaller peripheral airways undergo dynamic collapse — trapping distal air and creating a 'ceiling' to expiratory flow regardless of any additional expiratory effort or driving pressure. The flat portion represents this flow-limited state. This pattern confirms EFL and is important clinically because in flow-limited patients, adding external PEEP up to the level of PEEPi ('PEEP absorber effect') does not worsen EELV — a physiological distinction from non-flow-limited patients."
+      "explanation": "The 'spike followed by flat plateau' is the pathognomonic waveform of expiratory flow limitation (EFL). The initial spike represents rapid emptying through large, patent central airways where flow is initially unrestricted. As the driving pressure declines and alveolar pressure falls, the equal pressure point migrates peripherally, and smaller peripheral airways undergo dynamic collapse — trapping distal air and creating a 'ceiling' to expiratory flow regardless of any additional expiratory effort or driving pressure. The flat portion represents this flow-limited state. This pattern confirms EFL and is important clinically because in flow-limited patients, adding external PEEP up to the level of PEEPi ('PEEP absorber effect') does not worsen EELV — a physiological distinction from non-flow-limited patients.",
+      "image": "images/img_0c31d753b1.jpg"
     },
     {
       "id": "copd45_a10",
@@ -182,8 +181,8 @@
         "Panel A: EFL present (flow unchanged despite greater driving pressure); Panel B: EFL absent (flow increases with greater driving pressure)"
       ],
       "correct": 4,
-      "explanation": "images/img_6e1e2931c1.jpg",
-      "image": "The PEEP reduction maneuver tests whether expiratory flow can be increased by augmenting expiratory driving pressure. If EFL is present, airway collapse creates a maximum flow ceiling; reducing PEEP increases the pressure gradient for expiration but flow cannot exceed the ceiling — it remains flat (Panel A). If EFL is absent, the airway is patent and reducible PEEP allows flow to increase proportionally with the increased driving pressure (Panel B). This distinction matters for managing external PEEP: in EFL patients, applying PEEP up to approximately 80% of PEEPi counterbalances the upstream alveolar pressure without increasing EELV ('PEEP absorber' effect); in non-EFL patients, any external PEEP increases EELV and worsens hyperinflation."
+      "explanation": "The PEEP reduction maneuver tests whether expiratory flow can be increased by augmenting expiratory driving pressure. If EFL is present, airway collapse creates a maximum flow ceiling; reducing PEEP increases the pressure gradient for expiration but flow cannot exceed the ceiling — it remains flat (Panel A). If EFL is absent, the airway is patent and reducible PEEP allows flow to increase proportionally with the increased driving pressure (Panel B). This distinction matters for managing external PEEP: in EFL patients, applying PEEP up to approximately 80% of PEEPi counterbalances the upstream alveolar pressure without increasing EELV ('PEEP absorber' effect); in non-EFL patients, any external PEEP increases EELV and worsens hyperinflation.",
+      "image": "images/img_6e1e2931c1.jpg"
     },
     {
       "id": "copd45_a11",
@@ -200,8 +199,7 @@
         "Tidal volume 6 mL/kg IBW, respiratory rate 20/min, PEEP 10 cmH2O to counteract all measured PEEPi"
       ],
       "correct": 0,
-      "explanation": null,
-      "image": "The cornerstone of initial controlled ventilation in severe obstructive disease is providing controlled hypoventilation: tidal volume 6–8 mL/kg IBW to reduce volume per breath; respiratory rate 12/min to maximise expiratory time per cycle; constant inspiratory flow 60–90 L/min to shorten inspiratory time and thereby further prolong expiratory time. If, with these settings, Pplat is kept below 28 cmH2O, the respiratory rate may be cautiously increased to reduce hypercapnia. End-inspiratory pause time should be eliminated — it shortens expiratory time. High-flow decelerating waveforms are not preferred because they shorten inspiratory time less effectively than constant high-flow modes. PEEP 10 cmH2O without confirming EFL risks dramatically worsening hyperinflation."
+      "explanation": "The cornerstone of initial controlled ventilation in severe obstructive disease is providing controlled hypoventilation: tidal volume 6–8 mL/kg IBW to reduce volume per breath; respiratory rate 12/min to maximise expiratory time per cycle; constant inspiratory flow 60–90 L/min to shorten inspiratory time and thereby further prolong expiratory time. If, with these settings, Pplat is kept below 28 cmH2O, the respiratory rate may be cautiously increased to reduce hypercapnia. End-inspiratory pause time should be eliminated — it shortens expiratory time. High-flow decelerating waveforms are not preferred because they shorten inspiratory time less effectively than constant high-flow modes. PEEP 10 cmH2O without confirming EFL risks dramatically worsening hyperinflation."
     },
     {
       "id": "copd45_a12",
@@ -218,8 +216,7 @@
         "Correcting PaCO2 to normal in COPD patients triggers acute cor pulmonale from sudden changes in pulmonary vascular resistance"
       ],
       "correct": 1,
-      "explanation": null,
-      "image": "Aggressive correction of hypercapnia in mechanically ventilated COPD patients carries significant risk. COPD patients often have pre-existing metabolic alkalosis from chronic CO2 retention, so rapidly correcting PaCO2 can cause life-threatening alkalemia. More critically, increasing minute ventilation to correct PaCO2 worsens dynamic hyperinflation by shortening expiratory time — the very mechanism causing respiratory failure. The recommended approach (permissive hypercapnia) accepts pH above 7.2, provided there is no intracranial hypertension or overt haemodynamic instability. The therapeutic goal is to move pH towards normal, not to achieve a target PaCO2. With appropriate bronchodilation and hyperinflation reduction, PaCO2 often improves over time without requiring aggressive ventilatory adjustments."
+      "explanation": "Aggressive correction of hypercapnia in mechanically ventilated COPD patients carries significant risk. COPD patients often have pre-existing metabolic alkalosis from chronic CO2 retention, so rapidly correcting PaCO2 can cause life-threatening alkalemia. More critically, increasing minute ventilation to correct PaCO2 worsens dynamic hyperinflation by shortening expiratory time — the very mechanism causing respiratory failure. The recommended approach (permissive hypercapnia) accepts pH above 7.2, provided there is no intracranial hypertension or overt haemodynamic instability. The therapeutic goal is to move pH towards normal, not to achieve a target PaCO2. With appropriate bronchodilation and hyperinflation reduction, PaCO2 often improves over time without requiring aggressive ventilatory adjustments."
     },
     {
       "id": "copd45_a13",
@@ -236,8 +233,7 @@
         "Pplat measurement prevents the ventilator from increasing peak flow unnecessarily, thereby conserving expiratory time without requiring any mathematical correction"
       ],
       "correct": 2,
-      "explanation": null,
-      "image": "Ppeak encompasses both resistive pressure (to overcome airway and ETT resistance during flow) and elastic pressure (to distend the respiratory system). In obstructive disease with high resistance, Ppeak can be very high while Pplat is relatively normal — the high Ppeak reflects resistance, not necessarily dangerous distension. Conversely, Pplat — measured after flow has stopped during an end-inspiratory pause — reflects only the elastic recoil pressure of the respiratory system at end-inspiration, which at constant tidal volume directly tracks changes in end-inspiratory lung volume and dynamic hyperinflation. This is why 'monitor Pplat, not Ppeak' is a cardinal rule in managing obstructive lung disease on ventilation. High Ppeak alone is not a predictor of barotrauma; high Pplat signals dangerous lung volume."
+      "explanation": "Ppeak encompasses both resistive pressure (to overcome airway and ETT resistance during flow) and elastic pressure (to distend the respiratory system). In obstructive disease with high resistance, Ppeak can be very high while Pplat is relatively normal — the high Ppeak reflects resistance, not necessarily dangerous distension. Conversely, Pplat — measured after flow has stopped during an end-inspiratory pause — reflects only the elastic recoil pressure of the respiratory system at end-inspiration, which at constant tidal volume directly tracks changes in end-inspiratory lung volume and dynamic hyperinflation. This is why 'monitor Pplat, not Ppeak' is a cardinal rule in managing obstructive lung disease on ventilation. High Ppeak alone is not a predictor of barotrauma; high Pplat signals dangerous lung volume."
     },
     {
       "id": "copd45_a14",
@@ -254,8 +250,8 @@
         "An end-inspiratory pause of 0.5 seconds was added to redistribute trapped gas among lung units with different time constants, facilitating more homogeneous lung emptying during the subsequent expiratory phase"
       ],
       "correct": 3,
-      "explanation": "images/img_bb3299c9e7.png",
-      "image": "In volume-controlled ventilation at constant flow, inspiratory time (Ti) is determined by VT / V̇ (tidal volume divided by flow rate). Increasing inspiratory flow shortens Ti for the same VT, directly prolonging the expiratory phase within each respiratory cycle. This is one of the most effective strategies for reducing dynamic hyperinflation because it increases the time available for lung emptying per breath. Eliminating any end-inspiratory pause time has the same direction of effect. While reducing respiratory rate also prolongs expiratory time per cycle, it does so by reducing the total number of breaths — not by adjusting the Ti:Te ratio within each breath. Adding an inspiratory pause actually shortens expiratory time and would worsen hyperinflation."
+      "explanation": "In volume-controlled ventilation at constant flow, inspiratory time (Ti) is determined by VT / V̇ (tidal volume divided by flow rate). Increasing inspiratory flow shortens Ti for the same VT, directly prolonging the expiratory phase within each respiratory cycle. This is one of the most effective strategies for reducing dynamic hyperinflation because it increases the time available for lung emptying per breath. Eliminating any end-inspiratory pause time has the same direction of effect. While reducing respiratory rate also prolongs expiratory time per cycle, it does so by reducing the total number of breaths — not by adjusting the Ti:Te ratio within each breath. Adding an inspiratory pause actually shortens expiratory time and would worsen hyperinflation.",
+      "image": "images/img_bb3299c9e7.png"
     },
     {
       "id": "copd45_a15",
@@ -272,8 +268,8 @@
         "Reducing minute ventilation allows more complete lung emptying per breath, decreasing end-expiratory lung volume and dynamic hyperinflation — accepting permissive hypercapnia"
       ],
       "correct": 4,
-      "explanation": "images/img_3f87b2b6da.png",
-      "image": "The after waveforms show that after reducing VT and RR (changing I:E from 1:2 to 1:5 by also increasing flow), end-expiratory flow persistence decreases or disappears, Pplat falls, and the Paw waveform becomes less convex — all signs of reduced dynamic hyperinflation. The primary mechanism is that lower total minute ventilation reduces the volume of gas that must be exhaled each minute, allowing more complete lung emptying per breath given the same expiratory time. This is the essence of controlled hypoventilation: intentionally accepting rising PaCO2 and acidemia (provided pH >7.2) in exchange for haemodynamic stability and reduced barotrauma risk from lower end-inspiratory lung volumes."
+      "explanation": "The after waveforms show that after reducing VT and RR (changing I:E from 1:2 to 1:5 by also increasing flow), end-expiratory flow persistence decreases or disappears, Pplat falls, and the Paw waveform becomes less convex — all signs of reduced dynamic hyperinflation. The primary mechanism is that lower total minute ventilation reduces the volume of gas that must be exhaled each minute, allowing more complete lung emptying per breath given the same expiratory time. This is the essence of controlled hypoventilation: intentionally accepting rising PaCO2 and acidemia (provided pH >7.2) in exchange for haemodynamic stability and reduced barotrauma risk from lower end-inspiratory lung volumes.",
+      "image": "images/img_3f87b2b6da.png"
     },
     {
       "id": "copd45_a16",
@@ -290,8 +286,7 @@
         "A fixed 2–3 cmH2O external PEEP regardless of PEEPi, as higher levels uniformly cause hypotension in COPD patients"
       ],
       "correct": 0,
-      "explanation": null,
-      "image": "In flow-limited patients, the current consensus is to apply external PEEP at approximately 80% of measured PEEPi. In these patients, expiratory flow has already reached its maximum regardless of the expiratory driving pressure gradient; therefore, adding external PEEP up to the level of the flow-limiting choke point pressure does not increase EELV — instead, it counterbalances the pressure difference between the alveolus and the airway opening at end-expiration ('PEEP absorber' effect). This narrows the pressure swing the patient must generate to trigger the ventilator, substantially reducing inspiratory threshold work and ineffective efforts. Applying full PEEPi risks excess external PEEP in regions without EFL. In non-EFL patients, any external PEEP increases EELV and worsens hyperinflation."
+      "explanation": "In flow-limited patients, the current consensus is to apply external PEEP at approximately 80% of measured PEEPi. In these patients, expiratory flow has already reached its maximum regardless of the expiratory driving pressure gradient; therefore, adding external PEEP up to the level of the flow-limiting choke point pressure does not increase EELV — instead, it counterbalances the pressure difference between the alveolus and the airway opening at end-expiration ('PEEP absorber' effect). This narrows the pressure swing the patient must generate to trigger the ventilator, substantially reducing inspiratory threshold work and ineffective efforts. Applying full PEEPi risks excess external PEEP in regions without EFL. In non-EFL patients, any external PEEP increases EELV and worsens hyperinflation."
     },
     {
       "id": "copd45_a17",
@@ -308,8 +303,8 @@
         "Expiratory triggering: the ventilator detects an artefact from expiratory flow and misinterprets it as an inspiration attempt"
       ],
       "correct": 1,
-      "explanation": "images/img_af576145ba.png",
-      "image": "Ineffective triggering occurs when a patient generates a genuine neural inspiratory effort (confirmed by the downward Pes deflection) but this effort cannot overcome the PEEPi elastic threshold sufficiently to reduce alveolar pressure to the trigger level. As a result, no mechanical breath is delivered. This is the most common patient-ventilator asynchrony in COPD and is directly caused by dynamic hyperinflation: the inspiratory muscles must first spend effort to overcome PEEPi before they can generate any trigger signal. In severe hyperinflation, a substantial fraction of efforts may be completely ineffective. Reducing PEEPi through bronchodilators, lower minute ventilation, and appropriate external PEEP reduces ineffective triggering by decreasing the threshold that must be overcome."
+      "explanation": "Ineffective triggering occurs when a patient generates a genuine neural inspiratory effort (confirmed by the downward Pes deflection) but this effort cannot overcome the PEEPi elastic threshold sufficiently to reduce alveolar pressure to the trigger level. As a result, no mechanical breath is delivered. This is the most common patient-ventilator asynchrony in COPD and is directly caused by dynamic hyperinflation: the inspiratory muscles must first spend effort to overcome PEEPi before they can generate any trigger signal. In severe hyperinflation, a substantial fraction of efforts may be completely ineffective. Reducing PEEPi through bronchodilators, lower minute ventilation, and appropriate external PEEP reduces ineffective triggering by decreasing the threshold that must be overcome.",
+      "image": "images/img_af576145ba.png"
     },
     {
       "id": "copd45_a18",
@@ -326,8 +321,8 @@
         "The waveform demonstrates a normal and expected physiological delay between patient effort and ventilator response in all pressure support modes"
       ],
       "correct": 2,
-      "explanation": "images/img_6855f755cc.png",
-      "image": "The arrow showing end-expiratory flow at the moment of neural inspiration onset directly confirms dynamic hyperinflation — the lungs were still above FRC when the patient began to inspire. The patient must first generate inspiratory pressure sufficient to reduce alveolar pressure from the PEEPi level down to the ventilator trigger threshold. This takes time proportional to the magnitude of PEEPi and the patient's inspiratory muscle force. Only after this threshold is crossed does the ventilator detect the trigger signal and begin delivering flow. The result is a time lag (triggering delay) that is a direct measure of the additional work imposed by PEEPi. Reducing PEEPi reduces triggering delay; flow triggering is preferred over pressure triggering because it can detect inspiratory effort with less pressure change required."
+      "explanation": "The arrow showing end-expiratory flow at the moment of neural inspiration onset directly confirms dynamic hyperinflation — the lungs were still above FRC when the patient began to inspire. The patient must first generate inspiratory pressure sufficient to reduce alveolar pressure from the PEEPi level down to the ventilator trigger threshold. This takes time proportional to the magnitude of PEEPi and the patient's inspiratory muscle force. Only after this threshold is crossed does the ventilator detect the trigger signal and begin delivering flow. The result is a time lag (triggering delay) that is a direct measure of the additional work imposed by PEEPi. Reducing PEEPi reduces triggering delay; flow triggering is preferred over pressure triggering because it can detect inspiratory effort with less pressure change required.",
+      "image": "images/img_6855f755cc.png"
     },
     {
       "id": "copd45_a19",
@@ -344,8 +339,8 @@
         "Increasing pressure support level from 10 to 20 cmH2O to completely offload respiratory effort and reduce neural drive"
       ],
       "correct": 3,
-      "explanation": "images/img_a0bbe81e9a.png",
-      "image": "The most common asynchronies in COPD — ineffective triggering and triggering delay — are both caused by dynamic hyperinflation and the PEEPi elastic threshold. Reducing PEEPi by any mechanism directly improves both: bronchodilators reduce airway resistance, lowering the time constant and allowing more complete emptying; reduced minute ventilation lowers the expiratory flow requirement; and external PEEP at approximately 80% of PEEPi counterbalances the upstream alveolar-mouth pressure difference in flow-limited patients. Deepening sedation eliminates the trigger signal entirely but does not address the underlying mechanism. Increasing pressure support reduces muscle effort but can worsen hyperinflation by increasing tidal volume if not carefully titrated. Flow triggering is preferred over pressure triggering — but this is a trigger sensitivity optimisation, not a root-cause fix."
+      "explanation": "The most common asynchronies in COPD — ineffective triggering and triggering delay — are both caused by dynamic hyperinflation and the PEEPi elastic threshold. Reducing PEEPi by any mechanism directly improves both: bronchodilators reduce airway resistance, lowering the time constant and allowing more complete emptying; reduced minute ventilation lowers the expiratory flow requirement; and external PEEP at approximately 80% of PEEPi counterbalances the upstream alveolar-mouth pressure difference in flow-limited patients. Deepening sedation eliminates the trigger signal entirely but does not address the underlying mechanism. Increasing pressure support reduces muscle effort but can worsen hyperinflation by increasing tidal volume if not carefully titrated. Flow triggering is preferred over pressure triggering — but this is a trigger sensitivity optimisation, not a root-cause fix.",
+      "image": "images/img_a0bbe81e9a.png"
     },
     {
       "id": "copd45_a20",
@@ -362,8 +357,7 @@
         "Duration is shorter in ventilated patients — approximately 90–180 minutes — so dosing may need to be more frequent than in ambulatory practice"
       ],
       "correct": 4,
-      "explanation": null,
-      "image": "The duration of bronchodilator effect in mechanically ventilated patients with obstructive disease is consistently shorter than in ambulatory patients, ranging from 90 to 180 minutes in different studies, compared with the 4–6 hours typical for inhaled beta-2 agonists in outpatient practice. This difference is thought to relate to altered drug deposition patterns, higher airway resistance impairing distal penetration, and possibly altered receptor pharmacodynamics in critically ill airways. Clinically, this means bronchodilators may need to be administered more frequently in ventilated patients. Both pMDI with spacer connected to the inspiratory limb and nebulisers (jet, ultrasonic, mesh) are effective delivery systems in ventilated patients, with efficiency depending on positioning and particle size."
+      "explanation": "The duration of bronchodilator effect in mechanically ventilated patients with obstructive disease is consistently shorter than in ambulatory patients, ranging from 90 to 180 minutes in different studies, compared with the 4–6 hours typical for inhaled beta-2 agonists in outpatient practice. This difference is thought to relate to altered drug deposition patterns, higher airway resistance impairing distal penetration, and possibly altered receptor pharmacodynamics in critically ill airways. Clinically, this means bronchodilators may need to be administered more frequently in ventilated patients. Both pMDI with spacer connected to the inspiratory limb and nebulisers (jet, ultrasonic, mesh) are effective delivery systems in ventilated patients, with efficiency depending on positioning and particle size."
     },
     {
       "id": "copd45_a21",
@@ -380,8 +374,7 @@
         "Heliox must contain at least 50% oxygen to be clinically safe; the helium fraction acts as a mucolytic agent reducing mucus viscosity"
       ],
       "correct": 0,
-      "explanation": null,
-      "image": "Heliox is a mixture of helium (70–80%) and oxygen (20–30%). Helium's density is approximately 8 times lower than nitrogen at the same molecular weight. In airways where flow is turbulent (particularly in the central, narrowed airways of severe asthma), the resistance to turbulent flow is proportional to gas density. By substituting helium for nitrogen, Heliox reduces gas density, decreasing the Reynolds number and converting turbulent flow to laminar — directly reducing airflow resistance and work of breathing. This can reduce PEEPi and improve drug deposition. The clinical limitation is that as oxygen requirements increase and the oxygen fraction in the mixture rises, the helium fraction falls — reducing the density advantage. Evidence supporting heliox in mechanically ventilated patients remains limited."
+      "explanation": "Heliox is a mixture of helium (70–80%) and oxygen (20–30%). Helium's density is approximately 8 times lower than nitrogen at the same molecular weight. In airways where flow is turbulent (particularly in the central, narrowed airways of severe asthma), the resistance to turbulent flow is proportional to gas density. By substituting helium for nitrogen, Heliox reduces gas density, decreasing the Reynolds number and converting turbulent flow to laminar — directly reducing airflow resistance and work of breathing. This can reduce PEEPi and improve drug deposition. The clinical limitation is that as oxygen requirements increase and the oxygen fraction in the mixture rises, the helium fraction falls — reducing the density advantage. Evidence supporting heliox in mechanically ventilated patients remains limited."
     },
     {
       "id": "copd45_a22",
@@ -398,8 +391,7 @@
         "Standard ventilators are incompatible with heliox and must be replaced by oscillator ventilators for safe heliox delivery"
       ],
       "correct": 1,
-      "explanation": null,
-      "image": "Heliox interferes with the flow meter systems used in standard ventilators, which are calibrated to measure the volume and flow of air/oxygen mixtures. When heliox is delivered, the different physical properties (lower density, higher viscosity relative to oxygen) cause the flow meter to under- or over-read, creating a discrepancy between the set tidal volume on the ventilator and the volume actually delivered to the patient. This is a well-documented limitation that requires careful monitoring — the delivered tidal volume should be verified by measuring expired gas with a dedicated heliox-compatible spirometer or by clinical assessment of chest rise and CO2 monitoring. Failure to recognise this discrepancy can lead to inadvertent hypo- or hyperventilation."
+      "explanation": "Heliox interferes with the flow meter systems used in standard ventilators, which are calibrated to measure the volume and flow of air/oxygen mixtures. When heliox is delivered, the different physical properties (lower density, higher viscosity relative to oxygen) cause the flow meter to under- or over-read, creating a discrepancy between the set tidal volume on the ventilator and the volume actually delivered to the patient. This is a well-documented limitation that requires careful monitoring — the delivered tidal volume should be verified by measuring expired gas with a dedicated heliox-compatible spirometer or by clinical assessment of chest rise and CO2 monitoring. Failure to recognise this discrepancy can lead to inadvertent hypo- or hyperventilation."
     },
     {
       "id": "copd45_a23",
@@ -416,8 +408,7 @@
         "Overfeeding causes hypomagnesaemia through urinary wasting, which impairs diaphragmatic contractility and prolongs MV duration"
       ],
       "correct": 2,
-      "explanation": null,
-      "image": "A fundamental nutritional principle in mechanically ventilated COPD patients is to avoid overfeeding. Carbohydrates have the highest respiratory quotient (RQ = 1.0) among macronutrients — complete oxidation of carbohydrate produces more CO2 per mole of O2 consumed than fat (RQ = 0.7) or protein (RQ ~0.8). Excess carbohydrate intake dramatically increases CO2 production, raising the minute ventilation requirement to maintain normal PaCO2 — a CO2 load that a patient near the ventilator weaning threshold may be unable to manage. Early enteral nutrition is recommended, but energy intake should be measured (ideally by calorimetry) or estimated conservatively. Replacing some carbohydrate calories with fat can reduce the CO2 burden. This principle specifically applies to COPD patients with hypercapnia and weaning difficulty."
+      "explanation": "A fundamental nutritional principle in mechanically ventilated COPD patients is to avoid overfeeding. Carbohydrates have the highest respiratory quotient (RQ = 1.0) among macronutrients — complete oxidation of carbohydrate produces more CO2 per mole of O2 consumed than fat (RQ = 0.7) or protein (RQ ~0.8). Excess carbohydrate intake dramatically increases CO2 production, raising the minute ventilation requirement to maintain normal PaCO2 — a CO2 load that a patient near the ventilator weaning threshold may be unable to manage. Early enteral nutrition is recommended, but energy intake should be measured (ideally by calorimetry) or estimated conservatively. Replacing some carbohydrate calories with fat can reduce the CO2 burden. This principle specifically applies to COPD patients with hypercapnia and weaning difficulty."
     },
     {
       "id": "copd45_a24",
@@ -434,8 +425,7 @@
         "The incidence of pneumothorax in ventilated COPD exceeds 30% and warrants prophylactic pleural catheter insertion"
       ],
       "correct": 3,
-      "explanation": null,
-      "image": "Despite dynamic hyperinflation and high peak pressures, early studies consistently show that mechanically ventilated COPD patients have a lower incidence of barotrauma than patients with ARDS or interstitial lung disease. This seemingly paradoxical finding may relate to the more heterogeneous, compliant nature of emphysematous lung tissue and the redistribution of stress rather than focal alveolar rupture. The key physiological principle is that it is plateau pressure — not peak pressure — that reflects alveolar distension because Ppeak includes the resistive pressure drop across obstructed airways and the ETT, which is not transmitted to the alveoli. A Ppeak of 54 cmH2O with Pplat 25 cmH2O represents high resistance but safe alveolar pressures. Monitoring Pplat and managing DH are the appropriate responses."
+      "explanation": "Despite dynamic hyperinflation and high peak pressures, early studies consistently show that mechanically ventilated COPD patients have a lower incidence of barotrauma than patients with ARDS or interstitial lung disease. This seemingly paradoxical finding may relate to the more heterogeneous, compliant nature of emphysematous lung tissue and the redistribution of stress rather than focal alveolar rupture. The key physiological principle is that it is plateau pressure — not peak pressure — that reflects alveolar distension because Ppeak includes the resistive pressure drop across obstructed airways and the ETT, which is not transmitted to the alveoli. A Ppeak of 54 cmH2O with Pplat 25 cmH2O represents high resistance but safe alveolar pressures. Monitoring Pplat and managing DH are the appropriate responses."
     },
     {
       "id": "copd45_a25",
@@ -452,8 +442,7 @@
         "VAP occurs in 10–27% of all ventilated patients; COPD independently increases VAP risk 2.35-fold, with non-fermenting gram-negative bacilli predominating even in early-onset cases"
       ],
       "correct": 4,
-      "explanation": null,
-      "image": "VAP is estimated to occur in 10–27% of all mechanically ventilated patients, with an attributable mortality of approximately 13%. COPD is an independent risk factor for VAP, associated with approximately 2.35 times higher likelihood compared with non-COPD patients. Risk factors specific to COPD include prolonged MV duration, high microaspiration risk from chronic airway colonisation, and impaired local and systemic defence mechanisms from corticosteroid use and malnutrition. Importantly, non-fermenting gram-negative bacilli — including Pseudomonas aeruginosa and Acinetobacter species — are the predominant pathogens in COPD-related VAP and are significantly more prevalent than in non-COPD VAP even in early-onset cases (before 5 days), distinguishing COPD from the typical early-VAP pathogen profile dominated by community-acquired organisms."
+      "explanation": "VAP is estimated to occur in 10–27% of all mechanically ventilated patients, with an attributable mortality of approximately 13%. COPD is an independent risk factor for VAP, associated with approximately 2.35 times higher likelihood compared with non-COPD patients. Risk factors specific to COPD include prolonged MV duration, high microaspiration risk from chronic airway colonisation, and impaired local and systemic defence mechanisms from corticosteroid use and malnutrition. Importantly, non-fermenting gram-negative bacilli — including Pseudomonas aeruginosa and Acinetobacter species — are the predominant pathogens in COPD-related VAP and are significantly more prevalent than in non-COPD VAP even in early-onset cases (before 5 days), distinguishing COPD from the typical early-VAP pathogen profile dominated by community-acquired organisms."
     },
     {
       "id": "copd45_a26",
@@ -470,8 +459,7 @@
         "ICUAW occurs in more than 90% of all ICU patients regardless of ventilation duration and is therefore considered an inevitable outcome of critical illness"
       ],
       "correct": 0,
-      "explanation": null,
-      "image": "ICUAW is reported in 25–60% of patients mechanically ventilated for more than 7 days, encompassing critical illness polyneuropathy, critical illness myopathy, or both. COPD and asthma patients face additional disease-specific risk factors: low BMI and respiratory cachexia in COPD; high-dose corticosteroids commonly used in both; and frequent use of neuromuscular blocking agents. Multiple pathogenic factors contribute, including axonopathy, mitochondrial dysfunction, sodium channelopathy, catabolism, and immobility. ICUAW in survivors is associated with prolonged MV, ICU stay, and hospital-acquired complications. Prevention focuses on minimising exposure to NMBAs and corticosteroids, preserving spontaneous respiratory effort, early mobilisation, and glycaemic control."
+      "explanation": "ICUAW is reported in 25–60% of patients mechanically ventilated for more than 7 days, encompassing critical illness polyneuropathy, critical illness myopathy, or both. COPD and asthma patients face additional disease-specific risk factors: low BMI and respiratory cachexia in COPD; high-dose corticosteroids commonly used in both; and frequent use of neuromuscular blocking agents. Multiple pathogenic factors contribute, including axonopathy, mitochondrial dysfunction, sodium channelopathy, catabolism, and immobility. ICUAW in survivors is associated with prolonged MV, ICU stay, and hospital-acquired complications. Prevention focuses on minimising exposure to NMBAs and corticosteroids, preserving spontaneous respiratory effort, early mobilisation, and glycaemic control."
     },
     {
       "id": "copd45_a27",
@@ -488,8 +476,7 @@
         "Rhabdomyolysis rather than critical illness myopathy is the primary concern; CIM risk is not specifically increased by corticosteroid co-administration with NMBAs"
       ],
       "correct": 1,
-      "explanation": null,
-      "image": "Cohort studies of patients with severe asthma demonstrate that the combined use of neuromuscular blocking agents and corticosteroids is associated with a 30% incidence of critical illness myopathy (CIM). The relationship is substantially dose- and duration-dependent for NMBAs. This risk is one of the primary reasons that routine paralysis is avoided in mechanically ventilated obstructive disease; it should be used only for the shortest necessary duration when absolutely required to safely manage gas exchange or ventilator dyssynchrony. CIM from this combination can result in severe prolonged muscle weakness, delayed weaning, and long-term disability. Prevention includes minimising NMBAs, limiting corticosteroid dose and duration, early mobilisation, and regular reassessment for the continued need for paralysis."
+      "explanation": "Cohort studies of patients with severe asthma demonstrate that the combined use of neuromuscular blocking agents and corticosteroids is associated with a 30% incidence of critical illness myopathy (CIM). The relationship is substantially dose- and duration-dependent for NMBAs. This risk is one of the primary reasons that routine paralysis is avoided in mechanically ventilated obstructive disease; it should be used only for the shortest necessary duration when absolutely required to safely manage gas exchange or ventilator dyssynchrony. CIM from this combination can result in severe prolonged muscle weakness, delayed weaning, and long-term disability. Prevention includes minimising NMBAs, limiting corticosteroid dose and duration, early mobilisation, and regular reassessment for the continued need for paralysis."
     },
     {
       "id": "copd45_a28",
@@ -506,8 +493,7 @@
         "Two-year mortality after ventilated AECOPD is less than 20% in patients without significant cardiac comorbidities"
       ],
       "correct": 2,
-      "explanation": null,
-      "image": "The long-term prognosis for mechanically ventilated COPD patients is poor. Published studies report 6-month mortality ranging from 40–70% depending on patient selection, pre-exacerbation functional status, and comorbidities. Two-year mortality rates may approach 80%, and 5-year mortality may reach approximately 90%. Factors predicting poor outcome include dyspnoea at rest with hypoxaemia and hypercapnia, pulmonary hypertension, irreversible airflow obstruction, poor nutritional status, multiple prior exacerbations, and comorbid organ disease. These sobering statistics underscore the importance of advance care planning before mechanical ventilation, including discussion of patient preferences for intubation and ventilatory support with both patients and families while they retain decision-making capacity."
+      "explanation": "The long-term prognosis for mechanically ventilated COPD patients is poor. Published studies report 6-month mortality ranging from 40–70% depending on patient selection, pre-exacerbation functional status, and comorbidities. Two-year mortality rates may approach 80%, and 5-year mortality may reach approximately 90%. Factors predicting poor outcome include dyspnoea at rest with hypoxaemia and hypercapnia, pulmonary hypertension, irreversible airflow obstruction, poor nutritional status, multiple prior exacerbations, and comorbid organ disease. These sobering statistics underscore the importance of advance care planning before mechanical ventilation, including discussion of patient preferences for intubation and ventilatory support with both patients and families while they retain decision-making capacity."
     },
     {
       "id": "copd45_a29",
@@ -524,8 +510,7 @@
         "Fungal organisms (Candida species) are the primary pathogens in COPD-related VAP due to frequent corticosteroid and antibiotic exposure"
       ],
       "correct": 3,
-      "explanation": null,
-      "image": "A systematic review and meta-analysis found that in COPD patients on MV, non-fermenting gram-negative bacilli — particularly Pseudomonas aeruginosa and Acinetobacter baumannii — are the predominant VAP pathogens. Critically, their prevalence is significantly higher in COPD compared with non-COPD ICU patients even in early-onset VAP (before day 4–5), which typically features community-acquired organisms in non-COPD patients. This COPD-specific pathogen shift is thought to relate to pre-existing chronic airway colonisation, altered lower respiratory tract defences from corticosteroid use and structural airway changes, and high rates of prior antibiotic exposure selecting for resistant gram-negative organisms. Empiric VAP antibiotic therapy in COPD should therefore include coverage for Pseudomonas even in early-onset cases."
+      "explanation": "A systematic review and meta-analysis found that in COPD patients on MV, non-fermenting gram-negative bacilli — particularly Pseudomonas aeruginosa and Acinetobacter baumannii — are the predominant VAP pathogens. Critically, their prevalence is significantly higher in COPD compared with non-COPD ICU patients even in early-onset VAP (before day 4–5), which typically features community-acquired organisms in non-COPD patients. This COPD-specific pathogen shift is thought to relate to pre-existing chronic airway colonisation, altered lower respiratory tract defences from corticosteroid use and structural airway changes, and high rates of prior antibiotic exposure selecting for resistant gram-negative organisms. Empiric VAP antibiotic therapy in COPD should therefore include coverage for Pseudomonas even in early-onset cases."
     },
     {
       "id": "copd45_a30",
@@ -542,8 +527,8 @@
         "An approximation of PEEPi: the pre-trigger negative Pes swing represents the elastic threshold load (≈PEEPi) that must be overcome before alveolar pressure reaches the trigger threshold"
       ],
       "correct": 4,
-      "explanation": "images/img_fb0cc97559.jpg",
-      "image": "In assisted ventilation, Pes approximates pleural pressure. At the beginning of each neural inspiration, alveolar pressure exceeds mouth pressure by an amount equal to PEEPi. Before the ventilator can be triggered, alveolar pressure must fall below mouth pressure (or below the flow-trigger threshold). The magnitude of Pes deflection required to achieve this — the pre-trigger Pes swing — approximates PEEPi, because it reflects the inspiratory muscle pressure developed against the closed system before flow begins. This measurement allows bedside estimation of PEEPi without performing a formal end-expiratory pause, though it requires oesophageal pressure measurement. This is particularly valuable in spontaneously breathing patients on assisted modes where occlusion maneuvers are difficult to interpret accurately."
+      "explanation": "In assisted ventilation, Pes approximates pleural pressure. At the beginning of each neural inspiration, alveolar pressure exceeds mouth pressure by an amount equal to PEEPi. Before the ventilator can be triggered, alveolar pressure must fall below mouth pressure (or below the flow-trigger threshold). The magnitude of Pes deflection required to achieve this — the pre-trigger Pes swing — approximates PEEPi, because it reflects the inspiratory muscle pressure developed against the closed system before flow begins. This measurement allows bedside estimation of PEEPi without performing a formal end-expiratory pause, though it requires oesophageal pressure measurement. This is particularly valuable in spontaneously breathing patients on assisted modes where occlusion maneuvers are difficult to interpret accurately.",
+      "image": "images/img_fb0cc97559.jpg"
     },
     {
       "id": "copd45_a31",
@@ -560,8 +545,7 @@
         "Aggressive parenteral hyperalimentation beginning within 24 hours to prevent catabolism and preserve lean muscle mass"
       ],
       "correct": 0,
-      "explanation": null,
-      "image": "Prevention of ICUAW requires a multifaceted approach. The cornerstones are: limiting the duration and cumulative dose of NMBAs (whose combined use with corticosteroids carries a 30% CIM risk in severe asthma); limiting corticosteroid exposure to what is clinically necessary; maintaining spontaneous inspiratory effort during assisted ventilation rather than sustained paralysis (which causes diaphragmatic atrophy); early mobilisation (passive ranging to active out-of-bed activity as clinical stability permits); and optimising glycaemic control, as hyperglycaemia impairs neuromuscular function. Benzodiazepine-dominated sedation is associated with increased ICUAW and should be avoided. Parenteral hyperalimentation is not preferred; early enteral nutrition meeting (not exceeding) measured caloric needs is recommended."
+      "explanation": "Prevention of ICUAW requires a multifaceted approach. The cornerstones are: limiting the duration and cumulative dose of NMBAs (whose combined use with corticosteroids carries a 30% CIM risk in severe asthma); limiting corticosteroid exposure to what is clinically necessary; maintaining spontaneous inspiratory effort during assisted ventilation rather than sustained paralysis (which causes diaphragmatic atrophy); early mobilisation (passive ranging to active out-of-bed activity as clinical stability permits); and optimising glycaemic control, as hyperglycaemia impairs neuromuscular function. Benzodiazepine-dominated sedation is associated with increased ICUAW and should be avoided. Parenteral hyperalimentation is not preferred; early enteral nutrition meeting (not exceeding) measured caloric needs is recommended."
     },
     {
       "id": "copd45_a32",
@@ -578,8 +562,7 @@
         "Helium competitively inhibits beta-2 adrenoceptors in airway smooth muscle, paradoxically worsening bronchospasm when delivered with salbutamol"
       ],
       "correct": 1,
-      "explanation": null,
-      "image": "The clinical benefit of heliox is density-dependent — the lower the gas density, the greater the conversion from turbulent to laminar flow and the greater the reduction in airflow resistance. Heliox requires a high helium fraction (approximately 70–80%) to achieve meaningful density reduction below that of air. When FiO2 requirements are high, the oxygen fraction dominates the mixture and helium content falls below the threshold for effective density reduction. At FiO2 0.60, only 40% of the mixture would be helium — insufficient to provide the therapeutic density advantage. This is the primary practical limitation of heliox: it is most effective in patients with mild-to-moderate hypoxemia whose FiO2 requirements are low enough to allow a helium-dominant mixture."
+      "explanation": "The clinical benefit of heliox is density-dependent — the lower the gas density, the greater the conversion from turbulent to laminar flow and the greater the reduction in airflow resistance. Heliox requires a high helium fraction (approximately 70–80%) to achieve meaningful density reduction below that of air. When FiO2 requirements are high, the oxygen fraction dominates the mixture and helium content falls below the threshold for effective density reduction. At FiO2 0.60, only 40% of the mixture would be helium — insufficient to provide the therapeutic density advantage. This is the primary practical limitation of heliox: it is most effective in patients with mild-to-moderate hypoxemia whose FiO2 requirements are low enough to allow a helium-dominant mixture."
     },
     {
       "id": "copd45_a33",
@@ -596,8 +579,7 @@
         "Reduce pressure support level to 5 cmH2O to increase inspiratory effort magnitude and improve the trigger signal-to-noise ratio"
       ],
       "correct": 2,
-      "explanation": null,
-      "image": "The mechanism causing ineffective triggering in this patient is PEEPi — the inspiratory effort cannot overcome the 10 cmH2O elastic threshold to trigger the ventilator. The multimodal approach targets this directly: bronchodilators reduce airway resistance and lower PEEPi over time; reducing minute ventilation decreases the per-breath expiratory flow requirement, allowing more complete emptying and reducing PEEPi; external PEEP at approximately 80% of PEEPi (~8 cmH2O) counterbalances the alveolar-to-mouth pressure difference in flow-limited airways without increasing EELV — reducing the trigger threshold substantially. Applying full PEEPi externally risks excess pressure in non-flow-limited regions. Increasing sedation eliminates effort entirely; increasing pressure support may worsen hyperinflation; switching to fixed-rate control mode prevents patient-triggered breathing. The correct approach reduces PEEPi rather than suppressing the patient's efforts."
+      "explanation": "The mechanism causing ineffective triggering in this patient is PEEPi — the inspiratory effort cannot overcome the 10 cmH2O elastic threshold to trigger the ventilator. The multimodal approach targets this directly: bronchodilators reduce airway resistance and lower PEEPi over time; reducing minute ventilation decreases the per-breath expiratory flow requirement, allowing more complete emptying and reducing PEEPi; external PEEP at approximately 80% of PEEPi (~8 cmH2O) counterbalances the alveolar-to-mouth pressure difference in flow-limited airways without increasing EELV — reducing the trigger threshold substantially. Applying full PEEPi externally risks excess pressure in non-flow-limited regions. Increasing sedation eliminates effort entirely; increasing pressure support may worsen hyperinflation; switching to fixed-rate control mode prevents patient-triggered breathing. The correct approach reduces PEEPi rather than suppressing the patient's efforts."
     },
     {
       "id": "copd45_k01",
