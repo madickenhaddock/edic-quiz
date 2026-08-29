@@ -1,0 +1,234 @@
+{
+ "module": "Drug dosing during Acute Kidney Injury and Renal Replacement Therapy",
+ "sections": {},
+ "questions": [
+  {
+   "id": "dda_fa01",
+   "type": "A",
+   "set": 1,
+   "source": "esicm_final_assessment",
+   "question": "Fluid overload in critically ill patients can lead to:",
+   "options": [
+    "Decreased volume of distribution",
+    "Increased drug absorption",
+    "Sub-therapeutic plasma concentrations",
+    "Enhanced kidney metabolism",
+    "Enhanced liver metabolism"
+   ],
+   "correct": 2,
+   "explanation": "Fluid overload dilutes the drug and increases the volume of distribution, especially for hydrophilic drugs, tending to produce sub-therapeutic plasma concentrations. Gut oedema can impair enteral absorption, and reduced renal and hepatic perfusion can impair organ metabolism, so the other options are incorrect.",
+   "section": "Final Assessment",
+   "section_url": "",
+   "topic": "PK — fluid overload",
+   "image": ""
+  },
+  {
+   "id": "dda_fa02",
+   "type": "A",
+   "set": 1,
+   "source": "esicm_final_assessment",
+   "question": "How is the clearance in continuous veno-venous hemodialysis (CVVHD) calculated?",
+   "options": [
+    "Dialysate flow rate (Qd) multiplied by saturation coefficient (SA)",
+    "Effluent flow rate (Qeff) multiplied by sieving coefficient (SC)",
+    "Dialysate flow rate (Qd) multiplied by sieving coefficient (SC)",
+    "(Qeff + Qd) multiplied by saturation coefficient (SA)",
+    "Blood flow rate (Qb) divided by Dialysate flow rate (Qd) multiplied by saturation coefficient (SA)"
+   ],
+   "correct": 0,
+   "explanation": "For CVVHD, drug clearance is estimated as dialysate flow rate multiplied by the saturation coefficient. Hemofiltration uses effluent flow times the sieving coefficient and hemodiafiltration sums both flows, so the other formulae describe different modalities.",
+   "section": "Final Assessment",
+   "section_url": "",
+   "topic": "RRT — CVVHD clearance",
+   "image": ""
+  },
+  {
+   "id": "dda_fa03",
+   "type": "A",
+   "set": 1,
+   "source": "esicm_final_assessment",
+   "question": "In the setting of intermittent forms of renal replacement therapy (RRT), which administration strategy is typically recommended for time-dependent antibiotics?",
+   "options": [
+    "Administration before the RRT session",
+    "Continuous infusion during the RRT session",
+    "Administration after the RRT session",
+    "Intermittent infusion during the RRT session",
+    "Loading dose before the RRT session and top-up dose after the session"
+   ],
+   "correct": 2,
+   "explanation": "For time-dependent antibiotics on intermittent RRT, giving the dose after the session preserves therapeutic concentrations, since dosing during dialysis risks removal and sub-therapeutic levels. Concentration-dependent agents may instead be given before the session so peaks can be cleared to limit toxicity.",
+   "section": "Final Assessment",
+   "section_url": "",
+   "topic": "RRT — time-dependent dosing",
+   "image": ""
+  },
+  {
+   "id": "dda_fa04",
+   "type": "A",
+   "set": 1,
+   "source": "esicm_final_assessment",
+   "question": "What is recommended to ensure optimal drug concentrations and safe therapy in critically ill patients with acute kidney injury and those undergoing RRT?",
+   "options": [
+    "Rely solely on initial dosing recommendations from published references",
+    "Disregard pharmacokinetics and pharmacodynamics when adjusting doses",
+    "Utilise regular monitoring and therapeutic drug monitoring (TDM)",
+    "Avoid reassessing drug doses due to the dynamic nature of acute kidney injury",
+    "Reduce the loading dose for all drugs in patients with AKI and those undergoing RRT to minimise the risk of toxicity"
+   ],
+   "correct": 2,
+   "explanation": "Because pharmacokinetics are highly variable in AKI and RRT, regular reassessment with therapeutic drug monitoring best ensures effective and safe concentrations. Relying solely on published tables, ignoring pharmacokinetics, or refusing to reassess would all risk mis-dosing.",
+   "section": "Final Assessment",
+   "section_url": "",
+   "topic": "AKI/RRT — monitoring",
+   "image": ""
+  },
+  {
+   "id": "dda_fa05",
+   "type": "A",
+   "set": 1,
+   "source": "esicm_final_assessment",
+   "question": "What is the primary mechanism of solute and drug removal in continuous veno-venous hemofiltration (CVVH)?",
+   "options": [
+    "Diffusion",
+    "Convection",
+    "Osmosis",
+    "Active transport",
+    "Adsorption"
+   ],
+   "correct": 1,
+   "explanation": "Hemofiltration removes solutes and drugs primarily by convection driven by a pressure gradient, which also clears larger molecules. Diffusion is the main mechanism in haemodialysis, while osmosis, active transport and adsorption are not the relevant mechanisms in CRRT.",
+   "section": "Final Assessment",
+   "section_url": "",
+   "topic": "RRT — CVVH mechanism",
+   "image": ""
+  },
+  {
+   "id": "dda_fa06",
+   "type": "A",
+   "set": 1,
+   "source": "esicm_final_assessment",
+   "question": "Which of the following factors does not affect drug clearance in patients with acute kidney injury (AKI)?",
+   "options": [
+    "Hypoalbuminemia",
+    "Change in protein binding",
+    "Type of renal replacement therapy",
+    "Endogenous kidney function",
+    "Mode of action of the drug"
+   ],
+   "correct": 4,
+   "explanation": "A drug's mode of action does not determine how it is cleared. Hypoalbuminaemia and altered protein binding change the volume of distribution, and the renal replacement modality and any residual kidney function all affect clearance.",
+   "section": "Final Assessment",
+   "section_url": "",
+   "topic": "AKI — clearance factors",
+   "image": ""
+  },
+  {
+   "id": "dda_fa07",
+   "type": "A",
+   "set": 1,
+   "source": "esicm_final_assessment",
+   "question": "Which of the following methods is considered the most accurate surrogate measure of glomerular filtration rate (GFR) in critically ill patients?",
+   "options": [
+    "Cockcroft-Gault equation",
+    "Modified Diet in Renal Disease (MDRD) equation",
+    "Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI) equation",
+    "Measured creatinine clearance using the UV/P formula",
+    "Urea-Creatinine Ratio"
+   ],
+   "correct": 3,
+   "explanation": "A measured creatinine clearance using the UV/P formula is the most accurate bedside surrogate of GFR in the critically ill, as the estimating equations were not validated in AKI. The urea-to-creatinine ratio may suggest the cause of renal failure but does not measure GFR.",
+   "section": "Final Assessment",
+   "section_url": "",
+   "topic": "GFR — best surrogate",
+   "image": ""
+  },
+  {
+   "id": "dda_fa08",
+   "type": "A",
+   "set": 1,
+   "source": "esicm_final_assessment",
+   "question": "Why does dosing of drugs in patients with acute kidney injury (AKI) and those undergoing renal replacement therapies (RRT) pose a challenge?",
+   "options": [
+    "Because pharmacokinetics do not change during AKI or RRT",
+    "Because traditional methods of evaluating glomerular filtration rate (GFR) become more reliable during RRT",
+    "Because initial dosing recommendations apply primarily to patients with AKI",
+    "Because of the unpredictable and highly variable changes in drug pharmacokinetics",
+    "Because guidance on drug dosing from the product license is based on phase 4 post marketing studies in a wide range of patients including critically ill patient who require RRT"
+   ],
+   "correct": 3,
+   "explanation": "Dosing is difficult because pharmacokinetics in AKI and RRT are unpredictable and highly variable. Traditional GFR estimates become unreliable on RRT, and product-label guidance derives from studies in stable patients, so it cannot be assumed to apply.",
+   "section": "Final Assessment",
+   "section_url": "",
+   "topic": "AKI/RRT — why challenging",
+   "image": ""
+  },
+  {
+   "id": "dda_fk01",
+   "type": "K",
+   "set": 1,
+   "source": "esicm_final_assessment",
+   "question": "Which of the following statements regarding renal replacement therapies (RRT) in the ICU are true?",
+   "statements": [
+    {
+     "label": "A",
+     "text": "RRT techniques primarily focus on compensating for processes of secretion and metabolism",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "Intermittent haemodialysis (IHD) relies on convection for solute removal",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "Continuous renal replacement therapy (CRRT) is administered over short periods, typically 4-6 hours",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "The prescribed clearance for CRRT is often overestimated compared to the actual delivered clearance",
+     "correct": true
+    }
+   ],
+   "explanation": "Renal replacement primarily compensates for clearance and excretion, not secretion and metabolism, so that statement is false. Intermittent haemodialysis relies on diffusion rather than convection, and continuous therapy runs over roughly 24 hours rather than a few hours; only the point that prescribed CRRT clearance often exceeds the delivered clearance is true.",
+   "section": "Final Assessment",
+   "section_url": "",
+   "topic": "RRT — statements",
+   "image": ""
+  },
+  {
+   "id": "dda_fk02",
+   "type": "K",
+   "set": 1,
+   "source": "esicm_final_assessment",
+   "question": "Which of the following statements regarding antibiotic dosing in critically ill patients with AKI or undergoing RRT is true?",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Serum creatinine is a reliable marker for adjusting antibiotic doses during RRT",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "Antibiotic therapeutic drug monitoring (TDM) is not recommended in cases of AKI or RRT",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "Dose reductions of renally eliminated antibiotics should be avoided during the first 24 hours of sepsis or septic shock",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "PK alterations in antibiotic dosing are static processes and do not require regular re-evaluation",
+     "correct": false
+    }
+   ],
+   "explanation": "In early sepsis or septic shock the volume of distribution is often increased, so dose reductions of renally-eliminated antibiotics should be avoided, which makes that statement true. Serum creatinine is not reliable on RRT, therapeutic drug monitoring is recommended, and pharmacokinetic changes are dynamic and need regular review.",
+   "section": "Final Assessment",
+   "section_url": "",
+   "topic": "Antibiotic dosing — statements",
+   "image": ""
+  }
+ ]
+}

@@ -1,0 +1,746 @@
+{
+ "module": "Drug dosing during Acute Kidney Injury and Renal Replacement Therapy",
+ "sections": {},
+ "questions": [
+  {
+   "id": "dda_a01",
+   "type": "A",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "A 60-year-old with septic AKI is markedly fluid-overloaded and is started on a hydrophilic beta-lactam. Compared with a euvolaemic patient, which adjustment best maintains an adequate peak concentration?",
+   "options": [
+    "Give a higher loading dose",
+    "Give a lower loading dose",
+    "Keep the loading dose but shorten the interval",
+    "Withhold antibiotics until fluid balance normalises",
+    "Switch to a lipophilic agent at standard dose"
+   ],
+   "correct": 0,
+   "explanation": "Fluid overload expands the volume of distribution of hydrophilic drugs and dilutes the peak, so a higher loading dose restores an effective peak concentration. Keeping or lowering the loading dose leaves the peak subtherapeutic, and interval changes act on trough rather than peak.",
+   "section": "PK changes in AKI",
+   "section_url": "",
+   "topic": "PK — loading dose",
+   "image": ""
+  },
+  {
+   "id": "dda_a02",
+   "type": "A",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "A patient with oliguric AKI on a morphine infusion becomes increasingly drowsy despite an unchanged rate. What best explains this?",
+   "options": [
+    "Reduced hepatic metabolism of the parent drug",
+    "Increased protein binding of morphine",
+    "Accumulation of renally-cleared active metabolites",
+    "Tachyphylaxis to morphine",
+    "A fall in the volume of distribution"
+   ],
+   "correct": 2,
+   "explanation": "Morphine and midazolam have active metabolites normally cleared by the kidney; in AKI these accumulate and prolong sedation. Reduced parent-drug metabolism, increased binding or a smaller volume of distribution would tend to lessen rather than deepen the effect.",
+   "section": "PK changes in AKI",
+   "section_url": "",
+   "topic": "PK — active metabolites",
+   "image": ""
+  },
+  {
+   "id": "dda_a03",
+   "type": "A",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "Regarding altered drug distribution in critically ill patients with AKI, which statement is correct?",
+   "options": [
+    "Lipophilic drugs are the most affected by fluid overload",
+    "Hydrophilic, low-protein-bound drugs are most sensitive to a rising Vd",
+    "Hypoalbuminaemia reduces the free fraction of highly bound drugs",
+    "Acidosis from shock states leaves protein binding entirely unchanged",
+    "The volume of distribution falls rather than rises with capillary leak"
+   ],
+   "correct": 1,
+   "explanation": "Hydrophilic drugs with low molecular weight and low protein binding distribute with body water, so their volume of distribution rises most with fluid overload and capillary leak. Hypoalbuminaemia raises the free fraction of highly bound drugs, and acidosis can alter binding.",
+   "section": "PK changes in AKI",
+   "section_url": "",
+   "topic": "PK — distribution",
+   "image": ""
+  },
+  {
+   "id": "dda_a04",
+   "type": "A",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "Each of the following can impair enteral drug absorption in critical illness EXCEPT:",
+   "options": [
+    "Gut oedema from fluid overload",
+    "Reduced splanchnic flow from catecholamines",
+    "Gastric pH changes from proton pump inhibitors",
+    "Increased absorptive area from villous hypertrophy",
+    "Slowed gastric emptying"
+   ],
+   "correct": 3,
+   "explanation": "Gut oedema, reduced splanchnic flow, altered gastric pH and delayed emptying all impair enteral absorption in critical illness. Villous hypertrophy increasing the absorptive area is not a recognised feature and would, if anything, aid absorption.",
+   "section": "PK changes in AKI",
+   "section_url": "",
+   "topic": "PK — absorption",
+   "image": ""
+  },
+  {
+   "id": "dda_a05",
+   "type": "A",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "A 28-year-old trauma patient with sepsis has a measured creatinine clearance of 165 mL/min and repeatedly subtherapeutic beta-lactam levels. What is the most appropriate response?",
+   "options": [
+    "Halve the antibiotic dose to avoid accumulation",
+    "Switch to an aminoglycoside at reduced dose",
+    "Attribute the low levels to assay error",
+    "Start renal replacement therapy",
+    "Increase the dose or use extended infusion"
+   ],
+   "correct": 4,
+   "explanation": "The high creatinine clearance indicates augmented renal clearance, which accelerates elimination and causes subtherapeutic beta-lactam levels; increasing the dose or using extended infusion restores exposure. Dose reduction would worsen underdosing, and this is not an assay artefact.",
+   "section": "Key PK parameters and ARC",
+   "section_url": "",
+   "topic": "ARC — management",
+   "image": ""
+  },
+  {
+   "id": "dda_a06",
+   "type": "A",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "Augmented renal clearance in the critically ill is conventionally defined as a measured creatinine clearance exceeding:",
+   "options": [
+    "90 mL/min/1.73 m2",
+    "110 mL/min/1.73 m2",
+    "130 mL/min/1.73 m2",
+    "150 mL/min/1.73 m2",
+    "175 mL/min/1.73 m2"
+   ],
+   "correct": 2,
+   "explanation": "Augmented renal clearance is defined as a creatinine clearance greater than 130 mL/min/1.73 m2. Lower values fall within the normal range, and higher cut-offs would miss many affected patients who are already underdosed.",
+   "section": "Key PK parameters and ARC",
+   "section_url": "",
+   "topic": "ARC — definition",
+   "image": ""
+  },
+  {
+   "id": "dda_a07",
+   "type": "A",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "A patient develops AKI while on a renally-cleared drug; the volume of distribution rises and clearance falls. The elimination half-life will:",
+   "options": [
+    "Be prolonged",
+    "Be shortened",
+    "Be unchanged",
+    "Become independent of clearance",
+    "Fall and then rise"
+   ],
+   "correct": 0,
+   "explanation": "Half-life is proportional to the volume of distribution and inversely proportional to clearance, so a larger volume with a lower clearance prolongs it. This is why the dosing interval often needs to be extended in AKI.",
+   "section": "Key PK parameters and ARC",
+   "section_url": "",
+   "topic": "PK — half-life",
+   "image": ""
+  },
+  {
+   "id": "dda_a08",
+   "type": "A",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "A patient with AKI is receiving a drug cleared substantially by both liver and kidney. As GFR falls, how is total clearance best described?",
+   "options": [
+    "It falls in direct proportion to GFR",
+    "It falls less than for a purely renally-cleared drug",
+    "It is entirely unaffected by the non-renal pathway",
+    "It rises as hepatic flow compensates",
+    "It becomes negligible once GFR is low"
+   ],
+   "correct": 1,
+   "explanation": "With mixed renal and non-renal clearance, the non-renal pathway blunts the impact of falling GFR, so total clearance drops less than for a drug cleared only by the kidney. Some dose adjustment may still be needed but is usually smaller.",
+   "section": "Key PK parameters and ARC",
+   "section_url": "",
+   "topic": "PK — mixed clearance",
+   "image": ""
+  },
+  {
+   "id": "dda_a09",
+   "type": "A",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "A cachectic, sarcopenic ICU patient has a normal serum creatinine, yet urine output and true kidney function are poor. Why is the estimated GFR misleading here?",
+   "options": [
+    "Creatinine is being removed by dialysis",
+    "Tubular secretion of creatinine is increased",
+    "Fluid overload has diluted the creatinine",
+    "Low muscle mass reduces creatinine production",
+    "The assay overreads at low creatinine levels"
+   ],
+   "correct": 3,
+   "explanation": "Creatinine production is proportional to muscle mass, so in sarcopenia less is generated and serum creatinine stays low, making formula-based eGFR overestimate true function. Dilution and assay effects are not the primary explanation.",
+   "section": "GFR quantification",
+   "section_url": "",
+   "topic": "GFR — sarcopenia",
+   "image": ""
+  },
+  {
+   "id": "dda_a10",
+   "type": "A",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "Each of the following is a limitation of creatinine-based GFR equations in critically ill AKI EXCEPT:",
+   "options": [
+    "They provide a real-time measure of a fluctuating GFR",
+    "They were not validated in critically ill AKI",
+    "They assume a steady-state creatinine",
+    "They are confounded by low muscle mass",
+    "They mainly reflect baseline function at admission"
+   ],
+   "correct": 0,
+   "explanation": "The equations do not provide a real-time measure of changing GFR, which is precisely what they lack, so this is the exception. Their genuine limitations include lack of validation in AKI, the steady-state assumption, confounding by muscle mass, and reflecting only baseline function.",
+   "section": "GFR quantification",
+   "section_url": "",
+   "topic": "GFR — equation limits",
+   "image": ""
+  },
+  {
+   "id": "dda_a11",
+   "type": "A",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "A large patient's CKD-EPI result is reported per 1.73 m2, but you need an absolute clearance to dose a renally-cleared drug. How is it converted?",
+   "options": [
+    "Multiply by body surface area, then divide by 1.73",
+    "Multiply by 1.73, then divide by body surface area",
+    "Divide by the patient's weight in kilograms",
+    "No conversion is needed for renally-cleared drugs",
+    "Add the measured urine output to the estimate"
+   ],
+   "correct": 0,
+   "explanation": "Indexed eGFR is de-indexed to an absolute value by multiplying by body surface area divided by 1.73, which matters when body size differs markedly from average. Using the value unconverted misestimates the dose for large or small patients.",
+   "section": "GFR quantification",
+   "section_url": "",
+   "topic": "GFR — de-indexing",
+   "image": ""
+  },
+  {
+   "id": "dda_a12",
+   "type": "A",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "A haemodynamically unstable patient is dialysed via a temporary femoral catheter, but the delivered dose is lower than prescribed. Which factor most likely contributes?",
+   "options": [
+    "Excessively high blood flow through the catheter",
+    "Use of an arteriovenous fistula",
+    "Low blood flow achievable through a temporary catheter",
+    "A dialysate flow set too high",
+    "Too few interruptions to therapy"
+   ],
+   "correct": 2,
+   "explanation": "Temporary catheters permit lower blood flows, roughly 150 to 300 mL/min, than fistulas, and this together with interruptions reduces the delivered relative to the prescribed dose. Fistulas and higher flows would increase, not decrease, delivery.",
+   "section": "RRT — general and IHD",
+   "section_url": "",
+   "topic": "RRT — delivered dose",
+   "image": ""
+  },
+  {
+   "id": "dda_a13",
+   "type": "A",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "You are dosing a highly protein-bound antibiotic for a patient on haemodialysis and have no drug levels. The saturation coefficient can be estimated as:",
+   "options": [
+    "The protein binding fraction",
+    "One minus the protein binding fraction",
+    "Molecular weight divided by 500",
+    "Blood flow divided by dialysate flow",
+    "The sieving coefficient minus one"
+   ],
+   "correct": 1,
+   "explanation": "The saturation coefficient approximates the unbound fraction, so it can be estimated as one minus protein binding when levels are unavailable. Highly bound drugs therefore have low saturation coefficients and are poorly removed.",
+   "section": "RRT — general and IHD",
+   "section_url": "",
+   "topic": "RRT — saturation coefficient",
+   "image": ""
+  },
+  {
+   "id": "dda_a14",
+   "type": "A",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "A patient with refractory shock and severe fluid overload needs renal support but tolerates rapid fluid shifts poorly. Which modality is generally preferred, and why?",
+   "options": [
+    "Intermittent haemodialysis, because it clears small molecules faster",
+    "Intermittent haemodialysis, because sessions are shorter",
+    "Peritoneal dialysis, because it needs no anticoagulation",
+    "Continuous therapy, because slower fluid removal is better tolerated",
+    "No renal support until the shock resolves"
+   ],
+   "correct": 3,
+   "explanation": "Continuous therapy removes fluid gradually and is better tolerated in haemodynamic instability, whereas intermittent haemodialysis can precipitate hypotension through rapid shifts. Withholding support risks worsening overload and metabolic derangement.",
+   "section": "RRT — general and IHD",
+   "section_url": "",
+   "topic": "RRT — modality choice",
+   "image": ""
+  },
+  {
+   "id": "dda_a15",
+   "type": "A",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "A patient is on CVVHDF. To reliably achieve the KDIGO-recommended delivered effluent dose of 20-25 mL/kg/h, what is typically prescribed?",
+   "options": [
+    "10-15 mL/kg/h",
+    "20-25 mL/kg/h",
+    "Greater than 40 mL/kg/h",
+    "As high as the machine allows",
+    "30-35 mL/kg/h"
+   ],
+   "correct": 4,
+   "explanation": "Because interruptions and downtime reduce delivery, prescribing 30-35 mL/kg/h is usually needed to actually deliver 20-25 mL/kg/h. Prescribing exactly 20-25 tends to under-deliver, and doses above 35 add harm without outcome benefit.",
+   "section": "RRT — CRRT",
+   "section_url": "",
+   "topic": "RRT — effluent dose",
+   "image": ""
+  },
+  {
+   "id": "dda_a16",
+   "type": "A",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "A patient on CVVH has replacement fluid given before the filter rather than after it. This will:",
+   "options": [
+    "Increase solute clearance",
+    "Have no effect on clearance",
+    "Remove the need for any filter anticoagulation",
+    "Convert convection into diffusion",
+    "Reduce solute clearance but prolong filter life"
+   ],
+   "correct": 4,
+   "explanation": "Pre-dilution lowers the solute concentration entering the filter and reduces clearance, but it also lowers blood viscosity in the filter and prolongs its lifespan. It does not change the transport mechanism or remove the need for anticoagulation.",
+   "section": "RRT — CRRT",
+   "section_url": "",
+   "topic": "RRT — pre- vs post-dilution",
+   "image": ""
+  },
+  {
+   "id": "dda_a17",
+   "type": "A",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "Each of the following is true of CRRT dose intensity in AKI EXCEPT:",
+   "options": [
+    "Effluent doses above 35 mL/kg/h lack an outcome benefit",
+    "Very high intensity can cause electrolyte losses",
+    "Effluent doses above 35 mL/kg/h improve survival",
+    "Dose can be reduced when only fluid control is needed",
+    "The delivered dose is often less than prescribed"
+   ],
+   "correct": 2,
+   "explanation": "Doses above roughly 35 mL/kg/h do not improve survival, so the claim of a survival benefit is the exception. The others are correct: high intensity risks electrolyte and nutrient loss, dose can be tailored to the goal, and delivery often falls short of the prescription.",
+   "section": "RRT — CRRT",
+   "section_url": "",
+   "topic": "RRT — CRRT intensity",
+   "image": ""
+  },
+  {
+   "id": "dda_a18",
+   "type": "A",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "An aminoglycoside is chosen for a critically ill patient. Which pharmacodynamic target best predicts its efficacy?",
+   "options": [
+    "Time above the MIC",
+    "Peak concentration to MIC ratio",
+    "Trough concentration alone",
+    "Total daily dose regardless of peak",
+    "Area under the curve kept below the MIC"
+   ],
+   "correct": 1,
+   "explanation": "Aminoglycosides are concentration-dependent, so a high peak relative to the MIC drives killing, favouring larger, less frequent doses. Time above the MIC describes time-dependent agents such as beta-lactams, not aminoglycosides.",
+   "section": "Antibiotic dosing strategies",
+   "section_url": "",
+   "topic": "PK/PD — concentration-dependent",
+   "image": ""
+  },
+  {
+   "id": "dda_a19",
+   "type": "A",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "A time-dependent beta-lactam is prescribed for a patient on CRRT with a resistant organism. Which administration approach best maintains the target?",
+   "options": [
+    "A single daily bolus",
+    "Rapid intermittent boluses only",
+    "Dosing guided by serum creatinine",
+    "Continuous or extended infusion",
+    "Withholding doses during filtration"
+   ],
+   "correct": 3,
+   "explanation": "Beta-lactam efficacy depends on the time the free concentration stays above the MIC, so continuous or extended infusion best sustains that target during ongoing CRRT clearance. Boluses produce troughs below the MIC, and creatinine is unreliable on RRT.",
+   "section": "Antibiotic dosing strategies",
+   "section_url": "",
+   "topic": "PK/PD — time-dependent on CRRT",
+   "image": ""
+  },
+  {
+   "id": "dda_a20",
+   "type": "A",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "Recent 2025 multinational pharmacokinetic work has produced RRT-specific dosing nomograms for which antibiotics?",
+   "options": [
+    "Vancomycin and gentamicin",
+    "Ceftriaxone and metronidazole",
+    "Linezolid and daptomycin",
+    "Amoxicillin and flucloxacillin",
+    "Meropenem and piperacillin/tazobactam"
+   ],
+   "correct": 4,
+   "explanation": "A large prospective multinational study generated RRT-specific nomograms for meropenem and piperacillin/tazobactam, stratified by modality, intensity, urine output and PK/PD target, as practical interim dosing aids. These are the tools now available for RRT.",
+   "section": "Antibiotic dosing strategies",
+   "section_url": "",
+   "topic": "Dosing tools — 2025 nomograms",
+   "image": ""
+  },
+  {
+   "id": "dda_k01",
+   "type": "K",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "A patient with AKI and marked fluid overload is started on a hydrophilic beta-lactam.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "A reduced loading dose is appropriate to avoid toxicity",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "The peak concentration tends to rise for a given dose",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "Hypoalbuminaemia lowers the free fraction of a highly bound drug",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "The volume of distribution is typically increased",
+     "correct": true
+    }
+   ],
+   "explanation": "Fluid overload increases the volume of distribution and dilutes the peak, so a reduced loading dose or an expected rise in peak is wrong. Hypoalbuminaemia raises, not lowers, the free fraction of a highly bound drug.",
+   "section": "PK changes in AKI",
+   "section_url": "",
+   "topic": "PK — fluid overload",
+   "image": ""
+  },
+  {
+   "id": "dda_k02",
+   "type": "K",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "A patient develops septic shock with AKI in the first 24 to 48 hours.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Dose reductions of renally-eliminated antibiotics should be avoided at this stage",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "The volume of distribution is often increased",
+     "correct": true
+    },
+    {
+     "label": "C",
+     "text": "Serum creatinine reliably guides dosing once RRT starts",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "Kidney function should be the main factor when starting antibiotics",
+     "correct": false
+    }
+   ],
+   "explanation": "Early in sepsis the volume of distribution rises and underdosing is the main risk, so dose reductions should be avoided and kidney function should not dominate the initial decision. Creatinine is unreliable once RRT begins.",
+   "section": "Antibiotic dosing strategies",
+   "section_url": "",
+   "topic": "Sepsis — early dosing",
+   "image": ""
+  },
+  {
+   "id": "dda_k03",
+   "type": "K",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "A patient is established on CVVHDF for AKI.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Convection can remove larger middle-molecules than diffusion alone",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "A delivered effluent dose of 20-25 mL/kg/h is the usual target",
+     "correct": true
+    },
+    {
+     "label": "C",
+     "text": "Clearance depends on effluent and dialysate flow and on membrane properties",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "Pre-filter replacement fluid increases drug clearance",
+     "correct": false
+    }
+   ],
+   "explanation": "Convection clears larger molecules, the usual delivered target is 20-25 mL/kg/h, and clearance depends on flows and membrane. Pre-filter fluid dilutes blood entering the filter and reduces, rather than increases, clearance.",
+   "section": "RRT — CRRT",
+   "section_url": "",
+   "topic": "CRRT — mechanisms and dose",
+   "image": ""
+  },
+  {
+   "id": "dda_k04",
+   "type": "K",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "Regarding augmented renal clearance in critical illness:",
+   "statements": [
+    {
+     "label": "A",
+     "text": "It is a form of intrinsic kidney impairment",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "It calls for a reduction in maintenance dosing",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "It is defined as a creatinine clearance above 130 mL/min/1.73 m2",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "It can cause subtherapeutic antibiotic concentrations",
+     "correct": true
+    }
+   ],
+   "explanation": "Augmented renal clearance is enhanced elimination, not impairment, and is defined above 130 mL/min/1.73 m2; it causes subtherapeutic levels. It therefore calls for higher, not reduced, maintenance dosing.",
+   "section": "Key PK parameters and ARC",
+   "section_url": "",
+   "topic": "ARC",
+   "image": ""
+  },
+  {
+   "id": "dda_k05",
+   "type": "K",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "Regarding estimation of GFR in critically ill patients with AKI:",
+   "statements": [
+    {
+     "label": "A",
+     "text": "A short measured creatinine clearance is the preferred bedside method",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "Cockcroft-Gault, MDRD and CKD-EPI are validated for established AKI",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "Sarcopenia tends to make estimated GFR falsely low",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "De-indexing multiplies indexed GFR by 1.73 divided by body surface area",
+     "correct": false
+    }
+   ],
+   "explanation": "A short measured creatinine clearance is preferred because the estimating equations were not validated in AKI. Sarcopenia makes eGFR falsely high, and de-indexing multiplies by body surface area divided by 1.73, not the reverse.",
+   "section": "GFR quantification",
+   "section_url": "",
+   "topic": "GFR estimation",
+   "image": ""
+  },
+  {
+   "id": "dda_k06",
+   "type": "K",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "A patient is treated with intermittent haemodialysis in the ICU.",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Blood and dialysate flows are typically lower than in CRRT",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "Small solutes under about 500 Da are removed mainly by diffusion",
+     "correct": true
+    },
+    {
+     "label": "C",
+     "text": "Sessions run continuously over 24 hours",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "A highly protein-bound drug is poorly cleared by this technique",
+     "correct": true
+    }
+   ],
+   "explanation": "Intermittent haemodialysis uses higher blood and dialysate flows than CRRT and runs over a few hours, not continuously. Diffusion removes small solutes, and highly bound drugs are poorly cleared.",
+   "section": "RRT — general and IHD",
+   "section_url": "",
+   "topic": "IHD",
+   "image": ""
+  },
+  {
+   "id": "dda_k07",
+   "type": "K",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "Regarding pharmacodynamic targets of antibiotics:",
+   "statements": [
+    {
+     "label": "A",
+     "text": "All three major classes share the same pharmacodynamic index",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "Aminoglycoside efficacy is best described by the peak-to-MIC ratio",
+     "correct": true
+    },
+    {
+     "label": "C",
+     "text": "Beta-lactam efficacy depends on the time above the MIC",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "Vancomycin is best described by the 24-hour AUC-to-MIC ratio",
+     "correct": true
+    }
+   ],
+   "explanation": "Concentration-dependent aminoglycosides are driven by peak-to-MIC, time-dependent beta-lactams by time above MIC, and vancomycin by AUC-to-MIC, so the classes do not share one index.",
+   "section": "Antibiotic dosing strategies",
+   "section_url": "",
+   "topic": "PK/PD targets",
+   "image": ""
+  },
+  {
+   "id": "dda_k08",
+   "type": "K",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "Regarding drug metabolism and clearance in AKI:",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Renal elimination occurs mainly by filtration and secretion rather than metabolism",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "Non-renal clearance is unaffected by AKI",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "Active metabolites of morphine and midazolam can accumulate",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "Tubular secretion is easily quantified at the bedside",
+     "correct": false
+    }
+   ],
+   "explanation": "Renal elimination is chiefly filtration and secretion, and active metabolites can accumulate. Non-renal clearance can fall in AKI through reduced cytochrome activity, and tubular secretion is not readily measured at the bedside.",
+   "section": "PK changes in AKI",
+   "section_url": "",
+   "topic": "Metabolism and clearance",
+   "image": ""
+  },
+  {
+   "id": "dda_k09",
+   "type": "K",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "Regarding the delivered dose of renal replacement therapy:",
+   "statements": [
+    {
+     "label": "A",
+     "text": "Interruptions for filter changes increase the delivered dose",
+     "correct": false
+    },
+    {
+     "label": "B",
+     "text": "Temporary catheters allow higher blood flows than fistulas",
+     "correct": false
+    },
+    {
+     "label": "C",
+     "text": "ICU intermittent dialysis delivers the same dose as chronic outpatient dialysis",
+     "correct": false
+    },
+    {
+     "label": "D",
+     "text": "The delivered dose is often lower than the prescribed dose",
+     "correct": true
+    }
+   ],
+   "explanation": "Interruptions reduce, not increase, the delivered dose, temporary catheters give lower flows than fistulas, and critically ill ICU dialysis cannot match chronic outpatient delivery. The delivered dose is therefore often below what is prescribed.",
+   "section": "RRT — general and IHD",
+   "section_url": "",
+   "topic": "Delivered dose",
+   "image": ""
+  },
+  {
+   "id": "dda_k10",
+   "type": "K",
+   "set": 1,
+   "source": "pact_generated",
+   "question": "Regarding therapeutic drug monitoring in AKI or RRT:",
+   "statements": [
+    {
+     "label": "A",
+     "text": "It is particularly useful when pharmacokinetics are unpredictable",
+     "correct": true
+    },
+    {
+     "label": "B",
+     "text": "Serum creatinine is an unreliable dosing guide once RRT has started",
+     "correct": true
+    },
+    {
+     "label": "C",
+     "text": "The clinical situation should be re-evaluated at least every 24 hours",
+     "correct": true
+    },
+    {
+     "label": "D",
+     "text": "RRT-specific nomograms now exist for meropenem and piperacillin/tazobactam",
+     "correct": true
+    }
+   ],
+   "explanation": "Therapeutic drug monitoring helps most when pharmacokinetics are variable, creatinine is unreliable on RRT, dosing needs review at least daily, and RRT-specific nomograms are now available for meropenem and piperacillin/tazobactam.",
+   "section": "Antibiotic dosing strategies",
+   "section_url": "",
+   "topic": "TDM",
+   "image": ""
+  }
+ ]
+}
