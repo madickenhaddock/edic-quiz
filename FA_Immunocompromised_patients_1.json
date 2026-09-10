@@ -1,0 +1,182 @@
+{
+  "module": "FA Immunocompromised Patients (Final Assessment, batch 1 of 2)",
+  "source": "esicm_final_assessment",
+  "total_questions": 9,
+  "sections": {
+    "Opportunistic infection timing after transplant": "Both solid-organ and haematopoietic stem cell transplant (HSCT) recipients follow a broadly predictable pattern of infection risk over time. For allogeneic HSCT, Phase I (pre-engraftment, <30 days) is dominated by neutropenia and antimicrobial-resistant bacteria, Candida and, if unresponsive to antibacterials, invasive fungal disease; Phase II (post-engraftment, 30-100 days) features impaired cellular immunity with CMV, adenovirus and other viral reactivations; Phase III (late, >100 days) features impaired cellular and humoral immunity with encapsulated bacteria, late viral infections and fungi such as Aspergillus. For solid-organ transplant recipients, the first month is dominated by nosocomial, technical and donor-derived infections; 1-6 months (without prophylaxis) by opportunistic infections such as CMV, PCP and BK polyomavirus; and beyond 6 months by community-acquired infections and, in under-immunosuppressed or heavily pre-treated patients, opportunists such as Cryptococcus, Aspergillus and Nocardia.",
+    "Cryptococcal meningitis treatment (IDSA)": "IDSA-recommended induction therapy for cryptococcal meningitis is amphotericin B deoxycholate plus flucytosine for 2 weeks (or liposomal amphotericin B/amphotericin B lipid complex plus flucytosine when renal function is a concern), followed by consolidation with fluconazole 400 mg/day for 8 weeks and maintenance fluconazole 200 mg/day for at least 1 year."
+  },
+  "questions": [
+    {
+      "id": "imc_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Diagnostic techniques",
+      "question": "Which of the following statements is FALSE regarding new molecular techniques and serological testing platforms for the diagnosis of infection?",
+      "options": [
+        "Results of molecular diagnostic techniques are less likely to be suppressed by recent antimicrobial use.",
+        "Molecular techniques are well-validated, and readily accepted and available for routine clinical use.",
+        "The yield of molecular amplification assays are higher than conventional blood culture-based assays in terms of pathogen identification.",
+        "Molecular techniques can diagnose non-pathologic organisms, and consequently their results should be interpreted with caution.",
+        "Molecular amplification assays, including PCR/ESI-MS, can provide results much faster than conventional methods, often in 6-8 hours."
+      ],
+      "correct": 1,
+      "explanation": "While molecular methods for the identification of infection have a great deal of promise and several platforms are now commercially available, these techniques remain expensive and are not yet widely available, and many are not well-validated for clinical use at the present time. As opposed to standard culture-based assays, which rely on multiplication and growth of pathogens for identification, DNA-based amplification assays can identify killed organisms based on circulating free DNA, so these newer assays may detect pathogens killed by antimicrobial therapy administered before sample acquisition — but the pathogenicity of these \"killed\" pathogens is presently uncertain and clinical relevance has yet to be validated on a large scale. Many trials of the new platforms have also revealed a markedly higher yield in pathogen identification compared with culture-based methods (for example, a PCR/ESI-MS platform in the RADICAL study reported a sensitivity of 81%, identifying many positive samples that were culture-negative) and can provide actionable results within hours rather than the 2-4 days needed for standard culture.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imc_fa02",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Immunodeficiency classification",
+      "question": "Which of the following is NOT a common cause of secondary immunodeficiency?",
+      "options": [
+        "Asplenia",
+        "Diabetes mellitus",
+        "Myelodysplastic syndrome",
+        "Combined Variable Immune Deficiency",
+        "Melphalan chemotherapy"
+      ],
+      "correct": 3,
+      "explanation": "Common variable immune deficiency (CVID) is a primary, not secondary, immunodeficiency — primary immunodeficiency diseases are a group of over 350 rare, chronic disorders in which part of the immune system is missing or dysfunctional; individuals with CVID have intrinsically low IgG, IgM and IgA and are highly susceptible to bacterial infections, especially encapsulated organisms such as Haemophilus influenzae and Streptococcus pneumoniae. Secondary immune deficiencies instead occur when the immune system is compromised by external or environmental factors, including loss of immune organs such as the spleen (asplenia), immunosuppressive chemotherapy such as melphalan, haematological malignancy and associated conditions such as myelodysplastic syndrome, and chronic diseases that affect the immune system such as diabetes mellitus.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imc_fa03",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Immune function testing",
+      "question": "Which of the following single assays confirms an immunocompromised state?",
+      "options": [
+        "Mannose-binding lectin levels",
+        "CD4+ cell count and %",
+        "Neutrophil migration assays",
+        "Complement 3 and 4 (C3, C4)",
+        "None of the above"
+      ],
+      "correct": 4,
+      "explanation": "There is no single definitive test that can confirm an immunocompromised state. Markers suggesting an immunosuppressed state include neutropenia, lymphopenia and hypogammaglobulinemia, but laboratory testing, imaging and patient history must be combined to give a holistic assessment of overall immune function. Numerous specific assays exist for discrete elements of the immune system — for example mannose-binding lectin levels and HLA-DR monocyte expression for innate immunity, immunoglobulin and B-lymphocyte measures for antibody-mediated immunity, CD4+/CD8+ T-cell subsets and delayed hypersensitivity testing for T-lymphocyte function, oxidative killing and migration assays for neutrophil function, and complement component quantification for the complement system — but most of these are research tools with clinical utility that is not well defined, and none in isolation confirms an immunocompromised state.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imc_fa04",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Pneumocystis prophylaxis",
+      "question": "A 64 year-old woman who underwent chemo- and radiation therapy for left breast cancer 8 weeks ago is admitted to the hospital with worsening dyspnea, dry cough and occasional pleuritic left sided chest pain. Her vital signs are normal except oxygen saturation of 84% on room air and improving after she was put on 4 L/min oxygen via nasal cannula. Chest CT scan is suggestive of ground glass opacities and airspace disease with sharply delineated margins involving left lower lobe. After negative work-up for infectious etiology, she is diagnosed with radiation pneumonitis. She is started on Prednisone 40 mg orally daily with gradual improvement in symptoms. She is expected to have prolonged course and a very gradual taper (approximately 10 mg every 4 weeks) depending upon the response. Which of the following is also indicated as a part of treatment?",
+      "options": [
+        "Levofloxacin",
+        "Cough suppressants",
+        "Sleep study",
+        "Trimethoprim/Sulfamethoxazole",
+        "Enoxaparin"
+      ],
+      "correct": 3,
+      "explanation": "Prophylaxis against Pneumocystis pneumonia is indicated in patients who receive a prednisone dose in excess of 20 mg/day for greater than 1 month, especially if the patient has associated T-cell defects or is receiving other cytotoxic or anti-TNF agents. This patient's prolonged, high-dose steroid course for radiation pneumonitis meets that threshold, so trimethoprim/sulfamethoxazole prophylaxis should be added.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imc_fa05",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "CMV disease",
+      "question": "A 53 year old male with end-stage renal disease underwent a renal transplant 6 months ago. Induction therapy was with Alemtuzumab and he is maintained on Tacrolimus and Mycophenolate mofetil. He presents to the Emergency Department (ED) with malaise, fever, cough and shortness of breath of 3 weeks duration. On arrival to ED, in addition to his immune suppression medications he was on sulfamethoxazole-trimethoprim for Pneumocystis Jirovecii (PCP) prophylaxis and had received ganciclovir for 3 months after transplantation. He was diagnosed with CMV Pneumonia. Which was the main factor contributing to this infection?",
+      "options": [
+        "The patient was CMV seropositive prior to his transplant",
+        "Sulfamethoxazole-trimethoprim therapy",
+        "The donor was CMV seronegative",
+        "Ganciclovir was stopped after 3 months",
+        "History of end stage renal disease"
+      ],
+      "correct": 3,
+      "explanation": "CMV-seronegative patients receiving a solid organ transplant from a CMV-seropositive donor are at the highest risk of primary CMV disease, from reactivation of latent virus transmitted in the allograft; being seropositive before transplant and receiving an organ from a seronegative donor is instead associated with lower risk. The net state of immunosuppression — influenced by the dose, duration and type of immunosuppressive agents, innate and adaptive host immune defects, age and comorbidities — also matters, and lymphocyte-depleting agents such as alemtuzumab (anti-CD52 antibody) are associated with increased CMV risk. CMV prophylaxis with ganciclovir should be continued for at least 6 months post-solid organ transplant, which significantly reduces CMV incidence; in this patient, stopping prophylaxis after only 3 months is the most likely main reason for the CMV pneumonia.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imc_fa06",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Immune checkpoint inhibitor toxicity",
+      "question": "A 58 year old man is admitted to the hospital with severe dyspnea on exertion with dry cough for last 1 week. He suffers from unresectable melanoma and is currently undergoing chemotherapy with Nivolumab, a programmed death-ligand-1 (PDL-1) inhibitor. He has occasional dry cough but no fever or chills. A CT scan is suggestive of bilateral diffuse ground glass opacities with multifocal consolidations and small pleural effusions. He is found to have severe hypoxia, requiring high-flow oxygen therapy (60% FiO2 with 40L flow). He is diagnosed with pneumonitis associated with Nivolumab and started on Prednisone. His oxygen requirement increases after 48 hrs of treatment with Prednisone, and is consequently started on Infliximab. Which of the following is true?",
+      "options": [
+        "The patient should be intubated and the pleural effusion evaluated with ultrasound",
+        "The treatment with Nivolumab should be continued",
+        "PDL-1 inhibitors do not increase the risk of infection by themselves",
+        "Pneumonitis in this patient is likely from cardiac dysfunction due to chemotherapy",
+        "The patient is not at increased risk of infection"
+      ],
+      "correct": 2,
+      "explanation": "PD-L1 on tumour cells interacts with PD-1 on T-cells to dampen T-cell function and let the tumour evade the immune system, so checkpoint inhibitors that block this interaction do not by themselves increase infection risk. However, when immune-related adverse events occur — as with this patient's pneumonitis — the immunosuppressive treatment used to manage them (prednisone or TNF-α inhibitors such as infliximab) does increase infection risk, sometimes called the \"domino effect\". Intubation in patients with incurable oncological disease is a delicate decision that should generally be avoided and discussed with the patient and family rather than pursued reflexively.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imc_fa07",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Post-transplant infection timing",
+      "question": "A 35 year old male has recently undergone an allogenic bone marrow transplant and 9 days post-transplant he is admitted to the ICU with fever, tachycardia, elevated lactate and hypotension. He has leucopenia with an absolute neutrophil count of 34/mm3. He is started on Vancomycin, Levofloxacin and Cefepime but remains hypotensive despite fluid resuscitation (BP 85/43 mmHg), and norepinephrine is started. Over the next 3 days he remains febrile with negative urine, blood and sputum cultures and remains on vasopressor support. What should be added to his regimen?",
+      "options": [
+        "Daptomycin",
+        "Acyclovir",
+        "Metronidazole",
+        "Piperacillin-tazobactam",
+        "Amphotericin B"
+      ],
+      "correct": 4,
+      "explanation": "Allogeneic haematopoietic stem cell transplant recipients follow a predictable pattern of infection susceptibility based on time from transplant. This patient is in Phase I (within 30 days, the pre-engraftment phase, dominated by neutropenia), and has remained febrile on broad-spectrum antibacterial therapy with negative cultures despite 3 days of treatment — a scenario in which persistent neutropenic fever should prompt empirical antifungal coverage. Amphotericin B should therefore be added to his regimen.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imc_fa08",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Cryptococcal disease",
+      "question": "A 42 year old male with End-Stage Renal Disease underwent a renal transplant 4 months ago and he is now admitted to hospital with headache, nausea, vomiting and photophobia. His induction therapy was with Alemtuzumab and post-transplant he has been on Tacrolimus and Mycophenolate mofetil for immunosuppression. Physical examination is unremarkable. Routine urinalysis, Complete Blood Count and CRP are unremarkable. Chest X-ray, abdominal ultrasound and graft ultrasound are unremarkable too. His lumbar puncture has an elevated opening pressure with low glucose, elevated protein and normal cell counts. The patient should be started on:",
+      "options": [
+        "Liposomal amphotericin B and flucytosine",
+        "Fluconazole",
+        "Vancomycin and Piperacillin/tazobactam",
+        "Acyclovir",
+        "Ampicillin"
+      ],
+      "correct": 0,
+      "explanation": "Solid organ and haematopoietic stem cell transplant recipients develop infections in a predictable pattern based on time since transplant and prophylaxis received. At 4 months post-transplant this patient is at increased risk of Cryptococcal infection, and his presentation (headache, nausea, vomiting, photophobia, elevated opening pressure with low CSF glucose, high protein and a normal cell count) is characteristic of cryptococcal meningitis. Diagnosis requires a high index of suspicion, careful history and neurologic exam, serum cryptococcal antigen, and lumbar puncture to assess intracranial pressure and culture CSF. IDSA guidelines recommend induction therapy with amphotericin B deoxycholate (or liposomal amphotericin B, preferred when there is renal function concern, as in this patient) plus flucytosine for 2 weeks, followed by consolidation and maintenance fluconazole.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imc_fa09",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Apheresis complications",
+      "question": "A 48-year-old man who returned from Mexico 4 days ago presented to the ED complaining of paraesthesia of both feet on his return flight. Symptoms have progressed to bilateral lower limb weakness and somewhat laboured breathing. He reported having a bout of diarrhoea associated with blood when he was in Mexico. He has absent knee and ankle jerk reflexes with 2/5 strength in both lower limbs. Otherwise, vital signs and physical examination are unremarkable. A lumbar puncture showed protein 260 mg/dL, glucose 70 mg/dL and 1 white blood cell with no red blood cells. An electromyography confirms the diagnosis of Guillain-Barre Syndrome (GBS). He is started on therapeutic plasmapheresis with albumin as a replacement fluid. After the 3rd session of plasmapheresis, although his neurological symptoms were improving, the patient experiences increased dyspnoea associated with productive cough and fever. His chest X-ray is consistent with a left lower lobe consolidation. Vital signs are: BP 86/45 mmHg, Pulse 120/min, Respiratory rate 20/min, Oxygen saturation of 89% on room air and Temperature 38.7 C. Blood and sputum cultures are sent before starting broad spectrum antibiotics and IV fluids. He is now supported by oxygen 4 L/min via nasal cannula with improvement in his vital signs (SaO2 93%, BP 97/51 mmHg). Which of the following is the next step in management?",
+      "options": [
+        "Perform a bronchoscopy in order to send a culture directly from the lung and identify the causative pathogens",
+        "Check Immunoglobin G levels to make sure there is no iatrogenic immunosuppression",
+        "Give intravenous furosemide (because systolic blood pressure is above 90 mmHg) in order to improve gas exchanges",
+        "High dose Methylprednisone can be used both for immunosuppression of GBS and treatment of pneumonia",
+        "Start non-invasive mechanical ventilation (NIV) to support breathing and reduce dyspnoea"
+      ],
+      "correct": 1,
+      "explanation": "When albumin is used as the replacement fluid during plasmapheresis, removal of immunoglobulins and complement can predispose patients to infection: one plasma volume exchange causes roughly a 60% reduction in serum immunoglobulin levels and a net 20% reduction in total body immunoglobulin stores. This patient has developed a severe infection (pneumonia with septic physiology) shortly after his third plasma exchange, so his immunoglobulin G level should be checked; if it is low (particularly below 500 mg/dL), a reasonable approach is to restore levels with a single infusion of intravenous immunoglobulin (IVIG, 100-400 mg/kg).",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}

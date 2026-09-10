@@ -1,0 +1,275 @@
+{
+  "module": "EPICC: Long Term Outcomes after Surgery",
+  "source": "esicm_final_assessment",
+  "total_questions": 10,
+  "sections": {
+    "Case: perioperative risk factors": "A 68-year-old man with insulin-dependent diabetes and well-controlled hypertension, who smokes, undergoes a left hemicolectomy. Age, gender, and significant cardiac comorbidities are known risk factors for poorer long-term outcomes. Smoking mainly affects short-term outcomes and increases cardiovascular morbidity; the surgical procedure itself should also be considered high-risk. Functional status and renal function are important additional pieces of information to elicit.",
+    "Case: postoperative complications and diagnosis": "Treated per ERAS principles with an uneventful intraoperative course, the patient becomes tachypnoeic with low-grade fever and new atrial fibrillation on postoperative day 2. With an RCRI of 2 (6.6% cardiac complication risk) after high-risk surgery, perioperative myocardial injury should be considered even though it is usually asymptomatic and may be masked by diabetes and postoperative opioids. Postoperative pulmonary complications, venous thromboembolism (including pulmonary embolism), and wound or other infection should also be considered.",
+    "Case: cardiac biomarkers and preoperative optimisation": "ERAS manages pain, mobilisation and nutrition well but does not specifically address cardiovascular or respiratory morbidity. Current guidelines recommend postoperative troponin surveillance to detect myocardial injury; preoperative NT-proBNP appears useful in vascular surgical patients and preoperative hsTnT may help categorise risk, though no interventional trials yet show a benefit of specific preoperative therapies on long-term cardiovascular outcomes. Until such evidence exists, the practical approach is meticulous preoperative risk assessment (including biomarkers), preoperative optimisation of cardioprotective medication, continuation or reinstatement of cardiac medication as soon as possible, and scheduled (not purely symptom-triggered) postoperative surveillance.",
+    "Case: pulmonary risk assessment": "Calculating the ARISCAT score helps categorise the risk of postoperative pulmonary complications, and the anaesthetist can elicit the additional history, clinical findings and laboratory results needed to do this. Small trials suggest a possible benefit from postoperative CPAP, but there is still no evidence from large randomised studies to support its routine use.",
+    "Case: evidence for improving long-term outcomes": "There is no direct evidence that a specific treatment improves long-term outcomes in high-risk surgical patients beyond surgery-specific interventions. However, well-conducted epidemiological and cohort studies consistently show that meticulous perioperative management — identifying risk and preventing cardiovascular, respiratory and renal complications — reduces short-term mortality and complications. Because complications have such a profound effect on long-term outcomes, interventions directed at improving short-term outcomes are likely to also improve long-term prognosis.",
+    "Case: patient-reported and long-term outcome measures": "Health-related quality-of-life measures traditionally assess physiological function and subjective health and wellbeing, but other patient-reported outcome measures may be more specifically amenable to intervention — for example, the Quality of Recovery Score, which covers emotional state, physical comfort, psychological support, physical independence and pain control. Improvement in short-term recovery may plausibly lead to long-term benefits (e.g. prevention of chronic pain), though this is unstudied. Disability-free survival is an increasingly important long-term outcome measure, as many patients remain disabled and dependent on healthcare services after surgery."
+  },
+  "questions": [
+    {
+      "id": "ltos_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Definitions of long-term outcomes",
+      "question": "The 'long-term' outcomes refer to patient status after the immediate postoperative period. Typically this will be X days after surgery, where X is:",
+      "options": [
+        "5 days",
+        "15 days",
+        "30 days",
+        "60 days",
+        "90 days"
+      ],
+      "correct": 2,
+      "explanation": "Long-term postoperative outcomes are conventionally defined as status beyond the acute 30-day window, which is also the standard timeframe used for surgical mortality and morbidity reporting. Shorter intervals capture only the immediate in-hospital course, while longer intervals are used less commonly as the primary long-term benchmark.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ltos_fa02",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Surgical mortality epidemiology",
+      "question": "The average 30-day mortality rate for patients undergoing elective surgery is:",
+      "options": [
+        "0.2%",
+        "0.5%",
+        "1.0%",
+        "2.0%",
+        "5.0%"
+      ],
+      "correct": 1,
+      "explanation": "Average 30-day mortality after elective surgery is approximately 0.5%, though this varies substantially with patient risk and the type and urgency of the procedure. Higher figures are more typical of high-risk or emergency surgery, while 0.2% underestimates the pooled elective-surgery rate.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ltos_fa03",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Outcome measurement: process vs outcome measures",
+      "question": "An example of a process measure includes:",
+      "options": [
+        "In-hospital mortality",
+        "Postoperative morbidity",
+        "Incidence of postoperative pneumonia",
+        "Length of hospital stay",
+        "Lung function tests"
+      ],
+      "correct": 3,
+      "explanation": "Process measures assess how care is delivered rather than its clinical result, so length of hospital stay reflects care delivery and resource use rather than a clinical endpoint. Mortality, morbidity, pneumonia incidence, and lung function tests all capture the result of care and are therefore outcome measures, not process measures.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ltos_fa04",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Perioperative risk stratification",
+      "question": "Which of these scores predict long-term mortality risk?",
+      "options": [
+        "American Society of Anesthesiologists Physical Status (ASA-PS)",
+        "ARISCAT",
+        "NSQIP-MICA",
+        "Revised Cardiac Risk Index",
+        "Surgical Apgar"
+      ],
+      "correct": 0,
+      "explanation": "ASA Physical Status correlates with long-term mortality risk because it reflects overall baseline comorbidity burden rather than only immediate perioperative risk. ARISCAT and the Revised Cardiac Risk Index are validated for short-term postoperative pulmonary and cardiac complications respectively, NSQIP-MICA predicts perioperative cardiac events, and Surgical Apgar predicts early postoperative complications — none was designed primarily as a long-term mortality predictor.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ltos_fa05",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Perioperative risk stratification",
+      "question": "Which of the following is true regarding perioperative risk stratification?",
+      "options": [
+        "Cardiac biomarkers such as NT-proBNP and hsTnT should be not routinely used for cardiac risk stratification",
+        "The NSQIP MICA risk calculator provides good estimates of long-term cardiovascular risk",
+        "Patients on direct anticoagulants should have these bridged with shorter-acting agents",
+        "High-risk patients benefit from elective admission to intensive care units",
+        "The Clavien-Dindo system helps predict post-operative complications"
+      ],
+      "correct": 0,
+      "explanation": "Current evidence does not support routine preoperative use of cardiac biomarkers such as NT-proBNP and hsTnT for risk stratification, even though postoperative troponin surveillance is recommended for detecting perioperative myocardial injury. NSQIP-MICA is validated for short- rather than long-term cardiovascular risk, direct oral anticoagulants generally do not require bridging, routine elective ICU admission has not shown benefit for high-risk patients, and Clavien-Dindo grades complication severity retrospectively rather than predicting complications.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ltos_fk01",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Clavien-Dindo classification",
+      "question": "The Clavien-Dindo system for classifying and grading postoperative complications includes:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Three severity categories (grades I-III)",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Pharmacological therapy to treat a complication",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Death",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Surgery to treat a complication",
+          "correct": true
+        }
+      ],
+      "explanation": "Clavien-Dindo grades complications I to V by the therapy required to treat them, not just three categories: grade I is no specific treatment, II is pharmacological treatment, IIIa/b is intervention without/with general anaesthesia (including reoperation), IVa/b is life-threatening single/multi-organ dysfunction, and V is death.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ltos_fk02",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Patient-reported outcome measures",
+      "question": "The following are patient-reported outcome measures:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Quality of life",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Quality of recovery",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Myocardial infarction",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Critical care free days",
+          "correct": false
+        }
+      ],
+      "explanation": "Patient-reported outcome measures capture the patient's own assessment of health status or quality of life, such as quality of life and quality of recovery scores. Myocardial infarction is a clinician-diagnosed clinical event and critical care free days is a derived metric calculated from length-of-stay data — neither is reported directly by the patient.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ltos_fk03",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Risk factors for postoperative mortality",
+      "question": "Non-modifiable risk factors for postoperative mortality include:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Age",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "ASA grade",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Postoperative morbidity",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Peak oxygen consumption before surgery",
+          "correct": false
+        }
+      ],
+      "explanation": "Age and ASA grade reflect fixed patient characteristics or comorbidity burden at the time of surgery and cannot be altered preoperatively. Preoperative peak oxygen consumption, by contrast, can be improved through prehabilitation and exercise programmes, and postoperative morbidity is itself a downstream complication rather than a fixed patient trait — both are better considered modifiable or outcome variables rather than non-modifiable risk factors.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ltos_fk04",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "NSQIP",
+      "question": "The American College of Surgeons National Surgical Quality Improvement Program:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Allows calculation of 30-day risk-adjusted surgical outcomes and comparisons between hospitals",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Is mandatory for hospitals in the United States",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Is an outcomes-based program to measure and improve the quality of surgical care",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Data is collected retrospectively",
+          "correct": false
+        }
+      ],
+      "explanation": "NSQIP is a voluntary, outcomes-based quality-improvement program that collects clinical data prospectively, not retrospectively, allowing risk-adjusted 30-day surgical outcome comparisons between participating hospitals. Participation is voluntary rather than mandatory in the United States.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ltos_fk05",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "ERAS",
+      "question": "The treatment program Enhanced Recovery After Surgery (ERAS):",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Clearly improves long-term survival following surgery",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Is a bundle of interventions that covers the entire perioperative period",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Has one uniform guideline for all types of surgery/specialities",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Shortens time to recovery and reduces complications",
+          "correct": true
+        }
+      ],
+      "explanation": "ERAS is a multimodal bundle of evidence-based interventions spanning the pre-, intra- and postoperative periods, and it robustly shortens recovery time and reduces complications. Procedure-specific guidelines exist for different types of surgery rather than one uniform protocol, and a clear long-term survival benefit has not been consistently demonstrated despite the short-term gains.",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}
