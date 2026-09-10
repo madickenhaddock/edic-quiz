@@ -1,0 +1,277 @@
+{
+  "module": "FA Immunocompromised Patients Part III+IV (Final Assessment, batch 2 of 2)",
+  "source": "esicm_final_assessment",
+  "total_questions": 11,
+  "sections": {
+    "Opportunistic infection prophylaxis in HIV/AIDS (by CD4+ threshold)": "Pneumocystis jirovecii pneumonia: CD4 <200 cells/uL, prophylaxis TMP-SMX (alternatives atovaquone, dapsone). Toxoplasmosis: CD4 <100 cells/uL, prophylaxis TMP-SMX. Histoplasmosis: CD4 <100 cells/uL and residence in an endemic area, prophylaxis itraconazole. Mycobacterium avium complex: CD4 <50 cells/uL, prophylaxis azithromycin or clarithromycin. Mycobacterium tuberculosis: any CD4 level with a positive tuberculin skin test (>5mm) or contact with active TB, prophylaxis isoniazid plus pyridoxine, or rifampin. Adapted from www.medinterestgroup.com.",
+    "Primary antimicrobial prophylaxis in transplant patients": "Bacterial infections: neutropenic patients in the pre-engraftment period (0-100 days) of HSCT, prophylaxis with fluoroquinolones. Cytomegalovirus: CMV D-/R+, D+/R+, or D+/R- pairings, preemptive or universal therapy with IV ganciclovir (alternatives oral valganciclovir, foscarnet); D-/R- pairings do not require antiviral prophylaxis. Varicella zoster virus: VZV-seropositive patients, prophylaxis acyclovir (alternative valacyclovir). Herpes simplex virus: HSV-seropositive patients, prophylaxis acyclovir (alternative valacyclovir). Epstein-Barr virus: patients at high risk of EBV reactivation, prophylaxis rituximab. Hepatitis B: HBsAg-seropositive patients, prophylaxis lamivudine (alternatives entecavir, tenofovir). Pneumocystis jirovecii: all solid organ and allogeneic/autologous HSCT recipients with haematologic malignancy or myeloablative conditioning, prophylaxis TMP-SMX (alternatives dapsone, atovaquone, pentamidine). Fungal infections: HSCT patients with prolonged neutropenia, prophylaxis fluconazole or itraconazole (alternatives micafungin, voriconazole, posaconazole). Adapted from Tomblyn et al. Biology of blood and marrow transplantation. J Am Soc Blood Marrow Transplant. 2009;15(10):1143-1238."
+  },
+  "questions": [
+    {
+      "id": "imc3_sa01",
+      "type": "A",
+      "set": 1,
+      "source": "sba_generated",
+      "section": "Acute respiratory failure in an immunocompromised patient",
+      "question": "A 38 year-old male with past medical history of HIV presented to the emergency department (ED) with a 1 week history of dyspnea, minimally productive cough and fever. He denies chest pain, haemoptysis, weight loss and night sweats. He reports no recent travels and no sick contacts. Home medications include dolutegravir, tenofovir and emtricitabine and some vitamins. Physical examination revealed a young man in respiratory distress with vital signs: temperature 38.4 C, respiratory rate 26/min, heart rate 108 bpm, blood pressure 98/60 mmHg, and oxygen saturation 87% on room air. He was oriented to time, place and person; cardiovascular exam was normal except for tachycardia, and chest auscultation revealed mild crackles at mid and lower lung zones bilaterally. Abdomen was non-tender, no pedal oedema. Complete blood count: WBC 12,000/mm3, Haemoglobin 8.4 g/dL, Haematocrit 26.8%, Platelets 167,000/mm3, Neutrophils 80%, Lymphocytes 12%, Basophils 1%, Eosinophils 3%, Monocytes 1%, Bands 7%. Chemistry: Sodium 140 mEq/L, Potassium 4.0 mEq/L, Chloride 100 mEq/L, Bicarbonate 19 mEq/L, BUN 40 mg/dL, Creatinine 1.8 mg/dL, liver function tests normal, LDH 430. Toxoplasma Ab positive, CD4+ count 170 cells/microL, HIV viral load 300,000 copies/mL. Urinalysis normal. Chest X-ray reveals diffuse bilateral perihilar interstitial infiltrates. What is the most likely diagnosis?",
+      "options": [
+        "Pulmonary tuberculosis",
+        "Pulmonary embolism",
+        "Toxoplasmosis",
+        "Pulmonary edema",
+        "Pneumocystis pneumonia"
+      ],
+      "correct": 4,
+      "explanation": "The presentation of subacute fever, dyspnea and cough in a person with HIV with a CD4+ count below 200 cells/microL, together with diffuse bilateral perihilar interstitial infiltrates on chest radiograph, is most consistent with Pneumocystis pneumonia (PCP). Pulmonary embolism and pulmonary edema should be considered in any patient with worsening dyspnea, tachypnea and tachycardia, but the overall history and imaging fit PCP better. The presentation is too acute and the radiographic pattern is not typical for pulmonary tuberculosis. Toxoplasmosis is only common in HIV when CD4+ is below 100 cells/microL, and a positive antibody assay does not discriminate active from past infection. Patients with HIV/AIDS and CD4+ counts below 200 cells/microL who are not on prophylaxis are at risk of PCP, which presents with nonspecific fever, progressive dyspnea and non-productive cough, and on examination may show respiratory distress, tachypnea, tachycardia and hypoxia with crackles or even normal lung sounds.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imc3_sa02",
+      "type": "A",
+      "set": 1,
+      "source": "sba_generated",
+      "section": "Acute respiratory failure in an immunocompromised patient",
+      "question": "The patient described (38 year-old male with HIV, CD4+ 170 cells/microL, presumed Pneumocystis pneumonia) was started on antibiotics for community acquired pneumonia. What additional medication should the patient be started on?",
+      "options": [
+        "Furosemide",
+        "Anticoagulation with IV unfractionated heparin",
+        "Pyrimethamine with Sulfadiazine",
+        "Isoniazid, Rifampin, Pyrazinamide and Ethambutol",
+        "Trimethoprim and Sulfamethoxazole"
+      ],
+      "correct": 4,
+      "explanation": "Given the presumptive diagnosis of Pneumocystis pneumonia, empirical treatment with trimethoprim-sulfamethoxazole should be started. Pyrimethamine with sulfadiazine is treatment for toxoplasmosis, which is not the working diagnosis here. Isoniazid, rifampin, pyrazinamide and ethambutol treat tuberculosis, which is inconsistent with this acute presentation and imaging pattern. Heparin and furosemide would only be relevant if pulmonary embolism or pulmonary oedema were the diagnosis.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imc3_sa03",
+      "type": "A",
+      "set": 1,
+      "source": "sba_generated",
+      "section": "Acute respiratory failure in an immunocompromised patient",
+      "question": "In addition to starting treatment for presumed Pneumocystis pneumonia, the patient received oxygen supplementation via facemask at 4 L/min and oxygen saturation improved to 95%. Arterial blood gas obtained on room air showed pH 7.25, PCO2 30 mmHg, PO2 60 mmHg. What additional medication should the patient receive?",
+      "options": [
+        "Prednisone",
+        "Pyridoxine",
+        "Metoprolol",
+        "Isosorbide Dinitrate",
+        "Alteplase"
+      ],
+      "correct": 0,
+      "explanation": "Adjunctive corticosteroids are indicated in Pneumocystis pneumonia when there is moderate-to-severe hypoxaemia, defined as a room-air PaO2 below 70 mmHg (or an elevated A-a gradient); this patient's room-air PO2 of 60 mmHg meets that threshold, so prednisone should be added to his treatment. Pyridoxine is given to prevent isoniazid-associated neuropathy and is not relevant here since tuberculosis is not the diagnosis; metoprolol and isosorbide dinitrate are cardiac medications, and alteplase is a thrombolytic for pulmonary embolism, none of which are indicated in this case.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imc3_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Fungal infection in HIV",
+      "question": "A 42 year-old woman with a past medical history of HIV is admitted with progressively worsening shortness of breath and malaise. She also complains of fever, chills, wheezing, and cough with yellow sputum. She is intermittently compliant with her cHART therapy and her CD4+ cell count is 75/uL. Chest CT is shown. The patient should be started on.",
+      "options": [
+        "Ceftriaxone",
+        "Vancomycin and Cefepime",
+        "Voriconazole",
+        "Acyclovir",
+        "Ampicillin"
+      ],
+      "correct": 2,
+      "explanation": "Patients with HIV have a predictable pattern of susceptibility to infections determined by their CD4+ count, and this patient's CD4+ count of 75/uL puts her at risk of fungal infections. Her chest CT shows a pulmonary nodule with surrounding ground-glass opacity (the \"halo sign\"), typically seen in angio-invasive Aspergillosis. She should be started on empiric voriconazole pending testing for Aspergillus.",
+      "image": "images/imc3_fa01.png",
+      "section_url": null
+    },
+    {
+      "id": "imc3_fa02",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "CMV after solid organ transplantation",
+      "question": "CMV is one of the most significant viruses after solid organ transplantation (SOT). Regarding CMV in this context, indicate whether each statement is TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "CMV can precipitate graft rejection.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "At highest risk of CMV infection are seropositive patients receiving a seronegative organ.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Ganciclovir and Valganciclovir are used for CMV prophylaxis.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Ganciclovir-resistant CMV has a poor outcome and no therapeutic options are available.",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "CMV colitis is an important differential diagnosis in SOT patients with diarrhea.",
+          "correct": true
+        }
+      ],
+      "explanation": "Patients who are CMV-seropositive receiving a seronegative organ are at intermediate risk; the highest-risk constellation in solid organ transplantation is a CMV-seronegative recipient receiving an organ from a seropositive donor (D+/R-). Ganciclovir and valganciclovir are both myelosuppressive (neutropenia is a common complication) and are used for CMV prophylaxis. Ganciclovir-resistant CMV does have a poor outcome, but therapeutic options do exist, albeit toxic ones (foscarnet and cidofovir), with newer drugs, adoptive T-cell transfer and monoclonal antibodies currently being investigated. CMV colitis is an important differential diagnosis to consider in solid organ transplant patients presenting with diarrhoea.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imc3_fa03",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Neutropenic patients",
+      "question": "Regarding neutropenic patients, indicate whether each statement is TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Severe neutropenia is usually defined as an absolute neutrophil count <1500 cells/uL.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Fever in a neutropenic patient is a common complication and is defined as a temperature >38.5C.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Relevant HSV infections in neutropenic patients are mostly primo-infections and can lead to oral or oesophageal ulcera as well as organ manifestation such as encephalitis, myelitis, pneumonia and hepatitis.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Neutropenic patients with fever who have received CAR-T cell therapy within the past 2 months are considered high risk.",
+          "correct": true
+        },
+        {
+          "label": "E",
+          "text": "In a neutropenic patient with cough and a normal conventional chest radiograph, the additional benefit of a high-resolution CT scan of the chest is negligible.",
+          "correct": false
+        }
+      ],
+      "explanation": "Severe neutropenia is usually defined as an absolute neutrophil count below 500 cells/uL, not 1500. Fever in neutropenic patients is defined as a single oral temperature measurement above 38.3C, or a temperature of 38C or above sustained over a one-hour period (two measurements), not a single measurement above 38.5C. Relevant HSV infections in neutropenic patients are mostly due to reactivation of latent infection in seropositive patients rather than primo-infection, with likelihood influenced by chemotherapy's impact on cytotoxic T-lymphocytes; the listed HSV manifestations (oral/oesophageal ulcers, encephalitis, myelitis, pneumonia, hepatitis) are themselves accurate. Neutropenic patients with fever who have received CAR-T cell therapy within the preceding 2 months are indeed considered high risk. Conventional chest radiographs are less sensitive than high-resolution CT for showing abnormalities, so in neutropenic patients with signs of a lower respiratory tract infection, CT of the chest is the diagnostic method of choice even with a normal radiograph.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imc3_fa04",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Breakthrough candidaemia on fluconazole prophylaxis",
+      "question": "A 22 year-old patient with AML and induction chemotherapy 14 days ago develops fever. Blood culture shows growth of Candida spp. The patient received prophylaxis with fluconazole. Regarding management, indicate whether each statement is TRUE or FALSE.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Growth of Candida spp might be a contamination, therefore no change of the antimicrobial regime is necessary.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "A change in antifungal therapy is necessary.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Candida krusei and glabrata are usually sensitive to fluconazole.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "The central line of the patient needs to be changed.",
+          "correct": true
+        },
+        {
+          "label": "E",
+          "text": "Ophthalmologic examination to evaluate for endophthalmitis should be performed as soon as possible.",
+          "correct": false
+        }
+      ],
+      "explanation": "Candida growing from blood culture is never dismissed as contamination and always requires action. Breakthrough candidaemia while on fluconazole prophylaxis raises concern for a fluconazole-less-susceptible species, so a change in antifungal therapy (typically to an echinocandin) is necessary rather than continuing fluconazole. Candida krusei is intrinsically resistant to fluconazole and Candida glabrata frequently has reduced susceptibility, so neither is usually reliably sensitive to fluconazole. Central venous catheters are a common source of candidaemia, so the line should be removed or changed as part of source control.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imc4_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Opportunistic infection prophylaxis in HIV",
+      "question": "A 23-year old man with newly diagnosed HIV is admitted to the ICU for DKA. His CD4+ cell count is found to be 162 cells/uL. Prophylaxis should be initiated for what opportunistic infection?",
+      "options": [
+        "Toxoplasmosis",
+        "Mycobacterium Avium Complex",
+        "Mycobacterium Tuberculosis",
+        "Pneumocystis Jirovecii",
+        "Varicella Zoster"
+      ],
+      "correct": 3,
+      "explanation": "The incidence of Pneumocystis jirovecii opportunistic infection rises considerably in people living with HIV/AIDS when the CD4+ cell count drops below 200 cells/uL, which is the threshold at which prophylaxis should be initiated, with trimethoprim-sulfamethoxazole as first-line and atovaquone or dapsone as second-line options. Toxoplasmosis prophylaxis is indicated at CD4+ below 100 cells/uL, Mycobacterium avium complex prophylaxis at CD4+ below 50 cells/uL, and tuberculosis prophylaxis is based on tuberculin skin test/contact history rather than CD4+ count alone — none of these thresholds is met by a CD4+ count of 162 cells/uL.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imc4_fa02",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "CMV prophylaxis after liver transplant",
+      "question": "A 45-year old Vietnamese woman with a history of Chronic Hepatitis C undergoes a liver transplant. During the transplant evaluation, she is found to be Cytomegalovirus (CMV) positive, and the organ donor was CMV negative. Which of the following medications should be strongly considered for prophylaxis post-transplant?",
+      "options": [
+        "Ciprofloxacin",
+        "Valganciclovir",
+        "Lamivudine",
+        "Fluconazole",
+        "None of the above"
+      ],
+      "correct": 1,
+      "explanation": "CMV infections are at high risk of reactivating or progressing under post-solid-organ-transplant immunosuppression. The only donor-recipient pairing where antiviral prophylaxis is not indicated is when both donor and recipient are confirmed CMV-negative; all other pairings (D-/R+, D+/R+, D+/R-, as in this patient) mandate antiviral prophylaxis with agents such as ganciclovir, valganciclovir or foscarnet. Ciprofloxacin and other fluoroquinolones are used for bacterial prophylaxis in neutropenic HSCT recipients rather than CMV. Lamivudine is used for antiviral prophylaxis in post-transplant patients who are HBsAg-seropositive, and fluconazole is used for antifungal prophylaxis in neutropenic HSCT recipients — neither addresses CMV.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imc4_fa03",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Catheter-related MSSA bacteraemia",
+      "question": "A 73 year-old man is admitted to the intensive care unit with fever (38.2 C) and hypotension (81/47 mmHg). He was diagnosed with colon cancer and is undergoing neo-adjuvant chemotherapy prior to colon resection. He has a peripherally inserted central line catheter (PICC) for outpatient chemotherapy. His chest X-ray and urinalysis are unremarkable. Laboratory exam shows WBC 18,000/mm3, Haemoglobin 13.2 g/dL, platelets 243,000/mm3, a normal comprehensive metabolic panel except an anion gap of 18, and a lactic acid of 3.9 mmol/L. After obtaining blood cultures from both peripheral blood and the PICC line, he is started on vancomycin and cefepime; 2 L of intravenous fluids are given but low-dose norepinephrine is started because systolic blood pressure remains below 90 mmHg. By hospital day 2 his condition has improved and he is off norepinephrine for over 24 hours and doing well. His blood cultures are growing methicillin-sensitive Staphylococcus aureus in both sets, with the PICC line culture becoming positive earlier than the peripheral one. Which of the following is NOT the next step in management?",
+      "options": [
+        "Remove the PICC line immediately",
+        "Stop Vancomycin and Cefepime and start on intravenous nafcillin",
+        "Give a bolus of gentamycin via PICC line and repeat cultures",
+        "Repeat blood cultures",
+        "Consider Echocardiography if persistently positive blood cultures"
+      ],
+      "correct": 2,
+      "explanation": "Source control is an integral part of sepsis management. As in this case, the likely source of bacteraemia is an infected PICC line, which should be removed promptly — so removing the PICC line is an appropriate next step, not the exception. Antimicrobial stewardship is important, and therapy should be narrowed to nafcillin once culture and sensitivity results identify methicillin-sensitive Staphylococcus aureus. Gram-positive bacteraemia should be followed with repeat blood cultures to confirm clearance, and echocardiography should be considered if bacteraemia persists. Administering a gentamicin bolus through a catheter that is itself the infected source, rather than removing it, is not an appropriate next step, and gentamicin is not a standard addition for MSSA bacteraemia.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "imc4_fa04",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Hand hygiene in the ICU",
+      "question": "Which of the following statements is TRUE regarding hand washing as an intervention for preventing infection in the ICU?",
+      "options": [
+        "Alcohol-based disinfectants are adequate for preventing the transmission of Clostridium difficile spores",
+        "Hand hygiene is an infection prevention strategy that is only important when dealing with immunocompromised patients",
+        "Patient families are better than ICU staff at adhering to hand washing policies",
+        "The WHO SAVE LIVES initiative identifies 4 important moments hand hygiene should be performed: (1) before touching a patient; (2) before clean/aseptic procedures; (3) after touching a patient; (4) after touching patient surroundings",
+        "Hand washing with antibacterial soap is not recommended for visibly soiled hands - chlorhexidine-based hand sanitisers are preferred"
+      ],
+      "correct": 2,
+      "explanation": "Multiple surveillance studies, including video surveillance, have shown that ICU staff are regularly worse than patient families when it comes to routine adherence to hand washing policies. Hand washing with antibacterial soap is recommended over chlorhexidine- and alcohol-based disinfectants for cleansing visibly soiled hands and for preventing transmission of Clostridium difficile and other spore-forming organisms, since alcohol-based products are not adequate against spores. Hand hygiene is important for all patient contacts regardless of immune status, not only for immunocompromised patients. The WHO SAVE LIVES initiative identifies 5, not 4, important moments for hand hygiene: before touching a patient, before clean/aseptic procedures, after body fluid exposure/risk, after touching a patient, and after touching patient surroundings.",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}
