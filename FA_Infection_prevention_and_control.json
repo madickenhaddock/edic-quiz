@@ -1,0 +1,628 @@
+{
+  "module": "FA Infection prevention and control",
+  "sections": {},
+  "questions": [
+    {
+      "id": "ipc_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following is NOT listed as a core component of the multimodal HAI prevention strategy in the ICU?",
+      "options": [
+        "Strict hand hygiene",
+        "Routine prophylactic antibiotic therapy for all ICU patients",
+        "Surveillance of HAI rates",
+        "Implementation of evidence-based care bundles",
+        "Structured education programmes for ICU staff"
+      ],
+      "correct": 1,
+      "explanation": "Routine prophylactic antibiotics are explicitly not recommended as a HAI prevention strategy. Rather than reducing HAI incidence, such an approach carries the risk of a selection of antimicrobial-resistant organisms. The five recognised core components are hand hygiene, environmental disinfection, care bundles, staff education, and HAI surveillance."
+    },
+    {
+      "id": "ipc_fa02",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "What is described as the most common route of catheter infection leading to CRBSI?",
+      "options": [
+        "Haematogenous seeding from a distant infection focus",
+        "Contamination of intravenous fluids during preparation",
+        "Translocation of gut flora across the intestinal mucosa",
+        "Inoculation of bacteria from the skin along the subcutaneous tract during insertion",
+        "Retrograde colonisation from infected hub connections"
+      ],
+      "correct": 3,
+      "explanation": "Migration of skin flora along the external subcutaneous tract at the time of insertion is considered the most frequent route of CRBSI, particularly in the early period after catheter placement. Hub contamination via exogenous sources represents the second most important route, becoming relatively more significant the longer the catheter remains in situ."
+    },
+    {
+      "id": "ipc_fa03",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following best defines a healthcare-associated infection (HAI)?",
+      "options": [
+        "An infection that was present at the time of hospital admission",
+        "An infection occurring more than 48 hours after admission that was not incubating on admission",
+        "Any infection caused by a multidrug-resistant organism",
+        "An infection exclusively linked to the use of an endotracheal tube",
+        "An infection that resolves spontaneously without antimicrobial therapy"
+      ],
+      "correct": 1,
+      "explanation": "HAIs are defined as infections that occur in association with healthcare and are neither present nor incubating at the time of admission. They can also become apparent after discharge."
+    },
+    {
+      "id": "ipc_fa04",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Approximately what proportion of CRBSI and CAUTI cases could be prevented by consistent application of evidence-based strategies?",
+      "options": [
+        "10-20%",
+        "30-40%",
+        "45-55%",
+        "65-70%",
+        "85-90%"
+      ],
+      "correct": 3,
+      "explanation": "Up to 65-70% of CRBSI and CAUTI cases, and approximately 55% of VAP cases, are preventable through consistent application of current evidence-based prevention strategies, underlining that these infections are far from inevitable."
+    },
+    {
+      "id": "ipc_fa05",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "According to current guidelines, when should a central venous catheter be replaced over a guidewire?",
+      "options": [
+        "Routinely every 7 days to prevent colonisation",
+        "Whenever a new antibiotic is initiated for suspected CRBSI",
+        "After 5 days in femoral position",
+        "Guidewire exchanges are not recommended and should not be performed for CRBSIs",
+        "Whenever blood cultures become positive, regardless of catheter appearance"
+      ],
+      "correct": 3,
+      "explanation": "Guidewire exchanges are explicitly not recommended for suspected or confirmed CRBSI or for catheter-related insertion site infection. Routine scheduled replacement is equally discouraged. Instead, catheters should be removed at the earliest clinical opportunity, with review of the continued indication being a key prevention measure."
+    },
+    {
+      "id": "ipc_fa06",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which staffing factor is identified as independently associated with an increased risk of HAIs?",
+      "options": [
+        "Nurse rotation across multiple ICU bays",
+        "Use of agency nurses unfamiliar with local protocols",
+        "An unfavourable nurse-to-patient ratio",
+        "Reduced physician overnight coverage",
+        "High turnover of junior trainees during out-of-hours shifts"
+      ],
+      "correct": 2,
+      "explanation": "An unfavourable nurse-to-patient ratio is independently associated with a significantly increased risk of HAIs, highlighting that infection prevention is inseparable from adequate ICU staffing. Nurses are identified throughout the course as key actors in prevention and surveillance, making staffing levels a structural determinant of patient safety."
+    },
+    {
+      "id": "ipc_fa07",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which skin antiseptic is recommended as superior to povidone-iodine for central venous catheter insertion?",
+      "options": [
+        "Isopropyl alcohol 70%",
+        "Chlorhexidine 2%",
+        "Povidone-iodine 10% in alcohol",
+        "Hydrogen peroxide 3%",
+        "Sodium hypochlorite 0.05%"
+      ],
+      "correct": 1,
+      "explanation": "Chlorhexidine 2% is described as a more effective skin antiseptic than povidone-iodine for reducing the risk of CRBSI. It forms part of the core bundle of insertion-related prevention measures alongside maximal barrier precautions and appropriate site selection."
+    },
+    {
+      "id": "ipc_fa08",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "What defines a nurse-driven protocol (NDP) in the context of CAUTI prevention?",
+      "options": [
+        "A protocol requiring nursing staff to insert urinary catheters using a standardised sterile technique",
+        "A quality improvement tool mandating hourly urine output documentation in all catheterised patients",
+        "A framework granting nurses the authority to assess catheter necessity and initiate removal based on predefined clinical criteria without waiting for a physician order",
+        "A surveillance system in which nurses report CAUTI cases directly to the infection control team",
+        "A training programme certifying nurses in ultrasound-guided bladder volume assessment"
+      ],
+      "correct": 2,
+      "explanation": "Nurse-driven protocols formalise the active role of nursing staff in infection prevention by granting them the authority to assess urinary catheter necessity and initiate removal based on predefined criteria, without requiring a physician order. Evidence shows that NDPs reduce both catheter use and CAUTI incidence compared with traditional physician-directed management."
+    },
+    {
+      "id": "ipc_fa09",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which oral care practice is currently classified as an essential VAP prevention strategy?",
+      "options": [
+        "Oral care with chlorhexidine twice daily",
+        "Daily tooth brushing without chlorhexidine",
+        "Oral decontamination with colistin and tobramycin",
+        "Chlorhexidine body bathing combined with oral rinsing",
+        "Routine use of povidone-iodine oral rinse"
+      ],
+      "correct": 1,
+      "explanation": "Daily tooth brushing is associated with significantly lower VAP rates, shorter duration of mechanical ventilation, and shorter ICU length of stay. Notably, chlorhexidine-based oral care has been re-classified as \"not recommended\", as meta-analyses of randomised trials and observational studies suggest it may be associated with increased mortality."
+    },
+    {
+      "id": "ipc_fa10",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following VAP prevention measures has been re-classified as \"not recommended\" in current guidelines?",
+      "options": [
+        "Semi-recumbent positioning at 30-45°",
+        "Daily spontaneous breathing trials",
+        "Early enteral nutrition",
+        "Prone positioning",
+        "Subglottic secretion aspiration in patients with expected ventilation >48-72 hours"
+      ],
+      "correct": 3,
+      "explanation": "Prone positioning has been re-classified as \"not recommended\" specifically for VAP prevention, as it is inconsistently associated with lower VAP rates and has no demonstrated impact on duration of mechanical ventilation, ICU length of stay, or mortality in this context. This is distinct from its established role in the management of severe ARDS."
+    },
+    {
+      "id": "ipc_fa11",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "What is the most important modifiable risk factor for CAUTI?",
+      "options": [
+        "Patient age above 70 years",
+        "Diabetes mellitus",
+        "Female sex due to shorter urethral anatomy",
+        "Catheter dwell time",
+        "Structural urological abnormalities"
+      ],
+      "correct": 3,
+      "explanation": "Catheter dwell time is the most important modifiable risk factor for CAUTI. The association between duration of catheterisation and bacteriuria is well established, approaching a near-certain likelihood after 30 or more days. In contrast, patient age, sex, and comorbidities such as diabetes are recognised risk factors but are not modifiable."
+    },
+    {
+      "id": "ipc_fa12",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Selective digestive decontamination (SDD) is recommended only under which of the following conditions?",
+      "options": [
+        "In all ICUs, as it consistently reduces hospital mortality regardless of resistance levels",
+        "Only for immunocompromised patients with expected ICU stay exceeding 7 days",
+        "In ICUs and countries with less than 5% bloodstream infections caused by ESBL-producing pathogens",
+        "In surgical ICUs only, where gram-negative colonisation pressure is highest",
+        "In patients receiving parenteral nutrition, as they carry the highest VAP risk"
+      ],
+      "correct": 2,
+      "explanation": "While SDD reduces VAP rates and has been associated with reduced hospital mortality in low-resistance settings, a clustered randomised trial conducted in ICUs with higher antimicrobial resistance levels showed no benefit. Its use is therefore restricted to settings with low AMR prevalence, defined as fewer than 5% of bloodstream infections caused by ESBL-producing pathogens."
+    },
+    {
+      "id": "ipc_fa13",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following correctly describes the ventilator-associated condition (VAC) as defined by the CDC?",
+      "options": [
+        "New radiological infiltrate with fever and purulent tracheal secretions after 48 hours of ventilation",
+        "A positive quantitative tracheal culture above threshold combined with clinical signs of infection",
+        "An increase in daily minimum PEEP of ≥3 cm H2O or FiO2 of ≥20 points sustained for ≥2 days after ≥2 days of stability",
+        "Clinical deterioration with new antibiotic therapy initiated within 48 hours of intubation",
+        "Detection of a respiratory pathogen in bronchoalveolar lavage with concurrent fever"
+      ],
+      "correct": 2,
+      "explanation": "VAC is a purely objective, physiology-based definition introduced by the CDC to overcome the subjectivity of VAP surveillance. It requires a sustained increase in respiratory support parameters — either PEEP or FiO2 — after a preceding period of stability or improvement, without requiring clinical or microbiological criteria."
+    },
+    {
+      "id": "ipc_fa14",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "What is the key distinction between colonisation and infection in the ICU context?",
+      "options": [
+        "Colonisation always precedes infection and must be treated with antibiotics",
+        "Infection can occur without prior colonisation if the inoculum is large enough",
+        "Colonisation involves multiplying pathogens without overt tissue damage or clinical symptoms, whereas infection implies host response and tissue damage",
+        "Colonisation is only detected by molecular diagnostic techniques, not by conventional culture",
+        "Infection and colonisation are clinically indistinguishable in ventilated patients"
+      ],
+      "correct": 2,
+      "explanation": "Colonisation is defined as the presence of multiplying pathogens without tissue damage, immune response, or clinical symptoms. While every infection is preceded by colonisation with the causative pathogen, not every colonisation progresses to true infection. This distinction has direct implications for whether antimicrobial therapy is warranted."
+    },
+    {
+      "id": "ipc_fa15",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Why are routine surveillance urine cultures and pyuria screening not recommended in catheterised ICU patients?",
+      "options": [
+        "They are too expensive and technically demanding for routine use",
+        "Bacteriuria has low specificity for CAUTI and risks triggering antimicrobial therapy in the absence of true infection",
+        "Urine culture results take too long to influence clinical decision-making in the ICU",
+        "Modern molecular techniques have replaced conventional urine cultures in clinical practice",
+        "Pyuria is universally present in ICU patients due to systemic inflammation"
+      ],
+      "correct": 1,
+      "explanation": "Because bacterial colonisation of the urinary tract is common in catheterised patients, bacteriuria alone carries low specificity for true CAUTI. Routine screening therefore risks triggering unnecessary antimicrobial therapy, contributing to antimicrobial resistance without benefit to the patient. CAUTI remains fundamentally a clinical diagnosis integrating local symptoms, urine findings, and systemic inflammatory markers."
+    },
+    {
+      "id": "ipc_sa01",
+      "type": "A",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "Regarding surgical antibiotic prophylaxis for orthopaedic trauma fixation, which of the following is correct?",
+      "options": [
+        "A single intraoperative dose of an appropriate cephalosporin is generally sufficient",
+        "Prophylaxis should routinely continue until all surgical drains are removed",
+        "Prophylaxis should be extended if the patient later requires reintubation for an unrelated reason",
+        "Broad-spectrum carbapenem prophylaxis reduces infection risk more than a narrow-spectrum agent",
+        "Prophylactic antibiotics should be omitted entirely in closed fractures"
+      ],
+      "correct": 0,
+      "explanation": "A single dose of an appropriate cephalosporin is generally sufficient for surgical prophylaxis; there is no evidence that continuing beyond this reduces infection risk. Unnecessarily prolonged \"prophylaxis\" is in effect inappropriate antibiotic exposure, risking selection of resistant bacteria, loss of colonisation resistance by suppressing normal commensals, promotion of Clostridium difficile disease, and adverse drug reactions."
+    },
+    {
+      "id": "ipc_sa02",
+      "type": "A",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "Blood cultures in a critically ill ICU patient grow an ESBL-producing Klebsiella species. Laboratory sensitivities report susceptibility to piperacillin-tazobactam, gentamicin and meropenem. Which is the most appropriate antibiotic choice?",
+      "options": [
+        "Piperacillin-tazobactam, as it is reported sensitive and spares carbapenem use",
+        "A carbapenem such as meropenem, active against ESBL-producing organisms",
+        "Gentamicin monotherapy, given its reported activity",
+        "Ciprofloxacin, to cover atypical gram-negative organisms",
+        "Continue the current empirical cephalosporin at a higher dose"
+      ],
+      "correct": 1,
+      "explanation": "Carbapenems (e.g. meropenem, imipenem) are the treatment of choice for serious infections with ESBL-producing organisms. Although ESBL-producing bacteria may be reported as piperacillin-tazobactam sensitive in vitro, clinical treatment failures with this agent have been described. Aminoglycosides such as gentamicin are not appropriate first-line therapy for pulmonary or systemic sepsis given their poor lung penetration, even when reported susceptible."
+    },
+    {
+      "id": "ipc_sk01",
+      "type": "K",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "Candida albicans is cultured from tracheal aspirate and skin swabs in a ventilated ICU patient who is not receiving parenteral nutrition and has no other risk factors for invasive disease. Regarding this finding:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Growth of Candida from tracheal aspirate and skin swabs most likely represents colonisation rather than invasive infection",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Systemic candidiasis is straightforward to diagnose on the basis of a positive respiratory culture alone",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Parenteral nutrition and immunocompromise are recognised risk factors that should raise suspicion for invasive candidiasis",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Antifungal treatment should be started immediately whenever Candida is cultured from any ICU sample",
+          "correct": false
+        }
+      ],
+      "explanation": "Most Candida cultured from ICU patients, particularly from skin and tracheal aspirates — both commonly colonised sites — represents colonisation rather than infection. Systemic candidiasis is difficult to diagnose and should specifically be suspected in immunocompromised patients or those receiving parenteral nutrition; a positive surface culture alone does not establish invasive disease, and antifungal treatment is not indicated for colonisation."
+    },
+    {
+      "id": "ipc_sa03",
+      "type": "A",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "Two ICU patients grow an ESBL-producing Klebsiella with an identical antibiogram and biochemical profile in the laboratory, raising suspicion of a shared outbreak strain. What is the most appropriate next step to confirm this?",
+      "options": [
+        "Accept that an identical antibiogram confirms they are the same strain",
+        "Repeat the antibiogram on a fresh subculture",
+        "Send the isolates for genotyping to confirm clonal relatedness",
+        "Assume they are unrelated, as isolates from different patients cannot share a source",
+        "Request a repeat blood culture from each patient"
+      ],
+      "correct": 2,
+      "explanation": "An identical antibiogram and biochemical profile make it likely, but do not prove, that two isolates are the same organism — phenotypic testing cannot definitively distinguish strains. Genotyping is required to confirm clonal relatedness. Epidemiological linkage (e.g. patients cared for in the same unit around the same time) supports managing suspected cases as part of an outbreak while genotyping is awaited."
+    },
+    {
+      "id": "ipc_sk02",
+      "type": "K",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "Following identification of a second ICU patient with an apparently related ESBL-producing Klebsiella, regarding isolation of these patients:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "There is strong, consistent trial evidence that patient isolation reduces transmission of multidrug-resistant organisms in the ICU",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "The unusual occurrence of two patients with a similar isolate is a reasonable basis for advising isolation, even before genotyping results are available",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The practicalities of isolating patients depend on factors such as staffing, unit layout, and competing isolation needs such as protective isolation for neutropenic patients",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "If no single rooms are available, isolation is impossible and no alternative infection control measures can be implemented",
+          "correct": false
+        }
+      ],
+      "explanation": "Infection control teams commonly advise isolation when an unusual clustering of a similar isolate is identified, even before genotyping confirms clonality. However, the practicalities depend on staffing, unit layout and other isolation priorities, and the evidence base for benefit is limited. When single rooms are unavailable, alternative measures such as cohorting affected patients together, separated from others by an unstaffed bed space, can still reduce cross-transmission risk."
+    },
+    {
+      "id": "ipc_sk03",
+      "type": "K",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "Regarding measures to minimise cross-infection in the intensive care unit:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Isolation is only warranted once a resistant pathogen has been formally confirmed by genotyping",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hand hygiene, including alcohol gel and soap-and-water washing, is a core component of cross-infection prevention",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Use of aprons and gloves at each bed space is a recognised infection control measure",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Adequate staffing levels and staff compliance with infection control protocols are recognised determinants of cross-infection risk",
+          "correct": true
+        }
+      ],
+      "explanation": "Core ICU cross-infection measures include aprons and gloves at each bed space, hand hygiene (alcohol gels and soap), isolation once a resistant pathogen is cultured (rather than necessarily awaiting genotyping), adequate staffing levels, and consistent staff compliance with agreed protocols."
+    },
+    {
+      "id": "ipc_sk04",
+      "type": "K",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "A patient with inflammatory bowel disease on immunomodulating therapy is admitted in septic shock following laparotomy for a perforated bowel, and subsequently develops two separate nosocomial infections during the ICU stay. Regarding factors that predisposed this patient to nosocomial infection:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Pre-existing treatment with corticosteroids or other immunomodulating drugs is a recognised predisposing factor",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The stress response to major surgery has no bearing on susceptibility to subsequent nosocomial infection",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Sepsis secondary to a perforated viscus is a recognised predisposing factor",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Endotracheal intubation and central venous catheter placement, particularly when performed as an emergency, are recognised predisposing factors",
+          "correct": true
+        }
+      ],
+      "explanation": "Recognised predisposing factors for nosocomial infection in this context include pre-existing immunosuppression (e.g. corticosteroids or other immunomodulating drugs), sepsis secondary to a perforated viscus, the physiological stress response to major surgery, and invasive device placement such as endotracheal intubation and central venous catheterisation — particularly when performed under emergency conditions. It is debatable whether any of these factors would realistically have been modifiable in this scenario."
+    },
+    {
+      "id": "ipc_sa04",
+      "type": "A",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "An ICU is managing a suspected outbreak of ESBL-producing Klebsiella and possibly MRSA across several patients. Infection control raises the possibility of closing the unit to new admissions. What is the most important factor in this decision?",
+      "options": [
+        "The unit should always close immediately once any outbreak is suspected, regardless of source",
+        "Closure should be avoided entirely, as isolation alone is always sufficient",
+        "The decision rests solely with hospital management and not with infection control",
+        "The likely source of the organisms, weighed against the consequences of closure for other patients",
+        "Closure is only justified once genotyping has confirmed a single outbreak strain"
+      ],
+      "correct": 3,
+      "explanation": "The decision to close a unit to new admissions depends in part on the likely source of the outbreak organisms. If the source is likely to be of patient origin, adequate isolation and infection control measures should be able to contain it without closure. If an environmental source is suspected, closure may be theoretically appropriate, but this is rarely feasible in practice and must be balanced against the adverse consequences of restricting admissions for other patients needing critical care."
+    },
+    {
+      "id": "ipc_sk05",
+      "type": "K",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "A patient is confirmed to have an MRSA infection. Regarding management options:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Prophylactic decolonisation measures can include chlorhexidine body wash and nasal mupirocin",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "If mupirocin resistance is noted, chlorhexidine cream or bacitracin cream are reasonable alternatives for nasal decolonisation",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Addition of agents such as cotrimoxazole, rifampicin or fusidic acid is never appropriate for MRSA, regardless of resistance pattern",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Glycopeptides such as vancomycin or teicoplanin, linezolid, and streptogramins are all potential antibiotic options depending on resistance patterns and local policy",
+          "correct": true
+        }
+      ],
+      "explanation": "MRSA management includes both prophylactic decolonisation measures (chlorhexidine wash, nasal mupirocin, or chlorhexidine/bacitracin cream if mupirocin resistance is noted) and antibiotic therapy where indicated. Antibiotic choice depends on resistance patterns and local policy, and may include glycopeptides (vancomycin, teicoplanin), linezolid, or streptogramins (quinupristin/dalfopristin); addition of cotrimoxazole, rifampicin or fusidic acid can be considered depending on resistance patterns."
+    },
+    {
+      "id": "ipc_sa05",
+      "type": "A",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "A patient with a hospital-acquired Gram-negative bacteraemia develops diarrhoea and is empirically treated with metronidazole for suspected Clostridium difficile infection while awaiting stool toxin results. If the stool toxin had returned positive, how should this change management compared with a negative result?",
+      "options": [
+        "No change is needed, as empirical treatment is already adequate regardless of the result",
+        "A positive result means antibiotics can be stopped, as the diarrhoea is self-limiting",
+        "A positive result only matters for antibiotic choice, not for isolation precautions",
+        "A positive result should prompt discontinuation of isolation, as treatment alone is sufficient to prevent transmission",
+        "A positive result mandates isolation and continuation of the current targeted treatment"
+      ],
+      "correct": 4,
+      "explanation": "Clostridium difficile infection is highly transmissible in a ward setting, and a confirmed positive result would mandate both isolation and continuation of targeted treatment. Resistant strains are emerging and microbiological advice is essential in guiding therapy. C. difficile is responsible for a growing number of deaths, particularly among elderly patients, underlining the importance of prompt isolation once infection is confirmed or strongly suspected."
+    },
+    {
+      "id": "ipc_sa06",
+      "type": "A",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "Several ICU and ward patients are found to have MRSA within the same week, following an earlier cluster of ESBL-producing Klebsiella cases. Which best defines an infectious disease outbreak, and what is needed to confirm this cluster represents one?",
+      "options": [
+        "Two or more epidemiologically-linked cases of an infectious condition within a defined time period",
+        "Any single confirmed case of a resistant organism anywhere in the hospital",
+        "Ten or more cases occurring within a single calendar month, regardless of epidemiological linkage",
+        "Any case that is formally reported to the hospital's infection control committee",
+        "A cluster of cases is only classed as an outbreak once a definitive common source has been identified"
+      ],
+      "correct": 0,
+      "explanation": "An outbreak is defined as two or more epidemiologically-linked cases of an infectious condition occurring within a defined time period. A cluster of cases meeting this definition may represent one; however, because MRSA is sufficiently common in the hospital population, there is room for doubt as to whether the cases actually share the same strain until genotyping or other strain-typing confirms clonal relatedness."
+    },
+    {
+      "id": "ipc_sk06",
+      "type": "K",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "Regarding potential sources of MRSA in a hospital ward environment:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Patients themselves are a potential reservoir, whether the organism is hospital-acquired or community-acquired (e.g. from a nursing home or long-term care facility)",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Environmental surfaces such as curtains, keyboards, vents and bed spaces cannot harbour MRSA",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Once a patient reservoir is identified, environmental and staff reservoirs can be excluded from consideration",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Staff can act as a reservoir for MRSA transmission",
+          "correct": true
+        }
+      ],
+      "explanation": "Potential MRSA sources include patient reservoirs (hospital-acquired or community-acquired, e.g. from nursing homes or long-term care facilities), staff reservoirs, and environmental reservoirs such as curtains, keyboards, vents and bed spaces. Identifying one plausible source does not exclude the others, and outbreak investigations typically need to consider all three."
+    },
+    {
+      "id": "ipc_sk07",
+      "type": "K",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "Regarding factors that promote the emergence of antibiotic-resistant bacteria in hospitals and intensive care units:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Selection pressure from broad-spectrum antibiotic use promotes emergence of resistance",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Poor antibiotic usage in agriculture, the community, and the hospital (including prescribing for inappropriate indications such as viral sore throat) all contribute",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Concentrating patients with potentially resistant pathogens in the same area, such as an ICU, has no effect on cross-infection risk",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Immunocompromised patients, including those with invasive devices, and high bed turnover or occupancy rates are recognised contributing factors",
+          "correct": true
+        }
+      ],
+      "explanation": "Factors promoting emergence of resistant bacteria include poor antibiotic usage across agriculture, the community (e.g. for inappropriate indications such as viral sore throat) and the hospital; selection pressure from broad-spectrum antibiotics; concentration of patients with potentially resistant pathogens in areas such as the ICU, which increases cross-infection risk; immunocompromised patients, including those with invasive devices; and high bed turnover or occupancy rates."
+    },
+    {
+      "id": "ipc_sa07",
+      "type": "A",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "Following media interest in an MRSA outbreak, hospital management ask whether increased investment in environmental cleaning will directly reduce MRSA transmission. What does the evidence show regarding the link between hospital cleanliness and healthcare-associated infection?",
+      "options": [
+        "Multiple high-quality randomised trials confirm that improved cleaning directly and substantially reduces MRSA transmission",
+        "There is little rigorous evidence that improved cleaning reduces healthcare-associated infections",
+        "Environmental cleaning has been proven to be more effective than hand hygiene in preventing MRSA spread",
+        "Cleaning has no relationship whatsoever to infection control and can be safely deprioritised",
+        "Cleaning is only relevant to Clostridium difficile and irrelevant to MRSA"
+      ],
+      "correct": 1,
+      "explanation": "Although there is a common perception that hospital environmental cleanliness is linked to healthcare-associated infection, and environmental cleaning forms part of international standards, there is little rigorous evidence that improved cleaning directly reduces healthcare-associated infections. However, hospital cleanliness may still reflect other important components of an effective infection control programme, such as staffing and adherence to protocols."
+    },
+    {
+      "id": "ipc_sk08",
+      "type": "K",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "Beyond ward-level infection control measures, regarding institutional-level measures to reduce spread of a multidrug-resistant pathogen across a hospital:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Surveillance of staff, new patients, and patients transferred from other care areas is a recognised institutional measure",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Maintaining documentation such as databases recording infection rates supports outbreak control",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Antibiotic stewardship policies, such as restrictions or antibiotic rotation, are a recognised institutional measure",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Minimising transfer of patients or staff between clinical areas during an outbreak is counterproductive and should be avoided",
+          "correct": false
+        }
+      ],
+      "explanation": "Institutional-level measures to reduce spread of a multidrug-resistant pathogen include surveillance of staff and new or transferred patients; documentation such as infection-rate databases; staff and public/patient education; minimising transfer of patients or staff between clinical areas; infection alerts on drug charts, case records or electronic systems; audit of the effectiveness of measures instituted; and antibiotic stewardship policies such as restrictions or rotation."
+    },
+    {
+      "id": "ipc_sk09",
+      "type": "K",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "Reflecting on an ICU outbreak of ESBL-producing Klebsiella and MRSA, regarding system-level changes to minimise the occurrence and spread of multidrug-resistant healthcare-associated infections:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Using appropriately short courses of antibiotics and rationalising empirical therapy based on further clinical and microbiology review are recognised stewardship measures",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Targeting narrow-spectrum antibiotics to the specific infection being treated, and avoiding unnecessary use such as for viral infections or for results representing colonisation, reduces development of resistance",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Good hygiene, isolation or cohorting of patients, and cleaning of the environment and equipment are measures aimed at reducing spread of resistant organisms already present, rather than reducing development of resistance",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Constructing a timeline plotting patient locations and infections against time cannot help visualise the possible pattern of spread during an outbreak",
+          "correct": false
+        }
+      ],
+      "explanation": "System changes to minimise multidrug-resistant healthcare-associated infection combine two strands: reducing the development of resistance (narrow-spectrum, targeted antibiotics; avoiding unnecessary use; appropriately short courses; rationalising empirical prescribing on further review) and reducing the spread of resistant organisms already present (hand hygiene and hand disinfection; isolation or cohorting; environmental and equipment cleaning). Good microbiology laboratory support and surveillance underpin both strands. A timeline plotting patient locations and infections against time is a simple but useful tool to help visualise a possible pattern of spread during an outbreak investigation."
+    }
+  ]
+}

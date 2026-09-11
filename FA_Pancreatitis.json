@@ -1,0 +1,236 @@
+{
+  "module": "FA Pancreatitis",
+  "sections": {},
+  "questions": [
+    {
+      "id": "panc_fk01",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following statements regarding nutrition in acute severe pancreatitis are true?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Enteral nutrition reduces the number of infectious complications, when compared to parenteral nutrition",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Parenteral nutrition is contraindicated in patients with acute severe pancreatitis",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "The naso-jejunal route has been shown to be superior in comparison with the naso-gastric route for enteral feeding",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Nutrition should be started within 48 hours of admission",
+          "correct": true
+        }
+      ],
+      "explanation": "Nil by mouth is no longer advocated in patients with acute pancreatitis. There is an increasing body of evidence that enteral nutrition reduces mortality, infectious complications and multiorgan failure when compared to parenteral nutrition. However, if the patient's nutritional requirements are not met with enteral nutrition then they can be supplemented with parenteral nutrition. Post-pyloric feeding, through a nasojejunal tube, was previously thought to be beneficial however current evidence disputes this and the ease of nasogastric tube insertion has led to a change in practice. Initiation of feeding within 48 hours of admission, where possible, has been shown to reduce the risk of infection, organ failure and mortality. Reference: ESICM PACT Module Acute Pancreatitis."
+    },
+    {
+      "id": "panc_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 32-year-old man with a background history of alcohol dependency presented with a short history of severe abdominal pain in the epigastrium radiating to the back. He had signs of hypoperfusion and remained hypotensive despite 3L of intravenous fluid. His blood samples revealed a neutrophilia, elevated liver enzymes and acute kidney injury. His temperature was 38.9°C. The amylase level was 1200 U/L. An ultrasound of the biliary tract showed dilated intrahepatic and common bile ducts. What is the most appropriate next step:",
+      "options": [
+        "Endoscopic ultrasound of the biliary tree",
+        "Laparoscopic cholecystectomy",
+        "Endoscopic retrograde cholangiopancreatogram (ERCP)",
+        "Magnetic resonance cholangiopancreatogram (MRCP)",
+        "Laparotomy"
+      ],
+      "correct": 2,
+      "explanation": "Fever, neutrophilia and dilated intra- and extrahepatic bile ducts in the setting of acute pancreatitis point to biliary obstruction with likely ascending cholangitis, which needs urgent biliary decompression — early ERCP (within 24-48 hours) relieves the obstruction and treats the underlying sepsis. MRCP is purely diagnostic and would delay definitive treatment in an unstable, septic patient. Laparoscopic cholecystectomy and laparotomy are inappropriate during the acute inflammatory phase; cholecystectomy should be deferred until the pancreatitis has resolved. Reference: Management of acute pancreatitis, UpToDate (SS Vege, 2018)."
+    },
+    {
+      "id": "panc_fk02",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following statements regarding serum markers of severe acute pancreatitis are true:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Serum amylase may be normal on admission in 20% of cases",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Serum lipase is more specific than serum amylase",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Serum amylase remains elevated longer than serum lipase",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Elevated serum amylase may represent a false positive result",
+          "correct": true
+        }
+      ],
+      "explanation": "Serum amylase may be normal in up to 20% of patients with severe acute pancreatitis. Serum lipase is both more sensitive and specific for diagnosis than serum amylase. It also remains elevated for a longer time than serum amylase. Serum amylase may be falsely elevated in renal failure. Reference: ESICM PACT Module Acute Pancreatitis."
+    },
+    {
+      "id": "panc_fa02",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 32-year-old woman with a history of rheumatoid arthritis presented to the Emergency Department with symptoms and clinical signs of severe acute pancreatitis. Her current medication included Azathioprine. Her condition worsened rapidly during the first 24 hours after admission and she was admitted to the critical care unit with multi-organ failure. After seven days she showed very little signs of improvement, so a repeated CT scan was performed. She was planned to be reviewed by the surgeon later that day. Which of the following is an absolute indication for surgery in acute pancreatitis?",
+      "options": [
+        "Surgery should be undertaken routinely after 48 hours to reduce the systemic effects of pancreatic toxic mediators.",
+        "Retroperitoneal haemorrhage",
+        "Persisting multiple-organ failure despite intensive care therapy",
+        "Development of a pseudocyst",
+        "Extensive (>50%) sterile pancreatic necrosis"
+      ],
+      "correct": 1,
+      "explanation": "There are few absolute indications for surgery in the management of pancreatitis. These include: severe retroperitoneal haemorrhage, acute abdomen (peritonitis), infected pancreatic necrosis when percutaneous/other techniques are not indicated and conservative management is not appropriate, abdominal compartment syndrome, as well as biliary obstruction in case of failure of endoscopic sphincterotomy and percutaneous drainage. Early 'routine' debridement of necrosis irrespective of its bacteriological status in order to prevent remote organ dysfunction and pancreatic infection fails to achieve these goals and may even be harmful. Extensive sterile necrosis remains a controversial indication and most surgeons have abandoned the practice."
+    },
+    {
+      "id": "panc_fk03",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The following are indications for surgery in a patient with acute severe pancreatitis:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Severe retroperitoneal haemorrhage",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Sterile pancreatic necrosis",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Cholecystectomy during acute attack",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Peritonitis",
+          "correct": true
+        }
+      ],
+      "explanation": "Undisputed indications for surgery include severe retroperitoneal haemorrhage and acute abdomen (peritonitis). When percutaneous/other drainage techniques have been unsuccessful or not indicated, surgery is indicated for abdominal compartment syndrome and drainage of infected pancreatic necrosis. In case of biliary obstruction with failed endoscopic access to the bile duct, percutaneous drainage is favoured over surgery. Surgery for sterile pancreatic necrosis inevitably leads to further complications, such as infection, and is no longer recommended. Cholecystectomy should be delayed until 4-6 weeks after the episode to allow inflammation to subside. Reference: ESICM PACT Module Acute Pancreatitis."
+    },
+    {
+      "id": "panc_fa03",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 26-year-old man was admitted to the intensive care unit with severe acute pancreatitis of unknown aetiology. CT abdomen on admission showed initial features of acute pancreatitis. Over the first 48 hours he became hypoxic, hypotensive, tachycardic and anuric with a distended abdomen despite optimal care. He had been admitted to the intensive care unit, where he had been intubated, ventilated and fluid resuscitated. In the following days his condition worsened with increasing airway pressure, increasing FiO2, noradrenaline (0.3 mcg/kg/min) and haemofiltration had been started. Meanwhile, his abdomen became increasingly distended and tympanic. He never had fever and his inflammatory markers remained elevated. What would be your next step in management?",
+      "options": [
+        "Measure intra-abdominal pressure and request a surgical opinion",
+        "Aggressive IV fluid resuscitation.",
+        "Add in a second vasopressor agent",
+        "Bedside right upper quadrant ultrasound",
+        "Start empirical antibiotic therapy"
+      ],
+      "correct": 0,
+      "explanation": "At this stage in the disease process, intra-abdominal hypertension is a likely diagnosis. Aggressive IV fluid resuscitation is most useful in the first 12-24 hours of management. Whilst it is important to maintain a perfusing blood pressure, driving it even higher in the face of increased intra-abdominal pressure is unlikely to solve the problem alone and will increase the intra-abdominal pressure. Imaging should be considered but a repeat CT abdomen may be more useful than an ultrasound. Empirical antibiotics may be required if there are clear signs of systemic sepsis, however, in this scenario, detecting and treating abdominal compartment syndrome is the first priority."
+    },
+    {
+      "id": "panc_fk04",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The following scoring systems were developed specifically for acute pancreatitis:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "APACHE II",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Ranson's criteria",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Glasgow (Imrie)",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "SOFA Score",
+          "correct": false
+        }
+      ],
+      "explanation": "APACHE II and SOFA scoring are both used in a wider critical care context. The APACHE II score is calculated at the beginning of the admission to help determine the patient's mortality risk for the admission. It is not calculated sequentially and is not meant to show improvement or effect of interventions. The Ranson and Glasgow (Imrie) scores are both disease specific and are cumbersome to use as they need 48 hours to be determined. Reference: ESICM PACT Module Acute Pancreatitis."
+    },
+    {
+      "id": "panc_fk05",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Diagnostic signs of acute pancreatitis on a CT scan include:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Pancreatic swelling",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Splenic infarction",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Indistinct pancreatic margins",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Peripancreatic fluid collections",
+          "correct": true
+        }
+      ],
+      "explanation": "Splenic infarction is not a feature of acute pancreatitis. It may occur incidentally as a result of hypercoagulability during the inflammatory process but is not a diagnostic feature. Pancreatic margins may become indistinct due to inflammation."
+    },
+    {
+      "id": "panc_fa04",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Stable patients in critical care with severe acute pancreatitis may require nutrition in the early stages of their illness. In most cases this should be provided by:",
+      "options": [
+        "Enteral nutrition",
+        "A balanced electrolyte solution via peripheral IV access",
+        "Total parenteral nutrition via internal jugular central venous catheter",
+        "They should remain fasted for the next 5-7 days",
+        "Total parenteral nutrition via peripheral catheter"
+      ],
+      "correct": 0,
+      "explanation": "Whilst nasojejunal feeding was traditionally used to provide enteral feeding, a number of RCTs have shown no difference in complications between NG and NJ routes. As the concept of 'resting the pancreas' is no longer widely used, the use of parenteral nutrition has decreased. Two meta-analyses of high quality RCTs have demonstrated a significant reduction in the rate of infectious complications and risk of death with enteral nutrition, when compared to parenteral nutrition. A balanced electrolyte solution will provide hydration but inadequate nutrition. There is no role for starvation in the management of acute severe pancreatitis. The indication for parenteral nutrition is simple and uncontroversial: all patients in whom the clinician decides that some form of nutritional support is indicated should have this commenced by the enteral route. Only in those patients who are unable to tolerate targeted requirements is PN indicated — it is required only when the gut has failed or administration of enteral nutrition is impossible for other reasons (e.g. prolonged ileus, complex pancreatic fistulae, abdominal compartment syndrome). Reference: Gianotti, et al. ESPEN Guidelines on Parenteral Nutrition: Pancreas. Clinical Nutrition 28 (2009) 428-435."
+    },
+    {
+      "id": "panc_fa05",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 52-year-old man was admitted to intensive care unit with severe acute pancreatitis. He had a long history of heavy alcohol abuse. After admission, his condition worsened rapidly. His blood samples on admission were: Haemoglobin 94g/dL, Haematocrit 45%, White blood cells 8000/mm3, Lactate dehydrogenase 750 IU/L, Aspartate Transaminase 100 IU/L, Blood glucose 7.2mmol/L, Blood urea nitrogen 12.3mmol/L, Serum calcium 2.32mmol/L. Within 48 hours, his blood results changed as following: Haemoglobin 89g/dL, Haematocrit 41%, White blood cells 15000/mm3, Lactate dehydrogenase 1200 IU/L, Aspartate Transaminase 130 IU/L, Blood glucose 11.1 mmol/L, Blood urea nitrogen 15mmol/L, Serum calcium 1.8 mmol/L, Base deficit 6mEq/L. PaO2 57mmHg (7.5 kPa). He received 8 litres of crystalloid, most of which appeared to have been sequestered. According to the Ranson Scoring System, what is this patient's calculated risk of mortality?",
+      "options": [
+        "40%",
+        "0%",
+        "1%",
+        "100%",
+        "15%"
+      ],
+      "correct": 0,
+      "explanation": "Ranson Score = 6, equivalent to 40% predicted mortality. The Ranson Score is a disease specific mortality predictor; however, it requires 48 hours of data to calculate. Along with the Glasgow (Imrie) scoring system, it may be useful for predicting clinical course, although both are affected by a high false positive rate. Ranson scoring system (1 point for each criterion met) — on admission: age >55 years, white blood cells >16,000/mm3, serum lactate dehydrogenase >600 IU/L, serum aspartate transaminase >120 IU/L, blood glucose >10 mmol/L; within 48 hours: haematocrit fall >10%, blood urea nitrogen increased by 1.8 mmol/L or more, serum calcium <2 mmol/L, PaO2 <60 mmHg, base deficit >4 mEq/L, fluid sequestration >6 L. Mortality based on score: <3 = 1%, 3-4 = 15%, 5-6 = 40%, >6 = 100%. Reference: ESICM PACT module on Pancreatitis."
+    }
+  ]
+}
