@@ -1,0 +1,1374 @@
+{
+  "module": "EDIC Generated Mock Exam 07",
+  "source": "generated_mock",
+  "total_questions": 55,
+  "sections": {},
+  "questions": [
+    {
+      "id": "gm7_001",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following is/are correct for Transpulmonary pressure (TPP) and ventilator-associated lung injury?",
+      "explanation": "At end-inspiration, TPP is the principal force maintaining lung unit inflation and is thus an essential factor in the genesis of ventilator-induced lung injury (VILI). TPP is calculated from ALVEOLAR pressure MINUS pleural pressure — the statement reversing this formula (pleural minus alveolar) is false. In a study by Talmor et al., PEEP was set to achieve an end-expiratory pressure of 0-10 cmH2O (i.e. a POSITIVE, not negative, end-expiratory TPP) with end-inspiratory TPP limited to 25 cmH2O, showing a trend toward reduced 28-day mortality — the statement targeting an end-expiratory TPP <0 cmH2O is the opposite of the validated approach and would promote derecruitment. During NIV/spontaneous breathing, pleural pressure becomes markedly negative with strong inspiratory effort, so TPP may become extremely high even with low delivered (measured) airway pressures — this statement is true and represents an important mechanism of patient self-inflicted lung injury (P-SILI).",
+      "section": "Transpulmonary Pressure and VILI",
+      "image": null,
+      "section_url": null,
+      "source_id": "mv3_fk07",
+      "statements": [
+        {
+          "label": "A",
+          "text": "At end-inspiration, the TPP is the principal force maintaining inflation",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "TPP is calculated from the pleural pressure minus the alveolar pressure",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Setting PEEP to achieve an end-expiratory TPP of <0 cmH2O has been shown to improve outcomes in acute respiratory distress syndrome (ARDS)",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "During non-invasive ventilation (NIV), TPPs may be dangerously high, despite low delivered airway pressures",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gm7_002",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "In severe COPD, expiratory flow limitation is related to the equal pressure point (EPP). Which statement accurately defines the EPP and explains its significance?",
+      "explanation": "The equal pressure point is defined as the point along the airway where intraluminal pressure equals the surrounding pleural pressure. Downstream (mouthward) of this point, pleural pressure exceeds intraluminal pressure, causing dynamic airway compression. In normal lungs this occurs in large, cartilage-supported central airways. In COPD with reduced elastic recoil the transpulmonary driving pressure is lower, so the pressure drop along the airways reaches pleural pressure levels earlier — migrating the EPP peripherally into smaller, uncartilaginous airways. Dynamic compression then occurs in structurally vulnerable peripheral airways, severely limiting expiratory flow and promoting air trapping distal to the collapse point.",
+      "section": "Part I: Pathophysiology",
+      "image": null,
+      "section_url": null,
+      "source_id": "copd12_a10",
+      "options": [
+        "The EPP is where intraluminal airway pressure equals surrounding pleural pressure; upstream migration in COPD places dynamic compression in smaller peripheral airways, worsening flow limitation",
+        "The EPP is where driving pressure reaches zero; its peripheral migration widens the upstream airways",
+        "The EPP is where alveolar pressure equals pleural pressure; its peripheral migration reduces expiratory resistance",
+        "The EPP is where pleural pressure equals atmospheric; upstream migration improves expiratory airflow",
+        "The EPP is where airway resistance equals tissue compliance per unit volume; its anatomical location determines residual volume but exerts no measurable influence on dynamic expiratory flow limitation"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "gm7_003",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Barbiturate sedation (e.g. pentobarbital, thiopental) in traumatic brain injury is reserved for which specific indication?",
+      "explanation": "Barbiturates should be reserved for refractory intracranial hypertension after first-line ICP measures (deep sedation, ACSOS control, osmotherapy, hyperventilation, CSF drainage) have failed. Their use carries significant risks: accumulation due to long half-lives, hypotension requiring vasopressors, and immunosuppression with increased infection risk. They are not appropriate as first-line or prophylactic agents.",
+      "section": "Timing of Surgical Interventions in ICU Trauma Patients",
+      "image": null,
+      "section_url": "",
+      "source_id": "mtr2_a05",
+      "options": [
+        "Mild agitation in extubated TBI patients who cannot tolerate other anxiolytics",
+        "Refractory intracranial hypertension unresponsive to first-line sedation, osmotherapy, and hyperventilation",
+        "Prophylactic ICP prevention in all patients with GCS ≤8 regardless of ICP values",
+        "First-line sedation to blunt ICP spikes during nursing care in all severe TBI",
+        "Haemodynamically unstable TBI patients as a cardioprotective alternative to propofol"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "gm7_004",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding uremic complications and prediction of AKI progression/RRT need:",
+      "explanation": "The furosemide stress test has in fact shown high, not poor, sensitivity and specificity for predicting progression from AKI stage 1/2 to stage 3. Urinary CCL14 predicts persistent stage 3 AKI well but does not necessarily identify which of those patients will specifically require RRT — these are related but distinct predictive targets.",
+      "section": "Conservative management of AKI",
+      "image": null,
+      "section_url": null,
+      "source_id": "aki5_k04",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Uremic pericarditis, though rare in AKI, is itself considered an indication to start RRT, unless cardiac tamponade is present.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The ECG in uremic pericarditis does not typically show the diffuse ST- and T-wave elevations seen in other causes of acute pericarditis.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The furosemide stress test has poor sensitivity and specificity for predicting progression from AKI stage 1/2 to stage 3, limiting its clinical usefulness.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Urinary CCL14 predicts persistent stage 3 AKI with good accuracy and also reliably identifies which patients will specifically require RRT.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gm7_005",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the metabolic derangements of tumour lysis syndrome, decide whether each statement is true or false.",
+      "explanation": "Urate crystallising in the tubules is the principal mechanism of renal injury, which is why lowering the uric acid load and maintaining flow are both central. Humans lack urate oxidase entirely — that absence is precisely why the recombinant enzyme works as a therapy, adding a metabolic step that converts uric acid to the far more soluble allantoin. Hypocalcaemia is a consequence of hyperphosphataemia rather than an independent derangement, which explains why treating it directly risks precipitating calcium phosphate. Spontaneous tumour lysis occurs without any treatment trigger, so a patient who has not yet received chemotherapy is not thereby protected.",
+      "section": "Tumour lysis syndrome: Pathophysiology",
+      "image": null,
+      "section_url": null,
+      "source_id": "haemicu3_k05",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Tumour lysis syndrome occurs only after cytotoxic chemotherapy or radiotherapy.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Humans possess endogenous urate oxidase, which is upregulated during tumour lysis.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Uric acid precipitating in the renal tubules causes obstruction and renal injury.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Hypocalcaemia arises because excess phosphate binds calcium to form calcium phosphate.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gm7_006",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 48-year-old woman with stage 4 chronic kidney disease is admitted following cardiac surgery. Enteral nutrition is initiated. When calculating her protein prescription, which approach is MOST consistent with current evidence?",
+      "explanation": "Current evidence supports protein intake of 1.2–1.5 g/kg/day during the late phase of critical illness, with a maximum of 2.0 g/kg/day except when substantial losses are present (extensive burns, GI or urinary protein losses). The ESPEN recommendation was graded Level Zero — reflecting the absence of strong RCT evidence for any specific dosage. The goal of protein supply is to limit muscle catabolism, not to achieve a positive nitrogen balance, and aiming for positive nitrogen balance can be detrimental if it leads to urea accumulation. Protein restriction to 0.5 g/kg/day in pre-existing CKD is an outdated approach.",
+      "section": "Protein Targets",
+      "image": null,
+      "section_url": null,
+      "source_id": "nut1_a21",
+      "options": [
+        "Provide 2.5–3.0 g/kg/day to overcome the resistance to anabolism seen in critical illness",
+        "Restrict protein to 0.5 g/kg/day to protect residual renal function during critical illness",
+        "Target 1.2–1.5 g/kg/day in the late phase of critical illness, not exceeding 2.0 g/kg/day unless there are substantial ongoing losses",
+        "Use the same recommendation as for healthy adults (0.8 g/kg/day) as critical illness does not substantially alter protein turnover",
+        "Protein intake should be determined exclusively by urine urea nitrogen measurement in all ICU patients regardless of renal function"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "gm7_007",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding randomised controlled trial evidence for fluid selection in shock resuscitation:",
+      "explanation": "The CHEST trial did demonstrate that HES 130/0.42 significantly increased the rate of renal replacement therapy compared to 0.9% saline in ICU patients, with no accompanying mortality benefit. The FEAST trial showed that bolus resuscitation with either albumin or 0.9% saline increased mortality compared to a no-bolus strategy in African children with severe infection — a result contrary to expectation. The SAFE trial found no overall difference in 28-day mortality between 4% albumin and 0.9% saline, but a post-hoc analysis (SAFE-TBI) suggested higher mortality with albumin specifically among trauma patients with concomitant traumatic brain injury, not trauma patients in general. The claim that large-volume balanced crystalloids carry a greater risk of hyperchloraemic metabolic acidosis than 0.9% saline is false and reversed — it is 0.9% normal saline, with its high chloride load, that causes hyperchloraemic acidosis; balanced crystalloids are preferred precisely because they avoid this complication.",
+      "section": "Treatment",
+      "image": null,
+      "section_url": null,
+      "source_id": "hypo_k06",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The CHEST trial demonstrated that HES 130/0.42 significantly increased the rate of renal replacement therapy compared to 0.9% saline in ICU patients.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Large-volume infusion of balanced crystalloids (e.g. Hartmann's solution) carries a greater risk of hyperchloraemic metabolic acidosis than 0.9% saline.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "The FEAST trial showed that bolus resuscitation with albumin or 0.9% saline increased mortality compared to a no-bolus strategy in African children with severe infection.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "The SAFE trial found no overall difference in 28-day mortality between 4% albumin and 0.9% saline, but a post-hoc analysis suggested higher mortality with albumin in the trauma subgroup.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gm7_008",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A mechanically ventilated patient on nasogastric enteral nutrition has a gastric residual volume (GRV) of 380 mL aspirated during a routine 6-hourly check. He has no vomiting and his abdomen is soft. What is the most appropriate action?",
+      "explanation": "A GRV up to 500 mL is not an indication to delay or discontinue enteral nutrition. Current evidence does not support stopping feeding based on GRV values below this threshold. GRV >500 mL is considered a sign of gastroparesis requiring specific attention (prokinetics, consideration of postpyloric feeding). At 380 mL with no other signs of intolerance (no vomiting, soft abdomen, no aspiration events), enteral nutrition should continue. Routine GRV monitoring has been questioned as a necessary practice, but GRV alone should not drive unnecessary withholding of nutritional support.",
+      "section": "Assessment of GI function",
+      "image": null,
+      "section_url": "",
+      "source_id": "abd_a04",
+      "options": [
+        "Switch to postpyloric (nasojejunal) feeding immediately, as a GRV of 380 mL is considered definitive evidence of gastroparesis and an indication that gastric feeding has failed",
+        "Stop enteral nutrition immediately and reassess after 4 hours before restarting",
+        "Halve the current infusion rate of enteral nutrition pending a decision on prokinetic therapy",
+        "Continue enteral nutrition unchanged; a GRV of 380 mL is below the threshold at which gastroparesis-specific intervention is required",
+        "Administer metoclopramide and withhold the next two feeding boluses pending reassessment"
+      ],
+      "correct": 3
+    },
+    {
+      "id": "gm7_009",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following variables is NOT part of a SOFA score calculation?",
+      "explanation": "Of the listed variables, INR is NOT used to derive a SOFA score. The six SOFA components are: Respiration (PaO2/FiO2), Coagulation (Platelets), Liver (Bilirubin), Cardiovascular (MAP/vasopressors), CNS (GCS), and Renal (Creatinine or Urine output). Each scored 0–4, maximum 24.",
+      "section": "Sepsis",
+      "image": null,
+      "section_url": null,
+      "source_id": "sep1_fa06",
+      "options": [
+        "Urine output",
+        "All of the above are used to calculate a SOFA score",
+        "Platelet Count",
+        "Glasgow Coma Scale Score",
+        "International Normalized Ratio (INR)"
+      ],
+      "correct": 4
+    },
+    {
+      "id": "gm7_010",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The CT scan (see figure) is typical for [CT brain (figure 7): lesion with arrow in the border zone between the left MCA and ACA territory — watershed/haemodynamic infarction pattern]:",
+      "explanation": "The image shows an older lesion in the border zone between the left MCA and ACA territory (arrow). You, therefore, suspect a haemodynamic stroke due to left carotid artery stenosis or occlusion. Watershed infarctions arise from critically reduced distal perfusion pressure when proximal stenosis/occlusion is not fully compensated by collaterals — often precipitated by systemic hypotension. The correct answer is: Carotid artery stenosis or occlusion.",
+      "section": "Neurological",
+      "image": null,
+      "section_url": null,
+      "source_id": "ais_a06",
+      "options": [
+        "Carotid artery stenosis or occlusion",
+        "Infarct of the posterior cerebral artery",
+        "None of the above",
+        "Infarct of the cerebellum",
+        "Basilar artery stenosis or occlusion"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "gm7_011",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 40-year-old non-immune woman with severe P. falciparum malaria develops arterial hypotension (78/42 mmHg) with worsening lactic acidosis. Bacterial co-infection is suspected. IV artesunate and judicious IV fluids have been initiated. Which vasopressor is the most appropriate first-line agent?",
+      "explanation": "Norepinephrine is the first-line vasopressor in severe malaria with arterial hypotension, consistent with Surviving Sepsis Campaign recommendations. Epinephrine is explicitly not preferred in severe malaria because of its propensity to induce or aggravate lactic acidosis — a particularly significant concern given that lactic acidosis is already a key marker of severity and a poor prognostic indicator in severe malaria. Vasopressin and dopamine are not stated as first-line agents in this context.",
+      "section": "Intensive Care Pearls",
+      "image": null,
+      "section_url": null,
+      "source_id": "sftd2_a12",
+      "options": [
+        "Dopamine to maintain renal perfusion in this context",
+        "Norepinephrine, in line with current Surviving Sepsis Campaign recommendations",
+        "Phenylephrine to avoid tachycardia associated with other vasopressors",
+        "Epinephrine, as it provides combined vasopressor and inotropic support",
+        "Vasopressin as first-line to avoid catecholamine-associated side effects"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "gm7_012",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The same trauma patient has a significant head injury and is at high risk of raised intracranial pressure (ICP). Regarding airway management principles to prevent secondary brain injury:",
+      "explanation": "In traumatic brain injury, adequate sedation/analgesia blunts the hypertensive laryngoscopy response, hypotension must be avoided to preserve cerebral perfusion, the apnoeic period should be minimised since small pCO2 rises can raise ICP, and oxygenation should be maintained throughout (e.g. via THRIVE). Hyperventilation is not used liberally — it causes cerebral vasoconstriction and can worsen ischaemic injury, so it is avoided rather than pursued.",
+      "section": "Traumatic Brain Injury Airway Management",
+      "image": null,
+      "section_url": null,
+      "source_id": "aw2_fk02",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Adequate sedation and analgesia should be used to prevent the hypertensive response to laryngoscopy",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Hypotension should be avoided in order to maintain cerebral perfusion pressure",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Hyperventilation should be used liberally to reduce intracranial pressure",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "The apnoeic period should be minimised, since even small rises in pCO2 can raise ICP",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gm7_013",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Which of the following statements regarding the management of hypertensive urgency is INCORRECT?",
+      "explanation": "There is NO evidence that immediate aggressive blood pressure lowering improves outcomes in hypertensive urgency — and considerable adverse effects can be precipitated by inappropriate rapid reductions, including stroke, myocardial ischaemia and renal deterioration. Oral therapy over hours to 24 hours is the appropriate strategy. The decision on whether to treat in hospital or as an outpatient should consider comorbidities and follow-up availability. All other statements are correct: the definition, the oral therapy approach, the lack of ICU requirement for most patients, and the fact that asymptomatic severe hypertension without end-organ injury does not warrant immediate BP reduction.",
+      "section": "Categories and Classification of Hypertension",
+      "image": null,
+      "section_url": null,
+      "source_id": "htn_a15",
+      "options": [
+        "Asymptomatic severe hypertension does not require immediate blood pressure reduction",
+        "Oral antihypertensive therapy is appropriate; blood pressure can be lowered over hours to 24 hours",
+        "Immediate aggressive parenteral BP reduction in hypertensive urgency improves outcomes and reduces end-organ progression",
+        "Most patients with hypertensive urgency do not require ICU admission",
+        "Hypertensive urgency is severe hypertension without new or progressive end-organ injury"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "gm7_014",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "In pressure control, the pressure waveform is almost rectangular at the set value while the flow decelerates through inspiration, as shown. What does the flow waveform reflect in this mode?",
+      "explanation": "In pressure control, pressure is the set variable and flow/volume become dependent; as inflation proceeds and elastic recoil rises, less of the fixed driving pressure remains to generate flow, producing the decelerating shape - which therefore reflects the patient's mechanics. B reverses which variable is set, and C, D and E deny or misattribute the relationship.",
+      "section": "Basic controlled modes volume and pressure control",
+      "image": "images/img_a26bbe5bf0.jpg",
+      "section_url": null,
+      "source_id": "mv3_a07",
+      "options": [
+        "A shape chosen by the operator, since flow is the set, independent variable that is programmed in pressure control",
+        "Nothing about the patient's mechanics, which do not influence the flow trace in pressure control mode",
+        "A developing circuit leak, which is the usual cause of a decelerating inspiratory flow pattern",
+        "The respiratory system's mechanics, since flow is the dependent variable as elastic recoil rises during inflation",
+        "A ventilator malfunction, since the flow should remain constant throughout pressure control"
+      ],
+      "correct": 3
+    },
+    {
+      "id": "gm7_015",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 60-year-old man with a normal ECG one year ago presents with typical ischaemic chest pain. His current ECG (shown) demonstrates ST elevation in V1-V4 with wide QRS complexes and absent Q waves in I, aVL, V5 and V6. What is the most likely diagnosis?",
+      "explanation": "New LBBB with anterior ST elevation in a patient with a previously normal ECG indicates acute anterior MI complicated by new-onset LBBB, implying extensive anterior wall involvement. Absent Q waves in the lateral leads are typical of LBBB itself, not old infarction.",
+      "section": "Arrhythmia",
+      "image": "images/arr1_fa04.png",
+      "section_url": null,
+      "source_id": "arr1_fa04",
+      "options": [
+        "Hyperkalaemia with widened QRS complexes",
+        "Acute inferior wall MI with right bundle branch block",
+        "Acute pericarditis with diffuse ST elevation",
+        "Old anteroseptal MI with left ventricular hypertrophy",
+        "Acute anterior wall MI complicated by new left bundle branch block"
+      ],
+      "correct": 4
+    },
+    {
+      "id": "gm7_016",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A clinical team is assessing refeeding syndrome risk before initiating nutritional support. Which of the following factors does NOT independently identify a patient as high risk for refeeding syndrome?",
+      "explanation": "Male sex is not an independent risk factor for refeeding syndrome. Established high-risk criteria include: BMI <16 kg/m² (very high risk) or <18.5 kg/m² with additional risk factors, significant recent unintentional weight loss (>5% in 1 month or >10% in 3–6 months), minimal or no nutritional intake for more than 5 days, a history of alcohol misuse, use of insulin, chemotherapy, diuretics, or antacids, and malabsorptive conditions. Identifying patients at high risk allows implementation of the restricted-calorie plus thiamine protocol associated with improved outcomes in the Doig 2015 trial.",
+      "section": "Refeeding Syndrome",
+      "image": null,
+      "section_url": null,
+      "source_id": "nut2_a33",
+      "options": [
+        "Male sex (no independent association with refeeding syndrome risk has been established)",
+        "History of malabsorptive conditions or resective bowel surgery",
+        "History of chronic alcohol misuse with inadequate nutritional intake",
+        "BMI below 18.5 kg/m² with documented recent weight loss of more than 10% over the preceding 3 months",
+        "Prolonged fasting for more than 5 consecutive days prior to ICU admission"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "gm7_017",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 73-year-old with known COPD arrives using accessory muscles (RR 29/min, HR 110/min) with acute confusion. ABG on 40% Venturi mask: pH 7.22, PaO2 52 mmHg, PaCO2 71 mmHg. Which severity category best applies?",
+      "explanation": "The ventilatory failure category requires: RR >24/min, accessory muscle use, acute mental status change, hypoxaemia not correctable with FiO2 >40%, PaCO2 elevated above baseline or >60 mmHg, and pH ≤7.25. This patient fulfils all criteria — RR 29, accessories, acute confusion, inadequate oxygenation on 40% Venturi, PaCO2 71 mmHg, and pH 7.22. Distinguishing ventilatory failure from respiratory failure is clinically critical: only ventilatory failure mandates immediate consideration of NIV or invasive mechanical ventilation. Reassessment at 1–2 hours of NIV determines whether intubation will be needed.",
+      "section": "Part II: Initial Evaluation and Triage",
+      "image": null,
+      "section_url": null,
+      "source_id": "copd12_a13",
+      "options": [
+        "Moderate exacerbation — ward admission with standard bronchodilator therapy",
+        "Ventilatory failure — mechanical ventilatory support (non-invasive or invasive) is required",
+        "Mild exacerbation — outpatient management is appropriate",
+        "No respiratory failure — corrects with 24–35% Venturi FiO2",
+        "Respiratory failure — correctable with supplemental oxygen without mental status change"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "gm7_018",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Regarding gas exchange during veno-venous ECMO for severe respiratory failure:",
+      "explanation": "Oxygenation and CO2 clearance are governed by different circuit parameters on VV-ECMO: oxygenation tracks the ECMO blood flow to cardiac output ratio, while CO2 clearance tracks sweep gas flow. Recirculation raises pre-oxygenator saturation (already-oxygenated blood being redrawn), narrowing the pre/post-oxygenator gradient — confusing this with blood flow adequacy is a common error.",
+      "section": "VV-ECMO Gas Exchange",
+      "image": null,
+      "section_url": null,
+      "source_id": "ecls2_fk02",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Systemic oxygenation is determined mainly by the ratio of ECMO blood flow to cardiac output",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "CO2 elimination is determined mainly by ECMO sweep gas flow rather than ECMO blood flow",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Recirculation narrows the difference between pre- and post-oxygenator oxygen saturation",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Increasing ECMO blood flow is the most effective way to correct hypercapnia on VV-ECMO",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gm7_019",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with AKI stage 2 is given a furosemide stress test (1.0 mg/kg IV, no prior furosemide exposure). Over the following 2 hours, urine output totals 150 ml. How should this result be interpreted?",
+      "explanation": "A urine output response of less than 200 ml over 2 hours after a furosemide stress test identifies patients at high risk of progressing to stage 3 AKI and requiring RRT. The 1.0 mg/kg dose used here is correct for a furosemide-naive patient — the higher 1.5 mg/kg dose only applies if furosemide was given within the preceding 7 days.",
+      "section": "Furosemide stress test",
+      "image": null,
+      "section_url": null,
+      "source_id": "aki1_a06",
+      "options": [
+        "A normal tubular response, effectively excluding progression to stage 3 AKI",
+        "The test is invalid because the patient is not euvolaemic",
+        "High risk of progression to stage 3 AKI and need for RRT",
+        "Insufficient information — the test requires a 1.5 mg/kg dose to be interpretable in this patient",
+        "Indicates prerenal azotaemia that will respond to further fluid resuscitation"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "gm7_020",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A severely injured patient has a plasma syndecan-1 level of 65 ng/mL on arrival. What is the primary clinical implication of this elevated level?",
+      "explanation": "Wei et al. demonstrated that syndecan-1 >40 ng/mL on admission carries an odds ratio of 2.94 (95% CI 1.53–5.66) for subsequent sepsis. Syndecan-1 is the backbone of the endothelial glycocalyx; its elevation reflects glycocalyx shedding and endotheliopathy of trauma. While early plasma may benefit these patients, the measurement alone does not mandate any single therapy.",
+      "section": "Physiological response to trauma",
+      "image": null,
+      "section_url": "",
+      "source_id": "mtr1_a06",
+      "options": [
+        "Elevated syndecan-1 confirms the presence of disseminated intravascular coagulation",
+        "Syndecan-1 elevation above 40 ng/mL is a direct indication for emergency fresh frozen plasma infusion",
+        "Syndecan-1 elevation identifies patients with concomitant traumatic brain injury requiring CT-head priority",
+        "Elevated syndecan-1 (>40 ng/mL) is associated with a nearly threefold increased risk of subsequent sepsis",
+        "Syndecan-1 level directly correlates with ISS and should replace clinical scoring in triage"
+      ],
+      "correct": 3
+    },
+    {
+      "id": "gm7_021",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "The ECG rhythm strip shown is from a 55-year-old woman on amiodarone therapy who presented with recurrent syncope. Which rhythm disturbance does this most likely represent?",
+      "explanation": "The strip shows a polymorphic ventricular tachycardia whose QRS amplitude and axis appear to twist around the baseline — the classic appearance of Torsade de Pointes, occurring here in the context of amiodarone-induced QT prolongation. Monomorphic VT would show a constant QRS morphology throughout, not a twisting pattern. Ventricular fibrillation shows chaotic, disorganised activity with no discernible QRS complexes at all, unlike the organised (if varying) complexes seen here. AF and SVT with aberrancy would not produce this polymorphic, twisting wide-complex appearance.",
+      "section": "Arrhythmia Mechanisms",
+      "image": "images/img_04cef6ee17.jpg",
+      "section_url": null,
+      "source_id": "arr2_a16",
+      "options": [
+        "Atrial fibrillation with a rapid ventricular response",
+        "Ventricular fibrillation, showing chaotic and completely disorganised electrical activity without any discernible QRS complexes",
+        "Monomorphic ventricular tachycardia",
+        "Supraventricular tachycardia with aberrant conduction",
+        "Torsade de pointes — polymorphic VT with a twisting axis around the isoelectric line, in the context of QT prolongation"
+      ],
+      "correct": 4
+    },
+    {
+      "id": "gm7_022",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following is NOT a constituent of the MACOCHA Score, which is used to predict the risk of difficult endotracheal intubation?",
+      "explanation": "The MACOCHA score (De Jong et al., 2013) is a validated 12-point tool for predicting difficult intubation in critically ill adults, combining patient factors (Mallampati III/IV = 5, obstructive sleep apnoea = 2, limited mouth opening <3cm = 1, reduced cervical spine mobility = 1), pathology factors (coma = 1, severe hypoxaemia <80% = 1), and an operator factor (non-anaesthesiologist intubating = 1). Shock is not part of the score.",
+      "section": "MACOCHA Score",
+      "image": null,
+      "section_url": null,
+      "source_id": "aw1_fa05",
+      "options": [
+        "Shock",
+        "Severe hypoxaemia (<80%)",
+        "Limited mouth opening",
+        "Coma",
+        "Non-anaesthesiologist intubating"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "gm7_023",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Suxamethonium should be avoided in the patient with?",
+      "explanation": "Suxamethonium can cause bradycardia via vagal stimulation and typically raises serum potassium by about 0.5 mmol/L, which is dangerous in a patient already hyperkalaemic from end-stage renal failure and risks precipitating cardiac arrest. It is safe within the first 24 hours after a burn (the exaggerated hyperkalaemic response from extrajunctional acetylcholine receptors develops later), and neither severe hypoxaemia, very recent major burns, nor a history of eczema (atopy does not increase anaphylaxis risk with suxamethonium) are contraindications.",
+      "section": "Neuromuscular Blocking Agents",
+      "image": null,
+      "section_url": null,
+      "source_id": "aw2_fa06",
+      "options": [
+        "Severe hypoxaemia",
+        "End-stage renal failure with a potassium of 6.5 mmol/l",
+        "Major burns presenting to hospital within 30 minutes of the injury",
+        "A heart rate of 110 beats per minute",
+        "A history of eczema"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "gm7_024",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding ECG interpretation in suspected AMI:",
+      "explanation": "The sex- and age-adjusted ST-elevation threshold of ≥2mm in leads V2–V3 for men over 40 is true (with ≥2.5mm for men ≤40 and ≥1.5mm for women). Obtaining the first ECG within 10 minutes of first medical contact in suspected ACS is true — this is the guideline-specified maximum time target. New or presumed-new LBBB with ischaemic symptoms warranting a primary PCI strategy regardless of prior ECG availability is true — unavailability of a prior ECG for comparison must not delay reperfusion in this setting. Claiming a normal 12-lead ECG reliably excludes acute MI is false — some infarcts, especially posterior and RCA-territory events, can produce minimal or no ST-elevation on a standard 12-lead, so serial ECGs and supplemental leads remain essential when clinical suspicion is high.",
+      "section": "Recognition and ECG",
+      "image": null,
+      "section_url": null,
+      "source_id": "ami1_k04",
+      "statements": [
+        {
+          "label": "A",
+          "text": "In leads V2–V3, the STEMI threshold for men older than 40 years is ≥2mm ST elevation.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The first ECG in suspected ACS should be obtained within 10 minutes of first medical contact.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "New or presumed new LBBB with ischaemic symptoms warrants a primary PCI strategy, regardless of prior ECG availability.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "A normal 12-lead ECG reliably excludes the diagnosis of acute myocardial infarction.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gm7_025",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Which of the following statements about the physiological response to severe trauma are correct?",
+      "explanation": "Modern systems have reduced early haemorrhage deaths, but 20% of trauma patients still die of late ICU complications (organ failure, sepsis). The sympathetic surge does cause ventriculo-arterial uncoupling and splanchnic ischaemia. Glycocalyx shedding exposes heparan sulfate but facilitates *non-specific* (not selective) adhesion of platelets and leukocytes throughout the microcirculation. EoT begins within minutes, supporting early plasma use.",
+      "section": "Physiological response to trauma",
+      "image": null,
+      "section_url": "",
+      "source_id": "mtr1_k02",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Modern trauma systems have eliminated late ICU deaths after major injury, leaving only early prehospital deaths.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Sympathetic surge following severe trauma undermines physiological ventriculo-arterial coupling and may trigger splanchnic hypoperfusion.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Glycocalyx shedding exposes heparan sulfate and facilitates selective platelet adhesion only at sites of active vascular injury.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Endotheliopathy of trauma (EoT) develops within minutes of injury, making early plasma administration important for timely correction.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gm7_026",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The CT scan (see figure) is typical for [CT brain (figure 6): multiple small lacunar lesions (arrows) and periventricular white matter hypodensity (stars) — no territorial infarction pattern]:",
+      "explanation": "The image shows small lacunar lesions (arrows) and a hypo-density of the white matter with emphasis on periventricular regions (stars), indicating arteriosclerotic leukoencephalopathy, without early signs of a territory infarction. You would suppose a microangiopathic stroke and very cautiously consider thrombolysis or full anticoagulation because this type of stroke might be associated with an increased bleeding risk. The correct answer is: Microangiopathic stroke.",
+      "section": "Neurological",
+      "image": null,
+      "section_url": null,
+      "source_id": "ais_a07",
+      "options": [
+        "Lateral medullary syndrome",
+        "Cerebellar infarction",
+        "Microangiopathic stroke",
+        "None of the above",
+        "Intracerebral haemorrhage"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "gm7_027",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "When is the 'best interest' standard MOST appropriately applied in surrogate decision-making for an incapacitated ICU patient?",
+      "explanation": "Best interest is the surrogate decision-making standard of last resort, applied when advance directives are absent and substituted judgment is not feasible (prior wishes are unknown). It focuses on the patient's well-being by anticipating how available medical options would affect the patient's various interests and determining which to prioritise. Advance directives take precedence when available. Best interest is not a mechanism for overriding a family's legitimate substituted judgment, nor does it apply to patients who retain decision-making capacity.",
+      "section": "Surrogate decision-making",
+      "image": null,
+      "section_url": null,
+      "source_id": "eth_a03",
+      "options": [
+        "When the family requests the most aggressive available treatment regardless of the clinical situation",
+        "When the patient retains cognitive capacity but is unable to communicate verbally",
+        "When substituted judgment would lead to a decision the clinical team disagrees with",
+        "When no advance directive exists and the patient's prior wishes cannot be reliably inferred",
+        "When the patient has a valid advance directive specifying treatment preferences"
+      ],
+      "correct": 3
+    },
+    {
+      "id": "gm7_028",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding factors contributing to respiratory muscle dysfunction during acute exacerbation of COPD:",
+      "explanation": "Cachexia and malnutrition impair, not improve, respiratory muscle contractility. The finding that approximately 50% of inspiratory effort in AECOPD is spent overcoming the PEEPi elastic threshold is well established — this threshold work leaves proportionally less muscle reserve for actual gas delivery. Hypoxaemia disturbs aerobic energy metabolism and respiratory acidosis impairs contractile protein function — both worsen rather than support muscle performance. Diaphragmatic flattening from hyperinflation places the muscle on the descending limb of its length-tension curve, substantially reducing pressure output per unit of electrical activation.",
+      "section": "Part I: Pathophysiology",
+      "image": null,
+      "section_url": null,
+      "source_id": "copd12_k03",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Respiratory cachexia and malnutrition, common in severe COPD, improve respiratory muscle contractility by promoting adaptive hypertrophy",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "In AECOPD approximately half of each inspiratory effort may be consumed overcoming the elastic threshold imposed by PEEPi before any inspiratory flow commences",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Hypoxaemia and respiratory acidosis improve the energy metabolism of respiratory muscles, serving as a compensatory mechanism during exacerbation",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Dynamic hyperinflation worsens the length-tension relationship of the diaphragm by shortening it beyond its optimal operating length",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gm7_029",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Positioning to facilitate endotracheal intubation is improved by:",
+      "explanation": "There is evidence supporting all of these positioning strategies (the 'sniffing' position of neck flexion with head extension, alignment of the external auditory meatus with the sternal notch, a 25-degree back-up/head-up position, and the ramped position in obese patients) for improving laryngoscopic view.",
+      "section": "Airway Positioning",
+      "image": null,
+      "section_url": null,
+      "source_id": "aw1_fk04",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Neck flexion and head extension",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Alignment of the external auditory meatus with the sternum",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "25 degree back up position",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "'Ramped' position in the obese",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gm7_030",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Assess each of the following statements regarding open abdomen (laparostomy) management in critically ill patients.",
+      "explanation": "Open abdomen (laparostomy) is indicated for ACS, damage control surgery, severe pancreatitis, and abdominal sepsis requiring repeated surgical access. Despite the use of temporary closure devices (vacuum-assisted wound closure), open abdomen carries a mortality of ≥30% and significant rates of enteroatmospheric fistulas and late ventral hernias. Enteral nutrition should not be reflexively withheld — an individualised approach is applied, with EN attempted where feasible. Definitive fascial closure should be achieved within 8 days where possible to prevent fascial retraction and loss of abdominal domain, which substantially increases complexity of later closure.",
+      "section": "Open abdomen",
+      "image": null,
+      "section_url": "",
+      "source_id": "abd_k09",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Recognised indications for open abdomen include abdominal compartment syndrome, damage control surgery, severe acute pancreatitis, and abdominal sepsis",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Open abdomen management is associated with low morbidity when temporary closure devices are used, and late ventral hernia is uncommon",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Enteral nutrition is absolutely contraindicated in all patients with an open abdomen and must not be attempted under any circumstances",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Definitive fascial closure should be targeted within 8 days to prevent progressive fascial retraction, loss of abdominal domain, and late complications",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gm7_031",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The following statement regarding gastric lavage is correct EXCEPT:",
+      "explanation": "Gastric lavage is now rarely used and, when considered, is reserved for potentially life-threatening ingestions presenting within about an hour — not mild, self-limiting intoxications, where the risks (aspiration, mucosal injury, and increased systemic absorption of some poisons by propelling them into the small bowel) outweigh any benefit. It is contraindicated after caustic ingestion, and should not be attempted in a comatose patient before the airway is protected. 'Most useful in mildly symptomatic intoxications' is therefore the false statement — the opposite is closer to the truth.",
+      "section": null,
+      "image": null,
+      "section_url": null,
+      "source_id": "intox_fa02",
+      "options": [
+        "It may cause increased absorption of some poisons",
+        "It is contraindicated with caustic ingestions",
+        "It should not be performed before intubation of a patient in coma",
+        "It may lead to aspiration",
+        "It is most useful in mildly symptomatic intoxications"
+      ],
+      "correct": 4
+    },
+    {
+      "id": "gm7_032",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding gastric residual volumes and post-pyloric feeding strategies in the ICU:",
+      "explanation": "A single GRV of 250 mL does not meet the threshold of >500 mL per 6-hour measurement needed to trigger EN pause or prokinetic initiation. Large RCTs have not consistently shown that post-pyloric feeding reduces aspiration pneumonia — it is used selectively for refractory gastric intolerance, not as universal first-line policy. Prophylactic prokinetics for all ICU patients are not recommended — they are reserved for established gastric intolerance. Post-pyloric feeding for persistent intolerance refractory to prokinetics is the one correct and guideline-consistent statement.",
+      "section": "Enteral Nutrition – Gastric Intolerance",
+      "image": null,
+      "section_url": null,
+      "source_id": "nut2_k05",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A single gastric residual volume measurement of 250 mL always warrants immediate cessation of EN and prokinetic initiation",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Post-pyloric feeding has been shown in large RCTs to consistently reduce aspiration pneumonia incidence when compared with gastric feeding and should therefore replace gastric EN in all ICU patients",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "When EN intolerance persists despite optimised prokinetic therapy, post-pyloric nasojejunal feeding is a reasonable alternative to gastric EN",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Prokinetic drugs should be initiated prophylactically in all ICU patients at the start of EN to prevent GRV accumulation and reduce aspiration risk",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gm7_033",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "The mechanical power delivered to the respiratory system combines several energy components. Which of the following, if increased in isolation, would raise the mechanical power and thereby the risk of ventilator-induced lung injury?",
+      "explanation": "Respiratory rate is a component of mechanical power - since energy is delivered with each breath, a higher rate increases the total power delivered per minute, a recognised contributor to lung injury. FiO2, the humidification device, haemoglobin and gas temperature do not enter the mechanical power calculation.",
+      "section": "Tidal Volume",
+      "image": null,
+      "section_url": null,
+      "source_id": "mv3_a17",
+      "options": [
+        "Respiratory rate",
+        "The inspired oxygen fraction (FiO2)",
+        "The type of airway humidification device used",
+        "The inspired gas temperature",
+        "The patient's haemoglobin concentration"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "gm7_034",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding antimicrobial stewardship (AMS) programs in the ICU:",
+      "explanation": "Approximately half of antibiotics prescribed to ICU patients have been estimated to be suboptimal, highlighting substantial scope for stewardship improvement. The core AMS team typically includes a clinical microbiologist, an infectious diseases specialist, and a clinical pharmacist. The claim that restrictive AMS interventions, such as prior authorisation for last-resort antibiotics, have been demonstrated to be consistently superior to educational and enabling strategies in all ICU settings is false — restrictive interventions are not consistently superior across all settings; the evidence favours a combined approach. The claim that all 14 defined antimicrobial stewardship objectives are individually supported by evidence of improved outcomes, reduced costs, or decreased resistance is also false — of the 14 defined objectives, evidence supports benefit for 9 of them specifically, not all 14 individually.",
+      "section": "Antimicrobial stewardship",
+      "image": null,
+      "section_url": null,
+      "source_id": "rua_k10",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Approximately half of antibiotics prescribed to ICU patients have been estimated to be suboptimal, highlighting substantial scope for stewardship improvement.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Restrictive AMS interventions (prior authorisation for last-resort antibiotics) have been demonstrated to be consistently superior to educational and enabling strategies in all ICU settings.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "All 14 defined antimicrobial stewardship objectives are individually supported by evidence of improved patient outcomes, reduced costs, or decreased resistance.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "The core AMS team typically includes a clinical microbiologist, an infectious diseases specialist, and a clinical pharmacist.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gm7_035",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 68-year-old mechanically ventilated patient (RASS −1) is assessed using the CAM-ICU algorithm shown. Feature 1 (acute change or fluctuating course) is PRESENT. Feature 2 (inattention): the patient makes 4 errors on the SAVEAHAART letter-squeeze task. Feature 3 (level of consciousness): current RASS −1. What is the CAM-ICU result?",
+      "explanation": "The CAM-ICU algorithm requires Feature 1 (acute change or fluctuating course) PLUS Feature 2 (inattention: ≥3 errors on letter-squeeze or picture tasks) PLUS EITHER Feature 3 (RASS other than zero) OR Feature 4 (>1 error on disorganised thinking questions). Here: Feature 1 present + Feature 2 (4 errors = inattention confirmed) + Feature 3 (RASS −1 ≠ 0) = CAM-ICU positive (delirium present). CAM-ICU has a sensitivity of approximately 80% and specificity of approximately 95% against DSM criteria. Assessment requires RASS ≥ −3; RASS −4 or −5 renders the patient unarousable and not assessable.",
+      "section": "Delirium",
+      "image": "images/img_35b36cc589.png",
+      "section_url": null,
+      "source_id": "pad_a18",
+      "options": [
+        "CAM-ICU negative — RASS −1 does not satisfy the altered level of consciousness criterion",
+        "CAM-ICU positive — Feature 1 PLUS Feature 2 (≥3 errors) PLUS Feature 3 (RASS ≠ 0) = delirium present",
+        "CAM-ICU negative — fewer than 5 errors on inattention testing excludes delirium",
+        "CAM-ICU cannot be performed — RASS must be 0 before the assessment is valid",
+        "CAM-ICU inconclusive — Feature 4 (disorganised thinking) must also be positive before a result can be recorded"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "gm7_036",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A previously well 27-year-old male develops markedly elevated transaminases (AST≈ALT), coagulopathy (INR 2.8) and encephalopathy, alongside a striking leukocytosis with atypical monocytes and a therapeutic paracetamol level. What is the most likely differential diagnosis?",
+      "explanation": "This presentation — acute liver injury, coagulopathy (INR≥1.5) and altered consciousness without underlying chronic liver disease — meets the definition of acute liver failure. Leading differentials given the clinical context are shock/ischaemic liver from sepsis, haematological malignancy with hepatic infiltration (explaining the striking leucocytosis), and paracetamol toxicity superimposed on an acute viral illness.",
+      "section": "Acute Liver Failure",
+      "image": null,
+      "section_url": null,
+      "source_id": "alf_fa11",
+      "options": [
+        "Simple viral gastroenteritis",
+        "Acute Budd-Chiari syndrome as the leading diagnosis",
+        "Acute liver failure, with leading differentials of ischaemic (shock) liver in the context of sepsis, haematological malignancy with hepatic infiltration, and paracetamol toxicity in the setting of an acute viral illness",
+        "Isolated Gilbert syndrome",
+        "Decompensation of pre-existing chronic liver disease"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "gm7_037",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "The NICE-SUGAR trial enrolled over 6000 critically ill adults and is the most influential RCT informing current glucose management practice. What was the trial's most clinically significant finding?",
+      "explanation": "NICE-SUGAR (NEJM 2009) found that intensive glucose control targeting 4.5–6.0 mmol/L increased 90-day mortality compared with conventional control targeting <10 mmol/L (27.5% vs 24.9%; p=0.02). Severe hypoglycaemia was more frequent in the intensive group. This landmark trial overturned the findings of the earlier single-centre Leuven (Van den Berghe) trials and established the current conventional target of 7.8–10 mmol/L as the standard of care. The result applied to both medical and surgical ICU patients.",
+      "section": "Glucose Management",
+      "image": null,
+      "section_url": null,
+      "source_id": "nut2_a25",
+      "options": [
+        "The trial was stopped early for benefit — tight glycaemic control reduced 90-day mortality by 15% in septic patients",
+        "Tight glycaemic control (4.5–6.0 mmol/L) had no effect on mortality but significantly reduced ICU-acquired infections and ICU length of stay",
+        "Tight glycaemic control benefited surgical ICU patients but caused harm in medical ICU patients, based on subgroup analysis",
+        "Tight glycaemic control targeting 4.5–6.0 mmol/L significantly increased 90-day mortality compared with a conventional target of less than 10 mmol/L",
+        "Tight glycaemic control showed no difference in 90-day mortality but was associated with more severe hypoglycaemic events, providing a safety argument against tight control"
+      ],
+      "correct": 3
+    },
+    {
+      "id": "gm7_038",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "All of the following are recognised limitations of NAVA EXCEPT:",
+      "explanation": "A large randomised trial found no superiority in weaning duration or ICU outcome between NAVA and pressure support; a mortality benefit is only suggested by some meta-analyses, especially in weaning-difficulty subgroups, not shown across all large trials. A, B, C and E are all recognised limitations.",
+      "section": "Neurally Adjusted Ventilatory Assist (NAVA)",
+      "image": null,
+      "section_url": null,
+      "source_id": "mv4_a23",
+      "options": [
+        "It is available on only one ventilator platform",
+        "It requires insertion of a dedicated nasogastric catheter",
+        "A poor EAdi signal can lead to a high incidence of flow-triggered cycles",
+        "Difficulty maintaining a satisfactory EAdi signal has led to cross-over to pressure support in some trials",
+        "It has been shown, in all large randomised trials, to reduce mortality compared with pressure support"
+      ],
+      "correct": 4
+    },
+    {
+      "id": "gm7_039",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the clinical use of immunonutrients in critically ill patients:",
+      "explanation": "Routine administration of immunonutrients at pharmacological doses is not recommended by ESPEN for unselected ICU patients — this is the only true statement. High-dose parenteral glutamine has been associated with potential harm in patients with multiple organ failure (REDOXS trial), not benefit across all ICU patients. High-dose selenium trials have showed neither benefit nor harm. Omega-3 fatty acid supplementation in ARDS has been studied in multiple trials (including the ARDS Network trial) without demonstration of consistent mortality benefit; indeed one large trial was stopped for futility.",
+      "section": "Micronutrient requirements",
+      "image": null,
+      "section_url": null,
+      "source_id": "nut1_k13",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Current ESPEN guidelines do not recommend routine administration of pharmacological doses of immunonutrients such as glutamine, arginine, and selenium to unselected critically ill patients",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "High-dose parenteral glutamine supplementation benefits all ICU patients and should be added routinely to parenteral nutrition prescriptions",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "High-dose selenium trials (1000 µg/day) have shown significant mortality reduction in severe sepsis in large randomised controlled trials",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Omega-3 fatty acids added to enteral formulas have consistently demonstrated mortality benefit in ARDS across multiple large multicentre RCTs",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gm7_040",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following contribute to the pathophysiology of CAPS?",
+      "explanation": "CAPS pathophysiology involves a 'thrombotic storm': antiphospholipid antibodies activate monocytes, neutrophils, complement, and endothelium, triggering a systemic inflammatory and procoagulant cascade with widespread microthrombosis - distinct from complement deficiency, extravascular haemolysis, or clotting factor downregulation.",
+      "section": "CAPS",
+      "image": null,
+      "section_url": null,
+      "source_id": "heme1_fa12",
+      "options": [
+        "Monocyte and neutrophil activation",
+        "Extravascular haemolysis",
+        "Complement deficiency",
+        "Endothelial damage",
+        "Clotting factor downregulation"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "gm7_041",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient presents with acute chest pain. The limb leads of the 12-lead ECG are shown in the figure. Which of the following best describes the QRS morphology demonstrated?",
+      "explanation": "The limb leads show broad QRS complexes with the characteristic left bundle branch block morphology (broad, often notched R-wave in lead I, deep S-wave in the inferior leads), reflecting delayed left ventricular depolarisation via the right bundle. New or presumed new LBBB with ischaemic symptoms is managed as a STEMI-equivalent, since the lack of a prior ECG for comparison should not delay reperfusion therapy when the clinical context is strongly suggestive of infarction. RBBB produces a different morphology (rSR' pattern, best seen in right precordial leads not shown here), WPW shows a delta wave with a short PR interval, and complete heart block shows dissociated P-waves and QRS complexes — none of which match this tracing.",
+      "section": "Recognition and ECG",
+      "image": "images/img_7ff260888c.png",
+      "section_url": null,
+      "source_id": "ami1_a18",
+      "options": [
+        "Complete heart block with atrioventricular dissociation",
+        "Left bundle branch block — broad QRS with an abnormal depolarisation sequence",
+        "Normal sinus rhythm with a normal QRS duration and morphology",
+        "Ventricular pre-excitation (Wolff-Parkinson-White pattern) with a delta wave",
+        "Right bundle branch block — broad QRS with a characteristic rSR' pattern in right precordial leads"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "gm7_042",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Regarding hydrophilic antimicrobial agents:",
+      "explanation": "Hydrophilic agents (beta-lactams, aminoglycosides, glycopeptides, linezolid) stay largely in the extracellular space and are predominantly renally cleared, so renal dysfunction affects their elimination considerably - more so, not less, than for lipophilic agents, which rely more on hepatic metabolism. Macrolides are lipophilic, not hydrophilic. In sepsis, capillary leak and third-spacing increase the volume of distribution for hydrophilic drugs, which can lower plasma and tissue concentrations and is a reason to increase, not decrease, the dose.",
+      "section": "Hydrophilic agents",
+      "image": null,
+      "section_url": null,
+      "source_id": "pkpd_fa07",
+      "statements": [
+        {
+          "label": "A",
+          "text": "They have a limited tissue distribution, normally restricted to the extracellular space",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Their elimination is only slightly impaired by renal dysfunction compared with lipophilic agents",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Macrolides are an example of hydrophilic agents",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "They have substantial hepatic clearance",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gm7_043",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Regarding the use of Extracorporeal CO2 removal (ECCO2R) and ECMO in ARDS, are the following statements true or false?",
+      "explanation": "A flow of 700–1000 ml/min is generally needed to remove adequate amounts of CO2 in hypercapnia; 200 ml/min is insufficient (statement 1 false). No RCT has conclusively shown improved survival with ECMO in ARDS (statement 2 false). ECMO remains a semi-experimental technique that should be performed only in dedicated, experienced centers rather than being universally available (statement 3 false). Retrospective analyses of ARDS patients ventilated with and without ECMO have shown that lower driving pressures are associated with improved survival (statement 4 true).",
+      "section": "Respiratory",
+      "image": null,
+      "section_url": null,
+      "source_id": "ards_fk11",
+      "statements": [
+        {
+          "label": "A",
+          "text": "ECCO2R using a veno-venous flow of 200 ml/min is an effective method to normalize a high PaCO2.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "ECMO has conclusively been proven to increase survival in patients with severe ARDS.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "ECMO should be available in all centers treating ARDS.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "A low ventilatory driving pressure when ventilating patients during ECMO is associated with improved survival.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gm7_044",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "What does current evidence suggest about diaphragmatic ultrasound indices in weaning?",
+      "explanation": "A meta-analysis found diaphragmatic excursion and thickening fraction predict successful weaning with satisfactory accuracy, and combining the thickening fraction with the weaning index improves accuracy - supporting a multimodal approach.",
+      "section": "Weaning Outcome Predictors",
+      "image": null,
+      "section_url": null,
+      "source_id": "mv5_a07",
+      "options": [
+        "It can only diagnose pneumothorax, not predict weaning outcome in ventilated patients",
+        "A higher thickening fraction predicts weaning failure, rather than weaning success",
+        "Excursion and thickening fraction predict weaning, best combined with the weaning index",
+        "Diaphragm ultrasound has no demonstrated predictive value for the outcome of weaning",
+        "It has replaced all other weaning predictors in guidelines as the sole recommended test"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "gm7_045",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "An ICU's annual report shows an SMR of 1.3 using a validated severity scoring system. Which is the single best interpretation consistent of this number?",
+      "explanation": "A standardised mortality ratio (SMR) of 1.3 means observed mortality was 1.3 times (i.e. 30% higher than) predicted mortality for that case-mix, based on the severity scoring system used. It does not by itself indicate inadequate care, and severity-adjusted SMR is specifically designed to allow between-unit comparison, unlike raw mortality rates.",
+      "section": "Mortality Metrics",
+      "image": null,
+      "section_url": null,
+      "source_id": "co1_fa02",
+      "options": [
+        "The unit's mortality cannot be compared with other ICUs because SMR is not severity-adjusted.",
+        "Mortality is 30% lower than expected for the unit's case mix.",
+        "Observed mortality is equal to the predicted value for all diagnostic groups.",
+        "Mortality is 30% higher than expected for patients with similar severity of illness.",
+        "The unit's care is inadequate because treatment should be based on the score."
+      ],
+      "correct": 3
+    },
+    {
+      "id": "gm7_046",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Following ICU admission for major trauma, you wish to monitor nutritional status using a serum biomarker that responds more rapidly than albumin. Ranked from SHORTEST to LONGEST half-life, which sequence of plasma transport proteins is CORRECT?",
+      "explanation": "The approximate half-lives are: fibronectin (~4 hours), transthyretin (2 days), transferrin (7 days), and albumin (20 days). The shortest half-life makes fibronectin and transthyretin more sensitive to acute nutritional changes. However, all these markers are profoundly influenced by acute stress, inflammation, transcapillary escape, and the acute-phase response, which limits their reliability as standalone nutritional biomarkers during acute critical illness. The nearest distractor fails because it misplaces transthyretin and albumin relative to each other.",
+      "section": "Nutritional Assessment",
+      "image": null,
+      "section_url": null,
+      "source_id": "nut1_a07",
+      "options": [
+        "Albumin – transferrin – transthyretin – fibronectin",
+        "Transferrin – fibronectin – albumin – transthyretin",
+        "Albumin – transthyretin – fibronectin – transferrin",
+        "Transthyretin – albumin – fibronectin – transferrin",
+        "Fibronectin – transthyretin – transferrin – albumin"
+      ],
+      "correct": 4
+    },
+    {
+      "id": "gm7_047",
+      "type": "A",
+      "set": 1,
+      "source": "guideline_generated",
+      "question": "A 54-year-old woman with native mitral valve endocarditis caused by viridans streptococci has completed 12 days of appropriate intravenous antibiotics. She is afebrile with sterile blood cultures, but has now sustained a second symptomatic splenic infarct, and repeat transoesophageal echocardiography shows a persistent 14 mm anterior leaflet vegetation with mild regurgitation. What is the most appropriate management?",
+      "explanation": "European guidance recommends urgent surgery for a vegetation larger than 10 mm that persists after one or more embolic episodes despite adequate antimicrobial therapy, because the risk of a further and potentially cerebral embolus outweighs the operative risk. Simply completing the medical course accepts that ongoing risk, and adding an aminoglycoside does not reduce embolic potential in streptococcal disease. Anticoagulation is the most tempting wrong answer: it does not prevent vegetation embolism and increases the risk of haemorrhagic transformation of an existing infarct.",
+      "section": "ESC 2023 infective endocarditis",
+      "image": null,
+      "section_url": null,
+      "source_id": "xinf_a02",
+      "options": [
+        "Refer for urgent valve surgery to prevent further systemic embolic events",
+        "Start therapeutic anticoagulation to reduce vegetation-related embolism",
+        "Add gentamicin to the regimen and continue medical treatment alone",
+        "Switch to oral step-down therapy now that her blood cultures are sterile",
+        "Complete the planned six-week antibiotic course and repeat imaging afterwards"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "gm7_048",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which best supports the diagnosis of hypoperfusion?",
+      "explanation": "Serum lactate >2 mmol/L indicates tissue hypoperfusion associated with organ dysfunction in critically ill patients; in tissue hypoxia, lactate is overproduced by increased anaerobic glycolysis. ScvO2 is a surrogate for SvO2 reflecting the balance between oxygen delivery (DO2) and consumption (VO2). Normal SvO2 range is 60–80%. ScvO2 and SvO2 are usually below normal in hypovolaemia and cardiogenic shock (low-flow states) but are usually high in distributive shock such as septic shock. Elevated lactate combined with decreased ScvO2 best supports hypoperfusion.",
+      "section": "Sepsis",
+      "image": null,
+      "section_url": null,
+      "source_id": "sep2_fk01",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Elevated lactate and elevated ScVO2",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Elevated lactate and decreased ScVO2",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Normal lactate and decreased ScVO2",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Normal lactate and normal ScVO2",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gm7_049",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the diagnosis of brain death in the ICU, indicate whether the following statements are TRUE or FALSE.",
+      "explanation": "Apnea testing is a mandatory component of brain death diagnosis; absent brainstem reflexes alone are insufficient. Fixed time intervals after stopping sedatives are not universally accepted because drug clearance varies substantially with organ function, body composition, and duration of infusion. Hypothermia and metabolic disturbances can mimic brain death and must be corrected before testing. Legal requirements for confirmatory tests vary by jurisdiction; they are not universally mandatory where clinical examination and apnea testing are fully achievable.",
+      "section": "Coma: Prognosis",
+      "image": null,
+      "section_url": null,
+      "source_id": "coma_k07",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Brain death can be diagnosed on the basis of absent brainstem reflexes alone, without performing an apnea test.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "A fixed time interval after stopping sedative infusions is universally accepted as sufficient to exclude residual drug effect before brain death testing.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hypothermia and uncorrected metabolic disturbances must be resolved before brain death testing is performed.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Confirmatory tests such as EEG or cerebral angiography are legally mandatory in all countries for the formal diagnosis of brain death.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gm7_050",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 71-year-old has absent bowel sounds at 48 hours following emergency laparotomy. The surgical team considers withholding EN until bowel sounds return. Which statement best guides this decision?",
+      "explanation": "Absent bowel sounds alone are not a contraindication to enteral nutrition. The absence of bowel sounds primarily reflects large intestinal motility (the large bowel resumes motility later than the small bowel following surgery or critical illness). Small bowel motility typically recovers within 6–12 hours of surgery or illness onset. Feeding decisions should be based on clinical assessment of GI function and contraindications, not on the presence or absence of bowel sounds. Early EN after major surgery is supported by evidence and may improve outcomes.",
+      "section": "Enteral Nutrition – Contraindications",
+      "image": null,
+      "section_url": null,
+      "source_id": "nut2_a14",
+      "options": [
+        "All post-laparotomy patients require at least 72 hours of gut rest to allow anastomotic healing before enteral feeding",
+        "Absent bowel sounds alone are not a contraindication to EN; small bowel motility resumes independently of audible bowel sounds in the post-operative period",
+        "Absent bowel sounds mandate post-pyloric placement before EN can be commenced",
+        "A plain abdominal radiograph should be requested in all post-operative patients before initiating EN to confirm the absence of mechanical obstruction or ileus pattern",
+        "EN should be delayed until bowel sounds return, as their absence reliably confirms that the small bowel has not yet resumed peristalsis and is not ready for luminal feeding"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "gm7_051",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "When selecting an enteral formula for a mechanically ventilated patient with no known malabsorption, specific metabolic requirements, or known food intolerances, which formula is recommended as the default first-line choice?",
+      "explanation": "A standard polymeric formula is recommended as the default first-line enteral formula in most critically ill patients. Polymeric formulas contain whole proteins requiring normal digestive capacity, and have been shown to be well-tolerated and effective in the general ICU population. Semi-elemental formulas are reserved for patients with confirmed malabsorption or GI failure. Immune-modulating formulas are not recommended routinely. High-fat, low-carbohydrate formulas were promoted for ARDS and ventilated patients based on theoretical RQ reduction, but RCTs have not confirmed clinical benefit.",
+      "section": "Enteral Nutrition – Formula Selection",
+      "image": null,
+      "section_url": null,
+      "source_id": "nut2_a10",
+      "options": [
+        "A semi-elemental pre-digested formula to maximise absorption in the stressed gut",
+        "A high-fat, low-carbohydrate formula to reduce the respiratory quotient and CO2 production",
+        "A standard polymeric formula using whole intact proteins and standard nutrient density",
+        "An immune-modulating formula containing glutamine, arginine, and omega-3 fatty acids",
+        "A fibre-enriched formula to prevent constipation and maintain gut motility"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "gm7_052",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 44-year-old man with known myotonic dystrophy type 1 remains intubated 5 hours after elective hernia repair under general anaesthesia with a volatile agent and vecuronium. Neostigmine reversal was ineffective. What MOST accurately explains this clinical picture?",
+      "explanation": "Myotonic dystrophy type 1 causes markedly increased sensitivity to neuromuscular blocking agents and volatile anaesthetic agents, often producing prolonged respiratory depression after even minor procedures. Myotonia — inability to relax a contracted muscle — further impairs post-operative respiratory recovery. Neostigmine may be ineffective or worsen myotonia by increasing ACh. Sugammadex (encapsulates steroidal NMBAs including vecuronium) is the preferred reversal agent. Pseudocholinesterase deficiency specifically prolongs succinylcholine, not vecuronium.",
+      "section": "Neuromuscular: Primary Disorders",
+      "image": null,
+      "section_url": null,
+      "source_id": "nmc_a10",
+      "options": [
+        "The prolonged blockade reflects pseudocholinesterase deficiency unmasked by vecuronium",
+        "Vecuronium is eliminated entirely by hepatic first-pass metabolism, which is impaired in myotonic dystrophy",
+        "Volatile anaesthetic agents cause dose-dependent AChR upregulation in myotonic dystrophy, producing permanent neuromuscular blockade",
+        "Myotonic dystrophy causes increased sensitivity to neuromuscular blocking agents and volatile anaesthetics, and myotonia impairs muscle relaxation together producing prolonged post-anaesthetic respiratory depression",
+        "This represents an acute exacerbation triggered by surgical stress; ventilatory support alone is curative"
+      ],
+      "correct": 3
+    },
+    {
+      "id": "gm7_053",
+      "type": "K",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "Regarding the overall use of aminoglycosides in critically ill patients:",
+      "explanation": "Aminoglycosides are typically used together with a beta-lactam or fluoroquinolone, particularly in shock or hypotension, rather than as monotherapy. They are given as large single-daily doses, and are rarely continued for more than about 5-6 days given their toxicity profile. Therapeutic drug monitoring remains fundamental to avoiding nephro- and ototoxicity. Aerosolised delivery appears to be a rational option in ventilator-associated pneumonia caused by hard-to-treat or resistant organisms, allowing benefit without the toxicity seen with prolonged systemic exposure.",
+      "section": "Aminoglycosides - summary",
+      "image": null,
+      "section_url": null,
+      "source_id": "pkpd_pc2_sa08",
+      "statements": [
+        {
+          "label": "A",
+          "text": "They are typically used as monotherapy in patients with shock or hypotension, rather than combined with other antibiotics",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Large single daily doses are generally preferred over multiple smaller daily doses",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Courses are typically continued well beyond 5-6 days in critically ill patients",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Aerosolised delivery may allow use in hard-to-treat, resistant VAP organisms without the development of toxicity",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gm7_054",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Postmortem renal histology from a patient who died of septic shock with severe AKI shows heterogeneous tubular cell injury with de-differentiation, loss of cell-cell junctions, and apoptosis, but notably lacks the extensive tubular necrosis seen in severe ischaemic injury models. What does this finding suggest about the pathology of septic AKI?",
+      "explanation": "Human postmortem data show that septic AKI is characterised more by heterogeneous, sublethal tubular cell injury and dysfunction (de-differentiation, loss of junctions, apoptosis) than by the extensive frank tubular necrosis seen in animal ischaemia-reperfusion models, suggesting the pathophysiology differs meaningfully from the classical ischaemic paradigm. This does not mean septic AKI is purely functional — genuine cellular injury is present — nor does it guarantee a particular recovery trajectory.",
+      "section": "Pathology of AKI in the ICU",
+      "image": null,
+      "section_url": null,
+      "source_id": "aki3_a08",
+      "options": [
+        "This pattern is unique to septic AKI and has never been reported in other causes of critical illness-associated AKI",
+        "Septic AKI is not a true form of tubular injury and is purely a haemodynamic/functional phenomenon",
+        "The absence of necrosis confirms that renal recovery will necessarily be rapid and complete",
+        "The histological findings indicate a laboratory processing artefact and should be disregarded",
+        "Septic AKI predominantly involves sublethal tubular cell dysfunction and stress rather than widespread frank necrosis, unlike classical ischaemia-reperfusion models"
+      ],
+      "correct": 4
+    },
+    {
+      "id": "gm7_055",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The same trauma patient (suspected unstable cervical spine, GCS 7) continues to have noisy respiratory efforts. Is a head-tilt, chin-lift manoeuvre indicated to relieve the obstruction?",
+      "explanation": "A chin lift can help relieve airway obstruction without extending the neck, and is therefore preferred over a head-tilt in suspected cervical spine injury. Withholding all airway manoeuvres until formal spine clearance is not appropriate when the airway is compromised — the chin-lift component can be used safely while the neck-extension component is avoided.",
+      "section": "Trauma Airway Management",
+      "image": null,
+      "section_url": null,
+      "source_id": "aw1_fa02",
+      "options": [
+        "A chin lift may help relieve the obstruction, but neck extension should be avoided given the possible cervical spine injury",
+        "Only nasopharyngeal airways are considered safe to use when cervical spine injury is suspected",
+        "No airway opening manoeuvre should be attempted until the cervical spine has been formally cleared",
+        "Yes, head-tilt chin-lift should be performed as first-line regardless of injury mechanism",
+        "A full head-tilt with maximal neck extension is required to achieve an adequate seal for bag-mask ventilation"
+      ],
+      "correct": 0
+    }
+  ]
+}

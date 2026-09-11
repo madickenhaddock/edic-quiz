@@ -1,0 +1,1374 @@
+{
+  "module": "EDIC Generated Mock Exam 06",
+  "source": "generated_mock",
+  "total_questions": 55,
+  "sections": {},
+  "questions": [
+    {
+      "id": "gm6_001",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "What are the two main uses of clinical outcome measurement?",
+      "explanation": "Clinical outcome measurement serves two principal purposes: assessing and benchmarking the quality of care delivered, and providing endpoints for clinical research - not operational functions like bed management, financial reimbursement, or patient satisfaction tracking, which are separate from outcome measurement's core purpose.",
+      "section": "Outcome Measurement Principles",
+      "image": null,
+      "section_url": null,
+      "source_id": "co1_fa03",
+      "options": [
+        "Assessment of quality of care and endpoints for research",
+        "Financial reimbursement and medico-legal protection",
+        "Patient satisfaction surveys and visitor experience tracking",
+        "Antibiotic stewardship and transfusion governance",
+        "Bed management and workforce wellbeing monitoring"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "gm6_002",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding assessment of respiratory system resistance in mechanically ventilated patients with obstructive lung disease:",
+      "explanation": "ΔR = Rmax − Rmin represents resistance from time-constant heterogeneity within the lungs and viscoelastic behaviour of lung tissue — not ohmic airway resistance (which is Rmin). Rmin = (Ppeak − P1)/V̇ captures the immediate pressure drop when flow stops, reflecting the ohmic resistance of conducting airways and ETT. Normal Rmin is <8 cmH2O/L/s depending on ETT diameter; in COPD, both Rmin and ΔR are substantially elevated. Rmax and Rmin are equal only in homogeneous lungs without viscoelastic properties; in most mechanically ventilated patients, especially those with obstructive or heterogeneous lung disease, Rmax > Rmin because the slow-component ΔR is non-zero.",
+      "section": "Part IV: Ventilatory Support and Mechanics",
+      "image": null,
+      "section_url": null,
+      "source_id": "copd45_k04",
+      "statements": [
+        {
+          "label": "A",
+          "text": "ΔR = Rmax − Rmin reflects the ohmic (newtonian) resistance of the conducting airways and ETT",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Rmin is calculated as (Ppeak − P1)/V̇ and reflects the resistance of the conducting airways and endotracheal tube",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Normal Rmin values in mechanically ventilated patients are less than 8 cmH2O/L/s and vary with ETT diameter",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Rmax and Rmin are equal in all mechanically ventilated patients because the inspiratory occlusion eliminates the viscoelastic component",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gm6_003",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding nasogastric tube position confirmation and monitoring in the ICU:",
+      "explanation": "Aspirate pH is unreliable in patients on PPIs, PPIs-with-EN, or non-gastric placements — it cannot be used alone. Auscultation of air injection has caused fatal incidents by failing to detect bronchial placement; it is not a reliable confirmation method. NGT position can change without external manipulation — the tube can migrate into the oesophagus or beyond the pylorus with patient movement or peristalsis — requiring at least weekly reassessment. CXR after initial insertion is the only true statement and is mandatory before commencing feeding.",
+      "section": "Enteral Nutrition – NGT Monitoring",
+      "image": null,
+      "section_url": null,
+      "source_id": "nut2_k15",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Aspirate pH measurement (<4.5) alone is a validated and sufficient method to confirm NGT position in all ICU patients, including those on proton pump inhibitors",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Auscultation over the epigastrium after air insufflation through the NGT is an acceptable and reliable alternative to CXR for initial position confirmation",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "A chest radiograph is mandatory after initial NGT insertion to confirm correct position before commencing enteral feeding in mechanically ventilated patients",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Once confirmed by CXR at insertion, NGT position does not require further reassessment as long as the tube has not been externally manipulated",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gm6_004",
+      "type": "K",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "Regarding factors that influence the choice of antimicrobial agent in a critically ill septic patient:",
+      "explanation": "Choice of antimicrobial should account for the organism (susceptibility profile, PK/PD strategy needed, tendency to develop resistance on therapy, and whether it is an intracellular pathogen - aminoglycosides penetrate poorly into cells and are therefore poor choices for strictly intracellular organisms like Rickettsia, Chlamydia or Coxiella burnetii), the patient (current illness, allergies, prior antibiotic exposure, comorbidities, relevant social history), and organ function - renal or hepatic dysfunction can reduce elimination and increase toxicity risk regardless of in vitro susceptibility, and multiple organ dysfunction in sepsis is itself a relevant factor.",
+      "section": "Antimicrobial selection factors",
+      "image": null,
+      "section_url": null,
+      "source_id": "pkpd_pc1_sa06",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The causative organism's tendency to develop resistance during treatment (e.g. Pseudomonas species) is a relevant consideration",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Aminoglycosides are a good choice for infections caused by strictly intracellular organisms such as Chlamydia or Coxiella burnetii",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "A history of prior antibiotic exposure and relevant comorbidities should inform empirical antibiotic choice",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Renal or hepatic dysfunction is irrelevant to antimicrobial choice as long as the organism is susceptible in vitro",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gm6_005",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding recognised complications of parenteral nutrition compared with enteral nutrition:",
+      "explanation": "PN-associated liver disease affects more than 60% of patients on long-term PN — not fewer than 10%. Aspiration pneumonia is a complication of enteral nutrition — associated with NGT presence, gastric reflux, and sedation — and is not attributed to PN. CRBSI and catheter-associated venous thrombosis are both genuine PN-specific complications. Recognising the distinction between EN and PN complications is clinically important: PN protects against aspiration but introduces catheter-related risks.",
+      "section": "Parenteral Nutrition – Complications",
+      "image": null,
+      "section_url": null,
+      "source_id": "nut2_k14",
+      "statements": [
+        {
+          "label": "A",
+          "text": "PN-associated liver disease develops in fewer than 10% of patients on long-term PN and typically resolves without intervention when PN is eventually discontinued",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Catheter-related bloodstream infection is a recognised and potentially serious complication of central venous access required for PN",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Aspiration pneumonia is a recognised complication of both parenteral and enteral nutrition with equal prevalence in clinical trials",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Venous thrombosis related to central venous catheter placement is a recognised complication requiring appropriate monitoring in patients on PN",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gm6_006",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Preoxygenation in the critically ill can be improved by:",
+      "explanation": "Though all the described methods may improve oxygenation peri-intubation, only a head-up position and non-invasive ventilation specifically provide pre-oxygenation; nasal prong oxygen during apnoea is a technique for apnoeic oxygenation (not pre-oxygenation), and a recruitment manoeuvre addresses atelectasis rather than pre-oxygenation itself.",
+      "section": "Preoxygenation",
+      "image": null,
+      "section_url": null,
+      "source_id": "aw1_fk03",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Head up tilt",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Administration of oxygen via nasal prongs during apnoea",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "A recruitment manoeuvre",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Non-invasive Ventilation",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gm6_007",
+      "type": "K",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "Beyond ward-level infection control measures, regarding institutional-level measures to reduce spread of a multidrug-resistant pathogen across a hospital:",
+      "explanation": "Institutional-level measures to reduce spread of a multidrug-resistant pathogen include surveillance of staff and new or transferred patients; documentation such as infection-rate databases; staff and public/patient education; minimising transfer of patients or staff between clinical areas; infection alerts on drug charts, case records or electronic systems; audit of the effectiveness of measures instituted; and antibiotic stewardship policies such as restrictions or rotation.",
+      "section": null,
+      "image": null,
+      "section_url": null,
+      "source_id": "ipc_sk08",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Surveillance of staff, new patients, and patients transferred from other care areas is a recognised institutional measure",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Maintaining documentation such as databases recording infection rates supports outbreak control",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Antibiotic stewardship policies, such as restrictions or antibiotic rotation, are a recognised institutional measure",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Minimising transfer of patients or staff between clinical areas during an outbreak is counterproductive and should be avoided",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gm6_008",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient's baseline serum creatinine is 70 µmol/l. On ICU day 2, creatinine has risen to 115 µmol/l (1.64-fold from baseline), and urine output has been 0.4 ml/kg/h for the preceding 10 hours. What is the correct KDIGO AKI stage?",
+      "explanation": "A creatinine rise of 1.5–1.9× baseline and urine output <0.5 ml/kg/h for 6–12h both correspond to KDIGO stage 1, so the two criteria are concordant here. Stage 2 would require a rise to 2.0–2.9× baseline or oliguria persisting ≥12 hours, neither of which is yet met.",
+      "section": "KDIGO staging",
+      "image": null,
+      "section_url": null,
+      "source_id": "aki1_a01",
+      "options": [
+        "AKI stage 3",
+        "AKI stage 1",
+        "Cannot stage without a documented cause of the creatinine rise",
+        "No AKI — the creatinine rise alone does not meet the threshold",
+        "AKI stage 2"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "gm6_009",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Recovery from sepsis related AKI or AKD",
+      "explanation": "Serum creatinine is a poor measure of renal function in AKI. Either SCr may be slow to recover despite improving renal function, or SCr may be falsely low, especially in longer term ICU patients in whom muscle wasting has occurred. Approximately 50% of patients with sepsis related AKD will not have renal function return to baseline by the time they leave hospital. Patients who have an AKI which recovers have a higher mortality than patients with no AKI. Patients with any severity of underlying CKD are more likely to progress to more severe CKD or end stage renal failure if they suffer AKI.",
+      "section": "Renal",
+      "image": null,
+      "section_url": null,
+      "source_id": "aki2_fk03",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Recovery can be assumed to be a full recovery if the serum creatinine returns to normal",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Full recovery is observed in 95% of patients admitted to the intensive care with sepsis related AKD",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Is associated with an increased risk of mortality even if renal recovery is complete",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Recovery from AKI or AKD is more likely in patients with underlying CKD stage 1",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gm6_010",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Direct laryngoscopy in this patient shows a Cormack-Lehane grade 4 view. Regarding the subsequent approach:",
+      "explanation": "A failed laryngoscopy pathway calls for early senior help, a maximum of three laryngoscopy attempts by the most experienced operator (optimising each attempt with videolaryngoscopy, a bougie/stylet, or external laryngeal manipulation such as the BURP technique), and continuous oxygenation via facemask or nasal cannula between attempts. If laryngoscopy fails, several options remain before a surgical airway: waking the patient (rarely feasible in the ICU), awaiting expert assistance, or intubating via a supraglottic airway — front-of-neck access is one option among several, not the only remaining step.",
+      "section": "Failed Laryngoscopy Algorithm",
+      "image": null,
+      "section_url": null,
+      "source_id": "aw2_fk04",
+      "statements": [
+        {
+          "label": "A",
+          "text": "More experienced airway help should be called if this has not already been done",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Laryngoscopy attempts should be limited to a maximum of three, performed by the most experienced airway clinician available",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Between and during laryngoscopy attempts, oxygenation should be actively maintained, for example via a nasal cannula or high-flow nasal oxygen",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "If laryngoscopy ultimately fails, the only remaining option is to proceed directly to a surgical front-of-neck airway",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gm6_011",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 31-year-old man is diagnosed with atypical haemolytic uraemic syndrome and genetic testing is arranged for prognosis and family counselling. Which gene is most commonly mutated in this condition?",
+      "explanation": "Loss-of-function mutations in complement factor H are the commonest identified genetic driver of atypical HUS; factor H is the principal fluid-phase regulator restraining the alternative pathway, so losing it permits unchecked complement activation on endothelium. Membrane cofactor protein, factor I, thrombomodulin and DGKE mutations all occur but are less frequent, while gain-of-function mutations in C3 and factor B act by the mirror-image mechanism of excessive activation rather than failed regulation. A mutation is identified in only about half to sixty per cent of patients.",
+      "section": "Atypical haemolytic uremic syndrome: Pathophysiology",
+      "image": null,
+      "section_url": null,
+      "source_id": "haemicu1_a08",
+      "options": [
+        "CD46 (membrane cofactor protein)",
+        "THBD (thrombomodulin)",
+        "CFH (complement factor H)",
+        "DGKE (diacylglycerol kinase epsilon)",
+        "CFI (complement factor I)"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "gm6_012",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Compared with patients extubated successfully on the first attempt, patients who need reintubation after extubation failure have approximately what mortality?",
+      "explanation": "Reintubation after extubation failure carries a mortality of about 30-50%, well above the 5-10% with successful extubation - reflecting both illness severity and harms of the failed episode.",
+      "section": "Definitions",
+      "image": null,
+      "section_url": null,
+      "source_id": "mv5_a04",
+      "options": [
+        "1-2%, much like successful extubation",
+        "5-10%, only slightly above successful extubation",
+        "A rate that falls after reintubation owing to closer monitoring",
+        "30-50%, substantially above the 5-10% seen with success",
+        "A rate unaffected by reintubation status"
+      ],
+      "correct": 3
+    },
+    {
+      "id": "gm6_013",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 67-year-old man in distributive shock is receiving pressure support ventilation (PSV 12 cmH₂O, PEEP 8 cmH₂O) with preserved spontaneous respiratory effort. His arterial line shows a pulse pressure variation (PPV) of 18%. The nurse asks whether this reliably indicates fluid responsiveness. What is the most appropriate response?",
+      "explanation": "PPV and SVV are only valid dynamic markers of fluid responsiveness when three conditions are simultaneously met: sinus rhythm, fully passive controlled mechanical ventilation with no spontaneous effort, and a tidal volume of 8 mL/kg. Spontaneous respiratory effort during PSV generates unpredictable intrathoracic pressure swings that invalidate the PPV signal, regardless of PEEP level. Believing PPV >10% reliably predicts fluid responsiveness regardless of ventilation mode is the most common near-miss here — PPV is frequently misapplied in partially ventilated patients. The unreliability comes from the spontaneous breathing effort invalidating the underlying assumptions, not from low SVR artificially inflating the reading, and PPV is measured from a peripheral arterial line, not a pulmonary artery catheter. A passive leg raise, which does not depend on ventilation mode, would be the appropriate test in this scenario — not an immediate empirical fluid bolus based on this unreliable PPV reading.",
+      "section": "Treatment",
+      "image": null,
+      "section_url": null,
+      "source_id": "hypo_a03",
+      "options": [
+        "No — PPV requires a pulmonary artery catheter rather than a peripheral arterial line to be measured accurately.",
+        "Yes — PPV >10% reliably predicts fluid responsiveness regardless of ventilation mode.",
+        "No — PPV is unreliable in distributive shock because low SVR artificially inflates the reading.",
+        "Yes — PPV >10% on PSV confirms significant preload dependence and warrants an immediate 500 mL bolus.",
+        "No — PPV is only valid in sinus rhythm with fully passive ventilation at 8 mL/kg; spontaneous effort invalidates it"
+      ],
+      "correct": 4
+    },
+    {
+      "id": "gm6_014",
+      "type": "K",
+      "set": 1,
+      "source": "sba_generated",
+      "question": "Following identification of a second ICU patient with an apparently related ESBL-producing Klebsiella, regarding isolation of these patients:",
+      "explanation": "Infection control teams commonly advise isolation when an unusual clustering of a similar isolate is identified, even before genotyping confirms clonality. However, the practicalities depend on staffing, unit layout and other isolation priorities, and the evidence base for benefit is limited. When single rooms are unavailable, alternative measures such as cohorting affected patients together, separated from others by an unstaffed bed space, can still reduce cross-transmission risk.",
+      "section": null,
+      "image": null,
+      "section_url": null,
+      "source_id": "ipc_sk02",
+      "statements": [
+        {
+          "label": "A",
+          "text": "There is strong, consistent trial evidence that patient isolation reduces transmission of multidrug-resistant organisms in the ICU",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "The unusual occurrence of two patients with a similar isolate is a reasonable basis for advising isolation, even before genotyping results are available",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The practicalities of isolating patients depend on factors such as staffing, unit layout, and competing isolation needs such as protective isolation for neutropenic patients",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "If no single rooms are available, isolation is impossible and no alternative infection control measures can be implemented",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gm6_015",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 48-year-old CMV-seropositive patient (R+) receives a kidney from a CMV-seronegative donor (D-). The transplant team discusses CMV management strategies. Which description most accurately defines the 'preemptive strategy' for CMV prophylaxis?",
+      "explanation": "The preemptive strategy monitors CMV viral load and initiates antiviral therapy when a critical threshold is reached but before clinical symptoms develop. Starting all high-risk patients on antivirals irrespective of viral load instead describes universal prophylaxis, the alternative strategy. Reserving therapy for patients who already have symptoms describes reactive treatment, not prophylaxis at all. The choice of oral vs IV agent is independent of the strategy — both strategies can use either valganciclovir (oral) or ganciclovir (IV), so tying a specific drug route to a specific strategy is incorrect. The distinction between these two strategies is a high-yield EDIC topic.",
+      "section": "Antimicrobial Prophylaxis",
+      "image": null,
+      "section_url": null,
+      "source_id": "imp4_a09",
+      "options": [
+        "CMV viral load is monitored regularly and antiviral therapy is initiated at a pre-defined threshold, before clinical disease develops",
+        "The preemptive strategy exclusively and always uses oral valganciclovir, while universal prophylaxis exclusively and always uses IV ganciclovir only",
+        "All CMV-seropositive or otherwise high-risk post-transplant patients are started on antiviral therapy regardless of their measured viral load at any point",
+        "Antiviral prophylaxis is administered only to donor-seropositive/recipient-seronegative (D+/R-) transplants",
+        "Antiviral therapy is reserved for patients who develop symptoms and signs of CMV disease"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "gm6_016",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding trauma triage principles and tools, which of the following statements are correct?",
+      "explanation": "RED field triage requires *any single* qualifying physiological OR anatomical criterion — not both simultaneously. eFAST does have approximately 91% sensitivity vs 47% for X-ray for pneumothorax. ATMISTER adds Age, Estimated arrival time, and Requirements to MIST. Prehospital triage is always the first step, guiding destination; hospital triage follows on arrival.",
+      "section": "Trauma triage",
+      "image": null,
+      "section_url": "",
+      "source_id": "mtr1_k07",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The RED field triage classification requires both a physiological AND an anatomical criterion to be simultaneously present.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "eFAST has approximately 91% sensitivity for pneumothorax, substantially outperforming plain chest X-ray at 47%.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The ATMISTER mnemonic adds Age, Estimated arrival time, and Requirements to the basic MIST handover format.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Hospital triage occurs before prehospital triage in the standard trauma care pathway.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gm6_017",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 22-year-old woman presents with pyrexia and rigors. Examination reveals profuse splinter haemorrhages and a short early diastolic murmur at the lower left sternal edge. Her ECG (shown) demonstrates high-degree AV block with P waves independent of the QRS complexes. What is the most likely diagnosis?",
+      "explanation": "Splinter haemorrhages and an early diastolic murmur suggest active aortic valve endocarditis; new high-degree AV block suggests extension of infection into the aortic root, forming an abscess adjacent to the conduction system. The murmur described is not typical of mitral valve disease.",
+      "section": "Arrhythmia",
+      "image": "images/arr1_fa08.png",
+      "section_url": null,
+      "source_id": "arr1_fa08",
+      "options": [
+        "Viral myocarditis with associated conduction disease",
+        "Infective endocarditis of the aortic valve complicated by an aortic root abscess",
+        "Acute pericarditis secondary to a viral illness",
+        "Acute rheumatic fever with carditis",
+        "Mitral valve endocarditis with embolic phenomena"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "gm6_018",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding dynamic markers of fluid responsiveness in mechanically ventilated patients:",
+      "explanation": "A passive leg raise does act as a reversible autotransfusion and can assess fluid responsiveness without administering intravenous fluid, mobilising venous blood from the lower limbs to provide a fully reversible preload challenge with no net fluid given. A pulse pressure variation above 10%, measured under appropriate conditions, does predict a positive haemodynamic response to a fluid bolus. The claim that PPV is a reliable marker of fluid responsiveness in a patient making spontaneous respiratory efforts during pressure support ventilation is false — spontaneous respiratory effort during PSV generates unpredictable intrathoracic pressure changes that invalidate PPV, regardless of PEEP level or tidal volume. The claim that PPV and SVV are valid markers in patients with atrial fibrillation who are on fully controlled mechanical ventilation is also false — both sinus rhythm and fully controlled mechanical ventilation are required; atrial fibrillation generates irregular R-R intervals that invalidate the measurement even on controlled ventilation.",
+      "section": "Treatment",
+      "image": null,
+      "section_url": null,
+      "source_id": "hypo_k05",
+      "statements": [
+        {
+          "label": "A",
+          "text": "PPV is a reliable marker of fluid responsiveness in a patient making spontaneous respiratory efforts during pressure support ventilation.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "A passive leg raise acts as a reversible autotransfusion and can assess fluid responsiveness without administering intravenous fluid.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "PPV and stroke volume variation (SVV) are valid markers of fluid responsiveness in patients with atrial fibrillation who are on fully controlled mechanical ventilation.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "A pulse pressure variation (PPV) >10% predicts a positive haemodynamic response to a fluid bolus.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gm6_019",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with refractory shock and severe fluid overload needs renal support but tolerates rapid fluid shifts poorly. Which modality is generally preferred, and why?",
+      "explanation": "Continuous therapy removes fluid gradually and is better tolerated in haemodynamic instability, whereas intermittent haemodialysis can precipitate hypotension through rapid shifts. Withholding support risks worsening overload and metabolic derangement.",
+      "section": "RRT — general and IHD",
+      "image": "",
+      "section_url": "",
+      "source_id": "dda_a14",
+      "options": [
+        "Intermittent haemodialysis, because sessions are shorter",
+        "Peritoneal dialysis, because it needs no anticoagulation",
+        "Continuous therapy, because slower fluid removal is better tolerated",
+        "No renal support until the shock resolves",
+        "Intermittent haemodialysis, because it clears small molecules faster"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "gm6_020",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the primary pathophysiological mechanisms of weaning failure:",
+      "explanation": "These mechanisms can indeed occur in combination in one patient rather than always in isolation, and neuromuscular disorders and psychological factors, alongside respiratory pump insufficiency and cardiovascular dysfunction, are all recognised contributors to weaning failure. The claim that metabolic and endocrine disease is never a cause and can be excluded from the workup is false — metabolic and endocrine disease is itself among the recognised primary mechanisms, and these mechanisms can occur alone or in combination.",
+      "section": "Diagnostic approach to weaning failure",
+      "image": null,
+      "section_url": null,
+      "source_id": "mv5_k03",
+      "statements": [
+        {
+          "label": "A",
+          "text": "These mechanisms can occur in combination in one patient, rather than always in isolation.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Metabolic and endocrine disease is never a cause and can be excluded from the workup.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Neuromuscular disorders and psychological factors are recognised contributors.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Respiratory pump insufficiency and cardiovascular dysfunction are both recognised primary mechanisms.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gm6_021",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "In a patient receiving high-dose noradrenaline for septic shock, splanchnic blood flow is markedly reduced. Which part of the intestinal mucosa is most vulnerable to ischaemic injury, and why?",
+      "explanation": "The microvasculature of intestinal villi has a counter-current exchange arrangement: oxygen diffuses from arterioles to adjacent venules along the length of the villus, progressively reducing PaO2 from approximately 100 mmHg at the base to as low as 30 mmHg at the tip even under normal conditions. During hypoperfusion, this gradient is amplified, and the villus tip becomes critically hypoxic first, leading to mucosal sloughing, barrier failure, and bacterial translocation. This mechanism helps explain why splanchnic hypoperfusion — even without frank mesenteric ischaemia — can propagate systemic inflammation and MODS.",
+      "section": "GI physiology",
+      "image": null,
+      "section_url": "",
+      "source_id": "abd_a08",
+      "options": [
+        "The Peyer's patches of the terminal ileum; lymphoid aggregates have the highest metabolic rate per unit mass, and their extensive immune cell turnover creates the greatest oxygen demand and vulnerability to ischaemic injury during splanchnic hypoperfusion",
+        "The muscularis mucosae; it is the deepest mucosal layer and most remote from the submucosal arterial supply",
+        "The goblet cells lining the colonic mucosa; their high mucin secretory activity creates the greatest oxygen demand",
+        "The tip of the intestinal villi; counter-current oxygen exchange progressively reduces PaO2 from the villus base to the tip, which may fall to 30 mmHg during hypoperfusion",
+        "The intestinal crypts; they have the highest metabolic demand as the site of mucosal stem cell proliferation"
+      ],
+      "correct": 3
+    },
+    {
+      "id": "gm6_022",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "What is the main utility of the rapid shallow breathing index (RSBI), and its key limitation?",
+      "explanation": "RSBI (RR/VT after 2 minutes) is a sensitive early screen identifying candidates who may pass a confirmatory SBT, but a favourable value does not confirm actual SBT success, so a formal SBT is still required.",
+      "section": "Weaning Outcome Predictors",
+      "image": null,
+      "section_url": null,
+      "source_id": "mv5_a05",
+      "options": [
+        "It has no relationship to respiratory rate or tidal volume, being derived from other variables",
+        "It reliably confirms who will pass an SBT, so a low value alone justifies extubation",
+        "It is validated only in COPD patients, with no evidence in other groups",
+        "It is calculated only from a completed 30-minute SBT, not from a brief early assessment",
+        "A sensitive screen for candidates who might pass an SBT, without confirming they will pass"
+      ],
+      "correct": 4
+    },
+    {
+      "id": "gm6_023",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 67-year-old woman requires nasogastric tube insertion for enteral feeding. Following insertion, the chest radiograph shown is obtained before feeding is commenced. What is the key finding and most appropriate immediate action?",
+      "explanation": "The chest radiograph shows the NGT following the tracheal and right bronchial pathway — a malpositioned tube in the right main bronchus rather than the oesophagus and stomach. This is a potentially fatal complication of NGT insertion, as feeding into the bronchus causes aspiration directly into the lung. The immediate action is to stop feeding, not advance the tube (which would worsen bronchial placement), withdraw the tube, and reinsert with repeat CXR confirmation of correct position. pH testing and lateral CXR alone do not safely confirm position when bronchial malposition is visible on a standard CXR.",
+      "section": "Enteral Nutrition – NGT Monitoring",
+      "image": "images/img_4e387e323a.png",
+      "section_url": null,
+      "source_id": "nut2_a05",
+      "options": [
+        "The NGT follows the right bronchial pathway — stop feeding, withdraw the tube, reinsert, and confirm correct position with repeat CXR before any feeding",
+        "The tip position appears acceptable in the gastric body — confirm by aspirate pH and commence feeding",
+        "The NGT appears to be correctly positioned in the oesophagus; advance a further 10 cm and obtain a repeat CXR before commencing feeding at a reduced rate",
+        "Administer a small test bolus via the tube and observe for respiratory distress before commencing full feeding",
+        "Obtain a lateral chest radiograph before making any decision about tube position"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "gm6_024",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Assess each of the following statements regarding disease severity assessment in acute pancreatitis.",
+      "explanation": "Persistent organ failure >48 hours is the defining criterion for severe pancreatitis in the Revised Atlanta classification. The necrosis component of the CTSI assigns 0, 2, 4, or 6 points based on <30%, 30–50%, or >50% parenchymal involvement. CRP is a non-specific inflammatory marker that cannot differentiate infected from sterile necrosis — gas on CT and clinical deterioration are more useful indicators. A CTSI of 0–3 indicates mild disease, 4–6 moderate, and 7–10 severe; scores of 7–10 carry the highest morbidity and mortality.",
+      "section": "Early assessment of severity",
+      "image": null,
+      "section_url": "",
+      "source_id": "sap_k01",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Persistent organ failure lasting more than 48 hours defines severe acute pancreatitis according to the Revised Atlanta classification",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The CT Severity Index assigns up to 6 additional points based solely on the extent of pancreatic parenchymal necrosis",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "C-reactive protein reliably distinguishes infected from sterile pancreatic necrosis and should be used to guide intervention decisions",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "A CT Severity Index score of 4–6 indicates severe pancreatitis with the highest rates of morbidity and mortality",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gm6_025",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "In acute compartment syndrome of the leg, which clinical finding typically appears earliest and is most sensitive for detection of developing compartment hypertension?",
+      "explanation": "The 4 Ps of compartment syndrome are: Pain (particularly out of proportion to injury), Pain on Passive Stretch of muscles in the compartment, Paraesthesia, and Paresis/Paralysis. Pain on passive stretch (PPS) is typically the earliest and most sensitive sign. Pulselessness (the 5th P — Pulselessness) is a late sign indicating arterial compromise and impending limb loss. In the obtunded patient, intracompartmental pressure monitoring is mandatory: fasciotomy is indicated if ICP >30 mmHg or perfusion pressure <30 mmHg.",
+      "section": "Extremity injury",
+      "image": null,
+      "section_url": "",
+      "source_id": "mtr2_a25",
+      "options": [
+        "Pulselessness — absence of distal pulses indicates arterial compromise",
+        "Pain with passive stretch (Pain on Passive Stretch) — the most sensitive and earliest clinical sign",
+        "Paralysis — motor weakness indicating nerve ischaemia",
+        "Pallor — capillary refill >2 s with skin mottling",
+        "Paraesthesia — numbness in the distribution of the affected nerve"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "gm6_026",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 38-year-old motorcyclist arrives 90 minutes post-collision with GCS 11, a scalp laceration, and CT showing a small frontoparietal contusion without midline shift. BP is 102/70 mmHg. Which statement regarding tranexamic acid (TXA) is MOST consistent with current evidence?",
+      "explanation": "The CRASH-3 trial demonstrated that TXA reduces head injury-related death in patients with mild-to-moderate TBI (GCS ≥9) when administered within 3 hours of injury. No confirmed coagulopathy is required. TXA is NOT contraindicated by intracranial haemorrhage and shows no clear mortality benefit in severe isolated TBI.",
+      "section": "TBI Part I: Early Management",
+      "image": null,
+      "section_url": null,
+      "source_id": "tbi1_a02",
+      "options": [
+        "TXA is contraindicated in the presence of intracranial haemorrhage",
+        "TXA shows equivalent mortality benefit in severe isolated TBI (GCS ≤8)",
+        "TXA reduces mortality in mild-to-moderate TBI when given within 3 hours",
+        "TXA should be withheld until a systolic BP >120 mmHg is achieved",
+        "TXA is only indicated if fibrinogen levels confirm hyperfibrinolysis"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "gm6_027",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A patient with severe ARDS and refractory hypoxaemia (radial artery PaO2 45 mmHg, SaO2 81% on FiO2 100%, PEEP 15) shows no improvement despite prone positioning, neuromuscular blockade, a high-PEEP strategy, recruitment manoeuvres, iNO and HFOV. Haemodynamics are preserved (BP 115/72 mmHg, cardiac index 3.1 L/min/m², no shock).",
+      "explanation": "This patient has isolated refractory hypoxaemic respiratory failure with a preserved, non-shocked circulation (CI 3.1 L/min/m² is within a broadly normal range) — VV-ECMO, not VA-ECMO, is the appropriate configuration. ECCO2R only addresses CO2 clearance at low blood flow and provides no meaningful oxygenation support, so it is not an appropriate choice when the primary problem is refractory hypoxaemia.",
+      "section": "Acute Respiratory Failure ECLS Part I",
+      "image": null,
+      "section_url": null,
+      "source_id": "ecls1_fk01",
+      "statements": [
+        {
+          "label": "A",
+          "text": "VV-ECMO with a femoral-jugular cannulation configuration is an appropriate next step",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "VA-ECMO is indicated because the patient has cardiogenic shock",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "ECCO2R is a reasonable alternative to full ECMO given the severity of hypoxaemia",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "A cardiac index of 3.1 L/min/m² is consistent with a low-output, shocked state requiring haemodynamic support",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gm6_028",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following are the pathogenetic factors for airway obstruction in acute exacerbation of asthma?",
+      "explanation": "The factors involved in airflow obstruction during an acute asthma exacerbation are acute bronchoconstriction, airway oedema, and chronic mucus plug formation, together with airway remodelling over time. Smooth muscle hypertrophy and chronic (rather than acute) bronchoconstriction are features of longer-term airway remodelling, not the acute pathogenetic mechanism being asked about here.",
+      "section": "COPD and Asthma",
+      "image": null,
+      "section_url": null,
+      "source_id": "coa1_fk03",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Smooth muscle hypertrophy",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Chronic bronchoconstriction",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Acute bronchoconstriction",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Airway oedema",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gm6_029",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "During an acute severe asthma exacerbation, airway narrowing results from four distinct pathophysiological mechanisms. Which combination correctly identifies all four?",
+      "explanation": "The four mechanisms of airway narrowing in acute asthma are: (1) exaggerated contraction of airway smooth muscle — the predominant and most rapidly reversible mechanism; (2) airway oedema — a significant contributor especially during acute episodes; (3) mucus hypersecretion causing airway plugging; and (4) airway thickening from structural changes (hypertrophy and hyperplasia of smooth muscle and goblet cells), which is only partially reversible. Alveolar destruction and loss of elastic recoil are features of emphysema. Goblet cell depletion and increased mucociliary clearance are opposite to what occurs in asthma exacerbation.",
+      "section": "Part I: Pathophysiology",
+      "image": null,
+      "section_url": null,
+      "source_id": "copd12_a09",
+      "options": [
+        "Goblet cell depletion, smooth muscle hypertrophy, increased ciliary clearance, and mucosal ischaemia",
+        "Smooth muscle contraction, pleural effusion, increased surfactant production, and mucus depletion",
+        "Alveolar destruction, smooth muscle contraction, loss of elastic recoil, and mucus plugging",
+        "Airway smooth muscle contraction, airway oedema, mucus hypersecretion, and structural airway thickening",
+        "Smooth muscle atrophy, eosinophilic alveolitis, basement membrane thinning, and mucus depletion"
+      ],
+      "correct": 3
+    },
+    {
+      "id": "gm6_030",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 52-year-old develops septic shock following bowel perforation repair. Regarding the metabolic and hormonal response to his critical illness, evaluate each of the following:",
+      "explanation": "TNF, IL-1, and IL-6 in fact INDUCE lipolysis, proteolysis, anorexia, and weight loss in sepsis — not inhibit it. During persistent critical illness, plasma levels of both pituitary factors and peripheral hormones are typically lowered (not elevated), pointing to central suppression of the hypothalamic-pituitary axes. The two true statements — sympathetic norepinephrine release and incomplete suppression of gluconeogenesis by exogenous glucose — are well-established features of the stress response.",
+      "section": "Stress-related metabolic disturbances",
+      "image": null,
+      "section_url": null,
+      "source_id": "nut1_k01",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Cytokines such as TNF, IL-1 and IL-6 inhibit lipolysis, thereby protecting against weight loss in sepsis",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "The sympathetic nervous system response results in the immediate release of norepinephrine from postganglionic neurons in response to acetylcholine stimulation",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "During persistent critical illness, plasma levels of both pituitary factors and peripheral hormones are characteristically elevated due to sustained HPA activation",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Stress-induced hepatic glucose production of approximately 250–300 g/day is not fully inhibited by exogenous carbohydrates in nutritional formulas",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gm6_031",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 72-year-old patient on mechanical ventilation is assessed using the Richmond Agitation–Sedation Scale (RASS). When the nurse calls the patient's name, the patient opens her eyes and makes sustained eye contact (maintained for 12 seconds) before drifting off again. What is the RASS score?",
+      "explanation": "RASS −1 (Drowsy) is defined as not fully alert but with sustained eye-opening and eye contact (>10 seconds) in response to voice. RASS 0 is fully alert and calm without stimulation. RASS −2 is brief eye-opening (<10 seconds) with eye contact to voice. RASS −3 is any movement but no eye contact to voice. Clinical targets of RASS −1 to −2 (light sedation) are recommended as standard practice to facilitate weaning and reduce complications of deep sedation.",
+      "section": "Agitation",
+      "image": "images/img_15a805f367.png",
+      "section_url": null,
+      "source_id": "pad_a06",
+      "options": [
+        "RASS −2 (Light sedation)",
+        "RASS 0 (Alert and calm)",
+        "RASS −3 (Moderate sedation)",
+        "RASS +1 (Restless)",
+        "RASS −1 (Drowsy)"
+      ],
+      "correct": 4
+    },
+    {
+      "id": "gm6_032",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the distinction between vegetative state/UWS and minimally conscious state, indicate whether the following statements are TRUE or FALSE.",
+      "explanation": "Early diagnosis of MCS rather than VS/UWS is associated with a 50% higher likelihood of recovery to full consciousness — the distinction is clinically significant. CMD/covert cognition is detectable only by fMRI or EEG paradigms, not bedside observation. FDG-PET can distinguish MCS from VS/UWS: metabolic activity is higher in MCS, and secondary cortical areas can be activated in MCS but not in VS/UWS. Repeated structured behavioural assessment using validated instruments such as the Coma Recovery Scale-Revised is recommended.",
+      "section": "Coma: Definitions and Classification",
+      "image": null,
+      "section_url": null,
+      "source_id": "coma_k09",
+      "statements": [
+        {
+          "label": "A",
+          "text": "FDG-PET cannot distinguish MCS from VS/UWS because both states show equally reduced cerebral glucose metabolism.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Repeated structured behavioural assessment using validated scales can help differentiate MCS from VS/UWS over time.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Functional brain imaging and EEG-based paradigms can identify covert cognition (cognitive motor dissociation) that is undetectable by standard bedside behavioural assessment.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Early diagnosis of MCS rather than VS/UWS has no significant impact on the likelihood of recovery to full consciousness.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gm6_033",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "An 18-year-old obese man is brought to the Emergency Department after being ejected 10 metres from his car in a high-speed road traffic accident. He was not wearing a seatbelt. On arrival his eyes are closed, he makes incomprehensible sounds and flexes to painful stimuli (GCS 7). He has noisy respiratory efforts, respiratory rate 30/min, is cyanosed, heart rate 120/min, and blood pressure 100/60 mmHg. What is the most appropriate immediate action?",
+      "explanation": "Given the high-energy mechanism of injury (ejection from a vehicle at high speed), an unstable cervical spine must be assumed until proven otherwise. The immediate priority is to assess and support airway and breathing with supplemental oxygen while protecting the cervical spine during any airway manoeuvre — imaging and definitive airway management follow this initial assessment, not before it.",
+      "section": "Trauma Airway Management",
+      "image": null,
+      "section_url": null,
+      "source_id": "aw1_fa01",
+      "options": [
+        "Assess the airway and breathing while providing supplemental oxygen, assuming an unstable cervical spine given the mechanism of injury",
+        "Immediately perform a head-tilt, chin-lift manoeuvre to secure the airway",
+        "Proceed directly to rapid sequence intubation without further assessment",
+        "Position the patient in the full lateral recovery position",
+        "Wait for cervical spine imaging before any airway intervention"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "gm6_034",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 26-year-old man was admitted to the intensive care unit with severe acute pancreatitis of unknown aetiology. CT abdomen on admission showed initial features of acute pancreatitis. Over the first 48 hours he became hypoxic, hypotensive, tachycardic and anuric with a distended abdomen despite optimal care. He had been admitted to the intensive care unit, where he had been intubated, ventilated and fluid resuscitated. In the following days his condition worsened with increasing airway pressure, increasing FiO2, noradrenaline (0.3 mcg/kg/min) and haemofiltration had been started. Meanwhile, his abdomen became increasingly distended and tympanic. He never had fever and his inflammatory markers remained elevated. What would be your next step in management?",
+      "explanation": "At this stage in the disease process, intra-abdominal hypertension is a likely diagnosis. Aggressive IV fluid resuscitation is most useful in the first 12-24 hours of management. Whilst it is important to maintain a perfusing blood pressure, driving it even higher in the face of increased intra-abdominal pressure is unlikely to solve the problem alone and will increase the intra-abdominal pressure. Imaging should be considered but a repeat CT abdomen may be more useful than an ultrasound. Empirical antibiotics may be required if there are clear signs of systemic sepsis, however, in this scenario, detecting and treating abdominal compartment syndrome is the first priority.",
+      "section": null,
+      "image": null,
+      "section_url": null,
+      "source_id": "panc_fa03",
+      "options": [
+        "Bedside right upper quadrant ultrasound",
+        "Measure intra-abdominal pressure and request a surgical opinion",
+        "Aggressive IV fluid resuscitation.",
+        "Start empirical antibiotic therapy",
+        "Add in a second vasopressor agent"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "gm6_035",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A ventilated patient's capnography waveform is shown in the image, with an up-sloping gradient during the plateau phase across successive breaths. What does this represent?",
+      "explanation": "In obstructive airways disease, alveoli with differing time constants empty at different rates during expiration — alveoli with longer time constants continue emptying later, producing the characteristic up-sloping ('shark-fin') gradient during the plateau phase of the capnography trace. This pattern indicates bronchospasm.",
+      "section": "Capnography Interpretation",
+      "image": "images/aw2_fa05.png",
+      "section_url": null,
+      "source_id": "aw2_fa05",
+      "options": [
+        "Hypoventilation",
+        "Hypertension",
+        "Bronchospasm",
+        "Tracheal tube obstruction",
+        "Hyperventilation"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "gm6_036",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The best method to confirm the tracheal positioning of an endotracheal tube is:",
+      "explanation": "Although auscultation, tube misting, direct visualisation of the tube passing through the cords, and chest wall movement are all indicators consistent with successful tracheal intubation, capnography (continuous waveform CO2 detection) is the only reliable confirmatory method and is recommended for every intubation.",
+      "section": "Airway Confirmation",
+      "image": null,
+      "section_url": null,
+      "source_id": "aw1_fa07",
+      "options": [
+        "'Misting' of the endotracheal tube",
+        "Assessment of chest wall movement during ventilation",
+        "Visualisation of the endotracheal tube passing through the glottis",
+        "Capnography",
+        "Auscultation of the lung fields"
+      ],
+      "correct": 3
+    },
+    {
+      "id": "gm6_037",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A PN prescription is being calculated for a 75 kg patient. Regarding glucose delivery in PN, what is the maximum recommended infusion rate to prevent metabolic complications?",
+      "explanation": "The maximum recommended glucose infusion rate in PN is 5 mg/kg/min (approximately 6 g/kg/day). Above this rate, the liver's capacity for glucose oxidation is exceeded, resulting in net lipid synthesis (de novo lipogenesis), which contributes to PN-associated liver disease including steatosis. This metabolic ceiling is independent of insulin dosing — providing more glucose than can be oxidised results in hepatic fat accumulation regardless of glycaemic control. Endogenous glucose production in critical illness is approximately 3–4 mg/kg/min and provides the baseline before any exogenous glucose is added.",
+      "section": "Parenteral Nutrition – Macronutrients",
+      "image": null,
+      "section_url": null,
+      "source_id": "nut2_a22",
+      "options": [
+        "No maximum applies as long as blood glucose is measured hourly and insulin is adjusted proportionally",
+        "A maximum of 10 g/kg/day, corresponding to endogenous hepatic glucose production rates during critical illness",
+        "Glucose should be restricted to <1 g/kg/day during the acute phase to avoid all stress hyperglycaemia",
+        "No more than 200 g/day regardless of body weight, to maintain serum glucose below 10 mmol/L",
+        "A maximum of 5 mg/kg/min (approximately 6 g/kg/day), as exceeding this rate overwhelms glucose oxidation and promotes hepatic lipogenesis"
+      ],
+      "correct": 4
+    },
+    {
+      "id": "gm6_038",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "An aminoglycoside is chosen for a critically ill patient. Which pharmacodynamic target best predicts its efficacy?",
+      "explanation": "Aminoglycosides are concentration-dependent, so a high peak relative to the MIC drives killing, favouring larger, less frequent doses. Time above the MIC describes time-dependent agents such as beta-lactams, not aminoglycosides.",
+      "section": "Antibiotic dosing strategies",
+      "image": "",
+      "section_url": "",
+      "source_id": "dda_a18",
+      "options": [
+        "Peak concentration to MIC ratio",
+        "Area under the curve kept below the MIC",
+        "Time above the MIC",
+        "Total daily dose regardless of peak",
+        "Trough concentration alone"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "gm6_039",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 72-year-old man has had an elective knee replacement. His has a significant past medical history of ischaemic heart disease, type-2 diabetes mellitus, chronic renal disease (CKD stage 3) and sleep apnoea secondary to obesity. His pre-operative serum creatinine was 172 µmol/L. His serum creatinine has increased to 220 µmol/L but he is in considerable pain and you have been asked to review his drug chart. His current medications include; ramipril, bisoprolol, furosemide, atorvastatin and doxazocin (usual medications) and ibuprofen, oral morphine, ondansetron, omeprazole and dalteparin (started since surgery). The following would be the best course of action.",
+      "explanation": "Reviews of drug charts can be complicated when considering acute problems on the background of chronic disease. Bisoprolol should be continued if possible because of the risk of tachyarrhythmias secondary to acute withdrawal. Ramipril should be temporarily stopped because of its potential impact on AKI although it had an overall protective effect in many cases of CKD. Furosemide should be held until the patient's fluid status is optimised peri-operatively — furosemide does not protect the kidneys from AKI. Ibuprofen is a potent nephrotoxin and should be avoided in the peri-operative patient with additional risks of AKI (e.g. diabetes mellitus, CKD). Omeprazole is a potential nephrotoxin although most nephrotoxicity is observed after long term use — its advantages protecting against stress ulcers outweigh the risk of AKI in most major peri-operative patients. Morphine has a potent renally excreted metabolite which may accumulate in renal impairment. Oxycodone is less effected by kidney injury. Low molecular weight heparins may accumulate in AKI but they can be safely used if anti-Xa measurements are used to check for accumulation.",
+      "section": "Renal",
+      "image": null,
+      "section_url": null,
+      "source_id": "aki2_fa05",
+      "options": [
+        "Stop the ramipril, continue the bisoprolol furosemide and doxazocin. Stop the ibuprofen and omeprazole but continue with the morphine and ondansetron. Continue the dalteparin with anti-Xa monitoring.",
+        "Continue the bisoprolol, stop ramipril and furosemide and review need for doxazocin. Stop the ibuprofen, change the morphine to oral oxycodone, continue the omeprazole and continue the dalteparin but with anti-Xa monitoring.",
+        "Modifications to the drug chart are unnecessary at this point, because he has not yet developed severe acute kidney injury.",
+        "Continue ramipril, bisoprolol, furosemide and doxazocin because these are his normal medications. Stop the ibuprofen and omeprazole since these are nephrotoxins and change the dalteparin to unfractionated heparin.",
+        "Stop all of his usual medications, stop the ibuprofen, omeprazole and oral morphine. Start oral oxycodone and change the dalteparin to unfractionated heparin. Continue the ondansetron."
+      ],
+      "correct": 1
+    },
+    {
+      "id": "gm6_040",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "What does current evidence indicate about high-frequency oscillatory ventilation (HFOV) in ARDS?",
+      "explanation": "Two large trials found no benefit and possible harm overall, but a meta-analysis found the mortality association varied with severity - benefit in severe ARDS (P/F below 100) but worse mortality at higher P/F. The other options overstate or deny the evidence.",
+      "section": "Ventilator Induced Lung Injury (VILI)",
+      "image": null,
+      "section_url": null,
+      "source_id": "mv6_a10",
+      "options": [
+        "HFOV improves mortality only in mild ARDS (P/F above 300)",
+        "HFOV has never been studied in randomised trials",
+        "No overall benefit in two trials; possible benefit only in severe ARDS (P/F below 100)",
+        "Two large trials showed clear benefit in all ARDS, so it should be routine",
+        "HFOV removes the need for any conventional ventilator settings"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "gm6_041",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Airway narrowing and obstruction in patients with COPD can be caused by:",
+      "explanation": "The cardinal pathophysiologic feature of COPD is airflow limitation caused by airway narrowing and/or obstruction, loss of elastic recoil, or both. Airway narrowing and obstruction result from a combination of mechanisms, including inflammation-mediated mucus hypersecretion, mucus plugging, mucosal oedema, bronchospasm, peribronchial fibrosis, and remodelling of the small airways - so all of the listed mechanisms contribute.",
+      "section": "COPD and Asthma",
+      "image": null,
+      "section_url": null,
+      "source_id": "coa1_fa01",
+      "options": [
+        "Peribronchial fibrosis",
+        "Inflammation-mediated mucus hypersecretion",
+        "Remodelling of small airways",
+        "All the above",
+        "Mucosal edema"
+      ],
+      "correct": 3
+    },
+    {
+      "id": "gm6_042",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 47-year-old post-cardiac surgery patient has been on enteral nutrition for 5 days. Which clinical event would most strongly indicate the need for an immediate reassessment of nutritional targets?",
+      "explanation": "Nutritional requirements should be reassessed whenever there is a significant change in clinical condition. Initiation of CRRT is one of the most important triggers: it fundamentally alters both protein losses (amino acids lost into dialysate) and energy input (citrate anticoagulation provides calories). Other key reassessment triggers include new surgery or septic shock, significant fever or hypothermia, new electrolyte imbalances, and major changes in ventilation or sedation. Minor glucose elevations, formula switches, and constipation in the absence of other changes do not typically mandate nutritional reassessment.",
+      "section": "Nutritional Assessment",
+      "image": null,
+      "section_url": null,
+      "source_id": "nut1_a16",
+      "options": [
+        "Two days without a bowel movement despite normal EN tolerance",
+        "A 5% increase in inspired oxygen fraction without haemodynamic compromise",
+        "Transition from one enteral formula brand to another nutritionally equivalent product",
+        "A single blood glucose reading of 9.2 mmol/L on a background of stable glycaemic control",
+        "Initiation of continuous renal replacement therapy for acute kidney injury"
+      ],
+      "correct": 4
+    },
+    {
+      "id": "gm6_043",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 29-year-old man sustains severe blunt head and abdominal trauma with a GCS of 6 and bilateral reactive pupils. He is in haemorrhagic shock. European guidelines recommend which minimum MAP target in the presence of severe TBI (GCS ≤8)?",
+      "explanation": "European guidelines recommend maintaining MAP ≥80 mmHg in patients with severe TBI (GCS ≤8) because CPP = MAP − ICP, and inadequate MAP reduces cerebral perfusion pressure. The standard critical care threshold of MAP ≥65 mmHg is insufficient for TBI. The recommended SBP equivalent in the same guidelines is typically ≥100–110 mmHg. This higher MAP target must be maintained alongside permissive hypotension strategies for the non-TBI injuries.",
+      "section": "Patterns of organ failures",
+      "image": null,
+      "section_url": "",
+      "source_id": "mtr1_a20",
+      "options": [
+        "MAP ≥80 mmHg — the European guideline minimum for severe TBI",
+        "MAP ≥65 mmHg — the standard critical care septic shock threshold is adequate for TBI",
+        "MAP ≥90 mmHg — the recommended threshold to avoid all secondary ischaemic injury",
+        "MAP ≥50 mmHg — sufficient once ICP is controlled surgically",
+        "MAP is not a useful target in TBI; SBP >100 mmHg should be targeted instead"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "gm6_044",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the classification and clinical features of hypertensive emergencies and urgencies:",
+      "explanation": "Classifying accelerated hypertension (urgency) as presenting WITH papilloedema is false — accelerated hypertension is characterised by retinal exudates and haemorrhages WITHOUT papilloedema; papilloedema is exactly what distinguishes hypertensive encephalopathy (an emergency) from accelerated hypertension. Treating the degree of blood pressure elevation as the most important factor determining emergency versus urgency is false — a previously normotensive patient may develop end-organ injury at a diastolic pressure of only 100–110 mmHg, while a chronic hypertensive may remain asymptomatic above 120 mmHg diastolic. Defining a hypertensive emergency by new or progressive end-organ injury rather than the absolute blood pressure level is true — end-organ damage is the defining feature. Rating the rate of blood pressure rise and the patient's prior baseline as more important determinants of end-organ injury than the absolute level is also true, and explains why apparently 'mild' elevations can precipitate emergencies in previously normotensive individuals.",
+      "section": "Categories and Classification of Hypertension",
+      "image": null,
+      "section_url": null,
+      "source_id": "htn_k01",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Accelerated hypertension — characterised by retinal haemorrhages and exudates WITH papilloedema — is classified as a hypertensive urgency",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "The degree of blood pressure elevation is the most important factor determining whether a patient has a hypertensive emergency versus urgency",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "A hypertensive emergency is defined by new or progressive end-organ injury (not merely the absolute blood pressure level) in the setting of severe hypertension",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "The rate of blood pressure rise and the patient's prior baseline blood pressure are more important determinants of end-organ injury than the absolute blood pressure level",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gm6_045",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 24-year-old man with a severe traumatic brain injury has a GCS of 6. He is breathing spontaneously with normal oxygen saturations and unremarkable arterial blood gases. What is the most appropriate management of his airway and ventilation?",
+      "explanation": "A GCS below 9 in a trauma patient is an indication for intubation to protect the airway; once intubated, mechanical ventilation is provided, since a deeply obtunded patient will not reliably ventilate spontaneously through a cuffed tube. Intubating for airway protection only, without providing ventilation, overlooks this need, and continued observation, non-invasive ventilation, or high-flow oxygen all leave an unprotected airway in a patient who cannot guard it himself.",
+      "section": "Indications for mechanical ventilation",
+      "image": null,
+      "section_url": null,
+      "source_id": "mv1_a02",
+      "options": [
+        "Provide high-flow nasal oxygen and reassess the GCS hourly",
+        "Intubate for airway protection, and provide mechanical ventilation",
+        "Intubate for airway protection only, leaving him to breathe spontaneously through the tube",
+        "Apply non-invasive ventilation to secure ventilation without sedation",
+        "Continue close observation without airway intervention while gas exchange remains normal"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "gm6_046",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 48-year-old post-bowel perforation patient has received total parenteral nutrition for 5 days with no trace elements or vitamins added to the bags. The pharmacy raises a concern. What is the most important clinical implication?",
+      "explanation": "Unlike standard enteral nutrition formulas — which are typically micronutrient-complete — commercially available parenteral nutrition solutions do not contain trace elements or vitamins by default. These must be added separately or co-administered. After 5 days without supplementation, a patient on exclusive PN faces progressive depletion of critical micronutrients including thiamine, zinc, selenium, and fat-soluble vitamins, particularly if underlying deficiency was present before admission. This is especially dangerous in patients at risk of refeeding syndrome, where thiamine deficiency can be precipitated or worsened by carbohydrate reintroduction.",
+      "section": "Micronutrient requirements",
+      "image": null,
+      "section_url": null,
+      "source_id": "nut1_a34",
+      "options": [
+        "PN solutions contain adequate trace elements from the amino acid component, so no separate supplementation is required for patients on exclusive PN for up to two weeks",
+        "Only thiamine and vitamin C are absent from standard PN formulations; all other trace elements and vitamins are present as standard",
+        "PN solutions do not contain trace elements or vitamins by default; separate supplementation is required, and this patient is at risk of progressive micronutrient deficiency",
+        "Micronutrient deficiency from unsupplemented PN only becomes clinically relevant after several months of exclusive parenteral feeding",
+        "Vitamins and trace elements are efficiently conserved in the body and deficiency from unsupplemented PN only becomes clinically apparent after 4–6 weeks of exclusive parenteral feeding"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "gm6_047",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Six weeks after decompressive craniectomy for refractory ICP, a patient develops new focal neurological deficits, fluctuating headaches, and a sunken craniectomy site worsening in the upright position. Which procedure is MOST STRONGLY CONTRAINDICATED?",
+      "explanation": "Sunken skin flap syndrome (SSFS) occurs when brain and skin sink at the craniectomy defect, causing neurological deterioration. Lumbar puncture (and therapeutic lumbar CSF drainage) is CONTRAINDICATED due to paradoxical herniation risk — CSF removal reduces intracranial pressure and shifts brain toward the defect. Cranioplasty is both therapeutic and cosmetic and is the definitive treatment.",
+      "section": "TBI Part V: Complications and Outcomes",
+      "image": null,
+      "section_url": null,
+      "source_id": "tbi2_a18",
+      "options": [
+        "Repeat surface EEG recording",
+        "Non-contrast CT of the brain",
+        "Cranioplasty for surgical repair",
+        "Diagnostic lumbar puncture",
+        "Non-contrast MRI of the brain"
+      ],
+      "correct": 3
+    },
+    {
+      "id": "gm6_048",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding triggers of secondary haemophagocytic lymphohistiocytosis, decide whether each statement is true or false.",
+      "explanation": "Checkpoint inhibitors and CAR-T therapy are both recognised drug and treatment-related triggers, alongside lamotrigine, which is a useful one to know because it is otherwise unremarkable. Malignancy-associated disease is commonest with haematological cancers, particularly NK cell or T cell leukaemias and lymphomas, but some solid tumours are also implicated, and treatment itself — chemotherapy, stem cell transplant, novel immune therapies — can precipitate the syndrome. Fungal triggers are well described, including histoplasmosis, pneumocystis, candida and aspergillus species, which matters because the differential in an immunocompromised ICU patient is otherwise easily narrowed prematurely to bacterial sepsis.",
+      "section": "Hemophagocytic lymphohistiocytosis: Pathophysiology",
+      "image": null,
+      "section_url": null,
+      "source_id": "haemicu3_k02",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Fungal infections are not recognised as triggers.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Immune checkpoint inhibitors such as nivolumab and ipilimumab are recognised precipitants.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Only haematological malignancies can trigger HLH; solid tumours cannot.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Chimeric antigen receptor (CAR)-T therapy is a recognised precipitant.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gm6_049",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "An unconscious patient with complete AV block is receiving transcutaneous pacing at 80 bpm. The ECG shows pacing spikes followed by broad QRS complexes at the set rate. The nurse cannot reliably palpate a radial pulse. What is the most appropriate method to confirm haemodynamic efficacy of pacing?",
+      "explanation": "The PACT module explicitly addresses this: during transcutaneous pacing, 'prominent muscle twitches in the unconscious patient may make palpation of the pulse difficult — confirm efficacy using intra-arterial waveform tracing or Doppler monitoring.' External pacing current causes visible skeletal muscle contractions that preclude reliable pulse palpation. An arterial line waveform directly represents cardiac mechanical activity and is the definitive bedside method. A non-invasive BP cuff inflates intermittently, takes time, and can be unreliable in low-output states, making it a weaker choice here.",
+      "section": "Cardiac Pacing",
+      "image": null,
+      "section_url": null,
+      "source_id": "arr2_a06",
+      "options": [
+        "Ask the patient to squeeze a hand — voluntary movement confirms cerebral perfusion",
+        "Observe improvement in oxygen saturation — SpO2 rise confirms effective pacing",
+        "Measure non-invasive blood pressure — a reading confirms cardiac output",
+        "Assess capillary refill time — <2 seconds confirms adequate perfusion",
+        "Confirm using the invasive arterial line waveform or Doppler monitoring"
+      ],
+      "correct": 4
+    },
+    {
+      "id": "gm6_050",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "In 2019, updated ISTH guidelines proposed a two-step diagnostic approach to DIC. Which statement correctly describes this approach?",
+      "explanation": "The 2019 ISTH updated guidelines propose a two-step approach: first apply the SIC (Sepsis-Induced Coagulopathy) score as a screen — the SIC score uses SOFA score, platelet count, and PT-INR. If SIC criteria are met (SIC ≥2 with SOFA contribution), proceed to step 2 using the ISTH DIC score for confirmation of overt DIC. This approach was designed to identify patients with non-overt DIC earlier so they can be enrolled in anticoagulant intervention trials. The SIC score has lower specificity than the ISTH score.",
+      "section": "Diagnosis of DIC",
+      "image": null,
+      "section_url": "",
+      "source_id": "dic_a08",
+      "options": [
+        "Step 1: Apply the SIC score to screen for sepsis-induced coagulopathy; if SIC criteria met, proceed to step 2 using the ISTH DIC score",
+        "Step 1: Apply the JAAM score for all sepsis patients; if JAAM <4, use SIC score as a secondary screen",
+        "Step 1: Order bedside viscoelastic testing (ROTEM/TEG); if hypocoagulable pattern identified, apply ISTH DIC score in step 2",
+        "Step 1: Measure ADAMTS13 to exclude TTP; if activity is >20%, proceed to step 2 and calculate ISTH score",
+        "Step 1: Calculate ISTH DIC score for all patients with any coagulation abnormality; if ≥5, apply JAAM score for confirmation"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "gm6_051",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Following brain death, a catecholamine storm causes intense vasoconstriction and tachycardia. In what proportion of brain-dead potential donors does this catecholamine surge result in myocardial injury?",
+      "explanation": "The catecholamine storm following brain death causes intense vasoconstriction, tachycardia, and raised systemic vascular resistance. This storm results in myocardial injury in 20–25% of DBD hearts, which is an important consideration for cardiac donor viability. The storm is subsequently followed by loss of sympathetic tone, peripheral vasodilation, and hypotension, which is observed in 80–97% of donors.",
+      "section": "Donor Management",
+      "image": null,
+      "section_url": null,
+      "source_id": "odt_a03",
+      "options": [
+        "Less than 5% — myocardial injury is an uncommon consequence of the catecholamine storm",
+        "20–25%",
+        "More than 80% — the majority of DBD hearts are structurally damaged before retrieval",
+        "5–10%",
+        "50–60%"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "gm6_052",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with a known accessory pathway and a baseline ECG showing pre-excitation develops a sudden, regular, narrow-complex tachycardia at 170 bpm, with P waves clearly separate from the QRS and a short RP interval. What type of tachycardia is this, and how should it be treated?",
+      "explanation": "A narrow-complex, regular tachycardia in a patient with a known accessory pathway, with P waves separate from the QRS and a short RP interval, describes orthodromic AVRT — conduction proceeds down the normal AV node/His-Purkinje system and returns retrogradely up the accessory pathway, producing a narrow QRS unless a co-existing bundle branch block is present. Orthodromic AVRT is treated the same way as AVNRT (adenosine, CSM, AV-nodal blocking drugs). Antidromic AVRT instead produces a broad-QRS tachycardia (conduction down the accessory pathway) and requires drugs that specifically slow accessory pathway conduction. This is not VT (which is wide-complex), not AF (which is irregularly irregular), and the sudden onset and regular narrow-complex morphology are not consistent with simple sinus tachycardia.",
+      "section": "Junctional Tachycardias (AVNRT and AVRT/WPW)",
+      "image": null,
+      "section_url": null,
+      "source_id": "arr4_a17",
+      "options": [
+        "Atrial fibrillation with a rapid ventricular response via the accessory pathway",
+        "Sinus tachycardia; no specific antiarrhythmic treatment is required",
+        "Orthodromic AVRT; treated the same way as AV nodal re-entrant tachycardia",
+        "Ventricular tachycardia; treated with amiodarone or cardioversion only",
+        "Antidromic AVRT; treated with drugs that slow accessory pathway conduction, such as procainamide or flecainide"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "gm6_053",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 42-year-old non-immune traveller with high-parasitaemia severe P. falciparum malaria successfully completes IV artesunate therapy and is being prepared for discharge. Which follow-up action is specifically recommended to detect a recognised adverse effect of artesunate?",
+      "explanation": "Delayed haemolysis occurring 1–2 weeks after artesunate therapy is a recognised adverse effect, particularly common in non-immune travellers presenting with high peripheral parasitaemia. The mechanism involves late haemolysis of once-infected erythrocytes following splenic 'pitting' of ring-stage parasites, leaving cells with a reduced lifespan. Blood count monitoring at approximately 10–14 days post-treatment is specifically recommended. QTc prolongation is a concern with quinine, not artesunate. Artesunate does not have hepatotoxicity or nephrotoxicity warnings; these are near-miss distractors associated with quinine.",
+      "section": "Therapeutic Management",
+      "image": null,
+      "section_url": null,
+      "source_id": "sftd2_a07",
+      "options": [
+        "Renal function tests at day 7 given artesunate-associated nephrotoxicity risk",
+        "ECG at day 7 to detect artesunate-induced QTc prolongation",
+        "Repeat blood smear at day 28 to confirm sustained parasite clearance",
+        "Full blood count approximately 10–14 days after completing artesunate to detect delayed haemolysis",
+        "Liver function tests at day 3 post-discharge to detect artesunate hepatotoxicity"
+      ],
+      "correct": 3
+    },
+    {
+      "id": "gm6_054",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "In a ventilated patient with severe TBI and a functioning gastrointestinal tract, which nutritional strategy is MOST appropriate?",
+      "explanation": "Enteral nutrition is preferred in TBI when GI function is intact. It is more physiological, less expensive, and associated with fewer infectious complications than parenteral nutrition. In the presence of a functioning GI tract, parenteral nutrition should be avoided as it increases catheter-related bacteraemia risk. Aim to reach full nutritional intake by day 3 in ICU.",
+      "section": "TBI Part IV: General Intensive Care",
+      "image": null,
+      "section_url": null,
+      "source_id": "tbi2_a16",
+      "options": [
+        "Parenteral nutrition to avoid aspiration risk from enteral feeding",
+        "Enteral feeding only once GCS has improved above 12",
+        "No nutritional support for the first 7 days to reduce metabolic demand",
+        "Caloric intake restricted to 25% of target for the first 72 hours",
+        "Enteral nutrition is preferred; parenteral increases infection risk"
+      ],
+      "correct": 4
+    },
+    {
+      "id": "gm6_055",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 70-year-old man with septic shock has required norepinephrine 0.28 mcg/kg/min for 6 hours. A trainee proposes performing a corticotropin (ACTH) stimulation test before initiating hydrocortisone, citing the CORTICUS trial protocol. Which statement best explains why ACTH testing is NOT currently recommended before starting corticosteroids in septic shock?",
+      "explanation": "Both CORTICUS and APROCCHSS found no predictive value of the ACTH stimulation test for benefit from corticosteroids in septic shock. Critically ill patients have low cortisol-binding proteins (albumin, SHBG), causing underestimation of total cortisol so incremental responses appear blunted even when free cortisol responses are normal or elevated. Random cortisol levels are not sufficient to guide steroid initiation in all septic patients — random cortisol has limited utility specifically in CIRCI, and the SCCM/ESICM task force concluded no single test reliably diagnoses CIRCI. The test's validation for primary adrenal insufficiency does not extend cleanly to CIRCI, the 6-hour completion time is not the primary reason it is avoided, and a normal ACTH response does not reliably predict steroid non-benefit in a way limited only to surgical patients.",
+      "section": "Corticosteroids",
+      "image": null,
+      "section_url": null,
+      "source_id": "sss4_a02",
+      "options": [
+        "Neither CORTICUS nor APROCCHSS found predictive value of the ACTH test for steroid benefit in septic shock",
+        "The ACTH test requires 6 hours to complete and would unduly delay treatment",
+        "Random cortisol levels are sufficient to guide steroid initiation in all septic patients",
+        "The ACTH test is only validated for diagnosing primary adrenal insufficiency, not CIRCI",
+        "A normal ACTH response reliably predicts steroid non-benefit; the test is only unreliable in surgical patients"
+      ],
+      "correct": 0
+    }
+  ]
+}
