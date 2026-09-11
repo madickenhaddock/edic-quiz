@@ -18,11 +18,11 @@
       "source": "pact_generated",
       "question": "A patient develops the rhythm shown, a regular narrow-complex tachycardia at 180 bpm with sudden onset. Carotid sinus massage is considered contraindicated due to a carotid bruit. What is the most appropriate next diagnostic and therapeutic step?",
       "options": [
-        "A: IV verapamil as the first-line agent regardless of the differential diagnosis",
-        "B: Observation only, since paroxysmal supraventricular tachycardia always resolves spontaneously within minutes without any need for pharmacological or electrical intervention",
-        "C: Immediate synchronised DC cardioversion regardless of haemodynamic status",
-        "D: IV adenosine, which may terminate the tachycardia if an AV-nodal-dependent re-entrant pathway is present, and can unmask the underlying atrial rhythm if not",
-        "E: IV digoxin, as the fastest-acting agent available for acute rate control"
+        "IV verapamil as the first-line agent regardless of the differential diagnosis",
+        "Observation only, since paroxysmal supraventricular tachycardia always resolves spontaneously within minutes without any need for pharmacological or electrical intervention",
+        "Immediate synchronised DC cardioversion regardless of haemodynamic status",
+        "IV adenosine, which may terminate the tachycardia if an AV-nodal-dependent re-entrant pathway is present, and can unmask the underlying atrial rhythm if not",
+        "IV digoxin, as the fastest-acting agent available for acute rate control"
       ],
       "correct": 3,
       "explanation": "IV adenosine slows conduction through the AV node, interrupting AV-nodal-dependent re-entry pathways and often restoring sinus rhythm; even when it does not terminate the tachycardia, the transient AV block it produces can unmask the underlying atrial activity such as atrial flutter or focal atrial tachycardia, making it both diagnostic and therapeutic. Continuous rhythm monitoring and pacer pads should be attached before administration, given the risk of prolonged asystole in patients with underlying sinus node dysfunction. Verapamil is a reasonable alternative but not the customary first step, cardioversion is reserved for hameodynamic instability rather than given regardless of status, digoxin has too slow an onset for acute termination, and PSVT does not reliably self-terminate without intervention.",
@@ -38,11 +38,11 @@
       "source": "pact_generated",
       "question": "The rhythm strip shown is from a patient with a regular ventricular rate of exactly 150 bpm. What is the most likely underlying atrial rate and conduction pattern?",
       "options": [
-        "A: Atrial rate of 600 bpm with 4:1 AV conduction",
-        "B: Atrial rate of 150 bpm with 1:1 AV conduction",
-        "C: Atrial rate of 150 bpm with variable AV block",
-        "D: Atrial rate of 450 bpm with 3:1 AV conduction",
-        "E: Atrial rate of 300 bpm with 2:1 AV conduction"
+        "Atrial rate of 600 bpm with 4:1 AV conduction",
+        "Atrial rate of 150 bpm with 1:1 AV conduction",
+        "Atrial rate of 150 bpm with variable AV block",
+        "Atrial rate of 450 bpm with 3:1 AV conduction",
+        "Atrial rate of 300 bpm with 2:1 AV conduction"
       ],
       "correct": 4,
       "explanation": "Atrial flutter typically has a fixed atrial rate of approximately 300 bpm. With 2:1 AV conduction, exactly half of the atrial impulses reach the ventricles, producing a ventricular rate of 150 bpm — a classic and easily missed pattern, since flutter waves may be buried within the QRS or T wave, giving the deceptive appearance of a simple regular tachycardia or even sinus tachycardia. Any regular ventricular rate that is a division of 300 (150, 100, 75 bpm) should prompt consideration of flutter. 1:1 conduction at only 150 bpm, or higher-degree block ratios with correspondingly faster atrial rates, are not the typical flutter pattern, and variable block would produce an irregular, not regular, ventricular response.",
@@ -58,11 +58,11 @@
       "source": "pact_generated",
       "question": "The 12-lead ECG shown, recorded during sinus rhythm, shows short PR intervals and slurred upstrokes at the onset of the QRS complex in every lead (arrows). This patient later develops atrial fibrillation. Which class of drug should specifically be avoided in this scenario?",
       "options": [
-        "A: Synchronised DC cardioversion, which is contraindicated in pre-excited atrial fibrillation",
-        "B: Aspirin, since anticoagulation is never indicated in pre-excited atrial fibrillation",
-        "C: Procainamide, since it has no effect whatsoever on accessory pathway conduction and would therefore be entirely ineffective and inappropriate in this specific clinical scenario involving pre-excitation",
-        "D: Amiodarone, since it has no role in atrial fibrillation with pre-excitation",
-        "E: AV-nodal blocking agents such as verapamil and beta-blockers, since they may accelerate the ventricular rate by preferentially blocking the AV node while leaving the accessory pathway unblocked"
+        "Synchronised DC cardioversion, which is contraindicated in pre-excited atrial fibrillation",
+        "Aspirin, since anticoagulation is never indicated in pre-excited atrial fibrillation",
+        "Procainamide, since it has no effect whatsoever on accessory pathway conduction and would therefore be entirely ineffective and inappropriate in this specific clinical scenario involving pre-excitation",
+        "Amiodarone, since it has no role in atrial fibrillation with pre-excitation",
+        "AV-nodal blocking agents such as verapamil and beta-blockers, since they may accelerate the ventricular rate by preferentially blocking the AV node while leaving the accessory pathway unblocked"
       ],
       "correct": 4,
       "explanation": "This ECG shows ventricular pre-excitation (Wolff-Parkinson-White pattern): a short PR interval and a delta wave (slurred QRS upstroke) reflecting early ventricular activation via an accessory pathway. In atrial fibrillation with pre-excitation, AV-nodal blocking drugs such as verapamil, beta-blockers, and digoxin should be avoided — these agents preferentially slow AV nodal conduction while leaving the accessory pathway unblocked, potentially accelerating the ventricular rate and precipitating VF. Amiodarone and procainamide, which slow accessory pathway conduction, are more appropriate options, and DC cardioversion remains a safe, effective first choice in unstable patients rather than being contraindicated. Anticoagulation considerations for AF are unchanged by the presence of pre-excitation.",
@@ -78,11 +78,11 @@
       "source": "pact_generated",
       "question": "A patient on multiple QT-prolonging medications develops the rhythm strip shown, associated with recurrent syncope. Serum magnesium is 0.5 mmol/L. What is the most appropriate immediate management?",
       "options": [
-        "A: IV calcium gluconate to stabilise the cardiac membrane, as used in the acute management of significant hyperkalaemia",
-        "B: Immediate permanent ICD implantation as the only effective long-term option",
-        "C: IV magnesium, along with correction of other exacerbating factors and consideration of temporary pacing",
-        "D: IV amiodarone to stabilise the ventricular myocardium",
-        "E: IV lidocaine, a Class Ib agent that shortens the action potential duration"
+        "IV calcium gluconate to stabilise the cardiac membrane, as used in the acute management of significant hyperkalaemia",
+        "Immediate permanent ICD implantation as the only effective long-term option",
+        "IV magnesium, along with correction of other exacerbating factors and consideration of temporary pacing",
+        "IV amiodarone to stabilise the ventricular myocardium",
+        "IV lidocaine, a Class Ib agent that shortens the action potential duration"
       ],
       "correct": 2,
       "explanation": "This strip shows Torsade de pointes: a polymorphic ventricular tachycardia with a characteristic undulating, twisting appearance around the baseline, arising from prolonged myocardial repolarisation. Management centres on making the diagnosis, correcting exacerbating factors (here, hypomagnesaemia and any QT-prolonging drugs), and giving IV magnesium; temporary pacing may also be considered. Lidocaine is not the standard treatment for this arrhythmia, amiodarone is itself a recognised cause of QT prolongation and Torsade and would be an inappropriate choice, an ICD is rarely necessary for Torsade except in hereditary long QT syndrome and is not an immediate step regardless, and calcium gluconate has no established role here.",
@@ -98,11 +98,11 @@
       "source": "pact_generated",
       "question": "A patient in the ICU suddenly collapses. The monitor shows the rhythm depicted, with no palpable pulse and no recordable blood pressure. What is the most appropriate immediate management?",
       "options": [
-        "A: IV adenosine to assess the underlying atrial rhythm and guide the choice of further pharmacological antiarrhythmic therapy",
-        "B: Carotid sinus massage to slow the ventricular rate",
-        "C: Synchronised DC cardioversion at a low energy setting",
-        "D: Initiation of the cardiac arrest resuscitation protocol, including immediate unsynchronised defibrillation",
-        "E: IV amiodarone alone, without any electrical therapy"
+        "IV adenosine to assess the underlying atrial rhythm and guide the choice of further pharmacological antiarrhythmic therapy",
+        "Carotid sinus massage to slow the ventricular rate",
+        "Synchronised DC cardioversion at a low energy setting",
+        "Initiation of the cardiac arrest resuscitation protocol, including immediate unsynchronised defibrillation",
+        "IV amiodarone alone, without any electrical therapy"
       ],
       "correct": 3,
       "explanation": "This rhythm shows ventricular fibrillation: rapid, irregular, shapeless electrical undulations of variable amplitude, morphology, and interval, with no organised ventricular contraction, no cardiac output, and no recordable blood pressure. Management is primarily as part of the cardiac arrest resuscitation protocol, requiring immediate unsynchronised defibrillation, alongside a subsequent workup for underlying ischaemic heart disease, the most common association. Synchronised cardioversion requires an organised QRS to synchronise to and is not appropriate here; adenosine and carotid sinus massage are manoeuvres for supraventricular rhythms with a pulse, not pulseless VF; and amiodarone has a role as an adjunct to defibrillation during resuscitation, not as a substitute for it.",
@@ -118,11 +118,11 @@
       "source": "pact_generated",
       "question": "A 78-year-old woman with atrial fibrillation has a history of hypertension and type 2 diabetes mellitus, but no history of heart failure, stroke/TIA, or vascular disease. Using the CHA2DS2-VASc score, what is her total score, and what does this imply for anticoagulation?",
       "options": [
-        "A: Score of 7; immediate electrical cardioversion is mandatory regardless of anticoagulation status",
-        "B: Score of 4; anticoagulation is only indicated if she also develops vascular disease",
-        "C: Score of 2; no anticoagulant is required at this score",
-        "D: Score of 5; oral anticoagulation with a DOAC or warfarin is recommended",
-        "E: Score of 3; anticoagulation decision should be based entirely on patient preference"
+        "Score of 7; immediate electrical cardioversion is mandatory regardless of anticoagulation status",
+        "Score of 4; anticoagulation is only indicated if she also develops vascular disease",
+        "Score of 2; no anticoagulant is required at this score",
+        "Score of 5; oral anticoagulation with a DOAC or warfarin is recommended",
+        "Score of 3; anticoagulation decision should be based entirely on patient preference"
       ],
       "correct": 3,
       "explanation": "Her score is: age ≥75 years (2 points) + hypertension (1 point) + diabetes mellitus (1 point) + female sex (1 point) = 5. For a CHA2DS2-VASc score of 2 or greater, oral anticoagulation with warfarin (target INR 2.0-3.0) or a DOAC such as rivaroxaban, apixaban, or dabigatran is recommended — her score of 5 is well above this threshold. A score of 1 suggests anticoagulation may not be necessary and should be individualised to patient preference, and a score of 0 needs no anticoagulant, but neither applies to her actual score. Cardioversion timing depends on AF duration and anticoagulation status rather than the CHA2DS2-VASc score directly, and the anticoagulation recommendation at her score does not depend on acquiring an additional risk factor.",
@@ -138,11 +138,11 @@
       "source": "pact_generated",
       "question": "A 60-year-old man in the ICU with septic shock and a fever of 39.1°C has a regular narrow-complex rhythm at 118 bpm, with normal P waves and a constant PR interval on the ECG. What is the most appropriate management?",
       "options": [
-        "A: Address the underlying sepsis and fever; specific rate-lowering therapy is rarely indicated",
-        "B: Synchronised DC cardioversion, performed urgently regardless of the patient's current haemodynamic stability",
-        "C: IV adenosine to assess for an underlying re-entrant mechanism",
-        "D: IV digoxin for rate control",
-        "E: IV beta-blockade to reduce the heart rate towards a normal range"
+        "Address the underlying sepsis and fever; specific rate-lowering therapy is rarely indicated",
+        "Synchronised DC cardioversion, performed urgently regardless of the patient's current haemodynamic stability",
+        "IV adenosine to assess for an underlying re-entrant mechanism",
+        "IV digoxin for rate control",
+        "IV beta-blockade to reduce the heart rate towards a normal range"
       ],
       "correct": 0,
       "explanation": "This ECG shows sinus tachycardia: normal P waves, normal QRS, and a constant PR interval, consistent with an appropriate physiological response to sepsis and fever (increased sympathetic/catecholamine drive). Management is to correct the underlying cause; beta-blockade is rarely, if ever, indicated for sinus tachycardia and could be harmful in an early septic patient who may still be volume- or vasodilation-dependent for cardiac output. It is also important to exclude paroxysmal atrial tachycardia or flutter with block masquerading as sinus tachycardia, though the described ECG features are consistent with a true sinus mechanism. Adenosine, cardioversion, and digoxin are not appropriate for a physiologically appropriate sinus tachycardia with an identifiable, treatable cause.",
@@ -158,11 +158,11 @@
       "source": "pact_generated",
       "question": "A patient with severe COPD develops a narrow-complex tachycardia at 135 bpm. The P wave morphology and axis change continuously from beat to beat, with at least three distinct morphologies visible. What is the most likely diagnosis?",
       "options": [
-        "A: Multifocal atrial tachycardia (MAT)",
-        "B: AV nodal re-entrant tachycardia (AVNRT)",
-        "C: Sinus tachycardia with a wandering pacemaker",
-        "D: Atrial flutter with variable block",
-        "E: Orthodromic atrioventricular re-entrant tachycardia (AVRT)"
+        "Multifocal atrial tachycardia (MAT)",
+        "AV nodal re-entrant tachycardia (AVNRT)",
+        "Sinus tachycardia with a wandering pacemaker",
+        "Atrial flutter with variable block",
+        "Orthodromic atrioventricular re-entrant tachycardia (AVRT)"
       ],
       "correct": 0,
       "explanation": "When P wave morphology is constantly changing between at least three distinct forms, the tachycardia is termed multifocal atrial tachycardia (MAT), reflecting multiple competing ectopic atrial foci; it is classically associated with severe pulmonary disease such as COPD. AVNRT and orthodromic AVRT typically show no visible P wave before the QRS or a single retrograde P wave morphology, not a continuously changing one. Atrial flutter shows a single, characteristic saw-tooth atrial pattern rather than multiple discrete, changing P wave morphologies. True sinus tachycardia maintains a single, constant P wave morphology.",
@@ -178,11 +178,11 @@
       "source": "pact_generated",
       "question": "A patient has a regular, narrow-complex ventricular rate of exactly 100 bpm. Saw-tooth flutter waves are seen on close inspection of the inferior leads. What is the most likely atrial rate and AV conduction ratio?",
       "options": [
-        "A: Atrial rate of 100 bpm with 1:1 conduction",
-        "B: Atrial rate of 100 bpm with complete heart block and a junctional escape rhythm",
-        "C: Atrial rate of 400 bpm with 4:1 conduction",
-        "D: Atrial rate of 300 bpm with 3:1 conduction",
-        "E: Atrial rate of 200 bpm with 2:1 conduction"
+        "Atrial rate of 100 bpm with 1:1 conduction",
+        "Atrial rate of 100 bpm with complete heart block and a junctional escape rhythm",
+        "Atrial rate of 400 bpm with 4:1 conduction",
+        "Atrial rate of 300 bpm with 3:1 conduction",
+        "Atrial rate of 200 bpm with 2:1 conduction"
       ],
       "correct": 3,
       "explanation": "With a fixed atrial flutter rate of approximately 300 bpm, 3:1 AV conduction (every third impulse conducted) produces a ventricular rate of 100 bpm — another classic flutter conduction pattern, alongside 2:1 conduction producing 150 bpm. Any regular ventricular rate that is a simple division of 300 should prompt consideration of atrial flutter, since flutter waves are easily overlooked, especially if partially buried in the QRS or T wave. The other rate/ratio combinations do not correspond to the standard ~300 bpm atrial flutter rate, and complete heart block would show P waves entirely dissociated from the QRS rather than a fixed, countable conduction ratio.",
@@ -198,11 +198,11 @@
       "source": "pact_generated",
       "question": "A 74-year-old man is admitted with new-onset atrial fibrillation at 128 bpm. He is haemodynamically stable, with no chest pain or heart failure symptoms. What should be the first therapeutic priority, according to the PACT module's treatment objectives?",
       "options": [
-        "A: Immediate attempt at chemical cardioversion to restore sinus rhythm",
-        "B: Withholding any treatment until echocardiography has excluded structural heart disease",
-        "C: Immediate electrical cardioversion, regardless of anticoagulation status",
-        "D: Long-term catheter ablation planning as the definitive first step",
-        "E: Heart rate control"
+        "Immediate attempt at chemical cardioversion to restore sinus rhythm",
+        "Withholding any treatment until echocardiography has excluded structural heart disease",
+        "Immediate electrical cardioversion, regardless of anticoagulation status",
+        "Long-term catheter ablation planning as the definitive first step",
+        "Heart rate control"
       ],
       "correct": 4,
       "explanation": "The PACT module lists the therapeutic objectives in AF, in order of importance, as: heart rate control, prevention of embolic complications, treatment of the underlying cause, and only then conversion to sinus rhythm. In a haemodynamically stable patient, rhythm conversion is not the first priority — spontaneous reversion to sinus rhythm is common once any reversible underlying cause is addressed, and premature cardioversion attempts are often unsuccessful without this. Electrical cardioversion is the clear first-line option specifically for unstable patients, which this patient is not, and catheter ablation and pre-treatment echocardiography are not the immediate first steps in acute management.",
@@ -218,11 +218,11 @@
       "source": "pact_generated",
       "question": "A patient with atrial fibrillation and a heart rate of 155 bpm develops a systolic blood pressure of 68 mmHg with reduced consciousness. What is the most appropriate immediate management?",
       "options": [
-        "A: IV verapamil, since it provides the fastest achievable rate control",
-        "B: Await formal echocardiography before any intervention to exclude a left atrial thrombus",
-        "C: IV digoxin for rapid rate control",
-        "D: IV amiodarone 300 mg over 30 minutes, followed by reassessment",
-        "E: Synchronised DC cardioversion"
+        "IV verapamil, since it provides the fastest achievable rate control",
+        "Await formal echocardiography before any intervention to exclude a left atrial thrombus",
+        "IV digoxin for rapid rate control",
+        "IV amiodarone 300 mg over 30 minutes, followed by reassessment",
+        "Synchronised DC cardioversion"
       ],
       "correct": 4,
       "explanation": "DC cardioversion is safe, effective, and always the first option in a haemodynamically unstable patient with atrial fibrillation — this patient's hypotension and reduced consciousness meet that threshold. Pharmacological options such as amiodarone, digoxin, or verapamil take longer to act and are negatively inotropic to varying degrees, risking further deterioration while awaiting effect, and are therefore not the preferred initial approach in this unstable scenario. While anticoagulation status and thrombus risk are important considerations for elective cardioversion, they should not delay emergency cardioversion in a patient who is haemodynamically compromised.",
@@ -238,11 +238,11 @@
       "source": "pact_generated",
       "question": "A patient with atrial fibrillation and a background of a prior anterior myocardial infarction with reduced left ventricular ejection fraction requires chemical rate/rhythm control. Which agent is most appropriate, and which should specifically be avoided?",
       "options": [
-        "A: Ibutilide is the standard first-line agent in the ICU population based on extensive ICU trial data",
-        "B: Amiodarone is preferred, given its acceptable safety profile in structural heart disease; flecainide should be avoided given his LV dysfunction and ischaemic heart disease",
-        "C: Vernakalant is considered the first choice for all ICU patients with atrial fibrillation regardless of haemodynamic status, blood pressure, or any other recognised contraindication to its use",
-        "D: Flecainide is preferred; amiodarone should be avoided due to its side-effect profile",
-        "E: Propafenone is preferred; digoxin should be avoided entirely in all patients with atrial fibrillation"
+        "Ibutilide is the standard first-line agent in the ICU population based on extensive ICU trial data",
+        "Amiodarone is preferred, given its acceptable safety profile in structural heart disease; flecainide should be avoided given his LV dysfunction and ischaemic heart disease",
+        "Vernakalant is considered the first choice for all ICU patients with atrial fibrillation regardless of haemodynamic status, blood pressure, or any other recognised contraindication to its use",
+        "Flecainide is preferred; amiodarone should be avoided due to its side-effect profile",
+        "Propafenone is preferred; digoxin should be avoided entirely in all patients with atrial fibrillation"
       ],
       "correct": 1,
       "explanation": "In the presence of significant structural heart disease, amiodarone is the antiarrhythmic with the most acceptable safety profile. Flecainide is specifically contraindicated in patients with left ventricular dysfunction or ischaemic heart disease, both present here, and propafenone shares similar precautions and contraindications. Digoxin is not universally avoided in AF, but has a slow onset and is not the drug of choice for acute control. Vernakalant and ibutilide have shown promise in non-ICU studies but are not established first-choice agents for the general ICU population, and ibutilide in particular carries a recognised risk of inducing Torsade de pointes.",
@@ -258,11 +258,11 @@
       "source": "pact_generated",
       "question": "Which of the following is NOT an accurate statement about pharmacological rate control for atrial fibrillation in the ICU?",
       "options": [
-        "A: Diltiazem has an established dosing regimen for acute rate control in atrial fibrillation",
-        "B: Verapamil provides rapid rate control but is negatively inotropic",
-        "C: Digoxin has a fast onset of action and is the preferred first-line agent for acute rate control in the ICU",
-        "D: Amiodarone is rapidly effective in controlling the ventricular response to atrial fibrillation in the ICU population",
-        "E: IV beta-blockers provide rapid rate control but are negatively inotropic"
+        "Diltiazem has an established dosing regimen for acute rate control in atrial fibrillation",
+        "Verapamil provides rapid rate control but is negatively inotropic",
+        "Digoxin has a fast onset of action and is the preferred first-line agent for acute rate control in the ICU",
+        "Amiodarone is rapidly effective in controlling the ventricular response to atrial fibrillation in the ICU population",
+        "IV beta-blockers provide rapid rate control but are negatively inotropic"
       ],
       "correct": 2,
       "explanation": "Digoxin has the SLOWEST onset of action among the available rate control agents and is not the drug of choice for acute control, making this statement false. Amiodarone being rapidly effective specifically in the ICU population is correct, as is IV beta-blockade and verapamil providing rapid but negatively inotropic rate control, and diltiazem having an established acute dosing regimen (0.25 mg/kg bolus over 2 minutes, then 5-15 mg/hour infusion).",
@@ -278,11 +278,11 @@
       "source": "pact_generated",
       "question": "A patient has been in atrial fibrillation for an estimated 60 hours and requires cardioversion. No anticoagulation has yet been given. According to the PACT module, what is an appropriate strategy to allow safer, earlier cardioversion?",
       "options": [
-        "A: Proceed to cardioversion immediately without any further investigation, since duration beyond 48 hours does not change the approach",
-        "B: Perform transoesophageal echocardiography to exclude atrial appendage thrombus, allowing immediate cardioversion if negative, followed by 3 weeks of anticoagulation",
-        "C: Cardioversion should never be performed once 48 hours have elapsed, under any circumstances",
-        "D: Give a single dose of a DOAC immediately before cardioversion, which is considered by guidelines to be equally protective as a full 3 weeks of therapeutic anticoagulation",
-        "E: Delay cardioversion for a minimum of 6 months regardless of anticoagulation, symptoms, or clinical urgency"
+        "Proceed to cardioversion immediately without any further investigation, since duration beyond 48 hours does not change the approach",
+        "Perform transoesophageal echocardiography to exclude atrial appendage thrombus, allowing immediate cardioversion if negative, followed by 3 weeks of anticoagulation",
+        "Cardioversion should never be performed once 48 hours have elapsed, under any circumstances",
+        "Give a single dose of a DOAC immediately before cardioversion, which is considered by guidelines to be equally protective as a full 3 weeks of therapeutic anticoagulation",
+        "Delay cardioversion for a minimum of 6 months regardless of anticoagulation, symptoms, or clinical urgency"
       ],
       "correct": 1,
       "explanation": "For AF of more than 48 hours' duration, the risk of cardioversion-associated embolisation is 5.5% without anticoagulation, falling to under 1% with 3 weeks of anticoagulation beforehand. Transoesophageal echocardiography can exclude thrombus in the atrial appendage, allowing immediate cardioversion even without prior anticoagulation, provided this is followed by 3 weeks of anticoagulation afterwards until atrial mechanical contraction is restored. Proceeding without any strategy to address thrombus risk ignores the elevated embolisation risk beyond 48 hours, a fixed 6-month delay and an absolute prohibition beyond 48 hours are both far more restrictive than the guidance describes, and a single pre-cardioversion DOAC dose does not replicate the protective effect of a full course of anticoagulation.",
@@ -298,11 +298,11 @@
       "source": "pact_generated",
       "question": "A patient develops a sudden-onset, regular narrow-complex tachycardia at 165 bpm. No P wave is visible before the QRS complex on any lead, though a subtle retrograde negative deflection is seen immediately after the QRS in leads II, III, and aVF. What is the most likely diagnosis?",
       "options": [
-        "A: Multifocal atrial tachycardia",
-        "B: Sinus tachycardia with a first-degree AV block",
-        "C: AV nodal re-entrant tachycardia (AVNRT)",
-        "D: Ventricular tachycardia with retrograde VA conduction",
-        "E: Atrial flutter with 2:1 block"
+        "Multifocal atrial tachycardia",
+        "Sinus tachycardia with a first-degree AV block",
+        "AV nodal re-entrant tachycardia (AVNRT)",
+        "Ventricular tachycardia with retrograde VA conduction",
+        "Atrial flutter with 2:1 block"
       ],
       "correct": 2,
       "explanation": "This is the classic presentation of AVNRT: a regular narrow-complex tachycardia, typically >150 bpm, with the P wave either hidden within the QRS complex (most common) or appearing as a retrograde negative deflection immediately after the QRS in the inferior leads (II, III, aVF), as described here — reflecting near-simultaneous atrial and ventricular activation via the two AV-nodal pathways. Sinus tachycardia would show a normal, upright P wave preceding each QRS, not a retrograde one following it. MAT would show multiple distinct, changing P wave morphologies, and atrial flutter would show a fixed saw-tooth pattern rather than a single retrograde deflection. Ventricular tachycardia is a wide-complex rhythm, not narrow, as described here.",
@@ -318,11 +318,11 @@
       "source": "pact_generated",
       "question": "A patient with a regular narrow-complex tachycardia is given IV adenosine. The tachycardia does not terminate, but during a brief period of AV block, regular saw-tooth atrial activity becomes visible at approximately 300 bpm before the tachycardia resumes. What does this response indicate?",
       "options": [
-        "A: This response confirms AV nodal re-entrant tachycardia (AVNRT) as the diagnosis",
-        "B: The underlying rhythm is atrial flutter, unmasked by the transient AV block produced by adenosine",
-        "C: The patient has developed digoxin toxicity as a direct result of the adenosine",
-        "D: The tachycardia has been definitively cured and no further treatment is required",
-        "E: Adenosine has failed completely and no diagnostic or therapeutic information whatsoever has been obtained from this manoeuvre"
+        "This response confirms AV nodal re-entrant tachycardia (AVNRT) as the diagnosis",
+        "The underlying rhythm is atrial flutter, unmasked by the transient AV block produced by adenosine",
+        "The patient has developed digoxin toxicity as a direct result of the adenosine",
+        "The tachycardia has been definitively cured and no further treatment is required",
+        "Adenosine has failed completely and no diagnostic or therapeutic information whatsoever has been obtained from this manoeuvre"
       ],
       "correct": 1,
       "explanation": "This is the third recognised response pattern to adenosine: temporary AV block unmasking an underlying atrial flutter or rapid atrial tachycardia, distinct from adenosine directly terminating an AV-nodal-dependent tachycardia (as typically seen in AVNRT), or adenosine causing only temporary slowing without conversion (suggesting sinus or atrial tachycardia). The visible saw-tooth activity at ~300 bpm during the AV block is the atrial flutter waveform, which had been obscured by the fast ventricular rate. This is a diagnostically informative response, not a cure, is unrelated to digoxin toxicity, and specifically argues against — rather than confirms — AVNRT, since AVNRT is expected to terminate with adenosine rather than reveal an underlying atrial rhythm.",
@@ -338,11 +338,11 @@
       "source": "pact_generated",
       "question": "A patient with a known accessory pathway and a baseline ECG showing pre-excitation develops a sudden, regular, narrow-complex tachycardia at 170 bpm, with P waves clearly separate from the QRS and a short RP interval. What type of tachycardia is this, and how should it be treated?",
       "options": [
-        "A: Orthodromic AVRT; treated the same way as AV nodal re-entrant tachycardia",
-        "B: Atrial fibrillation with a rapid ventricular response via the accessory pathway",
-        "C: Ventricular tachycardia; treated with amiodarone or cardioversion only",
-        "D: Antidromic AVRT; treated with drugs that slow accessory pathway conduction, such as procainamide or flecainide",
-        "E: Sinus tachycardia; no specific antiarrhythmic treatment is required"
+        "Orthodromic AVRT; treated the same way as AV nodal re-entrant tachycardia",
+        "Atrial fibrillation with a rapid ventricular response via the accessory pathway",
+        "Ventricular tachycardia; treated with amiodarone or cardioversion only",
+        "Antidromic AVRT; treated with drugs that slow accessory pathway conduction, such as procainamide or flecainide",
+        "Sinus tachycardia; no specific antiarrhythmic treatment is required"
       ],
       "correct": 0,
       "explanation": "A narrow-complex, regular tachycardia in a patient with a known accessory pathway, with P waves separate from the QRS and a short RP interval, describes orthodromic AVRT — conduction proceeds down the normal AV node/His-Purkinje system and returns retrogradely up the accessory pathway, producing a narrow QRS unless a co-existing bundle branch block is present. Orthodromic AVRT is treated the same way as AVNRT (adenosine, CSM, AV-nodal blocking drugs). Antidromic AVRT instead produces a broad-QRS tachycardia (conduction down the accessory pathway) and requires drugs that specifically slow accessory pathway conduction. This is not VT (which is wide-complex), not AF (which is irregularly irregular), and the sudden onset and regular narrow-complex morphology are not consistent with simple sinus tachycardia.",
@@ -358,11 +358,11 @@
       "source": "pact_generated",
       "question": "A patient with known Wolff-Parkinson-White syndrome develops atrial fibrillation. The team considers starting digoxin for rate control. What is the most appropriate course of action?",
       "options": [
-        "A: Digoxin is only contraindicated in WPW if the patient has previously experienced syncope",
-        "B: Digoxin should be combined with verapamil for maximal rate control efficacy in this scenario",
-        "C: Digoxin is appropriate here specifically because it has no effect on accessory pathway conduction",
-        "D: Avoid digoxin, as it may shorten the refractory period of the accessory pathway and the atrium, risking a dangerously rapid ventricular response",
-        "E: Proceed with digoxin, as it is universally regarded as the safest and most appropriate agent for rate control in any patient with atrial fibrillation"
+        "Digoxin is only contraindicated in WPW if the patient has previously experienced syncope",
+        "Digoxin should be combined with verapamil for maximal rate control efficacy in this scenario",
+        "Digoxin is appropriate here specifically because it has no effect on accessory pathway conduction",
+        "Avoid digoxin, as it may shorten the refractory period of the accessory pathway and the atrium, risking a dangerously rapid ventricular response",
+        "Proceed with digoxin, as it is universally regarded as the safest and most appropriate agent for rate control in any patient with atrial fibrillation"
       ],
       "correct": 3,
       "explanation": "Digoxin should not be given in WPW syndrome because it may shorten the refractory period of the accessory pathway as well as the atrium, which can allow a dangerously rapid ventricular rate if atrial fibrillation is conducted preferentially down the unblocked accessory pathway, risking degeneration to VF. This is the opposite of a universally safe choice, digoxin does affect the accessory pathway (adversely), combining it with verapamil compounds the risk since verapamil carries a similar AV-nodal-blocking caution in WPW-associated AF, and the contraindication is not limited to patients with a prior syncope history — it applies to the diagnosis of WPW itself once AF is present or possible.",
@@ -378,11 +378,11 @@
       "source": "pact_generated",
       "question": "A wide-complex tachycardia is seen in a patient with a history of an inferior myocardial infarction six months ago. The QRS morphology during tachycardia does not match any previous baseline ECG. What does this history most strongly suggest about the origin of the tachycardia?",
       "options": [
-        "A: The history of MI outweighs ECG criteria and strongly suggests ventricular tachycardia",
-        "B: Wide-complex tachycardia in this context should be assumed to be pre-excited AVRT until proven otherwise",
-        "C: A prior MI makes supraventricular tachycardia with aberrant conduction significantly more likely than VT",
-        "D: This history is only relevant if the QRS duration is under 120 ms",
-        "E: The history of prior MI is largely irrelevant, and ECG morphology criteria alone should determine the diagnosis"
+        "The history of MI outweighs ECG criteria and strongly suggests ventricular tachycardia",
+        "Wide-complex tachycardia in this context should be assumed to be pre-excited AVRT until proven otherwise",
+        "A prior MI makes supraventricular tachycardia with aberrant conduction significantly more likely than VT",
+        "This history is only relevant if the QRS duration is under 120 ms",
+        "The history of prior MI is largely irrelevant, and ECG morphology criteria alone should determine the diagnosis"
       ],
       "correct": 0,
       "explanation": "The PACT module explicitly states that a history of myocardial infarction outweighs ECG criteria in the differential diagnosis of VT versus SVT with aberrant conduction, and strongly suggests ventricular tachycardia — prior MI or other structural heart disease is one of the strongest clinical predictors that a wide-complex tachycardia represents VT rather than SVT with aberrancy. This is not a case where ECG morphology should be weighted over history, prior MI increases (not decreases) the likelihood of VT specifically, WPW/pre-excitation is a distinct and less likely consideration without supporting evidence, and the relevance of the MI history is not conditional on a narrow QRS duration (which would in any case be inconsistent with the wide-complex tachycardia described).",
@@ -398,11 +398,11 @@
       "source": "pact_generated",
       "question": "A patient develops a wide-complex tachycardia at a rate of 190 bpm, with a QRS duration measured at 0.16 seconds. Based on the PACT module's diagnostic thresholds, how does this information affect the likelihood of ventricular tachycardia versus SVT with aberrant conduction?",
       "options": [
-        "A: Both the rate (>170 bpm) and QRS duration (>0.14 sec) exceed the thresholds that increase the likelihood of VT",
-        "B: Both the rate and QRS duration are below the relevant thresholds, making SVT with aberrancy more likely",
-        "C: These findings are only meaningful for diagnostic purposes in situations where a full 12-lead ECG cannot be obtained at the bedside",
-        "D: A QRS duration of 0.16 seconds is diagnostic of SVT with a pre-existing bundle branch block",
-        "E: Only the heart rate is relevant to this differentiation; QRS duration has no diagnostic value"
+        "Both the rate (>170 bpm) and QRS duration (>0.14 sec) exceed the thresholds that increase the likelihood of VT",
+        "Both the rate and QRS duration are below the relevant thresholds, making SVT with aberrancy more likely",
+        "These findings are only meaningful for diagnostic purposes in situations where a full 12-lead ECG cannot be obtained at the bedside",
+        "A QRS duration of 0.16 seconds is diagnostic of SVT with a pre-existing bundle branch block",
+        "Only the heart rate is relevant to this differentiation; QRS duration has no diagnostic value"
       ],
       "correct": 0,
       "explanation": "The likelihood of VT (as opposed to SVT with aberrant conduction) increases if the heart rate exceeds 170 bpm or the QRS duration exceeds 0.14 seconds (140 ms) — this patient's rate of 190 bpm and QRS duration of 0.16 seconds (160 ms) both exceed these thresholds, increasing the likelihood of VT. Both parameters carry diagnostic weight, not just the heart rate, and a wide QRS in this range does not by itself confirm SVT with aberrancy — that likelihood instead increases specifically when the tachycardia QRS morphology matches a documented baseline abnormality. These threshold criteria are useful regardless of whether or not a 12-lead ECG has been obtained.",
@@ -418,11 +418,11 @@
       "source": "pact_generated",
       "question": "Non-sustained ventricular tachycardia is noted incidentally on telemetry in an asymptomatic ICU patient recovering from elective non-cardiac surgery, with a normal echocardiogram and no history of structural heart disease. What is the most appropriate management?",
       "options": [
-        "A: Start an amiodarone infusion prophylactically to prevent recurrence",
-        "B: Arrange an emergency electrophysiological study immediately before any further routine ICU care or postoperative monitoring can safely be allowed to proceed",
-        "C: Treat as for ventricular extrasystoles, addressing electrolytes and any reversible triggers, given the low risk of sudden death with normal LV function",
-        "D: Insert a temporary ventricular pacing wire prophylactically",
-        "E: Immediate referral for implantable cardioverter-defibrillator assessment"
+        "Start an amiodarone infusion prophylactically to prevent recurrence",
+        "Arrange an emergency electrophysiological study immediately before any further routine ICU care or postoperative monitoring can safely be allowed to proceed",
+        "Treat as for ventricular extrasystoles, addressing electrolytes and any reversible triggers, given the low risk of sudden death with normal LV function",
+        "Insert a temporary ventricular pacing wire prophylactically",
+        "Immediate referral for implantable cardioverter-defibrillator assessment"
       ],
       "correct": 2,
       "explanation": "In an asymptomatic patient with normal left ventricular function, non-sustained VT carries a low risk of sudden death or serious ventricular arrhythmias, and should be managed as for ventricular extrasystoles — correcting electrolyte imbalances and considering any reversible triggers, without escalating to more invasive or aggressive therapy. This contrasts with NSVT in the context of ischaemic heart disease with reduced ejection fraction (<35%) and heart failure symptoms, where the risk profile is high and specialist referral (including ICD assessment) is appropriate. Immediate ICD referral, prophylactic amiodarone, emergency EP study, and prophylactic pacing are all disproportionate to this specific low-risk presentation.",
@@ -438,11 +438,11 @@
       "source": "pact_generated",
       "question": "A haemodynamically stable, awake patient develops sustained monomorphic ventricular tachycardia. IV amiodarone 150 mg is given over 10 minutes, but the tachycardia persists 20 minutes later. What is the most appropriate next step?",
       "options": [
-        "A: Proceed rapidly to DC cardioversion, since IV amiodarone is only effective in 24-40% of cases",
-        "B: Switch to IV verapamil, which is a safer alternative for sustained VT",
-        "C: Discontinue all treatment and observe, since VT in a stable patient always resolves spontaneously",
-        "D: Repeat the same amiodarone dose up to five further times before considering any other option",
-        "E: Conclude that the diagnosis of VT must be incorrect and reconsider an SVT diagnosis"
+        "Proceed rapidly to DC cardioversion, since IV amiodarone is only effective in 24-40% of cases",
+        "Switch to IV verapamil, which is a safer alternative for sustained VT",
+        "Discontinue all treatment and observe, since VT in a stable patient always resolves spontaneously",
+        "Repeat the same amiodarone dose up to five further times before considering any other option",
+        "Conclude that the diagnosis of VT must be incorrect and reconsider an SVT diagnosis"
       ],
       "correct": 0,
       "explanation": "IV amiodarone (150 mg over 10 minutes) is a reasonable first-line drug in the hameodynamically stable, awake patient with sustained VT, but it is effective in only 24-40% of cases — so if it fails, as here, the appropriate next step is to proceed rapidly to DC cardioversion rather than persisting with pharmacological therapy alone. Repeating the same dose indefinitely is not the recommended approach once initial therapy has failed to convert the rhythm, verapamil is specifically dangerous if there is any possibility the rhythm is VT and should not be used, treatment failure with amiodarone does not itself cast doubt on a correct VT diagnosis, and sustained VT does not reliably self-terminate, making observation alone inappropriate.",
@@ -458,11 +458,11 @@
       "source": "pact_generated",
       "question": "A wide-complex tachycardia of uncertain origin is being treated. A junior colleague suggests giving IV verapamil empirically, reasoning that it is effective for most causes of tachycardia. What is the most appropriate response?",
       "options": [
-        "A: Agree, but only if the dose is halved to reduce the risk of hypotension",
-        "B: Disagree, but only because verapamil is completely contraindicated in all patients under all circumstances, regardless of the underlying rhythm, haemodynamic status, or any other clinical consideration whatsoever",
-        "C: Disagree; if the rhythm could be ventricular tachycardia, verapamil should be avoided as it may cause severe haemodynamic deterioration, and amiodarone should be used instead when the origin is uncertain",
-        "D: Agree, since verapamil's negative inotropic effect is specifically protective in ventricular tachycardia",
-        "E: Agree, since verapamil is broadly effective and safe across essentially all tachyarrhythmias"
+        "Agree, but only if the dose is halved to reduce the risk of hypotension",
+        "Disagree, but only because verapamil is completely contraindicated in all patients under all circumstances, regardless of the underlying rhythm, haemodynamic status, or any other clinical consideration whatsoever",
+        "Disagree; if the rhythm could be ventricular tachycardia, verapamil should be avoided as it may cause severe haemodynamic deterioration, and amiodarone should be used instead when the origin is uncertain",
+        "Agree, since verapamil's negative inotropic effect is specifically protective in ventricular tachycardia",
+        "Agree, since verapamil is broadly effective and safe across essentially all tachyarrhythmias"
       ],
       "correct": 2,
       "explanation": "Drugs given for the treatment of supraventricular tachycardia may be dangerous in a patient with ventricular tachycardia; when in doubt about the origin of a wide-complex tachycardia, verapamil should not be used, and amiodarone should be used instead, since severe haemodynamic deterioration is a recognised complication of IV verapamil administered during VT. Verapamil is not broadly safe across all tachyarrhythmias despite being useful for confirmed AVNRT/AVRT, halving the dose does not eliminate this specific risk when the diagnosis is uncertain, verapamil is not contraindicated in all rhythms (it has an established role once SVT is confirmed), and its negative inotropic effect is harmful, not protective, in VT.",
@@ -478,11 +478,11 @@
       "source": "pact_generated",
       "question": "A 55-year-old man is admitted following successful resuscitation from an out-of-hospital cardiac arrest due to sustained ventricular tachycardia. Coronary angiography reveals a prior, previously unrecognised myocardial infarction, and echocardiography shows an LV ejection fraction of 30%. Which statement about implantable cardioverter-defibrillator (ICD) candidacy is most accurate?",
       "options": [
-        "A: ICD implantation should be deferred indefinitely, since ejection fraction always improves after cardiac arrest and reassessment is unnecessary",
-        "B: He meets ICD criteria on two independent grounds: as a cardiac arrest survivor from VT, and as a post-MI patient with LVEF <35%",
-        "C: He is not a candidate, since ICDs are only indicated for primary prevention before any cardiac arrest has occurred",
-        "D: He would only qualify for an ICD if his QRS duration also exceeded 150 ms",
-        "E: He requires a CRT-D device specifically, rather than a standard ICD, based on this presentation alone"
+        "ICD implantation should be deferred indefinitely, since ejection fraction always improves after cardiac arrest and reassessment is unnecessary",
+        "He meets ICD criteria on two independent grounds: as a cardiac arrest survivor from VT, and as a post-MI patient with LVEF <35%",
+        "He is not a candidate, since ICDs are only indicated for primary prevention before any cardiac arrest has occurred",
+        "He would only qualify for an ICD if his QRS duration also exceeded 150 ms",
+        "He requires a CRT-D device specifically, rather than a standard ICD, based on this presentation alone"
       ],
       "correct": 1,
       "explanation": "This patient meets ICD criteria on two independent grounds: he is a survivor of a cardiac arrest attributed to sustained VT, and he has had a prior myocardial infarction with an LV ejection fraction below 35% — both are recognised, independent indications for ICD implantation, associated with improved survival. ICDs are indicated for secondary prevention (after a life-threatening arrhythmic event, as here) as well as primary prevention, so the claim that they are reserved for primary prevention only is false. QRS duration >120ms is specifically relevant to CRT-D candidacy (combined with NYHA III/IV and LVEF<35%), not standard ICD eligibility, ejection fraction does not automatically or reliably improve after cardiac arrest, and nothing in this vignette specifically establishes the heart-failure-class and QRS-duration criteria needed for CRT-D over a standard ICD.",
@@ -498,11 +498,11 @@
       "source": "pact_generated",
       "question": "A patient who survived a cardiac arrest six weeks ago, attributed at the time to ventricular fibrillation in the context of an acute inferior myocardial infarction, has since undergone successful revascularisation with no evidence of ongoing ischaemia. What follow-up consideration is most appropriate regarding future arrhythmic risk?",
       "options": [
-        "A: No further cardiological input is needed, since VF occurring during acute MI never recurs once revascularisation has been performed",
-        "B: The distinction between VF occurring within 48 hours versus later than 48 hours after MI has no meaningful bearing whatsoever on long-term arrhythmic prognosis or the need for further specialist cardiological follow-up",
-        "C: Further assessment is unnecessary, since VF occurring at any point after MI carries the same low baseline risk as the general population",
-        "D: The distinction between VF occurring within 48 hours versus later than 48 hours after MI has no bearing on long-term prognosis",
-        "E: Referral for cardiological assessment is appropriate, as VT/VF occurring more than 48 hours after MI in the absence of ongoing ischaemia carries a high risk of future malignant arrhythmias"
+        "No further cardiological input is needed, since VF occurring during acute MI never recurs once revascularisation has been performed",
+        "The distinction between VF occurring within 48 hours versus later than 48 hours after MI has no meaningful bearing whatsoever on long-term arrhythmic prognosis or the need for further specialist cardiological follow-up",
+        "Further assessment is unnecessary, since VF occurring at any point after MI carries the same low baseline risk as the general population",
+        "The distinction between VF occurring within 48 hours versus later than 48 hours after MI has no bearing on long-term prognosis",
+        "Referral for cardiological assessment is appropriate, as VT/VF occurring more than 48 hours after MI in the absence of ongoing ischaemia carries a high risk of future malignant arrhythmias"
       ],
       "correct": 4,
       "explanation": "Any patient who develops VT or VF more than 48 hours after myocardial infarction, in the absence of ongoing myocardial ischaemia, is at high risk for future malignant arrhythmias and should be referred for cardiological assessment (which may include consideration of an ICD) — this timing distinction is specifically emphasised because VF occurring very early (within 48 hours, often during the acute ischaemic insult itself) carries different long-term implications than VF occurring later, once the acute ischaemic period has passed. Assuming no recurrence risk after revascularisation, assuming baseline population risk, withholding an ICD referral outright, and dismissing the 48-hour timing distinction as irrelevant all understate the recognised long-term risk in this scenario.",
@@ -518,11 +518,11 @@
       "source": "pact_generated",
       "question": "Which of the following is NOT among the recognised recommended management steps for refractory monomorphic ventricular tachycardia occurring in the context of ongoing myocardial ischaemia?",
       "options": [
-        "A: Mechanical circulatory support, such as an intra-aortic balloon pump",
-        "B: IV verapamil as a second-line agent once amiodarone has failed",
-        "C: Coronary revascularisation",
-        "D: Overdrive or underdrive ventricular pacing",
-        "E: Consultation with an electrophysiologist, with consideration of catheter ablation in select cases"
+        "Mechanical circulatory support, such as an intra-aortic balloon pump",
+        "IV verapamil as a second-line agent once amiodarone has failed",
+        "Coronary revascularisation",
+        "Overdrive or underdrive ventricular pacing",
+        "Consultation with an electrophysiologist, with consideration of catheter ablation in select cases"
       ],
       "correct": 1,
       "explanation": "Revascularisation, overdrive/underdrive pacing, mechanical circulatory support, and electrophysiology consultation (with catheter ablation as a potential option in some cases) are all recognised considerations for refractory VT, particularly in the setting of myocardial ischaemia. IV verapamil is not a recommended escalation step for VT at any stage — it is specifically dangerous when a wide-complex tachycardia might be ventricular in origin, and its use in confirmed or suspected VT risks severe haemodynamic deterioration rather than offering a therapeutic option.",

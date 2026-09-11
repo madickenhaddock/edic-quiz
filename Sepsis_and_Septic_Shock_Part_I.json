@@ -16,11 +16,11 @@
       "set": 1,
       "question": "A 65-year-old with community-acquired pneumonia has received 30 mL/kg crystalloid. Current observations: MAP 58 mmHg, norepinephrine 0.2 mcg/kg/min, serum lactate 2.8 mmol/L. Which condition best describes this clinical picture?",
       "options": [
-        "A: Severe sepsis with cardiovascular dysfunction",
-        "B: Septic shock (Sepsis-3 criteria)",
-        "C: Systemic inflammatory response syndrome with infectious aetiology",
-        "D: Sepsis with acute organ dysfunction pending vasopressor optimisation",
-        "E: Refractory septic shock"
+        "Severe sepsis with cardiovascular dysfunction",
+        "Septic shock (Sepsis-3 criteria)",
+        "Systemic inflammatory response syndrome with infectious aetiology",
+        "Sepsis with acute organ dysfunction pending vasopressor optimisation",
+        "Refractory septic shock"
       ],
       "correct": 1,
       "explanation": "Septic shock (Sepsis-3) requires vasopressors to maintain MAP ≥65 mmHg AND serum lactate >2 mmol/L despite adequate fluid resuscitation — both criteria are met here. 'Severe sepsis' is an obsolete term abandoned in Sepsis-3 because organ dysfunction is now inherent in the definition itself, and SIRS with an infectious cause is a broader, less specific category that does not capture the vasopressor requirement and lactate elevation seen here. Refractory septic shock requires a norepinephrine equivalent of ≥0.5 mcg/kg/min with persistent lactate elevation, which is not met at 0.2 mcg/kg/min, and sepsis with organ dysfunction pending vasopressor optimisation understates a picture that already meets the vasopressor-dependent shock definition.",
@@ -36,11 +36,11 @@
       "set": 1,
       "question": "A 72-year-old with a urinary tract infection develops new respiratory failure (PaO2/FiO2 220 mmHg) and rising creatinine from 150 to 230 µmol/L over 12 hours. According to Sepsis-3, what minimum change in SOFA score from baseline is required to diagnose sepsis?",
       "options": [
-        "A: An absolute SOFA score of ≥4 at any time",
-        "B: An increase of 3 or more points",
-        "C: An increase of 1 point",
-        "D: Any SOFA score ≥2 at the time of assessment",
-        "E: An infection-related increase of ≥2 points from baseline"
+        "An absolute SOFA score of ≥4 at any time",
+        "An increase of 3 or more points",
+        "An increase of 1 point",
+        "Any SOFA score ≥2 at the time of assessment",
+        "An infection-related increase of ≥2 points from baseline"
       ],
       "correct": 4,
       "explanation": "Sepsis-3 requires an infection-related increase of 2 or more SOFA points from baseline to operationalise organ dysfunction — not an absolute threshold and not a different point increment. An absolute SOFA score of 4 or more, or any SOFA score of 2 or more, both fail because they rely on an absolute value rather than a change from baseline; an increase of 3 or more points, or an increase of just 1 point, both use the right change-from-baseline concept but the wrong magnitude — the threshold is specifically 2 points, not 3 or 1. This distinction is clinically important: a patient with chronic kidney disease may have a baseline SOFA of 3, but only qualifies for sepsis if a new increase of 2 or more points occurs.",
@@ -56,11 +56,11 @@
       "set": 1,
       "question": "A 55-year-old presents to the emergency department with fever and cough. RR is 24/min, BP 110/70 mmHg, she is fully oriented. A junior doctor proposes using qSOFA to screen for sepsis risk. Which statement best reflects current SSC 2026 guidance on qSOFA?",
       "options": [
-        "A: Current SSC 2026 guidelines recommend against routine qSOFA use due to its low sensitivity",
-        "B: qSOFA should be calculated in all ED patients with suspected infection as the primary screening tool",
-        "C: A negative qSOFA reliably excludes sepsis in non-ICU patients",
-        "D: qSOFA is recommended for ICU patients because it requires no laboratory testing",
-        "E: A qSOFA score of ≥2 confirms sepsis and mandates immediate ICU admission"
+        "Current SSC 2026 guidelines recommend against routine qSOFA use due to its low sensitivity",
+        "qSOFA should be calculated in all ED patients with suspected infection as the primary screening tool",
+        "A negative qSOFA reliably excludes sepsis in non-ICU patients",
+        "qSOFA is recommended for ICU patients because it requires no laboratory testing",
+        "A qSOFA score of ≥2 confirms sepsis and mandates immediate ICU admission"
       ],
       "correct": 0,
       "explanation": "SSC 2026 explicitly recommends against using qSOFA as a routine screening tool because of its low sensitivity — it misses a substantial proportion of sepsis cases, which is dangerous in a condition where early recognition is critical; this also means it should not be relied on as the primary screening tool for all ED patients with suspected infection. qSOFA is not intended for ICU patients, having been designed and validated for non-ICU settings, so recommending it there because it avoids laboratory testing misunderstands its intended use. A positive qSOFA score does not confirm sepsis nor mandate immediate ICU admission — it only prompts further investigation — and conversely, a negative qSOFA does not reliably exclude sepsis either.",
@@ -76,11 +76,11 @@
       "set": 1,
       "question": "A trainee documents 'SIRS criteria met (HR 102, temperature 38.5°C, WBC 13,200/mm³, RR 18/min) — patient has sepsis' for a patient on day 2 post-laparotomy. The attending disagrees. What is the most important limitation of using SIRS criteria to diagnose sepsis in this patient?",
       "options": [
-        "A: Only 2 SIRS criteria are met; at least 3 are required for sepsis",
-        "B: SIRS criteria must be accompanied by haemodynamic instability to indicate sepsis",
-        "C: SIRS is poorly specific and is present in non-infectious conditions such as post-operative inflammation",
-        "D: The temperature threshold for SIRS is ≥39.0°C, not 38.5°C",
-        "E: Sepsis diagnosis requires microbiological confirmation of infection before it can be established"
+        "Only 2 SIRS criteria are met; at least 3 are required for sepsis",
+        "SIRS criteria must be accompanied by haemodynamic instability to indicate sepsis",
+        "SIRS is poorly specific and is present in non-infectious conditions such as post-operative inflammation",
+        "The temperature threshold for SIRS is ≥39.0°C, not 38.5°C",
+        "Sepsis diagnosis requires microbiological confirmation of infection before it can be established"
       ],
       "correct": 2,
       "explanation": "SIRS requires 2 or more of 4 criteria, and in this patient heart rate, temperature and white cell count together already meet 3 criteria, so a claim that only 2 are met (with 3 required) is factually incorrect on both counts. The critical failure of SIRS is poor specificity: it is present in almost all critically ill patients from non-infectious causes including post-operative states, burns, and pancreatitis — which is precisely why Sepsis-3 replaced SIRS with SOFA-based organ dysfunction, and why SIRS criteria are not validated by simply adding a haemodynamic-instability requirement. A specific 39.0°C temperature threshold is not correct either — the SIRS temperature criterion is met above 38°C. Microbiological confirmation is desirable but not required for a sepsis diagnosis — sepsis remains a clinical diagnosis.",
@@ -96,11 +96,11 @@
       "set": 1,
       "question": "An 80-year-old patient with septic shock from urosepsis has received adequate fluid resuscitation. Invasive haemodynamic monitoring is performed. Which profile is most consistent with adequately resuscitated septic shock?",
       "options": [
-        "A: Tachycardia, cold extremities, normal cardiac output, normal systemic vascular resistance",
-        "B: Normal heart rate, peripheral oedema, increased systemic vascular resistance, normal cardiac output",
-        "C: Bradycardia, warm extremities, low cardiac output, reduced systemic vascular resistance",
-        "D: Tachycardia, cold extremities, low cardiac output, increased systemic vascular resistance",
-        "E: Tachycardia, warm extremities, increased cardiac output, reduced systemic vascular resistance"
+        "Tachycardia, cold extremities, normal cardiac output, normal systemic vascular resistance",
+        "Normal heart rate, peripheral oedema, increased systemic vascular resistance, normal cardiac output",
+        "Bradycardia, warm extremities, low cardiac output, reduced systemic vascular resistance",
+        "Tachycardia, cold extremities, low cardiac output, increased systemic vascular resistance",
+        "Tachycardia, warm extremities, increased cardiac output, reduced systemic vascular resistance"
       ],
       "correct": 4,
       "explanation": "Resuscitated septic shock is characteristically hyperdynamic: tachycardia, warm extremities from profound vasodilation, increased cardiac output, and reduced systemic vascular resistance. Although sepsis-induced myocardial depression occurs, cardiac output is typically maintained or increased when fluid resuscitation is adequate. Cold extremities with increased systemic vascular resistance and low cardiac output instead describes cardiogenic or unresuscitated distributive shock — the classic near-miss distractor — while the remaining profiles combine findings (normal or increased SVR with normal cardiac output, or bradycardia with vasodilation and low output) that do not match the hyperdynamic, adequately resuscitated picture described here.",
@@ -116,11 +116,11 @@
       "set": 1,
       "question": "A 68-year-old develops fever, hypotension, and confusion on the surgical ward on day 4 post-laparotomy. Sepsis is suspected and broad-spectrum antibiotics are prepared. What is the most appropriate approach to blood culture sampling?",
       "options": [
-        "A: Obtain at least two blood culture sets before starting antibiotics, without unnecessarily delaying treatment",
-        "B: Obtain a single blood culture set immediately before antibiotics",
-        "C: Skip cultures entirely and start antibiotics — cultures are rarely positive in hospital-acquired sepsis",
-        "D: Draw blood cultures only from the central venous catheter to maximise pathogen yield",
-        "E: Delay antibiotics until all culture sets show microbial growth to ensure targeted therapy"
+        "Obtain at least two blood culture sets before starting antibiotics, without unnecessarily delaying treatment",
+        "Obtain a single blood culture set immediately before antibiotics",
+        "Skip cultures entirely and start antibiotics — cultures are rarely positive in hospital-acquired sepsis",
+        "Draw blood cultures only from the central venous catheter to maximise pathogen yield",
+        "Delay antibiotics until all culture sets show microbial growth to ensure targeted therapy"
       ],
       "correct": 0,
       "explanation": "At least two blood culture sets, not just one, must be drawn before starting antibiotics, but sampling must never unnecessarily delay antimicrobial therapy. Skipping cultures entirely is not appropriate either, even though culture yield in sepsis is imperfect — cultures still guide de-escalation and targeted therapy when they are positive. Drawing cultures only from the central venous catheter increases contamination rates; peripheral blood cultures should be included alongside or instead. Delaying antibiotics until all culture sets show microbial growth is dangerous, since growth takes 2-3 days and antimicrobial therapy should not be withheld while awaiting results. Even with correct technique, only 30-40% of cultures are positive in sepsis.",
@@ -136,11 +136,11 @@
       "set": 1,
       "question": "Two blood culture sets are drawn at antibiotic initiation for a 57-year-old with clinical sepsis. All cultures return negative at 72 hours. The microbiologist states this is not unexpected. Which statement best explains this finding?",
       "options": [
-        "A: Blood cultures are nearly always positive within 24 hours in true bacteraemia",
-        "B: Negative cultures at 72 hours indicate the antibiotic selection was inappropriate",
-        "C: Positive blood cultures are found in only 30–40% of sepsis patients even with correct sampling technique",
-        "D: The two-set protocol is insufficient; at least four sets are required for acceptable sensitivity",
-        "E: Blood cultures have acceptable sensitivity only for gram-positive organisms in ICU-acquired sepsis"
+        "Blood cultures are nearly always positive within 24 hours in true bacteraemia",
+        "Negative cultures at 72 hours indicate the antibiotic selection was inappropriate",
+        "Positive blood cultures are found in only 30–40% of sepsis patients even with correct sampling technique",
+        "The two-set protocol is insufficient; at least four sets are required for acceptable sensitivity",
+        "Blood cultures have acceptable sensitivity only for gram-positive organisms in ICU-acquired sepsis"
       ],
       "correct": 2,
       "explanation": "Positive blood cultures occur in only 30-40% of patients with sepsis regardless of technique or antibiotic timing — a well-recognised limitation, not a sign of inadequate sampling or an insufficient number of culture sets. Growth typically takes 2-3 days, so blood cultures are not nearly always positive within 24 hours even in true bacteraemia, and false negatives are common. Negative cultures at 72 hours should not be read as evidence that the antibiotic selection was inappropriate, nor should they lead to discontinuing therapy when the clinical picture of sepsis remains clear. Gram-negative bacteria actually predominate, accounting for 67% of identified ICU pathogens, so blood culture sensitivity is not limited to gram-positive organisms.",
@@ -156,11 +156,11 @@
       "set": 1,
       "question": "A patient in the ICU develops new multi-organ dysfunction and the team wants to use a biomarker to differentiate septic from non-infectious causes. Which statement best explains why procalcitonin is preferred over CRP for this purpose?",
       "options": [
-        "A: Procalcitonin, like CRP, is synthesised by the liver as an acute-phase reactant, but with faster induction kinetics",
-        "B: SSC 2026 guidelines recommend adding procalcitonin to clinical evaluation when deciding to initiate antibiotics",
-        "C: Procalcitonin normalises more slowly than CRP, enabling prolonged monitoring of treatment response",
-        "D: CRP lacks specificity for infection, rising in non-infectious states as well, whereas procalcitonin is more specific for sepsis",
-        "E: Procalcitonin peaks within 2 hours of infectious stimulus, providing a faster signal than CRP"
+        "Procalcitonin, like CRP, is synthesised by the liver as an acute-phase reactant, but with faster induction kinetics",
+        "SSC 2026 guidelines recommend adding procalcitonin to clinical evaluation when deciding to initiate antibiotics",
+        "Procalcitonin normalises more slowly than CRP, enabling prolonged monitoring of treatment response",
+        "CRP lacks specificity for infection, rising in non-infectious states as well, whereas procalcitonin is more specific for sepsis",
+        "Procalcitonin peaks within 2 hours of infectious stimulus, providing a faster signal than CRP"
       ],
       "correct": 3,
       "explanation": "CRP's primary limitation is poor specificity — it rises in non-infectious conditions including pancreatitis, trauma, and post-surgical states — whereas procalcitonin has better specificity for infection, though its sensitivity is moderate. Procalcitonin is not simply a faster-kinetics version of the same acute-phase pathway as CRP; the two are synthesised via different mechanisms. SSC 2026 actually recommends clinical evaluation alone over adding procalcitonin to clinical evaluation when deciding whether to initiate antibiotics, so the guidelines do not endorse routinely adding PCT to that decision. Its value lies in specificity for infection rather than in normalising more slowly than CRP for monitoring purposes. The distinctive 2-hour peak after an infectious stimulus describes IL-6 kinetics, not procalcitonin, which peaks later.",
@@ -176,11 +176,11 @@
       "set": 1,
       "question": "A 43-year-old is admitted to ICU with suspected septic shock. The team wants to identify an infectious stimulus at the earliest possible time point using biomarkers. Which biomarker reaches peak plasma levels within 2 hours of infection onset?",
       "options": [
-        "A: Procalcitonin (PCT)",
-        "B: C-reactive protein (CRP)",
-        "C: Fibrinogen",
-        "D: Interleukin-6 (IL-6)",
-        "E: Lactate dehydrogenase (LDH)"
+        "Procalcitonin (PCT)",
+        "C-reactive protein (CRP)",
+        "Fibrinogen",
+        "Interleukin-6 (IL-6)",
+        "Lactate dehydrogenase (LDH)"
       ],
       "correct": 3,
       "explanation": "IL-6 is the fastest biomarker, peaking within 2 hours of infectious stimulus. CRP has slow kinetics (peak ~24–48 hours). PCT peaks at approximately 24 hours. Despite its rapid kinetics, IL-6 has limited adult evidence due to low-quality studies and is primarily used in paediatric critical care. Serum lactate reflects tissue hypoperfusion rather than the infectious stimulus itself.",
@@ -196,11 +196,11 @@
       "set": 1,
       "question": "Which of the following is NOT one of the three qSOFA criteria?",
       "options": [
-        "A: Respiratory rate ≥22 breaths/min",
-        "B: Temperature <36°C or >38°C",
-        "C: Altered mentation",
-        "D: Systolic blood pressure ≤100 mmHg",
-        "E: qSOFA cannot be scored without laboratory confirmation of organ dysfunction"
+        "Respiratory rate ≥22 breaths/min",
+        "Temperature <36°C or >38°C",
+        "Altered mentation",
+        "Systolic blood pressure ≤100 mmHg",
+        "qSOFA cannot be scored without laboratory confirmation of organ dysfunction"
       ],
       "correct": 1,
       "explanation": "qSOFA has exactly three criteria: RR ≥22/min, altered mentation, and SBP ≤100 mmHg. Temperature abnormality is NOT part of qSOFA — it was a component of SIRS criteria, making it the archetypal near-miss distractor for this topic. qSOFA was specifically designed to exclude temperature and all laboratory values to enable rapid non-ICU bedside screening.",
@@ -216,11 +216,11 @@
       "set": 1,
       "question": "A 70-year-old with septic shock from pneumonia develops widespread pitting oedema and rising fluid requirements despite adequate cardiac output and MAP. Which mechanism best explains the pathogenesis of tissue oedema in this patient?",
       "options": [
-        "A: Raised oncotic pressure from acute-phase protein synthesis causing intravascular-to-interstitial fluid shifts",
-        "B: Capillary occlusion by thrombi increasing upstream hydrostatic pressure",
-        "C: Glycocalyx damage and increased endothelial permeability causing fluid to leak into the interstitium",
-        "D: Impaired lymphatic drainage secondary to hyperdynamic circulation and tachycardia",
-        "E: Renin-angiotensin-aldosterone activation causing pathological sodium and water retention"
+        "Raised oncotic pressure from acute-phase protein synthesis causing intravascular-to-interstitial fluid shifts",
+        "Capillary occlusion by thrombi increasing upstream hydrostatic pressure",
+        "Glycocalyx damage and increased endothelial permeability causing fluid to leak into the interstitium",
+        "Impaired lymphatic drainage secondary to hyperdynamic circulation and tachycardia",
+        "Renin-angiotensin-aldosterone activation causing pathological sodium and water retention"
       ],
       "correct": 2,
       "explanation": "Endothelial cell activation in sepsis causes glycocalyx damage, increasing vascular permeability so fluid leaks from the intravascular space into the interstitium. This oedema not only worsens effective hypovolaemia but also impairs tissue oxygenation by increasing the diffusion distance for oxygen. Raised oncotic pressure from acute-phase protein synthesis would be expected to retain fluid within the vasculature, not cause it to leak into the interstitium, so this does not explain the oedema seen here. Capillary occlusion by thrombi is a feature of microcirculatory dysfunction but does not primarily raise upstream hydrostatic pressure enough to explain widespread oedema, impaired lymphatic drainage is not a recognised consequence of a hyperdynamic circulation, and renin-angiotensin-aldosterone activation, which promotes sodium and water retention, is a secondary compensatory response rather than the primary driver of capillary leak.",
@@ -236,11 +236,11 @@
       "set": 1,
       "question": "A patient with septic shock has MAP 70 mmHg, cardiac output 7 L/min, and SaO2 99%, yet serum lactate is 4.2 mmol/L with evidence of progressive organ failure. Which mechanism best explains the discrepancy between normal systemic oxygen delivery and the tissue oxygen deficit?",
       "options": [
-        "A: Systemic oxygen delivery is actually inadequate despite the apparently normal haemodynamic parameters",
-        "B: Glycocalyx damage impairs haemoglobin oxygen loading at the alveolar-capillary interface",
-        "C: Mitochondrial dysfunction caused by excess reactive oxygen species prevents cellular oxygen utilization",
-        "D: Elevated cardiac output reduces capillary transit time, preventing sufficient oxygen unloading per red cell",
-        "E: Microcirculatory occlusion diverts oxygenated blood past hypoperfused tissue beds, impairing local oxygen delivery"
+        "Systemic oxygen delivery is actually inadequate despite the apparently normal haemodynamic parameters",
+        "Glycocalyx damage impairs haemoglobin oxygen loading at the alveolar-capillary interface",
+        "Mitochondrial dysfunction caused by excess reactive oxygen species prevents cellular oxygen utilization",
+        "Elevated cardiac output reduces capillary transit time, preventing sufficient oxygen unloading per red cell",
+        "Microcirculatory occlusion diverts oxygenated blood past hypoperfused tissue beds, impairing local oxygen delivery"
       ],
       "correct": 4,
       "explanation": "The classic sepsis microcirculatory lesion is distributive flow failure: capillary occlusion by thrombi, activated leukocytes, and poorly deformable erythrocytes redirects blood through patent capillaries, leaving adjacent hypoperfused cells hypoxic and generating lactate despite normal systemic delivery parameters. Systemic oxygen delivery is not in fact inadequate here — the haemodynamic parameters given are normal — so the discrepancy lies downstream of delivery rather than in delivery itself. Glycocalyx damage affects vascular permeability rather than haemoglobin oxygen loading at the alveolar-capillary interface, and mitochondrial dysfunction from excess reactive oxygen species also contributes to cytopathic hypoxia in sepsis, but the pattern of normal systemic parameters with tissue failure most specifically points to microvascular shunting rather than a cellular utilisation defect alone. Elevated cardiac output reducing capillary transit time is not the mechanism driving the tissue oxygen deficit described here.",
@@ -256,11 +256,11 @@
       "set": 1,
       "question": "In a large international point-prevalence study of ICU patients with infection, which anatomical focus accounted for the largest proportion of infections?",
       "options": [
-        "A: Respiratory tract infections (pneumonia and tracheobronchitis)",
-        "B: Skin and soft tissue infections",
-        "C: Bloodstream infections (bacteraemia/fungaemia)",
-        "D: Urinary tract infections, including catheter-associated UTI",
-        "E: Abdominal infections, including intra-abdominal abscess and peritonitis"
+        "Respiratory tract infections (pneumonia and tracheobronchitis)",
+        "Skin and soft tissue infections",
+        "Bloodstream infections (bacteraemia/fungaemia)",
+        "Urinary tract infections, including catheter-associated UTI",
+        "Abdominal infections, including intra-abdominal abscess and peritonitis"
       ],
       "correct": 0,
       "explanation": "The respiratory tract accounts for 60.1% of ICU infections — by far the most common focus, driven predominantly by pneumonia including ventilator-associated pneumonia. The abdomen is second at 18.3%, followed by bloodstream infections at 15.2%. This distribution directly informs empirical antibiotic selection and underscores the importance of respiratory specimen collection in suspected sepsis of unknown source.",
@@ -276,11 +276,11 @@
       "set": 1,
       "question": "Which of the following parameters is NOT assessed by the SOFA score?",
       "options": [
-        "A: Glasgow Coma Scale score",
-        "B: PaO2/FiO2 ratio",
-        "C: Platelet count",
-        "D: Serum bilirubin",
-        "E: Serum procalcitonin"
+        "Glasgow Coma Scale score",
+        "PaO2/FiO2 ratio",
+        "Platelet count",
+        "Serum bilirubin",
+        "Serum procalcitonin"
       ],
       "correct": 4,
       "explanation": "SOFA assesses 6 organ systems: respiratory (PaO2/FiO2), coagulation (platelets), liver (bilirubin), cardiovascular (MAP and/or vasopressor dose), CNS (Glasgow Coma Scale), and renal (creatinine and/or urine output). Procalcitonin is a biomarker of infection/inflammation and is not a SOFA component — it is the classic near-miss here because PCT is routinely used alongside SOFA in sepsis management, causing confusion. The Glasgow Coma Scale score, PaO2/FiO2 ratio, platelet count, and serum bilirubin are all genuine SOFA components.",
@@ -296,11 +296,11 @@
       "set": 1,
       "question": "An ICU attending proposes using multiplex PCR for rapid pathogen identification in a patient with septic shock. A colleague asks why this is not standard practice. Which statement best explains the current limited clinical uptake of molecular diagnostics in sepsis?",
       "options": [
-        "A: Multiplex PCR results take 48–72 hours, offering no meaningful advantage over conventional blood cultures",
-        "B: Molecular PCR testing is contraindicated once patients have received any antibiotic doses",
-        "C: Cost and the absence of confirmed outcome benefit in large randomised trials limit routine adoption",
-        "D: PCR requires an antibiotic-free sampling window of at least 72 hours before blood collection",
-        "E: Current PCR platforms cannot reliably detect gram-negative organisms, which predominate in sepsis"
+        "Multiplex PCR results take 48–72 hours, offering no meaningful advantage over conventional blood cultures",
+        "Molecular PCR testing is contraindicated once patients have received any antibiotic doses",
+        "Cost and the absence of confirmed outcome benefit in large randomised trials limit routine adoption",
+        "PCR requires an antibiotic-free sampling window of at least 72 hours before blood collection",
+        "Current PCR platforms cannot reliably detect gram-negative organisms, which predominate in sepsis"
       ],
       "correct": 2,
       "explanation": "Multiplex PCR provides results within a working day — a genuine advantage over cultures (2–3 days). The primary barrier to routine adoption is cost combined with the absence of large RCT evidence confirming improved patient outcomes. Gram-negative organisms are detectable. PCR is not contraindicated in antibiotic-treated patients. The technology is promising but remains limited to specialist centres.",
