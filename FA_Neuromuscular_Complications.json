@@ -1,0 +1,914 @@
+{
+  "module": "FA Neuromuscular Complications",
+  "sections": {},
+  "questions": [
+    {
+      "id": "nmcf_fk01",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "In a patient with suspected critical illness myopathy (CIM), the muscle biopsy:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Is needed to establish the diagnosis",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Is performed to define the severity of muscle injury",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "May show various histopathological pictures with different prognoses",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Often shows myofiber necrosis",
+          "correct": true
+        }
+      ],
+      "explanation": "[UNCONFIRMED] The source screenshot's answer-key indicators for this item were internally inconsistent with its own written feedback. Resolved here in favour of the written feedback, per this bank's standing rule that ESICM's written feedback text wins when it conflicts with the screenshot's answer markers. In selected cases of severe or persisting weakness, muscle biopsy may help define the prognosis - not establish the initial diagnosis, which (per a later item in this same assessment) is made on voluntary-contraction EMG - by showing different histopathological features such as loss of myosin (thick) filaments, fibre atrophy and necrosis. Muscle necrosis is common (reported in up to 40% of cases) and portends a worse prognosis than a thick-filament myopathy pattern. Verify against the original ESICM material if possible.",
+      "section": "Neuromuscular Complications",
+      "topic": "muscle biopsy in critical illness myopathy",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "nmcf_fk02",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The diagnosis Guillain-Barré Syndrome:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Requires a lumbar puncture with cerebrospinal fluid (CSF) assessment performed as soon as possible",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Is clinical",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Nerve conduction studies support the diagnosis",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Nerve conduction studies help to define the prognosis",
+          "correct": true
+        }
+      ],
+      "explanation": "Guillain-Barré syndrome is a clinically diagnosed neurological disorder. CSF examination may show the classical cyto-albuminological dissociation - a normal cell count with an increased protein level - but this can be normal in the first week of disease, so diagnostic lumbar puncture is best performed after the first week unless bacterial or viral meningitis is suspected. Nerve conduction studies can help support the diagnosis, discriminate between axonal and demyelinating forms, and relate to prognosis, though they too can be normal early in the disease.",
+      "section": "Neuromuscular Complications",
+      "topic": "diagnosis of Guillain-Barré syndrome",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "nmcf_fk03",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following is true about the Medical Research Council Sum Score?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The maximum possible score is 100",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "A score of less than 48% diagnoses ICU-acquired weakness",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "30-40% of patients are unable to reliably perform the required tests.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Four limbs are tested, with 25 point awarded per limb",
+          "correct": false
+        }
+      ],
+      "explanation": "The score is the sum of the scores of 6 muscle groups (3 upper-limb and 3 lower-limb) tested on each side, with a maximum score of 5 for each muscle group. The maximum overall score is therefore 60, not 100, and a score below 48 (an absolute score, not a percentage) defines ICU-acquired weakness. A substantial minority of patients (30-40%) are unable to reliably perform the required voluntary tests.",
+      "section": "Neuromuscular Complications",
+      "topic": "Medical Research Council Sum Score for ICU-acquired weakness",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "nmcf_fk04",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Antibody tests can help the diagnosis of the cause of weakness. Which of the following is correctly matched?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Anti- acetylcholine receptor antibodies and Guillain-Barré Syndrome",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Anti-MUSK antibodies and Polymyositis",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Anti-synthetase antibodies and Guillain-Barré Syndrome.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Anti-MUSK antibodies and Myasthenia Gravis",
+          "correct": true
+        }
+      ],
+      "explanation": "Anti-acetylcholine receptor antibodies or anti-MUSK antibodies may be present in myasthenia gravis, while anti-synthetase antibodies are associated with polymyositis, not Guillain-Barré syndrome.",
+      "section": "Neuromuscular Complications",
+      "topic": "antibody tests in neuromuscular weakness",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "nmcf_fk05",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The following may hamper the clinical assessment of weakness",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Neuromuscular blockade or motor blocks from regional anaesthesia",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Peripheral neuropathy",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Confusion or lowered Glasgow Coma Scale score",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Pain",
+          "correct": true
+        }
+      ],
+      "explanation": "Residual neuromuscular blockade decreases strength and can itself be harmful; patients receiving spinal or epidural anaesthesia/analgesia may have sensory and motor blockade for hours after the block has apparently worn off, which is important to consider in anyone who has had general or regional anaesthesia. Patients with delirium, confusion, agitation or a decrease in Glasgow Coma Scale score may not cooperate, making their assessment unreliable, and pain may limit patients' ability to move a body part, so it is important to rule out pain as a component of apparent weakness or difficulty mobilising. Peripheral neuropathy is itself a possible cause of weakness, not a factor that prevents its assessment.",
+      "section": "Neuromuscular Complications",
+      "topic": "confounders in clinical weakness assessment",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "nmcf_fk06",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following suggest a condition of severely decreased ventilatory muscle function:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A fall in Forced Vital Capacity when assuming the supine position from the seated or standing one",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "An Forced Vital Capacity of less than 1 L",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "A decline in Forced Vital Capacity of more than 50% from baseline value.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "A peak expiratory flow rate of less than 20%.",
+          "correct": false
+        }
+      ],
+      "explanation": "Peak expiratory flow is not a test of muscle strength, so it does not indicate ventilatory muscle function; it mainly reflects large-airway calibre. A postural fall in FVC on lying supine, an absolute FVC below 1 L, and a substantial (>50%) decline from baseline are all recognised markers of severely compromised ventilatory muscle function.",
+      "section": "Neuromuscular Complications",
+      "topic": "markers of severe ventilatory muscle weakness",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "nmcf_fk07",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "In patients with neuromuscular disorders, strength testing might have to be performed at different times because:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Myasthenic symptoms may be worse at the start of the day",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Some patients may be more alert and cooperative at different times",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The symptoms of Guillain-Barré Syndrome are often better later in the day",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Weakness from Guillain-Barré Syndrome may advance very rapidly",
+          "correct": true
+        }
+      ],
+      "explanation": "Myasthenic symptoms are usually worse at the end of the day (fatigability with use), not the start. The weakness of Guillain-Barré syndrome does not fluctuate through the day, so it is not typically better later in the day, but it can advance very rapidly over hours to days, which is itself a reason repeat testing at different times may be needed. Patients' alertness and cooperation can also vary over the course of a day, affecting the reliability of any single test.",
+      "section": "Neuromuscular Complications",
+      "topic": "timing of strength testing in neuromuscular disorders",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "nmcf_fk08",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "In neurophysiological testing:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Reduced compound muscle action potential suggests axonal neuropathy",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Reduced sensory nerve action potential suggests axonal neuropathy",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "A 5% decrement with repetitive stimulation suggests neuromuscular failure due to persistence of neuromuscular blocking agents (NMBAs) or myasthenia gravis.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Increase in duration of compound muscle action potential suggests axonal neuropathy",
+          "correct": false
+        }
+      ],
+      "explanation": "A reduced compound muscle action potential or a reduced sensory nerve action potential both suggest an axonal neuropathy. An increase in the duration of the compound muscle action potential is instead a feature suggestive of myopathy, not axonal neuropathy. The correct decrement threshold on repetitive stimulation is 10%, not 5%: a 10% decrement suggests neuromuscular transmission failure due to persistence of neuromuscular blocking agents or myasthenia gravis.",
+      "section": "Neuromuscular Complications",
+      "topic": "interpreting neurophysiological studies",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "nmcf_fk09",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Please classify each following statement as True or False:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The diaphragm is supplied by motor nerve roots C3, C4 and C5",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The intercostal muscles are supplied by the long thoracic nerve of Bell (C5-C6-C7)",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "The accessory expiratory muscles of ventilation include sternocleidomastoid, scalene muscle, pectoral muscles, serratus anterior and latissimus dorsi.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "The accessory inspiratory muscles of ventilation include rectus abdominis, external and internal obliques and transversus abdominis.",
+          "correct": false
+        }
+      ],
+      "explanation": "The diaphragm is supplied by motor roots C3, C4 and C5 ('C3, 4, 5 keep the diaphragm alive'). The intercostal muscles are supplied segmentally by T1-T12, not by the long thoracic nerve, which instead supplies serratus anterior (a lesion of it causes scapular winging). The muscles listed here as 'accessory expiratory' (sternocleidomastoid, scalene, pectoral muscles, serratus anterior, latissimus dorsi) are in fact accessory inspiratory muscles, while the muscles listed here as 'accessory inspiratory' (rectus abdominis, external and internal obliques, transversus abdominis) are in fact accessory expiratory muscles. The accessory expiratory muscles also include serratus posterior inferior, the lowest fibres of iliocostalis and longissimus, and quadratus lumborum.",
+      "section": "Neuromuscular Complications",
+      "topic": "innervation and accessory muscles of ventilation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "nmcf_fk10",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Imminent ventilator failure is suggested by:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Forced Vital Capacity of less than 40 mL/kg",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Maximum Inspiratory Pressure (MIP) higher than 30 cmH2O",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Maximum Expiratory pressure (MEP) lower than 40 cmH2O",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Increase in duration of compound muscle action potential suggests axonal neuropathy",
+          "correct": true
+        }
+      ],
+      "explanation": "[UNCONFIRMED] One of the four statements in this item (concerning compound muscle action potential duration and axonal neuropathy) is a neurophysiology statement unrelated in content to the question stem on imminent ventilatory failure, and appears to be a mismatched item carried over from elsewhere in the source assessment; it is transcribed verbatim with the source's marked key, but its correctness in this context should be treated with caution. For the ventilatory-failure content itself: an FVC below roughly 15-20 mL/kg (not below 40 mL/kg) and a Maximum Inspiratory Pressure lower than (not higher than) 30 cmH2O are the findings suggestive of imminent ventilatory failure.",
+      "section": "Neuromuscular Complications",
+      "topic": "predictors of imminent ventilatory failure",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "nmcf_fk11",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Electromyography diagnosis of critical illness myopathy (CIM) requires that:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The patient is awake and collaborative",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Serum CK levels are abnormal",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Serum myoglobin levels abnormal",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Motor unit potentials are of low amplitude, short-duration and polyphasic after muscle contraction",
+          "correct": true
+        }
+      ],
+      "explanation": "If the patient can voluntarily contract their muscle during EMG examination, CIM is revealed by motor unit potentials that are of low amplitude, short duration and polyphasic - which requires the patient to be awake and collaborative enough to perform voluntary contraction. Muscle necrosis in CIM is usually scattered rather than diffuse, so serum CK and myoglobin levels are typically normal and are not required for the diagnosis.",
+      "section": "Neuromuscular Complications",
+      "topic": "EMG diagnosis of critical illness myopathy",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "nmcf_fk12",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Please classify as True/False about Tetanus:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Clinical features are caused by tetanospasmin, which stimulates substance P release",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Onset may occur from 1 day to several months after the exposure",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The shorter the time between exposure and first spasms, the more severe is the disease",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Opisthotonus – severe intermittent decerebrate posturing – is a classical manifestation of tetanus",
+          "correct": true
+        }
+      ],
+      "explanation": "Tetanospasmin impairs inhibitory synaptic vesicle release, rather than stimulating substance P release. Onset can range from one day to several months after exposure, and a shorter incubation period is associated with more severe disease. Opisthotonus - severe hyperextension and spasticity causing the head, neck and back to form an arch or 'bridging' posture - is a classical manifestation of tetanus.",
+      "section": "Neuromuscular Complications",
+      "topic": "clinical features of tetanus",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "nmcf_fk13",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "In tetanus:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Pain is rare because the nerve fibres are damaged by the toxin",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Autonomic dysfunction, if present, excludes the diagnosis",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Intrathecal administration of human tetanus immunoglobulin is a better therapeutic option than intravenous injection",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Magnesium can help to stabilize the cardiovascular system",
+          "correct": true
+        }
+      ],
+      "explanation": "Pain can be excruciating in tetanus, since muscle spasms are induced even by minor stimuli. Autonomic dysfunction - rapid fluctuations in heart rate and blood pressure, profuse sweating, and life-threatening tachy- or bradyarrhythmias or unexpected cardiac arrest - is frequently observed in severe tetanus rather than excluding the diagnosis. Intravenous (not intrathecal) immunoglobulin is the standard of care to neutralise the circulating toxin. Magnesium induces muscle relaxation and can help control both muscle spasms and cardiovascular instability.",
+      "section": "Neuromuscular Complications",
+      "topic": "clinical features and treatment of tetanus",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "nmcf_fk14",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "If a critical illness polyneuropathy (CIP) is suspected:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Muscle strength examination is required",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Sensory testing is required",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Neurological examination may reveal focal signs",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Neurophysiological examination may reveal a sharp reduction of nerve conduction velocity",
+          "correct": false
+        }
+      ],
+      "explanation": "CIP is a sensory-motor axonal polyneuropathy causing generalised, diffuse and symmetric muscle weakness involving all four limbs, so both muscle strength and sensory testing are required to characterise it. Nerve conduction velocity is normal or near-normal in CIP (a sharp reduction would suggest a demyelinating process instead), and focal neurological signs such as monoparesis or hemiparesis indicate a different cause of weakness, usually an acute brain disease.",
+      "section": "Neuromuscular Complications",
+      "topic": "clinical assessment of suspected critical illness polyneuropathy",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "nmcf_fk15",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Please classify as True/False about Botulism:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Its toxin causes a demyelinating neuropathy",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Symptoms occur 2-3 weeks after exposure",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Motor signs are slightly worse than sensory signs",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "High fever is a common feature",
+          "correct": false
+        }
+      ],
+      "explanation": "Botulinum toxin causes a neuromuscular blockade, not a demyelinating neuropathy; only motor nerve transmission is affected, with no sensory signs at all (so motor signs cannot meaningfully be compared with absent sensory signs). Symptoms usually occur 6 hours to 8 days after exposure, not 2-3 weeks, and high fever is not a typical feature of botulism.",
+      "section": "Neuromuscular Complications",
+      "topic": "clinical features of botulism",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sba1_fa01",
+      "type": "A",
+      "set": 2,
+      "source": "esicm_course_interactive",
+      "question": "You are called to see a 30-year-old male ASA I patient in the operating theatre recovery area. He had a simple hernia repair under general anaesthesia and was extubated apparently uneventfully. After being transferred to the recovery room, he suddenly stops breathing, becomes cyanotic and needs to be re-intubated, with no respiratory effort observed. He is transferred to the ICU. Train-of-four stimulus testing performed in recovery was normal. He regains consciousness but not the ability to breathe spontaneously nor to move his limbs; sensation is intact. The ECG reveals infrequent ventricular ectopic beats and a ten-second episode of complete heart block. His mother, called in urgently, has a notably firm handshake, slurred speech, and wears thick-lensed 'pebble' glasses. What is the most likely diagnosis?",
+      "options": [
+        "Residual neuromuscular blockade",
+        "Guillain-Barré syndrome",
+        "Myasthenia gravis",
+        "Myotonic dystrophy",
+        "Critical illness polyneuropathy"
+      ],
+      "correct": 3,
+      "explanation": "[CONSTRUCTED] Built from an ESICM course case-based self-assessment (interactive scenario, not a scored Final Assessment MCQ) rather than transcribed from a graded quiz item. A normal train-of-four excludes residual competitive neuromuscular blockade as the cause, and intact sensation argues against a primary sensory neuropathy. The combination of unexplained postoperative weakness, a cardiac conduction abnormality, and a parent with myotonic grip (difficulty relaxing a handshake), dysarthria and early cataracts ('pebble' glasses) is characteristic of myotonic dystrophy, an autosomal dominant multisystem disorder that is frequently first unmasked by an anaesthetic.",
+      "section": "Neuromuscular Complications",
+      "topic": "diagnosis of myotonic dystrophy after anaesthesia (case-based)",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sba1_fk01",
+      "type": "K",
+      "set": 2,
+      "source": "esicm_course_interactive",
+      "question": "A 30-year-old man fails to breathe spontaneously or move his limbs after tracheal extubation following an uncomplicated hernia repair; train-of-four testing is normal and sensation is intact. Regarding the differential diagnosis of his weakness, indicate whether each statement is TRUE or FALSE:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Surgical factors are a likely explanation, given that this was a lower abdominal procedure",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Ongoing competitive neuromuscular blockade is the most likely explanation, given the normal train-of-four testing",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "If suxamethonium was used for induction, pseudocholinesterase deficiency causing an abnormally prolonged block should be considered",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Pre-existing, previously undiagnosed neuromuscular disease should still be considered, even with no prior history",
+          "correct": true
+        }
+      ],
+      "explanation": "[CONSTRUCTED] Built from an ESICM course case-based self-assessment rather than a scored Final Assessment item. In the context of a lower abdominal procedure it is unlikely that surgical factors play a role in ventilatory weakness (unlike major thoracic, gastric or oesophageal surgery, which can impair ventilation via diaphragmatic splinting/injury or phrenic nerve damage). A normal train-of-four argues against ongoing competitive neuromuscular blockade as the cause, but does not exclude an abnormally prolonged effect of a non-competitive agent such as suxamethonium in a patient with pseudocholinesterase deficiency. Pre-existing neuromuscular conditions - some muscular dystrophies, myasthenia gravis, neuropathies - although unlikely, may first present in this manner.",
+      "section": "Neuromuscular Complications",
+      "topic": "differential diagnosis of postoperative weakness (case-based)",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sba1_fa02",
+      "type": "A",
+      "set": 2,
+      "source": "esicm_course_interactive",
+      "question": "A 30-year-old man with unexplained postoperative apnoea is now suspected of having myotonic dystrophy, an autosomal dominant disease, based on his clinical course and examination findings in a parent. What is the most appropriate next step?",
+      "options": [
+        "Start high-dose intravenous corticosteroids",
+        "Refer to neurology and to a centre for genetic counselling",
+        "Commence urgent plasma exchange",
+        "Reassure the family and discharge as soon as weaned",
+        "Start long-term home non-invasive ventilation without further investigation"
+      ],
+      "correct": 1,
+      "explanation": "[CONSTRUCTED] Built from an ESICM course case-based self-assessment rather than a scored Final Assessment item. Myotonic dystrophy is a multisystem, autosomal dominant disorder with implications for the patient's cardiac and respiratory management as well as for relatives; once suspected, referral to neurology (for confirmation and ongoing management) and to a genetic counselling centre is the appropriate next step. There is no acute disease-modifying therapy such as corticosteroids or plasma exchange for myotonic dystrophy, and discharge without further workup would miss an important diagnosis with family implications.",
+      "section": "Neuromuscular Complications",
+      "topic": "management and referral after suspected myotonic dystrophy (case-based)",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sba2_fa01",
+      "type": "A",
+      "set": 3,
+      "source": "esicm_course_interactive",
+      "question": "A 43-year-old woman is treated by her family doctor with antibiotics for a mild upper respiratory tract infection. Two days later she develops diarrhoea, which resolves over four days. One week after that she notices cramp in her calves, then starts tripping over furniture. She is initially discharged from hospital with a diagnosis of 'hysteria', but returns the next day unable to get out of a chair and is admitted. She now complains of difficulty breathing; blood gases are normal, and she has no sensory signs. What is the most likely diagnosis?",
+      "options": [
+        "Hypokalaemic periodic paralysis",
+        "Myasthenia gravis",
+        "Guillain-Barré syndrome",
+        "Critical illness polyneuropathy",
+        "Conversion disorder"
+      ],
+      "correct": 2,
+      "explanation": "[CONSTRUCTED] Built from an ESICM course case-based self-assessment rather than a scored Final Assessment item. An acute, progressive, ascending weakness in a previously well person, following an antecedent infective illness and without sensory signs, is a classic presentation of Guillain-Barré syndrome; this acute presentation in someone previously well also precludes most other causes of weakness. A normal blood gas does not exclude significant respiratory compromise, since blood gases in acute neuromuscular weakness are typically normal until close to the point of respiratory arrest.",
+      "section": "Neuromuscular Complications",
+      "topic": "diagnosis of Guillain-Barré syndrome (case-based)",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sba2_fk01",
+      "type": "K",
+      "set": 3,
+      "source": "esicm_course_interactive",
+      "question": "A previously well 43-year-old woman develops progressive ascending limb weakness and breathlessness one week after a diarrhoeal illness, with no sensory signs; Guillain-Barré syndrome is suspected. Regarding monitoring of her respiratory function, indicate whether each statement is TRUE or FALSE:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Arterial blood gases are a reliable early warning sign of impending respiratory failure in this condition",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Serial Forced Vital Capacity (FVC) measurement is the recommended way to monitor her respiratory status",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "An FVC below 1 L or below 20 mL/kg, or a rapidly declining FVC, should prompt consideration of mechanical ventilation",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "A Maximal Inspiratory Pressure (MIP) above 30 cmH2O predicts impending respiratory failure",
+          "correct": false
+        }
+      ],
+      "explanation": "[CONSTRUCTED] Built from an ESICM course case-based self-assessment rather than a scored Final Assessment item. Blood gases in most patients with acute neuromuscular weakness remain normal until the time of respiratory arrest, so they are not a useful early warning sign; serial FVC is the recommended monitoring tool. An absolute FVC below 1 L or below 20 mL/kg, or an FVC that is rapidly declining on serial measurement, should prompt consideration of mechanical ventilation. A Maximal Inspiratory Pressure below (not above) 30 cmH2O, or a Maximal Expiratory Pressure below 40 cmH2O, are the values that predict impending acute respiratory failure. Any clinical suspicion of aspiration from coughing or swallowing difficulty should also prompt airway protection, usually by tracheal intubation initially.",
+      "section": "Neuromuscular Complications",
+      "topic": "respiratory monitoring in Guillain-Barré syndrome (case-based)",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sba2_fa02",
+      "type": "A",
+      "set": 3,
+      "source": "esicm_course_interactive",
+      "question": "A 43-year-old woman with confirmed Guillain-Barré syndrome requires specific, disease-modifying treatment. Which of the following describes the appropriate treatment and how it is typically delivered?",
+      "options": [
+        "High-dose oral corticosteroids",
+        "Intravenous immunoglobulin or plasma exchange, the latter usually delivered via a dialysis catheter",
+        "Broad-spectrum antibiotics targeting the antecedent infection",
+        "Oral anticholinesterase therapy such as pyridostigmine",
+        "Botulinum antitoxin"
+      ],
+      "correct": 1,
+      "explanation": "[CONSTRUCTED] Built from an ESICM course case-based self-assessment rather than a scored Final Assessment item. The specific treatments for Guillain-Barré syndrome are intravenous immunoglobulin or plasma exchange, the latter usually delivered via a dialysis catheter; either therapy reduces time spent on mechanical ventilation and promotes faster recovery of mobility. Corticosteroids are not an effective treatment for Guillain-Barré syndrome (unlike some other neuromuscular conditions), and antibiotics, anticholinesterases and antitoxin are not disease-modifying here.",
+      "section": "Neuromuscular Complications",
+      "topic": "specific treatment of Guillain-Barré syndrome (case-based)",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sba2_fk02",
+      "type": "K",
+      "set": 3,
+      "source": "esicm_course_interactive",
+      "question": "A patient with Guillain-Barré syndrome has had a notably rapid onset and progression of weakness. Regarding prognosis and long-term outcome in Guillain-Barré syndrome, indicate whether each statement is TRUE or FALSE:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A rapid rate of symptom progression is generally associated with a better long-term physical recovery",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Up to 20% of patients have long-term residual motor dysfunction and require ventilatory support early in their illness",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Symptom onset is typically vague and progresses slowly, though rapid progression can occur",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "The rate of disease progression has no bearing on the ultimate degree of recovery",
+          "correct": false
+        }
+      ],
+      "explanation": "[CONSTRUCTED] Built from an ESICM course case-based self-assessment rather than a scored Final Assessment item. Rapid progression of Guillain-Barré syndrome is usually associated with a poorer, not better, physical recovery. Although most patients make a good neurological recovery overall, up to 20% will have long-term residual motor dysfunction and will have required ventilatory support early in the course of their illness. Symptoms typically begin vaguely and progress slowly, which is part of why the diagnosis is often missed early, although rapid progression - as in a patient with a poorer prognosis - can also occur.",
+      "section": "Neuromuscular Complications",
+      "topic": "prognosis in Guillain-Barré syndrome (case-based)",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sba3_fk01",
+      "type": "K",
+      "set": 4,
+      "source": "esicm_course_interactive",
+      "question": "A 68-year-old woman is admitted to the ICU after emergency surgery for a perforated colonic diverticulum with gross faecal peritoneal contamination; she develops septic shock requiring norepinephrine and renal dysfunction requiring continuous veno-venous haemofiltration. Two weeks later, sedation is reduced: she opens her eyes spontaneously but makes minimal respiratory effort, has no response to painful stimuli other than grimace, diminished reflexes and a normal plantar response. Regarding the differential diagnosis of her weakness, indicate whether each statement is TRUE or FALSE:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Excessive sedation due to accumulated fentanyl is a plausible explanation",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Critical illness polyneuropathy (CIP) is a plausible explanation",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Electrophysiological studies are mandatory in every case before CIP can be considered as a diagnosis",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Her normal plantar response and the absence of focal sensory loss argue against an acute stroke as the cause",
+          "correct": true
+        }
+      ],
+      "explanation": "[CONSTRUCTED] Built from an ESICM course case-based self-assessment rather than a scored Final Assessment item. In a patient with renal dysfunction who has received a prolonged fentanyl infusion, accumulated opioid is a plausible cause of reduced consciousness and respiratory effort, alongside critical illness polyneuropathy, a frequent complication of prolonged critical illness. Investigations are not always necessary in this context - clinical skills and a compatible context can make the diagnosis of CIP almost certain, with further investigation reserved for cases where weakness persists despite rehabilitation. A normal plantar response and no focal or sensory signs point away from an acute central (stroke) cause.",
+      "section": "Neuromuscular Complications",
+      "topic": "differential diagnosis of weakness after critical illness (case-based)",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sba3_fa01",
+      "type": "A",
+      "set": 4,
+      "source": "esicm_course_interactive",
+      "question": "A patient recovering from septic shock and acute kidney injury is diagnosed with critical illness polyneuropathy (CIP) after failing to wean from mechanical ventilation. What is the appropriate management approach?",
+      "options": [
+        "Intravenous immunoglobulin as first-line specific therapy",
+        "High-dose corticosteroids to reduce nerve inflammation",
+        "Supportive care only: continued respiratory support until weaning criteria are met, thromboembolism prophylaxis, physical therapy and pain management",
+        "Urgent plasma exchange",
+        "Immediate nerve biopsy to guide therapy"
+      ],
+      "correct": 2,
+      "explanation": "[CONSTRUCTED] Built from an ESICM course case-based self-assessment rather than a scored Final Assessment item. There is no specific treatment for critical illness polyneuropathy. Supportive treatment includes continued respiratory support until respiratory muscle strength improves and weaning criteria are met, together with standard supportive care: maintenance of thromboembolism prophylaxis, physical therapy and management of pain. Immunoglobulin, corticosteroids and plasma exchange are treatments for other neuromuscular conditions, not CIP.",
+      "section": "Neuromuscular Complications",
+      "topic": "management of critical illness polyneuropathy (case-based)",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sba3_fa02",
+      "type": "A",
+      "set": 4,
+      "source": "esicm_course_interactive",
+      "question": "A patient recovering from critical illness polyneuropathy has her tracheal tube urgently changed, using etomidate and suxamethonium, after it becomes obstructed. Two minutes later she suffers a cardiac arrest. What is the most probable explanation?",
+      "options": [
+        "Anaphylaxis to etomidate",
+        "Hyperkalaemic arrest from an exaggerated release of potassium provoked by suxamethonium in denervated, CIP-affected muscle",
+        "A vasovagal response to laryngoscopy",
+        "Local anaesthetic systemic toxicity",
+        "Malignant hyperthermia"
+      ],
+      "correct": 1,
+      "explanation": "[CONSTRUCTED] Built from an ESICM course case-based self-assessment rather than a scored Final Assessment item. Muscles denervated by critical illness polyneuropathy develop upregulated extrajunctional acetylcholine receptors; suxamethonium administered in this setting can provoke an exaggerated release of potassium, leading to a dangerously high serum potassium and a hyperkalaemic cardiac arrest. Although rare, this is a recognised life-threatening complication, which is why non-depolarising neuromuscular blocking agents are generally better suited for use in the ICU.",
+      "section": "Neuromuscular Complications",
+      "topic": "suxamethonium-induced hyperkalaemic arrest in denervating disease (case-based)",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sba3_fk02",
+      "type": "K",
+      "set": 4,
+      "source": "esicm_course_interactive",
+      "question": "A patient who suffered a hyperkalaemic cardiac arrest related to suxamethonium and critical illness polyneuropathy remains weak three weeks later, greatly limiting her functional independence. Regarding prognosis after critical illness neuromuscular weakness, indicate whether each statement is TRUE or FALSE:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Critical illness myopathy (CIM) generally has a better prognosis than critical illness polyneuropathy (CIP)",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The severity of muscle weakness correlates closely with the electrophysiological diagnosis",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "A muscle needle biopsy showing a thick-filament myopathy pattern is associated with a good prognosis",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Once an initial electrophysiological diagnosis has been made, re-referral to neurology is not useful even if weakness persists",
+          "correct": false
+        }
+      ],
+      "explanation": "[CONSTRUCTED] Built from an ESICM course case-based self-assessment rather than a scored Final Assessment item. The severity of muscle weakness is not well correlated with the electrophysiological diagnosis, but the rapidity and completeness of recovery are, and CIM has a better prognosis than CIP. A neurologist or clinical neurophysiologist can help precisely define the pathological diagnosis, and a needle muscle biopsy can also be useful at this stage, since some histologic features - such as a thick-filament myopathy pattern - are associated with a good prognosis. Electrophysiological investigations of peripheral nerves and muscle, and re-referral to neurology, remain useful if weakness persists despite rehabilitation.",
+      "section": "Neuromuscular Complications",
+      "topic": "prognosis of CIP and CIM (case-based)",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sba4_fa01",
+      "type": "A",
+      "set": 5,
+      "source": "esicm_course_interactive",
+      "question": "A young man is brought to the emergency department after being found acutely agitated and behaviourally disturbed. He shortly afterwards has a generalised convulsion. On assessment he remains unconscious, is hypertensive and pyrexial, and has reduced respiratory effort; he does not move his legs. He is intubated for airway protection and admitted to the ICU. What is the most likely diagnosis?",
+      "options": [
+        "Neuroleptic malignant syndrome",
+        "Drug-induced rhabdomyolysis, from a stimulant such as cocaine or amphetamines, possibly worsened by status-epilepticus-related muscle contraction",
+        "Guillain-Barré syndrome",
+        "Malignant hyperthermia",
+        "Bacterial meningitis"
+      ],
+      "correct": 1,
+      "explanation": "[CONSTRUCTED] Built from an ESICM course case-based self-assessment; the opening vignette here has been reconstructed from the accompanying answer text, as the source slide stating the presenting scenario was not available (only the diagnostic reasoning and subsequent management slides were captured) - verify against the original ESICM material if possible. Initial behavioural disturbance followed by a convulsion, hypertension and pyrexia is suggestive of stimulant intoxication, with cocaine or amphetamines the likeliest agents; the resulting muscle damage is almost certainly drug-induced rhabdomyolysis, which may also occur due to, or be worsened by, status-epilepticus-induced agonist-antagonist muscle contraction.",
+      "section": "Neuromuscular Complications",
+      "topic": "diagnosis of drug-induced rhabdomyolysis (case-based)",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sba4_fk01",
+      "type": "K",
+      "set": 5,
+      "source": "esicm_course_interactive",
+      "question": "A young man develops severe rhabdomyolysis (creatine kinase greater than 100,000 U/L, serum potassium 5.9 mmol/L) following a convulsion and suspected stimulant intoxication. Regarding the pathophysiology and immediate consequences of his condition, indicate whether each statement is TRUE or FALSE:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Muscle contents leaking into the circulation can damage distant organs",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "A hyperacute rise in serum potassium is a recognised, immediately life-threatening consequence",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The associated acute kidney injury is caused solely by direct nephrotoxicity of myoglobin, with hypovolaemia playing no role",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "An acid urine promotes myoglobin deposition in the renal tubules",
+          "correct": true
+        }
+      ],
+      "explanation": "[CONSTRUCTED] Built from an ESICM course case-based self-assessment rather than a scored Final Assessment item. Clinical problems in rhabdomyolysis arise from muscle content leaking into the circulation and damaging distant organs, and from the metabolic consequences of the 'rhabdomyolysis syndrome', particularly a hyperacute rise in serum potassium. The associated oliguria is initially driven primarily by hypovolaemia, not myoglobin toxicity alone, and an acid urine promotes myoglobin deposition in the renal tubules - together these are recognised risk factors for acute kidney injury.",
+      "section": "Neuromuscular Complications",
+      "topic": "pathophysiology of rhabdomyolysis (case-based)",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sba4_fa02",
+      "type": "A",
+      "set": 5,
+      "source": "esicm_course_interactive",
+      "question": "In a patient with severe drug-induced rhabdomyolysis (creatine kinase greater than 100,000 U/L, serum potassium 5.9 mmol/L) whose toxic aetiology has been diagnosed and is being managed, what is the appropriate supportive management of the rhabdomyolysis itself?",
+      "options": [
+        "Restrict intravenous fluids to limit compartment syndrome risk",
+        "Secure the airway, ensure adequate ventilation and oxygenation, control temperature and prevent further convulsions, together with aggressive fluid resuscitation",
+        "Give early urinary alkalinisation as the first priority, ahead of airway or circulatory management",
+        "Perform immediate prophylactic fasciotomy of all four limbs",
+        "Withhold intravenous fluids until creatine kinase has normalised"
+      ],
+      "correct": 1,
+      "explanation": "[CONSTRUCTED] Built from an ESICM course case-based self-assessment rather than a scored Final Assessment item. The standard first priorities are to secure the airway, ensure adequate ventilation and oxygenation and, as in this patient, control temperature and prevent further convulsions. Fluid resuscitation is critical to circulatory management, since rhabdomyolysis induces oliguria (initially primarily due to hypovolaemia) and an acid urine, both of which are associated with myoglobin deposition in the renal tubules and are risks for acute kidney injury.",
+      "section": "Neuromuscular Complications",
+      "topic": "supportive management of rhabdomyolysis (case-based)",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "sba4_fk02",
+      "type": "K",
+      "set": 5,
+      "source": "esicm_course_interactive",
+      "question": "A patient is recovering from severe rhabdomyolysis and is being monitored for ongoing muscle injury and its complications. Regarding muscle-focused monitoring in this setting, indicate whether each statement is TRUE or FALSE:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Creatine kinase should be expected to decline by about 50% per day, in the absence of ongoing muscle damage or renal dysfunction",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Compartment syndrome is not a recognised complication and does not need to be monitored for",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "In the absence of haemoglobinuria, a positive 'blood' (haemoglobin) reaction on urine dipstick can serve as an indirect surrogate marker for myoglobinuria",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Urine dipstick testing has no role whatsoever in monitoring rhabdomyolysis",
+          "correct": false
+        }
+      ],
+      "explanation": "[CONSTRUCTED] Built from an ESICM course case-based self-assessment rather than a scored Final Assessment item. Creatine kinase should be monitored to gauge the amount of muscle damaged; its activity should decline at about 50% per day unless there is continuing muscle damage or renal dysfunction. Clinicians should remain aware that a compartment syndrome may develop and may need muscle- and limb-preserving intervention. Urine dipstick testing can be useful indirectly: presuming there is no haemoglobinuria, the 'haemoglobin' reaction on the dipstick can be used as a surrogate marker for myoglobin.",
+      "section": "Neuromuscular Complications",
+      "topic": "muscle-focused monitoring in rhabdomyolysis (case-based)",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}
