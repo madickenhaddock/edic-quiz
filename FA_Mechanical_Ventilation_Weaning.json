@@ -1,0 +1,359 @@
+{
+  "module": "FA Mechanical Ventilation Weaning",
+  "sections": {},
+  "questions": [
+    {
+      "id": "mvw_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "With regards to weaning from mechanical ventilation, all of the following are correct except:",
+      "options": [
+        "Patients failing extubation and needing reintubation have worst outcome than patients successfully extubated",
+        "Delay in weaning prolongs critical care stay, increases costs and is associated with a higher mortality.",
+        "Synchronised intermittent mandatory ventilation (SIMV) alone is considered a poor weaning strategy.",
+        "The ongoing need for inotropes precludes weaning.",
+        "No universal consensus exists for weaning."
+      ],
+      "correct": 3,
+      "explanation": "Numerous observational studies have shown that patients failing extubation and needing reintubation have much higher mortality rates than patients successfully extubated, ranging from around 30 to 50% compared with 5-10% for successful extubation. Delay in weaning prolongs critical care stay, increases costs, and is associated with higher mortality. Previous weaning trials have reported that synchronised intermittent mandatory ventilation (SIMV) is the least efficient method for weaning. The ongoing need for inotropes does not preclude weaning: there is no universal strategy or consensus currently for weaning critical care patients from mechanical ventilation, and further research and international collaboration is needed.",
+      "section": "Mechanical Ventilation Weaning",
+      "topic": "overview of weaning outcomes and strategy pitfalls",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mvw_fk01",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Pathophysiologic mechanisms related to weaning failure include:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Respiratory pump insufficiency",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Cardiovascular dysfunction",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Neuromuscular disorders",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Psychological factors",
+          "correct": true
+        }
+      ],
+      "explanation": "A 'weaning ABC', as proposed by Heunks et al., does not emphasise a specific order of assessment but has the advantage of 'forcing' the clinician to review the most likely causes of failed weaning systematically. Understanding the barriers that impede successful weaning in a specific patient allows a tailored treatment strategy that may reduce the duration of mechanical ventilation. Areas to evaluate in a difficult-to-wean patient include airway and lung dysfunction, brain dysfunction, cardiac dysfunction, diaphragm dysfunction, and endocrine dysfunction, each with its own structured assessment and intervention pathway. Reference: Heunks L, van der Hoeven J. Clinical review: The ABC of weaning failure - a structured approach. Critical Care 2010, 14:245.",
+      "section": "Mechanical Ventilation Weaning",
+      "topic": "pathophysiologic mechanisms of weaning failure (the weaning ABC)",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mvw_fk02",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "With regards to the predictors of successful extubation, which of the following are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "A rapid shallow breathing index of >105 during SBT predicts successful extubation.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Increased age increases the risk of failed extubation.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Failed extubation is more likely to occur in patients with upper airway abnormalities.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Negative fluid balance before extubation increases the likelihood of successful extubation.",
+          "correct": true
+        }
+      ],
+      "explanation": "A rapid shallow breathing index of <105 predicts successful extubation. Upper airway abnormalities are often not evident on an SBT, resulting in problems with airway patency after extubation. Several patient-related factors have been demonstrated to be associated with a reduced likelihood of successful extubation, including increased age (>65 years), positive fluid balance before extubation, low serum albumin, and pre-existing cardiovascular and respiratory disease.",
+      "section": "Mechanical Ventilation Weaning",
+      "topic": "predictors of successful extubation",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mvw_fk03",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Clinical criteria of spontaneous breathing trial (SBT) failure are:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Diaphoresis",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Nasal flaring",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Increasing respiratory effort",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Tachycardia",
+          "correct": true
+        }
+      ],
+      "explanation": "Spontaneous breathing trials (SBT) are used to identify patients who are likely to fail liberation from mechanical ventilation; an SBT is 'the test for determining readiness to breathe without a ventilator.' Ideally, during an SBT the patient is observed under conditions of respiratory load that simulate those following extubation. No single parameter should be used to judge SBT success or failure, but a combination is often used. Clinical criteria of failure include diaphoresis, nasal flaring, increasing respiratory effort, tachycardia (an increase in heart rate >40 bpm), cardiac arrhythmias, hypotension, and apnoea. Gas-exchange criteria of failure include a rise in PetCO2 >10 mmHg, a fall in arterial pH <7.32 or a decline in arterial pH >0.07, PaO2 <60 mmHg with FiO2 >0.40 (PaO2/FiO2 ratio <150), and a fall in SpO2 >5%.",
+      "section": "Mechanical Ventilation Weaning",
+      "topic": "clinical criteria of SBT failure",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mvw_fa02",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The diagram below presents the effect of a weaning-induced increase in LV preload on LVEDP, comparing a patient without pre-existing heart failure with a patient who develops decreased LV compliance due to weaning-induced myocardial ischaemia. LV = left ventricular, LVEDP = LV end-diastolic pressure, LVEDV = LV end-diastolic volume. Which of the following is correct?",
+      "options": [
+        "Curve (1) and (2) represent the LVEDP-LVEDV relationships in the patient with and without pre-existing heart failure, respectively.",
+        "The change from point A to point B represents the change in LVEDP (after the increase in LV preload) in the patient with weaning-induced myocardial ischaemia.",
+        "The change from point A to point C represents the change in LVEDP (after the increase in LV preload) in the patient with weaning-induced myocardial ischaemia."
+      ],
+      "correct": 2,
+      "explanation": "In some patients, myocardial ischaemia or a biventricular interdependence phenomenon may occur during weaning, resulting in a leftward shift of the LV diastolic function curve (reduced LV compliance, curve 2). The rise in LV preload during weaning could result in only a small increase in LV end-diastolic pressure (from point A to point B) in a patient with normal LV compliance (curve 1); yet it could result in a considerable increase in LV end-diastolic pressure (from point A to point C) in a patient with a concomitant weaning-induced reduction in LV compliance.",
+      "section": "Mechanical Ventilation Weaning",
+      "topic": "LVEDP-LVEDV curve shift with weaning-induced myocardial ischaemia",
+      "image": "images/mvw_fa02.png",
+      "section_url": null
+    },
+    {
+      "id": "mvw_fk04",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Readiness to wean from mechanical ventilation criteria include:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "PaO2/FiO2 <200 with PEEP >5 cmH2O",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Haemodynamic stability",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "An adequate level of consciousness",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Rapid shallow breathing index (RSBI) <105 after 2 minutes of a spontaneous breathing trial",
+          "correct": true
+        }
+      ],
+      "explanation": "General requirements for readiness to wean include: lung disease that is stable or resolving; a low FiO2 (<0.5) and PEEP (<5-8 cmH2O) requirement; haemodynamic stability with little to no inotropes; and the ability to sustain spontaneous breaths (good neuromuscular function). These criteria indicate that a patient is suitable for a spontaneous breathing trial. The rapid shallow breathing index (RSBI), first introduced by Yang and Tobin, is calculated as respiratory rate divided by tidal volume; many centres perform weaning if RSBI is below 105. Although RSBI <105 is a helpful predictor, its use as a single predictor may be misleading.",
+      "section": "Mechanical Ventilation Weaning",
+      "topic": "readiness-to-wean criteria",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mvw_fk05",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Criteria of a successful spontaneous breathing trial are:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Respiratory rate <35 breaths/minute",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Heart rate <140/minute or heart rate variability of >20%",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "SatO2 >90% or PaO2 >60 mmHg on FiO2 <0.4",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Systolic blood pressure >80 and <180 mmHg, or <20% change from baseline",
+          "correct": true
+        }
+      ],
+      "explanation": "Spontaneous breathing trials (SBT) are used to identify patients who are likely to fail weaning from mechanical ventilation; an SBT is 'the test for determining readiness to breathe without a ventilator.' Ideally, during an SBT the patient is observed under conditions of respiratory load that simulate those following extubation. No single parameter should be used to judge SBT success or failure, but a combination of the following is often used: respiratory rate <35 breaths/minute; good tolerance of the trial; heart rate <140/minute or heart rate variability >20%; SatO2 >90% or PaO2 >60 mmHg on FiO2 <0.4; and systolic blood pressure >80 and <180 mmHg, or <20% change from baseline.",
+      "section": "Mechanical Ventilation Weaning",
+      "topic": "criteria of a successful SBT",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mvw_fa03",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following pathophysiologic mechanisms is implicated in the pathogenesis of weaning-induced pulmonary oedema?",
+      "options": [
+        "The decrease in pulmonary vascular resistance",
+        "The decrease in adrenergic tone",
+        "An increase in compliance of the left ventricle",
+        "The increase in the afterload of the left ventricle",
+        "The decrease in the preload of the left ventricle"
+      ],
+      "correct": 3,
+      "explanation": "The transition from mechanical ventilation to spontaneous breathing imposes an additional load on the cardiovascular system, as the decrease in intrathoracic pressure significantly affects the preload and afterload of both ventricles and is associated with increased oxygen consumption by the respiratory muscles. In patients with or without pre-existing cardiac disease, weaning has been shown to be associated with a significant reduction in left ventricular ejection fraction, increased left ventricular afterload, increased adrenergic tone, and decreased left ventricular compliance (mainly in patients with pre-existing heart disease). As a result, some patients develop myocardial ischaemia, acute heart decompensation, and pulmonary oedema - so-termed weaning-induced pulmonary oedema.",
+      "section": "Mechanical Ventilation Weaning",
+      "topic": "pathogenesis of weaning-induced pulmonary oedema",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mvw_fk06",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following is a correct definition?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Weaning is defined as the entire process of liberating the patient from mechanical support and the endotracheal tube.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Weaning failure is defined as the failure to pass a spontaneous breathing trial, or the need for reintubation or NIV support, within 48 hours following extubation.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Weaning failure is defined as the failure to pass a spontaneous breathing trial, or the need for reintubation or NIV support, within 5 days following extubation.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Extubation failure is defined as the need for reintubation.",
+          "correct": true
+        }
+      ],
+      "explanation": "Ventilator management should be aimed at getting the patient off ventilator support as rapidly as possible. Weaning is the process of liberation from, or discontinuation of, mechanical ventilatory support. Weaning failure is defined as the failure to pass a spontaneous breathing trial or the need for reintubation within 48 hours following extubation. Extubation failure is defined as the inability to sustain spontaneous breathing after removal of the artificial airway (an endotracheal tube or tracheostomy tube) and the need for reintubation within a specified time period, typically 24-72 hours. Reintubation rates of 10-15% are typical for most well-run ICUs; a target of 0% is unrealistic and would lead to prolonged ventilation.",
+      "section": "Mechanical Ventilation Weaning",
+      "topic": "definitions: weaning, weaning failure, and extubation failure",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5c_fa01",
+      "type": "A",
+      "set": 2,
+      "source": "esicm_course_interactive",
+      "question": "A 68-year-old patient is on the 11th day of mechanical ventilation, initially intubated for severe ARDS. Past history: hypertension, left ventricular diastolic dysfunction with preserved ejection fraction. Over the last two days his oxygenation and respiratory mechanics have improved significantly, prompting a gradual reduction in sedation. This morning he is alert and cooperative, haemodynamically stable, coughs effectively, and has satisfactory oxygenation (PaO2/FiO2 220 mmHg) on pressure support ventilation (PS) 8 cmH2O, PEEP 5 cmH2O. Which of the following is correct for the management of this patient?",
+      "options": [
+        "The patient is ready to be extubated",
+        "The patient is ready for a spontaneous breathing trial (SBT)",
+        "Rapid shallow breathing index (RSBI) has to be measured before an SBT"
+      ],
+      "correct": 2,
+      "explanation": "Readiness-to-wean criteria include clinical criteria such as satisfactory oxygenation, haemodynamic stability, an adequate level of consciousness, and adequate cough, together with a physiological criterion: a rapid shallow breathing index (RSBI) <100 after 2 minutes of a spontaneous breathing trial.",
+      "section": "Mechanical Ventilation Weaning",
+      "topic": "readiness-to-wean assessment before an SBT",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5c_fa02",
+      "type": "A",
+      "set": 2,
+      "source": "esicm_course_interactive",
+      "question": "Continuing the same patient: his RSBI is measured and found to be 80 after 2 minutes on the ventilator. Since all readiness-to-wean criteria are now met, the attending physician decides to proceed to a spontaneous breathing trial (SBT). As for the method of performing the SBT, which of the following is correct?",
+      "options": [
+        "SBT should be performed without ventilator support (T-piece)",
+        "SBT should be performed with minimal ventilator assistance, i.e. low levels of inspiratory pressure support (up to 7 cmH2O) and PEEP 5 cmH2O",
+        "SBT should be performed with minimal ventilator assistance, i.e. low levels of inspiratory pressure support (up to 7 cmH2O) and 0 cmH2O PEEP",
+        "All of the above methods have been reported to be equally effective in identifying a successful or failed SBT"
+      ],
+      "correct": 0,
+      "explanation": "Ideally, an SBT should be performed using the T-piece method, as this most accurately simulates the post-extubation physiological conditions. Performing an SBT with low inspiratory pressure support (up to 7 cmH2O), with or without continuous positive airway pressure, has been shown to significantly decrease the work of breathing and may underestimate the post-extubation workload.",
+      "section": "Mechanical Ventilation Weaning",
+      "topic": "method of performing a spontaneous breathing trial",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5c_fa03",
+      "type": "A",
+      "set": 2,
+      "source": "esicm_course_interactive",
+      "question": "Which of the following is correct regarding the duration of a spontaneous breathing trial (SBT)?",
+      "options": [
+        "A 2-hour SBT is a more sensitive predictor of successful extubation than a 30-minute SBT.",
+        "In the majority of patients, an SBT of 30 minutes' duration is adequate to identify a successful or failed SBT.",
+        "SBT should last at least 1 hour in all patients."
+      ],
+      "correct": 1,
+      "explanation": "In the majority of patients, a 30-minute trial is adequate to identify a successful or failed SBT. However, the SBT might have to last longer (up to 120 minutes) in patients at high risk of reintubation, such as elderly patients, or those with COPD, heart failure, or neuromuscular disorders.",
+      "section": "Mechanical Ventilation Weaning",
+      "topic": "duration of a spontaneous breathing trial",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5c_fa04",
+      "type": "A",
+      "set": 2,
+      "source": "esicm_course_interactive",
+      "question": "During the SBT, after eight minutes the same patient develops significant respiratory distress: blood pressure rises to 200/90 mmHg (from 150/75 mmHg at the start of the SBT), respiratory rate increases to 37/min (from 27/min), pulse rate increases to 130/min (from 80/min), and SaO2 falls to 87% on FiO2 40% (from 94% at the start of the SBT). Which of the following is correct regarding weaning-induced pulmonary oedema (WiPO)?",
+      "options": [
+        "The incidence of WiPO among patients with weaning failure is relatively low.",
+        "Patients with left ventricular diastolic dysfunction and preserved ejection fraction are at significantly lower risk of WiPO compared with those with systolic left ventricular dysfunction.",
+        "Patients with concomitant pre-existing COPD and left ventricular disease have a substantially high risk of experiencing acute LV dysfunction and WiPO."
+      ],
+      "correct": 2,
+      "explanation": "Cardiovascular impairment is increasingly recognised as an essential cause of weaning failure in patients with known or previously unrecognised left heart disease. Although the precise incidence of cardiovascular dysfunction as a cause of weaning failure is unknown, several studies have reported significantly high incidence rates: heart failure has been shown to be responsible for up to 42% of unsuccessful SBTs in a large cohort of medical ICU patients (Cabello B et al, Intensive Care Med 2010;36:1171-9), and a more recent study reported a WiPO incidence of 59% in weaning failure (Liu J et al, Ann Transl Med 2018;6(18):354). Recent findings emphasise the role of LV diastolic dysfunction with preserved LV contractility as a contributor to weaning failure, with weaning failure more often due to varying degrees of LV diastolic rather than systolic dysfunction. Patients with concomitant pre-existing COPD and LV disease have a substantially high risk of experiencing acute LV dysfunction and WiPO.",
+      "section": "Mechanical Ventilation Weaning",
+      "topic": "incidence and risk factors for weaning-induced pulmonary oedema",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "mv5c_fa05",
+      "type": "A",
+      "set": 2,
+      "source": "esicm_course_interactive",
+      "question": "Which of the following is correct regarding the pathogenesis of weaning-induced pulmonary oedema (WiPO) in patients with pre-existing heart failure? (LVEDV = left ventricular end-diastolic volume)",
+      "options": [
+        "As a result of the curvilinear shape of the LV diastolic function curve, an increase in LVEDV secondary to increasing LV afterload may result in a greater decrease in LV filling pressure compared with those having a normal LVEDV.",
+        "As a result of the curvilinear shape of the LV diastolic function curve, a further increase in LVEDV secondary to increased venous return leads to a greater decrease in LV filling pressure compared with those having a normal LVEDV.",
+        "As a result of the curvilinear shape of the LV diastolic function curve, an increase in LVEDV secondary to increased LV preload may result in a greater increase in LV filling pressure compared with those having a normal LVEDV."
+      ],
+      "correct": 2,
+      "explanation": "In patients with congestive heart failure, LVEDV is larger than normal. As a result of the curvilinear shape of the LV diastolic function curve, a further increase in LVEDV secondary to increased venous return and/or increased LV afterload results in a markedly greater increase in LV filling pressure in these patients compared with those having a normal LVEDV.",
+      "section": "Mechanical Ventilation Weaning",
+      "topic": "pathogenesis of WiPO in pre-existing heart failure",
+      "image": null,
+      "section_url": null
+    }
+  ]
+}

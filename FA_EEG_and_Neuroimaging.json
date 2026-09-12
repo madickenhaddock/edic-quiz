@@ -1,0 +1,382 @@
+{
+  "module": "FA Clinical Neurophysiology (EEG) and Neuroimaging",
+  "sections": {},
+  "questions": [
+    {
+      "id": "eeg_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "How many types of EEG montages could be used?",
+      "options": [
+        "One: bipolar montage",
+        "Two: bipolar and referential montages",
+        "Three: bipolar, referential and double banana montages",
+        "There are as many montages as electrodes within an EEG",
+        "None of the above"
+      ],
+      "correct": 1,
+      "explanation": "Two montage types are used in EEG: bipolar and referential montages.",
+      "section": "Electroencephalography (EEG)",
+      "topic": "types of EEG montages",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "eeg_fa02",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "How can sedation affect the EEG recording?",
+      "options": [
+        "Agents such as propofol may show fast activities, followed by progressive slowing to burst-suppression and eventually total suppression.",
+        "Volatile anaesthetics, propofol and barbiturates will cause progressive slowing and eventual burst-suppression",
+        "Dexmedetomidine may cause a pattern of slow-wave sleep.",
+        "Ketamine may increase theta rhythms",
+        "All of the above"
+      ],
+      "correct": 4,
+      "explanation": "All of the listed effects are correct: propofol may produce fast activity followed by progressive slowing to burst-suppression and eventual total suppression; volatile anaesthetics, propofol and barbiturates all cause progressive slowing with eventual burst-suppression; dexmedetomidine may produce a pattern resembling slow-wave sleep; and ketamine may increase theta rhythms.",
+      "section": "Electroencephalography (EEG)",
+      "topic": "effect of sedative and anaesthetic agents on the EEG",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "eeg_fa03",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "What does an EEG montage refer to?",
+      "options": [
+        "The arrangement or configuration of electrodes",
+        "The arrangement or configuration of the wires",
+        "How to position the hat holding the electrodes",
+        "How to position the electrodes in relation to where the heart is to decrease interference",
+        "How to position the head with respect to the EEG machine"
+      ],
+      "correct": 0,
+      "explanation": "An EEG montage refers to the arrangement or configuration of the recording electrodes.",
+      "section": "Electroencephalography (EEG)",
+      "topic": "definition of an EEG montage",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "eeg_fa04",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Choose which of the following could be indications for continuous EEG (cEEG).",
+      "options": [
+        "Non-convulsive status epilepticus",
+        "Hepatic encephalopathy",
+        "Cerebral ischaemia",
+        "Monitoring the neurological consequences of increased intracranial pressure",
+        "All of the above"
+      ],
+      "correct": 4,
+      "explanation": "Continuous EEG (cEEG) is indicated in non-convulsive status epilepticus, hepatic encephalopathy, cerebral ischaemia, and to monitor the neurological consequences of increased intracranial pressure - all of the listed indications apply.",
+      "section": "Electroencephalography (EEG)",
+      "topic": "indications for continuous EEG (cEEG)",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "eeg_fa05",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "What does the EEG measure?",
+      "options": [
+        "The spatial-temporal average of synchronous post-synaptic potentials among neurons",
+        "The electrical activity of microglia",
+        "The connection between neurons and peripheral nerves",
+        "None of the above",
+        "All of the above"
+      ],
+      "correct": 0,
+      "explanation": "The EEG measures the spatial-temporal average of synchronous post-synaptic potentials among neurons.",
+      "section": "Electroencephalography (EEG)",
+      "topic": "what the EEG signal represents",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "eeg_fa06",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "What would a healthy patient's EEG look like?",
+      "options": [
+        "Alpha rhythm is seen if they are awake and with eyes closed",
+        "Beta activity is seen if they are mentally active",
+        "If falling asleep, slow frequencies such as theta and delta would be seen",
+        "Alpha rhythm when awake with eyes closed, beta activity when mentally active, and theta/delta activity on falling asleep are all correct",
+        "It will depend on the age and sex of the patient"
+      ],
+      "correct": 3,
+      "explanation": "In a healthy, awake patient with eyes closed, an alpha rhythm is seen; beta activity is seen when mentally active; and slow frequencies such as theta and delta appear on falling asleep.",
+      "section": "Electroencephalography (EEG)",
+      "topic": "normal EEG patterns by state of arousal",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "eeg_fk01",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following clinical scenarios have a strong recommendation for performing an EEG?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "All patients with acute brain injury and unexplained persistent low consciousness",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "EEG should always be used to detect delayed cerebral ischaemia in comatose patients with subarachnoid haemorrhage",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Patients who, after convulsive status epilepticus, do not return to functional baseline within 60 minutes, or after receiving medication",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "After cardiac arrest, during targeted temperature management and within 24 hours of the rewarming phase",
+          "correct": true
+        }
+      ],
+      "explanation": "Strong recommendations for EEG include: all patients with acute brain injury and unexplained persistent low consciousness; patients who do not return to functional baseline within 60 minutes of convulsive status epilepticus, or after receiving medication; and patients after cardiac arrest, during targeted temperature management and within 24 hours of the rewarming phase. EEG should not be relied on as a blanket tool for detecting delayed cerebral ischaemia in comatose patients with subarachnoid haemorrhage - identification of DCI is an indication for perfusion CT instead. [Note: the source question offered a fifth option, 'during thrombectomy procedure in stroke patients' (also not a strong indication), which was omitted here to fit the standard four-statement format - see delivery notes.]",
+      "section": "Electroencephalography (EEG)",
+      "topic": "strong-recommendation indications for EEG monitoring",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "nimg_fk01",
+      "type": "K",
+      "set": 2,
+      "source": "esicm_final_assessment",
+      "question": "Regarding MRI, which of these statements are true:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "MRI is the modality of choice for the initial evaluation of TBI",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "MRI is indicated for ICU patients with high levels of cardio-respiratory support",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "MRI is indicated in metabolic diseases",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "MRI should not be considered in stable patients with a severe TBI",
+          "correct": false
+        }
+      ],
+      "explanation": "CT is the imaging modality of choice for the initial evaluation of TBI, where common injuries are easily detected. ICU patients with high levels of cardio-respiratory support are an absolute contraindication for MRI. MRI should be considered in all stable patients with a severe TBI and persistent impairment of consciousness that is not explained by CT appearances or seizures, after one or two weeks.",
+      "section": "Neuroimaging",
+      "topic": "indications and contraindications for MRI in TBI",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "nimg_fa01",
+      "type": "A",
+      "set": 2,
+      "source": "esicm_final_assessment",
+      "question": "A 27-year-old woman is brought to the emergency room by ambulance after a car crash. On admission, Glasgow Coma Scale (GCS) is 6. The patient is intubated and you order a CT. You receive the following image from the CT. What is the diagnosis?",
+      "options": [
+        "Epidural haematoma",
+        "Subdural haematoma",
+        "Spontaneous SAH",
+        "Traumatic contusion",
+        "Traumatic axonal injury"
+      ],
+      "correct": 1,
+      "explanation": "A subdural haematoma may appear crescent-shaped and can cross cranial sutures, because it lies below the dura; however, it will not cross the midline, as it is bound by the falx. It may extend along the falx or tentorium.",
+      "section": "Neuroimaging",
+      "topic": "CT appearance of subdural haematoma",
+      "image": "images/nimg_fa01.png",
+      "section_url": null
+    },
+    {
+      "id": "nimg_fa02",
+      "type": "A",
+      "set": 2,
+      "source": "esicm_final_assessment",
+      "question": "A 23-year-old man was hit with a baseball bat during a fight. You are called to see him in the emergency room. On examination he can follow commands and has no pupillary abnormalities, and he tells you he has a terrible headache. You order a head CT. When you return from talking with the radiologist, the patient is no longer conscious, and his left pupil is mydriatic. You intubate the patient and take him for a CT. Which of the following findings is most likely?",
+      "options": [
+        "Contusion in the left temporal lobe",
+        "Small punctate haemorrhages in the brainstem",
+        "Haemorrhage in the subarachnoid space",
+        "Crescent-shaped haemorrhage in the left epidural space",
+        "Lens-shaped haemorrhage in the left epidural space"
+      ],
+      "correct": 4,
+      "explanation": "The most likely finding causing this loss of consciousness is an epidural haemorrhage.",
+      "section": "Neuroimaging",
+      "topic": "CT appearance of epidural haematoma",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "nimg_fk02",
+      "type": "K",
+      "set": 2,
+      "source": "esicm_final_assessment",
+      "question": "A severe TBI patient was admitted to the ICU 10 days ago; he has no sedation and is unresponsive. After ruling out other causes, you suspect diffuse axonal injury. Which of the following neuroimaging findings will help confirm your diagnosis?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "CT: punctate haemorrhages (high density) in the corpus callosum",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "MRI: punctate lesions in the brainstem, high signal on DWI sequence",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "MRI: punctate lesions at the grey/white junction, high signal on FLAIR sequence",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "MRI: punctate lesions in the corpus callosum, low signal on GRE sequence",
+          "correct": true
+        }
+      ],
+      "explanation": "[UNCONFIRMED] The source gave no explanatory feedback for this item beyond a cross-reference to its CT/MRI pathology sections, so the answer key is worth checking against the original course text if possible: punctate corpus-callosum haemorrhage on CT, grey/white-junction lesions on FLAIR MRI, and corpus-callosum lesions with low GRE signal were marked as supporting a diagnosis of diffuse axonal injury, while a brainstem lesion with high DWI signal was marked as not supporting it - which runs against standard teaching that the brainstem is one of the three classic DAI locations (with the corpus callosum and grey/white junction) and that DWI restricted diffusion is a recognised finding there too.",
+      "section": "Neuroimaging",
+      "topic": "imaging findings in diffuse axonal injury",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "nimg_fk03",
+      "type": "K",
+      "set": 2,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following are indications for computed tomography?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Sinus thrombosis",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Acute head trauma",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Diffuse axonal injury",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Identification of delayed cerebral ischaemia (DCI)",
+          "correct": false
+        }
+      ],
+      "explanation": "Sinus thrombosis and diffuse axonal injury are indications for MRI rather than plain CT. Identification of delayed cerebral ischaemia (DCI) is an indication specifically for perfusion CT, not a standard CT scan.",
+      "section": "Neuroimaging",
+      "topic": "indications for CT vs MRI vs perfusion CT",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "nimg_fa03",
+      "type": "A",
+      "set": 2,
+      "source": "esicm_final_assessment",
+      "question": "A 65-year-old woman is brought to the emergency room by her husband. He states that she was normal before going to sleep, but this morning she cannot talk or walk. On examination she is aphasic and hemiplegic on her right side. Because the time of onset is unknown, you decide to perform a perfusion CT. Which of the following findings would make her a candidate for endovascular thrombolysis?",
+      "options": [
+        "Decreased CBF, CBV and MTT",
+        "Decreased CBF and CBV, increased MTT",
+        "Decreased CBF, normal CBV and increased MTT",
+        "Increased CBF and CBV, decreased MTT",
+        "Increased CBF, normal CBV and decreased MTT"
+      ],
+      "correct": 2,
+      "explanation": "The ischaemic penumbra - potentially salvageable tissue - is identified by decreased cerebral blood flow (CBF) with maintained cerebral blood volume (CBV) and prolonged mean transit time (MTT) extending beyond the area of established infarction (a CBV/MTT mismatch). Reference: Wing SC, Markus HS. Interpreting CT perfusion in stroke. Practical Neurology 2019;19:136.",
+      "section": "Neuroimaging",
+      "topic": "perfusion CT criteria for endovascular thrombolysis candidacy",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "nimg_fa04",
+      "type": "A",
+      "set": 2,
+      "source": "esicm_final_assessment",
+      "question": "A patient undergoes a head CT. Identify the CT finding shown in the image below.",
+      "options": [
+        "Subdural haematoma",
+        "Traumatic contusion",
+        "Epidural haematoma",
+        "Brain abscess",
+        "Spontaneous subarachnoid haemorrhage"
+      ],
+      "correct": 2,
+      "explanation": "[CONSTRUCTED] This image and its correct-answer label come directly from an ESICM image-matching exercise within the same Final Assessment attempt as the rest of this quiz; the other four answer options here were constructed for this question bank and were not part of the original matching exercise. The finding shown is labelled by the source as an epidural haematoma.",
+      "section": "Neuroimaging",
+      "topic": "CT identification of epidural haematoma",
+      "image": "images/nimg_fa04.png",
+      "section_url": null
+    },
+    {
+      "id": "nimg_fa05",
+      "type": "A",
+      "set": 2,
+      "source": "esicm_final_assessment",
+      "question": "A patient undergoes a head CT. Identify the CT finding shown in the image below.",
+      "options": [
+        "Epidural haematoma",
+        "Metastatic tumour",
+        "Traumatic contusion",
+        "Brain abscess",
+        "Glioblastoma"
+      ],
+      "correct": 3,
+      "explanation": "[CONSTRUCTED] This image and its correct-answer label come directly from an ESICM image-matching exercise within the same Final Assessment attempt as the rest of this quiz; the other four answer options here were constructed for this question bank and were not part of the original matching exercise. The ring lesion shown is labelled by the source as a brain abscess.",
+      "section": "Neuroimaging",
+      "topic": "CT identification of brain abscess",
+      "image": "images/nimg_fa05.png",
+      "section_url": null
+    },
+    {
+      "id": "nimg_fa06",
+      "type": "A",
+      "set": 2,
+      "source": "esicm_final_assessment",
+      "question": "A patient undergoes a head CT. Identify the CT finding shown in the image below.",
+      "options": [
+        "Epidural haematoma",
+        "Spontaneous subarachnoid haemorrhage",
+        "Subdural haematoma",
+        "Traumatic axonal injury",
+        "Brain abscess"
+      ],
+      "correct": 1,
+      "explanation": "[CONSTRUCTED] This image and its correct-answer label come directly from an ESICM image-matching exercise within the same Final Assessment attempt as the rest of this quiz; the other four answer options here were constructed for this question bank and were not part of the original matching exercise. The hyperdense material within the basal cisterns/sulci is labelled by the source as a spontaneous subarachnoid haemorrhage.",
+      "section": "Neuroimaging",
+      "topic": "CT identification of spontaneous subarachnoid haemorrhage",
+      "image": "images/nimg_fa06.png",
+      "section_url": null
+    }
+  ]
+}
