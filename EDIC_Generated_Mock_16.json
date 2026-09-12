@@ -1,0 +1,1234 @@
+{
+  "module": "EDIC Generated Mock Exam 16",
+  "source": "generated_mock",
+  "total_questions": 50,
+  "sections": {
+    "Disease management": "CV, infection, neurology, respiratory, renal, GI, and other systemic disease (haem/endocrine/toxicology/obstetric).",
+    "Organ support & intervention": "Medical treatment, organ support, and perioperative care.",
+    "Practical procedures": "Respiratory, cardiovascular, CNS, and other procedural knowledge.",
+    "General patient care": "Resuscitation, comfort and recovery, patient safety, and end-of-life care."
+  },
+  "questions": [
+    {
+      "id": "gm16_001",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "A colleague states that aspiration pneumonia is a well-recognised complication specifically attributed to parenteral nutrition. Which response is most accurate?",
+      "options": [
+        "Incorrect — aspiration pneumonia is a complication of enteral nutrition; PN-specific complications include CRBSI, PN-associated liver disease, and metabolic abnormalities",
+        "Correct — patients on PN have higher rates of aspiration pneumonia than those on EN in all RCTs",
+        "Correct — aspiration pneumonia occurs with both EN and PN at equal rates and cannot be attributed to either route specifically",
+        "Correct — the high osmolarity of PN causes reflux in most patients, increasing aspiration pneumonia",
+        "Correct — PN impairs lower oesophageal sphincter tone, increasing regurgitation and aspiration risk independent of the presence of a nasogastric tube"
+      ],
+      "correct": 0,
+      "explanation": "Aspiration pneumonia is a complication of enteral nutrition — specifically associated with the presence of a nasogastric tube, gastric reflux in sedated patients, and failure to maintain appropriate head-of-bed elevation. It is not a recognised complication of parenteral nutrition. PN-specific complications include: catheter-related bloodstream infection (CRBSI), PN-associated liver disease, metabolic bone disease with long-term use, hypertriglyceridaemia from lipid overload, hyperglycaemia, and venous thrombosis from central line placement. Differentiating between EN and PN complications is an important clinical and examination concept.",
+      "section": "Parenteral Nutrition – Complications",
+      "image": null,
+      "section_url": null,
+      "source_id": "nut2_a36"
+    },
+    {
+      "id": "gm16_002",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following drugs can mask tachycardia during stress response?",
+      "options": [
+        "Theophylline",
+        "Furosemide",
+        "Atropine",
+        "Metoprolol",
+        "Salbutamol"
+      ],
+      "correct": 3,
+      "explanation": "Beta-blockers such as metoprolol blunt the sympathetically-mediated tachycardia that normally signals the stress response, which can mask an important clinical warning sign in a postoperative patient. Salbutamol and theophylline are sympathomimetic/chronotropic agents that would tend to increase heart rate, atropine blocks vagal tone rather than sympathetic drive, and furosemide has no direct chronotropic masking effect.",
+      "section": "Drugs that can mask the tachycardic response to stress",
+      "image": null,
+      "section_url": null,
+      "source_id": "ssr_fa03"
+    },
+    {
+      "id": "gm16_003",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A ventilated patient with acute liver failure remains hypotensive despite 2L crystalloid and requires escalating norepinephrine. Cardiac output measured by lithium dilution is 5.9 L/min with a marked swing on the arterial trace. How should these haemodynamic findings be explained?",
+      "options": [
+        "Primary adrenal insufficiency as the sole cause",
+        "Isolated hypovolaemia unrelated to the liver failure",
+        "Anaphylaxis as the cause of the vasoplegia",
+        "Hyperdynamic, fluid-responsive circulation reflecting ALF-associated vasoplegia (iNOS activation from portal-derived endotoxin bypassing the liver), potentially compounded by concurrent sepsis/SIRS",
+        "Cardiogenic shock with reduced cardiac output"
+      ],
+      "correct": 3,
+      "explanation": "ALF characteristically produces a hyperdynamic, vasoplegic circulation — elevated cardiac output with fluid-responsive but vasopressor-dependent hypotension — driven by inducible nitric oxide synthase activation from portal-derived endotoxin bypassing the failing liver, often compounded by true concurrent sepsis/SIRS. This is the opposite pattern to cardiogenic shock, and is not explained by isolated hypovolaemia or adrenal insufficiency alone.",
+      "section": "Acute Liver Failure",
+      "image": null,
+      "section_url": null,
+      "source_id": "alf_fa13"
+    },
+    {
+      "id": "gm16_004",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The main pathophysiological characteristic of obstructive lung disease exacerbation is the expiratory flow limitation caused by the increased resistance of the small airways. In these patients:",
+      "options": [
+        "The reduction of alveolar ventilation and rise in PaCO2 further increases the ventilatory demand, creating a vicious loop",
+        "The development of dynamic alveolar hyperinflation and intrinsic PEEP increase the work of breathing",
+        "All answers are correct",
+        "The respiratory muscle fatigue and rapid shallow breathing are increased"
+      ],
+      "correct": 2,
+      "explanation": "Expiratory flow limitation in obstructive disease drives dynamic hyperinflation and intrinsic PEEP, which increase the work of breathing directly and, via rising PaCO2 and ventilatory demand, promote a vicious cycle of respiratory muscle fatigue and rapid shallow breathing.",
+      "section": "ECLS in COPD",
+      "image": null,
+      "section_url": null,
+      "source_id": "ecls2_fa08"
+    },
+    {
+      "id": "gm16_005",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A junior doctor proposes administering IV furosemide 80 mg to reduce BP in a patient presenting with a hypertensive emergency (BP 228/138 mmHg) and no signs of pulmonary oedema or peripheral oedema. Which of the following best characterises the intravascular volume status in hypertensive crises and the role of diuretics?",
+      "options": [
+        "Volume status is euvolaemic in all hypertensive crises; treatment should target SVR reduction exclusively",
+        "Volume status is unpredictable and a pulmonary artery catheter is required before any therapy",
+        "Patients typically have a REDUCED circulating volume from pressure natriuresis; diuretics have a limited role",
+        "Patients are typically volume-overloaded from sodium retention; furosemide is appropriate first-line therapy",
+        "Diuretics are first-line agents in all hypertensive emergencies due to their rapid onset of action"
+      ],
+      "correct": 2,
+      "explanation": "Hypertensive crises are characterised by markedly elevated SVR and most often a REDUCED circulating volume secondary to pressure natriuresis and pressure-induced diuresis. Administering diuretics in this context risks worsening volume depletion and end-organ hypoperfusion. Diuretics are reserved for patients with obvious fluid overload (e.g. pulmonary oedema with raised JVP, peripheral oedema). Parenteral antihypertensive agents targeting SVR (e.g. labetalol, nitroprusside, nicardipine) are the appropriate treatment. The near-miss here is assuming these patients are volume-expanded and would benefit from diuretics — a common but incorrect assumption about hypertensive crises.",
+      "section": "Emergency Management Principles",
+      "image": null,
+      "section_url": null,
+      "source_id": "htn_a12"
+    },
+    {
+      "id": "gm16_006",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "Heliox is proposed as adjunctive therapy for a mechanically ventilated patient with severe asthma unresponsive to standard bronchodilators and corticosteroids. What is the composition of heliox and its primary mechanism for reducing airflow resistance?",
+      "options": [
+        "Heliox is a mixture of 80% nitrogen and 20% helium that is delivered alongside a separate standard oxygen line; the helium-nitrogen combination reduces overall gas density without directly altering the fraction of oxygen delivered to the patient",
+        "Heliox contains 60% helium; its primary mechanism is anti-inflammatory modulation by blocking mast cell mediator release, producing indirect bronchodilation",
+        "Heliox must contain at least 50% oxygen to be clinically safe; the helium fraction acts as a mucolytic agent reducing mucus viscosity",
+        "Heliox contains approximately 50% helium and 50% oxygen; helium selectively increases the diffusion coefficient of CO2 relative to oxygen, improving alveolar CO2 elimination independently of any changes in airway flow resistance",
+        "Heliox contains 70–80% helium and 20–30% oxygen; helium's low density reduces the Reynolds number in central airways, converting turbulent to laminar flow and reducing airflow resistance"
+      ],
+      "correct": 4,
+      "explanation": "Heliox is a mixture of helium (70–80%) and oxygen (20–30%). Helium's density is approximately 8 times lower than nitrogen at the same molecular weight. In airways where flow is turbulent (particularly in the central, narrowed airways of severe asthma), the resistance to turbulent flow is proportional to gas density. By substituting helium for nitrogen, Heliox reduces gas density, decreasing the Reynolds number and converting turbulent flow to laminar — directly reducing airflow resistance and work of breathing. This can reduce PEEPi and improve drug deposition. The clinical limitation is that as oxygen requirements increase and the oxygen fraction in the mixture rises, the helium fraction falls — reducing the density advantage. Evidence supporting heliox in mechanically ventilated patients remains limited.",
+      "section": "Part V: Supportive Therapies and Complications",
+      "image": null,
+      "section_url": null,
+      "source_id": "copd45_a21"
+    },
+    {
+      "id": "gm16_007",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Concerning the different tools for intubation which of the following are true?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The C-MAC D-blade is a highly angulated blade",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Videolaryngoscopy is always superior than direct laryngoscopy to secure the airways",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "The Airtraq device is a videolaryngoscopic device with an optical channel and a tube guiding channel",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "The Frova introducer has side holes and a central lumen which allows oxygenation of the patient",
+          "correct": true
+        }
+      ],
+      "explanation": "Videolaryngoscopic devices are valuable in many situations but are not universally superior to direct laryngoscopy - each device has its own indications, advantages and limitations, and effective use requires specific training and experience, so videolaryngoscopy should not be assumed to always outperform direct laryngoscopy. The Frova introducer has a bent tip with side holes and a central lumen that allows jet oxygenation during a difficult intubation. The C-MAC D-blade is a highly angulated blade designed for difficult airways, and the Airtraq is a videolaryngoscopic device containing two separate channels, one for optics and one for guiding the endotracheal tube.",
+      "section": "Airway/intubation devices",
+      "image": null,
+      "section_url": null,
+      "source_id": "rvp_fk03"
+    },
+    {
+      "id": "gm16_008",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "In a patient with suspected aortic valve endocarditis and new high-degree AV block, what should echocardiography specifically assess for?",
+      "options": [
+        "Perivalvular extension of infection beyond the valve leaflets into surrounding tissue",
+        "Left ventricular ejection fraction only",
+        "Pulmonary artery pressure alone",
+        "Coronary artery calcium score",
+        "Presence of a patent foramen ovale"
+      ],
+      "correct": 0,
+      "explanation": "Echocardiography should assess for perivalvular extension of infection, such as abscess formation, since this represents progression beyond the valve leaflets into adjacent tissue including the conduction system, explaining the new AV block. This is a more specific and clinically urgent target than the other listed findings.",
+      "section": "Arrhythmia",
+      "image": null,
+      "section_url": null,
+      "source_id": "arr1_fa11"
+    },
+    {
+      "id": "gm16_009",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 68-year-old with ARDS has been mechanically ventilated for 10 days. A trainee asks about the daily VAP acquisition rate over the course of mechanical ventilation. Which of the following best describes this risk?",
+      "options": [
+        "Constant at approximately 3% per day throughout the first two weeks, then declining",
+        "5% per day for the first 5 days, then declining sharply to less than 1% per day after day 10 of ventilation",
+        "2% per day for the first week, increasing after day 14",
+        "Constant at approximately 1% per day throughout mechanical ventilation",
+        "3% per day during week 1, decreasing to 2% per day in week 2, and 1% per day thereafter"
+      ],
+      "correct": 4,
+      "explanation": "VAP acquisition risk follows a step-down pattern: 3% per day in week 1, 2% per day in week 2, and 1% per day thereafter — reflecting early susceptibility in the most vulnerable patients. Describing a constant 3% rate through the first two weeks is the most common near-miss: it correctly identifies the initial rate but fails to account for the progressive decline. A constant 1% risk throughout underestimates early risk and would lead to under-prioritisation of prevention in the critical first week.",
+      "section": "Ventilator-associated pneumonia",
+      "image": null,
+      "section_url": null,
+      "source_id": "ipc_a04"
+    },
+    {
+      "id": "gm16_010",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following clinical scenarios have a strong recommendation for performing an EEG?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "All patients with acute brain injury and unexplained persistent low consciousness",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "EEG should always be used to detect delayed cerebral ischaemia in comatose patients with subarachnoid haemorrhage",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Patients who, after convulsive status epilepticus, do not return to functional baseline within 60 minutes, or after receiving medication",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "After cardiac arrest, during targeted temperature management and within 24 hours of the rewarming phase",
+          "correct": true
+        }
+      ],
+      "explanation": "Strong recommendations for EEG include: all patients with acute brain injury and unexplained persistent low consciousness; patients who do not return to functional baseline within 60 minutes of convulsive status epilepticus, or after receiving medication; and patients after cardiac arrest, during targeted temperature management and within 24 hours of the rewarming phase. EEG should not be relied on as a blanket tool for detecting delayed cerebral ischaemia in comatose patients with subarachnoid haemorrhage - identification of DCI is an indication for perfusion CT instead. [Note: the source question offered a fifth option, 'during thrombectomy procedure in stroke patients' (also not a strong indication), which was omitted here to fit the standard four-statement format - see delivery notes.]",
+      "section": "Electroencephalography (EEG)",
+      "image": null,
+      "section_url": null,
+      "source_id": "eeg_fk01"
+    },
+    {
+      "id": "gm16_011",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Which of the following statements about multi-organ dysfunction and persistent critical illness after major trauma are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Multi-organ failure remains the most common late cause of ICU death in polytrauma patients because modern ICU support cannot prevent organ failure.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Polytrauma patients admitted to ICU are typically older adults with significant comorbidities whose frailty drives late mortality.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Daily sedation interruption is universally applicable in trauma ICU patients and should be attempted for all mechanically ventilated patients from day one.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "PICS (Persistent Inflammation, Immunosuppression and Catabolism Syndrome) has increasingly replaced MOF as the dominant phenotype of chronic critical illness after severe trauma.",
+          "correct": true
+        }
+      ],
+      "explanation": "Improvements in ICU care have made MOF less lethal; PICS — sustained catabolism, immunosuppression, and inflammation — is now the predominant chronic phenotype. Major polytrauma patients are often *young* with little comorbid disease, making persistent critical illness particularly impactful. Daily sedation interruption has variable applicability in trauma — TBI, severe agitation, or high vasopressor requirements may limit its use.",
+      "section": "The complex trauma patient in the ICU beyond 48 hours",
+      "image": null,
+      "section_url": "",
+      "source_id": "mtr2_k07"
+    },
+    {
+      "id": "gm16_012",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding permanent pacemaker malfunction:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Undersensing produces pacing artefacts that are dissociated from the patient's intrinsic QRS or P waves, and may occasionally trigger ventricular tachycardia with non-synchronised pacing.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "An inappropriately high pacing rate can never be terminated acutely without immediate device reprogramming by a specialist.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Failure to capture is characterised by pacing artefacts that are present but not followed by myocardial depolarisation, and can be caused by a rise in pacing threshold.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Failure to output is characterised by pacing artefacts that are intermittently or permanently absent on the ECG, and can be caused by battery depletion or lead fracture.",
+          "correct": true
+        }
+      ],
+      "explanation": "The definitions and causes of failure to output, failure to capture, and undersensing (with its rare VT-triggering risk) are all correct, matching the PACT module's pacemaker malfunction table. An inappropriately high pacing rate CAN be terminated acutely by placing a magnet over the pacemaker battery, without needing immediate specialist reprogramming — reprogramming is the definitive longer-term solution, but a magnet provides an immediate bridge, so claiming acute termination is never possible without a specialist is false.",
+      "section": "Permanent Pacemaker Complications",
+      "image": null,
+      "section_url": null,
+      "source_id": "arr3_k07"
+    },
+    {
+      "id": "gm16_013",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A civilian sustains injuries from an improvised explosive device detonated nearby. He has bilateral tympanic membrane ruptures and pulmonary infiltrates on chest X-ray, with no visible external wounds. Which blast injury category explains these findings?",
+      "options": [
+        "Secondary blast injury — penetrating fragmentation wounds",
+        "Primary blast injury — barotrauma to air-containing structures from the pressure wave",
+        "Tertiary blast injury — blunt trauma from body displacement",
+        "Quaternary blast injury — thermal and inhalation injury",
+        "Combined mechanism — simultaneous primary and tertiary effects"
+      ],
+      "correct": 1,
+      "explanation": "Primary blast injury results from the shockwave (pressure wave) acting on air-filled structures. The lungs and eardrums are the organs most susceptible, causing blast lung (alveolar haemorrhage, bilateral infiltrates) and tympanic membrane rupture in the absence of external wounds. Secondary injury involves shrapnel penetration, tertiary involves body displacement, and quaternary includes burns and toxic inhalation.",
+      "section": "Mechanisms of injury",
+      "image": null,
+      "section_url": "",
+      "source_id": "mtr1_a05"
+    },
+    {
+      "id": "gm16_014",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the ECG features of bundle branch block:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "New right bundle branch block should specifically raise suspicion for acute cor pulmonale, while new left bundle branch block does not carry any comparable diagnostic significance.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Left bundle branch block is characterised by absence of septal Q waves in leads I, aVL, and V4-V6, and absence of a secondary R wave in V1.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Both right and left bundle branch block are defined by a QRS duration greater than 0.12 seconds.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Right bundle branch block is characterised by a secondary positive deflection (rsR') in lead V1 and deep, slurred S waves in leads I, aVL, and V4-6.",
+          "correct": true
+        }
+      ],
+      "explanation": "The RBBB and LBBB ECG criteria described are both correct, as is the shared QRS duration threshold (>0.12 sec) defining bundle branch block in general. New RBBB does specifically raise suspicion for acute cor pulmonale (e.g. pulmonary embolism), but new LBBB is not without diagnostic significance either — a new BBB of either type should alert the physician to the possibility of myocardial infarction, so claiming LBBB carries no comparable significance is false.",
+      "section": "Bundle Branch Block",
+      "image": null,
+      "section_url": null,
+      "source_id": "arr3_k06"
+    },
+    {
+      "id": "gm16_015",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient is treated with intermittent haemodialysis in the ICU.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Small solutes under about 500 Da are removed mainly by diffusion",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "A highly protein-bound drug is poorly cleared by this technique",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sessions run continuously over 24 hours",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Blood and dialysate flows are typically lower than in CRRT",
+          "correct": false
+        }
+      ],
+      "explanation": "Intermittent haemodialysis uses higher blood and dialysate flows than CRRT and runs over a few hours, not continuously. Diffusion removes small solutes, and highly bound drugs are poorly cleared.",
+      "section": "RRT — general and IHD",
+      "image": "",
+      "section_url": "",
+      "source_id": "dda_k06"
+    },
+    {
+      "id": "gm16_016",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A 66-year-old man is admitted to the ICU after a hybrid repair of a complex aortic aneurysm. He has a history of type 2 DM with stage 3b chronic kidney disease (CKD). The following are risk factors for developing an AKI:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Contrast exposure during procedure",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Duration of surgery",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Baseline CKD",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Age",
+          "correct": true
+        }
+      ],
+      "explanation": "All four are established risk factors for AKI. Advanced age, pre-existing CKD, radiocontrast agent exposure, and prolonged major non-cardiac surgery are all independently associated with post-operative AKI. The patient's combination of age, CKD stage 3b, intraoperative contrast, and complex vascular surgery places him at very high risk.",
+      "section": "Renal",
+      "image": null,
+      "section_url": null,
+      "source_id": "aki3_fk02"
+    },
+    {
+      "id": "gm16_017",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "A 54-year-old patient with alcoholic cirrhosis and acute-on-chronic liver failure is commenced on total parenteral nutrition. Regarding the micronutrient content of the PN prescription, which statement is MOST relevant to patient safety?",
+      "options": [
+        "Zinc is contraindicated in hepatic failure due to risk of copper accumulation",
+        "Phosphate supplementation is absolutely contraindicated in patients with acute liver failure",
+        "Intravenous iron supplementation should be maximised in this patient to address anaemia of chronic disease and to support hepatic protein synthesis during parenteral nutrition",
+        "Vitamin A and manganese should be avoided in severe liver insufficiency due to risk of hepatotoxic and neurotoxic accumulation respectively",
+        "Selenium doses should be halved due to impaired renal clearance in hepatic failure"
+      ],
+      "correct": 3,
+      "explanation": "Vitamin A and manganese are primarily metabolised and cleared by the liver. In patients with severe liver insufficiency, both can accumulate to toxic levels — manganese causes neurological toxicity (manganism), and vitamin A causes hepatotoxicity. These micronutrients should be avoided or very carefully dosed in patients with severe liver disease or unexplained liver enzyme abnormalities. Other trace elements and vitamins are generally continued with appropriate monitoring. Phosphate monitoring and correction is important in liver failure but is not absolutely contraindicated.",
+      "section": "Micronutrient requirements",
+      "image": null,
+      "section_url": null,
+      "source_id": "nut1_a30"
+    },
+    {
+      "id": "gm16_018",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "A trauma team is considering REBOA for a haemodynamically unstable patient with suspected pelvic haemorrhage and impending cardiac arrest. Which statement best reflects the ERC 2025 position on REBOA in traumatic cardiac arrest?",
+      "options": [
+        "REBOA has replaced resuscitative thoracotomy as the preferred aortic occlusion strategy in all trauma centres",
+        "REBOA is recommended in Zone III for pelvic haemorrhage as a definitive rather than bridging intervention",
+        "REBOA is de-emphasised and no longer included in the ERC traumatic cardiac arrest algorithm; it is not recommended outside clinical trials due to signals of potential harm",
+        "The ERC 2025 guidelines upgrade REBOA to a Class I recommendation for non-compressible torso haemorrhage",
+        "REBOA should be used as the first-line aortic occlusion intervention before bilateral thoracostomy in traumatic arrest"
+      ],
+      "correct": 2,
+      "explanation": "The ERC 2025 guidelines explicitly de-emphasise REBOA and removed it from the traumatic cardiac arrest algorithm. The UK-REBOA randomised trial signalled potential increased mortality. REBOA should therefore only be used in highly selected patients within systems with established protocols and expert operators, and must be followed immediately by definitive haemorrhage control. Bilateral thoracostomy remains the priority intervention for obstructive causes.",
+      "section": "Haemodynamic management",
+      "image": null,
+      "section_url": "",
+      "source_id": "mtr1_a21"
+    },
+    {
+      "id": "gm16_019",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "You are caring for an ICU geriatric patient who meets criteria for frailty. Which of the following conditions would be classified as primary frailty?",
+      "options": [
+        "COPD",
+        "Cancer",
+        "Heart failure",
+        "HIV infection",
+        "Intrinsic to the aging process"
+      ],
+      "correct": 4,
+      "explanation": "Frailty is classified as primary when it results directly from the aging process itself, and as secondary when it develops as a consequence of an end-stage chronic inflammatory condition such as heart failure, COPD, cancer or HIV infection. Only the aging-related form counts as primary frailty.",
+      "section": "Primary vs secondary frailty",
+      "image": null,
+      "section_url": null,
+      "source_id": "vop_fa03"
+    },
+    {
+      "id": "gm16_020",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Which of the following does NOT increase the risk of arrhythmic expression of digitalis toxicity?",
+      "options": [
+        "Hyperkalaemia",
+        "Increased sympathetic stimulation (e.g. pain, exogenous catecholamines)",
+        "Myocardial ischaemia",
+        "Hypomagnesaemia",
+        "Hypokalaemia"
+      ],
+      "correct": 0,
+      "explanation": "Hyperkalaemia does NOT increase digitalis toxicity risk — potassium competes with digoxin for binding to Na+/K+ ATPase, so hyperkalaemia is partially protective and is used in acute management of some digitalis toxicity. The PACT module lists precipitants as: increased sympathetic stimulation, hypokalaemia, hypercalcaemia, hypomagnesaemia, diuretics (causing electrolyte loss), ischaemia/reperfusion, increased wall tension and heart failure. Hypokalaemia is the critical near-miss here — the most clinically important and common precipitant, since diuretics (commonly used with digoxin) deplete potassium, and it is easy to confuse the two given how closely they sound.",
+      "section": "Ion Channels and the Cardiac Action Potential",
+      "image": null,
+      "section_url": null,
+      "source_id": "arr2_a11"
+    },
+    {
+      "id": "gm16_021",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 68-year-old man with type 2 diabetes and hypertension develops postoperative AKI stage 2 after emergency laparotomy, on a background of pre-existing CKD. Which combination of factors most directly increases both his risk of developing AKI and his risk of incomplete renal recovery?",
+      "options": [
+        "Diabetes mellitus, hypertension, and underlying CKD",
+        "Male sex and emergency (rather than elective) surgical timing only",
+        "Diabetes mellitus and hypertension alone, unrelated to baseline renal function",
+        "Only the emergency nature of the surgery, since comorbidities do not affect renal risk",
+        "Anaemia alone, since diabetes and hypertension are not established AKI risk factors"
+      ],
+      "correct": 0,
+      "explanation": "Diabetes and hypertension are both established comorbid risk factors for AKI, and pre-existing CKD is a strong risk factor for both developing AKI and for slow, incomplete recovery. Isolating any single factor (surgical timing, sex, or anaemia alone) ignores the compounding effect of pre-existing comorbidity.",
+      "section": "Non-modifiable risk factors",
+      "image": null,
+      "section_url": null,
+      "source_id": "aki2_a03"
+    },
+    {
+      "id": "gm16_022",
+      "type": "K",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "Assess each of the following statements regarding diagnostic pitfalls in acute pancreatitis.",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Serum lipase is less sensitive than serum amylase at the time of presentation and should not be used as a substitute for amylase measurement",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Diabetic coma, severe hypothermia, and haemodynamic shock may present as the dominant features of acute pancreatitis, concealing abdominal pain",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The pancreas invariably appears abnormal on contrast-enhanced CT within the first 24 hours of onset of acute pancreatitis",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "In patients with renal failure, elevated serum amylase may represent a false positive due to impaired amylase clearance rather than active pancreatic inflammation",
+          "correct": true
+        }
+      ],
+      "explanation": "Acute pancreatitis can present without abdominal pain — diabetic coma, hypothermia, and shock may dominate the clinical picture, particularly in sedated or unconscious patients. The pancreas can appear normal on CT during the first 2 days, making early CT unreliable for necrosis assessment. Serum lipase is in fact MORE sensitive and disease-specific than amylase, and remains elevated for longer — it is the preferred marker, not a substitute to be avoided. In renal failure, impaired amylase clearance produces elevations unrelated to pancreatic inflammation; lipase is more specific in this context.",
+      "section": "Introduction / Diagnosis",
+      "image": null,
+      "section_url": "",
+      "source_id": "sap_k07"
+    },
+    {
+      "id": "gm16_023",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient in the first few hours of septic shock has a low fractional excretion of sodium (FENa) and a normal urinary sediment. The clinical team concludes this confirms a purely functional, prerenal cause of AKI that will resolve rapidly with fluid resuscitation. What is the key limitation of this interpretation?",
+      "options": [
+        "FENa cannot be measured in patients receiving diuretics",
+        "A low FENa can also be observed in early sepsis and in experimental sepsis with increased renal blood flow, so it does not reliably exclude structural/intrinsic injury",
+        "FENa values are only interpretable after 72 hours of oliguria",
+        "Urinary sediment analysis is more accurate than FENa in all circumstances",
+        "FENa is only valid in patients over the age of 65"
+      ],
+      "correct": 1,
+      "explanation": "Low FENa has also been observed in experimental sepsis with increased renal blood flow and in the first hours of human sepsis, so its presence does not reliably distinguish transient/functional AKI from evolving structural injury in this setting. A single urinary electrolyte measurement has a limited role in AKI aetiology overall; serial trends, not single values, parallel AKI development more usefully.",
+      "section": "Urine electrolytes, biopsy, and biomarkers",
+      "image": null,
+      "section_url": null,
+      "source_id": "aki4_a03"
+    },
+    {
+      "id": "gm16_024",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding therapeutic drug monitoring in AKI or RRT:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "RRT-specific nomograms now exist for meropenem and piperacillin/tazobactam",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The clinical situation should be re-evaluated at least every 24 hours",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "It is particularly useful when pharmacokinetics are unpredictable",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Serum creatinine is an unreliable dosing guide once RRT has started",
+          "correct": true
+        }
+      ],
+      "explanation": "Therapeutic drug monitoring helps most when pharmacokinetics are variable, creatinine is unreliable on RRT, dosing needs review at least daily, and RRT-specific nomograms are now available for meropenem and piperacillin/tazobactam.",
+      "section": "Antibiotic dosing strategies",
+      "image": "",
+      "section_url": "",
+      "source_id": "dda_k10"
+    },
+    {
+      "id": "gm16_025",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "A 58-year-old patient with catastrophic intracerebral haemorrhage has no realistic prospect of neurological recovery. Following interdisciplinary discussion and family consultation, a decision is reached to withdraw life-sustaining treatment. The patient is assessed for organ donation prior to the planned withdrawal. Which Maastricht category best describes this donor?",
+      "options": [
+        "Maastricht III — awaiting cardiac arrest following planned withdrawal of life-sustaining treatment (controlled DCD)",
+        "Maastricht IV — cardiac arrest occurring in a patient already declared brain-dead",
+        "Maastricht I — dead on arrival at the emergency department",
+        "Maastricht V — applicable in any European Union country as a standardised category",
+        "Maastricht II — unsuccessful resuscitation after an unexpected cardiac arrest"
+      ],
+      "correct": 0,
+      "explanation": "Maastricht III describes controlled DCD — the patient is alive, awaiting cardiac arrest that will follow a planned withdrawal of life-sustaining treatment decided upon in an interdisciplinary setting. This is the most common DCD category. Maastricht I (dead on arrival), II (failed resuscitation), and IV (cardiac arrest in brain-dead patient) are all uncontrolled DCD categories. Maastricht V (donation after euthanasia) exists only in Belgium and the Netherlands, not across all EU countries.",
+      "section": "Donation after circulatory death (DCD)",
+      "image": null,
+      "section_url": null,
+      "source_id": "odt_a08"
+    },
+    {
+      "id": "gm16_026",
+      "type": "A",
+      "set": 2,
+      "source": "esicm_final_assessment",
+      "question": "A 23-year-old man was hit with a baseball bat during a fight. You are called to see him in the emergency room. On examination he can follow commands and has no pupillary abnormalities, and he tells you he has a terrible headache. You order a head CT. When you return from talking with the radiologist, the patient is no longer conscious, and his left pupil is mydriatic. You intubate the patient and take him for a CT. Which of the following findings is most likely?",
+      "options": [
+        "Contusion in the left temporal lobe",
+        "Lens-shaped haemorrhage in the left epidural space",
+        "Crescent-shaped haemorrhage in the left epidural space",
+        "Haemorrhage in the subarachnoid space",
+        "Small punctate haemorrhages in the brainstem"
+      ],
+      "correct": 1,
+      "explanation": "The most likely finding causing this loss of consciousness is an epidural haemorrhage.",
+      "section": "Neuroimaging",
+      "image": null,
+      "section_url": null,
+      "source_id": "nimg_fa02"
+    },
+    {
+      "id": "gm16_027",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "The Awakening and Breathing Controlled (ABC) trial (Girard et al., 2008) evaluated paired spontaneous awakening trials (SAT) with spontaneous breathing trials (SBT) versus SBT alone. Which outcome was statistically significant in favour of the paired SAT+SBT group?",
+      "options": [
+        "Significantly reduced rates of ventilator-associated pneumonia",
+        "Significantly reduced rates of self-extubation requiring re-intubation",
+        "More ventilator-free days and improved 1-year survival",
+        "Shorter ICU length of stay with no change in ventilator duration",
+        "Significantly reduced 28-day mortality"
+      ],
+      "correct": 2,
+      "explanation": "The ABC trial demonstrated significantly more ventilator-free days and improved 1-year survival in the paired SAT+SBT group compared with SBT alone. Self-extubation rates were higher in the intervention group but did not result in increased re-intubation. The Cochrane review of daily sedation interruption alone (Burry et al., 2014) — without pairing with SBT — did not find strong evidence that daily sedation interruption reduced mechanical ventilation duration, mortality, or length of stay when compared with nurse-protocolled targeted light sedation.",
+      "section": "Agitation",
+      "image": null,
+      "section_url": null,
+      "source_id": "pad_a08"
+    },
+    {
+      "id": "gm16_028",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient in the ICU develops acute generalised peritonitis from a bowel perforation confirmed on CT scan. The nutritional team is asked about enteral feeding. Which statement is most accurate?",
+      "options": [
+        "Enteral feeding can be continued at a reduced rate in contained perforations with otherwise stable clinical status",
+        "Enteral nutrition is acceptable provided the patient receives concurrent broad-spectrum antibiotics",
+        "Perforation is only a relative contraindication — it depends on the severity of peritonitis",
+        "GI perforation is an absolute contraindication to enteral nutrition; parenteral nutrition is required in this patient",
+        "Jejunal feeding distal to the site of perforation is an acceptable option to maintain gut integrity"
+      ],
+      "correct": 3,
+      "explanation": "Bowel perforation is an absolute contraindication to enteral nutrition, regardless of whether feeding is proximal or distal to the perforation site. Parenteral nutrition is required. Other absolute contraindications include intestinal obstruction (mechanical), bowel ischaemia, and haemodynamic instability with MAP <50 mmHg unresponsive to maximum vasopressor therapy and lactate >8 mmol/L. Relative contraindications — where enteral feeding should be paused and reassessed — include gastric residual volume >500 mL per 6-hour period and active upper GI bleeding.",
+      "section": "Enteral Nutrition – Contraindications",
+      "image": null,
+      "section_url": null,
+      "source_id": "nut2_a02"
+    },
+    {
+      "id": "gm16_029",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 72-year-old with AECOPD and hypercapnic respiratory failure is admitted with pH 7.32. Following intubation and 4 days of MV, extubation is planned. A senior colleague suggests HFNC for post-extubation support, while you favour NIV. What does the most recent ERS guidance recommend?",
+      "options": [
+        "HFNC is the gold standard post-extubation approach in COPD, demonstrating a 40% reduction in re-intubation compared to NIV",
+        "ERS recommends NIV over HFNC for hypercapnic AECOPD extubation risk and for hospitalised hypercapnic RF, unless NIV is contraindicated",
+        "HFNC and NIV are functionally equivalent modalities in the post-extubation setting for COPD patients with hypercapnic respiratory failure, and the decision should be guided primarily by individual patient tolerance and local clinical preference",
+        "NIV is recommended only for patients with prior NIV failure; those receiving first-time NIV should use HFNC",
+        "HFNC is preferred post-extubation because it provides greater patient comfort, allows normal eating and communication during treatment, and delivers a more precise and stable inspired oxygen fraction compared with conventional NIV masks"
+      ],
+      "correct": 1,
+      "explanation": "ERS clinical practice guidelines for high-flow nasal cannula in acute respiratory failure recommend NIV over HFNC for patients with AECOPD and hypercapnic respiratory failure in two specific settings: post-mechanical ventilation extubation failure risk, and during hospitalisation for exacerbation with hypercapnic respiratory failure. This recommendation reflects evidence that NIV more effectively reduces PaCO2 and re-intubation risk in hypercapnic COPD patients. HFNC is an acceptable alternative when NIV is contraindicated (skin breakdown, claustrophobia, inability to maintain mask seal). In acute hypoxaemic respiratory failure without hypercapnia, evidence between the two modalities remains more uncertain.",
+      "section": "Part III: Therapeutic Interventions",
+      "image": null,
+      "section_url": null,
+      "source_id": "copd3_a11"
+    },
+    {
+      "id": "gm16_030",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Why are the traditional HLH 2004 criteria considered less practical than the H-Score for a critically unwell adult on ICU?",
+      "options": [
+        "They were validated only in patients with underlying rheumatological disease and adult-onset Still’s disease",
+        "They require a bone marrow biopsy, whereas the H-Score does not consider marrow findings",
+        "They can only be applied once the underlying trigger has been identified",
+        "They demand serial measurements over a minimum of two weeks",
+        "They rely on slow-turnaround tests and were devised for a paediatric trial"
+      ],
+      "correct": 4,
+      "explanation": "The HLH 2004 criteria were originally devised for paediatric patients in a clinical trial and involve investigations whose turnaround times are too long for a deteriorating adult, which is precisely the gap the H-Score fills. Haemophagocytosis on marrow aspirate is in fact one of the H-Score parameters, so the distinction is not that one ignores the marrow. Waiting for the trigger to be identified would be self-defeating, since the trigger is often established only after treatment has begun, and delay in a syndrome with this mortality is what the bedside score is designed to avoid.",
+      "section": "Hemophagocytic lymphohistiocytosis: Diagnosis",
+      "image": null,
+      "section_url": null,
+      "source_id": "haemicu3_a03"
+    },
+    {
+      "id": "gm16_031",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Which of the following is an established threshold criterion for urgent consideration of mechanical ventilatory support in a patient with Guillain-Barre syndrome?",
+      "options": [
+        "Anti-GQ1b antibody positivity indicating rapid disease progression",
+        "Inability to walk more than 10 metres independently",
+        "Maximal inspiratory pressure less negative than -20 cmH2O",
+        "Areflexia extending to the upper limbs bilaterally",
+        "Ascending motor weakness reaching the knees bilaterally within 48 hours of onset"
+      ],
+      "correct": 2,
+      "explanation": "Three thresholds indicate the need for urgent consideration of mechanical ventilation in GBS: FVC <1 L, a decline in FVC of >50% from baseline, or maximal inspiratory force less negative than -20 cmH2O. These reflect impending ventilatory failure from respiratory muscle weakness regardless of the extent of limb weakness or sensory involvement. Anti-GQ1b antibodies are associated with Miller Fisher syndrome and do not predict respiratory severity. Areflexia is a diagnostic feature of GBS but does not independently indicate respiratory compromise.",
+      "section": "Neuromuscular: Assessment",
+      "image": null,
+      "section_url": null,
+      "source_id": "nmc_a03"
+    },
+    {
+      "id": "gm16_032",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Which of the following is NOT one of the parameters used to calculate the H-Score?",
+      "options": [
+        "Known underlying immunosuppression",
+        "Haemophagocytosis on bone marrow aspirate",
+        "Serum ferritin",
+        "Serum lactate dehydrogenase",
+        "Serum triglycerides"
+      ],
+      "correct": 3,
+      "explanation": "The nine H-Score parameters are underlying immunosuppression, temperature, organomegaly, number of cytopenias, ferritin, triglycerides, fibrinogen, AST and haemophagocytosis on marrow aspirate. Lactate dehydrogenase is a useful marker of inflammation and is measured as part of the general workup, but it does not contribute points to the score — a good example of a test that is clinically relevant yet not part of the scoring instrument. Note also that AST rather than ALT is the transaminase used, at a threshold above 30 U/L.",
+      "section": "Hemophagocytic lymphohistiocytosis: Diagnosis",
+      "image": null,
+      "section_url": null,
+      "source_id": "haemicu3_a08"
+    },
+    {
+      "id": "gm16_033",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Maximum dose of infusion of norepinephrine in septic shock is:",
+      "options": [
+        "5 microgram/kg/minute",
+        "1.5 microgram/kg/minute",
+        "3 microgram/kg/minute",
+        "1 microgram/kg/minute",
+        "2 microgram/kg/minute"
+      ],
+      "correct": 0,
+      "explanation": "The maximum dose of norepinephrine in septic shock is 5 µg/kg/min. The weight-based mean dose (WMD) strongly associated with mortality has a cutoff of 0.75 µg/kg/min, and the weight-based maximum dose (WMax) has a cutoff of 2.30 µg/kg/min. Some studies identified a threshold associated with 100% mortality at 2.22–3.8 µg/kg/min; however, some patients survived with doses >4 µg/kg/min. Maximal dose-effect exists but dose-response curves in humans are unavailable due to ethical concerns. Norepinephrine has a linear effect up to 1.35 mcg/kg/min in rat studies.",
+      "section": "Sepsis",
+      "image": null,
+      "section_url": null,
+      "source_id": "sep2_fa06"
+    },
+    {
+      "id": "gm16_034",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding clinical thresholds and mechanisms relevant to absolute contraindications to EN:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Bowel ischaemia from mesenteric artery occlusion is an absolute contraindication to EN as feeding increases intestinal oxygen demand in a setting of already critically impaired perfusion",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Patients on low-dose noradrenaline (<0.1 µg/kg/min) with MAP >65 mmHg should not receive EN due to the theoretical risk of non-occlusive mesenteric ischaemia from any vasopressor use",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Enteral feeding may precipitate or worsen intestinal ischaemia by increasing splanchnic oxygen consumption when gut perfusion is already critically compromised",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "A persistent lactate above 8 mmol/L despite adequate resuscitation, combined with haemodynamic instability on maximum vasopressor support, is a recognised threshold for withholding EN",
+          "correct": true
+        }
+      ],
+      "explanation": "Low-dose vasopressor use (noradrenaline <0.1 µg/kg/min) with adequate MAP and improving trajectory is not an absolute contraindication to EN — the contraindication applies to severe haemodynamic instability with MAP <50 mmHg, maximum vasopressor support, and persistent high lactate (>8 mmol/L). The risk of EN worsening gut ischaemia is the physiological rationale for the contraindication and is a valid statement. Mesenteric ischaemia is the clearest example of an absolute contraindication, and the lactate threshold described in statement D is clinically applied.",
+      "section": "Enteral Nutrition – Contraindications",
+      "image": null,
+      "section_url": null,
+      "source_id": "nut2_k09"
+    },
+    {
+      "id": "gm16_035",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "A postoperative patient develops severe acute liver injury (INR 4.3) with acetaminophen use as a possible but unconfirmed cause. What is the most appropriate treatment strategy?",
+      "options": [
+        "Immediately correct the INR to normal with fresh frozen plasma before any other intervention",
+        "Start empirical high-dose corticosteroids",
+        "Withhold acetylcysteine until an elevated acetaminophen level confirms toxicity",
+        "Continue acetaminophen at a reduced dose while monitoring liver function",
+        "Discontinue acetaminophen; start acetylcysteine regardless of confirmed cause; consider test-dose vitamin K or thromboelastography to characterise the coagulopathy"
+      ],
+      "correct": 4,
+      "explanation": "Regardless of the confirmed cause, acetaminophen should be stopped and acetylcysteine started empirically, since it carries minimal risk even if acetaminophen is not the culprit. A test dose of vitamin K (or thromboelastography) helps distinguish vitamin K deficiency from true synthetic liver failure as the cause of coagulopathy — correcting INR with FFP alone, continuing acetaminophen, or starting corticosteroids empirically are not appropriate.",
+      "section": "Acute Liver Failure",
+      "image": null,
+      "section_url": null,
+      "source_id": "alf_fa28"
+    },
+    {
+      "id": "gm16_036",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding respiratory neuromuscular capability and workload:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Increased CO2 production and increased dead-space ventilation both raise ventilatory requirements and hence muscle workload.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Phrenic nerve dysfunction and decreased respiratory centre output both reduce respiratory neuromuscular capacity.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Malnutrition is a recognised contributor to decreased respiratory neuromuscular capacity.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Critical illness neuromyopathy is categorised as increased muscle workload rather than decreased capacity.",
+          "correct": false
+        }
+      ],
+      "explanation": "Phrenic nerve dysfunction and decreased respiratory centre output both reducing respiratory neuromuscular capacity, malnutrition as a recognised contributor to decreased capacity, and increased CO2 production together with increased dead-space ventilation both raising ventilatory requirements and hence muscle workload, are all accurately described. The claim that critical illness neuromyopathy is categorised as increased muscle workload rather than decreased capacity is false and reversed — critical illness neuromyopathy instead reduces neuromuscular capacity through muscle pump dysfunction; it is not a cause of increased workload.",
+      "section": "Respiratory pump insufficiency",
+      "image": null,
+      "section_url": null,
+      "source_id": "mv5_k04"
+    },
+    {
+      "id": "gm16_037",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding the pathophysiological continuum from Mycobacterium tuberculosis infection to tuberculosis disease, and early mortality in tuberculosis disease:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The majority of tuberculosis-related deaths occur late in the disease course, more than a year after diagnosis, from gradual multi-organ deterioration.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Individuals with subclinical tuberculosis who have no recognised symptoms may already be infectious to others.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Miliary tuberculosis, an APACHE II score above 20, and a symptom duration exceeding 4 weeks are among the recognised independent risk factors for death in tuberculosis disease requiring intensive care.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Bacilli replication remains completely dormant, with no replication at all, throughout incipient tuberculosis.",
+          "correct": false
+        }
+      ],
+      "explanation": "Patients with subclinical tuberculosis, even without recognised symptoms, may already be potentially infectious once bacillary replication becomes continuous — infectiousness is not contingent on the patient having noticed symptoms. Incipient tuberculosis is characterised by slow or intermittent bacillary replication, not complete dormancy; true dormancy without any replication instead describes the earlier stage of tuberculosis infection. Miliary tuberculosis, mechanical ventilation, shock, nosocomial pneumonia, multi-organ failure, tuberculosis-destroyed lung, an APACHE II score above 20, and symptom duration beyond 4 weeks are all recognised independent risk factors for death. Contrary to a claim of late, gradual deterioration, many tuberculosis-related deaths in fact occur early — within about 21 days of diagnosis — and the majority result from acute cardiorespiratory failure rather than a slow decline.",
+      "section": "Introduction",
+      "image": null,
+      "section_url": null,
+      "source_id": "sftd3_k11"
+    },
+    {
+      "id": "gm16_038",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following are true?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Hypoventilation related hypoxemia is corrected by increasing FiO2",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Right to left shunt is the main pathophysiologic mechanism of hypoxemia in ARDS",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hypoventilation is the main pathophysiologic mechanism of hypoxemia in COPD exacerbation",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "In patients with pulmonary fibrosis at the initial stage of the disease, hypoxaemia is usually present even at rest",
+          "correct": false
+        }
+      ],
+      "explanation": "All four statements are FALSE as worded. A is false: while increasing FiO2 in hypoventilation does increase alveolar PO2 (via the alveolar gas equation) and thus PO2, the statement as an absolute claim about 'correction' oversimplifies — the underlying issue is addressing ventilation. B is false in its strict wording: right-to-left shunt is correctly identified as the PRIMARY (not just 'main' loosely) pathophysiologic mechanism of hypoxaemia in ARDS — note ESICM's feedback affirms shunt IS the primary mechanism, but this statement was marked incorrect, likely due to imprecise phrasing in the original. C is false: the main mechanism of hypoxaemia in COPD exacerbation is V/Q mismatch, NOT hypoventilation. D is false: in early-stage pulmonary fibrosis, diffusion-limitation hypoxaemia is INFREQUENTLY present at rest; it typically emerges during exercise (due to increased cardiac output reducing transit time) combined with diffusion membrane thickening.",
+      "section": "Hypoxaemia Mechanisms",
+      "image": null,
+      "section_url": null,
+      "source_id": "mv1_fk04"
+    },
+    {
+      "id": "gm16_039",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "What is the recommended timing for antibiotic administration in patients with septic shock?",
+      "options": [
+        "Within 1 hour",
+        "Within 3 hours",
+        "Only after microbiological confirmation",
+        "Within 6 hours"
+      ],
+      "correct": 0,
+      "explanation": "Septic shock is a time-critical emergency — delays in antibiotic administration are strongly associated with increased mortality. Early therapy reduces pathogen load, toxin release, and prevents progression of organ dysfunction cascade. The ideal timing is within 1 hour in septic shock or high-probability sepsis. In lower suspicion cases, diagnostic workup can occur first, but antibiotics should still be started within 3 hours if infection remains likely. Antibiotics should not be delayed for cultures if obtaining them would cause delay — cultures should be performed first whenever feasible. (SSC 2026 guidelines).",
+      "section": "Sepsis",
+      "image": null,
+      "section_url": null,
+      "source_id": "sep3_fa07"
+    },
+    {
+      "id": "gm16_040",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A patient with AKI is receiving a drug cleared substantially by both liver and kidney. As GFR falls, how is total clearance best described?",
+      "options": [
+        "It becomes negligible once GFR is low",
+        "It is entirely unaffected by the non-renal pathway",
+        "It falls less than for a purely renally-cleared drug",
+        "It falls in direct proportion to GFR",
+        "It rises as hepatic flow compensates"
+      ],
+      "correct": 2,
+      "explanation": "With mixed renal and non-renal clearance, the non-renal pathway blunts the impact of falling GFR, so total clearance drops less than for a drug cleared only by the kidney. Some dose adjustment may still be needed but is usually smaller.",
+      "section": "Key PK parameters and ARC",
+      "image": "",
+      "section_url": "",
+      "source_id": "dda_a08"
+    },
+    {
+      "id": "gm16_041",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 72-year-old ICU patient with hospital-acquired gram-negative pneumonia is started on gentamicin. Which PK/PD parameter best characterises the optimal dosing target for aminoglycosides?",
+      "options": [
+        "AUC24/MIC ≥400 as the primary pharmacodynamic target",
+        "AUC24/MIC >125, consistent with fluoroquinolone targets",
+        "Cmax/MIC ratio of 8–10 times the MIC",
+        "Continuous infusion to maintain trough concentrations consistently above MIC",
+        "Prolonged infusion to maintain T>MIC >50% of the dosing interval"
+      ],
+      "correct": 2,
+      "explanation": "Aminoglycosides are concentration-dependent antibiotics; bactericidal activity correlates with Cmax/MIC of 8–10x MIC, driving once-daily (extended-interval) dosing to maximise peak while allowing a drug-free interval to limit accumulation and toxicity. T>MIC >50% is the target for time-dependent beta-lactams (nearest distractor). AUC/MIC ≥400 is the vancomycin target; AUC/MIC >125 applies to fluoroquinolones.",
+      "section": "Pharmacokinetic and pharmacodynamic issues in critically ill patients",
+      "image": null,
+      "section_url": null,
+      "source_id": "rua_a01"
+    },
+    {
+      "id": "gm16_042",
+      "type": "A",
+      "set": 2,
+      "source": "pact_generated",
+      "question": "Several days after a severe deceleration crash, MRI is performed in a patient with persistent coma. Comparing CT (left) with two MRI sequences, lesions marked by arrows are clearly visible on gradient echo (GE) but absent or subtle on CT. What injury do these lesions represent?",
+      "options": [
+        "Watershed cerebral infarction in boundary zone territories",
+        "Haemorrhagic traumatic axonal injury (TAI)",
+        "Acute epidural haematomas not yet hyperdense on CT",
+        "Hyperacute cerebral venous sinus thrombosis",
+        "Post-traumatic abscesses from intracranial infection"
+      ],
+      "correct": 1,
+      "explanation": "Gradient echo (GE) and susceptibility-weighted imaging (SWI) detect haemosiderin from axonal disruption through susceptibility (blooming) artefacts, revealing haemorrhagic traumatic axonal injury (TAI/DAI) invisible on CT. These result from rotational shear forces and preferentially locate at the grey-white matter junction, corpus callosum, and brainstem. FLAIR sequences detect non-haemorrhagic TAI as high signal.",
+      "section": "TBI Part II: Secondary Brain Injury",
+      "image": "images/img_b9100e8bec.png",
+      "section_url": null,
+      "source_id": "tbi1_a14"
+    },
+    {
+      "id": "gm16_043",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 74-year-old with AECOPD has pH 7.29 and PaCO2 68 mmHg. He requires nebulised salbutamol. Which driving gas should be used for the nebuliser, and why?",
+      "options": [
+        "Nitrogen, to eliminate the risk of oxygen-induced hypercapnia entirely",
+        "Any driving gas is equally acceptable, as nebuliser driving gas does not affect PaCO2",
+        "Compressed air, to avoid worsening hypercapnia in a patient who is already acidotic and hypercapnic",
+        "Heliox (70% He/30% O2), as this improves drug deposition while reducing airflow resistance",
+        "Oxygen at 4 L/min, as hypercapnia indicates increased ventilatory demand requiring supplemental oxygen"
+      ],
+      "correct": 2,
+      "explanation": "In hypercapnic or acidotic COPD patients, the nebuliser should be driven by compressed air rather than oxygen. Using oxygen as a driving gas delivers a high FiO2 directly to the patient, which can worsen hypercapnia through the Haldane effect (oxygen displacing CO2 from haemoglobin) and by increasing physiological dead space. Compressed air allows the targeted amount of supplemental oxygen to be titrated separately via nasal cannula or Venturi mask to achieve the 88–92% SpO2 target, without inadvertently delivering an uncontrolled high FiO2 through the nebuliser circuit.",
+      "section": "Part III: Therapeutic Interventions",
+      "image": null,
+      "section_url": null,
+      "source_id": "copd3_a01"
+    },
+    {
+      "id": "gm16_044",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "The figure shows haemodynamic data from a canine model of progressive pulmonary artery banding (PAB), with a systemic vasoconstrictor (phenylephrine) subsequently administered at maximal banding. As MAP and right coronary artery (RCA) pressure are restored towards baseline with phenylephrine, despite no change in the degree of mechanical pulmonary outflow obstruction, what happens to RV end-diastolic pressure (RVEDP) and cardiac output (CO)?",
+      "options": [
+        "RVEDP falls and CO increases, as improved right coronary perfusion pressure restores RV contractility despite unchanged mechanical obstruction",
+        "Both RVEDP and CO show no significant change, since coronary perfusion is not the limiting factor in RV pressure overload",
+        "RVEDP rises further and CO continues to fall, since afterload remains unchanged",
+        "RVEDP and CO both rise, since phenylephrine directly increases pulmonary blood flow",
+        "RVEDP falls but CO also falls further, reflecting a net negative inotropic effect of phenylephrine"
+      ],
+      "correct": 0,
+      "explanation": "In this canine PAB model, progressive mechanical pulmonary outflow obstruction caused rising RVEDP and falling CO as RV systolic pressure approached and then exceeded right coronary artery perfusion pressure, compromising RV perfusion. Administering phenylephrine, without altering the mechanical obstruction, raised MAP and RCA pressure, restoring right coronary perfusion pressure and RV contractility — RVEDP fell and CO rose. This illustrates why maintaining systemic (and hence coronary perfusion) pressure is a core physiological target in RV pressure overload, independent of any change in the mechanical afterload itself.",
+      "section": "Management: Physiological Targets",
+      "image": "images/img_f9b25e04c0.png",
+      "section_url": null,
+      "source_id": "rvf_a16"
+    },
+    {
+      "id": "gm16_045",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "All of the following are ventilator settings required for proper function in assisted modes EXCEPT:",
+      "options": [
+        "A fixed respiratory rate set entirely by the operator",
+        "The level of assist provided to each breath",
+        "The PEEP and the inspired oxygen fraction (FiO2)",
+        "The expiratory trigger that ends each breath",
+        "The inspiratory trigger that starts each breath"
+      ],
+      "correct": 0,
+      "explanation": "A fixed, entirely operator-set respiratory rate is a feature of control modes, not assisted modes, where breath timing is patient-triggered. The inspiratory trigger, level of assist, expiratory trigger, and PEEP/FiO2 are all settings needed for assisted-mode function.",
+      "section": "Assisted modes of ventilation",
+      "image": null,
+      "section_url": null,
+      "source_id": "mv4_a14"
+    },
+    {
+      "id": "gm16_046",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "Which of the following is the more appropriate choice to reduce the risk of haemolysis during ECLS?",
+      "options": [
+        "All answers are correct",
+        "High flows inducing shearing of cells/hemolysis — look for alternative patient-associated causes of hemolysis (e.g. transfusion reaction). If present, flow reduction may help",
+        "Identify whether heparin induced thrombocytopenia is present; if confirmed, use alternative anticoagulation agents (e.g. argatroban, bivalirudin)",
+        "Large venous cannula could lead to the development of deep venous thrombosis (DVT) if the cannula is sufficiently large that it induces stasis proximal to its insertion. Ensure cannula size is not too big for vessel"
+      ],
+      "correct": 0,
+      "explanation": "Haemolysis and related circuit complications on ECLS have multiple, sometimes overlapping causes and countermeasures: appropriate cannula sizing to avoid stasis/DVT, evaluating high shear flow versus patient-related causes of hemolysis, and screening for heparin-induced thrombocytopenia when relevant — all listed measures are appropriate parts of a systematic evaluation.",
+      "section": "ECLS Complications",
+      "image": null,
+      "section_url": null,
+      "source_id": "ecls2_fa09"
+    },
+    {
+      "id": "gm16_047",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "question": "The work of breathing (WOB) is often found to be increased in COPD patients. Reasons for such increase in WOB are:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Disturbed energy metabolism in the respiratory muscles as a consequence of hypoxaemia and acidosis",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Altered geometry of diaphragm (flattened and shortened)",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Increased muscle mass as a consequence of increased breathing efforts",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Increased pressure necessary to overcome increased airway resistance",
+          "correct": true
+        }
+      ],
+      "explanation": "During an acute exacerbation of COPD, the respiratory muscles face an increased resistive and elastic load (including dynamic hyperinflation/PEEPi), which raises the pressure needed to breathe; diaphragmatic geometry is also altered, and hypoxaemia/acidosis disturb respiratory muscle energy metabolism. Increased breathing effort does not produce increased respiratory muscle mass acutely - if anything, respiratory muscle dysfunction and fatigue are the concern.",
+      "section": "COPD and Asthma",
+      "image": null,
+      "section_url": null,
+      "source_id": "coa1_fk01"
+    },
+    {
+      "id": "gm16_048",
+      "type": "A",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "A 63-year-old on enteral nutrition at 70 mL/hour has gastric residuals of 480 mL at 0800 and 510 mL at 1400. The nursing staff ask whether to pause feeding. According to standard guidelines, what GRV threshold should prompt temporary cessation of EN and assessment for prokinetics?",
+      "options": [
+        "Any single residual volume >100 mL",
+        "Total daily aspirate volume exceeding 1 L",
+        "A residual >300 mL on any measurement during the first 48 hours of feeding",
+        "Two consecutive readings above 200 mL",
+        "Gastric residual volume exceeding 500 mL per 6-hour measurement interval"
+      ],
+      "correct": 4,
+      "explanation": "A gastric residual volume exceeding 500 mL per 6-hour measurement period is the threshold that should prompt temporary cessation of EN and initiation of prokinetic therapy in standard practice. This threshold represents gastric filling beyond what is likely to clear spontaneously, raising aspiration risk. A single reading of 480 mL in this patient does not meet the threshold; the 1400 reading of 510 mL does. Smaller individual readings without context, or arbitrary daily totals, are not validated thresholds for clinical decision-making.",
+      "section": "Enteral Nutrition – Gastric Intolerance",
+      "image": null,
+      "section_url": null,
+      "source_id": "nut2_a04"
+    },
+    {
+      "id": "gm16_049",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Which of the following statements about DIC management are correct?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Prophylactic anticoagulation (UFH or LMWH) should be discontinued immediately in DIC patients once the platelet count falls below 50×10⁹/L, to prevent iatrogenic haemorrhage.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Stress ulcer prophylaxis is recommended in DIC patients to reduce gastrointestinal bleeding risk.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Treatment of the underlying disorder is the cornerstone of DIC management — eliminating the trigger allows DIC to resolve.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Patients with DIC are fundamentally in a procoagulant state and thus at risk for both micro- and macrovascular thrombosis, justifying continuation of prophylactic anticoagulation.",
+          "correct": true
+        }
+      ],
+      "explanation": "Treating the underlying cause is the cornerstone. Prophylactic anticoagulation (UFH/LMWH) should be *continued* even with thrombocytopenia (though the specific platelet cut-off is controversial) — stopping it increases thrombotic risk in this fundamentally procoagulant state; a retrospective study showed thromboprophylaxis also reduced thrombocytopenia development by slowing consumption. DIC patients are procoagulant and at macrothrombotic risk. Stress ulcer prophylaxis is also recommended to reduce GI bleeding.",
+      "section": "Management of DIC",
+      "image": null,
+      "section_url": "",
+      "source_id": "dic_k09"
+    },
+    {
+      "id": "gm16_050",
+      "type": "K",
+      "set": 1,
+      "source": "pact_generated",
+      "question": "Regarding supportive care in critically ill patients with viral haemorrhagic fevers:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Crystalloid fluids are the resuscitation fluid of choice; synthetic colloids should be avoided due to adverse effects on coagulation and renal function.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Nasogastric tube insertion is a low-risk procedure in patients with Ebola or Marburg virus disease.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Pharmacological thromboprophylaxis may be considered once platelet count has recovered above 50 G/L during convalescence.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Pharmacological thromboprophylaxis is recommended during the acute phase of viral haemorrhagic fevers.",
+          "correct": false
+        }
+      ],
+      "explanation": "Crystalloids are the standard resuscitation fluid; synthetic colloids are explicitly avoided because of their adverse effects on coagulation and renal function. Pharmacological thromboprophylaxis is NOT recommended during the acute phase of viral haemorrhagic fevers, given near-universal thrombocytopenia and a correspondingly high bleeding risk. Once the platelet count has recovered above 50 G/L during convalescence, pharmacological thromboprophylaxis may then be considered. Nasogastric tube insertion in Ebola or Marburg virus disease is explicitly identified as a high-risk rather than low-risk procedure, since it can provoke severe epistaxis and expose healthcare workers to contaminated blood.",
+      "section": "Other VHFs: Supportive Care",
+      "image": null,
+      "section_url": null,
+      "source_id": "tdp1_k10"
+    }
+  ]
+}
