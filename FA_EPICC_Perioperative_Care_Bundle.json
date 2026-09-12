@@ -1,0 +1,878 @@
+{
+  "module": "EPICC: Perioperative Care of the Very Old Patient, Surgical Stress Response, and Respiratory Management",
+  "source": "esicm_final_assessment",
+  "total_questions": 32,
+  "sections": {},
+  "questions": [
+    {
+      "id": "vop_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "ICU delirium risk factors in dementia",
+      "question": "Which of the following acute or chronic conditions would significantly increase the risk of ICU delirium in a patient with dementia?",
+      "options": [
+        "Septic shock and COPD",
+        "Septic shock and alcoholism",
+        "Chronic pain and congestive heart failure",
+        "Chronic pain and diabetes",
+        "Diabetes and hypertension"
+      ],
+      "correct": 1,
+      "explanation": "A 2015 systematic review found consistent evidence that age, dementia, hypertension, emergency surgery or trauma before ICU admission, a high APACHE II score, mechanical ventilation, metabolic acidosis, delirium on the previous day, coma, and alcohol misuse all raise the risk of ICU delirium, whereas sex was not associated with it and dexmedetomidine use was linked to a lower delirium prevalence. Septic shock combined with alcoholism therefore layers two independent delirium risk factors, unlike the other combinations listed.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "vop_fa02",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Frailty phenotype criteria (Fried model)",
+      "question": "Which of the following is a criterion for the frailty syndrome?",
+      "options": [
+        "Cold intolerance",
+        "Kyphosis",
+        "Hearing loss",
+        "Organ failure",
+        "Weakness"
+      ],
+      "correct": 4,
+      "explanation": "The Fried phenotype defines frailty as meeting at least three of five criteria: weakness (reduced grip strength in the dominant hand), exhaustion (self-reported), unintentional weight loss of more than 10 lb in a year, slow gait speed, and low physical activity level. Cold intolerance, kyphosis, hearing loss and organ failure are not part of this definition.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "vop_fa03",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Primary vs secondary frailty",
+      "question": "You are caring for an ICU geriatric patient who meets criteria for frailty. Which of the following conditions would be classified as primary frailty?",
+      "options": [
+        "Cancer",
+        "COPD",
+        "Heart failure",
+        "HIV infection",
+        "Intrinsic to the aging process"
+      ],
+      "correct": 4,
+      "explanation": "Frailty is classified as primary when it results directly from the aging process itself, and as secondary when it develops as a consequence of an end-stage chronic inflammatory condition such as heart failure, COPD, cancer or HIV infection. Only the aging-related form counts as primary frailty.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "vop_fa04",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Assessment tools for frailty with cognitive impairment",
+      "question": "An 89-year-old woman is brought by her family as she is showing signs of dementia. She appears to be wandering at night and is often confused. They are thinking about placing her in a nursing home. Vital signs are within normal limits, body mass index is 18, with moderate dementia, and she scored 14 on the mini-mental state examination. Which of the following tools can be used to define frailty based on deficits in function, cognition, and mobility?",
+      "options": [
+        "Mini-mental status",
+        "The Fried model",
+        "The clinical frailty scale",
+        "Mini-Cog",
+        "EQ-5D"
+      ],
+      "correct": 2,
+      "explanation": "Dementia typically causes a progressive decline in function, cognition and behaviour, and the MMSE does not itself evaluate frailty. The clinical frailty scale is designed to capture frailty together with deficits in cognition, mobility and function, grading severe frailty as needing help with basic daily activities because of physical or cognitive impairment - unlike the Fried model, which focuses more on the physical phenotype.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "vop_fa05",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Clinical frailty scale - grading from vignette",
+      "question": "A 68-year-old woman presents to the clinic with complaints of being tired during the day. She also needs help with transportation and managing finances. She needs to call her son for heavy housework such as moving the sofa. She is afraid to go out shopping due to her concern about falling. She is able to bathe and dress. What is her most likely clinical frailty scale classification?",
+      "options": [
+        "Vulnerable",
+        "Mildly frail",
+        "Moderately frail",
+        "Severely frail",
+        "Managing well"
+      ],
+      "correct": 1,
+      "explanation": "On the clinical frailty scale, vulnerable patients are not dependent on others day to day but report being slowed up or tired. Mildly frail patients show more evident slowing and need help with higher-order instrumental activities of daily living - finances, transportation, heavy housework, shopping and walking outside alone - while still managing personal care independently, which matches this patient. Moderately frail patients need help with all outdoor activities and some inside the home, including cueing or standby help with dressing, and severely frail patients are completely dependent for personal care.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "vop_fk01",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "General principles of care in the very old ICU patient",
+      "question": "Regarding the management of the very old patient in the ICU setting, which sentences are true:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Frailty is a risk factor that should not be neglected",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Protective reflex impairment is an important cause of aspiration pneumonia",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Comorbidities are strong predictors of mortality",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Homeostasis is the cornerstone of treatment",
+          "correct": true
+        }
+      ],
+      "explanation": "Aspiration pneumonia is increasingly common in older patients and carries a high mortality; impaired protective airway reflexes are an important contributor. The number of comorbidities rises with age - averaging around 3-4 additional diagnoses by age 85 - and multimorbidity in ICU patients over 65 is strongly associated with higher in-hospital and long-term mortality. Frailty itself reflects age-related decline in reserve across multiple physiological systems and is increasingly used to adjust risk models for biological rather than chronological age, so it should not be overlooked in decision-making. Ageing also narrows the limits for maintaining fluid, sodium, potassium and acid-base homeostasis, so critically ill older patients are more prone to hyponatraemia, hypernatraemia, volume depletion or overload, hyperkalaemia and metabolic acidosis - making preservation of homeostasis central to their management.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "vop_fk02",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Cardiovascular changes and atrial fibrillation in the very old ICU patient",
+      "question": "Regarding the cardiovascular factors in the very old patient in the ICU setting, which sentences are true:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Dyspnoea as a symptom mainly occurs in the setting of respiratory disease",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "There is a decrease of the ventricular diastolic function with age",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Atrial fibrillation is found in approximately 10% of subjects aged over 60 years",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "The management of elderly patients with AF should focus on the conversion to sinus rhythm",
+          "correct": false
+        }
+      ],
+      "explanation": "Dyspnoea is one of the most frequent complaints in older patients, but several studies show it more often reflects cardiovascular disease than respiratory disease in this population: age-related changes in cardiac function plus a high prevalence of hypertension and coronary disease reduce cardiovascular reserve and make heart failure a leading cause of breathlessness in older adults. Resting left ventricular diastolic function does not change much with age, but diastolic stiffness increases progressively, so ventricular diastolic function does decline with advancing age. Atrial fibrillation becomes markedly more common with age; the source material states a prevalence of roughly 3-4% in people over 60 and describes this as about ten-fold the general adult rate, but the option text itself claims approximately 10% for this age group, which conflicts with the source's own explanatory figure. [Note: coded as False in line with the source's written feedback text rather than its answer marker, per project convention - but this figure is worth double-checking against a primary source if precision matters, since it is not fully internally consistent.] Management in older AF patients should prioritise identifying and treating reversible causes, assessing for haemodynamic compromise, controlling heart rate, and preventing heart failure and ischaemia, rather than aiming for restoration of sinus rhythm.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "vop_fk03",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Delirium in the very old ICU patient: risk factors and management",
+      "question": "Regarding delirium in the very old patient, which sentences are true:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Delirium monitoring is important particularly when patients are agitated",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "The leading risk factors for delirium are the need for mechanical ventilation and surgery",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "The best way to treat delirium in the ICU is to use atypical anti-psychotic drugs",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "In most patients, delirium is underdiagnosed",
+          "correct": true
+        }
+      ],
+      "explanation": "Delirium monitoring should be part of routine clinical care in all older ICU patients, not reserved for agitated patients, since hypoactive delirium - often missed without systematic screening - is at least as common and carries a similarly poor prognosis. The leading risk factors are dementia or cognitive impairment, functional impairment, visual impairment and a history of alcohol misuse, rather than mechanical ventilation or surgery specifically, which are more downstream precipitants. There is no convincing evidence that any pharmacological agent, including atypical antipsychotics, effectively prevents or treats delirium; the most effective approach is a multicomponent non-pharmacological bundle - minimising anticholinergic and psychoactive drugs, involving family for reorientation, promoting sleep and a calm environment, and managing pain. Despite affecting roughly 40% of older ICU patients, delirium remains substantially underdiagnosed in routine practice.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "vop_fk04",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Frailty vs illness severity and comorbidity in the very old ICU patient",
+      "question": "In very old patients admitted to the ICU",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Frailty seems to play a more important role than illness severity or comorbidities",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Frail patients have a decline in reserve of some physiological systems",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Signs of frailty include anaemia and weight loss",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Frailty is a concept associated with chronological age",
+          "correct": false
+        }
+      ],
+      "explanation": "Frailty reflects an age-associated decline in physiological reserve and function across multiple organ systems, and in critically ill older patients it appears to influence outcome more strongly than the severity of the acute illness or the number of comorbidities alone. Because it captures biological rather than chronological age, frailty is increasingly built into risk-prediction models specifically to adjust for that distinction - so frailty is not simply a marker of chronological age. Recognised signs include fatigue, weakness, low activity level, slow motor performance, weight loss and cognitive decline; anaemia is not part of the core frailty phenotype, so a statement pairing it with weight loss as a defining sign is not accurate.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "vop_fk05",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Care strategies for suspected infection in the very old ICU patient",
+      "question": "The following are important care strategies in very old patients with suspected infection:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Early identification of the infection is paramount",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Increased confusion and anorexia have a high predictive value for infection",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Applying the principle of 'start low, go slow' for antibiotics",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Antibiotics with concentration-dependent PK/PD should be well above the minimum inhibitory concentration",
+          "correct": true
+        }
+      ],
+      "explanation": "Very old patients with infection often lack classic localising signs, so early identification is essential; low-grade temperature elevation, increased confusion and anorexia can be among the earliest clues, but on their own they have low positive predictive value for infection, so clinicians need a broader assessment of the underlying condition to catch infection early - for example, a new exacerbation of atrial fibrillation may be the main tell in some older patients. The 'start low, go slow' principle that applies to most drug dosing in this population does not apply to antibiotics: for agents with concentration-dependent pharmacokinetics/pharmacodynamics, efficacy depends on achieving levels well above the minimum inhibitory concentration, so the highest safe dose should be used from the outset, particularly for severe infection.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ssr_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Catecholamine effects on heart rate and glucose",
+      "question": "After the treatment of the acute asthmatic patient with adrenaline, which of the following can be expected?",
+      "options": [
+        "Tachycardia, decreased blood glucose due to increased body metabolism",
+        "Tachycardia, decreased blood glucose due to increased Insulin/Glucagon ratio",
+        "Tachycardia, decreased blood glucose due to decreased body metabolism",
+        "Tachycardia, increased blood glucose due to increased body metabolism",
+        "Tachycardia, increased blood glucose due to decreased Insulin/Glucagon ratio"
+      ],
+      "correct": 4,
+      "explanation": "Adrenaline is a classic stress hormone: through beta-adrenergic stimulation it raises heart rate, and it suppresses insulin release while promoting glucagon secretion, lowering the insulin/glucagon ratio. The resulting fall in this ratio favours glycogenolysis and gluconeogenesis, raising blood glucose rather than lowering it.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ssr_fa02",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Thermoregulation under anaesthesia",
+      "question": "The loss of thermoregulatory defence mechanism under anaesthesia warrants us to measure core temperature in majority of patients in surgery lasting more than:",
+      "options": [
+        "5 mins",
+        "20 mins",
+        "45 mins",
+        "above 1 hour",
+        "above 1 hour in major surgery only"
+      ],
+      "correct": 1,
+      "explanation": "General and neuraxial anaesthesia blunt normal thermoregulatory vasoconstriction and shivering, so patients lose heat rapidly once a procedure extends beyond a brief duration. Core temperature monitoring is therefore recommended for most patients undergoing surgery lasting more than about 20 minutes, to detect and allow correction of unintended perioperative hypothermia.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ssr_fk01",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Phases of the surgical stress response",
+      "question": "During stress reaction we can distinguish following phases:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Exhaustion/Alert/Adaptive, as the organism is exhausted by fighting the stimuli and as a result starts to be alert and tries to adapt",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Adaptive/Alert/Exhaustion, as the organism tries to adapt to stimuli, fails, and then starts to be alert and finally exhausted",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Alert/Adaptive/Exhaustion, as the organism is alerted by stimuli, then tries to adapt, and becomes exhausted if adaptation fails",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Just Alert/Adaptive, as the organism is alerted by stimuli, then tries to adapt and success is achieved",
+          "correct": true
+        }
+      ],
+      "explanation": "The classic description of the physiological stress response follows an Alert phase, in which the organism is alerted by the stressor, followed by an Adaptive phase in which it attempts to adapt. If adaptation succeeds, the response can resolve at this point; if the stimulus persists and adaptation fails, an Exhaustion phase follows. The correct ordering is therefore Alert, then Adaptive, then Exhaustion if needed - not Exhaustion first or Adaptive first.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ssr_fk02",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Characteristics of the surgical stress response",
+      "question": "Surgical stress response is characterized by:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "increased sympathetic activity",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "tachycardia and hypoglycaemia due to general organism activation",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "tachycardia, anxiety and higher urine output",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "tachycardia, hyperglycaemia and increased cortisol plasma level",
+          "correct": true
+        }
+      ],
+      "explanation": "The surgical stress response is driven by increased sympathetic and hypothalamic-pituitary-adrenal activity, producing tachycardia together with hyperglycaemia and a rise in plasma cortisol - not hypoglycaemia. Contrary to a simple 'general activation' picture, urine output typically falls rather than rises during the stress response, because vasopressin release and renin-angiotensin-aldosterone activation promote sodium and water retention.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ssr_fk03",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Mechanisms of fluid retention in the stress response",
+      "question": "Fluid retention during stress response is due to low urine output caused by:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "renal artery vasoconstriction",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Vasopressin release and activation of the RAA system",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "antidiuretic hormone stimulating Vasopressin release",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "antidiuretic hormone and activation of the RAA system",
+          "correct": false
+        }
+      ],
+      "explanation": "Reduced urine output and fluid retention in the stress response are driven mainly by renal artery vasoconstriction together with vasopressin release and activation of the renin-angiotensin-aldosterone system, both of which promote sodium and water retention. [Note: the source marked a near-identical restatement using 'antidiuretic hormone' instead of 'vasopressin release' as false; since ADH and vasopressin are the same hormone, this distinction is unclear from the source material and worth double-checking against the original if precision matters.]",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ssr_fk04",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Mechanisms of stress-induced hyperglycaemia",
+      "question": "We can see hyperglycaemia during stress reaction due to:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "sympathetic - adrenal medullary axis activation",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "hypothalamo - pituitary - adrenal axis activation",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "increased insulin/glucagon ratio",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "increased insulin/cortisol ratio",
+          "correct": false
+        }
+      ],
+      "explanation": "Stress-induced hyperglycaemia results from activation of both the sympathetic-adrenal medullary axis (catecholamines) and the hypothalamic-pituitary-adrenal axis (cortisol), which together promote glycogenolysis, gluconeogenesis and insulin resistance. This is driven by a fall - not a rise - in the insulin/glucagon ratio, and by cortisol acting against rather than alongside insulin, rather than an increased insulin/cortisol ratio.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ssr_fk05",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Consequences of perioperative hyperglycaemia",
+      "question": "Perioperative hyperglycaemia is associated with an increased risk of the following:",
+      "statements": [
+        {
+          "label": "A",
+          "text": "wound infections",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "adverse cardiovascular events",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "respiratory dysfunction",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "delirium",
+          "correct": true
+        }
+      ],
+      "explanation": "Perioperative hyperglycaemia impairs neutrophil function and wound healing, increasing the risk of surgical site infection, and it is independently associated with adverse cardiovascular events, respiratory complications and postoperative delirium, making glycaemic control an important part of perioperative care regardless of pre-existing diabetes status.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ssr_fa03",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Drugs that can mask the tachycardic response to stress",
+      "question": "Which of the following drugs can mask tachycardia during stress response?",
+      "options": [
+        "Salbutamol",
+        "Metoprolol",
+        "Atropine",
+        "Theophylline",
+        "Furosemide"
+      ],
+      "correct": 1,
+      "explanation": "Beta-blockers such as metoprolol blunt the sympathetically-mediated tachycardia that normally signals the stress response, which can mask an important clinical warning sign in a postoperative patient. Salbutamol and theophylline are sympathomimetic/chronotropic agents that would tend to increase heart rate, atropine blocks vagal tone rather than sympathetic drive, and furosemide has no direct chronotropic masking effect.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ssr_fa04",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Definition and risk factors for MINS",
+      "question": "Which of the following statements concerning MINS is FALSE?",
+      "options": [
+        "Is defined as a myocardial injury after non-cardiac surgery",
+        "Is defined by high sensitivity troponin level and clinical/ECG evidence that rules out a non-ischaemic cause",
+        "Is the term reserved for acute MI developing after non-cardiac surgery",
+        "Is more likely in patients with demonstrable coronary artery disease on CT angiogram preoperatively"
+      ],
+      "correct": 2,
+      "explanation": "Myocardial Injury after Non-cardiac Surgery (MINS) is defined by a postoperative rise in high-sensitivity troponin judged due to myocardial ischaemia, with or without accompanying clinical or ECG features, once non-ischaemic causes have been excluded - it is not restricted to cases that meet the formal diagnostic criteria for acute myocardial infarction; many MINS episodes occur without infarction-level features. Patients with demonstrable coronary artery disease on preoperative CT angiography are at higher risk of MINS, consistent with the underlying ischaemic mechanism.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "ssr_fa05",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Perioperative risk in chronic kidney disease",
+      "question": "Which statement considering chronic kidney disease patients is true:",
+      "options": [
+        "Chronic kidney disease is defined as a GFR less than 50 ml/min/1.78m2",
+        "Glomerular filtration less than 50ml/min/1.78m2 is associated with increased risk of postoperative morbidity",
+        "Glomerular filtration usually declines very rapidly",
+        "Cardiovascular events are less common in non-dialysis dependent chronic kidney disease than dialysis dependent chronic kidney disease",
+        "Non-dialysis dependent chronic kidney disease is associated with less bleeding perioperatively compared to the general population undergoing surgery"
+      ],
+      "correct": 1,
+      "explanation": "A glomerular filtration rate below roughly 50 ml/min/1.73m2 is associated with a significantly increased risk of postoperative morbidity, even though this threshold is lower than the formal GFR cut-off used to define chronic kidney disease itself. GFR in CKD typically declines gradually rather than rapidly, cardiovascular events are actually more common - not less - as CKD progresses toward dialysis dependence, and non-dialysis CKD is associated with a higher, not lower, perioperative bleeding risk compared with patients with normal renal function.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "rvp_fk01",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Non-invasive respiratory support: proning, CPAP and high-flow oxygen",
+      "question": "Which of the following are true?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Proning for ARDS should be for a maximum of 6 hours at a time",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "CPAP for pneumonia improves outcomes and does not delay intubation when necessary",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "CPAP has a mortality benefit when used for cardiogenic pulmonary oedema",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "High flow nasal oxygen may reduce intubation rates in patients with type 2 respiratory failure and a P:F ratio of <200mmHg",
+          "correct": true
+        }
+      ],
+      "explanation": "The best evidence for prone positioning in ARDS supports long sessions of around 16 hours, not a 6-hour cap (Guerin et al, N Engl J Med 2013). CPAP can delay an ultimately inevitable intubation and therefore needs regular clinical review rather than being assumed to be delay-free, though it is genuinely beneficial in some contexts: the 3CPO trial demonstrated a mortality benefit for CPAP in cardiogenic pulmonary oedema (Gray et al, N Engl J Med 2008). High-flow nasal oxygen may reduce intubation rates in patients with more severe hypoxaemic respiratory failure (P:F ratio below roughly 200mmHg), an effect shown in a post-hoc analysis of the FLORALI trial (Frat et al, N Engl J Med 2015), although it was not consistent across all subgroups, notably patients with only mild hypoxaemia.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "rvp_fk02",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "ARDS: diagnostic criteria and ventilatory management",
+      "question": "Concerning ARDS, which of the following are true?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Despite recent development in lung ventilation ARDS is still a severe condition with high mortality",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "In case of ARDS lung protective mechanical ventilation can include low tidal volume ventilation with 6 ml/kg tidal volume calculated with the actual body weight",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Muscle paralysis in patients with severe ARDS under mechanical ventilation can, in some cases, improve oxygenation",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Criteria for ARDS are low oxygenation ratio (PaO2/FiO2 < 300 mmHg), hypercapnia (PaCO2 > 60 mmHg) and low oxygen saturation < 85%",
+          "correct": false
+        }
+      ],
+      "explanation": "ARDS remains a severe respiratory failure syndrome with acute diffuse pulmonary inflammation and high mortality despite advances in ventilatory management. Lung-protective tidal volumes of around 6 ml/kg should always be calculated using predicted body weight, based on height and sex, rather than actual body weight, since lung size tracks predicted rather than actual weight. In severe ARDS, patient-ventilator asynchrony can worsen lung injury, and under adequate sedation, neuromuscular blockade can improve oxygenation. The Berlin definition of ARDS requires acute onset, a PaO2/FiO2 ratio below 300 mmHg despite a PEEP/CPAP of at least 5 cmH2O, and bilateral opacities on chest imaging not fully explained by cardiac failure or fluid overload - it does not include hypercapnia or a specific oxygen saturation threshold.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "rvp_fk03",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Airway/intubation devices",
+      "question": "Concerning the different tools for intubation which of the following are true?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Videolaryngoscopy is always superior than direct laryngoscopy to secure the airways",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "The Frova introducer has side holes and a central lumen which allows oxygenation of the patient",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "The C-MAC D-blade is a highly angulated blade",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "The Airtraq device is a videolaryngoscopic device with an optical channel and a tube guiding channel",
+          "correct": true
+        }
+      ],
+      "explanation": "Videolaryngoscopic devices are valuable in many situations but are not universally superior to direct laryngoscopy - each device has its own indications, advantages and limitations, and effective use requires specific training and experience, so videolaryngoscopy should not be assumed to always outperform direct laryngoscopy. The Frova introducer has a bent tip with side holes and a central lumen that allows jet oxygenation during a difficult intubation. The C-MAC D-blade is a highly angulated blade designed for difficult airways, and the Airtraq is a videolaryngoscopic device containing two separate channels, one for optics and one for guiding the endotracheal tube.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "rvp_fk04",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Airway obstruction: laryngospasm, ketamine, cuff-leak test and postoperative oedema",
+      "question": "Concerning the airway obstruction, which of the following are true?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "The incidence of laryngospasm is higher in the adult population",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Ketamine is a bronchoconstrictor and has to be avoided in asthmatic patients with bronchoconstriction",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "When a cuff-leak test shows the absence of a leak, extubation has to be postponed",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "In the postoperative period laryngeal oedema formation can lead to upper airway compromise even without surgery around the upper airways",
+          "correct": true
+        }
+      ],
+      "explanation": "Laryngospasm is more common in the paediatric population than in adults. Ketamine is in fact a potent bronchodilator and can be useful, rather than harmful, in patients with bronchoconstriction such as asthmatics. The cuff-leak test has a role in the decision-making around extubation, but it is only really useful in high-risk patients, and extubation should not be postponed on the basis of this single test alone. Several factors can cause upper airway oedema in the postoperative period even without airway surgery, including patient positioning (Trendelenburg, prone, or rotated head positions that reduce jugular venous drainage), traumatic or prolonged intubation, fluid overload and allergic reactions.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "rvp_fk05",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Atelectasis and lung-protective ventilation",
+      "question": "Concerning atelectasis, which of the following are true?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Atelectasis can lead to postoperative pulmonary complications",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The aim of lung protective ventilation is to improve oxygen saturation",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Breathing 100% oxygen can prevent atelectasis and improve saturation",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Atelectasis leads to lung collapse, decreases lung volume, increases shunt, decreases compliance, and may lead to perioperative hypoxemia",
+          "correct": true
+        }
+      ],
+      "explanation": "Atelectasis is an important contributor to postoperative pulmonary complications. Lung-protective ventilation aims to protect the lungs against volutrauma, barotrauma, atelectotrauma and biotrauma in order to reduce ventilator-induced or -associated lung injury and preserve lung function and outcome - it should be applied even in healthy patients with already-normal oxygen saturation, so its aim is not simply to raise saturation. Using an FiO2 of 1.0 washes nitrogen out of the alveoli; because oxygen diffuses into the pulmonary blood so quickly, too little gas is left behind to keep the alveoli open, so high FiO2 can actually cause absorption atelectasis rather than prevent it. Atelectasis is usually heterogeneous and increases ventilation-perfusion mismatch and shunt, since some alveoli stay perfused but unventilated; collapsed lung units are harder to reopen and need higher pressures for the same volume change, lowering compliance, and the resulting shunt can cause perioperative hypoxaemia.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "rvp_fk06",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Neuromuscular blockade reversal and monitoring",
+      "question": "Concerning muscle relaxation, which of the following are true?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Every patient with induced muscle paralyses by a neuromuscular blocking agent has to receive an adequate dose of reversal agent for patient safety",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "A tidal volume of 5 ml/kg at spontaneous breathing, the hand grip test and the ability to maintain a head lift for 5 seconds are good predictors for residual curarization",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Sugammadex is a selective relaxant binding drug that safely reverses the effect of atracurium",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "The use of a peripheral nerve stimulator is essential to avoid residual muscle paralysis",
+          "correct": true
+        }
+      ],
+      "explanation": "Different neuromuscular blocking drugs vary in their pharmacokinetics and elimination, but avoiding residual paralysis relies on quantitative neuromuscular monitoring rather than automatically giving every paralysed patient a reversal agent - reversal should be guided by these quantitative measurements for non-depolarising agents specifically. Clinical bedside tests such as tidal volume, hand-grip strength or a 5-second head lift are unreliable for detecting residual neuromuscular blockade, so quantitative monitoring is needed instead. Sugammadex selectively binds rocuronium or vecuronium and is not effective for reversing atracurium. Current guidance recommends peripheral nerve stimulators for quantitative assessment of neuromuscular blockade, making them essential to reliably avoid residual paralysis.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "rvp_fk07",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Preoperative pulmonary risk assessment: functional capacity, ARISCAT, CPET and FEV1",
+      "question": "Which of the following are true?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Patients with a functional capacity of less than 4 METs are at increased risk of adverse outcomes following high risk surgery",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The most validated score to predict the development of PPCs is the ARISCAT score",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "In CPET, Anaerobic threshold of 14-15 ml O2 kg-1min-1 is suggestive of a greater risk of death",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Predicted postoperative FEV1 of 0.6-0.7L suggests suitability for lung resection",
+          "correct": false
+        }
+      ],
+      "explanation": "A functional capacity below 4 METs - roughly the exertion of climbing a flight of stairs briskly, walking on the level at over 6 km/h, or playing golf - is associated with a higher risk of adverse outcomes after high-risk surgery. The ARISCAT score, which incorporates factors such as low preoperative oxygen saturation, recent respiratory infection, age, preoperative anaemia, the site and duration of surgery, and emergency surgery, is the most validated tool for predicting postoperative pulmonary complications. On cardiopulmonary exercise testing, an anaerobic threshold at or below roughly 10-11 ml O2/kg/min - not 14-15 - is associated with a greater risk of perioperative death. A predicted postoperative FEV1 of around 0.7-0.8 L, rather than 0.6-0.7 L, is the threshold generally used to suggest suitability for lung resection.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "rvp_fk08",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Preoperative risk tools: STOP-BANG, DASI, PEFR/GOLD and ARISCAT",
+      "question": "Which of the following are true?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Patients being at high risk of obstructive sleep apnea identified by the STOP-BANG questionnaire (score of 5-8) are at a higher risk for difficult mask ventilation and difficult intubation",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "The Duke Activity Status Index (DASI) is used to assess patients' respiratory functional capacity",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "The Peak Expiratory Flow Rate measurements are used to classify patients with chronic obstructive pulmonary disease according to the GOLD criteria",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "A patient who has an emergency upper abdominal surgery lasting more than 3 hours is at high risk for developing postoperative pulmonary complications independently of the age and the preoperative oxygen saturation",
+          "correct": true
+        }
+      ],
+      "explanation": "Patients identified as high risk for obstructive sleep apnoea by a STOP-BANG score of 5-8 have a higher risk of difficult mask ventilation and difficult intubation, along with more postoperative complications and a higher chance of needing postoperative critical care. The Duke Activity Status Index assesses a patient's global physical functional capacity, not specifically respiratory function. GOLD staging of COPD is based on spirometry - FEV1, FVC and the FEV1/FVC (Tiffeneau) ratio - rather than peak expiratory flow rate, which is used more for monitoring known asthmatics. On the ARISCAT score, emergency upper abdominal surgery lasting more than three hours alone contributes enough points to place a patient at high risk for postoperative pulmonary complications, regardless of age or preoperative oxygen saturation.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "rvp_fk09",
+      "type": "K",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Airway scoring systems: Mallampati and Cormack-Lehane",
+      "question": "Concerning the airway scoring systems, which of the following are true?",
+      "statements": [
+        {
+          "label": "A",
+          "text": "Mallampati 3 score means Cormack 2 score during intubation",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "The Mallampati score is the most reliable score to predict difficult intubation",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Mallampati 3 or 4 scores are always associated with difficult intubation",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "The Mallampati score can change during life in the same patient",
+          "correct": true
+        }
+      ],
+      "explanation": "The Mallampati score, assessed preoperatively with the patient awake, cannot be directly translated into a Cormack-Lehane grade, which is only assessed at laryngoscopy. The Mallampati score is an important piece of information for predicting a difficult airway, but it should never be relied on alone - mouth opening, neck mobility, retrognathia and other factors need to be considered together. A higher Mallampati score reflects a greater likelihood of a difficult airway, but the actual risk of difficult intubation can be reduced with correct planning, positioning or choice of equipment, so a high score does not always mean difficult intubation will occur. The Mallampati score can change over a patient's lifetime with age, weight change and other factors such as prior surgery, so it should always be re-evaluated shortly before intubation.",
+      "image": null,
+      "section_url": null
+    },
+    {
+      "id": "rvp_fa01",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Cormack-Lehane laryngoscopic grading",
+      "question": "The image below shows a laryngoscopic view. Which Cormack-Lehane grade does it represent?",
+      "options": [
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4"
+      ],
+      "correct": 2,
+      "explanation": "Cormack-Lehane grade 3 is defined by a laryngoscopic view in which only the epiglottis is visible, with no view of the vocal cords or arytenoid structures, as shown here. Grade 1 shows full visualisation of the glottis and vocal cords, grade 2 shows partial visualisation with the arytenoid cartilages and posterior vocal cords visible, and grade 4 shows only the base of the tongue and soft palate, with the epiglottis itself not visible. [CONSTRUCTED] Built from one panel of a genuine ESICM Final Assessment image-matching item ('Match Cormack-Lehane score points to the corresponding images'); the image and correct grade are from the original source, the answer options are our own construction.",
+      "image": "images/rvp_fa01.png",
+      "section_url": null
+    },
+    {
+      "id": "rvp_fa02",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Flow-volume loop patterns in airway obstruction",
+      "question": "The flow-volume loop below is characteristic of which type of airway obstruction?",
+      "options": [
+        "Variable extrathoracic obstruction",
+        "Variable intrathoracic obstruction",
+        "Fixed upper airway obstruction",
+        "Normal flow-volume loop"
+      ],
+      "correct": 2,
+      "explanation": "A fixed upper airway obstruction, such as tracheal stenosis, limits airflow to the same degree throughout both inspiration and expiration, producing a flow-volume loop that is flattened (plateaued) on both the expiratory and inspiratory limbs, as shown here. A variable extrathoracic obstruction instead flattens only the inspiratory limb, because negative airway pressure during inspiration collapses the extrathoracic airway further, while a variable intrathoracic obstruction flattens only the expiratory limb, because increased intrathoracic pressure during expiration compresses the airway. [CONSTRUCTED] Built from one panel of a genuine ESICM Final Assessment image-matching item ('Match the types of obstruction to the corresponding images'); the image and correct classification are from the original source, the answer options are our own construction.",
+      "image": "images/rvp_fa02.png",
+      "section_url": null
+    },
+    {
+      "id": "rvp_fa03",
+      "type": "A",
+      "set": 1,
+      "source": "esicm_final_assessment",
+      "section": "Mallampati airway classification",
+      "question": "The oropharyngeal view below is being classified using the Mallampati score. Which class does it represent?",
+      "options": [
+        "Class I",
+        "Class II",
+        "Class III",
+        "Class IV"
+      ],
+      "correct": 2,
+      "explanation": "Mallampati class III is defined by visualisation of only the base of the uvula, together with the tongue and soft palate, as shown here. Class I shows complete visualisation of the uvula, tongue, soft palate and pillars; class II shows the tongue, the major part of the uvula and the soft palate; and class IV shows only the tongue and the hard palate, with no part of the uvula or soft palate visible. [CONSTRUCTED] Built from one panel of a genuine ESICM Final Assessment image-matching item ('Match Mallampati score points to the corresponding images'); the image and correct class are from the original source, the answer options are our own construction.",
+      "image": "images/rvp_fa03.png",
+      "section_url": null
+    }
+  ]
+}
